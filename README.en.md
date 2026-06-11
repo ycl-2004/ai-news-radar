@@ -6,8 +6,10 @@
 
 **Scout Skill helps you find the thoroughbreds among a pile of sources, then turns scattered updates into a traceable AI story timeline.**
 
+[![GitHub stars](https://img.shields.io/github/stars/LearnPrompt/ai-news-radar?style=flat-square&color=f5c542)](https://github.com/LearnPrompt/ai-news-radar/stargazers)
 [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live-green?style=flat-square)](https://learnprompt.github.io/ai-news-radar/)
 [![Actions](https://img.shields.io/github/actions/workflow/status/LearnPrompt/ai-news-radar/update-news.yml?branch=master&label=update&style=flat-square)](https://github.com/LearnPrompt/ai-news-radar/actions/workflows/update-news.yml)
+[![Agent Skills](https://img.shields.io/badge/Agent%20Skills-ai--radar%20%2B%20Scout-blueviolet?style=flat-square)](skills/radar/README.md)
 [![License](https://img.shields.io/badge/license-MIT-green.svg?style=flat-square)](LICENSE)
 
 [Live site](https://learnprompt.github.io/ai-news-radar/) · [中文](README.md) · [Radar Skill](skills/radar/README.md) · [Scout Skill](skills/ai-news-radar/README.md) · [Source strategy](docs/SOURCE_COVERAGE.md)
@@ -105,24 +107,20 @@ It is closer to a lightweight news pipeline: source judgement, fetching, dedupli
 - Codex / Claude Code / Hermes / OpenClaw can use the in-repo Scout Skill to maintain sources, fetch logic, and the web page
 - Advanced sources can be connected through GitHub Secrets or local environment variables, without committing tokens, cookies, private OPML files, or email bodies
 
-## v0.6: from feed to story timeline
+## v0.7: from timeline to hot radar
 
-The focus of v0.6 is simple:
+v0.6 merged scattered messages into story lines. v0.7 answers the next question:
 
-**merge the same AI event scattered across different sources.**
+**with this many stories, what is hot right now?**
 
-The old feed problem is obvious:
+v0.7 ships four things:
 
-one model release, one product update, or one open-source project can be reposted by official blogs, tech media, aggregators, and RSS sources at the same time.
+- **Hot view**: Scout Picks gains a hot mode that ranks story clusters by multi-source mass × time decay — something is only "hot" when several independent sources are saying it. The view hides itself when there is no real multi-source heat.
+- **Quality over quantity**: a brief slot must be earned by multi-source confirmation or a strong score. On quiet days the picks block disappears entirely — no empty shell, the page falls back to the pure timeline.
+- **Scoring backtest tool**: `scripts/backtest_scoring.py` replays any two versions of the scoring logic against the archive. House rule: scoring changes ship with a ≥14-day replay report.
+- **ai-radar consumer skill**: install it and ask your agent "What happened in AI today?" — it reads this site's public JSON directly. Zero API, zero key, and the whole data pipeline is forkable.
 
-More messages can make it harder to see what actually matters.
-
-v0.6 adds four major upgrades:
-
-- **Scout Picks story timeline**: select higher-value event nodes from the last 24 hours, instead of just stacking items by publish time.
-- **Multi-source evidence merge**: preserve multiple sources for the same event, reducing duplicates without losing original links.
-- **AI labels and scores**: mark whether each item looks like a model release, product update, Agent workflow, developer tool, research paper, or industry update, and show its AI-relevance score.
-- **Source health and AI ratio**: show not only how many items a source fetched, but how many are truly AI-relevant, so maintainers can decide whether a source is worth keeping.
+Story merging, AI labels/scores, and source health from v0.6 remain the foundation. See [Releases](https://github.com/LearnPrompt/ai-news-radar/releases) for the full history.
 
 ## How it works
 
@@ -178,7 +176,7 @@ Core files include:
 - `data/stories-merged.json`: the complete merged story set
 - `data/merge-log.json`: story-merge matches and debug records for auditing
 
-If `daily-brief.json` is not available yet, the page falls back to candidate Scout signals so the homepage does not go blank.
+If `daily-brief.json` is not available yet, the page falls back to candidate Scout signals; if it exists but no story passed the quality gate that day, the picks block hides entirely and the page shows the pure timeline.
 
 ## Quick start
 
@@ -218,10 +216,10 @@ If you want Codex / Claude Code / OpenClaw / Hermes to help you build your own v
 Use Scout Skill for AI News Radar. Ask me for my source list first, then decide whether each source should use RSS, public feeds, static pages, Jina fallback, AgentMail email, or be skipped. The goal is to deploy a serverless AI daily news site that updates automatically with GitHub Actions. Do not commit any API keys, cookies, tokens, or private email content into the repo.
 ```
 
-The in-repo Skill lives at:
+The repo ships two skills — the radar reads, the scout selects:
 
-- `skills/ai-news-radar/README.md`
-- `skills/ai-news-radar/SKILL.md`
+- `skills/radar/`: **ai-radar** (consumer side) — install without forking, ask AI news questions in natural language, get a brief from this site's public JSON
+- `skills/ai-news-radar/`: **Scout Skill** (maintainer side) — after forking, use it to classify sources, maintain fetch logic, and deploy GitHub Pages
 
 When a new agent takes over validation, read these first:
 
