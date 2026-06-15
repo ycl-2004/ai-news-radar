@@ -1,8 +1,208 @@
 {
-  "generated_at": "2026-06-15T10:51:23.211108Z",
+  "generated_at": "2026-06-15T16:14:50.065148Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
+    {
+      "story_id": "story_c8219cef3d6d",
+      "title": "Salesforce以36亿美元收购AI客服平台Fin",
+      "url": "https://techcrunch.com/2026/06/15/salesforce-acquires-ai-customer-service-platform-fin-for-3-6b",
+      "primary_url": "https://techcrunch.com/2026/06/15/salesforce-acquires-ai-customer-service-platform-fin-for-3-6b",
+      "source": "TechCrunch：AI（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "ef7d81c1af587c7d1dba179c4bb2ed26c8ba87e4",
+          "title": "Salesforce以36亿美元收购AI客服平台Fin",
+          "url": "https://techcrunch.com/2026/06/15/salesforce-acquires-ai-customer-service-platform-fin-for-3-6b",
+          "source": "TechCrunch：AI（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-15T14:34:45Z"
+        },
+        {
+          "id": "89e375d3b3cee2049240e6e5118e5f9bc4cd0e1f",
+          "title": "Salesforce以36亿美元收购AI客服平台Fin / Salesforce acquires AI customer service platform Fin for $3.6 billion",
+          "url": "https://techcrunch.com/2026/06/15/salesforce-acquires-ai-customer-service-platform-fin-for-3-6b",
+          "source": "TechCrunch",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-15T14:34:45Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "TechCrunch",
+        "TechCrunch：AI（RSS）"
+      ],
+      "items": [
+        {
+          "id": "ef7d81c1af587c7d1dba179c4bb2ed26c8ba87e4",
+          "title": "Salesforce以36亿美元收购AI客服平台Fin",
+          "url": "https://techcrunch.com/2026/06/15/salesforce-acquires-ai-customer-service-platform-fin-for-3-6b",
+          "source": "TechCrunch：AI（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-15T14:34:45Z"
+        },
+        {
+          "id": "89e375d3b3cee2049240e6e5118e5f9bc4cd0e1f",
+          "title": "Salesforce以36亿美元收购AI客服平台Fin / Salesforce acquires AI customer service platform Fin for $3.6 billion",
+          "url": "https://techcrunch.com/2026/06/15/salesforce-acquires-ai-customer-service-platform-fin-for-3-6b",
+          "source": "TechCrunch",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-15T14:34:45Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.8231,
+      "importance": 0.8231,
+      "importance_score": 0.8231,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9305,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-15T14:34:45Z",
+      "latest_at": "2026-06-15T14:34:45Z",
+      "primary_item": {
+        "id": "ef7d81c1af587c7d1dba179c4bb2ed26c8ba87e4",
+        "title": "Salesforce以36亿美元收购AI客服平台Fin",
+        "url": "https://techcrunch.com/2026/06/15/salesforce-acquires-ai-customer-service-platform-fin-for-3-6b",
+        "source": "TechCrunch：AI（RSS）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_40230f05472c",
+      "title": "MiniMax 开源 M3 模型权重及 MSA 技术论文",
+      "url": "https://mp.weixin.qq.com/s/AW6L89QZkwN-jD27hQ84ww",
+      "primary_url": "https://mp.weixin.qq.com/s/AW6L89QZkwN-jD27hQ84ww",
+      "source": "公众号：MiniMax（稀宇科技）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "c452962663ec3a179775db668fa60cebf4d999b8",
+          "title": "MiniMax 开源 M3 模型权重及 MSA 技术论文",
+          "url": "https://mp.weixin.qq.com/s/AW6L89QZkwN-jD27hQ84ww",
+          "source": "公众号：MiniMax（稀宇科技）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-15T14:40:02Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "公众号：MiniMax（稀宇科技）"
+      ],
+      "items": [
+        {
+          "id": "c452962663ec3a179775db668fa60cebf4d999b8",
+          "title": "MiniMax 开源 M3 模型权重及 MSA 技术论文",
+          "url": "https://mp.weixin.qq.com/s/AW6L89QZkwN-jD27hQ84ww",
+          "source": "公众号：MiniMax（稀宇科技）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-15T14:40:02Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7988,
+      "importance": 0.7988,
+      "importance_score": 0.7988,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9342,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-15T14:40:02Z",
+      "latest_at": "2026-06-15T14:40:02Z",
+      "primary_item": {
+        "id": "c452962663ec3a179775db668fa60cebf4d999b8",
+        "title": "MiniMax 开源 M3 模型权重及 MSA 技术论文",
+        "url": "https://mp.weixin.qq.com/s/AW6L89QZkwN-jD27hQ84ww",
+        "source": "公众号：MiniMax（稀宇科技）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_f3e37047d492",
+      "title": "Skydio CEO Adam Bry：硅谷不应为无人机使用画红线",
+      "url": "https://www.theverge.com/podcast/949195/skydio-ceo-adam-bry-autonmous-drones-china-red-lines-military",
+      "primary_url": "https://www.theverge.com/podcast/949195/skydio-ceo-adam-bry-autonmous-drones-china-red-lines-military",
+      "source": "The Verge：AI（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "486fd357273da510d1f8e315430faad2004a3e2b",
+          "title": "Skydio CEO Adam Bry：硅谷不应为无人机使用画红线",
+          "url": "https://www.theverge.com/podcast/949195/skydio-ceo-adam-bry-autonmous-drones-china-red-lines-military",
+          "source": "The Verge：AI（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-15T14:00:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "The Verge：AI（RSS）"
+      ],
+      "items": [
+        {
+          "id": "486fd357273da510d1f8e315430faad2004a3e2b",
+          "title": "Skydio CEO Adam Bry：硅谷不应为无人机使用画红线",
+          "url": "https://www.theverge.com/podcast/949195/skydio-ceo-adam-bry-autonmous-drones-china-red-lines-military",
+          "source": "The Verge：AI（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-15T14:00:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7933,
+      "importance": 0.7933,
+      "importance_score": 0.7933,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9064,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-15T14:00:00Z",
+      "latest_at": "2026-06-15T14:00:00Z",
+      "primary_item": {
+        "id": "486fd357273da510d1f8e315430faad2004a3e2b",
+        "title": "Skydio CEO Adam Bry：硅谷不应为无人机使用画红线",
+        "url": "https://www.theverge.com/podcast/949195/skydio-ceo-adam-bry-autonmous-drones-china-red-lines-military",
+        "source": "The Verge：AI（RSS）",
+        "source_name": "AI HOT"
+      }
+    },
     {
       "story_id": "story_062e0964122e",
       "title": "AI合规再升级：Anthropic拟对全量用户实施身份认证",
@@ -38,14 +238,14 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.812,
-      "importance": 0.812,
-      "importance_score": 0.812,
+      "score": 0.7671,
+      "importance": 0.7671,
+      "importance_score": 0.7671,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.7754,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -98,14 +298,14 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8085,
-      "importance": 0.8085,
-      "importance_score": 0.8085,
+      "score": 0.7636,
+      "importance": 0.7636,
+      "importance_score": 0.7636,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9824,
+        "recency": 0.7578,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -121,6 +321,126 @@
         "url": "https://mp.weixin.qq.com/s/p87ebkY1xqKtkGZ2N3DGSw",
         "source": "公众号：月之暗面（Kimi）",
         "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_dd3dba306dd4",
+      "title": "Flash-KMeans：IO感知的精确K-Means，在GPU上比FAISS快200倍以上",
+      "url": "https://www.marktechpost.com/2026/06/15/meet-flash-kmeans-an-io-aware-exact-k-means-that-runs-over-200x-faster-than-faiss-on-gpus",
+      "primary_url": "https://www.marktechpost.com/2026/06/15/meet-flash-kmeans-an-io-aware-exact-k-means-that-runs-over-200x-faster-than-faiss-on-gpus",
+      "source": "MarkTechPost（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "0c8cbf240284a0133d1adf4430d97efbb8e962eb",
+          "title": "Flash-KMeans：IO感知的精确K-Means，在GPU上比FAISS快200倍以上",
+          "url": "https://www.marktechpost.com/2026/06/15/meet-flash-kmeans-an-io-aware-exact-k-means-that-runs-over-200x-faster-than-faiss-on-gpus",
+          "source": "MarkTechPost（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-15T09:16:09Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "MarkTechPost（RSS）"
+      ],
+      "items": [
+        {
+          "id": "0c8cbf240284a0133d1adf4430d97efbb8e962eb",
+          "title": "Flash-KMeans：IO感知的精确K-Means，在GPU上比FAISS快200倍以上",
+          "url": "https://www.marktechpost.com/2026/06/15/meet-flash-kmeans-an-io-aware-exact-k-means-that-runs-over-200x-faster-than-faiss-on-gpus",
+          "source": "MarkTechPost（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-15T09:16:09Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7538,
+      "importance": 0.7538,
+      "importance_score": 0.7538,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7092,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-15T09:16:09Z",
+      "latest_at": "2026-06-15T09:16:09Z",
+      "primary_item": {
+        "id": "0c8cbf240284a0133d1adf4430d97efbb8e962eb",
+        "title": "Flash-KMeans：IO感知的精确K-Means，在GPU上比FAISS快200倍以上",
+        "url": "https://www.marktechpost.com/2026/06/15/meet-flash-kmeans-an-io-aware-exact-k-means-that-runs-over-200x-faster-than-faiss-on-gpus",
+        "source": "MarkTechPost（RSS）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_538ab92a01d9",
+      "title": "AI圈大反转：巴西“黑马”模型Rio 3. 5 被曝“套壳”国产大模型",
+      "url": "https://www.aibase.com/news/28919",
+      "primary_url": "https://www.aibase.com/news/28919",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "2eb5b00a9c4de4b20cb4a740c449d3fe6c5f5413",
+          "title": "AI圈大反转：巴西“黑马”模型Rio 3. 5 被曝“套壳”国产大模型",
+          "url": "https://www.aibase.com/news/28919",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-15T10:51:23.211108Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "2eb5b00a9c4de4b20cb4a740c449d3fe6c5f5413",
+          "title": "AI圈大反转：巴西“黑马”模型Rio 3. 5 被曝“套壳”国产大模型",
+          "url": "https://www.aibase.com/news/28919",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-15T10:51:23.211108Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7671,
+      "importance": 0.7671,
+      "importance_score": 0.7671,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7754,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-15T10:51:23.211108Z",
+      "latest_at": "2026-06-15T10:51:23.211108Z",
+      "primary_item": {
+        "id": "2eb5b00a9c4de4b20cb4a740c449d3fe6c5f5413",
+        "title": "AI圈大反转：巴西“黑马”模型Rio 3. 5 被曝“套壳”国产大模型",
+        "url": "https://www.aibase.com/news/28919",
+        "source": "AIbase",
+        "source_name": "AIbase"
       }
     },
     {
@@ -177,14 +497,14 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8084,
-      "importance": 0.8084,
-      "importance_score": 0.8084,
+      "score": 0.7635,
+      "importance": 0.7635,
+      "importance_score": 0.7635,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8572,
+        "recency": 0.6325,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -201,126 +521,6 @@
         "url": "https://techcrunch.com/2026/06/15/the-ai-layoff-wave-is-becoming-a-powder-keg",
         "source": "TechCrunch：AI（RSS）",
         "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_dd3dba306dd4",
-      "title": "Flash-KMeans：IO感知的精确K-Means，在GPU上比FAISS快200倍以上",
-      "url": "https://www.marktechpost.com/2026/06/15/meet-flash-kmeans-an-io-aware-exact-k-means-that-runs-over-200x-faster-than-faiss-on-gpus",
-      "primary_url": "https://www.marktechpost.com/2026/06/15/meet-flash-kmeans-an-io-aware-exact-k-means-that-runs-over-200x-faster-than-faiss-on-gpus",
-      "source": "MarkTechPost（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "0c8cbf240284a0133d1adf4430d97efbb8e962eb",
-          "title": "Flash-KMeans：IO感知的精确K-Means，在GPU上比FAISS快200倍以上",
-          "url": "https://www.marktechpost.com/2026/06/15/meet-flash-kmeans-an-io-aware-exact-k-means-that-runs-over-200x-faster-than-faiss-on-gpus",
-          "source": "MarkTechPost（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-15T09:16:09Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "MarkTechPost（RSS）"
-      ],
-      "items": [
-        {
-          "id": "0c8cbf240284a0133d1adf4430d97efbb8e962eb",
-          "title": "Flash-KMeans：IO感知的精确K-Means，在GPU上比FAISS快200倍以上",
-          "url": "https://www.marktechpost.com/2026/06/15/meet-flash-kmeans-an-io-aware-exact-k-means-that-runs-over-200x-faster-than-faiss-on-gpus",
-          "source": "MarkTechPost（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-15T09:16:09Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7988,
-      "importance": 0.7988,
-      "importance_score": 0.7988,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9339,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-15T09:16:09Z",
-      "latest_at": "2026-06-15T09:16:09Z",
-      "primary_item": {
-        "id": "0c8cbf240284a0133d1adf4430d97efbb8e962eb",
-        "title": "Flash-KMeans：IO感知的精确K-Means，在GPU上比FAISS快200倍以上",
-        "url": "https://www.marktechpost.com/2026/06/15/meet-flash-kmeans-an-io-aware-exact-k-means-that-runs-over-200x-faster-than-faiss-on-gpus",
-        "source": "MarkTechPost（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_538ab92a01d9",
-      "title": "AI圈大反转：巴西“黑马”模型Rio 3. 5 被曝“套壳”国产大模型",
-      "url": "https://www.aibase.com/news/28919",
-      "primary_url": "https://www.aibase.com/news/28919",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "2eb5b00a9c4de4b20cb4a740c449d3fe6c5f5413",
-          "title": "AI圈大反转：巴西“黑马”模型Rio 3. 5 被曝“套壳”国产大模型",
-          "url": "https://www.aibase.com/news/28919",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-15T10:51:23.211108Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "2eb5b00a9c4de4b20cb4a740c449d3fe6c5f5413",
-          "title": "AI圈大反转：巴西“黑马”模型Rio 3. 5 被曝“套壳”国产大模型",
-          "url": "https://www.aibase.com/news/28919",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-15T10:51:23.211108Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.812,
-      "importance": 0.812,
-      "importance_score": 0.812,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 1.0,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-15T10:51:23.211108Z",
-      "latest_at": "2026-06-15T10:51:23.211108Z",
-      "primary_item": {
-        "id": "2eb5b00a9c4de4b20cb4a740c449d3fe6c5f5413",
-        "title": "AI圈大反转：巴西“黑马”模型Rio 3. 5 被曝“套壳”国产大模型",
-        "url": "https://www.aibase.com/news/28919",
-        "source": "AIbase",
-        "source_name": "AIbase"
       }
     },
     {
@@ -358,14 +558,14 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.812,
-      "importance": 0.812,
-      "importance_score": 0.812,
+      "score": 0.7671,
+      "importance": 0.7671,
+      "importance_score": 0.7671,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.7754,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -437,14 +637,14 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7492,
-      "importance": 0.7492,
-      "importance_score": 0.7492,
+      "score": 0.7043,
+      "importance": 0.7043,
+      "importance_score": 0.7043,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.256,
+        "recency": 0.0314,
         "story_heat": 0.25
       },
       "category": "official",
@@ -498,14 +698,14 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.812,
-      "importance": 0.812,
-      "importance_score": 0.812,
+      "score": 0.7671,
+      "importance": 0.7671,
+      "importance_score": 0.7671,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.7754,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -558,14 +758,14 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.812,
-      "importance": 0.812,
-      "importance_score": 0.812,
+      "score": 0.7671,
+      "importance": 0.7671,
+      "importance_score": 0.7671,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.7754,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -618,14 +818,14 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.812,
-      "importance": 0.812,
-      "importance_score": 0.812,
+      "score": 0.7671,
+      "importance": 0.7671,
+      "importance_score": 0.7671,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.7754,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -678,14 +878,14 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.812,
-      "importance": 0.812,
-      "importance_score": 0.812,
+      "score": 0.7671,
+      "importance": 0.7671,
+      "importance_score": 0.7671,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.7754,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -738,14 +938,14 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.812,
-      "importance": 0.812,
-      "importance_score": 0.812,
+      "score": 0.7671,
+      "importance": 0.7671,
+      "importance_score": 0.7671,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.7754,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -761,6 +961,240 @@
         "url": "https://www.aibase.com/news/28926",
         "source": "AIbase",
         "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_5e2758934aec",
+      "title": "Show HN：欧洲能否在其拥有的计算上训练前沿人工智能模型？ / Show HN: Can Europe train a frontier AI model on the compute it owns?",
+      "url": "https://news.ycombinator.com/item?id=48541014",
+      "primary_url": "https://news.ycombinator.com/item?id=48541014",
+      "source": "hackernews",
+      "source_name": "NewsNow",
+      "sources": [
+        {
+          "id": "cc90249e02712bffd196b438b059bfa8ce60770b",
+          "title": "Show HN：欧洲能否在其拥有的计算上训练前沿人工智能模型？ / Show HN: Can Europe train a frontier AI model on the compute it owns?",
+          "url": "https://news.ycombinator.com/item?id=48541014",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-15T15:49:20.111000Z"
+        },
+        {
+          "id": "ffd4c7a35a76b6efae1c78899bcc440225d708f6",
+          "title": "Show HN：欧洲能否在其拥有的计算上训练前沿人工智能模型？ / Show HN: Can Europe train a frontier AI model on the compute it owns?",
+          "url": "https://github.com/sammysltd/euromesh",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-15T13:31:09Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News (黑客新闻)",
+        "hackernews"
+      ],
+      "items": [
+        {
+          "id": "cc90249e02712bffd196b438b059bfa8ce60770b",
+          "title": "Show HN：欧洲能否在其拥有的计算上训练前沿人工智能模型？ / Show HN: Can Europe train a frontier AI model on the compute it owns?",
+          "url": "https://news.ycombinator.com/item?id=48541014",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-15T15:49:20.111000Z"
+        },
+        {
+          "id": "ffd4c7a35a76b6efae1c78899bcc440225d708f6",
+          "title": "Show HN：欧洲能否在其拥有的计算上训练前沿人工智能模型？ / Show HN: Can Europe train a frontier AI model on the compute it owns?",
+          "url": "https://github.com/sammysltd/euromesh",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-15T13:31:09Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5445,
+      "importance": 0.5445,
+      "importance_score": 0.5445,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9823,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-15T13:31:09Z",
+      "latest_at": "2026-06-15T15:49:20.111000Z",
+      "primary_item": {
+        "id": "cc90249e02712bffd196b438b059bfa8ce60770b",
+        "title": "Show HN：欧洲能否在其拥有的计算上训练前沿人工智能模型？ / Show HN: Can Europe train a frontier AI model on the compute it owns?",
+        "url": "https://news.ycombinator.com/item?id=48541014",
+        "source": "hackernews",
+        "source_name": "NewsNow"
+      }
+    },
+    {
+      "story_id": "story_610268223423",
+      "title": "Ask HN: 有人在日常编程中用本地模型替换了Claude/GPT吗？",
+      "url": "https://news.ycombinator.com/item?id=48542100",
+      "primary_url": "https://news.ycombinator.com/item?id=48542100",
+      "source": "news.ycombinator.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "7729c626265bd23c969681625fa1bd69d052a1e7",
+          "title": "Ask HN: 有人在日常编程中用本地模型替换了Claude/GPT吗？",
+          "url": "https://news.ycombinator.com/item?id=48542100",
+          "source": "news.ycombinator.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T14:53:24.402000Z"
+        },
+        {
+          "id": "1f25826cd9317f37067665a2db8644a6aeb08e10",
+          "title": "Ask HN: 有人在日常编程中用本地模型替换了Claude/GPT吗？ / Ask HN: Has anyone replaced Claude/GPT with a local model for daily coding?",
+          "url": "https://news.ycombinator.com/item?id=48542100",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-15T14:46:53Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News (黑客新闻)",
+        "news.ycombinator.com"
+      ],
+      "items": [
+        {
+          "id": "7729c626265bd23c969681625fa1bd69d052a1e7",
+          "title": "Ask HN: 有人在日常编程中用本地模型替换了Claude/GPT吗？",
+          "url": "https://news.ycombinator.com/item?id=48542100",
+          "source": "news.ycombinator.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T14:53:24.402000Z"
+        },
+        {
+          "id": "1f25826cd9317f37067665a2db8644a6aeb08e10",
+          "title": "Ask HN: 有人在日常编程中用本地模型替换了Claude/GPT吗？ / Ask HN: Has anyone replaced Claude/GPT with a local model for daily coding?",
+          "url": "https://news.ycombinator.com/item?id=48542100",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-15T14:46:53Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5427,
+      "importance": 0.5427,
+      "importance_score": 0.5427,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.32,
+        "ai_relevance": 0.67,
+        "recency": 0.9435,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-15T14:46:53Z",
+      "latest_at": "2026-06-15T14:53:24.402000Z",
+      "primary_item": {
+        "id": "7729c626265bd23c969681625fa1bd69d052a1e7",
+        "title": "Ask HN: 有人在日常编程中用本地模型替换了Claude/GPT吗？",
+        "url": "https://news.ycombinator.com/item?id=48542100",
+        "source": "news.ycombinator.com",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_8f083ca0616e",
+      "title": "“他们害了我们”：性格冲突导致Anthropic的模型下线 - Axios",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE8tZnE0QWs2MkZId0tMX202UWxURnBvTi14VWY3NTBNOHpFTUJ6amJHb0VQREp1eHlvcjFIR2pRTjdOTkZramV6QnV6c3hzczRxTXh3VWg2MFhJTUw5QVZuOVl1T1Nudl8wa1pvRWpPS0tRXzhxWWc?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+      "primary_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE8tZnE0QWs2MkZId0tMX202UWxURnBvTi14VWY3NTBNOHpFTUJ6amJHb0VQREp1eHlvcjFIR2pRTjdOTkZramV6QnV6c3hzczRxTXh3VWg2MFhJTUw5QVZuOVl1T1Nudl8wa1pvRWpPS0tRXzhxWWc?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+      "source": "news.google.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "447b41f2d9059359cd17649e305502e0f366092d",
+          "title": "“他们害了我们”：性格冲突导致Anthropic的模型下线 - Axios",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE8tZnE0QWs2MkZId0tMX202UWxURnBvTi14VWY3NTBNOHpFTUJ6amJHb0VQREp1eHlvcjFIR2pRTjdOTkZramV6QnV6c3hzczRxTXh3VWg2MFhJTUw5QVZuOVl1T1Nudl8wa1pvRWpPS0tRXzhxWWc?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+          "source": "news.google.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T14:21:20.518000Z"
+        },
+        {
+          "id": "0422e17c795ddba48714d3597d103f0041a4dfe0",
+          "title": "“他们害了我们”：性格冲突导致Anthropic的模型下线",
+          "url": "https://www.axios.com/2026/06/15/anthropic-white-house-fable-mythos",
+          "source": "www.axios.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T09:17:14.340000Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "news.google.com",
+        "www.axios.com"
+      ],
+      "items": [
+        {
+          "id": "447b41f2d9059359cd17649e305502e0f366092d",
+          "title": "“他们害了我们”：性格冲突导致Anthropic的模型下线 - Axios",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE8tZnE0QWs2MkZId0tMX202UWxURnBvTi14VWY3NTBNOHpFTUJ6amJHb0VQREp1eHlvcjFIR2pRTjdOTkZramV6QnV6c3hzczRxTXh3VWg2MFhJTUw5QVZuOVl1T1Nudl8wa1pvRWpPS0tRXzhxWWc?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+          "source": "news.google.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T14:21:20.518000Z"
+        },
+        {
+          "id": "0422e17c795ddba48714d3597d103f0041a4dfe0",
+          "title": "“他们害了我们”：性格冲突导致Anthropic的模型下线",
+          "url": "https://www.axios.com/2026/06/15/anthropic-white-house-fable-mythos",
+          "source": "www.axios.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T09:17:14.340000Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5322,
+      "importance": 0.5322,
+      "importance_score": 0.5322,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9212,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-15T09:17:14.340000Z",
+      "latest_at": "2026-06-15T14:21:20.518000Z",
+      "primary_item": {
+        "id": "447b41f2d9059359cd17649e305502e0f366092d",
+        "title": "“他们害了我们”：性格冲突导致Anthropic的模型下线 - Axios",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE8tZnE0QWs2MkZId0tMX202UWxURnBvTi14VWY3NTBNOHpFTUJ6amJHb0VQREp1eHlvcjFIR2pRTjdOTkZramV6QnV6c3hzczRxTXh3VWg2MFhJTUw5QVZuOVl1T1Nudl8wa1pvRWpPS0tRXzhxWWc?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+        "source": "news.google.com",
+        "source_name": "Buzzing"
       }
     },
     {
@@ -798,14 +1232,14 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.812,
-      "importance": 0.812,
-      "importance_score": 0.812,
+      "score": 0.7671,
+      "importance": 0.7671,
+      "importance_score": 0.7671,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.7754,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -824,403 +1258,30 @@
       }
     },
     {
-      "story_id": "story_7ddd67c9fbdd",
-      "title": "微信支付发布AI接入工具箱2.0：升级双AI专家并支持9国语言",
-      "url": "https://www.aibase.com/news/28925",
-      "primary_url": "https://www.aibase.com/news/28925",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "f9ef8a7bc0de81950c5fc075e051dd6bc96a7ea7",
-          "title": "微信支付发布AI接入工具箱2.0：升级双AI专家并支持9国语言",
-          "url": "https://www.aibase.com/news/28925",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-15T10:51:23.211108Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "f9ef8a7bc0de81950c5fc075e051dd6bc96a7ea7",
-          "title": "微信支付发布AI接入工具箱2.0：升级双AI专家并支持9国语言",
-          "url": "https://www.aibase.com/news/28925",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-15T10:51:23.211108Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.812,
-      "importance": 0.812,
-      "importance_score": 0.812,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 1.0,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-15T10:51:23.211108Z",
-      "latest_at": "2026-06-15T10:51:23.211108Z",
-      "primary_item": {
-        "id": "f9ef8a7bc0de81950c5fc075e051dd6bc96a7ea7",
-        "title": "微信支付发布AI接入工具箱2.0：升级双AI专家并支持9国语言",
-        "url": "https://www.aibase.com/news/28925",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      }
-    },
-    {
-      "story_id": "story_78845dbc1887",
-      "title": "独家消息：Anthropic派员工飞赴华盛顿，以平息白宫争端 / Anthropic flies staff to D.C. to clean up White House fight",
-      "url": "https://www.axios.com/2026/06/14/anthropic-white-house-mythos-fable",
-      "primary_url": "https://www.axios.com/2026/06/14/anthropic-white-house-mythos-fable",
-      "source": "Hacker News",
-      "source_name": "TechURLs",
-      "sources": [
-        {
-          "id": "b0785d567cfa6a9bd9564aea9b9f3b42ed36fe99",
-          "title": "独家消息：Anthropic派员工飞赴华盛顿，以平息白宫争端 / Anthropic flies staff to D.C. to clean up White House fight",
-          "url": "https://www.axios.com/2026/06/14/anthropic-white-house-mythos-fable",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-15T09:23:15Z"
-        },
-        {
-          "id": "03f7665dcc61fd5521c6b5a04d51bd3eb86abb9b",
-          "title": "独家消息：Anthropic派员工飞赴华盛顿，以平息白宫争端",
-          "url": "https://www.axios.com/2026/06/14/anthropic-white-house-mythos-fable",
-          "source": "www.axios.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-14T20:14:00.949000Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News",
-        "www.axios.com"
-      ],
-      "items": [
-        {
-          "id": "b0785d567cfa6a9bd9564aea9b9f3b42ed36fe99",
-          "title": "独家消息：Anthropic派员工飞赴华盛顿，以平息白宫争端 / Anthropic flies staff to D.C. to clean up White House fight",
-          "url": "https://www.axios.com/2026/06/14/anthropic-white-house-mythos-fable",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-15T09:23:15Z"
-        },
-        {
-          "id": "03f7665dcc61fd5521c6b5a04d51bd3eb86abb9b",
-          "title": "独家消息：Anthropic派员工飞赴华盛顿，以平息白宫争端",
-          "url": "https://www.axios.com/2026/06/14/anthropic-white-house-mythos-fable",
-          "source": "www.axios.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-14T20:14:00.949000Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5358,
-      "importance": 0.5358,
-      "importance_score": 0.5358,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9388,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-14T20:14:00.949000Z",
-      "latest_at": "2026-06-15T09:23:15Z",
-      "primary_item": {
-        "id": "b0785d567cfa6a9bd9564aea9b9f3b42ed36fe99",
-        "title": "独家消息：Anthropic派员工飞赴华盛顿，以平息白宫争端 / Anthropic flies staff to D.C. to clean up White House fight",
-        "url": "https://www.axios.com/2026/06/14/anthropic-white-house-mythos-fable",
-        "source": "Hacker News",
-        "source_name": "TechURLs"
-      }
-    },
-    {
-      "story_id": "story_b5a7c312ddd8",
-      "title": "苹果基础模型",
-      "url": "https://platform.claude.com/docs/en/cli-sdks-libraries/libraries/apple-foundation-models",
-      "primary_url": "https://platform.claude.com/docs/en/cli-sdks-libraries/libraries/apple-foundation-models",
-      "source": "platform.claude.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "b3d486b9c084b78f536970ea859ba81f69b2c1a5",
-          "title": "苹果基础模型",
-          "url": "https://platform.claude.com/docs/en/cli-sdks-libraries/libraries/apple-foundation-models",
-          "source": "platform.claude.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T09:01:16.022000Z"
-        },
-        {
-          "id": "a840c764bebd547fed218f6ff821de39bf4d2321",
-          "title": "苹果基础模型 / Apple Foundation Models",
-          "url": "https://platform.claude.com/docs/en/cli-sdks-libraries/libraries/apple-foundation-models",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-15T04:55:34Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News (黑客新闻)",
-        "platform.claude.com"
-      ],
-      "items": [
-        {
-          "id": "b3d486b9c084b78f536970ea859ba81f69b2c1a5",
-          "title": "苹果基础模型",
-          "url": "https://platform.claude.com/docs/en/cli-sdks-libraries/libraries/apple-foundation-models",
-          "source": "platform.claude.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T09:01:16.022000Z"
-        },
-        {
-          "id": "a840c764bebd547fed218f6ff821de39bf4d2321",
-          "title": "苹果基础模型 / Apple Foundation Models",
-          "url": "https://platform.claude.com/docs/en/cli-sdks-libraries/libraries/apple-foundation-models",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-15T04:55:34Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5327,
-      "importance": 0.5327,
-      "importance_score": 0.5327,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9235,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-15T04:55:34Z",
-      "latest_at": "2026-06-15T09:01:16.022000Z",
-      "primary_item": {
-        "id": "b3d486b9c084b78f536970ea859ba81f69b2c1a5",
-        "title": "苹果基础模型",
-        "url": "https://platform.claude.com/docs/en/cli-sdks-libraries/libraries/apple-foundation-models",
-        "source": "platform.claude.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_61e4abfda1ed",
-      "title": "智商不减、成本砍掉四分之三!百度通用智能体DuMate完成关键进化",
-      "url": "https://www.aibase.com/news/28916",
-      "primary_url": "https://www.aibase.com/news/28916",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "a27c9bf24651bfc8acc6a4938e1cbc7bf9db134b",
-          "title": "智商不减、成本砍掉四分之三!百度通用智能体DuMate完成关键进化",
-          "url": "https://www.aibase.com/news/28916",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-15T10:51:23.211108Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "a27c9bf24651bfc8acc6a4938e1cbc7bf9db134b",
-          "title": "智商不减、成本砍掉四分之三!百度通用智能体DuMate完成关键进化",
-          "url": "https://www.aibase.com/news/28916",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-15T10:51:23.211108Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.812,
-      "importance": 0.812,
-      "importance_score": 0.812,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 1.0,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-15T10:51:23.211108Z",
-      "latest_at": "2026-06-15T10:51:23.211108Z",
-      "primary_item": {
-        "id": "a27c9bf24651bfc8acc6a4938e1cbc7bf9db134b",
-        "title": "智商不减、成本砍掉四分之三!百度通用智能体DuMate完成关键进化",
-        "url": "https://www.aibase.com/news/28916",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      }
-    },
-    {
-      "story_id": "story_3a79de7d7a98",
-      "title": "人工智能就是代码——无法通过提示使其变得更智能",
-      "url": "https://www.theregister.com/ai-and-ml/2026/06/14/ai-is-code-and-cant-be-prompted-into-being-smarter/5254141",
-      "primary_url": "https://www.theregister.com/ai-and-ml/2026/06/14/ai-is-code-and-cant-be-prompted-into-being-smarter/5254141",
-      "source": "www.theregister.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "8c6b032a1dd8959a75692edce27334fd95117677",
-          "title": "人工智能就是代码——无法通过提示使其变得更智能",
-          "url": "https://www.theregister.com/ai-and-ml/2026/06/14/ai-is-code-and-cant-be-prompted-into-being-smarter/5254141",
-          "source": "www.theregister.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T03:26:05.674000Z"
-        },
-        {
-          "id": "a12b9a6e022426c1108de208a1c1b42190e470bc",
-          "title": "人工智能是代码——并且不能被促使变得更聪明 / AI is code – and can't be prompted into being smarter",
-          "url": "https://news.ycombinator.com/item?id=48532178",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-14T23:50:01.617000Z"
-        },
-        {
-          "id": "60f680b853f2def255113e00a8cef6afc1e8394e",
-          "title": "人工智能就是代码——无法通过提示使其变得更智能 / AI is code – and can't be prompted into being smarter",
-          "url": "https://www.theregister.com/ai-and-ml/2026/06/14/ai-is-code-and-cant-be-prompted-into-being-smarter/5254141",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-14T20:17:54Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Hacker News",
-        "hackernews",
-        "www.theregister.com"
-      ],
-      "items": [
-        {
-          "id": "8c6b032a1dd8959a75692edce27334fd95117677",
-          "title": "人工智能就是代码——无法通过提示使其变得更智能",
-          "url": "https://www.theregister.com/ai-and-ml/2026/06/14/ai-is-code-and-cant-be-prompted-into-being-smarter/5254141",
-          "source": "www.theregister.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T03:26:05.674000Z"
-        },
-        {
-          "id": "a12b9a6e022426c1108de208a1c1b42190e470bc",
-          "title": "人工智能是代码——并且不能被促使变得更聪明 / AI is code – and can't be prompted into being smarter",
-          "url": "https://news.ycombinator.com/item?id=48532178",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-14T23:50:01.617000Z"
-        },
-        {
-          "id": "60f680b853f2def255113e00a8cef6afc1e8394e",
-          "title": "人工智能就是代码——无法通过提示使其变得更智能 / AI is code – and can't be prompted into being smarter",
-          "url": "https://www.theregister.com/ai-and-ml/2026/06/14/ai-is-code-and-cant-be-prompted-into-being-smarter/5254141",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-14T20:17:54Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.5112,
-      "importance": 0.5112,
-      "importance_score": 0.5112,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.6908,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-14T20:17:54Z",
-      "latest_at": "2026-06-15T03:26:05.674000Z",
-      "primary_item": {
-        "id": "8c6b032a1dd8959a75692edce27334fd95117677",
-        "title": "人工智能就是代码——无法通过提示使其变得更智能",
-        "url": "https://www.theregister.com/ai-and-ml/2026/06/14/ai-is-code-and-cant-be-prompted-into-being-smarter/5254141",
-        "source": "www.theregister.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_48f8d9b994c1",
-      "title": "微软首席执行官警告称，人工智能领域的赢家可能会导致“整个行业”空心化",
-      "url": "https://www.businessinsider.com/microsoft-ceo-warns-ai-winners-hurt-whole-industries-satya-nadella-2026-6",
-      "primary_url": "https://www.businessinsider.com/microsoft-ceo-warns-ai-winners-hurt-whole-industries-satya-nadella-2026-6",
+      "story_id": "story_307abb0b4c0e",
+      "title": "普华永道的一项大型分析发现，在人工智能时代，雇主希望招聘具备高管级技能的初级员工",
+      "url": "https://www.businessinsider.com/pwc-global-jobs-barometer-ai-advanced-skills-entry-level-jobs-2026-6",
+      "primary_url": "https://www.businessinsider.com/pwc-global-jobs-barometer-ai-advanced-skills-entry-level-jobs-2026-6",
       "source": "www.businessinsider.com",
       "source_name": "Buzzing",
       "sources": [
         {
-          "id": "a6cf1314bee4a8259880a1b2b03b7b10d9919ee0",
-          "title": "微软首席执行官警告称，人工智能领域的赢家可能会导致“整个行业”空心化",
-          "url": "https://www.businessinsider.com/microsoft-ceo-warns-ai-winners-hurt-whole-industries-satya-nadella-2026-6",
+          "id": "9f9435a0097578ec6594828b42328a07263795da",
+          "title": "普华永道的一项大型分析发现，在人工智能时代，雇主希望招聘具备高管级技能的初级员工",
+          "url": "https://www.businessinsider.com/pwc-global-jobs-barometer-ai-advanced-skills-entry-level-jobs-2026-6",
           "source": "www.businessinsider.com",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-06-15T04:29:13.212000Z"
+          "published_at": "2026-06-15T13:33:26.707000Z"
         },
         {
-          "id": "cbdf76c4f060b6b4d6788597b02bd79766659185",
-          "title": "微软首席执行官警告称，人工智能领域的赢家可能会导致“整个行业”空心化 / Microsoft CEO warns that a few AI winners could destroy 'entire industries'",
-          "url": "https://www.businessinsider.com/microsoft-ceo-warns-ai-winners-hurt-whole-industries-satya-nadella-2026-6",
+          "id": "ac1b57ddedb6c5de786205527c698242ac7ba15d",
+          "title": "普华永道的一项大型分析发现，在人工智能时代，雇主希望招聘具备高管级技能的初级员工 / Employers want entry-level workers with senior-level skills in the age of AI, a huge PwC analysis found",
+          "url": "https://www.businessinsider.com/pwc-global-jobs-barometer-ai-advanced-skills-entry-level-jobs-2026-6",
           "source": "Business Insider",
           "source_name": "TechURLs",
           "site_id": "techurls",
-          "published_at": "2026-06-15T04:09:15Z"
+          "published_at": "2026-06-15T13:08:05Z"
         }
       ],
       "source_count": 2,
@@ -1230,144 +1291,47 @@
       ],
       "items": [
         {
-          "id": "a6cf1314bee4a8259880a1b2b03b7b10d9919ee0",
-          "title": "微软首席执行官警告称，人工智能领域的赢家可能会导致“整个行业”空心化",
-          "url": "https://www.businessinsider.com/microsoft-ceo-warns-ai-winners-hurt-whole-industries-satya-nadella-2026-6",
+          "id": "9f9435a0097578ec6594828b42328a07263795da",
+          "title": "普华永道的一项大型分析发现，在人工智能时代，雇主希望招聘具备高管级技能的初级员工",
+          "url": "https://www.businessinsider.com/pwc-global-jobs-barometer-ai-advanced-skills-entry-level-jobs-2026-6",
           "source": "www.businessinsider.com",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-06-15T04:29:13.212000Z"
+          "published_at": "2026-06-15T13:33:26.707000Z"
         },
         {
-          "id": "cbdf76c4f060b6b4d6788597b02bd79766659185",
-          "title": "微软首席执行官警告称，人工智能领域的赢家可能会导致“整个行业”空心化 / Microsoft CEO warns that a few AI winners could destroy 'entire industries'",
-          "url": "https://www.businessinsider.com/microsoft-ceo-warns-ai-winners-hurt-whole-industries-satya-nadella-2026-6",
+          "id": "ac1b57ddedb6c5de786205527c698242ac7ba15d",
+          "title": "普华永道的一项大型分析发现，在人工智能时代，雇主希望招聘具备高管级技能的初级员工 / Employers want entry-level workers with senior-level skills in the age of AI, a huge PwC analysis found",
+          "url": "https://www.businessinsider.com/pwc-global-jobs-barometer-ai-advanced-skills-entry-level-jobs-2026-6",
           "source": "Business Insider",
           "source_name": "TechURLs",
           "site_id": "techurls",
-          "published_at": "2026-06-15T04:09:15Z"
+          "published_at": "2026-06-15T13:08:05Z"
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4949,
-      "importance": 0.4949,
-      "importance_score": 0.4949,
+      "score": 0.5256,
+      "importance": 0.5256,
+      "importance_score": 0.5256,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7346,
+        "recency": 0.8879,
         "story_heat": 0.25
       },
       "category": "watch",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-15T04:09:15Z",
-      "latest_at": "2026-06-15T04:29:13.212000Z",
+      "earliest_at": "2026-06-15T13:08:05Z",
+      "latest_at": "2026-06-15T13:33:26.707000Z",
       "primary_item": {
-        "id": "a6cf1314bee4a8259880a1b2b03b7b10d9919ee0",
-        "title": "微软首席执行官警告称，人工智能领域的赢家可能会导致“整个行业”空心化",
-        "url": "https://www.businessinsider.com/microsoft-ceo-warns-ai-winners-hurt-whole-industries-satya-nadella-2026-6",
+        "id": "9f9435a0097578ec6594828b42328a07263795da",
+        "title": "普华永道的一项大型分析发现，在人工智能时代，雇主希望招聘具备高管级技能的初级员工",
+        "url": "https://www.businessinsider.com/pwc-global-jobs-barometer-ai-advanced-skills-entry-level-jobs-2026-6",
         "source": "www.businessinsider.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_c73b029d678b",
-      "title": "Anthropic是自找的吗？",
-      "url": "https://www.verysane.ai/p/did-anthropic-ask-for-this",
-      "primary_url": "https://www.verysane.ai/p/did-anthropic-ask-for-this",
-      "source": "www.verysane.ai",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "c65e940032f34c6348dc3b03f25d02432b3ddb5d",
-          "title": "Anthropic是自找的吗？",
-          "url": "https://www.verysane.ai/p/did-anthropic-ask-for-this",
-          "source": "www.verysane.ai",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-14T23:58:17.033000Z"
-        },
-        {
-          "id": "b4991a55ef917e07d3c427c6fe430492d01ead9d",
-          "title": "Anthropic 有要求吗？ / Did Anthropic ask for this?",
-          "url": "https://news.ycombinator.com/item?id=48533504",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-14T23:50:01.617000Z"
-        },
-        {
-          "id": "5323c715c6dee6bbe94525de2fbcfb56543cca2e",
-          "title": "Anthropic是自找的吗？ / Did Anthropic ask for this?",
-          "url": "https://www.verysane.ai/p/did-anthropic-ask-for-this",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-14T22:23:05Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Hacker News",
-        "hackernews",
-        "www.verysane.ai"
-      ],
-      "items": [
-        {
-          "id": "c65e940032f34c6348dc3b03f25d02432b3ddb5d",
-          "title": "Anthropic是自找的吗？",
-          "url": "https://www.verysane.ai/p/did-anthropic-ask-for-this",
-          "source": "www.verysane.ai",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-14T23:58:17.033000Z"
-        },
-        {
-          "id": "b4991a55ef917e07d3c427c6fe430492d01ead9d",
-          "title": "Anthropic 有要求吗？ / Did Anthropic ask for this?",
-          "url": "https://news.ycombinator.com/item?id=48533504",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-14T23:50:01.617000Z"
-        },
-        {
-          "id": "5323c715c6dee6bbe94525de2fbcfb56543cca2e",
-          "title": "Anthropic是自找的吗？ / Did Anthropic ask for this?",
-          "url": "https://www.verysane.ai/p/did-anthropic-ask-for-this",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-14T22:23:05Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.4823,
-      "importance": 0.4823,
-      "importance_score": 0.4823,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.5465,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-14T22:23:05Z",
-      "latest_at": "2026-06-14T23:58:17.033000Z",
-      "primary_item": {
-        "id": "c65e940032f34c6348dc3b03f25d02432b3ddb5d",
-        "title": "Anthropic是自找的吗？",
-        "url": "https://www.verysane.ai/p/did-anthropic-ask-for-this",
-        "source": "www.verysane.ai",
         "source_name": "Buzzing"
       }
     }
