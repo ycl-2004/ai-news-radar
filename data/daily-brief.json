@@ -1,112 +1,51 @@
 {
-  "generated_at": "2026-06-15T00:09:24.119395Z",
+  "generated_at": "2026-06-15T10:51:23.211108Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
     {
-      "story_id": "story_888bd1de6f40",
-      "title": "OpenAI 合作伙伴网络简介 / Introducing the OpenAI Partner Network",
-      "url": "https://openai.com/index/introducing-openai-partner-network",
-      "primary_url": "https://openai.com/index/introducing-openai-partner-network",
-      "source": "OpenAI News",
-      "source_name": "Official AI Updates",
+      "story_id": "story_062e0964122e",
+      "title": "AI合规再升级：Anthropic拟对全量用户实施身份认证",
+      "url": "https://www.aibase.com/news/28928",
+      "primary_url": "https://www.aibase.com/news/28928",
+      "source": "AIbase",
+      "source_name": "AIbase",
       "sources": [
         {
-          "id": "8b3669c4386a8b185720b7597e92c5536a1391d8",
-          "title": "OpenAI 合作伙伴网络简介 / Introducing the OpenAI Partner Network",
-          "url": "https://openai.com/index/introducing-openai-partner-network",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-14T17:00:00Z"
+          "id": "b3cb81dcd52fd98b150b57d7b5d5e78df635021f",
+          "title": "AI合规再升级：Anthropic拟对全量用户实施身份认证",
+          "url": "https://www.aibase.com/news/28928",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-15T10:51:23.211108Z"
         }
       ],
       "source_count": 1,
       "source_names": [
-        "OpenAI News"
+        "AIbase"
       ],
       "items": [
         {
-          "id": "8b3669c4386a8b185720b7597e92c5536a1391d8",
-          "title": "OpenAI 合作伙伴网络简介 / Introducing the OpenAI Partner Network",
-          "url": "https://openai.com/index/introducing-openai-partner-network",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-14T17:00:00Z"
+          "id": "b3cb81dcd52fd98b150b57d7b5d5e78df635021f",
+          "title": "AI合规再升级：Anthropic拟对全量用户实施身份认证",
+          "url": "https://www.aibase.com/news/28928",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-15T10:51:23.211108Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8134,
-      "importance": 0.8134,
-      "importance_score": 0.8134,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.7018,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-14T17:00:00Z",
-      "latest_at": "2026-06-14T17:00:00Z",
-      "primary_item": {
-        "id": "8b3669c4386a8b185720b7597e92c5536a1391d8",
-        "title": "OpenAI 合作伙伴网络简介 / Introducing the OpenAI Partner Network",
-        "url": "https://openai.com/index/introducing-openai-partner-network",
-        "source": "OpenAI News",
-        "source_name": "Official AI Updates"
-      }
-    },
-    {
-      "story_id": "story_bc26e4958a43",
-      "title": "Anthropic 因出口管制派员赴华盛顿修复白宫冲突",
-      "url": "https://x.com/kimmonismus/status/2066240276075528533",
-      "primary_url": "https://x.com/kimmonismus/status/2066240276075528533",
-      "source": "X：Kim (@kimmonismus)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "e5108c8489ad7c7225b39756580e0c97514da4af",
-          "title": "Anthropic 因出口管制派员赴华盛顿修复白宫冲突",
-          "url": "https://x.com/kimmonismus/status/2066240276075528533",
-          "source": "X：Kim (@kimmonismus)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-14T19:24:05Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：Kim (@kimmonismus)"
-      ],
-      "items": [
-        {
-          "id": "e5108c8489ad7c7225b39756580e0c97514da4af",
-          "title": "Anthropic 因出口管制派员赴华盛顿修复白宫冲突",
-          "url": "https://x.com/kimmonismus/status/2066240276075528533",
-          "source": "X：Kim (@kimmonismus)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-14T19:24:05Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7724,
-      "importance": 0.7724,
-      "importance_score": 0.7724,
+      "score": 0.812,
+      "importance": 0.812,
+      "importance_score": 0.812,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8019,
+        "recency": 1.0,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -114,218 +53,101 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-06-14T19:24:05Z",
-      "latest_at": "2026-06-14T19:24:05Z",
+      "earliest_at": "2026-06-15T10:51:23.211108Z",
+      "latest_at": "2026-06-15T10:51:23.211108Z",
       "primary_item": {
-        "id": "e5108c8489ad7c7225b39756580e0c97514da4af",
-        "title": "Anthropic 因出口管制派员赴华盛顿修复白宫冲突",
-        "url": "https://x.com/kimmonismus/status/2066240276075528533",
-        "source": "X：Kim (@kimmonismus)",
-        "source_name": "AI HOT"
+        "id": "b3cb81dcd52fd98b150b57d7b5d5e78df635021f",
+        "title": "AI合规再升级：Anthropic拟对全量用户实施身份认证",
+        "url": "https://www.aibase.com/news/28928",
+        "source": "AIbase",
+        "source_name": "AIbase"
       }
     },
     {
-      "story_id": "story_4b22351e826d",
-      "title": "白宫AI监管决定被指偏袒OpenAI与亚马逊",
-      "url": "https://garymarcus.substack.com/p/what-washington-must-do",
-      "primary_url": "https://garymarcus.substack.com/p/what-washington-must-do",
-      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+      "story_id": "story_e963c9a71cef",
+      "title": "6倍速！Kimi K2.7 Code 高速版已上线",
+      "url": "https://mp.weixin.qq.com/s/p87ebkY1xqKtkGZ2N3DGSw",
+      "primary_url": "https://mp.weixin.qq.com/s/p87ebkY1xqKtkGZ2N3DGSw",
+      "source": "公众号：月之暗面（Kimi）",
       "source_name": "AI HOT",
       "sources": [
         {
-          "id": "f09cda33814b3bc14a170b641dff32c42eb6f258",
-          "title": "白宫AI监管决定被指偏袒OpenAI与亚马逊",
-          "url": "https://garymarcus.substack.com/p/what-washington-must-do",
-          "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+          "id": "da616837a3c88ace6859ebdef39020fee1f47951",
+          "title": "6倍速！Kimi K2.7 Code 高速版已上线",
+          "url": "https://mp.weixin.qq.com/s/p87ebkY1xqKtkGZ2N3DGSw",
+          "source": "公众号：月之暗面（Kimi）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-06-14T16:15:35Z"
+          "published_at": "2026-06-15T10:26:06Z"
         }
       ],
       "source_count": 1,
       "source_names": [
-        "Gary Marcus：The Road to AI We Can Trust（RSS）"
+        "公众号：月之暗面（Kimi）"
       ],
       "items": [
         {
-          "id": "f09cda33814b3bc14a170b641dff32c42eb6f258",
-          "title": "白宫AI监管决定被指偏袒OpenAI与亚马逊",
-          "url": "https://garymarcus.substack.com/p/what-washington-must-do",
-          "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+          "id": "da616837a3c88ace6859ebdef39020fee1f47951",
+          "title": "6倍速！Kimi K2.7 Code 高速版已上线",
+          "url": "https://mp.weixin.qq.com/s/p87ebkY1xqKtkGZ2N3DGSw",
+          "source": "公众号：月之暗面（Kimi）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-06-14T16:15:35Z"
+          "published_at": "2026-06-15T10:26:06Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7462,
-      "importance": 0.7462,
-      "importance_score": 0.7462,
+      "score": 0.8085,
+      "importance": 0.8085,
+      "importance_score": 0.8085,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.671,
+        "recency": 0.9824,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance"
+        "high_ai_relevance",
+        "high_importance"
       ],
-      "earliest_at": "2026-06-14T16:15:35Z",
-      "latest_at": "2026-06-14T16:15:35Z",
+      "earliest_at": "2026-06-15T10:26:06Z",
+      "latest_at": "2026-06-15T10:26:06Z",
       "primary_item": {
-        "id": "f09cda33814b3bc14a170b641dff32c42eb6f258",
-        "title": "白宫AI监管决定被指偏袒OpenAI与亚马逊",
-        "url": "https://garymarcus.substack.com/p/what-washington-must-do",
-        "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+        "id": "da616837a3c88ace6859ebdef39020fee1f47951",
+        "title": "6倍速！Kimi K2.7 Code 高速版已上线",
+        "url": "https://mp.weixin.qq.com/s/p87ebkY1xqKtkGZ2N3DGSw",
+        "source": "公众号：月之暗面（Kimi）",
         "source_name": "AI HOT"
       }
     },
     {
-      "story_id": "story_ed2af15784f0",
-      "title": "Satya Nadella：没有生态的前沿不稳定",
-      "url": "https://x.com/satyanadella/status/2066182223213293753",
-      "primary_url": "https://x.com/satyanadella/status/2066182223213293753",
-      "source": "X：Satya Nadella (@satyanadella)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "1a50abdb6d20b252367819885ebeedfb39c3f279",
-          "title": "Satya Nadella：没有生态的前沿不稳定",
-          "url": "https://x.com/satyanadella/status/2066182223213293753",
-          "source": "X：Satya Nadella (@satyanadella)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-14T15:33:24Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：Satya Nadella (@satyanadella)"
-      ],
-      "items": [
-        {
-          "id": "1a50abdb6d20b252367819885ebeedfb39c3f279",
-          "title": "Satya Nadella：没有生态的前沿不稳定",
-          "url": "https://x.com/satyanadella/status/2066182223213293753",
-          "source": "X：Satya Nadella (@satyanadella)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-14T15:33:24Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7403,
-      "importance": 0.7403,
-      "importance_score": 0.7403,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.6417,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-14T15:33:24Z",
-      "latest_at": "2026-06-14T15:33:24Z",
-      "primary_item": {
-        "id": "1a50abdb6d20b252367819885ebeedfb39c3f279",
-        "title": "Satya Nadella：没有生态的前沿不稳定",
-        "url": "https://x.com/satyanadella/status/2066182223213293753",
-        "source": "X：Satya Nadella (@satyanadella)",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_d685f9ebbef7",
-      "title": "乔木小说创作 Skill 开源发布",
-      "url": "https://x.com/vista8/status/2066165703443726749",
-      "primary_url": "https://x.com/vista8/status/2066165703443726749",
-      "source": "X：Vista (@vista8)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "28c11b9c5b000b495d21d4844c292507dc7680e5",
-          "title": "乔木小说创作 Skill 开源发布",
-          "url": "https://x.com/vista8/status/2066165703443726749",
-          "source": "X：Vista (@vista8)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-14T14:27:45Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：Vista (@vista8)"
-      ],
-      "items": [
-        {
-          "id": "28c11b9c5b000b495d21d4844c292507dc7680e5",
-          "title": "乔木小说创作 Skill 开源发布",
-          "url": "https://x.com/vista8/status/2066165703443726749",
-          "source": "X：Vista (@vista8)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-14T14:27:45Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7312,
-      "importance": 0.7312,
-      "importance_score": 0.7312,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.5961,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-14T14:27:45Z",
-      "latest_at": "2026-06-14T14:27:45Z",
-      "primary_item": {
-        "id": "28c11b9c5b000b495d21d4844c292507dc7680e5",
-        "title": "乔木小说创作 Skill 开源发布",
-        "url": "https://x.com/vista8/status/2066165703443726749",
-        "source": "X：Vista (@vista8)",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_03e93adaa6b7",
-      "title": "Anthropic 暂停新模型访问，印度辩论 AI 未来",
-      "url": "https://techcrunch.com/2026/06/13/as-anthropic-suspends-access-to-new-models-india-debates-its-ai-future",
-      "primary_url": "https://techcrunch.com/2026/06/13/as-anthropic-suspends-access-to-new-models-india-debates-its-ai-future",
+      "story_id": "story_2cdd11e2635e",
+      "title": "AI裁员浪潮成为火药桶",
+      "url": "https://techcrunch.com/2026/06/15/the-ai-layoff-wave-is-becoming-a-powder-keg",
+      "primary_url": "https://techcrunch.com/2026/06/15/the-ai-layoff-wave-is-becoming-a-powder-keg",
       "source": "TechCrunch：AI（RSS）",
       "source_name": "AI HOT",
       "sources": [
         {
-          "id": "8783397726f21f68840f6455d520cf4def09fdba",
-          "title": "Anthropic 暂停新模型访问，印度辩论 AI 未来",
-          "url": "https://techcrunch.com/2026/06/13/as-anthropic-suspends-access-to-new-models-india-debates-its-ai-future",
+          "id": "874a5683c52943d8ddf5c35b007916be0d9be812",
+          "title": "AI裁员浪潮成为火药桶",
+          "url": "https://techcrunch.com/2026/06/15/the-ai-layoff-wave-is-becoming-a-powder-keg",
           "source": "TechCrunch：AI（RSS）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-06-14T03:00:00Z"
+          "published_at": "2026-06-15T07:25:41Z"
         },
         {
-          "id": "df9846999c9ab0f32a9b8cf74d0a93edad80c921",
-          "title": "Anthropic 暂停新模型访问，印度辩论 AI 未来 / As Anthropic suspends access to new models, India debates its AI future",
-          "url": "https://techcrunch.com/2026/06/13/as-anthropic-suspends-access-to-new-models-india-debates-its-ai-future",
+          "id": "321f504d608668c13829947c88c8572cdd09804a",
+          "title": "AI裁员浪潮成为火药桶 / The AI layoff wave is becoming a powder keg",
+          "url": "https://techcrunch.com/2026/06/15/the-ai-layoff-wave-is-becoming-a-powder-keg",
           "source": "TechCrunch",
           "source_name": "TechURLs",
           "site_id": "techurls",
-          "published_at": "2026-06-14T03:00:00Z"
+          "published_at": "2026-06-15T07:25:41Z"
         }
       ],
       "source_count": 2,
@@ -335,49 +157,1121 @@
       ],
       "items": [
         {
-          "id": "8783397726f21f68840f6455d520cf4def09fdba",
-          "title": "Anthropic 暂停新模型访问，印度辩论 AI 未来",
-          "url": "https://techcrunch.com/2026/06/13/as-anthropic-suspends-access-to-new-models-india-debates-its-ai-future",
+          "id": "874a5683c52943d8ddf5c35b007916be0d9be812",
+          "title": "AI裁员浪潮成为火药桶",
+          "url": "https://techcrunch.com/2026/06/15/the-ai-layoff-wave-is-becoming-a-powder-keg",
           "source": "TechCrunch：AI（RSS）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-06-14T03:00:00Z"
+          "published_at": "2026-06-15T07:25:41Z"
         },
         {
-          "id": "df9846999c9ab0f32a9b8cf74d0a93edad80c921",
-          "title": "Anthropic 暂停新模型访问，印度辩论 AI 未来 / As Anthropic suspends access to new models, India debates its AI future",
-          "url": "https://techcrunch.com/2026/06/13/as-anthropic-suspends-access-to-new-models-india-debates-its-ai-future",
+          "id": "321f504d608668c13829947c88c8572cdd09804a",
+          "title": "AI裁员浪潮成为火药桶 / The AI layoff wave is becoming a powder keg",
+          "url": "https://techcrunch.com/2026/06/15/the-ai-layoff-wave-is-becoming-a-powder-keg",
           "source": "TechCrunch",
           "source_name": "TechURLs",
           "site_id": "techurls",
-          "published_at": "2026-06-14T03:00:00Z"
+          "published_at": "2026-06-15T07:25:41Z"
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.6607,
-      "importance": 0.6607,
-      "importance_score": 0.6607,
-      "importance_label": "值得关注",
+      "score": 0.8084,
+      "importance": 0.8084,
+      "importance_score": 0.8084,
+      "importance_label": "行业动态",
       "importance_breakdown": {
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.1185,
+        "recency": 0.8572,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-15T07:25:41Z",
+      "latest_at": "2026-06-15T07:25:41Z",
+      "primary_item": {
+        "id": "874a5683c52943d8ddf5c35b007916be0d9be812",
+        "title": "AI裁员浪潮成为火药桶",
+        "url": "https://techcrunch.com/2026/06/15/the-ai-layoff-wave-is-becoming-a-powder-keg",
+        "source": "TechCrunch：AI（RSS）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_dd3dba306dd4",
+      "title": "Flash-KMeans：IO感知的精确K-Means，在GPU上比FAISS快200倍以上",
+      "url": "https://www.marktechpost.com/2026/06/15/meet-flash-kmeans-an-io-aware-exact-k-means-that-runs-over-200x-faster-than-faiss-on-gpus",
+      "primary_url": "https://www.marktechpost.com/2026/06/15/meet-flash-kmeans-an-io-aware-exact-k-means-that-runs-over-200x-faster-than-faiss-on-gpus",
+      "source": "MarkTechPost（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "0c8cbf240284a0133d1adf4430d97efbb8e962eb",
+          "title": "Flash-KMeans：IO感知的精确K-Means，在GPU上比FAISS快200倍以上",
+          "url": "https://www.marktechpost.com/2026/06/15/meet-flash-kmeans-an-io-aware-exact-k-means-that-runs-over-200x-faster-than-faiss-on-gpus",
+          "source": "MarkTechPost（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-15T09:16:09Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "MarkTechPost（RSS）"
+      ],
+      "items": [
+        {
+          "id": "0c8cbf240284a0133d1adf4430d97efbb8e962eb",
+          "title": "Flash-KMeans：IO感知的精确K-Means，在GPU上比FAISS快200倍以上",
+          "url": "https://www.marktechpost.com/2026/06/15/meet-flash-kmeans-an-io-aware-exact-k-means-that-runs-over-200x-faster-than-faiss-on-gpus",
+          "source": "MarkTechPost（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-15T09:16:09Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7988,
+      "importance": 0.7988,
+      "importance_score": 0.7988,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9339,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-15T09:16:09Z",
+      "latest_at": "2026-06-15T09:16:09Z",
+      "primary_item": {
+        "id": "0c8cbf240284a0133d1adf4430d97efbb8e962eb",
+        "title": "Flash-KMeans：IO感知的精确K-Means，在GPU上比FAISS快200倍以上",
+        "url": "https://www.marktechpost.com/2026/06/15/meet-flash-kmeans-an-io-aware-exact-k-means-that-runs-over-200x-faster-than-faiss-on-gpus",
+        "source": "MarkTechPost（RSS）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_538ab92a01d9",
+      "title": "AI圈大反转：巴西“黑马”模型Rio 3. 5 被曝“套壳”国产大模型",
+      "url": "https://www.aibase.com/news/28919",
+      "primary_url": "https://www.aibase.com/news/28919",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "2eb5b00a9c4de4b20cb4a740c449d3fe6c5f5413",
+          "title": "AI圈大反转：巴西“黑马”模型Rio 3. 5 被曝“套壳”国产大模型",
+          "url": "https://www.aibase.com/news/28919",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-15T10:51:23.211108Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "2eb5b00a9c4de4b20cb4a740c449d3fe6c5f5413",
+          "title": "AI圈大反转：巴西“黑马”模型Rio 3. 5 被曝“套壳”国产大模型",
+          "url": "https://www.aibase.com/news/28919",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-15T10:51:23.211108Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.812,
+      "importance": 0.812,
+      "importance_score": 0.812,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-15T10:51:23.211108Z",
+      "latest_at": "2026-06-15T10:51:23.211108Z",
+      "primary_item": {
+        "id": "2eb5b00a9c4de4b20cb4a740c449d3fe6c5f5413",
+        "title": "AI圈大反转：巴西“黑马”模型Rio 3. 5 被曝“套壳”国产大模型",
+        "url": "https://www.aibase.com/news/28919",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_40b4b01e490b",
+      "title": "AI音乐视频创作新风向：立刻MV 1. 1 版本实现“一键成片”跨越",
+      "url": "https://www.aibase.com/news/28912",
+      "primary_url": "https://www.aibase.com/news/28912",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "aa29d1d34f448da5544df63e473f2f393eb33be9",
+          "title": "AI音乐视频创作新风向：立刻MV 1. 1 版本实现“一键成片”跨越",
+          "url": "https://www.aibase.com/news/28912",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-15T10:51:23.211108Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "aa29d1d34f448da5544df63e473f2f393eb33be9",
+          "title": "AI音乐视频创作新风向：立刻MV 1. 1 版本实现“一键成片”跨越",
+          "url": "https://www.aibase.com/news/28912",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-15T10:51:23.211108Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.812,
+      "importance": 0.812,
+      "importance_score": 0.812,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-15T10:51:23.211108Z",
+      "latest_at": "2026-06-15T10:51:23.211108Z",
+      "primary_item": {
+        "id": "aa29d1d34f448da5544df63e473f2f393eb33be9",
+        "title": "AI音乐视频创作新风向：立刻MV 1. 1 版本实现“一键成片”跨越",
+        "url": "https://www.aibase.com/news/28912",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_888bd1de6f40",
+      "title": "OpenAI 推出合作伙伴网络 OpenAI Partner Network / Introducing the OpenAI Partner Network",
+      "url": "https://openai.com/index/introducing-openai-partner-network",
+      "primary_url": "https://openai.com/index/introducing-openai-partner-network",
+      "source": "OpenAI News",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "8b3669c4386a8b185720b7597e92c5536a1391d8",
+          "title": "OpenAI 推出合作伙伴网络 OpenAI Partner Network / Introducing the OpenAI Partner Network",
+          "url": "https://openai.com/index/introducing-openai-partner-network",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-14T17:00:00Z"
+        },
+        {
+          "id": "fb53b1835c91e1e4b0c91af6b4328d43fa2e804a",
+          "title": "OpenAI 推出合作伙伴网络 OpenAI Partner Network",
+          "url": "https://openai.com/index/introducing-openai-partner-network",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-14T17:00:00Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "OpenAI News",
+        "OpenAI：官网动态（RSS · 排除企业/客户案例）"
+      ],
+      "items": [
+        {
+          "id": "8b3669c4386a8b185720b7597e92c5536a1391d8",
+          "title": "OpenAI 推出合作伙伴网络 OpenAI Partner Network / Introducing the OpenAI Partner Network",
+          "url": "https://openai.com/index/introducing-openai-partner-network",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-14T17:00:00Z"
+        },
+        {
+          "id": "fb53b1835c91e1e4b0c91af6b4328d43fa2e804a",
+          "title": "OpenAI 推出合作伙伴网络 OpenAI Partner Network",
+          "url": "https://openai.com/index/introducing-openai-partner-network",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-14T17:00:00Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7492,
+      "importance": 0.7492,
+      "importance_score": 0.7492,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.256,
+        "story_heat": 0.25
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "multi_source",
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-06-14T17:00:00Z",
+      "latest_at": "2026-06-14T17:00:00Z",
+      "primary_item": {
+        "id": "8b3669c4386a8b185720b7597e92c5536a1391d8",
+        "title": "OpenAI 推出合作伙伴网络 OpenAI Partner Network / Introducing the OpenAI Partner Network",
+        "url": "https://openai.com/index/introducing-openai-partner-network",
+        "source": "OpenAI News",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_016e0f1f666d",
+      "title": "OpenAI豪掷1. 5 亿美元：构建全球合作伙伴网络，深耕企业AI落地",
+      "url": "https://www.aibase.com/news/28929",
+      "primary_url": "https://www.aibase.com/news/28929",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "f01dab2f7973e830ace7e0ad3c6bce5c1fe1c5b0",
+          "title": "OpenAI豪掷1. 5 亿美元：构建全球合作伙伴网络，深耕企业AI落地",
+          "url": "https://www.aibase.com/news/28929",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-15T10:51:23.211108Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "f01dab2f7973e830ace7e0ad3c6bce5c1fe1c5b0",
+          "title": "OpenAI豪掷1. 5 亿美元：构建全球合作伙伴网络，深耕企业AI落地",
+          "url": "https://www.aibase.com/news/28929",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-15T10:51:23.211108Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.812,
+      "importance": 0.812,
+      "importance_score": 0.812,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-15T10:51:23.211108Z",
+      "latest_at": "2026-06-15T10:51:23.211108Z",
+      "primary_item": {
+        "id": "f01dab2f7973e830ace7e0ad3c6bce5c1fe1c5b0",
+        "title": "OpenAI豪掷1. 5 亿美元：构建全球合作伙伴网络，深耕企业AI落地",
+        "url": "https://www.aibase.com/news/28929",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_8ebcbe61282c",
+      "title": "​巴西AI黑马Rio 3. 5 翻车：被指套壳缝合两款国产大模型",
+      "url": "https://www.aibase.com/news/28913",
+      "primary_url": "https://www.aibase.com/news/28913",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "05992a0437339a069ef1859f023aa45a1eeb46a9",
+          "title": "​巴西AI黑马Rio 3. 5 翻车：被指套壳缝合两款国产大模型",
+          "url": "https://www.aibase.com/news/28913",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-15T10:51:23.211108Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "05992a0437339a069ef1859f023aa45a1eeb46a9",
+          "title": "​巴西AI黑马Rio 3. 5 翻车：被指套壳缝合两款国产大模型",
+          "url": "https://www.aibase.com/news/28913",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-15T10:51:23.211108Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.812,
+      "importance": 0.812,
+      "importance_score": 0.812,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-15T10:51:23.211108Z",
+      "latest_at": "2026-06-15T10:51:23.211108Z",
+      "primary_item": {
+        "id": "05992a0437339a069ef1859f023aa45a1eeb46a9",
+        "title": "​巴西AI黑马Rio 3. 5 翻车：被指套壳缝合两款国产大模型",
+        "url": "https://www.aibase.com/news/28913",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_a23069cc496a",
+      "title": "“AI教父”神预言？Anthropic因长期唱衰自家产品反遭美国出口管制",
+      "url": "https://www.aibase.com/news/28917",
+      "primary_url": "https://www.aibase.com/news/28917",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "5b93e6ceb28cabdae95fc481600f7d13697b069e",
+          "title": "“AI教父”神预言？Anthropic因长期唱衰自家产品反遭美国出口管制",
+          "url": "https://www.aibase.com/news/28917",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-15T10:51:23.211108Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "5b93e6ceb28cabdae95fc481600f7d13697b069e",
+          "title": "“AI教父”神预言？Anthropic因长期唱衰自家产品反遭美国出口管制",
+          "url": "https://www.aibase.com/news/28917",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-15T10:51:23.211108Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.812,
+      "importance": 0.812,
+      "importance_score": 0.812,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-15T10:51:23.211108Z",
+      "latest_at": "2026-06-15T10:51:23.211108Z",
+      "primary_item": {
+        "id": "5b93e6ceb28cabdae95fc481600f7d13697b069e",
+        "title": "“AI教父”神预言？Anthropic因长期唱衰自家产品反遭美国出口管制",
+        "url": "https://www.aibase.com/news/28917",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_007d5be93f97",
+      "title": "元宝正式打通ima公开知识库，搜索结果新增专业信源",
+      "url": "https://www.aibase.com/news/28918",
+      "primary_url": "https://www.aibase.com/news/28918",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "2f81bed7c98564bb4103ea955948d68f002a8a10",
+          "title": "元宝正式打通ima公开知识库，搜索结果新增专业信源",
+          "url": "https://www.aibase.com/news/28918",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-15T10:51:23.211108Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "2f81bed7c98564bb4103ea955948d68f002a8a10",
+          "title": "元宝正式打通ima公开知识库，搜索结果新增专业信源",
+          "url": "https://www.aibase.com/news/28918",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-15T10:51:23.211108Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.812,
+      "importance": 0.812,
+      "importance_score": 0.812,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-15T10:51:23.211108Z",
+      "latest_at": "2026-06-15T10:51:23.211108Z",
+      "primary_item": {
+        "id": "2f81bed7c98564bb4103ea955948d68f002a8a10",
+        "title": "元宝正式打通ima公开知识库，搜索结果新增专业信源",
+        "url": "https://www.aibase.com/news/28918",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_df8e48b9b5e5",
+      "title": "全渠道销量夺冠！千问AI眼镜引爆智能穿戴新风口",
+      "url": "https://www.aibase.com/news/28926",
+      "primary_url": "https://www.aibase.com/news/28926",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "2d91e5fbb81528be001773c8085a2afc768dc37e",
+          "title": "全渠道销量夺冠！千问AI眼镜引爆智能穿戴新风口",
+          "url": "https://www.aibase.com/news/28926",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-15T10:51:23.211108Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "2d91e5fbb81528be001773c8085a2afc768dc37e",
+          "title": "全渠道销量夺冠！千问AI眼镜引爆智能穿戴新风口",
+          "url": "https://www.aibase.com/news/28926",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-15T10:51:23.211108Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.812,
+      "importance": 0.812,
+      "importance_score": 0.812,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-15T10:51:23.211108Z",
+      "latest_at": "2026-06-15T10:51:23.211108Z",
+      "primary_item": {
+        "id": "2d91e5fbb81528be001773c8085a2afc768dc37e",
+        "title": "全渠道销量夺冠！千问AI眼镜引爆智能穿戴新风口",
+        "url": "https://www.aibase.com/news/28926",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_acdb2d1f4d2c",
+      "title": "微信支付发布AI工具箱2.0：不仅能听懂 9 国语言，Token消耗还省一半！",
+      "url": "https://www.aibase.com/news/28927",
+      "primary_url": "https://www.aibase.com/news/28927",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "0a0511b2437111059c875aa3b6ac0dcec4cb46df",
+          "title": "微信支付发布AI工具箱2.0：不仅能听懂 9 国语言，Token消耗还省一半！",
+          "url": "https://www.aibase.com/news/28927",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-15T10:51:23.211108Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "0a0511b2437111059c875aa3b6ac0dcec4cb46df",
+          "title": "微信支付发布AI工具箱2.0：不仅能听懂 9 国语言，Token消耗还省一半！",
+          "url": "https://www.aibase.com/news/28927",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-15T10:51:23.211108Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.812,
+      "importance": 0.812,
+      "importance_score": 0.812,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-15T10:51:23.211108Z",
+      "latest_at": "2026-06-15T10:51:23.211108Z",
+      "primary_item": {
+        "id": "0a0511b2437111059c875aa3b6ac0dcec4cb46df",
+        "title": "微信支付发布AI工具箱2.0：不仅能听懂 9 国语言，Token消耗还省一半！",
+        "url": "https://www.aibase.com/news/28927",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_7ddd67c9fbdd",
+      "title": "微信支付发布AI接入工具箱2.0：升级双AI专家并支持9国语言",
+      "url": "https://www.aibase.com/news/28925",
+      "primary_url": "https://www.aibase.com/news/28925",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "f9ef8a7bc0de81950c5fc075e051dd6bc96a7ea7",
+          "title": "微信支付发布AI接入工具箱2.0：升级双AI专家并支持9国语言",
+          "url": "https://www.aibase.com/news/28925",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-15T10:51:23.211108Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "f9ef8a7bc0de81950c5fc075e051dd6bc96a7ea7",
+          "title": "微信支付发布AI接入工具箱2.0：升级双AI专家并支持9国语言",
+          "url": "https://www.aibase.com/news/28925",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-15T10:51:23.211108Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.812,
+      "importance": 0.812,
+      "importance_score": 0.812,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-15T10:51:23.211108Z",
+      "latest_at": "2026-06-15T10:51:23.211108Z",
+      "primary_item": {
+        "id": "f9ef8a7bc0de81950c5fc075e051dd6bc96a7ea7",
+        "title": "微信支付发布AI接入工具箱2.0：升级双AI专家并支持9国语言",
+        "url": "https://www.aibase.com/news/28925",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_78845dbc1887",
+      "title": "独家消息：Anthropic派员工飞赴华盛顿，以平息白宫争端 / Anthropic flies staff to D.C. to clean up White House fight",
+      "url": "https://www.axios.com/2026/06/14/anthropic-white-house-mythos-fable",
+      "primary_url": "https://www.axios.com/2026/06/14/anthropic-white-house-mythos-fable",
+      "source": "Hacker News",
+      "source_name": "TechURLs",
+      "sources": [
+        {
+          "id": "b0785d567cfa6a9bd9564aea9b9f3b42ed36fe99",
+          "title": "独家消息：Anthropic派员工飞赴华盛顿，以平息白宫争端 / Anthropic flies staff to D.C. to clean up White House fight",
+          "url": "https://www.axios.com/2026/06/14/anthropic-white-house-mythos-fable",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-15T09:23:15Z"
+        },
+        {
+          "id": "03f7665dcc61fd5521c6b5a04d51bd3eb86abb9b",
+          "title": "独家消息：Anthropic派员工飞赴华盛顿，以平息白宫争端",
+          "url": "https://www.axios.com/2026/06/14/anthropic-white-house-mythos-fable",
+          "source": "www.axios.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-14T20:14:00.949000Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News",
+        "www.axios.com"
+      ],
+      "items": [
+        {
+          "id": "b0785d567cfa6a9bd9564aea9b9f3b42ed36fe99",
+          "title": "独家消息：Anthropic派员工飞赴华盛顿，以平息白宫争端 / Anthropic flies staff to D.C. to clean up White House fight",
+          "url": "https://www.axios.com/2026/06/14/anthropic-white-house-mythos-fable",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-15T09:23:15Z"
+        },
+        {
+          "id": "03f7665dcc61fd5521c6b5a04d51bd3eb86abb9b",
+          "title": "独家消息：Anthropic派员工飞赴华盛顿，以平息白宫争端",
+          "url": "https://www.axios.com/2026/06/14/anthropic-white-house-mythos-fable",
+          "source": "www.axios.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-14T20:14:00.949000Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5358,
+      "importance": 0.5358,
+      "importance_score": 0.5358,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9388,
         "story_heat": 0.25
       },
       "category": "watch",
       "reasons": [
-        "multi_source",
-        "high_ai_relevance"
+        "multi_source"
       ],
-      "earliest_at": "2026-06-14T03:00:00Z",
-      "latest_at": "2026-06-14T03:00:00Z",
+      "earliest_at": "2026-06-14T20:14:00.949000Z",
+      "latest_at": "2026-06-15T09:23:15Z",
       "primary_item": {
-        "id": "8783397726f21f68840f6455d520cf4def09fdba",
-        "title": "Anthropic 暂停新模型访问，印度辩论 AI 未来",
-        "url": "https://techcrunch.com/2026/06/13/as-anthropic-suspends-access-to-new-models-india-debates-its-ai-future",
-        "source": "TechCrunch：AI（RSS）",
-        "source_name": "AI HOT"
+        "id": "b0785d567cfa6a9bd9564aea9b9f3b42ed36fe99",
+        "title": "独家消息：Anthropic派员工飞赴华盛顿，以平息白宫争端 / Anthropic flies staff to D.C. to clean up White House fight",
+        "url": "https://www.axios.com/2026/06/14/anthropic-white-house-mythos-fable",
+        "source": "Hacker News",
+        "source_name": "TechURLs"
+      }
+    },
+    {
+      "story_id": "story_b5a7c312ddd8",
+      "title": "苹果基础模型",
+      "url": "https://platform.claude.com/docs/en/cli-sdks-libraries/libraries/apple-foundation-models",
+      "primary_url": "https://platform.claude.com/docs/en/cli-sdks-libraries/libraries/apple-foundation-models",
+      "source": "platform.claude.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "b3d486b9c084b78f536970ea859ba81f69b2c1a5",
+          "title": "苹果基础模型",
+          "url": "https://platform.claude.com/docs/en/cli-sdks-libraries/libraries/apple-foundation-models",
+          "source": "platform.claude.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T09:01:16.022000Z"
+        },
+        {
+          "id": "a840c764bebd547fed218f6ff821de39bf4d2321",
+          "title": "苹果基础模型 / Apple Foundation Models",
+          "url": "https://platform.claude.com/docs/en/cli-sdks-libraries/libraries/apple-foundation-models",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-15T04:55:34Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News (黑客新闻)",
+        "platform.claude.com"
+      ],
+      "items": [
+        {
+          "id": "b3d486b9c084b78f536970ea859ba81f69b2c1a5",
+          "title": "苹果基础模型",
+          "url": "https://platform.claude.com/docs/en/cli-sdks-libraries/libraries/apple-foundation-models",
+          "source": "platform.claude.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T09:01:16.022000Z"
+        },
+        {
+          "id": "a840c764bebd547fed218f6ff821de39bf4d2321",
+          "title": "苹果基础模型 / Apple Foundation Models",
+          "url": "https://platform.claude.com/docs/en/cli-sdks-libraries/libraries/apple-foundation-models",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-15T04:55:34Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5327,
+      "importance": 0.5327,
+      "importance_score": 0.5327,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9235,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-15T04:55:34Z",
+      "latest_at": "2026-06-15T09:01:16.022000Z",
+      "primary_item": {
+        "id": "b3d486b9c084b78f536970ea859ba81f69b2c1a5",
+        "title": "苹果基础模型",
+        "url": "https://platform.claude.com/docs/en/cli-sdks-libraries/libraries/apple-foundation-models",
+        "source": "platform.claude.com",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_61e4abfda1ed",
+      "title": "智商不减、成本砍掉四分之三!百度通用智能体DuMate完成关键进化",
+      "url": "https://www.aibase.com/news/28916",
+      "primary_url": "https://www.aibase.com/news/28916",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "a27c9bf24651bfc8acc6a4938e1cbc7bf9db134b",
+          "title": "智商不减、成本砍掉四分之三!百度通用智能体DuMate完成关键进化",
+          "url": "https://www.aibase.com/news/28916",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-15T10:51:23.211108Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "a27c9bf24651bfc8acc6a4938e1cbc7bf9db134b",
+          "title": "智商不减、成本砍掉四分之三!百度通用智能体DuMate完成关键进化",
+          "url": "https://www.aibase.com/news/28916",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-15T10:51:23.211108Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.812,
+      "importance": 0.812,
+      "importance_score": 0.812,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-15T10:51:23.211108Z",
+      "latest_at": "2026-06-15T10:51:23.211108Z",
+      "primary_item": {
+        "id": "a27c9bf24651bfc8acc6a4938e1cbc7bf9db134b",
+        "title": "智商不减、成本砍掉四分之三!百度通用智能体DuMate完成关键进化",
+        "url": "https://www.aibase.com/news/28916",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_3a79de7d7a98",
+      "title": "人工智能就是代码——无法通过提示使其变得更智能",
+      "url": "https://www.theregister.com/ai-and-ml/2026/06/14/ai-is-code-and-cant-be-prompted-into-being-smarter/5254141",
+      "primary_url": "https://www.theregister.com/ai-and-ml/2026/06/14/ai-is-code-and-cant-be-prompted-into-being-smarter/5254141",
+      "source": "www.theregister.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "8c6b032a1dd8959a75692edce27334fd95117677",
+          "title": "人工智能就是代码——无法通过提示使其变得更智能",
+          "url": "https://www.theregister.com/ai-and-ml/2026/06/14/ai-is-code-and-cant-be-prompted-into-being-smarter/5254141",
+          "source": "www.theregister.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T03:26:05.674000Z"
+        },
+        {
+          "id": "a12b9a6e022426c1108de208a1c1b42190e470bc",
+          "title": "人工智能是代码——并且不能被促使变得更聪明 / AI is code – and can't be prompted into being smarter",
+          "url": "https://news.ycombinator.com/item?id=48532178",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-14T23:50:01.617000Z"
+        },
+        {
+          "id": "60f680b853f2def255113e00a8cef6afc1e8394e",
+          "title": "人工智能就是代码——无法通过提示使其变得更智能 / AI is code – and can't be prompted into being smarter",
+          "url": "https://www.theregister.com/ai-and-ml/2026/06/14/ai-is-code-and-cant-be-prompted-into-being-smarter/5254141",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-14T20:17:54Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "Hacker News",
+        "hackernews",
+        "www.theregister.com"
+      ],
+      "items": [
+        {
+          "id": "8c6b032a1dd8959a75692edce27334fd95117677",
+          "title": "人工智能就是代码——无法通过提示使其变得更智能",
+          "url": "https://www.theregister.com/ai-and-ml/2026/06/14/ai-is-code-and-cant-be-prompted-into-being-smarter/5254141",
+          "source": "www.theregister.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T03:26:05.674000Z"
+        },
+        {
+          "id": "a12b9a6e022426c1108de208a1c1b42190e470bc",
+          "title": "人工智能是代码——并且不能被促使变得更聪明 / AI is code – and can't be prompted into being smarter",
+          "url": "https://news.ycombinator.com/item?id=48532178",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-14T23:50:01.617000Z"
+        },
+        {
+          "id": "60f680b853f2def255113e00a8cef6afc1e8394e",
+          "title": "人工智能就是代码——无法通过提示使其变得更智能 / AI is code – and can't be prompted into being smarter",
+          "url": "https://www.theregister.com/ai-and-ml/2026/06/14/ai-is-code-and-cant-be-prompted-into-being-smarter/5254141",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-14T20:17:54Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.5112,
+      "importance": 0.5112,
+      "importance_score": 0.5112,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.6908,
+        "story_heat": 0.5
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-14T20:17:54Z",
+      "latest_at": "2026-06-15T03:26:05.674000Z",
+      "primary_item": {
+        "id": "8c6b032a1dd8959a75692edce27334fd95117677",
+        "title": "人工智能就是代码——无法通过提示使其变得更智能",
+        "url": "https://www.theregister.com/ai-and-ml/2026/06/14/ai-is-code-and-cant-be-prompted-into-being-smarter/5254141",
+        "source": "www.theregister.com",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_48f8d9b994c1",
+      "title": "微软首席执行官警告称，人工智能领域的赢家可能会导致“整个行业”空心化",
+      "url": "https://www.businessinsider.com/microsoft-ceo-warns-ai-winners-hurt-whole-industries-satya-nadella-2026-6",
+      "primary_url": "https://www.businessinsider.com/microsoft-ceo-warns-ai-winners-hurt-whole-industries-satya-nadella-2026-6",
+      "source": "www.businessinsider.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "a6cf1314bee4a8259880a1b2b03b7b10d9919ee0",
+          "title": "微软首席执行官警告称，人工智能领域的赢家可能会导致“整个行业”空心化",
+          "url": "https://www.businessinsider.com/microsoft-ceo-warns-ai-winners-hurt-whole-industries-satya-nadella-2026-6",
+          "source": "www.businessinsider.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T04:29:13.212000Z"
+        },
+        {
+          "id": "cbdf76c4f060b6b4d6788597b02bd79766659185",
+          "title": "微软首席执行官警告称，人工智能领域的赢家可能会导致“整个行业”空心化 / Microsoft CEO warns that a few AI winners could destroy 'entire industries'",
+          "url": "https://www.businessinsider.com/microsoft-ceo-warns-ai-winners-hurt-whole-industries-satya-nadella-2026-6",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-15T04:09:15Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Business Insider",
+        "www.businessinsider.com"
+      ],
+      "items": [
+        {
+          "id": "a6cf1314bee4a8259880a1b2b03b7b10d9919ee0",
+          "title": "微软首席执行官警告称，人工智能领域的赢家可能会导致“整个行业”空心化",
+          "url": "https://www.businessinsider.com/microsoft-ceo-warns-ai-winners-hurt-whole-industries-satya-nadella-2026-6",
+          "source": "www.businessinsider.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T04:29:13.212000Z"
+        },
+        {
+          "id": "cbdf76c4f060b6b4d6788597b02bd79766659185",
+          "title": "微软首席执行官警告称，人工智能领域的赢家可能会导致“整个行业”空心化 / Microsoft CEO warns that a few AI winners could destroy 'entire industries'",
+          "url": "https://www.businessinsider.com/microsoft-ceo-warns-ai-winners-hurt-whole-industries-satya-nadella-2026-6",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-15T04:09:15Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.4949,
+      "importance": 0.4949,
+      "importance_score": 0.4949,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.7346,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-15T04:09:15Z",
+      "latest_at": "2026-06-15T04:29:13.212000Z",
+      "primary_item": {
+        "id": "a6cf1314bee4a8259880a1b2b03b7b10d9919ee0",
+        "title": "微软首席执行官警告称，人工智能领域的赢家可能会导致“整个行业”空心化",
+        "url": "https://www.businessinsider.com/microsoft-ceo-warns-ai-winners-hurt-whole-industries-satya-nadella-2026-6",
+        "source": "www.businessinsider.com",
+        "source_name": "Buzzing"
       }
     },
     {
@@ -453,14 +1347,14 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5715,
-      "importance": 0.5715,
-      "importance_score": 0.5715,
+      "score": 0.4823,
+      "importance": 0.4823,
+      "importance_score": 0.4823,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9923,
+        "recency": 0.5465,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -475,1133 +1369,6 @@
         "url": "https://www.verysane.ai/p/did-anthropic-ask-for-this",
         "source": "www.verysane.ai",
         "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_a55226033b99",
-      "title": "21世纪最伟大的CEO，会是一个AI吗？",
-      "url": "https://www.huxiu.com/article/4867239.html?f=rss",
-      "primary_url": "https://www.huxiu.com/article/4867239.html?f=rss",
-      "source": "虎嗅 (Huxiu)",
-      "source_name": "Info Flow",
-      "sources": [
-        {
-          "id": "c3ee0ced71449a76aab69e41f60c5fc6454cf8f6",
-          "title": "21世纪最伟大的CEO，会是一个AI吗？",
-          "url": "https://www.huxiu.com/article/4867239.html?f=rss",
-          "source": "虎嗅 (Huxiu)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-14T23:15:00Z"
-        },
-        {
-          "id": "d05469e9692e58f1e050cc49b39d4de9b2e3c577",
-          "title": "21 世纪最伟大的 CEO，会是一个 AI 吗？|| 大视野",
-          "url": "https://www.huxiu.com/article/4867239.html?f=rss",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        },
-        {
-          "id": "ec1137888661cb9b4c9d77bcd8b22b11b6228147",
-          "title": "21世纪最伟大的CEO，会是一个AI吗？|| 大视野",
-          "url": "https://www.huxiu.com/article/4867239.html?f=rss",
-          "source": "虎嗅 (Huxiu)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-14T16:13:36Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Readhub · AI",
-        "虎嗅 (Huxiu)"
-      ],
-      "items": [
-        {
-          "id": "c3ee0ced71449a76aab69e41f60c5fc6454cf8f6",
-          "title": "21世纪最伟大的CEO，会是一个AI吗？",
-          "url": "https://www.huxiu.com/article/4867239.html?f=rss",
-          "source": "虎嗅 (Huxiu)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-14T23:15:00Z"
-        },
-        {
-          "id": "d05469e9692e58f1e050cc49b39d4de9b2e3c577",
-          "title": "21 世纪最伟大的 CEO，会是一个 AI 吗？|| 大视野",
-          "url": "https://www.huxiu.com/article/4867239.html?f=rss",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        },
-        {
-          "id": "ec1137888661cb9b4c9d77bcd8b22b11b6228147",
-          "title": "21世纪最伟大的CEO，会是一个AI吗？|| 大视野",
-          "url": "https://www.huxiu.com/article/4867239.html?f=rss",
-          "source": "虎嗅 (Huxiu)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-14T16:13:36Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.5654,
-      "importance": 0.5654,
-      "importance_score": 0.5654,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9622,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-14T16:13:36Z",
-      "latest_at": "2026-06-14T23:15:00Z",
-      "primary_item": {
-        "id": "c3ee0ced71449a76aab69e41f60c5fc6454cf8f6",
-        "title": "21世纪最伟大的CEO，会是一个AI吗？",
-        "url": "https://www.huxiu.com/article/4867239.html?f=rss",
-        "source": "虎嗅 (Huxiu)",
-        "source_name": "Info Flow"
-      }
-    },
-    {
-      "story_id": "story_306377e34aa4",
-      "title": "谷歌 CEO 皮查伊斯坦福毕业演讲避谈 AI，鼓励毕业生「选择乐观」",
-      "url": "https://www.ithome.com/0/964/193.htm",
-      "primary_url": "https://www.ithome.com/0/964/193.htm",
-      "source": "Readhub · AI",
-      "source_name": "TopHub",
-      "sources": [
-        {
-          "id": "e60dbab5ebc82145d8537b3c3f85bbb3c018d8d7",
-          "title": "谷歌 CEO 皮查伊斯坦福毕业演讲避谈 AI，鼓励毕业生「选择乐观」",
-          "url": "https://www.ithome.com/0/964/193.htm",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        },
-        {
-          "id": "d527f262c873a9000fa628e466b5426b416ff00d",
-          "title": "谷歌 CEO 皮查伊斯坦福毕业演讲避谈 AI，鼓励毕业生“选择乐观”",
-          "url": "https://www.ithome.com/0/964/193.htm",
-          "source": "IT之家 (ITHome)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-14T23:00:27Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "IT之家 (ITHome)",
-        "Readhub · AI"
-      ],
-      "items": [
-        {
-          "id": "e60dbab5ebc82145d8537b3c3f85bbb3c018d8d7",
-          "title": "谷歌 CEO 皮查伊斯坦福毕业演讲避谈 AI，鼓励毕业生「选择乐观」",
-          "url": "https://www.ithome.com/0/964/193.htm",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        },
-        {
-          "id": "d527f262c873a9000fa628e466b5426b416ff00d",
-          "title": "谷歌 CEO 皮查伊斯坦福毕业演讲避谈 AI，鼓励毕业生“选择乐观”",
-          "url": "https://www.ithome.com/0/964/193.htm",
-          "source": "IT之家 (ITHome)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-14T23:00:27Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.548,
-      "importance": 0.548,
-      "importance_score": 0.548,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 1.0,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-14T23:00:27Z",
-      "latest_at": "2026-06-15T00:09:24.119395Z",
-      "primary_item": {
-        "id": "e60dbab5ebc82145d8537b3c3f85bbb3c018d8d7",
-        "title": "谷歌 CEO 皮查伊斯坦福毕业演讲避谈 AI，鼓励毕业生「选择乐观」",
-        "url": "https://www.ithome.com/0/964/193.htm",
-        "source": "Readhub · AI",
-        "source_name": "TopHub"
-      }
-    },
-    {
-      "story_id": "story_91301c00d4c2",
-      "title": "Jqwik 反人工智能事件 / The Jqwik Anti-AI Affair",
-      "url": "https://news.ycombinator.com/item?id=48533736",
-      "primary_url": "https://news.ycombinator.com/item?id=48533736",
-      "source": "hackernews",
-      "source_name": "NewsNow",
-      "sources": [
-        {
-          "id": "88021deb249b733b6116945c8abf0ba281ef8253",
-          "title": "Jqwik 反人工智能事件 / The Jqwik Anti-AI Affair",
-          "url": "https://news.ycombinator.com/item?id=48533736",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-14T23:50:01.617000Z"
-        },
-        {
-          "id": "f4854da92dafba12d9b2658332e4406cb39f065e",
-          "title": "Jqwik 反人工智能事件 / The Jqwik Anti-AI Affair",
-          "url": "https://blog.johanneslink.net/2026/06/09/the-jqwik-anti-ai-affair",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-14T22:43:49Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News · 24h最热",
-        "hackernews"
-      ],
-      "items": [
-        {
-          "id": "88021deb249b733b6116945c8abf0ba281ef8253",
-          "title": "Jqwik 反人工智能事件 / The Jqwik Anti-AI Affair",
-          "url": "https://news.ycombinator.com/item?id=48533736",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-14T23:50:01.617000Z"
-        },
-        {
-          "id": "f4854da92dafba12d9b2658332e4406cb39f065e",
-          "title": "Jqwik 反人工智能事件 / The Jqwik Anti-AI Affair",
-          "url": "https://blog.johanneslink.net/2026/06/09/the-jqwik-anti-ai-affair",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-14T22:43:49Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5453,
-      "importance": 0.5453,
-      "importance_score": 0.5453,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9865,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-14T22:43:49Z",
-      "latest_at": "2026-06-14T23:50:01.617000Z",
-      "primary_item": {
-        "id": "88021deb249b733b6116945c8abf0ba281ef8253",
-        "title": "Jqwik 反人工智能事件 / The Jqwik Anti-AI Affair",
-        "url": "https://news.ycombinator.com/item?id=48533736",
-        "source": "hackernews",
-        "source_name": "NewsNow"
-      }
-    },
-    {
-      "story_id": "story_a9187b00b2f0",
-      "title": "不，并不是每个人都在所有事情上都使用人工智能 / No, everyone is not using AI for everything",
-      "url": "https://gabrielweinberg.com/p/people-are-consuming-ai-like-they",
-      "primary_url": "https://gabrielweinberg.com/p/people-are-consuming-ai-like-they",
-      "source": "Lobsters (技术社区)",
-      "source_name": "Info Flow",
-      "sources": [
-        {
-          "id": "00946233f76dfe96f9951b07eb62f9d91803ff7d",
-          "title": "不，并不是每个人都在所有事情上都使用人工智能 / No, everyone is not using AI for everything",
-          "url": "https://gabrielweinberg.com/p/people-are-consuming-ai-like-they",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-14T17:35:54Z"
-        },
-        {
-          "id": "e2c0747c177423c44f0000955caccad11fb9e3d0",
-          "title": "不，并不是每个人都将人工智能用于所有事情 / No, everyone is not using AI for everything",
-          "url": "https://news.ycombinator.com/item?id=48527700",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-14T16:22:15.355000Z"
-        },
-        {
-          "id": "b31a29653711cae492224d5337f1c1a218e57326",
-          "title": "不，并不是每个人都在所有事情上都使用人工智能",
-          "url": "https://gabrielweinberg.com/p/people-are-consuming-ai-like-they",
-          "source": "gabrielweinberg.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-14T16:14:04.686000Z"
-        },
-        {
-          "id": "4576da3f93c8c12badd31e4d0641dfd5ab08df22",
-          "title": "不，并不是每个人都在所有事情上都使用人工智能 / Not everyone is using AI for everything",
-          "url": "https://gabrielweinberg.com/p/people-are-consuming-ai-like-they",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-14T14:44:29Z"
-        }
-      ],
-      "source_count": 4,
-      "source_names": [
-        "Hacker News · 24h最热",
-        "Lobsters (技术社区)",
-        "gabrielweinberg.com",
-        "hackernews"
-      ],
-      "items": [
-        {
-          "id": "00946233f76dfe96f9951b07eb62f9d91803ff7d",
-          "title": "不，并不是每个人都在所有事情上都使用人工智能 / No, everyone is not using AI for everything",
-          "url": "https://gabrielweinberg.com/p/people-are-consuming-ai-like-they",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-14T17:35:54Z"
-        },
-        {
-          "id": "e2c0747c177423c44f0000955caccad11fb9e3d0",
-          "title": "不，并不是每个人都将人工智能用于所有事情 / No, everyone is not using AI for everything",
-          "url": "https://news.ycombinator.com/item?id=48527700",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-14T16:22:15.355000Z"
-        },
-        {
-          "id": "b31a29653711cae492224d5337f1c1a218e57326",
-          "title": "不，并不是每个人都在所有事情上都使用人工智能",
-          "url": "https://gabrielweinberg.com/p/people-are-consuming-ai-like-they",
-          "source": "gabrielweinberg.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-14T16:14:04.686000Z"
-        },
-        {
-          "id": "4576da3f93c8c12badd31e4d0641dfd5ab08df22",
-          "title": "不，并不是每个人都在所有事情上都使用人工智能 / Not everyone is using AI for everything",
-          "url": "https://gabrielweinberg.com/p/people-are-consuming-ai-like-they",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-14T14:44:29Z"
-        }
-      ],
-      "item_count": 4,
-      "duplicate_count": 4,
-      "score": 0.5433,
-      "importance": 0.5433,
-      "importance_score": 0.5433,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.7267,
-        "story_heat": 0.75
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-14T14:44:29Z",
-      "latest_at": "2026-06-14T17:35:54Z",
-      "primary_item": {
-        "id": "00946233f76dfe96f9951b07eb62f9d91803ff7d",
-        "title": "不，并不是每个人都在所有事情上都使用人工智能 / No, everyone is not using AI for everything",
-        "url": "https://gabrielweinberg.com/p/people-are-consuming-ai-like-they",
-        "source": "Lobsters (技术社区)",
-        "source_name": "Info Flow"
-      }
-    },
-    {
-      "story_id": "story_042052496ebe",
-      "title": "毕马威因报告中出现明显“幻觉”而撤回关于人工智能应用的报告",
-      "url": "https://techcrunch.com/2026/06/13/kpmg-pulls-report-on-ai-usage-due-to-apparent-hallucinations",
-      "primary_url": "https://techcrunch.com/2026/06/13/kpmg-pulls-report-on-ai-usage-due-to-apparent-hallucinations",
-      "source": "techcrunch.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "d5840a4a8fa9232ac22d75d7354accc157243dd7",
-          "title": "毕马威因报告中出现明显“幻觉”而撤回关于人工智能应用的报告",
-          "url": "https://techcrunch.com/2026/06/13/kpmg-pulls-report-on-ai-usage-due-to-apparent-hallucinations",
-          "source": "techcrunch.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-14T19:57:53.841000Z"
-        },
-        {
-          "id": "0f7a43deb09e214faae5c857fcd4cdbbde7b673a",
-          "title": "由于明显的幻觉，毕马威撤回了人工智能使用报告 / KPMG pulls report on AI usage due to apparent hallucinations",
-          "url": "https://news.ycombinator.com/item?id=48527297",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-14T16:22:15.355000Z"
-        },
-        {
-          "id": "cd7c8eae1dc3be5ef7825eb72d6ef254f0b31b93",
-          "title": "毕马威因报告中出现明显“幻觉”而撤回关于人工智能应用的报告 / KPMG pulls report on AI usage due to apparent hallucinations",
-          "url": "https://techcrunch.com/2026/06/13/kpmg-pulls-report-on-ai-usage-due-to-apparent-hallucinations",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-14T14:01:35Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Hacker News (黑客新闻)",
-        "hackernews",
-        "techcrunch.com"
-      ],
-      "items": [
-        {
-          "id": "d5840a4a8fa9232ac22d75d7354accc157243dd7",
-          "title": "毕马威因报告中出现明显“幻觉”而撤回关于人工智能应用的报告",
-          "url": "https://techcrunch.com/2026/06/13/kpmg-pulls-report-on-ai-usage-due-to-apparent-hallucinations",
-          "source": "techcrunch.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-14T19:57:53.841000Z"
-        },
-        {
-          "id": "0f7a43deb09e214faae5c857fcd4cdbbde7b673a",
-          "title": "由于明显的幻觉，毕马威撤回了人工智能使用报告 / KPMG pulls report on AI usage due to apparent hallucinations",
-          "url": "https://news.ycombinator.com/item?id=48527297",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-14T16:22:15.355000Z"
-        },
-        {
-          "id": "cd7c8eae1dc3be5ef7825eb72d6ef254f0b31b93",
-          "title": "毕马威因报告中出现明显“幻觉”而撤回关于人工智能应用的报告 / KPMG pulls report on AI usage due to apparent hallucinations",
-          "url": "https://techcrunch.com/2026/06/13/kpmg-pulls-report-on-ai-usage-due-to-apparent-hallucinations",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-14T14:01:35Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.5381,
-      "importance": 0.5381,
-      "importance_score": 0.5381,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8253,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-14T14:01:35Z",
-      "latest_at": "2026-06-14T19:57:53.841000Z",
-      "primary_item": {
-        "id": "d5840a4a8fa9232ac22d75d7354accc157243dd7",
-        "title": "毕马威因报告中出现明显“幻觉”而撤回关于人工智能应用的报告",
-        "url": "https://techcrunch.com/2026/06/13/kpmg-pulls-report-on-ai-usage-due-to-apparent-hallucinations",
-        "source": "techcrunch.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_774f7412d1a3",
-      "title": "人工智能、神明与自我：极其有效的幻象",
-      "url": "https://www.youtube.com/watch?v=9X1CQlrwgDI",
-      "primary_url": "https://www.youtube.com/watch?v=9X1CQlrwgDI",
-      "source": "www.youtube.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "4e622df9439f8128eae9061178e9567b624d674c",
-          "title": "人工智能、神明与自我：极其有效的幻象",
-          "url": "https://www.youtube.com/watch?v=9X1CQlrwgDI",
-          "source": "www.youtube.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-14T22:54:00.758000Z"
-        },
-        {
-          "id": "db115879f71127d087550327c717550e2558dc37",
-          "title": "人工智能、神明与自我：极其有效的幻象 / AI, Gods and Selves: Incredibly Effective Illusions",
-          "url": "https://www.youtube.com/watch?v=9X1CQlrwgDI",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-14T22:49:27Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Lobsters (技术社区)",
-        "www.youtube.com"
-      ],
-      "items": [
-        {
-          "id": "4e622df9439f8128eae9061178e9567b624d674c",
-          "title": "人工智能、神明与自我：极其有效的幻象",
-          "url": "https://www.youtube.com/watch?v=9X1CQlrwgDI",
-          "source": "www.youtube.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-14T22:54:00.758000Z"
-        },
-        {
-          "id": "db115879f71127d087550327c717550e2558dc37",
-          "title": "人工智能、神明与自我：极其有效的幻象 / AI, Gods and Selves: Incredibly Effective Illusions",
-          "url": "https://www.youtube.com/watch?v=9X1CQlrwgDI",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-14T22:49:27Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5375,
-      "importance": 0.5375,
-      "importance_score": 0.5375,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9476,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-14T22:49:27Z",
-      "latest_at": "2026-06-14T22:54:00.758000Z",
-      "primary_item": {
-        "id": "4e622df9439f8128eae9061178e9567b624d674c",
-        "title": "人工智能、神明与自我：极其有效的幻象",
-        "url": "https://www.youtube.com/watch?v=9X1CQlrwgDI",
-        "source": "www.youtube.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_df0bd4cf3728",
-      "title": "谷歌首席执行官桑达尔·皮查伊在斯坦福大学毕业典礼上避谈人工智能（并躲过了嘘声）",
-      "url": "https://www.businessinsider.com/google-ceo-sundar-pichai-stanford-graduation-speech-ai-2026-6",
-      "primary_url": "https://www.businessinsider.com/google-ceo-sundar-pichai-stanford-graduation-speech-ai-2026-6",
-      "source": "www.businessinsider.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "eb639475b10217f83c31c110c5c5a5cd320f888a",
-          "title": "谷歌首席执行官桑达尔·皮查伊在斯坦福大学毕业典礼上避谈人工智能（并躲过了嘘声）",
-          "url": "https://www.businessinsider.com/google-ceo-sundar-pichai-stanford-graduation-speech-ai-2026-6",
-          "source": "www.businessinsider.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-14T21:18:02.318000Z"
-        },
-        {
-          "id": "b227394ef26603ba42c20740663215fe9c59dee8",
-          "title": "谷歌首席执行官桑达尔·皮查伊在斯坦福大学毕业典礼上避谈人工智能（并躲过了嘘声） / Sundar Pichai chooses 'optimism' over AI (and boos) for his Stanford graduation speech",
-          "url": "https://www.businessinsider.com/google-ceo-sundar-pichai-stanford-graduation-speech-ai-2026-6",
-          "source": "Business Insider",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-14T20:46:39Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Business Insider",
-        "www.businessinsider.com"
-      ],
-      "items": [
-        {
-          "id": "eb639475b10217f83c31c110c5c5a5cd320f888a",
-          "title": "谷歌首席执行官桑达尔·皮查伊在斯坦福大学毕业典礼上避谈人工智能（并躲过了嘘声）",
-          "url": "https://www.businessinsider.com/google-ceo-sundar-pichai-stanford-graduation-speech-ai-2026-6",
-          "source": "www.businessinsider.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-14T21:18:02.318000Z"
-        },
-        {
-          "id": "b227394ef26603ba42c20740663215fe9c59dee8",
-          "title": "谷歌首席执行官桑达尔·皮查伊在斯坦福大学毕业典礼上避谈人工智能（并躲过了嘘声） / Sundar Pichai chooses 'optimism' over AI (and boos) for his Stanford graduation speech",
-          "url": "https://www.businessinsider.com/google-ceo-sundar-pichai-stanford-graduation-speech-ai-2026-6",
-          "source": "Business Insider",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-14T20:46:39Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5242,
-      "importance": 0.5242,
-      "importance_score": 0.5242,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.881,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-14T20:46:39Z",
-      "latest_at": "2026-06-14T21:18:02.318000Z",
-      "primary_item": {
-        "id": "eb639475b10217f83c31c110c5c5a5cd320f888a",
-        "title": "谷歌首席执行官桑达尔·皮查伊在斯坦福大学毕业典礼上避谈人工智能（并躲过了嘘声）",
-        "url": "https://www.businessinsider.com/google-ceo-sundar-pichai-stanford-graduation-speech-ai-2026-6",
-        "source": "www.businessinsider.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_f9a9fd467da0",
-      "title": "里约热内卢的“本土化”LLM似乎是现有模型的融合体",
-      "url": "https://github.com/nex-agi/Nex-N2/issues/4",
-      "primary_url": "https://github.com/nex-agi/Nex-N2/issues/4",
-      "source": "github.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "2d574c099c396c71d0f2b16d025707e83db82942",
-          "title": "里约热内卢的“本土化”LLM似乎是现有模型的融合体",
-          "url": "https://github.com/nex-agi/Nex-N2/issues/4",
-          "source": "github.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-14T18:06:03.242000Z"
-        },
-        {
-          "id": "195e74de1c761bfcaac56dd3b51857dd4c40996c",
-          "title": "里约热内卢的“本土”法学硕士似乎是现有模式的合并 / Rio de Janeiro's \"homegrown\" LLM appears to be a merge of an existing model",
-          "url": "https://news.ycombinator.com/item?id=48528371",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-14T16:22:15.355000Z"
-        },
-        {
-          "id": "79cf793518fabce2826b2455bd5ce61f54b9c1cf",
-          "title": "里约热内卢的“本土化”LLM似乎是现有模型的融合体 / Rio de Janeiro's \"homegrown\" LLM appears to be a merge of an existing model",
-          "url": "https://github.com/nex-agi/Nex-N2/issues/4",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-14T15:37:31Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Hacker News (黑客新闻)",
-        "github.com",
-        "hackernews"
-      ],
-      "items": [
-        {
-          "id": "2d574c099c396c71d0f2b16d025707e83db82942",
-          "title": "里约热内卢的“本土化”LLM似乎是现有模型的融合体",
-          "url": "https://github.com/nex-agi/Nex-N2/issues/4",
-          "source": "github.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-14T18:06:03.242000Z"
-        },
-        {
-          "id": "195e74de1c761bfcaac56dd3b51857dd4c40996c",
-          "title": "里约热内卢的“本土”法学硕士似乎是现有模式的合并 / Rio de Janeiro's \"homegrown\" LLM appears to be a merge of an existing model",
-          "url": "https://news.ycombinator.com/item?id=48528371",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-14T16:22:15.355000Z"
-        },
-        {
-          "id": "79cf793518fabce2826b2455bd5ce61f54b9c1cf",
-          "title": "里约热内卢的“本土化”LLM似乎是现有模型的融合体 / Rio de Janeiro's \"homegrown\" LLM appears to be a merge of an existing model",
-          "url": "https://github.com/nex-agi/Nex-N2/issues/4",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-14T15:37:31Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.5225,
-      "importance": 0.5225,
-      "importance_score": 0.5225,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.7477,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-14T15:37:31Z",
-      "latest_at": "2026-06-14T18:06:03.242000Z",
-      "primary_item": {
-        "id": "2d574c099c396c71d0f2b16d025707e83db82942",
-        "title": "里约热内卢的“本土化”LLM似乎是现有模型的融合体",
-        "url": "https://github.com/nex-agi/Nex-N2/issues/4",
-        "source": "github.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_1a792f3c827d",
-      "title": "欧盟委员会发言人表示，欧盟委员会正在评估Anthropic裁决的实际影响 - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPMjV5UElrM0pwdjE0dkFUM09CRHd6elhGdTJuUXVkb29QWVNrU3lpQnBNSXpJT2lfUnppQVlzN0NZMHBienBaWWlub3lxTjItbm1FbFNSdnZtMUE4MndyMWVEV0FfVE9iYjBsbGJnNGVkT3kyNEN2NE04ZXI3WUN3a2dxSWV5bUh0aVBrLWFZVEpXOERDWU9Qc3NPbGlRQkZLZEtrR3ktb04tY2ZHRmM0NzlKVm5ITF8zNVM3TlpXSUFYc2dSQWRieA?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-      "primary_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPMjV5UElrM0pwdjE0dkFUM09CRHd6elhGdTJuUXVkb29QWVNrU3lpQnBNSXpJT2lfUnppQVlzN0NZMHBienBaWWlub3lxTjItbm1FbFNSdnZtMUE4MndyMWVEV0FfVE9iYjBsbGJnNGVkT3kyNEN2NE04ZXI3WUN3a2dxSWV5bUh0aVBrLWFZVEpXOERDWU9Qc3NPbGlRQkZLZEtrR3ktb04tY2ZHRmM0NzlKVm5ITF8zNVM3TlpXSUFYc2dSQWRieA?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-      "source": "news.google.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "f38777dc229559b5ce569e440d4ec02900ec7af6",
-          "title": "欧盟委员会发言人表示，欧盟委员会正在评估Anthropic裁决的实际影响 - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPMjV5UElrM0pwdjE0dkFUM09CRHd6elhGdTJuUXVkb29QWVNrU3lpQnBNSXpJT2lfUnppQVlzN0NZMHBienBaWWlub3lxTjItbm1FbFNSdnZtMUE4MndyMWVEV0FfVE9iYjBsbGJnNGVkT3kyNEN2NE04ZXI3WUN3a2dxSWV5bUh0aVBrLWFZVEpXOERDWU9Qc3NPbGlRQkZLZEtrR3ktb04tY2ZHRmM0NzlKVm5ITF8zNVM3TlpXSUFYc2dSQWRieA?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-          "source": "news.google.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-14T17:50:03.913000Z"
-        },
-        {
-          "id": "fc00575b279706bbba27ad5f1b7bf0e3189ae354",
-          "title": "欧盟委员会发言人表示，欧盟委员会正在评估Anthropic裁决的实际影响 / EU Commission looking at practical consequences of Anthropic decision",
-          "url": "https://www.reuters.com/legal/litigation/eu-commission-looking-practical-consequences-anthropic-decision-spokesperson-2026-06-14",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-14T14:33:11Z"
-        },
-        {
-          "id": "cd6a95d0454cdc7beee2a22b38c42a842363f8d2",
-          "title": "欧盟委员会发言人表示，欧盟委员会正在评估Anthropic裁决的实际影响",
-          "url": "https://www.reuters.com/legal/litigation/eu-commission-looking-practical-consequences-anthropic-decision-spokesperson-2026-06-14",
-          "source": "www.reuters.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-14T13:50:01.242000Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Hacker News",
-        "news.google.com",
-        "www.reuters.com"
-      ],
-      "items": [
-        {
-          "id": "f38777dc229559b5ce569e440d4ec02900ec7af6",
-          "title": "欧盟委员会发言人表示，欧盟委员会正在评估Anthropic裁决的实际影响 - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPMjV5UElrM0pwdjE0dkFUM09CRHd6elhGdTJuUXVkb29QWVNrU3lpQnBNSXpJT2lfUnppQVlzN0NZMHBienBaWWlub3lxTjItbm1FbFNSdnZtMUE4MndyMWVEV0FfVE9iYjBsbGJnNGVkT3kyNEN2NE04ZXI3WUN3a2dxSWV5bUh0aVBrLWFZVEpXOERDWU9Qc3NPbGlRQkZLZEtrR3ktb04tY2ZHRmM0NzlKVm5ITF8zNVM3TlpXSUFYc2dSQWRieA?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-          "source": "news.google.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-14T17:50:03.913000Z"
-        },
-        {
-          "id": "fc00575b279706bbba27ad5f1b7bf0e3189ae354",
-          "title": "欧盟委员会发言人表示，欧盟委员会正在评估Anthropic裁决的实际影响 / EU Commission looking at practical consequences of Anthropic decision",
-          "url": "https://www.reuters.com/legal/litigation/eu-commission-looking-practical-consequences-anthropic-decision-spokesperson-2026-06-14",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-14T14:33:11Z"
-        },
-        {
-          "id": "cd6a95d0454cdc7beee2a22b38c42a842363f8d2",
-          "title": "欧盟委员会发言人表示，欧盟委员会正在评估Anthropic裁决的实际影响",
-          "url": "https://www.reuters.com/legal/litigation/eu-commission-looking-practical-consequences-anthropic-decision-spokesperson-2026-06-14",
-          "source": "www.reuters.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-14T13:50:01.242000Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.5203,
-      "importance": 0.5203,
-      "importance_score": 0.5203,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.7366,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-14T13:50:01.242000Z",
-      "latest_at": "2026-06-14T17:50:03.913000Z",
-      "primary_item": {
-        "id": "f38777dc229559b5ce569e440d4ec02900ec7af6",
-        "title": "欧盟委员会发言人表示，欧盟委员会正在评估Anthropic裁决的实际影响 - Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPMjV5UElrM0pwdjE0dkFUM09CRHd6elhGdTJuUXVkb29QWVNrU3lpQnBNSXpJT2lfUnppQVlzN0NZMHBienBaWWlub3lxTjItbm1FbFNSdnZtMUE4MndyMWVEV0FfVE9iYjBsbGJnNGVkT3kyNEN2NE04ZXI3WUN3a2dxSWV5bUh0aVBrLWFZVEpXOERDWU9Qc3NPbGlRQkZLZEtrR3ktb04tY2ZHRmM0NzlKVm5ITF8zNVM3TlpXSUFYc2dSQWRieA?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-        "source": "news.google.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_3a79de7d7a98",
-      "title": "人工智能是代码——并且不能被促使变得更聪明 / AI is code – and can't be prompted into being smarter",
-      "url": "https://news.ycombinator.com/item?id=48532178",
-      "primary_url": "https://news.ycombinator.com/item?id=48532178",
-      "source": "hackernews",
-      "source_name": "NewsNow",
-      "sources": [
-        {
-          "id": "a12b9a6e022426c1108de208a1c1b42190e470bc",
-          "title": "人工智能是代码——并且不能被促使变得更聪明 / AI is code – and can't be prompted into being smarter",
-          "url": "https://news.ycombinator.com/item?id=48532178",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-14T23:50:01.617000Z"
-        },
-        {
-          "id": "60f680b853f2def255113e00a8cef6afc1e8394e",
-          "title": "人工智能是代码——并且不能被促使变得更聪明 / AI is code – and can't be prompted into being smarter",
-          "url": "https://www.theregister.com/ai-and-ml/2026/06/14/ai-is-code-and-cant-be-prompted-into-being-smarter/5254141",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-14T20:17:54Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News",
-        "hackernews"
-      ],
-      "items": [
-        {
-          "id": "a12b9a6e022426c1108de208a1c1b42190e470bc",
-          "title": "人工智能是代码——并且不能被促使变得更聪明 / AI is code – and can't be prompted into being smarter",
-          "url": "https://news.ycombinator.com/item?id=48532178",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-14T23:50:01.617000Z"
-        },
-        {
-          "id": "60f680b853f2def255113e00a8cef6afc1e8394e",
-          "title": "人工智能是代码——并且不能被促使变得更聪明 / AI is code – and can't be prompted into being smarter",
-          "url": "https://www.theregister.com/ai-and-ml/2026/06/14/ai-is-code-and-cant-be-prompted-into-being-smarter/5254141",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-14T20:17:54Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5453,
-      "importance": 0.5453,
-      "importance_score": 0.5453,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9865,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-14T20:17:54Z",
-      "latest_at": "2026-06-14T23:50:01.617000Z",
-      "primary_item": {
-        "id": "a12b9a6e022426c1108de208a1c1b42190e470bc",
-        "title": "人工智能是代码——并且不能被促使变得更聪明 / AI is code – and can't be prompted into being smarter",
-        "url": "https://news.ycombinator.com/item?id=48532178",
-        "source": "hackernews",
-        "source_name": "NewsNow"
-      }
-    },
-    {
-      "story_id": "story_e490525da529",
-      "title": "据Axios报道，Anthropic公司员工将于下周与白宫官员会面 / Anthropic staff to meet White House officials next week",
-      "url": "https://www.reuters.com/world/us/anthropic-staff-meet-white-house-officials-next-week-axios-reports-2026-06-14",
-      "primary_url": "https://www.reuters.com/world/us/anthropic-staff-meet-white-house-officials-next-week-axios-reports-2026-06-14",
-      "source": "Hacker News · 24h最热",
-      "source_name": "Zeli",
-      "sources": [
-        {
-          "id": "fd20e920a70f99c0dc619058fa450f7e63905017",
-          "title": "据Axios报道，Anthropic公司员工将于下周与白宫官员会面 / Anthropic staff to meet White House officials next week",
-          "url": "https://www.reuters.com/world/us/anthropic-staff-meet-white-house-officials-next-week-axios-reports-2026-06-14",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-14T18:58:24Z"
-        },
-        {
-          "id": "0e999aaf94590772e7dc53222fd8bfefc95c7c8a",
-          "title": "据Axios报道，Anthropic公司员工将于下周与白宫官员会面",
-          "url": "https://www.reuters.com/world/us/anthropic-staff-meet-white-house-officials-next-week-axios-reports-2026-06-14",
-          "source": "www.reuters.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-14T18:38:10.823000Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News · 24h最热",
-        "www.reuters.com"
-      ],
-      "items": [
-        {
-          "id": "fd20e920a70f99c0dc619058fa450f7e63905017",
-          "title": "据Axios报道，Anthropic公司员工将于下周与白宫官员会面 / Anthropic staff to meet White House officials next week",
-          "url": "https://www.reuters.com/world/us/anthropic-staff-meet-white-house-officials-next-week-axios-reports-2026-06-14",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-14T18:58:24Z"
-        },
-        {
-          "id": "0e999aaf94590772e7dc53222fd8bfefc95c7c8a",
-          "title": "据Axios报道，Anthropic公司员工将于下周与白宫官员会面",
-          "url": "https://www.reuters.com/world/us/anthropic-staff-meet-white-house-officials-next-week-axios-reports-2026-06-14",
-          "source": "www.reuters.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-14T18:38:10.823000Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5048,
-      "importance": 0.5048,
-      "importance_score": 0.5048,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.784,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-14T18:38:10.823000Z",
-      "latest_at": "2026-06-14T18:58:24Z",
-      "primary_item": {
-        "id": "fd20e920a70f99c0dc619058fa450f7e63905017",
-        "title": "据Axios报道，Anthropic公司员工将于下周与白宫官员会面 / Anthropic staff to meet White House officials next week",
-        "url": "https://www.reuters.com/world/us/anthropic-staff-meet-white-house-officials-next-week-axios-reports-2026-06-14",
-        "source": "Hacker News · 24h最热",
-        "source_name": "Zeli"
-      }
-    },
-    {
-      "story_id": "story_e3adff762066",
-      "title": "人工智能无法拯救一家无法按时交付产品的公司",
-      "url": "https://agileproductdevelopment.substack.com/p/ai-wont-fix-a-company-that-cant-ship",
-      "primary_url": "https://agileproductdevelopment.substack.com/p/ai-wont-fix-a-company-that-cant-ship",
-      "source": "agileproductdevelopment.substack.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "a760f8db87d21447ebf238a1947f9d35e40da7d8",
-          "title": "人工智能无法拯救一家无法按时交付产品的公司",
-          "url": "https://agileproductdevelopment.substack.com/p/ai-wont-fix-a-company-that-cant-ship",
-          "source": "agileproductdevelopment.substack.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-14T18:53:56.462000Z"
-        },
-        {
-          "id": "e91640413768e0c06b9a913f6c99fcc0d0bf342a",
-          "title": "人工智能无法拯救一家无法按时交付产品的公司 / AI Won’t Fix a Company That Can’t Ship",
-          "url": "https://agileproductdevelopment.substack.com/p/ai-wont-fix-a-company-that-cant-ship",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-14T18:46:19Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Lobsters (技术社区)",
-        "agileproductdevelopment.substack.com"
-      ],
-      "items": [
-        {
-          "id": "a760f8db87d21447ebf238a1947f9d35e40da7d8",
-          "title": "人工智能无法拯救一家无法按时交付产品的公司",
-          "url": "https://agileproductdevelopment.substack.com/p/ai-wont-fix-a-company-that-cant-ship",
-          "source": "agileproductdevelopment.substack.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-14T18:53:56.462000Z"
-        },
-        {
-          "id": "e91640413768e0c06b9a913f6c99fcc0d0bf342a",
-          "title": "人工智能无法拯救一家无法按时交付产品的公司 / AI Won’t Fix a Company That Can’t Ship",
-          "url": "https://agileproductdevelopment.substack.com/p/ai-wont-fix-a-company-that-cant-ship",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-14T18:46:19Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5042,
-      "importance": 0.5042,
-      "importance_score": 0.5042,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.7809,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-14T18:46:19Z",
-      "latest_at": "2026-06-14T18:53:56.462000Z",
-      "primary_item": {
-        "id": "a760f8db87d21447ebf238a1947f9d35e40da7d8",
-        "title": "人工智能无法拯救一家无法按时交付产品的公司",
-        "url": "https://agileproductdevelopment.substack.com/p/ai-wont-fix-a-company-that-cant-ship",
-        "source": "agileproductdevelopment.substack.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_ebd61a3aea6e",
-      "title": "为什么克劳德会变成一个混蛋？ / Why Is Claude Turning into an a**Hole?",
-      "url": "https://news.ycombinator.com/item?id=48533308",
-      "primary_url": "https://news.ycombinator.com/item?id=48533308",
-      "source": "hackernews",
-      "source_name": "NewsNow",
-      "sources": [
-        {
-          "id": "78394ba7fcc9426839cc64da4e1493269ce28fe3",
-          "title": "为什么克劳德会变成一个混蛋？ / Why Is Claude Turning into an a**Hole?",
-          "url": "https://news.ycombinator.com/item?id=48533308",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-14T22:19:46.628000Z"
-        },
-        {
-          "id": "e0c38fa423426b50d8bc6888c1200261589ae566",
-          "title": "为什么克劳德会变成一个混蛋？ / Why Is Claude Turning into an a**Hole?",
-          "url": "https://bramcohen.com/p/why-is-claude-turning-into-an-asshole",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-14T22:04:01Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News (黑客新闻)",
-        "hackernews"
-      ],
-      "items": [
-        {
-          "id": "78394ba7fcc9426839cc64da4e1493269ce28fe3",
-          "title": "为什么克劳德会变成一个混蛋？ / Why Is Claude Turning into an a**Hole?",
-          "url": "https://news.ycombinator.com/item?id=48533308",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-14T22:19:46.628000Z"
-        },
-        {
-          "id": "e0c38fa423426b50d8bc6888c1200261589ae566",
-          "title": "为什么克劳德会变成一个混蛋？ / Why Is Claude Turning into an a**Hole?",
-          "url": "https://bramcohen.com/p/why-is-claude-turning-into-an-asshole",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-14T22:04:01Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5328,
-      "importance": 0.5328,
-      "importance_score": 0.5328,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9239,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-14T22:04:01Z",
-      "latest_at": "2026-06-14T22:19:46.628000Z",
-      "primary_item": {
-        "id": "78394ba7fcc9426839cc64da4e1493269ce28fe3",
-        "title": "为什么克劳德会变成一个混蛋？ / Why Is Claude Turning into an a**Hole?",
-        "url": "https://news.ycombinator.com/item?id=48533308",
-        "source": "hackernews",
-        "source_name": "NewsNow"
       }
     }
   ]
