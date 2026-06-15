@@ -125,6 +125,7 @@ button {
 }
 
 .stat {
+  min-width: 0;
   border: 1px solid var(--line);
   background: var(--surface);
   border-radius: var(--radius);
@@ -1526,12 +1527,14 @@ summary:focus-visible {
     align-items: flex-start;
   }
 
-  /* Keep two columns on phones: a single column turns ten stat cards into
-     three screens of dashboard before the first piece of content. */
   .stats,
-  .coverage-strip,
   .health-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 6px;
+  }
+
+  .coverage-strip {
+    grid-template-columns: 1fr;
     gap: 6px;
   }
 
