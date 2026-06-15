@@ -18,6 +18,8 @@ const state = {
   sourceStatus: null,
   generatedAt: null,
   dailyBrief: null,
+  boleView: "hot",
+  boleExpanded: false,
 };
 
 const statsEl = document.getElementById("stats");
@@ -46,6 +48,10 @@ const waytoagi7dBtnEl = document.getElementById("waytoagi7dBtn");
 const coverageStripEl = document.getElementById("coverageStrip");
 const bolePicksListEl = document.getElementById("bolePicksList");
 const bolePicksMetaEl = document.getElementById("bolePicksMeta");
+const bolePicksWrapEl = document.getElementById("bolePicksWrap");
+const boleViewToggleEl = document.getElementById("boleViewToggle");
+const boleHotBtnEl = document.getElementById("boleHotBtn");
+const boleTimelineBtnEl = document.getElementById("boleTimelineBtn");
 
 const SOURCE_KINDS = {
   official_ai: { label: "官方", tone: "official" },
@@ -674,30 +680,77 @@ function buildStoryCard(story, rank) {
   return link;
 }
 
+const HOT_DECAY_HOURS = 12;
+
+function storyHotness(story) {
+  const sources = Number(story.source_count) || 1;
+  if (sources < 2) return 0;
+  const latest = storyTimeMs(story, "latest_at") || storyTimeMs(story, "earliest_at");
+  const ageHours = latest ? Math.max(0, (Date.now() - latest) / 3600000) : 24;
+  return (sources - 1) * Math.exp(-ageHours / HOT_DECAY_HOURS);
+}
+
+function hotStories(stories) {
+  return stories
+    .filter((story) => storyHotness(story) > 0)
+    .sort((a, b) => storyHotness(b) - storyHotness(a) || storyScore(b) - storyScore(a));
+}
+
 function renderBoleBrief(stories) {
   bolePicksListEl.innerHTML = "";
   bolePicksListEl.className = "bole-board";
 
-  const sorted = [...stories].sort((a, b) => {
-    const aLatest = storyTimeMs(a, "latest_at") || storyTimeMs(a, "earliest_at");
-    const bLatest = storyTimeMs(b, "latest_at") || storyTimeMs(b, "earliest_at");
-    if (aLatest !== bLatest) return bLatest - aLatest;
-    return storyScore(b) - storyScore(a);
-  });
+  const hot = hotStories(stories);
+  const hotAvailable = hot.length >= 2;
+  // 宁缺毋滥: the hot view only exists when there is real multi-source heat.
+  if (boleViewToggleEl) boleViewToggleEl.hidden = !hotAvailable;
+  if (!hotAvailable) state.boleView = "timeline";
+  if (boleHotBtnEl) boleHotBtnEl.classList.toggle("active", state.boleView === "hot");
+  if (boleTimelineBtnEl) boleTimelineBtnEl.classList.toggle("active", state.boleView !== "hot");
+
+  let sorted;
+  let metaLabel;
+  if (state.boleView === "hot") {
+    sorted = hot;
+    metaLabel = `当前热点 · ${fmtNumber(sorted.length)} 簇 · 多源×时间衰减`;
+  } else {
+    sorted = [...stories].sort((a, b) => {
+      const aLatest = storyTimeMs(a, "latest_at") || storyTimeMs(a, "earliest_at");
+      const bLatest = storyTimeMs(b, "latest_at") || storyTimeMs(b, "earliest_at");
+      if (aLatest !== bLatest) return bLatest - aLatest;
+      return storyScore(b) - storyScore(a);
+    });
+    const topScore = Math.max(...sorted.map((s) => storyScore(s)));
+    metaLabel = topScore > 0
+      ? `故事时间线 · ${fmtNumber(sorted.length)} 条 · 最高 ${topScore} 分`
+      : `故事时间线 · ${fmtNumber(sorted.length)} 条`;
+  }
 
   const list = document.createElement("div");
   list.className = "bole-compact-list bole-timeline";
-  sorted.forEach((story, index) => {
+  const defaultLimit = state.boleView === "hot" ? BOLE_HOT_LIMIT : BOLE_TIMELINE_LIMIT;
+  const visibleStories = state.boleExpanded ? sorted : sorted.slice(0, defaultLimit);
+  visibleStories.forEach((story, index) => {
     list.appendChild(buildStoryCard(story, index + 1));
   });
   bolePicksListEl.appendChild(list);
 
-  const topScore = Math.max(...sorted.map((s) => storyScore(s)));
+  if (sorted.length > defaultLimit) {
+    const moreBtn = document.createElement("button");
+    moreBtn.type = "button";
+    moreBtn.className = "bole-more-btn";
+    moreBtn.textContent = state.boleExpanded
+      ? "收起"
+      : (state.boleView === "hot" ? "展开全部热点" : "展开完整时间线");
+    moreBtn.addEventListener("click", () => {
+      state.boleExpanded = !state.boleExpanded;
+      renderBolePicks();
+    });
+    bolePicksListEl.appendChild(moreBtn);
+  }
+
   const generatedAt = state.dailyBrief && state.dailyBrief.generated_at;
-  const meta = topScore > 0
-    ? `故事时间线 · ${fmtNumber(sorted.length)} 条 · 最高 ${topScore} 分`
-    : `故事时间线 · ${fmtNumber(sorted.length)} 条`;
-  bolePicksMetaEl.textContent = generatedAt ? `${meta} · ${fmtTime(generatedAt)}` : meta;
+  bolePicksMetaEl.textContent = generatedAt ? `${metaLabel} · ${fmtTime(generatedAt)}` : metaLabel;
   document.dispatchEvent(new CustomEvent("aiRadar:briefRendered"));
 }
 
@@ -725,10 +778,22 @@ function renderBoleFallback(picks) {
   });
   const list = document.createElement("div");
   list.className = "bole-compact-list";
-  timelinePicks.forEach((row, index) => {
+  const visiblePicks = state.boleExpanded ? timelinePicks : timelinePicks.slice(0, BOLE_TIMELINE_LIMIT);
+  visiblePicks.forEach((row, index) => {
     list.appendChild(buildBoleTimelineRow(row, index + 1));
   });
   bolePicksListEl.appendChild(list);
+  if (timelinePicks.length > BOLE_TIMELINE_LIMIT) {
+    const moreBtn = document.createElement("button");
+    moreBtn.type = "button";
+    moreBtn.className = "bole-more-btn";
+    moreBtn.textContent = state.boleExpanded ? "收起" : "展开完整时间线";
+    moreBtn.addEventListener("click", () => {
+      state.boleExpanded = !state.boleExpanded;
+      renderBolePicks();
+    });
+    bolePicksListEl.appendChild(moreBtn);
+  }
   document.dispatchEvent(new CustomEvent("aiRadar:briefRendered"));
 }
 
@@ -740,10 +805,19 @@ function renderBolePicks() {
   const brief = state.dailyBrief;
   const items = brief && Array.isArray(brief.items) ? brief.items : [];
   if (items.length) {
+    if (bolePicksWrapEl) bolePicksWrapEl.hidden = false;
     renderBoleBrief(items);
     return;
   }
 
+  if (brief) {
+    // 宁缺毋滥: a quiet day produces an empty gated brief — remove the whole
+    // block instead of padding it with weak candidates.
+    if (bolePicksWrapEl) bolePicksWrapEl.hidden = true;
+    return;
+  }
+
+  if (bolePicksWrapEl) bolePicksWrapEl.hidden = false;
   const picks = pickBoleItems(state.itemsAi || []);
   bolePicksMetaEl.textContent = "故事合并数据暂未生成 · 伯乐候选信号";
   renderBoleFallback(picks);
@@ -783,6 +857,17 @@ function renderItemNode(item) {
   return node;
 }
 
+const SOURCE_ITEM_INITIAL_LIMIT = 8;
+const SOURCE_ITEM_LOAD_STEP = 10;
+const SITE_GROUP_INITIAL_LIMIT = 4;
+const SITE_GROUP_LOAD_STEP = 4;
+const SITE_SOURCE_GROUP_INITIAL_LIMIT = 4;
+const SITE_SOURCE_GROUP_LOAD_STEP = 4;
+const SOURCE_GROUP_INITIAL_LIMIT = 8;
+const SOURCE_GROUP_LOAD_STEP = 8;
+const BOLE_HOT_LIMIT = 5;
+const BOLE_TIMELINE_LIMIT = 8;
+
 function buildSourceGroupNode(source, items) {
   const section = document.createElement("section");
   section.className = "source-group";
@@ -796,7 +881,36 @@ function buildSourceGroupNode(source, items) {
   listEl.className = "source-group-list";
   header.append(title, count);
   section.append(header, listEl);
-  items.forEach((item) => listEl.appendChild(renderItemNode(item)));
+
+  let rendered = 0;
+  const appendNextItems = () => {
+    const nextCount = rendered ? SOURCE_ITEM_LOAD_STEP : SOURCE_ITEM_INITIAL_LIMIT;
+    const next = items.slice(rendered, rendered + nextCount);
+    next.forEach((item) => listEl.appendChild(renderItemNode(item)));
+    rendered += next.length;
+  };
+
+  appendNextItems();
+
+  if (rendered < items.length) {
+    const moreBtn = document.createElement("button");
+    moreBtn.type = "button";
+    moreBtn.className = "group-more-btn";
+    const updateLabel = () => {
+      const nextCount = Math.min(SOURCE_ITEM_LOAD_STEP, items.length - rendered);
+      moreBtn.textContent = `再加载 ${fmtNumber(nextCount)} 条`;
+    };
+    updateLabel();
+    moreBtn.addEventListener("click", () => {
+      appendNextItems();
+      if (rendered >= items.length) {
+        moreBtn.remove();
+      } else {
+        updateLabel();
+      }
+    });
+    section.append(moreBtn);
+  }
   return section;
 }
 
@@ -813,58 +927,87 @@ function groupBySource(items) {
   return Array.from(groupMap.entries()).sort((a, b) => b[1].length - a[1].length || a[0].localeCompare(b[0], "zh-CN"));
 }
 
-function renderGroupedBySource(items) {
-  const groups = groupBySource(items);
-  const frag = document.createDocumentFragment();
+// Mobile-safe async rendering: avoid blocking the main thread on large lists.
+// We chunk site-groups and yield between each chunk so the browser can paint
+// and respond to touch events while the list is being built.
+let _renderListToken = 0;
 
-  groups.forEach(([source, groupItems]) => {
-    frag.appendChild(buildSourceGroupNode(source, groupItems));
-  });
+function buildSiteGroupNode(site) {
+  const siteSection = document.createElement("section");
+  siteSection.className = "site-group";
+  const header = document.createElement("header");
+  header.className = "site-group-head";
+  const title = document.createElement("h3");
+  title.textContent = site.siteName;
+  const count = document.createElement("span");
+  count.textContent = `${fmtNumber(site.items.length)} 条`;
+  const siteListEl = document.createElement("div");
+  siteListEl.className = "site-group-list";
+  header.append(title, count);
+  siteSection.append(header, siteListEl);
 
-  newsListEl.appendChild(frag);
+  const sourceGroups = groupBySource(site.items);
+  let sourceIdx = 0;
+  let moreBtn = null;
+  const appendNextSourceGroups = (count = SITE_SOURCE_GROUP_INITIAL_LIMIT) => {
+    const frag = document.createDocumentFragment();
+    sourceGroups.slice(sourceIdx, sourceIdx + count).forEach(([source, groupItems]) => {
+      frag.appendChild(buildSourceGroupNode(source, groupItems));
+    });
+    sourceIdx += count;
+    if (moreBtn) moreBtn.remove();
+    siteListEl.appendChild(frag);
+    if (sourceIdx < sourceGroups.length) {
+      const nextCount = Math.min(SITE_SOURCE_GROUP_LOAD_STEP, sourceGroups.length - sourceIdx);
+      moreBtn = addLoadMoreButton(siteSection, `加载更多分区（${fmtNumber(nextCount)} 个）`, () => {
+        appendNextSourceGroups(SITE_SOURCE_GROUP_LOAD_STEP);
+      });
+    }
+  };
+  appendNextSourceGroups();
+  return siteSection;
 }
 
-function renderGroupedBySiteAndSource(items) {
+function renderLoadingNotice(label, count) {
+  const loading = document.createElement("div");
+  loading.className = "list-loading";
+  loading.textContent = `正在整理 ${label} · ${fmtNumber(count)} 条`;
+  newsListEl.appendChild(loading);
+}
+
+function currentFilterLabel(filtered) {
+  if (state.siteFilter) {
+    const item = filtered[0];
+    const stat = currentSiteStats().find((s) => s.site_id === state.siteFilter);
+    return item?.site_name || stat?.site_name || state.siteFilter;
+  }
+  return state.mode === "all" ? "全量来源" : "AI 信号";
+}
+
+function groupedSites(items) {
   const siteMap = new Map();
   items.forEach((item) => {
     if (!siteMap.has(item.site_id)) {
-      siteMap.set(item.site_id, {
-        siteName: item.site_name || item.site_id,
-        items: [],
-      });
+      siteMap.set(item.site_id, { siteName: item.site_name || item.site_id, items: [] });
     }
     siteMap.get(item.site_id).items.push(item);
   });
 
-  const sites = Array.from(siteMap.entries()).sort((a, b) => {
+  return Array.from(siteMap.entries()).sort((a, b) => {
     const byCount = b[1].items.length - a[1].items.length;
     if (byCount !== 0) return byCount;
     return a[1].siteName.localeCompare(b[1].siteName, "zh-CN");
   });
+}
 
-  const frag = document.createDocumentFragment();
-  sites.forEach(([, site]) => {
-    const siteSection = document.createElement("section");
-    siteSection.className = "site-group";
-    const header = document.createElement("header");
-    header.className = "site-group-head";
-    const title = document.createElement("h3");
-    title.textContent = site.siteName;
-    const count = document.createElement("span");
-    count.textContent = `${fmtNumber(site.items.length)} 条`;
-    const siteListEl = document.createElement("div");
-    siteListEl.className = "site-group-list";
-    header.append(title, count);
-    siteSection.append(header, siteListEl);
-
-    const sourceGroups = groupBySource(site.items);
-    sourceGroups.forEach(([source, groupItems]) => {
-      siteListEl.appendChild(buildSourceGroupNode(source, groupItems));
-    });
-    frag.appendChild(siteSection);
-  });
-
-  newsListEl.appendChild(frag);
+function addLoadMoreButton(parent, label, onClick) {
+  const moreBtn = document.createElement("button");
+  moreBtn.type = "button";
+  moreBtn.className = "list-more-btn";
+  moreBtn.textContent = label;
+  moreBtn.addEventListener("click", onClick);
+  parent.appendChild(moreBtn);
+  return moreBtn;
 }
 
 function renderList() {
@@ -872,6 +1015,8 @@ function renderList() {
   resultCountEl.textContent = `${fmtNumber(filtered.length)} 条`;
 
   newsListEl.innerHTML = "";
+  _renderListToken += 1;           // invalidate any in-flight render
+  const token = _renderListToken;
 
   if (!filtered.length) {
     const empty = document.createElement("div");
@@ -881,12 +1026,64 @@ function renderList() {
     return;
   }
 
+  renderLoadingNotice(currentFilterLabel(filtered), filtered.length);
+
   if (state.siteFilter) {
-    renderGroupedBySource(filtered);
-  } else {
-    renderGroupedBySiteAndSource(filtered);
+    requestAnimationFrame(() => {
+      if (token !== _renderListToken) return;
+      const groups = groupBySource(filtered);
+      newsListEl.innerHTML = "";
+      let idx = 0;
+      let moreBtn = null;
+      const renderNextSourceGroups = (count = SOURCE_GROUP_INITIAL_LIMIT) => {
+        if (token !== _renderListToken) return;
+        const frag = document.createDocumentFragment();
+        groups.slice(idx, idx + count).forEach(([source, groupItems]) => {
+          frag.appendChild(buildSourceGroupNode(source, groupItems));
+        });
+        idx += count;
+        if (moreBtn) moreBtn.remove();
+        newsListEl.appendChild(frag);
+        if (idx < groups.length) {
+          const nextCount = Math.min(SOURCE_GROUP_LOAD_STEP, groups.length - idx);
+          moreBtn = addLoadMoreButton(newsListEl, `加载更多分区（${fmtNumber(nextCount)} 个）`, () => {
+            renderNextSourceGroups(SOURCE_GROUP_LOAD_STEP);
+          });
+        } else {
+          document.dispatchEvent(new CustomEvent("aiRadar:listRendered"));
+        }
+      };
+      renderNextSourceGroups();
+    });
+    return;
   }
-  document.dispatchEvent(new CustomEvent("aiRadar:listRendered"));
+
+  requestAnimationFrame(() => {
+    if (token !== _renderListToken) return;   // stale render, abort
+    const sites = groupedSites(filtered);
+    newsListEl.innerHTML = "";
+    let idx = 0;
+    let moreBtn = null;
+    const renderNextSites = (count = SITE_GROUP_INITIAL_LIMIT) => {
+      if (token !== _renderListToken) return;
+      const frag = document.createDocumentFragment();
+      sites.slice(idx, idx + count).forEach(([, site]) => {
+        frag.appendChild(buildSiteGroupNode(site));
+      });
+      idx += count;
+      if (moreBtn) moreBtn.remove();
+      newsListEl.appendChild(frag);
+      if (idx < sites.length) {
+        const nextCount = Math.min(SITE_GROUP_LOAD_STEP, sites.length - idx);
+        moreBtn = addLoadMoreButton(newsListEl, `加载更多来源（${fmtNumber(nextCount)} 个）`, () => {
+          renderNextSites(SITE_GROUP_LOAD_STEP);
+        });
+      } else {
+        document.dispatchEvent(new CustomEvent("aiRadar:listRendered"));
+      }
+    };
+    renderNextSites();
+  });
 }
 
 function waytoagiViews(waytoagi) {
@@ -1219,6 +1416,22 @@ if (waytoagi7dBtnEl) {
   waytoagi7dBtnEl.addEventListener("click", () => {
     state.waytoagiMode = "7d";
     if (state.waytoagiData) renderWaytoagi(state.waytoagiData);
+  });
+}
+
+if (boleHotBtnEl) {
+  boleHotBtnEl.addEventListener("click", () => {
+    state.boleView = "hot";
+    state.boleExpanded = false;
+    renderBolePicks();
+  });
+}
+
+if (boleTimelineBtnEl) {
+  boleTimelineBtnEl.addEventListener("click", () => {
+    state.boleView = "timeline";
+    state.boleExpanded = false;
+    renderBolePicks();
   });
 }
 

@@ -24,7 +24,7 @@
       content="自动整理过去 24 小时值得看的 AI、模型和开发者工具更新；伯乐Skill（Scout Skill）帮你从一堆信源里选出千里马。"
     />
     <link rel="icon" href="./assets/logo.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="./assets/styles.css?v=bole-story-merge-0603" />
+    <link rel="stylesheet" href="./assets/styles.css?v=ui-adjustment-0615c" />
   </head>
   <body>
     <main class="shell">
@@ -87,15 +87,21 @@
         </div>
       </details>
 
-      <section class="bole-picks-wrap" aria-label="伯乐精选">
+      <section class="bole-picks-wrap" aria-label="伯乐精选" id="bolePicksWrap">
         <div class="bole-picks-head">
           <div>
             <p class="section-eyebrow">BOLE PICKS</p>
             <h2>伯乐精选</h2>
           </div>
-          <span id="bolePicksMeta">按评分排序</span>
+          <div class="bole-head-tools">
+            <div class="bole-view-toggle" id="boleViewToggle" hidden>
+              <button id="boleHotBtn" class="mode-btn" type="button">当前热点</button>
+              <button id="boleTimelineBtn" class="mode-btn" type="button">时间线</button>
+            </div>
+            <span id="bolePicksMeta">按评分排序</span>
+          </div>
         </div>
-        <div class="bole-picks-sub">把过去 24 小时的 AI 信号按故事线合并，按时间倒序铺成一条 5 分钟可读的每日雷达；多源命中、官方更新、发布时间与重要性都标在卡片上。</div>
+        <div class="bole-picks-sub">把过去 24 小时的 AI 信号按故事线合并；热点视图按多源聚簇与时间衰减排序，时间线视图按时间倒序铺成一条 5 分钟可读的每日雷达。</div>
         <div id="bolePicksList" class="bole-board"></div>
       </section>
 
@@ -137,7 +143,7 @@
     </template>
 
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js" integrity="sha384-HOvlOYPIs/zjoIkWUGXkVmXsjr8GuZLV+Q+rcPwmJOVZVpvTSXQChiN4t9Euv9Vc" crossorigin="anonymous" defer></script>
-    <script src="./assets/motion.js?v=bole-story-merge-0603" defer></script>
-    <script src="./assets/app.js?v=bole-story-merge-0603" defer></script>
+    <script src="./assets/motion.js?v=ui-adjustment-0615c" defer></script>
+    <script src="./assets/app.js?v=ui-adjustment-0615c" defer></script>
   </body>
 </html>
