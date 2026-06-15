@@ -1,7 +1,9 @@
 :root {
   --bg: #f6f6f2;
+  --bg-alt: #eeecea;
   --surface: #ffffff;
   --surface-soft: #fbfaf7;
+  --surface-alt: #f4f2ef;
   --ink: #171717;
   --muted: #66645f;
   --line: #d9d6ce;
@@ -237,9 +239,9 @@ summary:focus-visible {
 
 .advanced-panel {
   margin-top: 12px;
-  border: 1px solid var(--line);
+  border: 1px solid rgba(23, 23, 23, 0.1);
   border-radius: var(--radius);
-  background: var(--surface);
+  background: rgba(251, 250, 247, 0.72);
 }
 
 .advanced-panel summary {
@@ -254,6 +256,11 @@ summary:focus-visible {
   font-weight: 700;
   list-style: none;
   cursor: pointer;
+}
+
+.advanced-panel:not([open]) summary {
+  color: var(--muted);
+  font-weight: 650;
 }
 
 .advanced-panel summary::-webkit-details-marker {
@@ -496,6 +503,16 @@ summary:focus-visible {
   overflow: hidden;
 }
 
+.list-wrap {
+  background: var(--surface);
+}
+
+/* 双色交替：WaytoAGI 版块用深一档的底色，与伯乐精选 / AI信号流形成节奏感 */
+.waytoagi-wrap {
+  background: var(--bg-alt);
+  border-color: rgba(23, 23, 23, 0.12);
+}
+
 .bole-picks-head,
 .list-head,
 .waytoagi-head {
@@ -506,6 +523,12 @@ summary:focus-visible {
   gap: 12px;
   border-bottom: 1px solid var(--line);
   background: var(--surface-soft);
+}
+
+/* WaytoAGI header 用对应的深档底色 */
+.waytoagi-head {
+  background: var(--surface-alt);
+  border-bottom-color: rgba(23, 23, 23, 0.1);
 }
 
 .bole-picks-head h2,
@@ -582,6 +605,31 @@ summary:focus-visible {
   color: var(--muted);
   font-size: 13px;
   line-height: 1.65;
+}
+
+.bole-more-btn,
+.list-more-btn {
+  display: block;
+  width: calc(100% - 32px);
+  margin: 0 16px 16px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+  color: var(--accent);
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 760;
+  min-height: 38px;
+}
+
+.bole-more-btn:hover,
+.list-more-btn:hover {
+  border-color: rgba(18, 106, 115, 0.38);
+  background: rgba(18, 106, 115, 0.06);
+}
+
+.list-more-btn {
+  margin-top: 12px;
 }
 
 .bole-board {
@@ -1058,10 +1106,19 @@ summary:focus-visible {
 .site-group {
   min-width: 0;
   border-top: 1px solid rgba(23, 23, 23, 0.08);
+  /* Isolate layout recalculation to within each site group */
+  contain: content;
 }
 
 .site-group:first-child {
   border-top: 0;
+}
+
+.list-loading {
+  padding: 18px 16px;
+  color: var(--muted);
+  font-size: 13px;
+  background: var(--surface-soft);
 }
 
 .site-group-head,
@@ -1293,7 +1350,7 @@ summary:focus-visible {
   border-radius: var(--radius);
   padding: 8px 10px;
   color: var(--ink);
-  background: var(--surface-soft);
+  background: var(--surface);   /* alt 版块里卡片用纯白，形成内部层次 */
 }
 
 .waytoagi-item .d {

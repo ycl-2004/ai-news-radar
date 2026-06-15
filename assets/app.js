@@ -19,6 +19,7 @@ const state = {
   generatedAt: null,
   dailyBrief: null,
   boleView: "hot",
+  boleExpanded: false,
 };
 
 const statsEl = document.getElementById("stats");
@@ -727,10 +728,26 @@ function renderBoleBrief(stories) {
 
   const list = document.createElement("div");
   list.className = "bole-compact-list bole-timeline";
-  sorted.forEach((story, index) => {
+  const defaultLimit = state.boleView === "hot" ? BOLE_HOT_LIMIT : BOLE_TIMELINE_LIMIT;
+  const visibleStories = state.boleExpanded ? sorted : sorted.slice(0, defaultLimit);
+  visibleStories.forEach((story, index) => {
     list.appendChild(buildStoryCard(story, index + 1));
   });
   bolePicksListEl.appendChild(list);
+
+  if (sorted.length > defaultLimit) {
+    const moreBtn = document.createElement("button");
+    moreBtn.type = "button";
+    moreBtn.className = "bole-more-btn";
+    moreBtn.textContent = state.boleExpanded
+      ? "收起"
+      : (state.boleView === "hot" ? "展开全部热点" : "展开完整时间线");
+    moreBtn.addEventListener("click", () => {
+      state.boleExpanded = !state.boleExpanded;
+      renderBolePicks();
+    });
+    bolePicksListEl.appendChild(moreBtn);
+  }
 
   const generatedAt = state.dailyBrief && state.dailyBrief.generated_at;
   bolePicksMetaEl.textContent = generatedAt ? `${metaLabel} · ${fmtTime(generatedAt)}` : metaLabel;
@@ -761,10 +778,22 @@ function renderBoleFallback(picks) {
   });
   const list = document.createElement("div");
   list.className = "bole-compact-list";
-  timelinePicks.forEach((row, index) => {
+  const visiblePicks = state.boleExpanded ? timelinePicks : timelinePicks.slice(0, BOLE_TIMELINE_LIMIT);
+  visiblePicks.forEach((row, index) => {
     list.appendChild(buildBoleTimelineRow(row, index + 1));
   });
   bolePicksListEl.appendChild(list);
+  if (timelinePicks.length > BOLE_TIMELINE_LIMIT) {
+    const moreBtn = document.createElement("button");
+    moreBtn.type = "button";
+    moreBtn.className = "bole-more-btn";
+    moreBtn.textContent = state.boleExpanded ? "收起" : "展开完整时间线";
+    moreBtn.addEventListener("click", () => {
+      state.boleExpanded = !state.boleExpanded;
+      renderBolePicks();
+    });
+    bolePicksListEl.appendChild(moreBtn);
+  }
   document.dispatchEvent(new CustomEvent("aiRadar:briefRendered"));
 }
 
@@ -828,7 +857,16 @@ function renderItemNode(item) {
   return node;
 }
 
-const GROUP_RENDER_CAP = 15;
+const SOURCE_ITEM_INITIAL_LIMIT = 8;
+const SOURCE_ITEM_LOAD_STEP = 10;
+const SITE_GROUP_INITIAL_LIMIT = 4;
+const SITE_GROUP_LOAD_STEP = 4;
+const SITE_SOURCE_GROUP_INITIAL_LIMIT = 4;
+const SITE_SOURCE_GROUP_LOAD_STEP = 4;
+const SOURCE_GROUP_INITIAL_LIMIT = 8;
+const SOURCE_GROUP_LOAD_STEP = 8;
+const BOLE_HOT_LIMIT = 5;
+const BOLE_TIMELINE_LIMIT = 8;
 
 function buildSourceGroupNode(source, items) {
   const section = document.createElement("section");
@@ -843,18 +881,33 @@ function buildSourceGroupNode(source, items) {
   listEl.className = "source-group-list";
   header.append(title, count);
   section.append(header, listEl);
-  // Render a capped slice up front; the rest of the nodes are only created
-  // on demand so an 800-item day cannot stall first paint.
-  items.slice(0, GROUP_RENDER_CAP).forEach((item) => listEl.appendChild(renderItemNode(item)));
-  const rest = items.slice(GROUP_RENDER_CAP);
-  if (rest.length) {
+
+  let rendered = 0;
+  const appendNextItems = () => {
+    const nextCount = rendered ? SOURCE_ITEM_LOAD_STEP : SOURCE_ITEM_INITIAL_LIMIT;
+    const next = items.slice(rendered, rendered + nextCount);
+    next.forEach((item) => listEl.appendChild(renderItemNode(item)));
+    rendered += next.length;
+  };
+
+  appendNextItems();
+
+  if (rendered < items.length) {
     const moreBtn = document.createElement("button");
     moreBtn.type = "button";
     moreBtn.className = "group-more-btn";
-    moreBtn.textContent = `展开剩余 ${fmtNumber(rest.length)} 条`;
+    const updateLabel = () => {
+      const nextCount = Math.min(SOURCE_ITEM_LOAD_STEP, items.length - rendered);
+      moreBtn.textContent = `再加载 ${fmtNumber(nextCount)} 条`;
+    };
+    updateLabel();
     moreBtn.addEventListener("click", () => {
-      rest.forEach((item) => listEl.appendChild(renderItemNode(item)));
-      moreBtn.remove();
+      appendNextItems();
+      if (rendered >= items.length) {
+        moreBtn.remove();
+      } else {
+        updateLabel();
+      }
     });
     section.append(moreBtn);
   }
@@ -874,58 +927,87 @@ function groupBySource(items) {
   return Array.from(groupMap.entries()).sort((a, b) => b[1].length - a[1].length || a[0].localeCompare(b[0], "zh-CN"));
 }
 
-function renderGroupedBySource(items) {
-  const groups = groupBySource(items);
-  const frag = document.createDocumentFragment();
+// Mobile-safe async rendering: avoid blocking the main thread on large lists.
+// We chunk site-groups and yield between each chunk so the browser can paint
+// and respond to touch events while the list is being built.
+let _renderListToken = 0;
 
-  groups.forEach(([source, groupItems]) => {
-    frag.appendChild(buildSourceGroupNode(source, groupItems));
-  });
+function buildSiteGroupNode(site) {
+  const siteSection = document.createElement("section");
+  siteSection.className = "site-group";
+  const header = document.createElement("header");
+  header.className = "site-group-head";
+  const title = document.createElement("h3");
+  title.textContent = site.siteName;
+  const count = document.createElement("span");
+  count.textContent = `${fmtNumber(site.items.length)} 条`;
+  const siteListEl = document.createElement("div");
+  siteListEl.className = "site-group-list";
+  header.append(title, count);
+  siteSection.append(header, siteListEl);
 
-  newsListEl.appendChild(frag);
+  const sourceGroups = groupBySource(site.items);
+  let sourceIdx = 0;
+  let moreBtn = null;
+  const appendNextSourceGroups = (count = SITE_SOURCE_GROUP_INITIAL_LIMIT) => {
+    const frag = document.createDocumentFragment();
+    sourceGroups.slice(sourceIdx, sourceIdx + count).forEach(([source, groupItems]) => {
+      frag.appendChild(buildSourceGroupNode(source, groupItems));
+    });
+    sourceIdx += count;
+    if (moreBtn) moreBtn.remove();
+    siteListEl.appendChild(frag);
+    if (sourceIdx < sourceGroups.length) {
+      const nextCount = Math.min(SITE_SOURCE_GROUP_LOAD_STEP, sourceGroups.length - sourceIdx);
+      moreBtn = addLoadMoreButton(siteSection, `加载更多分区（${fmtNumber(nextCount)} 个）`, () => {
+        appendNextSourceGroups(SITE_SOURCE_GROUP_LOAD_STEP);
+      });
+    }
+  };
+  appendNextSourceGroups();
+  return siteSection;
 }
 
-function renderGroupedBySiteAndSource(items) {
+function renderLoadingNotice(label, count) {
+  const loading = document.createElement("div");
+  loading.className = "list-loading";
+  loading.textContent = `正在整理 ${label} · ${fmtNumber(count)} 条`;
+  newsListEl.appendChild(loading);
+}
+
+function currentFilterLabel(filtered) {
+  if (state.siteFilter) {
+    const item = filtered[0];
+    const stat = currentSiteStats().find((s) => s.site_id === state.siteFilter);
+    return item?.site_name || stat?.site_name || state.siteFilter;
+  }
+  return state.mode === "all" ? "全量来源" : "AI 信号";
+}
+
+function groupedSites(items) {
   const siteMap = new Map();
   items.forEach((item) => {
     if (!siteMap.has(item.site_id)) {
-      siteMap.set(item.site_id, {
-        siteName: item.site_name || item.site_id,
-        items: [],
-      });
+      siteMap.set(item.site_id, { siteName: item.site_name || item.site_id, items: [] });
     }
     siteMap.get(item.site_id).items.push(item);
   });
 
-  const sites = Array.from(siteMap.entries()).sort((a, b) => {
+  return Array.from(siteMap.entries()).sort((a, b) => {
     const byCount = b[1].items.length - a[1].items.length;
     if (byCount !== 0) return byCount;
     return a[1].siteName.localeCompare(b[1].siteName, "zh-CN");
   });
+}
 
-  const frag = document.createDocumentFragment();
-  sites.forEach(([, site]) => {
-    const siteSection = document.createElement("section");
-    siteSection.className = "site-group";
-    const header = document.createElement("header");
-    header.className = "site-group-head";
-    const title = document.createElement("h3");
-    title.textContent = site.siteName;
-    const count = document.createElement("span");
-    count.textContent = `${fmtNumber(site.items.length)} 条`;
-    const siteListEl = document.createElement("div");
-    siteListEl.className = "site-group-list";
-    header.append(title, count);
-    siteSection.append(header, siteListEl);
-
-    const sourceGroups = groupBySource(site.items);
-    sourceGroups.forEach(([source, groupItems]) => {
-      siteListEl.appendChild(buildSourceGroupNode(source, groupItems));
-    });
-    frag.appendChild(siteSection);
-  });
-
-  newsListEl.appendChild(frag);
+function addLoadMoreButton(parent, label, onClick) {
+  const moreBtn = document.createElement("button");
+  moreBtn.type = "button";
+  moreBtn.className = "list-more-btn";
+  moreBtn.textContent = label;
+  moreBtn.addEventListener("click", onClick);
+  parent.appendChild(moreBtn);
+  return moreBtn;
 }
 
 function renderList() {
@@ -933,6 +1015,8 @@ function renderList() {
   resultCountEl.textContent = `${fmtNumber(filtered.length)} 条`;
 
   newsListEl.innerHTML = "";
+  _renderListToken += 1;           // invalidate any in-flight render
+  const token = _renderListToken;
 
   if (!filtered.length) {
     const empty = document.createElement("div");
@@ -942,12 +1026,64 @@ function renderList() {
     return;
   }
 
+  renderLoadingNotice(currentFilterLabel(filtered), filtered.length);
+
   if (state.siteFilter) {
-    renderGroupedBySource(filtered);
-  } else {
-    renderGroupedBySiteAndSource(filtered);
+    requestAnimationFrame(() => {
+      if (token !== _renderListToken) return;
+      const groups = groupBySource(filtered);
+      newsListEl.innerHTML = "";
+      let idx = 0;
+      let moreBtn = null;
+      const renderNextSourceGroups = (count = SOURCE_GROUP_INITIAL_LIMIT) => {
+        if (token !== _renderListToken) return;
+        const frag = document.createDocumentFragment();
+        groups.slice(idx, idx + count).forEach(([source, groupItems]) => {
+          frag.appendChild(buildSourceGroupNode(source, groupItems));
+        });
+        idx += count;
+        if (moreBtn) moreBtn.remove();
+        newsListEl.appendChild(frag);
+        if (idx < groups.length) {
+          const nextCount = Math.min(SOURCE_GROUP_LOAD_STEP, groups.length - idx);
+          moreBtn = addLoadMoreButton(newsListEl, `加载更多分区（${fmtNumber(nextCount)} 个）`, () => {
+            renderNextSourceGroups(SOURCE_GROUP_LOAD_STEP);
+          });
+        } else {
+          document.dispatchEvent(new CustomEvent("aiRadar:listRendered"));
+        }
+      };
+      renderNextSourceGroups();
+    });
+    return;
   }
-  document.dispatchEvent(new CustomEvent("aiRadar:listRendered"));
+
+  requestAnimationFrame(() => {
+    if (token !== _renderListToken) return;   // stale render, abort
+    const sites = groupedSites(filtered);
+    newsListEl.innerHTML = "";
+    let idx = 0;
+    let moreBtn = null;
+    const renderNextSites = (count = SITE_GROUP_INITIAL_LIMIT) => {
+      if (token !== _renderListToken) return;
+      const frag = document.createDocumentFragment();
+      sites.slice(idx, idx + count).forEach(([, site]) => {
+        frag.appendChild(buildSiteGroupNode(site));
+      });
+      idx += count;
+      if (moreBtn) moreBtn.remove();
+      newsListEl.appendChild(frag);
+      if (idx < sites.length) {
+        const nextCount = Math.min(SITE_GROUP_LOAD_STEP, sites.length - idx);
+        moreBtn = addLoadMoreButton(newsListEl, `加载更多来源（${fmtNumber(nextCount)} 个）`, () => {
+          renderNextSites(SITE_GROUP_LOAD_STEP);
+        });
+      } else {
+        document.dispatchEvent(new CustomEvent("aiRadar:listRendered"));
+      }
+    };
+    renderNextSites();
+  });
 }
 
 function waytoagiViews(waytoagi) {
@@ -1286,6 +1422,7 @@ if (waytoagi7dBtnEl) {
 if (boleHotBtnEl) {
   boleHotBtnEl.addEventListener("click", () => {
     state.boleView = "hot";
+    state.boleExpanded = false;
     renderBolePicks();
   });
 }
@@ -1293,6 +1430,7 @@ if (boleHotBtnEl) {
 if (boleTimelineBtnEl) {
   boleTimelineBtnEl.addEventListener("click", () => {
     state.boleView = "timeline";
+    state.boleExpanded = false;
     renderBolePicks();
   });
 }

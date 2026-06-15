@@ -21,7 +21,7 @@
       const brief = document.querySelector(".bole-picks-wrap");
       const cards = Array.from(document.querySelectorAll(".story-row, .bole-row")).slice(0, 24);
       if (brief) {
-        gsap.fromTo(brief, { autoAlpha: 0, y: 16 }, { autoAlpha: 1, y: 0, duration: 0.45, clearProps: "transform,opacity,visibility" });
+        gsap.fromTo(brief, { y: 12 }, { y: 0, duration: 0.35, clearProps: "transform" });
       }
       if (!cards.length) return;
       gsap.from(cards, { autoAlpha: 0, y: 16, scale: 0.98, stagger: 0.06, duration: 0.5, clearProps: "transform,opacity,visibility" });
@@ -34,14 +34,16 @@
       gsap.from(cards, { autoAlpha: 0, y: 12, stagger: 0.03, duration: 0.4, clearProps: "transform,opacity,visibility" });
     });
 
-    // Section scroll reveal via IntersectionObserver. Without IO, leave content visible.
+    // Section scroll reveal via IntersectionObserver. Keep sections visible:
+    // hiding whole content blocks can leave blank viewports after responsive
+    // reflow or rapid mobile scrolling.
     const revealEls = document.querySelectorAll(".bole-picks-wrap, .waytoagi-wrap, .list-wrap");
     if (revealEls.length && window.IntersectionObserver) {
-      gsap.set(revealEls, { autoAlpha: 0, y: 20 });
+      gsap.set(revealEls, { y: 14 });
       const observer = new IntersectionObserver(function (entries) {
         entries.forEach(function (entry) {
           if (entry.isIntersecting) {
-            gsap.to(entry.target, { autoAlpha: 1, y: 0, duration: 0.55, clearProps: "transform,opacity,visibility" });
+            gsap.to(entry.target, { y: 0, duration: 0.45, clearProps: "transform" });
             observer.unobserve(entry.target);
           }
         });
