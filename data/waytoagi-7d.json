@@ -1,45 +1,165 @@
 {
-  "generated_at": "2026-06-11T02:00:18.267711Z",
+  "generated_at": "2026-06-15T00:09:24.119395Z",
   "timezone": "Asia/Shanghai",
   "root_url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
   "history_url": "https://waytoagi.feishu.cn/wiki/FjiOwWp2giA7hRk6jjfcPioCnAc",
   "window_days": 7,
-  "latest_date": "2026-06-10",
+  "latest_date": "2026-06-14",
   "count_today": 6,
   "updates_today": [
     {
-      "date": "2026-06-10",
-      "title": "这期视频来自 Claude 官方频道，主讲人 Daisy Holman 是 Claude Code 团队工程师。她这次没有讲“怎么让 Claude Code 写一个小功能”，而是分享了几百、几千甚至上万名工程师共用一个代码库时，Agent 怎样才能进入真实工程系统：CLAUDE.md 如何做好、MCP 怎样接入、团队知识怎样包装成 skills、auto mode 如何安全使用。",
+      "date": "2026-06-14",
+      "title": "还在让各类干货在收藏夹里白白吃灰？这篇文章要讲的，就是怎么用一个开源工具，加上 Obsidian，把本地 AI 知识库彻底补齐。它还支持B站、YouTube视频自动转录文字，借助大模型产出高质量摘要、智能打标签并生成知识图谱，轻松把零散的内容沉淀为能高效复用的个人知识资产。",
       "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
     },
     {
-      "date": "2026-06-10",
-      "title": "最近大家都在讨论的循环工程让不少人一头雾水，这篇内容抛开专业黑话，用通俗思路带你拆解核心逻辑。值得收藏慢慢研究，或许也会改变你理解AI的方式。",
+      "date": "2026-06-14",
+      "title": "自主编码正在从“写出更好的提示词”，转向“设计更好的控制系统”。关键变化在于，工程师正在学习如何用目标、评测器、循环和产物把智能体包裹起来，让它们在人类停止输入之后仍能继续工作。本文基于一场 DAIR.AI Academy 关于自主长时间运行编码智能体的课程进行了全面解析。",
       "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
     },
     {
-      "date": "2026-06-10",
-      "title": "如果你同时用Claude Code、Cursor、Codex、Hermes等等，你一定经历过：Claude刚帮你定好\"文档要口语化\"，切到Cursor又要说一遍；Codex跑完重构，回Claude问\"刚才改了啥\"，它一脸懵。每个AI都很聪明，但它们互相不认识你。现在用一行命令，所有Agent都可以共享同一个大脑。快来试试！",
+      "date": "2026-06-14",
+      "title": "本周TOP10顶尖AI论文覆盖大模型注意力优化、智能体革新、行业实测研究等核心前沿。多款稀疏注意力算法攻克超长上下文算力、缓存成本难题，落地提速效果拉满；Self-Harness实现智能体架构自主迭代，大幅提升模型任务准确率。全新ALE基准贴合真实职场工作评测，摒弃无效学术跑分；还有智能体社会模拟、模型蒸馏、奖励体系革新等突破性研究。",
       "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
     },
     {
-      "date": "2026-06-10",
-      "title": "不少人用AI编程时习惯直接下达笼统指令，这样很容易造成项目失控。老金这套工作流给出了解法：由ChatGPT担任架构与项目管理，负责规划方向、拆分微型任务并制定项目规则；Codex专注执行单次任务、编写代码。通过规范多类项目文档，把任务拆解为5-10分钟即可验收的最小单元，严格控制改动范围。每轮执行后输出完整报告，同步项目状态。这样可以有效规避AI擅自新增功能、过度重构的问题，尤其适合中长期迭代项目。",
+      "date": "2026-06-14",
+      "title": "当下还在古法手搓代码的开发者都是在奔着非遗传承人的目标去了，绝大多数都已经用上了 Claude Code、Cursor 这类 Coding Agent。方向对了，但场景不同，解法也不同 —— 开发者自己在本地装个 AI 助手提效，和在组织内部搭起一套 AI 驱动的研发协作体系，是完全两个维度的事情。本文聊的就是如何构建组织级研发体系。",
       "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
     },
     {
-      "date": "2026-06-10",
-      "title": "Google 今天发布了其实时语音翻译模型： Gemini 3.5 Live Translate ，能在70多种语言之间做到边听边译，同时保留说话人的语调、节奏和音高。",
+      "date": "2026-06-14",
+      "title": "Mark Pincus 是Zynga创始人，做出过 FarmVille、Words With Friends、Zynga Poker 等消费级产品。他最近把过去五年整理成新书《Life at the Speed of Play》，这期访谈拆解了一套给产品经理、创始人和增长团队用的朴素方法：先找到用户已经理解的东西，再把它做得明显更好，最后只在最小的创新区下注。",
       "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
     },
     {
-      "date": "2026-06-10",
-      "title": "Claude重磅推出的Fable 5模型在代码开发、专业办公、法律医疗、数理推演等领域优势显著。小歪收集了一些测评案例，让我们一起来看看！",
+      "date": "2026-06-14",
+      "title": "AI Coding 让软件的边际成本越来越小，小到几乎不存在。那护城河还有什么？是增长。如今流量红利消退，增长不再是单一岗位的职责，而是产品、技术、运营等全员必备的底层能力。文章中拆解了新旧增长玩法，并分享了洞察、试错、分析、复盘、放大的完整增长闭环。",
       "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
     }
   ],
-  "count_7d": 39,
+  "count_7d": 36,
   "updates_7d": [
+    {
+      "date": "2026-06-14",
+      "title": "还在让各类干货在收藏夹里白白吃灰？这篇文章要讲的，就是怎么用一个开源工具，加上 Obsidian，把本地 AI 知识库彻底补齐。它还支持B站、YouTube视频自动转录文字，借助大模型产出高质量摘要、智能打标签并生成知识图谱，轻松把零散的内容沉淀为能高效复用的个人知识资产。",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
+    {
+      "date": "2026-06-14",
+      "title": "自主编码正在从“写出更好的提示词”，转向“设计更好的控制系统”。关键变化在于，工程师正在学习如何用目标、评测器、循环和产物把智能体包裹起来，让它们在人类停止输入之后仍能继续工作。本文基于一场 DAIR.AI Academy 关于自主长时间运行编码智能体的课程进行了全面解析。",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
+    {
+      "date": "2026-06-14",
+      "title": "本周TOP10顶尖AI论文覆盖大模型注意力优化、智能体革新、行业实测研究等核心前沿。多款稀疏注意力算法攻克超长上下文算力、缓存成本难题，落地提速效果拉满；Self-Harness实现智能体架构自主迭代，大幅提升模型任务准确率。全新ALE基准贴合真实职场工作评测，摒弃无效学术跑分；还有智能体社会模拟、模型蒸馏、奖励体系革新等突破性研究。",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
+    {
+      "date": "2026-06-14",
+      "title": "当下还在古法手搓代码的开发者都是在奔着非遗传承人的目标去了，绝大多数都已经用上了 Claude Code、Cursor 这类 Coding Agent。方向对了，但场景不同，解法也不同 —— 开发者自己在本地装个 AI 助手提效，和在组织内部搭起一套 AI 驱动的研发协作体系，是完全两个维度的事情。本文聊的就是如何构建组织级研发体系。",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
+    {
+      "date": "2026-06-14",
+      "title": "Mark Pincus 是Zynga创始人，做出过 FarmVille、Words With Friends、Zynga Poker 等消费级产品。他最近把过去五年整理成新书《Life at the Speed of Play》，这期访谈拆解了一套给产品经理、创始人和增长团队用的朴素方法：先找到用户已经理解的东西，再把它做得明显更好，最后只在最小的创新区下注。",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
+    {
+      "date": "2026-06-14",
+      "title": "AI Coding 让软件的边际成本越来越小，小到几乎不存在。那护城河还有什么？是增长。如今流量红利消退，增长不再是单一岗位的职责，而是产品、技术、运营等全员必备的底层能力。文章中拆解了新旧增长玩法，并分享了洞察、试错、分析、复盘、放大的完整增长闭环。",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
+    {
+      "date": "2026-06-13",
+      "title": "遇到Codex 反复重连别的情况，多数人会盲目重装、换账号。本篇文章给出一套完整的排查流程，以及相关的终端命令，教你一步步核查真实代理端口、验证网络链路、配置专属环境文件。",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
+    {
+      "date": "2026-06-13",
+      "title": "由郎瀚威 Will整理的2026年5月生成式AI产品数据榜单已发布，涵盖全球总榜Top100，出海总榜Top50，国内总榜Top80，美国大公司Top30，中国大公司Top30。让我们一起来看看相关数据！",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
+    {
+      "date": "2026-06-13",
+      "title": "有三个命令：/goal、/loop、/workflows。很多人把它们混为一谈，觉得都是\"让 Claude自己多干会儿\"。这是个误解。它们解决的根本不是同一个问题。/goal 回答的是\" 什么时候算干完 \"，/loop 回答的是\" 隔多久干一次 \"，/workflows 回答的是\" 一次铺开多少个 Claude 一起干 \"。一个管终点，一个管节奏，一个管规模。搞清楚这三个维度，你才知道手上的活该交给谁。",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
+    {
+      "date": "2026-06-13",
+      "title": "很多人第一次写 Skill，会下意识地写成一个更长的 Prompt。把背景、规则、注意事项、示例、参考资料，全都塞进一个 SKILL.md。看起来很完整，但实际并不好用。这篇文章就带大家拆解一下如何写出工业级的Skill。",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
+    {
+      "date": "2026-06-13",
+      "title": "作者拆解了大型语言模型到底是怎么构建出来的：ChatGPT、Claude 和 Gemini 背后的完整流程，并把它压缩成一张路线图。收藏这篇，保存下来。 读完之后，你会理解从原始互联网文本到一个能像助手一样回答问题的模型，中间精确经历的五阶段路径。",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
+    {
+      "date": "2026-06-13",
+      "title": "AI 进入公司后，最先被推翻的，常常是CEO的工作方式、公司的成本结构和整套组织边界。这期对话，让我们一起探究下背后的原因！",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
+    {
+      "date": "2026-06-13",
+      "title": "2026世界杯Skills，一个程序员决定用自己的方式看世界杯，让我们来看看他都做了些什么？",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
+    {
+      "date": "2026-06-12",
+      "title": "还在手动刷海外账号追踪SEO动态？作者这套自动化方案可以帮你轻松打破行业信息差。不仅可以自动抓取十余位海外SEO大咖与官方账号的内容，完成去重、筛除基础内容，还能每天以邮件形式推送精选干货。文中还附有可直接套用的指令、完整设置步骤，并梳理了各个账号的擅长领域。",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
+    {
+      "date": "2026-06-12",
+      "title": "臧师傅做了些爆款Skills以后，有一个越来越明确的判断：大家现在都在说Agent，但大多数人其实还没有真正理解Agent。大众理解里的Agent，往往还是一个聊天框。你输入一句话，它回答一段文字；你再输入一句，它继续回答。这篇万字长文，臧师傅就来聊聊他对Skills的看法。",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
+    {
+      "date": "2026-06-12",
+      "title": "在这一年里，作者发现了使用Claude的几十个技巧、快捷方式和方法。下面是他一直在用的 40 个技巧。按照节省时间的效果排序，从最能省时间的，到较小但能明显改善体验的。每一个都会立刻帮你省时间，快来试试！",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
+    {
+      "date": "2026-06-12",
+      "title": "创作能力是YouMind的立身之本。YouMind的创作能力覆盖写作、生图、音视频、幻灯片、网页、学习六大方向。YouMind在这六个创作能力中，都沉淀了这个领域的审美标准和创作 know-how，让用户在YouMind里产出的作品，比通用AI的水准更高。在 1.0 版本中，又对这六大能力都做了进一步的优化。这篇文章就和大家聊聊YouMind 1.0 具体做了什么、为什么这样做。",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
+    {
+      "date": "2026-06-12",
+      "title": "以前用AI，大家都是收藏Prompt，作者也存过不少。真正要用的时候，经常想不起来。Skill就解决这点，Agent需要的时候自己会调。但网上下载的Skill，经常跟你的实际情况差那么一点点。想自己做，又不知道怎么下手。这次不讲复杂概念，也不研究文件结构。作者只讲一个自己验证过的，最简单的，零基础创建Skill的方法。",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
+    {
+      "date": "2026-06-12",
+      "title": "Claude Code正式发布一周年，Claude Code 负责人Boris Cherny和产品负责人Cat Wu复盘这一年，讨论了工程团队的工作方式怎么变化：当 Agent 能运行、能验证、能写回经验，人的工作会从亲手执行，转向设计循环、挑选想法和守住边界。",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
+    {
+      "date": "2026-06-11",
+      "title": "热门记忆插件claude-mem可以给Claude Code加持永久记忆。作者深挖了背后的运行逻辑后，搭建出一个独立的共享记忆底座，成功打通Claude Code、Hermes、Codex三端数据。借助统一数据库采集操作日志，通过多层过滤剔除无效信息，再结合分级审核沉淀长效知识，搭配检索功能快速调取内容。文中附有完整架构、代码与分步落地流程。",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
+    {
+      "date": "2026-06-11",
+      "title": "模型越强，很多人反而更懵：到底该怎么写Prompt，才能把它用满？结合一份社区整理的 Fable 5 系统提示词，以及 Anthropic 官方文档的指引，作者这篇文章带大家一起探究下普通人怎么改 Prompt，让 Claude Code/Claude 聊天都更听话。",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
+    {
+      "date": "2026-06-11",
+      "title": "最近作者在 GitHub 上刷到一个很有意思的开源项目。让 Agent 学会自己组织技能这个项目叫 OpenSquilla，目前已经拿了 3700 多 Star。它的核心方向是 Harness 层优化，通过智能模型路由来降低 token 成本。最新推出的 MetaSkill 3.0，更是把 Agent 从「会调用工具」推进到了「会自组织技能、稳定交付工作流」。",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
+    {
+      "date": "2026-06-11",
+      "title": "Claude Fable 5 正限时免费开放，作者借助这款强力模型，打造出专属鲁班 Skill，一个专门升级Skill的Skill。它会核验核心价值、对标同行竞品、精准排查现有的短板，每一处改动都会经过验证把关。完成打磨后，你能拿到详尽的分析报告以及可复用的测试脚本与项目规范。",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
+    {
+      "date": "2026-06-11",
+      "title": "Arno 是Anthropic Applied AI 团队的架构师，他用一个真实 repo 演示了Anthropic 工程师怎样配置 Claude Code，怎样让它问问题、生成 HTML 规格稿、再把验证流程做进 React 组件和浏览器。但这不像是一篇“Claude Code 小技巧”合集，更像一份内部工作习惯的公开样本。",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
     {
       "date": "2026-06-10",
       "title": "这期视频来自 Claude 官方频道，主讲人 Daisy Holman 是 Claude Code 团队工程师。她这次没有讲“怎么让 Claude Code 写一个小功能”，而是分享了几百、几千甚至上万名工程师共用一个代码库时，Agent 怎样才能进入真实工程系统：CLAUDE.md 如何做好、MCP 怎样接入、团队知识怎样包装成 skills、auto mode 如何安全使用。",
@@ -98,141 +218,6 @@
     {
       "date": "2026-06-09",
       "title": "Anthropic 于 2026-06-09 发布 Claude Fable 5 与 Claude Mythos 5。Fable 5 是面向公众开放的 Mythos-class 模型，Mythos 5 使用同一底层模型，面向 Project Glasswing 与受信访问项目。Fable 5 在网络安全、生物化学、模型蒸馏等高风险场景触发安全分类器，并自动回退到 Claude Opus 4.8。文档已开放编辑权限，欢迎展示你的测试案例！",
-      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
-    },
-    {
-      "date": "2026-06-08",
-      "title": "阿真开源了自制的卡通IP桌宠工具，普通用户只需要替换对应状态的视频素材，就能快速打造专属的IP桌宠。有开发兴趣的玩家，也能基于现有框架深度二次开发。大家可以随心动手，打造独一无二的桌宠！",
-      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
-    },
-    {
-      "date": "2026-06-08",
-      "title": "这份周刊汇总了近期AI音乐圈一些热门动态、工具更新和前沿学术成果。Suno完成巨额融资并规划合规新模型，多款平台推出音色克隆、超低延迟实时演奏等实用功能，Ableton也开放了SDK降低音频工具二次开发门槛。腾讯联合业界推出音频编辑评测基准，直指当前模型精细操控的短板。此外多篇论文在歌声合成、视频配乐、实时伴奏等方向实现技术突破，还完成了多款开源模型横向对比。",
-      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
-    },
-    {
-      "date": "2026-06-08",
-      "title": "想要发挥Hermes Agent这款工具的效能，专属提示词与配置才是核心。作者分享了17套可直接套用的实战配置，还梳理出三类典型的使用误区，来帮大家轻松提高生产力！",
-      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
-    },
-    {
-      "date": "2026-06-08",
-      "title": "当下主流AI编程工具普遍存在任务假完成、分工混乱、成果难以验收等问题。老金的开源项目Meta_Kim以此为突破口，为各类AI编程工具叠加了一层任务治理能力。它会拆解复杂工作、明确权责边界，全程生成可追溯的报告与交付包，还能区分临时任务与长期能力，避免项目冗余膨胀。如果是需要长期维护项目、跨文件开发以及成果需要交接审核的开发者，可以上手试试。",
-      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
-    },
-    {
-      "date": "2026-06-08",
-      "title": "市面上字幕翻译工具普遍存在译文生硬、出错率高的问题。小互这款打磨半年的翻译工具针对性解决了这一痛点，翻译质量与稳定性也更有保障。输入视频链接即可自动完成下载、语音转写、翻译润色、内嵌字幕、导出文稿等全套操作。对于经常转载海外视频、制作字幕内容的创作者而言，是提升效率、保障内容质量的实用利器。",
-      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
-    },
-    {
-      "date": "2026-06-08",
-      "title": "内容创作者想必都深有体会，跨平台二次分发格外耗费精力，反复改写文案、调整风格十分繁琐。为此作者把自己\"博客转推文\"蒸馏成 Agent Skill。只需要导入原文，就能自动生成适配不同社交平台的文案，同时还会提炼传播亮点、匹配热点思路，并输出配图方案。",
-      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
-    },
-    {
-      "date": "2026-06-08",
-      "title": "Ryan Nystrom是Notion AI和Custom Agents的核心建设者之一，他直接摊开一条已经在Notion团队跑起来的工程工作流：会议prep交给agent，需求先沉淀成spec，再让Codex进仓库提PR、自测、回传截图，人把精力放回判断、验证和取舍。对很多还停在“让 AI 帮我补几行代码”的团队来说，这套流程已经更接近下一阶段的日常。",
-      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
-    },
-    {
-      "date": "2026-06-07",
-      "title": "这篇文章作者把写 Skill 踩过的坑、总结出的经验，再加上 Anthropic 官方的一些好做法，整理到了一起。希望能帮你少走弯路，把团队积累的知识真正\"喂\"给 AI，让它干活更靠谱。 本文示例以 Go 语言为主，兼顾 Python、Java 等语言，所有原则和技巧适用于任何编程语言。",
-      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
-    },
-    {
-      "date": "2026-06-07",
-      "title": "这一期采访的是 Tony Fadell，他参与创造了 iPod、iPhone 和 Nest 恒温器，拥有 300 多项专利，也写过一本面向产品人的书《Build》。这次对话横跨 iPhone 虚拟键盘、Nest 烟雾报警器、AI 硬件、深科技投资和产品伦理。对正在用 AI 做产品的人来说，本期对话最有价值的主线很锋利：AI 让构建变得便宜，产品人的品味、判断力、故事能力和责任感反而更贵。",
-      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
-    },
-    {
-      "date": "2026-06-07",
-      "title": "本周汇总的十篇顶尖AI论文，聚焦智能体、模型训练、科学推理等热门领域，刷新了不少行业的固有认知。多项研究证明，AI能力突破的关键是框架设计、反馈优化与系统交互策略，而非一味增加大模型、堆叠智能体数量。文中还有上下文治理、状态外置、新型表征学习等实用技术方案，配套专业基准测试与推理数据体系梳理。",
-      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
-    },
-    {
-      "date": "2026-06-07",
-      "title": "如果你在做设计、写内容、做课件、搭建网页主题，常常需要一套稳妥、好看、能直接使用的中国色参考，这个仓库就是为这件事整理的。这里收录 742 张中华传统色高清色卡，已按原始 742 色清单完整覆盖。每张色卡包含色名、HEX、RGB、CMYK、配色推荐和气质关键词。你可以在线浏览，也可以下载 ZIP，把它当作自己的传统色素材库。",
-      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
-    },
-    {
-      "date": "2026-06-07",
-      "title": "今年 4 月作者组装了一台小机器狗，从买零件、装结构，到最后它能听懂指令、走两步、还能对话几句。这篇文章写了这台机器狗的创造过程以及作者基于公开论文、官方博客、开源项目和第三方资料整理的学习笔记，希望能给在 AI 之外、也想了解具身智能的朋友，多一个工程师视角。",
-      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
-    },
-    {
-      "date": "2026-06-07",
-      "title": "一个好的system prompt，会把 Claude 从通用聊天机器人变成专门领域的专家，在你开口之前就知道你真正需要什么。过去几个月，作者一直在构建、测试、精炼 system prompt。下面是他经常使用的 30 个。每一个都对应一个具体使用场景。把适合你workflow的拿走即可。",
-      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
-    },
-    {
-      "date": "2026-06-06",
-      "title": "这次对话采访了在Anthropic负责Claude Code和Claude co-work设计的Meaghan Choi。她也亲历了Claude Code从内部小项目变成全球热门开发工具的过程。本期更像一份产品团队改造现场记录：角色边界、质量门槛、企业采用和 ROI，都被放进Claude Code的实际工作法里，尤其适合正在重写团队流程、评估AI工具落地的人读。",
-      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
-    },
-    {
-      "date": "2026-06-06",
-      "title": "这次AI切磋大会，我们也把主题定为了「Codex轻造物局」，让大家聚到线下，一起看看90分钟能做出什么有意思的东西。",
-      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
-    },
-    {
-      "date": "2026-06-06",
-      "title": "这场访谈对话揭秘了WaytoAGI从零崛起的故事，社区一直秉持免费开源理念，靠爱好者自发共建运营，落地了全国50+城线下活动、海外创客营地等等。这次对话中AJ分享了个人从业心态、AI行业趋势判断，以及普通人零基础入局的可行路径，也为AI学习者、独立创业者提供了真实参考与成长思路。",
-      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
-    },
-    {
-      "date": "2026-06-06",
-      "title": "最近“画线控制镜头”的AI视频玩法很有趣，但它对于涉及运镜顺序、位置顺序、时间顺序的镜头，比较考验提示词能力，镜头很难按你脑子里的轨迹跑。小歪给大家整理出了这篇教程，手把手带大家看看到底怎么做 （文末还很多不同的扩展玩法示例和bug解决方案）。",
-      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
-    },
-    {
-      "date": "2026-06-06",
-      "title": "如果你参与了文博会全球AI切磋盛典，不论你在台上还是幕后，在展区还是后勤，在策划组还是临时补位，这篇文章为你而写。如果你没有参与这场活动，但你在意一场复杂活动背后到底是谁在撑，这篇文章带你走一遍完整的执行链，还原每一种角色真实的样子。如果你在运营一个社区或者组织活动，这篇文章给你一套可以带走的方法：如何让那些不在聚光灯下的人，真正被看见。",
-      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
-    },
-    {
-      "date": "2026-06-06",
-      "title": "如果你也想要做AI工具出海却一直找不到起步方向，这篇文章或许能帮助到你。先切入小众细分赛道，然后借助广告、社群快速验证目标客户，通过深挖付费用户信息来精准锁定真实需求。另外从产品和流量双向拆解竞品数据，这样定出来的目标才是有对标、有路径、有节奏的 SEO 增长计划。",
-      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
-    },
-    {
-      "date": "2026-06-06",
-      "title": "一个月，接近 60K GitHub Star，全球30多个国家用户，340名贡献者，这个项目叫Open Design。这个数字放在Github开源历史上，20 天达到 50k Star + 的项目中，能排进全球前十。这次「未来硅世界 」 第17期直播邀请到Open Design 的创始人Tom聊了产品本身、技术路线、开源哲学，以及一些很少被公开讨论的实践细节。",
-      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
-    },
-    {
-      "date": "2026-06-05",
-      "title": "还在靠碎片化闲聊指挥AI敲代码的Vibe Coding模式已然落伍，随着Codex、Claude Code上线/goal指令，Goal Coding成为了新趋势。只需要写明落地的收尾标准，AI就能自主规划开发、自测改错，实现无人值守的长时间迭代。未来的核心不再是精妙提示词，而是精准定义项目收尾标准来帮开发者节省盯工耗时。",
-      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
-    },
-    {
-      "date": "2026-06-05",
-      "title": "最近，模型圈的节奏又加快了。 Opus 4.8、GPT-5.5、Qwen3.7-Plus、MiniMax M3 ，四款重量级模型几乎同时登场，想认真跟一遍都很难。冷逸用同一套任务、同一条提示词、同一个评分标准，全部接API走Claude Code/Codex测了一遍。覆盖了3D编程、视觉编程、游戏开发、Agent长程任务四大场景，来看看横评结果！",
-      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
-    },
-    {
-      "date": "2026-06-05",
-      "title": "扣子3.0升级以来，作为全新的 AI Agent 平台，越来越多的用户正在用扣子完成真实工作任务，也有很多人用来辅助投资理财、提供决策参考，让 Agent 来整理信息、追踪变化，并在一次次复盘中不断优化。 有一个用户把扣子接进了自己的日常 A 股交易辅助流程里， 盘前整理市场信息，盘中监控持仓变化，盘后复盘交易策略，再把每天的执行结果继续带回系统中迭代，收益获得大幅提升。",
-      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
-    },
-    {
-      "date": "2026-06-05",
-      "title": "很多人装完 Claude Code后，会经历一种很熟悉的落差。别人的分享里，它像一个高级工程师：读项目、拆任务、改代码、跑测试、做总结，一路顺滑。轮到自己这里，它却像一个刚入职但没人带的新人。Claude Code的很多差体验，根源不在模型本身，而在你没有给它搭 harness。所以别急着装更多Skill，也别急着换模型。先检查一件事：你的项目里，有没有一套让Claude Code稳定工作的四层约束。",
-      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
-    },
-    {
-      "date": "2026-06-05",
-      "title": "大多数人打开 Codex，看到聊天窗口，就把它当成一个界面更华丽的 ChatGPT。结果， 90%的用户 都错过了它真正强大的功能。他们 不会构建技能（Skills） ， 不会部署到线上 ， 不会让自动化任务在后台运行 。本文将用14个步骤，在30分钟内带你从空白文件夹搭建出完整可用的 AI 工作流。",
-      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
-    },
-    {
-      "date": "2026-06-05",
-      "title": "不少开发者被零散的Skill困扰，工具过多会造成无用的Token损耗，依托OpenSquilla的MetaSkill思路就能高效破局。将Superpowers套件打包成定制工作流后，实测Token用量降至原先的67%，搭配小模型前置任务分级、子Agent精简上下文，在长会话里既能保全历史信息，还可以精细化核算各项开销。",
-      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
-    },
-    {
-      "date": "2026-06-05",
-      "title": "Claude Code 本身已经挺好用了，但装对插件之后，它可以给开发者一个完整的开发环境：思考、测试、review、部署，一条龙下来不用切换工具。裸装的 Claude Code 有几个明显的问题：跨 session 没有记忆、不能实时访问网络、没法做浏览器测试、也缺一道安全门槛挡住危险代码。插件就是来补这些洞的。下面 10 个作者实际用下来觉得有帮助的，每个解决一个具体痛点。",
       "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
     }
   ],

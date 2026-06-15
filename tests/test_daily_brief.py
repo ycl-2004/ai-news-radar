@@ -47,8 +47,19 @@ def test_importance_score_favors_official_relevant_recent_items():
     assert official_score > discussion_score
 
 
-def test_daily_brief_respects_10_to_20_cap_when_enough_stories_exist():
-    items = [make_item(i, title=f"OpenAI releases distinct model platform update {i}") for i in range(25)]
+def test_daily_brief_respects_20_cap_when_enough_distinct_stories_exist():
+    # Titles must be genuinely distinct: same-cluster stories are now
+    # deliberately suppressed at selection time, so near-identical titles
+    # may no longer fill the brief.
+    subjects = [
+        "quantum annealing", "protein folding", "code review bots", "speech synthesis",
+        "robot grasping", "wafer yields", "vector databases", "edge inference",
+        "retrieval pipelines", "agent sandboxing", "diffusion video", "tokenizer design",
+        "kernel fusion", "sparse attention", "memory tiering", "eval harnesses",
+        "watermark detection", "policy gradients", "scene graphs", "voice cloning",
+        "data curation", "reward modeling", "chip packaging", "model routing", "cache layouts",
+    ]
+    items = [make_item(i, title=f"Briefing {i}: advances in {subjects[i]} reshape AI workloads") for i in range(25)]
     stories, _events = merge_story_items(items, NOW, 24, title_threshold=1.1)
 
     payload = build_daily_brief_payload(stories, generated_at="2026-06-02T12:00:00Z", window_hours=24)

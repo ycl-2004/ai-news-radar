@@ -5,8 +5,10 @@ from __future__ import annotations
 
 import re
 from typing import Any
+from urllib.parse import urlparse
 
 AI_KEYWORDS = [
+    "a.i.",
     "agent view",
     "agent skills",
     "for agents",
@@ -216,7 +218,14 @@ def score_ai_relevance(record: dict[str, Any]) -> dict[str, Any]:
     source = str(record.get("source") or "")
     site_name = str(record.get("site_name") or "")
     url = str(record.get("url") or "")
-    text = f"{title} {source} {site_name} {url}".lower()
+    # Keyword matching is substring-based, so only the URL host may participate:
+    # full URLs (e.g. Google News base64 paths) randomly contain substrings like
+    # "llm"/"gpt" and turn unrelated world news into "AI" items.
+    try:
+        url_host = (urlparse(url).netloc or "").lower()
+    except Exception:
+        url_host = ""
+    text = f"{title} {source} {site_name} {url_host}".lower()
 
     ai_signals = matched_keywords(text, AI_KEYWORDS)
     tech_signals = matched_keywords(text, TECH_KEYWORDS)

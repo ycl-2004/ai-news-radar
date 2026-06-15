@@ -3049,6 +3049,69 @@ def dedupe_items_by_title_url(items: list[dict[str, Any]], random_pick: bool = T
     return out
 
 
+def suppress_near_duplicate_items(
+    items: list[dict[str, Any]],
+    window_hours: float = 6.0,
+    similarity_threshold: float = 0.9,
+) -> list[dict[str, Any]]:
+    """Collapse near-identical items from the same site (rewritten syndication,
+    e.g. "推出法案" vs "推出立法") that exact title||url dedup cannot catch.
+    Keeps the more authoritative copy (tier, then ai_score, then earliest)."""
+
+    def quality(item: dict[str, Any]) -> tuple:
+        tier_rank = item.get("source_tier_rank")
+        try:
+            tier_rank = int(tier_rank)
+        except Exception:
+            tier_rank = 99
+        try:
+            score = float(item.get("ai_score") or 0)
+        except Exception:
+            score = 0.0
+        ts = event_time(item) or datetime.max.replace(tzinfo=UTC)
+        return (-tier_rank, score, -ts.timestamp())
+
+    by_site: dict[str, list[dict[str, Any]]] = {}
+    for item in items:
+        by_site.setdefault(str(item.get("site_id") or ""), []).append(item)
+
+    dropped_ids: set[str] = set()
+    for site_items in by_site.values():
+        ordered = sorted(site_items, key=lambda x: event_time(x) or datetime.min.replace(tzinfo=UTC))
+        kept: list[tuple[dict[str, Any], str, set[str], datetime | None]] = []
+        for item in ordered:
+            title = normalized_story_title(item)
+            tokens = title_tokens(title)
+            ts = event_time(item)
+            if not title_is_mergeable(title):
+                kept.append((item, title, tokens, ts))
+                continue
+            duplicate_of = None
+            for kept_entry in reversed(kept[-60:]):
+                other, other_title, other_tokens, other_ts = kept_entry
+                if ts and other_ts and abs((ts - other_ts).total_seconds()) / 3600 > window_hours:
+                    continue
+                if not tokens or not other_tokens:
+                    continue
+                jaccard = len(tokens & other_tokens) / len(tokens | other_tokens)
+                if jaccard < 0.5:
+                    continue
+                if title_similarity(title, other_title) >= similarity_threshold and story_titles_can_merge(title, other_title):
+                    duplicate_of = kept_entry
+                    break
+            if duplicate_of is None:
+                kept.append((item, title, tokens, ts))
+                continue
+            other = duplicate_of[0]
+            if quality(item) > quality(other):
+                dropped_ids.add(str(other.get("id") or id(other)))
+                kept[kept.index(duplicate_of)] = (item, title, tokens, ts)
+            else:
+                dropped_ids.add(str(item.get("id") or id(item)))
+
+    return [item for item in items if str(item.get("id") or id(item)) not in dropped_ids]
+
+
 def canonical_story_url(raw_url: str) -> str:
     normalized = normalize_url(raw_url)
     try:
@@ -3336,15 +3399,83 @@ def merge_story_items(
     return stories, events
 
 
+BRIEF_SCORE_GATE = 0.72
+
+
+def story_passes_brief_gate(story: dict[str, Any]) -> bool:
+    """宁缺毋滥: a story earns a brief slot via multi-source confirmation or a
+    strong score. Quiet days produce a short (possibly empty) brief instead of
+    a padded one."""
+    try:
+        sources = int(story.get("source_count") or 1)
+    except Exception:
+        sources = 1
+    try:
+        score = float(story.get("score") or 0)
+    except Exception:
+        score = 0.0
+    return sources >= 2 or score >= BRIEF_SCORE_GATE
+
+
+def select_diverse_stories(
+    stories: list[dict[str, Any]],
+    limit: int,
+    same_source_penalty: float = 0.03,
+) -> list[dict[str, Any]]:
+    """Greedy top-N by score with a per-source decay so one prolific source
+    cannot fill the brief, plus same-cluster suppression across the whole
+    window: a story whose title near-duplicates an already picked one is
+    skipped, so an event reposted hours apart (outside the merge window)
+    still occupies only one slot."""
+    candidates = sorted(stories, key=lambda story: (-float(story.get("score") or 0), str(story.get("title") or "")))
+    picked: list[dict[str, Any]] = []
+    picked_titles: list[tuple[str, set[str]]] = []
+    picked_per_source: dict[str, int] = {}
+    remaining = list(candidates)
+
+    def near_duplicate_of_picked(story: dict[str, Any]) -> bool:
+        title = normalized_story_title(story)
+        if not title_is_mergeable(title):
+            return False
+        tokens = title_tokens(title)
+        for other_title, other_tokens in picked_titles:
+            if not tokens or not other_tokens:
+                continue
+            if len(tokens & other_tokens) / len(tokens | other_tokens) < 0.4:
+                continue
+            if title_similarity(title, other_title) >= 0.86 and story_titles_can_merge(title, other_title):
+                return True
+        return False
+
+    while remaining and len(picked) < limit:
+        best_idx = -1
+        best_eff = float("-inf")
+        for idx, story in enumerate(remaining):
+            source = str(story.get("source") or story.get("source_name") or "")
+            eff = float(story.get("score") or 0) - same_source_penalty * picked_per_source.get(source, 0)
+            if eff > best_eff:
+                best_eff = eff
+                best_idx = idx
+        if best_idx < 0:
+            break
+        chosen = remaining.pop(best_idx)
+        if near_duplicate_of_picked(chosen):
+            continue
+        source = str(chosen.get("source") or chosen.get("source_name") or "")
+        picked_per_source[source] = picked_per_source.get(source, 0) + 1
+        picked.append(chosen)
+        picked_titles.append((normalized_story_title(chosen), title_tokens(normalized_story_title(chosen))))
+    return picked
+
+
 def build_daily_brief_payload(
     stories: list[dict[str, Any]],
     generated_at: str,
     window_hours: int,
-    min_items: int = 10,
     max_items: int = 20,
 ) -> dict[str, Any]:
-    limit = len(stories) if len(stories) < min_items else min(max_items, len(stories))
-    items = sorted(stories, key=lambda story: (-float(story.get("score") or 0), str(story.get("title") or "")))[:limit]
+    gated = [story for story in stories if story_passes_brief_gate(story)]
+    items = select_diverse_stories(gated, max_items)
     return {
         "generated_at": generated_at,
         "window_hours": window_hours,
@@ -3558,7 +3689,7 @@ def main() -> int:
         title_cache,
         max_new_translations=max(0, args.translate_max_new),
     )
-    latest_items_ai_dedup = dedupe_items_by_title_url(latest_items, random_pick=False)
+    latest_items_ai_dedup = suppress_near_duplicate_items(dedupe_items_by_title_url(latest_items, random_pick=False))
     latest_items_all_dedup = dedupe_items_by_title_url(latest_items_all, random_pick=True)
     stories, merge_events = merge_story_items(latest_items_ai_dedup, now=now, window_hours=args.window_hours)
     generated_at = iso(now)
