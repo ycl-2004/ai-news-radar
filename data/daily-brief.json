@@ -1,8 +1,150 @@
 {
-  "generated_at": "2026-06-15T20:01:44.205150Z",
+  "generated_at": "2026-06-15T22:33:19.771984Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
+    {
+      "story_id": "story_a0a0e0166090",
+      "title": "GitHub Copilot CLI 初学者指南：常用斜杠命令概览 / GitHub Copilot CLI for Beginners: Overview of common slash commands",
+      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-overview-of-common-slash-commands",
+      "primary_url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-overview-of-common-slash-commands",
+      "source": "GitHub AI & ML",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "4597e6efe5644bd3b9eb75c03607d3ab2f61e88c",
+          "title": "GitHub Copilot CLI 初学者指南：常用斜杠命令概览 / GitHub Copilot CLI for Beginners: Overview of common slash commands",
+          "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-overview-of-common-slash-commands",
+          "source": "GitHub AI & ML",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-15T20:15:31Z"
+        },
+        {
+          "id": "6d49ce5664877bef9168d7573758031c5b7c6aa0",
+          "title": "GitHub Copilot CLI 初学者指南：常用斜杠命令概览",
+          "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-overview-of-common-slash-commands",
+          "source": "GitHub Blog",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-15T20:15:31Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "GitHub AI & ML",
+        "GitHub Blog"
+      ],
+      "items": [
+        {
+          "id": "4597e6efe5644bd3b9eb75c03607d3ab2f61e88c",
+          "title": "GitHub Copilot CLI 初学者指南：常用斜杠命令概览 / GitHub Copilot CLI for Beginners: Overview of common slash commands",
+          "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-overview-of-common-slash-commands",
+          "source": "GitHub AI & ML",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-15T20:15:31Z"
+        },
+        {
+          "id": "6d49ce5664877bef9168d7573758031c5b7c6aa0",
+          "title": "GitHub Copilot CLI 初学者指南：常用斜杠命令概览",
+          "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-overview-of-common-slash-commands",
+          "source": "GitHub Blog",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-15T20:15:31Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.8789,
+      "importance": 0.8789,
+      "importance_score": 0.8789,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.9043,
+        "story_heat": 0.25
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-15T20:15:31Z",
+      "latest_at": "2026-06-15T20:15:31Z",
+      "primary_item": {
+        "id": "4597e6efe5644bd3b9eb75c03607d3ab2f61e88c",
+        "title": "GitHub Copilot CLI 初学者指南：常用斜杠命令概览 / GitHub Copilot CLI for Beginners: Overview of common slash commands",
+        "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-overview-of-common-slash-commands",
+        "source": "GitHub AI & ML",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_042063394e36",
+      "title": "Copilot 使用指标现在包括更多的活跃用户 / Copilot usage metrics now include more of your active users",
+      "url": "https://github.blog/changelog/2026-06-15-copilot-usage-metrics-now-include-more-of-your-active-users",
+      "primary_url": "https://github.blog/changelog/2026-06-15-copilot-usage-metrics-now-include-more-of-your-active-users",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "eb69f5ca509e83dc3f7dc08ed4deca827f145576",
+          "title": "Copilot 使用指标现在包括更多的活跃用户 / Copilot usage metrics now include more of your active users",
+          "url": "https://github.blog/changelog/2026-06-15-copilot-usage-metrics-now-include-more-of-your-active-users",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-15T21:30:13Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "items": [
+        {
+          "id": "eb69f5ca509e83dc3f7dc08ed4deca827f145576",
+          "title": "Copilot 使用指标现在包括更多的活跃用户 / Copilot usage metrics now include more of your active users",
+          "url": "https://github.blog/changelog/2026-06-15-copilot-usage-metrics-now-include-more-of-your-active-users",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-15T21:30:13Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8642,
+      "importance": 0.8642,
+      "importance_score": 0.8642,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.9562,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-15T21:30:13Z",
+      "latest_at": "2026-06-15T21:30:13Z",
+      "primary_item": {
+        "id": "eb69f5ca509e83dc3f7dc08ed4deca827f145576",
+        "title": "Copilot 使用指标现在包括更多的活跃用户 / Copilot usage metrics now include more of your active users",
+        "url": "https://github.blog/changelog/2026-06-15-copilot-usage-metrics-now-include-more-of-your-active-users",
+        "source": "GitHub Changelog",
+        "source_name": "Official AI Updates"
+      }
+    },
     {
       "story_id": "story_642cd4136432",
       "title": "利用新的开放数据集加速研究人员和开发人员构建多语言人工智能 / Accelerating researchers and developers building multilingual AI with a new open dataset",
@@ -38,14 +180,14 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8639,
-      "importance": 0.8639,
-      "importance_score": 0.8639,
+      "score": 0.8428,
+      "importance": 0.8428,
+      "importance_score": 0.8428,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "source_tier": 1.0,
         "ai_relevance": 0.9,
-        "recency": 0.9693,
+        "recency": 0.864,
         "story_heat": 0.0
       },
       "category": "official",
@@ -118,14 +260,14 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8244,
-      "importance": 0.8244,
-      "importance_score": 0.8244,
+      "score": 0.8033,
+      "importance": 0.8033,
+      "importance_score": 0.8033,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.937,
+        "recency": 0.8317,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -179,14 +321,14 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7974,
-      "importance": 0.7974,
-      "importance_score": 0.7974,
+      "score": 0.7764,
+      "importance": 0.7764,
+      "importance_score": 0.7764,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9271,
+        "recency": 0.8218,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -239,14 +381,14 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7903,
-      "importance": 0.7903,
-      "importance_score": 0.7903,
+      "score": 0.7692,
+      "importance": 0.7692,
+      "importance_score": 0.7692,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8914,
+        "recency": 0.7861,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -299,14 +441,14 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7761,
-      "importance": 0.7761,
-      "importance_score": 0.7761,
+      "score": 0.755,
+      "importance": 0.755,
+      "importance_score": 0.755,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8204,
+        "recency": 0.7151,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -359,20 +501,19 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7673,
-      "importance": 0.7673,
-      "importance_score": 0.7673,
+      "score": 0.7463,
+      "importance": 0.7463,
+      "importance_score": 0.7463,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7766,
+        "recency": 0.6713,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-06-15T14:40:02Z",
       "latest_at": "2026-06-15T14:40:02Z",
@@ -419,20 +560,19 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7618,
-      "importance": 0.7618,
-      "importance_score": 0.7618,
+      "score": 0.7407,
+      "importance": 0.7407,
+      "importance_score": 0.7407,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7488,
+        "recency": 0.6435,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-06-15T14:00:00Z",
       "latest_at": "2026-06-15T14:00:00Z",
@@ -498,14 +638,14 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7916,
-      "importance": 0.7916,
-      "importance_score": 0.7916,
+      "score": 0.7705,
+      "importance": 0.7705,
+      "importance_score": 0.7705,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7729,
+        "recency": 0.6677,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -522,301 +662,6 @@
         "url": "https://techcrunch.com/2026/06/15/salesforce-acquires-ai-customer-service-platform-fin-for-3-6b",
         "source": "TechCrunch：AI（RSS）",
         "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_062e0964122e",
-      "title": "AI合规再升级：Anthropic拟对全量用户实施身份认证",
-      "url": "https://www.aibase.com/news/28928",
-      "primary_url": "https://www.aibase.com/news/28928",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "b3cb81dcd52fd98b150b57d7b5d5e78df635021f",
-          "title": "AI合规再升级：Anthropic拟对全量用户实施身份认证",
-          "url": "https://www.aibase.com/news/28928",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-15T10:51:23.211108Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "b3cb81dcd52fd98b150b57d7b5d5e78df635021f",
-          "title": "AI合规再升级：Anthropic拟对全量用户实施身份认证",
-          "url": "https://www.aibase.com/news/28928",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-15T10:51:23.211108Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7356,
-      "importance": 0.7356,
-      "importance_score": 0.7356,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.6178,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-15T10:51:23.211108Z",
-      "latest_at": "2026-06-15T10:51:23.211108Z",
-      "primary_item": {
-        "id": "b3cb81dcd52fd98b150b57d7b5d5e78df635021f",
-        "title": "AI合规再升级：Anthropic拟对全量用户实施身份认证",
-        "url": "https://www.aibase.com/news/28928",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      }
-    },
-    {
-      "story_id": "story_e963c9a71cef",
-      "title": "6倍速！Kimi K2.7 Code 高速版已上线",
-      "url": "https://mp.weixin.qq.com/s/p87ebkY1xqKtkGZ2N3DGSw",
-      "primary_url": "https://mp.weixin.qq.com/s/p87ebkY1xqKtkGZ2N3DGSw",
-      "source": "公众号：月之暗面（Kimi）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "da616837a3c88ace6859ebdef39020fee1f47951",
-          "title": "6倍速！Kimi K2.7 Code 高速版已上线",
-          "url": "https://mp.weixin.qq.com/s/p87ebkY1xqKtkGZ2N3DGSw",
-          "source": "公众号：月之暗面（Kimi）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-15T10:26:06Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "公众号：月之暗面（Kimi）"
-      ],
-      "items": [
-        {
-          "id": "da616837a3c88ace6859ebdef39020fee1f47951",
-          "title": "6倍速！Kimi K2.7 Code 高速版已上线",
-          "url": "https://mp.weixin.qq.com/s/p87ebkY1xqKtkGZ2N3DGSw",
-          "source": "公众号：月之暗面（Kimi）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-15T10:26:06Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7321,
-      "importance": 0.7321,
-      "importance_score": 0.7321,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.6003,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-15T10:26:06Z",
-      "latest_at": "2026-06-15T10:26:06Z",
-      "primary_item": {
-        "id": "da616837a3c88ace6859ebdef39020fee1f47951",
-        "title": "6倍速！Kimi K2.7 Code 高速版已上线",
-        "url": "https://mp.weixin.qq.com/s/p87ebkY1xqKtkGZ2N3DGSw",
-        "source": "公众号：月之暗面（Kimi）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_dd3dba306dd4",
-      "title": "Flash-KMeans：IO感知的精确K-Means，在GPU上比FAISS快200倍以上",
-      "url": "https://www.marktechpost.com/2026/06/15/meet-flash-kmeans-an-io-aware-exact-k-means-that-runs-over-200x-faster-than-faiss-on-gpus",
-      "primary_url": "https://www.marktechpost.com/2026/06/15/meet-flash-kmeans-an-io-aware-exact-k-means-that-runs-over-200x-faster-than-faiss-on-gpus",
-      "source": "MarkTechPost（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "0c8cbf240284a0133d1adf4430d97efbb8e962eb",
-          "title": "Flash-KMeans：IO感知的精确K-Means，在GPU上比FAISS快200倍以上",
-          "url": "https://www.marktechpost.com/2026/06/15/meet-flash-kmeans-an-io-aware-exact-k-means-that-runs-over-200x-faster-than-faiss-on-gpus",
-          "source": "MarkTechPost（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-15T09:16:09Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "MarkTechPost（RSS）"
-      ],
-      "items": [
-        {
-          "id": "0c8cbf240284a0133d1adf4430d97efbb8e962eb",
-          "title": "Flash-KMeans：IO感知的精确K-Means，在GPU上比FAISS快200倍以上",
-          "url": "https://www.marktechpost.com/2026/06/15/meet-flash-kmeans-an-io-aware-exact-k-means-that-runs-over-200x-faster-than-faiss-on-gpus",
-          "source": "MarkTechPost（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-15T09:16:09Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7223,
-      "importance": 0.7223,
-      "importance_score": 0.7223,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.5517,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-15T09:16:09Z",
-      "latest_at": "2026-06-15T09:16:09Z",
-      "primary_item": {
-        "id": "0c8cbf240284a0133d1adf4430d97efbb8e962eb",
-        "title": "Flash-KMeans：IO感知的精确K-Means，在GPU上比FAISS快200倍以上",
-        "url": "https://www.marktechpost.com/2026/06/15/meet-flash-kmeans-an-io-aware-exact-k-means-that-runs-over-200x-faster-than-faiss-on-gpus",
-        "source": "MarkTechPost（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_538ab92a01d9",
-      "title": "AI圈大反转：巴西“黑马”模型Rio 3. 5 被曝“套壳”国产大模型",
-      "url": "https://www.aibase.com/news/28919",
-      "primary_url": "https://www.aibase.com/news/28919",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "2eb5b00a9c4de4b20cb4a740c449d3fe6c5f5413",
-          "title": "AI圈大反转：巴西“黑马”模型Rio 3. 5 被曝“套壳”国产大模型",
-          "url": "https://www.aibase.com/news/28919",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-15T10:51:23.211108Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "2eb5b00a9c4de4b20cb4a740c449d3fe6c5f5413",
-          "title": "AI圈大反转：巴西“黑马”模型Rio 3. 5 被曝“套壳”国产大模型",
-          "url": "https://www.aibase.com/news/28919",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-15T10:51:23.211108Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7356,
-      "importance": 0.7356,
-      "importance_score": 0.7356,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.6178,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-15T10:51:23.211108Z",
-      "latest_at": "2026-06-15T10:51:23.211108Z",
-      "primary_item": {
-        "id": "2eb5b00a9c4de4b20cb4a740c449d3fe6c5f5413",
-        "title": "AI圈大反转：巴西“黑马”模型Rio 3. 5 被曝“套壳”国产大模型",
-        "url": "https://www.aibase.com/news/28919",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      }
-    },
-    {
-      "story_id": "story_40b4b01e490b",
-      "title": "AI音乐视频创作新风向：立刻MV 1. 1 版本实现“一键成片”跨越",
-      "url": "https://www.aibase.com/news/28912",
-      "primary_url": "https://www.aibase.com/news/28912",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "aa29d1d34f448da5544df63e473f2f393eb33be9",
-          "title": "AI音乐视频创作新风向：立刻MV 1. 1 版本实现“一键成片”跨越",
-          "url": "https://www.aibase.com/news/28912",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-15T10:51:23.211108Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "aa29d1d34f448da5544df63e473f2f393eb33be9",
-          "title": "AI音乐视频创作新风向：立刻MV 1. 1 版本实现“一键成片”跨越",
-          "url": "https://www.aibase.com/news/28912",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-15T10:51:23.211108Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7356,
-      "importance": 0.7356,
-      "importance_score": 0.7356,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.6178,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-15T10:51:23.211108Z",
-      "latest_at": "2026-06-15T10:51:23.211108Z",
-      "primary_item": {
-        "id": "aa29d1d34f448da5544df63e473f2f393eb33be9",
-        "title": "AI音乐视频创作新风向：立刻MV 1. 1 版本实现“一键成片”跨越",
-        "url": "https://www.aibase.com/news/28912",
-        "source": "AIbase",
-        "source_name": "AIbase"
       }
     },
     {
@@ -873,17 +718,17 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.732,
-      "importance": 0.732,
-      "importance_score": 0.732,
-      "importance_label": "行业动态",
+      "score": 0.7109,
+      "importance": 0.7109,
+      "importance_score": 0.7109,
+      "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.475,
+        "recency": 0.3697,
         "story_heat": 0.25
       },
-      "category": "industry",
+      "category": "watch",
       "reasons": [
         "multi_source",
         "high_ai_relevance"
@@ -899,180 +744,449 @@
       }
     },
     {
-      "story_id": "story_016e0f1f666d",
-      "title": "OpenAI豪掷1. 5 亿美元：构建全球合作伙伴网络，深耕企业AI落地",
-      "url": "https://www.aibase.com/news/28929",
-      "primary_url": "https://www.aibase.com/news/28929",
-      "source": "AIbase",
-      "source_name": "AIbase",
+      "story_id": "story_5e2758934aec",
+      "title": "欧洲能否利用自身拥有的计算资源来训练前沿的人工智能模型？",
+      "url": "https://github.com/sammysltd/euromesh",
+      "primary_url": "https://github.com/sammysltd/euromesh",
+      "source": "github.com",
+      "source_name": "Buzzing",
       "sources": [
         {
-          "id": "f01dab2f7973e830ace7e0ad3c6bce5c1fe1c5b0",
-          "title": "OpenAI豪掷1. 5 亿美元：构建全球合作伙伴网络，深耕企业AI落地",
-          "url": "https://www.aibase.com/news/28929",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-15T10:51:23.211108Z"
+          "id": "c90bde8cd6580aa5f8cf4c3ab050066b54720235",
+          "title": "欧洲能否利用自身拥有的计算资源来训练前沿的人工智能模型？",
+          "url": "https://github.com/sammysltd/euromesh",
+          "source": "github.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T21:17:10.930000Z"
+        },
+        {
+          "id": "cc90249e02712bffd196b438b059bfa8ce60770b",
+          "title": "Show HN：欧洲能否在其拥有的计算上训练前沿人工智能模型？ / Show HN: Can Europe train a frontier AI model on the compute it owns?",
+          "url": "https://news.ycombinator.com/item?id=48541014",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-15T15:49:20.111000Z"
+        },
+        {
+          "id": "dc0f56ed653d3bd279c275099eb7025e8a6c7ab5",
+          "title": "欧洲能否利用自身拥有的计算资源来训练前沿的人工智能模型？ / Can Europe train a frontier AI model on the compute it owns?",
+          "url": "https://github.com/sammysltd/euromesh",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-15T13:31:09Z"
+        },
+        {
+          "id": "ffd4c7a35a76b6efae1c78899bcc440225d708f6",
+          "title": "欧洲能否利用自身拥有的计算资源来训练前沿的人工智能模型？ / Show HN: Can Europe train a frontier AI model on the compute it owns?",
+          "url": "https://github.com/sammysltd/euromesh",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-15T13:31:09Z"
         }
       ],
-      "source_count": 1,
+      "source_count": 4,
       "source_names": [
-        "AIbase"
+        "Hacker News (黑客新闻)",
+        "Hacker News · 24h最热",
+        "github.com",
+        "hackernews"
       ],
       "items": [
         {
-          "id": "f01dab2f7973e830ace7e0ad3c6bce5c1fe1c5b0",
-          "title": "OpenAI豪掷1. 5 亿美元：构建全球合作伙伴网络，深耕企业AI落地",
-          "url": "https://www.aibase.com/news/28929",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-15T10:51:23.211108Z"
+          "id": "c90bde8cd6580aa5f8cf4c3ab050066b54720235",
+          "title": "欧洲能否利用自身拥有的计算资源来训练前沿的人工智能模型？",
+          "url": "https://github.com/sammysltd/euromesh",
+          "source": "github.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T21:17:10.930000Z"
+        },
+        {
+          "id": "cc90249e02712bffd196b438b059bfa8ce60770b",
+          "title": "Show HN：欧洲能否在其拥有的计算上训练前沿人工智能模型？ / Show HN: Can Europe train a frontier AI model on the compute it owns?",
+          "url": "https://news.ycombinator.com/item?id=48541014",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-15T15:49:20.111000Z"
+        },
+        {
+          "id": "dc0f56ed653d3bd279c275099eb7025e8a6c7ab5",
+          "title": "欧洲能否利用自身拥有的计算资源来训练前沿的人工智能模型？ / Can Europe train a frontier AI model on the compute it owns?",
+          "url": "https://github.com/sammysltd/euromesh",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-15T13:31:09Z"
+        },
+        {
+          "id": "ffd4c7a35a76b6efae1c78899bcc440225d708f6",
+          "title": "欧洲能否利用自身拥有的计算资源来训练前沿的人工智能模型？ / Show HN: Can Europe train a frontier AI model on the compute it owns?",
+          "url": "https://github.com/sammysltd/euromesh",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-15T13:31:09Z"
         }
       ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7356,
-      "importance": 0.7356,
-      "importance_score": 0.7356,
-      "importance_label": "行业动态",
+      "item_count": 4,
+      "duplicate_count": 4,
+      "score": 0.5874,
+      "importance": 0.5874,
+      "importance_score": 0.5874,
+      "importance_label": "多源热议",
       "importance_breakdown": {
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.6178,
-        "story_heat": 0.0
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9471,
+        "story_heat": 0.75
       },
-      "category": "industry",
+      "category": "multi_source",
       "reasons": [
-        "high_ai_relevance"
+        "multi_source"
       ],
-      "earliest_at": "2026-06-15T10:51:23.211108Z",
-      "latest_at": "2026-06-15T10:51:23.211108Z",
+      "earliest_at": "2026-06-15T13:31:09Z",
+      "latest_at": "2026-06-15T21:17:10.930000Z",
       "primary_item": {
-        "id": "f01dab2f7973e830ace7e0ad3c6bce5c1fe1c5b0",
-        "title": "OpenAI豪掷1. 5 亿美元：构建全球合作伙伴网络，深耕企业AI落地",
-        "url": "https://www.aibase.com/news/28929",
-        "source": "AIbase",
-        "source_name": "AIbase"
+        "id": "c90bde8cd6580aa5f8cf4c3ab050066b54720235",
+        "title": "欧洲能否利用自身拥有的计算资源来训练前沿的人工智能模型？",
+        "url": "https://github.com/sammysltd/euromesh",
+        "source": "github.com",
+        "source_name": "Buzzing"
       }
     },
     {
-      "story_id": "story_8ebcbe61282c",
-      "title": "​巴西AI黑马Rio 3. 5 翻车：被指套壳缝合两款国产大模型",
-      "url": "https://www.aibase.com/news/28913",
-      "primary_url": "https://www.aibase.com/news/28913",
-      "source": "AIbase",
-      "source_name": "AIbase",
+      "story_id": "story_961216d0cb72",
+      "title": "Show HN：兽医变身人工智能草坪诊断创始人 / Show HN: Vet turned founder, AI lawn diagnosis",
+      "url": "https://news.ycombinator.com/item?id=48544823",
+      "primary_url": "https://news.ycombinator.com/item?id=48544823",
+      "source": "hackernews",
+      "source_name": "NewsNow",
       "sources": [
         {
-          "id": "05992a0437339a069ef1859f023aa45a1eeb46a9",
-          "title": "​巴西AI黑马Rio 3. 5 翻车：被指套壳缝合两款国产大模型",
-          "url": "https://www.aibase.com/news/28913",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-15T10:51:23.211108Z"
+          "id": "4800678406d2cf1cf1476054bd4f8b4438c65a40",
+          "title": "Show HN：兽医变身人工智能草坪诊断创始人 / Show HN: Vet turned founder, AI lawn diagnosis",
+          "url": "https://news.ycombinator.com/item?id=48544823",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-15T22:20:28.353000Z"
+        },
+        {
+          "id": "1ee3c5aca98fee78d51e0c1a127931eb7cc20436",
+          "title": "Show HN: 从兽医转型为创始人，人工智能草坪诊断",
+          "url": "https://grassdx.com",
+          "source": "grassdx.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T18:05:08.270000Z"
+        },
+        {
+          "id": "dd1ffd650cd6da8713503132ea26382749302485",
+          "title": "Show HN: 从兽医转型为创始人，人工智能草坪诊断 / Show HN: Vet turned founder, AI lawn diagnosis",
+          "url": "https://grassdx.com",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-15T17:56:00Z"
         }
       ],
-      "source_count": 1,
+      "source_count": 3,
       "source_names": [
-        "AIbase"
+        "Hacker News",
+        "grassdx.com",
+        "hackernews"
       ],
       "items": [
         {
-          "id": "05992a0437339a069ef1859f023aa45a1eeb46a9",
-          "title": "​巴西AI黑马Rio 3. 5 翻车：被指套壳缝合两款国产大模型",
-          "url": "https://www.aibase.com/news/28913",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-15T10:51:23.211108Z"
+          "id": "4800678406d2cf1cf1476054bd4f8b4438c65a40",
+          "title": "Show HN：兽医变身人工智能草坪诊断创始人 / Show HN: Vet turned founder, AI lawn diagnosis",
+          "url": "https://news.ycombinator.com/item?id=48544823",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-15T22:20:28.353000Z"
+        },
+        {
+          "id": "1ee3c5aca98fee78d51e0c1a127931eb7cc20436",
+          "title": "Show HN: 从兽医转型为创始人，人工智能草坪诊断",
+          "url": "https://grassdx.com",
+          "source": "grassdx.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T18:05:08.270000Z"
+        },
+        {
+          "id": "dd1ffd650cd6da8713503132ea26382749302485",
+          "title": "Show HN: 从兽医转型为创始人，人工智能草坪诊断 / Show HN: Vet turned founder, AI lawn diagnosis",
+          "url": "https://grassdx.com",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-15T17:56:00Z"
         }
       ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7356,
-      "importance": 0.7356,
-      "importance_score": 0.7356,
-      "importance_label": "行业动态",
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.5712,
+      "importance": 0.5712,
+      "importance_score": 0.5712,
+      "importance_label": "多源热议",
       "importance_breakdown": {
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.6178,
-        "story_heat": 0.0
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9911,
+        "story_heat": 0.5
       },
-      "category": "industry",
+      "category": "multi_source",
       "reasons": [
-        "high_ai_relevance"
+        "multi_source"
       ],
-      "earliest_at": "2026-06-15T10:51:23.211108Z",
-      "latest_at": "2026-06-15T10:51:23.211108Z",
+      "earliest_at": "2026-06-15T17:56:00Z",
+      "latest_at": "2026-06-15T22:20:28.353000Z",
       "primary_item": {
-        "id": "05992a0437339a069ef1859f023aa45a1eeb46a9",
-        "title": "​巴西AI黑马Rio 3. 5 翻车：被指套壳缝合两款国产大模型",
-        "url": "https://www.aibase.com/news/28913",
-        "source": "AIbase",
-        "source_name": "AIbase"
+        "id": "4800678406d2cf1cf1476054bd4f8b4438c65a40",
+        "title": "Show HN：兽医变身人工智能草坪诊断创始人 / Show HN: Vet turned founder, AI lawn diagnosis",
+        "url": "https://news.ycombinator.com/item?id=48544823",
+        "source": "hackernews",
+        "source_name": "NewsNow"
       }
     },
     {
-      "story_id": "story_a23069cc496a",
-      "title": "“AI教父”神预言？Anthropic因长期唱衰自家产品反遭美国出口管制",
-      "url": "https://www.aibase.com/news/28917",
-      "primary_url": "https://www.aibase.com/news/28917",
-      "source": "AIbase",
-      "source_name": "AIbase",
+      "story_id": "story_a0ce9eb073c7",
+      "title": "英伟达加入AI融资热潮，发行250亿美元债券",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-15/nvidia-kicks-off-first-high-grade-bond-offering-since-2021",
+      "primary_url": "https://www.bloomberg.com/news/articles/2026-06-15/nvidia-kicks-off-first-high-grade-bond-offering-since-2021",
+      "source": "www.bloomberg.com",
+      "source_name": "Buzzing",
       "sources": [
         {
-          "id": "5b93e6ceb28cabdae95fc481600f7d13697b069e",
-          "title": "“AI教父”神预言？Anthropic因长期唱衰自家产品反遭美国出口管制",
-          "url": "https://www.aibase.com/news/28917",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-15T10:51:23.211108Z"
+          "id": "d0ff1e20f4b934a37e96558554f2199e3193e27a",
+          "title": "英伟达加入AI融资热潮，发行250亿美元债券",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-15/nvidia-kicks-off-first-high-grade-bond-offering-since-2021",
+          "source": "www.bloomberg.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T21:01:13.945000Z"
+        },
+        {
+          "id": "83eaaa9e843635e779f15694801cc1ed748c5102",
+          "title": "英伟达加入AI债务热潮，计划发行200亿美元债券",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-15/nvidia-kicks-off-first-high-grade-bond-offering-since-2021",
+          "source": "www.bloomberg.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T15:09:21.262000Z"
         }
       ],
-      "source_count": 1,
+      "source_count": 2,
       "source_names": [
-        "AIbase"
+        "www.bloomberg.com"
       ],
       "items": [
         {
-          "id": "5b93e6ceb28cabdae95fc481600f7d13697b069e",
-          "title": "“AI教父”神预言？Anthropic因长期唱衰自家产品反遭美国出口管制",
-          "url": "https://www.aibase.com/news/28917",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-15T10:51:23.211108Z"
+          "id": "d0ff1e20f4b934a37e96558554f2199e3193e27a",
+          "title": "英伟达加入AI融资热潮，发行250亿美元债券",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-15/nvidia-kicks-off-first-high-grade-bond-offering-since-2021",
+          "source": "www.bloomberg.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T21:01:13.945000Z"
+        },
+        {
+          "id": "83eaaa9e843635e779f15694801cc1ed748c5102",
+          "title": "英伟达加入AI债务热潮，计划发行200亿美元债券",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-15/nvidia-kicks-off-first-high-grade-bond-offering-since-2021",
+          "source": "www.bloomberg.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T15:09:21.262000Z"
         }
       ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7356,
-      "importance": 0.7356,
-      "importance_score": 0.7356,
-      "importance_label": "行业动态",
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5352,
+      "importance": 0.5352,
+      "importance_score": 0.5352,
+      "importance_label": "值得关注",
       "importance_breakdown": {
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.6178,
-        "story_heat": 0.0
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.936,
+        "story_heat": 0.25
       },
-      "category": "industry",
+      "category": "watch",
       "reasons": [
-        "high_ai_relevance"
+        "multi_source"
       ],
-      "earliest_at": "2026-06-15T10:51:23.211108Z",
-      "latest_at": "2026-06-15T10:51:23.211108Z",
+      "earliest_at": "2026-06-15T15:09:21.262000Z",
+      "latest_at": "2026-06-15T21:01:13.945000Z",
       "primary_item": {
-        "id": "5b93e6ceb28cabdae95fc481600f7d13697b069e",
-        "title": "“AI教父”神预言？Anthropic因长期唱衰自家产品反遭美国出口管制",
-        "url": "https://www.aibase.com/news/28917",
-        "source": "AIbase",
-        "source_name": "AIbase"
+        "id": "d0ff1e20f4b934a37e96558554f2199e3193e27a",
+        "title": "英伟达加入AI融资热潮，发行250亿美元债券",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-15/nvidia-kicks-off-first-high-grade-bond-offering-since-2021",
+        "source": "www.bloomberg.com",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_f1b20e431dd5",
+      "title": "17 岁高中生做了个假 AI，上线一个月获 2.8 亿次访问",
+      "url": "https://www.huxiu.com/article/4867564.html?f=rss",
+      "primary_url": "https://www.huxiu.com/article/4867564.html?f=rss",
+      "source": "Readhub · AI",
+      "source_name": "TopHub",
+      "sources": [
+        {
+          "id": "16f718d2196a35ea37da3a662f435f8f5afef8a3",
+          "title": "17 岁高中生做了个假 AI，上线一个月获 2.8 亿次访问",
+          "url": "https://www.huxiu.com/article/4867564.html?f=rss",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        },
+        {
+          "id": "3af21d650325ac39968376c019ea0b88e84b0c03",
+          "title": "17岁高中生做了个假AI，上线一个月获2.8亿次访问",
+          "url": "https://www.huxiu.com/article/4867564.html?f=rss",
+          "source": "虎嗅 (Huxiu)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-15T17:07:34Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Readhub · AI",
+        "虎嗅 (Huxiu)"
+      ],
+      "items": [
+        {
+          "id": "16f718d2196a35ea37da3a662f435f8f5afef8a3",
+          "title": "17 岁高中生做了个假 AI，上线一个月获 2.8 亿次访问",
+          "url": "https://www.huxiu.com/article/4867564.html?f=rss",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        },
+        {
+          "id": "3af21d650325ac39968376c019ea0b88e84b0c03",
+          "title": "17岁高中生做了个假AI，上线一个月获2.8亿次访问",
+          "url": "https://www.huxiu.com/article/4867564.html?f=rss",
+          "source": "虎嗅 (Huxiu)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-15T17:07:34Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5269,
+      "importance": 0.5269,
+      "importance_score": 0.5269,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.8947,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-15T17:07:34Z",
+      "latest_at": "2026-06-15T20:01:44.205150Z",
+      "primary_item": {
+        "id": "16f718d2196a35ea37da3a662f435f8f5afef8a3",
+        "title": "17 岁高中生做了个假 AI，上线一个月获 2.8 亿次访问",
+        "url": "https://www.huxiu.com/article/4867564.html?f=rss",
+        "source": "Readhub · AI",
+        "source_name": "TopHub"
+      }
+    },
+    {
+      "story_id": "story_4fec2a019295",
+      "title": "五角大楼官员表示，目前有150万国防部员工每天都在使用军方的生成式人工智能",
+      "url": "https://www.businessinsider.com/user-increase-dod-workers-using-military-ai-program-daily-official-2026-6",
+      "primary_url": "https://www.businessinsider.com/user-increase-dod-workers-using-military-ai-program-daily-official-2026-6",
+      "source": "www.businessinsider.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "256a778e9b833fbc009c4a00030114f2435441ef",
+          "title": "五角大楼官员表示，目前有150万国防部员工每天都在使用军方的生成式人工智能",
+          "url": "https://www.businessinsider.com/user-increase-dod-workers-using-military-ai-program-daily-official-2026-6",
+          "source": "www.businessinsider.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T19:57:10.910000Z"
+        },
+        {
+          "id": "869c1d3456e0e1a689ef13fe2d69c2b6c29edc27",
+          "title": "五角大楼官员表示，目前有150万国防部员工每天都在使用军方的生成式人工智能 / 1.5 million Defense Department workers are now using the military's generative AI every day, Pentagon official says",
+          "url": "https://www.businessinsider.com/user-increase-dod-workers-using-military-ai-program-daily-official-2026-6",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-15T19:38:09Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Business Insider",
+        "www.businessinsider.com"
+      ],
+      "items": [
+        {
+          "id": "256a778e9b833fbc009c4a00030114f2435441ef",
+          "title": "五角大楼官员表示，目前有150万国防部员工每天都在使用军方的生成式人工智能",
+          "url": "https://www.businessinsider.com/user-increase-dod-workers-using-military-ai-program-daily-official-2026-6",
+          "source": "www.businessinsider.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T19:57:10.910000Z"
+        },
+        {
+          "id": "869c1d3456e0e1a689ef13fe2d69c2b6c29edc27",
+          "title": "五角大楼官员表示，目前有150万国防部员工每天都在使用军方的生成式人工智能 / 1.5 million Defense Department workers are now using the military's generative AI every day, Pentagon official says",
+          "url": "https://www.businessinsider.com/user-increase-dod-workers-using-military-ai-program-daily-official-2026-6",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-15T19:38:09Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5263,
+      "importance": 0.5263,
+      "importance_score": 0.5263,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.8916,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-15T19:38:09Z",
+      "latest_at": "2026-06-15T19:57:10.910000Z",
+      "primary_item": {
+        "id": "256a778e9b833fbc009c4a00030114f2435441ef",
+        "title": "五角大楼官员表示，目前有150万国防部员工每天都在使用军方的生成式人工智能",
+        "url": "https://www.businessinsider.com/user-increase-dod-workers-using-military-ai-program-daily-official-2026-6",
+        "source": "www.businessinsider.com",
+        "source_name": "Buzzing"
       }
     },
     {
@@ -1148,14 +1262,14 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5714,
-      "importance": 0.5714,
-      "importance_score": 0.5714,
+      "score": 0.5503,
+      "importance": 0.5503,
+      "importance_score": 0.5503,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.992,
+        "recency": 0.8867,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1173,89 +1287,107 @@
       }
     },
     {
-      "story_id": "story_007d5be93f97",
-      "title": "元宝正式打通ima公开知识库，搜索结果新增专业信源",
-      "url": "https://www.aibase.com/news/28918",
-      "primary_url": "https://www.aibase.com/news/28918",
-      "source": "AIbase",
-      "source_name": "AIbase",
+      "story_id": "story_48d0df19f2cb",
+      "title": "CrankGPT — 基于本地人力支持的人工智能",
+      "url": "https://crankgpt.com",
+      "primary_url": "https://crankgpt.com",
+      "source": "crankgpt.com",
+      "source_name": "Buzzing",
       "sources": [
         {
-          "id": "2f81bed7c98564bb4103ea955948d68f002a8a10",
-          "title": "元宝正式打通ima公开知识库，搜索结果新增专业信源",
-          "url": "https://www.aibase.com/news/28918",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-15T10:51:23.211108Z"
+          "id": "2906793ca29f1c800d6d2ab9636f63e54bbb5c39",
+          "title": "CrankGPT — 基于本地人力支持的人工智能",
+          "url": "https://crankgpt.com",
+          "source": "crankgpt.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T16:45:24.007000Z"
+        },
+        {
+          "id": "0458cc80bb732979cfcb93cdbbffe62c420d6d7b",
+          "title": "CrankGPT — 基于本地人力支持的人工智能 / CrankGPT",
+          "url": "https://crankgpt.com",
+          "source": "crankgpt.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T15:09:19.779000Z"
         }
       ],
-      "source_count": 1,
+      "source_count": 2,
       "source_names": [
-        "AIbase"
+        "crankgpt.com"
       ],
       "items": [
         {
-          "id": "2f81bed7c98564bb4103ea955948d68f002a8a10",
-          "title": "元宝正式打通ima公开知识库，搜索结果新增专业信源",
-          "url": "https://www.aibase.com/news/28918",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-15T10:51:23.211108Z"
+          "id": "2906793ca29f1c800d6d2ab9636f63e54bbb5c39",
+          "title": "CrankGPT — 基于本地人力支持的人工智能",
+          "url": "https://crankgpt.com",
+          "source": "crankgpt.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T16:45:24.007000Z"
+        },
+        {
+          "id": "0458cc80bb732979cfcb93cdbbffe62c420d6d7b",
+          "title": "CrankGPT — 基于本地人力支持的人工智能 / CrankGPT",
+          "url": "https://crankgpt.com",
+          "source": "crankgpt.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T15:09:19.779000Z"
         }
       ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7356,
-      "importance": 0.7356,
-      "importance_score": 0.7356,
-      "importance_label": "行业动态",
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.4997,
+      "importance": 0.4997,
+      "importance_score": 0.4997,
+      "importance_label": "值得关注",
       "importance_breakdown": {
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.6178,
-        "story_heat": 0.0
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.7584,
+        "story_heat": 0.25
       },
-      "category": "industry",
+      "category": "watch",
       "reasons": [
-        "high_ai_relevance"
+        "multi_source"
       ],
-      "earliest_at": "2026-06-15T10:51:23.211108Z",
-      "latest_at": "2026-06-15T10:51:23.211108Z",
+      "earliest_at": "2026-06-15T15:09:19.779000Z",
+      "latest_at": "2026-06-15T16:45:24.007000Z",
       "primary_item": {
-        "id": "2f81bed7c98564bb4103ea955948d68f002a8a10",
-        "title": "元宝正式打通ima公开知识库，搜索结果新增专业信源",
-        "url": "https://www.aibase.com/news/28918",
-        "source": "AIbase",
-        "source_name": "AIbase"
+        "id": "2906793ca29f1c800d6d2ab9636f63e54bbb5c39",
+        "title": "CrankGPT — 基于本地人力支持的人工智能",
+        "url": "https://crankgpt.com",
+        "source": "crankgpt.com",
+        "source_name": "Buzzing"
       }
     },
     {
-      "story_id": "story_f1b20e431dd5",
-      "title": "17 岁高中生做了个假 AI，上线一个月获 2.8 亿次访问",
-      "url": "https://www.huxiu.com/article/4867564.html?f=rss",
-      "primary_url": "https://www.huxiu.com/article/4867564.html?f=rss",
+      "story_id": "story_2c8d6f1efa70",
+      "title": "AI 做不到的，是设计审美教育",
+      "url": "https://www.huxiu.com/article/4867571.html?f=rss",
+      "primary_url": "https://www.huxiu.com/article/4867571.html?f=rss",
       "source": "Readhub · AI",
       "source_name": "TopHub",
       "sources": [
         {
-          "id": "16f718d2196a35ea37da3a662f435f8f5afef8a3",
-          "title": "17 岁高中生做了个假 AI，上线一个月获 2.8 亿次访问",
-          "url": "https://www.huxiu.com/article/4867564.html?f=rss",
+          "id": "7a11b6e34a80a56910ce03ca20ab10c9c365cab9",
+          "title": "AI 做不到的，是设计审美教育",
+          "url": "https://www.huxiu.com/article/4867571.html?f=rss",
           "source": "Readhub · AI",
           "source_name": "TopHub",
           "site_id": "tophub",
           "published_at": null
         },
         {
-          "id": "3af21d650325ac39968376c019ea0b88e84b0c03",
-          "title": "17岁高中生做了个假AI，上线一个月获2.8亿次访问",
-          "url": "https://www.huxiu.com/article/4867564.html?f=rss",
+          "id": "a19881273a01f6f2a4a751c755c02f1448ad4309",
+          "title": "AI做不到的，是设计审美教育",
+          "url": "https://www.huxiu.com/article/4867571.html?f=rss",
           "source": "虎嗅 (Huxiu)",
           "source_name": "Info Flow",
           "site_id": "iris",
-          "published_at": "2026-06-15T17:07:34Z"
+          "published_at": "2026-06-15T17:30:57Z"
         }
       ],
       "source_count": 2,
@@ -1265,48 +1397,126 @@
       ],
       "items": [
         {
-          "id": "16f718d2196a35ea37da3a662f435f8f5afef8a3",
-          "title": "17 岁高中生做了个假 AI，上线一个月获 2.8 亿次访问",
-          "url": "https://www.huxiu.com/article/4867564.html?f=rss",
+          "id": "7a11b6e34a80a56910ce03ca20ab10c9c365cab9",
+          "title": "AI 做不到的，是设计审美教育",
+          "url": "https://www.huxiu.com/article/4867571.html?f=rss",
           "source": "Readhub · AI",
           "source_name": "TopHub",
           "site_id": "tophub",
           "published_at": null
         },
         {
-          "id": "3af21d650325ac39968376c019ea0b88e84b0c03",
-          "title": "17岁高中生做了个假AI，上线一个月获2.8亿次访问",
-          "url": "https://www.huxiu.com/article/4867564.html?f=rss",
+          "id": "a19881273a01f6f2a4a751c755c02f1448ad4309",
+          "title": "AI做不到的，是设计审美教育",
+          "url": "https://www.huxiu.com/article/4867571.html?f=rss",
           "source": "虎嗅 (Huxiu)",
           "source_name": "Info Flow",
           "site_id": "iris",
-          "published_at": "2026-06-15T17:07:34Z"
+          "published_at": "2026-06-15T17:30:57Z"
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.548,
-      "importance": 0.548,
-      "importance_score": 0.548,
+      "score": 0.5269,
+      "importance": 0.5269,
+      "importance_score": 0.5269,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 1.0,
+        "recency": 0.8947,
         "story_heat": 0.25
       },
       "category": "watch",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-15T17:07:34Z",
+      "earliest_at": "2026-06-15T17:30:57Z",
       "latest_at": "2026-06-15T20:01:44.205150Z",
       "primary_item": {
-        "id": "16f718d2196a35ea37da3a662f435f8f5afef8a3",
-        "title": "17 岁高中生做了个假 AI，上线一个月获 2.8 亿次访问",
-        "url": "https://www.huxiu.com/article/4867564.html?f=rss",
+        "id": "7a11b6e34a80a56910ce03ca20ab10c9c365cab9",
+        "title": "AI 做不到的，是设计审美教育",
+        "url": "https://www.huxiu.com/article/4867571.html?f=rss",
         "source": "Readhub · AI",
         "source_name": "TopHub"
+      }
+    },
+    {
+      "story_id": "story_cd214f0942af",
+      "title": "Sarvam 获得由 HCLTech 领投的 2.34 亿美元融资，成为印度最新的人工智能独角兽 / Sarvam becomes India’s newest AI unicorn with a $234m round led by HCLTech",
+      "url": "https://thenextweb.com/news/sarvam-india-ai-unicorn-234-million-hcltech",
+      "primary_url": "https://thenextweb.com/news/sarvam-india-ai-unicorn-234-million-hcltech",
+      "source": "The Next Web",
+      "source_name": "TechURLs",
+      "sources": [
+        {
+          "id": "d2fa173dc914eeedec1aeaae2d1edac3ed8f1ee7",
+          "title": "Sarvam 获得由 HCLTech 领投的 2.34 亿美元融资，成为印度最新的人工智能独角兽 / Sarvam becomes India’s newest AI unicorn with a $234m round led by HCLTech",
+          "url": "https://thenextweb.com/news/sarvam-india-ai-unicorn-234-million-hcltech",
+          "source": "The Next Web",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-15T14:40:17Z"
+        },
+        {
+          "id": "7ef26f76ba458639322c95a73bd114fff83c19ca",
+          "title": "Sarvam 获得由 HCLTech 领投的 2.34 亿美元融资，成为印度最新的人工智能独角兽 / Sarvam becomes India’s newest AI unicorn with $234 million funding round led by HCLTech",
+          "url": "https://techcrunch.com/2026/06/15/sarvam-becomes-indias-newest-ai-unicorn-with-234-million-funding-round-led-by-hcltech",
+          "source": "TechCrunch",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-15T13:46:08Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "TechCrunch",
+        "The Next Web"
+      ],
+      "items": [
+        {
+          "id": "d2fa173dc914eeedec1aeaae2d1edac3ed8f1ee7",
+          "title": "Sarvam 获得由 HCLTech 领投的 2.34 亿美元融资，成为印度最新的人工智能独角兽 / Sarvam becomes India’s newest AI unicorn with a $234m round led by HCLTech",
+          "url": "https://thenextweb.com/news/sarvam-india-ai-unicorn-234-million-hcltech",
+          "source": "The Next Web",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-15T14:40:17Z"
+        },
+        {
+          "id": "7ef26f76ba458639322c95a73bd114fff83c19ca",
+          "title": "Sarvam 获得由 HCLTech 领投的 2.34 亿美元融资，成为印度最新的人工智能独角兽 / Sarvam becomes India’s newest AI unicorn with $234 million funding round led by HCLTech",
+          "url": "https://techcrunch.com/2026/06/15/sarvam-becomes-indias-newest-ai-unicorn-with-234-million-funding-round-led-by-hcltech",
+          "source": "TechCrunch",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-15T13:46:08Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.4823,
+      "importance": 0.4823,
+      "importance_score": 0.4823,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.6715,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-15T13:46:08Z",
+      "latest_at": "2026-06-15T14:40:17Z",
+      "primary_item": {
+        "id": "d2fa173dc914eeedec1aeaae2d1edac3ed8f1ee7",
+        "title": "Sarvam 获得由 HCLTech 领投的 2.34 亿美元融资，成为印度最新的人工智能独角兽 / Sarvam becomes India’s newest AI unicorn with a $234m round led by HCLTech",
+        "url": "https://thenextweb.com/news/sarvam-india-ai-unicorn-234-million-hcltech",
+        "source": "The Next Web",
+        "source_name": "TechURLs"
       }
     }
   ]
