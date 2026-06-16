@@ -60,6 +60,7 @@ const topStoriesSubEl = document.getElementById("topStoriesSub");
 
 const SOURCE_KINDS = {
   official_ai: { label: "官方", tone: "official" },
+  curated_media: { label: "精选媒体", tone: "aihub" },
   aibreakfast: { label: "日报", tone: "newsletter" },
   followbuilders: { label: "Builders/X", tone: "builders" },
   xapi: { label: "X API", tone: "builders" },

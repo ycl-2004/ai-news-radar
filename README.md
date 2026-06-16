@@ -102,7 +102,7 @@ AI News Radar从来都不是单纯把信息抓回来，
 ### 给开发者和Agent
 
 - 默认不需要 API Key、不需要登录态、不需要 LLM额度
-- 支持官方 RSS/changelog、OPML/RSS、公开 GitHub feed/JSON、静态页面、AgentMail 等来源类型
+- 支持官方 RSS/changelog、精选 AI 媒体 RSS、OPML/RSS、公开 GitHub feed/JSON、静态页面、AgentMail 等来源类型
 - GitHub Actions自动生成 `data/*.json` 并发布到 GitHub Pages
 - Codex / Claude Code / Hermes / OpenClaw 可以通过项目内置的伯乐Skill继续维护信源、抓取逻辑和页面
 - 高级来源可以通过 GitHub Secrets或本地环境变量接入，避免把 token、cookies、私有 OPML 和邮箱正文写进仓库

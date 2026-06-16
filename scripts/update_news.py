@@ -116,6 +116,58 @@ OFFICIAL_AI_FEEDS: tuple[dict[str, str], ...] = (
     },
 )
 OFFICIAL_AI_MAX_AGE_DAYS = 45
+CURATED_AI_MEDIA_MAX_AGE_DAYS = 30
+CURATED_AI_MEDIA_FEEDS: tuple[dict[str, Any], ...] = (
+    {
+        "title": "The Decoder AI News",
+        "xml_url": "https://the-decoder.com/feed/",
+        "html_url": "https://the-decoder.com/",
+        "max_entries": 10,
+    },
+    {
+        "title": "TechCrunch AI",
+        "xml_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+        "html_url": "https://techcrunch.com/category/artificial-intelligence/",
+        "max_entries": 8,
+    },
+    {
+        # The Verge's AI topic RSS endpoint is not currently public/stable;
+        # keep the all-site RSS behind strict title-level AI filtering.
+        "title": "The Verge",
+        "xml_url": "https://www.theverge.com/rss/index.xml",
+        "html_url": "https://www.theverge.com/ai-artificial-intelligence",
+        "include_keywords": "ai,artificial intelligence,openai,anthropic,claude,chatgpt,gpt,gemini,llm,agent,copilot",
+        "max_entries": 6,
+        "strict_title_filter": True,
+    },
+    {
+        "title": "MarkTechPost Research",
+        "xml_url": "https://www.marktechpost.com/feed/",
+        "html_url": "https://www.marktechpost.com/",
+        "include_keywords": "paper,research,arxiv,benchmark,dataset,model,llm,agent,diffusion,transformer,multimodal,reasoning,inference,training,open-source",
+        "max_entries": 6,
+        "strict_title_filter": True,
+        "research_only": True,
+    },
+    {
+        "title": "VentureBeat AI",
+        "xml_url": "https://venturebeat.com/category/ai/feed",
+        "html_url": "https://venturebeat.com/category/ai/",
+        "max_entries": 8,
+    },
+    {
+        "title": "Artificial Intelligence News",
+        "xml_url": "https://www.artificialintelligence-news.com/feed/",
+        "html_url": "https://www.artificialintelligence-news.com/",
+        "max_entries": 8,
+    },
+    {
+        "title": "Claude Code Releases",
+        "xml_url": "https://github.com/anthropics/claude-code/releases.atom",
+        "html_url": "https://github.com/anthropics/claude-code/releases",
+        "max_entries": 6,
+    },
+)
 AIBREAKFAST_JINA_URL = "https://r.jina.ai/https://aibreakfast.beehiiv.com/"
 AIHOT_FEED_URL = "https://aihot.virxact.com/feed.xml"
 AIHOT_FALLBACK_FEED_URLS = (
@@ -1257,6 +1309,113 @@ def fetch_feed_as_official_items(
     return out
 
 
+def feed_entry_title_link_published(entry: dict[str, Any], now: datetime) -> tuple[str, str, datetime | None]:
+    title = maybe_fix_mojibake(str(entry.get("title", "")).strip())
+    link = str(entry.get("link", "")).strip()
+    published = (
+        parse_date_any(entry.get("published"), now)
+        or parse_date_any(entry.get("updated"), now)
+        or parse_date_any(entry.get("pubDate"), now)
+    )
+    return title, link, published
+
+
+def feed_keywords(feed: dict[str, Any]) -> list[str]:
+    return [
+        keyword.strip().lower()
+        for keyword in str(feed.get("include_keywords") or "").split(",")
+        if keyword.strip()
+    ]
+
+
+def curated_feed_entry_allowed(feed: dict[str, Any], title: str, link: str) -> bool:
+    include_keywords = feed_keywords(feed)
+    if not include_keywords:
+        return True
+    haystack = title.lower()
+    if not feed.get("strict_title_filter"):
+        haystack = f"{haystack} {link.lower()} {feed.get('title', '').lower()}"
+    return any(keyword in haystack for keyword in include_keywords)
+
+
+def parse_curated_ai_media_feed_items(
+    feed_content: bytes,
+    feed: dict[str, Any],
+    now: datetime,
+) -> list[RawItem]:
+    site_id = "curated_media"
+    site_name = "Curated Media"
+    feed_url = str(feed["xml_url"])
+    feed_title = str(feed["title"])
+
+    if feedparser is not None:
+        parsed = feedparser.parse(feed_content)
+        entries = list(parsed.entries)
+    else:
+        entries = parse_feed_entries_via_xml(feed_content)
+
+    out: list[RawItem] = []
+    seen_urls: set[str] = set()
+    max_entries = max(1, int(feed.get("max_entries") or 8))
+    for entry in entries:
+        title, link, published = feed_entry_title_link_published(entry, now)
+        if not title or not link or not published:
+            continue
+        if published < now - timedelta(days=CURATED_AI_MEDIA_MAX_AGE_DAYS):
+            continue
+        if not curated_feed_entry_allowed(feed, title, link):
+            continue
+        normalized_url = normalize_url(link)
+        if normalized_url in seen_urls:
+            continue
+        seen_urls.add(normalized_url)
+        out.append(
+            RawItem(
+                site_id=site_id,
+                site_name=site_name,
+                source=feed_title,
+                title=title,
+                url=link,
+                published_at=published,
+                meta={
+                    "feed_url": feed_url,
+                    "feed_home": feed.get("html_url") or "",
+                    "research_only": bool(feed.get("research_only")),
+                    "strict_title_filter": bool(feed.get("strict_title_filter")),
+                },
+            )
+        )
+        if len(out) >= max_entries:
+            break
+
+    return out
+
+
+def fetch_curated_ai_media(session: requests.Session, now: datetime) -> list[RawItem]:
+    out: list[RawItem] = []
+    failures: list[str] = []
+
+    for feed in CURATED_AI_MEDIA_FEEDS:
+        try:
+            resp = session.get(
+                str(feed["xml_url"]),
+                timeout=20,
+                headers={
+                    "User-Agent": BROWSER_UA,
+                    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+                    "Accept": "application/rss+xml, application/atom+xml, application/xml, text/xml, */*",
+                },
+            )
+            resp.raise_for_status()
+            out.extend(parse_curated_ai_media_feed_items(resp.content, feed, now))
+        except Exception:
+            failures.append(str(feed.get("title") or feed.get("xml_url") or "unknown"))
+
+    if not out and failures:
+        raise ValueError(f"No curated media items parsed; failed feeds: {', '.join(failures[:4])}")
+    return out
+
+
 def fetch_official_ai_updates(session: requests.Session, now: datetime) -> list[RawItem]:
     out: list[RawItem] = []
 
@@ -1852,6 +2011,7 @@ def fetch_newsnow(session: requests.Session, now: datetime) -> list[RawItem]:
 def collect_all(session: requests.Session, now: datetime) -> tuple[list[RawItem], list[dict[str, Any]]]:
     tasks = [
         ("official_ai", "Official AI Updates", fetch_official_ai_updates),
+        ("curated_media", "Curated Media", fetch_curated_ai_media),
         ("aibreakfast", "AI Breakfast", fetch_ai_breakfast),
         ("followbuilders", "Follow Builders", fetch_follow_builders),
         ("techurls", "TechURLs", fetch_techurls),
@@ -2301,6 +2461,7 @@ def event_time(record: dict[str, Any]) -> datetime | None:
 
 SOURCE_TIER_BY_SITE: dict[str, tuple[str, str, int]] = {
     "official_ai": ("official", "官方一手源", 0),
+    "curated_media": ("ai_media", "精选AI媒体", 2),
     "aibreakfast": ("ai_vertical", "AI垂直源", 1),
     "aihubtoday": ("ai_vertical", "AI垂直源", 1),
     "aibase": ("ai_vertical", "AI垂直源", 1),
@@ -2320,6 +2481,7 @@ SOURCE_TIER_BY_SITE: dict[str, tuple[str, str, int]] = {
 SOURCE_TIER_IMPORTANCE = {
     "official": 1.0,
     "ai_vertical": 0.78,
+    "ai_media": 0.58,
     "builders": 0.62,
     "user_opml": 0.5,
     "advanced": 0.45,
