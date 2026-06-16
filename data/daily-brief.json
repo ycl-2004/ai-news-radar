@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T22:33:19.771984Z",
+  "generated_at": "2026-06-16T00:24:41.652671Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -57,14 +57,14 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8789,
-      "importance": 0.8789,
-      "importance_score": 0.8789,
+      "score": 0.8634,
+      "importance": 0.8634,
+      "importance_score": 0.8634,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.9043,
+        "recency": 0.827,
         "story_heat": 0.25
       },
       "category": "official",
@@ -119,14 +119,14 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8642,
-      "importance": 0.8642,
-      "importance_score": 0.8642,
+      "score": 0.8488,
+      "importance": 0.8488,
+      "importance_score": 0.8488,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.9562,
+        "recency": 0.8788,
         "story_heat": 0.0
       },
       "category": "official",
@@ -143,6 +143,66 @@
         "url": "https://github.blog/changelog/2026-06-15-copilot-usage-metrics-now-include-more-of-your-active-users",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_9116dd4158d9",
+      "title": "项目负责人揭秘为何苹果 AI 版 Siri 姗姗来迟：推倒重来，彻底重构",
+      "url": "https://www.ithome.com/0/964/620.htm",
+      "primary_url": "https://www.ithome.com/0/964/620.htm",
+      "source": "IT之家（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "f94929198d6cd4937022e73a7cadf32c3750018e",
+          "title": "项目负责人揭秘为何苹果 AI 版 Siri 姗姗来迟：推倒重来，彻底重构",
+          "url": "https://www.ithome.com/0/964/620.htm",
+          "source": "IT之家（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-15T23:16:58Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "IT之家（RSS）"
+      ],
+      "items": [
+        {
+          "id": "f94929198d6cd4937022e73a7cadf32c3750018e",
+          "title": "项目负责人揭秘为何苹果 AI 版 Siri 姗姗来迟：推倒重来，彻底重构",
+          "url": "https://www.ithome.com/0/964/620.htm",
+          "source": "IT之家（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-15T23:16:58Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8026,
+      "importance": 0.8026,
+      "importance_score": 0.8026,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.953,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-15T23:16:58Z",
+      "latest_at": "2026-06-15T23:16:58Z",
+      "primary_item": {
+        "id": "f94929198d6cd4937022e73a7cadf32c3750018e",
+        "title": "项目负责人揭秘为何苹果 AI 版 Siri 姗姗来迟：推倒重来，彻底重构",
+        "url": "https://www.ithome.com/0/964/620.htm",
+        "source": "IT之家（RSS）",
+        "source_name": "AI HOT"
       }
     },
     {
@@ -180,14 +240,14 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8428,
-      "importance": 0.8428,
-      "importance_score": 0.8428,
+      "score": 0.8273,
+      "importance": 0.8273,
+      "importance_score": 0.8273,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "source_tier": 1.0,
         "ai_relevance": 0.9,
-        "recency": 0.864,
+        "recency": 0.7867,
         "story_heat": 0.0
       },
       "category": "official",
@@ -260,14 +320,14 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8033,
-      "importance": 0.8033,
-      "importance_score": 0.8033,
+      "score": 0.7879,
+      "importance": 0.7879,
+      "importance_score": 0.7879,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8317,
+        "recency": 0.7544,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -321,14 +381,14 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7764,
-      "importance": 0.7764,
-      "importance_score": 0.7764,
+      "score": 0.7609,
+      "importance": 0.7609,
+      "importance_score": 0.7609,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8218,
+        "recency": 0.7444,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -381,14 +441,14 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7692,
-      "importance": 0.7692,
-      "importance_score": 0.7692,
+      "score": 0.7537,
+      "importance": 0.7537,
+      "importance_score": 0.7537,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7861,
+        "recency": 0.7087,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -441,20 +501,19 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.755,
-      "importance": 0.755,
-      "importance_score": 0.755,
+      "score": 0.7396,
+      "importance": 0.7396,
+      "importance_score": 0.7396,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7151,
+        "recency": 0.6378,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-06-15T15:43:04Z",
       "latest_at": "2026-06-15T15:43:04Z",
@@ -501,14 +560,14 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7463,
-      "importance": 0.7463,
-      "importance_score": 0.7463,
+      "score": 0.7308,
+      "importance": 0.7308,
+      "importance_score": 0.7308,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.6713,
+        "recency": 0.594,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -560,14 +619,14 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7407,
-      "importance": 0.7407,
-      "importance_score": 0.7407,
+      "score": 0.7252,
+      "importance": 0.7252,
+      "importance_score": 0.7252,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.6435,
+        "recency": 0.5662,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -638,14 +697,14 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7705,
-      "importance": 0.7705,
-      "importance_score": 0.7705,
+      "score": 0.7551,
+      "importance": 0.7551,
+      "importance_score": 0.7551,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.6677,
+        "recency": 0.5903,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -718,14 +777,14 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7109,
-      "importance": 0.7109,
-      "importance_score": 0.7109,
+      "score": 0.6955,
+      "importance": 0.6955,
+      "importance_score": 0.6955,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.3697,
+        "recency": 0.2924,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -741,6 +800,103 @@
         "url": "https://techcrunch.com/2026/06/15/the-ai-layoff-wave-is-becoming-a-powder-keg",
         "source": "TechCrunch：AI（RSS）",
         "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_c241dc0bd836",
+      "title": "显示 HN：Visual Studio 的克劳德代码（带有接受/拒绝的本机差异） / Show HN: Claude Code for Visual Studio (native diff with accept/reject)",
+      "url": "https://news.ycombinator.com/item?id=48548381",
+      "primary_url": "https://news.ycombinator.com/item?id=48548381",
+      "source": "hackernews",
+      "source_name": "NewsNow",
+      "sources": [
+        {
+          "id": "79f4aa24df1873378f733d92495e938c4400321f",
+          "title": "显示 HN：Visual Studio 的克劳德代码（带有接受/拒绝的本机差异） / Show HN: Claude Code for Visual Studio (native diff with accept/reject)",
+          "url": "https://news.ycombinator.com/item?id=48548381",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-16T00:25:18.518000Z"
+        },
+        {
+          "id": "acf57c6e007d86038ddc534e852b2dcb2a0136a5",
+          "title": "Show HN: Visual Studio 版 Claude Code（原生差异比较功能，支持接受/拒绝）",
+          "url": "https://github.com/firish/claude_code_vs",
+          "source": "github.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T23:25:06.072000Z"
+        },
+        {
+          "id": "454dab7ef4a2674c37ad2848961b90d8d2b8cda1",
+          "title": "Show HN: Visual Studio 版 Claude Code（原生差异比较功能，支持接受/拒绝） / Show HN: Claude Code for Visual Studio (native diff with accept/reject)",
+          "url": "https://github.com/firish/claude_code_vs",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-15T23:15:56Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "Hacker News (黑客新闻)",
+        "github.com",
+        "hackernews"
+      ],
+      "items": [
+        {
+          "id": "79f4aa24df1873378f733d92495e938c4400321f",
+          "title": "显示 HN：Visual Studio 的克劳德代码（带有接受/拒绝的本机差异） / Show HN: Claude Code for Visual Studio (native diff with accept/reject)",
+          "url": "https://news.ycombinator.com/item?id=48548381",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-16T00:25:18.518000Z"
+        },
+        {
+          "id": "acf57c6e007d86038ddc534e852b2dcb2a0136a5",
+          "title": "Show HN: Visual Studio 版 Claude Code（原生差异比较功能，支持接受/拒绝）",
+          "url": "https://github.com/firish/claude_code_vs",
+          "source": "github.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T23:25:06.072000Z"
+        },
+        {
+          "id": "454dab7ef4a2674c37ad2848961b90d8d2b8cda1",
+          "title": "Show HN: Visual Studio 版 Claude Code（原生差异比较功能，支持接受/拒绝） / Show HN: Claude Code for Visual Studio (native diff with accept/reject)",
+          "url": "https://github.com/firish/claude_code_vs",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-15T23:15:56Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.573,
+      "importance": 0.573,
+      "importance_score": 0.573,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 1.0,
+        "story_heat": 0.5
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-15T23:15:56Z",
+      "latest_at": "2026-06-16T00:25:18.518000Z",
+      "primary_item": {
+        "id": "79f4aa24df1873378f733d92495e938c4400321f",
+        "title": "显示 HN：Visual Studio 的克劳德代码（带有接受/拒绝的本机差异） / Show HN: Claude Code for Visual Studio (native diff with accept/reject)",
+        "url": "https://news.ycombinator.com/item?id=48548381",
+        "source": "hackernews",
+        "source_name": "NewsNow"
       }
     },
     {
@@ -835,14 +991,14 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.5874,
-      "importance": 0.5874,
-      "importance_score": 0.5874,
+      "score": 0.572,
+      "importance": 0.572,
+      "importance_score": 0.572,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9471,
+        "recency": 0.8698,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -857,6 +1013,84 @@
         "url": "https://github.com/sammysltd/euromesh",
         "source": "github.com",
         "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_54bc6a6f88a8",
+      "title": "华泰证券：AI 正在推动游戏行业从内容工业向智能互动工业演进",
+      "url": "https://36kr.com/newsflashes/3855073091752966?f=rss",
+      "primary_url": "https://36kr.com/newsflashes/3855073091752966?f=rss",
+      "source": "Readhub · AI",
+      "source_name": "TopHub",
+      "sources": [
+        {
+          "id": "a60d48229af53a15fde94eafdceffa08c6593227",
+          "title": "华泰证券：AI 正在推动游戏行业从内容工业向智能互动工业演进",
+          "url": "https://36kr.com/newsflashes/3855073091752966?f=rss",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        },
+        {
+          "id": "d5ea2cf2db8219e6aedce250dc08f9a6971ebcf6",
+          "title": "华泰证券：AI正在推动游戏行业从内容工业向智能互动工业演进",
+          "url": "https://36kr.com/newsflashes/3855073091752966?f=rss",
+          "source": "36氪 (36Kr)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-15T23:53:04Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "36氪 (36Kr)",
+        "Readhub · AI"
+      ],
+      "items": [
+        {
+          "id": "a60d48229af53a15fde94eafdceffa08c6593227",
+          "title": "华泰证券：AI 正在推动游戏行业从内容工业向智能互动工业演进",
+          "url": "https://36kr.com/newsflashes/3855073091752966?f=rss",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        },
+        {
+          "id": "d5ea2cf2db8219e6aedce250dc08f9a6971ebcf6",
+          "title": "华泰证券：AI正在推动游戏行业从内容工业向智能互动工业演进",
+          "url": "https://36kr.com/newsflashes/3855073091752966?f=rss",
+          "source": "36氪 (36Kr)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-15T23:53:04Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.548,
+      "importance": 0.548,
+      "importance_score": 0.548,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 1.0,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-15T23:53:04Z",
+      "latest_at": "2026-06-16T00:24:41.652671Z",
+      "primary_item": {
+        "id": "a60d48229af53a15fde94eafdceffa08c6593227",
+        "title": "华泰证券：AI 正在推动游戏行业从内容工业向智能互动工业演进",
+        "url": "https://36kr.com/newsflashes/3855073091752966?f=rss",
+        "source": "Readhub · AI",
+        "source_name": "TopHub"
       }
     },
     {
@@ -932,14 +1166,14 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5712,
-      "importance": 0.5712,
-      "importance_score": 0.5712,
+      "score": 0.5557,
+      "importance": 0.5557,
+      "importance_score": 0.5557,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9911,
+        "recency": 0.9137,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -954,6 +1188,83 @@
         "url": "https://news.ycombinator.com/item?id=48544823",
         "source": "hackernews",
         "source_name": "NewsNow"
+      }
+    },
+    {
+      "story_id": "story_92468cec072b",
+      "title": "无人经济？技术上并非不可能 / Peopleless economy? Not technically impossible",
+      "url": "https://gmalandrakis.com/writings/ad-economicum.html",
+      "primary_url": "https://gmalandrakis.com/writings/ad-economicum.html",
+      "source": "Hacker News · 24h最热",
+      "source_name": "Zeli",
+      "sources": [
+        {
+          "id": "55eb5dfb19f999f916754ad09f5bce06f8c4a8e3",
+          "title": "无人经济？技术上并非不可能 / Peopleless economy? Not technically impossible",
+          "url": "https://gmalandrakis.com/writings/ad-economicum.html",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-15T21:10:36Z"
+        },
+        {
+          "id": "679c99f6af90c9a51f0fd57d8f767c01a82862c3",
+          "title": "死亡经济理论 / The Dead Economy Theory",
+          "url": "https://gmalandrakis.com/writings/ad-economicum.html",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-15T21:10:36Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News · 24h最热"
+      ],
+      "items": [
+        {
+          "id": "55eb5dfb19f999f916754ad09f5bce06f8c4a8e3",
+          "title": "无人经济？技术上并非不可能 / Peopleless economy? Not technically impossible",
+          "url": "https://gmalandrakis.com/writings/ad-economicum.html",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-15T21:10:36Z"
+        },
+        {
+          "id": "679c99f6af90c9a51f0fd57d8f767c01a82862c3",
+          "title": "死亡经济理论 / The Dead Economy Theory",
+          "url": "https://gmalandrakis.com/writings/ad-economicum.html",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-15T21:10:36Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.521,
+      "importance": 0.521,
+      "importance_score": 0.521,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.8652,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-15T21:10:36Z",
+      "latest_at": "2026-06-15T21:10:36Z",
+      "primary_item": {
+        "id": "55eb5dfb19f999f916754ad09f5bce06f8c4a8e3",
+        "title": "无人经济？技术上并非不可能 / Peopleless economy? Not technically impossible",
+        "url": "https://gmalandrakis.com/writings/ad-economicum.html",
+        "source": "Hacker News · 24h最热",
+        "source_name": "Zeli"
       }
     },
     {
@@ -1009,14 +1320,14 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5352,
-      "importance": 0.5352,
-      "importance_score": 0.5352,
+      "score": 0.5197,
+      "importance": 0.5197,
+      "importance_score": 0.5197,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.936,
+        "recency": 0.8587,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1031,84 +1342,6 @@
         "url": "https://www.bloomberg.com/news/articles/2026-06-15/nvidia-kicks-off-first-high-grade-bond-offering-since-2021",
         "source": "www.bloomberg.com",
         "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_f1b20e431dd5",
-      "title": "17 岁高中生做了个假 AI，上线一个月获 2.8 亿次访问",
-      "url": "https://www.huxiu.com/article/4867564.html?f=rss",
-      "primary_url": "https://www.huxiu.com/article/4867564.html?f=rss",
-      "source": "Readhub · AI",
-      "source_name": "TopHub",
-      "sources": [
-        {
-          "id": "16f718d2196a35ea37da3a662f435f8f5afef8a3",
-          "title": "17 岁高中生做了个假 AI，上线一个月获 2.8 亿次访问",
-          "url": "https://www.huxiu.com/article/4867564.html?f=rss",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        },
-        {
-          "id": "3af21d650325ac39968376c019ea0b88e84b0c03",
-          "title": "17岁高中生做了个假AI，上线一个月获2.8亿次访问",
-          "url": "https://www.huxiu.com/article/4867564.html?f=rss",
-          "source": "虎嗅 (Huxiu)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-15T17:07:34Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Readhub · AI",
-        "虎嗅 (Huxiu)"
-      ],
-      "items": [
-        {
-          "id": "16f718d2196a35ea37da3a662f435f8f5afef8a3",
-          "title": "17 岁高中生做了个假 AI，上线一个月获 2.8 亿次访问",
-          "url": "https://www.huxiu.com/article/4867564.html?f=rss",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        },
-        {
-          "id": "3af21d650325ac39968376c019ea0b88e84b0c03",
-          "title": "17岁高中生做了个假AI，上线一个月获2.8亿次访问",
-          "url": "https://www.huxiu.com/article/4867564.html?f=rss",
-          "source": "虎嗅 (Huxiu)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-15T17:07:34Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5269,
-      "importance": 0.5269,
-      "importance_score": 0.5269,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8947,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-15T17:07:34Z",
-      "latest_at": "2026-06-15T20:01:44.205150Z",
-      "primary_item": {
-        "id": "16f718d2196a35ea37da3a662f435f8f5afef8a3",
-        "title": "17 岁高中生做了个假 AI，上线一个月获 2.8 亿次访问",
-        "url": "https://www.huxiu.com/article/4867564.html?f=rss",
-        "source": "Readhub · AI",
-        "source_name": "TopHub"
       }
     },
     {
@@ -1165,14 +1398,14 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5263,
-      "importance": 0.5263,
-      "importance_score": 0.5263,
+      "score": 0.5108,
+      "importance": 0.5108,
+      "importance_score": 0.5108,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8916,
+        "recency": 0.8142,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1187,103 +1420,6 @@
         "url": "https://www.businessinsider.com/user-increase-dod-workers-using-military-ai-program-daily-official-2026-6",
         "source": "www.businessinsider.com",
         "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_77f105a7b827",
-      "title": "我的 Homelab 人工智能开发平台 / My Homelab AI Dev Platform",
-      "url": "https://news.ycombinator.com/item?id=48542433",
-      "primary_url": "https://news.ycombinator.com/item?id=48542433",
-      "source": "hackernews",
-      "source_name": "NewsNow",
-      "sources": [
-        {
-          "id": "7a62214457b915bd92a267fdb86594ca5e9f707d",
-          "title": "我的 Homelab 人工智能开发平台 / My Homelab AI Dev Platform",
-          "url": "https://news.ycombinator.com/item?id=48542433",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-15T19:50:14.347000Z"
-        },
-        {
-          "id": "7e9fb68f307ac599c33f5dadccbb886b63603992",
-          "title": "我的家庭实验室 AI 开发平台",
-          "url": "https://rsgm.dev/post/ai-dev-platform",
-          "source": "rsgm.dev",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T18:37:09.280000Z"
-        },
-        {
-          "id": "d67df7fef2ae1e2674f18918abfbb54301e608b2",
-          "title": "我的家庭实验室 AI 开发平台 / My Homelab AI Dev Platform",
-          "url": "https://rsgm.dev/post/ai-dev-platform",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-15T15:09:40Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Hacker News (黑客新闻)",
-        "hackernews",
-        "rsgm.dev"
-      ],
-      "items": [
-        {
-          "id": "7a62214457b915bd92a267fdb86594ca5e9f707d",
-          "title": "我的 Homelab 人工智能开发平台 / My Homelab AI Dev Platform",
-          "url": "https://news.ycombinator.com/item?id=48542433",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-15T19:50:14.347000Z"
-        },
-        {
-          "id": "7e9fb68f307ac599c33f5dadccbb886b63603992",
-          "title": "我的家庭实验室 AI 开发平台",
-          "url": "https://rsgm.dev/post/ai-dev-platform",
-          "source": "rsgm.dev",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T18:37:09.280000Z"
-        },
-        {
-          "id": "d67df7fef2ae1e2674f18918abfbb54301e608b2",
-          "title": "我的家庭实验室 AI 开发平台 / My Homelab AI Dev Platform",
-          "url": "https://rsgm.dev/post/ai-dev-platform",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-15T15:09:40Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.5503,
-      "importance": 0.5503,
-      "importance_score": 0.5503,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8867,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-15T15:09:40Z",
-      "latest_at": "2026-06-15T19:50:14.347000Z",
-      "primary_item": {
-        "id": "7a62214457b915bd92a267fdb86594ca5e9f707d",
-        "title": "我的 Homelab 人工智能开发平台 / My Homelab AI Dev Platform",
-        "url": "https://news.ycombinator.com/item?id=48542433",
-        "source": "hackernews",
-        "source_name": "NewsNow"
       }
     },
     {
@@ -1339,14 +1475,14 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4997,
-      "importance": 0.4997,
-      "importance_score": 0.4997,
+      "score": 0.4842,
+      "importance": 0.4842,
+      "importance_score": 0.4842,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7584,
+        "recency": 0.681,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1361,162 +1497,6 @@
         "url": "https://crankgpt.com",
         "source": "crankgpt.com",
         "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_2c8d6f1efa70",
-      "title": "AI 做不到的，是设计审美教育",
-      "url": "https://www.huxiu.com/article/4867571.html?f=rss",
-      "primary_url": "https://www.huxiu.com/article/4867571.html?f=rss",
-      "source": "Readhub · AI",
-      "source_name": "TopHub",
-      "sources": [
-        {
-          "id": "7a11b6e34a80a56910ce03ca20ab10c9c365cab9",
-          "title": "AI 做不到的，是设计审美教育",
-          "url": "https://www.huxiu.com/article/4867571.html?f=rss",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        },
-        {
-          "id": "a19881273a01f6f2a4a751c755c02f1448ad4309",
-          "title": "AI做不到的，是设计审美教育",
-          "url": "https://www.huxiu.com/article/4867571.html?f=rss",
-          "source": "虎嗅 (Huxiu)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-15T17:30:57Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Readhub · AI",
-        "虎嗅 (Huxiu)"
-      ],
-      "items": [
-        {
-          "id": "7a11b6e34a80a56910ce03ca20ab10c9c365cab9",
-          "title": "AI 做不到的，是设计审美教育",
-          "url": "https://www.huxiu.com/article/4867571.html?f=rss",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        },
-        {
-          "id": "a19881273a01f6f2a4a751c755c02f1448ad4309",
-          "title": "AI做不到的，是设计审美教育",
-          "url": "https://www.huxiu.com/article/4867571.html?f=rss",
-          "source": "虎嗅 (Huxiu)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-15T17:30:57Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5269,
-      "importance": 0.5269,
-      "importance_score": 0.5269,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8947,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-15T17:30:57Z",
-      "latest_at": "2026-06-15T20:01:44.205150Z",
-      "primary_item": {
-        "id": "7a11b6e34a80a56910ce03ca20ab10c9c365cab9",
-        "title": "AI 做不到的，是设计审美教育",
-        "url": "https://www.huxiu.com/article/4867571.html?f=rss",
-        "source": "Readhub · AI",
-        "source_name": "TopHub"
-      }
-    },
-    {
-      "story_id": "story_cd214f0942af",
-      "title": "Sarvam 获得由 HCLTech 领投的 2.34 亿美元融资，成为印度最新的人工智能独角兽 / Sarvam becomes India’s newest AI unicorn with a $234m round led by HCLTech",
-      "url": "https://thenextweb.com/news/sarvam-india-ai-unicorn-234-million-hcltech",
-      "primary_url": "https://thenextweb.com/news/sarvam-india-ai-unicorn-234-million-hcltech",
-      "source": "The Next Web",
-      "source_name": "TechURLs",
-      "sources": [
-        {
-          "id": "d2fa173dc914eeedec1aeaae2d1edac3ed8f1ee7",
-          "title": "Sarvam 获得由 HCLTech 领投的 2.34 亿美元融资，成为印度最新的人工智能独角兽 / Sarvam becomes India’s newest AI unicorn with a $234m round led by HCLTech",
-          "url": "https://thenextweb.com/news/sarvam-india-ai-unicorn-234-million-hcltech",
-          "source": "The Next Web",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-15T14:40:17Z"
-        },
-        {
-          "id": "7ef26f76ba458639322c95a73bd114fff83c19ca",
-          "title": "Sarvam 获得由 HCLTech 领投的 2.34 亿美元融资，成为印度最新的人工智能独角兽 / Sarvam becomes India’s newest AI unicorn with $234 million funding round led by HCLTech",
-          "url": "https://techcrunch.com/2026/06/15/sarvam-becomes-indias-newest-ai-unicorn-with-234-million-funding-round-led-by-hcltech",
-          "source": "TechCrunch",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-15T13:46:08Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "TechCrunch",
-        "The Next Web"
-      ],
-      "items": [
-        {
-          "id": "d2fa173dc914eeedec1aeaae2d1edac3ed8f1ee7",
-          "title": "Sarvam 获得由 HCLTech 领投的 2.34 亿美元融资，成为印度最新的人工智能独角兽 / Sarvam becomes India’s newest AI unicorn with a $234m round led by HCLTech",
-          "url": "https://thenextweb.com/news/sarvam-india-ai-unicorn-234-million-hcltech",
-          "source": "The Next Web",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-15T14:40:17Z"
-        },
-        {
-          "id": "7ef26f76ba458639322c95a73bd114fff83c19ca",
-          "title": "Sarvam 获得由 HCLTech 领投的 2.34 亿美元融资，成为印度最新的人工智能独角兽 / Sarvam becomes India’s newest AI unicorn with $234 million funding round led by HCLTech",
-          "url": "https://techcrunch.com/2026/06/15/sarvam-becomes-indias-newest-ai-unicorn-with-234-million-funding-round-led-by-hcltech",
-          "source": "TechCrunch",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-15T13:46:08Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.4823,
-      "importance": 0.4823,
-      "importance_score": 0.4823,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.6715,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-15T13:46:08Z",
-      "latest_at": "2026-06-15T14:40:17Z",
-      "primary_item": {
-        "id": "d2fa173dc914eeedec1aeaae2d1edac3ed8f1ee7",
-        "title": "Sarvam 获得由 HCLTech 领投的 2.34 亿美元融资，成为印度最新的人工智能独角兽 / Sarvam becomes India’s newest AI unicorn with a $234m round led by HCLTech",
-        "url": "https://thenextweb.com/news/sarvam-india-ai-unicorn-234-million-hcltech",
-        "source": "The Next Web",
-        "source_name": "TechURLs"
       }
     }
   ]
