@@ -57,7 +57,10 @@
 
         <section class="stats" id="stats"></section>
 
-        <section class="coverage-strip" id="coverageStrip" aria-label="Source coverage status"></section>
+        <section class="section-nav-wrap" aria-label="内容栏目">
+          <div class="section-tabs" id="sectionTabs" role="tablist" aria-label="AI 新闻栏目"></div>
+          <div class="section-summary" id="sectionSummary">正在整理栏目...</div>
+        </section>
       </header>
 
       <section class="primary-controls">
@@ -92,15 +95,16 @@
             </label>
           </div>
           <div class="source-health" id="sourceHealth">源状态加载中...</div>
+          <section class="coverage-strip" id="coverageStrip" aria-label="Source coverage status"></section>
           <section class="site-pills" id="sitePills"></section>
         </div>
       </details>
 
-      <section class="bole-picks-wrap" aria-label="伯乐精选" id="bolePicksWrap">
+      <section class="bole-picks-wrap" aria-label="今日 Top 3" id="bolePicksWrap">
         <div class="bole-picks-head">
           <div>
-            <p class="section-eyebrow">BOLE PICKS</p>
-            <h2>伯乐精选</h2>
+            <p class="section-eyebrow">TOP SIGNALS</p>
+            <h2 id="topStoriesTitle">今日 Top 3</h2>
           </div>
           <div class="bole-head-tools">
             <div class="bole-view-toggle" id="boleViewToggle" hidden>
@@ -110,7 +114,7 @@
             <span id="bolePicksMeta">按评分排序</span>
           </div>
         </div>
-        <div class="bole-picks-sub">把过去 24 小时的 AI 信号按故事线合并；热点视图按多源聚簇与时间衰减排序，时间线视图按时间倒序铺成一条 5 分钟可读的每日雷达。</div>
+        <div class="bole-picks-sub" id="topStoriesSub">按当前栏目筛出最值得先看的 3 条；优先多信源、官方/精选、高分和新近信号。</div>
         <div id="bolePicksList" class="bole-board"></div>
       </section>
 

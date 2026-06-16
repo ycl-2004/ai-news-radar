@@ -12,14 +12,15 @@
       .from(".hero-sub", { autoAlpha: 0, y: 10, duration: 0.4 }, "-=0.2")
       .from(".hero-meta", { autoAlpha: 0, y: 10, duration: 0.4 }, "-=0.25")
       .from(".stat", { autoAlpha: 0, y: 14, scale: 0.98, stagger: 0.06, duration: 0.45 }, "-=0.15")
-      .from(".coverage-card", { autoAlpha: 0, y: 10, stagger: 0.045, duration: 0.4 }, "-=0.2")
+      .from(".section-tab", { autoAlpha: 0, y: 10, stagger: 0.045, duration: 0.4 }, "-=0.2")
+      .from(".section-summary", { autoAlpha: 0, y: 8, duration: 0.35 }, "-=0.25")
       .from(".primary-controls", { autoAlpha: 0, y: 8, duration: 0.4 }, "-=0.15")
       .from(".advanced-panel", { autoAlpha: 0, y: 8, duration: 0.4 }, "-=0.3");
 
-    // 伯乐精选会在 daily-brief 或 fallback 渲染后触发；兼容 v0.6 story-row 与旧版 bole-row。
+    // Top stories render after data loads; keep legacy selectors for old data views.
     document.addEventListener("aiRadar:briefRendered", function () {
       const brief = document.querySelector(".bole-picks-wrap");
-      const cards = Array.from(document.querySelectorAll(".story-row, .bole-row")).slice(0, 24);
+      const cards = Array.from(document.querySelectorAll(".top-story-card, .story-row, .bole-row")).slice(0, 24);
       if (brief) {
         gsap.fromTo(brief, { y: 12 }, { y: 0, duration: 0.35, clearProps: "transform" });
       }
@@ -29,7 +30,7 @@
 
     // List: animate first 30 visible cards on render/mode switch
     document.addEventListener("aiRadar:listRendered", function () {
-      const cards = Array.from(document.querySelectorAll(".news-card")).slice(0, 30);
+      const cards = Array.from(document.querySelectorAll(".intel-card, .news-card")).slice(0, 30);
       if (!cards.length) return;
       gsap.from(cards, { autoAlpha: 0, y: 12, stagger: 0.03, duration: 0.4, clearProps: "transform,opacity,visibility" });
     });

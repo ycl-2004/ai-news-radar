@@ -18,6 +18,7 @@ const state = {
   sourceStatus: null,
   generatedAt: null,
   dailyBrief: null,
+  activeSection: "hot",
   boleView: "hot",
   boleExpanded: false,
 };
@@ -52,6 +53,10 @@ const bolePicksWrapEl = document.getElementById("bolePicksWrap");
 const boleViewToggleEl = document.getElementById("boleViewToggle");
 const boleHotBtnEl = document.getElementById("boleHotBtn");
 const boleTimelineBtnEl = document.getElementById("boleTimelineBtn");
+const sectionTabsEl = document.getElementById("sectionTabs");
+const sectionSummaryEl = document.getElementById("sectionSummary");
+const topStoriesTitleEl = document.getElementById("topStoriesTitle");
+const topStoriesSubEl = document.getElementById("topStoriesSub");
 
 const SOURCE_KINDS = {
   official_ai: { label: "官方", tone: "official" },
@@ -68,6 +73,18 @@ const SOURCE_KINDS = {
   aibase: { label: "AI站点", tone: "aihub" },
   newsnow: { label: "聚合", tone: "aggregate" },
 };
+
+const SECTION_DEFS = [
+  { id: "hot", label: "热点", short: "热点", description: "跨来源聚合后的优先阅读列表" },
+  { id: "models", label: "模型", short: "模型", description: "模型发布、能力升级、评测与开源权重" },
+  { id: "products", label: "产品", short: "产品", description: "AI 应用、Agent、生成工具和用户产品更新" },
+  { id: "devtools", label: "开发者", short: "开发者", description: "编程工具、API、开源项目、推理与工程实践" },
+  { id: "industry", label: "行业", short: "行业", description: "公司战略、融资收购、监管、芯片与产业变化" },
+  { id: "research", label: "研究", short: "研究", description: "论文、基准、方法、数据集与研究团队动态" },
+  { id: "china", label: "中文", short: "中文", description: "中文 AI 圈、国内公司、中文媒体和社区信号" },
+];
+
+const SECTION_BY_ID = Object.fromEntries(SECTION_DEFS.map((section) => [section.id, section]));
 
 function fmtNumber(n) {
   return new Intl.NumberFormat("zh-CN").format(n || 0);
@@ -212,6 +229,48 @@ function currentSiteStats() {
   return computeSiteStats(state.allDedup ? (state.itemsAll || []) : (state.itemsAllRaw || []));
 }
 
+function sectionStats(sectionId) {
+  const items = sectionItems(modeItems(), sectionId);
+  const highCount = items.filter((item) => scorePercent(item) >= 75 || item.site_id === "official_ai" || item.site_id === "aihot").length;
+  const sourceSet = new Set(items.map((item) => item.source || item.site_name || item.site_id).filter(Boolean));
+  return { items, count: items.length, highCount, sourceCount: sourceSet.size };
+}
+
+function renderSectionTabs() {
+  if (!sectionTabsEl) return;
+  sectionTabsEl.innerHTML = "";
+  SECTION_DEFS.forEach((section) => {
+    const stats = sectionStats(section.id);
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = `section-tab ${state.activeSection === section.id ? "active" : ""}`;
+    btn.setAttribute("role", "tab");
+    btn.setAttribute("aria-selected", state.activeSection === section.id ? "true" : "false");
+    btn.dataset.section = section.id;
+    btn.innerHTML = `<span>${section.label}</span><strong>${fmtNumber(stats.count)}</strong>`;
+    btn.addEventListener("click", () => {
+      state.activeSection = section.id;
+      state.boleExpanded = false;
+      renderSectionTabs();
+      renderModeSwitch();
+      renderSiteFilters();
+      renderBolePicks();
+      renderList();
+    });
+    sectionTabsEl.appendChild(btn);
+  });
+}
+
+function renderSectionSummary(filteredItems = null) {
+  if (!sectionSummaryEl) return;
+  const section = SECTION_BY_ID[state.activeSection] || SECTION_BY_ID.hot;
+  const items = filteredItems || getFilteredItems();
+  const highCount = items.filter((item) => scorePercent(item) >= 75 || item.site_id === "official_ai" || item.site_id === "aihot").length;
+  const sources = new Set(items.map((item) => item.source || item.site_name || item.site_id).filter(Boolean));
+  const modeText = state.mode === "all" ? (state.allDedup ? "全量去重" : "全量原始") : "AI强相关";
+  sectionSummaryEl.textContent = `过去 24 小时 · ${section.label} · ${fmtNumber(items.length)} 条 · ${fmtNumber(highCount)} 条高优先级 · ${fmtNumber(sources.size)} 个来源 · ${modeText}`;
+}
+
 function siteRatioText(siteStats) {
   const count = Number(siteStats.count || 0);
   const raw = Number(siteStats.raw_count ?? siteStats.count ?? 0);
@@ -264,15 +323,18 @@ function renderModeSwitch() {
   if (allDedupeLabelEl) allDedupeLabelEl.textContent = state.allDedup ? "去重开" : "去重关";
   if (state.mode === "ai") {
     modeHintEl.textContent = `AI强相关 · ${fmtNumber(state.totalAi)} 条`;
-    if (listTitleEl) listTitleEl.textContent = "AI 信号流";
   } else {
     const allCount = state.allDedup
       ? (state.totalAllMode || state.itemsAll.length)
       : (state.totalRaw || state.itemsAllRaw.length);
     modeHintEl.textContent = `全量 · ${state.allDedup ? "去重开" : "去重关"} · ${fmtNumber(allCount)} 条`;
-    if (listTitleEl) listTitleEl.textContent = "全量更新";
+  }
+  if (listTitleEl) {
+    const section = SECTION_BY_ID[state.activeSection] || SECTION_BY_ID.hot;
+    listTitleEl.textContent = state.activeSection === "hot" ? "热点情报流" : `${section.label}情报流`;
   }
   renderAdvancedSummary();
+  renderSectionSummary();
 }
 
 function effectiveAllItems() {
@@ -283,9 +345,17 @@ function modeItems() {
   return state.mode === "all" ? effectiveAllItems() : state.itemsAi;
 }
 
+function sectionItems(items = modeItems(), sectionId = state.activeSection) {
+  const source = Array.isArray(items) ? items : [];
+  if (sectionId === "hot") {
+    return [...source].sort((a, b) => itemPriorityScore(b) - itemPriorityScore(a) || timelineMs(b) - timelineMs(a));
+  }
+  return source.filter((item) => itemMatchesSection(item, sectionId));
+}
+
 function getFilteredItems() {
   const q = state.query.trim().toLowerCase();
-  return modeItems().filter((item) => {
+  return sectionItems().filter((item) => {
     if (state.siteFilter && item.site_id !== state.siteFilter) return false;
     if (!q) return true;
     const hay = `${item.title || ""} ${item.title_zh || ""} ${item.title_en || ""} ${item.site_name || ""} ${item.source || ""}`.toLowerCase();
@@ -309,6 +379,18 @@ function scoreTone(score) {
   return "watch";
 }
 
+function itemPriorityScore(item) {
+  const score = scorePercent(item);
+  const officialBonus = item.site_id === "official_ai" ? 18 : 0;
+  const selectedBonus = item.site_id === "aihot" ? 16 : 0;
+  const sourceTierBonus = Math.max(0, 8 - Number(item.source_tier_rank || 8));
+  const signalBonus = Array.isArray(item.ai_signals) ? Math.min(10, item.ai_signals.length * 2) : 0;
+  const ageMs = Date.now() - timelineMs(item);
+  const ageHours = Number.isFinite(ageMs) && ageMs > 0 ? ageMs / 3600000 : 24;
+  const recencyBonus = Math.max(0, 12 - ageHours / 2);
+  return score + officialBonus + selectedBonus + sourceTierBonus + signalBonus + recencyBonus;
+}
+
 function labelText(item) {
   const labels = {
     ai_general: "AI信号",
@@ -316,9 +398,120 @@ function labelText(item) {
     agent_workflow: "Agent工作流",
     ai_product_update: "产品更新",
     developer_tooling: "开发工具",
+    developer_tool: "开发工具",
     infrastructure: "基础设施",
+    infra_compute: "基础设施",
+    industry_business: "行业动态",
+    research_paper: "研究论文",
+    robotics: "机器人",
+    curated_hotlist: "热点",
+    ai_tech: "技术趋势",
   };
   return labels[item.ai_label] || item.ai_label || "精选信号";
+}
+
+function itemHaystack(item) {
+  return [
+    item.title,
+    item.title_zh,
+    item.title_en,
+    item.title_original,
+    item.source,
+    item.site_name,
+    item.site_id,
+    item.ai_label,
+    ...(Array.isArray(item.ai_signals) ? item.ai_signals : []),
+  ].filter(Boolean).join(" ").toLowerCase();
+}
+
+function matchesAny(text, patterns) {
+  return patterns.some((pattern) => pattern.test(text));
+}
+
+function itemSections(item) {
+  const hay = itemHaystack(item);
+  const contentHay = [
+    item.title,
+    item.title_zh,
+    item.title_en,
+    item.title_original,
+    item.source,
+    item.site_name,
+    item.site_id,
+    ...(Array.isArray(item.ai_signals) ? item.ai_signals : []),
+  ].filter(Boolean).join(" ").toLowerCase();
+  const sections = new Set();
+  const label = item.ai_label || "";
+  const source = `${item.source || ""} ${item.site_name || ""}`.toLowerCase();
+  const hasExplicitModelTerm = matchesAny(contentHay, [
+    /gpt[-\s]?\d|claude|gemini|grok|llama|qwen|deepseek|mistral|kimi\s?k\d|glm|gemma|模型|model|weights|权重|多模态|视频生成|diffusion|sora|seedance|llm|大模型/,
+  ]);
+  const looksLikeToolOrProduct = matchesAny(hay, [
+    /skill|copilot|codex|cli|api|sdk|dashboard|workflow|tool|工具|助手|应用|插件|工作流|支付宝|浏览器|搜索/,
+  ]);
+
+  if (
+    hasExplicitModelTerm ||
+    (label === "model_release" && !looksLikeToolOrProduct)
+  ) sections.add("models");
+
+  if (
+    label === "ai_product_update" ||
+    label === "agent_workflow" ||
+    label === "robotics" ||
+    matchesAny(hay, [
+      /app|product|agent|workflow|siri|copilot|chatgpt|perplexity|runway|suno|支付宝|产品|应用|智能体|机器人|浏览器|搜索|助手|生成工具|办公|教育/,
+    ])
+  ) sections.add("products");
+
+  if (
+    label === "developer_tool" ||
+    label === "developer_tooling" ||
+    label === "infra_compute" ||
+    matchesAny(hay, [
+      /github|cursor|codex|copilot|openrouter|api|sdk|mcp|cli|framework|inference|推理|开发者|开源|代码|编程|算力|芯片|nvidia|cloud|部署|benchmarking|token/,
+    ])
+  ) sections.add("devtools");
+
+  if (
+    label === "industry_business" ||
+    matchesAny(hay, [
+      /funding|raised|ipo|acquire|acquisition|lawsuit|regulation|policy|white house|pentagon|nvidia|salesforce|meta|microsoft|融资|收购|上市|监管|政策|裁员|估值|债券|芯片|公司|行业|政府|五角大楼|白宫/,
+    ])
+  ) sections.add("industry");
+
+  if (
+    label === "research_paper" ||
+    matchesAny(hay, [
+      /paper|arxiv|research|benchmark|eval|dataset|lmsys|rdi|berkeley|huggingface daily papers|论文|研究|基准|评测|数据集|训练|k-means|speculative decoding/,
+    ])
+  ) sections.add("research");
+
+  if (
+    source.includes("it之家") ||
+    source.includes("36氪") ||
+    source.includes("掘金") ||
+    source.includes("readhub") ||
+    source.includes("aibase") ||
+    source.includes("公众号") ||
+    source.includes("宝玉") ||
+    source.includes("小互") ||
+    source.includes("ayi") ||
+    matchesAny(hay, [
+      /阿里|通义|千问|智谱|kimi|月之暗面|minimax|字节|火山|百度|腾讯|华为|蚂蚁|讯飞|国内|中文|开源中国|少数派|虎嗅/,
+    ])
+  ) sections.add("china");
+
+  if (!sections.size) sections.add("industry");
+  return sections;
+}
+
+function itemMatchesSection(item, sectionId) {
+  return sectionId === "hot" || itemSections(item).has(sectionId);
+}
+
+function sectionBadgeLabel(sectionId) {
+  return SECTION_BY_ID[sectionId]?.short || "栏目";
 }
 
 function reasonText(item) {
@@ -800,27 +993,165 @@ function renderBoleFallback(picks) {
 function renderBolePicks() {
   if (!bolePicksListEl || !bolePicksMetaEl) return;
   bolePicksListEl.innerHTML = "";
-  bolePicksListEl.className = "bole-board";
-
-  const brief = state.dailyBrief;
-  const items = brief && Array.isArray(brief.items) ? brief.items : [];
-  if (items.length) {
-    if (bolePicksWrapEl) bolePicksWrapEl.hidden = false;
-    renderBoleBrief(items);
-    return;
-  }
-
-  if (brief) {
-    // 宁缺毋滥: a quiet day produces an empty gated brief — remove the whole
-    // block instead of padding it with weak candidates.
-    if (bolePicksWrapEl) bolePicksWrapEl.hidden = true;
-    return;
-  }
-
+  bolePicksListEl.className = "top-stories-grid";
+  if (boleViewToggleEl) boleViewToggleEl.hidden = true;
   if (bolePicksWrapEl) bolePicksWrapEl.hidden = false;
-  const picks = pickBoleItems(state.itemsAi || []);
-  bolePicksMetaEl.textContent = "故事合并数据暂未生成 · 伯乐候选信号";
-  renderBoleFallback(picks);
+
+  const section = SECTION_BY_ID[state.activeSection] || SECTION_BY_ID.hot;
+  const filtered = getFilteredItems();
+  const clusters = rankedClustersForItems(filtered);
+  const top = clusters.slice(0, 3);
+  if (topStoriesTitleEl) topStoriesTitleEl.textContent = state.activeSection === "hot" ? "今日 Top 3" : `${section.label} Top 3`;
+  if (topStoriesSubEl) topStoriesSubEl.textContent = `${section.description}；优先多信源、官方/精选、高分和新近信号。`;
+  bolePicksMetaEl.textContent = `${fmtNumber(filtered.length)} 条候选 · ${fmtNumber(top.length)} 条优先阅读`;
+
+  if (!top.length) {
+    const empty = document.createElement("div");
+    empty.className = "bole-empty";
+    empty.textContent = "当前栏目和筛选条件下没有可展示的 Top 3。";
+    bolePicksListEl.appendChild(empty);
+    document.dispatchEvent(new CustomEvent("aiRadar:briefRendered"));
+    return;
+  }
+
+  top.forEach((row, index) => {
+    bolePicksListEl.appendChild(buildTopStoryCard(row, index + 1));
+  });
+  document.dispatchEvent(new CustomEvent("aiRadar:briefRendered"));
+}
+
+function rankedClustersForItems(items) {
+  const rows = [...items]
+    .map((item, index) => ({ item, index, score: scorePercent(item) || Math.round(itemPriorityScore(item)) }))
+    .filter((row) => row.item && (row.score > 0 || row.item.title))
+    .sort((a, b) => itemPriorityScore(b.item) - itemPriorityScore(a.item) || timelineMs(b.item) - timelineMs(a.item));
+
+  return clusterBoleEvents(rows).sort((a, b) => {
+    const aPriority = itemPriorityScore(a.item) + Math.min(18, (a.sourceCount - 1) * 9);
+    const bPriority = itemPriorityScore(b.item) + Math.min(18, (b.sourceCount - 1) * 9);
+    return bPriority - aPriority || b.score - a.score || timelineMs(b.item) - timelineMs(a.item);
+  });
+}
+
+function itemTagLabels(item, row = null) {
+  const tags = [];
+  const sections = itemSections(item);
+  if (state.activeSection !== "hot") tags.push(sectionBadgeLabel(state.activeSection));
+  if (row && (row.sourceCount > 1 || row.mergedCount > 1)) tags.push("多源");
+  if (item.site_id === "official_ai") tags.push("官方");
+  if (item.site_id === "aihot") tags.push("精选");
+  if (sections.has("models")) tags.push("模型发布");
+  if (sections.has("devtools")) tags.push("开发者");
+  if (sections.has("research")) tags.push("研究");
+  if (sections.has("china")) tags.push("中文");
+  return Array.from(new Set(tags)).slice(0, 5);
+}
+
+function itemSourceNames(item, row = null) {
+  if (row && Array.isArray(row.rows) && row.rows.length) {
+    return Array.from(new Set(row.rows.map((entry) => {
+      const sourceItem = entry.item || {};
+      return sourceItem.source || sourceItem.site_name || "来源";
+    }).filter(Boolean)));
+  }
+  return [item.source || item.site_name || "来源"];
+}
+
+function buildTopStoryCard(row, rank) {
+  const item = row.item;
+  const link = document.createElement("a");
+  link.className = "top-story-card";
+  link.href = item.url || "#";
+  link.target = "_blank";
+  link.rel = "noopener noreferrer";
+
+  const rankEl = document.createElement("span");
+  rankEl.className = "top-rank";
+  rankEl.textContent = `#${rank}`;
+
+  const meta = document.createElement("div");
+  meta.className = "intel-meta";
+  const time = document.createElement("time");
+  time.textContent = fmtTime(timelineIso(item));
+  const source = document.createElement("span");
+  source.textContent = item.site_name || "来源";
+  const score = document.createElement("strong");
+  score.textContent = `${Math.max(scorePercent(item), row.score || 0)}分`;
+  meta.append(time, source, score);
+
+  const title = document.createElement("div");
+  title.className = "top-story-title";
+  title.textContent = itemTitleText(item);
+
+  const reason = document.createElement("div");
+  reason.className = "top-story-reason";
+  reason.textContent = row.mergedCount > 1 ? boleReasonText(row) : reasonText(item);
+
+  const tags = document.createElement("div");
+  tags.className = "intel-tags";
+  itemTagLabels(item, row).forEach((label) => {
+    const tag = document.createElement("span");
+    tag.textContent = label;
+    tags.appendChild(tag);
+  });
+
+  const sources = document.createElement("div");
+  sources.className = "intel-sources";
+  const names = itemSourceNames(item, row);
+  sources.textContent = `${fmtNumber(names.length)} 个来源 · ${names.slice(0, 4).join(" / ")}${names.length > 4 ? ` / +${names.length - 4}` : ""}`;
+
+  link.append(rankEl, meta, title, reason, tags, sources);
+  return link;
+}
+
+function buildIntelCard(item, rank) {
+  const card = document.createElement("article");
+  card.className = "intel-card";
+
+  const meta = document.createElement("div");
+  meta.className = "intel-card-meta";
+  const rankEl = document.createElement("span");
+  rankEl.className = "intel-card-rank";
+  rankEl.textContent = `#${rank}`;
+  const time = document.createElement("time");
+  time.textContent = fmtTime(timelineIso(item));
+  const score = scorePercent(item);
+  const scoreEl = document.createElement("strong");
+  scoreEl.className = `intel-score ${scoreTone(score)}`;
+  scoreEl.textContent = score ? `${score}分` : "观察";
+  meta.append(rankEl, time, scoreEl);
+
+  const title = document.createElement("a");
+  title.className = "intel-title";
+  title.href = item.url || "#";
+  title.target = "_blank";
+  title.rel = "noopener noreferrer";
+  title.textContent = itemTitleText(item);
+
+  const reason = document.createElement("p");
+  reason.className = "intel-reason";
+  reason.textContent = reasonText(item);
+
+  const tags = document.createElement("div");
+  tags.className = "intel-tags";
+  itemTagLabels(item).forEach((label) => {
+    const tag = document.createElement("span");
+    tag.textContent = label;
+    tags.appendChild(tag);
+  });
+
+  const sources = document.createElement("div");
+  sources.className = "intel-card-sources";
+  const site = document.createElement("span");
+  site.textContent = item.site_name || "来源";
+  const source = document.createElement("span");
+  source.textContent = item.source || "未分区";
+  const count = document.createElement("strong");
+  count.textContent = "1 个来源";
+  sources.append(count, site, source);
+
+  card.append(meta, title, reason, tags, sources);
+  return card;
 }
 
 function renderItemNode(item) {
@@ -976,12 +1307,13 @@ function renderLoadingNotice(label, count) {
 }
 
 function currentFilterLabel(filtered) {
+  const section = SECTION_BY_ID[state.activeSection] || SECTION_BY_ID.hot;
   if (state.siteFilter) {
     const item = filtered[0];
     const stat = currentSiteStats().find((s) => s.site_id === state.siteFilter);
-    return item?.site_name || stat?.site_name || state.siteFilter;
+    return `${section.label} · ${item?.site_name || stat?.site_name || state.siteFilter}`;
   }
-  return state.mode === "all" ? "全量来源" : "AI 信号";
+  return state.activeSection === "hot" ? "热点情报" : `${section.label}情报`;
 }
 
 function groupedSites(items) {
@@ -1013,6 +1345,7 @@ function addLoadMoreButton(parent, label, onClick) {
 function renderList() {
   const filtered = getFilteredItems();
   resultCountEl.textContent = `${fmtNumber(filtered.length)} 条`;
+  renderSectionSummary(filtered);
 
   newsListEl.innerHTML = "";
   _renderListToken += 1;           // invalidate any in-flight render
@@ -1027,62 +1360,33 @@ function renderList() {
   }
 
   renderLoadingNotice(currentFilterLabel(filtered), filtered.length);
-
-  if (state.siteFilter) {
-    requestAnimationFrame(() => {
-      if (token !== _renderListToken) return;
-      const groups = groupBySource(filtered);
-      newsListEl.innerHTML = "";
-      let idx = 0;
-      let moreBtn = null;
-      const renderNextSourceGroups = (count = SOURCE_GROUP_INITIAL_LIMIT) => {
-        if (token !== _renderListToken) return;
-        const frag = document.createDocumentFragment();
-        groups.slice(idx, idx + count).forEach(([source, groupItems]) => {
-          frag.appendChild(buildSourceGroupNode(source, groupItems));
-        });
-        idx += count;
-        if (moreBtn) moreBtn.remove();
-        newsListEl.appendChild(frag);
-        if (idx < groups.length) {
-          const nextCount = Math.min(SOURCE_GROUP_LOAD_STEP, groups.length - idx);
-          moreBtn = addLoadMoreButton(newsListEl, `加载更多分区（${fmtNumber(nextCount)} 个）`, () => {
-            renderNextSourceGroups(SOURCE_GROUP_LOAD_STEP);
-          });
-        } else {
-          document.dispatchEvent(new CustomEvent("aiRadar:listRendered"));
-        }
-      };
-      renderNextSourceGroups();
-    });
-    return;
-  }
-
   requestAnimationFrame(() => {
     if (token !== _renderListToken) return;   // stale render, abort
-    const sites = groupedSites(filtered);
+    const sorted = state.activeSection === "hot"
+      ? filtered
+      : [...filtered].sort((a, b) => itemPriorityScore(b) - itemPriorityScore(a) || timelineMs(b) - timelineMs(a));
     newsListEl.innerHTML = "";
     let idx = 0;
     let moreBtn = null;
-    const renderNextSites = (count = SITE_GROUP_INITIAL_LIMIT) => {
+    const renderNextItems = (count = 24) => {
       if (token !== _renderListToken) return;
       const frag = document.createDocumentFragment();
-      sites.slice(idx, idx + count).forEach(([, site]) => {
-        frag.appendChild(buildSiteGroupNode(site));
+      sorted.slice(idx, idx + count).forEach((item, offset) => {
+        frag.appendChild(buildIntelCard(item, idx + offset + 1));
       });
       idx += count;
       if (moreBtn) moreBtn.remove();
       newsListEl.appendChild(frag);
-      if (idx < sites.length) {
-        const nextCount = Math.min(SITE_GROUP_LOAD_STEP, sites.length - idx);
-        moreBtn = addLoadMoreButton(newsListEl, `加载更多来源（${fmtNumber(nextCount)} 个）`, () => {
-          renderNextSites(SITE_GROUP_LOAD_STEP);
+      if (idx < sorted.length) {
+        const nextCount = Math.min(24, sorted.length - idx);
+        moreBtn = addLoadMoreButton(newsListEl, `再加载 ${fmtNumber(nextCount)} 条`, () => {
+          renderNextItems(24);
         });
       } else {
         document.dispatchEvent(new CustomEvent("aiRadar:listRendered"));
       }
     };
-    renderNextSites();
+    renderNextItems();
   });
 }
 
@@ -1327,10 +1631,11 @@ async function init() {
     state.generatedAt = payload.generated_at;
 
     setStats(payload);
+    renderSectionTabs();
     renderModeSwitch();
     renderCoverageStrip();
-    renderBolePicks();
     renderSiteFilters();
+    renderBolePicks();
     renderList();
     updatedAtEl.textContent = `更新时间：${fmtTime(state.generatedAt)}`;
   } else {
@@ -1359,19 +1664,23 @@ async function init() {
 
 searchInputEl.addEventListener("input", (e) => {
   state.query = e.target.value;
+  renderBolePicks();
   renderList();
 });
 
 siteSelectEl.addEventListener("change", (e) => {
   state.siteFilter = e.target.value;
   renderSiteFilters();
+  renderBolePicks();
   renderList();
 });
 
 modeAiBtnEl.addEventListener("click", () => {
   state.mode = "ai";
+  renderSectionTabs();
   renderModeSwitch();
   renderSiteFilters();
+  renderBolePicks();
   renderList();
 });
 
@@ -1385,7 +1694,10 @@ modeAllBtnEl.addEventListener("click", async () => {
   newsListEl.appendChild(loading);
   try {
     await loadAllModeData();
+    renderSectionTabs();
+    renderModeSwitch();
     renderSiteFilters();
+    renderBolePicks();
     renderList();
   } catch (err) {
     newsListEl.innerHTML = "";
@@ -1399,8 +1711,10 @@ modeAllBtnEl.addEventListener("click", async () => {
 if (allDedupeToggleEl) {
   allDedupeToggleEl.addEventListener("change", (e) => {
     state.allDedup = Boolean(e.target.checked);
+    renderSectionTabs();
     renderModeSwitch();
     renderSiteFilters();
+    renderBolePicks();
     renderList();
   });
 }
