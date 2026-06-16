@@ -1,8 +1,130 @@
 {
-  "generated_at": "2026-06-16T15:52:05.299637Z",
+  "generated_at": "2026-06-16T19:29:38.645384Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
+    {
+      "story_id": "story_1a2ac3701adf",
+      "title": "GitHub 代码质量将于 2026 年 7 月 20 日正式发布 / GitHub Code Quality generally available July 20, 2026",
+      "url": "https://github.blog/changelog/2026-06-16-github-code-quality-generally-available-july-20-2026",
+      "primary_url": "https://github.blog/changelog/2026-06-16-github-code-quality-generally-available-july-20-2026",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "680b025dc447fdf81fe724449c110e2f5081ce8d",
+          "title": "GitHub 代码质量将于 2026 年 7 月 20 日正式发布 / GitHub Code Quality generally available July 20, 2026",
+          "url": "https://github.blog/changelog/2026-06-16-github-code-quality-generally-available-july-20-2026",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-16T16:25:31Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "items": [
+        {
+          "id": "680b025dc447fdf81fe724449c110e2f5081ce8d",
+          "title": "GitHub 代码质量将于 2026 年 7 月 20 日正式发布 / GitHub Code Quality generally available July 20, 2026",
+          "url": "https://github.blog/changelog/2026-06-16-github-code-quality-generally-available-july-20-2026",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-16T16:25:31Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8354,
+      "importance": 0.8354,
+      "importance_score": 0.8354,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "source_tier": 1.0,
+        "ai_relevance": 0.87,
+        "recency": 0.8721,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-16T16:25:31Z",
+      "latest_at": "2026-06-16T16:25:31Z",
+      "primary_item": {
+        "id": "680b025dc447fdf81fe724449c110e2f5081ce8d",
+        "title": "GitHub 代码质量将于 2026 年 7 月 20 日正式发布 / GitHub Code Quality generally available July 20, 2026",
+        "url": "https://github.blog/changelog/2026-06-16-github-code-quality-generally-available-july-20-2026",
+        "source": "GitHub Changelog",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_76ce414bc56e",
+      "title": "组织级别的 GitHub 代码质量支持 / Organization-level enablement for GitHub Code Quality",
+      "url": "https://github.blog/changelog/2026-06-16-organization-level-enablement-for-github-code-quality",
+      "primary_url": "https://github.blog/changelog/2026-06-16-organization-level-enablement-for-github-code-quality",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "6de2b39011e7b9671a7d152bc81a3e14f230524c",
+          "title": "组织级别的 GitHub 代码质量支持 / Organization-level enablement for GitHub Code Quality",
+          "url": "https://github.blog/changelog/2026-06-16-organization-level-enablement-for-github-code-quality",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-16T16:25:28Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "items": [
+        {
+          "id": "6de2b39011e7b9671a7d152bc81a3e14f230524c",
+          "title": "组织级别的 GitHub 代码质量支持 / Organization-level enablement for GitHub Code Quality",
+          "url": "https://github.blog/changelog/2026-06-16-organization-level-enablement-for-github-code-quality",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-16T16:25:28Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8354,
+      "importance": 0.8354,
+      "importance_score": 0.8354,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "source_tier": 1.0,
+        "ai_relevance": 0.87,
+        "recency": 0.8721,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-16T16:25:28Z",
+      "latest_at": "2026-06-16T16:25:28Z",
+      "primary_item": {
+        "id": "6de2b39011e7b9671a7d152bc81a3e14f230524c",
+        "title": "组织级别的 GitHub 代码质量支持 / Organization-level enablement for GitHub Code Quality",
+        "url": "https://github.blog/changelog/2026-06-16-organization-level-enablement-for-github-code-quality",
+        "source": "GitHub Changelog",
+        "source_name": "Official AI Updates"
+      }
+    },
     {
       "story_id": "story_abd33f53be2c",
       "title": "SpaceX 以 600 亿美元股票收购 AI 编程公司 Cursor",
@@ -21,18 +143,18 @@
           "published_at": "2026-06-16T11:21:41Z"
         },
         {
-          "id": "a56a6146d6789c0898751aa6f5312d83e911c057",
+          "id": "3b3030b1121a5522ade5be56bb09b521c118fad6",
           "title": "SpaceX 以 600 亿美元股票收购 AI 编程公司 Cursor / SpaceX to acquire Cursor for $60B in stock, days after blockbuster IPO",
           "url": "https://techcrunch.com/2026/06/16/spacex-to-acquire-cursor-for-60b-in-stock-days-after-blockbuster-ipo",
-          "source": "TechCrunch",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-16T11:21:41Z"
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-16T12:09:34Z"
         }
       ],
       "source_count": 2,
       "source_names": [
-        "TechCrunch",
+        "Hacker News · 24h最热",
         "TechCrunch：AI（RSS）"
       ],
       "items": [
@@ -46,25 +168,25 @@
           "published_at": "2026-06-16T11:21:41Z"
         },
         {
-          "id": "a56a6146d6789c0898751aa6f5312d83e911c057",
+          "id": "3b3030b1121a5522ade5be56bb09b521c118fad6",
           "title": "SpaceX 以 600 亿美元股票收购 AI 编程公司 Cursor / SpaceX to acquire Cursor for $60B in stock, days after blockbuster IPO",
           "url": "https://techcrunch.com/2026/06/16/spacex-to-acquire-cursor-for-60b-in-stock-days-after-blockbuster-ipo",
-          "source": "TechCrunch",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-16T11:21:41Z"
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-16T12:09:34Z"
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7994,
-      "importance": 0.7994,
-      "importance_score": 0.7994,
+      "score": 0.7692,
+      "importance": 0.7692,
+      "importance_score": 0.7692,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8122,
+        "recency": 0.6611,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -74,7 +196,7 @@
         "high_importance"
       ],
       "earliest_at": "2026-06-16T11:21:41Z",
-      "latest_at": "2026-06-16T11:21:41Z",
+      "latest_at": "2026-06-16T12:09:34Z",
       "primary_item": {
         "id": "b672f5fab8083a25aa1755a4f75d388cb485995a",
         "title": "SpaceX 以 600 亿美元股票收购 AI 编程公司 Cursor",
@@ -118,14 +240,14 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7946,
-      "importance": 0.7946,
-      "importance_score": 0.7946,
+      "score": 0.7644,
+      "importance": 0.7644,
+      "importance_score": 0.7644,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9132,
+        "recency": 0.7622,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -178,14 +300,14 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7927,
-      "importance": 0.7927,
-      "importance_score": 0.7927,
+      "score": 0.7624,
+      "importance": 0.7624,
+      "importance_score": 0.7624,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9033,
+        "recency": 0.7522,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -238,14 +360,14 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7914,
-      "importance": 0.7914,
-      "importance_score": 0.7914,
+      "score": 0.7612,
+      "importance": 0.7612,
+      "importance_score": 0.7612,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8968,
+        "recency": 0.7458,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -298,14 +420,14 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7856,
-      "importance": 0.7856,
-      "importance_score": 0.7856,
+      "score": 0.7554,
+      "importance": 0.7554,
+      "importance_score": 0.7554,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8681,
+        "recency": 0.717,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -358,20 +480,19 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7711,
-      "importance": 0.7711,
-      "importance_score": 0.7711,
+      "score": 0.7409,
+      "importance": 0.7409,
+      "importance_score": 0.7409,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7956,
+        "recency": 0.6445,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-06-16T10:57:44.532961Z",
       "latest_at": "2026-06-16T10:57:44.532961Z",
@@ -418,21 +539,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7618,
-      "importance": 0.7618,
-      "importance_score": 0.7618,
+      "score": 0.7315,
+      "importance": 0.7315,
+      "importance_score": 0.7315,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "source_tier": 1.0,
         "ai_relevance": 0.98,
-        "recency": 0.3388,
+        "recency": 0.1877,
         "story_heat": 0.0
       },
       "category": "official",
       "reasons": [
         "official_source",
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-06-16T00:00:00Z",
       "latest_at": "2026-06-16T00:00:00Z",
@@ -442,65 +562,6 @@
         "url": "https://developers.openai.com/codex/changelog",
         "source": "OpenAI Codex Changelog",
         "source_name": "Official AI Updates"
-      }
-    },
-    {
-      "story_id": "story_52e77e2f24f9",
-      "title": "Google Cloud 推出 OKF v0.1：供应商中立的 Markdown 规范，为 AI 智能体提供结构化上下文",
-      "url": "https://www.marktechpost.com/2026/06/16/google-cloud-introduces-open-knowledge-format-okf-a-vendor-neutral-markdown-spec-for-giving-ai-agents-curated-context",
-      "primary_url": "https://www.marktechpost.com/2026/06/16/google-cloud-introduces-open-knowledge-format-okf-a-vendor-neutral-markdown-spec-for-giving-ai-agents-curated-context",
-      "source": "MarkTechPost（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "943f817d3bca3ea27a02c7f970fd21ea097fdad4",
-          "title": "Google Cloud 推出 OKF v0.1：供应商中立的 Markdown 规范，为 AI 智能体提供结构化上下文",
-          "url": "https://www.marktechpost.com/2026/06/16/google-cloud-introduces-open-knowledge-format-okf-a-vendor-neutral-markdown-spec-for-giving-ai-agents-curated-context",
-          "source": "MarkTechPost（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-16T08:18:58Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "MarkTechPost（RSS）"
-      ],
-      "items": [
-        {
-          "id": "943f817d3bca3ea27a02c7f970fd21ea097fdad4",
-          "title": "Google Cloud 推出 OKF v0.1：供应商中立的 Markdown 规范，为 AI 智能体提供结构化上下文",
-          "url": "https://www.marktechpost.com/2026/06/16/google-cloud-introduces-open-knowledge-format-okf-a-vendor-neutral-markdown-spec-for-giving-ai-agents-curated-context",
-          "source": "MarkTechPost（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-16T08:18:58Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7491,
-      "importance": 0.7491,
-      "importance_score": 0.7491,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.6853,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-16T08:18:58Z",
-      "latest_at": "2026-06-16T08:18:58Z",
-      "primary_item": {
-        "id": "943f817d3bca3ea27a02c7f970fd21ea097fdad4",
-        "title": "Google Cloud 推出 OKF v0.1：供应商中立的 Markdown 规范，为 AI 智能体提供结构化上下文",
-        "url": "https://www.marktechpost.com/2026/06/16/google-cloud-introduces-open-knowledge-format-okf-a-vendor-neutral-markdown-spec-for-giving-ai-agents-curated-context",
-        "source": "MarkTechPost（RSS）",
-        "source_name": "AI HOT"
       }
     },
     {
@@ -538,20 +599,19 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7711,
-      "importance": 0.7711,
-      "importance_score": 0.7711,
+      "score": 0.7409,
+      "importance": 0.7409,
+      "importance_score": 0.7409,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7956,
+        "recency": 0.6445,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-06-16T10:57:44.532961Z",
       "latest_at": "2026-06-16T10:57:44.532961Z",
@@ -561,65 +621,6 @@
         "url": "https://www.aibase.com/news/28953",
         "source": "AIbase",
         "source_name": "AIbase"
-      }
-    },
-    {
-      "story_id": "story_745d64069462",
-      "title": "Cartesia 发布 Sonic 3.5 与 Ink 2 实时语音模型",
-      "url": "https://x.com/testingcatalog/status/2066773392527655252",
-      "primary_url": "https://x.com/testingcatalog/status/2066773392527655252",
-      "source": "X：Testing Catalog (@testingcatalog)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "82e7eea726c29402aa4a2c96fe34e366cfa9c337",
-          "title": "Cartesia 发布 Sonic 3.5 与 Ink 2 实时语音模型",
-          "url": "https://x.com/testingcatalog/status/2066773392527655252",
-          "source": "X：Testing Catalog (@testingcatalog)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-16T06:42:30Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：Testing Catalog (@testingcatalog)"
-      ],
-      "items": [
-        {
-          "id": "82e7eea726c29402aa4a2c96fe34e366cfa9c337",
-          "title": "Cartesia 发布 Sonic 3.5 与 Ink 2 实时语音模型",
-          "url": "https://x.com/testingcatalog/status/2066773392527655252",
-          "source": "X：Testing Catalog (@testingcatalog)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-16T06:42:30Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7357,
-      "importance": 0.7357,
-      "importance_score": 0.7357,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.6183,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-16T06:42:30Z",
-      "latest_at": "2026-06-16T06:42:30Z",
-      "primary_item": {
-        "id": "82e7eea726c29402aa4a2c96fe34e366cfa9c337",
-        "title": "Cartesia 发布 Sonic 3.5 与 Ink 2 实时语音模型",
-        "url": "https://x.com/testingcatalog/status/2066773392527655252",
-        "source": "X：Testing Catalog (@testingcatalog)",
-        "source_name": "AI HOT"
       }
     },
     {
@@ -676,14 +677,14 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7346,
-      "importance": 0.7346,
-      "importance_score": 0.7346,
+      "score": 0.7044,
+      "importance": 0.7044,
+      "importance_score": 0.7044,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.1829,
+        "recency": 0.0319,
         "story_heat": 0.25
       },
       "category": "official",
@@ -737,20 +738,19 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7604,
-      "importance": 0.7604,
-      "importance_score": 0.7604,
+      "score": 0.7302,
+      "importance": 0.7302,
+      "importance_score": 0.7302,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7422,
+        "recency": 0.5911,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-06-16T09:40:48Z",
       "latest_at": "2026-06-16T09:40:48Z",
@@ -816,17 +816,17 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7269,
-      "importance": 0.7269,
-      "importance_score": 0.7269,
-      "importance_label": "行业动态",
+      "score": 0.6966,
+      "importance": 0.6966,
+      "importance_score": 0.6966,
+      "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.4493,
+        "recency": 0.2982,
         "story_heat": 0.25
       },
-      "category": "industry",
+      "category": "watch",
       "reasons": [
         "multi_source",
         "high_ai_relevance"
@@ -839,66 +839,6 @@
         "url": "https://www.ithome.com/0/964/691.htm",
         "source": "IT之家（RSS）",
         "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_042063394e36",
-      "title": "Copilot 使用指标现在包括更多的活跃用户 / Copilot usage metrics now include more of your active users",
-      "url": "https://github.blog/changelog/2026-06-15-copilot-usage-metrics-now-include-more-of-your-active-users",
-      "primary_url": "https://github.blog/changelog/2026-06-15-copilot-usage-metrics-now-include-more-of-your-active-users",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "eb69f5ca509e83dc3f7dc08ed4deca827f145576",
-          "title": "Copilot 使用指标现在包括更多的活跃用户 / Copilot usage metrics now include more of your active users",
-          "url": "https://github.blog/changelog/2026-06-15-copilot-usage-metrics-now-include-more-of-your-active-users",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-15T21:30:13Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "items": [
-        {
-          "id": "eb69f5ca509e83dc3f7dc08ed4deca827f145576",
-          "title": "Copilot 使用指标现在包括更多的活跃用户 / Copilot usage metrics now include more of your active users",
-          "url": "https://github.blog/changelog/2026-06-15-copilot-usage-metrics-now-include-more-of-your-active-users",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-15T21:30:13Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.72,
-      "importance": 0.72,
-      "importance_score": 0.72,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.2348,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-15T21:30:13Z",
-      "latest_at": "2026-06-15T21:30:13Z",
-      "primary_item": {
-        "id": "eb69f5ca509e83dc3f7dc08ed4deca827f145576",
-        "title": "Copilot 使用指标现在包括更多的活跃用户 / Copilot usage metrics now include more of your active users",
-        "url": "https://github.blog/changelog/2026-06-15-copilot-usage-metrics-now-include-more-of-your-active-users",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
       }
     },
     {
@@ -936,20 +876,19 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7711,
-      "importance": 0.7711,
-      "importance_score": 0.7711,
+      "score": 0.7409,
+      "importance": 0.7409,
+      "importance_score": 0.7409,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7956,
+        "recency": 0.6445,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-06-16T10:57:44.532961Z",
       "latest_at": "2026-06-16T10:57:44.532961Z",
@@ -996,20 +935,19 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7711,
-      "importance": 0.7711,
-      "importance_score": 0.7711,
+      "score": 0.7409,
+      "importance": 0.7409,
+      "importance_score": 0.7409,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7956,
+        "recency": 0.6445,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-06-16T10:57:44.532961Z",
       "latest_at": "2026-06-16T10:57:44.532961Z",
@@ -1056,20 +994,19 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7711,
-      "importance": 0.7711,
-      "importance_score": 0.7711,
+      "score": 0.7409,
+      "importance": 0.7409,
+      "importance_score": 0.7409,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7956,
+        "recency": 0.6445,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-06-16T10:57:44.532961Z",
       "latest_at": "2026-06-16T10:57:44.532961Z",
@@ -1079,85 +1016,6 @@
         "url": "https://www.aibase.com/news/28959",
         "source": "AIbase",
         "source_name": "AIbase"
-      }
-    },
-    {
-      "story_id": "story_ba2dd6fe0620",
-      "title": "Meta 在 Facebook 上线\"AI Mode\"，基于平台公开信息合成答案",
-      "url": "https://techcrunch.com/2026/06/15/metas-new-ai-mode-on-facebook-pulls-from-public-info-across-its-platforms",
-      "primary_url": "https://techcrunch.com/2026/06/15/metas-new-ai-mode-on-facebook-pulls-from-public-info-across-its-platforms",
-      "source": "TechCrunch：AI（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "59bdaa0443e06a767957bb5c15c86e71d6393f97",
-          "title": "Meta 在 Facebook 上线\"AI Mode\"，基于平台公开信息合成答案",
-          "url": "https://techcrunch.com/2026/06/15/metas-new-ai-mode-on-facebook-pulls-from-public-info-across-its-platforms",
-          "source": "TechCrunch：AI（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-15T18:30:58Z"
-        },
-        {
-          "id": "00c40a4f974ae7f982a35dac417ca374b192d313",
-          "title": "Meta 在 Facebook 上线\"AI Mode\"，基于平台公开信息合成答案 / Meta’s new ‘AI Mode’ on Facebook pulls from public info across its platforms",
-          "url": "https://techcrunch.com/2026/06/15/metas-new-ai-mode-on-facebook-pulls-from-public-info-across-its-platforms",
-          "source": "TechCrunch",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-15T18:30:58Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "TechCrunch",
-        "TechCrunch：AI（RSS）"
-      ],
-      "items": [
-        {
-          "id": "59bdaa0443e06a767957bb5c15c86e71d6393f97",
-          "title": "Meta 在 Facebook 上线\"AI Mode\"，基于平台公开信息合成答案",
-          "url": "https://techcrunch.com/2026/06/15/metas-new-ai-mode-on-facebook-pulls-from-public-info-across-its-platforms",
-          "source": "TechCrunch：AI（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-15T18:30:58Z"
-        },
-        {
-          "id": "00c40a4f974ae7f982a35dac417ca374b192d313",
-          "title": "Meta 在 Facebook 上线\"AI Mode\"，基于平台公开信息合成答案 / Meta’s new ‘AI Mode’ on Facebook pulls from public info across its platforms",
-          "url": "https://techcrunch.com/2026/06/15/metas-new-ai-mode-on-facebook-pulls-from-public-info-across-its-platforms",
-          "source": "TechCrunch",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-15T18:30:58Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.6591,
-      "importance": 0.6591,
-      "importance_score": 0.6591,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.1103,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-15T18:30:58Z",
-      "latest_at": "2026-06-15T18:30:58Z",
-      "primary_item": {
-        "id": "59bdaa0443e06a767957bb5c15c86e71d6393f97",
-        "title": "Meta 在 Facebook 上线\"AI Mode\"，基于平台公开信息合成答案",
-        "url": "https://techcrunch.com/2026/06/15/metas-new-ai-mode-on-facebook-pulls-from-public-info-across-its-platforms",
-        "source": "TechCrunch：AI（RSS）",
-        "source_name": "AI HOT"
       }
     },
     {
@@ -1195,20 +1053,19 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7711,
-      "importance": 0.7711,
-      "importance_score": 0.7711,
+      "score": 0.7409,
+      "importance": 0.7409,
+      "importance_score": 0.7409,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7956,
+        "recency": 0.6445,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-06-16T10:57:44.532961Z",
       "latest_at": "2026-06-16T10:57:44.532961Z",
@@ -1218,6 +1075,200 @@
         "url": "https://www.aibase.com/news/28954",
         "source": "AIbase",
         "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_25a3f06589dd",
+      "title": "克劳德：许多模型的错误率较高 / Claude: Elevated errors across many models",
+      "url": "https://news.ycombinator.com/item?id=48558766",
+      "primary_url": "https://news.ycombinator.com/item?id=48558766",
+      "source": "hackernews",
+      "source_name": "NewsNow",
+      "sources": [
+        {
+          "id": "7e22fd21d47c46fc778bc71cb2570996a14c5505",
+          "title": "克劳德：许多模型的错误率较高 / Claude: Elevated errors across many models",
+          "url": "https://news.ycombinator.com/item?id=48558766",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-16T19:30:09.269000Z"
+        },
+        {
+          "id": "8630f6e1aacc8c2f8e324c876a68d910a041be45",
+          "title": "克劳德：许多模型中错误率上升",
+          "url": "https://status.claude.com/incidents/xmhsglsz3h3w",
+          "source": "status.claude.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-16T18:37:24.748000Z"
+        },
+        {
+          "id": "e9e38eb9045cd58e2549ce33af49b40466bbccda",
+          "title": "克劳德：许多模型中错误率上升 / Claude: Elevated errors across many models",
+          "url": "https://status.claude.com/incidents/xmhsglsz3h3w",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-16T17:30:30Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "Hacker News · 24h最热",
+        "hackernews",
+        "status.claude.com"
+      ],
+      "items": [
+        {
+          "id": "7e22fd21d47c46fc778bc71cb2570996a14c5505",
+          "title": "克劳德：许多模型的错误率较高 / Claude: Elevated errors across many models",
+          "url": "https://news.ycombinator.com/item?id=48558766",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-16T19:30:09.269000Z"
+        },
+        {
+          "id": "8630f6e1aacc8c2f8e324c876a68d910a041be45",
+          "title": "克劳德：许多模型中错误率上升",
+          "url": "https://status.claude.com/incidents/xmhsglsz3h3w",
+          "source": "status.claude.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-16T18:37:24.748000Z"
+        },
+        {
+          "id": "e9e38eb9045cd58e2549ce33af49b40466bbccda",
+          "title": "克劳德：许多模型中错误率上升 / Claude: Elevated errors across many models",
+          "url": "https://status.claude.com/incidents/xmhsglsz3h3w",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-16T17:30:30Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.573,
+      "importance": 0.573,
+      "importance_score": 0.573,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 1.0,
+        "story_heat": 0.5
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-16T17:30:30Z",
+      "latest_at": "2026-06-16T19:30:09.269000Z",
+      "primary_item": {
+        "id": "7e22fd21d47c46fc778bc71cb2570996a14c5505",
+        "title": "克劳德：许多模型的错误率较高 / Claude: Elevated errors across many models",
+        "url": "https://news.ycombinator.com/item?id=48558766",
+        "source": "hackernews",
+        "source_name": "NewsNow"
+      }
+    },
+    {
+      "story_id": "story_05cccf3bf90b",
+      "title": "SpaceX将以600亿美元收购人工智能编程平台Cursor",
+      "url": "https://arstechnica.com/ai/2026/06/spacex-will-acquire-coding-tool-cursor-to-compete-with-anthropic-openai",
+      "primary_url": "https://arstechnica.com/ai/2026/06/spacex-will-acquire-coding-tool-cursor-to-compete-with-anthropic-openai",
+      "source": "arstechnica.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "23c6fee1590f567f08cd6986323f9508e7f56f03",
+          "title": "SpaceX将以600亿美元收购人工智能编程平台Cursor",
+          "url": "https://arstechnica.com/ai/2026/06/spacex-will-acquire-coding-tool-cursor-to-compete-with-anthropic-openai",
+          "source": "arstechnica.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-16T18:29:30.261000Z"
+        },
+        {
+          "id": "13a3656127904e02519925b201698496e6fef8fd",
+          "title": "SpaceX将以600亿美元收购人工智能编程平台Cursor / SpaceX acquires AI coding platform Cursor for $60 billion",
+          "url": "https://arstechnica.com/ai/2026/06/spacex-will-acquire-coding-tool-cursor-to-compete-with-anthropic-openai",
+          "source": "Ars Technica",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-16T16:37:45Z"
+        },
+        {
+          "id": "d044422de9b80cdd4b1df8ebe6a7892ea82c5473",
+          "title": "SpaceX将以600亿美元收购人工智能编程平台Cursor / SpaceX to acquire AI coding platform Cursor for $60 billion",
+          "url": "https://arstechnica.com/ai/2026/06/spacex-will-acquire-coding-tool-cursor-to-compete-with-anthropic-openai",
+          "source": "Ars Technica (科技媒体)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-16T16:37:45Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "Ars Technica",
+        "Ars Technica (科技媒体)",
+        "arstechnica.com"
+      ],
+      "items": [
+        {
+          "id": "23c6fee1590f567f08cd6986323f9508e7f56f03",
+          "title": "SpaceX将以600亿美元收购人工智能编程平台Cursor",
+          "url": "https://arstechnica.com/ai/2026/06/spacex-will-acquire-coding-tool-cursor-to-compete-with-anthropic-openai",
+          "source": "arstechnica.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-16T18:29:30.261000Z"
+        },
+        {
+          "id": "13a3656127904e02519925b201698496e6fef8fd",
+          "title": "SpaceX将以600亿美元收购人工智能编程平台Cursor / SpaceX acquires AI coding platform Cursor for $60 billion",
+          "url": "https://arstechnica.com/ai/2026/06/spacex-will-acquire-coding-tool-cursor-to-compete-with-anthropic-openai",
+          "source": "Ars Technica",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-16T16:37:45Z"
+        },
+        {
+          "id": "d044422de9b80cdd4b1df8ebe6a7892ea82c5473",
+          "title": "SpaceX将以600亿美元收购人工智能编程平台Cursor / SpaceX to acquire AI coding platform Cursor for $60 billion",
+          "url": "https://arstechnica.com/ai/2026/06/spacex-will-acquire-coding-tool-cursor-to-compete-with-anthropic-openai",
+          "source": "Ars Technica (科技媒体)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-16T16:37:45Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.5646,
+      "importance": 0.5646,
+      "importance_score": 0.5646,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9582,
+        "story_heat": 0.5
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-16T16:37:45Z",
+      "latest_at": "2026-06-16T18:29:30.261000Z",
+      "primary_item": {
+        "id": "23c6fee1590f567f08cd6986323f9508e7f56f03",
+        "title": "SpaceX将以600亿美元收购人工智能编程平台Cursor",
+        "url": "https://arstechnica.com/ai/2026/06/spacex-will-acquire-coding-tool-cursor-to-compete-with-anthropic-openai",
+        "source": "arstechnica.com",
+        "source_name": "Buzzing"
       }
     },
     {
@@ -1255,20 +1306,19 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7711,
-      "importance": 0.7711,
-      "importance_score": 0.7711,
+      "score": 0.7409,
+      "importance": 0.7409,
+      "importance_score": 0.7409,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7956,
+        "recency": 0.6445,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-06-16T10:57:44.532961Z",
       "latest_at": "2026-06-16T10:57:44.532961Z",
