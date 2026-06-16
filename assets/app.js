@@ -170,6 +170,7 @@ function renderCoverageStrip(errorMessage = "") {
   const coverageCount = Number(state.sourceStatus?.fetched_raw_items || state.totalRaw || allCount || 0);
   const officialCount = Number(siteRow("official_ai")?.item_count || 0);
   const newsletterCount = Number(siteRow("aibreakfast")?.item_count || 0);
+  const curatedMediaCount = Number(siteRow("curated_media")?.item_count || 0);
   const buildersCount = Number(siteRow("followbuilders")?.item_count || 0);
   const totalSites = rows.length;
   const okSites = Number(state.sourceStatus?.successful_sites || 0);
@@ -186,6 +187,7 @@ function renderCoverageStrip(errorMessage = "") {
     ["今日覆盖池", `${fmtNumber(coverageCount)} 条`, allCount ? `全网抓取原始信号 · ${fmtNumber(allCount)} 条入池` : "全网抓取原始信号", "signal"],
     ["AI强相关", `${fmtNumber(state.totalAi)} 条`, "24小时强相关信号", "signal"],
     ["官方/日报源池", `${fmtNumber(officialCount + newsletterCount)} 条`, "官方节点 + AI Breakfast", "official"],
+    ["精选媒体源池", `${fmtNumber(curatedMediaCount)} 条`, "The Decoder / TC / Verge / MTP 等", "signal"],
     ["Builders/X源池", `${fmtNumber(buildersCount)} 条`, "Follow Builders公开feed", "builders"],
     ["RSS/OPML扩展", opmlValue, opmlMeta, "private"],
     ["高级源", "X / Mail", advancedMeta, "private"],

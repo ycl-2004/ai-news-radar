@@ -1,331 +1,33 @@
 {
-  "generated_at": "2026-06-15T00:09:24.119395Z",
+  "generated_at": "2026-06-16T12:46:58.863871Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
     {
-      "story_id": "story_888bd1de6f40",
-      "title": "OpenAI 合作伙伴网络简介 / Introducing the OpenAI Partner Network",
-      "url": "https://openai.com/index/introducing-openai-partner-network",
-      "primary_url": "https://openai.com/index/introducing-openai-partner-network",
-      "source": "OpenAI News",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "8b3669c4386a8b185720b7597e92c5536a1391d8",
-          "title": "OpenAI 合作伙伴网络简介 / Introducing the OpenAI Partner Network",
-          "url": "https://openai.com/index/introducing-openai-partner-network",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-14T17:00:00Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "OpenAI News"
-      ],
-      "items": [
-        {
-          "id": "8b3669c4386a8b185720b7597e92c5536a1391d8",
-          "title": "OpenAI 合作伙伴网络简介 / Introducing the OpenAI Partner Network",
-          "url": "https://openai.com/index/introducing-openai-partner-network",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-14T17:00:00Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8134,
-      "importance": 0.8134,
-      "importance_score": 0.8134,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.7018,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-14T17:00:00Z",
-      "latest_at": "2026-06-14T17:00:00Z",
-      "primary_item": {
-        "id": "8b3669c4386a8b185720b7597e92c5536a1391d8",
-        "title": "OpenAI 合作伙伴网络简介 / Introducing the OpenAI Partner Network",
-        "url": "https://openai.com/index/introducing-openai-partner-network",
-        "source": "OpenAI News",
-        "source_name": "Official AI Updates"
-      }
-    },
-    {
-      "story_id": "story_bc26e4958a43",
-      "title": "Anthropic 因出口管制派员赴华盛顿修复白宫冲突",
-      "url": "https://x.com/kimmonismus/status/2066240276075528533",
-      "primary_url": "https://x.com/kimmonismus/status/2066240276075528533",
-      "source": "X：Kim (@kimmonismus)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "e5108c8489ad7c7225b39756580e0c97514da4af",
-          "title": "Anthropic 因出口管制派员赴华盛顿修复白宫冲突",
-          "url": "https://x.com/kimmonismus/status/2066240276075528533",
-          "source": "X：Kim (@kimmonismus)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-14T19:24:05Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：Kim (@kimmonismus)"
-      ],
-      "items": [
-        {
-          "id": "e5108c8489ad7c7225b39756580e0c97514da4af",
-          "title": "Anthropic 因出口管制派员赴华盛顿修复白宫冲突",
-          "url": "https://x.com/kimmonismus/status/2066240276075528533",
-          "source": "X：Kim (@kimmonismus)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-14T19:24:05Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7724,
-      "importance": 0.7724,
-      "importance_score": 0.7724,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8019,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-14T19:24:05Z",
-      "latest_at": "2026-06-14T19:24:05Z",
-      "primary_item": {
-        "id": "e5108c8489ad7c7225b39756580e0c97514da4af",
-        "title": "Anthropic 因出口管制派员赴华盛顿修复白宫冲突",
-        "url": "https://x.com/kimmonismus/status/2066240276075528533",
-        "source": "X：Kim (@kimmonismus)",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_4b22351e826d",
-      "title": "白宫AI监管决定被指偏袒OpenAI与亚马逊",
-      "url": "https://garymarcus.substack.com/p/what-washington-must-do",
-      "primary_url": "https://garymarcus.substack.com/p/what-washington-must-do",
-      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "f09cda33814b3bc14a170b641dff32c42eb6f258",
-          "title": "白宫AI监管决定被指偏袒OpenAI与亚马逊",
-          "url": "https://garymarcus.substack.com/p/what-washington-must-do",
-          "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-14T16:15:35Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Gary Marcus：The Road to AI We Can Trust（RSS）"
-      ],
-      "items": [
-        {
-          "id": "f09cda33814b3bc14a170b641dff32c42eb6f258",
-          "title": "白宫AI监管决定被指偏袒OpenAI与亚马逊",
-          "url": "https://garymarcus.substack.com/p/what-washington-must-do",
-          "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-14T16:15:35Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7462,
-      "importance": 0.7462,
-      "importance_score": 0.7462,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.671,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-14T16:15:35Z",
-      "latest_at": "2026-06-14T16:15:35Z",
-      "primary_item": {
-        "id": "f09cda33814b3bc14a170b641dff32c42eb6f258",
-        "title": "白宫AI监管决定被指偏袒OpenAI与亚马逊",
-        "url": "https://garymarcus.substack.com/p/what-washington-must-do",
-        "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_ed2af15784f0",
-      "title": "Satya Nadella：没有生态的前沿不稳定",
-      "url": "https://x.com/satyanadella/status/2066182223213293753",
-      "primary_url": "https://x.com/satyanadella/status/2066182223213293753",
-      "source": "X：Satya Nadella (@satyanadella)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "1a50abdb6d20b252367819885ebeedfb39c3f279",
-          "title": "Satya Nadella：没有生态的前沿不稳定",
-          "url": "https://x.com/satyanadella/status/2066182223213293753",
-          "source": "X：Satya Nadella (@satyanadella)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-14T15:33:24Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：Satya Nadella (@satyanadella)"
-      ],
-      "items": [
-        {
-          "id": "1a50abdb6d20b252367819885ebeedfb39c3f279",
-          "title": "Satya Nadella：没有生态的前沿不稳定",
-          "url": "https://x.com/satyanadella/status/2066182223213293753",
-          "source": "X：Satya Nadella (@satyanadella)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-14T15:33:24Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7403,
-      "importance": 0.7403,
-      "importance_score": 0.7403,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.6417,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-14T15:33:24Z",
-      "latest_at": "2026-06-14T15:33:24Z",
-      "primary_item": {
-        "id": "1a50abdb6d20b252367819885ebeedfb39c3f279",
-        "title": "Satya Nadella：没有生态的前沿不稳定",
-        "url": "https://x.com/satyanadella/status/2066182223213293753",
-        "source": "X：Satya Nadella (@satyanadella)",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_d685f9ebbef7",
-      "title": "乔木小说创作 Skill 开源发布",
-      "url": "https://x.com/vista8/status/2066165703443726749",
-      "primary_url": "https://x.com/vista8/status/2066165703443726749",
-      "source": "X：Vista (@vista8)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "28c11b9c5b000b495d21d4844c292507dc7680e5",
-          "title": "乔木小说创作 Skill 开源发布",
-          "url": "https://x.com/vista8/status/2066165703443726749",
-          "source": "X：Vista (@vista8)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-14T14:27:45Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：Vista (@vista8)"
-      ],
-      "items": [
-        {
-          "id": "28c11b9c5b000b495d21d4844c292507dc7680e5",
-          "title": "乔木小说创作 Skill 开源发布",
-          "url": "https://x.com/vista8/status/2066165703443726749",
-          "source": "X：Vista (@vista8)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-14T14:27:45Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7312,
-      "importance": 0.7312,
-      "importance_score": 0.7312,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.5961,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-14T14:27:45Z",
-      "latest_at": "2026-06-14T14:27:45Z",
-      "primary_item": {
-        "id": "28c11b9c5b000b495d21d4844c292507dc7680e5",
-        "title": "乔木小说创作 Skill 开源发布",
-        "url": "https://x.com/vista8/status/2066165703443726749",
-        "source": "X：Vista (@vista8)",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_03e93adaa6b7",
-      "title": "Anthropic 暂停新模型访问，印度辩论 AI 未来",
-      "url": "https://techcrunch.com/2026/06/13/as-anthropic-suspends-access-to-new-models-india-debates-its-ai-future",
-      "primary_url": "https://techcrunch.com/2026/06/13/as-anthropic-suspends-access-to-new-models-india-debates-its-ai-future",
+      "story_id": "story_abd33f53be2c",
+      "title": "SpaceX 以 600 亿美元股票收购 AI 编程公司 Cursor",
+      "url": "https://techcrunch.com/2026/06/16/spacex-to-acquire-cursor-for-60b-in-stock-days-after-blockbuster-ipo",
+      "primary_url": "https://techcrunch.com/2026/06/16/spacex-to-acquire-cursor-for-60b-in-stock-days-after-blockbuster-ipo",
       "source": "TechCrunch：AI（RSS）",
       "source_name": "AI HOT",
       "sources": [
         {
-          "id": "8783397726f21f68840f6455d520cf4def09fdba",
-          "title": "Anthropic 暂停新模型访问，印度辩论 AI 未来",
-          "url": "https://techcrunch.com/2026/06/13/as-anthropic-suspends-access-to-new-models-india-debates-its-ai-future",
+          "id": "b672f5fab8083a25aa1755a4f75d388cb485995a",
+          "title": "SpaceX 以 600 亿美元股票收购 AI 编程公司 Cursor",
+          "url": "https://techcrunch.com/2026/06/16/spacex-to-acquire-cursor-for-60b-in-stock-days-after-blockbuster-ipo",
           "source": "TechCrunch：AI（RSS）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-06-14T03:00:00Z"
+          "published_at": "2026-06-16T11:21:41Z"
         },
         {
-          "id": "df9846999c9ab0f32a9b8cf74d0a93edad80c921",
-          "title": "Anthropic 暂停新模型访问，印度辩论 AI 未来 / As Anthropic suspends access to new models, India debates its AI future",
-          "url": "https://techcrunch.com/2026/06/13/as-anthropic-suspends-access-to-new-models-india-debates-its-ai-future",
+          "id": "a56a6146d6789c0898751aa6f5312d83e911c057",
+          "title": "SpaceX 以 600 亿美元股票收购 AI 编程公司 Cursor / SpaceX to acquire Cursor for $60B in stock, days after blockbuster IPO",
+          "url": "https://techcrunch.com/2026/06/16/spacex-to-acquire-cursor-for-60b-in-stock-days-after-blockbuster-ipo",
           "source": "TechCrunch",
           "source_name": "TechURLs",
           "site_id": "techurls",
-          "published_at": "2026-06-14T03:00:00Z"
+          "published_at": "2026-06-16T11:21:41Z"
         }
       ],
       "source_count": 2,
@@ -335,34 +37,1190 @@
       ],
       "items": [
         {
-          "id": "8783397726f21f68840f6455d520cf4def09fdba",
-          "title": "Anthropic 暂停新模型访问，印度辩论 AI 未来",
-          "url": "https://techcrunch.com/2026/06/13/as-anthropic-suspends-access-to-new-models-india-debates-its-ai-future",
+          "id": "b672f5fab8083a25aa1755a4f75d388cb485995a",
+          "title": "SpaceX 以 600 亿美元股票收购 AI 编程公司 Cursor",
+          "url": "https://techcrunch.com/2026/06/16/spacex-to-acquire-cursor-for-60b-in-stock-days-after-blockbuster-ipo",
           "source": "TechCrunch：AI（RSS）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-06-14T03:00:00Z"
+          "published_at": "2026-06-16T11:21:41Z"
         },
         {
-          "id": "df9846999c9ab0f32a9b8cf74d0a93edad80c921",
-          "title": "Anthropic 暂停新模型访问，印度辩论 AI 未来 / As Anthropic suspends access to new models, India debates its AI future",
-          "url": "https://techcrunch.com/2026/06/13/as-anthropic-suspends-access-to-new-models-india-debates-its-ai-future",
+          "id": "a56a6146d6789c0898751aa6f5312d83e911c057",
+          "title": "SpaceX 以 600 亿美元股票收购 AI 编程公司 Cursor / SpaceX to acquire Cursor for $60B in stock, days after blockbuster IPO",
+          "url": "https://techcrunch.com/2026/06/16/spacex-to-acquire-cursor-for-60b-in-stock-days-after-blockbuster-ipo",
           "source": "TechCrunch",
           "source_name": "TechURLs",
           "site_id": "techurls",
-          "published_at": "2026-06-14T03:00:00Z"
+          "published_at": "2026-06-16T11:21:41Z"
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.6607,
-      "importance": 0.6607,
-      "importance_score": 0.6607,
+      "score": 0.8252,
+      "importance": 0.8252,
+      "importance_score": 0.8252,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9408,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-16T11:21:41Z",
+      "latest_at": "2026-06-16T11:21:41Z",
+      "primary_item": {
+        "id": "b672f5fab8083a25aa1755a4f75d388cb485995a",
+        "title": "SpaceX 以 600 亿美元股票收购 AI 编程公司 Cursor",
+        "url": "https://techcrunch.com/2026/06/16/spacex-to-acquire-cursor-for-60b-in-stock-days-after-blockbuster-ipo",
+        "source": "TechCrunch：AI（RSS）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_76ee8d54d372",
+      "title": "AI组队“拼单”新模式：OpenRouter 发布 Fusion API，主打性能与性价比双重优化",
+      "url": "https://www.aibase.com/news/28956",
+      "primary_url": "https://www.aibase.com/news/28956",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "ea0ba35184ac1a586b2c27410ff046c7e4a8d64b",
+          "title": "AI组队“拼单”新模式：OpenRouter 发布 Fusion API，主打性能与性价比双重优化",
+          "url": "https://www.aibase.com/news/28956",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-16T12:46:58.863871Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "ea0ba35184ac1a586b2c27410ff046c7e4a8d64b",
+          "title": "AI组队“拼单”新模式：OpenRouter 发布 Fusion API，主打性能与性价比双重优化",
+          "url": "https://www.aibase.com/news/28956",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-16T12:46:58.863871Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.812,
+      "importance": 0.812,
+      "importance_score": 0.812,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-16T12:46:58.863871Z",
+      "latest_at": "2026-06-16T12:46:58.863871Z",
+      "primary_item": {
+        "id": "ea0ba35184ac1a586b2c27410ff046c7e4a8d64b",
+        "title": "AI组队“拼单”新模式：OpenRouter 发布 Fusion API，主打性能与性价比双重优化",
+        "url": "https://www.aibase.com/news/28956",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_640ac61b5658",
+      "title": "DeepSeek 完成首轮外部融资，估值超 500 亿美元",
+      "url": "https://the-decoder.com/deepseek-takes-outside-money-for-the-first-time-at-a-50-billion-valuation",
+      "primary_url": "https://the-decoder.com/deepseek-takes-outside-money-for-the-first-time-at-a-50-billion-valuation",
+      "source": "The Decoder：AI News（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "1279361c7842fd24dfe6245af384b03e671e7b35",
+          "title": "DeepSeek 完成首轮外部融资，估值超 500 亿美元",
+          "url": "https://the-decoder.com/deepseek-takes-outside-money-for-the-first-time-at-a-50-billion-valuation",
+          "source": "The Decoder：AI News（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-16T09:40:48Z"
+        },
+        {
+          "id": "1926da73421007dc6c2ffcf00146d9b7cac41d31",
+          "title": "DeepSeek 完成首轮外部融资，估值超 500 亿美元 / DeepSeek takes outside money for the first time at a $50 billion valuation",
+          "url": "https://the-decoder.com/deepseek-takes-outside-money-for-the-first-time-at-a-50-billion-valuation",
+          "source": "The Decoder AI News",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-06-16T09:40:48Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "The Decoder AI News",
+        "The Decoder：AI News（RSS）"
+      ],
+      "items": [
+        {
+          "id": "1279361c7842fd24dfe6245af384b03e671e7b35",
+          "title": "DeepSeek 完成首轮外部融资，估值超 500 亿美元",
+          "url": "https://the-decoder.com/deepseek-takes-outside-money-for-the-first-time-at-a-50-billion-valuation",
+          "source": "The Decoder：AI News（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-16T09:40:48Z"
+        },
+        {
+          "id": "1926da73421007dc6c2ffcf00146d9b7cac41d31",
+          "title": "DeepSeek 完成首轮外部融资，估值超 500 亿美元 / DeepSeek takes outside money for the first time at a $50 billion valuation",
+          "url": "https://the-decoder.com/deepseek-takes-outside-money-for-the-first-time-at-a-50-billion-valuation",
+          "source": "The Decoder AI News",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-06-16T09:40:48Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.8111,
+      "importance": 0.8111,
+      "importance_score": 0.8111,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8707,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-16T09:40:48Z",
+      "latest_at": "2026-06-16T09:40:48Z",
+      "primary_item": {
+        "id": "1279361c7842fd24dfe6245af384b03e671e7b35",
+        "title": "DeepSeek 完成首轮外部融资，估值超 500 亿美元",
+        "url": "https://the-decoder.com/deepseek-takes-outside-money-for-the-first-time-at-a-50-billion-valuation",
+        "source": "The Decoder：AI News（RSS）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_52e77e2f24f9",
+      "title": "Google Cloud 推出 OKF v0.1：供应商中立的 Markdown 规范，为 AI 智能体提供结构化上下文",
+      "url": "https://www.marktechpost.com/2026/06/16/google-cloud-introduces-open-knowledge-format-okf-a-vendor-neutral-markdown-spec-for-giving-ai-agents-curated-context",
+      "primary_url": "https://www.marktechpost.com/2026/06/16/google-cloud-introduces-open-knowledge-format-okf-a-vendor-neutral-markdown-spec-for-giving-ai-agents-curated-context",
+      "source": "MarkTechPost（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "943f817d3bca3ea27a02c7f970fd21ea097fdad4",
+          "title": "Google Cloud 推出 OKF v0.1：供应商中立的 Markdown 规范，为 AI 智能体提供结构化上下文",
+          "url": "https://www.marktechpost.com/2026/06/16/google-cloud-introduces-open-knowledge-format-okf-a-vendor-neutral-markdown-spec-for-giving-ai-agents-curated-context",
+          "source": "MarkTechPost（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-16T08:18:58Z"
+        },
+        {
+          "id": "5334bc73c99cb1dd6a4d700d852d6f9e9dffd735",
+          "title": "Google Cloud 推出 OKF v0.1：供应商中立的 Markdown 规范，为 AI 智能体提供结构化上下文 / Google Cloud Introduces Open Knowledge Format (OKF): A Vendor-Neutral Markdown Spec for Giving AI Agents Curated Context",
+          "url": "https://www.marktechpost.com/2026/06/16/google-cloud-introduces-open-knowledge-format-okf-a-vendor-neutral-markdown-spec-for-giving-ai-agents-curated-context",
+          "source": "MarkTechPost Research",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-06-16T08:18:58Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "MarkTechPost Research",
+        "MarkTechPost（RSS）"
+      ],
+      "items": [
+        {
+          "id": "943f817d3bca3ea27a02c7f970fd21ea097fdad4",
+          "title": "Google Cloud 推出 OKF v0.1：供应商中立的 Markdown 规范，为 AI 智能体提供结构化上下文",
+          "url": "https://www.marktechpost.com/2026/06/16/google-cloud-introduces-open-knowledge-format-okf-a-vendor-neutral-markdown-spec-for-giving-ai-agents-curated-context",
+          "source": "MarkTechPost（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-16T08:18:58Z"
+        },
+        {
+          "id": "5334bc73c99cb1dd6a4d700d852d6f9e9dffd735",
+          "title": "Google Cloud 推出 OKF v0.1：供应商中立的 Markdown 规范，为 AI 智能体提供结构化上下文 / Google Cloud Introduces Open Knowledge Format (OKF): A Vendor-Neutral Markdown Spec for Giving AI Agents Curated Context",
+          "url": "https://www.marktechpost.com/2026/06/16/google-cloud-introduces-open-knowledge-format-okf-a-vendor-neutral-markdown-spec-for-giving-ai-agents-curated-context",
+          "source": "MarkTechPost Research",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-06-16T08:18:58Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7998,
+      "importance": 0.7998,
+      "importance_score": 0.7998,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8139,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-16T08:18:58Z",
+      "latest_at": "2026-06-16T08:18:58Z",
+      "primary_item": {
+        "id": "943f817d3bca3ea27a02c7f970fd21ea097fdad4",
+        "title": "Google Cloud 推出 OKF v0.1：供应商中立的 Markdown 规范，为 AI 智能体提供结构化上下文",
+        "url": "https://www.marktechpost.com/2026/06/16/google-cloud-introduces-open-knowledge-format-okf-a-vendor-neutral-markdown-spec-for-giving-ai-agents-curated-context",
+        "source": "MarkTechPost（RSS）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_174dd137ac63",
+      "title": "DeepSeek完成逾70亿美元首轮融资:估值超500亿美元",
+      "url": "https://www.aibase.com/news/28953",
+      "primary_url": "https://www.aibase.com/news/28953",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "439f9b8cbae447607d964a12f20cf724dd07091f",
+          "title": "DeepSeek完成逾70亿美元首轮融资:估值超500亿美元",
+          "url": "https://www.aibase.com/news/28953",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-16T12:46:58.863871Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "439f9b8cbae447607d964a12f20cf724dd07091f",
+          "title": "DeepSeek完成逾70亿美元首轮融资:估值超500亿美元",
+          "url": "https://www.aibase.com/news/28953",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-16T12:46:58.863871Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.812,
+      "importance": 0.812,
+      "importance_score": 0.812,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-16T12:46:58.863871Z",
+      "latest_at": "2026-06-16T12:46:58.863871Z",
+      "primary_item": {
+        "id": "439f9b8cbae447607d964a12f20cf724dd07091f",
+        "title": "DeepSeek完成逾70亿美元首轮融资:估值超500亿美元",
+        "url": "https://www.aibase.com/news/28953",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_745d64069462",
+      "title": "Cartesia 发布 Sonic 3.5 与 Ink 2 实时语音模型",
+      "url": "https://x.com/testingcatalog/status/2066773392527655252",
+      "primary_url": "https://x.com/testingcatalog/status/2066773392527655252",
+      "source": "X：Testing Catalog (@testingcatalog)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "82e7eea726c29402aa4a2c96fe34e366cfa9c337",
+          "title": "Cartesia 发布 Sonic 3.5 与 Ink 2 实时语音模型",
+          "url": "https://x.com/testingcatalog/status/2066773392527655252",
+          "source": "X：Testing Catalog (@testingcatalog)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-16T06:42:30Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "X：Testing Catalog (@testingcatalog)"
+      ],
+      "items": [
+        {
+          "id": "82e7eea726c29402aa4a2c96fe34e366cfa9c337",
+          "title": "Cartesia 发布 Sonic 3.5 与 Ink 2 实时语音模型",
+          "url": "https://x.com/testingcatalog/status/2066773392527655252",
+          "source": "X：Testing Catalog (@testingcatalog)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-16T06:42:30Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7614,
+      "importance": 0.7614,
+      "importance_score": 0.7614,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7469,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-16T06:42:30Z",
+      "latest_at": "2026-06-16T06:42:30Z",
+      "primary_item": {
+        "id": "82e7eea726c29402aa4a2c96fe34e366cfa9c337",
+        "title": "Cartesia 发布 Sonic 3.5 与 Ink 2 实时语音模型",
+        "url": "https://x.com/testingcatalog/status/2066773392527655252",
+        "source": "X：Testing Catalog (@testingcatalog)",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_a0a0e0166090",
+      "title": "GitHub Copilot CLI 初学者指南：常用斜杠命令概览 / GitHub Copilot CLI for Beginners: Overview of common slash commands",
+      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-overview-of-common-slash-commands",
+      "primary_url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-overview-of-common-slash-commands",
+      "source": "GitHub AI & ML",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "4597e6efe5644bd3b9eb75c03607d3ab2f61e88c",
+          "title": "GitHub Copilot CLI 初学者指南：常用斜杠命令概览 / GitHub Copilot CLI for Beginners: Overview of common slash commands",
+          "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-overview-of-common-slash-commands",
+          "source": "GitHub AI & ML",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-15T20:15:31Z"
+        },
+        {
+          "id": "6d49ce5664877bef9168d7573758031c5b7c6aa0",
+          "title": "GitHub Copilot CLI 初学者指南：常用斜杠命令概览",
+          "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-overview-of-common-slash-commands",
+          "source": "GitHub Blog",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-15T20:15:31Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "GitHub AI & ML",
+        "GitHub Blog"
+      ],
+      "items": [
+        {
+          "id": "4597e6efe5644bd3b9eb75c03607d3ab2f61e88c",
+          "title": "GitHub Copilot CLI 初学者指南：常用斜杠命令概览 / GitHub Copilot CLI for Beginners: Overview of common slash commands",
+          "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-overview-of-common-slash-commands",
+          "source": "GitHub AI & ML",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-15T20:15:31Z"
+        },
+        {
+          "id": "6d49ce5664877bef9168d7573758031c5b7c6aa0",
+          "title": "GitHub Copilot CLI 初学者指南：常用斜杠命令概览",
+          "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-overview-of-common-slash-commands",
+          "source": "GitHub Blog",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-15T20:15:31Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7603,
+      "importance": 0.7603,
+      "importance_score": 0.7603,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.3115,
+        "story_heat": 0.25
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-15T20:15:31Z",
+      "latest_at": "2026-06-15T20:15:31Z",
+      "primary_item": {
+        "id": "4597e6efe5644bd3b9eb75c03607d3ab2f61e88c",
+        "title": "GitHub Copilot CLI 初学者指南：常用斜杠命令概览 / GitHub Copilot CLI for Beginners: Overview of common slash commands",
+        "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-overview-of-common-slash-commands",
+        "source": "GitHub AI & ML",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_3812ee3d8f47",
+      "title": "OpenAI去年经审计支出达340亿美元，正推进IPO且估值有望冲破万亿",
+      "url": "https://www.aibase.com/news/28957",
+      "primary_url": "https://www.aibase.com/news/28957",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "445c1051b68456e2453917abcafa4410a0f9c292",
+          "title": "OpenAI去年经审计支出达340亿美元，正推进IPO且估值有望冲破万亿",
+          "url": "https://www.aibase.com/news/28957",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-16T12:46:58.863871Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "445c1051b68456e2453917abcafa4410a0f9c292",
+          "title": "OpenAI去年经审计支出达340亿美元，正推进IPO且估值有望冲破万亿",
+          "url": "https://www.aibase.com/news/28957",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-16T12:46:58.863871Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.812,
+      "importance": 0.812,
+      "importance_score": 0.812,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-16T12:46:58.863871Z",
+      "latest_at": "2026-06-16T12:46:58.863871Z",
+      "primary_item": {
+        "id": "445c1051b68456e2453917abcafa4410a0f9c292",
+        "title": "OpenAI去年经审计支出达340亿美元，正推进IPO且估值有望冲破万亿",
+        "url": "https://www.aibase.com/news/28957",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_042063394e36",
+      "title": "Copilot usage metrics now include more of your active users",
+      "url": "https://github.blog/changelog/2026-06-15-copilot-usage-metrics-now-include-more-of-your-active-users",
+      "primary_url": "https://github.blog/changelog/2026-06-15-copilot-usage-metrics-now-include-more-of-your-active-users",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "eb69f5ca509e83dc3f7dc08ed4deca827f145576",
+          "title": "Copilot usage metrics now include more of your active users",
+          "url": "https://github.blog/changelog/2026-06-15-copilot-usage-metrics-now-include-more-of-your-active-users",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-15T21:30:13Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "items": [
+        {
+          "id": "eb69f5ca509e83dc3f7dc08ed4deca827f145576",
+          "title": "Copilot usage metrics now include more of your active users",
+          "url": "https://github.blog/changelog/2026-06-15-copilot-usage-metrics-now-include-more-of-your-active-users",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-15T21:30:13Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7457,
+      "importance": 0.7457,
+      "importance_score": 0.7457,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.3634,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-06-15T21:30:13Z",
+      "latest_at": "2026-06-15T21:30:13Z",
+      "primary_item": {
+        "id": "eb69f5ca509e83dc3f7dc08ed4deca827f145576",
+        "title": "Copilot usage metrics now include more of your active users",
+        "url": "https://github.blog/changelog/2026-06-15-copilot-usage-metrics-now-include-more-of-your-active-users",
+        "source": "GitHub Changelog",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_50fb9d1a3b30",
+      "title": "AI 版支付宝官宣开启邀测：右滑打开\"阿宝\"，官方放出 100 个邀请码",
+      "url": "https://www.ithome.com/0/964/691.htm",
+      "primary_url": "https://www.ithome.com/0/964/691.htm",
+      "source": "IT之家（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "fff8c658884d2c62c7c44379b924fc463779c0f7",
+          "title": "AI 版支付宝官宣开启邀测：右滑打开\"阿宝\"，官方放出 100 个邀请码",
+          "url": "https://www.ithome.com/0/964/691.htm",
+          "source": "IT之家（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-16T02:39:06Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "IT之家（RSS）"
+      ],
+      "items": [
+        {
+          "id": "fff8c658884d2c62c7c44379b924fc463779c0f7",
+          "title": "AI 版支付宝官宣开启邀测：右滑打开\"阿宝\"，官方放出 100 个邀请码",
+          "url": "https://www.ithome.com/0/964/691.htm",
+          "source": "IT之家（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-16T02:39:06Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7276,
+      "importance": 0.7276,
+      "importance_score": 0.7276,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.5779,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-06-16T02:39:06Z",
+      "latest_at": "2026-06-16T02:39:06Z",
+      "primary_item": {
+        "id": "fff8c658884d2c62c7c44379b924fc463779c0f7",
+        "title": "AI 版支付宝官宣开启邀测：右滑打开\"阿宝\"，官方放出 100 个邀请码",
+        "url": "https://www.ithome.com/0/964/691.htm",
+        "source": "IT之家（RSS）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_2cc186b8cf2f",
+      "title": "毕业生陷入AI检测荒诞循环：手写摘要被判99%AI率，AI写部分0%",
+      "url": "https://mp.weixin.qq.com/s/DRzNIiojGLO-iqqPyJ7f8Q",
+      "primary_url": "https://mp.weixin.qq.com/s/DRzNIiojGLO-iqqPyJ7f8Q",
+      "source": "公众号：数字生命卡兹克",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "23b987631ff04a068a4873a7718ccd54ebbb1cf9",
+          "title": "毕业生陷入AI检测荒诞循环：手写摘要被判99%AI率，AI写部分0%",
+          "url": "https://mp.weixin.qq.com/s/DRzNIiojGLO-iqqPyJ7f8Q",
+          "source": "公众号：数字生命卡兹克",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-16T02:06:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "公众号：数字生命卡兹克"
+      ],
+      "items": [
+        {
+          "id": "23b987631ff04a068a4873a7718ccd54ebbb1cf9",
+          "title": "毕业生陷入AI检测荒诞循环：手写摘要被判99%AI率，AI写部分0%",
+          "url": "https://mp.weixin.qq.com/s/DRzNIiojGLO-iqqPyJ7f8Q",
+          "source": "公众号：数字生命卡兹克",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-16T02:06:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.723,
+      "importance": 0.723,
+      "importance_score": 0.723,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.5549,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-06-16T02:06:00Z",
+      "latest_at": "2026-06-16T02:06:00Z",
+      "primary_item": {
+        "id": "23b987631ff04a068a4873a7718ccd54ebbb1cf9",
+        "title": "毕业生陷入AI检测荒诞循环：手写摘要被判99%AI率，AI写部分0%",
+        "url": "https://mp.weixin.qq.com/s/DRzNIiojGLO-iqqPyJ7f8Q",
+        "source": "公众号：数字生命卡兹克",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_9bb444fea662",
+      "title": "​美管制 Anthropic 恰逢其时，“欧洲版 OpenAI”借势起飞主张摆脱美国依赖",
+      "url": "https://www.aibase.com/news/28952",
+      "primary_url": "https://www.aibase.com/news/28952",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "5332eadd230ebc3ad5512de9faa73f43f9849a2e",
+          "title": "​美管制 Anthropic 恰逢其时，“欧洲版 OpenAI”借势起飞主张摆脱美国依赖",
+          "url": "https://www.aibase.com/news/28952",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-16T12:46:58.863871Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "5332eadd230ebc3ad5512de9faa73f43f9849a2e",
+          "title": "​美管制 Anthropic 恰逢其时，“欧洲版 OpenAI”借势起飞主张摆脱美国依赖",
+          "url": "https://www.aibase.com/news/28952",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-16T12:46:58.863871Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.812,
+      "importance": 0.812,
+      "importance_score": 0.812,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-16T12:46:58.863871Z",
+      "latest_at": "2026-06-16T12:46:58.863871Z",
+      "primary_item": {
+        "id": "5332eadd230ebc3ad5512de9faa73f43f9849a2e",
+        "title": "​美管制 Anthropic 恰逢其时，“欧洲版 OpenAI”借势起飞主张摆脱美国依赖",
+        "url": "https://www.aibase.com/news/28952",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_6c8e4f60796f",
+      "title": "伯克利RDI发布Agents' Last Exam基准",
+      "url": "https://rdi.berkeley.edu/blog/agents-last-exam",
+      "primary_url": "https://rdi.berkeley.edu/blog/agents-last-exam",
+      "source": "Berkeley RDI：Blog（AI 安全与评测）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "15a02889d68eba26cbe154c527bd993764c5d889",
+          "title": "伯克利RDI发布Agents' Last Exam基准",
+          "url": "https://rdi.berkeley.edu/blog/agents-last-exam",
+          "source": "Berkeley RDI：Blog（AI 安全与评测）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-16T01:59:10Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Berkeley RDI：Blog（AI 安全与评测）"
+      ],
+      "items": [
+        {
+          "id": "15a02889d68eba26cbe154c527bd993764c5d889",
+          "title": "伯克利RDI发布Agents' Last Exam基准",
+          "url": "https://rdi.berkeley.edu/blog/agents-last-exam",
+          "source": "Berkeley RDI：Blog（AI 安全与评测）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-16T01:59:10Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.722,
+      "importance": 0.722,
+      "importance_score": 0.722,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.5501,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-06-16T01:59:10Z",
+      "latest_at": "2026-06-16T01:59:10Z",
+      "primary_item": {
+        "id": "15a02889d68eba26cbe154c527bd993764c5d889",
+        "title": "伯克利RDI发布Agents' Last Exam基准",
+        "url": "https://rdi.berkeley.edu/blog/agents-last-exam",
+        "source": "Berkeley RDI：Blog（AI 安全与评测）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_642cd4136432",
+      "title": "Accelerating researchers and developers building multilingual AI with a new open dataset",
+      "url": "https://github.blog/ai-and-ml/llms/accelerating-researchers-and-developers-building-multilingual-ai-with-a-new-open-dataset",
+      "primary_url": "https://github.blog/ai-and-ml/llms/accelerating-researchers-and-developers-building-multilingual-ai-with-a-new-open-dataset",
+      "source": "GitHub AI & ML",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "563caed52e3f3d4aab0994049df623bdfb83097f",
+          "title": "Accelerating researchers and developers building multilingual AI with a new open dataset",
+          "url": "https://github.blog/ai-and-ml/llms/accelerating-researchers-and-developers-building-multilingual-ai-with-a-new-open-dataset",
+          "source": "GitHub AI & ML",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-15T19:17:30Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "GitHub AI & ML"
+      ],
+      "items": [
+        {
+          "id": "563caed52e3f3d4aab0994049df623bdfb83097f",
+          "title": "Accelerating researchers and developers building multilingual AI with a new open dataset",
+          "url": "https://github.blog/ai-and-ml/llms/accelerating-researchers-and-developers-building-multilingual-ai-with-a-new-open-dataset",
+          "source": "GitHub AI & ML",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-15T19:17:30Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7332,
+      "importance": 0.7332,
+      "importance_score": 0.7332,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "source_tier": 1.0,
+        "ai_relevance": 0.93,
+        "recency": 0.2712,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-06-15T19:17:30Z",
+      "latest_at": "2026-06-15T19:17:30Z",
+      "primary_item": {
+        "id": "563caed52e3f3d4aab0994049df623bdfb83097f",
+        "title": "Accelerating researchers and developers building multilingual AI with a new open dataset",
+        "url": "https://github.blog/ai-and-ml/llms/accelerating-researchers-and-developers-building-multilingual-ai-with-a-new-open-dataset",
+        "source": "GitHub AI & ML",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_a35ed7674bbd",
+      "title": "​视危机感为常态，Perplexity 创始人分享黄仁勋与马斯克的创业课",
+      "url": "https://www.aibase.com/news/28959",
+      "primary_url": "https://www.aibase.com/news/28959",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "cd3b7e5ec94f0105f395b4eceb98fb5523f0773c",
+          "title": "​视危机感为常态，Perplexity 创始人分享黄仁勋与马斯克的创业课",
+          "url": "https://www.aibase.com/news/28959",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-16T12:46:58.863871Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "cd3b7e5ec94f0105f395b4eceb98fb5523f0773c",
+          "title": "​视危机感为常态，Perplexity 创始人分享黄仁勋与马斯克的创业课",
+          "url": "https://www.aibase.com/news/28959",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-16T12:46:58.863871Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.812,
+      "importance": 0.812,
+      "importance_score": 0.812,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-16T12:46:58.863871Z",
+      "latest_at": "2026-06-16T12:46:58.863871Z",
+      "primary_item": {
+        "id": "cd3b7e5ec94f0105f395b4eceb98fb5523f0773c",
+        "title": "​视危机感为常态，Perplexity 创始人分享黄仁勋与马斯克的创业课",
+        "url": "https://www.aibase.com/news/28959",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_ad384a8b8fe6",
+      "title": "教育部\"阳光志愿\"信息服务系统全新升级上线：智能筛选志愿，数据权威可信",
+      "url": "https://www.ithome.com/0/964/675.htm",
+      "primary_url": "https://www.ithome.com/0/964/675.htm",
+      "source": "IT之家（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "6ab0698c670996b7ab3ab9ec415eb58cbd7bb0b5",
+          "title": "教育部\"阳光志愿\"信息服务系统全新升级上线：智能筛选志愿，数据权威可信",
+          "url": "https://www.ithome.com/0/964/675.htm",
+          "source": "IT之家（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-16T01:56:49Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "IT之家（RSS）"
+      ],
+      "items": [
+        {
+          "id": "6ab0698c670996b7ab3ab9ec415eb58cbd7bb0b5",
+          "title": "教育部\"阳光志愿\"信息服务系统全新升级上线：智能筛选志愿，数据权威可信",
+          "url": "https://www.ithome.com/0/964/675.htm",
+          "source": "IT之家（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-16T01:56:49Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7217,
+      "importance": 0.7217,
+      "importance_score": 0.7217,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.5485,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-06-16T01:56:49Z",
+      "latest_at": "2026-06-16T01:56:49Z",
+      "primary_item": {
+        "id": "6ab0698c670996b7ab3ab9ec415eb58cbd7bb0b5",
+        "title": "教育部\"阳光志愿\"信息服务系统全新升级上线：智能筛选志愿，数据权威可信",
+        "url": "https://www.ithome.com/0/964/675.htm",
+        "source": "IT之家（RSS）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_83cf91d9c7bf",
+      "title": "​赋能开源系统安全，FreeBSD 启动 AI 辅助漏洞挖掘项目并获 25 万美元资助",
+      "url": "https://www.aibase.com/news/28954",
+      "primary_url": "https://www.aibase.com/news/28954",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "02a55a5a31bd757088a9656b8a98aabe05c2e6d8",
+          "title": "​赋能开源系统安全，FreeBSD 启动 AI 辅助漏洞挖掘项目并获 25 万美元资助",
+          "url": "https://www.aibase.com/news/28954",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-16T12:46:58.863871Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "02a55a5a31bd757088a9656b8a98aabe05c2e6d8",
+          "title": "​赋能开源系统安全，FreeBSD 启动 AI 辅助漏洞挖掘项目并获 25 万美元资助",
+          "url": "https://www.aibase.com/news/28954",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-16T12:46:58.863871Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.812,
+      "importance": 0.812,
+      "importance_score": 0.812,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-16T12:46:58.863871Z",
+      "latest_at": "2026-06-16T12:46:58.863871Z",
+      "primary_item": {
+        "id": "02a55a5a31bd757088a9656b8a98aabe05c2e6d8",
+        "title": "​赋能开源系统安全，FreeBSD 启动 AI 辅助漏洞挖掘项目并获 25 万美元资助",
+        "url": "https://www.aibase.com/news/28954",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_eb7262b76007",
+      "title": "成本砍半，字节跳动推出 Seedance 2.0 Mini 视频生成模型",
+      "url": "https://www.ithome.com/0/964/672.htm",
+      "primary_url": "https://www.ithome.com/0/964/672.htm",
+      "source": "IT之家（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "c11fa2a002f27a4c951b240e4b1f73aa4089c986",
+          "title": "成本砍半，字节跳动推出 Seedance 2.0 Mini 视频生成模型",
+          "url": "https://www.ithome.com/0/964/672.htm",
+          "source": "IT之家（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-16T01:49:40Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "IT之家（RSS）"
+      ],
+      "items": [
+        {
+          "id": "c11fa2a002f27a4c951b240e4b1f73aa4089c986",
+          "title": "成本砍半，字节跳动推出 Seedance 2.0 Mini 视频生成模型",
+          "url": "https://www.ithome.com/0/964/672.htm",
+          "source": "IT之家（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-16T01:49:40Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7207,
+      "importance": 0.7207,
+      "importance_score": 0.7207,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.5435,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-06-16T01:49:40Z",
+      "latest_at": "2026-06-16T01:49:40Z",
+      "primary_item": {
+        "id": "c11fa2a002f27a4c951b240e4b1f73aa4089c986",
+        "title": "成本砍半，字节跳动推出 Seedance 2.0 Mini 视频生成模型",
+        "url": "https://www.ithome.com/0/964/672.htm",
+        "source": "IT之家（RSS）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_ba2dd6fe0620",
+      "title": "Meta 在 Facebook 上线\"AI Mode\"，基于平台公开信息合成答案",
+      "url": "https://techcrunch.com/2026/06/15/metas-new-ai-mode-on-facebook-pulls-from-public-info-across-its-platforms",
+      "primary_url": "https://techcrunch.com/2026/06/15/metas-new-ai-mode-on-facebook-pulls-from-public-info-across-its-platforms",
+      "source": "TechCrunch：AI（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "59bdaa0443e06a767957bb5c15c86e71d6393f97",
+          "title": "Meta 在 Facebook 上线\"AI Mode\"，基于平台公开信息合成答案",
+          "url": "https://techcrunch.com/2026/06/15/metas-new-ai-mode-on-facebook-pulls-from-public-info-across-its-platforms",
+          "source": "TechCrunch：AI（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-15T18:30:58Z"
+        },
+        {
+          "id": "7e4993dd2d434e72151c2205fe478554f766cad9",
+          "title": "Meta 在 Facebook 上线\"AI Mode\"，基于平台公开信息合成答案 / Meta’s new ‘AI Mode’ on Facebook pulls from public info across its platforms",
+          "url": "https://techcrunch.com/2026/06/15/metas-new-ai-mode-on-facebook-pulls-from-public-info-across-its-platforms",
+          "source": "TechCrunch AI",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-06-15T18:30:58Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "TechCrunch AI",
+        "TechCrunch：AI（RSS）"
+      ],
+      "items": [
+        {
+          "id": "59bdaa0443e06a767957bb5c15c86e71d6393f97",
+          "title": "Meta 在 Facebook 上线\"AI Mode\"，基于平台公开信息合成答案",
+          "url": "https://techcrunch.com/2026/06/15/metas-new-ai-mode-on-facebook-pulls-from-public-info-across-its-platforms",
+          "source": "TechCrunch：AI（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-15T18:30:58Z"
+        },
+        {
+          "id": "7e4993dd2d434e72151c2205fe478554f766cad9",
+          "title": "Meta 在 Facebook 上线\"AI Mode\"，基于平台公开信息合成答案 / Meta’s new ‘AI Mode’ on Facebook pulls from public info across its platforms",
+          "url": "https://techcrunch.com/2026/06/15/metas-new-ai-mode-on-facebook-pulls-from-public-info-across-its-platforms",
+          "source": "TechCrunch AI",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-06-15T18:30:58Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.6848,
+      "importance": 0.6848,
+      "importance_score": 0.6848,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.1185,
+        "recency": 0.2389,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -370,1238 +1228,74 @@
         "multi_source",
         "high_ai_relevance"
       ],
-      "earliest_at": "2026-06-14T03:00:00Z",
-      "latest_at": "2026-06-14T03:00:00Z",
+      "earliest_at": "2026-06-15T18:30:58Z",
+      "latest_at": "2026-06-15T18:30:58Z",
       "primary_item": {
-        "id": "8783397726f21f68840f6455d520cf4def09fdba",
-        "title": "Anthropic 暂停新模型访问，印度辩论 AI 未来",
-        "url": "https://techcrunch.com/2026/06/13/as-anthropic-suspends-access-to-new-models-india-debates-its-ai-future",
+        "id": "59bdaa0443e06a767957bb5c15c86e71d6393f97",
+        "title": "Meta 在 Facebook 上线\"AI Mode\"，基于平台公开信息合成答案",
+        "url": "https://techcrunch.com/2026/06/15/metas-new-ai-mode-on-facebook-pulls-from-public-info-across-its-platforms",
         "source": "TechCrunch：AI（RSS）",
         "source_name": "AI HOT"
       }
     },
     {
-      "story_id": "story_c73b029d678b",
-      "title": "Anthropic是自找的吗？",
-      "url": "https://www.verysane.ai/p/did-anthropic-ask-for-this",
-      "primary_url": "https://www.verysane.ai/p/did-anthropic-ask-for-this",
-      "source": "www.verysane.ai",
-      "source_name": "Buzzing",
+      "story_id": "story_e9245fbd39eb",
+      "title": "斥资 36 亿美元，Salesforce 吞并 AI 客服平台 Fin",
+      "url": "https://www.aibase.com/news/28950",
+      "primary_url": "https://www.aibase.com/news/28950",
+      "source": "AIbase",
+      "source_name": "AIbase",
       "sources": [
         {
-          "id": "c65e940032f34c6348dc3b03f25d02432b3ddb5d",
-          "title": "Anthropic是自找的吗？",
-          "url": "https://www.verysane.ai/p/did-anthropic-ask-for-this",
-          "source": "www.verysane.ai",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-14T23:58:17.033000Z"
-        },
-        {
-          "id": "b4991a55ef917e07d3c427c6fe430492d01ead9d",
-          "title": "Anthropic 有要求吗？ / Did Anthropic ask for this?",
-          "url": "https://news.ycombinator.com/item?id=48533504",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-14T23:50:01.617000Z"
-        },
-        {
-          "id": "5323c715c6dee6bbe94525de2fbcfb56543cca2e",
-          "title": "Anthropic是自找的吗？ / Did Anthropic ask for this?",
-          "url": "https://www.verysane.ai/p/did-anthropic-ask-for-this",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-14T22:23:05Z"
+          "id": "5e9aea3925ed52f770d837f1dbac89fb80699b22",
+          "title": "斥资 36 亿美元，Salesforce 吞并 AI 客服平台 Fin",
+          "url": "https://www.aibase.com/news/28950",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-16T12:46:58.863871Z"
         }
       ],
-      "source_count": 3,
+      "source_count": 1,
       "source_names": [
-        "Hacker News",
-        "hackernews",
-        "www.verysane.ai"
+        "AIbase"
       ],
       "items": [
         {
-          "id": "c65e940032f34c6348dc3b03f25d02432b3ddb5d",
-          "title": "Anthropic是自找的吗？",
-          "url": "https://www.verysane.ai/p/did-anthropic-ask-for-this",
-          "source": "www.verysane.ai",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-14T23:58:17.033000Z"
-        },
-        {
-          "id": "b4991a55ef917e07d3c427c6fe430492d01ead9d",
-          "title": "Anthropic 有要求吗？ / Did Anthropic ask for this?",
-          "url": "https://news.ycombinator.com/item?id=48533504",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-14T23:50:01.617000Z"
-        },
-        {
-          "id": "5323c715c6dee6bbe94525de2fbcfb56543cca2e",
-          "title": "Anthropic是自找的吗？ / Did Anthropic ask for this?",
-          "url": "https://www.verysane.ai/p/did-anthropic-ask-for-this",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-14T22:23:05Z"
+          "id": "5e9aea3925ed52f770d837f1dbac89fb80699b22",
+          "title": "斥资 36 亿美元，Salesforce 吞并 AI 客服平台 Fin",
+          "url": "https://www.aibase.com/news/28950",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-16T12:46:58.863871Z"
         }
       ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.5715,
-      "importance": 0.5715,
-      "importance_score": 0.5715,
-      "importance_label": "多源热议",
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.812,
+      "importance": 0.812,
+      "importance_score": 0.812,
+      "importance_label": "行业动态",
       "importance_breakdown": {
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9923,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-14T22:23:05Z",
-      "latest_at": "2026-06-14T23:58:17.033000Z",
-      "primary_item": {
-        "id": "c65e940032f34c6348dc3b03f25d02432b3ddb5d",
-        "title": "Anthropic是自找的吗？",
-        "url": "https://www.verysane.ai/p/did-anthropic-ask-for-this",
-        "source": "www.verysane.ai",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_a55226033b99",
-      "title": "21世纪最伟大的CEO，会是一个AI吗？",
-      "url": "https://www.huxiu.com/article/4867239.html?f=rss",
-      "primary_url": "https://www.huxiu.com/article/4867239.html?f=rss",
-      "source": "虎嗅 (Huxiu)",
-      "source_name": "Info Flow",
-      "sources": [
-        {
-          "id": "c3ee0ced71449a76aab69e41f60c5fc6454cf8f6",
-          "title": "21世纪最伟大的CEO，会是一个AI吗？",
-          "url": "https://www.huxiu.com/article/4867239.html?f=rss",
-          "source": "虎嗅 (Huxiu)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-14T23:15:00Z"
-        },
-        {
-          "id": "d05469e9692e58f1e050cc49b39d4de9b2e3c577",
-          "title": "21 世纪最伟大的 CEO，会是一个 AI 吗？|| 大视野",
-          "url": "https://www.huxiu.com/article/4867239.html?f=rss",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        },
-        {
-          "id": "ec1137888661cb9b4c9d77bcd8b22b11b6228147",
-          "title": "21世纪最伟大的CEO，会是一个AI吗？|| 大视野",
-          "url": "https://www.huxiu.com/article/4867239.html?f=rss",
-          "source": "虎嗅 (Huxiu)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-14T16:13:36Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Readhub · AI",
-        "虎嗅 (Huxiu)"
-      ],
-      "items": [
-        {
-          "id": "c3ee0ced71449a76aab69e41f60c5fc6454cf8f6",
-          "title": "21世纪最伟大的CEO，会是一个AI吗？",
-          "url": "https://www.huxiu.com/article/4867239.html?f=rss",
-          "source": "虎嗅 (Huxiu)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-14T23:15:00Z"
-        },
-        {
-          "id": "d05469e9692e58f1e050cc49b39d4de9b2e3c577",
-          "title": "21 世纪最伟大的 CEO，会是一个 AI 吗？|| 大视野",
-          "url": "https://www.huxiu.com/article/4867239.html?f=rss",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        },
-        {
-          "id": "ec1137888661cb9b4c9d77bcd8b22b11b6228147",
-          "title": "21世纪最伟大的CEO，会是一个AI吗？|| 大视野",
-          "url": "https://www.huxiu.com/article/4867239.html?f=rss",
-          "source": "虎嗅 (Huxiu)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-14T16:13:36Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.5654,
-      "importance": 0.5654,
-      "importance_score": 0.5654,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9622,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-14T16:13:36Z",
-      "latest_at": "2026-06-14T23:15:00Z",
-      "primary_item": {
-        "id": "c3ee0ced71449a76aab69e41f60c5fc6454cf8f6",
-        "title": "21世纪最伟大的CEO，会是一个AI吗？",
-        "url": "https://www.huxiu.com/article/4867239.html?f=rss",
-        "source": "虎嗅 (Huxiu)",
-        "source_name": "Info Flow"
-      }
-    },
-    {
-      "story_id": "story_306377e34aa4",
-      "title": "谷歌 CEO 皮查伊斯坦福毕业演讲避谈 AI，鼓励毕业生「选择乐观」",
-      "url": "https://www.ithome.com/0/964/193.htm",
-      "primary_url": "https://www.ithome.com/0/964/193.htm",
-      "source": "Readhub · AI",
-      "source_name": "TopHub",
-      "sources": [
-        {
-          "id": "e60dbab5ebc82145d8537b3c3f85bbb3c018d8d7",
-          "title": "谷歌 CEO 皮查伊斯坦福毕业演讲避谈 AI，鼓励毕业生「选择乐观」",
-          "url": "https://www.ithome.com/0/964/193.htm",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        },
-        {
-          "id": "d527f262c873a9000fa628e466b5426b416ff00d",
-          "title": "谷歌 CEO 皮查伊斯坦福毕业演讲避谈 AI，鼓励毕业生“选择乐观”",
-          "url": "https://www.ithome.com/0/964/193.htm",
-          "source": "IT之家 (ITHome)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-14T23:00:27Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "IT之家 (ITHome)",
-        "Readhub · AI"
-      ],
-      "items": [
-        {
-          "id": "e60dbab5ebc82145d8537b3c3f85bbb3c018d8d7",
-          "title": "谷歌 CEO 皮查伊斯坦福毕业演讲避谈 AI，鼓励毕业生「选择乐观」",
-          "url": "https://www.ithome.com/0/964/193.htm",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        },
-        {
-          "id": "d527f262c873a9000fa628e466b5426b416ff00d",
-          "title": "谷歌 CEO 皮查伊斯坦福毕业演讲避谈 AI，鼓励毕业生“选择乐观”",
-          "url": "https://www.ithome.com/0/964/193.htm",
-          "source": "IT之家 (ITHome)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-14T23:00:27Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.548,
-      "importance": 0.548,
-      "importance_score": 0.548,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
         "recency": 1.0,
-        "story_heat": 0.25
+        "story_heat": 0.0
       },
-      "category": "watch",
+      "category": "industry",
       "reasons": [
-        "multi_source"
+        "high_ai_relevance",
+        "high_importance"
       ],
-      "earliest_at": "2026-06-14T23:00:27Z",
-      "latest_at": "2026-06-15T00:09:24.119395Z",
+      "earliest_at": "2026-06-16T12:46:58.863871Z",
+      "latest_at": "2026-06-16T12:46:58.863871Z",
       "primary_item": {
-        "id": "e60dbab5ebc82145d8537b3c3f85bbb3c018d8d7",
-        "title": "谷歌 CEO 皮查伊斯坦福毕业演讲避谈 AI，鼓励毕业生「选择乐观」",
-        "url": "https://www.ithome.com/0/964/193.htm",
-        "source": "Readhub · AI",
-        "source_name": "TopHub"
-      }
-    },
-    {
-      "story_id": "story_91301c00d4c2",
-      "title": "Jqwik 反人工智能事件 / The Jqwik Anti-AI Affair",
-      "url": "https://news.ycombinator.com/item?id=48533736",
-      "primary_url": "https://news.ycombinator.com/item?id=48533736",
-      "source": "hackernews",
-      "source_name": "NewsNow",
-      "sources": [
-        {
-          "id": "88021deb249b733b6116945c8abf0ba281ef8253",
-          "title": "Jqwik 反人工智能事件 / The Jqwik Anti-AI Affair",
-          "url": "https://news.ycombinator.com/item?id=48533736",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-14T23:50:01.617000Z"
-        },
-        {
-          "id": "f4854da92dafba12d9b2658332e4406cb39f065e",
-          "title": "Jqwik 反人工智能事件 / The Jqwik Anti-AI Affair",
-          "url": "https://blog.johanneslink.net/2026/06/09/the-jqwik-anti-ai-affair",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-14T22:43:49Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News · 24h最热",
-        "hackernews"
-      ],
-      "items": [
-        {
-          "id": "88021deb249b733b6116945c8abf0ba281ef8253",
-          "title": "Jqwik 反人工智能事件 / The Jqwik Anti-AI Affair",
-          "url": "https://news.ycombinator.com/item?id=48533736",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-14T23:50:01.617000Z"
-        },
-        {
-          "id": "f4854da92dafba12d9b2658332e4406cb39f065e",
-          "title": "Jqwik 反人工智能事件 / The Jqwik Anti-AI Affair",
-          "url": "https://blog.johanneslink.net/2026/06/09/the-jqwik-anti-ai-affair",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-14T22:43:49Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5453,
-      "importance": 0.5453,
-      "importance_score": 0.5453,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9865,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-14T22:43:49Z",
-      "latest_at": "2026-06-14T23:50:01.617000Z",
-      "primary_item": {
-        "id": "88021deb249b733b6116945c8abf0ba281ef8253",
-        "title": "Jqwik 反人工智能事件 / The Jqwik Anti-AI Affair",
-        "url": "https://news.ycombinator.com/item?id=48533736",
-        "source": "hackernews",
-        "source_name": "NewsNow"
-      }
-    },
-    {
-      "story_id": "story_a9187b00b2f0",
-      "title": "不，并不是每个人都在所有事情上都使用人工智能 / No, everyone is not using AI for everything",
-      "url": "https://gabrielweinberg.com/p/people-are-consuming-ai-like-they",
-      "primary_url": "https://gabrielweinberg.com/p/people-are-consuming-ai-like-they",
-      "source": "Lobsters (技术社区)",
-      "source_name": "Info Flow",
-      "sources": [
-        {
-          "id": "00946233f76dfe96f9951b07eb62f9d91803ff7d",
-          "title": "不，并不是每个人都在所有事情上都使用人工智能 / No, everyone is not using AI for everything",
-          "url": "https://gabrielweinberg.com/p/people-are-consuming-ai-like-they",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-14T17:35:54Z"
-        },
-        {
-          "id": "e2c0747c177423c44f0000955caccad11fb9e3d0",
-          "title": "不，并不是每个人都将人工智能用于所有事情 / No, everyone is not using AI for everything",
-          "url": "https://news.ycombinator.com/item?id=48527700",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-14T16:22:15.355000Z"
-        },
-        {
-          "id": "b31a29653711cae492224d5337f1c1a218e57326",
-          "title": "不，并不是每个人都在所有事情上都使用人工智能",
-          "url": "https://gabrielweinberg.com/p/people-are-consuming-ai-like-they",
-          "source": "gabrielweinberg.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-14T16:14:04.686000Z"
-        },
-        {
-          "id": "4576da3f93c8c12badd31e4d0641dfd5ab08df22",
-          "title": "不，并不是每个人都在所有事情上都使用人工智能 / Not everyone is using AI for everything",
-          "url": "https://gabrielweinberg.com/p/people-are-consuming-ai-like-they",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-14T14:44:29Z"
-        }
-      ],
-      "source_count": 4,
-      "source_names": [
-        "Hacker News · 24h最热",
-        "Lobsters (技术社区)",
-        "gabrielweinberg.com",
-        "hackernews"
-      ],
-      "items": [
-        {
-          "id": "00946233f76dfe96f9951b07eb62f9d91803ff7d",
-          "title": "不，并不是每个人都在所有事情上都使用人工智能 / No, everyone is not using AI for everything",
-          "url": "https://gabrielweinberg.com/p/people-are-consuming-ai-like-they",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-14T17:35:54Z"
-        },
-        {
-          "id": "e2c0747c177423c44f0000955caccad11fb9e3d0",
-          "title": "不，并不是每个人都将人工智能用于所有事情 / No, everyone is not using AI for everything",
-          "url": "https://news.ycombinator.com/item?id=48527700",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-14T16:22:15.355000Z"
-        },
-        {
-          "id": "b31a29653711cae492224d5337f1c1a218e57326",
-          "title": "不，并不是每个人都在所有事情上都使用人工智能",
-          "url": "https://gabrielweinberg.com/p/people-are-consuming-ai-like-they",
-          "source": "gabrielweinberg.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-14T16:14:04.686000Z"
-        },
-        {
-          "id": "4576da3f93c8c12badd31e4d0641dfd5ab08df22",
-          "title": "不，并不是每个人都在所有事情上都使用人工智能 / Not everyone is using AI for everything",
-          "url": "https://gabrielweinberg.com/p/people-are-consuming-ai-like-they",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-14T14:44:29Z"
-        }
-      ],
-      "item_count": 4,
-      "duplicate_count": 4,
-      "score": 0.5433,
-      "importance": 0.5433,
-      "importance_score": 0.5433,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.7267,
-        "story_heat": 0.75
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-14T14:44:29Z",
-      "latest_at": "2026-06-14T17:35:54Z",
-      "primary_item": {
-        "id": "00946233f76dfe96f9951b07eb62f9d91803ff7d",
-        "title": "不，并不是每个人都在所有事情上都使用人工智能 / No, everyone is not using AI for everything",
-        "url": "https://gabrielweinberg.com/p/people-are-consuming-ai-like-they",
-        "source": "Lobsters (技术社区)",
-        "source_name": "Info Flow"
-      }
-    },
-    {
-      "story_id": "story_042052496ebe",
-      "title": "毕马威因报告中出现明显“幻觉”而撤回关于人工智能应用的报告",
-      "url": "https://techcrunch.com/2026/06/13/kpmg-pulls-report-on-ai-usage-due-to-apparent-hallucinations",
-      "primary_url": "https://techcrunch.com/2026/06/13/kpmg-pulls-report-on-ai-usage-due-to-apparent-hallucinations",
-      "source": "techcrunch.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "d5840a4a8fa9232ac22d75d7354accc157243dd7",
-          "title": "毕马威因报告中出现明显“幻觉”而撤回关于人工智能应用的报告",
-          "url": "https://techcrunch.com/2026/06/13/kpmg-pulls-report-on-ai-usage-due-to-apparent-hallucinations",
-          "source": "techcrunch.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-14T19:57:53.841000Z"
-        },
-        {
-          "id": "0f7a43deb09e214faae5c857fcd4cdbbde7b673a",
-          "title": "由于明显的幻觉，毕马威撤回了人工智能使用报告 / KPMG pulls report on AI usage due to apparent hallucinations",
-          "url": "https://news.ycombinator.com/item?id=48527297",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-14T16:22:15.355000Z"
-        },
-        {
-          "id": "cd7c8eae1dc3be5ef7825eb72d6ef254f0b31b93",
-          "title": "毕马威因报告中出现明显“幻觉”而撤回关于人工智能应用的报告 / KPMG pulls report on AI usage due to apparent hallucinations",
-          "url": "https://techcrunch.com/2026/06/13/kpmg-pulls-report-on-ai-usage-due-to-apparent-hallucinations",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-14T14:01:35Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Hacker News (黑客新闻)",
-        "hackernews",
-        "techcrunch.com"
-      ],
-      "items": [
-        {
-          "id": "d5840a4a8fa9232ac22d75d7354accc157243dd7",
-          "title": "毕马威因报告中出现明显“幻觉”而撤回关于人工智能应用的报告",
-          "url": "https://techcrunch.com/2026/06/13/kpmg-pulls-report-on-ai-usage-due-to-apparent-hallucinations",
-          "source": "techcrunch.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-14T19:57:53.841000Z"
-        },
-        {
-          "id": "0f7a43deb09e214faae5c857fcd4cdbbde7b673a",
-          "title": "由于明显的幻觉，毕马威撤回了人工智能使用报告 / KPMG pulls report on AI usage due to apparent hallucinations",
-          "url": "https://news.ycombinator.com/item?id=48527297",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-14T16:22:15.355000Z"
-        },
-        {
-          "id": "cd7c8eae1dc3be5ef7825eb72d6ef254f0b31b93",
-          "title": "毕马威因报告中出现明显“幻觉”而撤回关于人工智能应用的报告 / KPMG pulls report on AI usage due to apparent hallucinations",
-          "url": "https://techcrunch.com/2026/06/13/kpmg-pulls-report-on-ai-usage-due-to-apparent-hallucinations",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-14T14:01:35Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.5381,
-      "importance": 0.5381,
-      "importance_score": 0.5381,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8253,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-14T14:01:35Z",
-      "latest_at": "2026-06-14T19:57:53.841000Z",
-      "primary_item": {
-        "id": "d5840a4a8fa9232ac22d75d7354accc157243dd7",
-        "title": "毕马威因报告中出现明显“幻觉”而撤回关于人工智能应用的报告",
-        "url": "https://techcrunch.com/2026/06/13/kpmg-pulls-report-on-ai-usage-due-to-apparent-hallucinations",
-        "source": "techcrunch.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_774f7412d1a3",
-      "title": "人工智能、神明与自我：极其有效的幻象",
-      "url": "https://www.youtube.com/watch?v=9X1CQlrwgDI",
-      "primary_url": "https://www.youtube.com/watch?v=9X1CQlrwgDI",
-      "source": "www.youtube.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "4e622df9439f8128eae9061178e9567b624d674c",
-          "title": "人工智能、神明与自我：极其有效的幻象",
-          "url": "https://www.youtube.com/watch?v=9X1CQlrwgDI",
-          "source": "www.youtube.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-14T22:54:00.758000Z"
-        },
-        {
-          "id": "db115879f71127d087550327c717550e2558dc37",
-          "title": "人工智能、神明与自我：极其有效的幻象 / AI, Gods and Selves: Incredibly Effective Illusions",
-          "url": "https://www.youtube.com/watch?v=9X1CQlrwgDI",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-14T22:49:27Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Lobsters (技术社区)",
-        "www.youtube.com"
-      ],
-      "items": [
-        {
-          "id": "4e622df9439f8128eae9061178e9567b624d674c",
-          "title": "人工智能、神明与自我：极其有效的幻象",
-          "url": "https://www.youtube.com/watch?v=9X1CQlrwgDI",
-          "source": "www.youtube.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-14T22:54:00.758000Z"
-        },
-        {
-          "id": "db115879f71127d087550327c717550e2558dc37",
-          "title": "人工智能、神明与自我：极其有效的幻象 / AI, Gods and Selves: Incredibly Effective Illusions",
-          "url": "https://www.youtube.com/watch?v=9X1CQlrwgDI",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-14T22:49:27Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5375,
-      "importance": 0.5375,
-      "importance_score": 0.5375,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9476,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-14T22:49:27Z",
-      "latest_at": "2026-06-14T22:54:00.758000Z",
-      "primary_item": {
-        "id": "4e622df9439f8128eae9061178e9567b624d674c",
-        "title": "人工智能、神明与自我：极其有效的幻象",
-        "url": "https://www.youtube.com/watch?v=9X1CQlrwgDI",
-        "source": "www.youtube.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_df0bd4cf3728",
-      "title": "谷歌首席执行官桑达尔·皮查伊在斯坦福大学毕业典礼上避谈人工智能（并躲过了嘘声）",
-      "url": "https://www.businessinsider.com/google-ceo-sundar-pichai-stanford-graduation-speech-ai-2026-6",
-      "primary_url": "https://www.businessinsider.com/google-ceo-sundar-pichai-stanford-graduation-speech-ai-2026-6",
-      "source": "www.businessinsider.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "eb639475b10217f83c31c110c5c5a5cd320f888a",
-          "title": "谷歌首席执行官桑达尔·皮查伊在斯坦福大学毕业典礼上避谈人工智能（并躲过了嘘声）",
-          "url": "https://www.businessinsider.com/google-ceo-sundar-pichai-stanford-graduation-speech-ai-2026-6",
-          "source": "www.businessinsider.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-14T21:18:02.318000Z"
-        },
-        {
-          "id": "b227394ef26603ba42c20740663215fe9c59dee8",
-          "title": "谷歌首席执行官桑达尔·皮查伊在斯坦福大学毕业典礼上避谈人工智能（并躲过了嘘声） / Sundar Pichai chooses 'optimism' over AI (and boos) for his Stanford graduation speech",
-          "url": "https://www.businessinsider.com/google-ceo-sundar-pichai-stanford-graduation-speech-ai-2026-6",
-          "source": "Business Insider",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-14T20:46:39Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Business Insider",
-        "www.businessinsider.com"
-      ],
-      "items": [
-        {
-          "id": "eb639475b10217f83c31c110c5c5a5cd320f888a",
-          "title": "谷歌首席执行官桑达尔·皮查伊在斯坦福大学毕业典礼上避谈人工智能（并躲过了嘘声）",
-          "url": "https://www.businessinsider.com/google-ceo-sundar-pichai-stanford-graduation-speech-ai-2026-6",
-          "source": "www.businessinsider.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-14T21:18:02.318000Z"
-        },
-        {
-          "id": "b227394ef26603ba42c20740663215fe9c59dee8",
-          "title": "谷歌首席执行官桑达尔·皮查伊在斯坦福大学毕业典礼上避谈人工智能（并躲过了嘘声） / Sundar Pichai chooses 'optimism' over AI (and boos) for his Stanford graduation speech",
-          "url": "https://www.businessinsider.com/google-ceo-sundar-pichai-stanford-graduation-speech-ai-2026-6",
-          "source": "Business Insider",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-14T20:46:39Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5242,
-      "importance": 0.5242,
-      "importance_score": 0.5242,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.881,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-14T20:46:39Z",
-      "latest_at": "2026-06-14T21:18:02.318000Z",
-      "primary_item": {
-        "id": "eb639475b10217f83c31c110c5c5a5cd320f888a",
-        "title": "谷歌首席执行官桑达尔·皮查伊在斯坦福大学毕业典礼上避谈人工智能（并躲过了嘘声）",
-        "url": "https://www.businessinsider.com/google-ceo-sundar-pichai-stanford-graduation-speech-ai-2026-6",
-        "source": "www.businessinsider.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_f9a9fd467da0",
-      "title": "里约热内卢的“本土化”LLM似乎是现有模型的融合体",
-      "url": "https://github.com/nex-agi/Nex-N2/issues/4",
-      "primary_url": "https://github.com/nex-agi/Nex-N2/issues/4",
-      "source": "github.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "2d574c099c396c71d0f2b16d025707e83db82942",
-          "title": "里约热内卢的“本土化”LLM似乎是现有模型的融合体",
-          "url": "https://github.com/nex-agi/Nex-N2/issues/4",
-          "source": "github.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-14T18:06:03.242000Z"
-        },
-        {
-          "id": "195e74de1c761bfcaac56dd3b51857dd4c40996c",
-          "title": "里约热内卢的“本土”法学硕士似乎是现有模式的合并 / Rio de Janeiro's \"homegrown\" LLM appears to be a merge of an existing model",
-          "url": "https://news.ycombinator.com/item?id=48528371",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-14T16:22:15.355000Z"
-        },
-        {
-          "id": "79cf793518fabce2826b2455bd5ce61f54b9c1cf",
-          "title": "里约热内卢的“本土化”LLM似乎是现有模型的融合体 / Rio de Janeiro's \"homegrown\" LLM appears to be a merge of an existing model",
-          "url": "https://github.com/nex-agi/Nex-N2/issues/4",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-14T15:37:31Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Hacker News (黑客新闻)",
-        "github.com",
-        "hackernews"
-      ],
-      "items": [
-        {
-          "id": "2d574c099c396c71d0f2b16d025707e83db82942",
-          "title": "里约热内卢的“本土化”LLM似乎是现有模型的融合体",
-          "url": "https://github.com/nex-agi/Nex-N2/issues/4",
-          "source": "github.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-14T18:06:03.242000Z"
-        },
-        {
-          "id": "195e74de1c761bfcaac56dd3b51857dd4c40996c",
-          "title": "里约热内卢的“本土”法学硕士似乎是现有模式的合并 / Rio de Janeiro's \"homegrown\" LLM appears to be a merge of an existing model",
-          "url": "https://news.ycombinator.com/item?id=48528371",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-14T16:22:15.355000Z"
-        },
-        {
-          "id": "79cf793518fabce2826b2455bd5ce61f54b9c1cf",
-          "title": "里约热内卢的“本土化”LLM似乎是现有模型的融合体 / Rio de Janeiro's \"homegrown\" LLM appears to be a merge of an existing model",
-          "url": "https://github.com/nex-agi/Nex-N2/issues/4",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-14T15:37:31Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.5225,
-      "importance": 0.5225,
-      "importance_score": 0.5225,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.7477,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-14T15:37:31Z",
-      "latest_at": "2026-06-14T18:06:03.242000Z",
-      "primary_item": {
-        "id": "2d574c099c396c71d0f2b16d025707e83db82942",
-        "title": "里约热内卢的“本土化”LLM似乎是现有模型的融合体",
-        "url": "https://github.com/nex-agi/Nex-N2/issues/4",
-        "source": "github.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_1a792f3c827d",
-      "title": "欧盟委员会发言人表示，欧盟委员会正在评估Anthropic裁决的实际影响 - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPMjV5UElrM0pwdjE0dkFUM09CRHd6elhGdTJuUXVkb29QWVNrU3lpQnBNSXpJT2lfUnppQVlzN0NZMHBienBaWWlub3lxTjItbm1FbFNSdnZtMUE4MndyMWVEV0FfVE9iYjBsbGJnNGVkT3kyNEN2NE04ZXI3WUN3a2dxSWV5bUh0aVBrLWFZVEpXOERDWU9Qc3NPbGlRQkZLZEtrR3ktb04tY2ZHRmM0NzlKVm5ITF8zNVM3TlpXSUFYc2dSQWRieA?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-      "primary_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPMjV5UElrM0pwdjE0dkFUM09CRHd6elhGdTJuUXVkb29QWVNrU3lpQnBNSXpJT2lfUnppQVlzN0NZMHBienBaWWlub3lxTjItbm1FbFNSdnZtMUE4MndyMWVEV0FfVE9iYjBsbGJnNGVkT3kyNEN2NE04ZXI3WUN3a2dxSWV5bUh0aVBrLWFZVEpXOERDWU9Qc3NPbGlRQkZLZEtrR3ktb04tY2ZHRmM0NzlKVm5ITF8zNVM3TlpXSUFYc2dSQWRieA?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-      "source": "news.google.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "f38777dc229559b5ce569e440d4ec02900ec7af6",
-          "title": "欧盟委员会发言人表示，欧盟委员会正在评估Anthropic裁决的实际影响 - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPMjV5UElrM0pwdjE0dkFUM09CRHd6elhGdTJuUXVkb29QWVNrU3lpQnBNSXpJT2lfUnppQVlzN0NZMHBienBaWWlub3lxTjItbm1FbFNSdnZtMUE4MndyMWVEV0FfVE9iYjBsbGJnNGVkT3kyNEN2NE04ZXI3WUN3a2dxSWV5bUh0aVBrLWFZVEpXOERDWU9Qc3NPbGlRQkZLZEtrR3ktb04tY2ZHRmM0NzlKVm5ITF8zNVM3TlpXSUFYc2dSQWRieA?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-          "source": "news.google.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-14T17:50:03.913000Z"
-        },
-        {
-          "id": "fc00575b279706bbba27ad5f1b7bf0e3189ae354",
-          "title": "欧盟委员会发言人表示，欧盟委员会正在评估Anthropic裁决的实际影响 / EU Commission looking at practical consequences of Anthropic decision",
-          "url": "https://www.reuters.com/legal/litigation/eu-commission-looking-practical-consequences-anthropic-decision-spokesperson-2026-06-14",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-14T14:33:11Z"
-        },
-        {
-          "id": "cd6a95d0454cdc7beee2a22b38c42a842363f8d2",
-          "title": "欧盟委员会发言人表示，欧盟委员会正在评估Anthropic裁决的实际影响",
-          "url": "https://www.reuters.com/legal/litigation/eu-commission-looking-practical-consequences-anthropic-decision-spokesperson-2026-06-14",
-          "source": "www.reuters.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-14T13:50:01.242000Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Hacker News",
-        "news.google.com",
-        "www.reuters.com"
-      ],
-      "items": [
-        {
-          "id": "f38777dc229559b5ce569e440d4ec02900ec7af6",
-          "title": "欧盟委员会发言人表示，欧盟委员会正在评估Anthropic裁决的实际影响 - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPMjV5UElrM0pwdjE0dkFUM09CRHd6elhGdTJuUXVkb29QWVNrU3lpQnBNSXpJT2lfUnppQVlzN0NZMHBienBaWWlub3lxTjItbm1FbFNSdnZtMUE4MndyMWVEV0FfVE9iYjBsbGJnNGVkT3kyNEN2NE04ZXI3WUN3a2dxSWV5bUh0aVBrLWFZVEpXOERDWU9Qc3NPbGlRQkZLZEtrR3ktb04tY2ZHRmM0NzlKVm5ITF8zNVM3TlpXSUFYc2dSQWRieA?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-          "source": "news.google.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-14T17:50:03.913000Z"
-        },
-        {
-          "id": "fc00575b279706bbba27ad5f1b7bf0e3189ae354",
-          "title": "欧盟委员会发言人表示，欧盟委员会正在评估Anthropic裁决的实际影响 / EU Commission looking at practical consequences of Anthropic decision",
-          "url": "https://www.reuters.com/legal/litigation/eu-commission-looking-practical-consequences-anthropic-decision-spokesperson-2026-06-14",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-14T14:33:11Z"
-        },
-        {
-          "id": "cd6a95d0454cdc7beee2a22b38c42a842363f8d2",
-          "title": "欧盟委员会发言人表示，欧盟委员会正在评估Anthropic裁决的实际影响",
-          "url": "https://www.reuters.com/legal/litigation/eu-commission-looking-practical-consequences-anthropic-decision-spokesperson-2026-06-14",
-          "source": "www.reuters.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-14T13:50:01.242000Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.5203,
-      "importance": 0.5203,
-      "importance_score": 0.5203,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.7366,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-14T13:50:01.242000Z",
-      "latest_at": "2026-06-14T17:50:03.913000Z",
-      "primary_item": {
-        "id": "f38777dc229559b5ce569e440d4ec02900ec7af6",
-        "title": "欧盟委员会发言人表示，欧盟委员会正在评估Anthropic裁决的实际影响 - Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPMjV5UElrM0pwdjE0dkFUM09CRHd6elhGdTJuUXVkb29QWVNrU3lpQnBNSXpJT2lfUnppQVlzN0NZMHBienBaWWlub3lxTjItbm1FbFNSdnZtMUE4MndyMWVEV0FfVE9iYjBsbGJnNGVkT3kyNEN2NE04ZXI3WUN3a2dxSWV5bUh0aVBrLWFZVEpXOERDWU9Qc3NPbGlRQkZLZEtrR3ktb04tY2ZHRmM0NzlKVm5ITF8zNVM3TlpXSUFYc2dSQWRieA?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-        "source": "news.google.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_3a79de7d7a98",
-      "title": "人工智能是代码——并且不能被促使变得更聪明 / AI is code – and can't be prompted into being smarter",
-      "url": "https://news.ycombinator.com/item?id=48532178",
-      "primary_url": "https://news.ycombinator.com/item?id=48532178",
-      "source": "hackernews",
-      "source_name": "NewsNow",
-      "sources": [
-        {
-          "id": "a12b9a6e022426c1108de208a1c1b42190e470bc",
-          "title": "人工智能是代码——并且不能被促使变得更聪明 / AI is code – and can't be prompted into being smarter",
-          "url": "https://news.ycombinator.com/item?id=48532178",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-14T23:50:01.617000Z"
-        },
-        {
-          "id": "60f680b853f2def255113e00a8cef6afc1e8394e",
-          "title": "人工智能是代码——并且不能被促使变得更聪明 / AI is code – and can't be prompted into being smarter",
-          "url": "https://www.theregister.com/ai-and-ml/2026/06/14/ai-is-code-and-cant-be-prompted-into-being-smarter/5254141",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-14T20:17:54Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News",
-        "hackernews"
-      ],
-      "items": [
-        {
-          "id": "a12b9a6e022426c1108de208a1c1b42190e470bc",
-          "title": "人工智能是代码——并且不能被促使变得更聪明 / AI is code – and can't be prompted into being smarter",
-          "url": "https://news.ycombinator.com/item?id=48532178",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-14T23:50:01.617000Z"
-        },
-        {
-          "id": "60f680b853f2def255113e00a8cef6afc1e8394e",
-          "title": "人工智能是代码——并且不能被促使变得更聪明 / AI is code – and can't be prompted into being smarter",
-          "url": "https://www.theregister.com/ai-and-ml/2026/06/14/ai-is-code-and-cant-be-prompted-into-being-smarter/5254141",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-14T20:17:54Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5453,
-      "importance": 0.5453,
-      "importance_score": 0.5453,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9865,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-14T20:17:54Z",
-      "latest_at": "2026-06-14T23:50:01.617000Z",
-      "primary_item": {
-        "id": "a12b9a6e022426c1108de208a1c1b42190e470bc",
-        "title": "人工智能是代码——并且不能被促使变得更聪明 / AI is code – and can't be prompted into being smarter",
-        "url": "https://news.ycombinator.com/item?id=48532178",
-        "source": "hackernews",
-        "source_name": "NewsNow"
-      }
-    },
-    {
-      "story_id": "story_e490525da529",
-      "title": "据Axios报道，Anthropic公司员工将于下周与白宫官员会面 / Anthropic staff to meet White House officials next week",
-      "url": "https://www.reuters.com/world/us/anthropic-staff-meet-white-house-officials-next-week-axios-reports-2026-06-14",
-      "primary_url": "https://www.reuters.com/world/us/anthropic-staff-meet-white-house-officials-next-week-axios-reports-2026-06-14",
-      "source": "Hacker News · 24h最热",
-      "source_name": "Zeli",
-      "sources": [
-        {
-          "id": "fd20e920a70f99c0dc619058fa450f7e63905017",
-          "title": "据Axios报道，Anthropic公司员工将于下周与白宫官员会面 / Anthropic staff to meet White House officials next week",
-          "url": "https://www.reuters.com/world/us/anthropic-staff-meet-white-house-officials-next-week-axios-reports-2026-06-14",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-14T18:58:24Z"
-        },
-        {
-          "id": "0e999aaf94590772e7dc53222fd8bfefc95c7c8a",
-          "title": "据Axios报道，Anthropic公司员工将于下周与白宫官员会面",
-          "url": "https://www.reuters.com/world/us/anthropic-staff-meet-white-house-officials-next-week-axios-reports-2026-06-14",
-          "source": "www.reuters.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-14T18:38:10.823000Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News · 24h最热",
-        "www.reuters.com"
-      ],
-      "items": [
-        {
-          "id": "fd20e920a70f99c0dc619058fa450f7e63905017",
-          "title": "据Axios报道，Anthropic公司员工将于下周与白宫官员会面 / Anthropic staff to meet White House officials next week",
-          "url": "https://www.reuters.com/world/us/anthropic-staff-meet-white-house-officials-next-week-axios-reports-2026-06-14",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-14T18:58:24Z"
-        },
-        {
-          "id": "0e999aaf94590772e7dc53222fd8bfefc95c7c8a",
-          "title": "据Axios报道，Anthropic公司员工将于下周与白宫官员会面",
-          "url": "https://www.reuters.com/world/us/anthropic-staff-meet-white-house-officials-next-week-axios-reports-2026-06-14",
-          "source": "www.reuters.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-14T18:38:10.823000Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5048,
-      "importance": 0.5048,
-      "importance_score": 0.5048,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.784,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-14T18:38:10.823000Z",
-      "latest_at": "2026-06-14T18:58:24Z",
-      "primary_item": {
-        "id": "fd20e920a70f99c0dc619058fa450f7e63905017",
-        "title": "据Axios报道，Anthropic公司员工将于下周与白宫官员会面 / Anthropic staff to meet White House officials next week",
-        "url": "https://www.reuters.com/world/us/anthropic-staff-meet-white-house-officials-next-week-axios-reports-2026-06-14",
-        "source": "Hacker News · 24h最热",
-        "source_name": "Zeli"
-      }
-    },
-    {
-      "story_id": "story_e3adff762066",
-      "title": "人工智能无法拯救一家无法按时交付产品的公司",
-      "url": "https://agileproductdevelopment.substack.com/p/ai-wont-fix-a-company-that-cant-ship",
-      "primary_url": "https://agileproductdevelopment.substack.com/p/ai-wont-fix-a-company-that-cant-ship",
-      "source": "agileproductdevelopment.substack.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "a760f8db87d21447ebf238a1947f9d35e40da7d8",
-          "title": "人工智能无法拯救一家无法按时交付产品的公司",
-          "url": "https://agileproductdevelopment.substack.com/p/ai-wont-fix-a-company-that-cant-ship",
-          "source": "agileproductdevelopment.substack.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-14T18:53:56.462000Z"
-        },
-        {
-          "id": "e91640413768e0c06b9a913f6c99fcc0d0bf342a",
-          "title": "人工智能无法拯救一家无法按时交付产品的公司 / AI Won’t Fix a Company That Can’t Ship",
-          "url": "https://agileproductdevelopment.substack.com/p/ai-wont-fix-a-company-that-cant-ship",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-14T18:46:19Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Lobsters (技术社区)",
-        "agileproductdevelopment.substack.com"
-      ],
-      "items": [
-        {
-          "id": "a760f8db87d21447ebf238a1947f9d35e40da7d8",
-          "title": "人工智能无法拯救一家无法按时交付产品的公司",
-          "url": "https://agileproductdevelopment.substack.com/p/ai-wont-fix-a-company-that-cant-ship",
-          "source": "agileproductdevelopment.substack.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-14T18:53:56.462000Z"
-        },
-        {
-          "id": "e91640413768e0c06b9a913f6c99fcc0d0bf342a",
-          "title": "人工智能无法拯救一家无法按时交付产品的公司 / AI Won’t Fix a Company That Can’t Ship",
-          "url": "https://agileproductdevelopment.substack.com/p/ai-wont-fix-a-company-that-cant-ship",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-14T18:46:19Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5042,
-      "importance": 0.5042,
-      "importance_score": 0.5042,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.7809,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-14T18:46:19Z",
-      "latest_at": "2026-06-14T18:53:56.462000Z",
-      "primary_item": {
-        "id": "a760f8db87d21447ebf238a1947f9d35e40da7d8",
-        "title": "人工智能无法拯救一家无法按时交付产品的公司",
-        "url": "https://agileproductdevelopment.substack.com/p/ai-wont-fix-a-company-that-cant-ship",
-        "source": "agileproductdevelopment.substack.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_ebd61a3aea6e",
-      "title": "为什么克劳德会变成一个混蛋？ / Why Is Claude Turning into an a**Hole?",
-      "url": "https://news.ycombinator.com/item?id=48533308",
-      "primary_url": "https://news.ycombinator.com/item?id=48533308",
-      "source": "hackernews",
-      "source_name": "NewsNow",
-      "sources": [
-        {
-          "id": "78394ba7fcc9426839cc64da4e1493269ce28fe3",
-          "title": "为什么克劳德会变成一个混蛋？ / Why Is Claude Turning into an a**Hole?",
-          "url": "https://news.ycombinator.com/item?id=48533308",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-14T22:19:46.628000Z"
-        },
-        {
-          "id": "e0c38fa423426b50d8bc6888c1200261589ae566",
-          "title": "为什么克劳德会变成一个混蛋？ / Why Is Claude Turning into an a**Hole?",
-          "url": "https://bramcohen.com/p/why-is-claude-turning-into-an-asshole",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-14T22:04:01Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News (黑客新闻)",
-        "hackernews"
-      ],
-      "items": [
-        {
-          "id": "78394ba7fcc9426839cc64da4e1493269ce28fe3",
-          "title": "为什么克劳德会变成一个混蛋？ / Why Is Claude Turning into an a**Hole?",
-          "url": "https://news.ycombinator.com/item?id=48533308",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-14T22:19:46.628000Z"
-        },
-        {
-          "id": "e0c38fa423426b50d8bc6888c1200261589ae566",
-          "title": "为什么克劳德会变成一个混蛋？ / Why Is Claude Turning into an a**Hole?",
-          "url": "https://bramcohen.com/p/why-is-claude-turning-into-an-asshole",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-14T22:04:01Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5328,
-      "importance": 0.5328,
-      "importance_score": 0.5328,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9239,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-14T22:04:01Z",
-      "latest_at": "2026-06-14T22:19:46.628000Z",
-      "primary_item": {
-        "id": "78394ba7fcc9426839cc64da4e1493269ce28fe3",
-        "title": "为什么克劳德会变成一个混蛋？ / Why Is Claude Turning into an a**Hole?",
-        "url": "https://news.ycombinator.com/item?id=48533308",
-        "source": "hackernews",
-        "source_name": "NewsNow"
+        "id": "5e9aea3925ed52f770d837f1dbac89fb80699b22",
+        "title": "斥资 36 亿美元，Salesforce 吞并 AI 客服平台 Fin",
+        "url": "https://www.aibase.com/news/28950",
+        "source": "AIbase",
+        "source_name": "AIbase"
       }
     }
   ]
