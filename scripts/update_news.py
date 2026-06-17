@@ -169,6 +169,11 @@ CURATED_AI_MEDIA_FEEDS: tuple[dict[str, Any], ...] = (
     },
 )
 AIBREAKFAST_JINA_URL = "https://r.jina.ai/https://aibreakfast.beehiiv.com/"
+AIHOT_ITEMS_API_URL = "https://aihot.virxact.com/api/public/items"
+AIHOT_MIN_SCORE = 60
+AIHOT_API_TAKE = 100
+AIHOT_API_MAX_PAGES = 5
+AIHOT_API_UA = f"{BROWSER_UA} aihot-skill/0.2.0 AI-News-Radar/0.7"
 AIHOT_FEED_URL = "https://aihot.virxact.com/feed.xml"
 AIHOT_FALLBACK_FEED_URLS = (
     "https://aihot.virxact.com/rss.xml",
@@ -195,6 +200,14 @@ class RawItem:
     url: str
     published_at: datetime | None
     meta: dict[str, Any]
+
+
+PUBLIC_RAW_META_FIELDS: tuple[str, ...] = (
+    "aihot_score",
+    "aihot_category",
+    "aihot_selected",
+    "summary",
+)
 
 
 def utc_now() -> datetime:
@@ -469,6 +482,14 @@ def parse_date_any(value: Any, now: datetime) -> datetime | None:
         return None
 
 
+def apply_public_raw_meta(record: dict[str, Any], raw: RawItem) -> None:
+    """Promote safe source metadata needed by public scoring and UI ranking."""
+    meta = raw.meta if isinstance(raw.meta, dict) else {}
+    for key in PUBLIC_RAW_META_FIELDS:
+        if key in meta and meta.get(key) is not None:
+            record[key] = sanitize_public_value(meta.get(key))
+
+
 def decode_escaped_json(raw: str) -> dict[str, Any] | None:
     s = raw.replace('\\"', '"').replace("\\/", "/")
     try:
@@ -722,6 +743,37 @@ def fetch_waytoagi_recent_7d(session: requests.Session, now_utc: datetime, root_
         "has_error": False,
         "error": None,
     }
+
+
+def waytoagi_updates_to_raw_items(payload: dict[str, Any], now: datetime) -> list[RawItem]:
+    updates = payload.get("updates_today")
+    if not isinstance(updates, list):
+        updates = []
+    out: list[RawItem] = []
+    for update in updates:
+        if not isinstance(update, dict):
+            continue
+        title = str(update.get("title") or "").strip()
+        url = str(update.get("url") or payload.get("root_url") or WAYTOAGI_DEFAULT).strip()
+        if not title or not url:
+            continue
+        update_date = str(update.get("date") or payload.get("latest_date") or "").strip()
+        source = f"社区更新 · {update_date}" if update_date else "社区更新"
+        out.append(
+            RawItem(
+                site_id="waytoagi",
+                site_name="WaytoAGI",
+                source=source,
+                title=title,
+                url=url,
+                # WaytoAGI update logs only expose a date. Treat currently
+                # visible latest-date entries as fresh community signals for
+                # the 24h board while the 7d payload keeps exact date context.
+                published_at=now,
+                meta={"summary": title},
+            )
+        )
+    return out
 
 
 def create_session() -> requests.Session:
@@ -1831,28 +1883,89 @@ def parse_aihot_feed_items(feed_content: bytes, now: datetime, feed_url: str = A
     return out
 
 
-def fetch_aihot(session: requests.Session, now: datetime) -> list[RawItem]:
-    last_error: Exception | None = None
-    for feed_url in (AIHOT_FEED_URL, *AIHOT_FALLBACK_FEED_URLS):
+def parse_aihot_api_items(payload: dict[str, Any], now: datetime | None = None) -> list[RawItem]:
+    site_id = "aihot"
+    site_name = "AI HOT"
+    out: list[RawItem] = []
+    seen_urls: set[str] = set()
+
+    raw_items = payload.get("items")
+    if not isinstance(raw_items, list):
+        return out
+
+    for entry in raw_items:
+        if not isinstance(entry, dict):
+            continue
+        raw_score = entry.get("score")
+        if isinstance(raw_score, bool):
+            continue
         try:
-            r = session.get(
-                feed_url,
-                timeout=30,
-                headers={
-                    "User-Agent": BROWSER_UA,
-                    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
-                    "Accept": "application/rss+xml, application/xml, text/xml, */*",
+            score = float(raw_score)
+        except (TypeError, ValueError):
+            continue
+        if score < AIHOT_MIN_SCORE:
+            continue
+
+        title = maybe_fix_mojibake(str(first_non_empty(entry.get("title"), entry.get("title_en")) or "").strip())
+        link = str(entry.get("url") or "").strip()
+        if not title or not link:
+            continue
+        normalized_url = normalize_url(link)
+        if normalized_url in seen_urls:
+            continue
+        seen_urls.add(normalized_url)
+
+        published = parse_iso(str(entry.get("publishedAt") or "")) or parse_date_any(entry.get("publishedAt"), now)
+        source = maybe_fix_mojibake(str(first_non_empty(entry.get("source"), site_name)))
+        score_value: int | float = int(score) if score.is_integer() else score
+        out.append(
+            RawItem(
+                site_id=site_id,
+                site_name=site_name,
+                source=source,
+                title=title,
+                url=link,
+                published_at=published,
+                meta={
+                    "api_url": AIHOT_ITEMS_API_URL,
+                    "aihot_id": entry.get("id"),
+                    "aihot_score": score_value,
+                    "aihot_category": entry.get("category"),
+                    "aihot_selected": bool(entry.get("selected")),
+                    "summary": entry.get("summary"),
                 },
             )
-            r.raise_for_status()
-            items = parse_aihot_feed_items(r.content, now, feed_url=feed_url)
-            if items:
-                return items
-        except Exception as exc:
-            last_error = exc
-    if last_error is not None:
-        raise last_error
-    return []
+        )
+
+    return out
+
+
+def fetch_aihot(session: requests.Session, now: datetime) -> list[RawItem]:
+    out: list[RawItem] = []
+    cursor = ""
+    for _ in range(AIHOT_API_MAX_PAGES):
+        params: dict[str, Any] = {"mode": "selected", "take": AIHOT_API_TAKE}
+        if cursor:
+            params["cursor"] = cursor
+        r = session.get(
+            AIHOT_ITEMS_API_URL,
+            timeout=30,
+            params=params,
+            headers={
+                "User-Agent": AIHOT_API_UA,
+                "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+                "Accept": "application/json",
+            },
+        )
+        r.raise_for_status()
+        payload = r.json()
+        out.extend(parse_aihot_api_items(payload, now))
+        cursor = str(payload.get("nextCursor") or "")
+        if not payload.get("hasNext") or not cursor:
+            break
+    return out
+
+
 
 
 def extract_newsnow_source_ids(js: str) -> list[str]:
@@ -2467,6 +2580,7 @@ SOURCE_TIER_BY_SITE: dict[str, tuple[str, str, int]] = {
     "aibase": ("ai_vertical", "AI垂直源", 1),
     "aihot": ("ai_vertical", "AI垂直源", 1),
     "bestblogs": ("ai_vertical", "AI垂直源", 1),
+    "waytoagi": ("community", "社区更新", 2),
     "followbuilders": ("builders", "Builders/X源", 2),
     "opmlrss": ("user_opml", "RSS/OPML", 3),
     "xapi": ("advanced", "高级源", 4),
@@ -2482,6 +2596,7 @@ SOURCE_TIER_IMPORTANCE = {
     "official": 1.0,
     "ai_vertical": 0.78,
     "ai_media": 0.58,
+    "community": 0.54,
     "builders": 0.62,
     "user_opml": 0.5,
     "advanced": 0.45,
@@ -3341,6 +3456,14 @@ def recency_score(record: dict[str, Any], now: datetime, window_hours: int) -> f
     return max(0.0, min(1.0, (float(window_hours) - age_hours) / max(1.0, float(window_hours))))
 
 
+def headline_freshness_score(record: dict[str, Any], now: datetime, half_life_hours: float = 48.0) -> float:
+    ts = event_time(record)
+    if not ts:
+        return 0.0
+    age_hours = max(0.0, (now - ts).total_seconds() / 3600)
+    return max(0.0, min(1.0, 0.5 ** (age_hours / max(1.0, half_life_hours))))
+
+
 def ai_relevance_score(record: dict[str, Any]) -> float:
     value = record.get("ai_relevance_score")
     if value is None:
@@ -3351,6 +3474,25 @@ def ai_relevance_score(record: dict[str, Any]) -> float:
         return max(0.0, min(1.0, float(value)))
     except Exception:
         return 1.0 if record.get("ai_is_related") else 0.0
+
+
+def editorial_score(record: dict[str, Any]) -> float:
+    """External or internal editorial strength used by the headline ranker."""
+    value = record.get("aihot_score")
+    try:
+        if value is not None:
+            score = float(value)
+            return max(0.0, min(1.0, score / 100 if score > 1 else score))
+    except Exception:
+        pass
+    site_id = str(record.get("site_id") or "")
+    if site_id == "official_ai":
+        return 0.9
+    if site_id == "aihot":
+        return 0.78
+    if record.get("ai_is_related"):
+        return max(0.45, ai_relevance_score(record) * 0.72)
+    return ai_relevance_score(record) * 0.6
 
 
 def story_id_for_item(item: dict[str, Any]) -> str:
@@ -3369,12 +3511,14 @@ def calculate_item_importance(
     tier = str(item.get("source_tier") or source_tier_for_site(str(item.get("site_id") or "")).get("source_tier"))
     source_score = SOURCE_TIER_IMPORTANCE.get(tier, SOURCE_TIER_IMPORTANCE["other"])
     relevance = ai_relevance_score(item)
-    recency = recency_score(item, now, window_hours)
+    recency = headline_freshness_score(item, now)
+    editorial = editorial_score(item)
     heat = min(1.0, max(0, duplicate_count - 1) / 4)
-    score = (source_score * 0.4) + (relevance * 0.3) + (recency * 0.2) + (heat * 0.1)
+    score = (editorial * 0.3) + (source_score * 0.22) + (relevance * 0.2) + (recency * 0.18) + (heat * 0.1)
     return {
         "score": round(max(0.0, min(1.0, score)), 4),
         "breakdown": {
+            "editorial": round(editorial, 4),
             "source_tier": round(source_score, 4),
             "ai_relevance": round(relevance, 4),
             "recency": round(recency, 4),
@@ -3739,6 +3883,45 @@ def main() -> int:
             }
         )
 
+    waytoagi_started = time.perf_counter()
+    try:
+        waytoagi_payload = fetch_waytoagi_recent_7d(session, now, WAYTOAGI_DEFAULT)
+        waytoagi_items = waytoagi_updates_to_raw_items(waytoagi_payload, now)
+        raw_items.extend(waytoagi_items)
+        statuses.append(
+            {
+                "site_id": "waytoagi",
+                "site_name": "WaytoAGI",
+                "ok": True,
+                "item_count": len(waytoagi_items),
+                "duration_ms": int((time.perf_counter() - waytoagi_started) * 1000),
+                "error": None,
+            }
+        )
+    except Exception as exc:
+        waytoagi_payload = {
+            "generated_at": iso(now),
+            "timezone": "Asia/Shanghai",
+            "root_url": WAYTOAGI_DEFAULT,
+            "history_url": None,
+            "window_days": 7,
+            "count_7d": 0,
+            "updates_7d": [],
+            "warning": "WaytoAGI 近7日更新抓取失败",
+            "has_error": True,
+            "error": str(exc),
+        }
+        statuses.append(
+            {
+                "site_id": "waytoagi",
+                "site_name": "WaytoAGI",
+                "ok": False,
+                "item_count": 0,
+                "duration_ms": int((time.perf_counter() - waytoagi_started) * 1000),
+                "error": str(exc),
+            }
+        )
+
     if args.rss_opml:
         opml_path = Path(args.rss_opml).expanduser()
         if opml_path.exists():
@@ -3790,6 +3973,7 @@ def main() -> int:
                 "first_seen_at": iso(now),
                 "last_seen_at": iso(now),
             }
+            apply_public_raw_meta(archive[item_id], raw)
         else:
             existing["site_id"] = raw.site_id
             existing["site_name"] = raw.site_name
@@ -3801,6 +3985,7 @@ def main() -> int:
                 if raw.site_id == "opmlrss" or not existing.get("published_at"):
                     existing["published_at"] = iso(raw.published_at)
             existing["last_seen_at"] = iso(now)
+            apply_public_raw_meta(existing, raw)
 
     # Prune old archive
     keep_after = now - timedelta(days=args.archive_days)
@@ -3960,22 +4145,6 @@ def main() -> int:
         "agentmail": agentmail_status,
         "x_api": x_api_status,
     }
-
-    try:
-        waytoagi_payload = fetch_waytoagi_recent_7d(session, now, WAYTOAGI_DEFAULT)
-    except Exception as exc:
-        waytoagi_payload = {
-            "generated_at": iso(now),
-            "timezone": "Asia/Shanghai",
-            "root_url": WAYTOAGI_DEFAULT,
-            "history_url": None,
-            "window_days": 7,
-            "count_7d": 0,
-            "updates_7d": [],
-            "warning": "WaytoAGI 近7日更新抓取失败",
-            "has_error": True,
-            "error": str(exc),
-        }
 
     latest_payload, latest_all_payload = build_latest_payloads(latest_payload)
 

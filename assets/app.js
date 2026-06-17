@@ -41,6 +41,7 @@ const allDedupeLabelEl = document.getElementById("allDedupeLabel");
 const advancedSummaryEl = document.getElementById("advancedSummary");
 const sourceHealthEl = document.getElementById("sourceHealth");
 
+const waytoagiWrapEl = document.querySelector(".waytoagi-wrap");
 const waytoagiUpdatedAtEl = document.getElementById("waytoagiUpdatedAt");
 const waytoagiMetaEl = document.getElementById("waytoagiMeta");
 const waytoagiListEl = document.getElementById("waytoagiList");
@@ -72,6 +73,7 @@ const SOURCE_KINDS = {
   zeli: { label: "聚合", tone: "aggregate" },
   aihubtoday: { label: "AI站点", tone: "aihub" },
   aibase: { label: "AI站点", tone: "aihub" },
+  waytoagi: { label: "社区", tone: "builders" },
   newsnow: { label: "聚合", tone: "aggregate" },
 };
 
@@ -82,7 +84,7 @@ const SECTION_DEFS = [
   { id: "devtools", label: "开发者", short: "开发者", description: "编程工具、API、开源项目、推理与工程实践" },
   { id: "industry", label: "行业", short: "行业", description: "公司战略、融资收购、监管、芯片与产业变化" },
   { id: "research", label: "研究", short: "研究", description: "论文、基准、方法、数据集与研究团队动态" },
-  { id: "china", label: "中文", short: "中文", description: "中文 AI 圈、国内公司、中文媒体和社区信号" },
+  { id: "community", label: "社区", short: "社区", description: "WaytoAGI、中文社区、AIbase、公众号和 Builders/X 信号" },
 ];
 
 const SECTION_BY_ID = Object.fromEntries(SECTION_DEFS.map((section) => [section.id, section]));
@@ -258,6 +260,7 @@ function renderSectionTabs() {
       renderModeSwitch();
       renderSiteFilters();
       renderBolePicks();
+      if (state.waytoagiData) renderWaytoagi(state.waytoagiData);
       renderList();
     });
     sectionTabsEl.appendChild(btn);
@@ -301,6 +304,7 @@ function renderSiteFilters() {
   allPill.onclick = () => {
     state.siteFilter = "";
     renderSiteFilters();
+    renderBolePicks();
     renderList();
   };
   sitePillsEl.appendChild(allPill);
@@ -312,6 +316,7 @@ function renderSiteFilters() {
     btn.onclick = () => {
       state.siteFilter = s.site_id;
       renderSiteFilters();
+      renderBolePicks();
       renderList();
     };
     sitePillsEl.appendChild(btn);
@@ -376,22 +381,49 @@ function scorePercent(item) {
   return Math.round(score <= 1 ? score * 100 : score);
 }
 
+function normalizedPercent(value) {
+  const score = Number(value);
+  if (!Number.isFinite(score) || score <= 0) return 0;
+  return Math.max(0, Math.min(100, Math.round(score <= 1 ? score * 100 : score)));
+}
+
 function scoreTone(score) {
   if (score >= 90) return "hot";
   if (score >= 75) return "strong";
   return "watch";
 }
 
-function itemPriorityScore(item) {
-  const score = scorePercent(item);
-  const officialBonus = item.site_id === "official_ai" ? 18 : 0;
-  const selectedBonus = item.site_id === "aihot" ? 16 : 0;
-  const sourceTierBonus = Math.max(0, 8 - Number(item.source_tier_rank || 8));
-  const signalBonus = Array.isArray(item.ai_signals) ? Math.min(10, item.ai_signals.length * 2) : 0;
+function sourceTierPercent(item) {
+  if (item.site_id === "official_ai") return 100;
+  if (item.site_id === "aihot") return 90;
+  const rank = Number(item.source_tier_rank);
+  if (!Number.isFinite(rank)) return 38;
+  return Math.max(28, Math.min(86, 86 - rank * 9));
+}
+
+function editorialPercent(item) {
+  const aihotScore = normalizedPercent(item.aihot_score);
+  if (aihotScore) return aihotScore;
+  if (item.site_id === "official_ai") return 90;
+  if (item.site_id === "aihot") return 78;
+  const internal = scorePercent(item);
+  return internal ? Math.max(45, Math.round(internal * 0.72)) : 36;
+}
+
+function freshnessPercent(item, halfLifeHours = 48) {
   const ageMs = Date.now() - timelineMs(item);
-  const ageHours = Number.isFinite(ageMs) && ageMs > 0 ? ageMs / 3600000 : 24;
-  const recencyBonus = Math.max(0, 12 - ageHours / 2);
-  return score + officialBonus + selectedBonus + sourceTierBonus + signalBonus + recencyBonus;
+  if (!Number.isFinite(ageMs) || ageMs < 0) return 100;
+  const ageHours = ageMs / 3600000;
+  return Math.max(0, Math.min(100, Math.round(100 * Math.pow(0.5, ageHours / halfLifeHours))));
+}
+
+function itemPriorityScore(item) {
+  const internal = scorePercent(item);
+  const editorial = editorialPercent(item);
+  const source = sourceTierPercent(item);
+  const freshness = freshnessPercent(item);
+  const signal = Array.isArray(item.ai_signals) ? Math.min(100, item.ai_signals.length * 18) : 0;
+  return Math.round((editorial * 0.3) + (source * 0.22) + (internal * 0.2) + (freshness * 0.18) + (signal * 0.1));
 }
 
 function labelText(item) {
@@ -491,6 +523,9 @@ function itemSections(item) {
   ) sections.add("research");
 
   if (
+    item.site_id === "waytoagi" ||
+    item.site_id === "followbuilders" ||
+    item.site_id === "aibase" ||
     source.includes("it之家") ||
     source.includes("36氪") ||
     source.includes("掘金") ||
@@ -501,9 +536,9 @@ function itemSections(item) {
     source.includes("小互") ||
     source.includes("ayi") ||
     matchesAny(hay, [
-      /阿里|通义|千问|智谱|kimi|月之暗面|minimax|字节|火山|百度|腾讯|华为|蚂蚁|讯飞|国内|中文|开源中国|少数派|虎嗅/,
+      /waytoagi|社区|公众号|阿里|通义|千问|智谱|kimi|月之暗面|minimax|字节|火山|百度|腾讯|华为|蚂蚁|讯飞|国内|中文|开源中国|少数派|虎嗅/,
     ])
-  ) sections.add("china");
+  ) sections.add("community");
 
   if (!sections.size) sections.add("industry");
   return sections;
@@ -993,6 +1028,93 @@ function renderBoleFallback(picks) {
   document.dispatchEvent(new CustomEvent("aiRadar:briefRendered"));
 }
 
+function storyMatchesFilteredItems(story, filteredItems) {
+  if (state.activeSection === "hot" && !state.siteFilter && !state.query.trim()) return true;
+  const urls = new Set(filteredItems.map((item) => item.url).filter(Boolean));
+  const ids = new Set(filteredItems.map((item) => item.id).filter(Boolean));
+  const storyRefs = [
+    story.primary_item,
+    ...(Array.isArray(story.sources) ? story.sources : []),
+    ...(Array.isArray(story.items) ? story.items : []),
+  ].filter(Boolean);
+  return storyRefs.some((ref) => (ref.url && urls.has(ref.url)) || (ref.id && ids.has(ref.id)));
+}
+
+function currentBriefStories(filteredItems) {
+  const stories = Array.isArray(state.dailyBrief?.items) ? state.dailyBrief.items : [];
+  if (!stories.length) return [];
+  return stories.filter((story) => storyMatchesFilteredItems(story, filteredItems));
+}
+
+function renderStoryViewPanel(stories) {
+  const panel = document.createElement("div");
+  panel.className = "bole-story-panel";
+
+  const hot = hotStories(stories);
+  let sorted;
+  let metaLabel;
+  if (state.boleView === "hot") {
+    sorted = hot;
+    metaLabel = hot.length
+      ? `当前热点 · ${fmtNumber(hot.length)} 簇 · 多源×时间衰减`
+      : "当前热点 · 暂无多源聚簇";
+  } else {
+    sorted = [...stories].sort((a, b) => {
+      const aLatest = storyTimeMs(a, "latest_at") || storyTimeMs(a, "earliest_at");
+      const bLatest = storyTimeMs(b, "latest_at") || storyTimeMs(b, "earliest_at");
+      if (aLatest !== bLatest) return bLatest - aLatest;
+      return storyScore(b) - storyScore(a);
+    });
+    metaLabel = `故事时间线 · ${fmtNumber(sorted.length)} 条 · 最新优先`;
+  }
+
+  if (boleViewToggleEl) {
+    boleViewToggleEl.hidden = false;
+    if (boleHotBtnEl) boleHotBtnEl.classList.toggle("active", state.boleView === "hot");
+    if (boleTimelineBtnEl) boleTimelineBtnEl.classList.toggle("active", state.boleView !== "hot");
+  }
+
+  const heading = document.createElement("div");
+  heading.className = "bole-story-panel-head";
+  heading.textContent = metaLabel;
+  panel.appendChild(heading);
+
+  if (!sorted.length) {
+    const empty = document.createElement("div");
+    empty.className = "bole-empty";
+    empty.textContent = state.boleView === "hot"
+      ? "当前筛选下没有多源热点，可切换到时间线查看最新故事。"
+      : "当前筛选下没有可展示的故事时间线。";
+    panel.appendChild(empty);
+    return panel;
+  }
+
+  const list = document.createElement("div");
+  list.className = "bole-compact-list bole-timeline";
+  const defaultLimit = state.boleView === "hot" ? BOLE_HOT_LIMIT : BOLE_TIMELINE_LIMIT;
+  const visibleStories = state.boleExpanded ? sorted : sorted.slice(0, defaultLimit);
+  visibleStories.forEach((story, index) => {
+    list.appendChild(buildStoryCard(story, index + 1));
+  });
+  panel.appendChild(list);
+
+  if (sorted.length > defaultLimit) {
+    const moreBtn = document.createElement("button");
+    moreBtn.type = "button";
+    moreBtn.className = "bole-more-btn";
+    moreBtn.textContent = state.boleExpanded
+      ? "收起"
+      : (state.boleView === "hot" ? "展开全部热点" : "展开完整时间线");
+    moreBtn.addEventListener("click", () => {
+      state.boleExpanded = !state.boleExpanded;
+      renderBolePicks();
+    });
+    panel.appendChild(moreBtn);
+  }
+
+  return panel;
+}
+
 function renderBolePicks() {
   if (!bolePicksListEl || !bolePicksMetaEl) return;
   bolePicksListEl.innerHTML = "";
@@ -1003,23 +1125,26 @@ function renderBolePicks() {
   const section = SECTION_BY_ID[state.activeSection] || SECTION_BY_ID.hot;
   const filtered = getFilteredItems();
   const clusters = rankedClustersForItems(filtered);
-  const top = clusters.slice(0, 3);
+  const top = pickTopHeadlineClusters(clusters, 3);
+  const stories = currentBriefStories(filtered);
   if (topStoriesTitleEl) topStoriesTitleEl.textContent = state.activeSection === "hot" ? "今日 Top 3" : `${section.label} Top 3`;
-  if (topStoriesSubEl) topStoriesSubEl.textContent = `${section.description}；优先多信源、官方/精选、高分和新近信号。`;
-  bolePicksMetaEl.textContent = `${fmtNumber(filtered.length)} 条候选 · ${fmtNumber(top.length)} 条优先阅读`;
+  if (topStoriesSubEl) topStoriesSubEl.textContent = `${section.description}；按原站/内部评分、源质量、多源确认、48小时新鲜度和同源惩罚排序。`;
+  bolePicksMetaEl.textContent = `${fmtNumber(filtered.length)} 条候选 · ${fmtNumber(top.length)} 条头条 · ${fmtNumber(stories.length)} 条故事`;
 
   if (!top.length) {
     const empty = document.createElement("div");
     empty.className = "bole-empty";
     empty.textContent = "当前栏目和筛选条件下没有可展示的 Top 3。";
     bolePicksListEl.appendChild(empty);
-    document.dispatchEvent(new CustomEvent("aiRadar:briefRendered"));
-    return;
+  } else {
+    top.forEach((row, index) => {
+      bolePicksListEl.appendChild(buildTopStoryCard(row, index + 1));
+    });
   }
 
-  top.forEach((row, index) => {
-    bolePicksListEl.appendChild(buildTopStoryCard(row, index + 1));
-  });
+  if (stories.length) {
+    bolePicksListEl.appendChild(renderStoryViewPanel(stories));
+  }
   document.dispatchEvent(new CustomEvent("aiRadar:briefRendered"));
 }
 
@@ -1036,6 +1161,34 @@ function rankedClustersForItems(items) {
   });
 }
 
+function pickTopHeadlineClusters(clusters, limit = 3) {
+  const picked = [];
+  const pickedPerSource = new Map();
+  const remaining = [...clusters];
+  while (remaining.length && picked.length < limit) {
+    let bestIndex = -1;
+    let bestEffective = -Infinity;
+    remaining.forEach((cluster, index) => {
+      const source = sourceSignal(cluster.item);
+      const used = pickedPerSource.get(source) || 0;
+      const effective = itemPriorityScore(cluster.item)
+        + Math.min(18, (cluster.sourceCount - 1) * 9)
+        + Math.min(8, Math.max(0, cluster.mergedCount - 1) * 4)
+        - used * 10;
+      if (effective > bestEffective) {
+        bestEffective = effective;
+        bestIndex = index;
+      }
+    });
+    if (bestIndex < 0) break;
+    const [chosen] = remaining.splice(bestIndex, 1);
+    const source = sourceSignal(chosen.item);
+    pickedPerSource.set(source, (pickedPerSource.get(source) || 0) + 1);
+    picked.push({ ...chosen, score: Math.max(chosen.score || 0, Math.min(100, Math.round(bestEffective))) });
+  }
+  return picked;
+}
+
 function itemTagLabels(item, row = null) {
   const tags = [];
   const sections = itemSections(item);
@@ -1046,7 +1199,7 @@ function itemTagLabels(item, row = null) {
   if (sections.has("models")) tags.push("模型发布");
   if (sections.has("devtools")) tags.push("开发者");
   if (sections.has("research")) tags.push("研究");
-  if (sections.has("china")) tags.push("中文");
+  if (sections.has("community")) tags.push("社区");
   return Array.from(new Set(tags)).slice(0, 5);
 }
 
@@ -1403,6 +1556,10 @@ function waytoagiViews(waytoagi) {
 }
 
 function renderWaytoagi(waytoagi) {
+  if (waytoagiWrapEl) {
+    waytoagiWrapEl.hidden = state.activeSection !== "community";
+  }
+  if (state.activeSection !== "community") return;
   const { updates7d, updatesToday, latestDate } = waytoagiViews(waytoagi);
   if (waytoagiTodayBtnEl) waytoagiTodayBtnEl.classList.toggle("active", state.waytoagiMode === "today");
   if (waytoagi7dBtnEl) waytoagi7dBtnEl.classList.toggle("active", state.waytoagiMode === "7d");
@@ -1660,6 +1817,7 @@ async function init() {
     state.waytoagiData = waytoagiResult.value;
     renderWaytoagi(state.waytoagiData);
   } else {
+    if (waytoagiWrapEl) waytoagiWrapEl.hidden = state.activeSection !== "community";
     waytoagiUpdatedAtEl.textContent = "加载失败";
     waytoagiListEl.innerHTML = `<div class="waytoagi-error">${waytoagiResult.reason.message}</div>`;
   }

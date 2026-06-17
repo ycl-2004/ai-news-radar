@@ -942,6 +942,21 @@ summary:focus-visible {
   padding: 14px 16px 16px;
 }
 
+.bole-story-panel {
+  grid-column: 1 / -1;
+  display: grid;
+  gap: 10px;
+  margin-top: 2px;
+  border-top: 1px solid var(--line);
+  padding-top: 12px;
+}
+
+.bole-story-panel-head {
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 760;
+}
+
 .top-story-card {
   position: relative;
   min-width: 0;
