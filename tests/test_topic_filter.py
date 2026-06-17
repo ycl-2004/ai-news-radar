@@ -18,6 +18,8 @@ from scripts.update_news import (
     parse_ai_breakfast_items,
     parse_aihot_api_items,
     parse_aihot_feed_items,
+    parse_curated_ai_media_feed_items,
+    parse_date_any,
     parse_feed_entries_via_xml,
     parse_anthropic_news_items,
     parse_follow_builders_items,
@@ -297,6 +299,33 @@ class TopicFilterTests(unittest.TestCase):
         self.assertEqual(session.calls[0][1]["params"], {"mode": "selected", "take": 100})
         self.assertEqual(session.calls[1][1]["params"], {"mode": "selected", "take": 100, "cursor": "cursor-2"})
         self.assertIn("aihot-skill/0.2.0", session.calls[0][1]["headers"]["User-Agent"])
+
+    def test_parse_curated_media_feed_applies_strict_title_filter_and_cap(self):
+        xml = """<?xml version='1.0' encoding='UTF-8'?>
+<rss><channel><title>The Verge</title>
+<item>
+<title>OpenAI launches a new ChatGPT product</title>
+<link>https://www.theverge.com/ai-product</link>
+<pubDate>Mon, 15 Jun 2026 02:05:04 GMT</pubDate>
+</item>
+<item>
+<title>A phone accessory launches this week</title>
+<link>https://www.theverge.com/phone</link>
+<pubDate>Mon, 15 Jun 2026 03:05:04 GMT</pubDate>
+</item>
+</channel></rss>""".encode("utf-8")
+        feed = {
+            "title": "The Verge",
+            "xml_url": "https://www.theverge.com/rss/index.xml",
+            "include_keywords": "openai,chatgpt,artificial intelligence",
+            "strict_title_filter": True,
+            "max_entries": 1,
+        }
+        items = parse_curated_ai_media_feed_items(xml, feed, now=parse_date_any("2026-06-16T00:00:00Z", None))
+        self.assertEqual(len(items), 1)
+        self.assertEqual(items[0].site_id, "curated_media")
+        self.assertEqual(items[0].source, "The Verge")
+        self.assertIn("OpenAI", items[0].title)
 
     def test_parse_follow_builders_items(self):
         feeds = {
