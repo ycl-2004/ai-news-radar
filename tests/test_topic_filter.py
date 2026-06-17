@@ -1,4 +1,5 @@
 import unittest
+from datetime import datetime, timezone
 from unittest.mock import patch
 
 from scripts.update_news import (
@@ -15,6 +16,7 @@ from scripts.update_news import (
     maybe_fix_mojibake,
     normalize_source_for_display,
     parse_ai_breakfast_items,
+    parse_aihot_api_items,
     parse_aihot_feed_items,
     parse_feed_entries_via_xml,
     parse_anthropic_news_items,
@@ -187,37 +189,114 @@ class TopicFilterTests(unittest.TestCase):
         self.assertEqual(items[0].title, "OpenAI ships a new Codex feature")
         self.assertEqual(items[0].url, "https://example.com/codex")
 
-    def test_fetch_aihot_uses_fallback_when_primary_has_no_items(self):
-        empty_xml = b"<?xml version='1.0'?><rss><channel><title>AI HOT</title></channel></rss>"
-        fallback_xml = """<?xml version='1.0' encoding='UTF-8'?>
-<rss><channel><title>AI HOT — 精选</title>
-<item>
-<title>Fallback AI HOT item</title>
-<link>https://example.com/fallback</link>
-<pubDate>Mon, 11 May 2026 04:53:06 GMT</pubDate>
-</item>
-</channel></rss>""".encode("utf-8")
+    def test_parse_aihot_api_items_keeps_only_score_60_plus(self):
+        payload = {
+            "items": [
+                {
+                    "id": "high",
+                    "title": "High score item",
+                    "url": "https://example.com/high",
+                    "source": "OpenAI Blog",
+                    "publishedAt": "2026-06-16T19:35:22.252Z",
+                    "summary": "Worth reading",
+                    "category": "ai-models",
+                    "score": 60,
+                    "selected": True,
+                },
+                {
+                    "id": "low",
+                    "title": "Low score item",
+                    "url": "https://example.com/low",
+                    "source": "Blog",
+                    "publishedAt": "2026-06-16T18:00:00.000Z",
+                    "score": 59,
+                    "selected": True,
+                },
+                {
+                    "id": "missing",
+                    "title": "Missing score item",
+                    "url": "https://example.com/missing",
+                    "source": "Blog",
+                    "publishedAt": "2026-06-16T18:00:00.000Z",
+                    "score": None,
+                    "selected": True,
+                },
+            ]
+        }
+
+        items = parse_aihot_api_items(payload, now=datetime(2026, 6, 16, tzinfo=timezone.utc))
+        self.assertEqual(len(items), 1)
+        self.assertEqual(items[0].title, "High score item")
+        self.assertEqual(items[0].source, "OpenAI Blog")
+        self.assertEqual(items[0].meta["aihot_score"], 60)
+        self.assertEqual(items[0].meta["aihot_category"], "ai-models")
+
+    def test_fetch_aihot_uses_public_items_api_with_score_filter(self):
+        page_1 = {
+            "items": [
+                {
+                    "id": "page1",
+                    "title": "Page one strong item",
+                    "url": "https://example.com/page-1",
+                    "source": "AI HOT Source",
+                    "publishedAt": "2026-06-16T19:35:22.252Z",
+                    "score": 88,
+                    "selected": True,
+                },
+                {
+                    "id": "page1-low",
+                    "title": "Page one low item",
+                    "url": "https://example.com/page-1-low",
+                    "source": "AI HOT Source",
+                    "publishedAt": "2026-06-16T19:35:22.252Z",
+                    "score": 40,
+                    "selected": True,
+                },
+            ],
+            "hasNext": True,
+            "nextCursor": "cursor-2",
+        }
+        page_2 = {
+            "items": [
+                {
+                    "id": "page2",
+                    "title": "Page two boundary item",
+                    "url": "https://example.com/page-2",
+                    "source": "AI HOT Source",
+                    "publishedAt": "2026-06-16T19:36:22.252Z",
+                    "score": 60,
+                    "selected": True,
+                }
+            ],
+            "hasNext": False,
+            "nextCursor": None,
+        }
 
         class FakeResponse:
-            def __init__(self, content):
-                self.content = content
+            def __init__(self, payload):
+                self.payload = payload
 
             def raise_for_status(self):
                 return None
+
+            def json(self):
+                return self.payload
 
         class FakeSession:
             def __init__(self):
                 self.calls = []
 
             def get(self, url, **kwargs):
-                self.calls.append(url)
-                return FakeResponse(empty_xml if len(self.calls) == 1 else fallback_xml)
+                self.calls.append((url, kwargs))
+                return FakeResponse(page_1 if len(self.calls) == 1 else page_2)
 
         session = FakeSession()
-        items = fetch_aihot(session, now=None)
-        self.assertEqual(len(items), 1)
-        self.assertEqual(items[0].title, "Fallback AI HOT item")
-        self.assertEqual(items[0].meta["feed_url"], session.calls[1])
+        items = fetch_aihot(session, now=datetime(2026, 6, 16, tzinfo=timezone.utc))
+        self.assertEqual([item.title for item in items], ["Page one strong item", "Page two boundary item"])
+        self.assertEqual(session.calls[0][0], "https://aihot.virxact.com/api/public/items")
+        self.assertEqual(session.calls[0][1]["params"], {"mode": "selected", "take": 100})
+        self.assertEqual(session.calls[1][1]["params"], {"mode": "selected", "take": 100, "cursor": "cursor-2"})
+        self.assertIn("aihot-skill/0.2.0", session.calls[0][1]["headers"]["User-Agent"])
 
     def test_parse_follow_builders_items(self):
         feeds = {
