@@ -4311,7 +4311,10 @@ def main() -> int:
         "zero_item_sites": [
             s["site_id"]
             for s in statuses
-            if s.get("ok") and int(s.get("item_count") or 0) == 0 and str(s.get("site_id") or "") not in empty_advanced_site_ids
+            if s.get("ok")
+            and int(s.get("item_count") or 0) == 0
+            and not s.get("skipped")
+            and str(s.get("site_id") or "") not in empty_advanced_site_ids
         ],
         "empty_advanced_sources": empty_advanced_sources,
         "fetched_raw_items": len(raw_items),
