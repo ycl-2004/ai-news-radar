@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T23:54:22.619324Z",
+  "generated_at": "2026-06-17T01:06:01.233538Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -38,14 +38,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8366,
-      "importance": 0.8366,
-      "importance_score": 0.8366,
+      "score": 0.8336,
+      "importance": 0.8336,
+      "importance_score": 0.8336,
       "importance_label": "官方更新",
       "importance_breakdown": {
+        "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.8781,
+        "recency": 0.9423,
         "story_heat": 0.0
       },
       "category": "official",
@@ -99,14 +100,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8319,
-      "importance": 0.8319,
-      "importance_score": 0.8319,
+      "score": 0.8322,
+      "importance": 0.8322,
+      "importance_score": 0.8322,
       "importance_label": "官方更新",
       "importance_breakdown": {
+        "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.8544,
+        "recency": 0.9345,
         "story_heat": 0.0
       },
       "category": "official",
@@ -121,6 +123,149 @@
         "id": "e9c7361f01f01b9e869ba6bf20a7a76ee4611ddb",
         "title": "GitHub Models 不再向新客户提供 / GitHub Models is no longer available to new customers",
         "url": "https://github.blog/changelog/2026-06-16-github-models-is-no-longer-available-to-new-customers",
+        "source": "GitHub Changelog",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_d35c05976152",
+      "title": "Meta 解散工程部门引发热议",
+      "url": "https://newsletter.pragmaticengineer.com/p/why-is-meta-destroying-its-engineering",
+      "primary_url": "https://newsletter.pragmaticengineer.com/p/why-is-meta-destroying-its-engineering",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "dd2ee7e7589714f529489a28834ae0c45a876601",
+          "title": "Meta 解散工程部门引发热议",
+          "url": "https://newsletter.pragmaticengineer.com/p/why-is-meta-destroying-its-engineering",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-16T18:37:24Z"
+        },
+        {
+          "id": "9bf29071b231f5d6ce90cbf8e15766ec204ef710",
+          "title": "Meta 解散工程部门引发热议 / Is Meta destroying its engineering organization?",
+          "url": "https://newsletter.pragmaticengineer.com/p/why-is-meta-destroying-its-engineering",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-16T16:42:32Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News · 24h最热",
+        "Hacker News 热门（buzzing.cc 中文翻译）"
+      ],
+      "items": [
+        {
+          "id": "dd2ee7e7589714f529489a28834ae0c45a876601",
+          "title": "Meta 解散工程部门引发热议",
+          "url": "https://newsletter.pragmaticengineer.com/p/why-is-meta-destroying-its-engineering",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-16T18:37:24Z"
+        },
+        {
+          "id": "9bf29071b231f5d6ce90cbf8e15766ec204ef710",
+          "title": "Meta 解散工程部门引发热议 / Is Meta destroying its engineering organization?",
+          "url": "https://newsletter.pragmaticengineer.com/p/why-is-meta-destroying-its-engineering",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-16T16:42:32Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.8005,
+      "importance": 0.8005,
+      "importance_score": 0.8005,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.8,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9107,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-16T16:42:32Z",
+      "latest_at": "2026-06-16T18:37:24Z",
+      "primary_item": {
+        "id": "dd2ee7e7589714f529489a28834ae0c45a876601",
+        "title": "Meta 解散工程部门引发热议",
+        "url": "https://newsletter.pragmaticengineer.com/p/why-is-meta-destroying-its-engineering",
+        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_1a2ac3701adf",
+      "title": "GitHub 代码质量将于 2026 年 7 月 20 日正式发布 / GitHub Code Quality generally available July 20, 2026",
+      "url": "https://github.blog/changelog/2026-06-16-github-code-quality-generally-available-july-20-2026",
+      "primary_url": "https://github.blog/changelog/2026-06-16-github-code-quality-generally-available-july-20-2026",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "680b025dc447fdf81fe724449c110e2f5081ce8d",
+          "title": "GitHub 代码质量将于 2026 年 7 月 20 日正式发布 / GitHub Code Quality generally available July 20, 2026",
+          "url": "https://github.blog/changelog/2026-06-16-github-code-quality-generally-available-july-20-2026",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-16T16:25:31Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "items": [
+        {
+          "id": "680b025dc447fdf81fe724449c110e2f5081ce8d",
+          "title": "GitHub 代码质量将于 2026 年 7 月 20 日正式发布 / GitHub Code Quality generally available July 20, 2026",
+          "url": "https://github.blog/changelog/2026-06-16-github-code-quality-generally-available-july-20-2026",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-16T16:25:31Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8228,
+      "importance": 0.8228,
+      "importance_score": 0.8228,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.87,
+        "recency": 0.8823,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-16T16:25:31Z",
+      "latest_at": "2026-06-16T16:25:31Z",
+      "primary_item": {
+        "id": "680b025dc447fdf81fe724449c110e2f5081ce8d",
+        "title": "GitHub 代码质量将于 2026 年 7 月 20 日正式发布 / GitHub Code Quality generally available July 20, 2026",
+        "url": "https://github.blog/changelog/2026-06-16-github-code-quality-generally-available-july-20-2026",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
       }
@@ -179,14 +324,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8259,
-      "importance": 0.8259,
-      "importance_score": 0.8259,
+      "score": 0.7891,
+      "importance": 0.7891,
+      "importance_score": 0.7891,
       "importance_label": "行业动态",
       "importance_breakdown": {
+        "editorial": 0.73,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9444,
+        "recency": 0.9641,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -206,187 +352,68 @@
       }
     },
     {
-      "story_id": "story_ad6f0db99fc6",
-      "title": "Midjourney V8.1 推出 Draft mode 草稿模式与新功能预览",
-      "url": "https://updates.midjourney.com/draft-mode-for-v8-1-and-new-feature-previews",
-      "primary_url": "https://updates.midjourney.com/draft-mode-for-v8-1-and-new-feature-previews",
-      "source": "Midjourney：Updates（RSS）",
+      "story_id": "story_84971d69fbc5",
+      "title": "美国司法部援引国家安全为xAI未经许可的燃气轮机辩护",
+      "url": "https://the-decoder.com/doj-invokes-national-security-to-defend-xais-unpermitted-gas-turbines-in-naacp-lawsuit",
+      "primary_url": "https://the-decoder.com/doj-invokes-national-security-to-defend-xais-unpermitted-gas-turbines-in-naacp-lawsuit",
+      "source": "The Decoder：AI News（RSS）",
       "source_name": "AI HOT",
       "sources": [
         {
-          "id": "5a072f5c4c948f7d699a4640c8337fb80c0b03df",
-          "title": "Midjourney V8.1 推出 Draft mode 草稿模式与新功能预览",
-          "url": "https://updates.midjourney.com/draft-mode-for-v8-1-and-new-feature-previews",
-          "source": "Midjourney：Updates（RSS）",
+          "id": "007ab0937f0c083b85af2501cf1367170f8d2b1b",
+          "title": "美国司法部援引国家安全为xAI未经许可的燃气轮机辩护",
+          "url": "https://the-decoder.com/doj-invokes-national-security-to-defend-xais-unpermitted-gas-turbines-in-naacp-lawsuit",
+          "source": "The Decoder：AI News（RSS）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-06-16T22:04:29Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Midjourney：Updates（RSS）"
-      ],
-      "items": [
-        {
-          "id": "5a072f5c4c948f7d699a4640c8337fb80c0b03df",
-          "title": "Midjourney V8.1 推出 Draft mode 草稿模式与新功能预览",
-          "url": "https://updates.midjourney.com/draft-mode-for-v8-1-and-new-feature-previews",
-          "source": "Midjourney：Updates（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-16T22:04:29Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7967,
-      "importance": 0.7967,
-      "importance_score": 0.7967,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9237,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-16T22:04:29Z",
-      "latest_at": "2026-06-16T22:04:29Z",
-      "primary_item": {
-        "id": "5a072f5c4c948f7d699a4640c8337fb80c0b03df",
-        "title": "Midjourney V8.1 推出 Draft mode 草稿模式与新功能预览",
-        "url": "https://updates.midjourney.com/draft-mode-for-v8-1-and-new-feature-previews",
-        "source": "Midjourney：Updates（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_2ebdf57d5311",
-      "title": "OpenAI 的领先优势正在快速缩小",
-      "url": "https://garymarcus.substack.com/p/openais-lead-is-dwindling-fast",
-      "primary_url": "https://garymarcus.substack.com/p/openais-lead-is-dwindling-fast",
-      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "1df77afdd3d1d406f997fe8b8c2d35b6eab5ec67",
-          "title": "OpenAI 的领先优势正在快速缩小",
-          "url": "https://garymarcus.substack.com/p/openais-lead-is-dwindling-fast",
-          "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-16T21:54:47Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Gary Marcus：The Road to AI We Can Trust（RSS）"
-      ],
-      "items": [
-        {
-          "id": "1df77afdd3d1d406f997fe8b8c2d35b6eab5ec67",
-          "title": "OpenAI 的领先优势正在快速缩小",
-          "url": "https://garymarcus.substack.com/p/openais-lead-is-dwindling-fast",
-          "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-16T21:54:47Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7954,
-      "importance": 0.7954,
-      "importance_score": 0.7954,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9169,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-16T21:54:47Z",
-      "latest_at": "2026-06-16T21:54:47Z",
-      "primary_item": {
-        "id": "1df77afdd3d1d406f997fe8b8c2d35b6eab5ec67",
-        "title": "OpenAI 的领先优势正在快速缩小",
-        "url": "https://garymarcus.substack.com/p/openais-lead-is-dwindling-fast",
-        "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_d35c05976152",
-      "title": "Meta 解散工程部门引发热议",
-      "url": "https://newsletter.pragmaticengineer.com/p/why-is-meta-destroying-its-engineering",
-      "primary_url": "https://newsletter.pragmaticengineer.com/p/why-is-meta-destroying-its-engineering",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "dd2ee7e7589714f529489a28834ae0c45a876601",
-          "title": "Meta 解散工程部门引发热议",
-          "url": "https://newsletter.pragmaticengineer.com/p/why-is-meta-destroying-its-engineering",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-16T18:37:24Z"
+          "published_at": "2026-06-16T13:23:33Z"
         },
         {
-          "id": "9bf29071b231f5d6ce90cbf8e15766ec204ef710",
-          "title": "Meta 解散工程部门引发热议 / Is Meta destroying its engineering organization?",
-          "url": "https://newsletter.pragmaticengineer.com/p/why-is-meta-destroying-its-engineering",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-16T16:42:32Z"
+          "id": "9760ba4696172112b8df6e30445917319cfc2027",
+          "title": "美国司法部援引国家安全为xAI未经许可的燃气轮机辩护 / DOJ invokes national security to defend xAI's unpermitted gas turbines in NAACP lawsuit",
+          "url": "https://the-decoder.com/doj-invokes-national-security-to-defend-xais-unpermitted-gas-turbines-in-naacp-lawsuit",
+          "source": "The Decoder AI News",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-06-16T13:23:33Z"
         }
       ],
       "source_count": 2,
       "source_names": [
-        "Hacker News · 24h最热",
-        "Hacker News 热门（buzzing.cc 中文翻译）"
+        "The Decoder AI News",
+        "The Decoder：AI News（RSS）"
       ],
       "items": [
         {
-          "id": "dd2ee7e7589714f529489a28834ae0c45a876601",
-          "title": "Meta 解散工程部门引发热议",
-          "url": "https://newsletter.pragmaticengineer.com/p/why-is-meta-destroying-its-engineering",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "id": "007ab0937f0c083b85af2501cf1367170f8d2b1b",
+          "title": "美国司法部援引国家安全为xAI未经许可的燃气轮机辩护",
+          "url": "https://the-decoder.com/doj-invokes-national-security-to-defend-xais-unpermitted-gas-turbines-in-naacp-lawsuit",
+          "source": "The Decoder：AI News（RSS）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-06-16T18:37:24Z"
+          "published_at": "2026-06-16T13:23:33Z"
         },
         {
-          "id": "9bf29071b231f5d6ce90cbf8e15766ec204ef710",
-          "title": "Meta 解散工程部门引发热议 / Is Meta destroying its engineering organization?",
-          "url": "https://newsletter.pragmaticengineer.com/p/why-is-meta-destroying-its-engineering",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-16T16:42:32Z"
+          "id": "9760ba4696172112b8df6e30445917319cfc2027",
+          "title": "美国司法部援引国家安全为xAI未经许可的燃气轮机辩护 / DOJ invokes national security to defend xAI's unpermitted gas turbines in NAACP lawsuit",
+          "url": "https://the-decoder.com/doj-invokes-national-security-to-defend-xais-unpermitted-gas-turbines-in-naacp-lawsuit",
+          "source": "The Decoder AI News",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-06-16T13:23:33Z"
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.793,
-      "importance": 0.793,
-      "importance_score": 0.793,
+      "score": 0.7886,
+      "importance": 0.7886,
+      "importance_score": 0.7886,
       "importance_label": "行业动态",
       "importance_breakdown": {
+        "editorial": 0.8,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7799,
+        "recency": 0.8445,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -395,14 +422,136 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-06-16T16:42:32Z",
-      "latest_at": "2026-06-16T18:37:24Z",
+      "earliest_at": "2026-06-16T13:23:33Z",
+      "latest_at": "2026-06-16T13:23:33Z",
       "primary_item": {
-        "id": "dd2ee7e7589714f529489a28834ae0c45a876601",
-        "title": "Meta 解散工程部门引发热议",
-        "url": "https://newsletter.pragmaticengineer.com/p/why-is-meta-destroying-its-engineering",
-        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "id": "007ab0937f0c083b85af2501cf1367170f8d2b1b",
+        "title": "美国司法部援引国家安全为xAI未经许可的燃气轮机辩护",
+        "url": "https://the-decoder.com/doj-invokes-national-security-to-defend-xais-unpermitted-gas-turbines-in-naacp-lawsuit",
+        "source": "The Decoder：AI News（RSS）",
         "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_8e6a44c22a68",
+      "title": "baoyu-design 本地动画视频导出功能更新",
+      "url": "https://x.com/dotey/status/2067039941960327204",
+      "primary_url": "https://x.com/dotey/status/2067039941960327204",
+      "source": "X：宝玉 (@dotey)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "c429c10a57c4827354d74cc017146db58619d625",
+          "title": "baoyu-design 本地动画视频导出功能更新",
+          "url": "https://x.com/dotey/status/2067039941960327204",
+          "source": "X：宝玉 (@dotey)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-17T00:21:40Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "X：宝玉 (@dotey)"
+      ],
+      "items": [
+        {
+          "id": "c429c10a57c4827354d74cc017146db58619d625",
+          "title": "baoyu-design 本地动画视频导出功能更新",
+          "url": "https://x.com/dotey/status/2067039941960327204",
+          "source": "X：宝玉 (@dotey)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-17T00:21:40Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7747,
+      "importance": 0.7747,
+      "importance_score": 0.7747,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.75,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9894,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-17T00:21:40Z",
+      "latest_at": "2026-06-17T00:21:40Z",
+      "primary_item": {
+        "id": "c429c10a57c4827354d74cc017146db58619d625",
+        "title": "baoyu-design 本地动画视频导出功能更新",
+        "url": "https://x.com/dotey/status/2067039941960327204",
+        "source": "X：宝玉 (@dotey)",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_c767bd3fb417",
+      "title": "Adobe发布创作者报告：超八成受访者称AI加速粉丝与业务增长",
+      "url": "https://www.aibase.com/news/28961",
+      "primary_url": "https://www.aibase.com/news/28961",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "41adc39bf34068cc6808d32c612903a75461964e",
+          "title": "Adobe发布创作者报告：超八成受访者称AI加速粉丝与业务增长",
+          "url": "https://www.aibase.com/news/28961",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-17T01:06:01.233538Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "41adc39bf34068cc6808d32c612903a75461964e",
+          "title": "Adobe发布创作者报告：超八成受访者称AI加速粉丝与业务增长",
+          "url": "https://www.aibase.com/news/28961",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-17T01:06:01.233538Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-17T01:06:01.233538Z",
+      "latest_at": "2026-06-17T01:06:01.233538Z",
+      "primary_item": {
+        "id": "41adc39bf34068cc6808d32c612903a75461964e",
+        "title": "Adobe发布创作者报告：超八成受访者称AI加速粉丝与业务增长",
+        "url": "https://www.aibase.com/news/28961",
+        "source": "AIbase",
+        "source_name": "AIbase"
       }
     },
     {
@@ -440,14 +589,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.776,
-      "importance": 0.776,
-      "importance_score": 0.776,
+      "score": 0.7658,
+      "importance": 0.7658,
+      "importance_score": 0.7658,
       "importance_label": "行业动态",
       "importance_breakdown": {
+        "editorial": 0.76,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8201,
+        "recency": 0.9235,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -466,21 +616,21 @@
       }
     },
     {
-      "story_id": "story_1a2ac3701adf",
-      "title": "GitHub 代码质量将于 2026 年 7 月 20 日正式发布 / GitHub Code Quality generally available July 20, 2026",
-      "url": "https://github.blog/changelog/2026-06-16-github-code-quality-generally-available-july-20-2026",
-      "primary_url": "https://github.blog/changelog/2026-06-16-github-code-quality-generally-available-july-20-2026",
+      "story_id": "story_76ce414bc56e",
+      "title": "组织级别的 GitHub 代码质量支持 / Organization-level enablement for GitHub Code Quality",
+      "url": "https://github.blog/changelog/2026-06-16-organization-level-enablement-for-github-code-quality",
+      "primary_url": "https://github.blog/changelog/2026-06-16-organization-level-enablement-for-github-code-quality",
       "source": "GitHub Changelog",
       "source_name": "Official AI Updates",
       "sources": [
         {
-          "id": "680b025dc447fdf81fe724449c110e2f5081ce8d",
-          "title": "GitHub 代码质量将于 2026 年 7 月 20 日正式发布 / GitHub Code Quality generally available July 20, 2026",
-          "url": "https://github.blog/changelog/2026-06-16-github-code-quality-generally-available-july-20-2026",
+          "id": "6de2b39011e7b9671a7d152bc81a3e14f230524c",
+          "title": "组织级别的 GitHub 代码质量支持 / Organization-level enablement for GitHub Code Quality",
+          "url": "https://github.blog/changelog/2026-06-16-organization-level-enablement-for-github-code-quality",
           "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-06-16T16:25:31Z"
+          "published_at": "2026-06-16T16:25:28Z"
         }
       ],
       "source_count": 1,
@@ -489,25 +639,26 @@
       ],
       "items": [
         {
-          "id": "680b025dc447fdf81fe724449c110e2f5081ce8d",
-          "title": "GitHub 代码质量将于 2026 年 7 月 20 日正式发布 / GitHub Code Quality generally available July 20, 2026",
-          "url": "https://github.blog/changelog/2026-06-16-github-code-quality-generally-available-july-20-2026",
+          "id": "6de2b39011e7b9671a7d152bc81a3e14f230524c",
+          "title": "组织级别的 GitHub 代码质量支持 / Organization-level enablement for GitHub Code Quality",
+          "url": "https://github.blog/changelog/2026-06-16-organization-level-enablement-for-github-code-quality",
           "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-06-16T16:25:31Z"
+          "published_at": "2026-06-16T16:25:28Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7987,
-      "importance": 0.7987,
-      "importance_score": 0.7987,
+      "score": 0.8228,
+      "importance": 0.8228,
+      "importance_score": 0.8228,
       "importance_label": "官方更新",
       "importance_breakdown": {
+        "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.6883,
+        "recency": 0.8822,
         "story_heat": 0.0
       },
       "category": "official",
@@ -516,12 +667,12 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-06-16T16:25:31Z",
-      "latest_at": "2026-06-16T16:25:31Z",
+      "earliest_at": "2026-06-16T16:25:28Z",
+      "latest_at": "2026-06-16T16:25:28Z",
       "primary_item": {
-        "id": "680b025dc447fdf81fe724449c110e2f5081ce8d",
-        "title": "GitHub 代码质量将于 2026 年 7 月 20 日正式发布 / GitHub Code Quality generally available July 20, 2026",
-        "url": "https://github.blog/changelog/2026-06-16-github-code-quality-generally-available-july-20-2026",
+        "id": "6de2b39011e7b9671a7d152bc81a3e14f230524c",
+        "title": "组织级别的 GitHub 代码质量支持 / Organization-level enablement for GitHub Code Quality",
+        "url": "https://github.blog/changelog/2026-06-16-organization-level-enablement-for-github-code-quality",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
       }
@@ -561,14 +712,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.764,
-      "importance": 0.764,
-      "importance_score": 0.764,
+      "score": 0.7594,
+      "importance": 0.7594,
+      "importance_score": 0.7594,
       "importance_label": "行业动态",
       "importance_breakdown": {
+        "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7598,
+        "recency": 0.9044,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -583,680 +735,6 @@
         "title": "微软考虑为 Copilot Cowork 集成 DeepSeek V4",
         "url": "https://x.com/kimmonismus/status/2066946013026263110",
         "source": "X：Kim (@kimmonismus)",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_3f96d5e4166a",
-      "title": "公开聊天数据能否预测真实世界AI失调？",
-      "url": "https://alignment.openai.com/validating-public-evals",
-      "primary_url": "https://alignment.openai.com/validating-public-evals",
-      "source": "OpenAI：Alignment 研究博客（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "3f3da74a5097b1b124bf6c9714b5e3c6b197a071",
-          "title": "公开聊天数据能否预测真实世界AI失调？",
-          "url": "https://alignment.openai.com/validating-public-evals",
-          "source": "OpenAI：Alignment 研究博客（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-16T18:00:00Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "OpenAI：Alignment 研究博客（RSS）"
-      ],
-      "items": [
-        {
-          "id": "3f3da74a5097b1b124bf6c9714b5e3c6b197a071",
-          "title": "公开聊天数据能否预测真实世界AI失调？",
-          "url": "https://alignment.openai.com/validating-public-evals",
-          "source": "OpenAI：Alignment 研究博客（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-16T18:00:00Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7628,
-      "importance": 0.7628,
-      "importance_score": 0.7628,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7539,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-16T18:00:00Z",
-      "latest_at": "2026-06-16T18:00:00Z",
-      "primary_item": {
-        "id": "3f3da74a5097b1b124bf6c9714b5e3c6b197a071",
-        "title": "公开聊天数据能否预测真实世界AI失调？",
-        "url": "https://alignment.openai.com/validating-public-evals",
-        "source": "OpenAI：Alignment 研究博客（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_96e6e17a1115",
-      "title": "Fable 遭美国政府封禁，TechCrunch 质疑真正原因并非模型越狱",
-      "url": "https://techcrunch.com/2026/06/15/the-us-governments-anthropic-models-ban-was-never-about-an-ai-jailbreak",
-      "primary_url": "https://techcrunch.com/2026/06/15/the-us-governments-anthropic-models-ban-was-never-about-an-ai-jailbreak",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "a1c4af2d34c168ef9db308721ecf5053f4f05399",
-          "title": "Fable 遭美国政府封禁，TechCrunch 质疑真正原因并非模型越狱",
-          "url": "https://techcrunch.com/2026/06/15/the-us-governments-anthropic-models-ban-was-never-about-an-ai-jailbreak",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-16T16:45:18Z"
-        },
-        {
-          "id": "171fcde2a62bae34608ad8cabc028adbbc714fe8",
-          "title": "Fable 遭美国政府封禁，TechCrunch 质疑真正原因并非模型越狱 / Fable ban was never about a jailbreak?",
-          "url": "https://techcrunch.com/2026/06/15/the-us-governments-anthropic-models-ban-was-never-about-an-ai-jailbreak",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-16T15:27:56Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News · 24h最热",
-        "Hacker News 热门（buzzing.cc 中文翻译）"
-      ],
-      "items": [
-        {
-          "id": "a1c4af2d34c168ef9db308721ecf5053f4f05399",
-          "title": "Fable 遭美国政府封禁，TechCrunch 质疑真正原因并非模型越狱",
-          "url": "https://techcrunch.com/2026/06/15/the-us-governments-anthropic-models-ban-was-never-about-an-ai-jailbreak",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-16T16:45:18Z"
-        },
-        {
-          "id": "171fcde2a62bae34608ad8cabc028adbbc714fe8",
-          "title": "Fable 遭美国政府封禁，TechCrunch 质疑真正原因并非模型越狱 / Fable ban was never about a jailbreak?",
-          "url": "https://techcrunch.com/2026/06/15/the-us-governments-anthropic-models-ban-was-never-about-an-ai-jailbreak",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-16T15:27:56Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7774,
-      "importance": 0.7774,
-      "importance_score": 0.7774,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.702,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-16T15:27:56Z",
-      "latest_at": "2026-06-16T16:45:18Z",
-      "primary_item": {
-        "id": "a1c4af2d34c168ef9db308721ecf5053f4f05399",
-        "title": "Fable 遭美国政府封禁，TechCrunch 质疑真正原因并非模型越狱",
-        "url": "https://techcrunch.com/2026/06/15/the-us-governments-anthropic-models-ban-was-never-about-an-ai-jailbreak",
-        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_92a6b3c8dffb",
-      "title": "Copilot Cowork 全球正式可用，支持多模型",
-      "url": "https://x.com/satyanadella/status/2066911399494963335",
-      "primary_url": "https://x.com/satyanadella/status/2066911399494963335",
-      "source": "X：Satya Nadella (@satyanadella)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "91b1e4f8609a32f6ff94ea3ae7a650f2b7d881bd",
-          "title": "Copilot Cowork 全球正式可用，支持多模型",
-          "url": "https://x.com/satyanadella/status/2066911399494963335",
-          "source": "X：Satya Nadella (@satyanadella)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-16T15:50:53Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：Satya Nadella (@satyanadella)"
-      ],
-      "items": [
-        {
-          "id": "91b1e4f8609a32f6ff94ea3ae7a650f2b7d881bd",
-          "title": "Copilot Cowork 全球正式可用，支持多模型",
-          "url": "https://x.com/satyanadella/status/2066911399494963335",
-          "source": "X：Satya Nadella (@satyanadella)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-16T15:50:53Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7448,
-      "importance": 0.7448,
-      "importance_score": 0.7448,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.6642,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-16T15:50:53Z",
-      "latest_at": "2026-06-16T15:50:53Z",
-      "primary_item": {
-        "id": "91b1e4f8609a32f6ff94ea3ae7a650f2b7d881bd",
-        "title": "Copilot Cowork 全球正式可用，支持多模型",
-        "url": "https://x.com/satyanadella/status/2066911399494963335",
-        "source": "X：Satya Nadella (@satyanadella)",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_76ce414bc56e",
-      "title": "组织级别的 GitHub 代码质量支持 / Organization-level enablement for GitHub Code Quality",
-      "url": "https://github.blog/changelog/2026-06-16-organization-level-enablement-for-github-code-quality",
-      "primary_url": "https://github.blog/changelog/2026-06-16-organization-level-enablement-for-github-code-quality",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "6de2b39011e7b9671a7d152bc81a3e14f230524c",
-          "title": "组织级别的 GitHub 代码质量支持 / Organization-level enablement for GitHub Code Quality",
-          "url": "https://github.blog/changelog/2026-06-16-organization-level-enablement-for-github-code-quality",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-16T16:25:28Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "items": [
-        {
-          "id": "6de2b39011e7b9671a7d152bc81a3e14f230524c",
-          "title": "组织级别的 GitHub 代码质量支持 / Organization-level enablement for GitHub Code Quality",
-          "url": "https://github.blog/changelog/2026-06-16-organization-level-enablement-for-github-code-quality",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-16T16:25:28Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7987,
-      "importance": 0.7987,
-      "importance_score": 0.7987,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.6883,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-16T16:25:28Z",
-      "latest_at": "2026-06-16T16:25:28Z",
-      "primary_item": {
-        "id": "6de2b39011e7b9671a7d152bc81a3e14f230524c",
-        "title": "组织级别的 GitHub 代码质量支持 / Organization-level enablement for GitHub Code Quality",
-        "url": "https://github.blog/changelog/2026-06-16-organization-level-enablement-for-github-code-quality",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
-      }
-    },
-    {
-      "story_id": "story_4a2240a9f1db",
-      "title": "马斯克：AI将达Stockfish级编码",
-      "url": "https://x.com/elonmusk/status/2066880262668247091",
-      "primary_url": "https://x.com/elonmusk/status/2066880262668247091",
-      "source": "X：Elon Musk (@elonmusk, xAI)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "0bc91b6f9fbc148b9856fe79e25d1f26aa34a538",
-          "title": "马斯克：AI将达Stockfish级编码",
-          "url": "https://x.com/elonmusk/status/2066880262668247091",
-          "source": "X：Elon Musk (@elonmusk, xAI)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-16T13:47:10Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：Elon Musk (@elonmusk, xAI)"
-      ],
-      "items": [
-        {
-          "id": "0bc91b6f9fbc148b9856fe79e25d1f26aa34a538",
-          "title": "马斯克：AI将达Stockfish级编码",
-          "url": "https://x.com/elonmusk/status/2066880262668247091",
-          "source": "X：Elon Musk (@elonmusk, xAI)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-16T13:47:10Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7277,
-      "importance": 0.7277,
-      "importance_score": 0.7277,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.5783,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-16T13:47:10Z",
-      "latest_at": "2026-06-16T13:47:10Z",
-      "primary_item": {
-        "id": "0bc91b6f9fbc148b9856fe79e25d1f26aa34a538",
-        "title": "马斯克：AI将达Stockfish级编码",
-        "url": "https://x.com/elonmusk/status/2066880262668247091",
-        "source": "X：Elon Musk (@elonmusk, xAI)",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_c17f337b52ab",
-      "title": "小米 MiMo Claw 正式版发布：旗舰模型+金山办公，全新订阅服务上线",
-      "url": "https://mp.weixin.qq.com/s/N5ac768a8LkhEjOVpkR1dQ",
-      "primary_url": "https://mp.weixin.qq.com/s/N5ac768a8LkhEjOVpkR1dQ",
-      "source": "公众号：小米 MiMo",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "95b1e4800d3e676ee55cc99d154b71dd8688cf80",
-          "title": "小米 MiMo Claw 正式版发布：旗舰模型+金山办公，全新订阅服务上线",
-          "url": "https://mp.weixin.qq.com/s/N5ac768a8LkhEjOVpkR1dQ",
-          "source": "公众号：小米 MiMo",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-16T13:32:48Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "公众号：小米 MiMo"
-      ],
-      "items": [
-        {
-          "id": "95b1e4800d3e676ee55cc99d154b71dd8688cf80",
-          "title": "小米 MiMo Claw 正式版发布：旗舰模型+金山办公，全新订阅服务上线",
-          "url": "https://mp.weixin.qq.com/s/N5ac768a8LkhEjOVpkR1dQ",
-          "source": "公众号：小米 MiMo",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-16T13:32:48Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7257,
-      "importance": 0.7257,
-      "importance_score": 0.7257,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.5683,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-16T13:32:48Z",
-      "latest_at": "2026-06-16T13:32:48Z",
-      "primary_item": {
-        "id": "95b1e4800d3e676ee55cc99d154b71dd8688cf80",
-        "title": "小米 MiMo Claw 正式版发布：旗舰模型+金山办公，全新订阅服务上线",
-        "url": "https://mp.weixin.qq.com/s/N5ac768a8LkhEjOVpkR1dQ",
-        "source": "公众号：小米 MiMo",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_84971d69fbc5",
-      "title": "美国司法部援引国家安全为xAI未经许可的燃气轮机辩护",
-      "url": "https://the-decoder.com/doj-invokes-national-security-to-defend-xais-unpermitted-gas-turbines-in-naacp-lawsuit",
-      "primary_url": "https://the-decoder.com/doj-invokes-national-security-to-defend-xais-unpermitted-gas-turbines-in-naacp-lawsuit",
-      "source": "The Decoder：AI News（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "007ab0937f0c083b85af2501cf1367170f8d2b1b",
-          "title": "美国司法部援引国家安全为xAI未经许可的燃气轮机辩护",
-          "url": "https://the-decoder.com/doj-invokes-national-security-to-defend-xais-unpermitted-gas-turbines-in-naacp-lawsuit",
-          "source": "The Decoder：AI News（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-16T13:23:33Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "The Decoder：AI News（RSS）"
-      ],
-      "items": [
-        {
-          "id": "007ab0937f0c083b85af2501cf1367170f8d2b1b",
-          "title": "美国司法部援引国家安全为xAI未经许可的燃气轮机辩护",
-          "url": "https://the-decoder.com/doj-invokes-national-security-to-defend-xais-unpermitted-gas-turbines-in-naacp-lawsuit",
-          "source": "The Decoder：AI News（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-16T13:23:33Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7244,
-      "importance": 0.7244,
-      "importance_score": 0.7244,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.5619,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-16T13:23:33Z",
-      "latest_at": "2026-06-16T13:23:33Z",
-      "primary_item": {
-        "id": "007ab0937f0c083b85af2501cf1367170f8d2b1b",
-        "title": "美国司法部援引国家安全为xAI未经许可的燃气轮机辩护",
-        "url": "https://the-decoder.com/doj-invokes-national-security-to-defend-xais-unpermitted-gas-turbines-in-naacp-lawsuit",
-        "source": "The Decoder：AI News（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_abd33f53be2c",
-      "title": "SpaceX 以 600 亿美元股票收购 AI 编程公司 Cursor",
-      "url": "https://techcrunch.com/2026/06/16/spacex-to-acquire-cursor-for-60b-in-stock-days-after-blockbuster-ipo",
-      "primary_url": "https://techcrunch.com/2026/06/16/spacex-to-acquire-cursor-for-60b-in-stock-days-after-blockbuster-ipo",
-      "source": "TechCrunch：AI（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "b672f5fab8083a25aa1755a4f75d388cb485995a",
-          "title": "SpaceX 以 600 亿美元股票收购 AI 编程公司 Cursor",
-          "url": "https://techcrunch.com/2026/06/16/spacex-to-acquire-cursor-for-60b-in-stock-days-after-blockbuster-ipo",
-          "source": "TechCrunch：AI（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-16T11:21:41Z"
-        },
-        {
-          "id": "3b3030b1121a5522ade5be56bb09b521c118fad6",
-          "title": "SpaceX 以 600 亿美元股票收购 AI 编程公司 Cursor / SpaceX to acquire Cursor for $60B in stock, days after blockbuster IPO",
-          "url": "https://techcrunch.com/2026/06/16/spacex-to-acquire-cursor-for-60b-in-stock-days-after-blockbuster-ipo",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-16T12:09:34Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News · 24h最热",
-        "TechCrunch：AI（RSS）"
-      ],
-      "items": [
-        {
-          "id": "b672f5fab8083a25aa1755a4f75d388cb485995a",
-          "title": "SpaceX 以 600 亿美元股票收购 AI 编程公司 Cursor",
-          "url": "https://techcrunch.com/2026/06/16/spacex-to-acquire-cursor-for-60b-in-stock-days-after-blockbuster-ipo",
-          "source": "TechCrunch：AI（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-16T11:21:41Z"
-        },
-        {
-          "id": "3b3030b1121a5522ade5be56bb09b521c118fad6",
-          "title": "SpaceX 以 600 亿美元股票收购 AI 编程公司 Cursor / SpaceX to acquire Cursor for $60B in stock, days after blockbuster IPO",
-          "url": "https://techcrunch.com/2026/06/16/spacex-to-acquire-cursor-for-60b-in-stock-days-after-blockbuster-ipo",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-16T12:09:34Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7325,
-      "importance": 0.7325,
-      "importance_score": 0.7325,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.4773,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-16T11:21:41Z",
-      "latest_at": "2026-06-16T12:09:34Z",
-      "primary_item": {
-        "id": "b672f5fab8083a25aa1755a4f75d388cb485995a",
-        "title": "SpaceX 以 600 亿美元股票收购 AI 编程公司 Cursor",
-        "url": "https://techcrunch.com/2026/06/16/spacex-to-acquire-cursor-for-60b-in-stock-days-after-blockbuster-ipo",
-        "source": "TechCrunch：AI（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_eb7262b76007",
-      "title": "单秒成本直降一半，字节跳动发布 Seedance 2.0 Mini 视频生成模型",
-      "url": "https://www.aibase.com/news/28944",
-      "primary_url": "https://www.aibase.com/news/28944",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "4cf3bf75e79dbd0b8d50076921ccc536cfc168d6",
-          "title": "单秒成本直降一半，字节跳动发布 Seedance 2.0 Mini 视频生成模型",
-          "url": "https://www.aibase.com/news/28944",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-16T05:43:15.329851Z"
-        },
-        {
-          "id": "c11fa2a002f27a4c951b240e4b1f73aa4089c986",
-          "title": "成本砍半，字节跳动推出 Seedance 2.0 Mini 视频生成模型",
-          "url": "https://www.ithome.com/0/964/672.htm",
-          "source": "IT之家（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-16T01:49:40Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "AIbase",
-        "IT之家（RSS）"
-      ],
-      "items": [
-        {
-          "id": "4cf3bf75e79dbd0b8d50076921ccc536cfc168d6",
-          "title": "单秒成本直降一半，字节跳动发布 Seedance 2.0 Mini 视频生成模型",
-          "url": "https://www.aibase.com/news/28944",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-16T05:43:15.329851Z"
-        },
-        {
-          "id": "c11fa2a002f27a4c951b240e4b1f73aa4089c986",
-          "title": "成本砍半，字节跳动推出 Seedance 2.0 Mini 视频生成模型",
-          "url": "https://www.ithome.com/0/964/672.htm",
-          "source": "IT之家（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-16T01:49:40Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.6855,
-      "importance": 0.6855,
-      "importance_score": 0.6855,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.2423,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-16T01:49:40Z",
-      "latest_at": "2026-06-16T05:43:15.329851Z",
-      "primary_item": {
-        "id": "4cf3bf75e79dbd0b8d50076921ccc536cfc168d6",
-        "title": "单秒成本直降一半，字节跳动发布 Seedance 2.0 Mini 视频生成模型",
-        "url": "https://www.aibase.com/news/28944",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      }
-    },
-    {
-      "story_id": "story_50fb9d1a3b30",
-      "title": "AI 版支付宝官宣开启邀测：右滑打开\"阿宝\"，官方放出 100 个邀请码",
-      "url": "https://www.ithome.com/0/964/691.htm",
-      "primary_url": "https://www.ithome.com/0/964/691.htm",
-      "source": "IT之家（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "fff8c658884d2c62c7c44379b924fc463779c0f7",
-          "title": "AI 版支付宝官宣开启邀测：右滑打开\"阿宝\"，官方放出 100 个邀请码",
-          "url": "https://www.ithome.com/0/964/691.htm",
-          "source": "IT之家（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-16T02:39:06Z"
-        },
-        {
-          "id": "242922f66d35d1f5b12350a3df1b13dd659a2c46",
-          "title": "AI 版支付宝官宣开启邀测：右滑打开“阿宝”，官方放出 100 个邀请码",
-          "url": "https://www.ithome.com/0/964/691.htm",
-          "source": "IT之家 (ITHome)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-16T02:39:06Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "IT之家 (ITHome)",
-        "IT之家（RSS）"
-      ],
-      "items": [
-        {
-          "id": "fff8c658884d2c62c7c44379b924fc463779c0f7",
-          "title": "AI 版支付宝官宣开启邀测：右滑打开\"阿宝\"，官方放出 100 个邀请码",
-          "url": "https://www.ithome.com/0/964/691.htm",
-          "source": "IT之家（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-16T02:39:06Z"
-        },
-        {
-          "id": "242922f66d35d1f5b12350a3df1b13dd659a2c46",
-          "title": "AI 版支付宝官宣开启邀测：右滑打开“阿宝”，官方放出 100 个邀请码",
-          "url": "https://www.ithome.com/0/964/691.htm",
-          "source": "IT之家 (ITHome)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-16T02:39:06Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.6599,
-      "importance": 0.6599,
-      "importance_score": 0.6599,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.1144,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-16T02:39:06Z",
-      "latest_at": "2026-06-16T02:39:06Z",
-      "primary_item": {
-        "id": "fff8c658884d2c62c7c44379b924fc463779c0f7",
-        "title": "AI 版支付宝官宣开启邀测：右滑打开\"阿宝\"，官方放出 100 个邀请码",
-        "url": "https://www.ithome.com/0/964/691.htm",
-        "source": "IT之家（RSS）",
         "source_name": "AI HOT"
       }
     },
@@ -1333,20 +811,22 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.7002,
-      "importance": 0.7002,
-      "importance_score": 0.7002,
+      "score": 0.7833,
+      "importance": 0.7833,
+      "importance_score": 0.7833,
       "importance_label": "多源热议",
       "importance_breakdown": {
+        "editorial": 0.76,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.1908,
+        "recency": 0.7425,
         "story_heat": 0.5
       },
       "category": "multi_source",
       "reasons": [
         "multi_source",
-        "high_ai_relevance"
+        "high_ai_relevance",
+        "high_importance"
       ],
       "earliest_at": "2026-06-16T02:47:57Z",
       "latest_at": "2026-06-16T04:29:10.241000Z",
@@ -1355,6 +835,550 @@
         "title": "微软旗下GitHub遭遇AI算力短缺，转而向AWS寻求支持",
         "url": "https://runtimewire.com/article/microsoft-github-aws-ai-capacity-crunch",
         "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_3f96d5e4166a",
+      "title": "公开聊天数据能否预测真实世界AI失调？",
+      "url": "https://alignment.openai.com/validating-public-evals",
+      "primary_url": "https://alignment.openai.com/validating-public-evals",
+      "source": "OpenAI：Alignment 研究博客（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "3f3da74a5097b1b124bf6c9714b5e3c6b197a071",
+          "title": "公开聊天数据能否预测真实世界AI失调？",
+          "url": "https://alignment.openai.com/validating-public-evals",
+          "source": "OpenAI：Alignment 研究博客（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-16T18:00:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "OpenAI：Alignment 研究博客（RSS）"
+      ],
+      "items": [
+        {
+          "id": "3f3da74a5097b1b124bf6c9714b5e3c6b197a071",
+          "title": "公开聊天数据能否预测真实世界AI失调？",
+          "url": "https://alignment.openai.com/validating-public-evals",
+          "source": "OpenAI：Alignment 研究博客（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-16T18:00:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7531,
+      "importance": 0.7531,
+      "importance_score": 0.7531,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.73,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9025,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-16T18:00:00Z",
+      "latest_at": "2026-06-16T18:00:00Z",
+      "primary_item": {
+        "id": "3f3da74a5097b1b124bf6c9714b5e3c6b197a071",
+        "title": "公开聊天数据能否预测真实世界AI失调？",
+        "url": "https://alignment.openai.com/validating-public-evals",
+        "source": "OpenAI：Alignment 研究博客（RSS）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_52e77e2f24f9",
+      "title": "Google Cloud 推出 OKF v0.1：供应商中立的 Markdown 规范，为 AI 智能体提供结构化上下文",
+      "url": "https://www.marktechpost.com/2026/06/16/google-cloud-introduces-open-knowledge-format-okf-a-vendor-neutral-markdown-spec-for-giving-ai-agents-curated-context",
+      "primary_url": "https://www.marktechpost.com/2026/06/16/google-cloud-introduces-open-knowledge-format-okf-a-vendor-neutral-markdown-spec-for-giving-ai-agents-curated-context",
+      "source": "MarkTechPost（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "943f817d3bca3ea27a02c7f970fd21ea097fdad4",
+          "title": "Google Cloud 推出 OKF v0.1：供应商中立的 Markdown 规范，为 AI 智能体提供结构化上下文",
+          "url": "https://www.marktechpost.com/2026/06/16/google-cloud-introduces-open-knowledge-format-okf-a-vendor-neutral-markdown-spec-for-giving-ai-agents-curated-context",
+          "source": "MarkTechPost（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-16T08:18:58Z"
+        },
+        {
+          "id": "5334bc73c99cb1dd6a4d700d852d6f9e9dffd735",
+          "title": "Google Cloud 推出 OKF v0.1：供应商中立的 Markdown 规范，为 AI 智能体提供结构化上下文 / Google Cloud Introduces Open Knowledge Format (OKF): A Vendor-Neutral Markdown Spec for Giving AI Agents Curated Context",
+          "url": "https://www.marktechpost.com/2026/06/16/google-cloud-introduces-open-knowledge-format-okf-a-vendor-neutral-markdown-spec-for-giving-ai-agents-curated-context",
+          "source": "MarkTechPost Research",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-06-16T08:18:58Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "MarkTechPost Research",
+        "MarkTechPost（RSS）"
+      ],
+      "items": [
+        {
+          "id": "943f817d3bca3ea27a02c7f970fd21ea097fdad4",
+          "title": "Google Cloud 推出 OKF v0.1：供应商中立的 Markdown 规范，为 AI 智能体提供结构化上下文",
+          "url": "https://www.marktechpost.com/2026/06/16/google-cloud-introduces-open-knowledge-format-okf-a-vendor-neutral-markdown-spec-for-giving-ai-agents-curated-context",
+          "source": "MarkTechPost（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-16T08:18:58Z"
+        },
+        {
+          "id": "5334bc73c99cb1dd6a4d700d852d6f9e9dffd735",
+          "title": "Google Cloud 推出 OKF v0.1：供应商中立的 Markdown 规范，为 AI 智能体提供结构化上下文 / Google Cloud Introduces Open Knowledge Format (OKF): A Vendor-Neutral Markdown Spec for Giving AI Agents Curated Context",
+          "url": "https://www.marktechpost.com/2026/06/16/google-cloud-introduces-open-knowledge-format-okf-a-vendor-neutral-markdown-spec-for-giving-ai-agents-curated-context",
+          "source": "MarkTechPost Research",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-06-16T08:18:58Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7509,
+      "importance": 0.7509,
+      "importance_score": 0.7509,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.71,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7848,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-16T08:18:58Z",
+      "latest_at": "2026-06-16T08:18:58Z",
+      "primary_item": {
+        "id": "943f817d3bca3ea27a02c7f970fd21ea097fdad4",
+        "title": "Google Cloud 推出 OKF v0.1：供应商中立的 Markdown 规范，为 AI 智能体提供结构化上下文",
+        "url": "https://www.marktechpost.com/2026/06/16/google-cloud-introduces-open-knowledge-format-okf-a-vendor-neutral-markdown-spec-for-giving-ai-agents-curated-context",
+        "source": "MarkTechPost（RSS）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_6c8e4f60796f",
+      "title": "伯克利RDI发布Agents' Last Exam基准",
+      "url": "https://rdi.berkeley.edu/blog/agents-last-exam",
+      "primary_url": "https://rdi.berkeley.edu/blog/agents-last-exam",
+      "source": "Berkeley RDI：Blog（AI 安全与评测）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "15a02889d68eba26cbe154c527bd993764c5d889",
+          "title": "伯克利RDI发布Agents' Last Exam基准",
+          "url": "https://rdi.berkeley.edu/blog/agents-last-exam",
+          "source": "Berkeley RDI：Blog（AI 安全与评测）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-16T01:59:10Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Berkeley RDI：Blog（AI 安全与评测）"
+      ],
+      "items": [
+        {
+          "id": "15a02889d68eba26cbe154c527bd993764c5d889",
+          "title": "伯克利RDI发布Agents' Last Exam基准",
+          "url": "https://rdi.berkeley.edu/blog/agents-last-exam",
+          "source": "Berkeley RDI：Blog（AI 安全与评测）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-16T01:59:10Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7495,
+      "importance": 0.7495,
+      "importance_score": 0.7495,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.83,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7162,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-06-16T01:59:10Z",
+      "latest_at": "2026-06-16T01:59:10Z",
+      "primary_item": {
+        "id": "15a02889d68eba26cbe154c527bd993764c5d889",
+        "title": "伯克利RDI发布Agents' Last Exam基准",
+        "url": "https://rdi.berkeley.edu/blog/agents-last-exam",
+        "source": "Berkeley RDI：Blog（AI 安全与评测）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_ad6f0db99fc6",
+      "title": "Midjourney V8.1 推出 Draft mode 草稿模式与新功能预览",
+      "url": "https://updates.midjourney.com/draft-mode-for-v8-1-and-new-feature-previews",
+      "primary_url": "https://updates.midjourney.com/draft-mode-for-v8-1-and-new-feature-previews",
+      "source": "Midjourney：Updates（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "5a072f5c4c948f7d699a4640c8337fb80c0b03df",
+          "title": "Midjourney V8.1 推出 Draft mode 草稿模式与新功能预览",
+          "url": "https://updates.midjourney.com/draft-mode-for-v8-1-and-new-feature-previews",
+          "source": "Midjourney：Updates（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-16T22:04:29Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Midjourney：Updates（RSS）"
+      ],
+      "items": [
+        {
+          "id": "5a072f5c4c948f7d699a4640c8337fb80c0b03df",
+          "title": "Midjourney V8.1 推出 Draft mode 草稿模式与新功能预览",
+          "url": "https://updates.midjourney.com/draft-mode-for-v8-1-and-new-feature-previews",
+          "source": "Midjourney：Updates（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-16T22:04:29Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7419,
+      "importance": 0.7419,
+      "importance_score": 0.7419,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.66,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9572,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-06-16T22:04:29Z",
+      "latest_at": "2026-06-16T22:04:29Z",
+      "primary_item": {
+        "id": "5a072f5c4c948f7d699a4640c8337fb80c0b03df",
+        "title": "Midjourney V8.1 推出 Draft mode 草稿模式与新功能预览",
+        "url": "https://updates.midjourney.com/draft-mode-for-v8-1-and-new-feature-previews",
+        "source": "Midjourney：Updates（RSS）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_92a6b3c8dffb",
+      "title": "Copilot Cowork 全球正式可用，支持多模型",
+      "url": "https://x.com/satyanadella/status/2066911399494963335",
+      "primary_url": "https://x.com/satyanadella/status/2066911399494963335",
+      "source": "X：Satya Nadella (@satyanadella)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "91b1e4f8609a32f6ff94ea3ae7a650f2b7d881bd",
+          "title": "Copilot Cowork 全球正式可用，支持多模型",
+          "url": "https://x.com/satyanadella/status/2066911399494963335",
+          "source": "X：Satya Nadella (@satyanadella)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-16T15:50:53Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "X：Satya Nadella (@satyanadella)"
+      ],
+      "items": [
+        {
+          "id": "91b1e4f8609a32f6ff94ea3ae7a650f2b7d881bd",
+          "title": "Copilot Cowork 全球正式可用，支持多模型",
+          "url": "https://x.com/satyanadella/status/2066911399494963335",
+          "source": "X：Satya Nadella (@satyanadella)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-16T15:50:53Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7391,
+      "importance": 0.7391,
+      "importance_score": 0.7391,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.7,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8749,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-06-16T15:50:53Z",
+      "latest_at": "2026-06-16T15:50:53Z",
+      "primary_item": {
+        "id": "91b1e4f8609a32f6ff94ea3ae7a650f2b7d881bd",
+        "title": "Copilot Cowork 全球正式可用，支持多模型",
+        "url": "https://x.com/satyanadella/status/2066911399494963335",
+        "source": "X：Satya Nadella (@satyanadella)",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_36f29ac2be98",
+      "title": "​AI移花接木造谣“地铁塌顶”，一女子博流量被依法拘留",
+      "url": "https://www.aibase.com/news/28960",
+      "primary_url": "https://www.aibase.com/news/28960",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "e0dcb25798d8328d18402f720529da8497da13ca",
+          "title": "​AI移花接木造谣“地铁塌顶”，一女子博流量被依法拘留",
+          "url": "https://www.aibase.com/news/28960",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-17T01:06:01.233538Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "e0dcb25798d8328d18402f720529da8497da13ca",
+          "title": "​AI移花接木造谣“地铁塌顶”，一女子博流量被依法拘留",
+          "url": "https://www.aibase.com/news/28960",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-17T01:06:01.233538Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-17T01:06:01.233538Z",
+      "latest_at": "2026-06-17T01:06:01.233538Z",
+      "primary_item": {
+        "id": "e0dcb25798d8328d18402f720529da8497da13ca",
+        "title": "​AI移花接木造谣“地铁塌顶”，一女子博流量被依法拘留",
+        "url": "https://www.aibase.com/news/28960",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_50fb9d1a3b30",
+      "title": "AI 版支付宝官宣开启邀测：右滑打开\"阿宝\"，官方放出 100 个邀请码",
+      "url": "https://www.ithome.com/0/964/691.htm",
+      "primary_url": "https://www.ithome.com/0/964/691.htm",
+      "source": "IT之家（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "fff8c658884d2c62c7c44379b924fc463779c0f7",
+          "title": "AI 版支付宝官宣开启邀测：右滑打开\"阿宝\"，官方放出 100 个邀请码",
+          "url": "https://www.ithome.com/0/964/691.htm",
+          "source": "IT之家（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-16T02:39:06Z"
+        },
+        {
+          "id": "242922f66d35d1f5b12350a3df1b13dd659a2c46",
+          "title": "AI 版支付宝官宣开启邀测：右滑打开“阿宝”，官方放出 100 个邀请码",
+          "url": "https://www.ithome.com/0/964/691.htm",
+          "source": "IT之家 (ITHome)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-16T02:39:06Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "IT之家 (ITHome)",
+        "IT之家（RSS）"
+      ],
+      "items": [
+        {
+          "id": "fff8c658884d2c62c7c44379b924fc463779c0f7",
+          "title": "AI 版支付宝官宣开启邀测：右滑打开\"阿宝\"，官方放出 100 个邀请码",
+          "url": "https://www.ithome.com/0/964/691.htm",
+          "source": "IT之家（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-16T02:39:06Z"
+        },
+        {
+          "id": "242922f66d35d1f5b12350a3df1b13dd659a2c46",
+          "title": "AI 版支付宝官宣开启邀测：右滑打开“阿宝”，官方放出 100 个邀请码",
+          "url": "https://www.ithome.com/0/964/691.htm",
+          "source": "IT之家 (ITHome)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-16T02:39:06Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7368,
+      "importance": 0.7368,
+      "importance_score": 0.7368,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.7,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7231,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-06-16T02:39:06Z",
+      "latest_at": "2026-06-16T02:39:06Z",
+      "primary_item": {
+        "id": "fff8c658884d2c62c7c44379b924fc463779c0f7",
+        "title": "AI 版支付宝官宣开启邀测：右滑打开\"阿宝\"，官方放出 100 个邀请码",
+        "url": "https://www.ithome.com/0/964/691.htm",
+        "source": "IT之家（RSS）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_abd33f53be2c",
+      "title": "SpaceX 以 600 亿美元股票收购 AI 编程公司 Cursor",
+      "url": "https://techcrunch.com/2026/06/16/spacex-to-acquire-cursor-for-60b-in-stock-days-after-blockbuster-ipo",
+      "primary_url": "https://techcrunch.com/2026/06/16/spacex-to-acquire-cursor-for-60b-in-stock-days-after-blockbuster-ipo",
+      "source": "TechCrunch：AI（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "b672f5fab8083a25aa1755a4f75d388cb485995a",
+          "title": "SpaceX 以 600 亿美元股票收购 AI 编程公司 Cursor",
+          "url": "https://techcrunch.com/2026/06/16/spacex-to-acquire-cursor-for-60b-in-stock-days-after-blockbuster-ipo",
+          "source": "TechCrunch：AI（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-16T11:21:41Z"
+        },
+        {
+          "id": "3b3030b1121a5522ade5be56bb09b521c118fad6",
+          "title": "SpaceX 以 600 亿美元股票收购 AI 编程公司 Cursor / SpaceX to acquire Cursor for $60B in stock, days after blockbuster IPO",
+          "url": "https://techcrunch.com/2026/06/16/spacex-to-acquire-cursor-for-60b-in-stock-days-after-blockbuster-ipo",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-16T12:09:34Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News · 24h最热",
+        "TechCrunch：AI（RSS）"
+      ],
+      "items": [
+        {
+          "id": "b672f5fab8083a25aa1755a4f75d388cb485995a",
+          "title": "SpaceX 以 600 亿美元股票收购 AI 编程公司 Cursor",
+          "url": "https://techcrunch.com/2026/06/16/spacex-to-acquire-cursor-for-60b-in-stock-days-after-blockbuster-ipo",
+          "source": "TechCrunch：AI（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-16T11:21:41Z"
+        },
+        {
+          "id": "3b3030b1121a5522ade5be56bb09b521c118fad6",
+          "title": "SpaceX 以 600 亿美元股票收购 AI 编程公司 Cursor / SpaceX to acquire Cursor for $60B in stock, days after blockbuster IPO",
+          "url": "https://techcrunch.com/2026/06/16/spacex-to-acquire-cursor-for-60b-in-stock-days-after-blockbuster-ipo",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-16T12:09:34Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7662,
+      "importance": 0.7662,
+      "importance_score": 0.7662,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.74,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.82,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-16T11:21:41Z",
+      "latest_at": "2026-06-16T12:09:34Z",
+      "primary_item": {
+        "id": "b672f5fab8083a25aa1755a4f75d388cb485995a",
+        "title": "SpaceX 以 600 亿美元股票收购 AI 编程公司 Cursor",
+        "url": "https://techcrunch.com/2026/06/16/spacex-to-acquire-cursor-for-60b-in-stock-days-after-blockbuster-ipo",
+        "source": "TechCrunch：AI（RSS）",
         "source_name": "AI HOT"
       }
     }
