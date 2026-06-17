@@ -12,6 +12,7 @@ from scripts.update_news import (
     is_hubtoday_generic_anchor_title,
     is_hubtoday_placeholder_title,
     maybe_fetch_agentmail_digest,
+    maybe_fetch_socialdata_updates,
     maybe_fetch_x_api_updates,
     maybe_fix_mojibake,
     normalize_source_for_display,
@@ -667,6 +668,103 @@ class TopicFilterTests(unittest.TestCase):
         url, kwargs = session.calls[0]
         self.assertEqual(url, "https://api.x.com/2/tweets/search/recent")
         self.assertEqual(kwargs["params"]["max_results"], 10)
+
+    def test_socialdata_default_off_does_not_request_network(self):
+        class NoNetworkSession:
+            def __init__(self):
+                self.calls = 0
+
+            def get(self, *args, **kwargs):
+                self.calls += 1
+                raise AssertionError("SocialData should stay offline unless explicitly enabled")
+
+        session = NoNetworkSession()
+        with patch.dict("os.environ", {}, clear=True):
+            items, status = maybe_fetch_socialdata_updates(
+                session,
+                __import__("datetime").datetime.fromisoformat("2026-05-03T01:00:00+00:00"),
+            )
+        self.assertEqual(items, [])
+        self.assertFalse(status["enabled"])
+        self.assertEqual(session.calls, 0)
+
+    def test_socialdata_enabled_without_key_does_not_request_network(self):
+        class NoNetworkSession:
+            def __init__(self):
+                self.calls = 0
+
+            def get(self, *args, **kwargs):
+                self.calls += 1
+                raise AssertionError("SocialData should not run without an API key")
+
+        session = NoNetworkSession()
+        env = {"SOCIALDATA_ENABLED": "1", "SOCIALDATA_FORCE_RUN": "1"}
+        with patch.dict("os.environ", env, clear=True):
+            items, status = maybe_fetch_socialdata_updates(
+                session,
+                __import__("datetime").datetime.fromisoformat("2026-05-03T01:00:00+00:00"),
+            )
+        self.assertEqual(items, [])
+        self.assertTrue(status["enabled"])
+        self.assertFalse(status["ok"])
+        self.assertEqual(status["error"], "missing_socialdata_api_key")
+        self.assertEqual(session.calls, 0)
+
+    def test_socialdata_force_run_maps_search_tweets(self):
+        class FakeResponse:
+            def raise_for_status(self):
+                return None
+
+            def json(self):
+                return {
+                    "tweets": [
+                        {
+                            "id_str": "1734810168053956719",
+                            "full_text": "OpenAI ships a useful AI agent update",
+                            "tweet_created_at": "2026-05-03T00:00:00.000000Z",
+                            "lang": "en",
+                            "favorite_count": 42,
+                            "user": {"screen_name": "builder"},
+                        },
+                        {
+                            "id_str": "1734810168053956720",
+                            "full_text": "Extra item beyond the cap",
+                            "tweet_created_at": "2026-05-03T00:01:00.000000Z",
+                            "user": {"screen_name": "builder"},
+                        },
+                    ]
+                }
+
+        class FakeSession:
+            def __init__(self):
+                self.calls = []
+
+            def get(self, url, **kwargs):
+                self.calls.append((url, kwargs))
+                return FakeResponse()
+
+        session = FakeSession()
+        env = {
+            "SOCIALDATA_ENABLED": "1",
+            "SOCIALDATA_API_KEY": "test",
+            "SOCIALDATA_FORCE_RUN": "1",
+            "SOCIALDATA_MAX_RESULTS": "1",
+        }
+        with patch.dict("os.environ", env, clear=True):
+            items, status = maybe_fetch_socialdata_updates(
+                session,
+                __import__("datetime").datetime.fromisoformat("2026-05-03T01:00:00+00:00"),
+            )
+        self.assertTrue(status["ok"])
+        self.assertEqual(status["item_count"], 1)
+        self.assertEqual(status["estimated_cost_usd"], 0.0002)
+        self.assertEqual(items[0].site_id, "socialdata_x")
+        self.assertEqual(items[0].source, "@builder")
+        self.assertEqual(items[0].url, "https://x.com/builder/status/1734810168053956719")
+        url, kwargs = session.calls[0]
+        self.assertEqual(url, "https://api.socialdata.tools/twitter/search")
+        self.assertEqual(kwargs["headers"]["Authorization"], "Bearer test")
+        self.assertEqual(kwargs["params"]["type"], "Latest")
 
 
 if __name__ == "__main__":

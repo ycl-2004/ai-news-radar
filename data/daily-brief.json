@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-17T01:06:01.233538Z",
+  "generated_at": "2026-06-17T02:09:37.498250Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -38,15 +38,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8336,
-      "importance": 0.8336,
-      "importance_score": 0.8336,
+      "score": 0.831,
+      "importance": 0.831,
+      "importance_score": 0.831,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.9423,
+        "recency": 0.9279,
         "story_heat": 0.0
       },
       "category": "official",
@@ -100,15 +100,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8322,
-      "importance": 0.8322,
-      "importance_score": 0.8322,
+      "score": 0.8297,
+      "importance": 0.8297,
+      "importance_score": 0.8297,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.9345,
+        "recency": 0.9203,
         "story_heat": 0.0
       },
       "category": "official",
@@ -181,15 +181,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8005,
-      "importance": 0.8005,
-      "importance_score": 0.8005,
+      "score": 0.798,
+      "importance": 0.798,
+      "importance_score": 0.798,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.8,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9107,
+        "recency": 0.8969,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -206,6 +206,168 @@
         "url": "https://newsletter.pragmaticengineer.com/p/why-is-meta-destroying-its-engineering",
         "source": "Hacker News 热门（buzzing.cc 中文翻译）",
         "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_36416f21a99d",
+      "title": "智谱开源GLM-5.2模型：1M无损上下文，Code Arena全球可用模型第一",
+      "url": "https://www.ithome.com/0/965/193.htm",
+      "primary_url": "https://www.ithome.com/0/965/193.htm",
+      "source": "IT之家（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "6b78d43b8a23b066f6f716d970f48b704c709e97",
+          "title": "智谱开源GLM-5.2模型：1M无损上下文，Code Arena全球可用模型第一",
+          "url": "https://www.ithome.com/0/965/193.htm",
+          "source": "IT之家（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-17T01:25:58Z"
+        },
+        {
+          "id": "0cd0637f7ff540f3f170a24c70db2303d8eb3c9c",
+          "title": "智谱开源 GLM-5.2 模型：1M 无损上下文，Code Arena 上全球可用模型第一",
+          "url": "https://www.ithome.com/0/965/193.htm",
+          "source": "IT之家 (ITHome)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-17T01:25:58Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "IT之家 (ITHome)",
+        "IT之家（RSS）"
+      ],
+      "items": [
+        {
+          "id": "6b78d43b8a23b066f6f716d970f48b704c709e97",
+          "title": "智谱开源GLM-5.2模型：1M无损上下文，Code Arena全球可用模型第一",
+          "url": "https://www.ithome.com/0/965/193.htm",
+          "source": "IT之家（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-17T01:25:58Z"
+        },
+        {
+          "id": "0cd0637f7ff540f3f170a24c70db2303d8eb3c9c",
+          "title": "智谱开源 GLM-5.2 模型：1M 无损上下文，Code Arena 上全球可用模型第一",
+          "url": "https://www.ithome.com/0/965/193.htm",
+          "source": "IT之家 (ITHome)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-17T01:25:58Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7937,
+      "importance": 0.7937,
+      "importance_score": 0.7937,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.73,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9895,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-17T01:25:58Z",
+      "latest_at": "2026-06-17T01:25:58Z",
+      "primary_item": {
+        "id": "6b78d43b8a23b066f6f716d970f48b704c709e97",
+        "title": "智谱开源GLM-5.2模型：1M无损上下文，Code Arena全球可用模型第一",
+        "url": "https://www.ithome.com/0/965/193.htm",
+        "source": "IT之家（RSS）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_b7c4eeb1a843",
+      "title": "微软Copilot Cowork拟转向按量计费，或引入Azure托管版DeepSeek V4",
+      "url": "https://www.aibase.com/news/28974",
+      "primary_url": "https://www.aibase.com/news/28974",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "5b6edd420b0740c73c7bdaecd0976747c4794f3e",
+          "title": "微软Copilot Cowork拟转向按量计费，或引入Azure托管版DeepSeek V4",
+          "url": "https://www.aibase.com/news/28974",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-17T02:09:37.498250Z"
+        },
+        {
+          "id": "e1affb926f608348f0658fbc516444895e143a7d",
+          "title": "微软 Copilot Cowork 拟转向按量计费，或引入 Azure 托管版 DeepSeek V4",
+          "url": "https://www.aibase.com/zh/news/28974",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "AIbase",
+        "Readhub · AI"
+      ],
+      "items": [
+        {
+          "id": "5b6edd420b0740c73c7bdaecd0976747c4794f3e",
+          "title": "微软Copilot Cowork拟转向按量计费，或引入Azure托管版DeepSeek V4",
+          "url": "https://www.aibase.com/news/28974",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-17T02:09:37.498250Z"
+        },
+        {
+          "id": "e1affb926f608348f0658fbc516444895e143a7d",
+          "title": "微软 Copilot Cowork 拟转向按量计费，或引入 Azure 托管版 DeepSeek V4",
+          "url": "https://www.aibase.com/zh/news/28974",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7926,
+      "importance": 0.7926,
+      "importance_score": 0.7926,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-17T02:09:37.498250Z",
+      "latest_at": "2026-06-17T02:09:37.498250Z",
+      "primary_item": {
+        "id": "5b6edd420b0740c73c7bdaecd0976747c4794f3e",
+        "title": "微软Copilot Cowork拟转向按量计费，或引入Azure托管版DeepSeek V4",
+        "url": "https://www.aibase.com/news/28974",
+        "source": "AIbase",
+        "source_name": "AIbase"
       }
     },
     {
@@ -243,15 +405,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8228,
-      "importance": 0.8228,
-      "importance_score": 0.8228,
+      "score": 0.8204,
+      "importance": 0.8204,
+      "importance_score": 0.8204,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.8823,
+        "recency": 0.8689,
         "story_heat": 0.0
       },
       "category": "official",
@@ -324,15 +486,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7891,
-      "importance": 0.7891,
-      "importance_score": 0.7891,
+      "score": 0.7865,
+      "importance": 0.7865,
+      "importance_score": 0.7865,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.73,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9641,
+        "recency": 0.9495,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -405,15 +567,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7886,
-      "importance": 0.7886,
-      "importance_score": 0.7886,
+      "score": 0.7863,
+      "importance": 0.7863,
+      "importance_score": 0.7863,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.8,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8445,
+        "recency": 0.8316,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -467,15 +629,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7747,
-      "importance": 0.7747,
-      "importance_score": 0.7747,
+      "score": 0.772,
+      "importance": 0.772,
+      "importance_score": 0.772,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9894,
+        "recency": 0.9744,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -491,67 +653,6 @@
         "url": "https://x.com/dotey/status/2067039941960327204",
         "source": "X：宝玉 (@dotey)",
         "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_c767bd3fb417",
-      "title": "Adobe发布创作者报告：超八成受访者称AI加速粉丝与业务增长",
-      "url": "https://www.aibase.com/news/28961",
-      "primary_url": "https://www.aibase.com/news/28961",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "41adc39bf34068cc6808d32c612903a75461964e",
-          "title": "Adobe发布创作者报告：超八成受访者称AI加速粉丝与业务增长",
-          "url": "https://www.aibase.com/news/28961",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-17T01:06:01.233538Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "41adc39bf34068cc6808d32c612903a75461964e",
-          "title": "Adobe发布创作者报告：超八成受访者称AI加速粉丝与业务增长",
-          "url": "https://www.aibase.com/news/28961",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-17T01:06:01.233538Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 1.0,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-17T01:06:01.233538Z",
-      "latest_at": "2026-06-17T01:06:01.233538Z",
-      "primary_item": {
-        "id": "41adc39bf34068cc6808d32c612903a75461964e",
-        "title": "Adobe发布创作者报告：超八成受访者称AI加速粉丝与业务增长",
-        "url": "https://www.aibase.com/news/28961",
-        "source": "AIbase",
-        "source_name": "AIbase"
       }
     },
     {
@@ -589,15 +690,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7658,
-      "importance": 0.7658,
-      "importance_score": 0.7658,
+      "score": 0.7633,
+      "importance": 0.7633,
+      "importance_score": 0.7633,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.76,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9235,
+        "recency": 0.9095,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -613,6 +714,87 @@
         "url": "https://www.anthropic.com/research/claude-code-expertise",
         "source": "Anthropic：Research（发表成果 · 网页）",
         "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_827143d12576",
+      "title": "蚂蚁数科发布Agentar金融行业智能体专家团 覆盖十大金融核心岗位",
+      "url": "https://www.aibase.com/news/28975",
+      "primary_url": "https://www.aibase.com/news/28975",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "53ddf0c1dc8c48896320fd689bffc1034d23e34d",
+          "title": "蚂蚁数科发布Agentar金融行业智能体专家团 覆盖十大金融核心岗位",
+          "url": "https://www.aibase.com/news/28975",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-17T02:09:37.498250Z"
+        },
+        {
+          "id": "760addf28df7f035766950b6ef6e6d7a835f8810",
+          "title": "蚂蚁数科发布 Agentar 金融行业智能体专家团 覆盖十大金融核心岗位",
+          "url": "https://www.aibase.com/zh/news/28975",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "AIbase",
+        "Readhub · AI"
+      ],
+      "items": [
+        {
+          "id": "53ddf0c1dc8c48896320fd689bffc1034d23e34d",
+          "title": "蚂蚁数科发布Agentar金融行业智能体专家团 覆盖十大金融核心岗位",
+          "url": "https://www.aibase.com/news/28975",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-17T02:09:37.498250Z"
+        },
+        {
+          "id": "760addf28df7f035766950b6ef6e6d7a835f8810",
+          "title": "蚂蚁数科发布 Agentar 金融行业智能体专家团 覆盖十大金融核心岗位",
+          "url": "https://www.aibase.com/zh/news/28975",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7926,
+      "importance": 0.7926,
+      "importance_score": 0.7926,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-17T02:09:37.498250Z",
+      "latest_at": "2026-06-17T02:09:37.498250Z",
+      "primary_item": {
+        "id": "53ddf0c1dc8c48896320fd689bffc1034d23e34d",
+        "title": "蚂蚁数科发布Agentar金融行业智能体专家团 覆盖十大金融核心岗位",
+        "url": "https://www.aibase.com/news/28975",
+        "source": "AIbase",
+        "source_name": "AIbase"
       }
     },
     {
@@ -650,15 +832,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8228,
-      "importance": 0.8228,
-      "importance_score": 0.8228,
+      "score": 0.8204,
+      "importance": 0.8204,
+      "importance_score": 0.8204,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.8822,
+        "recency": 0.8688,
         "story_heat": 0.0
       },
       "category": "official",
@@ -712,15 +894,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7594,
-      "importance": 0.7594,
-      "importance_score": 0.7594,
+      "score": 0.7569,
+      "importance": 0.7569,
+      "importance_score": 0.7569,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9044,
+        "recency": 0.8906,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -811,15 +993,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.7833,
-      "importance": 0.7833,
-      "importance_score": 0.7833,
+      "score": 0.7812,
+      "importance": 0.7812,
+      "importance_score": 0.7812,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.76,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7425,
+        "recency": 0.7313,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -873,15 +1055,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7531,
-      "importance": 0.7531,
-      "importance_score": 0.7531,
+      "score": 0.7506,
+      "importance": 0.7506,
+      "importance_score": 0.7506,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.73,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9025,
+        "recency": 0.8888,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -953,22 +1135,21 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7509,
-      "importance": 0.7509,
-      "importance_score": 0.7509,
+      "score": 0.7487,
+      "importance": 0.7487,
+      "importance_score": 0.7487,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.71,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7848,
+        "recency": 0.7728,
         "story_heat": 0.25
       },
       "category": "industry",
       "reasons": [
         "multi_source",
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-06-16T08:18:58Z",
       "latest_at": "2026-06-16T08:18:58Z",
@@ -977,66 +1158,6 @@
         "title": "Google Cloud 推出 OKF v0.1：供应商中立的 Markdown 规范，为 AI 智能体提供结构化上下文",
         "url": "https://www.marktechpost.com/2026/06/16/google-cloud-introduces-open-knowledge-format-okf-a-vendor-neutral-markdown-spec-for-giving-ai-agents-curated-context",
         "source": "MarkTechPost（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_6c8e4f60796f",
-      "title": "伯克利RDI发布Agents' Last Exam基准",
-      "url": "https://rdi.berkeley.edu/blog/agents-last-exam",
-      "primary_url": "https://rdi.berkeley.edu/blog/agents-last-exam",
-      "source": "Berkeley RDI：Blog（AI 安全与评测）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "15a02889d68eba26cbe154c527bd993764c5d889",
-          "title": "伯克利RDI发布Agents' Last Exam基准",
-          "url": "https://rdi.berkeley.edu/blog/agents-last-exam",
-          "source": "Berkeley RDI：Blog（AI 安全与评测）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-16T01:59:10Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Berkeley RDI：Blog（AI 安全与评测）"
-      ],
-      "items": [
-        {
-          "id": "15a02889d68eba26cbe154c527bd993764c5d889",
-          "title": "伯克利RDI发布Agents' Last Exam基准",
-          "url": "https://rdi.berkeley.edu/blog/agents-last-exam",
-          "source": "Berkeley RDI：Blog（AI 安全与评测）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-16T01:59:10Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7495,
-      "importance": 0.7495,
-      "importance_score": 0.7495,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.83,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7162,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-16T01:59:10Z",
-      "latest_at": "2026-06-16T01:59:10Z",
-      "primary_item": {
-        "id": "15a02889d68eba26cbe154c527bd993764c5d889",
-        "title": "伯克利RDI发布Agents' Last Exam基准",
-        "url": "https://rdi.berkeley.edu/blog/agents-last-exam",
-        "source": "Berkeley RDI：Blog（AI 安全与评测）",
         "source_name": "AI HOT"
       }
     },
@@ -1075,15 +1196,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7419,
-      "importance": 0.7419,
-      "importance_score": 0.7419,
+      "score": 0.7393,
+      "importance": 0.7393,
+      "importance_score": 0.7393,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.66,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9572,
+        "recency": 0.9427,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1135,15 +1256,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7391,
-      "importance": 0.7391,
-      "importance_score": 0.7391,
+      "score": 0.7367,
+      "importance": 0.7367,
+      "importance_score": 0.7367,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8749,
+        "recency": 0.8616,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1157,147 +1278,6 @@
         "title": "Copilot Cowork 全球正式可用，支持多模型",
         "url": "https://x.com/satyanadella/status/2066911399494963335",
         "source": "X：Satya Nadella (@satyanadella)",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_36f29ac2be98",
-      "title": "​AI移花接木造谣“地铁塌顶”，一女子博流量被依法拘留",
-      "url": "https://www.aibase.com/news/28960",
-      "primary_url": "https://www.aibase.com/news/28960",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "e0dcb25798d8328d18402f720529da8497da13ca",
-          "title": "​AI移花接木造谣“地铁塌顶”，一女子博流量被依法拘留",
-          "url": "https://www.aibase.com/news/28960",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-17T01:06:01.233538Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "e0dcb25798d8328d18402f720529da8497da13ca",
-          "title": "​AI移花接木造谣“地铁塌顶”，一女子博流量被依法拘留",
-          "url": "https://www.aibase.com/news/28960",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-17T01:06:01.233538Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 1.0,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-17T01:06:01.233538Z",
-      "latest_at": "2026-06-17T01:06:01.233538Z",
-      "primary_item": {
-        "id": "e0dcb25798d8328d18402f720529da8497da13ca",
-        "title": "​AI移花接木造谣“地铁塌顶”，一女子博流量被依法拘留",
-        "url": "https://www.aibase.com/news/28960",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      }
-    },
-    {
-      "story_id": "story_50fb9d1a3b30",
-      "title": "AI 版支付宝官宣开启邀测：右滑打开\"阿宝\"，官方放出 100 个邀请码",
-      "url": "https://www.ithome.com/0/964/691.htm",
-      "primary_url": "https://www.ithome.com/0/964/691.htm",
-      "source": "IT之家（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "fff8c658884d2c62c7c44379b924fc463779c0f7",
-          "title": "AI 版支付宝官宣开启邀测：右滑打开\"阿宝\"，官方放出 100 个邀请码",
-          "url": "https://www.ithome.com/0/964/691.htm",
-          "source": "IT之家（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-16T02:39:06Z"
-        },
-        {
-          "id": "242922f66d35d1f5b12350a3df1b13dd659a2c46",
-          "title": "AI 版支付宝官宣开启邀测：右滑打开“阿宝”，官方放出 100 个邀请码",
-          "url": "https://www.ithome.com/0/964/691.htm",
-          "source": "IT之家 (ITHome)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-16T02:39:06Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "IT之家 (ITHome)",
-        "IT之家（RSS）"
-      ],
-      "items": [
-        {
-          "id": "fff8c658884d2c62c7c44379b924fc463779c0f7",
-          "title": "AI 版支付宝官宣开启邀测：右滑打开\"阿宝\"，官方放出 100 个邀请码",
-          "url": "https://www.ithome.com/0/964/691.htm",
-          "source": "IT之家（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-16T02:39:06Z"
-        },
-        {
-          "id": "242922f66d35d1f5b12350a3df1b13dd659a2c46",
-          "title": "AI 版支付宝官宣开启邀测：右滑打开“阿宝”，官方放出 100 个邀请码",
-          "url": "https://www.ithome.com/0/964/691.htm",
-          "source": "IT之家 (ITHome)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-16T02:39:06Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7368,
-      "importance": 0.7368,
-      "importance_score": 0.7368,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.7,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7231,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-16T02:39:06Z",
-      "latest_at": "2026-06-16T02:39:06Z",
-      "primary_item": {
-        "id": "fff8c658884d2c62c7c44379b924fc463779c0f7",
-        "title": "AI 版支付宝官宣开启邀测：右滑打开\"阿宝\"，官方放出 100 个邀请码",
-        "url": "https://www.ithome.com/0/964/691.htm",
-        "source": "IT之家（RSS）",
         "source_name": "AI HOT"
       }
     },
@@ -1355,15 +1335,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7662,
-      "importance": 0.7662,
-      "importance_score": 0.7662,
+      "score": 0.764,
+      "importance": 0.764,
+      "importance_score": 0.764,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.74,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.82,
+        "recency": 0.8076,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -1379,6 +1359,66 @@
         "title": "SpaceX 以 600 亿美元股票收购 AI 编程公司 Cursor",
         "url": "https://techcrunch.com/2026/06/16/spacex-to-acquire-cursor-for-60b-in-stock-days-after-blockbuster-ipo",
         "source": "TechCrunch：AI（RSS）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_745d64069462",
+      "title": "Cartesia 发布 Sonic 3.5 与 Ink 2 实时语音模型",
+      "url": "https://x.com/testingcatalog/status/2066773392527655252",
+      "primary_url": "https://x.com/testingcatalog/status/2066773392527655252",
+      "source": "X：Testing Catalog (@testingcatalog)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "82e7eea726c29402aa4a2c96fe34e366cfa9c337",
+          "title": "Cartesia 发布 Sonic 3.5 与 Ink 2 实时语音模型",
+          "url": "https://x.com/testingcatalog/status/2066773392527655252",
+          "source": "X：Testing Catalog (@testingcatalog)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-16T06:42:30Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "X：Testing Catalog (@testingcatalog)"
+      ],
+      "items": [
+        {
+          "id": "82e7eea726c29402aa4a2c96fe34e366cfa9c337",
+          "title": "Cartesia 发布 Sonic 3.5 与 Ink 2 实时语音模型",
+          "url": "https://x.com/testingcatalog/status/2066773392527655252",
+          "source": "X：Testing Catalog (@testingcatalog)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-16T06:42:30Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7325,
+      "importance": 0.7325,
+      "importance_score": 0.7325,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.75,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7551,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-06-16T06:42:30Z",
+      "latest_at": "2026-06-16T06:42:30Z",
+      "primary_item": {
+        "id": "82e7eea726c29402aa4a2c96fe34e366cfa9c337",
+        "title": "Cartesia 发布 Sonic 3.5 与 Ink 2 实时语音模型",
+        "url": "https://x.com/testingcatalog/status/2066773392527655252",
+        "source": "X：Testing Catalog (@testingcatalog)",
         "source_name": "AI HOT"
       }
     }

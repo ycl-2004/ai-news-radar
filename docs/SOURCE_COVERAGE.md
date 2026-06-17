@@ -110,6 +110,12 @@ baseline, then let the aggregator layer add breadth.
   current official X API docs describe paid read credits rather than a free daily
   read quota. Use `X_API_MAX_RESULTS`, `X_API_DAILY_POST_LIMIT`, and
   `X_API_RUN_UTC_HOUR` to cap usage.
+- **SocialData.tools X search**: supported as an advanced, secret-backed adapter
+  through `SOCIALDATA_ENABLED=1` and `SOCIALDATA_API_KEY`, but disabled by
+  default. It reads public X/Twitter search results from the third-party
+  SocialData API, not from the official X API. Use `SOCIALDATA_QUERY`,
+  `SOCIALDATA_MAX_RESULTS`, `SOCIALDATA_DAILY_TWEET_LIMIT`, and
+  `SOCIALDATA_RUN_UTC_HOUR` to keep cost and noise bounded.
 - **AgentMail digest**: supported as an advanced, secret-backed metadata digest
   through `EMAIL_DIGEST_ENABLED=1`, `AGENTMAIL_API_KEY`, and
   `AGENTMAIL_INBOX_ID`, but disabled by default. It deliberately lists messages

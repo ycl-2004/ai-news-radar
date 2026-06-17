@@ -189,6 +189,11 @@ X_API_POST_READ_COST_USD = 0.005
 X_API_DEFAULT_QUERY = '(AI OR "artificial intelligence" OR "large language model" OR LLM) lang:en -is:retweet has:links'
 X_API_DEFAULT_MAX_RESULTS = 20
 X_API_MAX_QUERY_CHARS = 512
+SOCIALDATA_API_BASE_DEFAULT = "https://api.socialdata.tools"
+SOCIALDATA_TWEET_READ_COST_USD = 0.0002
+SOCIALDATA_DEFAULT_QUERY = '(AI OR "artificial intelligence" OR "large language model" OR LLM) lang:en -filter:retweets'
+SOCIALDATA_DEFAULT_MAX_RESULTS = 20
+SOCIALDATA_MAX_QUERY_CHARS = 512
 
 
 @dataclass
@@ -2584,6 +2589,7 @@ SOURCE_TIER_BY_SITE: dict[str, tuple[str, str, int]] = {
     "followbuilders": ("builders", "Builders/X源", 2),
     "opmlrss": ("user_opml", "RSS/OPML", 3),
     "xapi": ("advanced", "高级源", 4),
+    "socialdata_x": ("advanced", "高级源", 4),
     "techurls": ("discussion", "热议参考", 5),
     "buzzing": ("discussion", "热议参考", 5),
     "iris": ("discussion", "热议参考", 5),
@@ -3162,6 +3168,150 @@ def maybe_fetch_x_api_updates(
         status["ok"] = True
         status["item_count"] = len(items)
         status["estimated_cost_usd"] = round(len(items) * X_API_POST_READ_COST_USD, 4)
+        return items, status
+    except Exception as exc:
+        status["ok"] = False
+        status["error"] = type(exc).__name__
+        return [], status
+
+
+def socialdata_should_run_now(now: datetime) -> bool:
+    """Gate paid SocialData reads so a 30-minute cron does not spend every run."""
+    if env_flag("SOCIALDATA_FORCE_RUN"):
+        return True
+    run_hour = max(0, min(env_int("SOCIALDATA_RUN_UTC_HOUR", 0), 23))
+    minute_max = max(0, min(env_int("SOCIALDATA_RUN_UTC_MINUTE_MAX", 10), 59))
+    return now.astimezone(UTC).hour == run_hour and now.astimezone(UTC).minute <= minute_max
+
+
+def socialdata_status_base(now: datetime) -> dict[str, Any]:
+    daily_tweet_limit = max(0, env_int("SOCIALDATA_DAILY_TWEET_LIMIT", SOCIALDATA_DEFAULT_MAX_RESULTS))
+    max_results = max(1, min(env_int("SOCIALDATA_MAX_RESULTS", SOCIALDATA_DEFAULT_MAX_RESULTS), 100))
+    effective_cap = min(max_results, daily_tweet_limit) if daily_tweet_limit else 0
+    return {
+        "enabled": env_flag("SOCIALDATA_ENABLED"),
+        "ok": None,
+        "item_count": 0,
+        "privacy": "public_posts_metadata_only",
+        "published_by_default": False,
+        "unit_cost_usd_per_tweet_read": SOCIALDATA_TWEET_READ_COST_USD,
+        "daily_tweet_limit": daily_tweet_limit,
+        "max_results_per_run": max_results,
+        "effective_result_cap": effective_cap,
+        "estimated_max_cost_usd_per_run": round(effective_cap * SOCIALDATA_TWEET_READ_COST_USD, 4),
+        "run_utc_hour": max(0, min(env_int("SOCIALDATA_RUN_UTC_HOUR", 0), 23)),
+        "generated_date_utc": now.astimezone(UTC).date().isoformat(),
+    }
+
+
+def fetch_socialdata_search(
+    session: requests.Session,
+    api_key: str,
+    query: str,
+    now: datetime,
+    max_results: int,
+    search_type: str = "Latest",
+    base_url: str = SOCIALDATA_API_BASE_DEFAULT,
+) -> list[RawItem]:
+    """Fetch public X search results through SocialData; no writes and no private data."""
+    query = re.sub(r"\s+", " ", (query or SOCIALDATA_DEFAULT_QUERY).strip())
+    if len(query) > SOCIALDATA_MAX_QUERY_CHARS:
+        raise ValueError("socialdata_query_too_long")
+    capped_max_results = max(1, min(int(max_results or SOCIALDATA_DEFAULT_MAX_RESULTS), 100))
+    response = session.get(
+        f"{(base_url or SOCIALDATA_API_BASE_DEFAULT).rstrip('/')}/twitter/search",
+        headers={
+            "Authorization": f"Bearer {api_key}",
+            "Accept": "application/json",
+        },
+        params={
+            "query": query,
+            "type": search_type if search_type in {"Latest", "Top"} else "Latest",
+        },
+        timeout=30,
+    )
+    response.raise_for_status()
+    payload = response.json()
+    tweets = payload.get("tweets") if isinstance(payload, dict) else []
+    out: list[RawItem] = []
+    for tweet in tweets or []:
+        if len(out) >= capped_max_results:
+            break
+        if not isinstance(tweet, dict):
+            continue
+        tweet_id = str(tweet.get("id_str") or tweet.get("id") or "").strip()
+        text = compact_public_snippet(str(tweet.get("full_text") or tweet.get("text") or ""), max_chars=220)
+        if not (tweet_id and text):
+            continue
+        user = tweet.get("user") if isinstance(tweet.get("user"), dict) else {}
+        username = str(user.get("screen_name") or "i/web").strip().lstrip("@") or "i/web"
+        published = parse_iso(str(tweet.get("tweet_created_at") or tweet.get("created_at") or "")) or now
+        out.append(
+            RawItem(
+                site_id="socialdata_x",
+                site_name="SocialData X",
+                source=f"@{username}",
+                title=text,
+                url=f"https://x.com/{username}/status/{tweet_id}",
+                published_at=published,
+                meta={
+                    "post_id": tweet_id,
+                    "lang": tweet.get("lang"),
+                    "public_metrics": {
+                        "reply_count": tweet.get("reply_count"),
+                        "retweet_count": tweet.get("retweet_count"),
+                        "quote_count": tweet.get("quote_count"),
+                        "favorite_count": tweet.get("favorite_count"),
+                        "bookmark_count": tweet.get("bookmark_count"),
+                        "views_count": tweet.get("views_count"),
+                    },
+                },
+            )
+        )
+    return out
+
+
+def maybe_fetch_socialdata_updates(
+    session: requests.Session,
+    now: datetime,
+) -> tuple[list[RawItem], dict[str, Any]]:
+    """Fetch SocialData only when explicitly enabled, credentialed, scheduled, and capped."""
+    status = socialdata_status_base(now)
+    if not status["enabled"]:
+        return [], status
+
+    if status["effective_result_cap"] < 1:
+        status["ok"] = False
+        status["error"] = "socialdata_daily_tweet_limit_below_minimum"
+        return [], status
+
+    if not socialdata_should_run_now(now):
+        status["skipped"] = True
+        status["skip_reason"] = "outside_socialdata_daily_window"
+        return [], status
+
+    api_key = str(os.environ.get("SOCIALDATA_API_KEY") or "").strip()
+    if not api_key:
+        status["ok"] = False
+        status["error"] = "missing_socialdata_api_key"
+        return [], status
+
+    query = str(os.environ.get("SOCIALDATA_QUERY") or SOCIALDATA_DEFAULT_QUERY).strip()
+    base_url = str(os.environ.get("SOCIALDATA_API_BASE_URL") or SOCIALDATA_API_BASE_DEFAULT).strip()
+    search_type = str(os.environ.get("SOCIALDATA_SEARCH_TYPE") or "Latest").strip() or "Latest"
+    try:
+        items = fetch_socialdata_search(
+            session,
+            api_key=api_key,
+            query=query,
+            now=now,
+            max_results=int(status["effective_result_cap"]),
+            search_type=search_type,
+            base_url=base_url,
+        )
+        status["ok"] = True
+        status["item_count"] = len(items)
+        status["estimated_cost_usd"] = round(len(items) * SOCIALDATA_TWEET_READ_COST_USD, 4)
         return items, status
     except Exception as exc:
         status["ok"] = False
@@ -3882,6 +4032,21 @@ def main() -> int:
                 "skip_reason": x_api_status.get("skip_reason"),
             }
         )
+    socialdata_items, socialdata_status = maybe_fetch_socialdata_updates(session, now)
+    if socialdata_status.get("enabled"):
+        raw_items.extend(socialdata_items)
+        statuses.append(
+            {
+                "site_id": "socialdata_x",
+                "site_name": "SocialData X",
+                "ok": bool(socialdata_status.get("ok")) if socialdata_status.get("ok") is not None else True,
+                "item_count": int(socialdata_status.get("item_count") or 0),
+                "duration_ms": 0,
+                "error": socialdata_status.get("error"),
+                "skipped": bool(socialdata_status.get("skipped")),
+                "skip_reason": socialdata_status.get("skip_reason"),
+            }
+        )
 
     waytoagi_started = time.perf_counter()
     try:
@@ -4144,6 +4309,7 @@ def main() -> int:
         },
         "agentmail": agentmail_status,
         "x_api": x_api_status,
+        "socialdata": socialdata_status,
     }
 
     latest_payload, latest_all_payload = build_latest_payloads(latest_payload)

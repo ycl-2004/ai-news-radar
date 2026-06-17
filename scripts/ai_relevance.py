@@ -156,6 +156,7 @@ SOURCE_PRIORS = {
     "followbuilders": 0.25,
     "opmlrss": 0.15,
     "xapi": 0.15,
+    "socialdata_x": 0.15,
 }
 AI_DEFAULT_SOURCES = {"aibase", "aihot", "aihubtoday"}
 CURATED_MEDIA_TRUSTED_SOURCE_KEYWORDS = [
