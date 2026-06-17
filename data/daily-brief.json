@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-17T02:46:03.253409Z",
+  "generated_at": "2026-06-17T02:50:53.256721Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -38,15 +38,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8296,
-      "importance": 0.8296,
-      "importance_score": 0.8296,
+      "score": 0.8294,
+      "importance": 0.8294,
+      "importance_score": 0.8294,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.9198,
+        "recency": 0.9188,
         "story_heat": 0.0
       },
       "category": "official",
@@ -100,15 +100,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8282,
-      "importance": 0.8282,
-      "importance_score": 0.8282,
+      "score": 0.828,
+      "importance": 0.828,
+      "importance_score": 0.828,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.9123,
+        "recency": 0.9112,
         "story_heat": 0.0
       },
       "category": "official",
@@ -181,15 +181,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7966,
-      "importance": 0.7966,
-      "importance_score": 0.7966,
+      "score": 0.7964,
+      "importance": 0.7964,
+      "importance_score": 0.7964,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.8,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.889,
+        "recency": 0.888,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -206,6 +206,87 @@
         "url": "https://newsletter.pragmaticengineer.com/p/why-is-meta-destroying-its-engineering",
         "source": "Hacker News 热门（buzzing.cc 中文翻译）",
         "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_4a09a1f71d8a",
+      "title": "字节Seed上调“豆包股”至14.85美元，AI长期激励价格体系再调整",
+      "url": "https://www.aibase.com/news/28977",
+      "primary_url": "https://www.aibase.com/news/28977",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "7b314379b733346299b6840be104eaa7cfbcff8c",
+          "title": "字节Seed上调“豆包股”至14.85美元，AI长期激励价格体系再调整",
+          "url": "https://www.aibase.com/news/28977",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-17T02:39:41.226281Z"
+        },
+        {
+          "id": "5c8e908907f3dd1b6e32292af45c1a0bba5482b3",
+          "title": "字节 Seed 上调「豆包股」至 14.85 美元，AI 长期激励价格体系再调整",
+          "url": "https://www.aibase.com/zh/news/28977",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "AIbase",
+        "Readhub · AI"
+      ],
+      "items": [
+        {
+          "id": "7b314379b733346299b6840be104eaa7cfbcff8c",
+          "title": "字节Seed上调“豆包股”至14.85美元，AI长期激励价格体系再调整",
+          "url": "https://www.aibase.com/news/28977",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-17T02:39:41.226281Z"
+        },
+        {
+          "id": "5c8e908907f3dd1b6e32292af45c1a0bba5482b3",
+          "title": "字节 Seed 上调「豆包股」至 14.85 美元，AI 长期激励价格体系再调整",
+          "url": "https://www.aibase.com/zh/news/28977",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7921,
+      "importance": 0.7921,
+      "importance_score": 0.7921,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9973,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-17T02:39:41.226281Z",
+      "latest_at": "2026-06-17T02:50:53.256721Z",
+      "primary_item": {
+        "id": "7b314379b733346299b6840be104eaa7cfbcff8c",
+        "title": "字节Seed上调“豆包股”至14.85美元，AI长期激励价格体系再调整",
+        "url": "https://www.aibase.com/news/28977",
+        "source": "AIbase",
+        "source_name": "AIbase"
       }
     },
     {
@@ -262,15 +343,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7922,
-      "importance": 0.7922,
-      "importance_score": 0.7922,
+      "score": 0.792,
+      "importance": 0.792,
+      "importance_score": 0.792,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.73,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9809,
+        "recency": 0.9798,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -287,87 +368,6 @@
         "url": "https://www.ithome.com/0/965/193.htm",
         "source": "IT之家（RSS）",
         "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_29cdc839d92e",
-      "title": "微软Copilot Cowork拟转向按量计费，或引入Azure托管版DeepSeek V4",
-      "url": "https://www.aibase.com/news/28974",
-      "primary_url": "https://www.aibase.com/news/28974",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "5b6edd420b0740c73c7bdaecd0976747c4794f3e",
-          "title": "微软Copilot Cowork拟转向按量计费，或引入Azure托管版DeepSeek V4",
-          "url": "https://www.aibase.com/news/28974",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-17T02:09:37.498250Z"
-        },
-        {
-          "id": "e1affb926f608348f0658fbc516444895e143a7d",
-          "title": "微软 Copilot Cowork 拟转向按量计费，或引入 Azure 托管版 DeepSeek V4",
-          "url": "https://www.aibase.com/zh/news/28974",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "AIbase",
-        "Readhub · AI"
-      ],
-      "items": [
-        {
-          "id": "5b6edd420b0740c73c7bdaecd0976747c4794f3e",
-          "title": "微软Copilot Cowork拟转向按量计费，或引入Azure托管版DeepSeek V4",
-          "url": "https://www.aibase.com/news/28974",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-17T02:09:37.498250Z"
-        },
-        {
-          "id": "e1affb926f608348f0658fbc516444895e143a7d",
-          "title": "微软 Copilot Cowork 拟转向按量计费，或引入 Azure 托管版 DeepSeek V4",
-          "url": "https://www.aibase.com/zh/news/28974",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.791,
-      "importance": 0.791,
-      "importance_score": 0.791,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9913,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-17T02:09:37.498250Z",
-      "latest_at": "2026-06-17T02:09:37.498250Z",
-      "primary_item": {
-        "id": "5b6edd420b0740c73c7bdaecd0976747c4794f3e",
-        "title": "微软Copilot Cowork拟转向按量计费，或引入Azure托管版DeepSeek V4",
-        "url": "https://www.aibase.com/news/28974",
-        "source": "AIbase",
-        "source_name": "AIbase"
       }
     },
     {
@@ -405,15 +405,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.819,
-      "importance": 0.819,
-      "importance_score": 0.819,
+      "score": 0.8188,
+      "importance": 0.8188,
+      "importance_score": 0.8188,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.8613,
+        "recency": 0.8603,
         "story_heat": 0.0
       },
       "category": "official",
@@ -486,15 +486,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.785,
-      "importance": 0.785,
-      "importance_score": 0.785,
+      "score": 0.7848,
+      "importance": 0.7848,
+      "importance_score": 0.7848,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.73,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9412,
+        "recency": 0.9401,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -567,15 +567,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.785,
-      "importance": 0.785,
-      "importance_score": 0.785,
+      "score": 0.7848,
+      "importance": 0.7848,
+      "importance_score": 0.7848,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.8,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8244,
+        "recency": 0.8234,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -629,15 +629,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7705,
-      "importance": 0.7705,
-      "importance_score": 0.7705,
+      "score": 0.7703,
+      "importance": 0.7703,
+      "importance_score": 0.7703,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9658,
+        "recency": 0.9647,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -690,15 +690,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7619,
-      "importance": 0.7619,
-      "importance_score": 0.7619,
+      "score": 0.7617,
+      "importance": 0.7617,
+      "importance_score": 0.7617,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.76,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9015,
+        "recency": 0.9005,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -717,26 +717,26 @@
       }
     },
     {
-      "story_id": "story_b8ef2842c14c",
-      "title": "蚂蚁数科发布Agentar金融行业智能体专家团 覆盖十大金融核心岗位",
-      "url": "https://www.aibase.com/news/28975",
-      "primary_url": "https://www.aibase.com/news/28975",
+      "story_id": "story_29cdc839d92e",
+      "title": "微软Copilot Cowork拟转向按量计费，或引入Azure托管版DeepSeek V4",
+      "url": "https://www.aibase.com/news/28974",
+      "primary_url": "https://www.aibase.com/news/28974",
       "source": "AIbase",
       "source_name": "AIbase",
       "sources": [
         {
-          "id": "53ddf0c1dc8c48896320fd689bffc1034d23e34d",
-          "title": "蚂蚁数科发布Agentar金融行业智能体专家团 覆盖十大金融核心岗位",
-          "url": "https://www.aibase.com/news/28975",
+          "id": "5b6edd420b0740c73c7bdaecd0976747c4794f3e",
+          "title": "微软Copilot Cowork拟转向按量计费，或引入Azure托管版DeepSeek V4",
+          "url": "https://www.aibase.com/news/28974",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
           "published_at": "2026-06-17T02:09:37.498250Z"
         },
         {
-          "id": "760addf28df7f035766950b6ef6e6d7a835f8810",
-          "title": "蚂蚁数科发布 Agentar 金融行业智能体专家团 覆盖十大金融核心岗位",
-          "url": "https://www.aibase.com/zh/news/28975",
+          "id": "e1affb926f608348f0658fbc516444895e143a7d",
+          "title": "微软 Copilot Cowork 拟转向按量计费，或引入 Azure 托管版 DeepSeek V4",
+          "url": "https://www.aibase.com/zh/news/28974",
           "source": "Readhub · AI",
           "source_name": "TopHub",
           "site_id": "tophub",
@@ -750,18 +750,18 @@
       ],
       "items": [
         {
-          "id": "53ddf0c1dc8c48896320fd689bffc1034d23e34d",
-          "title": "蚂蚁数科发布Agentar金融行业智能体专家团 覆盖十大金融核心岗位",
-          "url": "https://www.aibase.com/news/28975",
+          "id": "5b6edd420b0740c73c7bdaecd0976747c4794f3e",
+          "title": "微软Copilot Cowork拟转向按量计费，或引入Azure托管版DeepSeek V4",
+          "url": "https://www.aibase.com/news/28974",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
           "published_at": "2026-06-17T02:09:37.498250Z"
         },
         {
-          "id": "760addf28df7f035766950b6ef6e6d7a835f8810",
-          "title": "蚂蚁数科发布 Agentar 金融行业智能体专家团 覆盖十大金融核心岗位",
-          "url": "https://www.aibase.com/zh/news/28975",
+          "id": "e1affb926f608348f0658fbc516444895e143a7d",
+          "title": "微软 Copilot Cowork 拟转向按量计费，或引入 Azure 托管版 DeepSeek V4",
+          "url": "https://www.aibase.com/zh/news/28974",
           "source": "Readhub · AI",
           "source_name": "TopHub",
           "site_id": "tophub",
@@ -770,15 +770,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.791,
-      "importance": 0.791,
-      "importance_score": 0.791,
+      "score": 0.7908,
+      "importance": 0.7908,
+      "importance_score": 0.7908,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9913,
+        "recency": 0.9901,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -790,9 +790,9 @@
       "earliest_at": "2026-06-17T02:09:37.498250Z",
       "latest_at": "2026-06-17T02:09:37.498250Z",
       "primary_item": {
-        "id": "53ddf0c1dc8c48896320fd689bffc1034d23e34d",
-        "title": "蚂蚁数科发布Agentar金融行业智能体专家团 覆盖十大金融核心岗位",
-        "url": "https://www.aibase.com/news/28975",
+        "id": "5b6edd420b0740c73c7bdaecd0976747c4794f3e",
+        "title": "微软Copilot Cowork拟转向按量计费，或引入Azure托管版DeepSeek V4",
+        "url": "https://www.aibase.com/news/28974",
         "source": "AIbase",
         "source_name": "AIbase"
       }
@@ -832,15 +832,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.819,
-      "importance": 0.819,
-      "importance_score": 0.819,
+      "score": 0.8188,
+      "importance": 0.8188,
+      "importance_score": 0.8188,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.8613,
+        "recency": 0.8603,
         "story_heat": 0.0
       },
       "category": "official",
@@ -894,15 +894,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7555,
-      "importance": 0.7555,
-      "importance_score": 0.7555,
+      "score": 0.7553,
+      "importance": 0.7553,
+      "importance_score": 0.7553,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8829,
+        "recency": 0.8818,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -917,106 +917,6 @@
         "title": "微软考虑为 Copilot Cowork 集成 DeepSeek V4",
         "url": "https://x.com/kimmonismus/status/2066946013026263110",
         "source": "X：Kim (@kimmonismus)",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_251429abaede",
-      "title": "微软旗下GitHub遭遇AI算力短缺，转而向AWS寻求支持",
-      "url": "https://runtimewire.com/article/microsoft-github-aws-ai-capacity-crunch",
-      "primary_url": "https://runtimewire.com/article/microsoft-github-aws-ai-capacity-crunch",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "3d5335ecd4b0c34f4f1d7f06ca581a41f62044f4",
-          "title": "微软旗下GitHub遭遇AI算力短缺，转而向AWS寻求支持",
-          "url": "https://runtimewire.com/article/microsoft-github-aws-ai-capacity-crunch",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-16T04:29:10Z"
-        },
-        {
-          "id": "a290ff36e16eb9d6549847deb82c35acb2dc704d",
-          "title": "随着GitHub面临AI算力短缺，微软转而寻求AWS的支持",
-          "url": "https://runtimewire.com/article/microsoft-github-aws-ai-capacity-crunch",
-          "source": "runtimewire.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-16T04:29:10.241000Z"
-        },
-        {
-          "id": "b940d7ab7dfa78ced3127437f622e6fe01d1191d",
-          "title": "微软旗下GitHub遭遇AI算力短缺，转而向AWS寻求支持 / Microsoft turns to AWS as GitHub faces AI capacity crunch",
-          "url": "https://runtimewire.com/article/microsoft-github-aws-ai-capacity-crunch",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-16T02:47:57Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Hacker News · 24h最热",
-        "Hacker News 热门（buzzing.cc 中文翻译）",
-        "runtimewire.com"
-      ],
-      "items": [
-        {
-          "id": "3d5335ecd4b0c34f4f1d7f06ca581a41f62044f4",
-          "title": "微软旗下GitHub遭遇AI算力短缺，转而向AWS寻求支持",
-          "url": "https://runtimewire.com/article/microsoft-github-aws-ai-capacity-crunch",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-16T04:29:10Z"
-        },
-        {
-          "id": "a290ff36e16eb9d6549847deb82c35acb2dc704d",
-          "title": "随着GitHub面临AI算力短缺，微软转而寻求AWS的支持",
-          "url": "https://runtimewire.com/article/microsoft-github-aws-ai-capacity-crunch",
-          "source": "runtimewire.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-16T04:29:10.241000Z"
-        },
-        {
-          "id": "b940d7ab7dfa78ced3127437f622e6fe01d1191d",
-          "title": "微软旗下GitHub遭遇AI算力短缺，转而向AWS寻求支持 / Microsoft turns to AWS as GitHub faces AI capacity crunch",
-          "url": "https://runtimewire.com/article/microsoft-github-aws-ai-capacity-crunch",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-16T02:47:57Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.7801,
-      "importance": 0.7801,
-      "importance_score": 0.7801,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.76,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7249,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-16T02:47:57Z",
-      "latest_at": "2026-06-16T04:29:10.241000Z",
-      "primary_item": {
-        "id": "3d5335ecd4b0c34f4f1d7f06ca581a41f62044f4",
-        "title": "微软旗下GitHub遭遇AI算力短缺，转而向AWS寻求支持",
-        "url": "https://runtimewire.com/article/microsoft-github-aws-ai-capacity-crunch",
-        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
         "source_name": "AI HOT"
       }
     },
@@ -1055,15 +955,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7492,
-      "importance": 0.7492,
-      "importance_score": 0.7492,
+      "score": 0.749,
+      "importance": 0.749,
+      "importance_score": 0.749,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.73,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8811,
+        "recency": 0.8801,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1134,15 +1034,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7475,
-      "importance": 0.7475,
-      "importance_score": 0.7475,
+      "score": 0.7473,
+      "importance": 0.7473,
+      "importance_score": 0.7473,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.71,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7661,
+        "recency": 0.7652,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -1157,6 +1057,87 @@
         "title": "Google Cloud 推出 OKF v0.1：供应商中立的 Markdown 规范，为 AI 智能体提供结构化上下文",
         "url": "https://www.marktechpost.com/2026/06/16/google-cloud-introduces-open-knowledge-format-okf-a-vendor-neutral-markdown-spec-for-giving-ai-agents-curated-context",
         "source": "MarkTechPost（RSS）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_96e6e17a1115",
+      "title": "Fable 遭美国政府封禁，TechCrunch 质疑真正原因并非模型越狱",
+      "url": "https://techcrunch.com/2026/06/15/the-us-governments-anthropic-models-ban-was-never-about-an-ai-jailbreak",
+      "primary_url": "https://techcrunch.com/2026/06/15/the-us-governments-anthropic-models-ban-was-never-about-an-ai-jailbreak",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "a1c4af2d34c168ef9db308721ecf5053f4f05399",
+          "title": "Fable 遭美国政府封禁，TechCrunch 质疑真正原因并非模型越狱",
+          "url": "https://techcrunch.com/2026/06/15/the-us-governments-anthropic-models-ban-was-never-about-an-ai-jailbreak",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-16T16:45:18Z"
+        },
+        {
+          "id": "171fcde2a62bae34608ad8cabc028adbbc714fe8",
+          "title": "Fable 遭美国政府封禁，TechCrunch 质疑真正原因并非模型越狱 / Fable ban was never about a jailbreak?",
+          "url": "https://techcrunch.com/2026/06/15/the-us-governments-anthropic-models-ban-was-never-about-an-ai-jailbreak",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-16T15:27:56Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News · 24h最热",
+        "Hacker News 热门（buzzing.cc 中文翻译）"
+      ],
+      "items": [
+        {
+          "id": "a1c4af2d34c168ef9db308721ecf5053f4f05399",
+          "title": "Fable 遭美国政府封禁，TechCrunch 质疑真正原因并非模型越狱",
+          "url": "https://techcrunch.com/2026/06/15/the-us-governments-anthropic-models-ban-was-never-about-an-ai-jailbreak",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-16T16:45:18Z"
+        },
+        {
+          "id": "171fcde2a62bae34608ad8cabc028adbbc714fe8",
+          "title": "Fable 遭美国政府封禁，TechCrunch 质疑真正原因并非模型越狱 / Fable ban was never about a jailbreak?",
+          "url": "https://techcrunch.com/2026/06/15/the-us-governments-anthropic-models-ban-was-never-about-an-ai-jailbreak",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-16T15:27:56Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7772,
+      "importance": 0.7772,
+      "importance_score": 0.7772,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.75,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8644,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-16T15:27:56Z",
+      "latest_at": "2026-06-16T16:45:18Z",
+      "primary_item": {
+        "id": "a1c4af2d34c168ef9db308721ecf5053f4f05399",
+        "title": "Fable 遭美国政府封禁，TechCrunch 质疑真正原因并非模型越狱",
+        "url": "https://techcrunch.com/2026/06/15/the-us-governments-anthropic-models-ban-was-never-about-an-ai-jailbreak",
+        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
         "source_name": "AI HOT"
       }
     },
@@ -1195,15 +1176,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7378,
-      "importance": 0.7378,
-      "importance_score": 0.7378,
+      "score": 0.7376,
+      "importance": 0.7376,
+      "importance_score": 0.7376,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.66,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9345,
+        "recency": 0.9334,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1255,15 +1236,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7353,
-      "importance": 0.7353,
-      "importance_score": 0.7353,
+      "score": 0.7352,
+      "importance": 0.7352,
+      "importance_score": 0.7352,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8541,
+        "recency": 0.8531,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1334,15 +1315,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7627,
-      "importance": 0.7627,
-      "importance_score": 0.7627,
+      "score": 0.7625,
+      "importance": 0.7625,
+      "importance_score": 0.7625,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.74,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8005,
+        "recency": 0.7996,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -1396,15 +1377,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7313,
-      "importance": 0.7313,
-      "importance_score": 0.7313,
+      "score": 0.7312,
+      "importance": 0.7312,
+      "importance_score": 0.7312,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7485,
+        "recency": 0.7476,
         "story_heat": 0.0
       },
       "category": "industry",
