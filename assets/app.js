@@ -168,6 +168,7 @@ function renderCoverageStrip(errorMessage = "") {
   const rss = state.sourceStatus?.rss_opml || {};
   const agentmail = state.sourceStatus?.agentmail || {};
   const xApi = state.sourceStatus?.x_api || {};
+  const socialdata = state.sourceStatus?.socialdata || {};
   const allCount = Number(state.sourceStatus?.items_before_topic_filter || state.totalAllMode || state.itemsAll.length || 0);
   const coverageCount = Number(state.sourceStatus?.fetched_raw_items || state.totalRaw || allCount || 0);
   const officialCount = Number(siteRow("official_ai")?.item_count || 0);
@@ -178,10 +179,14 @@ function renderCoverageStrip(errorMessage = "") {
   const okSites = Number(state.sourceStatus?.successful_sites || 0);
   const opmlValue = rss.enabled ? `${fmtNumber(rss.ok_feeds || 0)}/${fmtNumber(rss.effective_feed_total || 0)}` : "OPML";
   const opmlMeta = rss.enabled ? "RSS示例/自定义订阅已接入" : "可用OPML批量接入RSS";
-  const xApiLabel = xApi.enabled ? `X ${xApi.skipped ? "待窗口" : fmtNumber(xApi.item_count || 0)}` : "X待配置";
+  const socialdataLabel = socialdata.enabled
+    ? `SocialData ${socialdata.skipped ? "待窗口" : (Number(socialdata.item_count || 0) ? `${fmtNumber(socialdata.item_count)}条` : "已连接暂无匹配")}`
+    : "";
+  const xApiLabel = xApi.enabled ? `X API ${xApi.skipped ? "待窗口" : `${fmtNumber(xApi.item_count || 0)}条`}` : "";
+  const xSourceLabel = socialdataLabel || xApiLabel || "X待配置";
   const mailLabel = agentmail.enabled ? `Mail ${fmtNumber(agentmail.item_count || 0)}` : "Mail待配置";
-  const advancedMeta = xApi.enabled || agentmail.enabled
-    ? `额度保护 · ${xApiLabel} / ${mailLabel}`
+  const advancedMeta = socialdata.enabled || xApi.enabled || agentmail.enabled
+    ? `额度保护 · ${xSourceLabel} / ${mailLabel}`
     : "X API 与 AgentMail 默认关闭";
 
   const cards = [
@@ -1680,16 +1685,23 @@ function renderSourceHealth(errorMessage = "") {
   const rss = status.rss_opml || {};
   const agentmail = status.agentmail || {};
   const xApi = status.x_api || {};
+  const socialdata = status.socialdata || {};
+  const emptyAdvanced = Array.isArray(status.empty_advanced_sources) ? status.empty_advanced_sources : [];
   const failedFeeds = Array.isArray(rss.failed_feeds) ? rss.failed_feeds : [];
   const skippedFeeds = Array.isArray(rss.skipped_feeds) ? rss.skipped_feeds : [];
   const replacedFeeds = Array.isArray(rss.replaced_feeds) ? rss.replaced_feeds : [];
+
+  const xMetricValue = socialdata.enabled
+    ? (socialdata.skipped ? "待窗口" : (Number(socialdata.item_count || 0) ? `${fmtNumber(socialdata.item_count)}条` : "已连接，暂无匹配"))
+    : (xApi.enabled ? (xApi.skipped ? "待窗口" : `${fmtNumber(xApi.item_count || 0)}条`) : "未启用");
+  const xMetricTone = socialdata.error || xApi.error ? "bad" : (emptyAdvanced.length ? "warn" : "");
 
   const metricGrid = document.createElement("div");
   metricGrid.className = "health-grid";
   metricGrid.append(
     renderMetric("内置源", `${fmtNumber(status.successful_sites || 0)}/${fmtNumber(sites.length)}`, failedSites.length ? "warn" : "ok"),
     renderMetric("RSS", rss.enabled ? `${fmtNumber(rss.ok_feeds || 0)}/${fmtNumber(rss.effective_feed_total || 0)}` : "未启用"),
-    renderMetric("X API", xApi.enabled ? (xApi.skipped ? "待窗口" : `${fmtNumber(xApi.item_count || 0)}条`) : "未启用", xApi.error ? "bad" : ""),
+    renderMetric("X数据源", xMetricValue, xMetricTone),
     renderMetric("AgentMail", agentmail.enabled ? `${fmtNumber(agentmail.item_count || 0)}封` : "未启用", agentmail.error ? "bad" : ""),
     renderMetric("失败源", fmtNumber(failedSites.length + failedFeeds.length), failedSites.length || failedFeeds.length ? "bad" : "ok"),
     renderMetric("替换/跳过", `${fmtNumber(replacedFeeds.length)}/${fmtNumber(skippedFeeds.length)}`)
@@ -1700,6 +1712,9 @@ function renderSourceHealth(errorMessage = "") {
   issues.className = "health-issues";
   if (failedSites.length) issues.appendChild(renderIssueList("失败站点", failedSites));
   if (zeroSites.length) issues.appendChild(renderIssueList("零结果站点", zeroSites));
+  if (emptyAdvanced.length) {
+    issues.appendChild(renderIssueList("高级源暂无匹配", emptyAdvanced.map((item) => `${item.site_name || item.site_id} · 已连接，暂无匹配结果`)));
+  }
   if (failedFeeds.length) issues.appendChild(renderIssueList("失败 RSS", failedFeeds));
   if (skippedFeeds.length) {
     issues.appendChild(renderIssueList("跳过 RSS", skippedFeeds.map((item) => `${item.feed_url} · ${item.reason || "skipped"}`)));

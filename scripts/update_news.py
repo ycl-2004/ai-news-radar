@@ -3212,12 +3212,13 @@ def fetch_socialdata_search(
     max_results: int,
     search_type: str = "Latest",
     base_url: str = SOCIALDATA_API_BASE_DEFAULT,
-) -> list[RawItem]:
+) -> tuple[list[RawItem], dict[str, Any]]:
     """Fetch public X search results through SocialData; no writes and no private data."""
     query = re.sub(r"\s+", " ", (query or SOCIALDATA_DEFAULT_QUERY).strip())
     if len(query) > SOCIALDATA_MAX_QUERY_CHARS:
         raise ValueError("socialdata_query_too_long")
     capped_max_results = max(1, min(int(max_results or SOCIALDATA_DEFAULT_MAX_RESULTS), 100))
+    effective_search_type = search_type if search_type in {"Latest", "Top"} else "Latest"
     response = session.get(
         f"{(base_url or SOCIALDATA_API_BASE_DEFAULT).rstrip('/')}/twitter/search",
         headers={
@@ -3226,13 +3227,14 @@ def fetch_socialdata_search(
         },
         params={
             "query": query,
-            "type": search_type if search_type in {"Latest", "Top"} else "Latest",
+            "type": effective_search_type,
         },
         timeout=30,
     )
     response.raise_for_status()
     payload = response.json()
     tweets = payload.get("tweets") if isinstance(payload, dict) else []
+    raw_tweet_count = len(tweets) if isinstance(tweets, list) else 0
     out: list[RawItem] = []
     for tweet in tweets or []:
         if len(out) >= capped_max_results:
@@ -3268,7 +3270,19 @@ def fetch_socialdata_search(
                 },
             )
         )
-    return out
+    diagnostics = {
+        "endpoint": "/twitter/search",
+        "search_type": effective_search_type,
+        "query_chars": len(query),
+        "response_top_level_keys": sorted(payload.keys())[:12] if isinstance(payload, dict) else [],
+        "raw_tweet_count": raw_tweet_count,
+        "mapped_tweet_count": len(out),
+    }
+    if raw_tweet_count == 0:
+        diagnostics["empty_reason"] = "no_tweets_returned_by_socialdata"
+    elif len(out) == 0:
+        diagnostics["empty_reason"] = "tweets_returned_but_none_mapped"
+    return out, diagnostics
 
 
 def maybe_fetch_socialdata_updates(
@@ -3300,7 +3314,7 @@ def maybe_fetch_socialdata_updates(
     base_url = str(os.environ.get("SOCIALDATA_API_BASE_URL") or SOCIALDATA_API_BASE_DEFAULT).strip()
     search_type = str(os.environ.get("SOCIALDATA_SEARCH_TYPE") or "Latest").strip() or "Latest"
     try:
-        items = fetch_socialdata_search(
+        items, diagnostics = fetch_socialdata_search(
             session,
             api_key=api_key,
             query=query,
@@ -3312,6 +3326,7 @@ def maybe_fetch_socialdata_updates(
         status["ok"] = True
         status["item_count"] = len(items)
         status["estimated_cost_usd"] = round(len(items) * SOCIALDATA_TWEET_READ_COST_USD, 4)
+        status["diagnostics"] = diagnostics
         return items, status
     except Exception as exc:
         status["ok"] = False
@@ -4274,12 +4289,31 @@ def main() -> int:
         ),
     }
 
+    empty_advanced_sources = [
+        {
+            "site_id": s["site_id"],
+            "site_name": s.get("site_name") or s["site_id"],
+            "reason": "connected_no_matching_results",
+        }
+        for s in statuses
+        if s.get("ok")
+        and int(s.get("item_count") or 0) == 0
+        and str(s.get("site_id") or "") in {"xapi", "socialdata_x"}
+        and not s.get("skipped")
+    ]
+    empty_advanced_site_ids = {item["site_id"] for item in empty_advanced_sources}
+
     status_payload = {
         "generated_at": generated_at,
         "sites": statuses,
         "successful_sites": sum(1 for s in statuses if s["ok"]),
         "failed_sites": [s["site_id"] for s in statuses if not s["ok"]],
-        "zero_item_sites": [s["site_id"] for s in statuses if s.get("ok") and int(s.get("item_count") or 0) == 0],
+        "zero_item_sites": [
+            s["site_id"]
+            for s in statuses
+            if s.get("ok") and int(s.get("item_count") or 0) == 0 and str(s.get("site_id") or "") not in empty_advanced_site_ids
+        ],
+        "empty_advanced_sources": empty_advanced_sources,
         "fetched_raw_items": len(raw_items),
         "items_before_topic_filter": len(latest_items_all),
         "items_in_24h": len(latest_items_ai_dedup),

@@ -758,6 +758,8 @@ class TopicFilterTests(unittest.TestCase):
         self.assertTrue(status["ok"])
         self.assertEqual(status["item_count"], 1)
         self.assertEqual(status["estimated_cost_usd"], 0.0002)
+        self.assertEqual(status["diagnostics"]["raw_tweet_count"], 2)
+        self.assertEqual(status["diagnostics"]["mapped_tweet_count"], 1)
         self.assertEqual(items[0].site_id, "socialdata_x")
         self.assertEqual(items[0].source, "@builder")
         self.assertEqual(items[0].url, "https://x.com/builder/status/1734810168053956719")
@@ -765,6 +767,35 @@ class TopicFilterTests(unittest.TestCase):
         self.assertEqual(url, "https://api.socialdata.tools/twitter/search")
         self.assertEqual(kwargs["headers"]["Authorization"], "Bearer test")
         self.assertEqual(kwargs["params"]["type"], "Latest")
+
+    def test_socialdata_empty_response_records_diagnostics(self):
+        class FakeResponse:
+            def raise_for_status(self):
+                return None
+
+            def json(self):
+                return {"next_cursor": None, "tweets": []}
+
+        class FakeSession:
+            def get(self, *args, **kwargs):
+                return FakeResponse()
+
+        env = {
+            "SOCIALDATA_ENABLED": "1",
+            "SOCIALDATA_API_KEY": "test",
+            "SOCIALDATA_FORCE_RUN": "1",
+        }
+        with patch.dict("os.environ", env, clear=True):
+            items, status = maybe_fetch_socialdata_updates(
+                FakeSession(),
+                __import__("datetime").datetime.fromisoformat("2026-05-03T01:00:00+00:00"),
+            )
+
+        self.assertEqual(items, [])
+        self.assertTrue(status["ok"])
+        self.assertEqual(status["item_count"], 0)
+        self.assertEqual(status["diagnostics"]["response_top_level_keys"], ["next_cursor", "tweets"])
+        self.assertEqual(status["diagnostics"]["empty_reason"], "no_tweets_returned_by_socialdata")
 
 
 if __name__ == "__main__":
