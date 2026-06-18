@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-18T18:40:24.906758Z",
+  "generated_at": "2026-06-18T21:17:54.091990Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -57,15 +57,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8661,
-      "importance": 0.8661,
-      "importance_score": 0.8661,
+      "score": 0.8601,
+      "importance": 0.8601,
+      "importance_score": 0.8601,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.8951,
+        "recency": 0.8618,
         "story_heat": 0.25
       },
       "category": "official",
@@ -82,6 +82,68 @@
         "title": "GPT-5.5 Instant提升ChatGPT健康智能 / Improving health intelligence in ChatGPT",
         "url": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
         "source": "OpenAI News",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_6f63ab131b5c",
+      "title": "MAI-Code-1-Flash 可用于更多 Copilot 表面 / MAI-Code-1-Flash available on more Copilot surfaces",
+      "url": "https://github.blog/changelog/2026-06-18-mai-code-1-flash-available-on-more-copilot-surfaces",
+      "primary_url": "https://github.blog/changelog/2026-06-18-mai-code-1-flash-available-on-more-copilot-surfaces",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "cfe54e520c659657b8609c3f9ae33c5f54707148",
+          "title": "MAI-Code-1-Flash 可用于更多 Copilot 表面 / MAI-Code-1-Flash available on more Copilot surfaces",
+          "url": "https://github.blog/changelog/2026-06-18-mai-code-1-flash-available-on-more-copilot-surfaces",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-18T20:11:24Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "items": [
+        {
+          "id": "cfe54e520c659657b8609c3f9ae33c5f54707148",
+          "title": "MAI-Code-1-Flash 可用于更多 Copilot 表面 / MAI-Code-1-Flash available on more Copilot surfaces",
+          "url": "https://github.blog/changelog/2026-06-18-mai-code-1-flash-available-on-more-copilot-surfaces",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-18T20:11:24Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8491,
+      "importance": 0.8491,
+      "importance_score": 0.8491,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.9841,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-18T20:11:24Z",
+      "latest_at": "2026-06-18T20:11:24Z",
+      "primary_item": {
+        "id": "cfe54e520c659657b8609c3f9ae33c5f54707148",
+        "title": "MAI-Code-1-Flash 可用于更多 Copilot 表面 / MAI-Code-1-Flash available on more Copilot surfaces",
+        "url": "https://github.blog/changelog/2026-06-18-mai-code-1-flash-available-on-more-copilot-surfaces",
+        "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
       }
     },
@@ -138,15 +200,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8485,
-      "importance": 0.8485,
-      "importance_score": 0.8485,
+      "score": 0.8433,
+      "importance": 0.8433,
+      "importance_score": 0.8433,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.98,
-        "recency": 0.7636,
+        "recency": 0.7352,
         "story_heat": 0.25
       },
       "category": "official",
@@ -163,68 +225,6 @@
         "title": "法典 CLI 0.141.0 / Codex CLI 0.141.0",
         "url": "https://developers.openai.com/codex/changelog",
         "source": "OpenAI Codex Changelog",
-        "source_name": "Official AI Updates"
-      }
-    },
-    {
-      "story_id": "story_a753f9e33b90",
-      "title": "Copilot 创作的拉取请求现已包含在作者搜索中 / Copilot-authored pull requests now included in author searches",
-      "url": "https://github.blog/changelog/2026-06-18-copilot-authored-pull-requests-now-included-in-author-searches",
-      "primary_url": "https://github.blog/changelog/2026-06-18-copilot-authored-pull-requests-now-included-in-author-searches",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "1b9014855aa112c9176de8e549da992bad24f740",
-          "title": "Copilot 创作的拉取请求现已包含在作者搜索中 / Copilot-authored pull requests now included in author searches",
-          "url": "https://github.blog/changelog/2026-06-18-copilot-authored-pull-requests-now-included-in-author-searches",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-18T16:24:05Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "items": [
-        {
-          "id": "1b9014855aa112c9176de8e549da992bad24f740",
-          "title": "Copilot 创作的拉取请求现已包含在作者搜索中 / Copilot-authored pull requests now included in author searches",
-          "url": "https://github.blog/changelog/2026-06-18-copilot-authored-pull-requests-now-included-in-author-searches",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-18T16:24:05Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8462,
-      "importance": 0.8462,
-      "importance_score": 0.8462,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.9677,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-18T16:24:05Z",
-      "latest_at": "2026-06-18T16:24:05Z",
-      "primary_item": {
-        "id": "1b9014855aa112c9176de8e549da992bad24f740",
-        "title": "Copilot 创作的拉取请求现已包含在作者搜索中 / Copilot-authored pull requests now included in author searches",
-        "url": "https://github.blog/changelog/2026-06-18-copilot-authored-pull-requests-now-included-in-author-searches",
-        "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
       }
     },
@@ -320,15 +320,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.8457,
-      "importance": 0.8457,
-      "importance_score": 0.8457,
+      "score": 0.8397,
+      "importance": 0.8397,
+      "importance_score": 0.8397,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.79,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9006,
+        "recency": 0.8671,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -401,15 +401,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8425,
-      "importance": 0.8425,
-      "importance_score": 0.8425,
+      "score": 0.8373,
+      "importance": 0.8373,
+      "importance_score": 0.8373,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.7636,
+        "recency": 0.7352,
         "story_heat": 0.25
       },
       "category": "official",
@@ -430,84 +430,183 @@
       }
     },
     {
-      "story_id": "story_4e9e2bfdc46d",
-      "title": "GitHub 发布 CC0-1.0 开源多语言仓库级数据集，覆盖 README、Issue 和 PR / Getting more from each token: How Copilot improves context handling and model routing",
-      "url": "https://github.blog/ai-and-ml/github-copilot/getting-more-from-each-token-how-copilot-improves-context-handling-and-model-routing",
-      "primary_url": "https://github.blog/ai-and-ml/github-copilot/getting-more-from-each-token-how-copilot-improves-context-handling-and-model-routing",
-      "source": "GitHub AI & ML",
-      "source_name": "Official AI Updates",
+      "story_id": "story_00f66d084bed",
+      "title": "伯尼·桑德斯提出7万亿美元AI计划：对大型AI公司征收50%股票税",
+      "url": "https://arstechnica.com/tech-policy/2026/06/bernie-sanders-unveils-7-trillion-plan-to-give-americans-control-of-ai-industry",
+      "primary_url": "https://arstechnica.com/tech-policy/2026/06/bernie-sanders-unveils-7-trillion-plan-to-give-americans-control-of-ai-industry",
+      "source": "Ars Technica：AI（RSS）",
+      "source_name": "AI HOT",
       "sources": [
         {
-          "id": "d05208a6bfac145251696a9a9be8482569d00bfb",
-          "title": "GitHub 发布 CC0-1.0 开源多语言仓库级数据集，覆盖 README、Issue 和 PR / Getting more from each token: How Copilot improves context handling and model routing",
-          "url": "https://github.blog/ai-and-ml/github-copilot/getting-more-from-each-token-how-copilot-improves-context-handling-and-model-routing",
-          "source": "GitHub AI & ML",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-17T19:41:46Z"
-        },
-        {
-          "id": "a4e3e2a21e4519cdeeb04c4818656e2900b7d22a",
-          "title": "GitHub 发布 CC0-1.0 开源多语言仓库级数据集，覆盖 README、Issue 和 PR",
-          "url": "https://github.blog/ai-and-ml/github-copilot/getting-more-from-each-token-how-copilot-improves-context-handling-and-model-routing",
-          "source": "GitHub Blog",
+          "id": "a54210363c3d812cb0be331382a0565f6532d5fb",
+          "title": "伯尼·桑德斯提出7万亿美元AI计划：对大型AI公司征收50%股票税",
+          "url": "https://arstechnica.com/tech-policy/2026/06/bernie-sanders-unveils-7-trillion-plan-to-give-americans-control-of-ai-industry",
+          "source": "Ars Technica：AI（RSS）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-06-17T19:41:46Z"
+          "published_at": "2026-06-18T17:02:49Z"
+        },
+        {
+          "id": "67115193104d83055f45f17fa6de04828e9b05e2",
+          "title": "伯尼·桑德斯 (Bernie Sanders) 公布 7 万亿美元计划，让美国人控制人工智能行业 / Bernie Sanders Unveils $7 Trillion Plan To Give Americans Control of AI Industry",
+          "url": "https://yro.slashdot.org/story/26/06/18/1914206/bernie-sanders-unveils-7-trillion-plan-to-give-americans-control-of-ai-industry",
+          "source": "Slashdot",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-18T20:00:00Z"
+        },
+        {
+          "id": "1e763c34e17c5e1618aa33c8ea7ef9320e11bac2",
+          "title": "伯尼·桑德斯公布了一项7万亿美元的计划，旨在让美国人掌握人工智能产业的主导权",
+          "url": "https://arstechnica.com/tech-policy/2026/06/bernie-sanders-unveils-7-trillion-plan-to-give-americans-control-of-ai-industry",
+          "source": "arstechnica.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-18T19:09:19.756000Z"
+        },
+        {
+          "id": "65403054ca804095f9e04790716b4855bbbadc22",
+          "title": "伯尼·桑德斯提出7万亿美元AI计划：对大型AI公司征收50%股票税 / Bernie Sanders unveils $7 trillion plan to give Americans control of AI industry",
+          "url": "https://arstechnica.com/tech-policy/2026/06/bernie-sanders-unveils-7-trillion-plan-to-give-americans-control-of-ai-industry",
+          "source": "Ars Technica (科技媒体)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-18T17:02:49Z"
         }
       ],
-      "source_count": 2,
+      "source_count": 4,
       "source_names": [
-        "GitHub AI & ML",
-        "GitHub Blog"
+        "Ars Technica (科技媒体)",
+        "Ars Technica：AI（RSS）",
+        "Slashdot",
+        "arstechnica.com"
       ],
       "items": [
         {
-          "id": "d05208a6bfac145251696a9a9be8482569d00bfb",
-          "title": "GitHub 发布 CC0-1.0 开源多语言仓库级数据集，覆盖 README、Issue 和 PR / Getting more from each token: How Copilot improves context handling and model routing",
-          "url": "https://github.blog/ai-and-ml/github-copilot/getting-more-from-each-token-how-copilot-improves-context-handling-and-model-routing",
-          "source": "GitHub AI & ML",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-17T19:41:46Z"
-        },
-        {
-          "id": "a4e3e2a21e4519cdeeb04c4818656e2900b7d22a",
-          "title": "GitHub 发布 CC0-1.0 开源多语言仓库级数据集，覆盖 README、Issue 和 PR",
-          "url": "https://github.blog/ai-and-ml/github-copilot/getting-more-from-each-token-how-copilot-improves-context-handling-and-model-routing",
-          "source": "GitHub Blog",
+          "id": "a54210363c3d812cb0be331382a0565f6532d5fb",
+          "title": "伯尼·桑德斯提出7万亿美元AI计划：对大型AI公司征收50%股票税",
+          "url": "https://arstechnica.com/tech-policy/2026/06/bernie-sanders-unveils-7-trillion-plan-to-give-americans-control-of-ai-industry",
+          "source": "Ars Technica：AI（RSS）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-06-17T19:41:46Z"
+          "published_at": "2026-06-18T17:02:49Z"
+        },
+        {
+          "id": "67115193104d83055f45f17fa6de04828e9b05e2",
+          "title": "伯尼·桑德斯 (Bernie Sanders) 公布 7 万亿美元计划，让美国人控制人工智能行业 / Bernie Sanders Unveils $7 Trillion Plan To Give Americans Control of AI Industry",
+          "url": "https://yro.slashdot.org/story/26/06/18/1914206/bernie-sanders-unveils-7-trillion-plan-to-give-americans-control-of-ai-industry",
+          "source": "Slashdot",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-18T20:00:00Z"
+        },
+        {
+          "id": "1e763c34e17c5e1618aa33c8ea7ef9320e11bac2",
+          "title": "伯尼·桑德斯公布了一项7万亿美元的计划，旨在让美国人掌握人工智能产业的主导权",
+          "url": "https://arstechnica.com/tech-policy/2026/06/bernie-sanders-unveils-7-trillion-plan-to-give-americans-control-of-ai-industry",
+          "source": "arstechnica.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-18T19:09:19.756000Z"
+        },
+        {
+          "id": "65403054ca804095f9e04790716b4855bbbadc22",
+          "title": "伯尼·桑德斯提出7万亿美元AI计划：对大型AI公司征收50%股票税 / Bernie Sanders unveils $7 trillion plan to give Americans control of AI industry",
+          "url": "https://arstechnica.com/tech-policy/2026/06/bernie-sanders-unveils-7-trillion-plan-to-give-americans-control-of-ai-industry",
+          "source": "Ars Technica (科技媒体)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-18T17:02:49Z"
         }
       ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.8322,
-      "importance": 0.8322,
-      "importance_score": 0.8322,
-      "importance_label": "官方更新",
+      "item_count": 4,
+      "duplicate_count": 4,
+      "score": 0.8319,
+      "importance": 0.8319,
+      "importance_score": 0.8319,
+      "importance_label": "多源热议",
       "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.94,
-        "recency": 0.7176,
-        "story_heat": 0.25
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9405,
+        "story_heat": 0.75
       },
-      "category": "official",
+      "category": "multi_source",
       "reasons": [
-        "official_source",
         "multi_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-06-17T19:41:46Z",
-      "latest_at": "2026-06-17T19:41:46Z",
+      "earliest_at": "2026-06-18T17:02:49Z",
+      "latest_at": "2026-06-18T20:00:00Z",
       "primary_item": {
-        "id": "d05208a6bfac145251696a9a9be8482569d00bfb",
-        "title": "GitHub 发布 CC0-1.0 开源多语言仓库级数据集，覆盖 README、Issue 和 PR / Getting more from each token: How Copilot improves context handling and model routing",
-        "url": "https://github.blog/ai-and-ml/github-copilot/getting-more-from-each-token-how-copilot-improves-context-handling-and-model-routing",
-        "source": "GitHub AI & ML",
+        "id": "a54210363c3d812cb0be331382a0565f6532d5fb",
+        "title": "伯尼·桑德斯提出7万亿美元AI计划：对大型AI公司征收50%股票税",
+        "url": "https://arstechnica.com/tech-policy/2026/06/bernie-sanders-unveils-7-trillion-plan-to-give-americans-control-of-ai-industry",
+        "source": "Ars Technica：AI（RSS）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_941ec7cf08aa",
+      "title": "Copilot 代码审查：AGENTS.md 支持和 UI 改进 / Copilot code review: AGENTS.md support and UI improvements",
+      "url": "https://github.blog/changelog/2026-06-18-copilot-code-review-agents-md-support-and-ui-improvements",
+      "primary_url": "https://github.blog/changelog/2026-06-18-copilot-code-review-agents-md-support-and-ui-improvements",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "f572adbcb57b1774387b9f3e2f979e13e2eeb57a",
+          "title": "Copilot 代码审查：AGENTS.md 支持和 UI 改进 / Copilot code review: AGENTS.md support and UI improvements",
+          "url": "https://github.blog/changelog/2026-06-18-copilot-code-review-agents-md-support-and-ui-improvements",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-18T19:11:51Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "items": [
+        {
+          "id": "f572adbcb57b1774387b9f3e2f979e13e2eeb57a",
+          "title": "Copilot 代码审查：AGENTS.md 支持和 UI 改进 / Copilot code review: AGENTS.md support and UI improvements",
+          "url": "https://github.blog/changelog/2026-06-18-copilot-code-review-agents-md-support-and-ui-improvements",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-18T19:11:51Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8466,
+      "importance": 0.8466,
+      "importance_score": 0.8466,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.9701,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-18T19:11:51Z",
+      "latest_at": "2026-06-18T19:11:51Z",
+      "primary_item": {
+        "id": "f572adbcb57b1774387b9f3e2f979e13e2eeb57a",
+        "title": "Copilot 代码审查：AGENTS.md 支持和 UI 改进 / Copilot code review: AGENTS.md support and UI improvements",
+        "url": "https://github.blog/changelog/2026-06-18-copilot-code-review-agents-md-support-and-ui-improvements",
+        "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
       }
     },
@@ -565,15 +664,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8513,
-      "importance": 0.8513,
-      "importance_score": 0.8513,
+      "score": 0.8455,
+      "importance": 0.8455,
+      "importance_score": 0.8455,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.8572,
+        "recency": 0.8253,
         "story_heat": 0.25
       },
       "category": "official",
@@ -594,21 +693,102 @@
       }
     },
     {
-      "story_id": "story_c5e356fa6a36",
-      "title": "存储库切换器在全局导航中普遍可用 / Repository switcher generally available in global navigation",
-      "url": "https://github.blog/changelog/2026-06-18-repository-switcher-generally-available-in-global-navigation",
-      "primary_url": "https://github.blog/changelog/2026-06-18-repository-switcher-generally-available-in-global-navigation",
+      "story_id": "story_e9b8182dcfcc",
+      "title": "MosaicLeaks： 你的研究智能体能保守秘密吗？",
+      "url": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
+      "primary_url": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
+      "source": "Hugging Face：Blog（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "6b81fd25d76369e339928bdb42fb249317bc7562",
+          "title": "MosaicLeaks： 你的研究智能体能保守秘密吗？",
+          "url": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
+          "source": "Hugging Face：Blog（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-18T18:13:13Z"
+        },
+        {
+          "id": "d0106427ce893facd394e3dbb4e7a5f5600bbbf4",
+          "title": "MosaicLeaks： 你的研究智能体能保守秘密吗？ / MosaicLeaks: Can your research agent keep a secret?",
+          "url": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
+          "source": "Hugging Face Blog",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-06-18T18:13:13Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hugging Face Blog",
+        "Hugging Face：Blog（RSS）"
+      ],
+      "items": [
+        {
+          "id": "6b81fd25d76369e339928bdb42fb249317bc7562",
+          "title": "MosaicLeaks： 你的研究智能体能保守秘密吗？",
+          "url": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
+          "source": "Hugging Face：Blog（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-18T18:13:13Z"
+        },
+        {
+          "id": "d0106427ce893facd394e3dbb4e7a5f5600bbbf4",
+          "title": "MosaicLeaks： 你的研究智能体能保守秘密吗？ / MosaicLeaks: Can your research agent keep a secret?",
+          "url": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
+          "source": "Hugging Face Blog",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-06-18T18:13:13Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7938,
+      "importance": 0.7938,
+      "importance_score": 0.7938,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.75,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9565,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-18T18:13:13Z",
+      "latest_at": "2026-06-18T18:13:13Z",
+      "primary_item": {
+        "id": "6b81fd25d76369e339928bdb42fb249317bc7562",
+        "title": "MosaicLeaks： 你的研究智能体能保守秘密吗？",
+        "url": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
+        "source": "Hugging Face：Blog（RSS）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_33dd1d19c265",
+      "title": "检测重复问题 – 公共预览版和问题字段 MCP 对 GitHub 问题的支持 / Detecting Duplicate Issues – Public Preview and issue fields MCP support for GitHub Issues",
+      "url": "https://github.blog/changelog/2026-06-18-duplicate-detection-and-issue-fields-mcp-support-for-github-issues",
+      "primary_url": "https://github.blog/changelog/2026-06-18-duplicate-detection-and-issue-fields-mcp-support-for-github-issues",
       "source": "GitHub Changelog",
       "source_name": "Official AI Updates",
       "sources": [
         {
-          "id": "40ec50674596035b8bc7565de76871a132f8491b",
-          "title": "存储库切换器在全局导航中普遍可用 / Repository switcher generally available in global navigation",
-          "url": "https://github.blog/changelog/2026-06-18-repository-switcher-generally-available-in-global-navigation",
+          "id": "b7220a3a5665e6b0369b14118a53f9a409679b1d",
+          "title": "检测重复问题 – 公共预览版和问题字段 MCP 对 GitHub 问题的支持 / Detecting Duplicate Issues – Public Preview and issue fields MCP support for GitHub Issues",
+          "url": "https://github.blog/changelog/2026-06-18-duplicate-detection-and-issue-fields-mcp-support-for-github-issues",
           "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-06-18T16:23:00Z"
+          "published_at": "2026-06-18T18:04:33Z"
         }
       ],
       "source_count": 1,
@@ -617,26 +797,26 @@
       ],
       "items": [
         {
-          "id": "40ec50674596035b8bc7565de76871a132f8491b",
-          "title": "存储库切换器在全局导航中普遍可用 / Repository switcher generally available in global navigation",
-          "url": "https://github.blog/changelog/2026-06-18-repository-switcher-generally-available-in-global-navigation",
+          "id": "b7220a3a5665e6b0369b14118a53f9a409679b1d",
+          "title": "检测重复问题 – 公共预览版和问题字段 MCP 对 GitHub 问题的支持 / Detecting Duplicate Issues – Public Preview and issue fields MCP support for GitHub Issues",
+          "url": "https://github.blog/changelog/2026-06-18-duplicate-detection-and-issue-fields-mcp-support-for-github-issues",
           "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-06-18T16:23:00Z"
+          "published_at": "2026-06-18T18:04:33Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8381,
-      "importance": 0.8381,
-      "importance_score": 0.8381,
+      "score": 0.8438,
+      "importance": 0.8438,
+      "importance_score": 0.8438,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.9675,
+        "ai_relevance": 0.91,
+        "recency": 0.9545,
         "story_heat": 0.0
       },
       "category": "official",
@@ -645,160 +825,79 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-06-18T16:23:00Z",
-      "latest_at": "2026-06-18T16:23:00Z",
+      "earliest_at": "2026-06-18T18:04:33Z",
+      "latest_at": "2026-06-18T18:04:33Z",
       "primary_item": {
-        "id": "40ec50674596035b8bc7565de76871a132f8491b",
-        "title": "存储库切换器在全局导航中普遍可用 / Repository switcher generally available in global navigation",
-        "url": "https://github.blog/changelog/2026-06-18-repository-switcher-generally-available-in-global-navigation",
+        "id": "b7220a3a5665e6b0369b14118a53f9a409679b1d",
+        "title": "检测重复问题 – 公共预览版和问题字段 MCP 对 GitHub 问题的支持 / Detecting Duplicate Issues – Public Preview and issue fields MCP support for GitHub Issues",
+        "url": "https://github.blog/changelog/2026-06-18-duplicate-detection-and-issue-fields-mcp-support-for-github-issues",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
       }
     },
     {
-      "story_id": "story_00f66d084bed",
-      "title": "伯尼·桑德斯提出7万亿美元AI计划：对大型AI公司征收50%股票税",
-      "url": "https://arstechnica.com/tech-policy/2026/06/bernie-sanders-unveils-7-trillion-plan-to-give-americans-control-of-ai-industry",
-      "primary_url": "https://arstechnica.com/tech-policy/2026/06/bernie-sanders-unveils-7-trillion-plan-to-give-americans-control-of-ai-industry",
-      "source": "Ars Technica：AI（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "a54210363c3d812cb0be331382a0565f6532d5fb",
-          "title": "伯尼·桑德斯提出7万亿美元AI计划：对大型AI公司征收50%股票税",
-          "url": "https://arstechnica.com/tech-policy/2026/06/bernie-sanders-unveils-7-trillion-plan-to-give-americans-control-of-ai-industry",
-          "source": "Ars Technica：AI（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-18T17:02:49Z"
-        },
-        {
-          "id": "3f68e70c5972a8ba3b32ebf262e8805e3fd54dc0",
-          "title": "伯尼·桑德斯提出7万亿美元AI计划：对大型AI公司征收50%股票税 / Bernie Sanders unveils $7 trillion plan to give Americans control of AI industry",
-          "url": "https://arstechnica.com/tech-policy/2026/06/bernie-sanders-unveils-7-trillion-plan-to-give-americans-control-of-ai-industry",
-          "source": "Ars Technica",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-18T17:02:49Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Ars Technica",
-        "Ars Technica：AI（RSS）"
-      ],
-      "items": [
-        {
-          "id": "a54210363c3d812cb0be331382a0565f6532d5fb",
-          "title": "伯尼·桑德斯提出7万亿美元AI计划：对大型AI公司征收50%股票税",
-          "url": "https://arstechnica.com/tech-policy/2026/06/bernie-sanders-unveils-7-trillion-plan-to-give-americans-control-of-ai-industry",
-          "source": "Ars Technica：AI（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-18T17:02:49Z"
-        },
-        {
-          "id": "3f68e70c5972a8ba3b32ebf262e8805e3fd54dc0",
-          "title": "伯尼·桑德斯提出7万亿美元AI计划：对大型AI公司征收50%股票税 / Bernie Sanders unveils $7 trillion plan to give Americans control of AI industry",
-          "url": "https://arstechnica.com/tech-policy/2026/06/bernie-sanders-unveils-7-trillion-plan-to-give-americans-control-of-ai-industry",
-          "source": "Ars Technica",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-18T17:02:49Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7884,
-      "importance": 0.7884,
-      "importance_score": 0.7884,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9768,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-18T17:02:49Z",
-      "latest_at": "2026-06-18T17:02:49Z",
-      "primary_item": {
-        "id": "a54210363c3d812cb0be331382a0565f6532d5fb",
-        "title": "伯尼·桑德斯提出7万亿美元AI计划：对大型AI公司征收50%股票税",
-        "url": "https://arstechnica.com/tech-policy/2026/06/bernie-sanders-unveils-7-trillion-plan-to-give-americans-control-of-ai-industry",
-        "source": "Ars Technica：AI（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_04102f06967f",
-      "title": "AI数据中心获政府强制电网快车道",
-      "url": "https://techcrunch.com/2026/06/18/ai-data-centers-just-got-a-government-mandated-fast-lane-to-the-grid",
-      "primary_url": "https://techcrunch.com/2026/06/18/ai-data-centers-just-got-a-government-mandated-fast-lane-to-the-grid",
+      "story_id": "story_d9be48ef0825",
+      "title": "OpenAI IPO前连下两城：招揽Transformer共同作者及前白宫AI政策官员",
+      "url": "https://techcrunch.com/2026/06/18/openai-is-bringing-on-some-big-guns-in-the-lead-up-to-its-ipo",
+      "primary_url": "https://techcrunch.com/2026/06/18/openai-is-bringing-on-some-big-guns-in-the-lead-up-to-its-ipo",
       "source": "TechCrunch：AI（RSS）",
       "source_name": "AI HOT",
       "sources": [
         {
-          "id": "776428020e6d5ff0ea46776e3abaa17a6c025c8e",
-          "title": "AI数据中心获政府强制电网快车道",
-          "url": "https://techcrunch.com/2026/06/18/ai-data-centers-just-got-a-government-mandated-fast-lane-to-the-grid",
+          "id": "47110deb7f3e162cc8901d23c0373ad57da4d3a1",
+          "title": "OpenAI IPO前连下两城：招揽Transformer共同作者及前白宫AI政策官员",
+          "url": "https://techcrunch.com/2026/06/18/openai-is-bringing-on-some-big-guns-in-the-lead-up-to-its-ipo",
           "source": "TechCrunch：AI（RSS）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-06-18T17:49:23Z"
+          "published_at": "2026-06-18T19:59:22Z"
         },
         {
-          "id": "27f4969c4050b25475bf44b104010989c58b60fb",
-          "title": "AI数据中心获政府强制电网快车道 / AI data centers just got a government-mandated fast lane to the grid",
-          "url": "https://techcrunch.com/2026/06/18/ai-data-centers-just-got-a-government-mandated-fast-lane-to-the-grid",
-          "source": "TechCrunch AI",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-06-18T17:49:23Z"
+          "id": "6e30390ac2a3c0dbb1b58c7cdb702a95207f9dd3",
+          "title": "OpenAI IPO前连下两城：招揽Transformer共同作者及前白宫AI政策官员 / OpenAI is bringing on some big guns in the lead-up to its IPO",
+          "url": "https://techcrunch.com/2026/06/18/openai-is-bringing-on-some-big-guns-in-the-lead-up-to-its-ipo",
+          "source": "TechCrunch",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-18T19:59:22Z"
         }
       ],
       "source_count": 2,
       "source_names": [
-        "TechCrunch AI",
+        "TechCrunch",
         "TechCrunch：AI（RSS）"
       ],
       "items": [
         {
-          "id": "776428020e6d5ff0ea46776e3abaa17a6c025c8e",
-          "title": "AI数据中心获政府强制电网快车道",
-          "url": "https://techcrunch.com/2026/06/18/ai-data-centers-just-got-a-government-mandated-fast-lane-to-the-grid",
+          "id": "47110deb7f3e162cc8901d23c0373ad57da4d3a1",
+          "title": "OpenAI IPO前连下两城：招揽Transformer共同作者及前白宫AI政策官员",
+          "url": "https://techcrunch.com/2026/06/18/openai-is-bringing-on-some-big-guns-in-the-lead-up-to-its-ipo",
           "source": "TechCrunch：AI（RSS）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-06-18T17:49:23Z"
+          "published_at": "2026-06-18T19:59:22Z"
         },
         {
-          "id": "27f4969c4050b25475bf44b104010989c58b60fb",
-          "title": "AI数据中心获政府强制电网快车道 / AI data centers just got a government-mandated fast lane to the grid",
-          "url": "https://techcrunch.com/2026/06/18/ai-data-centers-just-got-a-government-mandated-fast-lane-to-the-grid",
-          "source": "TechCrunch AI",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-06-18T17:49:23Z"
+          "id": "6e30390ac2a3c0dbb1b58c7cdb702a95207f9dd3",
+          "title": "OpenAI IPO前连下两城：招揽Transformer共同作者及前白宫AI政策官员 / OpenAI is bringing on some big guns in the lead-up to its IPO",
+          "url": "https://techcrunch.com/2026/06/18/openai-is-bringing-on-some-big-guns-in-the-lead-up-to-its-ipo",
+          "source": "TechCrunch",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-18T19:59:22Z"
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7844,
-      "importance": 0.7844,
-      "importance_score": 0.7844,
+      "score": 0.7832,
+      "importance": 0.7832,
+      "importance_score": 0.7832,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9878,
+        "recency": 0.9813,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -807,14 +906,137 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-06-18T17:49:23Z",
-      "latest_at": "2026-06-18T17:49:23Z",
+      "earliest_at": "2026-06-18T19:59:22Z",
+      "latest_at": "2026-06-18T19:59:22Z",
       "primary_item": {
-        "id": "776428020e6d5ff0ea46776e3abaa17a6c025c8e",
-        "title": "AI数据中心获政府强制电网快车道",
-        "url": "https://techcrunch.com/2026/06/18/ai-data-centers-just-got-a-government-mandated-fast-lane-to-the-grid",
+        "id": "47110deb7f3e162cc8901d23c0373ad57da4d3a1",
+        "title": "OpenAI IPO前连下两城：招揽Transformer共同作者及前白宫AI政策官员",
+        "url": "https://techcrunch.com/2026/06/18/openai-is-bringing-on-some-big-guns-in-the-lead-up-to-its-ipo",
         "source": "TechCrunch：AI（RSS）",
         "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_6af7d56269b0",
+      "title": "OpenAI 联合多国医生：GPT-5.5 Instant 健康问答能力追平前沿 Thinking 模型",
+      "url": "https://x.com/gdb/status/2067675030335668270",
+      "primary_url": "https://x.com/gdb/status/2067675030335668270",
+      "source": "X：Greg Brockman (@gdb)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "6d956423cd97153f9bd0b2279d9bffb058cf9173",
+          "title": "OpenAI 联合多国医生：GPT-5.5 Instant 健康问答能力追平前沿 Thinking 模型",
+          "url": "https://x.com/gdb/status/2067675030335668270",
+          "source": "X：Greg Brockman (@gdb)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-18T18:25:17Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "X：Greg Brockman (@gdb)"
+      ],
+      "items": [
+        {
+          "id": "6d956423cd97153f9bd0b2279d9bffb058cf9173",
+          "title": "OpenAI 联合多国医生：GPT-5.5 Instant 健康问答能力追平前沿 Thinking 模型",
+          "url": "https://x.com/gdb/status/2067675030335668270",
+          "source": "X：Greg Brockman (@gdb)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-18T18:25:17Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7813,
+      "importance": 0.7813,
+      "importance_score": 0.7813,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.79,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9593,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-18T18:25:17Z",
+      "latest_at": "2026-06-18T18:25:17Z",
+      "primary_item": {
+        "id": "6d956423cd97153f9bd0b2279d9bffb058cf9173",
+        "title": "OpenAI 联合多国医生：GPT-5.5 Instant 健康问答能力追平前沿 Thinking 模型",
+        "url": "https://x.com/gdb/status/2067675030335668270",
+        "source": "X：Greg Brockman (@gdb)",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_217d8a1a56f1",
+      "title": "新的使用情况分析和更新的企业支出控制 / New usage analytics and updated spend controls for enterprises",
+      "url": "https://openai.com/index/chatgpt-enterprise-spend-controls",
+      "primary_url": "https://openai.com/index/chatgpt-enterprise-spend-controls",
+      "source": "OpenAI News",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "ad5533a86d86e7f37262a51e4d6cb8b38365276e",
+          "title": "新的使用情况分析和更新的企业支出控制 / New usage analytics and updated spend controls for enterprises",
+          "url": "https://openai.com/index/chatgpt-enterprise-spend-controls",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-18T17:00:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "OpenAI News"
+      ],
+      "items": [
+        {
+          "id": "ad5533a86d86e7f37262a51e4d6cb8b38365276e",
+          "title": "新的使用情况分析和更新的企业支出控制 / New usage analytics and updated spend controls for enterprises",
+          "url": "https://openai.com/index/chatgpt-enterprise-spend-controls",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-18T17:00:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8412,
+      "importance": 0.8412,
+      "importance_score": 0.8412,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.9398,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-18T17:00:00Z",
+      "latest_at": "2026-06-18T17:00:00Z",
+      "primary_item": {
+        "id": "ad5533a86d86e7f37262a51e4d6cb8b38365276e",
+        "title": "新的使用情况分析和更新的企业支出控制 / New usage analytics and updated spend controls for enterprises",
+        "url": "https://openai.com/index/chatgpt-enterprise-spend-controls",
+        "source": "OpenAI News",
+        "source_name": "Official AI Updates"
       }
     },
     {
@@ -871,15 +1093,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7784,
-      "importance": 0.7784,
-      "importance_score": 0.7784,
+      "score": 0.7722,
+      "importance": 0.7722,
+      "importance_score": 0.7722,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9211,
+        "recency": 0.8869,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -933,15 +1155,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7767,
-      "importance": 0.7767,
-      "importance_score": 0.7767,
+      "score": 0.7702,
+      "importance": 0.7702,
+      "importance_score": 0.7702,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.77,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9674,
+        "recency": 0.9314,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -957,68 +1179,6 @@
         "url": "https://www.anthropic.com/research/project-fetch-phase-two",
         "source": "Anthropic：Research（发表成果 · 网页）",
         "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_691bc8889e87",
-      "title": "操作：从自定义图像构建自定义图像 / Actions: Build custom images from custom images",
-      "url": "https://github.blog/changelog/2026-06-18-actions-build-custom-images-from-custom-images",
-      "primary_url": "https://github.blog/changelog/2026-06-18-actions-build-custom-images-from-custom-images",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "7bfee17bbcf1d843c8cde06ca05eb26e4198c3d8",
-          "title": "操作：从自定义图像构建自定义图像 / Actions: Build custom images from custom images",
-          "url": "https://github.blog/changelog/2026-06-18-actions-build-custom-images-from-custom-images",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-18T15:32:44Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "items": [
-        {
-          "id": "7bfee17bbcf1d843c8cde06ca05eb26e4198c3d8",
-          "title": "操作：从自定义图像构建自定义图像 / Actions: Build custom images from custom images",
-          "url": "https://github.blog/changelog/2026-06-18-actions-build-custom-images-from-custom-images",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-18T15:32:44Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8361,
-      "importance": 0.8361,
-      "importance_score": 0.8361,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.9558,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-18T15:32:44Z",
-      "latest_at": "2026-06-18T15:32:44Z",
-      "primary_item": {
-        "id": "7bfee17bbcf1d843c8cde06ca05eb26e4198c3d8",
-        "title": "操作：从自定义图像构建自定义图像 / Actions: Build custom images from custom images",
-        "url": "https://github.blog/changelog/2026-06-18-actions-build-custom-images-from-custom-images",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
       }
     },
     {
@@ -1056,15 +1216,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7743,
-      "importance": 0.7743,
-      "importance_score": 0.7743,
+      "score": 0.7684,
+      "importance": 0.7684,
+      "importance_score": 0.7684,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.82,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8704,
+        "recency": 0.838,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1083,21 +1243,21 @@
       }
     },
     {
-      "story_id": "story_5780f44af012",
-      "title": "驾驭 Claude Code：CLAUDE.md、技能、钩子、规则、子智能体等",
-      "url": "https://claude.com/blog/steering-claude-code-skills-hooks-rules-subagents-and-more",
-      "primary_url": "https://claude.com/blog/steering-claude-code-skills-hooks-rules-subagents-and-more",
+      "story_id": "story_6cd28c156a1c",
+      "title": "Claude Code 现已支持 artifacts",
+      "url": "https://claude.com/blog/artifacts-in-claude-code",
+      "primary_url": "https://claude.com/blog/artifacts-in-claude-code",
       "source": "Claude：Blog（网页）",
       "source_name": "AI HOT",
       "sources": [
         {
-          "id": "1ed6aaf4581d7a24c030a1068e8afb9c88e3b8e8",
-          "title": "驾驭 Claude Code：CLAUDE.md、技能、钩子、规则、子智能体等",
-          "url": "https://claude.com/blog/steering-claude-code-skills-hooks-rules-subagents-and-more",
+          "id": "8beb9ec23f877961a60c262053d989704feceb35",
+          "title": "Claude Code 现已支持 artifacts",
+          "url": "https://claude.com/blog/artifacts-in-claude-code",
           "source": "Claude：Blog（网页）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-06-18T17:51:29.795000Z"
+          "published_at": "2026-06-18T18:54:47.698000Z"
         }
       ],
       "source_count": 1,
@@ -1106,26 +1266,26 @@
       ],
       "items": [
         {
-          "id": "1ed6aaf4581d7a24c030a1068e8afb9c88e3b8e8",
-          "title": "驾驭 Claude Code：CLAUDE.md、技能、钩子、规则、子智能体等",
-          "url": "https://claude.com/blog/steering-claude-code-skills-hooks-rules-subagents-and-more",
+          "id": "8beb9ec23f877961a60c262053d989704feceb35",
+          "title": "Claude Code 现已支持 artifacts",
+          "url": "https://claude.com/blog/artifacts-in-claude-code",
           "source": "Claude：Blog（网页）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-06-18T17:51:29.795000Z"
+          "published_at": "2026-06-18T18:54:47.698000Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7655,
-      "importance": 0.7655,
-      "importance_score": 0.7655,
+      "score": 0.7615,
+      "importance": 0.7615,
+      "importance_score": 0.7615,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9883,
+        "recency": 0.9661,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1133,12 +1293,12 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-06-18T17:51:29.795000Z",
-      "latest_at": "2026-06-18T17:51:29.795000Z",
+      "earliest_at": "2026-06-18T18:54:47.698000Z",
+      "latest_at": "2026-06-18T18:54:47.698000Z",
       "primary_item": {
-        "id": "1ed6aaf4581d7a24c030a1068e8afb9c88e3b8e8",
-        "title": "驾驭 Claude Code：CLAUDE.md、技能、钩子、规则、子智能体等",
-        "url": "https://claude.com/blog/steering-claude-code-skills-hooks-rules-subagents-and-more",
+        "id": "8beb9ec23f877961a60c262053d989704feceb35",
+        "title": "Claude Code 现已支持 artifacts",
+        "url": "https://claude.com/blog/artifacts-in-claude-code",
         "source": "Claude：Blog（网页）",
         "source_name": "AI HOT"
       }
@@ -1178,15 +1338,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7623,
-      "importance": 0.7623,
-      "importance_score": 0.7623,
+      "score": 0.7566,
+      "importance": 0.7566,
+      "importance_score": 0.7566,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.79,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8537,
+        "recency": 0.822,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1277,15 +1437,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.7914,
-      "importance": 0.7914,
-      "importance_score": 0.7914,
+      "score": 0.7863,
+      "importance": 0.7863,
+      "importance_score": 0.7863,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.78,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7544,
+        "recency": 0.7263,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1322,18 +1482,18 @@
           "published_at": "2026-06-17T23:58:39Z"
         },
         {
-          "id": "1e953685fd827d824c78b835808adceb56a6a52d",
+          "id": "ab46d58ce76d4869a04d92c5b29b08a5b4f0ba4c",
           "title": "GLM-5.2：可能是最强大的纯文本开源权重大语言模型 / GLM-5.2 is probably the most powerful text-only open weights LLM",
           "url": "https://simonwillison.net/2026/Jun/17/glm-52",
-          "source": "Simon Willison",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-17T23:58:39Z"
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-18T15:58:09Z"
         }
       ],
       "source_count": 2,
       "source_names": [
-        "Simon Willison",
+        "Hacker News · 24h最热",
         "Simon Willison 博客"
       ],
       "items": [
@@ -1347,26 +1507,26 @@
           "published_at": "2026-06-17T23:58:39Z"
         },
         {
-          "id": "1e953685fd827d824c78b835808adceb56a6a52d",
+          "id": "ab46d58ce76d4869a04d92c5b29b08a5b4f0ba4c",
           "title": "GLM-5.2：可能是最强大的纯文本开源权重大语言模型 / GLM-5.2 is probably the most powerful text-only open weights LLM",
           "url": "https://simonwillison.net/2026/Jun/17/glm-52",
-          "source": "Simon Willison",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-17T23:58:39Z"
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-18T15:58:09Z"
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.759,
-      "importance": 0.759,
-      "importance_score": 0.759,
+      "score": 0.7539,
+      "importance": 0.7539,
+      "importance_score": 0.7539,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7634,
+        "recency": 0.735,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -1376,154 +1536,12 @@
         "high_importance"
       ],
       "earliest_at": "2026-06-17T23:58:39Z",
-      "latest_at": "2026-06-17T23:58:39Z",
+      "latest_at": "2026-06-18T15:58:09Z",
       "primary_item": {
         "id": "9535061c2634d6da96455d5541fb670fd54a175d",
         "title": "GLM-5.2：可能是最强大的纯文本开源权重大语言模型",
         "url": "https://simonwillison.net/2026/Jun/17/glm-52",
         "source": "Simon Willison 博客",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_d44bbcfdf323",
-      "title": "AI 智能体够格吗？在自有工具上评测开源模型",
-      "url": "https://huggingface.co/blog/is-it-agentic-enough",
-      "primary_url": "https://huggingface.co/blog/is-it-agentic-enough",
-      "source": "Hugging Face：Blog（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "6f1a817217bcfaabd241ab46f689014c6a663e20",
-          "title": "AI 智能体够格吗？在自有工具上评测开源模型",
-          "url": "https://huggingface.co/blog/is-it-agentic-enough",
-          "source": "Hugging Face：Blog（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-18T00:00:00Z"
-        },
-        {
-          "id": "a0dbbe52058d65018c89e0fbc1ea64921e45f8b7",
-          "title": "AI 智能体够格吗？在自有工具上评测开源模型 / Is it agentic enough? Benchmarking open models on your own tooling",
-          "url": "https://huggingface.co/blog/is-it-agentic-enough",
-          "source": "Hugging Face Blog",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-18T00:00:00Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hugging Face Blog",
-        "Hugging Face：Blog（RSS）"
-      ],
-      "items": [
-        {
-          "id": "6f1a817217bcfaabd241ab46f689014c6a663e20",
-          "title": "AI 智能体够格吗？在自有工具上评测开源模型",
-          "url": "https://huggingface.co/blog/is-it-agentic-enough",
-          "source": "Hugging Face：Blog（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-18T00:00:00Z"
-        },
-        {
-          "id": "a0dbbe52058d65018c89e0fbc1ea64921e45f8b7",
-          "title": "AI 智能体够格吗？在自有工具上评测开源模型 / Is it agentic enough? Benchmarking open models on your own tooling",
-          "url": "https://huggingface.co/blog/is-it-agentic-enough",
-          "source": "Hugging Face Blog",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-18T00:00:00Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7561,
-      "importance": 0.7561,
-      "importance_score": 0.7561,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.74,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7636,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-18T00:00:00Z",
-      "latest_at": "2026-06-18T00:00:00Z",
-      "primary_item": {
-        "id": "6f1a817217bcfaabd241ab46f689014c6a663e20",
-        "title": "AI 智能体够格吗？在自有工具上评测开源模型",
-        "url": "https://huggingface.co/blog/is-it-agentic-enough",
-        "source": "Hugging Face：Blog（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_04a759c248a1",
-      "title": "Noam Shazeer 离开 Google 加入 OpenAI",
-      "url": "https://x.com/Yuchenj_UW/status/2067401895178817999",
-      "primary_url": "https://x.com/Yuchenj_UW/status/2067401895178817999",
-      "source": "X：Yuchen Jin (@Yuchenj_UW)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "55fdb216ac5e095966218c5a0e01dbce083de39e",
-          "title": "Noam Shazeer 离开 Google 加入 OpenAI",
-          "url": "https://x.com/Yuchenj_UW/status/2067401895178817999",
-          "source": "X：Yuchen Jin (@Yuchenj_UW)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-18T00:19:56Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：Yuchen Jin (@Yuchenj_UW)"
-      ],
-      "items": [
-        {
-          "id": "55fdb216ac5e095966218c5a0e01dbce083de39e",
-          "title": "Noam Shazeer 离开 Google 加入 OpenAI",
-          "url": "https://x.com/Yuchenj_UW/status/2067401895178817999",
-          "source": "X：Yuchen Jin (@Yuchenj_UW)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-18T00:19:56Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7557,
-      "importance": 0.7557,
-      "importance_score": 0.7557,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.82,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7673,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-18T00:19:56Z",
-      "latest_at": "2026-06-18T00:19:56Z",
-      "primary_item": {
-        "id": "55fdb216ac5e095966218c5a0e01dbce083de39e",
-        "title": "Noam Shazeer 离开 Google 加入 OpenAI",
-        "url": "https://x.com/Yuchenj_UW/status/2067401895178817999",
-        "source": "X：Yuchen Jin (@Yuchenj_UW)",
         "source_name": "AI HOT"
       }
     }
