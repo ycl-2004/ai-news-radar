@@ -815,8 +815,8 @@ summary:focus-visible {
 }
 
 .bole-lead-foot span,
-.bole-row-meta span,
-.bole-row-meta strong {
+.bole-row-meta > span,
+.bole-row-meta > strong {
   border: 1px solid var(--line);
   border-radius: 999px;
   padding: 3px 7px;
@@ -897,10 +897,13 @@ summary:focus-visible {
   align-items: center;
 }
 
-.bole-row-meta strong,
-.bole-row-meta .source-hit {
+.bole-row-meta > strong {
   color: var(--accent);
   background: rgba(18, 106, 115, 0.08);
+}
+
+.bole-row-meta .source-hit {
+  font-weight: 720;
 }
 
 .bole-row-title {
@@ -939,6 +942,7 @@ summary:focus-visible {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 10px;
+  align-items: stretch;
   padding: 14px 16px 16px;
 }
 
@@ -1004,6 +1008,15 @@ summary:focus-visible {
   color: var(--accent);
 }
 
+.intel-meta .source-chip {
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 3px 7px;
+  background: rgba(255, 255, 255, 0.72);
+  font-size: 11px;
+  line-height: 1.25;
+}
+
 .top-story-title,
 .intel-title {
   color: var(--ink);
@@ -1042,9 +1055,9 @@ summary:focus-visible {
   align-items: center;
 }
 
-.intel-tags span,
-.intel-card-sources span,
-.intel-card-sources strong,
+.intel-tags > span,
+.intel-card-sources > span,
+.intel-card-sources > strong,
 .intel-sources {
   border: 1px solid var(--line);
   border-radius: 999px;
@@ -1055,11 +1068,67 @@ summary:focus-visible {
   line-height: 1.25;
 }
 
-.intel-tags span {
+.intel-tags > span {
   color: var(--accent);
   border-color: rgba(18, 106, 115, 0.22);
   background: rgba(18, 106, 115, 0.07);
   font-weight: 720;
+}
+
+.source-chip {
+  display: inline-flex;
+  min-width: 0;
+  align-items: center;
+  gap: 5px;
+}
+
+.source-dot {
+  width: 6px;
+  height: 6px;
+  flex: 0 0 auto;
+  border-radius: 50%;
+  background: currentColor;
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.72);
+}
+
+.source-chip-label {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.kind-official {
+  color: var(--good);
+  border-color: rgba(31, 122, 77, 0.28);
+  background: rgba(31, 122, 77, 0.08);
+}
+
+.kind-hot {
+  color: var(--accent-warm);
+  border-color: rgba(181, 82, 49, 0.3);
+  background: rgba(181, 82, 49, 0.08);
+}
+
+.kind-aihub {
+  color: var(--accent);
+  border-color: rgba(18, 106, 115, 0.26);
+  background: rgba(18, 106, 115, 0.07);
+}
+
+.kind-builders,
+.kind-newsletter {
+  color: var(--warn);
+  border-color: rgba(154, 103, 0, 0.28);
+  background: rgba(154, 103, 0, 0.07);
+}
+
+.kind-aggregate,
+.kind-blogs,
+.kind-default {
+  color: var(--muted);
+  border-color: rgba(102, 100, 95, 0.26);
+  background: rgba(102, 100, 95, 0.06);
 }
 
 .intel-sources {
@@ -1116,8 +1185,8 @@ summary:focus-visible {
   min-width: 0;
 }
 
-.intel-card-sources span,
-.intel-card-sources strong {
+.intel-card-sources > span,
+.intel-card-sources > strong {
   max-width: 260px;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -1201,7 +1270,7 @@ summary:focus-visible {
 .story-time {
   display: grid;
   align-content: start;
-  gap: 3px;
+  gap: 4px;
   padding-top: 10px;
   color: var(--muted);
   font-size: 11px;
@@ -1209,13 +1278,18 @@ summary:focus-visible {
   text-align: right;
 }
 
+.story-time-label {
+  color: var(--muted);
+  font-size: 10px;
+  font-weight: 760;
+}
+
 .story-time-latest {
   color: var(--ink);
   font-weight: 750;
 }
 
-.story-time-range,
-.story-rank {
+.story-time-range {
   opacity: 0.78;
 }
 
@@ -1245,6 +1319,7 @@ summary:focus-visible {
 
 .story-importance,
 .story-count,
+.story-rank,
 .story-source-chip,
 .story-source-more {
   border: 1px solid var(--line);
@@ -1254,6 +1329,13 @@ summary:focus-visible {
   background: var(--surface);
   font-size: 11px;
   line-height: 1.2;
+}
+
+.story-rank {
+  color: var(--accent);
+  border-color: rgba(18, 106, 115, 0.24);
+  background: rgba(18, 106, 115, 0.07);
+  font-weight: 820;
 }
 
 .story-importance {
@@ -1778,6 +1860,10 @@ summary:focus-visible {
   }
 
   .story-time {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px 8px;
+    align-items: baseline;
     padding-top: 0;
     text-align: left;
   }
@@ -1850,8 +1936,8 @@ summary:focus-visible {
     padding: 12px;
   }
 
-  .intel-card-sources span,
-  .intel-card-sources strong {
+  .intel-card-sources > span,
+  .intel-card-sources > strong {
     max-width: 180px;
   }
 

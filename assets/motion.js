@@ -25,7 +25,9 @@
         gsap.fromTo(brief, { y: 12 }, { y: 0, duration: 0.35, clearProps: "transform" });
       }
       if (!cards.length) return;
-      gsap.from(cards, { autoAlpha: 0, y: 16, scale: 0.98, stagger: 0.06, duration: 0.5, clearProps: "transform,opacity,visibility" });
+      gsap.killTweensOf(cards);
+      gsap.set(cards, { clearProps: "transform" });
+      gsap.from(cards, { autoAlpha: 0, stagger: 0.035, duration: 0.28, clearProps: "opacity,visibility" });
     });
 
     // List: animate first 30 visible cards on render/mode switch
