@@ -21,6 +21,7 @@ const state = {
   activeSection: "hot",
   boleView: "hot",
   boleExpanded: false,
+  listSort: "priority",
 };
 
 const statsEl = document.getElementById("stats");
@@ -58,6 +59,7 @@ const sectionTabsEl = document.getElementById("sectionTabs");
 const sectionSummaryEl = document.getElementById("sectionSummary");
 const topStoriesTitleEl = document.getElementById("topStoriesTitle");
 const topStoriesSubEl = document.getElementById("topStoriesSub");
+const listSortToolsEl = document.getElementById("listSortTools");
 
 const SOURCE_KINDS = {
   official_ai: { label: "官方", tone: "official" },
@@ -91,6 +93,13 @@ const SECTION_DEFS = [
 ];
 
 const SECTION_BY_ID = Object.fromEntries(SECTION_DEFS.map((section) => [section.id, section]));
+
+const LIST_SORT_DEFS = [
+  { id: "priority", label: "综合" },
+  { id: "latest", label: "最新" },
+  { id: "ai", label: "AI分" },
+  { id: "source", label: "来源" },
+];
 
 function fmtNumber(n) {
   return new Intl.NumberFormat("zh-CN").format(n || 0);
@@ -386,6 +395,52 @@ function listTitleText() {
     ? (state.allDedup ? "全量去重信息源" : "全量原始信息源")
     : "全量 AI 情报源";
   return state.activeSection === "hot" ? pool : `${section.label} · ${pool}`;
+}
+
+function renderListSortTools() {
+  if (!listSortToolsEl) return;
+  const validSort = LIST_SORT_DEFS.some((item) => item.id === state.listSort);
+  if (!validSort) state.listSort = "priority";
+  listSortToolsEl.querySelectorAll("[data-sort]").forEach((button) => {
+    const active = button.dataset.sort === state.listSort;
+    button.classList.toggle("active", active);
+    button.setAttribute("aria-pressed", active ? "true" : "false");
+  });
+}
+
+function itemSourceSortKey(item) {
+  return [
+    sourceSignal(item),
+    item.site_name || item.site_id || "",
+    item.source || "",
+  ].join(" ").trim() || "来源";
+}
+
+function sortItemsForList(items) {
+  const sorted = [...items];
+  if (state.listSort === "latest") {
+    return sorted.sort((a, b) => timelineMs(b) - timelineMs(a) || itemPriorityScore(b) - itemPriorityScore(a));
+  }
+  if (state.listSort === "ai") {
+    return sorted.sort((a, b) => scorePercent(b) - scorePercent(a) || itemPriorityScore(b) - itemPriorityScore(a) || timelineMs(b) - timelineMs(a));
+  }
+  if (state.listSort === "source") {
+    const counts = new Map();
+    sorted.forEach((item) => {
+      const key = itemSourceSortKey(item);
+      counts.set(key, (counts.get(key) || 0) + 1);
+    });
+    return sorted.sort((a, b) => {
+      const aKey = itemSourceSortKey(a);
+      const bKey = itemSourceSortKey(b);
+      const byCount = (counts.get(bKey) || 0) - (counts.get(aKey) || 0);
+      if (byCount !== 0) return byCount;
+      const bySource = aKey.localeCompare(bKey, "zh-CN");
+      if (bySource !== 0) return bySource;
+      return itemPriorityScore(b) - itemPriorityScore(a) || timelineMs(b) - timelineMs(a);
+    });
+  }
+  return sorted.sort((a, b) => itemPriorityScore(b) - itemPriorityScore(a) || timelineMs(b) - timelineMs(a));
 }
 
 function effectiveAllItems() {
@@ -688,6 +743,64 @@ function eventKey(item) {
   return `title:${normalized.slice(0, 34)}`;
 }
 
+function itemIdentityKeys(item) {
+  const keys = new Set();
+  if (!item) return keys;
+  const url = item.url || item.primary_url;
+  if (url) keys.add(`url:${url}`);
+  if (item.id) keys.add(`id:${item.id}`);
+  const title = item.title_zh || item.title || item.title_en || item.title_original;
+  if (title) {
+    keys.add(`event:${eventKey({ ...item, title, title_zh: item.title_zh || title })}`);
+    keys.add(`title:${normalizedEventText(title).slice(0, 34)}`);
+  }
+  return keys;
+}
+
+function storyIdentityKeys(story) {
+  const keys = new Set();
+  if (!story) return keys;
+  const refs = [
+    { id: story.story_id, title: story.title, url: story.primary_url || story.url },
+    story.primary_item,
+    ...(Array.isArray(story.sources) ? story.sources : []),
+    ...(Array.isArray(story.items) ? story.items : []),
+  ].filter(Boolean);
+  refs.forEach((ref) => {
+    itemIdentityKeys(ref).forEach((key) => keys.add(key));
+  });
+  return keys;
+}
+
+function headlineRowIdentityKeys(row) {
+  const keys = new Set();
+  if (!row) return keys;
+  const refs = [
+    row.item,
+    ...(Array.isArray(row.rows) ? row.rows.map((entry) => entry.item).filter(Boolean) : []),
+  ].filter(Boolean);
+  refs.forEach((ref) => {
+    itemIdentityKeys(ref).forEach((key) => keys.add(key));
+  });
+  return keys;
+}
+
+function excludedStoryKeySet(rows) {
+  const keys = new Set();
+  rows.forEach((row) => {
+    headlineRowIdentityKeys(row).forEach((key) => keys.add(key));
+  });
+  return keys;
+}
+
+function storyHasAnyKey(story, keys) {
+  if (!keys || !keys.size) return false;
+  for (const key of storyIdentityKeys(story)) {
+    if (keys.has(key)) return true;
+  }
+  return false;
+}
+
 function sourceSignal(item) {
   const site = item.site_name || "";
   const source = item.source || "";
@@ -803,11 +916,11 @@ function storyDurationLabel(earliest, latest) {
   const end = new Date(latest).getTime();
   if (!Number.isFinite(start) || !Number.isFinite(end)) return "";
   const minutes = Math.round(Math.abs(end - start) / 60000);
-  if (minutes < 20) return "同一时段";
-  if (minutes < 60) return `跨 ${minutes} 分钟`;
+  if (minutes < 20) return "短时集中";
+  if (minutes < 60) return `发酵 ${minutes} 分钟`;
   const hours = Math.floor(minutes / 60);
   const rest = minutes % 60;
-  return rest ? `跨 ${hours}小时${rest}分` : `跨 ${hours}小时`;
+  return rest ? `发酵 ${hours}小时${rest}分` : `发酵 ${hours}小时`;
 }
 
 function formatStoryTime(story) {
@@ -941,6 +1054,7 @@ function buildStoryCard(story, rank) {
     const rangeEl = document.createElement("span");
     rangeEl.className = "story-time-range";
     rangeEl.textContent = rangeLabel;
+    rangeEl.title = "最早来源到最新来源的时间差，不是距离现在多久。";
     time.appendChild(rangeEl);
   }
 
@@ -1170,26 +1284,38 @@ function currentBriefStories(filteredItems) {
   return stories.filter((story) => storyMatchesFilteredItems(story, filteredItems));
 }
 
-function renderStoryViewPanel(stories) {
+function renderStoryViewPanel(stories, excludedRows = []) {
   const panel = document.createElement("div");
   panel.className = "bole-story-panel";
 
   const hot = hotStories(stories);
-  let sorted;
+  let baseSorted;
   let metaLabel;
   if (state.boleView === "hot") {
-    sorted = hot;
+    baseSorted = hot;
     metaLabel = hot.length
       ? `当前热点 · ${fmtNumber(hot.length)} 簇 · 按热度分排序`
       : "当前热点 · 暂无多源聚簇";
   } else {
-    sorted = [...stories].sort((a, b) => {
+    baseSorted = [...stories].sort((a, b) => {
       const aLatest = storyTimeMs(a, "latest_at") || storyTimeMs(a, "earliest_at");
       const bLatest = storyTimeMs(b, "latest_at") || storyTimeMs(b, "earliest_at");
       if (aLatest !== bLatest) return bLatest - aLatest;
       return storyScore(b) - storyScore(a);
     });
-    metaLabel = `故事时间线 · ${fmtNumber(sorted.length)} 条 · 最新优先`;
+    metaLabel = `故事时间线 · ${fmtNumber(baseSorted.length)} 条 · 最新优先`;
+  }
+
+  const excludeKeys = excludedStoryKeySet(excludedRows);
+  const sorted = excludeKeys.size
+    ? baseSorted.filter((story) => !storyHasAnyKey(story, excludeKeys))
+    : baseSorted;
+  const skippedCount = baseSorted.length - sorted.length;
+  const rankOffset = skippedCount > 0 ? excludedRows.length : 0;
+  if (skippedCount > 0) {
+    metaLabel = state.boleView === "hot"
+      ? `当前热点 · ${fmtNumber(baseSorted.length)} 簇 · 续看 #${rankOffset + 1} 起`
+      : `故事时间线 · ${fmtNumber(baseSorted.length)} 条 · Top3 后续`;
   }
 
   if (boleViewToggleEl) {
@@ -1206,7 +1332,9 @@ function renderStoryViewPanel(stories) {
   if (!sorted.length) {
     const empty = document.createElement("div");
     empty.className = "bole-empty";
-    empty.textContent = state.boleView === "hot"
+    empty.textContent = skippedCount > 0
+      ? "Top3 已覆盖当前筛选下的故事，可切换筛选或时间线继续查看。"
+      : state.boleView === "hot"
       ? "当前筛选下没有多源热点，可切换到时间线查看最新故事。"
       : "当前筛选下没有可展示的故事时间线。";
     panel.appendChild(empty);
@@ -1218,7 +1346,7 @@ function renderStoryViewPanel(stories) {
   const defaultLimit = state.boleView === "hot" ? BOLE_HOT_LIMIT : BOLE_TIMELINE_LIMIT;
   const visibleStories = state.boleExpanded ? sorted : sorted.slice(0, defaultLimit);
   visibleStories.forEach((story, index) => {
-    list.appendChild(buildStoryCard(story, index + 1));
+    list.appendChild(buildStoryCard(story, rankOffset + index + 1));
   });
   panel.appendChild(list);
 
@@ -1228,7 +1356,9 @@ function renderStoryViewPanel(stories) {
     moreBtn.className = "bole-more-btn";
     moreBtn.textContent = state.boleExpanded
       ? "收起"
-      : (state.boleView === "hot" ? "展开全部热点" : "展开完整时间线");
+      : (skippedCount > 0
+        ? (state.boleView === "hot" ? "展开后续热点" : "展开后续时间线")
+        : (state.boleView === "hot" ? "展开全部热点" : "展开完整时间线"));
     moreBtn.addEventListener("click", () => {
       state.boleExpanded = !state.boleExpanded;
       renderBolePicks();
@@ -1267,7 +1397,7 @@ function renderBolePicks() {
   }
 
   if (stories.length) {
-    bolePicksListEl.appendChild(renderStoryViewPanel(stories));
+    bolePicksListEl.appendChild(renderStoryViewPanel(stories, top));
   }
   document.dispatchEvent(new CustomEvent("aiRadar:briefRendered"));
 }
@@ -1648,6 +1778,7 @@ function addLoadMoreButton(parent, label, onClick) {
 
 function renderList() {
   const filtered = getFilteredItems();
+  renderListSortTools();
   resultCountEl.textContent = `${fmtNumber(filtered.length)} 条`;
   renderSectionSummary(filtered);
 
@@ -1666,9 +1797,7 @@ function renderList() {
   renderLoadingNotice(currentFilterLabel(filtered), filtered.length);
   requestAnimationFrame(() => {
     if (token !== _renderListToken) return;   // stale render, abort
-    const sorted = state.activeSection === "hot"
-      ? filtered
-      : [...filtered].sort((a, b) => itemPriorityScore(b) - itemPriorityScore(a) || timelineMs(b) - timelineMs(a));
+    const sorted = sortItemsForList(filtered);
     newsListEl.innerHTML = "";
     let idx = 0;
     let moreBtn = null;
@@ -1951,6 +2080,7 @@ async function init() {
     setStats(payload);
     renderSectionTabs();
     renderModeSwitch();
+    renderListSortTools();
     renderCoverageStrip();
     renderSiteFilters();
     renderBolePicks();
@@ -2034,6 +2164,19 @@ if (allDedupeToggleEl) {
     renderModeSwitch();
     renderSiteFilters();
     renderBolePicks();
+    renderList();
+  });
+}
+
+if (listSortToolsEl) {
+  listSortToolsEl.addEventListener("click", (event) => {
+    const target = event.target;
+    const button = target instanceof Element ? target.closest("[data-sort]") : null;
+    if (!button || !listSortToolsEl.contains(button)) return;
+    const nextSort = button.dataset.sort;
+    if (!LIST_SORT_DEFS.some((item) => item.id === nextSort) || nextSort === state.listSort) return;
+    state.listSort = nextSort;
+    renderListSortTools();
     renderList();
   });
 }
