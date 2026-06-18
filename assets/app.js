@@ -436,6 +436,53 @@ function scoreTone(score) {
   return "watch";
 }
 
+function itemLabelTone(item) {
+  const label = item.ai_label || "";
+  if (item.site_id === "official_ai") return "official";
+  if (item.site_id === "aihot" || label === "curated_hotlist") return "hot";
+  if (label === "model_release") return "models";
+  if (label === "developer_tool" || label === "developer_tooling" || label === "infrastructure" || label === "infra_compute") return "devtools";
+  if (label === "research_paper") return "research";
+  if (label === "industry_business") return "industry";
+  if (label === "ai_product_update" || label === "agent_workflow" || label === "robotics") return "products";
+  if (itemSections(item).has("community")) return "community";
+  return "default";
+}
+
+function itemTagTone(label) {
+  const text = String(label || "");
+  if (text.includes("多源")) return "strong";
+  if (text.includes("官方")) return "official";
+  if (text.includes("精选") || text.includes("热点")) return "hot";
+  if (text.includes("模型")) return "models";
+  if (text.includes("开发")) return "devtools";
+  if (text.includes("研究")) return "research";
+  if (text.includes("社区")) return "community";
+  if (text.includes("产品")) return "products";
+  if (text.includes("行业")) return "industry";
+  return "default";
+}
+
+function itemTagChip(label) {
+  const tag = document.createElement("span");
+  tag.className = `signal-tag tone-${itemTagTone(label)}`;
+  tag.textContent = label;
+  return tag;
+}
+
+function setSourceBadge(el, label, tone = "default", title = "") {
+  el.className = `source source-chip kind-${tone}`;
+  el.innerHTML = "";
+  if (title) el.title = title;
+  const dot = document.createElement("span");
+  dot.className = "source-dot";
+  dot.setAttribute("aria-hidden", "true");
+  const text = document.createElement("span");
+  text.className = "source-chip-label";
+  text.textContent = label || "来源";
+  el.append(dot, text);
+}
+
 function sourceTierPercent(item) {
   if (item.site_id === "official_ai") return 100;
   if (item.site_id === "aihot") return 90;
@@ -917,11 +964,14 @@ function buildStoryCard(story, rank) {
   countEl.className = "story-count";
   countEl.textContent = `${sourceCount} 个来源`;
   meta.appendChild(countEl);
-  const score = storyScore(story);
-  if (score > 0) {
+  const displayScore = storySortScore(story);
+  if (displayScore > 0) {
     const scoreEl = document.createElement("strong");
-    scoreEl.className = "story-score";
-    scoreEl.innerHTML = `<span>${score}</span><small>分</small>`;
+    scoreEl.className = `story-score ${state.boleView === "hot" ? "heat" : ""}`.trim();
+    scoreEl.title = state.boleView === "hot"
+      ? "热度分 = 多源强度 × 时间衰减"
+      : "编辑重要性分";
+    scoreEl.innerHTML = `<span>${displayScore}</span><small>${state.boleView === "hot" ? "热度" : "分"}</small>`;
     meta.appendChild(scoreEl);
   }
   body.appendChild(meta);
@@ -967,19 +1017,38 @@ function buildStoryCard(story, rank) {
 }
 
 const HOT_DECAY_HOURS = 12;
+const HOT_SCORE_SCALE = 60;
 
 function storyHotness(story) {
-  const sources = Number(story.source_count) || 1;
+  const sources = storySourceCount(story);
   if (sources < 2) return 0;
   const latest = storyTimeMs(story, "latest_at") || storyTimeMs(story, "earliest_at");
   const ageHours = latest ? Math.max(0, (Date.now() - latest) / 3600000) : 24;
   return (sources - 1) * Math.exp(-ageHours / HOT_DECAY_HOURS);
 }
 
+function storyHotScore(story) {
+  const raw = storyHotness(story);
+  if (raw <= 0) return 0;
+  return Math.max(1, Math.min(100, Math.round(raw * HOT_SCORE_SCALE)));
+}
+
+function storySortScore(story) {
+  return state.boleView === "hot" ? storyHotScore(story) : storyScore(story);
+}
+
 function hotStories(stories) {
   return stories
     .filter((story) => storyHotness(story) > 0)
-    .sort((a, b) => storyHotness(b) - storyHotness(a) || storyScore(b) - storyScore(a));
+    .sort((a, b) => {
+      const byHotScore = storyHotScore(b) - storyHotScore(a);
+      if (byHotScore !== 0) return byHotScore;
+      const byHotRaw = storyHotness(b) - storyHotness(a);
+      if (byHotRaw !== 0) return byHotRaw;
+      const byEditorial = storyScore(b) - storyScore(a);
+      if (byEditorial !== 0) return byEditorial;
+      return storyTimeMs(b, "latest_at") - storyTimeMs(a, "latest_at");
+    });
 }
 
 function renderBoleBrief(stories) {
@@ -998,7 +1067,7 @@ function renderBoleBrief(stories) {
   let metaLabel;
   if (state.boleView === "hot") {
     sorted = hot;
-    metaLabel = `当前热点 · ${fmtNumber(sorted.length)} 簇 · 多源×时间衰减`;
+    metaLabel = `当前热点 · ${fmtNumber(sorted.length)} 簇 · 按热度分排序`;
   } else {
     sorted = [...stories].sort((a, b) => {
       const aLatest = storyTimeMs(a, "latest_at") || storyTimeMs(a, "earliest_at");
@@ -1111,7 +1180,7 @@ function renderStoryViewPanel(stories) {
   if (state.boleView === "hot") {
     sorted = hot;
     metaLabel = hot.length
-      ? `当前热点 · ${fmtNumber(hot.length)} 簇 · 多源×时间衰减`
+      ? `当前热点 · ${fmtNumber(hot.length)} 簇 · 按热度分排序`
       : "当前热点 · 暂无多源聚簇";
   } else {
     sorted = [...stories].sort((a, b) => {
@@ -1210,38 +1279,24 @@ function rankedClustersForItems(items) {
     .sort((a, b) => itemPriorityScore(b.item) - itemPriorityScore(a.item) || timelineMs(b.item) - timelineMs(a.item));
 
   return clusterBoleEvents(rows).sort((a, b) => {
-    const aPriority = itemPriorityScore(a.item) + Math.min(18, (a.sourceCount - 1) * 9);
-    const bPriority = itemPriorityScore(b.item) + Math.min(18, (b.sourceCount - 1) * 9);
-    return bPriority - aPriority || b.score - a.score || timelineMs(b.item) - timelineMs(a.item);
+    const byHeadlineScore = headlineClusterScore(b) - headlineClusterScore(a);
+    if (byHeadlineScore !== 0) return byHeadlineScore;
+    return timelineMs(b.item) - timelineMs(a.item) || a.index - b.index;
   });
 }
 
+function headlineClusterScore(cluster) {
+  const base = itemPriorityScore(cluster.item);
+  const sourceBoost = Math.min(18, Math.max(0, cluster.sourceCount - 1) * 9);
+  const mergeBoost = Math.min(8, Math.max(0, cluster.mergedCount - 1) * 4);
+  return Math.min(100, Math.round(base + sourceBoost + mergeBoost));
+}
+
 function pickTopHeadlineClusters(clusters, limit = 3) {
-  const picked = [];
-  const pickedPerSource = new Map();
-  const remaining = [...clusters];
-  while (remaining.length && picked.length < limit) {
-    let bestIndex = -1;
-    let bestEffective = -Infinity;
-    remaining.forEach((cluster, index) => {
-      const source = sourceSignal(cluster.item);
-      const used = pickedPerSource.get(source) || 0;
-      const effective = itemPriorityScore(cluster.item)
-        + Math.min(18, (cluster.sourceCount - 1) * 9)
-        + Math.min(8, Math.max(0, cluster.mergedCount - 1) * 4)
-        - used * 10;
-      if (effective > bestEffective) {
-        bestEffective = effective;
-        bestIndex = index;
-      }
-    });
-    if (bestIndex < 0) break;
-    const [chosen] = remaining.splice(bestIndex, 1);
-    const source = sourceSignal(chosen.item);
-    pickedPerSource.set(source, (pickedPerSource.get(source) || 0) + 1);
-    picked.push({ ...chosen, score: Math.max(chosen.score || 0, Math.min(100, Math.round(bestEffective))) });
-  }
-  return picked;
+  return [...clusters]
+    .sort((a, b) => headlineClusterScore(b) - headlineClusterScore(a) || timelineMs(b.item) - timelineMs(a.item) || a.index - b.index)
+    .slice(0, limit)
+    .map((cluster) => ({ ...cluster, score: headlineClusterScore(cluster) }));
 }
 
 function itemTagLabels(item, row = null) {
@@ -1304,8 +1359,9 @@ function buildTopStoryCard(row, rank) {
   time.textContent = fmtTime(timelineIso(item));
   const primarySource = itemSourceRefs(item, row)[0];
   const score = document.createElement("strong");
-  score.className = "intel-score";
-  score.textContent = `优先级 ${Math.max(row.score || 0, itemPriorityScore(item))}`;
+  const displayScore = Math.max(row.score || 0, headlineClusterScore(row));
+  score.className = `intel-score ${scoreTone(displayScore)}`;
+  score.textContent = `排序分 ${displayScore}`;
   meta.append(time, sourceChip(primarySource.label, primarySource.tone, "source-chip intel-source"), score);
 
   const title = document.createElement("div");
@@ -1319,9 +1375,7 @@ function buildTopStoryCard(row, rank) {
   const tags = document.createElement("div");
   tags.className = "intel-tags";
   itemTagLabels(item, row).forEach((label) => {
-    const tag = document.createElement("span");
-    tag.textContent = label;
-    tags.appendChild(tag);
+    tags.appendChild(itemTagChip(label));
   });
 
   const sources = document.createElement("div");
@@ -1375,9 +1429,7 @@ function buildIntelCard(item, rank) {
   const tags = document.createElement("div");
   tags.className = "intel-tags";
   itemTagLabels(item).forEach((label) => {
-    const tag = document.createElement("span");
-    tag.textContent = label;
-    tags.appendChild(tag);
+    tags.appendChild(itemTagChip(label));
   });
 
   const sources = document.createElement("div");
@@ -1396,6 +1448,7 @@ function buildIntelCard(item, rank) {
 
 function renderItemNode(item) {
   const node = itemTpl.content.firstElementChild.cloneNode(true);
+  const metaRow = node.querySelector(".meta-row");
   node.querySelector(".site").textContent = item.site_name;
   const kind = sourceKind(item.site_id);
   const categoryEl = node.querySelector(".category");
@@ -1403,10 +1456,22 @@ function renderItemNode(item) {
   categoryEl.classList.add(`kind-${kind.tone}`);
   const score = scorePercent(item);
   const tagEl = document.createElement("span");
-  tagEl.className = `ai-tag ${scoreTone(score)}`;
+  tagEl.className = `ai-tag tone-${itemLabelTone(item)}`;
   tagEl.textContent = `${labelText(item)} · ${score || "?"}分`;
   categoryEl.insertAdjacentElement("afterend", tagEl);
-  node.querySelector(".source").textContent = `分区: ${item.source}`;
+
+  const sourceEl = node.querySelector(".source");
+  const sourceLabel = sourceSignal(item);
+  setSourceBadge(sourceEl, sourceLabel, sourceSignalTone(sourceLabel), item.source ? `分区: ${item.source}` : "");
+
+  const primaryLabel = labelText(item);
+  itemTagLabels(item)
+    .filter((label) => label !== primaryLabel)
+    .slice(0, 3)
+    .forEach((label) => {
+      metaRow.insertBefore(itemTagChip(label), sourceEl);
+    });
+
   node.querySelector(".time").textContent = fmtTime(item.published_at || item.first_seen_at);
 
   const titleEl = node.querySelector(".title");
