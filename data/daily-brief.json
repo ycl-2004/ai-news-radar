@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-19T14:10:43.028916Z",
+  "generated_at": "2026-06-19T15:46:34.308094Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -38,15 +38,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8108,
-      "importance": 0.8108,
-      "importance_score": 0.8108,
+      "score": 0.8077,
+      "importance": 0.8077,
+      "importance_score": 0.8077,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.7712,
+        "recency": 0.7536,
         "story_heat": 0.0
       },
       "category": "official",
@@ -100,15 +100,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8046,
-      "importance": 0.8046,
-      "importance_score": 0.8046,
+      "score": 0.8015,
+      "importance": 0.8015,
+      "importance_score": 0.8015,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.7365,
+        "recency": 0.7197,
         "story_heat": 0.0
       },
       "category": "official",
@@ -200,15 +200,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.7961,
-      "importance": 0.7961,
-      "importance_score": 0.7961,
+      "score": 0.7928,
+      "importance": 0.7928,
+      "importance_score": 0.7928,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.76,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8141,
+        "recency": 0.7955,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -319,15 +319,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.7953,
-      "importance": 0.7953,
-      "importance_score": 0.7953,
+      "score": 0.7922,
+      "importance": 0.7922,
+      "importance_score": 0.7922,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.737,
+        "recency": 0.7202,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -381,15 +381,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7884,
-      "importance": 0.7884,
-      "importance_score": 0.7884,
+      "score": 0.7844,
+      "importance": 0.7844,
+      "importance_score": 0.7844,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.81,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9654,
+        "recency": 0.9434,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -442,15 +442,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8106,
-      "importance": 0.8106,
-      "importance_score": 0.8106,
+      "score": 0.8073,
+      "importance": 0.8073,
+      "importance_score": 0.8073,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.8146,
+        "recency": 0.796,
         "story_heat": 0.0
       },
       "category": "official",
@@ -523,15 +523,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7746,
-      "importance": 0.7746,
-      "importance_score": 0.7746,
+      "score": 0.7712,
+      "importance": 0.7712,
+      "importance_score": 0.7712,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.76,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8333,
+        "recency": 0.8143,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -585,15 +585,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7731,
-      "importance": 0.7731,
-      "importance_score": 0.7731,
+      "score": 0.7691,
+      "importance": 0.7691,
+      "importance_score": 0.7691,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9805,
+        "recency": 0.9581,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -646,15 +646,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7716,
-      "importance": 0.7716,
-      "importance_score": 0.7716,
+      "score": 0.7677,
+      "importance": 0.7677,
+      "importance_score": 0.7677,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.77,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9388,
+        "recency": 0.9174,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -707,15 +707,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7659,
-      "importance": 0.7659,
-      "importance_score": 0.7659,
+      "score": 0.7623,
+      "importance": 0.7623,
+      "importance_score": 0.7623,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.79,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8736,
+        "recency": 0.8537,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -730,87 +730,6 @@
         "title": "阿里开源向量数据库Zvec，UCSD黄碧薇教授提出因果AI第四代范式",
         "url": "https://x.com/AYi_AInotes/status/2067832098816250346",
         "source": "X：阿易 AI Notes (@AYi_AInotes)",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_6d51284325b3",
-      "title": "Nature两篇研究：MIRA和AMIE诊断与治疗计划媲美甚至超越医生",
-      "url": "https://the-decoder.com/ai-systems-rival-doctors-in-new-nature-studies-but-one-result-suggests-the-tech-wont-age-well",
-      "primary_url": "https://the-decoder.com/ai-systems-rival-doctors-in-new-nature-studies-but-one-result-suggests-the-tech-wont-age-well",
-      "source": "The Decoder：AI News（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "573d44b4abb6e5ed12ae54ae08f1bebf2e79309a",
-          "title": "Nature两篇研究：MIRA和AMIE诊断与治疗计划媲美甚至超越医生",
-          "url": "https://the-decoder.com/ai-systems-rival-doctors-in-new-nature-studies-but-one-result-suggests-the-tech-wont-age-well",
-          "source": "The Decoder：AI News（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-18T14:37:06Z"
-        },
-        {
-          "id": "3711d3e1e4db4337a24d5be0f35a92f4bf04ccc4",
-          "title": "Nature两篇研究：MIRA和AMIE诊断与治疗计划媲美甚至超越医生 / AI systems rival doctors in new Nature studies, but one result suggests the tech won't age well",
-          "url": "https://the-decoder.com/ai-systems-rival-doctors-in-new-nature-studies-but-one-result-suggests-the-tech-wont-age-well",
-          "source": "The Decoder AI News",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-06-18T14:37:06Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "The Decoder AI News",
-        "The Decoder：AI News（RSS）"
-      ],
-      "items": [
-        {
-          "id": "573d44b4abb6e5ed12ae54ae08f1bebf2e79309a",
-          "title": "Nature两篇研究：MIRA和AMIE诊断与治疗计划媲美甚至超越医生",
-          "url": "https://the-decoder.com/ai-systems-rival-doctors-in-new-nature-studies-but-one-result-suggests-the-tech-wont-age-well",
-          "source": "The Decoder：AI News（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-18T14:37:06Z"
-        },
-        {
-          "id": "3711d3e1e4db4337a24d5be0f35a92f4bf04ccc4",
-          "title": "Nature两篇研究：MIRA和AMIE诊断与治疗计划媲美甚至超越医生 / AI systems rival doctors in new Nature studies, but one result suggests the tech won't age well",
-          "url": "https://the-decoder.com/ai-systems-rival-doctors-in-new-nature-studies-but-one-result-suggests-the-tech-wont-age-well",
-          "source": "The Decoder AI News",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-06-18T14:37:06Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7587,
-      "importance": 0.7587,
-      "importance_score": 0.7587,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.78,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7116,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-18T14:37:06Z",
-      "latest_at": "2026-06-18T14:37:06Z",
-      "primary_item": {
-        "id": "573d44b4abb6e5ed12ae54ae08f1bebf2e79309a",
-        "title": "Nature两篇研究：MIRA和AMIE诊断与治疗计划媲美甚至超越医生",
-        "url": "https://the-decoder.com/ai-systems-rival-doctors-in-new-nature-studies-but-one-result-suggests-the-tech-wont-age-well",
-        "source": "The Decoder：AI News（RSS）",
         "source_name": "AI HOT"
       }
     },
@@ -868,15 +787,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7565,
-      "importance": 0.7565,
-      "importance_score": 0.7565,
+      "score": 0.7535,
+      "importance": 0.7535,
+      "importance_score": 0.7535,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7496,
+        "recency": 0.7325,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -892,66 +811,6 @@
         "title": "MosaicLeaks： 你的研究智能体能保守秘密吗？",
         "url": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
         "source": "Hugging Face：Blog（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_b272084139ff",
-      "title": "Salesforce CodeGen教程：生成、验证并重排序Python函数（含单元测试与安全检查）",
-      "url": "https://www.marktechpost.com/2026/06/18/salesforce-codegen-tutorial-generate-validate-and-rerank-python-functions-with-unit-tests-and-safety-checks",
-      "primary_url": "https://www.marktechpost.com/2026/06/18/salesforce-codegen-tutorial-generate-validate-and-rerank-python-functions-with-unit-tests-and-safety-checks",
-      "source": "MarkTechPost（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "165fd816c0bdefe9a52b6da1528552fbe57b7f85",
-          "title": "Salesforce CodeGen教程：生成、验证并重排序Python函数（含单元测试与安全检查）",
-          "url": "https://www.marktechpost.com/2026/06/18/salesforce-codegen-tutorial-generate-validate-and-rerank-python-functions-with-unit-tests-and-safety-checks",
-          "source": "MarkTechPost（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-19T02:44:12Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "MarkTechPost（RSS）"
-      ],
-      "items": [
-        {
-          "id": "165fd816c0bdefe9a52b6da1528552fbe57b7f85",
-          "title": "Salesforce CodeGen教程：生成、验证并重排序Python函数（含单元测试与安全检查）",
-          "url": "https://www.marktechpost.com/2026/06/18/salesforce-codegen-tutorial-generate-validate-and-rerank-python-functions-with-unit-tests-and-safety-checks",
-          "source": "MarkTechPost（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-19T02:44:12Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7492,
-      "importance": 0.7492,
-      "importance_score": 0.7492,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.75,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8477,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-19T02:44:12Z",
-      "latest_at": "2026-06-19T02:44:12Z",
-      "primary_item": {
-        "id": "165fd816c0bdefe9a52b6da1528552fbe57b7f85",
-        "title": "Salesforce CodeGen教程：生成、验证并重排序Python函数（含单元测试与安全检查）",
-        "url": "https://www.marktechpost.com/2026/06/18/salesforce-codegen-tutorial-generate-validate-and-rerank-python-functions-with-unit-tests-and-safety-checks",
-        "source": "MarkTechPost（RSS）",
         "source_name": "AI HOT"
       }
     },
@@ -990,15 +849,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8088,
-      "importance": 0.8088,
-      "importance_score": 0.8088,
+      "score": 0.8057,
+      "importance": 0.8057,
+      "importance_score": 0.8057,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.7603,
+        "recency": 0.7429,
         "story_heat": 0.0
       },
       "category": "official",
@@ -1015,6 +874,66 @@
         "url": "https://github.blog/changelog/2026-06-18-copilot-code-review-agents-md-support-and-ui-improvements",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_b272084139ff",
+      "title": "Salesforce CodeGen教程：生成、验证并重排序Python函数（含单元测试与安全检查）",
+      "url": "https://www.marktechpost.com/2026/06/18/salesforce-codegen-tutorial-generate-validate-and-rerank-python-functions-with-unit-tests-and-safety-checks",
+      "primary_url": "https://www.marktechpost.com/2026/06/18/salesforce-codegen-tutorial-generate-validate-and-rerank-python-functions-with-unit-tests-and-safety-checks",
+      "source": "MarkTechPost（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "165fd816c0bdefe9a52b6da1528552fbe57b7f85",
+          "title": "Salesforce CodeGen教程：生成、验证并重排序Python函数（含单元测试与安全检查）",
+          "url": "https://www.marktechpost.com/2026/06/18/salesforce-codegen-tutorial-generate-validate-and-rerank-python-functions-with-unit-tests-and-safety-checks",
+          "source": "MarkTechPost（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-19T02:44:12Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "MarkTechPost（RSS）"
+      ],
+      "items": [
+        {
+          "id": "165fd816c0bdefe9a52b6da1528552fbe57b7f85",
+          "title": "Salesforce CodeGen教程：生成、验证并重排序Python函数（含单元测试与安全检查）",
+          "url": "https://www.marktechpost.com/2026/06/18/salesforce-codegen-tutorial-generate-validate-and-rerank-python-functions-with-unit-tests-and-safety-checks",
+          "source": "MarkTechPost（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-19T02:44:12Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7457,
+      "importance": 0.7457,
+      "importance_score": 0.7457,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.75,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8284,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-06-19T02:44:12Z",
+      "latest_at": "2026-06-19T02:44:12Z",
+      "primary_item": {
+        "id": "165fd816c0bdefe9a52b6da1528552fbe57b7f85",
+        "title": "Salesforce CodeGen教程：生成、验证并重排序Python函数（含单元测试与安全检查）",
+        "url": "https://www.marktechpost.com/2026/06/18/salesforce-codegen-tutorial-generate-validate-and-rerank-python-functions-with-unit-tests-and-safety-checks",
+        "source": "MarkTechPost（RSS）",
+        "source_name": "AI HOT"
       }
     },
     {
@@ -1052,15 +971,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7479,
-      "importance": 0.7479,
-      "importance_score": 0.7479,
+      "score": 0.7444,
+      "importance": 0.7444,
+      "importance_score": 0.7444,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.74,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8575,
+        "recency": 0.8379,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1131,15 +1050,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.745,
-      "importance": 0.745,
-      "importance_score": 0.745,
+      "score": 0.7419,
+      "importance": 0.7419,
+      "importance_score": 0.7419,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.769,
+        "recency": 0.7515,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -1192,15 +1111,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7439,
-      "importance": 0.7439,
-      "importance_score": 0.7439,
+      "score": 0.7408,
+      "importance": 0.7408,
+      "importance_score": 0.7408,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.79,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7518,
+        "recency": 0.7346,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1252,15 +1171,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.769,
-      "importance": 0.769,
-      "importance_score": 0.769,
+      "score": 0.7658,
+      "importance": 0.7658,
+      "importance_score": 0.7658,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.86,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7746,
+        "recency": 0.7569,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1275,66 +1194,6 @@
         "title": "诺姆·沙齐尔加入OpenAI",
         "url": "https://twitter.com/NoamShazeer/status/2067400851438932297",
         "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_fd6b244d6a5f",
-      "title": "Cloudflare 为 AI 智能体推出临时账户",
-      "url": "https://blog.cloudflare.com/temporary-accounts",
-      "primary_url": "https://blog.cloudflare.com/temporary-accounts",
-      "source": "Cloudflare Blog",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "85e2e050c96ecd8c31163dc00ec5a4b0a7d6846d",
-          "title": "Cloudflare 为 AI 智能体推出临时账户",
-          "url": "https://blog.cloudflare.com/temporary-accounts",
-          "source": "Cloudflare Blog",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-19T13:00:00Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Cloudflare Blog"
-      ],
-      "items": [
-        {
-          "id": "85e2e050c96ecd8c31163dc00ec5a4b0a7d6846d",
-          "title": "Cloudflare 为 AI 智能体推出临时账户",
-          "url": "https://blog.cloudflare.com/temporary-accounts",
-          "source": "Cloudflare Blog",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-19T13:00:00Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7346,
-      "importance": 0.7346,
-      "importance_score": 0.7346,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.62,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9831,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-19T13:00:00Z",
-      "latest_at": "2026-06-19T13:00:00Z",
-      "primary_item": {
-        "id": "85e2e050c96ecd8c31163dc00ec5a4b0a7d6846d",
-        "title": "Cloudflare 为 AI 智能体推出临时账户",
-        "url": "https://blog.cloudflare.com/temporary-accounts",
-        "source": "Cloudflare Blog",
         "source_name": "AI HOT"
       }
     },
@@ -1373,15 +1232,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.734,
-      "importance": 0.734,
-      "importance_score": 0.734,
+      "score": 0.731,
+      "importance": 0.731,
+      "importance_score": 0.731,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.77,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7299,
+        "recency": 0.7133,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1395,6 +1254,127 @@
         "title": "Anthropic Project Fetch 第二阶段：Claude Opus 4.7 自主完成任务，速度比人类团队快约20倍",
         "url": "https://www.anthropic.com/research/project-fetch-phase-two",
         "source": "Anthropic：Research（发表成果 · 网页）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_fd6b244d6a5f",
+      "title": "Cloudflare 为 AI 智能体推出临时账户",
+      "url": "https://blog.cloudflare.com/temporary-accounts",
+      "primary_url": "https://blog.cloudflare.com/temporary-accounts",
+      "source": "Cloudflare Blog",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "85e2e050c96ecd8c31163dc00ec5a4b0a7d6846d",
+          "title": "Cloudflare 为 AI 智能体推出临时账户",
+          "url": "https://blog.cloudflare.com/temporary-accounts",
+          "source": "Cloudflare Blog",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-19T13:00:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Cloudflare Blog"
+      ],
+      "items": [
+        {
+          "id": "85e2e050c96ecd8c31163dc00ec5a4b0a7d6846d",
+          "title": "Cloudflare 为 AI 智能体推出临时账户",
+          "url": "https://blog.cloudflare.com/temporary-accounts",
+          "source": "Cloudflare Blog",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-19T13:00:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7305,
+      "importance": 0.7305,
+      "importance_score": 0.7305,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.62,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9607,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-06-19T13:00:00Z",
+      "latest_at": "2026-06-19T13:00:00Z",
+      "primary_item": {
+        "id": "85e2e050c96ecd8c31163dc00ec5a4b0a7d6846d",
+        "title": "Cloudflare 为 AI 智能体推出临时账户",
+        "url": "https://blog.cloudflare.com/temporary-accounts",
+        "source": "Cloudflare Blog",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_ec85ba36d117",
+      "title": "DeepSeek研究员开源AutoResearch：AI自主跑通285B模型RL研究闭环",
+      "url": "https://x.com/AYi_AInotes/status/2067819352926150953",
+      "primary_url": "https://x.com/AYi_AInotes/status/2067819352926150953",
+      "source": "X：阿易 AI Notes (@AYi_AInotes)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "bf9f70a2b531f394e47b2f1a069697a815e6b7cf",
+          "title": "DeepSeek研究员开源AutoResearch：AI自主跑通285B模型RL研究闭环",
+          "url": "https://x.com/AYi_AInotes/status/2067819352926150953",
+          "source": "X：阿易 AI Notes (@AYi_AInotes)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-19T03:58:46Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "X：阿易 AI Notes (@AYi_AInotes)"
+      ],
+      "items": [
+        {
+          "id": "bf9f70a2b531f394e47b2f1a069697a815e6b7cf",
+          "title": "DeepSeek研究员开源AutoResearch：AI自主跑通285B模型RL研究闭环",
+          "url": "https://x.com/AYi_AInotes/status/2067819352926150953",
+          "source": "X：阿易 AI Notes (@AYi_AInotes)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-19T03:58:46Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7514,
+      "importance": 0.7514,
+      "importance_score": 0.7514,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.76,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8434,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-19T03:58:46Z",
+      "latest_at": "2026-06-19T03:58:46Z",
+      "primary_item": {
+        "id": "bf9f70a2b531f394e47b2f1a069697a815e6b7cf",
+        "title": "DeepSeek研究员开源AutoResearch：AI自主跑通285B模型RL研究闭环",
+        "url": "https://x.com/AYi_AInotes/status/2067819352926150953",
+        "source": "X：阿易 AI Notes (@AYi_AInotes)",
         "source_name": "AI HOT"
       }
     }
