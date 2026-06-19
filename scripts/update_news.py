@@ -3564,11 +3564,18 @@ def parse_tikhub_douyin_items(payload: dict[str, Any], now: datetime, keyword: s
     out: list[RawItem] = []
     seen_ids: set[str] = set()
     for node in iter_nested_dicts(payload):
-        aweme = node.get("aweme_info") if isinstance(node.get("aweme_info"), dict) else node
+        # TikHub wraps real videos in ``aweme_info``. Walking arbitrary nested
+        # dictionaries without this guard also reaches ``music`` objects, whose
+        # generic titles look like "@…创作的原声" and are not video titles.
+        wrapped_aweme = node.get("aweme_info") if isinstance(node.get("aweme_info"), dict) else None
+        aweme = wrapped_aweme or node
         if not isinstance(aweme, dict):
             continue
-        post_id = str(aweme.get("aweme_id") or aweme.get("id") or "").strip()
+        post_id = str(aweme.get("aweme_id") or aweme.get("awemeId") or "").strip()
         title = compact_public_snippet(str(aweme.get("desc") or aweme.get("title") or aweme.get("caption") or ""), max_chars=220)
+        generic_audio_title = re.fullmatch(r"@?.{1,80}(?:创作的原声|的原声|original\s+sound)", title, flags=re.IGNORECASE)
+        if generic_audio_title:
+            title = ""
         if not (post_id and title) or post_id in seen_ids:
             continue
         seen_ids.add(post_id)
