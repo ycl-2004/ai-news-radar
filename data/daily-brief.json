@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-18T23:15:33.173708Z",
+  "generated_at": "2026-06-19T00:54:54.036357Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -57,15 +57,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8558,
-      "importance": 0.8558,
-      "importance_score": 0.8558,
+      "score": 0.8522,
+      "importance": 0.8522,
+      "importance_score": 0.8522,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.8378,
+        "recency": 0.818,
         "story_heat": 0.25
       },
       "category": "official",
@@ -86,21 +86,21 @@
       }
     },
     {
-      "story_id": "story_6f63ab131b5c",
-      "title": "MAI-Code-1-Flash 可用于更多 Copilot 表面 / MAI-Code-1-Flash available on more Copilot surfaces",
-      "url": "https://github.blog/changelog/2026-06-18-mai-code-1-flash-available-on-more-copilot-surfaces",
-      "primary_url": "https://github.blog/changelog/2026-06-18-mai-code-1-flash-available-on-more-copilot-surfaces",
+      "story_id": "story_4f4fa9bb905b",
+      "title": "Opus 4.6 即将弃用（快速） / Upcoming deprecation of Opus 4.6 (fast)",
+      "url": "https://github.blog/changelog/2026-06-18-upcoming-deprecation-of-opus-4-6-fast",
+      "primary_url": "https://github.blog/changelog/2026-06-18-upcoming-deprecation-of-opus-4-6-fast",
       "source": "GitHub Changelog",
       "source_name": "Official AI Updates",
       "sources": [
         {
-          "id": "cfe54e520c659657b8609c3f9ae33c5f54707148",
-          "title": "MAI-Code-1-Flash 可用于更多 Copilot 表面 / MAI-Code-1-Flash available on more Copilot surfaces",
-          "url": "https://github.blog/changelog/2026-06-18-mai-code-1-flash-available-on-more-copilot-surfaces",
+          "id": "c5facff93428bad346379901a1f9cd1a29309639",
+          "title": "Opus 4.6 即将弃用（快速） / Upcoming deprecation of Opus 4.6 (fast)",
+          "url": "https://github.blog/changelog/2026-06-18-upcoming-deprecation-of-opus-4-6-fast",
           "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-06-18T20:11:24Z"
+          "published_at": "2026-06-18T23:58:34Z"
         }
       ],
       "source_count": 1,
@@ -109,26 +109,26 @@
       ],
       "items": [
         {
-          "id": "cfe54e520c659657b8609c3f9ae33c5f54707148",
-          "title": "MAI-Code-1-Flash 可用于更多 Copilot 表面 / MAI-Code-1-Flash available on more Copilot surfaces",
-          "url": "https://github.blog/changelog/2026-06-18-mai-code-1-flash-available-on-more-copilot-surfaces",
+          "id": "c5facff93428bad346379901a1f9cd1a29309639",
+          "title": "Opus 4.6 即将弃用（快速） / Upcoming deprecation of Opus 4.6 (fast)",
+          "url": "https://github.blog/changelog/2026-06-18-upcoming-deprecation-of-opus-4-6-fast",
           "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-06-18T20:11:24Z"
+          "published_at": "2026-06-18T23:58:34Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8442,
-      "importance": 0.8442,
-      "importance_score": 0.8442,
+      "score": 0.8416,
+      "importance": 0.8416,
+      "importance_score": 0.8416,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.9566,
+        "ai_relevance": 0.87,
+        "recency": 0.9865,
         "story_heat": 0.0
       },
       "category": "official",
@@ -137,295 +137,13 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-06-18T20:11:24Z",
-      "latest_at": "2026-06-18T20:11:24Z",
+      "earliest_at": "2026-06-18T23:58:34Z",
+      "latest_at": "2026-06-18T23:58:34Z",
       "primary_item": {
-        "id": "cfe54e520c659657b8609c3f9ae33c5f54707148",
-        "title": "MAI-Code-1-Flash 可用于更多 Copilot 表面 / MAI-Code-1-Flash available on more Copilot surfaces",
-        "url": "https://github.blog/changelog/2026-06-18-mai-code-1-flash-available-on-more-copilot-surfaces",
+        "id": "c5facff93428bad346379901a1f9cd1a29309639",
+        "title": "Opus 4.6 即将弃用（快速） / Upcoming deprecation of Opus 4.6 (fast)",
+        "url": "https://github.blog/changelog/2026-06-18-upcoming-deprecation-of-opus-4-6-fast",
         "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
-      }
-    },
-    {
-      "story_id": "story_91992ed9f82d",
-      "title": "法典 CLI 0.141.0 / Codex CLI 0.141.0",
-      "url": "https://developers.openai.com/codex/changelog",
-      "primary_url": "https://developers.openai.com/codex/changelog",
-      "source": "OpenAI Codex Changelog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "0456c8d5a0d56205795e8eb2712514f19e860335",
-          "title": "法典 CLI 0.141.0 / Codex CLI 0.141.0",
-          "url": "https://developers.openai.com/codex/changelog",
-          "source": "OpenAI Codex Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-18T00:00:00Z"
-        },
-        {
-          "id": "58439895fb798798a16e2b39cf2320c57d74b739",
-          "title": "法典应用程序 26.616 / Codex app 26.616",
-          "url": "https://developers.openai.com/codex/changelog",
-          "source": "OpenAI Codex Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-18T00:00:00Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "OpenAI Codex Changelog"
-      ],
-      "items": [
-        {
-          "id": "0456c8d5a0d56205795e8eb2712514f19e860335",
-          "title": "法典 CLI 0.141.0 / Codex CLI 0.141.0",
-          "url": "https://developers.openai.com/codex/changelog",
-          "source": "OpenAI Codex Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-18T00:00:00Z"
-        },
-        {
-          "id": "58439895fb798798a16e2b39cf2320c57d74b739",
-          "title": "法典应用程序 26.616 / Codex app 26.616",
-          "url": "https://developers.openai.com/codex/changelog",
-          "source": "OpenAI Codex Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-18T00:00:00Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.8396,
-      "importance": 0.8396,
-      "importance_score": 0.8396,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.98,
-        "recency": 0.7147,
-        "story_heat": 0.25
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-18T00:00:00Z",
-      "latest_at": "2026-06-18T00:00:00Z",
-      "primary_item": {
-        "id": "0456c8d5a0d56205795e8eb2712514f19e860335",
-        "title": "法典 CLI 0.141.0 / Codex CLI 0.141.0",
-        "url": "https://developers.openai.com/codex/changelog",
-        "source": "OpenAI Codex Changelog",
-        "source_name": "Official AI Updates"
-      }
-    },
-    {
-      "story_id": "story_cb61d9b8fdb1",
-      "title": "ChatGPT 图像生成器可被绕过滤镜生成暴力和色情内容",
-      "url": "https://mindgard.ai/blog/chatgpt-spontaneously-generated-violent-images-from-a-viral-prompt",
-      "primary_url": "https://mindgard.ai/blog/chatgpt-spontaneously-generated-violent-images-from-a-viral-prompt",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "10845be78de0956c1656a0700d902c3c6ab79161",
-          "title": "ChatGPT 图像生成器可被绕过滤镜生成暴力和色情内容",
-          "url": "https://mindgard.ai/blog/chatgpt-spontaneously-generated-violent-images-from-a-viral-prompt",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-18T11:25:28.101000Z"
-        },
-        {
-          "id": "9b99792ff9ff2f4f45853328001cc4dbe7743991",
-          "title": "ChatGPT的图像生成器可以被利用来生成暴力和色情内容",
-          "url": "https://mindgard.ai/blog/chatgpt-spontaneously-generated-violent-images-from-a-viral-prompt",
-          "source": "mindgard.ai",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-18T11:25:28.101000Z"
-        },
-        {
-          "id": "a5824eeb01e2a742f8ba8c38331fd3ec2e9f8671",
-          "title": "ChatGPT 图像生成器可被绕过滤镜生成暴力和色情内容 / ChatGPT Spontaneously Generates Sexual Violence and Hardcore Snuff Imagery",
-          "url": "https://mindgard.ai/blog/chatgpt-spontaneously-generated-violent-images-from-a-viral-prompt",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-18T00:24:04Z"
-        },
-        {
-          "id": "16410302adea173ad7f1ac68242a85227b2d0f54",
-          "title": "ChatGPT 图像生成器可被绕过滤镜生成暴力和色情内容 / ChatGPT's image generator can be manipulated to produce violent, sexual content",
-          "url": "https://mindgard.ai/blog/chatgpt-spontaneously-generated-violent-images-from-a-viral-prompt",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-18T00:24:04Z"
-        }
-      ],
-      "source_count": 4,
-      "source_names": [
-        "Hacker News",
-        "Hacker News · 24h最热",
-        "Hacker News 热门（buzzing.cc 中文翻译）",
-        "mindgard.ai"
-      ],
-      "items": [
-        {
-          "id": "10845be78de0956c1656a0700d902c3c6ab79161",
-          "title": "ChatGPT 图像生成器可被绕过滤镜生成暴力和色情内容",
-          "url": "https://mindgard.ai/blog/chatgpt-spontaneously-generated-violent-images-from-a-viral-prompt",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-18T11:25:28.101000Z"
-        },
-        {
-          "id": "9b99792ff9ff2f4f45853328001cc4dbe7743991",
-          "title": "ChatGPT的图像生成器可以被利用来生成暴力和色情内容",
-          "url": "https://mindgard.ai/blog/chatgpt-spontaneously-generated-violent-images-from-a-viral-prompt",
-          "source": "mindgard.ai",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-18T11:25:28.101000Z"
-        },
-        {
-          "id": "a5824eeb01e2a742f8ba8c38331fd3ec2e9f8671",
-          "title": "ChatGPT 图像生成器可被绕过滤镜生成暴力和色情内容 / ChatGPT Spontaneously Generates Sexual Violence and Hardcore Snuff Imagery",
-          "url": "https://mindgard.ai/blog/chatgpt-spontaneously-generated-violent-images-from-a-viral-prompt",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-18T00:24:04Z"
-        },
-        {
-          "id": "16410302adea173ad7f1ac68242a85227b2d0f54",
-          "title": "ChatGPT 图像生成器可被绕过滤镜生成暴力和色情内容 / ChatGPT's image generator can be manipulated to produce violent, sexual content",
-          "url": "https://mindgard.ai/blog/chatgpt-spontaneously-generated-violent-images-from-a-viral-prompt",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-18T00:24:04Z"
-        }
-      ],
-      "item_count": 4,
-      "duplicate_count": 4,
-      "score": 0.8353,
-      "importance": 0.8353,
-      "importance_score": 0.8353,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.79,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8429,
-        "story_heat": 0.75
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-18T00:24:04Z",
-      "latest_at": "2026-06-18T11:25:28.101000Z",
-      "primary_item": {
-        "id": "10845be78de0956c1656a0700d902c3c6ab79161",
-        "title": "ChatGPT 图像生成器可被绕过滤镜生成暴力和色情内容",
-        "url": "https://mindgard.ai/blog/chatgpt-spontaneously-generated-violent-images-from-a-viral-prompt",
-        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_dc672d008682",
-      "title": "超越 LoRA：如何选择最佳参数高效微调技术？ / Beyond LoRA: Can you beat the most popular fine-tuning technique?",
-      "url": "https://huggingface.co/blog/peft-beyond-lora",
-      "primary_url": "https://huggingface.co/blog/peft-beyond-lora",
-      "source": "Hugging Face Blog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "4611b3ae6076f81dcf08cec64ebd2fb449e05910",
-          "title": "超越 LoRA：如何选择最佳参数高效微调技术？ / Beyond LoRA: Can you beat the most popular fine-tuning technique?",
-          "url": "https://huggingface.co/blog/peft-beyond-lora",
-          "source": "Hugging Face Blog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-18T00:00:00Z"
-        },
-        {
-          "id": "0f6eae03ef27eccd08c5668ef58141a2d521ca28",
-          "title": "超越 LoRA：如何选择最佳参数高效微调技术？",
-          "url": "https://huggingface.co/blog/peft-beyond-lora",
-          "source": "Hugging Face：Blog（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-18T00:00:00Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hugging Face Blog",
-        "Hugging Face：Blog（RSS）"
-      ],
-      "items": [
-        {
-          "id": "4611b3ae6076f81dcf08cec64ebd2fb449e05910",
-          "title": "超越 LoRA：如何选择最佳参数高效微调技术？ / Beyond LoRA: Can you beat the most popular fine-tuning technique?",
-          "url": "https://huggingface.co/blog/peft-beyond-lora",
-          "source": "Hugging Face Blog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-18T00:00:00Z"
-        },
-        {
-          "id": "0f6eae03ef27eccd08c5668ef58141a2d521ca28",
-          "title": "超越 LoRA：如何选择最佳参数高效微调技术？",
-          "url": "https://huggingface.co/blog/peft-beyond-lora",
-          "source": "Hugging Face：Blog（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-18T00:00:00Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.8336,
-      "importance": 0.8336,
-      "importance_score": 0.8336,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.95,
-        "recency": 0.7147,
-        "story_heat": 0.25
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-18T00:00:00Z",
-      "latest_at": "2026-06-18T00:00:00Z",
-      "primary_item": {
-        "id": "4611b3ae6076f81dcf08cec64ebd2fb449e05910",
-        "title": "超越 LoRA：如何选择最佳参数高效微调技术？ / Beyond LoRA: Can you beat the most popular fine-tuning technique?",
-        "url": "https://huggingface.co/blog/peft-beyond-lora",
-        "source": "Hugging Face Blog",
         "source_name": "Official AI Updates"
       }
     },
@@ -521,15 +239,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.8272,
-      "importance": 0.8272,
-      "importance_score": 0.8272,
+      "score": 0.8233,
+      "importance": 0.8233,
+      "importance_score": 0.8233,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9142,
+        "recency": 0.8926,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -549,21 +267,21 @@
       }
     },
     {
-      "story_id": "story_941ec7cf08aa",
-      "title": "Copilot 代码审查：AGENTS.md 支持和 UI 改进 / Copilot code review: AGENTS.md support and UI improvements",
-      "url": "https://github.blog/changelog/2026-06-18-copilot-code-review-agents-md-support-and-ui-improvements",
-      "primary_url": "https://github.blog/changelog/2026-06-18-copilot-code-review-agents-md-support-and-ui-improvements",
+      "story_id": "story_6f63ab131b5c",
+      "title": "MAI-Code-1-Flash 可用于更多 Copilot 表面 / MAI-Code-1-Flash available on more Copilot surfaces",
+      "url": "https://github.blog/changelog/2026-06-18-mai-code-1-flash-available-on-more-copilot-surfaces",
+      "primary_url": "https://github.blog/changelog/2026-06-18-mai-code-1-flash-available-on-more-copilot-surfaces",
       "source": "GitHub Changelog",
       "source_name": "Official AI Updates",
       "sources": [
         {
-          "id": "f572adbcb57b1774387b9f3e2f979e13e2eeb57a",
-          "title": "Copilot 代码审查：AGENTS.md 支持和 UI 改进 / Copilot code review: AGENTS.md support and UI improvements",
-          "url": "https://github.blog/changelog/2026-06-18-copilot-code-review-agents-md-support-and-ui-improvements",
+          "id": "cfe54e520c659657b8609c3f9ae33c5f54707148",
+          "title": "MAI-Code-1-Flash 可用于更多 Copilot 表面 / MAI-Code-1-Flash available on more Copilot surfaces",
+          "url": "https://github.blog/changelog/2026-06-18-mai-code-1-flash-available-on-more-copilot-surfaces",
           "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-06-18T19:11:51Z"
+          "published_at": "2026-06-18T20:11:24Z"
         }
       ],
       "source_count": 1,
@@ -572,26 +290,26 @@
       ],
       "items": [
         {
-          "id": "f572adbcb57b1774387b9f3e2f979e13e2eeb57a",
-          "title": "Copilot 代码审查：AGENTS.md 支持和 UI 改进 / Copilot code review: AGENTS.md support and UI improvements",
-          "url": "https://github.blog/changelog/2026-06-18-copilot-code-review-agents-md-support-and-ui-improvements",
+          "id": "cfe54e520c659657b8609c3f9ae33c5f54707148",
+          "title": "MAI-Code-1-Flash 可用于更多 Copilot 表面 / MAI-Code-1-Flash available on more Copilot surfaces",
+          "url": "https://github.blog/changelog/2026-06-18-mai-code-1-flash-available-on-more-copilot-surfaces",
           "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-06-18T19:11:51Z"
+          "published_at": "2026-06-18T20:11:24Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8417,
-      "importance": 0.8417,
-      "importance_score": 0.8417,
+      "score": 0.8401,
+      "importance": 0.8401,
+      "importance_score": 0.8401,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.943,
+        "recency": 0.934,
         "story_heat": 0.0
       },
       "category": "official",
@@ -600,12 +318,12 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-06-18T19:11:51Z",
-      "latest_at": "2026-06-18T19:11:51Z",
+      "earliest_at": "2026-06-18T20:11:24Z",
+      "latest_at": "2026-06-18T20:11:24Z",
       "primary_item": {
-        "id": "f572adbcb57b1774387b9f3e2f979e13e2eeb57a",
-        "title": "Copilot 代码审查：AGENTS.md 支持和 UI 改进 / Copilot code review: AGENTS.md support and UI improvements",
-        "url": "https://github.blog/changelog/2026-06-18-copilot-code-review-agents-md-support-and-ui-improvements",
+        "id": "cfe54e520c659657b8609c3f9ae33c5f54707148",
+        "title": "MAI-Code-1-Flash 可用于更多 Copilot 表面 / MAI-Code-1-Flash available on more Copilot surfaces",
+        "url": "https://github.blog/changelog/2026-06-18-mai-code-1-flash-available-on-more-copilot-surfaces",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
       }
@@ -664,15 +382,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8414,
-      "importance": 0.8414,
-      "importance_score": 0.8414,
+      "score": 0.838,
+      "importance": 0.838,
+      "importance_score": 0.838,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.8022,
+        "recency": 0.7833,
         "story_heat": 0.25
       },
       "category": "official",
@@ -746,15 +464,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.789,
-      "importance": 0.789,
-      "importance_score": 0.789,
+      "score": 0.785,
+      "importance": 0.785,
+      "importance_score": 0.785,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9298,
+        "recency": 0.9079,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -774,21 +492,102 @@
       }
     },
     {
-      "story_id": "story_33dd1d19c265",
-      "title": "检测重复问题 – 公共预览版和问题字段 MCP 对 GitHub 问题的支持 / Detecting Duplicate Issues – Public Preview and issue fields MCP support for GitHub Issues",
-      "url": "https://github.blog/changelog/2026-06-18-duplicate-detection-and-issue-fields-mcp-support-for-github-issues",
-      "primary_url": "https://github.blog/changelog/2026-06-18-duplicate-detection-and-issue-fields-mcp-support-for-github-issues",
+      "story_id": "story_cb61d9b8fdb1",
+      "title": "ChatGPT 图像生成器可被绕过滤镜生成暴力和色情内容",
+      "url": "https://mindgard.ai/blog/chatgpt-spontaneously-generated-violent-images-from-a-viral-prompt",
+      "primary_url": "https://mindgard.ai/blog/chatgpt-spontaneously-generated-violent-images-from-a-viral-prompt",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "10845be78de0956c1656a0700d902c3c6ab79161",
+          "title": "ChatGPT 图像生成器可被绕过滤镜生成暴力和色情内容",
+          "url": "https://mindgard.ai/blog/chatgpt-spontaneously-generated-violent-images-from-a-viral-prompt",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-18T11:25:28.101000Z"
+        },
+        {
+          "id": "9b99792ff9ff2f4f45853328001cc4dbe7743991",
+          "title": "ChatGPT的图像生成器可以被利用来生成暴力和色情内容",
+          "url": "https://mindgard.ai/blog/chatgpt-spontaneously-generated-violent-images-from-a-viral-prompt",
+          "source": "mindgard.ai",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-18T11:25:28.101000Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News 热门（buzzing.cc 中文翻译）",
+        "mindgard.ai"
+      ],
+      "items": [
+        {
+          "id": "10845be78de0956c1656a0700d902c3c6ab79161",
+          "title": "ChatGPT 图像生成器可被绕过滤镜生成暴力和色情内容",
+          "url": "https://mindgard.ai/blog/chatgpt-spontaneously-generated-violent-images-from-a-viral-prompt",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-18T11:25:28.101000Z"
+        },
+        {
+          "id": "9b99792ff9ff2f4f45853328001cc4dbe7743991",
+          "title": "ChatGPT的图像生成器可以被利用来生成暴力和色情内容",
+          "url": "https://mindgard.ai/blog/chatgpt-spontaneously-generated-violent-images-from-a-viral-prompt",
+          "source": "mindgard.ai",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-18T11:25:28.101000Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7817,
+      "importance": 0.7817,
+      "importance_score": 0.7817,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.79,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.823,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-18T11:25:28.101000Z",
+      "latest_at": "2026-06-18T11:25:28.101000Z",
+      "primary_item": {
+        "id": "10845be78de0956c1656a0700d902c3c6ab79161",
+        "title": "ChatGPT 图像生成器可被绕过滤镜生成暴力和色情内容",
+        "url": "https://mindgard.ai/blog/chatgpt-spontaneously-generated-violent-images-from-a-viral-prompt",
+        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_941ec7cf08aa",
+      "title": "Copilot 代码审查：AGENTS.md 支持和 UI 改进 / Copilot code review: AGENTS.md support and UI improvements",
+      "url": "https://github.blog/changelog/2026-06-18-copilot-code-review-agents-md-support-and-ui-improvements",
+      "primary_url": "https://github.blog/changelog/2026-06-18-copilot-code-review-agents-md-support-and-ui-improvements",
       "source": "GitHub Changelog",
       "source_name": "Official AI Updates",
       "sources": [
         {
-          "id": "b7220a3a5665e6b0369b14118a53f9a409679b1d",
-          "title": "检测重复问题 – 公共预览版和问题字段 MCP 对 GitHub 问题的支持 / Detecting Duplicate Issues – Public Preview and issue fields MCP support for GitHub Issues",
-          "url": "https://github.blog/changelog/2026-06-18-duplicate-detection-and-issue-fields-mcp-support-for-github-issues",
+          "id": "f572adbcb57b1774387b9f3e2f979e13e2eeb57a",
+          "title": "Copilot 代码审查：AGENTS.md 支持和 UI 改进 / Copilot code review: AGENTS.md support and UI improvements",
+          "url": "https://github.blog/changelog/2026-06-18-copilot-code-review-agents-md-support-and-ui-improvements",
           "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-06-18T18:04:33Z"
+          "published_at": "2026-06-18T19:11:51Z"
         }
       ],
       "source_count": 1,
@@ -797,26 +596,26 @@
       ],
       "items": [
         {
-          "id": "b7220a3a5665e6b0369b14118a53f9a409679b1d",
-          "title": "检测重复问题 – 公共预览版和问题字段 MCP 对 GitHub 问题的支持 / Detecting Duplicate Issues – Public Preview and issue fields MCP support for GitHub Issues",
-          "url": "https://github.blog/changelog/2026-06-18-duplicate-detection-and-issue-fields-mcp-support-for-github-issues",
+          "id": "f572adbcb57b1774387b9f3e2f979e13e2eeb57a",
+          "title": "Copilot 代码审查：AGENTS.md 支持和 UI 改进 / Copilot code review: AGENTS.md support and UI improvements",
+          "url": "https://github.blog/changelog/2026-06-18-copilot-code-review-agents-md-support-and-ui-improvements",
           "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-06-18T18:04:33Z"
+          "published_at": "2026-06-18T19:11:51Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.839,
-      "importance": 0.839,
-      "importance_score": 0.839,
+      "score": 0.8377,
+      "importance": 0.8377,
+      "importance_score": 0.8377,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.9279,
+        "recency": 0.9208,
         "story_heat": 0.0
       },
       "category": "official",
@@ -825,12 +624,12 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-06-18T18:04:33Z",
-      "latest_at": "2026-06-18T18:04:33Z",
+      "earliest_at": "2026-06-18T19:11:51Z",
+      "latest_at": "2026-06-18T19:11:51Z",
       "primary_item": {
-        "id": "b7220a3a5665e6b0369b14118a53f9a409679b1d",
-        "title": "检测重复问题 – 公共预览版和问题字段 MCP 对 GitHub 问题的支持 / Detecting Duplicate Issues – Public Preview and issue fields MCP support for GitHub Issues",
-        "url": "https://github.blog/changelog/2026-06-18-duplicate-detection-and-issue-fields-mcp-support-for-github-issues",
+        "id": "f572adbcb57b1774387b9f3e2f979e13e2eeb57a",
+        "title": "Copilot 代码审查：AGENTS.md 支持和 UI 改进 / Copilot code review: AGENTS.md support and UI improvements",
+        "url": "https://github.blog/changelog/2026-06-18-copilot-code-review-agents-md-support-and-ui-improvements",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
       }
@@ -889,15 +688,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7783,
-      "importance": 0.7783,
-      "importance_score": 0.7783,
+      "score": 0.7742,
+      "importance": 0.7742,
+      "importance_score": 0.7742,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9539,
+        "recency": 0.9313,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -917,49 +716,49 @@
       }
     },
     {
-      "story_id": "story_6af7d56269b0",
-      "title": "OpenAI 联合多国医生：GPT-5.5 Instant 健康问答能力追平前沿 Thinking 模型",
-      "url": "https://x.com/gdb/status/2067675030335668270",
-      "primary_url": "https://x.com/gdb/status/2067675030335668270",
-      "source": "X：Greg Brockman (@gdb)",
+      "story_id": "story_f1c46e9ab12a",
+      "title": "AI 员工 Viktor 登陆 Microsoft Teams，年化收入达 2000 万美元",
+      "url": "https://x.com/rohanpaul_ai/status/2067755504613613699",
+      "primary_url": "https://x.com/rohanpaul_ai/status/2067755504613613699",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
       "source_name": "AI HOT",
       "sources": [
         {
-          "id": "6d956423cd97153f9bd0b2279d9bffb058cf9173",
-          "title": "OpenAI 联合多国医生：GPT-5.5 Instant 健康问答能力追平前沿 Thinking 模型",
-          "url": "https://x.com/gdb/status/2067675030335668270",
-          "source": "X：Greg Brockman (@gdb)",
+          "id": "d059bbe93c69bc3f33ffaef1aec7a92e694c1d7a",
+          "title": "AI 员工 Viktor 登陆 Microsoft Teams，年化收入达 2000 万美元",
+          "url": "https://x.com/rohanpaul_ai/status/2067755504613613699",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-06-18T18:25:17Z"
+          "published_at": "2026-06-18T23:45:03Z"
         }
       ],
       "source_count": 1,
       "source_names": [
-        "X：Greg Brockman (@gdb)"
+        "X：Rohan Paul (@rohanpaul_ai)"
       ],
       "items": [
         {
-          "id": "6d956423cd97153f9bd0b2279d9bffb058cf9173",
-          "title": "OpenAI 联合多国医生：GPT-5.5 Instant 健康问答能力追平前沿 Thinking 模型",
-          "url": "https://x.com/gdb/status/2067675030335668270",
-          "source": "X：Greg Brockman (@gdb)",
+          "id": "d059bbe93c69bc3f33ffaef1aec7a92e694c1d7a",
+          "title": "AI 员工 Viktor 登陆 Microsoft Teams，年化收入达 2000 万美元",
+          "url": "https://x.com/rohanpaul_ai/status/2067755504613613699",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-06-18T18:25:17Z"
+          "published_at": "2026-06-18T23:45:03Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7765,
-      "importance": 0.7765,
-      "importance_score": 0.7765,
+      "score": 0.7736,
+      "importance": 0.7736,
+      "importance_score": 0.7736,
       "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.79,
+        "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9325,
+        "recency": 0.9833,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -967,13 +766,13 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-06-18T18:25:17Z",
-      "latest_at": "2026-06-18T18:25:17Z",
+      "earliest_at": "2026-06-18T23:45:03Z",
+      "latest_at": "2026-06-18T23:45:03Z",
       "primary_item": {
-        "id": "6d956423cd97153f9bd0b2279d9bffb058cf9173",
-        "title": "OpenAI 联合多国医生：GPT-5.5 Instant 健康问答能力追平前沿 Thinking 模型",
-        "url": "https://x.com/gdb/status/2067675030335668270",
-        "source": "X：Greg Brockman (@gdb)",
+        "id": "d059bbe93c69bc3f33ffaef1aec7a92e694c1d7a",
+        "title": "AI 员工 Viktor 登陆 Microsoft Teams，年化收入达 2000 万美元",
+        "url": "https://x.com/rohanpaul_ai/status/2067755504613613699",
+        "source": "X：Rohan Paul (@rohanpaul_ai)",
         "source_name": "AI HOT"
       }
     },
@@ -1012,15 +811,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8364,
-      "importance": 0.8364,
-      "importance_score": 0.8364,
+      "score": 0.8326,
+      "importance": 0.8326,
+      "importance_score": 0.8326,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.9136,
+        "recency": 0.892,
         "story_heat": 0.0
       },
       "category": "official",
@@ -1037,6 +836,67 @@
         "url": "https://openai.com/index/chatgpt-enterprise-spend-controls",
         "source": "OpenAI News",
         "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_6af7d56269b0",
+      "title": "OpenAI 联合多国医生：GPT-5.5 Instant 健康问答能力追平前沿 Thinking 模型",
+      "url": "https://x.com/gdb/status/2067675030335668270",
+      "primary_url": "https://x.com/gdb/status/2067675030335668270",
+      "source": "X：Greg Brockman (@gdb)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "6d956423cd97153f9bd0b2279d9bffb058cf9173",
+          "title": "OpenAI 联合多国医生：GPT-5.5 Instant 健康问答能力追平前沿 Thinking 模型",
+          "url": "https://x.com/gdb/status/2067675030335668270",
+          "source": "X：Greg Brockman (@gdb)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-18T18:25:17Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "X：Greg Brockman (@gdb)"
+      ],
+      "items": [
+        {
+          "id": "6d956423cd97153f9bd0b2279d9bffb058cf9173",
+          "title": "OpenAI 联合多国医生：GPT-5.5 Instant 健康问答能力追平前沿 Thinking 模型",
+          "url": "https://x.com/gdb/status/2067675030335668270",
+          "source": "X：Greg Brockman (@gdb)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-18T18:25:17Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7725,
+      "importance": 0.7725,
+      "importance_score": 0.7725,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.79,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9105,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-18T18:25:17Z",
+      "latest_at": "2026-06-18T18:25:17Z",
+      "primary_item": {
+        "id": "6d956423cd97153f9bd0b2279d9bffb058cf9173",
+        "title": "OpenAI 联合多国医生：GPT-5.5 Instant 健康问答能力追平前沿 Thinking 模型",
+        "url": "https://x.com/gdb/status/2067675030335668270",
+        "source": "X：Greg Brockman (@gdb)",
+        "source_name": "AI HOT"
       }
     },
     {
@@ -1093,15 +953,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7678,
-      "importance": 0.7678,
-      "importance_score": 0.7678,
+      "score": 0.7641,
+      "importance": 0.7641,
+      "importance_score": 0.7641,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8621,
+        "recency": 0.8417,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -1155,15 +1015,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7656,
-      "importance": 0.7656,
-      "importance_score": 0.7656,
+      "score": 0.7617,
+      "importance": 0.7617,
+      "importance_score": 0.7617,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.77,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9054,
+        "recency": 0.884,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1216,15 +1076,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7642,
-      "importance": 0.7642,
-      "importance_score": 0.7642,
+      "score": 0.7608,
+      "importance": 0.7608,
+      "importance_score": 0.7608,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.82,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8146,
+        "recency": 0.7953,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1277,15 +1137,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7567,
-      "importance": 0.7567,
-      "importance_score": 0.7567,
+      "score": 0.7527,
+      "importance": 0.7527,
+      "importance_score": 0.7527,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9392,
+        "recency": 0.917,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1338,21 +1198,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7524,
-      "importance": 0.7524,
-      "importance_score": 0.7524,
+      "score": 0.749,
+      "importance": 0.749,
+      "importance_score": 0.749,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.79,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.799,
+        "recency": 0.7801,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-06-18T07:43:21Z",
       "latest_at": "2026-06-18T07:43:21Z",
@@ -1365,68 +1224,130 @@
       }
     },
     {
-      "story_id": "story_c8386c0cd6ca",
-      "title": "GLM-5.2：可能是最强大的纯文本开源权重大语言模型",
-      "url": "https://simonwillison.net/2026/Jun/17/glm-52",
-      "primary_url": "https://simonwillison.net/2026/Jun/17/glm-52",
-      "source": "Simon Willison 博客",
+      "story_id": "story_33dd1d19c265",
+      "title": "检测重复问题 – 公共预览版和问题字段 MCP 对 GitHub 问题的支持 / Detecting Duplicate Issues – Public Preview and issue fields MCP support for GitHub Issues",
+      "url": "https://github.blog/changelog/2026-06-18-duplicate-detection-and-issue-fields-mcp-support-for-github-issues",
+      "primary_url": "https://github.blog/changelog/2026-06-18-duplicate-detection-and-issue-fields-mcp-support-for-github-issues",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "b7220a3a5665e6b0369b14118a53f9a409679b1d",
+          "title": "检测重复问题 – 公共预览版和问题字段 MCP 对 GitHub 问题的支持 / Detecting Duplicate Issues – Public Preview and issue fields MCP support for GitHub Issues",
+          "url": "https://github.blog/changelog/2026-06-18-duplicate-detection-and-issue-fields-mcp-support-for-github-issues",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-18T18:04:33Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "items": [
+        {
+          "id": "b7220a3a5665e6b0369b14118a53f9a409679b1d",
+          "title": "检测重复问题 – 公共预览版和问题字段 MCP 对 GitHub 问题的支持 / Detecting Duplicate Issues – Public Preview and issue fields MCP support for GitHub Issues",
+          "url": "https://github.blog/changelog/2026-06-18-duplicate-detection-and-issue-fields-mcp-support-for-github-issues",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-18T18:04:33Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8351,
+      "importance": 0.8351,
+      "importance_score": 0.8351,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.906,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-18T18:04:33Z",
+      "latest_at": "2026-06-18T18:04:33Z",
+      "primary_item": {
+        "id": "b7220a3a5665e6b0369b14118a53f9a409679b1d",
+        "title": "检测重复问题 – 公共预览版和问题字段 MCP 对 GitHub 问题的支持 / Detecting Duplicate Issues – Public Preview and issue fields MCP support for GitHub Issues",
+        "url": "https://github.blog/changelog/2026-06-18-duplicate-detection-and-issue-fields-mcp-support-for-github-issues",
+        "source": "GitHub Changelog",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_04102f06967f",
+      "title": "AI数据中心获政府强制电网快车道",
+      "url": "https://techcrunch.com/2026/06/18/ai-data-centers-just-got-a-government-mandated-fast-lane-to-the-grid",
+      "primary_url": "https://techcrunch.com/2026/06/18/ai-data-centers-just-got-a-government-mandated-fast-lane-to-the-grid",
+      "source": "TechCrunch：AI（RSS）",
       "source_name": "AI HOT",
       "sources": [
         {
-          "id": "9535061c2634d6da96455d5541fb670fd54a175d",
-          "title": "GLM-5.2：可能是最强大的纯文本开源权重大语言模型",
-          "url": "https://simonwillison.net/2026/Jun/17/glm-52",
-          "source": "Simon Willison 博客",
+          "id": "776428020e6d5ff0ea46776e3abaa17a6c025c8e",
+          "title": "AI数据中心获政府强制电网快车道",
+          "url": "https://techcrunch.com/2026/06/18/ai-data-centers-just-got-a-government-mandated-fast-lane-to-the-grid",
+          "source": "TechCrunch：AI（RSS）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-06-17T23:58:39Z"
+          "published_at": "2026-06-18T17:49:23Z"
         },
         {
-          "id": "ab46d58ce76d4869a04d92c5b29b08a5b4f0ba4c",
-          "title": "GLM-5.2：可能是最强大的纯文本开源权重大语言模型 / GLM-5.2 is probably the most powerful text-only open weights LLM",
-          "url": "https://simonwillison.net/2026/Jun/17/glm-52",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-18T15:58:09Z"
+          "id": "3d52b11d73d39a549a9efb1d5959ab642679ad49",
+          "title": "AI数据中心获政府强制电网快车道 / AI data centers just got a government-mandated fast lane to the grid",
+          "url": "https://techcrunch.com/2026/06/18/ai-data-centers-just-got-a-government-mandated-fast-lane-to-the-grid",
+          "source": "TechCrunch",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-18T17:49:23Z"
         }
       ],
       "source_count": 2,
       "source_names": [
-        "Hacker News · 24h最热",
-        "Simon Willison 博客"
+        "TechCrunch",
+        "TechCrunch：AI（RSS）"
       ],
       "items": [
         {
-          "id": "9535061c2634d6da96455d5541fb670fd54a175d",
-          "title": "GLM-5.2：可能是最强大的纯文本开源权重大语言模型",
-          "url": "https://simonwillison.net/2026/Jun/17/glm-52",
-          "source": "Simon Willison 博客",
+          "id": "776428020e6d5ff0ea46776e3abaa17a6c025c8e",
+          "title": "AI数据中心获政府强制电网快车道",
+          "url": "https://techcrunch.com/2026/06/18/ai-data-centers-just-got-a-government-mandated-fast-lane-to-the-grid",
+          "source": "TechCrunch：AI（RSS）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-06-17T23:58:39Z"
+          "published_at": "2026-06-18T17:49:23Z"
         },
         {
-          "id": "ab46d58ce76d4869a04d92c5b29b08a5b4f0ba4c",
-          "title": "GLM-5.2：可能是最强大的纯文本开源权重大语言模型 / GLM-5.2 is probably the most powerful text-only open weights LLM",
-          "url": "https://simonwillison.net/2026/Jun/17/glm-52",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-18T15:58:09Z"
+          "id": "3d52b11d73d39a549a9efb1d5959ab642679ad49",
+          "title": "AI数据中心获政府强制电网快车道 / AI data centers just got a government-mandated fast lane to the grid",
+          "url": "https://techcrunch.com/2026/06/18/ai-data-centers-just-got-a-government-mandated-fast-lane-to-the-grid",
+          "source": "TechCrunch",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-18T17:49:23Z"
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7502,
-      "importance": 0.7502,
-      "importance_score": 0.7502,
+      "score": 0.7691,
+      "importance": 0.7691,
+      "importance_score": 0.7691,
       "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.75,
+        "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7145,
+        "recency": 0.9027,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -1435,74 +1356,74 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-06-17T23:58:39Z",
-      "latest_at": "2026-06-18T15:58:09Z",
+      "earliest_at": "2026-06-18T17:49:23Z",
+      "latest_at": "2026-06-18T17:49:23Z",
       "primary_item": {
-        "id": "9535061c2634d6da96455d5541fb670fd54a175d",
-        "title": "GLM-5.2：可能是最强大的纯文本开源权重大语言模型",
-        "url": "https://simonwillison.net/2026/Jun/17/glm-52",
-        "source": "Simon Willison 博客",
+        "id": "776428020e6d5ff0ea46776e3abaa17a6c025c8e",
+        "title": "AI数据中心获政府强制电网快车道",
+        "url": "https://techcrunch.com/2026/06/18/ai-data-centers-just-got-a-government-mandated-fast-lane-to-the-grid",
+        "source": "TechCrunch：AI（RSS）",
         "source_name": "AI HOT"
       }
     },
     {
-      "story_id": "story_04a759c248a1",
-      "title": "Noam Shazeer 离开 Google 加入 OpenAI",
-      "url": "https://x.com/Yuchenj_UW/status/2067401895178817999",
-      "primary_url": "https://x.com/Yuchenj_UW/status/2067401895178817999",
-      "source": "X：Yuchen Jin (@Yuchenj_UW)",
-      "source_name": "AI HOT",
+      "story_id": "story_c24c0753ac40",
+      "title": "联想推出百应AI主机300：赋能中小企业的“算力加速器”",
+      "url": "https://www.aibase.com/news/29022",
+      "primary_url": "https://www.aibase.com/news/29022",
+      "source": "AIbase",
+      "source_name": "AIbase",
       "sources": [
         {
-          "id": "55fdb216ac5e095966218c5a0e01dbce083de39e",
-          "title": "Noam Shazeer 离开 Google 加入 OpenAI",
-          "url": "https://x.com/Yuchenj_UW/status/2067401895178817999",
-          "source": "X：Yuchen Jin (@Yuchenj_UW)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-18T00:19:56Z"
+          "id": "365f870b0a6035e75993f72f6e555cdc126da20c",
+          "title": "联想推出百应AI主机300：赋能中小企业的“算力加速器”",
+          "url": "https://www.aibase.com/news/29022",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-18T12:46:53.809416Z"
         }
       ],
       "source_count": 1,
       "source_names": [
-        "X：Yuchen Jin (@Yuchenj_UW)"
+        "AIbase"
       ],
       "items": [
         {
-          "id": "55fdb216ac5e095966218c5a0e01dbce083de39e",
-          "title": "Noam Shazeer 离开 Google 加入 OpenAI",
-          "url": "https://x.com/Yuchenj_UW/status/2067401895178817999",
-          "source": "X：Yuchen Jin (@Yuchenj_UW)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-18T00:19:56Z"
+          "id": "365f870b0a6035e75993f72f6e555cdc126da20c",
+          "title": "联想推出百应AI主机300：赋能中小企业的“算力加速器”",
+          "url": "https://www.aibase.com/news/29022",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-18T12:46:53.809416Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7469,
-      "importance": 0.7469,
-      "importance_score": 0.7469,
+      "score": 0.7387,
+      "importance": 0.7387,
+      "importance_score": 0.7387,
       "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.82,
+        "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7181,
+        "recency": 0.8393,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
         "high_ai_relevance"
       ],
-      "earliest_at": "2026-06-18T00:19:56Z",
-      "latest_at": "2026-06-18T00:19:56Z",
+      "earliest_at": "2026-06-18T12:46:53.809416Z",
+      "latest_at": "2026-06-18T12:46:53.809416Z",
       "primary_item": {
-        "id": "55fdb216ac5e095966218c5a0e01dbce083de39e",
-        "title": "Noam Shazeer 离开 Google 加入 OpenAI",
-        "url": "https://x.com/Yuchenj_UW/status/2067401895178817999",
-        "source": "X：Yuchen Jin (@Yuchenj_UW)",
-        "source_name": "AI HOT"
+        "id": "365f870b0a6035e75993f72f6e555cdc126da20c",
+        "title": "联想推出百应AI主机300：赋能中小企业的“算力加速器”",
+        "url": "https://www.aibase.com/news/29022",
+        "source": "AIbase",
+        "source_name": "AIbase"
       }
     }
   ]
