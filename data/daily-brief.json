@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-19T17:49:02.975775Z",
+  "generated_at": "2026-06-19T19:28:53.711102Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -38,15 +38,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8483,
-      "importance": 0.8483,
-      "importance_score": 0.8483,
+      "score": 0.8441,
+      "importance": 0.8441,
+      "importance_score": 0.8441,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.9796,
+        "recency": 0.9564,
         "story_heat": 0.0
       },
       "category": "official",
@@ -100,15 +100,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8393,
-      "importance": 0.8393,
-      "importance_score": 0.8393,
+      "score": 0.8352,
+      "importance": 0.8352,
+      "importance_score": 0.8352,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.9741,
+        "recency": 0.951,
         "story_heat": 0.0
       },
       "category": "official",
@@ -200,15 +200,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.7886,
-      "importance": 0.7886,
-      "importance_score": 0.7886,
+      "score": 0.7853,
+      "importance": 0.7853,
+      "importance_score": 0.7853,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.76,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7724,
+        "recency": 0.7541,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -262,15 +262,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7795,
-      "importance": 0.7795,
-      "importance_score": 0.7795,
+      "score": 0.7756,
+      "importance": 0.7756,
+      "importance_score": 0.7756,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.81,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.916,
+        "recency": 0.8943,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -285,6 +285,67 @@
         "title": "OpenAI 将前沿健康 AI 能力迁移至免费版 GPT-5.5 Instant",
         "url": "https://x.com/rohanpaul_ai/status/2067936581441528040",
         "source": "X：Rohan Paul (@rohanpaul_ai)",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_e44d6b51ecd0",
+      "title": "baoyu-design Skill迭代：修复导出样式与渐变丢失问题，支持AI配图导出PPTX",
+      "url": "https://x.com/dotey/status/2068042001895809420",
+      "primary_url": "https://x.com/dotey/status/2068042001895809420",
+      "source": "X：宝玉 (@dotey)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "da95674991774ad868431c3b8238fa6f8a200496",
+          "title": "baoyu-design Skill迭代：修复导出样式与渐变丢失问题，支持AI配图导出PPTX",
+          "url": "https://x.com/dotey/status/2068042001895809420",
+          "source": "X：宝玉 (@dotey)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-19T18:43:30Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "X：宝玉 (@dotey)"
+      ],
+      "items": [
+        {
+          "id": "da95674991774ad868431c3b8238fa6f8a200496",
+          "title": "baoyu-design Skill迭代：修复导出样式与渐变丢失问题，支持AI配图导出PPTX",
+          "url": "https://x.com/dotey/status/2068042001895809420",
+          "source": "X：宝玉 (@dotey)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-19T18:43:30Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7746,
+      "importance": 0.7746,
+      "importance_score": 0.7746,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.75,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9891,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-19T18:43:30Z",
+      "latest_at": "2026-06-19T18:43:30Z",
+      "primary_item": {
+        "id": "da95674991774ad868431c3b8238fa6f8a200496",
+        "title": "baoyu-design Skill迭代：修复导出样式与渐变丢失问题，支持AI配图导出PPTX",
+        "url": "https://x.com/dotey/status/2068042001895809420",
+        "source": "X：宝玉 (@dotey)",
         "source_name": "AI HOT"
       }
     },
@@ -323,15 +384,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8037,
-      "importance": 0.8037,
-      "importance_score": 0.8037,
+      "score": 0.8006,
+      "importance": 0.8006,
+      "importance_score": 0.8006,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.7318,
+        "recency": 0.7144,
         "story_heat": 0.0
       },
       "category": "official",
@@ -404,15 +465,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7669,
-      "importance": 0.7669,
-      "importance_score": 0.7669,
+      "score": 0.7635,
+      "importance": 0.7635,
+      "importance_score": 0.7635,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.76,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7907,
+        "recency": 0.7719,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -466,15 +527,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.764,
-      "importance": 0.764,
-      "importance_score": 0.764,
+      "score": 0.7601,
+      "importance": 0.7601,
+      "importance_score": 0.7601,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9303,
+        "recency": 0.9082,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -527,15 +588,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7633,
-      "importance": 0.7633,
-      "importance_score": 0.7633,
+      "score": 0.7591,
+      "importance": 0.7591,
+      "importance_score": 0.7591,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9758,
+        "recency": 0.9527,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -588,15 +649,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7629,
-      "importance": 0.7629,
-      "importance_score": 0.7629,
+      "score": 0.7591,
+      "importance": 0.7591,
+      "importance_score": 0.7591,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.77,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8908,
+        "recency": 0.8696,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -649,15 +710,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7578,
-      "importance": 0.7578,
-      "importance_score": 0.7578,
+      "score": 0.7543,
+      "importance": 0.7543,
+      "importance_score": 0.7543,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.79,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8289,
+        "recency": 0.8092,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -672,86 +733,6 @@
         "title": "阿里开源向量数据库Zvec，UCSD黄碧薇教授提出因果AI第四代范式",
         "url": "https://x.com/AYi_AInotes/status/2067832098816250346",
         "source": "X：阿易 AI Notes (@AYi_AInotes)",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_e9b8182dcfcc",
-      "title": "MosaicLeaks： 你的研究智能体能保守秘密吗？",
-      "url": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
-      "primary_url": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
-      "source": "Hugging Face：Blog（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "6b81fd25d76369e339928bdb42fb249317bc7562",
-          "title": "MosaicLeaks： 你的研究智能体能保守秘密吗？",
-          "url": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
-          "source": "Hugging Face：Blog（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-18T18:13:13Z"
-        },
-        {
-          "id": "d0106427ce893facd394e3dbb4e7a5f5600bbbf4",
-          "title": "MosaicLeaks： 你的研究智能体能保守秘密吗？ / MosaicLeaks: Can your research agent keep a secret?",
-          "url": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
-          "source": "Hugging Face Blog",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-18T18:13:13Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hugging Face Blog",
-        "Hugging Face：Blog（RSS）"
-      ],
-      "items": [
-        {
-          "id": "6b81fd25d76369e339928bdb42fb249317bc7562",
-          "title": "MosaicLeaks： 你的研究智能体能保守秘密吗？",
-          "url": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
-          "source": "Hugging Face：Blog（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-18T18:13:13Z"
-        },
-        {
-          "id": "d0106427ce893facd394e3dbb4e7a5f5600bbbf4",
-          "title": "MosaicLeaks： 你的研究智能体能保守秘密吗？ / MosaicLeaks: Can your research agent keep a secret?",
-          "url": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
-          "source": "Hugging Face Blog",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-18T18:13:13Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7496,
-      "importance": 0.7496,
-      "importance_score": 0.7496,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.75,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7112,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-18T18:13:13Z",
-      "latest_at": "2026-06-18T18:13:13Z",
-      "primary_item": {
-        "id": "6b81fd25d76369e339928bdb42fb249317bc7562",
-        "title": "MosaicLeaks： 你的研究智能体能保守秘密吗？",
-        "url": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
-        "source": "Hugging Face：Blog（RSS）",
         "source_name": "AI HOT"
       }
     },
@@ -790,15 +771,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8031,
-      "importance": 0.8031,
-      "importance_score": 0.8031,
+      "score": 0.7998,
+      "importance": 0.7998,
+      "importance_score": 0.7998,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.7729,
+        "recency": 0.7545,
         "story_heat": 0.0
       },
       "category": "official",
@@ -852,15 +833,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7414,
-      "importance": 0.7414,
-      "importance_score": 0.7414,
+      "score": 0.7379,
+      "importance": 0.7379,
+      "importance_score": 0.7379,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8043,
+        "recency": 0.7852,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -912,15 +893,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.74,
-      "importance": 0.74,
-      "importance_score": 0.74,
+      "score": 0.7366,
+      "importance": 0.7366,
+      "importance_score": 0.7366,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.74,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8136,
+        "recency": 0.7943,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -991,15 +972,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7379,
-      "importance": 0.7379,
-      "importance_score": 0.7379,
+      "score": 0.7348,
+      "importance": 0.7348,
+      "importance_score": 0.7348,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7296,
+        "recency": 0.7123,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -1014,66 +995,6 @@
         "title": "OpenAI IPO前连下两城：招揽Transformer共同作者及前白宫AI政策官员",
         "url": "https://techcrunch.com/2026/06/18/openai-is-bringing-on-some-big-guns-in-the-lead-up-to-its-ipo",
         "source": "TechCrunch：AI（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_6af7d56269b0",
-      "title": "OpenAI 联合多国医生：GPT-5.5 Instant 健康问答能力追平前沿 Thinking 模型",
-      "url": "https://x.com/gdb/status/2067675030335668270",
-      "primary_url": "https://x.com/gdb/status/2067675030335668270",
-      "source": "X：Greg Brockman (@gdb)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "6d956423cd97153f9bd0b2279d9bffb058cf9173",
-          "title": "OpenAI 联合多国医生：GPT-5.5 Instant 健康问答能力追平前沿 Thinking 模型",
-          "url": "https://x.com/gdb/status/2067675030335668270",
-          "source": "X：Greg Brockman (@gdb)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-18T18:25:17Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：Greg Brockman (@gdb)"
-      ],
-      "items": [
-        {
-          "id": "6d956423cd97153f9bd0b2279d9bffb058cf9173",
-          "title": "OpenAI 联合多国医生：GPT-5.5 Instant 健康问答能力追平前沿 Thinking 模型",
-          "url": "https://x.com/gdb/status/2067675030335668270",
-          "source": "X：Greg Brockman (@gdb)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-18T18:25:17Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.737,
-      "importance": 0.737,
-      "importance_score": 0.737,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.79,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7133,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-18T18:25:17Z",
-      "latest_at": "2026-06-18T18:25:17Z",
-      "primary_item": {
-        "id": "6d956423cd97153f9bd0b2279d9bffb058cf9173",
-        "title": "OpenAI 联合多国医生：GPT-5.5 Instant 健康问答能力追平前沿 Thinking 模型",
-        "url": "https://x.com/gdb/status/2067675030335668270",
-        "source": "X：Greg Brockman (@gdb)",
         "source_name": "AI HOT"
       }
     },
@@ -1112,15 +1033,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7619,
-      "importance": 0.7619,
-      "importance_score": 0.7619,
+      "score": 0.7587,
+      "importance": 0.7587,
+      "importance_score": 0.7587,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.86,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7349,
+        "recency": 0.7175,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1173,15 +1094,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7288,
-      "importance": 0.7288,
-      "importance_score": 0.7288,
+      "score": 0.7246,
+      "importance": 0.7246,
+      "importance_score": 0.7246,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.6,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9847,
+        "recency": 0.9613,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1233,15 +1154,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7255,
-      "importance": 0.7255,
-      "importance_score": 0.7255,
+      "score": 0.7215,
+      "importance": 0.7215,
+      "importance_score": 0.7215,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.62,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9328,
+        "recency": 0.9106,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1293,15 +1214,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.747,
-      "importance": 0.747,
-      "importance_score": 0.747,
+      "score": 0.7435,
+      "importance": 0.7435,
+      "importance_score": 0.7435,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.76,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8189,
+        "recency": 0.7994,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1315,6 +1236,66 @@
         "title": "DeepSeek研究员开源AutoResearch：AI自主跑通285B模型RL研究闭环",
         "url": "https://x.com/AYi_AInotes/status/2067819352926150953",
         "source": "X：阿易 AI Notes (@AYi_AInotes)",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_f1c46e9ab12a",
+      "title": "AI 员工 Viktor 登陆 Microsoft Teams，年化收入达 2000 万美元",
+      "url": "https://x.com/rohanpaul_ai/status/2067755504613613699",
+      "primary_url": "https://x.com/rohanpaul_ai/status/2067755504613613699",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "d059bbe93c69bc3f33ffaef1aec7a92e694c1d7a",
+          "title": "AI 员工 Viktor 登陆 Microsoft Teams，年化收入达 2000 万美元",
+          "url": "https://x.com/rohanpaul_ai/status/2067755504613613699",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-18T23:45:03Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "X：Rohan Paul (@rohanpaul_ai)"
+      ],
+      "items": [
+        {
+          "id": "d059bbe93c69bc3f33ffaef1aec7a92e694c1d7a",
+          "title": "AI 员工 Viktor 登陆 Microsoft Teams，年化收入达 2000 万美元",
+          "url": "https://x.com/rohanpaul_ai/status/2067755504613613699",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-18T23:45:03Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.732,
+      "importance": 0.732,
+      "importance_score": 0.732,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.75,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7521,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-06-18T23:45:03Z",
+      "latest_at": "2026-06-18T23:45:03Z",
+      "primary_item": {
+        "id": "d059bbe93c69bc3f33ffaef1aec7a92e694c1d7a",
+        "title": "AI 员工 Viktor 登陆 Microsoft Teams，年化收入达 2000 万美元",
+        "url": "https://x.com/rohanpaul_ai/status/2067755504613613699",
+        "source": "X：Rohan Paul (@rohanpaul_ai)",
         "source_name": "AI HOT"
       }
     }
