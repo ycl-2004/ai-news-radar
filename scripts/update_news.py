@@ -2593,6 +2593,8 @@ SOURCE_TIER_BY_SITE: dict[str, tuple[str, str, int]] = {
     "waytoagi": ("community", "社区更新", 2),
     "followbuilders": ("builders", "Builders/X源", 2),
     "opmlrss": ("user_opml", "RSS/OPML", 3),
+    "tikhub_douyin": ("self_media", "自媒体源", 4),
+    "tikhub_xiaohongshu": ("self_media", "自媒体源", 4),
     "xapi": ("advanced", "高级源", 4),
     "socialdata_x": ("advanced", "高级源", 4),
     "techurls": ("discussion", "热议参考", 5),
@@ -2610,6 +2612,7 @@ SOURCE_TIER_IMPORTANCE = {
     "community": 0.54,
     "builders": 0.62,
     "user_opml": 0.5,
+    "self_media": 0.48,
     "advanced": 0.45,
     "discussion": 0.32,
     "other": 0.25,
@@ -3352,13 +3355,17 @@ def tikhub_status_base(now: datetime) -> dict[str, Any]:
     daily_limit = max(0, env_int("TIKHUB_DAILY_ITEM_LIMIT", TIKHUB_DEFAULT_MAX_RESULTS))
     max_results = max(1, min(env_int("TIKHUB_MAX_RESULTS", TIKHUB_DEFAULT_MAX_RESULTS), 100))
     effective_cap = min(max_results, daily_limit) if daily_limit else 0
+    enabled = env_flag("TIKHUB_ENABLED")
+    force_run = env_flag("TIKHUB_FORCE_RUN")
+    api_key_present = bool(str(os.environ.get("TIKHUB_API_KEY") or "").strip())
     platforms = [
         part.strip().lower()
         for part in str(os.environ.get("TIKHUB_PLATFORMS") or TIKHUB_DEFAULT_PLATFORMS).split(",")
         if part.strip()
     ]
     return {
-        "enabled": env_flag("TIKHUB_ENABLED"),
+        "enabled": enabled or (force_run and api_key_present),
+        "enabled_by": "force_run" if (not enabled and force_run and api_key_present) else ("explicit" if enabled else "disabled"),
         "ok": None,
         "item_count": 0,
         "privacy": "public_social_posts_metadata_only",

@@ -69,6 +69,8 @@ const SOURCE_KINDS = {
   followbuilders: { label: "Builders/X", tone: "builders" },
   xapi: { label: "X API", tone: "builders" },
   socialdata_x: { label: "X 搜索", tone: "builders" },
+  tikhub_douyin: { label: "抖音", tone: "creator" },
+  tikhub_xiaohongshu: { label: "小红书", tone: "creator" },
   techurls: { label: "聚合", tone: "aggregate" },
   buzzing: { label: "聚合", tone: "aggregate" },
   iris: { label: "聚合", tone: "aggregate" },
@@ -89,6 +91,7 @@ const SECTION_DEFS = [
   { id: "devtools", label: "开发者", short: "开发者", description: "编程工具、API、开源项目、推理与工程实践" },
   { id: "industry", label: "行业", short: "行业", description: "公司战略、融资收购、监管、芯片与产业变化" },
   { id: "research", label: "研究", short: "研究", description: "论文、基准、方法、数据集与研究团队动态" },
+  { id: "creator", label: "自媒体", short: "自媒体", description: "抖音、小红书等自媒体平台上的 AI 创作者内容" },
   { id: "community", label: "社区", short: "社区", description: "WaytoAGI、中文社区、AIbase、公众号和 Builders/X 信号" },
 ];
 
@@ -152,6 +155,7 @@ function sourceSignalTone(signal) {
   const text = String(signal || "").toLowerCase();
   if (text.includes("官方") || text.includes("official")) return "official";
   if (text.includes("ai hot") || text.includes("精选")) return "hot";
+  if (text.includes("自媒体") || text.includes("tikhub") || text.includes("douyin") || text.includes("xiaohongshu") || text.includes("抖音") || text.includes("小红书")) return "creator";
   if (text.includes("builders") || text.includes("github") || text.includes("x")) return "builders";
   if (text.includes("aihub") || text.includes("aibase") || text.includes("媒体")) return "aihub";
   if (text.includes("hn") || text.includes("hacker") || text.includes("聚合")) return "aggregate";
@@ -215,6 +219,7 @@ function renderCoverageStrip(errorMessage = "") {
   const newsletterCount = Number(siteRow("aibreakfast")?.item_count || 0);
   const curatedMediaCount = Number(siteRow("curated_media")?.item_count || 0);
   const buildersCount = Number(siteRow("followbuilders")?.item_count || 0);
+  const creatorCount = Number(siteRow("tikhub_douyin")?.item_count || 0) + Number(siteRow("tikhub_xiaohongshu")?.item_count || 0);
   const totalSites = rows.length;
   const okSites = Number(state.sourceStatus?.successful_sites || 0);
   const opmlValue = rss.enabled ? `${fmtNumber(rss.ok_feeds || 0)}/${fmtNumber(rss.effective_feed_total || 0)}` : "OPML";
@@ -236,6 +241,7 @@ function renderCoverageStrip(errorMessage = "") {
     ["官方/日报源池", `${fmtNumber(officialCount + newsletterCount)} 条`, "官方节点 + AI Breakfast", "official"],
     ["精选媒体源池", `${fmtNumber(curatedMediaCount)} 条`, "The Decoder / TC / Verge / MTP 等", "signal"],
     ["Builders/X源池", `${fmtNumber(buildersCount)} 条`, "Follow Builders公开feed", "builders"],
+    ["自媒体源池", `${fmtNumber(creatorCount)} 条`, "TikHub · 抖音 + 小红书", "creator"],
     ["RSS/OPML扩展", opmlValue, opmlMeta, "private"],
     ["高级源", "X / Mail", advancedMeta, "private"],
   ];
@@ -495,6 +501,7 @@ function itemLabelTone(item) {
   const label = item.ai_label || "";
   if (item.site_id === "official_ai") return "official";
   if (item.site_id === "aihot" || label === "curated_hotlist") return "hot";
+  if (itemSections(item).has("creator")) return "creator";
   if (label === "model_release") return "models";
   if (label === "developer_tool" || label === "developer_tooling" || label === "infrastructure" || label === "infra_compute") return "devtools";
   if (label === "research_paper") return "research";
@@ -512,6 +519,7 @@ function itemTagTone(label) {
   if (text.includes("模型")) return "models";
   if (text.includes("开发")) return "devtools";
   if (text.includes("研究")) return "research";
+  if (text.includes("自媒体")) return "creator";
   if (text.includes("社区")) return "community";
   if (text.includes("产品")) return "products";
   if (text.includes("行业")) return "industry";
@@ -668,6 +676,15 @@ function itemSections(item) {
   ) sections.add("research");
 
   if (
+    item.site_id === "tikhub_douyin" ||
+    item.site_id === "tikhub_xiaohongshu" ||
+    source.includes("douyin") ||
+    source.includes("xiaohongshu") ||
+    source.includes("小红书") ||
+    source.includes("抖音")
+  ) sections.add("creator");
+
+  if (
     item.site_id === "waytoagi" ||
     item.site_id === "followbuilders" ||
     item.site_id === "aibase" ||
@@ -810,6 +827,8 @@ function sourceSignal(item) {
   if (source.includes("GitHub · Trending Today") || hay.includes("github")) return "GitHub趋势";
   if (site === "Official AI Updates") return "官方更新";
   if (site === "Follow Builders") return "Builders";
+  if (site === "TikHub Douyin" || hay.includes("tikhub douyin")) return "抖音自媒体";
+  if (site === "TikHub Xiaohongshu" || hay.includes("tikhub xiaohongshu")) return "小红书自媒体";
   if (site === "AIbase") return "AIbase";
   if (site === "OPML RSS") return "OPML";
   return site || "来源";
@@ -821,6 +840,7 @@ function sourcePriority(item) {
   if (signal === "AI HOT精选") return 90;
   if (signal === "AIbase") return 82;
   if (signal === "Builders") return 74;
+  if (signal === "抖音自媒体" || signal === "小红书自媒体") return 70;
   if (signal === "OPML") return 68;
   if (signal === "HN热议" || signal === "GitHub趋势") return 62;
   return 50;
@@ -1439,6 +1459,7 @@ function itemTagLabels(item, row = null) {
   if (sections.has("models")) tags.push("模型发布");
   if (sections.has("devtools")) tags.push("开发者");
   if (sections.has("research")) tags.push("研究");
+  if (sections.has("creator")) tags.push("自媒体");
   if (sections.has("community")) tags.push("社区");
   return Array.from(new Set(tags)).slice(0, 5);
 }
