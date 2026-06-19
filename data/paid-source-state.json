@@ -1,4 +1,17 @@
 {
   "schema_version": 1,
-  "sources": {}
+  "sources": {
+    "socialdata": {
+      "last_run_at": "2026-06-19T14:06:17.488483Z",
+      "last_ok": true,
+      "last_item_count": 100,
+      "last_success_at": "2026-06-19T14:06:17.488483Z"
+    },
+    "tikhub": {
+      "last_run_at": "2026-06-19T14:06:17.488483Z",
+      "last_ok": true,
+      "last_item_count": 100,
+      "last_success_at": "2026-06-19T14:06:17.488483Z"
+    }
+  }
 }

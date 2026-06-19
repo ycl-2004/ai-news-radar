@@ -801,6 +801,88 @@ class TopicFilterTests(unittest.TestCase):
         self.assertEqual(kwargs["headers"]["Authorization"], "Bearer test")
         self.assertEqual(kwargs["params"]["type"], "Latest")
 
+    def test_socialdata_paginates_until_result_cap(self):
+        class FakeResponse:
+            def __init__(self, payload):
+                self.payload = payload
+
+            def raise_for_status(self):
+                return None
+
+            def json(self):
+                return self.payload
+
+        class FakeSession:
+            def __init__(self):
+                self.calls = []
+
+            def get(self, url, **kwargs):
+                self.calls.append((url, kwargs))
+                if "cursor" not in kwargs["params"]:
+                    return FakeResponse(
+                        {
+                            "next_cursor": "CURSOR_2",
+                            "tweets": [
+                                {
+                                    "id_str": "1",
+                                    "full_text": "AI search result one",
+                                    "tweet_created_at": "2026-05-03T00:00:00.000000Z",
+                                    "user": {"screen_name": "builder"},
+                                },
+                                {
+                                    "id_str": "2",
+                                    "full_text": "AI search result two",
+                                    "tweet_created_at": "2026-05-03T00:01:00.000000Z",
+                                    "user": {"screen_name": "builder"},
+                                },
+                            ],
+                        }
+                    )
+                return FakeResponse(
+                    {
+                        "next_cursor": None,
+                        "tweets": [
+                            {
+                                "id_str": "3",
+                                "full_text": "AI search result three",
+                                "tweet_created_at": "2026-05-03T00:02:00.000000Z",
+                                "user": {"screen_name": "builder"},
+                            },
+                            {
+                                "id_str": "4",
+                                "full_text": "Beyond configured cap",
+                                "tweet_created_at": "2026-05-03T00:03:00.000000Z",
+                                "user": {"screen_name": "builder"},
+                            },
+                        ],
+                    }
+                )
+
+        session = FakeSession()
+        env = {
+            "SOCIALDATA_ENABLED": "1",
+            "SOCIALDATA_API_KEY": "test",
+            "SOCIALDATA_FORCE_RUN": "1",
+            "SOCIALDATA_MAX_RESULTS": "3",
+            "SOCIALDATA_DAILY_TWEET_LIMIT": "3",
+        }
+        with patch.dict("os.environ", env, clear=True):
+            items, status = maybe_fetch_socialdata_updates(
+                session,
+                __import__("datetime").datetime.fromisoformat("2026-05-03T01:00:00+00:00"),
+            )
+
+        self.assertEqual([item.url for item in items], [
+            "https://x.com/builder/status/1",
+            "https://x.com/builder/status/2",
+            "https://x.com/builder/status/3",
+        ])
+        self.assertEqual(status["item_count"], 3)
+        self.assertEqual(status["diagnostics"]["page_count"], 2)
+        self.assertEqual(status["diagnostics"]["cursor_request_count"], 1)
+        self.assertTrue(status["diagnostics"]["reached_result_cap"])
+        self.assertEqual(session.calls[1][1]["params"]["cursor"], "CURSOR_2")
+
     def test_socialdata_empty_response_records_diagnostics(self):
         class FakeResponse:
             def raise_for_status(self):
@@ -998,6 +1080,22 @@ class TopicFilterTests(unittest.TestCase):
 
             def get(self, url, **kwargs):
                 self.calls.append(("GET", url, kwargs))
+                if "/web_v3/fetch_search_notes" in url:
+                    return FakeResponse(
+                        {
+                            "data": {
+                                "items": [
+                                    {
+                                        "id": "xhs-web",
+                                        "note_card": {
+                                            "display_title": "Web 端 AI 工具更新",
+                                            "user": {"nickname": "小红书Web"},
+                                        },
+                                    }
+                                ]
+                            }
+                        }
+                    )
                 return FakeResponse(
                     {
                         "data": {
@@ -1020,13 +1118,19 @@ class TopicFilterTests(unittest.TestCase):
             api_key="test",
             query="AI",
             now=__import__("datetime").datetime.fromisoformat("2026-05-03T01:00:00+00:00"),
-            max_results=2,
+            max_results=4,
             platforms=["douyin", "xiaohongshu"],
         )
-        self.assertEqual([item.site_id for item in items], ["tikhub_douyin", "tikhub_xiaohongshu"])
-        self.assertEqual([call[0] for call in session.calls], ["POST", "GET"])
+        self.assertEqual([item.site_id for item in items], ["tikhub_douyin", "tikhub_xiaohongshu", "tikhub_xiaohongshu"])
+        self.assertEqual([item.meta["search_surface"] for item in items], [
+            "douyin_general_v2",
+            "xiaohongshu_app_v2",
+            "xiaohongshu_web_v3",
+        ])
+        self.assertEqual([call[0] for call in session.calls], ["POST", "GET", "GET"])
         self.assertIn("/api/v1/xiaohongshu/app_v2/search_notes", session.calls[1][1])
-        self.assertEqual(diagnostics["mapped_item_count"], 2)
+        self.assertIn("/api/v1/xiaohongshu/web_v3/fetch_search_notes", session.calls[2][1])
+        self.assertEqual(diagnostics["mapped_item_count"], 3)
 
     def test_fetch_tikhub_search_falls_back_to_xiaohongshu_web_v3(self):
         class FakeResponse:
@@ -1079,6 +1183,108 @@ class TopicFilterTests(unittest.TestCase):
             "https://api.tikhub.io/api/v1/xiaohongshu/web_v3/fetch_search_notes",
         ])
         self.assertEqual(diagnostics["requests"][0]["fallback_reason"], "no_items_mapped_try_web_v3")
+
+    def test_fetch_tikhub_search_dedupes_xiaohongshu_app_and_web_results(self):
+        class FakeResponse:
+            def __init__(self, payload):
+                self.payload = payload
+
+            def raise_for_status(self):
+                return None
+
+            def json(self):
+                return self.payload
+
+        class FakeSession:
+            def __init__(self):
+                self.calls = []
+
+            def get(self, url, **kwargs):
+                self.calls.append(("GET", url, kwargs))
+                return FakeResponse(
+                    {
+                        "data": {
+                            "items": [
+                                {
+                                    "id": "same-note",
+                                    "note_card": {
+                                        "display_title": "同一条 AI 笔记",
+                                        "user": {"nickname": "同一作者"},
+                                    },
+                                }
+                            ]
+                        }
+                    }
+                )
+
+        session = FakeSession()
+        items, diagnostics = fetch_tikhub_search(
+            session,
+            api_key="test",
+            query="AI",
+            now=__import__("datetime").datetime.fromisoformat("2026-05-03T01:00:00+00:00"),
+            max_results=4,
+            platforms=["xiaohongshu"],
+        )
+        self.assertEqual(len(items), 1)
+        self.assertEqual([call[1] for call in session.calls], [
+            "https://api.tikhub.io/api/v1/xiaohongshu/app_v2/search_notes",
+            "https://api.tikhub.io/api/v1/xiaohongshu/web_v3/fetch_search_notes",
+        ])
+        self.assertEqual(diagnostics["requests"][0]["appended_item_count"], 1)
+        self.assertEqual(diagnostics["requests"][1]["mapped_item_count"], 1)
+        self.assertEqual(diagnostics["requests"][1]["appended_item_count"], 0)
+
+    def test_fetch_tikhub_search_keeps_app_results_when_web_surface_fails(self):
+        class FakeResponse:
+            def __init__(self, payload=None, status_code=200):
+                self.payload = payload or {}
+                self.status_code = status_code
+
+            def raise_for_status(self):
+                if self.status_code >= 400:
+                    import requests
+
+                    raise requests.HTTPError(f"{self.status_code} error", response=self)
+                return None
+
+            def json(self):
+                return self.payload
+
+        class FakeSession:
+            def get(self, url, **kwargs):
+                if "/web_v3/fetch_search_notes" in url:
+                    return FakeResponse(status_code=400)
+                return FakeResponse(
+                    {
+                        "data": {
+                            "items": [
+                                {
+                                    "id": "xhs-app",
+                                    "note_card": {
+                                        "display_title": "App 端 AI 笔记",
+                                        "user": {"nickname": "App 用户"},
+                                    },
+                                }
+                            ]
+                        }
+                    }
+                )
+
+        items, diagnostics = fetch_tikhub_search(
+            FakeSession(),
+            api_key="test",
+            query="AI",
+            now=__import__("datetime").datetime.fromisoformat("2026-05-03T01:00:00+00:00"),
+            max_results=4,
+            platforms=["xiaohongshu"],
+        )
+        self.assertEqual(len(items), 1)
+        self.assertEqual(items[0].meta["search_surface"], "xiaohongshu_app_v2")
+        self.assertEqual(diagnostics["successful_request_count"], 1)
+        self.assertEqual(diagnostics["request_error_count"], 1)
+        self.assertEqual(diagnostics["requests"][1]["surface"], "xiaohongshu_web_v3")
+        self.assertEqual(diagnostics["requests"][1]["status_code"], 400)
 
 
 if __name__ == "__main__":

@@ -117,7 +117,10 @@ baseline, then let the aggregator layer add breadth.
   `SOCIALDATA_MAX_RESULTS`, `SOCIALDATA_DAILY_TWEET_LIMIT`, and
   `SOCIALDATA_RUN_INTERVAL_HOURS` to keep cost and noise bounded. The previous
   `SOCIALDATA_RUN_UTC_HOUR` setting still controls the first run window when no
-  paid-source state exists yet.
+  paid-source state exists yet. SocialData search normally returns about 20
+  tweets per page; the fetcher follows `next_cursor` with the `cursor`
+  parameter until the configured effective cap is reached or the API stops
+  returning a cursor.
 - **TikHub Douyin/Xiaohongshu search**: supported as an advanced,
   secret-backed adapter through `TIKHUB_ENABLED=1` and `TIKHUB_API_KEY`, but
   disabled by default. It reads public Douyin and Xiaohongshu keyword search
@@ -127,7 +130,30 @@ baseline, then let the aggregator layer add breadth.
   `TIKHUB_RUN_UTC_HOUR` setting still controls the first run window when no
   paid-source state exists yet. Prefer focused AI
   keywords over general hot lists so entertainment trends do not flood the
-  Signal view.
+  Signal view. Xiaohongshu scans both the recommended App V2 search endpoint
+  and the public Web V3 search endpoint, then deduplicates by note id; Douyin
+  stays on TikHub's current Douyin Search API rather than deprecated App V3
+  search paths.
+
+  The official TikHub Python SDK is generated from OpenAPI V5.3.2, so SDK
+  resources mirror OpenAPI tags. The SDK documents Douyin coverage as
+  `douyin_web`, `douyin_app_v3`, `douyin_search`, `douyin_billboard`,
+  `douyin_creator`, and `douyin_xingtu` with 400+ endpoints. The current
+  OpenAPI also includes `douyin_creator_v2`, `douyin_index`, and
+  `douyin_xingtu_v2`. For AI News Radar, keep the default TikHub read on
+  `douyin_search.fetch_general_search_v2`; App V3 search endpoints are
+  deprecated, while billboard, creator, xingtu, and index endpoints are better
+  future candidates for separate advanced trend/creator lanes.
+
+  The SDK documents Xiaohongshu coverage as `xiaohongshu_web` and
+  `xiaohongshu_app` plus v2/v3 variants with 80+ endpoints. Current OpenAPI
+  priority is `xiaohongshu_app_v2` first, then `xiaohongshu_app`, then
+  `xiaohongshu_web_v2`, then `xiaohongshu_web`; however, the old
+  `xiaohongshu_app` and `xiaohongshu_web` tags are marked deprecated in
+  OpenAPI. The radar therefore scans `xiaohongshu_app_v2.search_notes` and
+  `xiaohongshu_web_v3.fetch_search_notes`, records the `search_surface` in
+  public raw output, and treats Web V3 failures as non-fatal when App V2
+  succeeds.
 - **AgentMail digest**: supported as an advanced, secret-backed metadata digest
   through `EMAIL_DIGEST_ENABLED=1`, `AGENTMAIL_API_KEY`, and
   `AGENTMAIL_INBOX_ID`, but disabled by default. It deliberately lists messages

@@ -188,6 +188,39 @@ function siteRow(siteId) {
   return siteRows().find((site) => site.site_id === siteId) || null;
 }
 
+function aiSiteStat(siteId) {
+  const stats = Array.isArray(state.statsAi) && state.statsAi.length
+    ? state.statsAi
+    : computeSiteStats(state.itemsAi || []);
+  return stats.find((site) => site.site_id === siteId) || null;
+}
+
+function siteAiPoolCount(siteId) {
+  return Number(aiSiteStat(siteId)?.count || 0);
+}
+
+function siteRawPoolCount(siteId) {
+  const stat = aiSiteStat(siteId);
+  return Number(stat?.raw_count ?? stat?.count ?? 0);
+}
+
+function sourcePoolMeta(aiCount, rawCount, fallback) {
+  if (rawCount && rawCount !== aiCount) return `AI强相关 · 原始 ${fmtNumber(rawCount)} 条`;
+  return fallback;
+}
+
+function paidSourceLabel(status, poolCount, activeLabel, idleLabel) {
+  const connected = Boolean(status?.enabled);
+  const liveCount = Number(status?.item_count || 0);
+  const displayCount = liveCount || Number(poolCount || 0);
+  if (connected) {
+    if (displayCount) return `${activeLabel} ${fmtNumber(displayCount)}条`;
+    return `${activeLabel} ${status?.skipped ? "待窗口" : "已连接暂无匹配"}`;
+  }
+  if (displayCount) return `${activeLabel} ${fmtNumber(displayCount)}条`;
+  return idleLabel;
+}
+
 function renderCoverageCard(label, value, meta, tone = "") {
   const node = document.createElement("div");
   node.className = `coverage-card ${tone}`.trim();
@@ -219,18 +252,24 @@ function renderCoverageStrip(errorMessage = "") {
   const newsletterCount = Number(siteRow("aibreakfast")?.item_count || 0);
   const curatedMediaCount = Number(siteRow("curated_media")?.item_count || 0);
   const buildersCount = Number(siteRow("followbuilders")?.item_count || 0);
-  const creatorCount = Number(siteRow("tikhub_douyin")?.item_count || 0) + Number(siteRow("tikhub_xiaohongshu")?.item_count || 0);
+  const creatorCount = siteAiPoolCount("tikhub_douyin") + siteAiPoolCount("tikhub_xiaohongshu");
+  const creatorRawCount = siteRawPoolCount("tikhub_douyin") + siteRawPoolCount("tikhub_xiaohongshu");
+  const socialdataPoolCount = siteAiPoolCount("socialdata_x");
+  const xApiPoolCount = siteAiPoolCount("xapi");
+  const xPoolCount = socialdataPoolCount + xApiPoolCount;
+  const mailCount = Number(agentmail.item_count || 0);
   const totalSites = rows.length;
   const okSites = Number(state.sourceStatus?.successful_sites || 0);
   const opmlValue = rss.enabled ? `${fmtNumber(rss.ok_feeds || 0)}/${fmtNumber(rss.effective_feed_total || 0)}` : "OPML";
   const opmlMeta = rss.enabled ? "RSS示例/自定义订阅已接入" : "可用OPML批量接入RSS";
-  const socialdataLabel = socialdata.enabled
-    ? `SocialData ${socialdata.skipped ? "待窗口" : (Number(socialdata.item_count || 0) ? `${fmtNumber(socialdata.item_count)}条` : "已连接暂无匹配")}`
-    : "";
-  const xApiLabel = xApi.enabled ? `X API ${xApi.skipped ? "待窗口" : `${fmtNumber(xApi.item_count || 0)}条`}` : "";
+  const socialdataLabel = paidSourceLabel(socialdata, socialdataPoolCount, "SocialData", "");
+  const xApiLabel = paidSourceLabel(xApi, xApiPoolCount, "X API", "");
   const xSourceLabel = socialdataLabel || xApiLabel || "X待配置";
-  const mailLabel = agentmail.enabled ? `Mail ${fmtNumber(agentmail.item_count || 0)}` : "Mail待配置";
-  const advancedMeta = socialdata.enabled || xApi.enabled || agentmail.enabled
+  const mailLabel = agentmail.enabled ? `Mail ${fmtNumber(mailCount)}` : "Mail待配置";
+  const advancedValue = xPoolCount || mailCount
+    ? `${xPoolCount ? `X ${fmtNumber(xPoolCount)}` : "X"} / ${mailCount ? `Mail ${fmtNumber(mailCount)}` : "Mail"}`
+    : "X / Mail";
+  const advancedMeta = socialdata.enabled || xApi.enabled || agentmail.enabled || xPoolCount
     ? `额度保护 · ${xSourceLabel} / ${mailLabel}`
     : "X API 与 AgentMail 默认关闭";
 
@@ -241,9 +280,9 @@ function renderCoverageStrip(errorMessage = "") {
     ["官方/日报源池", `${fmtNumber(officialCount + newsletterCount)} 条`, "官方节点 + AI Breakfast", "official"],
     ["精选媒体源池", `${fmtNumber(curatedMediaCount)} 条`, "The Decoder / TC / Verge / MTP 等", "signal"],
     ["Builders/X源池", `${fmtNumber(buildersCount)} 条`, "Follow Builders公开feed", "builders"],
-    ["自媒体源池", `${fmtNumber(creatorCount)} 条`, "TikHub · 抖音 + 小红书", "creator"],
+    ["自媒体源池", `${fmtNumber(creatorCount)} 条`, sourcePoolMeta(creatorCount, creatorRawCount, "TikHub · 抖音 + 小红书"), "creator"],
     ["RSS/OPML扩展", opmlValue, opmlMeta, "private"],
-    ["高级源", "X / Mail", advancedMeta, "private"],
+    ["高级源", advancedValue, advancedMeta, "private"],
   ];
 
   cards.forEach(([label, value, meta, tone]) => {

@@ -219,6 +219,7 @@ PUBLIC_RAW_META_FIELDS: tuple[str, ...] = (
     "aihot_score",
     "aihot_category",
     "aihot_selected",
+    "search_surface",
     "summary",
 )
 
@@ -3311,65 +3312,98 @@ def fetch_socialdata_search(
         raise ValueError("socialdata_query_too_long")
     capped_max_results = max(1, min(int(max_results or SOCIALDATA_DEFAULT_MAX_RESULTS), 100))
     effective_search_type = search_type if search_type in {"Latest", "Top"} else "Latest"
-    response = session.get(
-        f"{(base_url or SOCIALDATA_API_BASE_DEFAULT).rstrip('/')}/twitter/search",
-        headers={
-            "Authorization": f"Bearer {api_key}",
-            "Accept": "application/json",
-        },
-        params={
+    out: list[RawItem] = []
+    raw_tweet_count = 0
+    response_top_level_keys: list[str] = []
+    page_count = 0
+    cursor = ""
+    seen_cursors: set[str] = set()
+    seen_tweet_ids: set[str] = set()
+    pagination_error: str | None = None
+    while len(out) < capped_max_results:
+        params = {
             "query": query,
             "type": effective_search_type,
-        },
-        timeout=30,
-    )
-    response.raise_for_status()
-    payload = response.json()
-    tweets = payload.get("tweets") if isinstance(payload, dict) else []
-    raw_tweet_count = len(tweets) if isinstance(tweets, list) else 0
-    out: list[RawItem] = []
-    for tweet in tweets or []:
-        if len(out) >= capped_max_results:
-            break
-        if not isinstance(tweet, dict):
-            continue
-        tweet_id = str(tweet.get("id_str") or tweet.get("id") or "").strip()
-        text = compact_public_snippet(str(tweet.get("full_text") or tweet.get("text") or ""), max_chars=220)
-        if not (tweet_id and text):
-            continue
-        user = tweet.get("user") if isinstance(tweet.get("user"), dict) else {}
-        username = str(user.get("screen_name") or "i/web").strip().lstrip("@") or "i/web"
-        published = parse_iso(str(tweet.get("tweet_created_at") or tweet.get("created_at") or "")) or now
-        out.append(
-            RawItem(
-                site_id="socialdata_x",
-                site_name="SocialData X",
-                source=f"@{username}",
-                title=text,
-                url=f"https://x.com/{username}/status/{tweet_id}",
-                published_at=published,
-                meta={
-                    "post_id": tweet_id,
-                    "lang": tweet.get("lang"),
-                    "public_metrics": {
-                        "reply_count": tweet.get("reply_count"),
-                        "retweet_count": tweet.get("retweet_count"),
-                        "quote_count": tweet.get("quote_count"),
-                        "favorite_count": tweet.get("favorite_count"),
-                        "bookmark_count": tweet.get("bookmark_count"),
-                        "views_count": tweet.get("views_count"),
-                    },
+        }
+        if cursor:
+            params["cursor"] = cursor
+        try:
+            response = session.get(
+                f"{(base_url or SOCIALDATA_API_BASE_DEFAULT).rstrip('/')}/twitter/search",
+                headers={
+                    "Authorization": f"Bearer {api_key}",
+                    "Accept": "application/json",
                 },
+                params=params,
+                timeout=30,
             )
-        )
+            response.raise_for_status()
+        except Exception as exc:
+            if page_count == 0:
+                raise
+            pagination_error = type(exc).__name__
+            break
+
+        payload = response.json()
+        page_count += 1
+        if isinstance(payload, dict) and not response_top_level_keys:
+            response_top_level_keys = sorted(payload.keys())[:12]
+        tweets = payload.get("tweets") if isinstance(payload, dict) else []
+        raw_tweet_count += len(tweets) if isinstance(tweets, list) else 0
+        for tweet in tweets or []:
+            if len(out) >= capped_max_results:
+                break
+            if not isinstance(tweet, dict):
+                continue
+            tweet_id = str(tweet.get("id_str") or tweet.get("id") or "").strip()
+            text = compact_public_snippet(str(tweet.get("full_text") or tweet.get("text") or ""), max_chars=220)
+            if not (tweet_id and text) or tweet_id in seen_tweet_ids:
+                continue
+            seen_tweet_ids.add(tweet_id)
+            user = tweet.get("user") if isinstance(tweet.get("user"), dict) else {}
+            username = str(user.get("screen_name") or "i/web").strip().lstrip("@") or "i/web"
+            published = parse_iso(str(tweet.get("tweet_created_at") or tweet.get("created_at") or "")) or now
+            out.append(
+                RawItem(
+                    site_id="socialdata_x",
+                    site_name="SocialData X",
+                    source=f"@{username}",
+                    title=text,
+                    url=f"https://x.com/{username}/status/{tweet_id}",
+                    published_at=published,
+                    meta={
+                        "post_id": tweet_id,
+                        "lang": tweet.get("lang"),
+                        "public_metrics": {
+                            "reply_count": tweet.get("reply_count"),
+                            "retweet_count": tweet.get("retweet_count"),
+                            "quote_count": tweet.get("quote_count"),
+                            "favorite_count": tweet.get("favorite_count"),
+                            "bookmark_count": tweet.get("bookmark_count"),
+                            "views_count": tweet.get("views_count"),
+                        },
+                    },
+                )
+            )
+
+        next_cursor = str(payload.get("next_cursor") or "").strip() if isinstance(payload, dict) else ""
+        if not next_cursor or next_cursor in seen_cursors:
+            break
+        seen_cursors.add(next_cursor)
+        cursor = next_cursor
     diagnostics = {
         "endpoint": "/twitter/search",
         "search_type": effective_search_type,
         "query_chars": len(query),
-        "response_top_level_keys": sorted(payload.keys())[:12] if isinstance(payload, dict) else [],
+        "response_top_level_keys": response_top_level_keys,
         "raw_tweet_count": raw_tweet_count,
         "mapped_tweet_count": len(out),
+        "page_count": page_count,
+        "cursor_request_count": max(0, page_count - 1),
+        "reached_result_cap": len(out) >= capped_max_results,
     }
+    if pagination_error:
+        diagnostics["pagination_error"] = pagination_error
     if raw_tweet_count == 0:
         diagnostics["empty_reason"] = "no_tweets_returned_by_socialdata"
     elif len(out) == 0:
@@ -3668,6 +3702,13 @@ def parse_tikhub_xiaohongshu_items(payload: dict[str, Any], now: datetime, keywo
     return out
 
 
+def tikhub_raw_item_key(item: RawItem) -> str:
+    post_id = str((item.meta or {}).get("post_id") or "").strip()
+    if post_id:
+        return f"{item.site_id}:{post_id}"
+    return f"{item.site_id}:{normalize_url(item.url)}:{item.title.strip()}"
+
+
 def fetch_tikhub_search(
     session: requests.Session,
     api_key: str,
@@ -3692,7 +3733,36 @@ def fetch_tikhub_search(
             platform_list.append(platform)
     out: list[RawItem] = []
     per_platform_cap = max(1, (capped_max_results + max(len(platform_list), 1) - 1) // max(len(platform_list), 1))
-    diagnostics: dict[str, Any] = {"keywords": keywords, "platforms": platform_list, "requests": []}
+    diagnostics: dict[str, Any] = {
+        "keywords": keywords,
+        "platforms": platform_list,
+        "requests": [],
+        "successful_request_count": 0,
+        "request_error_count": 0,
+    }
+    seen_item_keys: set[str] = set()
+
+    def append_mapped_items(mapped: list[RawItem], surface: str, remaining: int) -> int:
+        appended = 0
+        for item in mapped:
+            if appended >= remaining:
+                break
+            key = tikhub_raw_item_key(item)
+            if key in seen_item_keys:
+                continue
+            seen_item_keys.add(key)
+            item.meta["search_surface"] = surface
+            out.append(item)
+            appended += 1
+        return appended
+
+    def request_error_info(exc: Exception) -> dict[str, Any]:
+        response = getattr(exc, "response", None)
+        return {
+            "error": type(exc).__name__,
+            "status_code": getattr(response, "status_code", None),
+        }
+
     for platform in platform_list:
         platform_count = 0
         for keyword in keywords:
@@ -3701,82 +3771,114 @@ def fetch_tikhub_search(
                 break
             if platform == "douyin":
                 endpoint = "/api/v1/douyin/search/fetch_general_search_v2"
-                response = session.post(
-                    f"{root}{endpoint}",
-                    headers={**headers, "Content-Type": "application/json"},
-                    json={
-                        "keyword": keyword,
-                        "cursor": 0,
-                        "sort_type": "2",
-                        "publish_time": "1",
-                        "filter_duration": "0",
-                        "content_type": "0",
-                        "search_id": "",
-                        "backtrace": "",
-                    },
-                    timeout=30,
-                )
-                response.raise_for_status()
-                payload = response.json()
-                mapped = parse_tikhub_douyin_items(payload, now=now, keyword=keyword, limit=remaining)
-            else:
-                endpoint = "/api/v1/xiaohongshu/app_v2/search_notes"
-                response = session.get(
-                    f"{root}{endpoint}",
-                    headers=headers,
-                    params={
-                        "keyword": keyword,
-                        "page": 1,
-                        "sort_type": "general",
-                        "note_type": "不限",
-                        "time_filter": "不限",
-                        "search_id": "",
-                        "search_session_id": "",
-                        "source": "explore_feed",
-                        "ai_mode": 0,
-                    },
-                    timeout=30,
-                )
-                response.raise_for_status()
-                payload = response.json()
-                mapped = parse_tikhub_xiaohongshu_items(payload, now=now, keyword=keyword, limit=remaining)
-                if not mapped:
-                    diagnostics["requests"].append(
-                        {
-                            "platform": platform,
-                            "endpoint": endpoint,
-                            "keyword": keyword,
-                            "mapped_item_count": 0,
-                            "response_top_level_keys": sorted(payload.keys())[:12] if isinstance(payload, dict) else [],
-                            "payload_shape": tikhub_payload_shape(payload),
-                            "fallback_reason": "no_items_mapped_try_web_v3",
-                        }
-                    )
-                    endpoint = "/api/v1/xiaohongshu/web_v3/fetch_search_notes"
-                    response = session.get(
+                request_info = {
+                    "platform": platform,
+                    "surface": "douyin_general_v2",
+                    "endpoint": endpoint,
+                    "keyword": keyword,
+                }
+                try:
+                    response = session.post(
                         f"{root}{endpoint}",
-                        headers=headers,
-                        params={"keyword": keyword, "page": 1, "sort": "time_descending", "note_type": 0},
+                        headers={**headers, "Content-Type": "application/json"},
+                        json={
+                            "keyword": keyword,
+                            "cursor": 0,
+                            "sort_type": "2",
+                            "publish_time": "1",
+                            "filter_duration": "0",
+                            "content_type": "0",
+                            "search_id": "",
+                            "backtrace": "",
+                        },
                         timeout=30,
                     )
                     response.raise_for_status()
                     payload = response.json()
-                    mapped = parse_tikhub_xiaohongshu_items(payload, now=now, keyword=keyword, limit=remaining)
-            out.extend(mapped)
-            platform_count += len(mapped)
-            diagnostics["requests"].append(
-                {
-                    "platform": platform,
-                    "endpoint": endpoint,
-                    "keyword": keyword,
-                    "mapped_item_count": len(mapped),
-                    "response_top_level_keys": sorted(payload.keys())[:12] if isinstance(payload, dict) else [],
-                    "payload_shape": tikhub_payload_shape(payload),
-                }
-            )
+                    mapped = parse_tikhub_douyin_items(payload, now=now, keyword=keyword, limit=remaining)
+                    appended = append_mapped_items(mapped, "douyin_general_v2", remaining)
+                    platform_count += appended
+                    request_info.update(
+                        {
+                            "mapped_item_count": len(mapped),
+                            "appended_item_count": appended,
+                            "response_top_level_keys": sorted(payload.keys())[:12] if isinstance(payload, dict) else [],
+                            "payload_shape": tikhub_payload_shape(payload),
+                        }
+                    )
+                    diagnostics["successful_request_count"] += 1
+                except Exception as exc:
+                    diagnostics["request_error_count"] += 1
+                    request_info.update(request_error_info(exc))
+                diagnostics["requests"].append(request_info)
+            else:
+                # TikHub documents App V2 as the preferred Xiaohongshu API and
+                # Web V3 as the next public web path; scan both because results
+                # can differ between mobile and web surfaces.
+                xhs_surfaces = (
+                    (
+                        "xiaohongshu_app_v2",
+                        "/api/v1/xiaohongshu/app_v2/search_notes",
+                        {
+                            "keyword": keyword,
+                            "page": 1,
+                            "sort_type": "general",
+                            "note_type": "不限",
+                            "time_filter": "不限",
+                            "search_id": "",
+                            "search_session_id": "",
+                            "source": "explore_feed",
+                            "ai_mode": 0,
+                        },
+                    ),
+                    (
+                        "xiaohongshu_web_v3",
+                        "/api/v1/xiaohongshu/web_v3/fetch_search_notes",
+                        {"keyword": keyword, "page": 1, "sort": "time_descending", "note_type": 0},
+                    ),
+                )
+                per_surface_cap = max(1, (remaining + len(xhs_surfaces) - 1) // len(xhs_surfaces))
+                for surface, endpoint, params in xhs_surfaces:
+                    surface_remaining = min(
+                        per_surface_cap,
+                        capped_max_results - len(out),
+                        per_platform_cap - platform_count,
+                    )
+                    if surface_remaining <= 0:
+                        break
+                    request_info = {
+                        "platform": platform,
+                        "surface": surface,
+                        "endpoint": endpoint,
+                        "keyword": keyword,
+                    }
+                    try:
+                        response = session.get(f"{root}{endpoint}", headers=headers, params=params, timeout=30)
+                        response.raise_for_status()
+                        payload = response.json()
+                        mapped = parse_tikhub_xiaohongshu_items(payload, now=now, keyword=keyword, limit=surface_remaining)
+                        appended = append_mapped_items(mapped, surface, surface_remaining)
+                        platform_count += appended
+                        request_info.update(
+                            {
+                                "mapped_item_count": len(mapped),
+                                "appended_item_count": appended,
+                                "response_top_level_keys": sorted(payload.keys())[:12] if isinstance(payload, dict) else [],
+                                "payload_shape": tikhub_payload_shape(payload),
+                            }
+                        )
+                        if surface == "xiaohongshu_app_v2" and not mapped:
+                            request_info["fallback_reason"] = "no_items_mapped_try_web_v3"
+                        diagnostics["successful_request_count"] += 1
+                    except Exception as exc:
+                        diagnostics["request_error_count"] += 1
+                        request_info.update(request_error_info(exc))
+                    diagnostics["requests"].append(request_info)
         if len(out) >= capped_max_results:
             break
     diagnostics["mapped_item_count"] = len(out)
+    if diagnostics["request_error_count"] and not diagnostics["successful_request_count"]:
+        raise ValueError("tikhub_all_requests_failed")
     return out, diagnostics
 
 
