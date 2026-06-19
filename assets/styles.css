@@ -1199,6 +1199,8 @@ summary:focus-visible {
 }
 
 .top-story-card .intel-tags {
+  align-items: flex-end;
+  align-content: flex-end;
   margin-top: auto;
   min-height: 28px;
   max-height: 28px;
@@ -1206,6 +1208,8 @@ summary:focus-visible {
 }
 
 .top-story-card .intel-card-sources {
+  align-items: flex-start;
+  align-content: flex-start;
   margin-top: -8px;
   min-height: 52px;
   max-height: 52px;
