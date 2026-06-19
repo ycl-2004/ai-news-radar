@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-19T02:13:46.203312Z",
+  "generated_at": "2026-06-19T07:36:22.291394Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
     {
-      "story_id": "story_43a940462463",
+      "story_id": "story_42c2eb39116d",
       "title": "这家韩国电信巨头是Anthropic\"Mythos\"争议的焦点",
       "url": "https://www.wired.com/story/[redacted-secret]",
       "primary_url": "https://www.wired.com/story/[redacted-secret]",
@@ -30,21 +30,21 @@
           "published_at": "2026-06-19T01:33:10.751000Z"
         },
         {
-          "id": "2550154934daa400717ced6176920aae035cf955",
-          "title": "韩国电信巨头处于 Anthropic 神话争议的中心 / The Korean telecom giant at the center of Anthropic's Mythos controversy",
-          "url": "https://www.wired.com/story/[redacted-secret]",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-18T12:44:09Z"
-        },
-        {
           "id": "8b1e83b487abb2c7d6819000db48e28e6ee65a87",
           "title": "这家韩国电信巨头是Anthropic\"Mythos\"争议的焦点 / The Korean telecom giant at the center of Anthropic's Mythos controversy",
           "url": "https://www.wired.com/story/[redacted-secret]",
           "source": "Hacker News · 24h最热",
           "source_name": "Zeli",
           "site_id": "zeli",
+          "published_at": "2026-06-18T12:44:09Z"
+        },
+        {
+          "id": "2550154934daa400717ced6176920aae035cf955",
+          "title": "韩国电信巨头处于 Anthropic 神话争议的中心 / The Korean telecom giant at the center of Anthropic's Mythos controversy",
+          "url": "https://www.wired.com/story/[redacted-secret]",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
           "published_at": "2026-06-18T12:44:09Z"
         }
       ],
@@ -75,15 +75,6 @@
           "published_at": "2026-06-19T01:33:10.751000Z"
         },
         {
-          "id": "2550154934daa400717ced6176920aae035cf955",
-          "title": "韩国电信巨头处于 Anthropic 神话争议的中心 / The Korean telecom giant at the center of Anthropic's Mythos controversy",
-          "url": "https://www.wired.com/story/[redacted-secret]",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-18T12:44:09Z"
-        },
-        {
           "id": "8b1e83b487abb2c7d6819000db48e28e6ee65a87",
           "title": "这家韩国电信巨头是Anthropic\"Mythos\"争议的焦点 / The Korean telecom giant at the center of Anthropic's Mythos controversy",
           "url": "https://www.wired.com/story/[redacted-secret]",
@@ -91,19 +82,28 @@
           "source_name": "Zeli",
           "site_id": "zeli",
           "published_at": "2026-06-18T12:44:09Z"
+        },
+        {
+          "id": "2550154934daa400717ced6176920aae035cf955",
+          "title": "韩国电信巨头处于 Anthropic 神话争议的中心 / The Korean telecom giant at the center of Anthropic's Mythos controversy",
+          "url": "https://www.wired.com/story/[redacted-secret]",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-18T12:44:09Z"
         }
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.8529,
-      "importance": 0.8529,
-      "importance_score": 0.8529,
+      "score": 0.8395,
+      "importance": 0.8395,
+      "importance_score": 0.8395,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.76,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9903,
+        "recency": 0.9163,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -176,15 +176,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8495,
-      "importance": 0.8495,
-      "importance_score": 0.8495,
+      "score": 0.8387,
+      "importance": 0.8387,
+      "importance_score": 0.8387,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.8026,
+        "recency": 0.7426,
         "story_heat": 0.25
       },
       "category": "official",
@@ -239,15 +239,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8382,
-      "importance": 0.8382,
-      "importance_score": 0.8382,
+      "score": 0.8252,
+      "importance": 0.8252,
+      "importance_score": 0.8252,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.968,
+        "recency": 0.8957,
         "story_heat": 0.0
       },
       "category": "official",
@@ -358,15 +358,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.8202,
-      "importance": 0.8202,
-      "importance_score": 0.8202,
+      "score": 0.8085,
+      "importance": 0.8085,
+      "importance_score": 0.8085,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8758,
+        "recency": 0.8104,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -383,68 +383,6 @@
         "url": "https://arstechnica.com/tech-policy/2026/06/bernie-sanders-unveils-7-trillion-plan-to-give-americans-control-of-ai-industry",
         "source": "Ars Technica：AI（RSS）",
         "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_6f63ab131b5c",
-      "title": "MAI-Code-1-Flash 可用于更多 Copilot 表面 / MAI-Code-1-Flash available on more Copilot surfaces",
-      "url": "https://github.blog/changelog/2026-06-18-mai-code-1-flash-available-on-more-copilot-surfaces",
-      "primary_url": "https://github.blog/changelog/2026-06-18-mai-code-1-flash-available-on-more-copilot-surfaces",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "cfe54e520c659657b8609c3f9ae33c5f54707148",
-          "title": "MAI-Code-1-Flash 可用于更多 Copilot 表面 / MAI-Code-1-Flash available on more Copilot surfaces",
-          "url": "https://github.blog/changelog/2026-06-18-mai-code-1-flash-available-on-more-copilot-surfaces",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-18T20:11:24Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "items": [
-        {
-          "id": "cfe54e520c659657b8609c3f9ae33c5f54707148",
-          "title": "MAI-Code-1-Flash 可用于更多 Copilot 表面 / MAI-Code-1-Flash available on more Copilot surfaces",
-          "url": "https://github.blog/changelog/2026-06-18-mai-code-1-flash-available-on-more-copilot-surfaces",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-18T20:11:24Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.837,
-      "importance": 0.837,
-      "importance_score": 0.837,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.9165,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-18T20:11:24Z",
-      "latest_at": "2026-06-18T20:11:24Z",
-      "primary_item": {
-        "id": "cfe54e520c659657b8609c3f9ae33c5f54707148",
-        "title": "MAI-Code-1-Flash 可用于更多 Copilot 表面 / MAI-Code-1-Flash available on more Copilot surfaces",
-        "url": "https://github.blog/changelog/2026-06-18-mai-code-1-flash-available-on-more-copilot-surfaces",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
       }
     },
     {
@@ -501,15 +439,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8353,
-      "importance": 0.8353,
-      "importance_score": 0.8353,
+      "score": 0.825,
+      "importance": 0.825,
+      "importance_score": 0.825,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.7686,
+        "recency": 0.7111,
         "story_heat": 0.25
       },
       "category": "official",
@@ -527,6 +465,210 @@
         "url": "https://openai.com/index/diagnose-rare-childhood-diseases",
         "source": "OpenAI News",
         "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_6f63ab131b5c",
+      "title": "MAI-Code-1-Flash 可用于更多 Copilot 表面 / MAI-Code-1-Flash available on more Copilot surfaces",
+      "url": "https://github.blog/changelog/2026-06-18-mai-code-1-flash-available-on-more-copilot-surfaces",
+      "primary_url": "https://github.blog/changelog/2026-06-18-mai-code-1-flash-available-on-more-copilot-surfaces",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "cfe54e520c659657b8609c3f9ae33c5f54707148",
+          "title": "MAI-Code-1-Flash 可用于更多 Copilot 表面 / MAI-Code-1-Flash available on more Copilot surfaces",
+          "url": "https://github.blog/changelog/2026-06-18-mai-code-1-flash-available-on-more-copilot-surfaces",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-18T20:11:24Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "items": [
+        {
+          "id": "cfe54e520c659657b8609c3f9ae33c5f54707148",
+          "title": "MAI-Code-1-Flash 可用于更多 Copilot 表面 / MAI-Code-1-Flash available on more Copilot surfaces",
+          "url": "https://github.blog/changelog/2026-06-18-mai-code-1-flash-available-on-more-copilot-surfaces",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-18T20:11:24Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8246,
+      "importance": 0.8246,
+      "importance_score": 0.8246,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.848,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-18T20:11:24Z",
+      "latest_at": "2026-06-18T20:11:24Z",
+      "primary_item": {
+        "id": "cfe54e520c659657b8609c3f9ae33c5f54707148",
+        "title": "MAI-Code-1-Flash 可用于更多 Copilot 表面 / MAI-Code-1-Flash available on more Copilot surfaces",
+        "url": "https://github.blog/changelog/2026-06-18-mai-code-1-flash-available-on-more-copilot-surfaces",
+        "source": "GitHub Changelog",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_9c66a2975159",
+      "title": "阿里开源向量数据库Zvec，UCSD黄碧薇教授提出因果AI第四代范式",
+      "url": "https://x.com/AYi_AInotes/status/2067832098816250346",
+      "primary_url": "https://x.com/AYi_AInotes/status/2067832098816250346",
+      "source": "X：阿易 AI Notes (@AYi_AInotes)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "d8b3f6f691ddb7b875697338d72568a365a1f60c",
+          "title": "阿里开源向量数据库Zvec，UCSD黄碧薇教授提出因果AI第四代范式",
+          "url": "https://x.com/AYi_AInotes/status/2067832098816250346",
+          "source": "X：阿易 AI Notes (@AYi_AInotes)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-19T04:49:25Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "X：阿易 AI Notes (@AYi_AInotes)"
+      ],
+      "items": [
+        {
+          "id": "d8b3f6f691ddb7b875697338d72568a365a1f60c",
+          "title": "阿里开源向量数据库Zvec，UCSD黄碧薇教授提出因果AI第四代范式",
+          "url": "https://x.com/AYi_AInotes/status/2067832098816250346",
+          "source": "X：阿易 AI Notes (@AYi_AInotes)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-19T04:49:25Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7815,
+      "importance": 0.7815,
+      "importance_score": 0.7815,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.79,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9606,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-19T04:49:25Z",
+      "latest_at": "2026-06-19T04:49:25Z",
+      "primary_item": {
+        "id": "d8b3f6f691ddb7b875697338d72568a365a1f60c",
+        "title": "阿里开源向量数据库Zvec，UCSD黄碧薇教授提出因果AI第四代范式",
+        "url": "https://x.com/AYi_AInotes/status/2067832098816250346",
+        "source": "X：阿易 AI Notes (@AYi_AInotes)",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_6d51284325b3",
+      "title": "Nature两篇研究：MIRA和AMIE诊断与治疗计划媲美甚至超越医生",
+      "url": "https://the-decoder.com/ai-systems-rival-doctors-in-new-nature-studies-but-one-result-suggests-the-tech-wont-age-well",
+      "primary_url": "https://the-decoder.com/ai-systems-rival-doctors-in-new-nature-studies-but-one-result-suggests-the-tech-wont-age-well",
+      "source": "The Decoder：AI News（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "573d44b4abb6e5ed12ae54ae08f1bebf2e79309a",
+          "title": "Nature两篇研究：MIRA和AMIE诊断与治疗计划媲美甚至超越医生",
+          "url": "https://the-decoder.com/ai-systems-rival-doctors-in-new-nature-studies-but-one-result-suggests-the-tech-wont-age-well",
+          "source": "The Decoder：AI News（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-18T14:37:06Z"
+        },
+        {
+          "id": "3711d3e1e4db4337a24d5be0f35a92f4bf04ccc4",
+          "title": "Nature两篇研究：MIRA和AMIE诊断与治疗计划媲美甚至超越医生 / AI systems rival doctors in new Nature studies, but one result suggests the tech won't age well",
+          "url": "https://the-decoder.com/ai-systems-rival-doctors-in-new-nature-studies-but-one-result-suggests-the-tech-wont-age-well",
+          "source": "The Decoder AI News",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-06-18T14:37:06Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "The Decoder AI News",
+        "The Decoder：AI News（RSS）"
+      ],
+      "items": [
+        {
+          "id": "573d44b4abb6e5ed12ae54ae08f1bebf2e79309a",
+          "title": "Nature两篇研究：MIRA和AMIE诊断与治疗计划媲美甚至超越医生",
+          "url": "https://the-decoder.com/ai-systems-rival-doctors-in-new-nature-studies-but-one-result-suggests-the-tech-wont-age-well",
+          "source": "The Decoder：AI News（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-18T14:37:06Z"
+        },
+        {
+          "id": "3711d3e1e4db4337a24d5be0f35a92f4bf04ccc4",
+          "title": "Nature两篇研究：MIRA和AMIE诊断与治疗计划媲美甚至超越医生 / AI systems rival doctors in new Nature studies, but one result suggests the tech won't age well",
+          "url": "https://the-decoder.com/ai-systems-rival-doctors-in-new-nature-studies-but-one-result-suggests-the-tech-wont-age-well",
+          "source": "The Decoder AI News",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-06-18T14:37:06Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7714,
+      "importance": 0.7714,
+      "importance_score": 0.7714,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.78,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7825,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-18T14:37:06Z",
+      "latest_at": "2026-06-18T14:37:06Z",
+      "primary_item": {
+        "id": "573d44b4abb6e5ed12ae54ae08f1bebf2e79309a",
+        "title": "Nature两篇研究：MIRA和AMIE诊断与治疗计划媲美甚至超越医生",
+        "url": "https://the-decoder.com/ai-systems-rival-doctors-in-new-nature-studies-but-one-result-suggests-the-tech-wont-age-well",
+        "source": "The Decoder：AI News（RSS）",
+        "source_name": "AI HOT"
       }
     },
     {
@@ -583,15 +725,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7819,
-      "importance": 0.7819,
-      "importance_score": 0.7819,
+      "score": 0.77,
+      "importance": 0.77,
+      "importance_score": 0.77,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8908,
+        "recency": 0.8242,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -607,6 +749,128 @@
         "title": "MosaicLeaks： 你的研究智能体能保守秘密吗？",
         "url": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
         "source": "Hugging Face：Blog（RSS）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_b272084139ff",
+      "title": "Salesforce CodeGen教程：生成、验证并重排序Python函数（含单元测试与安全检查）",
+      "url": "https://www.marktechpost.com/2026/06/18/salesforce-codegen-tutorial-generate-validate-and-rerank-python-functions-with-unit-tests-and-safety-checks",
+      "primary_url": "https://www.marktechpost.com/2026/06/18/salesforce-codegen-tutorial-generate-validate-and-rerank-python-functions-with-unit-tests-and-safety-checks",
+      "source": "MarkTechPost（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "165fd816c0bdefe9a52b6da1528552fbe57b7f85",
+          "title": "Salesforce CodeGen教程：生成、验证并重排序Python函数（含单元测试与安全检查）",
+          "url": "https://www.marktechpost.com/2026/06/18/salesforce-codegen-tutorial-generate-validate-and-rerank-python-functions-with-unit-tests-and-safety-checks",
+          "source": "MarkTechPost（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-19T02:44:12Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "MarkTechPost（RSS）"
+      ],
+      "items": [
+        {
+          "id": "165fd816c0bdefe9a52b6da1528552fbe57b7f85",
+          "title": "Salesforce CodeGen教程：生成、验证并重排序Python函数（含单元测试与安全检查）",
+          "url": "https://www.marktechpost.com/2026/06/18/salesforce-codegen-tutorial-generate-validate-and-rerank-python-functions-with-unit-tests-and-safety-checks",
+          "source": "MarkTechPost（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-19T02:44:12Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7644,
+      "importance": 0.7644,
+      "importance_score": 0.7644,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.75,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9321,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-19T02:44:12Z",
+      "latest_at": "2026-06-19T02:44:12Z",
+      "primary_item": {
+        "id": "165fd816c0bdefe9a52b6da1528552fbe57b7f85",
+        "title": "Salesforce CodeGen教程：生成、验证并重排序Python函数（含单元测试与安全检查）",
+        "url": "https://www.marktechpost.com/2026/06/18/salesforce-codegen-tutorial-generate-validate-and-rerank-python-functions-with-unit-tests-and-safety-checks",
+        "source": "MarkTechPost（RSS）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_476ce10324ab",
+      "title": "Fable模型被美国临时关闭，AI安全管控时代来临",
+      "url": "https://steve-yegge.medium.com/the-flat-curve-society-36c8b01eb33b",
+      "primary_url": "https://steve-yegge.medium.com/the-flat-curve-society-36c8b01eb33b",
+      "source": "Steve Yegge：Medium（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "22534b7e2e784ef6b38dc3b45c7acba730f21464",
+          "title": "Fable模型被美国临时关闭，AI安全管控时代来临",
+          "url": "https://steve-yegge.medium.com/the-flat-curve-society-36c8b01eb33b",
+          "source": "Steve Yegge：Medium（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-19T03:31:56Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Steve Yegge：Medium（RSS）"
+      ],
+      "items": [
+        {
+          "id": "22534b7e2e784ef6b38dc3b45c7acba730f21464",
+          "title": "Fable模型被美国临时关闭，AI安全管控时代来临",
+          "url": "https://steve-yegge.medium.com/the-flat-curve-society-36c8b01eb33b",
+          "source": "Steve Yegge：Medium（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-19T03:31:56Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7633,
+      "importance": 0.7633,
+      "importance_score": 0.7633,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.74,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9429,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-19T03:31:56Z",
+      "latest_at": "2026-06-19T03:31:56Z",
+      "primary_item": {
+        "id": "22534b7e2e784ef6b38dc3b45c7acba730f21464",
+        "title": "Fable模型被美国临时关闭，AI安全管控时代来临",
+        "url": "https://steve-yegge.medium.com/the-flat-curve-society-36c8b01eb33b",
+        "source": "Steve Yegge：Medium（RSS）",
         "source_name": "AI HOT"
       }
     },
@@ -645,15 +909,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8346,
-      "importance": 0.8346,
-      "importance_score": 0.8346,
+      "score": 0.8225,
+      "importance": 0.8225,
+      "importance_score": 0.8225,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.9034,
+        "recency": 0.8359,
         "story_heat": 0.0
       },
       "category": "official",
@@ -670,6 +934,87 @@
         "url": "https://github.blog/changelog/2026-06-18-copilot-code-review-agents-md-support-and-ui-improvements",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_d064b3eae2a9",
+      "title": "我们在 Elasticsearch 上构建了一个持久化代理内存层，其召回率为0.89",
+      "url": "https://www.elastic.co/search-labs/blog/agent-memory-elasticsearch",
+      "primary_url": "https://www.elastic.co/search-labs/blog/agent-memory-elasticsearch",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "2f6f11ace9b57f291b1fb01fa3b446081bdd5832",
+          "title": "我们在 Elasticsearch 上构建了一个持久化代理内存层，其召回率为0.89",
+          "url": "https://www.elastic.co/search-labs/blog/agent-memory-elasticsearch",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-19T05:01:18.006000Z"
+        },
+        {
+          "id": "35845a5b78d15637e8c0122899de265ce1162228",
+          "title": "我们在 Elasticsearch 上构建了一个持久化代理内存层，其召回率为0.89 / We built a persistent agent memory layer on Elasticsearch with 0.89 recall",
+          "url": "https://www.elastic.co/search-labs/blog/agent-memory-elasticsearch",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-18T11:20:18Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News · 24h最热",
+        "Hacker News 热门（buzzing.cc 中文翻译）"
+      ],
+      "items": [
+        {
+          "id": "2f6f11ace9b57f291b1fb01fa3b446081bdd5832",
+          "title": "我们在 Elasticsearch 上构建了一个持久化代理内存层，其召回率为0.89",
+          "url": "https://www.elastic.co/search-labs/blog/agent-memory-elasticsearch",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-19T05:01:18.006000Z"
+        },
+        {
+          "id": "35845a5b78d15637e8c0122899de265ce1162228",
+          "title": "我们在 Elasticsearch 上构建了一个持久化代理内存层，其召回率为0.89 / We built a persistent agent memory layer on Elasticsearch with 0.89 recall",
+          "url": "https://www.elastic.co/search-labs/blog/agent-memory-elasticsearch",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-18T11:20:18Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.789,
+      "importance": 0.789,
+      "importance_score": 0.789,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.73,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9634,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-18T11:20:18Z",
+      "latest_at": "2026-06-19T05:01:18.006000Z",
+      "primary_item": {
+        "id": "2f6f11ace9b57f291b1fb01fa3b446081bdd5832",
+        "title": "我们在 Elasticsearch 上构建了一个持久化代理内存层，其召回率为0.89",
+        "url": "https://www.elastic.co/search-labs/blog/agent-memory-elasticsearch",
+        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "source_name": "AI HOT"
       }
     },
     {
@@ -726,15 +1071,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7711,
-      "importance": 0.7711,
-      "importance_score": 0.7711,
+      "score": 0.7588,
+      "importance": 0.7588,
+      "importance_score": 0.7588,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9138,
+        "recency": 0.8456,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -750,67 +1095,6 @@
         "title": "OpenAI IPO前连下两城：招揽Transformer共同作者及前白宫AI政策官员",
         "url": "https://techcrunch.com/2026/06/18/openai-is-bringing-on-some-big-guns-in-the-lead-up-to-its-ipo",
         "source": "TechCrunch：AI（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_f1c46e9ab12a",
-      "title": "AI 员工 Viktor 登陆 Microsoft Teams，年化收入达 2000 万美元",
-      "url": "https://x.com/rohanpaul_ai/status/2067755504613613699",
-      "primary_url": "https://x.com/rohanpaul_ai/status/2067755504613613699",
-      "source": "X：Rohan Paul (@rohanpaul_ai)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "d059bbe93c69bc3f33ffaef1aec7a92e694c1d7a",
-          "title": "AI 员工 Viktor 登陆 Microsoft Teams，年化收入达 2000 万美元",
-          "url": "https://x.com/rohanpaul_ai/status/2067755504613613699",
-          "source": "X：Rohan Paul (@rohanpaul_ai)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-18T23:45:03Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：Rohan Paul (@rohanpaul_ai)"
-      ],
-      "items": [
-        {
-          "id": "d059bbe93c69bc3f33ffaef1aec7a92e694c1d7a",
-          "title": "AI 员工 Viktor 登陆 Microsoft Teams，年化收入达 2000 万美元",
-          "url": "https://x.com/rohanpaul_ai/status/2067755504613613699",
-          "source": "X：Rohan Paul (@rohanpaul_ai)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-18T23:45:03Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7703,
-      "importance": 0.7703,
-      "importance_score": 0.7703,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.75,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9648,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-18T23:45:03Z",
-      "latest_at": "2026-06-18T23:45:03Z",
-      "primary_item": {
-        "id": "d059bbe93c69bc3f33ffaef1aec7a92e694c1d7a",
-        "title": "AI 员工 Viktor 登陆 Microsoft Teams，年化收入达 2000 万美元",
-        "url": "https://x.com/rohanpaul_ai/status/2067755504613613699",
-        "source": "X：Rohan Paul (@rohanpaul_ai)",
         "source_name": "AI HOT"
       }
     },
@@ -849,15 +1133,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8295,
-      "importance": 0.8295,
-      "importance_score": 0.8295,
+      "score": 0.8178,
+      "importance": 0.8178,
+      "importance_score": 0.8178,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.8752,
+        "recency": 0.8098,
         "story_heat": 0.0
       },
       "category": "official",
@@ -911,15 +1195,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7694,
-      "importance": 0.7694,
-      "importance_score": 0.7694,
+      "score": 0.7574,
+      "importance": 0.7574,
+      "importance_score": 0.7574,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.79,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8934,
+        "recency": 0.8266,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -938,130 +1222,49 @@
       }
     },
     {
-      "story_id": "story_0459dd498709",
-      "title": "Adobe 为 Photoshop、Premiere 等多款 Creative Cloud 应用加入 AI 智能体",
-      "url": "https://the-decoder.com/adobe-adds-ai-agents-to-photoshop-premiere-and-more-creative-cloud-apps",
-      "primary_url": "https://the-decoder.com/adobe-adds-ai-agents-to-photoshop-premiere-and-more-creative-cloud-apps",
-      "source": "The Decoder：AI News（RSS）",
+      "story_id": "story_f1c46e9ab12a",
+      "title": "AI 员工 Viktor 登陆 Microsoft Teams，年化收入达 2000 万美元",
+      "url": "https://x.com/rohanpaul_ai/status/2067755504613613699",
+      "primary_url": "https://x.com/rohanpaul_ai/status/2067755504613613699",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
       "source_name": "AI HOT",
       "sources": [
         {
-          "id": "cff5f147139817657fc6fb1a36a35461beaedaa7",
-          "title": "Adobe 为 Photoshop、Premiere 等多款 Creative Cloud 应用加入 AI 智能体",
-          "url": "https://the-decoder.com/adobe-adds-ai-agents-to-photoshop-premiere-and-more-creative-cloud-apps",
-          "source": "The Decoder：AI News（RSS）",
+          "id": "d059bbe93c69bc3f33ffaef1aec7a92e694c1d7a",
+          "title": "AI 员工 Viktor 登陆 Microsoft Teams，年化收入达 2000 万美元",
+          "url": "https://x.com/rohanpaul_ai/status/2067755504613613699",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-06-18T12:59:00Z"
-        },
-        {
-          "id": "08136978404844e7cf57e0524e30454f50aec339",
-          "title": "Adobe 为 Photoshop、Premiere 等多款 Creative Cloud 应用加入 AI 智能体 / Adobe adds AI agents to Photoshop, Premiere, and more Creative Cloud apps",
-          "url": "https://the-decoder.com/adobe-adds-ai-agents-to-photoshop-premiere-and-more-creative-cloud-apps",
-          "source": "The Decoder AI News",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-06-18T12:59:00Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "The Decoder AI News",
-        "The Decoder：AI News（RSS）"
-      ],
-      "items": [
-        {
-          "id": "cff5f147139817657fc6fb1a36a35461beaedaa7",
-          "title": "Adobe 为 Photoshop、Premiere 等多款 Creative Cloud 应用加入 AI 智能体",
-          "url": "https://the-decoder.com/adobe-adds-ai-agents-to-photoshop-premiere-and-more-creative-cloud-apps",
-          "source": "The Decoder：AI News（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-18T12:59:00Z"
-        },
-        {
-          "id": "08136978404844e7cf57e0524e30454f50aec339",
-          "title": "Adobe 为 Photoshop、Premiere 等多款 Creative Cloud 应用加入 AI 智能体 / Adobe adds AI agents to Photoshop, Premiere, and more Creative Cloud apps",
-          "url": "https://the-decoder.com/adobe-adds-ai-agents-to-photoshop-premiere-and-more-creative-cloud-apps",
-          "source": "The Decoder AI News",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-06-18T12:59:00Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7613,
-      "importance": 0.7613,
-      "importance_score": 0.7613,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8259,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-18T12:59:00Z",
-      "latest_at": "2026-06-18T12:59:00Z",
-      "primary_item": {
-        "id": "cff5f147139817657fc6fb1a36a35461beaedaa7",
-        "title": "Adobe 为 Photoshop、Premiere 等多款 Creative Cloud 应用加入 AI 智能体",
-        "url": "https://the-decoder.com/adobe-adds-ai-agents-to-photoshop-premiere-and-more-creative-cloud-apps",
-        "source": "The Decoder：AI News（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_12cd9ddbb6cc",
-      "title": "Anthropic Project Fetch 第二阶段：Claude Opus 4.7 自主完成任务，速度比人类团队快约20倍",
-      "url": "https://www.anthropic.com/research/project-fetch-phase-two",
-      "primary_url": "https://www.anthropic.com/research/project-fetch-phase-two",
-      "source": "Anthropic：Research（发表成果 · 网页）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "cd63214205bc7769e3e16de1af39f0058ae9e306",
-          "title": "Anthropic Project Fetch 第二阶段：Claude Opus 4.7 自主完成任务，速度比人类团队快约20倍",
-          "url": "https://www.anthropic.com/research/project-fetch-phase-two",
-          "source": "Anthropic：Research（发表成果 · 网页）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-18T16:22:33.561000Z"
+          "published_at": "2026-06-18T23:45:03Z"
         }
       ],
       "source_count": 1,
       "source_names": [
-        "Anthropic：Research（发表成果 · 网页）"
+        "X：Rohan Paul (@rohanpaul_ai)"
       ],
       "items": [
         {
-          "id": "cd63214205bc7769e3e16de1af39f0058ae9e306",
-          "title": "Anthropic Project Fetch 第二阶段：Claude Opus 4.7 自主完成任务，速度比人类团队快约20倍",
-          "url": "https://www.anthropic.com/research/project-fetch-phase-two",
-          "source": "Anthropic：Research（发表成果 · 网页）",
+          "id": "d059bbe93c69bc3f33ffaef1aec7a92e694c1d7a",
+          "title": "AI 员工 Viktor 登陆 Microsoft Teams，年化收入达 2000 万美元",
+          "url": "https://x.com/rohanpaul_ai/status/2067755504613613699",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-06-18T16:22:33.561000Z"
+          "published_at": "2026-06-18T23:45:03Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7587,
-      "importance": 0.7587,
-      "importance_score": 0.7587,
+      "score": 0.7573,
+      "importance": 0.7573,
+      "importance_score": 0.7573,
       "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.77,
+        "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8674,
+        "recency": 0.8928,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1069,13 +1272,13 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-06-18T16:22:33.561000Z",
-      "latest_at": "2026-06-18T16:22:33.561000Z",
+      "earliest_at": "2026-06-18T23:45:03Z",
+      "latest_at": "2026-06-18T23:45:03Z",
       "primary_item": {
-        "id": "cd63214205bc7769e3e16de1af39f0058ae9e306",
-        "title": "Anthropic Project Fetch 第二阶段：Claude Opus 4.7 自主完成任务，速度比人类团队快约20倍",
-        "url": "https://www.anthropic.com/research/project-fetch-phase-two",
-        "source": "Anthropic：Research（发表成果 · 网页）",
+        "id": "d059bbe93c69bc3f33ffaef1aec7a92e694c1d7a",
+        "title": "AI 员工 Viktor 登陆 Microsoft Teams，年化收入达 2000 万美元",
+        "url": "https://x.com/rohanpaul_ai/status/2067755504613613699",
+        "source": "X：Rohan Paul (@rohanpaul_ai)",
         "source_name": "AI HOT"
       }
     },
@@ -1114,21 +1317,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7581,
-      "importance": 0.7581,
-      "importance_score": 0.7581,
+      "score": 0.7476,
+      "importance": 0.7476,
+      "importance_score": 0.7476,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.82,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7804,
+        "recency": 0.7221,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-06-18T09:03:28Z",
       "latest_at": "2026-06-18T09:03:28Z",
@@ -1141,346 +1343,123 @@
       }
     },
     {
-      "story_id": "story_6cd28c156a1c",
-      "title": "Claude Code 现已支持 artifacts",
-      "url": "https://claude.com/blog/artifacts-in-claude-code",
-      "primary_url": "https://claude.com/blog/artifacts-in-claude-code",
-      "source": "Claude：Blog（网页）",
+      "story_id": "story_12cd9ddbb6cc",
+      "title": "Anthropic Project Fetch 第二阶段：Claude Opus 4.7 自主完成任务，速度比人类团队快约20倍",
+      "url": "https://www.anthropic.com/research/project-fetch-phase-two",
+      "primary_url": "https://www.anthropic.com/research/project-fetch-phase-two",
+      "source": "Anthropic：Research（发表成果 · 网页）",
       "source_name": "AI HOT",
       "sources": [
         {
-          "id": "8beb9ec23f877961a60c262053d989704feceb35",
-          "title": "Claude Code 现已支持 artifacts",
-          "url": "https://claude.com/blog/artifacts-in-claude-code",
-          "source": "Claude：Blog（网页）",
+          "id": "cd63214205bc7769e3e16de1af39f0058ae9e306",
+          "title": "Anthropic Project Fetch 第二阶段：Claude Opus 4.7 自主完成任务，速度比人类团队快约20倍",
+          "url": "https://www.anthropic.com/research/project-fetch-phase-two",
+          "source": "Anthropic：Research（发表成果 · 网页）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-06-18T18:54:47.698000Z"
+          "published_at": "2026-06-18T16:22:33.561000Z"
         }
       ],
       "source_count": 1,
       "source_names": [
-        "Claude：Blog（网页）"
+        "Anthropic：Research（发表成果 · 网页）"
       ],
       "items": [
         {
-          "id": "8beb9ec23f877961a60c262053d989704feceb35",
-          "title": "Claude Code 现已支持 artifacts",
-          "url": "https://claude.com/blog/artifacts-in-claude-code",
-          "source": "Claude：Blog（网页）",
+          "id": "cd63214205bc7769e3e16de1af39f0058ae9e306",
+          "title": "Anthropic Project Fetch 第二阶段：Claude Opus 4.7 自主完成任务，速度比人类团队快约20倍",
+          "url": "https://www.anthropic.com/research/project-fetch-phase-two",
+          "source": "Anthropic：Research（发表成果 · 网页）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-06-18T18:54:47.698000Z"
+          "published_at": "2026-06-18T16:22:33.561000Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7496,
-      "importance": 0.7496,
-      "importance_score": 0.7496,
+      "score": 0.7471,
+      "importance": 0.7471,
+      "importance_score": 0.7471,
       "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.72,
+        "editorial": 0.77,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8997,
+        "recency": 0.8026,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
         "high_ai_relevance"
       ],
-      "earliest_at": "2026-06-18T18:54:47.698000Z",
-      "latest_at": "2026-06-18T18:54:47.698000Z",
+      "earliest_at": "2026-06-18T16:22:33.561000Z",
+      "latest_at": "2026-06-18T16:22:33.561000Z",
       "primary_item": {
-        "id": "8beb9ec23f877961a60c262053d989704feceb35",
-        "title": "Claude Code 现已支持 artifacts",
-        "url": "https://claude.com/blog/artifacts-in-claude-code",
-        "source": "Claude：Blog（网页）",
+        "id": "cd63214205bc7769e3e16de1af39f0058ae9e306",
+        "title": "Anthropic Project Fetch 第二阶段：Claude Opus 4.7 自主完成任务，速度比人类团队快约20倍",
+        "url": "https://www.anthropic.com/research/project-fetch-phase-two",
+        "source": "Anthropic：Research（发表成果 · 网页）",
         "source_name": "AI HOT"
       }
     },
     {
-      "story_id": "story_cb61d9b8fdb1",
-      "title": "ChatGPT 图像生成器可被绕过滤镜生成暴力和色情内容",
-      "url": "https://mindgard.ai/blog/chatgpt-spontaneously-generated-violent-images-from-a-viral-prompt",
-      "primary_url": "https://mindgard.ai/blog/chatgpt-spontaneously-generated-violent-images-from-a-viral-prompt",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "story_id": "story_ec85ba36d117",
+      "title": "DeepSeek研究员开源AutoResearch：AI自主跑通285B模型RL研究闭环",
+      "url": "https://x.com/AYi_AInotes/status/2067819352926150953",
+      "primary_url": "https://x.com/AYi_AInotes/status/2067819352926150953",
+      "source": "X：阿易 AI Notes (@AYi_AInotes)",
       "source_name": "AI HOT",
       "sources": [
         {
-          "id": "10845be78de0956c1656a0700d902c3c6ab79161",
-          "title": "ChatGPT 图像生成器可被绕过滤镜生成暴力和色情内容",
-          "url": "https://mindgard.ai/blog/chatgpt-spontaneously-generated-violent-images-from-a-viral-prompt",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "id": "bf9f70a2b531f394e47b2f1a069697a815e6b7cf",
+          "title": "DeepSeek研究员开源AutoResearch：AI自主跑通285B模型RL研究闭环",
+          "url": "https://x.com/AYi_AInotes/status/2067819352926150953",
+          "source": "X：阿易 AI Notes (@AYi_AInotes)",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-06-18T11:25:28.101000Z"
-        },
-        {
-          "id": "9b99792ff9ff2f4f45853328001cc4dbe7743991",
-          "title": "ChatGPT的图像生成器可以被利用来生成暴力和色情内容",
-          "url": "https://mindgard.ai/blog/chatgpt-spontaneously-generated-violent-images-from-a-viral-prompt",
-          "source": "mindgard.ai",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-18T11:25:28.101000Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News 热门（buzzing.cc 中文翻译）",
-        "mindgard.ai"
-      ],
-      "items": [
-        {
-          "id": "10845be78de0956c1656a0700d902c3c6ab79161",
-          "title": "ChatGPT 图像生成器可被绕过滤镜生成暴力和色情内容",
-          "url": "https://mindgard.ai/blog/chatgpt-spontaneously-generated-violent-images-from-a-viral-prompt",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-18T11:25:28.101000Z"
-        },
-        {
-          "id": "9b99792ff9ff2f4f45853328001cc4dbe7743991",
-          "title": "ChatGPT的图像生成器可以被利用来生成暴力和色情内容",
-          "url": "https://mindgard.ai/blog/chatgpt-spontaneously-generated-violent-images-from-a-viral-prompt",
-          "source": "mindgard.ai",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-18T11:25:28.101000Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.779,
-      "importance": 0.779,
-      "importance_score": 0.779,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.79,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8075,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-18T11:25:28.101000Z",
-      "latest_at": "2026-06-18T11:25:28.101000Z",
-      "primary_item": {
-        "id": "10845be78de0956c1656a0700d902c3c6ab79161",
-        "title": "ChatGPT 图像生成器可被绕过滤镜生成暴力和色情内容",
-        "url": "https://mindgard.ai/blog/chatgpt-spontaneously-generated-violent-images-from-a-viral-prompt",
-        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_c9e413bc0c2d",
-      "title": "免费开源乔木画布：AI生图+抠图，一键部署Vercel",
-      "url": "https://x.com/vista8/status/2067513484364140994",
-      "primary_url": "https://x.com/vista8/status/2067513484364140994",
-      "source": "X：Vista (@vista8)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "3d99ff85b989c5c707a887389efd2058731b6ae9",
-          "title": "免费开源乔木画布：AI生图+抠图，一键部署Vercel",
-          "url": "https://x.com/vista8/status/2067513484364140994",
-          "source": "X：Vista (@vista8)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-18T07:43:21Z"
+          "published_at": "2026-06-19T03:58:46Z"
         }
       ],
       "source_count": 1,
       "source_names": [
-        "X：Vista (@vista8)"
+        "X：阿易 AI Notes (@AYi_AInotes)"
       ],
       "items": [
         {
-          "id": "3d99ff85b989c5c707a887389efd2058731b6ae9",
-          "title": "免费开源乔木画布：AI生图+抠图，一键部署Vercel",
-          "url": "https://x.com/vista8/status/2067513484364140994",
-          "source": "X：Vista (@vista8)",
+          "id": "bf9f70a2b531f394e47b2f1a069697a815e6b7cf",
+          "title": "DeepSeek研究员开源AutoResearch：AI自主跑通285B模型RL研究闭环",
+          "url": "https://x.com/AYi_AInotes/status/2067819352926150953",
+          "source": "X：阿易 AI Notes (@AYi_AInotes)",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-06-18T07:43:21Z"
+          "published_at": "2026-06-19T03:58:46Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7464,
-      "importance": 0.7464,
-      "importance_score": 0.7464,
+      "score": 0.7704,
+      "importance": 0.7704,
+      "importance_score": 0.7704,
       "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.79,
+        "editorial": 0.76,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7655,
+        "recency": 0.949,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-18T07:43:21Z",
-      "latest_at": "2026-06-18T07:43:21Z",
-      "primary_item": {
-        "id": "3d99ff85b989c5c707a887389efd2058731b6ae9",
-        "title": "免费开源乔木画布：AI生图+抠图，一键部署Vercel",
-        "url": "https://x.com/vista8/status/2067513484364140994",
-        "source": "X：Vista (@vista8)",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_33dd1d19c265",
-      "title": "检测重复问题 – 公共预览版和问题字段 MCP 对 GitHub 问题的支持 / Detecting Duplicate Issues – Public Preview and issue fields MCP support for GitHub Issues",
-      "url": "https://github.blog/changelog/2026-06-18-duplicate-detection-and-issue-fields-mcp-support-for-github-issues",
-      "primary_url": "https://github.blog/changelog/2026-06-18-duplicate-detection-and-issue-fields-mcp-support-for-github-issues",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "b7220a3a5665e6b0369b14118a53f9a409679b1d",
-          "title": "检测重复问题 – 公共预览版和问题字段 MCP 对 GitHub 问题的支持 / Detecting Duplicate Issues – Public Preview and issue fields MCP support for GitHub Issues",
-          "url": "https://github.blog/changelog/2026-06-18-duplicate-detection-and-issue-fields-mcp-support-for-github-issues",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-18T18:04:33Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "items": [
-        {
-          "id": "b7220a3a5665e6b0369b14118a53f9a409679b1d",
-          "title": "检测重复问题 – 公共预览版和问题字段 MCP 对 GitHub 问题的支持 / Detecting Duplicate Issues – Public Preview and issue fields MCP support for GitHub Issues",
-          "url": "https://github.blog/changelog/2026-06-18-duplicate-detection-and-issue-fields-mcp-support-for-github-issues",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-18T18:04:33Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.832,
-      "importance": 0.832,
-      "importance_score": 0.832,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.8889,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-06-18T18:04:33Z",
-      "latest_at": "2026-06-18T18:04:33Z",
+      "earliest_at": "2026-06-19T03:58:46Z",
+      "latest_at": "2026-06-19T03:58:46Z",
       "primary_item": {
-        "id": "b7220a3a5665e6b0369b14118a53f9a409679b1d",
-        "title": "检测重复问题 – 公共预览版和问题字段 MCP 对 GitHub 问题的支持 / Detecting Duplicate Issues – Public Preview and issue fields MCP support for GitHub Issues",
-        "url": "https://github.blog/changelog/2026-06-18-duplicate-detection-and-issue-fields-mcp-support-for-github-issues",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
-      }
-    },
-    {
-      "story_id": "story_04102f06967f",
-      "title": "AI数据中心获政府强制电网快车道",
-      "url": "https://techcrunch.com/2026/06/18/ai-data-centers-just-got-a-government-mandated-fast-lane-to-the-grid",
-      "primary_url": "https://techcrunch.com/2026/06/18/ai-data-centers-just-got-a-government-mandated-fast-lane-to-the-grid",
-      "source": "TechCrunch：AI（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "776428020e6d5ff0ea46776e3abaa17a6c025c8e",
-          "title": "AI数据中心获政府强制电网快车道",
-          "url": "https://techcrunch.com/2026/06/18/ai-data-centers-just-got-a-government-mandated-fast-lane-to-the-grid",
-          "source": "TechCrunch：AI（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-18T17:49:23Z"
-        },
-        {
-          "id": "3d52b11d73d39a549a9efb1d5959ab642679ad49",
-          "title": "AI数据中心获政府强制电网快车道 / AI data centers just got a government-mandated fast lane to the grid",
-          "url": "https://techcrunch.com/2026/06/18/ai-data-centers-just-got-a-government-mandated-fast-lane-to-the-grid",
-          "source": "TechCrunch",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-18T17:49:23Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "TechCrunch",
-        "TechCrunch：AI（RSS）"
-      ],
-      "items": [
-        {
-          "id": "776428020e6d5ff0ea46776e3abaa17a6c025c8e",
-          "title": "AI数据中心获政府强制电网快车道",
-          "url": "https://techcrunch.com/2026/06/18/ai-data-centers-just-got-a-government-mandated-fast-lane-to-the-grid",
-          "source": "TechCrunch：AI（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-18T17:49:23Z"
-        },
-        {
-          "id": "3d52b11d73d39a549a9efb1d5959ab642679ad49",
-          "title": "AI数据中心获政府强制电网快车道 / AI data centers just got a government-mandated fast lane to the grid",
-          "url": "https://techcrunch.com/2026/06/18/ai-data-centers-just-got-a-government-mandated-fast-lane-to-the-grid",
-          "source": "TechCrunch",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-18T17:49:23Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.766,
-      "importance": 0.766,
-      "importance_score": 0.766,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.7,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8857,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-18T17:49:23Z",
-      "latest_at": "2026-06-18T17:49:23Z",
-      "primary_item": {
-        "id": "776428020e6d5ff0ea46776e3abaa17a6c025c8e",
-        "title": "AI数据中心获政府强制电网快车道",
-        "url": "https://techcrunch.com/2026/06/18/ai-data-centers-just-got-a-government-mandated-fast-lane-to-the-grid",
-        "source": "TechCrunch：AI（RSS）",
+        "id": "bf9f70a2b531f394e47b2f1a069697a815e6b7cf",
+        "title": "DeepSeek研究员开源AutoResearch：AI自主跑通285B模型RL研究闭环",
+        "url": "https://x.com/AYi_AInotes/status/2067819352926150953",
+        "source": "X：阿易 AI Notes (@AYi_AInotes)",
         "source_name": "AI HOT"
       }
     }
