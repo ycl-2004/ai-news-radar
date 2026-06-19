@@ -72,6 +72,8 @@ jobs:
           SOCIALDATA_RUN_UTC_MINUTE_MAX: ${{ vars.SOCIALDATA_RUN_UTC_MINUTE_MAX }}
           TIKHUB_ENABLED: ${{ secrets.TIKHUB_ENABLED || vars.TIKHUB_ENABLED }}
           TIKHUB_API_KEY: ${{ secrets.TIKHUB_API_KEY }}
+          TIKHUB_API_BASE_URL: ${{ vars.TIKHUB_API_BASE_URL }}
+          TIKHUB_FORCE_RUN: ${{ vars.TIKHUB_FORCE_RUN }}
           TIKHUB_QUERY: ${{ vars.TIKHUB_QUERY }}
           TIKHUB_PLATFORMS: ${{ vars.TIKHUB_PLATFORMS }}
           TIKHUB_MAX_RESULTS: ${{ vars.TIKHUB_MAX_RESULTS }}
