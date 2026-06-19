@@ -37,8 +37,8 @@
         text="Microsoft AI Blog"
         title="Microsoft AI Blog"
         type="rss"
-        xmlUrl="https://blogs.microsoft.com/ai/feed/"
-        htmlUrl="https://blogs.microsoft.com/ai/"
+        xmlUrl="https://news.microsoft.com/source/topics/ai/feed/"
+        htmlUrl="https://news.microsoft.com/source/topics/ai/"
       />
     </outline>
     <outline text="AI Media and Builders">
