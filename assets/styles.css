@@ -1210,8 +1210,8 @@ summary:focus-visible {
 .top-story-card .intel-card-sources {
   align-items: flex-start;
   align-content: flex-start;
-  margin-top: -8px;
-  min-height: 52px;
+  margin-top: -5px;
+  min-height: 0;
   max-height: 52px;
   overflow: hidden;
 }
