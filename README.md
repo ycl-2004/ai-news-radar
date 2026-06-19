@@ -245,6 +245,7 @@ python scripts/update_news.py --output-dir data --window-hours 24 --rss-opml fee
 - 只有额外设置 `EMAIL_DIGEST_PUBLISH=1`，才会提交 `data/email-digest.json`
 - 如果设置 `X_API_ENABLED=1`、`X_BEARER_TOKEN` 和预算变量，会在每日指定UTC窗口用官方X API抓取少量公开Post；默认关闭，且当前X API按返回资源计费
 - 如果设置 `SOCIALDATA_ENABLED=1`、`SOCIALDATA_API_KEY` 和预算变量，会在每日指定UTC窗口通过 SocialData.tools 抓取少量公开 X/Twitter 搜索结果；默认关闭，API Key 只应放在本地环境变量或 GitHub Secrets
+- 如果设置 `TIKHUB_ENABLED=1`、`TIKHUB_API_KEY` 和预算变量，会在每日指定UTC窗口通过 TikHub 抓取少量抖音/小红书关键词搜索结果；默认关闭，API Key 只应放在本地环境变量或 GitHub Secrets
 
 默认情况下，本项目不需要任何API Key就能跑核心流程。
 
@@ -253,6 +254,32 @@ python scripts/update_news.py --output-dir data --window-hours 24 --rss-opml fee
 高级源配置模板见 `examples/advanced-sources.env.example`，
 
 预算说明见 `docs/research/advanced-source-free-tier-budget-2026-05-10.md`，
+
+本地测试 TikHub 抓取时可以先小流量强制跑一次：
+
+```bash
+export TIKHUB_ENABLED=1
+export TIKHUB_API_KEY='你的 TikHub API Key'
+export TIKHUB_FORCE_RUN=1
+export TIKHUB_QUERY='AI,大模型,Agent'
+export TIKHUB_PLATFORMS=douyin,xiaohongshu
+export TIKHUB_MAX_RESULTS=10
+export TIKHUB_DAILY_ITEM_LIMIT=10
+python3 scripts/probe_tikhub.py --query 'AI,大模型,Agent' --platforms douyin,xiaohongshu --max-results 10
+python3 scripts/update_news.py --output-dir /tmp/ai-news-radar-tikhub --window-hours 24 --archive-days 3
+python3 - <<'PY'
+import json
+from collections import Counter
+
+status = json.load(open("/tmp/ai-news-radar-tikhub/source-status.json"))
+latest = json.load(open("/tmp/ai-news-radar-tikhub/latest-24h-all.json"))
+print("failed_sites =", status.get("failed_sites"))
+print("empty_advanced_sources =", status.get("empty_advanced_sources"))
+print("tikhub_status =", [s for s in status.get("sites", []) if str(s.get("site_id", "")).startswith("tikhub")])
+counts = Counter(i.get("site_id") for i in latest.get("items_all_raw", []))
+print("tikhub_24h_counts =", {k: counts[k] for k in sorted(counts) if str(k).startswith("tikhub")})
+PY
+```
 
 X API演示配置见 `docs/guides/x-api-demo-config.md`；
 

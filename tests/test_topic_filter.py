@@ -8,11 +8,13 @@ from scripts.update_news import (
     dedupe_items_by_title_url,
     fetch_agentmail_digest,
     fetch_aihot,
+    fetch_tikhub_search,
     is_ai_related_record,
     is_hubtoday_generic_anchor_title,
     is_hubtoday_placeholder_title,
     maybe_fetch_agentmail_digest,
     maybe_fetch_socialdata_updates,
+    maybe_fetch_tikhub_updates,
     maybe_fetch_x_api_updates,
     maybe_fix_mojibake,
     normalize_source_for_display,
@@ -22,6 +24,8 @@ from scripts.update_news import (
     parse_curated_ai_media_feed_items,
     parse_date_any,
     parse_feed_entries_via_xml,
+    parse_tikhub_douyin_items,
+    parse_tikhub_xiaohongshu_items,
     parse_anthropic_news_items,
     parse_follow_builders_items,
     parse_openai_codex_changelog_items,
@@ -796,6 +800,223 @@ class TopicFilterTests(unittest.TestCase):
         self.assertEqual(status["item_count"], 0)
         self.assertEqual(status["diagnostics"]["response_top_level_keys"], ["next_cursor", "tweets"])
         self.assertEqual(status["diagnostics"]["empty_reason"], "no_tweets_returned_by_socialdata")
+
+    def test_tikhub_default_off_does_not_request_network(self):
+        class NoNetworkSession:
+            def __init__(self):
+                self.calls = 0
+
+            def get(self, *args, **kwargs):
+                self.calls += 1
+                raise AssertionError("TikHub should stay offline unless explicitly enabled")
+
+            def post(self, *args, **kwargs):
+                self.calls += 1
+                raise AssertionError("TikHub should stay offline unless explicitly enabled")
+
+        session = NoNetworkSession()
+        with patch.dict("os.environ", {}, clear=True):
+            items, status = maybe_fetch_tikhub_updates(
+                session,
+                __import__("datetime").datetime.fromisoformat("2026-05-03T01:00:00+00:00"),
+            )
+        self.assertEqual(items, [])
+        self.assertFalse(status["enabled"])
+        self.assertEqual(session.calls, 0)
+
+    def test_tikhub_enabled_without_key_does_not_request_network(self):
+        class NoNetworkSession:
+            def __init__(self):
+                self.calls = 0
+
+            def get(self, *args, **kwargs):
+                self.calls += 1
+                raise AssertionError("TikHub should not run without an API key")
+
+            def post(self, *args, **kwargs):
+                self.calls += 1
+                raise AssertionError("TikHub should not run without an API key")
+
+        session = NoNetworkSession()
+        env = {"TIKHUB_ENABLED": "1", "TIKHUB_FORCE_RUN": "1"}
+        with patch.dict("os.environ", env, clear=True):
+            items, status = maybe_fetch_tikhub_updates(
+                session,
+                __import__("datetime").datetime.fromisoformat("2026-05-03T01:00:00+00:00"),
+            )
+        self.assertEqual(items, [])
+        self.assertTrue(status["enabled"])
+        self.assertFalse(status["ok"])
+        self.assertEqual(status["error"], "missing_tikhub_api_key")
+        self.assertEqual(session.calls, 0)
+
+    def test_parse_tikhub_douyin_items(self):
+        payload = {
+            "data": [
+                {
+                    "aweme_info": {
+                        "aweme_id": "712345",
+                        "desc": "OpenAI 发布新的 AI Agent 工作流",
+                        "create_time": 1770000000,
+                        "author": {"nickname": "AI观察"},
+                        "statistics": {"digg_count": 42},
+                    }
+                }
+            ]
+        }
+        items = parse_tikhub_douyin_items(
+            payload,
+            now=__import__("datetime").datetime.fromisoformat("2026-05-03T01:00:00+00:00"),
+            keyword="AI",
+            limit=5,
+        )
+        self.assertEqual(len(items), 1)
+        self.assertEqual(items[0].site_id, "tikhub_douyin")
+        self.assertEqual(items[0].source, "AI观察")
+        self.assertEqual(items[0].url, "https://www.douyin.com/video/712345")
+        self.assertEqual(items[0].meta["keyword"], "AI")
+
+    def test_parse_tikhub_xiaohongshu_items(self):
+        payload = {
+            "data": {
+                "items": [
+                    {
+                        "id": "xhs123",
+                        "note_card": {
+                            "display_title": "Claude Code 实测：AI 编程代理",
+                            "user": {"nickname": "工具研究员"},
+                            "interact_info": {"liked_count": "99"},
+                        },
+                    }
+                ]
+            }
+        }
+        items = parse_tikhub_xiaohongshu_items(
+            payload,
+            now=__import__("datetime").datetime.fromisoformat("2026-05-03T01:00:00+00:00"),
+            keyword="AI工具",
+            limit=5,
+        )
+        self.assertEqual(len(items), 1)
+        self.assertEqual(items[0].site_id, "tikhub_xiaohongshu")
+        self.assertEqual(items[0].source, "工具研究员")
+        self.assertEqual(items[0].url, "https://www.xiaohongshu.com/explore/xhs123")
+        self.assertEqual(items[0].meta["post_id"], "xhs123")
+
+    def test_fetch_tikhub_search_calls_both_platforms(self):
+        class FakeResponse:
+            def __init__(self, payload):
+                self.payload = payload
+
+            def raise_for_status(self):
+                return None
+
+            def json(self):
+                return self.payload
+
+        class FakeSession:
+            def __init__(self):
+                self.calls = []
+
+            def post(self, url, **kwargs):
+                self.calls.append(("POST", url, kwargs))
+                return FakeResponse(
+                    {
+                        "data": [
+                            {
+                                "aweme_info": {
+                                    "aweme_id": "douyin1",
+                                    "desc": "OpenAI Agent 发布",
+                                    "author": {"nickname": "抖音AI"},
+                                }
+                            }
+                        ]
+                    }
+                )
+
+            def get(self, url, **kwargs):
+                self.calls.append(("GET", url, kwargs))
+                return FakeResponse(
+                    {
+                        "data": {
+                            "items": [
+                                {
+                                    "id": "xhs1",
+                                    "note_card": {
+                                        "display_title": "大模型工具更新",
+                                        "user": {"nickname": "小红书AI"},
+                                    },
+                                }
+                            ]
+                        }
+                    }
+                )
+
+        session = FakeSession()
+        items, diagnostics = fetch_tikhub_search(
+            session,
+            api_key="test",
+            query="AI",
+            now=__import__("datetime").datetime.fromisoformat("2026-05-03T01:00:00+00:00"),
+            max_results=2,
+            platforms=["douyin", "xiaohongshu"],
+        )
+        self.assertEqual([item.site_id for item in items], ["tikhub_douyin", "tikhub_xiaohongshu"])
+        self.assertEqual([call[0] for call in session.calls], ["POST", "GET"])
+        self.assertIn("/api/v1/xiaohongshu/app_v2/search_notes", session.calls[1][1])
+        self.assertEqual(diagnostics["mapped_item_count"], 2)
+
+    def test_fetch_tikhub_search_falls_back_to_xiaohongshu_web_v3(self):
+        class FakeResponse:
+            def __init__(self, payload):
+                self.payload = payload
+
+            def raise_for_status(self):
+                return None
+
+            def json(self):
+                return self.payload
+
+        class FakeSession:
+            def __init__(self):
+                self.calls = []
+
+            def get(self, url, **kwargs):
+                self.calls.append(("GET", url, kwargs))
+                if "/app_v2/search_notes" in url:
+                    return FakeResponse({"data": {"items": []}})
+                return FakeResponse(
+                    {
+                        "data": {
+                            "items": [
+                                {
+                                    "id": "xhs-web",
+                                    "note_card": {
+                                        "display_title": "AI 工作流笔记",
+                                        "user": {"nickname": "Web V3 用户"},
+                                    },
+                                }
+                            ]
+                        }
+                    }
+                )
+
+        session = FakeSession()
+        items, diagnostics = fetch_tikhub_search(
+            session,
+            api_key="test",
+            query="AI",
+            now=__import__("datetime").datetime.fromisoformat("2026-05-03T01:00:00+00:00"),
+            max_results=1,
+            platforms=["xiaohongshu"],
+        )
+        self.assertEqual(len(items), 1)
+        self.assertEqual(items[0].site_id, "tikhub_xiaohongshu")
+        self.assertEqual([call[1] for call in session.calls], [
+            "https://api.tikhub.io/api/v1/xiaohongshu/app_v2/search_notes",
+            "https://api.tikhub.io/api/v1/xiaohongshu/web_v3/fetch_search_notes",
+        ])
+        self.assertEqual(diagnostics["requests"][0]["fallback_reason"], "no_items_mapped_try_web_v3")
 
 
 if __name__ == "__main__":

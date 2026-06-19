@@ -194,6 +194,11 @@ SOCIALDATA_TWEET_READ_COST_USD = 0.0002
 SOCIALDATA_DEFAULT_QUERY = '(AI OR "artificial intelligence" OR "large language model" OR LLM) lang:en -filter:retweets'
 SOCIALDATA_DEFAULT_MAX_RESULTS = 20
 SOCIALDATA_MAX_QUERY_CHARS = 512
+TIKHUB_API_BASE_DEFAULT = "https://api.tikhub.io"
+TIKHUB_DEFAULT_QUERY = "AI,人工智能,大模型,OpenAI,Claude,Agent,AI工具"
+TIKHUB_DEFAULT_PLATFORMS = "douyin,xiaohongshu"
+TIKHUB_DEFAULT_MAX_RESULTS = 20
+TIKHUB_MAX_QUERY_CHARS = 256
 
 
 @dataclass
@@ -3334,6 +3339,399 @@ def maybe_fetch_socialdata_updates(
         return [], status
 
 
+def tikhub_should_run_now(now: datetime) -> bool:
+    """Gate paid TikHub reads so scheduled workflows do not spend every run."""
+    if env_flag("TIKHUB_FORCE_RUN"):
+        return True
+    run_hour = max(0, min(env_int("TIKHUB_RUN_UTC_HOUR", 0), 23))
+    minute_max = max(0, min(env_int("TIKHUB_RUN_UTC_MINUTE_MAX", 10), 59))
+    return now.astimezone(UTC).hour == run_hour and now.astimezone(UTC).minute <= minute_max
+
+
+def tikhub_status_base(now: datetime) -> dict[str, Any]:
+    daily_limit = max(0, env_int("TIKHUB_DAILY_ITEM_LIMIT", TIKHUB_DEFAULT_MAX_RESULTS))
+    max_results = max(1, min(env_int("TIKHUB_MAX_RESULTS", TIKHUB_DEFAULT_MAX_RESULTS), 100))
+    effective_cap = min(max_results, daily_limit) if daily_limit else 0
+    platforms = [
+        part.strip().lower()
+        for part in str(os.environ.get("TIKHUB_PLATFORMS") or TIKHUB_DEFAULT_PLATFORMS).split(",")
+        if part.strip()
+    ]
+    return {
+        "enabled": env_flag("TIKHUB_ENABLED"),
+        "ok": None,
+        "item_count": 0,
+        "privacy": "public_social_posts_metadata_only",
+        "published_by_default": False,
+        "billing": "tikhub_charged_request",
+        "daily_item_limit": daily_limit,
+        "max_results_per_run": max_results,
+        "effective_result_cap": effective_cap,
+        "platforms": platforms,
+        "run_utc_hour": max(0, min(env_int("TIKHUB_RUN_UTC_HOUR", 0), 23)),
+        "generated_date_utc": now.astimezone(UTC).date().isoformat(),
+    }
+
+
+def iter_nested_dicts(value: Any) -> list[dict[str, Any]]:
+    out: list[dict[str, Any]] = []
+    if isinstance(value, dict):
+        out.append(value)
+        for child in value.values():
+            out.extend(iter_nested_dicts(child))
+    elif isinstance(value, list):
+        for child in value:
+            out.extend(iter_nested_dicts(child))
+    return out
+
+
+def tikhub_payload_shape(payload: Any) -> dict[str, Any]:
+    """Return a sanitized structural summary for debugging API schema drift."""
+    dicts = iter_nested_dicts(payload)
+    data = payload.get("data") if isinstance(payload, dict) else None
+    data_items = data.get("items") if isinstance(data, dict) else None
+    data_business = data.get("business_data") if isinstance(data, dict) else None
+    sample_nodes: list[dict[str, Any]] = []
+    for node in dicts:
+        if len(sample_nodes) >= 3:
+            break
+        keys = sorted(str(key) for key in node.keys())[:16]
+        if {"aweme_info", "note_card", "display_title", "desc", "title", "id", "note_id"} & set(keys):
+            sample_nodes.append({"keys": keys})
+    return {
+        "dict_count": len(dicts),
+        "data_type": type(data).__name__ if data is not None else None,
+        "data_keys": sorted(data.keys())[:16] if isinstance(data, dict) else [],
+        "data_items_count": len(data_items) if isinstance(data_items, list) else None,
+        "data_business_count": len(data_business) if isinstance(data_business, list) else None,
+        "aweme_info_count": sum(1 for node in dicts if isinstance(node.get("aweme_info"), dict)),
+        "note_card_count": sum(1 for node in dicts if isinstance(node.get("note_card"), dict)),
+        "sample_nodes": sample_nodes,
+    }
+
+
+def parse_epoch_any(value: Any, now: datetime) -> datetime | None:
+    if value is None or value == "":
+        return None
+    if isinstance(value, (int, float)):
+        number = float(value)
+    else:
+        text = str(value).strip()
+        if not text:
+            return None
+        if re.fullmatch(r"\d+(\.\d+)?", text):
+            number = float(text)
+        else:
+            return parse_date_any(text, now)
+    if number > 10_000_000_000:
+        number = number / 1000
+    try:
+        return datetime.fromtimestamp(number, tz=UTC)
+    except (OverflowError, OSError, ValueError):
+        return None
+
+
+def parse_tikhub_douyin_items(payload: dict[str, Any], now: datetime, keyword: str, limit: int) -> list[RawItem]:
+    out: list[RawItem] = []
+    seen_ids: set[str] = set()
+    for node in iter_nested_dicts(payload):
+        aweme = node.get("aweme_info") if isinstance(node.get("aweme_info"), dict) else node
+        if not isinstance(aweme, dict):
+            continue
+        post_id = str(aweme.get("aweme_id") or aweme.get("id") or "").strip()
+        title = compact_public_snippet(str(aweme.get("desc") or aweme.get("title") or aweme.get("caption") or ""), max_chars=220)
+        if not (post_id and title) or post_id in seen_ids:
+            continue
+        seen_ids.add(post_id)
+        author = aweme.get("author") if isinstance(aweme.get("author"), dict) else {}
+        source = str(author.get("nickname") or author.get("unique_id") or "Douyin Search").strip() or "Douyin Search"
+        share = first_non_empty(
+            aweme.get("share_url"),
+            aweme.get("share_info", {}).get("share_url") if isinstance(aweme.get("share_info"), dict) else "",
+            f"https://www.douyin.com/video/{post_id}",
+        )
+        published = parse_epoch_any(aweme.get("create_time") or aweme.get("create_time_stamp"), now) or now
+        out.append(
+            RawItem(
+                site_id="tikhub_douyin",
+                site_name="TikHub Douyin",
+                source=source,
+                title=title,
+                url=str(share),
+                published_at=published,
+                meta={
+                    "platform": "douyin",
+                    "keyword": keyword,
+                    "post_id": post_id,
+                    "public_metrics": aweme.get("statistics") or {},
+                },
+            )
+        )
+        if len(out) >= limit:
+            break
+    return out
+
+
+def parse_tikhub_xiaohongshu_items(payload: dict[str, Any], now: datetime, keyword: str, limit: int) -> list[RawItem]:
+    out: list[RawItem] = []
+    seen_ids: set[str] = set()
+    for node in iter_nested_dicts(payload):
+        note = next(
+            (
+                node.get(key)
+                for key in ("note_card", "note_info", "note", "note_data", "noteCard")
+                if isinstance(node.get(key), dict)
+            ),
+            node,
+        )
+        if not isinstance(note, dict):
+            continue
+        note_id = str(
+            note.get("note_id")
+            or note.get("noteId")
+            or note.get("id")
+            or node.get("noteId")
+            or node.get("note_id")
+            or node.get("id")
+            or ""
+        ).strip()
+        title = compact_public_snippet(
+            str(
+                note.get("display_title")
+                or note.get("displayTitle")
+                or note.get("title")
+                or note.get("desc")
+                or note.get("description")
+                or note.get("content")
+                or node.get("display_title")
+                or node.get("title")
+                or node.get("desc")
+                or ""
+            ),
+            max_chars=220,
+        )
+        if not (note_id and title) or note_id in seen_ids:
+            continue
+        seen_ids.add(note_id)
+        user = next(
+            (
+                owner
+                for owner in (note.get("user"), note.get("user_info"), node.get("user"), node.get("user_info"))
+                if isinstance(owner, dict)
+            ),
+            {},
+        )
+        source = str(
+            user.get("nickname")
+            or user.get("nick_name")
+            or user.get("nickName")
+            or user.get("name")
+            or "Xiaohongshu Search"
+        ).strip() or "Xiaohongshu Search"
+        xsec_token = str(note.get("xsec_token") or node.get("xsec_token") or "").strip()
+        url = first_non_empty(
+            note.get("url"),
+            note.get("share_url"),
+            note.get("shareUrl"),
+            node.get("url"),
+            node.get("share_url"),
+            node.get("shareUrl"),
+            f"https://www.xiaohongshu.com/explore/{note_id}{'?xsec_token=' + xsec_token if xsec_token else ''}",
+        )
+        published = (
+            parse_epoch_any(
+                note.get("time")
+                or note.get("create_time")
+                or note.get("created_at")
+                or note.get("last_update_time")
+                or node.get("time")
+                or node.get("create_time")
+                or node.get("created_at")
+                or node.get("last_update_time"),
+                now,
+            )
+            or now
+        )
+        out.append(
+            RawItem(
+                site_id="tikhub_xiaohongshu",
+                site_name="TikHub Xiaohongshu",
+                source=source,
+                title=title,
+                url=str(url),
+                published_at=published,
+                meta={
+                    "platform": "xiaohongshu",
+                    "keyword": keyword,
+                    "post_id": note_id,
+                    "public_metrics": note.get("interact_info") or {},
+                },
+            )
+        )
+        if len(out) >= limit:
+            break
+    return out
+
+
+def fetch_tikhub_search(
+    session: requests.Session,
+    api_key: str,
+    query: str,
+    now: datetime,
+    max_results: int,
+    platforms: list[str],
+    base_url: str = TIKHUB_API_BASE_DEFAULT,
+) -> tuple[list[RawItem], dict[str, Any]]:
+    headers = {"Authorization": f"Bearer {api_key}", "Accept": "application/json"}
+    root = (base_url or TIKHUB_API_BASE_DEFAULT).rstrip("/")
+    keywords = [part.strip() for part in query.split(",") if part.strip()]
+    if not keywords:
+        raise ValueError("tikhub_query_empty")
+    if any(len(keyword) > TIKHUB_MAX_QUERY_CHARS for keyword in keywords):
+        raise ValueError("tikhub_query_too_long")
+
+    capped_max_results = max(1, min(int(max_results or TIKHUB_DEFAULT_MAX_RESULTS), 100))
+    platform_list = []
+    for platform in platforms:
+        if platform in {"douyin", "xiaohongshu"} and platform not in platform_list:
+            platform_list.append(platform)
+    out: list[RawItem] = []
+    per_platform_cap = max(1, (capped_max_results + max(len(platform_list), 1) - 1) // max(len(platform_list), 1))
+    diagnostics: dict[str, Any] = {"keywords": keywords, "platforms": platform_list, "requests": []}
+    for platform in platform_list:
+        platform_count = 0
+        for keyword in keywords:
+            remaining = min(capped_max_results - len(out), per_platform_cap - platform_count)
+            if remaining <= 0:
+                break
+            if platform == "douyin":
+                endpoint = "/api/v1/douyin/search/fetch_general_search_v2"
+                response = session.post(
+                    f"{root}{endpoint}",
+                    headers={**headers, "Content-Type": "application/json"},
+                    json={
+                        "keyword": keyword,
+                        "cursor": 0,
+                        "sort_type": "2",
+                        "publish_time": "1",
+                        "filter_duration": "0",
+                        "content_type": "0",
+                        "search_id": "",
+                        "backtrace": "",
+                    },
+                    timeout=30,
+                )
+                response.raise_for_status()
+                payload = response.json()
+                mapped = parse_tikhub_douyin_items(payload, now=now, keyword=keyword, limit=remaining)
+            else:
+                endpoint = "/api/v1/xiaohongshu/app_v2/search_notes"
+                response = session.get(
+                    f"{root}{endpoint}",
+                    headers=headers,
+                    params={
+                        "keyword": keyword,
+                        "page": 1,
+                        "sort_type": "general",
+                        "note_type": "不限",
+                        "time_filter": "不限",
+                        "search_id": "",
+                        "search_session_id": "",
+                        "source": "explore_feed",
+                        "ai_mode": 0,
+                    },
+                    timeout=30,
+                )
+                response.raise_for_status()
+                payload = response.json()
+                mapped = parse_tikhub_xiaohongshu_items(payload, now=now, keyword=keyword, limit=remaining)
+                if not mapped:
+                    diagnostics["requests"].append(
+                        {
+                            "platform": platform,
+                            "endpoint": endpoint,
+                            "keyword": keyword,
+                            "mapped_item_count": 0,
+                            "response_top_level_keys": sorted(payload.keys())[:12] if isinstance(payload, dict) else [],
+                            "payload_shape": tikhub_payload_shape(payload),
+                            "fallback_reason": "no_items_mapped_try_web_v3",
+                        }
+                    )
+                    endpoint = "/api/v1/xiaohongshu/web_v3/fetch_search_notes"
+                    response = session.get(
+                        f"{root}{endpoint}",
+                        headers=headers,
+                        params={"keyword": keyword, "page": 1, "sort": "time_descending", "note_type": 0},
+                        timeout=30,
+                    )
+                    response.raise_for_status()
+                    payload = response.json()
+                    mapped = parse_tikhub_xiaohongshu_items(payload, now=now, keyword=keyword, limit=remaining)
+            out.extend(mapped)
+            platform_count += len(mapped)
+            diagnostics["requests"].append(
+                {
+                    "platform": platform,
+                    "endpoint": endpoint,
+                    "keyword": keyword,
+                    "mapped_item_count": len(mapped),
+                    "response_top_level_keys": sorted(payload.keys())[:12] if isinstance(payload, dict) else [],
+                    "payload_shape": tikhub_payload_shape(payload),
+                }
+            )
+        if len(out) >= capped_max_results:
+            break
+    diagnostics["mapped_item_count"] = len(out)
+    return out, diagnostics
+
+
+def maybe_fetch_tikhub_updates(
+    session: requests.Session,
+    now: datetime,
+) -> tuple[list[RawItem], dict[str, Any]]:
+    """Fetch TikHub Douyin/Xiaohongshu search only when explicitly enabled."""
+    status = tikhub_status_base(now)
+    if not status["enabled"]:
+        return [], status
+
+    if status["effective_result_cap"] < 1:
+        status["ok"] = False
+        status["error"] = "tikhub_daily_item_limit_below_minimum"
+        return [], status
+
+    if not tikhub_should_run_now(now):
+        status["skipped"] = True
+        status["skip_reason"] = "outside_tikhub_daily_window"
+        return [], status
+
+    api_key = str(os.environ.get("TIKHUB_API_KEY") or "").strip()
+    if not api_key:
+        status["ok"] = False
+        status["error"] = "missing_tikhub_api_key"
+        return [], status
+
+    query = str(os.environ.get("TIKHUB_QUERY") or TIKHUB_DEFAULT_QUERY).strip()
+    base_url = str(os.environ.get("TIKHUB_API_BASE_URL") or TIKHUB_API_BASE_DEFAULT).strip()
+    try:
+        items, diagnostics = fetch_tikhub_search(
+            session,
+            api_key=api_key,
+            query=query,
+            now=now,
+            max_results=int(status["effective_result_cap"]),
+            platforms=status["platforms"],
+            base_url=base_url,
+        )
+        status["ok"] = True
+        status["item_count"] = len(items)
+        status["diagnostics"] = diagnostics
+        return items, status
+    except Exception as exc:
+        status["ok"] = False
+        status["error"] = type(exc).__name__
+        return [], status
+
+
 def has_mojibake_noise(text: str) -> bool:
     if not text:
         return False
@@ -4062,6 +4460,30 @@ def main() -> int:
                 "skip_reason": socialdata_status.get("skip_reason"),
             }
         )
+    tikhub_items, tikhub_status = maybe_fetch_tikhub_updates(session, now)
+    if tikhub_status.get("enabled"):
+        raw_items.extend(tikhub_items)
+        tikhub_counts: dict[str, int] = {}
+        for item in tikhub_items:
+            tikhub_counts[item.site_id] = tikhub_counts.get(item.site_id, 0) + 1
+        for site_id, site_name in (
+            ("tikhub_douyin", "TikHub Douyin"),
+            ("tikhub_xiaohongshu", "TikHub Xiaohongshu"),
+        ):
+            if site_id.split("_", 1)[1] not in set(tikhub_status.get("platforms") or []):
+                continue
+            statuses.append(
+                {
+                    "site_id": site_id,
+                    "site_name": site_name,
+                    "ok": bool(tikhub_status.get("ok")) if tikhub_status.get("ok") is not None else True,
+                    "item_count": tikhub_counts.get(site_id, 0),
+                    "duration_ms": 0,
+                    "error": tikhub_status.get("error"),
+                    "skipped": bool(tikhub_status.get("skipped")),
+                    "skip_reason": tikhub_status.get("skip_reason"),
+                }
+            )
 
     waytoagi_started = time.perf_counter()
     try:
@@ -4298,7 +4720,7 @@ def main() -> int:
         for s in statuses
         if s.get("ok")
         and int(s.get("item_count") or 0) == 0
-        and str(s.get("site_id") or "") in {"xapi", "socialdata_x"}
+        and str(s.get("site_id") or "") in {"xapi", "socialdata_x", "tikhub_douyin", "tikhub_xiaohongshu"}
         and not s.get("skipped")
     ]
     empty_advanced_site_ids = {item["site_id"] for item in empty_advanced_sources}

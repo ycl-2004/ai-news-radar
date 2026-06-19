@@ -116,6 +116,14 @@ baseline, then let the aggregator layer add breadth.
   SocialData API, not from the official X API. Use `SOCIALDATA_QUERY`,
   `SOCIALDATA_MAX_RESULTS`, `SOCIALDATA_DAILY_TWEET_LIMIT`, and
   `SOCIALDATA_RUN_UTC_HOUR` to keep cost and noise bounded.
+- **TikHub Douyin/Xiaohongshu search**: supported as an advanced,
+  secret-backed adapter through `TIKHUB_ENABLED=1` and `TIKHUB_API_KEY`, but
+  disabled by default. It reads public Douyin and Xiaohongshu keyword search
+  results through TikHub's paid API, not official RSS. Use `TIKHUB_QUERY`,
+  `TIKHUB_PLATFORMS`, `TIKHUB_MAX_RESULTS`, `TIKHUB_DAILY_ITEM_LIMIT`, and
+  `TIKHUB_RUN_UTC_HOUR` to keep cost and noise bounded. Prefer focused AI
+  keywords over general hot lists so entertainment trends do not flood the
+  Signal view.
 - **AgentMail digest**: supported as an advanced, secret-backed metadata digest
   through `EMAIL_DIGEST_ENABLED=1`, `AGENTMAIL_API_KEY`, and
   `AGENTMAIL_INBOX_ID`, but disabled by default. It deliberately lists messages

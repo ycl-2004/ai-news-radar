@@ -70,6 +70,14 @@ jobs:
           SOCIALDATA_DAILY_TWEET_LIMIT: ${{ vars.SOCIALDATA_DAILY_TWEET_LIMIT }}
           SOCIALDATA_RUN_UTC_HOUR: ${{ vars.SOCIALDATA_RUN_UTC_HOUR }}
           SOCIALDATA_RUN_UTC_MINUTE_MAX: ${{ vars.SOCIALDATA_RUN_UTC_MINUTE_MAX }}
+          TIKHUB_ENABLED: ${{ secrets.TIKHUB_ENABLED || vars.TIKHUB_ENABLED }}
+          TIKHUB_API_KEY: ${{ secrets.TIKHUB_API_KEY }}
+          TIKHUB_QUERY: ${{ vars.TIKHUB_QUERY }}
+          TIKHUB_PLATFORMS: ${{ vars.TIKHUB_PLATFORMS }}
+          TIKHUB_MAX_RESULTS: ${{ vars.TIKHUB_MAX_RESULTS }}
+          TIKHUB_DAILY_ITEM_LIMIT: ${{ vars.TIKHUB_DAILY_ITEM_LIMIT }}
+          TIKHUB_RUN_UTC_HOUR: ${{ vars.TIKHUB_RUN_UTC_HOUR }}
+          TIKHUB_RUN_UTC_MINUTE_MAX: ${{ vars.TIKHUB_RUN_UTC_MINUTE_MAX }}
           RSS_MAX_FEEDS: ${{ vars.RSS_MAX_FEEDS || 10 }}
         run: |
           if [ -f feeds/follow.opml ]; then
