@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-19T14:06:17.488483Z",
+  "generated_at": "2026-06-19T14:10:43.028916Z",
   "sites": [
     {
       "site_id": "official_ai",
       "site_name": "Official AI Updates",
       "ok": true,
       "item_count": 212,
-      "duration_ms": 8235,
+      "duration_ms": 4673,
       "error": null
     },
     {
@@ -14,7 +14,7 @@
       "site_name": "Curated Media",
       "ok": true,
       "item_count": 39,
-      "duration_ms": 3462,
+      "duration_ms": 3128,
       "error": null
     },
     {
@@ -22,7 +22,7 @@
       "site_name": "AI Breakfast",
       "ok": true,
       "item_count": 9,
-      "duration_ms": 221,
+      "duration_ms": 272,
       "error": null
     },
     {
@@ -30,7 +30,7 @@
       "site_name": "Follow Builders",
       "ok": true,
       "item_count": 42,
-      "duration_ms": 429,
+      "duration_ms": 34,
       "error": null
     },
     {
@@ -38,7 +38,7 @@
       "site_name": "TechURLs",
       "ok": true,
       "item_count": 405,
-      "duration_ms": 467,
+      "duration_ms": 516,
       "error": null
     },
     {
@@ -46,7 +46,7 @@
       "site_name": "Buzzing",
       "ok": true,
       "item_count": 744,
-      "duration_ms": 262,
+      "duration_ms": 369,
       "error": null
     },
     {
@@ -54,7 +54,7 @@
       "site_name": "Info Flow",
       "ok": true,
       "item_count": 455,
-      "duration_ms": 15871,
+      "duration_ms": 17743,
       "error": null
     },
     {
@@ -62,7 +62,7 @@
       "site_name": "BestBlogs",
       "ok": true,
       "item_count": 1,
-      "duration_ms": 1057,
+      "duration_ms": 862,
       "error": null
     },
     {
@@ -70,15 +70,15 @@
       "site_name": "TopHub",
       "ok": true,
       "item_count": 3039,
-      "duration_ms": 661,
+      "duration_ms": 1795,
       "error": null
     },
     {
       "site_id": "zeli",
       "site_name": "Zeli",
       "ok": true,
-      "item_count": 64,
-      "duration_ms": 384,
+      "item_count": 65,
+      "duration_ms": 644,
       "error": null
     },
     {
@@ -86,7 +86,7 @@
       "site_name": "AI HubToday",
       "ok": true,
       "item_count": 10,
-      "duration_ms": 467,
+      "duration_ms": 240,
       "error": null
     },
     {
@@ -94,7 +94,7 @@
       "site_name": "AIbase",
       "ok": true,
       "item_count": 20,
-      "duration_ms": 1042,
+      "duration_ms": 1392,
       "error": null
     },
     {
@@ -102,7 +102,7 @@
       "site_name": "AI HOT",
       "ok": true,
       "item_count": 122,
-      "duration_ms": 3925,
+      "duration_ms": 5260,
       "error": null
     },
     {
@@ -110,7 +110,7 @@
       "site_name": "NewsNow",
       "ok": true,
       "item_count": 145,
-      "duration_ms": 394,
+      "duration_ms": 634,
       "error": null
     },
     {
@@ -148,7 +148,7 @@
       "site_name": "WaytoAGI",
       "ok": true,
       "item_count": 4,
-      "duration_ms": 5547,
+      "duration_ms": 7663,
       "error": null
     },
     {
@@ -157,7 +157,7 @@
       "ok": true,
       "partial_failures": 0,
       "item_count": 2155,
-      "duration_ms": 3997,
+      "duration_ms": 5478,
       "error": null,
       "feed_count": 10,
       "effective_feed_count": 10,
@@ -171,9 +171,9 @@
   "failed_sites": [],
   "zero_item_sites": [],
   "empty_advanced_sources": [],
-  "fetched_raw_items": 7666,
-  "items_before_topic_filter": 6261,
-  "items_in_24h": 795,
+  "fetched_raw_items": 7667,
+  "items_before_topic_filter": 6473,
+  "items_in_24h": 914,
   "rss_opml": {
     "enabled": true,
     "path": "configured",
@@ -193,7 +193,7 @@
         "effective_feed_url": "https://blog.google/technology/ai/rss/",
         "ok": true,
         "item_count": 20,
-        "duration_ms": 234,
+        "duration_ms": 213,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -208,7 +208,7 @@
         "effective_feed_url": "https://deepmind.google/blog/rss.xml",
         "ok": true,
         "item_count": 100,
-        "duration_ms": 442,
+        "duration_ms": 369,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -223,7 +223,7 @@
         "effective_feed_url": "https://huggingface.co/blog/feed.xml",
         "ok": true,
         "item_count": 803,
-        "duration_ms": 229,
+        "duration_ms": 345,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -238,7 +238,7 @@
         "effective_feed_url": "https://www.infoq.cn/feed",
         "ok": true,
         "item_count": 20,
-        "duration_ms": 1621,
+        "duration_ms": 1362,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -253,7 +253,7 @@
         "effective_feed_url": "https://news.microsoft.com/source/topics/ai/feed/",
         "ok": true,
         "item_count": 10,
-        "duration_ms": 155,
+        "duration_ms": 247,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -268,7 +268,7 @@
         "effective_feed_url": "https://developer.nvidia.com/blog/category/generative-ai/feed/",
         "ok": true,
         "item_count": 100,
-        "duration_ms": 393,
+        "duration_ms": 604,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -283,7 +283,7 @@
         "effective_feed_url": "https://openai.com/news/rss.xml",
         "ok": true,
         "item_count": 1012,
-        "duration_ms": 340,
+        "duration_ms": 1022,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -298,7 +298,7 @@
         "effective_feed_url": "https://simonwillison.net/atom/everything/",
         "ok": true,
         "item_count": 30,
-        "duration_ms": 81,
+        "duration_ms": 429,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -313,7 +313,7 @@
         "effective_feed_url": "https://www.wired.com/feed/tag/ai/latest/rss",
         "ok": true,
         "item_count": 10,
-        "duration_ms": 158,
+        "duration_ms": 259,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -328,7 +328,7 @@
         "effective_feed_url": "https://baoyu.io/feed.xml",
         "ok": true,
         "item_count": 50,
-        "duration_ms": 344,
+        "duration_ms": 628,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -372,9 +372,9 @@
     "estimated_max_cost_usd_per_run": 0.02,
     "run_interval_hours": 24,
     "run_utc_hour": 0,
-    "run_utc_minute_max": 10,
-    "last_run_at": "2026-06-19T14:01:09.271846Z",
-    "last_success_at": "2026-06-19T14:01:09.271846Z",
+    "run_utc_minute_max": 30,
+    "last_run_at": "2026-06-19T14:06:17.488483Z",
+    "last_success_at": "2026-06-19T14:06:17.488483Z",
     "generated_date_utc": "2026-06-19",
     "attempted": true,
     "estimated_cost_usd": 0.02,
@@ -411,8 +411,8 @@
     "run_interval_hours": 24,
     "run_utc_hour": 0,
     "run_utc_minute_max": 10,
-    "last_run_at": "2026-06-19T14:01:09.271846Z",
-    "last_success_at": "2026-06-19T14:01:09.271846Z",
+    "last_run_at": "2026-06-19T14:06:17.488483Z",
+    "last_success_at": "2026-06-19T14:06:17.488483Z",
     "generated_date_utc": "2026-06-19",
     "attempted": true,
     "diagnostics": {
@@ -435,8 +435,8 @@
           "surface": "douyin_general_v2",
           "endpoint": "/api/v1/douyin/search/fetch_general_search_v2",
           "keyword": "AI",
-          "mapped_item_count": 20,
-          "appended_item_count": 20,
+          "mapped_item_count": 22,
+          "appended_item_count": 22,
           "response_top_level_keys": [
             "cache_message",
             "cache_message_zh",
@@ -452,7 +452,7 @@
             "support"
           ],
           "payload_shape": {
-            "dict_count": 1832,
+            "dict_count": 1781,
             "data_type": "dict",
             "data_keys": [
               "business_config",
@@ -520,8 +520,8 @@
           "surface": "douyin_general_v2",
           "endpoint": "/api/v1/douyin/search/fetch_general_search_v2",
           "keyword": "人工智能",
-          "mapped_item_count": 28,
-          "appended_item_count": 28,
+          "mapped_item_count": 22,
+          "appended_item_count": 18,
           "response_top_level_keys": [
             "cache_message",
             "cache_message_zh",
@@ -537,7 +537,7 @@
             "support"
           ],
           "payload_shape": {
-            "dict_count": 2779,
+            "dict_count": 1990,
             "data_type": "dict",
             "data_keys": [
               "business_config",
@@ -550,8 +550,8 @@
               "status_code"
             ],
             "data_items_count": null,
-            "data_business_count": 16,
-            "aweme_info_count": 14,
+            "data_business_count": 11,
+            "aweme_info_count": 10,
             "note_card_count": 0,
             "sample_nodes": [
               {
@@ -564,7 +564,7 @@
                   "card_style_type",
                   "card_type",
                   "card_type_id",
-                  "card_type_name",
+                  "comment_list",
                   "data",
                   "debug_data",
                   "debug_diff_info",
@@ -577,41 +577,24 @@
               {
                 "keys": [
                   "author",
-                  "banner_list",
-                  "cha_attrs",
-                  "cha_name",
-                  "challenge_status",
-                  "cid",
-                  "collect_stat",
-                  "connect_music",
-                  "desc",
-                  "extra_attr",
-                  "from_ugc_hashtag_bank",
-                  "hashtag_profile",
-                  "insert_template_category_list",
-                  "is_challenge",
-                  "is_commerce",
-                  "is_pgcshow"
+                  "cover_medium",
+                  "dsp_name",
+                  "full_clip_id",
+                  "group_id",
+                  "h5_url",
+                  "id",
+                  "source_id",
+                  "title"
                 ]
               },
               {
                 "keys": [
-                  "actors",
-                  "ad_setting_info",
-                  "content_sub_type",
-                  "cover_url",
-                  "create_time",
-                  "dark_icon_url",
-                  "desc",
-                  "directors",
-                  "disable_display_bar",
-                  "disable_display_bar_inner",
-                  "dog_card_info",
-                  "enable_use_new_ent_data",
-                  "entertainment_suggest_info",
-                  "extra",
-                  "ids",
-                  "is_charge_series"
+                  "artists",
+                  "chorus",
+                  "chorus_v3_infos",
+                  "id",
+                  "id_str",
+                  "title"
                 ]
               }
             ]
@@ -622,8 +605,8 @@
           "surface": "douyin_general_v2",
           "endpoint": "/api/v1/douyin/search/fetch_general_search_v2",
           "keyword": "大模型",
-          "mapped_item_count": 2,
-          "appended_item_count": 2,
+          "mapped_item_count": 6,
+          "appended_item_count": 6,
           "response_top_level_keys": [
             "cache_message",
             "cache_message_zh",
@@ -639,7 +622,7 @@
             "support"
           ],
           "payload_shape": {
-            "dict_count": 729,
+            "dict_count": 569,
             "data_type": "dict",
             "data_keys": [
               "business_config",
@@ -652,8 +635,8 @@
               "status_code"
             ],
             "data_items_count": null,
-            "data_business_count": 4,
-            "aweme_info_count": 4,
+            "data_business_count": 3,
+            "aweme_info_count": 3,
             "note_card_count": 0,
             "sample_nodes": [
               {
@@ -710,6 +693,98 @@
           }
         },
         {
+          "platform": "douyin",
+          "surface": "douyin_general_v2",
+          "endpoint": "/api/v1/douyin/search/fetch_general_search_v2",
+          "keyword": "OpenAI",
+          "mapped_item_count": 4,
+          "appended_item_count": 4,
+          "response_top_level_keys": [
+            "cache_message",
+            "cache_message_zh",
+            "cache_url",
+            "code",
+            "data",
+            "docs",
+            "message",
+            "message_zh",
+            "params",
+            "request_id",
+            "router",
+            "support"
+          ],
+          "payload_shape": {
+            "dict_count": 1317,
+            "data_type": "dict",
+            "data_keys": [
+              "business_config",
+              "business_data",
+              "extra",
+              "global_config",
+              "log",
+              "log_pb",
+              "maokai_extra",
+              "status_code"
+            ],
+            "data_items_count": null,
+            "data_business_count": 8,
+            "aweme_info_count": 7,
+            "note_card_count": 0,
+            "sample_nodes": [
+              {
+                "keys": [
+                  "aweme_info",
+                  "aweme_list",
+                  "card_id",
+                  "card_info",
+                  "card_protocal_struct",
+                  "card_style_type",
+                  "card_type",
+                  "card_type_id",
+                  "card_type_name",
+                  "data",
+                  "debug_data",
+                  "debug_diff_info",
+                  "doc_type",
+                  "ecom_goods_list",
+                  "feedback",
+                  "fp"
+                ]
+              },
+              {
+                "keys": [
+                  "artists",
+                  "chorus",
+                  "chorus_v3_infos",
+                  "id",
+                  "id_str",
+                  "title"
+                ]
+              },
+              {
+                "keys": [
+                  "author",
+                  "banner_list",
+                  "cha_attrs",
+                  "cha_name",
+                  "challenge_status",
+                  "cid",
+                  "collect_stat",
+                  "connect_music",
+                  "desc",
+                  "extra_attr",
+                  "from_ugc_hashtag_bank",
+                  "hashtag_profile",
+                  "insert_template_category_list",
+                  "is_challenge",
+                  "is_commerce",
+                  "is_pgcshow"
+                ]
+              }
+            ]
+          }
+        },
+        {
           "platform": "xiaohongshu",
           "surface": "xiaohongshu_app_v2",
           "endpoint": "/api/v1/xiaohongshu/app_v2/search_notes",
@@ -731,7 +806,7 @@
             "support"
           ],
           "payload_shape": {
-            "dict_count": 517,
+            "dict_count": 416,
             "data_type": "dict",
             "data_keys": [
               "code",
@@ -779,7 +854,6 @@
               {
                 "keys": [
                   "advanced_widgets_groups",
-                  "at_user_list",
                   "click_score",
                   "collected",
                   "collected_count",
@@ -793,7 +867,8 @@
                   "has_music",
                   "id",
                   "images_list",
-                  "interaction_area"
+                  "interaction_area",
+                  "last_update_time"
                 ]
               }
             ]
@@ -804,8 +879,8 @@
           "surface": "xiaohongshu_web_v3",
           "endpoint": "/api/v1/xiaohongshu/web_v3/fetch_search_notes",
           "keyword": "AI",
-          "mapped_item_count": 15,
-          "appended_item_count": 15,
+          "mapped_item_count": 14,
+          "appended_item_count": 14,
           "response_top_level_keys": [
             "cache_message",
             "cache_message_zh",
@@ -866,7 +941,7 @@
           "endpoint": "/api/v1/xiaohongshu/app_v2/search_notes",
           "keyword": "人工智能",
           "mapped_item_count": 8,
-          "appended_item_count": 7,
+          "appended_item_count": 8,
           "response_top_level_keys": [
             "cache_message",
             "cache_message_zh",
@@ -882,7 +957,7 @@
             "support"
           ],
           "payload_shape": {
-            "dict_count": 335,
+            "dict_count": 338,
             "data_type": "dict",
             "data_keys": [
               "code",
@@ -903,32 +978,6 @@
             "sample_nodes": [
               {
                 "keys": [
-                  "advanced_widgets_groups",
-                  "click_score",
-                  "collected",
-                  "collected_count",
-                  "comments_count",
-                  "corner_tag_info",
-                  "cover_image_index",
-                  "debug_info_str",
-                  "desc",
-                  "extract_text_enabled",
-                  "geo_info",
-                  "has_music",
-                  "id",
-                  "images_list",
-                  "interaction_area",
-                  "last_update_time"
-                ]
-              },
-              {
-                "keys": [
-                  "title",
-                  "type"
-                ]
-              },
-              {
-                "keys": [
                   "abstract_show",
                   "advanced_widgets_groups",
                   "click_score",
@@ -945,6 +994,32 @@
                   "id",
                   "images_list",
                   "interaction_area"
+                ]
+              },
+              {
+                "keys": [
+                  "title",
+                  "type"
+                ]
+              },
+              {
+                "keys": [
+                  "advanced_widgets_groups",
+                  "click_score",
+                  "collected",
+                  "collected_count",
+                  "comments_count",
+                  "corner_tag_info",
+                  "cover_image_index",
+                  "debug_info_str",
+                  "desc",
+                  "extract_text_enabled",
+                  "geo_info",
+                  "has_music",
+                  "id",
+                  "images_list",
+                  "interaction_area",
+                  "last_update_time"
                 ]
               }
             ]
@@ -972,7 +1047,7 @@
             "support"
           ],
           "payload_shape": {
-            "dict_count": 241,
+            "dict_count": 298,
             "data_type": "dict",
             "data_keys": [
               "_slot_ready",
@@ -1012,7 +1087,7 @@
           }
         }
       ],
-      "successful_request_count": 7,
+      "successful_request_count": 8,
       "request_error_count": 0,
       "mapped_item_count": 100
     }
