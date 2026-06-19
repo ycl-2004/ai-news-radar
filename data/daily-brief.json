@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-19T21:59:12.930128Z",
+  "generated_at": "2026-06-19T23:01:16.233559Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -38,15 +38,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.838,
-      "importance": 0.838,
-      "importance_score": 0.838,
+      "score": 0.8356,
+      "importance": 0.8356,
+      "importance_score": 0.8356,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.9224,
+        "recency": 0.9087,
         "story_heat": 0.0
       },
       "category": "official",
@@ -100,15 +100,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8291,
-      "importance": 0.8291,
-      "importance_score": 0.8291,
+      "score": 0.8266,
+      "importance": 0.8266,
+      "importance_score": 0.8266,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.9172,
+        "recency": 0.9036,
         "story_heat": 0.0
       },
       "category": "official",
@@ -125,6 +125,87 @@
         "url": "https://github.blog/ai-and-ml/github-copilot/how-we-built-an-internal-data-analytics-agent",
         "source": "GitHub AI & ML",
         "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_a2c721be533d",
+      "title": "NVIDIA Research 发布 SpatialClaw：免训练空间推理框架",
+      "url": "https://www.marktechpost.com/2026/06/19/nvidia-ai-introduce-spatialclaw-a-training-free-agent-that-treats-code-as-the-action-interface-for-spatial-reasoning",
+      "primary_url": "https://www.marktechpost.com/2026/06/19/nvidia-ai-introduce-spatialclaw-a-training-free-agent-that-treats-code-as-the-action-interface-for-spatial-reasoning",
+      "source": "MarkTechPost（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "c8b8bb056819dc2aa81ba9b849b672539bd41a4a",
+          "title": "NVIDIA Research 发布 SpatialClaw：免训练空间推理框架",
+          "url": "https://www.marktechpost.com/2026/06/19/nvidia-ai-introduce-spatialclaw-a-training-free-agent-that-treats-code-as-the-action-interface-for-spatial-reasoning",
+          "source": "MarkTechPost（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-19T22:51:59Z"
+        },
+        {
+          "id": "ede48318f91906ce2dd08d748fbc6dd7deac1ddc",
+          "title": "NVIDIA Research 发布 SpatialClaw：免训练空间推理框架 / NVIDIA AI Introduce SpatialClaw: A Training-Free Agent That Treats Code as the Action Interface for Spatial Reasoning",
+          "url": "https://www.marktechpost.com/2026/06/19/nvidia-ai-introduce-spatialclaw-a-training-free-agent-that-treats-code-as-the-action-interface-for-spatial-reasoning",
+          "source": "MarkTechPost Research",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-06-19T22:51:59Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "MarkTechPost Research",
+        "MarkTechPost（RSS）"
+      ],
+      "items": [
+        {
+          "id": "c8b8bb056819dc2aa81ba9b849b672539bd41a4a",
+          "title": "NVIDIA Research 发布 SpatialClaw：免训练空间推理框架",
+          "url": "https://www.marktechpost.com/2026/06/19/nvidia-ai-introduce-spatialclaw-a-training-free-agent-that-treats-code-as-the-action-interface-for-spatial-reasoning",
+          "source": "MarkTechPost（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-19T22:51:59Z"
+        },
+        {
+          "id": "ede48318f91906ce2dd08d748fbc6dd7deac1ddc",
+          "title": "NVIDIA Research 发布 SpatialClaw：免训练空间推理框架 / NVIDIA AI Introduce SpatialClaw: A Training-Free Agent That Treats Code as the Action Interface for Spatial Reasoning",
+          "url": "https://www.marktechpost.com/2026/06/19/nvidia-ai-introduce-spatialclaw-a-training-free-agent-that-treats-code-as-the-action-interface-for-spatial-reasoning",
+          "source": "MarkTechPost Research",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-06-19T22:51:59Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.8072,
+      "importance": 0.8072,
+      "importance_score": 0.8072,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.77,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9978,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-19T22:51:59Z",
+      "latest_at": "2026-06-19T22:51:59Z",
+      "primary_item": {
+        "id": "c8b8bb056819dc2aa81ba9b849b672539bd41a4a",
+        "title": "NVIDIA Research 发布 SpatialClaw：免训练空间推理框架",
+        "url": "https://www.marktechpost.com/2026/06/19/nvidia-ai-introduce-spatialclaw-a-training-free-agent-that-treats-code-as-the-action-interface-for-spatial-reasoning",
+        "source": "MarkTechPost（RSS）",
+        "source_name": "AI HOT"
       }
     },
     {
@@ -181,15 +262,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7957,
-      "importance": 0.7957,
-      "importance_score": 0.7957,
+      "score": 0.7932,
+      "importance": 0.7932,
+      "importance_score": 0.7932,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9674,
+        "recency": 0.9531,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -243,15 +324,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7852,
-      "importance": 0.7852,
-      "importance_score": 0.7852,
+      "score": 0.7826,
+      "importance": 0.7826,
+      "importance_score": 0.7826,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.78,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9979,
+        "recency": 0.9831,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -342,15 +423,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.7805,
-      "importance": 0.7805,
-      "importance_score": 0.7805,
+      "score": 0.7786,
+      "importance": 0.7786,
+      "importance_score": 0.7786,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.76,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7273,
+        "recency": 0.7165,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -404,15 +485,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7683,
-      "importance": 0.7683,
-      "importance_score": 0.7683,
+      "score": 0.7658,
+      "importance": 0.7658,
+      "importance_score": 0.7658,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.954,
+        "recency": 0.9398,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -465,15 +546,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.795,
-      "importance": 0.795,
-      "importance_score": 0.795,
+      "score": 0.793,
+      "importance": 0.793,
+      "importance_score": 0.793,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.7277,
+        "recency": 0.7169,
         "story_heat": 0.0
       },
       "category": "official",
@@ -527,15 +608,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7543,
-      "importance": 0.7543,
-      "importance_score": 0.7543,
+      "score": 0.7519,
+      "importance": 0.7519,
+      "importance_score": 0.7519,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8759,
+        "recency": 0.8629,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -588,15 +669,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7536,
-      "importance": 0.7536,
-      "importance_score": 0.7536,
+      "score": 0.7513,
+      "importance": 0.7513,
+      "importance_score": 0.7513,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.77,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8387,
+        "recency": 0.8263,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -649,15 +730,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.753,
-      "importance": 0.753,
-      "importance_score": 0.753,
+      "score": 0.7505,
+      "importance": 0.7505,
+      "importance_score": 0.7505,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9188,
+        "recency": 0.9052,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -710,15 +791,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7491,
-      "importance": 0.7491,
-      "importance_score": 0.7491,
+      "score": 0.747,
+      "importance": 0.747,
+      "importance_score": 0.747,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.79,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7805,
+        "recency": 0.7689,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -770,15 +851,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7698,
-      "importance": 0.7698,
-      "importance_score": 0.7698,
+      "score": 0.7675,
+      "importance": 0.7675,
+      "importance_score": 0.7675,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.81,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8625,
+        "recency": 0.8497,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -831,15 +912,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7383,
-      "importance": 0.7383,
-      "importance_score": 0.7383,
+      "score": 0.7359,
+      "importance": 0.7359,
+      "importance_score": 0.7359,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.68,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.904,
+        "recency": 0.8906,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -853,66 +934,6 @@
         "title": "OpenRouter vs LiteLLM：如何选择 LLM 网关",
         "url": "https://openrouter.ai/blog/insights/openrouter-vs-litellm",
         "source": "OpenRouter：Announcements（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_b272084139ff",
-      "title": "Salesforce CodeGen教程：生成、验证并重排序Python函数（含单元测试与安全检查）",
-      "url": "https://www.marktechpost.com/2026/06/18/salesforce-codegen-tutorial-generate-validate-and-rerank-python-functions-with-unit-tests-and-safety-checks",
-      "primary_url": "https://www.marktechpost.com/2026/06/18/salesforce-codegen-tutorial-generate-validate-and-rerank-python-functions-with-unit-tests-and-safety-checks",
-      "source": "MarkTechPost（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "165fd816c0bdefe9a52b6da1528552fbe57b7f85",
-          "title": "Salesforce CodeGen教程：生成、验证并重排序Python函数（含单元测试与安全检查）",
-          "url": "https://www.marktechpost.com/2026/06/18/salesforce-codegen-tutorial-generate-validate-and-rerank-python-functions-with-unit-tests-and-safety-checks",
-          "source": "MarkTechPost（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-19T02:44:12Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "MarkTechPost（RSS）"
-      ],
-      "items": [
-        {
-          "id": "165fd816c0bdefe9a52b6da1528552fbe57b7f85",
-          "title": "Salesforce CodeGen教程：生成、验证并重排序Python函数（含单元测试与安全检查）",
-          "url": "https://www.marktechpost.com/2026/06/18/salesforce-codegen-tutorial-generate-validate-and-rerank-python-functions-with-unit-tests-and-safety-checks",
-          "source": "MarkTechPost（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-19T02:44:12Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7329,
-      "importance": 0.7329,
-      "importance_score": 0.7329,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.75,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7573,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-19T02:44:12Z",
-      "latest_at": "2026-06-19T02:44:12Z",
-      "primary_item": {
-        "id": "165fd816c0bdefe9a52b6da1528552fbe57b7f85",
-        "title": "Salesforce CodeGen教程：生成、验证并重排序Python函数（含单元测试与安全检查）",
-        "url": "https://www.marktechpost.com/2026/06/18/salesforce-codegen-tutorial-generate-validate-and-rerank-python-functions-with-unit-tests-and-safety-checks",
-        "source": "MarkTechPost（RSS）",
         "source_name": "AI HOT"
       }
     },
@@ -951,15 +972,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7315,
-      "importance": 0.7315,
-      "importance_score": 0.7315,
+      "score": 0.7294,
+      "importance": 0.7294,
+      "importance_score": 0.7294,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.74,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7661,
+        "recency": 0.7547,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1030,15 +1051,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7586,
-      "importance": 0.7586,
-      "importance_score": 0.7586,
+      "score": 0.7566,
+      "importance": 0.7566,
+      "importance_score": 0.7566,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.76,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7445,
+        "recency": 0.7334,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -1092,15 +1113,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7384,
-      "importance": 0.7384,
-      "importance_score": 0.7384,
+      "score": 0.7363,
+      "importance": 0.7363,
+      "importance_score": 0.7363,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.76,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.771,
+        "recency": 0.7596,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1114,6 +1135,66 @@
         "title": "DeepSeek研究员开源AutoResearch：AI自主跑通285B模型RL研究闭环",
         "url": "https://x.com/AYi_AInotes/status/2067819352926150953",
         "source": "X：阿易 AI Notes (@AYi_AInotes)",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_b272084139ff",
+      "title": "Salesforce CodeGen教程：生成、验证并重排序Python函数（含单元测试与安全检查）",
+      "url": "https://www.marktechpost.com/2026/06/18/salesforce-codegen-tutorial-generate-validate-and-rerank-python-functions-with-unit-tests-and-safety-checks",
+      "primary_url": "https://www.marktechpost.com/2026/06/18/salesforce-codegen-tutorial-generate-validate-and-rerank-python-functions-with-unit-tests-and-safety-checks",
+      "source": "MarkTechPost（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "165fd816c0bdefe9a52b6da1528552fbe57b7f85",
+          "title": "Salesforce CodeGen教程：生成、验证并重排序Python函数（含单元测试与安全检查）",
+          "url": "https://www.marktechpost.com/2026/06/18/salesforce-codegen-tutorial-generate-validate-and-rerank-python-functions-with-unit-tests-and-safety-checks",
+          "source": "MarkTechPost（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-19T02:44:12Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "MarkTechPost（RSS）"
+      ],
+      "items": [
+        {
+          "id": "165fd816c0bdefe9a52b6da1528552fbe57b7f85",
+          "title": "Salesforce CodeGen教程：生成、验证并重排序Python函数（含单元测试与安全检查）",
+          "url": "https://www.marktechpost.com/2026/06/18/salesforce-codegen-tutorial-generate-validate-and-rerank-python-functions-with-unit-tests-and-safety-checks",
+          "source": "MarkTechPost（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-19T02:44:12Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7309,
+      "importance": 0.7309,
+      "importance_score": 0.7309,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.75,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7461,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-06-19T02:44:12Z",
+      "latest_at": "2026-06-19T02:44:12Z",
+      "primary_item": {
+        "id": "165fd816c0bdefe9a52b6da1528552fbe57b7f85",
+        "title": "Salesforce CodeGen教程：生成、验证并重排序Python函数（含单元测试与安全检查）",
+        "url": "https://www.marktechpost.com/2026/06/18/salesforce-codegen-tutorial-generate-validate-and-rerank-python-functions-with-unit-tests-and-safety-checks",
+        "source": "MarkTechPost（RSS）",
         "source_name": "AI HOT"
       }
     },
@@ -1152,15 +1233,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7315,
-      "importance": 0.7315,
-      "importance_score": 0.7315,
+      "score": 0.7294,
+      "importance": 0.7294,
+      "importance_score": 0.7294,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.73,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7827,
+        "recency": 0.7711,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1212,15 +1293,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7272,
-      "importance": 0.7272,
-      "importance_score": 0.7272,
+      "score": 0.7252,
+      "importance": 0.7252,
+      "importance_score": 0.7252,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7253,
+        "recency": 0.7146,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1235,120 +1316,6 @@
         "url": "https://x.com/rohanpaul_ai/status/2067755504613613699",
         "source": "X：Rohan Paul (@rohanpaul_ai)",
         "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_2df82173bb28",
-      "title": "Agent、Codex、Claude Code等产品的快速发展，让 AI 工程领域出现了一批新的术语：Prompt Engineering、Context Engineering、Loop Engineering、Harness Engineering。新名词越来越多，边界越来越模糊。这篇文章就带大家梳理下从Prompt Engineering到Harness Engineering：AI 工程体系的四次演进。",
-      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-      "primary_url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-      "source": "社区更新 · 2026-06-19",
-      "source_name": "WaytoAGI",
-      "sources": [
-        {
-          "id": "873753a7dd7c986f82d7aaeaaf7c54080d2082f0",
-          "title": "Agent、Codex、Claude Code等产品的快速发展，让 AI 工程领域出现了一批新的术语：Prompt Engineering、Context Engineering、Loop Engineering、Harness Engineering。新名词越来越多，边界越来越模糊。这篇文章就带大家梳理下从Prompt Engineering到Harness Engineering：AI 工程体系的四次演进。",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-06-19",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-06-19T15:46:34.308094Z"
-        },
-        {
-          "id": "511e0c5ba0fa0bcdb00aff975b1981f6f4e9b487",
-          "title": "不少HTML PPT常常会出现信息分配失衡、排版遮挡文字、页面无讲述逻辑等等问题。卡尔推出了Humanize PPT v0.9版的Skill一口气全解决了。不是单纯堆砌精美模板，而是以现场表达为核心，解决AI生成PPT好看却无从开口讲解的核心难题，非常适合线下演讲、路演人群。",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-06-19",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-06-19T15:46:34.308094Z"
-        },
-        {
-          "id": "3a7b8e83166934f277c215b9d38c6ea9cc1c5a55",
-          "title": "不少入门者学习AI工程只会照搬教程安装依赖、调用API，项目报错后仅凭直觉乱改参数碰运气，没有标准化的排查逻辑。本篇文章提炼了六大核心底层概念，帮学习者们摆脱低效试错，建立标准化、可复盘的开发思维。",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-06-19",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-06-19T15:46:34.308094Z"
-        },
-        {
-          "id": "4ada9a3fa49782e96b6cd8e0187fd3b5b8f6e855",
-          "title": "很多人只把Claude当成问答工具，白白浪费了它深度梳理知识的核心能力。斯坦福研发的STORM系统能产出逻辑更完整的长文，仅凭四句提示词就能在 Claude 复刻同等效果。全程无需下载软件、拉取代码、调试配置，复制粘贴就能直接使用。短短五分钟就能完成对某个主题的深度调研，梳理出的知识框架也条理清晰。快来试试！",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-06-19",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-06-19T15:46:34.308094Z"
-        }
-      ],
-      "source_count": 4,
-      "source_names": [
-        "社区更新 · 2026-06-19"
-      ],
-      "items": [
-        {
-          "id": "873753a7dd7c986f82d7aaeaaf7c54080d2082f0",
-          "title": "Agent、Codex、Claude Code等产品的快速发展，让 AI 工程领域出现了一批新的术语：Prompt Engineering、Context Engineering、Loop Engineering、Harness Engineering。新名词越来越多，边界越来越模糊。这篇文章就带大家梳理下从Prompt Engineering到Harness Engineering：AI 工程体系的四次演进。",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-06-19",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-06-19T15:46:34.308094Z"
-        },
-        {
-          "id": "511e0c5ba0fa0bcdb00aff975b1981f6f4e9b487",
-          "title": "不少HTML PPT常常会出现信息分配失衡、排版遮挡文字、页面无讲述逻辑等等问题。卡尔推出了Humanize PPT v0.9版的Skill一口气全解决了。不是单纯堆砌精美模板，而是以现场表达为核心，解决AI生成PPT好看却无从开口讲解的核心难题，非常适合线下演讲、路演人群。",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-06-19",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-06-19T15:46:34.308094Z"
-        },
-        {
-          "id": "3a7b8e83166934f277c215b9d38c6ea9cc1c5a55",
-          "title": "不少入门者学习AI工程只会照搬教程安装依赖、调用API，项目报错后仅凭直觉乱改参数碰运气，没有标准化的排查逻辑。本篇文章提炼了六大核心底层概念，帮学习者们摆脱低效试错，建立标准化、可复盘的开发思维。",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-06-19",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-06-19T15:46:34.308094Z"
-        },
-        {
-          "id": "4ada9a3fa49782e96b6cd8e0187fd3b5b8f6e855",
-          "title": "很多人只把Claude当成问答工具，白白浪费了它深度梳理知识的核心能力。斯坦福研发的STORM系统能产出逻辑更完整的长文，仅凭四句提示词就能在 Claude 复刻同等效果。全程无需下载软件、拉取代码、调试配置，复制粘贴就能直接使用。短短五分钟就能完成对某个主题的深度调研，梳理出的知识框架也条理清晰。快来试试！",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-06-19",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-06-19T15:46:34.308094Z"
-        }
-      ],
-      "item_count": 4,
-      "duplicate_count": 4,
-      "score": 0.6371,
-      "importance": 0.6371,
-      "importance_score": 0.6371,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.4824,
-        "source_tier": 0.54,
-        "ai_relevance": 0.67,
-        "recency": 0.9142,
-        "story_heat": 0.75
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-19T15:46:34.308094Z",
-      "latest_at": "2026-06-19T15:46:34.308094Z",
-      "primary_item": {
-        "id": "873753a7dd7c986f82d7aaeaaf7c54080d2082f0",
-        "title": "Agent、Codex、Claude Code等产品的快速发展，让 AI 工程领域出现了一批新的术语：Prompt Engineering、Context Engineering、Loop Engineering、Harness Engineering。新名词越来越多，边界越来越模糊。这篇文章就带大家梳理下从Prompt Engineering到Harness Engineering：AI 工程体系的四次演进。",
-        "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-        "source": "社区更新 · 2026-06-19",
-        "source_name": "WaytoAGI"
       }
     }
   ]
