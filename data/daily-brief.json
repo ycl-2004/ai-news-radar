@@ -1,8 +1,127 @@
 {
-  "generated_at": "2026-06-19T01:13:06.712024Z",
+  "generated_at": "2026-06-19T02:13:46.203312Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
+    {
+      "story_id": "story_43a940462463",
+      "title": "这家韩国电信巨头是Anthropic\"Mythos\"争议的焦点",
+      "url": "https://www.wired.com/story/[redacted-secret]",
+      "primary_url": "https://www.wired.com/story/[redacted-secret]",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "09cf5f59e090e95066695d82f7017c335690051d",
+          "title": "这家韩国电信巨头是Anthropic\"Mythos\"争议的焦点",
+          "url": "https://www.wired.com/story/[redacted-secret]",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-19T01:33:10.751000Z"
+        },
+        {
+          "id": "3597dfb9b1572f104dbd35782f736ecdcf140c2b",
+          "title": "这家韩国电信巨头是Anthropic“Mythos”争议的焦点",
+          "url": "https://www.wired.com/story/[redacted-secret]",
+          "source": "www.wired.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-19T01:33:10.751000Z"
+        },
+        {
+          "id": "2550154934daa400717ced6176920aae035cf955",
+          "title": "韩国电信巨头处于 Anthropic 神话争议的中心 / The Korean telecom giant at the center of Anthropic's Mythos controversy",
+          "url": "https://www.wired.com/story/[redacted-secret]",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-18T12:44:09Z"
+        },
+        {
+          "id": "8b1e83b487abb2c7d6819000db48e28e6ee65a87",
+          "title": "这家韩国电信巨头是Anthropic\"Mythos\"争议的焦点 / The Korean telecom giant at the center of Anthropic's Mythos controversy",
+          "url": "https://www.wired.com/story/[redacted-secret]",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-18T12:44:09Z"
+        }
+      ],
+      "source_count": 4,
+      "source_names": [
+        "Hacker News (黑客新闻)",
+        "Hacker News · 24h最热",
+        "Hacker News 热门（buzzing.cc 中文翻译）",
+        "www.wired.com"
+      ],
+      "items": [
+        {
+          "id": "09cf5f59e090e95066695d82f7017c335690051d",
+          "title": "这家韩国电信巨头是Anthropic\"Mythos\"争议的焦点",
+          "url": "https://www.wired.com/story/[redacted-secret]",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-19T01:33:10.751000Z"
+        },
+        {
+          "id": "3597dfb9b1572f104dbd35782f736ecdcf140c2b",
+          "title": "这家韩国电信巨头是Anthropic“Mythos”争议的焦点",
+          "url": "https://www.wired.com/story/[redacted-secret]",
+          "source": "www.wired.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-19T01:33:10.751000Z"
+        },
+        {
+          "id": "2550154934daa400717ced6176920aae035cf955",
+          "title": "韩国电信巨头处于 Anthropic 神话争议的中心 / The Korean telecom giant at the center of Anthropic's Mythos controversy",
+          "url": "https://www.wired.com/story/[redacted-secret]",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-18T12:44:09Z"
+        },
+        {
+          "id": "8b1e83b487abb2c7d6819000db48e28e6ee65a87",
+          "title": "这家韩国电信巨头是Anthropic\"Mythos\"争议的焦点 / The Korean telecom giant at the center of Anthropic's Mythos controversy",
+          "url": "https://www.wired.com/story/[redacted-secret]",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-18T12:44:09Z"
+        }
+      ],
+      "item_count": 4,
+      "duplicate_count": 4,
+      "score": 0.8529,
+      "importance": 0.8529,
+      "importance_score": 0.8529,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.76,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9903,
+        "story_heat": 0.75
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-18T12:44:09Z",
+      "latest_at": "2026-06-19T01:33:10.751000Z",
+      "primary_item": {
+        "id": "09cf5f59e090e95066695d82f7017c335690051d",
+        "title": "这家韩国电信巨头是Anthropic\"Mythos\"争议的焦点",
+        "url": "https://www.wired.com/story/[redacted-secret]",
+        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "source_name": "AI HOT"
+      }
+    },
     {
       "story_id": "story_33383567514a",
       "title": "GPT-5.5 Instant提升ChatGPT健康智能 / Improving health intelligence in ChatGPT",
@@ -57,15 +176,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8516,
-      "importance": 0.8516,
-      "importance_score": 0.8516,
+      "score": 0.8495,
+      "importance": 0.8495,
+      "importance_score": 0.8495,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.8144,
+        "recency": 0.8026,
         "story_heat": 0.25
       },
       "category": "official",
@@ -120,15 +239,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8408,
-      "importance": 0.8408,
-      "importance_score": 0.8408,
+      "score": 0.8382,
+      "importance": 0.8382,
+      "importance_score": 0.8382,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.9822,
+        "recency": 0.968,
         "story_heat": 0.0
       },
       "category": "official",
@@ -239,15 +358,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.8226,
-      "importance": 0.8226,
-      "importance_score": 0.8226,
+      "score": 0.8202,
+      "importance": 0.8202,
+      "importance_score": 0.8202,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8887,
+        "recency": 0.8758,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -301,15 +420,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8394,
-      "importance": 0.8394,
-      "importance_score": 0.8394,
+      "score": 0.837,
+      "importance": 0.837,
+      "importance_score": 0.837,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.93,
+        "recency": 0.9165,
         "story_heat": 0.0
       },
       "category": "official",
@@ -382,15 +501,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8374,
-      "importance": 0.8374,
-      "importance_score": 0.8374,
+      "score": 0.8353,
+      "importance": 0.8353,
+      "importance_score": 0.8353,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.7799,
+        "recency": 0.7686,
         "story_heat": 0.25
       },
       "category": "official",
@@ -464,15 +583,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7843,
-      "importance": 0.7843,
-      "importance_score": 0.7843,
+      "score": 0.7819,
+      "importance": 0.7819,
+      "importance_score": 0.7819,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9039,
+        "recency": 0.8908,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -488,87 +607,6 @@
         "title": "MosaicLeaks： 你的研究智能体能保守秘密吗？",
         "url": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
         "source": "Hugging Face：Blog（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_cb61d9b8fdb1",
-      "title": "ChatGPT 图像生成器可被绕过滤镜生成暴力和色情内容",
-      "url": "https://mindgard.ai/blog/chatgpt-spontaneously-generated-violent-images-from-a-viral-prompt",
-      "primary_url": "https://mindgard.ai/blog/chatgpt-spontaneously-generated-violent-images-from-a-viral-prompt",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "10845be78de0956c1656a0700d902c3c6ab79161",
-          "title": "ChatGPT 图像生成器可被绕过滤镜生成暴力和色情内容",
-          "url": "https://mindgard.ai/blog/chatgpt-spontaneously-generated-violent-images-from-a-viral-prompt",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-18T11:25:28.101000Z"
-        },
-        {
-          "id": "9b99792ff9ff2f4f45853328001cc4dbe7743991",
-          "title": "ChatGPT的图像生成器可以被利用来生成暴力和色情内容",
-          "url": "https://mindgard.ai/blog/chatgpt-spontaneously-generated-violent-images-from-a-viral-prompt",
-          "source": "mindgard.ai",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-18T11:25:28.101000Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News 热门（buzzing.cc 中文翻译）",
-        "mindgard.ai"
-      ],
-      "items": [
-        {
-          "id": "10845be78de0956c1656a0700d902c3c6ab79161",
-          "title": "ChatGPT 图像生成器可被绕过滤镜生成暴力和色情内容",
-          "url": "https://mindgard.ai/blog/chatgpt-spontaneously-generated-violent-images-from-a-viral-prompt",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-18T11:25:28.101000Z"
-        },
-        {
-          "id": "9b99792ff9ff2f4f45853328001cc4dbe7743991",
-          "title": "ChatGPT的图像生成器可以被利用来生成暴力和色情内容",
-          "url": "https://mindgard.ai/blog/chatgpt-spontaneously-generated-violent-images-from-a-viral-prompt",
-          "source": "mindgard.ai",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-18T11:25:28.101000Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7811,
-      "importance": 0.7811,
-      "importance_score": 0.7811,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.79,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8194,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-18T11:25:28.101000Z",
-      "latest_at": "2026-06-18T11:25:28.101000Z",
-      "primary_item": {
-        "id": "10845be78de0956c1656a0700d902c3c6ab79161",
-        "title": "ChatGPT 图像生成器可被绕过滤镜生成暴力和色情内容",
-        "url": "https://mindgard.ai/blog/chatgpt-spontaneously-generated-violent-images-from-a-viral-prompt",
-        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
         "source_name": "AI HOT"
       }
     },
@@ -607,15 +645,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.837,
-      "importance": 0.837,
-      "importance_score": 0.837,
+      "score": 0.8346,
+      "importance": 0.8346,
+      "importance_score": 0.8346,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.9167,
+        "recency": 0.9034,
         "story_heat": 0.0
       },
       "category": "official",
@@ -688,15 +726,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7735,
-      "importance": 0.7735,
-      "importance_score": 0.7735,
+      "score": 0.7711,
+      "importance": 0.7711,
+      "importance_score": 0.7711,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9273,
+        "recency": 0.9138,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -750,15 +788,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7728,
-      "importance": 0.7728,
-      "importance_score": 0.7728,
+      "score": 0.7703,
+      "importance": 0.7703,
+      "importance_score": 0.7703,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.979,
+        "recency": 0.9648,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -811,15 +849,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8319,
-      "importance": 0.8319,
-      "importance_score": 0.8319,
+      "score": 0.8295,
+      "importance": 0.8295,
+      "importance_score": 0.8295,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.8881,
+        "recency": 0.8752,
         "story_heat": 0.0
       },
       "category": "official",
@@ -873,15 +911,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7718,
-      "importance": 0.7718,
-      "importance_score": 0.7718,
+      "score": 0.7694,
+      "importance": 0.7694,
+      "importance_score": 0.7694,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.79,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9065,
+        "recency": 0.8934,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -953,15 +991,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7634,
-      "importance": 0.7634,
-      "importance_score": 0.7634,
+      "score": 0.7613,
+      "importance": 0.7613,
+      "importance_score": 0.7613,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.838,
+        "recency": 0.8259,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -1015,15 +1053,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.761,
-      "importance": 0.761,
-      "importance_score": 0.761,
+      "score": 0.7587,
+      "importance": 0.7587,
+      "importance_score": 0.7587,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.77,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8801,
+        "recency": 0.8674,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1076,15 +1114,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7601,
-      "importance": 0.7601,
-      "importance_score": 0.7601,
+      "score": 0.7581,
+      "importance": 0.7581,
+      "importance_score": 0.7581,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.82,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7919,
+        "recency": 0.7804,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1137,21 +1175,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7519,
-      "importance": 0.7519,
-      "importance_score": 0.7519,
+      "score": 0.7496,
+      "importance": 0.7496,
+      "importance_score": 0.7496,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.913,
+        "recency": 0.8997,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-06-18T18:54:47.698000Z",
       "latest_at": "2026-06-18T18:54:47.698000Z",
@@ -1160,6 +1197,87 @@
         "title": "Claude Code 现已支持 artifacts",
         "url": "https://claude.com/blog/artifacts-in-claude-code",
         "source": "Claude：Blog（网页）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_cb61d9b8fdb1",
+      "title": "ChatGPT 图像生成器可被绕过滤镜生成暴力和色情内容",
+      "url": "https://mindgard.ai/blog/chatgpt-spontaneously-generated-violent-images-from-a-viral-prompt",
+      "primary_url": "https://mindgard.ai/blog/chatgpt-spontaneously-generated-violent-images-from-a-viral-prompt",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "10845be78de0956c1656a0700d902c3c6ab79161",
+          "title": "ChatGPT 图像生成器可被绕过滤镜生成暴力和色情内容",
+          "url": "https://mindgard.ai/blog/chatgpt-spontaneously-generated-violent-images-from-a-viral-prompt",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-18T11:25:28.101000Z"
+        },
+        {
+          "id": "9b99792ff9ff2f4f45853328001cc4dbe7743991",
+          "title": "ChatGPT的图像生成器可以被利用来生成暴力和色情内容",
+          "url": "https://mindgard.ai/blog/chatgpt-spontaneously-generated-violent-images-from-a-viral-prompt",
+          "source": "mindgard.ai",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-18T11:25:28.101000Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News 热门（buzzing.cc 中文翻译）",
+        "mindgard.ai"
+      ],
+      "items": [
+        {
+          "id": "10845be78de0956c1656a0700d902c3c6ab79161",
+          "title": "ChatGPT 图像生成器可被绕过滤镜生成暴力和色情内容",
+          "url": "https://mindgard.ai/blog/chatgpt-spontaneously-generated-violent-images-from-a-viral-prompt",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-18T11:25:28.101000Z"
+        },
+        {
+          "id": "9b99792ff9ff2f4f45853328001cc4dbe7743991",
+          "title": "ChatGPT的图像生成器可以被利用来生成暴力和色情内容",
+          "url": "https://mindgard.ai/blog/chatgpt-spontaneously-generated-violent-images-from-a-viral-prompt",
+          "source": "mindgard.ai",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-18T11:25:28.101000Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.779,
+      "importance": 0.779,
+      "importance_score": 0.779,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.79,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8075,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-18T11:25:28.101000Z",
+      "latest_at": "2026-06-18T11:25:28.101000Z",
+      "primary_item": {
+        "id": "10845be78de0956c1656a0700d902c3c6ab79161",
+        "title": "ChatGPT 图像生成器可被绕过滤镜生成暴力和色情内容",
+        "url": "https://mindgard.ai/blog/chatgpt-spontaneously-generated-violent-images-from-a-viral-prompt",
+        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
         "source_name": "AI HOT"
       }
     },
@@ -1198,15 +1316,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7484,
-      "importance": 0.7484,
-      "importance_score": 0.7484,
+      "score": 0.7464,
+      "importance": 0.7464,
+      "importance_score": 0.7464,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.79,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7767,
+        "recency": 0.7655,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1258,15 +1376,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8344,
-      "importance": 0.8344,
-      "importance_score": 0.8344,
+      "score": 0.832,
+      "importance": 0.832,
+      "importance_score": 0.832,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.902,
+        "recency": 0.8889,
         "story_heat": 0.0
       },
       "category": "official",
@@ -1339,15 +1457,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7684,
-      "importance": 0.7684,
-      "importance_score": 0.7684,
+      "score": 0.766,
+      "importance": 0.766,
+      "importance_score": 0.766,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8987,
+        "recency": 0.8857,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -1364,66 +1482,6 @@
         "url": "https://techcrunch.com/2026/06/18/ai-data-centers-just-got-a-government-mandated-fast-lane-to-the-grid",
         "source": "TechCrunch：AI（RSS）",
         "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_c24c0753ac40",
-      "title": "联想推出百应AI主机300：赋能中小企业的“算力加速器”",
-      "url": "https://www.aibase.com/news/29022",
-      "primary_url": "https://www.aibase.com/news/29022",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "365f870b0a6035e75993f72f6e555cdc126da20c",
-          "title": "联想推出百应AI主机300：赋能中小企业的“算力加速器”",
-          "url": "https://www.aibase.com/news/29022",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-18T12:46:53.809416Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "365f870b0a6035e75993f72f6e555cdc126da20c",
-          "title": "联想推出百应AI主机300：赋能中小企业的“算力加速器”",
-          "url": "https://www.aibase.com/news/29022",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-18T12:46:53.809416Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.738,
-      "importance": 0.738,
-      "importance_score": 0.738,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8356,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-18T12:46:53.809416Z",
-      "latest_at": "2026-06-18T12:46:53.809416Z",
-      "primary_item": {
-        "id": "365f870b0a6035e75993f72f6e555cdc126da20c",
-        "title": "联想推出百应AI主机300：赋能中小企业的“算力加速器”",
-        "url": "https://www.aibase.com/news/29022",
-        "source": "AIbase",
-        "source_name": "AIbase"
       }
     }
   ]
