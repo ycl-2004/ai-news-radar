@@ -714,6 +714,35 @@ class TopicFilterTests(unittest.TestCase):
         self.assertEqual(status["error"], "missing_socialdata_api_key")
         self.assertEqual(session.calls, 0)
 
+    def test_socialdata_interval_state_skips_without_network(self):
+        class NoNetworkSession:
+            def __init__(self):
+                self.calls = 0
+
+            def get(self, *args, **kwargs):
+                self.calls += 1
+                raise AssertionError("SocialData should not run before the paid-source interval")
+
+        session = NoNetworkSession()
+        state = {"sources": {"socialdata": {"last_run_at": "2026-05-03T00:00:00Z"}}}
+        env = {
+            "SOCIALDATA_ENABLED": "1",
+            "SOCIALDATA_API_KEY": "test",
+            "SOCIALDATA_RUN_INTERVAL_HOURS": "24",
+        }
+        with patch.dict("os.environ", env, clear=True):
+            items, status = maybe_fetch_socialdata_updates(
+                session,
+                __import__("datetime").datetime.fromisoformat("2026-05-03T12:00:00+00:00"),
+                state,
+            )
+        self.assertEqual(items, [])
+        self.assertTrue(status["enabled"])
+        self.assertTrue(status["skipped"])
+        self.assertEqual(status["skip_reason"], "before_socialdata_run_interval")
+        self.assertEqual(status["run_interval_hours"], 24)
+        self.assertEqual(session.calls, 0)
+
     def test_socialdata_force_run_maps_search_tweets(self):
         class FakeResponse:
             def raise_for_status(self):
@@ -848,6 +877,39 @@ class TopicFilterTests(unittest.TestCase):
         self.assertTrue(status["enabled"])
         self.assertFalse(status["ok"])
         self.assertEqual(status["error"], "missing_tikhub_api_key")
+        self.assertEqual(session.calls, 0)
+
+    def test_tikhub_interval_state_skips_without_network(self):
+        class NoNetworkSession:
+            def __init__(self):
+                self.calls = 0
+
+            def get(self, *args, **kwargs):
+                self.calls += 1
+                raise AssertionError("TikHub should not run before the paid-source interval")
+
+            def post(self, *args, **kwargs):
+                self.calls += 1
+                raise AssertionError("TikHub should not run before the paid-source interval")
+
+        session = NoNetworkSession()
+        state = {"sources": {"tikhub": {"last_run_at": "2026-05-03T00:00:00Z"}}}
+        env = {
+            "TIKHUB_ENABLED": "1",
+            "TIKHUB_API_KEY": "test",
+            "TIKHUB_RUN_INTERVAL_HOURS": "24",
+        }
+        with patch.dict("os.environ", env, clear=True):
+            items, status = maybe_fetch_tikhub_updates(
+                session,
+                __import__("datetime").datetime.fromisoformat("2026-05-03T12:00:00+00:00"),
+                state,
+            )
+        self.assertEqual(items, [])
+        self.assertTrue(status["enabled"])
+        self.assertTrue(status["skipped"])
+        self.assertEqual(status["skip_reason"], "before_tikhub_run_interval")
+        self.assertEqual(status["run_interval_hours"], 24)
         self.assertEqual(session.calls, 0)
 
     def test_parse_tikhub_douyin_items(self):

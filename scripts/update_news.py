@@ -184,6 +184,9 @@ FOLLOW_BUILDERS_FEED_BASE = "https://raw.githubusercontent.com/zarazhangrui/foll
 AGENTMAIL_API_BASE_DEFAULT = "https://api.agentmail.to"
 AGENTMAIL_DIGEST_FILE = "email-digest.json"
 AGENTMAIL_DEFAULT_LIMIT = 50
+PAID_SOURCE_STATE_FILE = "paid-source-state.json"
+PAID_SOURCE_DEFAULT_INTERVAL_HOURS = 24
+PAID_SOURCE_MAX_INTERVAL_HOURS = 24 * 14
 X_API_BASE_DEFAULT = "https://api.x.com"
 X_API_POST_READ_COST_USD = 0.005
 X_API_DEFAULT_QUERY = '(AI OR "artificial intelligence" OR "large language model" OR LLM) lang:en -is:retweet has:links'
@@ -2996,6 +2999,86 @@ def env_float(name: str, default: float) -> float:
         return default
 
 
+def load_paid_source_state(path: Path) -> dict[str, Any]:
+    try:
+        payload = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        payload = {}
+    if not isinstance(payload, dict):
+        payload = {}
+    sources = payload.get("sources")
+    if not isinstance(sources, dict):
+        sources = {}
+    return {"schema_version": 1, "sources": sources}
+
+
+def paid_source_interval_hours(prefix: str) -> int:
+    interval = env_int(f"{prefix}_RUN_INTERVAL_HOURS", PAID_SOURCE_DEFAULT_INTERVAL_HOURS)
+    return max(1, min(interval, PAID_SOURCE_MAX_INTERVAL_HOURS))
+
+
+def paid_source_state_entry(state: dict[str, Any] | None, source_key: str) -> dict[str, Any]:
+    if not isinstance(state, dict):
+        return {}
+    sources = state.get("sources")
+    if not isinstance(sources, dict):
+        return {}
+    entry = sources.get(source_key)
+    return entry if isinstance(entry, dict) else {}
+
+
+def paid_source_run_gate(
+    prefix: str,
+    source_key: str,
+    now: datetime,
+    state: dict[str, Any] | None,
+) -> tuple[bool, str | None]:
+    if env_flag(f"{prefix}_FORCE_RUN"):
+        return True, None
+
+    current = now.astimezone(UTC)
+    interval_hours = paid_source_interval_hours(prefix)
+    entry = paid_source_state_entry(state, source_key)
+    last_run = parse_iso(str(entry.get("last_run_at") or ""))
+    if last_run:
+        due_at = last_run.astimezone(UTC) + timedelta(hours=interval_hours)
+        if current < due_at:
+            return False, f"before_{source_key}_run_interval"
+        return True, None
+
+    run_hour = max(0, min(env_int(f"{prefix}_RUN_UTC_HOUR", 0), 23))
+    minute_max = max(0, min(env_int(f"{prefix}_RUN_UTC_MINUTE_MAX", 10), 59))
+    if current.hour == run_hour and current.minute <= minute_max:
+        return True, None
+    return False, f"outside_{source_key}_initial_window"
+
+
+def update_paid_source_state(
+    state: dict[str, Any],
+    source_key: str,
+    status: dict[str, Any],
+    now: datetime,
+) -> None:
+    if not status.get("attempted"):
+        return
+    sources = state.setdefault("sources", {})
+    if not isinstance(sources, dict):
+        sources = {}
+        state["sources"] = sources
+    entry = sources.setdefault(source_key, {})
+    if not isinstance(entry, dict):
+        entry = {}
+        sources[source_key] = entry
+    entry["last_run_at"] = iso(now)
+    entry["last_ok"] = bool(status.get("ok"))
+    entry["last_item_count"] = int(status.get("item_count") or 0)
+    if status.get("ok"):
+        entry["last_success_at"] = iso(now)
+        entry.pop("last_error", None)
+    elif status.get("error"):
+        entry["last_error"] = status.get("error")
+
+
 def maybe_fetch_agentmail_digest(
     session: requests.Session,
     generated_at: str,
@@ -3183,19 +3266,16 @@ def maybe_fetch_x_api_updates(
         return [], status
 
 
-def socialdata_should_run_now(now: datetime) -> bool:
+def socialdata_should_run_now(now: datetime, paid_source_state: dict[str, Any] | None = None) -> tuple[bool, str | None]:
     """Gate paid SocialData reads so a 30-minute cron does not spend every run."""
-    if env_flag("SOCIALDATA_FORCE_RUN"):
-        return True
-    run_hour = max(0, min(env_int("SOCIALDATA_RUN_UTC_HOUR", 0), 23))
-    minute_max = max(0, min(env_int("SOCIALDATA_RUN_UTC_MINUTE_MAX", 10), 59))
-    return now.astimezone(UTC).hour == run_hour and now.astimezone(UTC).minute <= minute_max
+    return paid_source_run_gate("SOCIALDATA", "socialdata", now, paid_source_state)
 
 
-def socialdata_status_base(now: datetime) -> dict[str, Any]:
+def socialdata_status_base(now: datetime, paid_source_state: dict[str, Any] | None = None) -> dict[str, Any]:
     daily_tweet_limit = max(0, env_int("SOCIALDATA_DAILY_TWEET_LIMIT", SOCIALDATA_DEFAULT_MAX_RESULTS))
     max_results = max(1, min(env_int("SOCIALDATA_MAX_RESULTS", SOCIALDATA_DEFAULT_MAX_RESULTS), 100))
     effective_cap = min(max_results, daily_tweet_limit) if daily_tweet_limit else 0
+    state_entry = paid_source_state_entry(paid_source_state, "socialdata")
     return {
         "enabled": env_flag("SOCIALDATA_ENABLED"),
         "ok": None,
@@ -3207,7 +3287,11 @@ def socialdata_status_base(now: datetime) -> dict[str, Any]:
         "max_results_per_run": max_results,
         "effective_result_cap": effective_cap,
         "estimated_max_cost_usd_per_run": round(effective_cap * SOCIALDATA_TWEET_READ_COST_USD, 4),
+        "run_interval_hours": paid_source_interval_hours("SOCIALDATA"),
         "run_utc_hour": max(0, min(env_int("SOCIALDATA_RUN_UTC_HOUR", 0), 23)),
+        "run_utc_minute_max": max(0, min(env_int("SOCIALDATA_RUN_UTC_MINUTE_MAX", 10), 59)),
+        "last_run_at": state_entry.get("last_run_at"),
+        "last_success_at": state_entry.get("last_success_at"),
         "generated_date_utc": now.astimezone(UTC).date().isoformat(),
     }
 
@@ -3296,9 +3380,10 @@ def fetch_socialdata_search(
 def maybe_fetch_socialdata_updates(
     session: requests.Session,
     now: datetime,
+    paid_source_state: dict[str, Any] | None = None,
 ) -> tuple[list[RawItem], dict[str, Any]]:
     """Fetch SocialData only when explicitly enabled, credentialed, scheduled, and capped."""
-    status = socialdata_status_base(now)
+    status = socialdata_status_base(now, paid_source_state)
     if not status["enabled"]:
         return [], status
 
@@ -3307,9 +3392,10 @@ def maybe_fetch_socialdata_updates(
         status["error"] = "socialdata_daily_tweet_limit_below_minimum"
         return [], status
 
-    if not socialdata_should_run_now(now):
+    should_run, skip_reason = socialdata_should_run_now(now, paid_source_state)
+    if not should_run:
         status["skipped"] = True
-        status["skip_reason"] = "outside_socialdata_daily_window"
+        status["skip_reason"] = skip_reason or "outside_socialdata_run_window"
         return [], status
 
     api_key = str(os.environ.get("SOCIALDATA_API_KEY") or "").strip()
@@ -3321,6 +3407,7 @@ def maybe_fetch_socialdata_updates(
     query = str(os.environ.get("SOCIALDATA_QUERY") or SOCIALDATA_DEFAULT_QUERY).strip()
     base_url = str(os.environ.get("SOCIALDATA_API_BASE_URL") or SOCIALDATA_API_BASE_DEFAULT).strip()
     search_type = str(os.environ.get("SOCIALDATA_SEARCH_TYPE") or "Latest").strip() or "Latest"
+    status["attempted"] = True
     try:
         items, diagnostics = fetch_socialdata_search(
             session,
@@ -3342,16 +3429,12 @@ def maybe_fetch_socialdata_updates(
         return [], status
 
 
-def tikhub_should_run_now(now: datetime) -> bool:
+def tikhub_should_run_now(now: datetime, paid_source_state: dict[str, Any] | None = None) -> tuple[bool, str | None]:
     """Gate paid TikHub reads so scheduled workflows do not spend every run."""
-    if env_flag("TIKHUB_FORCE_RUN"):
-        return True
-    run_hour = max(0, min(env_int("TIKHUB_RUN_UTC_HOUR", 0), 23))
-    minute_max = max(0, min(env_int("TIKHUB_RUN_UTC_MINUTE_MAX", 10), 59))
-    return now.astimezone(UTC).hour == run_hour and now.astimezone(UTC).minute <= minute_max
+    return paid_source_run_gate("TIKHUB", "tikhub", now, paid_source_state)
 
 
-def tikhub_status_base(now: datetime) -> dict[str, Any]:
+def tikhub_status_base(now: datetime, paid_source_state: dict[str, Any] | None = None) -> dict[str, Any]:
     daily_limit = max(0, env_int("TIKHUB_DAILY_ITEM_LIMIT", TIKHUB_DEFAULT_MAX_RESULTS))
     max_results = max(1, min(env_int("TIKHUB_MAX_RESULTS", TIKHUB_DEFAULT_MAX_RESULTS), 100))
     effective_cap = min(max_results, daily_limit) if daily_limit else 0
@@ -3363,6 +3446,7 @@ def tikhub_status_base(now: datetime) -> dict[str, Any]:
         for part in str(os.environ.get("TIKHUB_PLATFORMS") or TIKHUB_DEFAULT_PLATFORMS).split(",")
         if part.strip()
     ]
+    state_entry = paid_source_state_entry(paid_source_state, "tikhub")
     return {
         "enabled": enabled or (force_run and api_key_present),
         "enabled_by": "force_run" if (not enabled and force_run and api_key_present) else ("explicit" if enabled else "disabled"),
@@ -3375,7 +3459,11 @@ def tikhub_status_base(now: datetime) -> dict[str, Any]:
         "max_results_per_run": max_results,
         "effective_result_cap": effective_cap,
         "platforms": platforms,
+        "run_interval_hours": paid_source_interval_hours("TIKHUB"),
         "run_utc_hour": max(0, min(env_int("TIKHUB_RUN_UTC_HOUR", 0), 23)),
+        "run_utc_minute_max": max(0, min(env_int("TIKHUB_RUN_UTC_MINUTE_MAX", 10), 59)),
+        "last_run_at": state_entry.get("last_run_at"),
+        "last_success_at": state_entry.get("last_success_at"),
         "generated_date_utc": now.astimezone(UTC).date().isoformat(),
     }
 
@@ -3695,9 +3783,10 @@ def fetch_tikhub_search(
 def maybe_fetch_tikhub_updates(
     session: requests.Session,
     now: datetime,
+    paid_source_state: dict[str, Any] | None = None,
 ) -> tuple[list[RawItem], dict[str, Any]]:
     """Fetch TikHub Douyin/Xiaohongshu search only when explicitly enabled."""
-    status = tikhub_status_base(now)
+    status = tikhub_status_base(now, paid_source_state)
     if not status["enabled"]:
         return [], status
 
@@ -3706,9 +3795,10 @@ def maybe_fetch_tikhub_updates(
         status["error"] = "tikhub_daily_item_limit_below_minimum"
         return [], status
 
-    if not tikhub_should_run_now(now):
+    should_run, skip_reason = tikhub_should_run_now(now, paid_source_state)
+    if not should_run:
         status["skipped"] = True
-        status["skip_reason"] = "outside_tikhub_daily_window"
+        status["skip_reason"] = skip_reason or "outside_tikhub_run_window"
         return [], status
 
     api_key = str(os.environ.get("TIKHUB_API_KEY") or "").strip()
@@ -3719,6 +3809,7 @@ def maybe_fetch_tikhub_updates(
 
     query = str(os.environ.get("TIKHUB_QUERY") or TIKHUB_DEFAULT_QUERY).strip()
     base_url = str(os.environ.get("TIKHUB_API_BASE_URL") or TIKHUB_API_BASE_DEFAULT).strip()
+    status["attempted"] = True
     try:
         items, diagnostics = fetch_tikhub_search(
             session,
@@ -4425,8 +4516,10 @@ def main() -> int:
     waytoagi_path = output_dir / "waytoagi-7d.json"
     title_cache_path = output_dir / "title-zh-cache.json"
     email_digest_path = output_dir / AGENTMAIL_DIGEST_FILE
+    paid_source_state_path = output_dir / PAID_SOURCE_STATE_FILE
 
     archive = load_archive(archive_path)
+    paid_source_state = load_paid_source_state(paid_source_state_path)
 
     session = create_session()
     raw_items, statuses = collect_all(session, now)
@@ -4452,7 +4545,8 @@ def main() -> int:
                 "skip_reason": x_api_status.get("skip_reason"),
             }
         )
-    socialdata_items, socialdata_status = maybe_fetch_socialdata_updates(session, now)
+    socialdata_items, socialdata_status = maybe_fetch_socialdata_updates(session, now, paid_source_state)
+    update_paid_source_state(paid_source_state, "socialdata", socialdata_status, now)
     if socialdata_status.get("enabled"):
         raw_items.extend(socialdata_items)
         statuses.append(
@@ -4467,7 +4561,8 @@ def main() -> int:
                 "skip_reason": socialdata_status.get("skip_reason"),
             }
         )
-    tikhub_items, tikhub_status = maybe_fetch_tikhub_updates(session, now)
+    tikhub_items, tikhub_status = maybe_fetch_tikhub_updates(session, now, paid_source_state)
+    update_paid_source_state(paid_source_state, "tikhub", tikhub_status, now)
     if tikhub_status.get("enabled"):
         raw_items.extend(tikhub_items)
         tikhub_counts: dict[str, int] = {}
@@ -4776,6 +4871,7 @@ def main() -> int:
         "agentmail": agentmail_status,
         "x_api": x_api_status,
         "socialdata": socialdata_status,
+        "tikhub": tikhub_status,
     }
 
     latest_payload, latest_all_payload = build_latest_payloads(latest_payload)
@@ -4799,6 +4895,10 @@ def main() -> int:
         encoding="utf-8",
     )
     status_path.write_text(json.dumps(sanitize_public_payload(status_payload), ensure_ascii=False, indent=2), encoding="utf-8")
+    paid_source_state_path.write_text(
+        json.dumps(sanitize_public_payload(paid_source_state), ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
     if email_digest_payload is not None:
         email_digest_path.write_text(
             json.dumps(sanitize_public_payload(email_digest_payload), ensure_ascii=False, indent=2),
@@ -4814,6 +4914,7 @@ def main() -> int:
     print(f"Wrote: {merge_log_path} ({len(merge_events)} merge events)")
     print(f"Wrote: {archive_path} ({len(archive)} items)")
     print(f"Wrote: {status_path}")
+    print(f"Wrote: {paid_source_state_path}")
     if email_digest_payload is not None:
         print(f"Wrote: {email_digest_path} ({email_digest_payload.get('total_messages', 0)} email items)")
     print(f"Wrote: {waytoagi_path} ({waytoagi_payload.get('count_7d', 0)} items)")

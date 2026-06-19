@@ -115,13 +115,17 @@ baseline, then let the aggregator layer add breadth.
   default. It reads public X/Twitter search results from the third-party
   SocialData API, not from the official X API. Use `SOCIALDATA_QUERY`,
   `SOCIALDATA_MAX_RESULTS`, `SOCIALDATA_DAILY_TWEET_LIMIT`, and
-  `SOCIALDATA_RUN_UTC_HOUR` to keep cost and noise bounded.
+  `SOCIALDATA_RUN_INTERVAL_HOURS` to keep cost and noise bounded. The previous
+  `SOCIALDATA_RUN_UTC_HOUR` setting still controls the first run window when no
+  paid-source state exists yet.
 - **TikHub Douyin/Xiaohongshu search**: supported as an advanced,
   secret-backed adapter through `TIKHUB_ENABLED=1` and `TIKHUB_API_KEY`, but
   disabled by default. It reads public Douyin and Xiaohongshu keyword search
   results through TikHub's paid API, not official RSS. Use `TIKHUB_QUERY`,
   `TIKHUB_PLATFORMS`, `TIKHUB_MAX_RESULTS`, `TIKHUB_DAILY_ITEM_LIMIT`, and
-  `TIKHUB_RUN_UTC_HOUR` to keep cost and noise bounded. Prefer focused AI
+  `TIKHUB_RUN_INTERVAL_HOURS` to keep cost and noise bounded. The previous
+  `TIKHUB_RUN_UTC_HOUR` setting still controls the first run window when no
+  paid-source state exists yet. Prefer focused AI
   keywords over general hot lists so entertainment trends do not flood the
   Signal view.
 - **AgentMail digest**: supported as an advanced, secret-backed metadata digest
