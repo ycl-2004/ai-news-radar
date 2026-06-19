@@ -1008,11 +1008,10 @@ summary:focus-visible {
 .top-story-card {
   position: relative;
   min-width: 0;
-  display: grid;
-  grid-template-rows: auto auto minmax(2.76em, auto) minmax(2.96em, auto) auto minmax(2em, auto);
-  align-content: start;
+  display: flex;
+  flex-direction: column;
   gap: 10px;
-  min-height: 210px;
+  min-height: 260px;
   border: 1px solid var(--line);
   border-radius: var(--radius);
   padding: 14px;
@@ -1072,8 +1071,12 @@ summary:focus-visible {
 }
 
 .top-story-title {
+  display: -webkit-box;
   font-size: 17px;
-  min-height: 2.76em;
+  min-height: 0;
+  overflow: hidden;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
 }
 
 .top-story-reason,
@@ -1087,7 +1090,7 @@ summary:focus-visible {
 
 .top-story-reason {
   display: -webkit-box;
-  min-height: 2.96em;
+  min-height: 0;
   overflow: hidden;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
@@ -1196,13 +1199,17 @@ summary:focus-visible {
 }
 
 .top-story-card .intel-tags {
-  align-self: end;
-  min-height: 25px;
+  margin-top: auto;
+  min-height: 28px;
+  max-height: 28px;
+  overflow: hidden;
 }
 
 .top-story-card .intel-card-sources {
-  align-self: start;
-  min-height: 25px;
+  margin-top: -8px;
+  min-height: 52px;
+  max-height: 52px;
+  overflow: hidden;
 }
 
 .source-chip {
