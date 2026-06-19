@@ -1,209 +1,8 @@
 {
-  "generated_at": "2026-06-19T07:36:22.291394Z",
+  "generated_at": "2026-06-19T12:00:19.262350Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
-    {
-      "story_id": "story_42c2eb39116d",
-      "title": "这家韩国电信巨头是Anthropic\"Mythos\"争议的焦点",
-      "url": "https://www.wired.com/story/[redacted-secret]",
-      "primary_url": "https://www.wired.com/story/[redacted-secret]",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "09cf5f59e090e95066695d82f7017c335690051d",
-          "title": "这家韩国电信巨头是Anthropic\"Mythos\"争议的焦点",
-          "url": "https://www.wired.com/story/[redacted-secret]",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-19T01:33:10.751000Z"
-        },
-        {
-          "id": "3597dfb9b1572f104dbd35782f736ecdcf140c2b",
-          "title": "这家韩国电信巨头是Anthropic“Mythos”争议的焦点",
-          "url": "https://www.wired.com/story/[redacted-secret]",
-          "source": "www.wired.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-19T01:33:10.751000Z"
-        },
-        {
-          "id": "8b1e83b487abb2c7d6819000db48e28e6ee65a87",
-          "title": "这家韩国电信巨头是Anthropic\"Mythos\"争议的焦点 / The Korean telecom giant at the center of Anthropic's Mythos controversy",
-          "url": "https://www.wired.com/story/[redacted-secret]",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-18T12:44:09Z"
-        },
-        {
-          "id": "2550154934daa400717ced6176920aae035cf955",
-          "title": "韩国电信巨头处于 Anthropic 神话争议的中心 / The Korean telecom giant at the center of Anthropic's Mythos controversy",
-          "url": "https://www.wired.com/story/[redacted-secret]",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-18T12:44:09Z"
-        }
-      ],
-      "source_count": 4,
-      "source_names": [
-        "Hacker News (黑客新闻)",
-        "Hacker News · 24h最热",
-        "Hacker News 热门（buzzing.cc 中文翻译）",
-        "www.wired.com"
-      ],
-      "items": [
-        {
-          "id": "09cf5f59e090e95066695d82f7017c335690051d",
-          "title": "这家韩国电信巨头是Anthropic\"Mythos\"争议的焦点",
-          "url": "https://www.wired.com/story/[redacted-secret]",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-19T01:33:10.751000Z"
-        },
-        {
-          "id": "3597dfb9b1572f104dbd35782f736ecdcf140c2b",
-          "title": "这家韩国电信巨头是Anthropic“Mythos”争议的焦点",
-          "url": "https://www.wired.com/story/[redacted-secret]",
-          "source": "www.wired.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-19T01:33:10.751000Z"
-        },
-        {
-          "id": "8b1e83b487abb2c7d6819000db48e28e6ee65a87",
-          "title": "这家韩国电信巨头是Anthropic\"Mythos\"争议的焦点 / The Korean telecom giant at the center of Anthropic's Mythos controversy",
-          "url": "https://www.wired.com/story/[redacted-secret]",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-18T12:44:09Z"
-        },
-        {
-          "id": "2550154934daa400717ced6176920aae035cf955",
-          "title": "韩国电信巨头处于 Anthropic 神话争议的中心 / The Korean telecom giant at the center of Anthropic's Mythos controversy",
-          "url": "https://www.wired.com/story/[redacted-secret]",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-18T12:44:09Z"
-        }
-      ],
-      "item_count": 4,
-      "duplicate_count": 4,
-      "score": 0.8395,
-      "importance": 0.8395,
-      "importance_score": 0.8395,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.76,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9163,
-        "story_heat": 0.75
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-18T12:44:09Z",
-      "latest_at": "2026-06-19T01:33:10.751000Z",
-      "primary_item": {
-        "id": "09cf5f59e090e95066695d82f7017c335690051d",
-        "title": "这家韩国电信巨头是Anthropic\"Mythos\"争议的焦点",
-        "url": "https://www.wired.com/story/[redacted-secret]",
-        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_33383567514a",
-      "title": "GPT-5.5 Instant提升ChatGPT健康智能 / Improving health intelligence in ChatGPT",
-      "url": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
-      "primary_url": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
-      "source": "OpenAI News",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "a568a0f50b6351c99228e9d74fd02d3941efbfc8",
-          "title": "GPT-5.5 Instant提升ChatGPT健康智能 / Improving health intelligence in ChatGPT",
-          "url": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-18T11:00:00Z"
-        },
-        {
-          "id": "054292ad80f32db36380a3ae537317e2c4356022",
-          "title": "GPT-5.5 Instant提升ChatGPT健康智能",
-          "url": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
-          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-18T11:00:00Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "OpenAI News",
-        "OpenAI：官网动态（RSS · 排除企业/客户案例）"
-      ],
-      "items": [
-        {
-          "id": "a568a0f50b6351c99228e9d74fd02d3941efbfc8",
-          "title": "GPT-5.5 Instant提升ChatGPT健康智能 / Improving health intelligence in ChatGPT",
-          "url": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-18T11:00:00Z"
-        },
-        {
-          "id": "054292ad80f32db36380a3ae537317e2c4356022",
-          "title": "GPT-5.5 Instant提升ChatGPT健康智能",
-          "url": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
-          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-18T11:00:00Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.8387,
-      "importance": 0.8387,
-      "importance_score": 0.8387,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.95,
-        "recency": 0.7426,
-        "story_heat": 0.25
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-18T11:00:00Z",
-      "latest_at": "2026-06-18T11:00:00Z",
-      "primary_item": {
-        "id": "a568a0f50b6351c99228e9d74fd02d3941efbfc8",
-        "title": "GPT-5.5 Instant提升ChatGPT健康智能 / Improving health intelligence in ChatGPT",
-        "url": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
-        "source": "OpenAI News",
-        "source_name": "Official AI Updates"
-      }
-    },
     {
       "story_id": "story_4f4fa9bb905b",
       "title": "Opus 4.6 即将弃用（快速） / Upcoming deprecation of Opus 4.6 (fast)",
@@ -239,15 +38,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8252,
-      "importance": 0.8252,
-      "importance_score": 0.8252,
+      "score": 0.8153,
+      "importance": 0.8153,
+      "importance_score": 0.8153,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.8957,
+        "recency": 0.8405,
         "story_heat": 0.0
       },
       "category": "official",
@@ -264,6 +63,168 @@
         "url": "https://github.blog/changelog/2026-06-18-upcoming-deprecation-of-opus-4-6-fast",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_217d8a1a56f1",
+      "title": "新的使用情况分析和更新的企业支出控制 / New usage analytics and updated spend controls for enterprises",
+      "url": "https://openai.com/index/chatgpt-enterprise-spend-controls",
+      "primary_url": "https://openai.com/index/chatgpt-enterprise-spend-controls",
+      "source": "OpenAI News",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "ad5533a86d86e7f37262a51e4d6cb8b38365276e",
+          "title": "新的使用情况分析和更新的企业支出控制 / New usage analytics and updated spend controls for enterprises",
+          "url": "https://openai.com/index/chatgpt-enterprise-spend-controls",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-18T17:00:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "OpenAI News"
+      ],
+      "items": [
+        {
+          "id": "ad5533a86d86e7f37262a51e4d6cb8b38365276e",
+          "title": "新的使用情况分析和更新的企业支出控制 / New usage analytics and updated spend controls for enterprises",
+          "url": "https://openai.com/index/chatgpt-enterprise-spend-controls",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-18T17:00:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8088,
+      "importance": 0.8088,
+      "importance_score": 0.8088,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.76,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-18T17:00:00Z",
+      "latest_at": "2026-06-18T17:00:00Z",
+      "primary_item": {
+        "id": "ad5533a86d86e7f37262a51e4d6cb8b38365276e",
+        "title": "新的使用情况分析和更新的企业支出控制 / New usage analytics and updated spend controls for enterprises",
+        "url": "https://openai.com/index/chatgpt-enterprise-spend-controls",
+        "source": "OpenAI News",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_8d2f277efd93",
+      "title": "八部门联合发文力推\"人工智能 + 消费\"，扩大 AI 手机电脑及智能网联汽车消费",
+      "url": "https://www.ithome.com/0/966/295.htm",
+      "primary_url": "https://www.ithome.com/0/966/295.htm",
+      "source": "IT之家（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "31e504614dd0d6caadfbaa4eb8b6834ce92eccb4",
+          "title": "八部门联合发文力推\"人工智能 + 消费\"，扩大 AI 手机电脑及智能网联汽车消费",
+          "url": "https://www.ithome.com/0/966/295.htm",
+          "source": "IT之家（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-18T23:56:08Z"
+        },
+        {
+          "id": "9b6421b74a99026eba9c8b589f4ba66792c87530",
+          "title": "八部门联合发文力推「人工智能 + 消费」，扩大 AI 手机电脑及智能网联汽车消费",
+          "url": "https://www.ithome.com/0/966/295.htm",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        },
+        {
+          "id": "dac92555236efcfb4dd2b027e8dc73bac0447ff5",
+          "title": "八部门联合发文加快“人工智能 + 消费”发展，扩大 AI 手机电脑及智能网联汽车消费",
+          "url": "https://www.ithome.com/0/966/295.htm",
+          "source": "IT之家 (ITHome)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-18T23:56:08Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "IT之家 (ITHome)",
+        "IT之家（RSS）",
+        "Readhub · AI"
+      ],
+      "items": [
+        {
+          "id": "31e504614dd0d6caadfbaa4eb8b6834ce92eccb4",
+          "title": "八部门联合发文力推\"人工智能 + 消费\"，扩大 AI 手机电脑及智能网联汽车消费",
+          "url": "https://www.ithome.com/0/966/295.htm",
+          "source": "IT之家（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-18T23:56:08Z"
+        },
+        {
+          "id": "9b6421b74a99026eba9c8b589f4ba66792c87530",
+          "title": "八部门联合发文力推「人工智能 + 消费」，扩大 AI 手机电脑及智能网联汽车消费",
+          "url": "https://www.ithome.com/0/966/295.htm",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        },
+        {
+          "id": "dac92555236efcfb4dd2b027e8dc73bac0447ff5",
+          "title": "八部门联合发文加快“人工智能 + 消费”发展，扩大 AI 手机电脑及智能网联汽车消费",
+          "url": "https://www.ithome.com/0/966/295.htm",
+          "source": "IT之家 (ITHome)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-18T23:56:08Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.8008,
+      "importance": 0.8008,
+      "importance_score": 0.8008,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.76,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.84,
+        "story_heat": 0.5
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-18T23:56:08Z",
+      "latest_at": "2026-06-19T00:54:54.036357Z",
+      "primary_item": {
+        "id": "31e504614dd0d6caadfbaa4eb8b6834ce92eccb4",
+        "title": "八部门联合发文力推\"人工智能 + 消费\"，扩大 AI 手机电脑及智能网联汽车消费",
+        "url": "https://www.ithome.com/0/966/295.htm",
+        "source": "IT之家（RSS）",
+        "source_name": "AI HOT"
       }
     },
     {
@@ -358,15 +319,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.8085,
-      "importance": 0.8085,
-      "importance_score": 0.8085,
+      "score": 0.7995,
+      "importance": 0.7995,
+      "importance_score": 0.7995,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8104,
+        "recency": 0.7605,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -386,85 +347,64 @@
       }
     },
     {
-      "story_id": "story_2155d7cb8c43",
-      "title": "OpenAI与哈佛等合作研究：o3 Deep Research模型辅助诊断儿童罕见病，额外诊断率4.8% / Using AI to help physicians diagnose rare genetic diseases affecting children",
-      "url": "https://openai.com/index/diagnose-rare-childhood-diseases",
-      "primary_url": "https://openai.com/index/diagnose-rare-childhood-diseases",
-      "source": "OpenAI News",
-      "source_name": "Official AI Updates",
+      "story_id": "story_efe21541a370",
+      "title": "OpenAI 将前沿健康 AI 能力迁移至免费版 GPT-5.5 Instant",
+      "url": "https://x.com/rohanpaul_ai/status/2067936581441528040",
+      "primary_url": "https://x.com/rohanpaul_ai/status/2067936581441528040",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "source_name": "AI HOT",
       "sources": [
         {
-          "id": "85800dff7b76b3116762bca173a450643f6985fa",
-          "title": "OpenAI与哈佛等合作研究：o3 Deep Research模型辅助诊断儿童罕见病，额外诊断率4.8% / Using AI to help physicians diagnose rare genetic diseases affecting children",
-          "url": "https://openai.com/index/diagnose-rare-childhood-diseases",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-18T08:00:00Z"
-        },
-        {
-          "id": "e71bdd4bdfb94dcafd77858d858d97af650b95dd",
-          "title": "OpenAI与哈佛等合作研究：o3 Deep Research模型辅助诊断儿童罕见病，额外诊断率4.8%",
-          "url": "https://openai.com/index/diagnose-rare-childhood-diseases",
-          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "id": "712451c8bb2ba7895b2db72d7dad89e819624e07",
+          "title": "OpenAI 将前沿健康 AI 能力迁移至免费版 GPT-5.5 Instant",
+          "url": "https://x.com/rohanpaul_ai/status/2067936581441528040",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-06-18T08:00:00Z"
+          "published_at": "2026-06-19T11:44:36Z"
         }
       ],
-      "source_count": 2,
+      "source_count": 1,
       "source_names": [
-        "OpenAI News",
-        "OpenAI：官网动态（RSS · 排除企业/客户案例）"
+        "X：Rohan Paul (@rohanpaul_ai)"
       ],
       "items": [
         {
-          "id": "85800dff7b76b3116762bca173a450643f6985fa",
-          "title": "OpenAI与哈佛等合作研究：o3 Deep Research模型辅助诊断儿童罕见病，额外诊断率4.8% / Using AI to help physicians diagnose rare genetic diseases affecting children",
-          "url": "https://openai.com/index/diagnose-rare-childhood-diseases",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-18T08:00:00Z"
-        },
-        {
-          "id": "e71bdd4bdfb94dcafd77858d858d97af650b95dd",
-          "title": "OpenAI与哈佛等合作研究：o3 Deep Research模型辅助诊断儿童罕见病，额外诊断率4.8%",
-          "url": "https://openai.com/index/diagnose-rare-childhood-diseases",
-          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "id": "712451c8bb2ba7895b2db72d7dad89e819624e07",
+          "title": "OpenAI 将前沿健康 AI 能力迁移至免费版 GPT-5.5 Instant",
+          "url": "https://x.com/rohanpaul_ai/status/2067936581441528040",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-06-18T08:00:00Z"
+          "published_at": "2026-06-19T11:44:36Z"
         }
       ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.825,
-      "importance": 0.825,
-      "importance_score": 0.825,
-      "importance_label": "官方更新",
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7939,
+      "importance": 0.7939,
+      "importance_score": 0.7939,
+      "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.7111,
-        "story_heat": 0.25
+        "editorial": 0.81,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9962,
+        "story_heat": 0.0
       },
-      "category": "official",
+      "category": "industry",
       "reasons": [
-        "official_source",
-        "multi_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-06-18T08:00:00Z",
-      "latest_at": "2026-06-18T08:00:00Z",
+      "earliest_at": "2026-06-19T11:44:36Z",
+      "latest_at": "2026-06-19T11:44:36Z",
       "primary_item": {
-        "id": "85800dff7b76b3116762bca173a450643f6985fa",
-        "title": "OpenAI与哈佛等合作研究：o3 Deep Research模型辅助诊断儿童罕见病，额外诊断率4.8% / Using AI to help physicians diagnose rare genetic diseases affecting children",
-        "url": "https://openai.com/index/diagnose-rare-childhood-diseases",
-        "source": "OpenAI News",
-        "source_name": "Official AI Updates"
+        "id": "712451c8bb2ba7895b2db72d7dad89e819624e07",
+        "title": "OpenAI 将前沿健康 AI 能力迁移至免费版 GPT-5.5 Instant",
+        "url": "https://x.com/rohanpaul_ai/status/2067936581441528040",
+        "source": "X：Rohan Paul (@rohanpaul_ai)",
+        "source_name": "AI HOT"
       }
     },
     {
@@ -502,15 +442,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8246,
-      "importance": 0.8246,
-      "importance_score": 0.8246,
+      "score": 0.8152,
+      "importance": 0.8152,
+      "importance_score": 0.8152,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.848,
+        "recency": 0.7958,
         "story_heat": 0.0
       },
       "category": "official",
@@ -527,6 +467,128 @@
         "url": "https://github.blog/changelog/2026-06-18-mai-code-1-flash-available-on-more-copilot-surfaces",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_8112b0a8a5be",
+      "title": "Humanize PPT v0.9：为演讲而生的开源PPT Skill",
+      "url": "https://mp.weixin.qq.com/s/rGoYnUcBRkfRKQPbIaawyg",
+      "primary_url": "https://mp.weixin.qq.com/s/rGoYnUcBRkfRKQPbIaawyg",
+      "source": "公众号：卡尔的AI沃茨",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "6cfa2fd31da2929fc88c17890b5c4a43e59321c0",
+          "title": "Humanize PPT v0.9：为演讲而生的开源PPT Skill",
+          "url": "https://mp.weixin.qq.com/s/rGoYnUcBRkfRKQPbIaawyg",
+          "source": "公众号：卡尔的AI沃茨",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-19T09:48:28Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "公众号：卡尔的AI沃茨"
+      ],
+      "items": [
+        {
+          "id": "6cfa2fd31da2929fc88c17890b5c4a43e59321c0",
+          "title": "Humanize PPT v0.9：为演讲而生的开源PPT Skill",
+          "url": "https://mp.weixin.qq.com/s/rGoYnUcBRkfRKQPbIaawyg",
+          "source": "公众号：卡尔的AI沃茨",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-19T09:48:28Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.777,
+      "importance": 0.777,
+      "importance_score": 0.777,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.77,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9688,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-19T09:48:28Z",
+      "latest_at": "2026-06-19T09:48:28Z",
+      "primary_item": {
+        "id": "6cfa2fd31da2929fc88c17890b5c4a43e59321c0",
+        "title": "Humanize PPT v0.9：为演讲而生的开源PPT Skill",
+        "url": "https://mp.weixin.qq.com/s/rGoYnUcBRkfRKQPbIaawyg",
+        "source": "公众号：卡尔的AI沃茨",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_a3c9e7b5330d",
+      "title": "诺姆·沙齐尔加入OpenAI",
+      "url": "https://twitter.com/NoamShazeer/status/2067400851438932297",
+      "primary_url": "https://twitter.com/NoamShazeer/status/2067400851438932297",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "ddf9e596004a3ec4defc9c4803bc196c3c3999b2",
+          "title": "诺姆·沙齐尔加入OpenAI",
+          "url": "https://twitter.com/NoamShazeer/status/2067400851438932297",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-18T20:29:15.651000Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Hacker News 热门（buzzing.cc 中文翻译）"
+      ],
+      "items": [
+        {
+          "id": "ddf9e596004a3ec4defc9c4803bc196c3c3999b2",
+          "title": "诺姆·沙齐尔加入OpenAI",
+          "url": "https://twitter.com/NoamShazeer/status/2067400851438932297",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-18T20:29:15.651000Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7735,
+      "importance": 0.7735,
+      "importance_score": 0.7735,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.86,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7992,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-18T20:29:15.651000Z",
+      "latest_at": "2026-06-18T20:29:15.651000Z",
+      "primary_item": {
+        "id": "ddf9e596004a3ec4defc9c4803bc196c3c3999b2",
+        "title": "诺姆·沙齐尔加入OpenAI",
+        "url": "https://twitter.com/NoamShazeer/status/2067400851438932297",
+        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "source_name": "AI HOT"
       }
     },
     {
@@ -564,15 +626,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7815,
-      "importance": 0.7815,
-      "importance_score": 0.7815,
+      "score": 0.7709,
+      "importance": 0.7709,
+      "importance_score": 0.7709,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.79,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9606,
+        "recency": 0.9015,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -644,15 +706,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7714,
-      "importance": 0.7714,
-      "importance_score": 0.7714,
+      "score": 0.7628,
+      "importance": 0.7628,
+      "importance_score": 0.7628,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.78,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7825,
+        "recency": 0.7343,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -725,15 +787,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.77,
-      "importance": 0.77,
-      "importance_score": 0.77,
+      "score": 0.7608,
+      "importance": 0.7608,
+      "importance_score": 0.7608,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8242,
+        "recency": 0.7735,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -787,15 +849,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7644,
-      "importance": 0.7644,
-      "importance_score": 0.7644,
+      "score": 0.7541,
+      "importance": 0.7541,
+      "importance_score": 0.7541,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9321,
+        "recency": 0.8747,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -810,67 +872,6 @@
         "title": "Salesforce CodeGen教程：生成、验证并重排序Python函数（含单元测试与安全检查）",
         "url": "https://www.marktechpost.com/2026/06/18/salesforce-codegen-tutorial-generate-validate-and-rerank-python-functions-with-unit-tests-and-safety-checks",
         "source": "MarkTechPost（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_476ce10324ab",
-      "title": "Fable模型被美国临时关闭，AI安全管控时代来临",
-      "url": "https://steve-yegge.medium.com/the-flat-curve-society-36c8b01eb33b",
-      "primary_url": "https://steve-yegge.medium.com/the-flat-curve-society-36c8b01eb33b",
-      "source": "Steve Yegge：Medium（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "22534b7e2e784ef6b38dc3b45c7acba730f21464",
-          "title": "Fable模型被美国临时关闭，AI安全管控时代来临",
-          "url": "https://steve-yegge.medium.com/the-flat-curve-society-36c8b01eb33b",
-          "source": "Steve Yegge：Medium（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-19T03:31:56Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Steve Yegge：Medium（RSS）"
-      ],
-      "items": [
-        {
-          "id": "22534b7e2e784ef6b38dc3b45c7acba730f21464",
-          "title": "Fable模型被美国临时关闭，AI安全管控时代来临",
-          "url": "https://steve-yegge.medium.com/the-flat-curve-society-36c8b01eb33b",
-          "source": "Steve Yegge：Medium（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-19T03:31:56Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7633,
-      "importance": 0.7633,
-      "importance_score": 0.7633,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.74,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9429,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-19T03:31:56Z",
-      "latest_at": "2026-06-19T03:31:56Z",
-      "primary_item": {
-        "id": "22534b7e2e784ef6b38dc3b45c7acba730f21464",
-        "title": "Fable模型被美国临时关闭，AI安全管控时代来临",
-        "url": "https://steve-yegge.medium.com/the-flat-curve-society-36c8b01eb33b",
-        "source": "Steve Yegge：Medium（RSS）",
         "source_name": "AI HOT"
       }
     },
@@ -909,15 +910,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8225,
-      "importance": 0.8225,
-      "importance_score": 0.8225,
+      "score": 0.8132,
+      "importance": 0.8132,
+      "importance_score": 0.8132,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.8359,
+        "recency": 0.7845,
         "story_heat": 0.0
       },
       "category": "official",
@@ -937,83 +938,63 @@
       }
     },
     {
-      "story_id": "story_d064b3eae2a9",
-      "title": "我们在 Elasticsearch 上构建了一个持久化代理内存层，其召回率为0.89",
-      "url": "https://www.elastic.co/search-labs/blog/agent-memory-elasticsearch",
-      "primary_url": "https://www.elastic.co/search-labs/blog/agent-memory-elasticsearch",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "story_id": "story_476ce10324ab",
+      "title": "Fable模型被美国临时关闭，AI安全管控时代来临",
+      "url": "https://steve-yegge.medium.com/the-flat-curve-society-36c8b01eb33b",
+      "primary_url": "https://steve-yegge.medium.com/the-flat-curve-society-36c8b01eb33b",
+      "source": "Steve Yegge：Medium（RSS）",
       "source_name": "AI HOT",
       "sources": [
         {
-          "id": "2f6f11ace9b57f291b1fb01fa3b446081bdd5832",
-          "title": "我们在 Elasticsearch 上构建了一个持久化代理内存层，其召回率为0.89",
-          "url": "https://www.elastic.co/search-labs/blog/agent-memory-elasticsearch",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "id": "22534b7e2e784ef6b38dc3b45c7acba730f21464",
+          "title": "Fable模型被美国临时关闭，AI安全管控时代来临",
+          "url": "https://steve-yegge.medium.com/the-flat-curve-society-36c8b01eb33b",
+          "source": "Steve Yegge：Medium（RSS）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-06-19T05:01:18.006000Z"
-        },
-        {
-          "id": "35845a5b78d15637e8c0122899de265ce1162228",
-          "title": "我们在 Elasticsearch 上构建了一个持久化代理内存层，其召回率为0.89 / We built a persistent agent memory layer on Elasticsearch with 0.89 recall",
-          "url": "https://www.elastic.co/search-labs/blog/agent-memory-elasticsearch",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-18T11:20:18Z"
+          "published_at": "2026-06-19T03:31:56Z"
         }
       ],
-      "source_count": 2,
+      "source_count": 1,
       "source_names": [
-        "Hacker News · 24h最热",
-        "Hacker News 热门（buzzing.cc 中文翻译）"
+        "Steve Yegge：Medium（RSS）"
       ],
       "items": [
         {
-          "id": "2f6f11ace9b57f291b1fb01fa3b446081bdd5832",
-          "title": "我们在 Elasticsearch 上构建了一个持久化代理内存层，其召回率为0.89",
-          "url": "https://www.elastic.co/search-labs/blog/agent-memory-elasticsearch",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "id": "22534b7e2e784ef6b38dc3b45c7acba730f21464",
+          "title": "Fable模型被美国临时关闭，AI安全管控时代来临",
+          "url": "https://steve-yegge.medium.com/the-flat-curve-society-36c8b01eb33b",
+          "source": "Steve Yegge：Medium（RSS）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-06-19T05:01:18.006000Z"
-        },
-        {
-          "id": "35845a5b78d15637e8c0122899de265ce1162228",
-          "title": "我们在 Elasticsearch 上构建了一个持久化代理内存层，其召回率为0.89 / We built a persistent agent memory layer on Elasticsearch with 0.89 recall",
-          "url": "https://www.elastic.co/search-labs/blog/agent-memory-elasticsearch",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-18T11:20:18Z"
+          "published_at": "2026-06-19T03:31:56Z"
         }
       ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.789,
-      "importance": 0.789,
-      "importance_score": 0.789,
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7529,
+      "importance": 0.7529,
+      "importance_score": 0.7529,
       "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.73,
+        "editorial": 0.74,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9634,
-        "story_heat": 0.25
+        "recency": 0.8848,
+        "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "multi_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-06-18T11:20:18Z",
-      "latest_at": "2026-06-19T05:01:18.006000Z",
+      "earliest_at": "2026-06-19T03:31:56Z",
+      "latest_at": "2026-06-19T03:31:56Z",
       "primary_item": {
-        "id": "2f6f11ace9b57f291b1fb01fa3b446081bdd5832",
-        "title": "我们在 Elasticsearch 上构建了一个持久化代理内存层，其召回率为0.89",
-        "url": "https://www.elastic.co/search-labs/blog/agent-memory-elasticsearch",
-        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "id": "22534b7e2e784ef6b38dc3b45c7acba730f21464",
+        "title": "Fable模型被美国临时关闭，AI安全管控时代来临",
+        "url": "https://steve-yegge.medium.com/the-flat-curve-society-36c8b01eb33b",
+        "source": "Steve Yegge：Medium（RSS）",
         "source_name": "AI HOT"
       }
     },
@@ -1071,22 +1052,21 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7588,
-      "importance": 0.7588,
-      "importance_score": 0.7588,
+      "score": 0.7494,
+      "importance": 0.7494,
+      "importance_score": 0.7494,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8456,
+        "recency": 0.7935,
         "story_heat": 0.25
       },
       "category": "industry",
       "reasons": [
         "multi_source",
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-06-18T19:59:22Z",
       "latest_at": "2026-06-18T19:59:22Z",
@@ -1096,68 +1076,6 @@
         "url": "https://techcrunch.com/2026/06/18/openai-is-bringing-on-some-big-guns-in-the-lead-up-to-its-ipo",
         "source": "TechCrunch：AI（RSS）",
         "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_217d8a1a56f1",
-      "title": "新的使用情况分析和更新的企业支出控制 / New usage analytics and updated spend controls for enterprises",
-      "url": "https://openai.com/index/chatgpt-enterprise-spend-controls",
-      "primary_url": "https://openai.com/index/chatgpt-enterprise-spend-controls",
-      "source": "OpenAI News",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "ad5533a86d86e7f37262a51e4d6cb8b38365276e",
-          "title": "新的使用情况分析和更新的企业支出控制 / New usage analytics and updated spend controls for enterprises",
-          "url": "https://openai.com/index/chatgpt-enterprise-spend-controls",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-18T17:00:00Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "OpenAI News"
-      ],
-      "items": [
-        {
-          "id": "ad5533a86d86e7f37262a51e4d6cb8b38365276e",
-          "title": "新的使用情况分析和更新的企业支出控制 / New usage analytics and updated spend controls for enterprises",
-          "url": "https://openai.com/index/chatgpt-enterprise-spend-controls",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-18T17:00:00Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8178,
-      "importance": 0.8178,
-      "importance_score": 0.8178,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.8098,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-18T17:00:00Z",
-      "latest_at": "2026-06-18T17:00:00Z",
-      "primary_item": {
-        "id": "ad5533a86d86e7f37262a51e4d6cb8b38365276e",
-        "title": "新的使用情况分析和更新的企业支出控制 / New usage analytics and updated spend controls for enterprises",
-        "url": "https://openai.com/index/chatgpt-enterprise-spend-controls",
-        "source": "OpenAI News",
-        "source_name": "Official AI Updates"
       }
     },
     {
@@ -1195,21 +1113,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7574,
-      "importance": 0.7574,
-      "importance_score": 0.7574,
+      "score": 0.7482,
+      "importance": 0.7482,
+      "importance_score": 0.7482,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.79,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8266,
+        "recency": 0.7758,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-06-18T18:25:17Z",
       "latest_at": "2026-06-18T18:25:17Z",
@@ -1218,127 +1135,6 @@
         "title": "OpenAI 联合多国医生：GPT-5.5 Instant 健康问答能力追平前沿 Thinking 模型",
         "url": "https://x.com/gdb/status/2067675030335668270",
         "source": "X：Greg Brockman (@gdb)",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_f1c46e9ab12a",
-      "title": "AI 员工 Viktor 登陆 Microsoft Teams，年化收入达 2000 万美元",
-      "url": "https://x.com/rohanpaul_ai/status/2067755504613613699",
-      "primary_url": "https://x.com/rohanpaul_ai/status/2067755504613613699",
-      "source": "X：Rohan Paul (@rohanpaul_ai)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "d059bbe93c69bc3f33ffaef1aec7a92e694c1d7a",
-          "title": "AI 员工 Viktor 登陆 Microsoft Teams，年化收入达 2000 万美元",
-          "url": "https://x.com/rohanpaul_ai/status/2067755504613613699",
-          "source": "X：Rohan Paul (@rohanpaul_ai)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-18T23:45:03Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：Rohan Paul (@rohanpaul_ai)"
-      ],
-      "items": [
-        {
-          "id": "d059bbe93c69bc3f33ffaef1aec7a92e694c1d7a",
-          "title": "AI 员工 Viktor 登陆 Microsoft Teams，年化收入达 2000 万美元",
-          "url": "https://x.com/rohanpaul_ai/status/2067755504613613699",
-          "source": "X：Rohan Paul (@rohanpaul_ai)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-18T23:45:03Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7573,
-      "importance": 0.7573,
-      "importance_score": 0.7573,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.75,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8928,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-18T23:45:03Z",
-      "latest_at": "2026-06-18T23:45:03Z",
-      "primary_item": {
-        "id": "d059bbe93c69bc3f33ffaef1aec7a92e694c1d7a",
-        "title": "AI 员工 Viktor 登陆 Microsoft Teams，年化收入达 2000 万美元",
-        "url": "https://x.com/rohanpaul_ai/status/2067755504613613699",
-        "source": "X：Rohan Paul (@rohanpaul_ai)",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_83fbd362d1ae",
-      "title": "八部门：用好个人消费贷款财政贴息政策，支持消费者购买 AI 相关产品",
-      "url": "https://www.ithome.com/0/966/154.htm",
-      "primary_url": "https://www.ithome.com/0/966/154.htm",
-      "source": "IT之家（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "6cf42963795b54e9fd3c4fa9117e5b71251633bf",
-          "title": "八部门：用好个人消费贷款财政贴息政策，支持消费者购买 AI 相关产品",
-          "url": "https://www.ithome.com/0/966/154.htm",
-          "source": "IT之家（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-18T09:03:28Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "IT之家（RSS）"
-      ],
-      "items": [
-        {
-          "id": "6cf42963795b54e9fd3c4fa9117e5b71251633bf",
-          "title": "八部门：用好个人消费贷款财政贴息政策，支持消费者购买 AI 相关产品",
-          "url": "https://www.ithome.com/0/966/154.htm",
-          "source": "IT之家（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-18T09:03:28Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7476,
-      "importance": 0.7476,
-      "importance_score": 0.7476,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.82,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7221,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-18T09:03:28Z",
-      "latest_at": "2026-06-18T09:03:28Z",
-      "primary_item": {
-        "id": "6cf42963795b54e9fd3c4fa9117e5b71251633bf",
-        "title": "八部门：用好个人消费贷款财政贴息政策，支持消费者购买 AI 相关产品",
-        "url": "https://www.ithome.com/0/966/154.htm",
-        "source": "IT之家（RSS）",
         "source_name": "AI HOT"
       }
     },
@@ -1377,15 +1173,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7471,
-      "importance": 0.7471,
-      "importance_score": 0.7471,
+      "score": 0.7382,
+      "importance": 0.7382,
+      "importance_score": 0.7382,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.77,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8026,
+        "recency": 0.7532,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1437,15 +1233,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7704,
-      "importance": 0.7704,
-      "importance_score": 0.7704,
+      "score": 0.7599,
+      "importance": 0.7599,
+      "importance_score": 0.7599,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.76,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.949,
+        "recency": 0.8906,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1460,6 +1256,127 @@
         "title": "DeepSeek研究员开源AutoResearch：AI自主跑通285B模型RL研究闭环",
         "url": "https://x.com/AYi_AInotes/status/2067819352926150953",
         "source": "X：阿易 AI Notes (@AYi_AInotes)",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_6cd28c156a1c",
+      "title": "Claude Code 现已支持 artifacts",
+      "url": "https://claude.com/blog/artifacts-in-claude-code",
+      "primary_url": "https://claude.com/blog/artifacts-in-claude-code",
+      "source": "Claude：Blog（网页）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "8beb9ec23f877961a60c262053d989704feceb35",
+          "title": "Claude Code 现已支持 artifacts",
+          "url": "https://claude.com/blog/artifacts-in-claude-code",
+          "source": "Claude：Blog（网页）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-18T18:54:47.698000Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Claude：Blog（网页）"
+      ],
+      "items": [
+        {
+          "id": "8beb9ec23f877961a60c262053d989704feceb35",
+          "title": "Claude Code 现已支持 artifacts",
+          "url": "https://claude.com/blog/artifacts-in-claude-code",
+          "source": "Claude：Blog（网页）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-18T18:54:47.698000Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7282,
+      "importance": 0.7282,
+      "importance_score": 0.7282,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7813,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-06-18T18:54:47.698000Z",
+      "latest_at": "2026-06-18T18:54:47.698000Z",
+      "primary_item": {
+        "id": "8beb9ec23f877961a60c262053d989704feceb35",
+        "title": "Claude Code 现已支持 artifacts",
+        "url": "https://claude.com/blog/artifacts-in-claude-code",
+        "source": "Claude：Blog（网页）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_43a940462463",
+      "title": "这家韩国电信巨头是Anthropic\"Mythos\"争议的焦点",
+      "url": "https://www.wired.com/story/[redacted-secret]",
+      "primary_url": "https://www.wired.com/story/[redacted-secret]",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "09cf5f59e090e95066695d82f7017c335690051d",
+          "title": "这家韩国电信巨头是Anthropic\"Mythos\"争议的焦点",
+          "url": "https://www.wired.com/story/[redacted-secret]",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-19T01:33:10.751000Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Hacker News 热门（buzzing.cc 中文翻译）"
+      ],
+      "items": [
+        {
+          "id": "09cf5f59e090e95066695d82f7017c335690051d",
+          "title": "这家韩国电信巨头是Anthropic\"Mythos\"争议的焦点",
+          "url": "https://www.wired.com/story/[redacted-secret]",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-19T01:33:10.751000Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7544,
+      "importance": 0.7544,
+      "importance_score": 0.7544,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.76,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8599,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-19T01:33:10.751000Z",
+      "latest_at": "2026-06-19T01:33:10.751000Z",
+      "primary_item": {
+        "id": "09cf5f59e090e95066695d82f7017c335690051d",
+        "title": "这家韩国电信巨头是Anthropic\"Mythos\"争议的焦点",
+        "url": "https://www.wired.com/story/[redacted-secret]",
+        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
         "source_name": "AI HOT"
       }
     }
