@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-20T20:11:44.754862Z",
+  "generated_at": "2026-06-20T21:45:24.889110Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -57,15 +57,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7599,
-      "importance": 0.7599,
-      "importance_score": 0.7599,
+      "score": 0.7569,
+      "importance": 0.7569,
+      "importance_score": 0.7569,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.77,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7349,
+        "recency": 0.7185,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -119,15 +119,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7571,
-      "importance": 0.7571,
-      "importance_score": 0.7571,
+      "score": 0.7536,
+      "importance": 0.7536,
+      "importance_score": 0.7536,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8919,
+        "recency": 0.872,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -180,15 +180,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7441,
-      "importance": 0.7441,
-      "importance_score": 0.7441,
+      "score": 0.7409,
+      "importance": 0.7409,
+      "importance_score": 0.7409,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8197,
+        "recency": 0.8014,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -240,15 +240,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7359,
-      "importance": 0.7359,
-      "importance_score": 0.7359,
+      "score": 0.733,
+      "importance": 0.733,
+      "importance_score": 0.733,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.78,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7241,
+        "recency": 0.708,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -337,15 +337,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.6257,
-      "importance": 0.6257,
-      "importance_score": 0.6257,
+      "score": 0.6227,
+      "importance": 0.6227,
+      "importance_score": 0.6227,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.5472,
         "source_tier": 0.58,
         "ai_relevance": 0.76,
-        "recency": 0.7328,
+        "recency": 0.7165,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -453,15 +453,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.5924,
-      "importance": 0.5924,
-      "importance_score": 0.5924,
+      "score": 0.5885,
+      "importance": 0.5885,
+      "importance_score": 0.5885,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9813,
+        "recency": 0.9595,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -532,15 +532,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5766,
-      "importance": 0.5766,
-      "importance_score": 0.5766,
+      "score": 0.5734,
+      "importance": 0.5734,
+      "importance_score": 0.5734,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.62,
         "ai_relevance": 0.65,
-        "recency": 0.8046,
+        "recency": 0.7867,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -555,6 +555,104 @@
         "url": "https://x.com/steipete/status/2068199277277401419",
         "source": "Follow Builders · X · Peter Steinberger",
         "source_name": "Follow Builders"
+      }
+    },
+    {
+      "story_id": "story_fd6b244d6a5f",
+      "title": "用于 AI 代理的临时 Cloudflare 账户",
+      "url": "https://blog.cloudflare.com/temporary-accounts",
+      "primary_url": "https://blog.cloudflare.com/temporary-accounts",
+      "source": "blog.cloudflare.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "cc222b16f027ccb232c72501b0ad05e63bbf6616",
+          "title": "用于 AI 代理的临时 Cloudflare 账户",
+          "url": "https://blog.cloudflare.com/temporary-accounts",
+          "source": "blog.cloudflare.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-20T20:13:09.604000Z"
+        },
+        {
+          "id": "be6db6a7713e9be8b07b1e1d8c5805eae89c1331",
+          "title": "AI 代理的临时 Cloudflare 帐户 / Temporary Cloudflare accounts for AI agents",
+          "url": "https://news.ycombinator.com/item?id=48608394",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-20T14:50:25.866000Z"
+        },
+        {
+          "id": "a1a87e6ee558095aa56dacea3fc7db142f61a6e0",
+          "title": "用于 AI 代理的临时 Cloudflare 账户 / Temporary Cloudflare accounts for AI agents",
+          "url": "https://blog.cloudflare.com/temporary-accounts",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-20T11:19:05Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "Hacker News (黑客新闻)",
+        "blog.cloudflare.com",
+        "hackernews"
+      ],
+      "items": [
+        {
+          "id": "cc222b16f027ccb232c72501b0ad05e63bbf6616",
+          "title": "用于 AI 代理的临时 Cloudflare 账户",
+          "url": "https://blog.cloudflare.com/temporary-accounts",
+          "source": "blog.cloudflare.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-20T20:13:09.604000Z"
+        },
+        {
+          "id": "be6db6a7713e9be8b07b1e1d8c5805eae89c1331",
+          "title": "AI 代理的临时 Cloudflare 帐户 / Temporary Cloudflare accounts for AI agents",
+          "url": "https://news.ycombinator.com/item?id=48608394",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-20T14:50:25.866000Z"
+        },
+        {
+          "id": "a1a87e6ee558095aa56dacea3fc7db142f61a6e0",
+          "title": "用于 AI 代理的临时 Cloudflare 账户 / Temporary Cloudflare accounts for AI agents",
+          "url": "https://blog.cloudflare.com/temporary-accounts",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-20T11:19:05Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.5668,
+      "importance": 0.5668,
+      "importance_score": 0.5668,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.978,
+        "story_heat": 0.5
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-20T11:19:05Z",
+      "latest_at": "2026-06-20T20:13:09.604000Z",
+      "primary_item": {
+        "id": "cc222b16f027ccb232c72501b0ad05e63bbf6616",
+        "title": "用于 AI 代理的临时 Cloudflare 账户",
+        "url": "https://blog.cloudflare.com/temporary-accounts",
+        "source": "blog.cloudflare.com",
+        "source_name": "Buzzing"
       }
     },
     {
@@ -611,15 +709,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.57,
-      "importance": 0.57,
-      "importance_score": 0.57,
+      "score": 0.5663,
+      "importance": 0.5663,
+      "importance_score": 0.5663,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.4824,
         "source_tier": 0.45,
         "ai_relevance": 0.67,
-        "recency": 0.9295,
+        "recency": 0.9088,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -690,15 +788,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.57,
-      "importance": 0.57,
-      "importance_score": 0.57,
+      "score": 0.5663,
+      "importance": 0.5663,
+      "importance_score": 0.5663,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.4824,
         "source_tier": 0.45,
         "ai_relevance": 0.67,
-        "recency": 0.9295,
+        "recency": 0.9088,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -769,15 +867,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5379,
-      "importance": 0.5379,
-      "importance_score": 0.5379,
+      "score": 0.534,
+      "importance": 0.534,
+      "importance_score": 0.534,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9559,
+        "recency": 0.9346,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -848,15 +946,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5338,
-      "importance": 0.5338,
-      "importance_score": 0.5338,
+      "score": 0.5301,
+      "importance": 0.5301,
+      "importance_score": 0.5301,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9333,
+        "recency": 0.9125,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -871,85 +969,6 @@
         "url": "https://ianbarber.blog/2026/06/19/llms-are-complicated-now",
         "source": "ianbarber.blog",
         "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_7812c861f7d6",
-      "title": "美国科学家约翰·詹珀将离开谷歌DeepMind，加入Anthropic / US Scientist John Jumper to Leave Google DeepMind for Anthropic",
-      "url": "https://www.reuters.com/technology/us-scientist-john-jumper-leave-google-deepmind-anthropic-2026-06-19",
-      "primary_url": "https://www.reuters.com/technology/us-scientist-john-jumper-leave-google-deepmind-anthropic-2026-06-19",
-      "source": "Hacker News",
-      "source_name": "TechURLs",
-      "sources": [
-        {
-          "id": "b239c66adf4f4df412f1b935332a03ba06670a81",
-          "title": "美国科学家约翰·詹珀将离开谷歌DeepMind，加入Anthropic / US Scientist John Jumper to Leave Google DeepMind for Anthropic",
-          "url": "https://www.reuters.com/technology/us-scientist-john-jumper-leave-google-deepmind-anthropic-2026-06-19",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-20T14:32:15Z"
-        },
-        {
-          "id": "c5d0d6de4f33b6b777a7a8a254574b104f8fa5cd",
-          "title": "美国科学家约翰·詹珀将离开谷歌DeepMind，加入Anthropic",
-          "url": "https://www.reuters.com/technology/us-scientist-john-jumper-leave-google-deepmind-anthropic-2026-06-19",
-          "source": "www.reuters.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-19T20:45:28.300000Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News",
-        "www.reuters.com"
-      ],
-      "items": [
-        {
-          "id": "b239c66adf4f4df412f1b935332a03ba06670a81",
-          "title": "美国科学家约翰·詹珀将离开谷歌DeepMind，加入Anthropic / US Scientist John Jumper to Leave Google DeepMind for Anthropic",
-          "url": "https://www.reuters.com/technology/us-scientist-john-jumper-leave-google-deepmind-anthropic-2026-06-19",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-20T14:32:15Z"
-        },
-        {
-          "id": "c5d0d6de4f33b6b777a7a8a254574b104f8fa5cd",
-          "title": "美国科学家约翰·詹珀将离开谷歌DeepMind，加入Anthropic",
-          "url": "https://www.reuters.com/technology/us-scientist-john-jumper-leave-google-deepmind-anthropic-2026-06-19",
-          "source": "www.reuters.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-19T20:45:28.300000Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5317,
-      "importance": 0.5317,
-      "importance_score": 0.5317,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9215,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-19T20:45:28.300000Z",
-      "latest_at": "2026-06-20T14:32:15Z",
-      "primary_item": {
-        "id": "b239c66adf4f4df412f1b935332a03ba06670a81",
-        "title": "美国科学家约翰·詹珀将离开谷歌DeepMind，加入Anthropic / US Scientist John Jumper to Leave Google DeepMind for Anthropic",
-        "url": "https://www.reuters.com/technology/us-scientist-john-jumper-leave-google-deepmind-anthropic-2026-06-19",
-        "source": "Hacker News",
-        "source_name": "TechURLs"
       }
     },
     {
@@ -1006,15 +1025,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5219,
-      "importance": 0.5219,
-      "importance_score": 0.5219,
+      "score": 0.5185,
+      "importance": 0.5185,
+      "importance_score": 0.5185,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8675,
+        "recency": 0.8482,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1029,6 +1048,85 @@
         "url": "https://www.businessinsider.com/replika-founder-warns-ai-protests-job-displacement-2026-6",
         "source": "www.businessinsider.com",
         "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_c78582c763e0",
+      "title": "英国内政部斥资 7500 万英镑推出“PoliceAI”以利用人工智能 / UK Home Office launches £75M 'PoliceAI' to capitalise on artificial intelligence",
+      "url": "https://news.ycombinator.com/item?id=48612806",
+      "primary_url": "https://news.ycombinator.com/item?id=48612806",
+      "source": "hackernews",
+      "source_name": "NewsNow",
+      "sources": [
+        {
+          "id": "1073f0e41b8a651830c024bc63f03ae0a9303e38",
+          "title": "英国内政部斥资 7500 万英镑推出“PoliceAI”以利用人工智能 / UK Home Office launches £75M 'PoliceAI' to capitalise on artificial intelligence",
+          "url": "https://news.ycombinator.com/item?id=48612806",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-20T21:21:23.717000Z"
+        },
+        {
+          "id": "a8ff6b5db327d45595775f8b7394e62bc53f3db0",
+          "title": "英国内政部斥资 7500 万英镑推出“PoliceAI”以利用人工智能 / UK Home Office launches £75M 'PoliceAI' to capitalise on artificial intelligence",
+          "url": "https://www.publictechnology.net/2026/06/15/public-order-justice-and-rights/home-office-launches-75m-policeai-to-capitalise-on-artificial-intelligence",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-20T20:41:06Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News · 24h最热",
+        "hackernews"
+      ],
+      "items": [
+        {
+          "id": "1073f0e41b8a651830c024bc63f03ae0a9303e38",
+          "title": "英国内政部斥资 7500 万英镑推出“PoliceAI”以利用人工智能 / UK Home Office launches £75M 'PoliceAI' to capitalise on artificial intelligence",
+          "url": "https://news.ycombinator.com/item?id=48612806",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-20T21:21:23.717000Z"
+        },
+        {
+          "id": "a8ff6b5db327d45595775f8b7394e62bc53f3db0",
+          "title": "英国内政部斥资 7500 万英镑推出“PoliceAI”以利用人工智能 / UK Home Office launches £75M 'PoliceAI' to capitalise on artificial intelligence",
+          "url": "https://www.publictechnology.net/2026/06/15/public-order-justice-and-rights/home-office-launches-75m-policeai-to-capitalise-on-artificial-intelligence",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-20T20:41:06Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5448,
+      "importance": 0.5448,
+      "importance_score": 0.5448,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9942,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-20T20:41:06Z",
+      "latest_at": "2026-06-20T21:21:23.717000Z",
+      "primary_item": {
+        "id": "1073f0e41b8a651830c024bc63f03ae0a9303e38",
+        "title": "英国内政部斥资 7500 万英镑推出“PoliceAI”以利用人工智能 / UK Home Office launches £75M 'PoliceAI' to capitalise on artificial intelligence",
+        "url": "https://news.ycombinator.com/item?id=48612806",
+        "source": "hackernews",
+        "source_name": "NewsNow"
       }
     },
     {
@@ -1085,15 +1183,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5082,
-      "importance": 0.5082,
-      "importance_score": 0.5082,
+      "score": 0.505,
+      "importance": 0.505,
+      "importance_score": 0.505,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.791,
+        "recency": 0.7733,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1107,6 +1205,164 @@
         "title": "一想到将来要写由法学硕士（LLM）起草的事故报告，我就感到不寒而栗",
         "url": "https://surfingcomplexity.blog/2026/06/19/i-am-dreading-our-llm-written-incident-report-future",
         "source": "surfingcomplexity.blog",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_c82c8f2b495b",
+      "title": "千百万「爱压抑」的网友，用 AI 把菲比和 Doro 改造成了自己的电子女儿",
+      "url": "https://www.huxiu.com/article/4868898.html?f=rss",
+      "primary_url": "https://www.huxiu.com/article/4868898.html?f=rss",
+      "source": "Readhub · AI",
+      "source_name": "TopHub",
+      "sources": [
+        {
+          "id": "c2abc3d478f5486853f1dfd440ba748b88df0823",
+          "title": "千百万「爱压抑」的网友，用 AI 把菲比和 Doro 改造成了自己的电子女儿",
+          "url": "https://www.huxiu.com/article/4868898.html?f=rss",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        },
+        {
+          "id": "34f9653c144c5b4e5529e3d82bc4892f948c83f5",
+          "title": "千百万“爱压抑”的网友，用AI把菲比和Doro改造成了自己的电子女儿",
+          "url": "https://www.huxiu.com/article/4868898.html?f=rss",
+          "source": "虎嗅 (Huxiu)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-20T14:41:51Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Readhub · AI",
+        "虎嗅 (Huxiu)"
+      ],
+      "items": [
+        {
+          "id": "c2abc3d478f5486853f1dfd440ba748b88df0823",
+          "title": "千百万「爱压抑」的网友，用 AI 把菲比和 Doro 改造成了自己的电子女儿",
+          "url": "https://www.huxiu.com/article/4868898.html?f=rss",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        },
+        {
+          "id": "34f9653c144c5b4e5529e3d82bc4892f948c83f5",
+          "title": "千百万“爱压抑”的网友，用AI把菲比和Doro改造成了自己的电子女儿",
+          "url": "https://www.huxiu.com/article/4868898.html?f=rss",
+          "source": "虎嗅 (Huxiu)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-20T14:41:51Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5296,
+      "importance": 0.5296,
+      "importance_score": 0.5296,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9098,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-20T14:41:51Z",
+      "latest_at": "2026-06-20T15:12:32.266061Z",
+      "primary_item": {
+        "id": "c2abc3d478f5486853f1dfd440ba748b88df0823",
+        "title": "千百万「爱压抑」的网友，用 AI 把菲比和 Doro 改造成了自己的电子女儿",
+        "url": "https://www.huxiu.com/article/4868898.html?f=rss",
+        "source": "Readhub · AI",
+        "source_name": "TopHub"
+      }
+    },
+    {
+      "story_id": "story_c4c6757d2ee6",
+      "title": "让人工智能帮你选午餐的隐性成本",
+      "url": "https://www.businessinsider.com/ai-reliance-decision-making-life-advice-cognitive-surrender-2026-6",
+      "primary_url": "https://www.businessinsider.com/ai-reliance-decision-making-life-advice-cognitive-surrender-2026-6",
+      "source": "www.businessinsider.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "f706ac38817210dce598f9eb8cdc800814f8f6c8",
+          "title": "让人工智能帮你选午餐的隐性成本",
+          "url": "https://www.businessinsider.com/ai-reliance-decision-making-life-advice-cognitive-surrender-2026-6",
+          "source": "www.businessinsider.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-20T08:45:09.549000Z"
+        },
+        {
+          "id": "30ae6d5322407c79de0dad970c69195b6b99bc11",
+          "title": "让人工智能帮你选午餐的隐性成本 / The hidden cost of letting AI choose your lunch",
+          "url": "https://www.businessinsider.com/ai-reliance-decision-making-life-advice-cognitive-surrender-2026-6",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-20T08:42:24Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Business Insider",
+        "www.businessinsider.com"
+      ],
+      "items": [
+        {
+          "id": "f706ac38817210dce598f9eb8cdc800814f8f6c8",
+          "title": "让人工智能帮你选午餐的隐性成本",
+          "url": "https://www.businessinsider.com/ai-reliance-decision-making-life-advice-cognitive-surrender-2026-6",
+          "source": "www.businessinsider.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-20T08:45:09.549000Z"
+        },
+        {
+          "id": "30ae6d5322407c79de0dad970c69195b6b99bc11",
+          "title": "让人工智能帮你选午餐的隐性成本 / The hidden cost of letting AI choose your lunch",
+          "url": "https://www.businessinsider.com/ai-reliance-decision-making-life-advice-cognitive-surrender-2026-6",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-20T08:42:24Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.515,
+      "importance": 0.515,
+      "importance_score": 0.515,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.8288,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-20T08:42:24Z",
+      "latest_at": "2026-06-20T08:45:09.549000Z",
+      "primary_item": {
+        "id": "f706ac38817210dce598f9eb8cdc800814f8f6c8",
+        "title": "让人工智能帮你选午餐的隐性成本",
+        "url": "https://www.businessinsider.com/ai-reliance-decision-making-life-advice-cognitive-surrender-2026-6",
+        "source": "www.businessinsider.com",
         "source_name": "Buzzing"
       }
     },
@@ -1164,15 +1420,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5373,
-      "importance": 0.5373,
-      "importance_score": 0.5373,
+      "score": 0.5335,
+      "importance": 0.5335,
+      "importance_score": 0.5335,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9528,
+        "recency": 0.9316,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1187,322 +1443,6 @@
         "url": "https://news.ycombinator.com/item?id=48609373",
         "source": "hackernews",
         "source_name": "NewsNow"
-      }
-    },
-    {
-      "story_id": "story_c82c8f2b495b",
-      "title": "千百万「爱压抑」的网友，用 AI 把菲比和 Doro 改造成了自己的电子女儿",
-      "url": "https://www.huxiu.com/article/4868898.html?f=rss",
-      "primary_url": "https://www.huxiu.com/article/4868898.html?f=rss",
-      "source": "Readhub · AI",
-      "source_name": "TopHub",
-      "sources": [
-        {
-          "id": "c2abc3d478f5486853f1dfd440ba748b88df0823",
-          "title": "千百万「爱压抑」的网友，用 AI 把菲比和 Doro 改造成了自己的电子女儿",
-          "url": "https://www.huxiu.com/article/4868898.html?f=rss",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        },
-        {
-          "id": "34f9653c144c5b4e5529e3d82bc4892f948c83f5",
-          "title": "千百万“爱压抑”的网友，用AI把菲比和Doro改造成了自己的电子女儿",
-          "url": "https://www.huxiu.com/article/4868898.html?f=rss",
-          "source": "虎嗅 (Huxiu)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-20T14:41:51Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Readhub · AI",
-        "虎嗅 (Huxiu)"
-      ],
-      "items": [
-        {
-          "id": "c2abc3d478f5486853f1dfd440ba748b88df0823",
-          "title": "千百万「爱压抑」的网友，用 AI 把菲比和 Doro 改造成了自己的电子女儿",
-          "url": "https://www.huxiu.com/article/4868898.html?f=rss",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        },
-        {
-          "id": "34f9653c144c5b4e5529e3d82bc4892f948c83f5",
-          "title": "千百万“爱压抑”的网友，用AI把菲比和Doro改造成了自己的电子女儿",
-          "url": "https://www.huxiu.com/article/4868898.html?f=rss",
-          "source": "虎嗅 (Huxiu)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-20T14:41:51Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5333,
-      "importance": 0.5333,
-      "importance_score": 0.5333,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9305,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-20T14:41:51Z",
-      "latest_at": "2026-06-20T15:12:32.266061Z",
-      "primary_item": {
-        "id": "c2abc3d478f5486853f1dfd440ba748b88df0823",
-        "title": "千百万「爱压抑」的网友，用 AI 把菲比和 Doro 改造成了自己的电子女儿",
-        "url": "https://www.huxiu.com/article/4868898.html?f=rss",
-        "source": "Readhub · AI",
-        "source_name": "TopHub"
-      }
-    },
-    {
-      "story_id": "story_1a7c16dab3cb",
-      "title": "亚马逊在宣布与 OpenAI 合作后放弃了山姆·奥特曼 (Sam Altman) 电影 / Amazon Drops Sam Altman Movie After Announcing OpenAI Partnership",
-      "url": "https://entertainment.slashdot.org/story/26/06/19/2146253/amazon-drops-sam-altman-movie-after-announcing-openai-partnership",
-      "primary_url": "https://entertainment.slashdot.org/story/26/06/19/2146253/amazon-drops-sam-altman-movie-after-announcing-openai-partnership",
-      "source": "Slashdot",
-      "source_name": "TechURLs",
-      "sources": [
-        {
-          "id": "e4829a0639488dbc408c6ff15fdfd20aff412033",
-          "title": "亚马逊在宣布与 OpenAI 合作后放弃了山姆·奥特曼 (Sam Altman) 电影 / Amazon Drops Sam Altman Movie After Announcing OpenAI Partnership",
-          "url": "https://entertainment.slashdot.org/story/26/06/19/2146253/amazon-drops-sam-altman-movie-after-announcing-openai-partnership",
-          "source": "Slashdot",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-19T23:00:00Z"
-        },
-        {
-          "id": "aa438330809238467424b92807ea9723befccbba",
-          "title": "亚马逊在宣布与 OpenAI 合作后放弃了山姆·奥特曼 (Sam Altman) 电影 / Amazon drops Sam Altman movie after announcing OpenAI partnership",
-          "url": "https://news.ycombinator.com/item?id=48602639",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-19T20:40:06.985000Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Slashdot",
-        "hackernews"
-      ],
-      "items": [
-        {
-          "id": "e4829a0639488dbc408c6ff15fdfd20aff412033",
-          "title": "亚马逊在宣布与 OpenAI 合作后放弃了山姆·奥特曼 (Sam Altman) 电影 / Amazon Drops Sam Altman Movie After Announcing OpenAI Partnership",
-          "url": "https://entertainment.slashdot.org/story/26/06/19/2146253/amazon-drops-sam-altman-movie-after-announcing-openai-partnership",
-          "source": "Slashdot",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-19T23:00:00Z"
-        },
-        {
-          "id": "aa438330809238467424b92807ea9723befccbba",
-          "title": "亚马逊在宣布与 OpenAI 合作后放弃了山姆·奥特曼 (Sam Altman) 电影 / Amazon drops Sam Altman movie after announcing OpenAI partnership",
-          "url": "https://news.ycombinator.com/item?id=48602639",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-19T20:40:06.985000Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.4983,
-      "importance": 0.4983,
-      "importance_score": 0.4983,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.7363,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-19T20:40:06.985000Z",
-      "latest_at": "2026-06-19T23:00:00Z",
-      "primary_item": {
-        "id": "e4829a0639488dbc408c6ff15fdfd20aff412033",
-        "title": "亚马逊在宣布与 OpenAI 合作后放弃了山姆·奥特曼 (Sam Altman) 电影 / Amazon Drops Sam Altman Movie After Announcing OpenAI Partnership",
-        "url": "https://entertainment.slashdot.org/story/26/06/19/2146253/amazon-drops-sam-altman-movie-after-announcing-openai-partnership",
-        "source": "Slashdot",
-        "source_name": "TechURLs"
-      }
-    },
-    {
-      "story_id": "story_7003315c4bc6",
-      "title": "挪威小学近乎禁止人工智能 / Norway Imposes Near Ban On AI In Elementary School",
-      "url": "https://yro.slashdot.org/story/26/06/19/2140248/norway-imposes-near-ban-on-ai-in-elementary-school",
-      "primary_url": "https://yro.slashdot.org/story/26/06/19/2140248/norway-imposes-near-ban-on-ai-in-elementary-school",
-      "source": "Slashdot (科技资讯)",
-      "source_name": "Info Flow",
-      "sources": [
-        {
-          "id": "b129530196b10181233d9a02e60a50cb92e2cd7b",
-          "title": "挪威小学近乎禁止人工智能 / Norway Imposes Near Ban On AI In Elementary School",
-          "url": "https://yro.slashdot.org/story/26/06/19/2140248/norway-imposes-near-ban-on-ai-in-elementary-school",
-          "source": "Slashdot (科技资讯)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-19T22:00:00Z"
-        },
-        {
-          "id": "941a9af5e7fc879a34283cd840f84df85d53deeb",
-          "title": "挪威小学几乎禁止人工智能 / Norway imposes near ban on AI in elementary school",
-          "url": "https://news.ycombinator.com/item?id=48600093",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-19T21:40:15.701000Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Slashdot (科技资讯)",
-        "hackernews"
-      ],
-      "items": [
-        {
-          "id": "b129530196b10181233d9a02e60a50cb92e2cd7b",
-          "title": "挪威小学近乎禁止人工智能 / Norway Imposes Near Ban On AI In Elementary School",
-          "url": "https://yro.slashdot.org/story/26/06/19/2140248/norway-imposes-near-ban-on-ai-in-elementary-school",
-          "source": "Slashdot (科技资讯)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-19T22:00:00Z"
-        },
-        {
-          "id": "941a9af5e7fc879a34283cd840f84df85d53deeb",
-          "title": "挪威小学几乎禁止人工智能 / Norway imposes near ban on AI in elementary school",
-          "url": "https://news.ycombinator.com/item?id=48600093",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-19T21:40:15.701000Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.4964,
-      "importance": 0.4964,
-      "importance_score": 0.4964,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.7258,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-19T21:40:15.701000Z",
-      "latest_at": "2026-06-19T22:00:00Z",
-      "primary_item": {
-        "id": "b129530196b10181233d9a02e60a50cb92e2cd7b",
-        "title": "挪威小学近乎禁止人工智能 / Norway Imposes Near Ban On AI In Elementary School",
-        "url": "https://yro.slashdot.org/story/26/06/19/2140248/norway-imposes-near-ban-on-ai-in-elementary-school",
-        "source": "Slashdot (科技资讯)",
-        "source_name": "Info Flow"
-      }
-    },
-    {
-      "story_id": "story_c4c6757d2ee6",
-      "title": "让人工智能帮你选午餐的隐性成本",
-      "url": "https://www.businessinsider.com/ai-reliance-decision-making-life-advice-cognitive-surrender-2026-6",
-      "primary_url": "https://www.businessinsider.com/ai-reliance-decision-making-life-advice-cognitive-surrender-2026-6",
-      "source": "www.businessinsider.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "f706ac38817210dce598f9eb8cdc800814f8f6c8",
-          "title": "让人工智能帮你选午餐的隐性成本",
-          "url": "https://www.businessinsider.com/ai-reliance-decision-making-life-advice-cognitive-surrender-2026-6",
-          "source": "www.businessinsider.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-20T08:45:09.549000Z"
-        },
-        {
-          "id": "30ae6d5322407c79de0dad970c69195b6b99bc11",
-          "title": "让人工智能帮你选午餐的隐性成本 / The hidden cost of letting AI choose your lunch",
-          "url": "https://www.businessinsider.com/ai-reliance-decision-making-life-advice-cognitive-surrender-2026-6",
-          "source": "Business Insider",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-20T08:42:24Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Business Insider",
-        "www.businessinsider.com"
-      ],
-      "items": [
-        {
-          "id": "f706ac38817210dce598f9eb8cdc800814f8f6c8",
-          "title": "让人工智能帮你选午餐的隐性成本",
-          "url": "https://www.businessinsider.com/ai-reliance-decision-making-life-advice-cognitive-surrender-2026-6",
-          "source": "www.businessinsider.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-20T08:45:09.549000Z"
-        },
-        {
-          "id": "30ae6d5322407c79de0dad970c69195b6b99bc11",
-          "title": "让人工智能帮你选午餐的隐性成本 / The hidden cost of letting AI choose your lunch",
-          "url": "https://www.businessinsider.com/ai-reliance-decision-making-life-advice-cognitive-surrender-2026-6",
-          "source": "Business Insider",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-20T08:42:24Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5184,
-      "importance": 0.5184,
-      "importance_score": 0.5184,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8477,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-20T08:42:24Z",
-      "latest_at": "2026-06-20T08:45:09.549000Z",
-      "primary_item": {
-        "id": "f706ac38817210dce598f9eb8cdc800814f8f6c8",
-        "title": "让人工智能帮你选午餐的隐性成本",
-        "url": "https://www.businessinsider.com/ai-reliance-decision-making-life-advice-cognitive-surrender-2026-6",
-        "source": "www.businessinsider.com",
-        "source_name": "Buzzing"
       }
     },
     {
@@ -1559,15 +1499,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5333,
-      "importance": 0.5333,
-      "importance_score": 0.5333,
+      "score": 0.5296,
+      "importance": 0.5296,
+      "importance_score": 0.5296,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9305,
+        "recency": 0.9098,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1582,6 +1522,85 @@
         "url": "https://www.huxiu.com/article/4868899.html?f=rss",
         "source": "Readhub · AI",
         "source_name": "TopHub"
+      }
+    },
+    {
+      "story_id": "story_7812c861f7d6",
+      "title": "美国科学家 John Jumper 离开 Google DeepMind 加入 Anthropic / US Scientist John Jumper to Leave Google DeepMind for Anthropic",
+      "url": "https://news.ycombinator.com/item?id=48609506",
+      "primary_url": "https://news.ycombinator.com/item?id=48609506",
+      "source": "hackernews",
+      "source_name": "NewsNow",
+      "sources": [
+        {
+          "id": "8868fd56b100f671a6b7df944102ad8868dbccd0",
+          "title": "美国科学家 John Jumper 离开 Google DeepMind 加入 Anthropic / US Scientist John Jumper to Leave Google DeepMind for Anthropic",
+          "url": "https://news.ycombinator.com/item?id=48609506",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-20T15:20:28.760000Z"
+        },
+        {
+          "id": "b239c66adf4f4df412f1b935332a03ba06670a81",
+          "title": "美国科学家 John Jumper 离开 Google DeepMind 加入 Anthropic / US Scientist John Jumper to Leave Google DeepMind for Anthropic",
+          "url": "https://www.reuters.com/technology/us-scientist-john-jumper-leave-google-deepmind-anthropic-2026-06-19",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-20T14:32:15Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News",
+        "hackernews"
+      ],
+      "items": [
+        {
+          "id": "8868fd56b100f671a6b7df944102ad8868dbccd0",
+          "title": "美国科学家 John Jumper 离开 Google DeepMind 加入 Anthropic / US Scientist John Jumper to Leave Google DeepMind for Anthropic",
+          "url": "https://news.ycombinator.com/item?id=48609506",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-20T15:20:28.760000Z"
+        },
+        {
+          "id": "b239c66adf4f4df412f1b935332a03ba06670a81",
+          "title": "美国科学家 John Jumper 离开 Google DeepMind 加入 Anthropic / US Scientist John Jumper to Leave Google DeepMind for Anthropic",
+          "url": "https://www.reuters.com/technology/us-scientist-john-jumper-leave-google-deepmind-anthropic-2026-06-19",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-20T14:32:15Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5299,
+      "importance": 0.5299,
+      "importance_score": 0.5299,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9115,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-20T14:32:15Z",
+      "latest_at": "2026-06-20T15:20:28.760000Z",
+      "primary_item": {
+        "id": "8868fd56b100f671a6b7df944102ad8868dbccd0",
+        "title": "美国科学家 John Jumper 离开 Google DeepMind 加入 Anthropic / US Scientist John Jumper to Leave Google DeepMind for Anthropic",
+        "url": "https://news.ycombinator.com/item?id=48609506",
+        "source": "hackernews",
+        "source_name": "NewsNow"
       }
     }
   ]
