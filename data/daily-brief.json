@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-20T15:07:24.267767Z",
+  "generated_at": "2026-06-20T15:12:32.266061Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -38,15 +38,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8016,
-      "importance": 0.8016,
-      "importance_score": 0.8016,
+      "score": 0.8015,
+      "importance": 0.8015,
+      "importance_score": 0.8015,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.7202,
+        "recency": 0.7193,
         "story_heat": 0.0
       },
       "category": "official",
@@ -100,15 +100,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7929,
-      "importance": 0.7929,
-      "importance_score": 0.7929,
+      "score": 0.7927,
+      "importance": 0.7927,
+      "importance_score": 0.7927,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.7161,
+        "recency": 0.7152,
         "story_heat": 0.0
       },
       "category": "official",
@@ -181,15 +181,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7699,
-      "importance": 0.7699,
-      "importance_score": 0.7699,
+      "score": 0.7698,
+      "importance": 0.7698,
+      "importance_score": 0.7698,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.77,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7908,
+        "recency": 0.7898,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -243,15 +243,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7693,
-      "importance": 0.7693,
-      "importance_score": 0.7693,
+      "score": 0.7691,
+      "importance": 0.7691,
+      "importance_score": 0.7691,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9596,
+        "recency": 0.9585,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -323,15 +323,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7576,
-      "importance": 0.7576,
-      "importance_score": 0.7576,
+      "score": 0.7574,
+      "importance": 0.7574,
+      "importance_score": 0.7574,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7553,
+        "recency": 0.7544,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -404,15 +404,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7557,
-      "importance": 0.7557,
-      "importance_score": 0.7557,
+      "score": 0.7555,
+      "importance": 0.7555,
+      "importance_score": 0.7555,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7449,
+        "recency": 0.7439,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -466,15 +466,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7554,
-      "importance": 0.7554,
-      "importance_score": 0.7554,
+      "score": 0.7552,
+      "importance": 0.7552,
+      "importance_score": 0.7552,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.882,
+        "recency": 0.8809,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -527,15 +527,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7458,
-      "importance": 0.7458,
-      "importance_score": 0.7458,
+      "score": 0.7457,
+      "importance": 0.7457,
+      "importance_score": 0.7457,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.78,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7791,
+        "recency": 0.7782,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -624,15 +624,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.6357,
-      "importance": 0.6357,
-      "importance_score": 0.6357,
+      "score": 0.6355,
+      "importance": 0.6355,
+      "importance_score": 0.6355,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.5472,
         "source_tier": 0.58,
         "ai_relevance": 0.76,
-        "recency": 0.7885,
+        "recency": 0.7876,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -738,15 +738,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.601,
-      "importance": 0.601,
-      "importance_score": 0.601,
+      "score": 0.6008,
+      "importance": 0.6008,
+      "importance_score": 0.6008,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.4824,
         "source_tier": 0.54,
         "ai_relevance": 0.67,
-        "recency": 0.7138,
+        "recency": 0.7129,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -817,15 +817,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5876,
-      "importance": 0.5876,
-      "importance_score": 0.5876,
+      "score": 0.5874,
+      "importance": 0.5874,
+      "importance_score": 0.5874,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.62,
         "ai_relevance": 0.65,
-        "recency": 0.8658,
+        "recency": 0.8647,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -896,15 +896,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5827,
-      "importance": 0.5827,
-      "importance_score": 0.5827,
+      "score": 0.5825,
+      "importance": 0.5825,
+      "importance_score": 0.5825,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.4824,
         "source_tier": 0.45,
         "ai_relevance": 0.67,
-        "recency": 1.0,
+        "recency": 0.9989,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -975,15 +975,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5827,
-      "importance": 0.5827,
-      "importance_score": 0.5827,
+      "score": 0.5825,
+      "importance": 0.5825,
+      "importance_score": 0.5825,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.4824,
         "source_tier": 0.45,
         "ai_relevance": 0.67,
-        "recency": 1.0,
+        "recency": 0.9989,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1092,15 +1092,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.5738,
-      "importance": 0.5738,
-      "importance_score": 0.5738,
+      "score": 0.5736,
+      "importance": 0.5736,
+      "importance_score": 0.5736,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8776,
+        "recency": 0.8766,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -1209,15 +1209,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.5584,
-      "importance": 0.5584,
-      "importance_score": 0.5584,
+      "score": 0.5582,
+      "importance": 0.5582,
+      "importance_score": 0.5582,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7923,
+        "recency": 0.7913,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -1326,15 +1326,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.5565,
-      "importance": 0.5565,
-      "importance_score": 0.5565,
+      "score": 0.5564,
+      "importance": 0.5564,
+      "importance_score": 0.5564,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7819,
+        "recency": 0.781,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -1424,15 +1424,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5482,
-      "importance": 0.5482,
-      "importance_score": 0.5482,
+      "score": 0.548,
+      "importance": 0.548,
+      "importance_score": 0.548,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8743,
+        "recency": 0.8732,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1447,6 +1447,85 @@
         "url": "https://twitter.com/JohnJumperSci/status/2068001285173834106",
         "source": "twitter.com",
         "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_c82c8f2b495b",
+      "title": "千百万「爱压抑」的网友，用 AI 把菲比和 Doro 改造成了自己的电子女儿",
+      "url": "https://www.huxiu.com/article/4868898.html?f=rss",
+      "primary_url": "https://www.huxiu.com/article/4868898.html?f=rss",
+      "source": "Readhub · AI",
+      "source_name": "TopHub",
+      "sources": [
+        {
+          "id": "c2abc3d478f5486853f1dfd440ba748b88df0823",
+          "title": "千百万「爱压抑」的网友，用 AI 把菲比和 Doro 改造成了自己的电子女儿",
+          "url": "https://www.huxiu.com/article/4868898.html?f=rss",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        },
+        {
+          "id": "34f9653c144c5b4e5529e3d82bc4892f948c83f5",
+          "title": "千百万“爱压抑”的网友，用AI把菲比和Doro改造成了自己的电子女儿",
+          "url": "https://www.huxiu.com/article/4868898.html?f=rss",
+          "source": "虎嗅 (Huxiu)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-20T14:41:51Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Readhub · AI",
+        "虎嗅 (Huxiu)"
+      ],
+      "items": [
+        {
+          "id": "c2abc3d478f5486853f1dfd440ba748b88df0823",
+          "title": "千百万「爱压抑」的网友，用 AI 把菲比和 Doro 改造成了自己的电子女儿",
+          "url": "https://www.huxiu.com/article/4868898.html?f=rss",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        },
+        {
+          "id": "34f9653c144c5b4e5529e3d82bc4892f948c83f5",
+          "title": "千百万“爱压抑”的网友，用AI把菲比和Doro改造成了自己的电子女儿",
+          "url": "https://www.huxiu.com/article/4868898.html?f=rss",
+          "source": "虎嗅 (Huxiu)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-20T14:41:51Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5458,
+      "importance": 0.5458,
+      "importance_score": 0.5458,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 1.0,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-20T14:41:51Z",
+      "latest_at": "2026-06-20T15:12:32.266061Z",
+      "primary_item": {
+        "id": "c2abc3d478f5486853f1dfd440ba748b88df0823",
+        "title": "千百万「爱压抑」的网友，用 AI 把菲比和 Doro 改造成了自己的电子女儿",
+        "url": "https://www.huxiu.com/article/4868898.html?f=rss",
+        "source": "Readhub · AI",
+        "source_name": "TopHub"
       }
     },
     {
@@ -1503,15 +1582,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5451,
-      "importance": 0.5451,
-      "importance_score": 0.5451,
+      "score": 0.5448,
+      "importance": 0.5448,
+      "importance_score": 0.5448,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9959,
+        "recency": 0.9947,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1526,85 +1605,6 @@
         "url": "https://news.ycombinator.com/item?id=48608394",
         "source": "hackernews",
         "source_name": "NewsNow"
-      }
-    },
-    {
-      "story_id": "story_961a893013ba",
-      "title": "LM Studio 与苹果合作，成功用四台 Mac Studio 运行万亿参数 Kimi K2.6 大模型",
-      "url": "https://stock.jrj.com.cn/2026/06/20175957532728.shtml",
-      "primary_url": "https://stock.jrj.com.cn/2026/06/20175957532728.shtml",
-      "source": "Readhub · AI",
-      "source_name": "TopHub",
-      "sources": [
-        {
-          "id": "e5a72fb3b725cc16dab6bd0d31193f2d22b2fadc",
-          "title": "LM Studio 与苹果合作，成功用四台 Mac Studio 运行万亿参数 Kimi K2.6 大模型",
-          "url": "https://stock.jrj.com.cn/2026/06/20175957532728.shtml",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        },
-        {
-          "id": "e1bd586c8ee9fadb2674776edf62a49c2f11ae1a",
-          "title": "LM Studio 与苹果合作，成功用四台 Mac Studio 运行万亿参数 Kimi K2.6 大模型",
-          "url": "https://www.ithome.com/0/966/539.htm",
-          "source": "IT之家 (ITHome)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-20T09:37:07Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "IT之家 (ITHome)",
-        "Readhub · AI"
-      ],
-      "items": [
-        {
-          "id": "e5a72fb3b725cc16dab6bd0d31193f2d22b2fadc",
-          "title": "LM Studio 与苹果合作，成功用四台 Mac Studio 运行万亿参数 Kimi K2.6 大模型",
-          "url": "https://stock.jrj.com.cn/2026/06/20175957532728.shtml",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        },
-        {
-          "id": "e1bd586c8ee9fadb2674776edf62a49c2f11ae1a",
-          "title": "LM Studio 与苹果合作，成功用四台 Mac Studio 运行万亿参数 Kimi K2.6 大模型",
-          "url": "https://www.ithome.com/0/966/539.htm",
-          "source": "IT之家 (ITHome)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-20T09:37:07Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5375,
-      "importance": 0.5375,
-      "importance_score": 0.5375,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.954,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-20T09:37:07Z",
-      "latest_at": "2026-06-20T11:51:53.660302Z",
-      "primary_item": {
-        "id": "e5a72fb3b725cc16dab6bd0d31193f2d22b2fadc",
-        "title": "LM Studio 与苹果合作，成功用四台 Mac Studio 运行万亿参数 Kimi K2.6 大模型",
-        "url": "https://stock.jrj.com.cn/2026/06/20175957532728.shtml",
-        "source": "Readhub · AI",
-        "source_name": "TopHub"
       }
     },
     {
@@ -1661,15 +1661,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5338,
-      "importance": 0.5338,
-      "importance_score": 0.5338,
+      "score": 0.5336,
+      "importance": 0.5336,
+      "importance_score": 0.5336,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9334,
+        "recency": 0.9323,
         "story_heat": 0.25
       },
       "category": "watch",
