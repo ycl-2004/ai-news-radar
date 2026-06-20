@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-20T13:43:53.923157Z",
+  "generated_at": "2026-06-20T15:07:24.267767Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -38,15 +38,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8043,
-      "importance": 0.8043,
-      "importance_score": 0.8043,
+      "score": 0.8016,
+      "importance": 0.8016,
+      "importance_score": 0.8016,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.7348,
+        "recency": 0.7202,
         "story_heat": 0.0
       },
       "category": "official",
@@ -100,15 +100,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7955,
-      "importance": 0.7955,
-      "importance_score": 0.7955,
+      "score": 0.7929,
+      "importance": 0.7929,
+      "importance_score": 0.7929,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.7307,
+        "recency": 0.7161,
         "story_heat": 0.0
       },
       "category": "official",
@@ -181,15 +181,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7728,
-      "importance": 0.7728,
-      "importance_score": 0.7728,
+      "score": 0.7699,
+      "importance": 0.7699,
+      "importance_score": 0.7699,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.77,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8068,
+        "recency": 0.7908,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -243,15 +243,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7728,
-      "importance": 0.7728,
-      "importance_score": 0.7728,
+      "score": 0.7693,
+      "importance": 0.7693,
+      "importance_score": 0.7693,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9791,
+        "recency": 0.9596,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -323,15 +323,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7603,
-      "importance": 0.7603,
-      "importance_score": 0.7603,
+      "score": 0.7576,
+      "importance": 0.7576,
+      "importance_score": 0.7576,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7707,
+        "recency": 0.7553,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -347,6 +347,87 @@
         "title": "JAWBONE Act：一项打击政府为压制合法网络言论而施压的新法案",
         "url": "https://www.eff.org/deeplinks/2026/06/new-bill-takes-aim-government-pressure-silence-lawful-online-speech",
         "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_e44d6b51ecd0",
+      "title": "baoyu-design Skill迭代：修复导出样式与渐变丢失问题，支持AI配图导出PPTX",
+      "url": "https://x.com/dotey/status/2068042001895809420",
+      "primary_url": "https://x.com/dotey/status/2068042001895809420",
+      "source": "X：宝玉 (@dotey)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "da95674991774ad868431c3b8238fa6f8a200496",
+          "title": "baoyu-design Skill迭代：修复导出样式与渐变丢失问题，支持AI配图导出PPTX",
+          "url": "https://x.com/dotey/status/2068042001895809420",
+          "source": "X：宝玉 (@dotey)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-19T18:43:30Z"
+        },
+        {
+          "id": "feac86cbaadea9fd7c9120a0165cb0851094ad87",
+          "title": "Skill 和软件一样，需要不断迭代的，而且你用户越多，遇到的各种问题就越多，就需要去解决各种边边角角的问题，才能越来越好用。 比如 @yangyi 昨天在他的牛马AI里面测试了这个Skill，说导出好像有问题，我拿到结果一看，简直惨不忍睹（图2），这里面有两个问题： 1. 样式表不对，没有铺满整页，只占了一半 2. 导出的渐变色没有了，把图片都遮没了 写 Skill 比写软件有个优势，就是你可以让 Agent 先跑，跑完之后 Age…",
+          "url": "https://x.com/dotey/status/2068042001895809420",
+          "source": "@dotey",
+          "source_name": "SocialData X",
+          "site_id": "socialdata_x",
+          "published_at": "2026-06-19T18:43:30Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "@dotey",
+        "X：宝玉 (@dotey)"
+      ],
+      "items": [
+        {
+          "id": "da95674991774ad868431c3b8238fa6f8a200496",
+          "title": "baoyu-design Skill迭代：修复导出样式与渐变丢失问题，支持AI配图导出PPTX",
+          "url": "https://x.com/dotey/status/2068042001895809420",
+          "source": "X：宝玉 (@dotey)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-19T18:43:30Z"
+        },
+        {
+          "id": "feac86cbaadea9fd7c9120a0165cb0851094ad87",
+          "title": "Skill 和软件一样，需要不断迭代的，而且你用户越多，遇到的各种问题就越多，就需要去解决各种边边角角的问题，才能越来越好用。 比如 @yangyi 昨天在他的牛马AI里面测试了这个Skill，说导出好像有问题，我拿到结果一看，简直惨不忍睹（图2），这里面有两个问题： 1. 样式表不对，没有铺满整页，只占了一半 2. 导出的渐变色没有了，把图片都遮没了 写 Skill 比写软件有个优势，就是你可以让 Agent 先跑，跑完之后 Age…",
+          "url": "https://x.com/dotey/status/2068042001895809420",
+          "source": "@dotey",
+          "source_name": "SocialData X",
+          "site_id": "socialdata_x",
+          "published_at": "2026-06-19T18:43:30Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7557,
+      "importance": 0.7557,
+      "importance_score": 0.7557,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.75,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7449,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-19T18:43:30Z",
+      "latest_at": "2026-06-19T18:43:30Z",
+      "primary_item": {
+        "id": "da95674991774ad868431c3b8238fa6f8a200496",
+        "title": "baoyu-design Skill迭代：修复导出样式与渐变丢失问题，支持AI配图导出PPTX",
+        "url": "https://x.com/dotey/status/2068042001895809420",
+        "source": "X：宝玉 (@dotey)",
         "source_name": "AI HOT"
       }
     },
@@ -385,15 +466,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7586,
-      "importance": 0.7586,
-      "importance_score": 0.7586,
+      "score": 0.7554,
+      "importance": 0.7554,
+      "importance_score": 0.7554,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8999,
+        "recency": 0.882,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -446,15 +527,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7487,
-      "importance": 0.7487,
-      "importance_score": 0.7487,
+      "score": 0.7458,
+      "importance": 0.7458,
+      "importance_score": 0.7458,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.78,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7949,
+        "recency": 0.7791,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -468,66 +549,6 @@
         "title": "Figure机器人数首超人类员工",
         "url": "https://x.com/rohanpaul_ai/status/2068089038213693800",
         "source": "X：Rohan Paul (@rohanpaul_ai)",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_e44d6b51ecd0",
-      "title": "baoyu-design Skill迭代：修复导出样式与渐变丢失问题，支持AI配图导出PPTX",
-      "url": "https://x.com/dotey/status/2068042001895809420",
-      "primary_url": "https://x.com/dotey/status/2068042001895809420",
-      "source": "X：宝玉 (@dotey)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "da95674991774ad868431c3b8238fa6f8a200496",
-          "title": "baoyu-design Skill迭代：修复导出样式与渐变丢失问题，支持AI配图导出PPTX",
-          "url": "https://x.com/dotey/status/2068042001895809420",
-          "source": "X：宝玉 (@dotey)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-19T18:43:30Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：宝玉 (@dotey)"
-      ],
-      "items": [
-        {
-          "id": "da95674991774ad868431c3b8238fa6f8a200496",
-          "title": "baoyu-design Skill迭代：修复导出样式与渐变丢失问题，支持AI配图导出PPTX",
-          "url": "https://x.com/dotey/status/2068042001895809420",
-          "source": "X：宝玉 (@dotey)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-19T18:43:30Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7334,
-      "importance": 0.7334,
-      "importance_score": 0.7334,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.75,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.76,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-19T18:43:30Z",
-      "latest_at": "2026-06-19T18:43:30Z",
-      "primary_item": {
-        "id": "da95674991774ad868431c3b8238fa6f8a200496",
-        "title": "baoyu-design Skill迭代：修复导出样式与渐变丢失问题，支持AI配图导出PPTX",
-        "url": "https://x.com/dotey/status/2068042001895809420",
-        "source": "X：宝玉 (@dotey)",
         "source_name": "AI HOT"
       }
     },
@@ -556,10 +577,20 @@
           "source_name": "Curated Media",
           "site_id": "curated_media",
           "published_at": "2026-06-19T22:40:14Z"
+        },
+        {
+          "id": "f84a609904778aaa8e3a52e449b593aa21c8c5b0",
+          "title": "从 PGP 到神话：没有阻止任何人的出口管制简史 / From PGP to Mythos: a brief history of export controls that didn't stop anyone",
+          "url": "https://techcrunch.com/2026/06/19/encryption-spyware-and-now-mythos-history-shows-why-cyber-export-control-doesnt-work",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-20T13:44:39Z"
         }
       ],
-      "source_count": 2,
+      "source_count": 3,
       "source_names": [
+        "Hacker News · 24h最热",
         "TechCrunch AI"
       ],
       "items": [
@@ -580,27 +611,36 @@
           "source_name": "Curated Media",
           "site_id": "curated_media",
           "published_at": "2026-06-19T22:40:14Z"
+        },
+        {
+          "id": "f84a609904778aaa8e3a52e449b593aa21c8c5b0",
+          "title": "从 PGP 到神话：没有阻止任何人的出口管制简史 / From PGP to Mythos: a brief history of export controls that didn't stop anyone",
+          "url": "https://techcrunch.com/2026/06/19/encryption-spyware-and-now-mythos-history-shows-why-cyber-export-control-doesnt-work",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-20T13:44:39Z"
         }
       ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.6136,
-      "importance": 0.6136,
-      "importance_score": 0.6136,
-      "importance_label": "值得关注",
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.6357,
+      "importance": 0.6357,
+      "importance_score": 0.6357,
+      "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.5472,
         "source_tier": 0.58,
         "ai_relevance": 0.76,
-        "recency": 0.8045,
-        "story_heat": 0.25
+        "recency": 0.7885,
+        "story_heat": 0.5
       },
-      "category": "watch",
+      "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
       "earliest_at": "2026-06-19T22:40:14Z",
-      "latest_at": "2026-06-19T22:40:14Z",
+      "latest_at": "2026-06-20T13:44:39Z",
       "primary_item": {
         "id": "63c53ea51abe90768fda7205bb8a76a94e198d49",
         "title": "加密、间谍软件和现在的神话：历史表明为什么网络出口管制不起作用 / Encryption, spyware, and now Mythos: History shows why cyber export control doesn’t work",
@@ -698,15 +738,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.6036,
-      "importance": 0.6036,
-      "importance_score": 0.6036,
+      "score": 0.601,
+      "importance": 0.601,
+      "importance_score": 0.601,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.4824,
         "source_tier": 0.54,
         "ai_relevance": 0.67,
-        "recency": 0.7283,
+        "recency": 0.7138,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -721,6 +761,243 @@
         "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
         "source": "社区更新 · 2026-06-19",
         "source_name": "WaytoAGI"
+      }
+    },
+    {
+      "story_id": "story_d91486083944",
+      "title": "Hannes 会说开发商和代理商的语言。很幸运有他加入团队！ https://t.co/bTrqd3V3dn / Hannes speaks both developer and agents. Blessed to have him on the team! https://t.co/bTrqd3V3dn",
+      "url": "https://x.com/steipete/status/2068199277277401419",
+      "primary_url": "https://x.com/steipete/status/2068199277277401419",
+      "source": "Follow Builders · X · Peter Steinberger",
+      "source_name": "Follow Builders",
+      "sources": [
+        {
+          "id": "791e05fd9cc6c81831343ef3416551937886a3ec",
+          "title": "Hannes 会说开发商和代理商的语言。很幸运有他加入团队！ https://t.co/bTrqd3V3dn / Hannes speaks both developer and agents. Blessed to have him on the team! https://t.co/bTrqd3V3dn",
+          "url": "https://x.com/steipete/status/2068199277277401419",
+          "source": "Follow Builders · X · Peter Steinberger",
+          "source_name": "Follow Builders",
+          "site_id": "followbuilders",
+          "published_at": "2026-06-20T05:08:27Z"
+        },
+        {
+          "id": "dbc95c1ac71e7b269f36c8c19fdd91b074f8d27c",
+          "title": "Hannes 会说开发商和代理商的语言。很幸运有他加入团队！ / Hannes speaks both developer and agents. Blessed to have him on the team!",
+          "url": "https://x.com/steipete/status/2068199277277401419",
+          "source": "@steipete",
+          "source_name": "SocialData X",
+          "site_id": "socialdata_x",
+          "published_at": "2026-06-20T05:08:27Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "@steipete",
+        "Follow Builders · X · Peter Steinberger"
+      ],
+      "items": [
+        {
+          "id": "791e05fd9cc6c81831343ef3416551937886a3ec",
+          "title": "Hannes 会说开发商和代理商的语言。很幸运有他加入团队！ https://t.co/bTrqd3V3dn / Hannes speaks both developer and agents. Blessed to have him on the team! https://t.co/bTrqd3V3dn",
+          "url": "https://x.com/steipete/status/2068199277277401419",
+          "source": "Follow Builders · X · Peter Steinberger",
+          "source_name": "Follow Builders",
+          "site_id": "followbuilders",
+          "published_at": "2026-06-20T05:08:27Z"
+        },
+        {
+          "id": "dbc95c1ac71e7b269f36c8c19fdd91b074f8d27c",
+          "title": "Hannes 会说开发商和代理商的语言。很幸运有他加入团队！ / Hannes speaks both developer and agents. Blessed to have him on the team!",
+          "url": "https://x.com/steipete/status/2068199277277401419",
+          "source": "@steipete",
+          "source_name": "SocialData X",
+          "site_id": "socialdata_x",
+          "published_at": "2026-06-20T05:08:27Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5876,
+      "importance": 0.5876,
+      "importance_score": 0.5876,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.62,
+        "ai_relevance": 0.65,
+        "recency": 0.8658,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-20T05:08:27Z",
+      "latest_at": "2026-06-20T05:08:27Z",
+      "primary_item": {
+        "id": "791e05fd9cc6c81831343ef3416551937886a3ec",
+        "title": "Hannes 会说开发商和代理商的语言。很幸运有他加入团队！ https://t.co/bTrqd3V3dn / Hannes speaks both developer and agents. Blessed to have him on the team! https://t.co/bTrqd3V3dn",
+        "url": "https://x.com/steipete/status/2068199277277401419",
+        "source": "Follow Builders · X · Peter Steinberger",
+        "source_name": "Follow Builders"
+      }
+    },
+    {
+      "story_id": "story_cc7209866328",
+      "title": "📢 官方更新：Oracle AI Trade 推出人工智能驱动的市场预测平台 🚀 📌 更多信息：https://t.co/rS8o2u066h https://t.co/8xFoM85yTe / 📢 OFFICIAL UPDATE: Oracle AI Trade reveals its AI driven market forecasting platform 🚀 📌 More info: https://t.co/rS8o2u066h https://t.co/8xFoM85yTe",
+      "url": "https://x.com/KlkTeka/status/2068350163844829657",
+      "primary_url": "https://x.com/KlkTeka/status/2068350163844829657",
+      "source": "@KlkTeka",
+      "source_name": "SocialData X",
+      "sources": [
+        {
+          "id": "2a3b130c9f4e3d17ddc25b75bcff258e7f97d7b0",
+          "title": "📢 官方更新：Oracle AI Trade 推出人工智能驱动的市场预测平台 🚀 📌 更多信息：https://t.co/rS8o2u066h https://t.co/8xFoM85yTe / 📢 OFFICIAL UPDATE: Oracle AI Trade reveals its AI driven market forecasting platform 🚀 📌 More info: https://t.co/rS8o2u066h https://t.co/8xFoM85yTe",
+          "url": "https://x.com/KlkTeka/status/2068350163844829657",
+          "source": "@KlkTeka",
+          "source_name": "SocialData X",
+          "site_id": "socialdata_x",
+          "published_at": "2026-06-20T15:08:01Z"
+        },
+        {
+          "id": "65a3c0328d7326c81fc84bfa79a6ea5d345b5799",
+          "title": "📢 新公告：Oracle AI Trade 推出人工智能驱动的市场预测平台 🚀 📌 更多信息：https://t.co/WpofDtncrS ‌ https://t.co/5QHLMoJiw4 / 📢 NEW ANNOUNCEMENT: Oracle AI Trade reveals its AI driven market forecasting platform 🚀 📌 More info: https://t.co/WpofDtncrS ‌ https://t.co/5QHLMoJiw4",
+          "url": "https://x.com/niksa_lol/status/2068350151765217633",
+          "source": "@niksa_lol",
+          "source_name": "SocialData X",
+          "site_id": "socialdata_x",
+          "published_at": "2026-06-20T15:07:58Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "@KlkTeka",
+        "@niksa_lol"
+      ],
+      "items": [
+        {
+          "id": "2a3b130c9f4e3d17ddc25b75bcff258e7f97d7b0",
+          "title": "📢 官方更新：Oracle AI Trade 推出人工智能驱动的市场预测平台 🚀 📌 更多信息：https://t.co/rS8o2u066h https://t.co/8xFoM85yTe / 📢 OFFICIAL UPDATE: Oracle AI Trade reveals its AI driven market forecasting platform 🚀 📌 More info: https://t.co/rS8o2u066h https://t.co/8xFoM85yTe",
+          "url": "https://x.com/KlkTeka/status/2068350163844829657",
+          "source": "@KlkTeka",
+          "source_name": "SocialData X",
+          "site_id": "socialdata_x",
+          "published_at": "2026-06-20T15:08:01Z"
+        },
+        {
+          "id": "65a3c0328d7326c81fc84bfa79a6ea5d345b5799",
+          "title": "📢 新公告：Oracle AI Trade 推出人工智能驱动的市场预测平台 🚀 📌 更多信息：https://t.co/WpofDtncrS ‌ https://t.co/5QHLMoJiw4 / 📢 NEW ANNOUNCEMENT: Oracle AI Trade reveals its AI driven market forecasting platform 🚀 📌 More info: https://t.co/WpofDtncrS ‌ https://t.co/5QHLMoJiw4",
+          "url": "https://x.com/niksa_lol/status/2068350151765217633",
+          "source": "@niksa_lol",
+          "source_name": "SocialData X",
+          "site_id": "socialdata_x",
+          "published_at": "2026-06-20T15:07:58Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5827,
+      "importance": 0.5827,
+      "importance_score": 0.5827,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.4824,
+        "source_tier": 0.45,
+        "ai_relevance": 0.67,
+        "recency": 1.0,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-20T15:07:58Z",
+      "latest_at": "2026-06-20T15:08:01Z",
+      "primary_item": {
+        "id": "2a3b130c9f4e3d17ddc25b75bcff258e7f97d7b0",
+        "title": "📢 官方更新：Oracle AI Trade 推出人工智能驱动的市场预测平台 🚀 📌 更多信息：https://t.co/rS8o2u066h https://t.co/8xFoM85yTe / 📢 OFFICIAL UPDATE: Oracle AI Trade reveals its AI driven market forecasting platform 🚀 📌 More info: https://t.co/rS8o2u066h https://t.co/8xFoM85yTe",
+        "url": "https://x.com/KlkTeka/status/2068350163844829657",
+        "source": "@KlkTeka",
+        "source_name": "SocialData X"
+      }
+    },
+    {
+      "story_id": "story_7bb2b02a67cd",
+      "title": "📢 最新消息：Oracle AI Trade 引入了智能市场交易的新时代 🚀 📌 更多信息：https://t.co/gI05aqlcmx https://t.co/m8oNQxaF1L / 📢 FRESH NEWS: Oracle AI Trade introduces a new era of intelligent market trading 🚀 📌 More info: https://t.co/gI05aqlcmx https://t.co/m8oNQxaF1L",
+      "url": "https://x.com/angga_aliaras/status/2068350175265845405",
+      "primary_url": "https://x.com/angga_aliaras/status/2068350175265845405",
+      "source": "@angga_aliaras",
+      "source_name": "SocialData X",
+      "sources": [
+        {
+          "id": "0ccc964129e2a384976f0c71575f382302128dba",
+          "title": "📢 最新消息：Oracle AI Trade 引入了智能市场交易的新时代 🚀 📌 更多信息：https://t.co/gI05aqlcmx https://t.co/m8oNQxaF1L / 📢 FRESH NEWS: Oracle AI Trade introduces a new era of intelligent market trading 🚀 📌 More info: https://t.co/gI05aqlcmx https://t.co/m8oNQxaF1L",
+          "url": "https://x.com/angga_aliaras/status/2068350175265845405",
+          "source": "@angga_aliaras",
+          "source_name": "SocialData X",
+          "site_id": "socialdata_x",
+          "published_at": "2026-06-20T15:08:04Z"
+        },
+        {
+          "id": "6c838ef8fcfa383c65617a36753a03149497c9b3",
+          "title": "📢 官方更新：Oracle AI Trade 引入智能市场交易的新时代 🚀 📌 更多信息：https://t.co/8ssKlQcCQ1 https://t.co/1r6XsGazJo / 📢 OFFICIAL UPDATE: Oracle AI Trade introduces a new era of intelligent market trading 🚀 📌 More info: https://t.co/8ssKlQcCQ1 https://t.co/1r6XsGazJo",
+          "url": "https://x.com/Buddhivanta5/status/2068350175324832187",
+          "source": "@Buddhivanta5",
+          "source_name": "SocialData X",
+          "site_id": "socialdata_x",
+          "published_at": "2026-06-20T15:08:04Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "@Buddhivanta5",
+        "@angga_aliaras"
+      ],
+      "items": [
+        {
+          "id": "0ccc964129e2a384976f0c71575f382302128dba",
+          "title": "📢 最新消息：Oracle AI Trade 引入了智能市场交易的新时代 🚀 📌 更多信息：https://t.co/gI05aqlcmx https://t.co/m8oNQxaF1L / 📢 FRESH NEWS: Oracle AI Trade introduces a new era of intelligent market trading 🚀 📌 More info: https://t.co/gI05aqlcmx https://t.co/m8oNQxaF1L",
+          "url": "https://x.com/angga_aliaras/status/2068350175265845405",
+          "source": "@angga_aliaras",
+          "source_name": "SocialData X",
+          "site_id": "socialdata_x",
+          "published_at": "2026-06-20T15:08:04Z"
+        },
+        {
+          "id": "6c838ef8fcfa383c65617a36753a03149497c9b3",
+          "title": "📢 官方更新：Oracle AI Trade 引入智能市场交易的新时代 🚀 📌 更多信息：https://t.co/8ssKlQcCQ1 https://t.co/1r6XsGazJo / 📢 OFFICIAL UPDATE: Oracle AI Trade introduces a new era of intelligent market trading 🚀 📌 More info: https://t.co/8ssKlQcCQ1 https://t.co/1r6XsGazJo",
+          "url": "https://x.com/Buddhivanta5/status/2068350175324832187",
+          "source": "@Buddhivanta5",
+          "source_name": "SocialData X",
+          "site_id": "socialdata_x",
+          "published_at": "2026-06-20T15:08:04Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5827,
+      "importance": 0.5827,
+      "importance_score": 0.5827,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.4824,
+        "source_tier": 0.45,
+        "ai_relevance": 0.67,
+        "recency": 1.0,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-20T15:08:04Z",
+      "latest_at": "2026-06-20T15:08:04Z",
+      "primary_item": {
+        "id": "0ccc964129e2a384976f0c71575f382302128dba",
+        "title": "📢 最新消息：Oracle AI Trade 引入了智能市场交易的新时代 🚀 📌 更多信息：https://t.co/gI05aqlcmx https://t.co/m8oNQxaF1L / 📢 FRESH NEWS: Oracle AI Trade introduces a new era of intelligent market trading 🚀 📌 More info: https://t.co/gI05aqlcmx https://t.co/m8oNQxaF1L",
+        "url": "https://x.com/angga_aliaras/status/2068350175265845405",
+        "source": "@angga_aliaras",
+        "source_name": "SocialData X"
       }
     },
     {
@@ -815,15 +1092,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.577,
-      "importance": 0.577,
-      "importance_score": 0.577,
+      "score": 0.5738,
+      "importance": 0.5738,
+      "importance_score": 0.5738,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8955,
+        "recency": 0.8776,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -932,15 +1209,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.5613,
-      "importance": 0.5613,
-      "importance_score": 0.5613,
+      "score": 0.5584,
+      "importance": 0.5584,
+      "importance_score": 0.5584,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8084,
+        "recency": 0.7923,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -1049,15 +1326,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.5594,
-      "importance": 0.5594,
-      "importance_score": 0.5594,
+      "score": 0.5565,
+      "importance": 0.5565,
+      "importance_score": 0.5565,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7978,
+        "recency": 0.7819,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -1072,102 +1349,6 @@
         "url": "https://www.reuters.com/technology/norway-imposes-near-ban-ai-elementary-school-2026-06-19",
         "source": "www.reuters.com",
         "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_bcd29eb51485",
-      "title": "打脸！谁说AI不会表演？？？",
-      "url": "https://www.xiaohongshu.com/explore/6a2d8e4d000000000702784d?xsec_token=YBDDJm08aEJolf0J6UXNWFEjrI_bF8Je1gb_c2wGknQgM%3D",
-      "primary_url": "https://www.xiaohongshu.com/explore/6a2d8e4d000000000702784d?xsec_token=YBDDJm08aEJolf0J6UXNWFEjrI_bF8Je1gb_c2wGknQgM%3D",
-      "source": "AI插话师",
-      "source_name": "TikHub Xiaohongshu",
-      "sources": [
-        {
-          "id": "f06cf4210940b96349940257bc79d0df9485e3cf",
-          "title": "打脸！谁说AI不会表演？？？",
-          "url": "https://www.xiaohongshu.com/explore/6a2d8e4d000000000702784d?xsec_token=YBDDJm08aEJolf0J6UXNWFEjrI_bF8Je1gb_c2wGknQgM%3D",
-          "source": "AI插话师",
-          "source_name": "TikHub Xiaohongshu",
-          "site_id": "tikhub_xiaohongshu",
-          "published_at": "2026-06-19T14:10:43.028916Z"
-        },
-        {
-          "id": "5094a0f7dccdb205381b9e5c71f1c2d6b5ff6070",
-          "title": "打脸！谁说AI不会表演？？？",
-          "url": "https://www.xiaohongshu.com/explore/6a2d8e4d000000000702784d?xsec_token=YBlrFnZ1iQArpUo0-mHRj7TCSerrP7ee3165c-OWw5mzU%3D",
-          "source": "AI插话师",
-          "source_name": "TikHub Xiaohongshu",
-          "site_id": "tikhub_xiaohongshu",
-          "published_at": "2026-06-19T14:06:17.488483Z"
-        },
-        {
-          "id": "e5c7059a634df66b1152b67b2f1399561e28ede6",
-          "title": "打脸！谁说AI不会表演？？？",
-          "url": "https://www.xiaohongshu.com/explore/6a2d8e4d000000000702784d?xsec_token=YBlrFnZ1iQArpUo0-mHRj7TPosFRhXOaJIuJkxkVXSdx0%3D",
-          "source": "AI插话师",
-          "source_name": "TikHub Xiaohongshu",
-          "site_id": "tikhub_xiaohongshu",
-          "published_at": "2026-06-19T14:01:09.271846Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "AI插话师"
-      ],
-      "items": [
-        {
-          "id": "f06cf4210940b96349940257bc79d0df9485e3cf",
-          "title": "打脸！谁说AI不会表演？？？",
-          "url": "https://www.xiaohongshu.com/explore/6a2d8e4d000000000702784d?xsec_token=YBDDJm08aEJolf0J6UXNWFEjrI_bF8Je1gb_c2wGknQgM%3D",
-          "source": "AI插话师",
-          "source_name": "TikHub Xiaohongshu",
-          "site_id": "tikhub_xiaohongshu",
-          "published_at": "2026-06-19T14:10:43.028916Z"
-        },
-        {
-          "id": "5094a0f7dccdb205381b9e5c71f1c2d6b5ff6070",
-          "title": "打脸！谁说AI不会表演？？？",
-          "url": "https://www.xiaohongshu.com/explore/6a2d8e4d000000000702784d?xsec_token=YBlrFnZ1iQArpUo0-mHRj7TCSerrP7ee3165c-OWw5mzU%3D",
-          "source": "AI插话师",
-          "source_name": "TikHub Xiaohongshu",
-          "site_id": "tikhub_xiaohongshu",
-          "published_at": "2026-06-19T14:06:17.488483Z"
-        },
-        {
-          "id": "e5c7059a634df66b1152b67b2f1399561e28ede6",
-          "title": "打脸！谁说AI不会表演？？？",
-          "url": "https://www.xiaohongshu.com/explore/6a2d8e4d000000000702784d?xsec_token=YBlrFnZ1iQArpUo0-mHRj7TPosFRhXOaJIuJkxkVXSdx0%3D",
-          "source": "AI插话师",
-          "source_name": "TikHub Xiaohongshu",
-          "site_id": "tikhub_xiaohongshu",
-          "published_at": "2026-06-19T14:01:09.271846Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.5541,
-      "importance": 0.5541,
-      "importance_score": 0.5541,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.48,
-        "ai_relevance": 0.65,
-        "recency": 0.7117,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-19T14:01:09.271846Z",
-      "latest_at": "2026-06-19T14:10:43.028916Z",
-      "primary_item": {
-        "id": "f06cf4210940b96349940257bc79d0df9485e3cf",
-        "title": "打脸！谁说AI不会表演？？？",
-        "url": "https://www.xiaohongshu.com/explore/6a2d8e4d000000000702784d?xsec_token=YBDDJm08aEJolf0J6UXNWFEjrI_bF8Je1gb_c2wGknQgM%3D",
-        "source": "AI插话师",
-        "source_name": "TikHub Xiaohongshu"
       }
     },
     {
@@ -1243,15 +1424,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5514,
-      "importance": 0.5514,
-      "importance_score": 0.5514,
+      "score": 0.5482,
+      "importance": 0.5482,
+      "importance_score": 0.5482,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.892,
+        "recency": 0.8743,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1266,6 +1447,85 @@
         "url": "https://twitter.com/JohnJumperSci/status/2068001285173834106",
         "source": "twitter.com",
         "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_fd6b244d6a5f",
+      "title": "AI 代理的临时 Cloudflare 帐户 / Temporary Cloudflare Accounts for AI Agents",
+      "url": "https://news.ycombinator.com/item?id=48608394",
+      "primary_url": "https://news.ycombinator.com/item?id=48608394",
+      "source": "hackernews",
+      "source_name": "NewsNow",
+      "sources": [
+        {
+          "id": "be6db6a7713e9be8b07b1e1d8c5805eae89c1331",
+          "title": "AI 代理的临时 Cloudflare 帐户 / Temporary Cloudflare Accounts for AI Agents",
+          "url": "https://news.ycombinator.com/item?id=48608394",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-20T14:50:25.866000Z"
+        },
+        {
+          "id": "a1a87e6ee558095aa56dacea3fc7db142f61a6e0",
+          "title": "AI 代理的临时 Cloudflare 帐户 / Temporary Cloudflare Accounts for AI Agents",
+          "url": "https://blog.cloudflare.com/temporary-accounts",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-20T11:19:05Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News (黑客新闻)",
+        "hackernews"
+      ],
+      "items": [
+        {
+          "id": "be6db6a7713e9be8b07b1e1d8c5805eae89c1331",
+          "title": "AI 代理的临时 Cloudflare 帐户 / Temporary Cloudflare Accounts for AI Agents",
+          "url": "https://news.ycombinator.com/item?id=48608394",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-20T14:50:25.866000Z"
+        },
+        {
+          "id": "a1a87e6ee558095aa56dacea3fc7db142f61a6e0",
+          "title": "AI 代理的临时 Cloudflare 帐户 / Temporary Cloudflare Accounts for AI Agents",
+          "url": "https://blog.cloudflare.com/temporary-accounts",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-20T11:19:05Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5451,
+      "importance": 0.5451,
+      "importance_score": 0.5451,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9959,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-20T11:19:05Z",
+      "latest_at": "2026-06-20T14:50:25.866000Z",
+      "primary_item": {
+        "id": "be6db6a7713e9be8b07b1e1d8c5805eae89c1331",
+        "title": "AI 代理的临时 Cloudflare 帐户 / Temporary Cloudflare Accounts for AI Agents",
+        "url": "https://news.ycombinator.com/item?id=48608394",
+        "source": "hackernews",
+        "source_name": "NewsNow"
       }
     },
     {
@@ -1322,15 +1582,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.541,
-      "importance": 0.541,
-      "importance_score": 0.541,
+      "score": 0.5375,
+      "importance": 0.5375,
+      "importance_score": 0.5375,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9734,
+        "recency": 0.954,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1401,15 +1661,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5372,
-      "importance": 0.5372,
-      "importance_score": 0.5372,
+      "score": 0.5338,
+      "importance": 0.5338,
+      "importance_score": 0.5338,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9524,
+        "recency": 0.9334,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1424,241 +1684,6 @@
         "url": "https://www.businessinsider.com/replika-founder-warns-ai-protests-job-displacement-2026-6",
         "source": "www.businessinsider.com",
         "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_a857c7e40d33",
-      "title": "GPT-5.5的幻觉生成率是采用MIT许可证的GLM-5.2的3倍",
-      "url": "https://arrowtsx.dev/bigger-models",
-      "primary_url": "https://arrowtsx.dev/bigger-models",
-      "source": "arrowtsx.dev",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "c121a36a3ad8b781e54c0862b9f24b233666834f",
-          "title": "GPT-5.5的幻觉生成率是采用MIT许可证的GLM-5.2的3倍",
-          "url": "https://arrowtsx.dev/bigger-models",
-          "source": "arrowtsx.dev",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-20T08:13:20.279000Z"
-        },
-        {
-          "id": "9d47dd7392177b9da142fa85472350a017273e0c",
-          "title": "GPT-5.5的幻觉生成率是采用MIT许可证的GLM-5.2的3倍 / GPT-5.5 hallucinates 3x more than MIT-licensed GLM-5.2",
-          "url": "https://arrowtsx.dev/bigger-models",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-19T16:11:25Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News (黑客新闻)",
-        "arrowtsx.dev"
-      ],
-      "items": [
-        {
-          "id": "c121a36a3ad8b781e54c0862b9f24b233666834f",
-          "title": "GPT-5.5的幻觉生成率是采用MIT许可证的GLM-5.2的3倍",
-          "url": "https://arrowtsx.dev/bigger-models",
-          "source": "arrowtsx.dev",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-20T08:13:20.279000Z"
-        },
-        {
-          "id": "9d47dd7392177b9da142fa85472350a017273e0c",
-          "title": "GPT-5.5的幻觉生成率是采用MIT许可证的GLM-5.2的3倍 / GPT-5.5 hallucinates 3x more than MIT-licensed GLM-5.2",
-          "url": "https://arrowtsx.dev/bigger-models",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-19T16:11:25Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.532,
-      "importance": 0.532,
-      "importance_score": 0.532,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9235,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-19T16:11:25Z",
-      "latest_at": "2026-06-20T08:13:20.279000Z",
-      "primary_item": {
-        "id": "c121a36a3ad8b781e54c0862b9f24b233666834f",
-        "title": "GPT-5.5的幻觉生成率是采用MIT许可证的GLM-5.2的3倍",
-        "url": "https://arrowtsx.dev/bigger-models",
-        "source": "arrowtsx.dev",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_7ac6691a7778",
-      "title": "AI小狗",
-      "url": "https://www.xiaohongshu.com/explore/67f865c9000000001d02dc96?xsec_token=YBei2Xcq1TMsEoPC9N7_A68jIYDg78wOLvkVN6HeB7dpc%3D",
-      "primary_url": "https://www.xiaohongshu.com/explore/67f865c9000000001d02dc96?xsec_token=YBei2Xcq1TMsEoPC9N7_A68jIYDg78wOLvkVN6HeB7dpc%3D",
-      "source": "小布布",
-      "source_name": "TikHub Xiaohongshu",
-      "sources": [
-        {
-          "id": "e8af757ba5eacb2b7dbab604ab4c7ba440375905",
-          "title": "AI小狗",
-          "url": "https://www.xiaohongshu.com/explore/67f865c9000000001d02dc96?xsec_token=YBei2Xcq1TMsEoPC9N7_A68jIYDg78wOLvkVN6HeB7dpc%3D",
-          "source": "小布布",
-          "source_name": "TikHub Xiaohongshu",
-          "site_id": "tikhub_xiaohongshu",
-          "published_at": "2026-06-19T14:10:43.028916Z"
-        },
-        {
-          "id": "15208d6bc830bf92c3ca8a11c7e3b2ab79d5fe8a",
-          "title": "AI小狗",
-          "url": "https://www.xiaohongshu.com/explore/67f865c9000000001d02dc96?xsec_token=YBi7JmL3e_OYlX5TVLTKggRKIQXMycKeWm_3OLzbHjXvw%3D",
-          "source": "小布布",
-          "source_name": "TikHub Xiaohongshu",
-          "site_id": "tikhub_xiaohongshu",
-          "published_at": "2026-06-19T14:06:17.488483Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "小布布"
-      ],
-      "items": [
-        {
-          "id": "e8af757ba5eacb2b7dbab604ab4c7ba440375905",
-          "title": "AI小狗",
-          "url": "https://www.xiaohongshu.com/explore/67f865c9000000001d02dc96?xsec_token=YBei2Xcq1TMsEoPC9N7_A68jIYDg78wOLvkVN6HeB7dpc%3D",
-          "source": "小布布",
-          "source_name": "TikHub Xiaohongshu",
-          "site_id": "tikhub_xiaohongshu",
-          "published_at": "2026-06-19T14:10:43.028916Z"
-        },
-        {
-          "id": "15208d6bc830bf92c3ca8a11c7e3b2ab79d5fe8a",
-          "title": "AI小狗",
-          "url": "https://www.xiaohongshu.com/explore/67f865c9000000001d02dc96?xsec_token=YBi7JmL3e_OYlX5TVLTKggRKIQXMycKeWm_3OLzbHjXvw%3D",
-          "source": "小布布",
-          "source_name": "TikHub Xiaohongshu",
-          "site_id": "tikhub_xiaohongshu",
-          "published_at": "2026-06-19T14:06:17.488483Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5291,
-      "importance": 0.5291,
-      "importance_score": 0.5291,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.48,
-        "ai_relevance": 0.65,
-        "recency": 0.7117,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-19T14:06:17.488483Z",
-      "latest_at": "2026-06-19T14:10:43.028916Z",
-      "primary_item": {
-        "id": "e8af757ba5eacb2b7dbab604ab4c7ba440375905",
-        "title": "AI小狗",
-        "url": "https://www.xiaohongshu.com/explore/67f865c9000000001d02dc96?xsec_token=YBei2Xcq1TMsEoPC9N7_A68jIYDg78wOLvkVN6HeB7dpc%3D",
-        "source": "小布布",
-        "source_name": "TikHub Xiaohongshu"
-      }
-    },
-    {
-      "story_id": "story_2ccffc96e8e6",
-      "title": "一张图，把 AI 全部讲清楚了",
-      "url": "https://www.xiaohongshu.com/explore/69437306000000000d03b7be?xsec_token=YBcA8cYXYWhlaGudyGncG4kyuo5yvarKNmTbKQtxNxYrs%3D",
-      "primary_url": "https://www.xiaohongshu.com/explore/69437306000000000d03b7be?xsec_token=YBcA8cYXYWhlaGudyGncG4kyuo5yvarKNmTbKQtxNxYrs%3D",
-      "source": "程序员八阿哥",
-      "source_name": "TikHub Xiaohongshu",
-      "sources": [
-        {
-          "id": "fac4b8d31c08898134ba4d951e462b5e7680379d",
-          "title": "一张图，把 AI 全部讲清楚了",
-          "url": "https://www.xiaohongshu.com/explore/69437306000000000d03b7be?xsec_token=YBcA8cYXYWhlaGudyGncG4kyuo5yvarKNmTbKQtxNxYrs%3D",
-          "source": "程序员八阿哥",
-          "source_name": "TikHub Xiaohongshu",
-          "site_id": "tikhub_xiaohongshu",
-          "published_at": "2026-06-19T14:10:43.028916Z"
-        },
-        {
-          "id": "174f81fe3f317cea4dc28e168bbc09d484abe3d5",
-          "title": "一张图，把 AI 全部讲清楚了",
-          "url": "https://www.xiaohongshu.com/explore/69437306000000000d03b7be?xsec_token=YBgxcJb3JYcqt6ZOV0UkJ8am7fPjeAFEOP_3hPbs0W3sg%3D",
-          "source": "程序员八阿哥",
-          "source_name": "TikHub Xiaohongshu",
-          "site_id": "tikhub_xiaohongshu",
-          "published_at": "2026-06-19T14:01:09.271846Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "程序员八阿哥"
-      ],
-      "items": [
-        {
-          "id": "fac4b8d31c08898134ba4d951e462b5e7680379d",
-          "title": "一张图，把 AI 全部讲清楚了",
-          "url": "https://www.xiaohongshu.com/explore/69437306000000000d03b7be?xsec_token=YBcA8cYXYWhlaGudyGncG4kyuo5yvarKNmTbKQtxNxYrs%3D",
-          "source": "程序员八阿哥",
-          "source_name": "TikHub Xiaohongshu",
-          "site_id": "tikhub_xiaohongshu",
-          "published_at": "2026-06-19T14:10:43.028916Z"
-        },
-        {
-          "id": "174f81fe3f317cea4dc28e168bbc09d484abe3d5",
-          "title": "一张图，把 AI 全部讲清楚了",
-          "url": "https://www.xiaohongshu.com/explore/69437306000000000d03b7be?xsec_token=YBgxcJb3JYcqt6ZOV0UkJ8am7fPjeAFEOP_3hPbs0W3sg%3D",
-          "source": "程序员八阿哥",
-          "source_name": "TikHub Xiaohongshu",
-          "site_id": "tikhub_xiaohongshu",
-          "published_at": "2026-06-19T14:01:09.271846Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5291,
-      "importance": 0.5291,
-      "importance_score": 0.5291,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.48,
-        "ai_relevance": 0.65,
-        "recency": 0.7117,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-19T14:01:09.271846Z",
-      "latest_at": "2026-06-19T14:10:43.028916Z",
-      "primary_item": {
-        "id": "fac4b8d31c08898134ba4d951e462b5e7680379d",
-        "title": "一张图，把 AI 全部讲清楚了",
-        "url": "https://www.xiaohongshu.com/explore/69437306000000000d03b7be?xsec_token=YBcA8cYXYWhlaGudyGncG4kyuo5yvarKNmTbKQtxNxYrs%3D",
-        "source": "程序员八阿哥",
-        "source_name": "TikHub Xiaohongshu"
       }
     }
   ]
