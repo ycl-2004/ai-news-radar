@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-20T17:04:29.626458Z",
+  "generated_at": "2026-06-20T18:52:54.070624Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -57,15 +57,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.766,
-      "importance": 0.766,
-      "importance_score": 0.766,
+      "score": 0.7624,
+      "importance": 0.7624,
+      "importance_score": 0.7624,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.77,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7688,
+        "recency": 0.749,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -119,15 +119,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7645,
-      "importance": 0.7645,
-      "importance_score": 0.7645,
+      "score": 0.7602,
+      "importance": 0.7602,
+      "importance_score": 0.7602,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.933,
+        "recency": 0.909,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -142,168 +142,6 @@
         "title": "开源教程《Deep Agents 实战》发布",
         "url": "https://x.com/shao__meng/status/2068306942184034471",
         "source": "X：邵猛 (@shao__meng)",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_de9f81005e38",
-      "title": "JAWBONE Act：一项打击政府为压制合法网络言论而施压的新法案",
-      "url": "https://www.eff.org/deeplinks/2026/06/new-bill-takes-aim-government-pressure-silence-lawful-online-speech",
-      "primary_url": "https://www.eff.org/deeplinks/2026/06/new-bill-takes-aim-government-pressure-silence-lawful-online-speech",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "2e15452980a9f6b16b7cb8fbb00b4c2759307c3f",
-          "title": "JAWBONE Act：一项打击政府为压制合法网络言论而施压的新法案",
-          "url": "https://www.eff.org/deeplinks/2026/06/new-bill-takes-aim-government-pressure-silence-lawful-online-speech",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-19T19:41:30.069000Z"
-        },
-        {
-          "id": "fb49785e826eec270896f7c0a7bca1c9152206e0",
-          "title": "JAWBONE Act：一项打击政府为压制合法网络言论而施压的新法案 / A new bill takes aim at government pressure to silence lawful online speech",
-          "url": "https://www.eff.org/deeplinks/2026/06/new-bill-takes-aim-government-pressure-silence-lawful-online-speech",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-19T17:34:28Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News · 24h最热",
-        "Hacker News 热门（buzzing.cc 中文翻译）"
-      ],
-      "items": [
-        {
-          "id": "2e15452980a9f6b16b7cb8fbb00b4c2759307c3f",
-          "title": "JAWBONE Act：一项打击政府为压制合法网络言论而施压的新法案",
-          "url": "https://www.eff.org/deeplinks/2026/06/new-bill-takes-aim-government-pressure-silence-lawful-online-speech",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-19T19:41:30.069000Z"
-        },
-        {
-          "id": "fb49785e826eec270896f7c0a7bca1c9152206e0",
-          "title": "JAWBONE Act：一项打击政府为压制合法网络言论而施压的新法案 / A new bill takes aim at government pressure to silence lawful online speech",
-          "url": "https://www.eff.org/deeplinks/2026/06/new-bill-takes-aim-government-pressure-silence-lawful-online-speech",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-19T17:34:28Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7538,
-      "importance": 0.7538,
-      "importance_score": 0.7538,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.75,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7343,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-19T17:34:28Z",
-      "latest_at": "2026-06-19T19:41:30.069000Z",
-      "primary_item": {
-        "id": "2e15452980a9f6b16b7cb8fbb00b4c2759307c3f",
-        "title": "JAWBONE Act：一项打击政府为压制合法网络言论而施压的新法案",
-        "url": "https://www.eff.org/deeplinks/2026/06/new-bill-takes-aim-government-pressure-silence-lawful-online-speech",
-        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_e44d6b51ecd0",
-      "title": "baoyu-design Skill迭代：修复导出样式与渐变丢失问题，支持AI配图导出PPTX",
-      "url": "https://x.com/dotey/status/2068042001895809420",
-      "primary_url": "https://x.com/dotey/status/2068042001895809420",
-      "source": "X：宝玉 (@dotey)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "da95674991774ad868431c3b8238fa6f8a200496",
-          "title": "baoyu-design Skill迭代：修复导出样式与渐变丢失问题，支持AI配图导出PPTX",
-          "url": "https://x.com/dotey/status/2068042001895809420",
-          "source": "X：宝玉 (@dotey)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-19T18:43:30Z"
-        },
-        {
-          "id": "feac86cbaadea9fd7c9120a0165cb0851094ad87",
-          "title": "Skill 和软件一样，需要不断迭代的，而且你用户越多，遇到的各种问题就越多，就需要去解决各种边边角角的问题，才能越来越好用。 比如 @yangyi 昨天在他的牛马AI里面测试了这个Skill，说导出好像有问题，我拿到结果一看，简直惨不忍睹（图2），这里面有两个问题： 1. 样式表不对，没有铺满整页，只占了一半 2. 导出的渐变色没有了，把图片都遮没了 写 Skill 比写软件有个优势，就是你可以让 Agent 先跑，跑完之后 Age…",
-          "url": "https://x.com/dotey/status/2068042001895809420",
-          "source": "@dotey",
-          "source_name": "SocialData X",
-          "site_id": "socialdata_x",
-          "published_at": "2026-06-19T18:43:30Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "@dotey",
-        "X：宝玉 (@dotey)"
-      ],
-      "items": [
-        {
-          "id": "da95674991774ad868431c3b8238fa6f8a200496",
-          "title": "baoyu-design Skill迭代：修复导出样式与渐变丢失问题，支持AI配图导出PPTX",
-          "url": "https://x.com/dotey/status/2068042001895809420",
-          "source": "X：宝玉 (@dotey)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-19T18:43:30Z"
-        },
-        {
-          "id": "feac86cbaadea9fd7c9120a0165cb0851094ad87",
-          "title": "Skill 和软件一样，需要不断迭代的，而且你用户越多，遇到的各种问题就越多，就需要去解决各种边边角角的问题，才能越来越好用。 比如 @yangyi 昨天在他的牛马AI里面测试了这个Skill，说导出好像有问题，我拿到结果一看，简直惨不忍睹（图2），这里面有两个问题： 1. 样式表不对，没有铺满整页，只占了一半 2. 导出的渐变色没有了，把图片都遮没了 写 Skill 比写软件有个优势，就是你可以让 Agent 先跑，跑完之后 Age…",
-          "url": "https://x.com/dotey/status/2068042001895809420",
-          "source": "@dotey",
-          "source_name": "SocialData X",
-          "site_id": "socialdata_x",
-          "published_at": "2026-06-19T18:43:30Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7519,
-      "importance": 0.7519,
-      "importance_score": 0.7519,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.75,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7242,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-19T18:43:30Z",
-      "latest_at": "2026-06-19T18:43:30Z",
-      "primary_item": {
-        "id": "da95674991774ad868431c3b8238fa6f8a200496",
-        "title": "baoyu-design Skill迭代：修复导出样式与渐变丢失问题，支持AI配图导出PPTX",
-        "url": "https://x.com/dotey/status/2068042001895809420",
-        "source": "X：宝玉 (@dotey)",
         "source_name": "AI HOT"
       }
     },
@@ -342,21 +180,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7509,
-      "importance": 0.7509,
-      "importance_score": 0.7509,
+      "score": 0.747,
+      "importance": 0.747,
+      "importance_score": 0.747,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8574,
+        "recency": 0.8354,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-06-20T06:25:29Z",
       "latest_at": "2026-06-20T06:25:29Z",
@@ -403,15 +240,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7419,
-      "importance": 0.7419,
-      "importance_score": 0.7419,
+      "score": 0.7384,
+      "importance": 0.7384,
+      "importance_score": 0.7384,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.78,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7575,
+        "recency": 0.738,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -429,8 +266,68 @@
       }
     },
     {
+      "story_id": "story_de9f81005e38",
+      "title": "JAWBONE Act：一项打击政府为压制合法网络言论而施压的新法案",
+      "url": "https://www.eff.org/deeplinks/2026/06/new-bill-takes-aim-government-pressure-silence-lawful-online-speech",
+      "primary_url": "https://www.eff.org/deeplinks/2026/06/new-bill-takes-aim-government-pressure-silence-lawful-online-speech",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "2e15452980a9f6b16b7cb8fbb00b4c2759307c3f",
+          "title": "JAWBONE Act：一项打击政府为压制合法网络言论而施压的新法案",
+          "url": "https://www.eff.org/deeplinks/2026/06/new-bill-takes-aim-government-pressure-silence-lawful-online-speech",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-19T19:41:30.069000Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Hacker News 热门（buzzing.cc 中文翻译）"
+      ],
+      "items": [
+        {
+          "id": "2e15452980a9f6b16b7cb8fbb00b4c2759307c3f",
+          "title": "JAWBONE Act：一项打击政府为压制合法网络言论而施压的新法案",
+          "url": "https://www.eff.org/deeplinks/2026/06/new-bill-takes-aim-government-pressure-silence-lawful-online-speech",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-19T19:41:30.069000Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7254,
+      "importance": 0.7254,
+      "importance_score": 0.7254,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.75,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7154,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-06-19T19:41:30.069000Z",
+      "latest_at": "2026-06-19T19:41:30.069000Z",
+      "primary_item": {
+        "id": "2e15452980a9f6b16b7cb8fbb00b4c2759307c3f",
+        "title": "JAWBONE Act：一项打击政府为压制合法网络言论而施压的新法案",
+        "url": "https://www.eff.org/deeplinks/2026/06/new-bill-takes-aim-government-pressure-silence-lawful-online-speech",
+        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
       "story_id": "story_ef1cc3a7e9c9",
-      "title": "加密、间谍软件和现在的神话：历史表明为什么网络出口管制不起作用 / Encryption, spyware, and now Mythos: History shows why cyber export control doesn’t work",
+      "title": "从PGP到Mythos：出口管制未能阻止任何人的简史 / Encryption, spyware, and now Mythos: History shows why cyber export control doesn’t work",
       "url": "https://techcrunch.com/2026/06/19/encryption-spyware-and-now-mythos-history-shows-why-cyber-export-control-doesnt-work",
       "primary_url": "https://techcrunch.com/2026/06/19/encryption-spyware-and-now-mythos-history-shows-why-cyber-export-control-doesnt-work",
       "source": "TechCrunch AI",
@@ -438,7 +335,7 @@
       "sources": [
         {
           "id": "63c53ea51abe90768fda7205bb8a76a94e198d49",
-          "title": "加密、间谍软件和现在的神话：历史表明为什么网络出口管制不起作用 / Encryption, spyware, and now Mythos: History shows why cyber export control doesn’t work",
+          "title": "从PGP到Mythos：出口管制未能阻止任何人的简史 / Encryption, spyware, and now Mythos: History shows why cyber export control doesn’t work",
           "url": "https://techcrunch.com/2026/06/19/encryption-spyware-and-now-mythos-history-shows-why-cyber-export-control-doesnt-work",
           "source": "TechCrunch AI",
           "source_name": "Curated Media",
@@ -447,7 +344,7 @@
         },
         {
           "id": "3c0db7f39c309003e78d538eb05622821a8f35bb",
-          "title": "从 PGP 到神话：没有阻止任何人的出口管制简史 / From PGP to Mythos: a brief history of export controls that didn’t stop anyone",
+          "title": "从PGP到Mythos：出口管制未能阻止任何人的简史 / From PGP to Mythos: a brief history of export controls that didn’t stop anyone",
           "url": "https://techcrunch.com/2026/06/19/encryption-spyware-and-now-mythos-history-shows-why-cyber-export-control-doesnt-work",
           "source": "TechCrunch AI",
           "source_name": "Curated Media",
@@ -456,7 +353,7 @@
         },
         {
           "id": "f84a609904778aaa8e3a52e449b593aa21c8c5b0",
-          "title": "从 PGP 到神话：没有阻止任何人的出口管制简史 / From PGP to Mythos: a brief history of export controls that didn't stop anyone",
+          "title": "从PGP到Mythos：出口管制未能阻止任何人的简史 / From PGP to Mythos: a brief history of export controls that didn't stop anyone",
           "url": "https://techcrunch.com/2026/06/19/encryption-spyware-and-now-mythos-history-shows-why-cyber-export-control-doesnt-work",
           "source": "Hacker News · 24h最热",
           "source_name": "Zeli",
@@ -472,7 +369,7 @@
       "items": [
         {
           "id": "63c53ea51abe90768fda7205bb8a76a94e198d49",
-          "title": "加密、间谍软件和现在的神话：历史表明为什么网络出口管制不起作用 / Encryption, spyware, and now Mythos: History shows why cyber export control doesn’t work",
+          "title": "从PGP到Mythos：出口管制未能阻止任何人的简史 / Encryption, spyware, and now Mythos: History shows why cyber export control doesn’t work",
           "url": "https://techcrunch.com/2026/06/19/encryption-spyware-and-now-mythos-history-shows-why-cyber-export-control-doesnt-work",
           "source": "TechCrunch AI",
           "source_name": "Curated Media",
@@ -481,7 +378,7 @@
         },
         {
           "id": "3c0db7f39c309003e78d538eb05622821a8f35bb",
-          "title": "从 PGP 到神话：没有阻止任何人的出口管制简史 / From PGP to Mythos: a brief history of export controls that didn’t stop anyone",
+          "title": "从PGP到Mythos：出口管制未能阻止任何人的简史 / From PGP to Mythos: a brief history of export controls that didn’t stop anyone",
           "url": "https://techcrunch.com/2026/06/19/encryption-spyware-and-now-mythos-history-shows-why-cyber-export-control-doesnt-work",
           "source": "TechCrunch AI",
           "source_name": "Curated Media",
@@ -490,7 +387,7 @@
         },
         {
           "id": "f84a609904778aaa8e3a52e449b593aa21c8c5b0",
-          "title": "从 PGP 到神话：没有阻止任何人的出口管制简史 / From PGP to Mythos: a brief history of export controls that didn't stop anyone",
+          "title": "从PGP到Mythos：出口管制未能阻止任何人的简史 / From PGP to Mythos: a brief history of export controls that didn't stop anyone",
           "url": "https://techcrunch.com/2026/06/19/encryption-spyware-and-now-mythos-history-shows-why-cyber-export-control-doesnt-work",
           "source": "Hacker News · 24h最热",
           "source_name": "Zeli",
@@ -500,15 +397,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.6318,
-      "importance": 0.6318,
-      "importance_score": 0.6318,
+      "score": 0.6282,
+      "importance": 0.6282,
+      "importance_score": 0.6282,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.5472,
         "source_tier": 0.58,
         "ai_relevance": 0.76,
-        "recency": 0.7666,
+        "recency": 0.7469,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -519,7 +416,7 @@
       "latest_at": "2026-06-20T13:44:39Z",
       "primary_item": {
         "id": "63c53ea51abe90768fda7205bb8a76a94e198d49",
-        "title": "加密、间谍软件和现在的神话：历史表明为什么网络出口管制不起作用 / Encryption, spyware, and now Mythos: History shows why cyber export control doesn’t work",
+        "title": "从PGP到Mythos：出口管制未能阻止任何人的简史 / Encryption, spyware, and now Mythos: History shows why cyber export control doesn’t work",
         "url": "https://techcrunch.com/2026/06/19/encryption-spyware-and-now-mythos-history-shows-why-cyber-export-control-doesnt-work",
         "source": "TechCrunch AI",
         "source_name": "Curated Media"
@@ -579,15 +476,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5833,
-      "importance": 0.5833,
-      "importance_score": 0.5833,
+      "score": 0.5794,
+      "importance": 0.5794,
+      "importance_score": 0.5794,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.62,
         "ai_relevance": 0.65,
-        "recency": 0.8417,
+        "recency": 0.82,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -658,15 +555,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5777,
-      "importance": 0.5777,
-      "importance_score": 0.5777,
+      "score": 0.5732,
+      "importance": 0.5732,
+      "importance_score": 0.5732,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.4824,
         "source_tier": 0.45,
         "ai_relevance": 0.67,
-        "recency": 0.9724,
+        "recency": 0.9473,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -737,15 +634,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5777,
-      "importance": 0.5777,
-      "importance_score": 0.5777,
+      "score": 0.5732,
+      "importance": 0.5732,
+      "importance_score": 0.5732,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.4824,
         "source_tier": 0.45,
         "ai_relevance": 0.67,
-        "recency": 0.9724,
+        "recency": 0.9473,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -854,15 +751,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.5694,
-      "importance": 0.5694,
-      "importance_score": 0.5694,
+      "score": 0.5654,
+      "importance": 0.5654,
+      "importance_score": 0.5654,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8533,
+        "recency": 0.8313,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -971,15 +868,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.5544,
-      "importance": 0.5544,
-      "importance_score": 0.5544,
+      "score": 0.5509,
+      "importance": 0.5509,
+      "importance_score": 0.5509,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7703,
+        "recency": 0.7504,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -997,54 +894,55 @@
       }
     },
     {
-      "story_id": "story_454b7d5081a1",
-      "title": "AI 使用是否会导致技能退化？",
-      "url": "https://www.solidot.org/story?sid=84630",
-      "primary_url": "https://www.solidot.org/story?sid=84630",
-      "source": "Readhub · AI",
-      "source_name": "TopHub",
+      "story_id": "story_6f673fe96a7a",
+      "title": "机构偷了畅销书作者的书，用人工智能重新推出自己的书 / Agency stole bestselling author's book, used AI to relaunch as their own",
+      "url": "https://news.ycombinator.com/item?id=48611411",
+      "primary_url": "https://news.ycombinator.com/item?id=48611411",
+      "source": "hackernews",
+      "source_name": "NewsNow",
       "sources": [
         {
-          "id": "769f04241ab206d3afd12f67cde7636cc65b4768",
-          "title": "AI 使用是否会导致技能退化？",
-          "url": "https://www.solidot.org/story?sid=84630",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
+          "id": "96685bb9ea8cb02c05fed8aaf648c56b928096a5",
+          "title": "机构偷了畅销书作者的书，用人工智能重新推出自己的书 / Agency stole bestselling author's book, used AI to relaunch as their own",
+          "url": "https://news.ycombinator.com/item?id=48611411",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-20T18:53:25.735000Z"
         },
         {
-          "id": "f0998b795eebcc8e272071c8017b472376b6c89d",
-          "title": "加州亿万富翁税提案获得足够签名有资格在 11 月公投",
-          "url": "https://www.solidot.org/story?sid=84628",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
+          "id": "d7a32293cf9f5801a34f1875fa759312dbe18095",
+          "title": "机构偷了畅销书作者的书，用人工智能重新推出自己的书 / Agency stole bestselling author's book, used AI to relaunch as their own",
+          "url": "https://waxy.org/2026/06/the-wholesale-plagiarism-of-obscure-sorrows",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-20T18:05:31Z"
         }
       ],
       "source_count": 2,
       "source_names": [
-        "Readhub · AI"
+        "Hacker News · 24h最热",
+        "hackernews"
       ],
       "items": [
         {
-          "id": "769f04241ab206d3afd12f67cde7636cc65b4768",
-          "title": "AI 使用是否会导致技能退化？",
-          "url": "https://www.solidot.org/story?sid=84630",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
+          "id": "96685bb9ea8cb02c05fed8aaf648c56b928096a5",
+          "title": "机构偷了畅销书作者的书，用人工智能重新推出自己的书 / Agency stole bestselling author's book, used AI to relaunch as their own",
+          "url": "https://news.ycombinator.com/item?id=48611411",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-20T18:53:25.735000Z"
         },
         {
-          "id": "f0998b795eebcc8e272071c8017b472376b6c89d",
-          "title": "加州亿万富翁税提案获得足够签名有资格在 11 月公投",
-          "url": "https://www.solidot.org/story?sid=84628",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
+          "id": "d7a32293cf9f5801a34f1875fa759312dbe18095",
+          "title": "机构偷了畅销书作者的书，用人工智能重新推出自己的书 / Agency stole bestselling author's book, used AI to relaunch as their own",
+          "url": "https://waxy.org/2026/06/the-wholesale-plagiarism-of-obscure-sorrows",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-20T18:05:31Z"
         }
       ],
       "item_count": 2,
@@ -1064,191 +962,93 @@
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-19T17:49:02.975775Z",
-      "latest_at": "2026-06-20T17:04:29.626458Z",
+      "earliest_at": "2026-06-20T18:05:31Z",
+      "latest_at": "2026-06-20T18:53:25.735000Z",
       "primary_item": {
-        "id": "769f04241ab206d3afd12f67cde7636cc65b4768",
-        "title": "AI 使用是否会导致技能退化？",
-        "url": "https://www.solidot.org/story?sid=84630",
-        "source": "Readhub · AI",
-        "source_name": "TopHub"
+        "id": "96685bb9ea8cb02c05fed8aaf648c56b928096a5",
+        "title": "机构偷了畅销书作者的书，用人工智能重新推出自己的书 / Agency stole bestselling author's book, used AI to relaunch as their own",
+        "url": "https://news.ycombinator.com/item?id=48611411",
+        "source": "hackernews",
+        "source_name": "NewsNow"
       }
     },
     {
-      "story_id": "story_a4b90cb09aca",
-      "title": "育碧联合创始人克劳德·吉列莫特 (Claude Guillemot) 因飞机失事身亡 / Ubisoft co-founder Claude Guillemot has died in a plane crash",
-      "url": "https://news.ycombinator.com/item?id=48609373",
-      "primary_url": "https://news.ycombinator.com/item?id=48609373",
-      "source": "hackernews",
-      "source_name": "NewsNow",
+      "story_id": "story_c706e0bd4a3a",
+      "title": "Fable5 与 Manus，AI 的成人礼：管控你释放出去的能量",
+      "url": "https://www.huxiu.com/article/4868900.html?f=rss",
+      "primary_url": "https://www.huxiu.com/article/4868900.html?f=rss",
+      "source": "Readhub · AI",
+      "source_name": "TopHub",
       "sources": [
         {
-          "id": "74cedf8c277549ea1cea9db7f30a9db5bebd0173",
-          "title": "育碧联合创始人克劳德·吉列莫特 (Claude Guillemot) 因飞机失事身亡 / Ubisoft co-founder Claude Guillemot has died in a plane crash",
-          "url": "https://news.ycombinator.com/item?id=48609373",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-20T16:50:51.401000Z"
+          "id": "ed11d061e462961c68e2d90e255a9dfc6c15eda8",
+          "title": "Fable5 与 Manus，AI 的成人礼：管控你释放出去的能量",
+          "url": "https://www.huxiu.com/article/4868900.html?f=rss",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
         },
         {
-          "id": "d56e2d49c315c846c93e5463b04609667fe77dea",
-          "title": "育碧联合创始人克劳德·吉勒莫特在空难中去世，享年69岁 / Ubisoft co-founder Claude Guillemot has died in a plane crash",
-          "url": "https://www.bloomberg.com/news/articles/2026-06-20/ubisoft-co-founder-claude-guillemot-dies-in-air-crash-at-age-69",
-          "source": "Hacker News (黑客新闻)",
+          "id": "6669595cfac86f34f109e5e73695fab44f675a56",
+          "title": "Fable5与Manus，AI的成人礼：管控你释放出去的能量",
+          "url": "https://www.huxiu.com/article/4868900.html?f=rss",
+          "source": "虎嗅 (Huxiu)",
           "source_name": "Info Flow",
           "site_id": "iris",
-          "published_at": "2026-06-20T14:12:50Z"
+          "published_at": "2026-06-20T15:00:26Z"
         }
       ],
       "source_count": 2,
       "source_names": [
-        "Hacker News (黑客新闻)",
-        "hackernews"
+        "Readhub · AI",
+        "虎嗅 (Huxiu)"
       ],
       "items": [
         {
-          "id": "74cedf8c277549ea1cea9db7f30a9db5bebd0173",
-          "title": "育碧联合创始人克劳德·吉列莫特 (Claude Guillemot) 因飞机失事身亡 / Ubisoft co-founder Claude Guillemot has died in a plane crash",
-          "url": "https://news.ycombinator.com/item?id=48609373",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-20T16:50:51.401000Z"
+          "id": "ed11d061e462961c68e2d90e255a9dfc6c15eda8",
+          "title": "Fable5 与 Manus，AI 的成人礼：管控你释放出去的能量",
+          "url": "https://www.huxiu.com/article/4868900.html?f=rss",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
         },
         {
-          "id": "d56e2d49c315c846c93e5463b04609667fe77dea",
-          "title": "育碧联合创始人克劳德·吉勒莫特在空难中去世，享年69岁 / Ubisoft co-founder Claude Guillemot has died in a plane crash",
-          "url": "https://www.bloomberg.com/news/articles/2026-06-20/ubisoft-co-founder-claude-guillemot-dies-in-air-crash-at-age-69",
-          "source": "Hacker News (黑客新闻)",
+          "id": "6669595cfac86f34f109e5e73695fab44f675a56",
+          "title": "Fable5与Manus，AI的成人礼：管控你释放出去的能量",
+          "url": "https://www.huxiu.com/article/4868900.html?f=rss",
+          "source": "虎嗅 (Huxiu)",
           "source_name": "Info Flow",
           "site_id": "iris",
-          "published_at": "2026-06-20T14:12:50Z"
+          "published_at": "2026-06-20T15:00:26Z"
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5452,
-      "importance": 0.5452,
-      "importance_score": 0.5452,
+      "score": 0.5412,
+      "importance": 0.5412,
+      "importance_score": 0.5412,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9967,
+        "recency": 0.9742,
         "story_heat": 0.25
       },
       "category": "watch",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-20T14:12:50Z",
-      "latest_at": "2026-06-20T16:50:51.401000Z",
+      "earliest_at": "2026-06-20T15:00:26Z",
+      "latest_at": "2026-06-20T17:04:29.626458Z",
       "primary_item": {
-        "id": "74cedf8c277549ea1cea9db7f30a9db5bebd0173",
-        "title": "育碧联合创始人克劳德·吉列莫特 (Claude Guillemot) 因飞机失事身亡 / Ubisoft co-founder Claude Guillemot has died in a plane crash",
-        "url": "https://news.ycombinator.com/item?id=48609373",
-        "source": "hackernews",
-        "source_name": "NewsNow"
-      }
-    },
-    {
-      "story_id": "story_7f9301bfcba1",
-      "title": "约翰·詹珀将加入Anthropic",
-      "url": "https://twitter.com/JohnJumperSci/status/2068001285173834106",
-      "primary_url": "https://twitter.com/JohnJumperSci/status/2068001285173834106",
-      "source": "twitter.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "da56195bec2b0f3112f980e0ad0c915a17269821",
-          "title": "约翰·詹珀将加入Anthropic",
-          "url": "https://twitter.com/JohnJumperSci/status/2068001285173834106",
-          "source": "twitter.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-20T05:49:06.853000Z"
-        },
-        {
-          "id": "563fab04c0fa74e046b8ea93ec34d1948b555058",
-          "title": "约翰·詹珀 (John Jumper) 加盟 Anthropic / John Jumper to join Anthropic",
-          "url": "https://news.ycombinator.com/item?id=48601162",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-19T20:40:06.985000Z"
-        },
-        {
-          "id": "c7cd1ddbf84cdb5375df6709f765d655a9744fe2",
-          "title": "约翰·詹珀将加入Anthropic / John Jumper to join Anthropic",
-          "url": "https://twitter.com/JohnJumperSci/status/2068001285173834106",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-19T17:53:00Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Hacker News (黑客新闻)",
-        "hackernews",
-        "twitter.com"
-      ],
-      "items": [
-        {
-          "id": "da56195bec2b0f3112f980e0ad0c915a17269821",
-          "title": "约翰·詹珀将加入Anthropic",
-          "url": "https://twitter.com/JohnJumperSci/status/2068001285173834106",
-          "source": "twitter.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-20T05:49:06.853000Z"
-        },
-        {
-          "id": "563fab04c0fa74e046b8ea93ec34d1948b555058",
-          "title": "约翰·詹珀 (John Jumper) 加盟 Anthropic / John Jumper to join Anthropic",
-          "url": "https://news.ycombinator.com/item?id=48601162",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-19T20:40:06.985000Z"
-        },
-        {
-          "id": "c7cd1ddbf84cdb5375df6709f765d655a9744fe2",
-          "title": "约翰·詹珀将加入Anthropic / John Jumper to join Anthropic",
-          "url": "https://twitter.com/JohnJumperSci/status/2068001285173834106",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-19T17:53:00Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.5438,
-      "importance": 0.5438,
-      "importance_score": 0.5438,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.85,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-19T17:53:00Z",
-      "latest_at": "2026-06-20T05:49:06.853000Z",
-      "primary_item": {
-        "id": "da56195bec2b0f3112f980e0ad0c915a17269821",
-        "title": "约翰·詹珀将加入Anthropic",
-        "url": "https://twitter.com/JohnJumperSci/status/2068001285173834106",
-        "source": "twitter.com",
-        "source_name": "Buzzing"
+        "id": "ed11d061e462961c68e2d90e255a9dfc6c15eda8",
+        "title": "Fable5 与 Manus，AI 的成人礼：管控你释放出去的能量",
+        "url": "https://www.huxiu.com/article/4868900.html?f=rss",
+        "source": "Readhub · AI",
+        "source_name": "TopHub"
       }
     },
     {
@@ -1305,15 +1105,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5415,
-      "importance": 0.5415,
-      "importance_score": 0.5415,
+      "score": 0.537,
+      "importance": 0.537,
+      "importance_score": 0.537,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9764,
+        "recency": 0.9512,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1384,15 +1184,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5393,
-      "importance": 0.5393,
-      "importance_score": 0.5393,
+      "score": 0.5349,
+      "importance": 0.5349,
+      "importance_score": 0.5349,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.964,
+        "recency": 0.9392,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1463,15 +1263,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5291,
-      "importance": 0.5291,
-      "importance_score": 0.5291,
+      "score": 0.5249,
+      "importance": 0.5249,
+      "importance_score": 0.5249,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9075,
+        "recency": 0.8841,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1486,85 +1286,6 @@
         "url": "https://www.businessinsider.com/replika-founder-warns-ai-protests-job-displacement-2026-6",
         "source": "www.businessinsider.com",
         "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_c706e0bd4a3a",
-      "title": "Fable5 与 Manus，AI 的成人礼：管控你释放出去的能量",
-      "url": "https://www.huxiu.com/article/4868900.html?f=rss",
-      "primary_url": "https://www.huxiu.com/article/4868900.html?f=rss",
-      "source": "Readhub · AI",
-      "source_name": "TopHub",
-      "sources": [
-        {
-          "id": "ed11d061e462961c68e2d90e255a9dfc6c15eda8",
-          "title": "Fable5 与 Manus，AI 的成人礼：管控你释放出去的能量",
-          "url": "https://www.huxiu.com/article/4868900.html?f=rss",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        },
-        {
-          "id": "6669595cfac86f34f109e5e73695fab44f675a56",
-          "title": "Fable5与Manus，AI的成人礼：管控你释放出去的能量",
-          "url": "https://www.huxiu.com/article/4868900.html?f=rss",
-          "source": "虎嗅 (Huxiu)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-20T15:00:26Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Readhub · AI",
-        "虎嗅 (Huxiu)"
-      ],
-      "items": [
-        {
-          "id": "ed11d061e462961c68e2d90e255a9dfc6c15eda8",
-          "title": "Fable5 与 Manus，AI 的成人礼：管控你释放出去的能量",
-          "url": "https://www.huxiu.com/article/4868900.html?f=rss",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        },
-        {
-          "id": "6669595cfac86f34f109e5e73695fab44f675a56",
-          "title": "Fable5与Manus，AI的成人礼：管控你释放出去的能量",
-          "url": "https://www.huxiu.com/article/4868900.html?f=rss",
-          "source": "虎嗅 (Huxiu)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-20T15:00:26Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5458,
-      "importance": 0.5458,
-      "importance_score": 0.5458,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 1.0,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-20T15:00:26Z",
-      "latest_at": "2026-06-20T17:04:29.626458Z",
-      "primary_item": {
-        "id": "ed11d061e462961c68e2d90e255a9dfc6c15eda8",
-        "title": "Fable5 与 Manus，AI 的成人礼：管控你释放出去的能量",
-        "url": "https://www.huxiu.com/article/4868900.html?f=rss",
-        "source": "Readhub · AI",
-        "source_name": "TopHub"
       }
     },
     {
@@ -1621,15 +1342,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5147,
-      "importance": 0.5147,
-      "importance_score": 0.5147,
+      "score": 0.5109,
+      "importance": 0.5109,
+      "importance_score": 0.5109,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8274,
+        "recency": 0.8061,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1644,6 +1365,243 @@
         "url": "https://surfingcomplexity.blog/2026/06/19/i-am-dreading-our-llm-written-incident-report-future",
         "source": "surfingcomplexity.blog",
         "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_a4b90cb09aca",
+      "title": "育碧联合创始人克劳德·吉列莫特 (Claude Guillemot) 因飞机失事身亡 / Ubisoft co-founder Claude Guillemot has died in a plane crash",
+      "url": "https://news.ycombinator.com/item?id=48609373",
+      "primary_url": "https://news.ycombinator.com/item?id=48609373",
+      "source": "hackernews",
+      "source_name": "NewsNow",
+      "sources": [
+        {
+          "id": "74cedf8c277549ea1cea9db7f30a9db5bebd0173",
+          "title": "育碧联合创始人克劳德·吉列莫特 (Claude Guillemot) 因飞机失事身亡 / Ubisoft co-founder Claude Guillemot has died in a plane crash",
+          "url": "https://news.ycombinator.com/item?id=48609373",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-20T16:50:51.401000Z"
+        },
+        {
+          "id": "d56e2d49c315c846c93e5463b04609667fe77dea",
+          "title": "育碧联合创始人克劳德·吉勒莫特在空难中去世，享年69岁 / Ubisoft co-founder Claude Guillemot has died in a plane crash",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-20/ubisoft-co-founder-claude-guillemot-dies-in-air-crash-at-age-69",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-20T14:12:50Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News (黑客新闻)",
+        "hackernews"
+      ],
+      "items": [
+        {
+          "id": "74cedf8c277549ea1cea9db7f30a9db5bebd0173",
+          "title": "育碧联合创始人克劳德·吉列莫特 (Claude Guillemot) 因飞机失事身亡 / Ubisoft co-founder Claude Guillemot has died in a plane crash",
+          "url": "https://news.ycombinator.com/item?id=48609373",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-20T16:50:51.401000Z"
+        },
+        {
+          "id": "d56e2d49c315c846c93e5463b04609667fe77dea",
+          "title": "育碧联合创始人克劳德·吉勒莫特在空难中去世，享年69岁 / Ubisoft co-founder Claude Guillemot has died in a plane crash",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-20/ubisoft-co-founder-claude-guillemot-dies-in-air-crash-at-age-69",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-20T14:12:50Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5406,
+      "importance": 0.5406,
+      "importance_score": 0.5406,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9711,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-20T14:12:50Z",
+      "latest_at": "2026-06-20T16:50:51.401000Z",
+      "primary_item": {
+        "id": "74cedf8c277549ea1cea9db7f30a9db5bebd0173",
+        "title": "育碧联合创始人克劳德·吉列莫特 (Claude Guillemot) 因飞机失事身亡 / Ubisoft co-founder Claude Guillemot has died in a plane crash",
+        "url": "https://news.ycombinator.com/item?id=48609373",
+        "source": "hackernews",
+        "source_name": "NewsNow"
+      }
+    },
+    {
+      "story_id": "story_c82c8f2b495b",
+      "title": "千百万「爱压抑」的网友，用 AI 把菲比和 Doro 改造成了自己的电子女儿",
+      "url": "https://www.huxiu.com/article/4868898.html?f=rss",
+      "primary_url": "https://www.huxiu.com/article/4868898.html?f=rss",
+      "source": "Readhub · AI",
+      "source_name": "TopHub",
+      "sources": [
+        {
+          "id": "c2abc3d478f5486853f1dfd440ba748b88df0823",
+          "title": "千百万「爱压抑」的网友，用 AI 把菲比和 Doro 改造成了自己的电子女儿",
+          "url": "https://www.huxiu.com/article/4868898.html?f=rss",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        },
+        {
+          "id": "34f9653c144c5b4e5529e3d82bc4892f948c83f5",
+          "title": "千百万“爱压抑”的网友，用AI把菲比和Doro改造成了自己的电子女儿",
+          "url": "https://www.huxiu.com/article/4868898.html?f=rss",
+          "source": "虎嗅 (Huxiu)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-20T14:41:51Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Readhub · AI",
+        "虎嗅 (Huxiu)"
+      ],
+      "items": [
+        {
+          "id": "c2abc3d478f5486853f1dfd440ba748b88df0823",
+          "title": "千百万「爱压抑」的网友，用 AI 把菲比和 Doro 改造成了自己的电子女儿",
+          "url": "https://www.huxiu.com/article/4868898.html?f=rss",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        },
+        {
+          "id": "34f9653c144c5b4e5529e3d82bc4892f948c83f5",
+          "title": "千百万“爱压抑”的网友，用AI把菲比和Doro改造成了自己的电子女儿",
+          "url": "https://www.huxiu.com/article/4868898.html?f=rss",
+          "source": "虎嗅 (Huxiu)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-20T14:41:51Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5365,
+      "importance": 0.5365,
+      "importance_score": 0.5365,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9483,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-20T14:41:51Z",
+      "latest_at": "2026-06-20T15:12:32.266061Z",
+      "primary_item": {
+        "id": "c2abc3d478f5486853f1dfd440ba748b88df0823",
+        "title": "千百万「爱压抑」的网友，用 AI 把菲比和 Doro 改造成了自己的电子女儿",
+        "url": "https://www.huxiu.com/article/4868898.html?f=rss",
+        "source": "Readhub · AI",
+        "source_name": "TopHub"
+      }
+    },
+    {
+      "story_id": "story_7003315c4bc6",
+      "title": "挪威小学近乎禁止人工智能 / Norway Imposes Near Ban On AI In Elementary School",
+      "url": "https://yro.slashdot.org/story/26/06/19/2140248/norway-imposes-near-ban-on-ai-in-elementary-school",
+      "primary_url": "https://yro.slashdot.org/story/26/06/19/2140248/norway-imposes-near-ban-on-ai-in-elementary-school",
+      "source": "Slashdot (科技资讯)",
+      "source_name": "Info Flow",
+      "sources": [
+        {
+          "id": "b129530196b10181233d9a02e60a50cb92e2cd7b",
+          "title": "挪威小学近乎禁止人工智能 / Norway Imposes Near Ban On AI In Elementary School",
+          "url": "https://yro.slashdot.org/story/26/06/19/2140248/norway-imposes-near-ban-on-ai-in-elementary-school",
+          "source": "Slashdot (科技资讯)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-19T22:00:00Z"
+        },
+        {
+          "id": "941a9af5e7fc879a34283cd840f84df85d53deeb",
+          "title": "挪威小学几乎禁止人工智能 / Norway imposes near ban on AI in elementary school",
+          "url": "https://news.ycombinator.com/item?id=48600093",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-19T21:40:15.701000Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Slashdot (科技资讯)",
+        "hackernews"
+      ],
+      "items": [
+        {
+          "id": "b129530196b10181233d9a02e60a50cb92e2cd7b",
+          "title": "挪威小学近乎禁止人工智能 / Norway Imposes Near Ban On AI In Elementary School",
+          "url": "https://yro.slashdot.org/story/26/06/19/2140248/norway-imposes-near-ban-on-ai-in-elementary-school",
+          "source": "Slashdot (科技资讯)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-19T22:00:00Z"
+        },
+        {
+          "id": "941a9af5e7fc879a34283cd840f84df85d53deeb",
+          "title": "挪威小学几乎禁止人工智能 / Norway imposes near ban on AI in elementary school",
+          "url": "https://news.ycombinator.com/item?id=48600093",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-19T21:40:15.701000Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.4989,
+      "importance": 0.4989,
+      "importance_score": 0.4989,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.7397,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-19T21:40:15.701000Z",
+      "latest_at": "2026-06-19T22:00:00Z",
+      "primary_item": {
+        "id": "b129530196b10181233d9a02e60a50cb92e2cd7b",
+        "title": "挪威小学近乎禁止人工智能 / Norway Imposes Near Ban On AI In Elementary School",
+        "url": "https://yro.slashdot.org/story/26/06/19/2140248/norway-imposes-near-ban-on-ai-in-elementary-school",
+        "source": "Slashdot (科技资讯)",
+        "source_name": "Info Flow"
       }
     }
   ]
