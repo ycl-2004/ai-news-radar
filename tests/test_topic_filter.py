@@ -15,6 +15,7 @@ from scripts.update_news import (
     is_hubtoday_placeholder_title,
     maybe_fetch_agentmail_digest,
     maybe_fetch_socialdata_updates,
+    socialdata_status_base,
     maybe_fetch_tikhub_updates,
     maybe_fetch_x_api_updates,
     maybe_fix_mojibake,
@@ -860,7 +861,9 @@ class TopicFilterTests(unittest.TestCase):
             )
         self.assertTrue(status["ok"])
         self.assertEqual(status["item_count"], 1)
-        self.assertEqual(status["estimated_cost_usd"], 0.0002)
+        # Cost now tracks raw tweet READS (2), not mapped items (1).
+        self.assertEqual(status["estimated_cost_usd"], 0.0004)
+        self.assertEqual(status["raw_reads"], 2)
         self.assertEqual(status["diagnostics"]["raw_tweet_count"], 2)
         self.assertEqual(status["diagnostics"]["mapped_tweet_count"], 1)
         self.assertEqual(items[0].site_id, "socialdata_x")
@@ -870,6 +873,63 @@ class TopicFilterTests(unittest.TestCase):
         self.assertEqual(url, "https://api.socialdata.tools/twitter/search")
         self.assertEqual(kwargs["headers"]["Authorization"], "Bearer test")
         self.assertEqual(kwargs["params"]["type"], "Latest")
+
+    def test_socialdata_drops_tweets_older_than_recency_window(self):
+        class FakeResponse:
+            def raise_for_status(self):
+                return None
+
+            def json(self):
+                return {
+                    "tweets": [
+                        {"id_str": "fresh", "full_text": "最新 AI 进展",
+                         "tweet_created_at": "2026-05-03T00:00:00.000000Z",
+                         "user": {"screen_name": "builder"}},
+                        {"id_str": "stale", "full_text": "两周前的 AI 旧闻",
+                         "tweet_created_at": "2026-04-20T00:00:00.000000Z",
+                         "user": {"screen_name": "builder"}},
+                    ]
+                }
+
+        class FakeSession:
+            def __init__(self):
+                self.calls = []
+
+            def get(self, url, **kwargs):
+                self.calls.append((url, kwargs))
+                return FakeResponse()
+
+        session = FakeSession()
+        env = {
+            "SOCIALDATA_ENABLED": "1",
+            "SOCIALDATA_API_KEY": "test",
+            "SOCIALDATA_FORCE_RUN": "1",
+            "SOCIALDATA_MAX_RESULTS": "10",
+            "SOCIALDATA_LIST_ENABLED": "0",
+        }
+        with patch.dict("os.environ", env, clear=True):
+            items, status = maybe_fetch_socialdata_updates(
+                session,
+                __import__("datetime").datetime.fromisoformat("2026-05-03T01:00:00+00:00"),
+            )
+        self.assertEqual([item.meta["post_id"] for item in items], ["fresh"])
+        self.assertEqual(status["item_count"], 1)
+        self.assertEqual(status["recency_days"], 4)
+        self.assertEqual(status["skipped_stale_count"], 1)
+        # Cost still counts the stale tweet — we paid to READ it before dropping it.
+        self.assertEqual(status["raw_reads"], 2)
+
+    def test_socialdata_status_cost_ceiling_includes_list(self):
+        env = {"SOCIALDATA_API_KEY": "test"}  # list on by default
+        with patch.dict("os.environ", env, clear=True):
+            status = socialdata_status_base(
+                __import__("datetime").datetime.fromisoformat("2026-05-03T01:00:00+00:00")
+            )
+        # search cap (20) + list cap (50) both counted in the per-run ceiling.
+        self.assertEqual(status["search_result_cap"], 20)
+        self.assertEqual(status["list_result_cap"], 50)
+        self.assertEqual(status["combined_result_cap"], 70)
+        self.assertEqual(status["estimated_max_cost_usd_per_run"], round(70 * 0.0002, 4))
 
     def test_socialdata_paginates_until_result_cap(self):
         class FakeResponse:

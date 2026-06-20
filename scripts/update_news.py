@@ -204,6 +204,12 @@ SOCIALDATA_MAX_QUERY_CHARS = 512
 SOCIALDATA_LIST_ID_DEFAULT = "1695376776867062037"
 SOCIALDATA_LIST_DEFAULT_MAX_RESULTS = 50
 SOCIALDATA_LIST_DEFAULT_EXCLUDE = ""
+# Hard cap on list pagination so a heavily-filtered list can't page (and bill)
+# without bound. Each page is a paid read.
+SOCIALDATA_LIST_MAX_PAGES = 10
+# Exact recency window for SocialData results, in days (search + list). Kept
+# consistent with TikHub. Tweets older than this are dropped after fetch.
+SOCIALDATA_RECENCY_DAYS = 4
 # Keep only first-party posts; drop retweets and replies (conversational noise).
 SOCIALDATA_LIST_ALLOWED_TYPES = frozenset({"tweet", "quote"})
 TIKHUB_API_BASE_DEFAULT = "https://api.tikhub.io"
@@ -3328,6 +3334,12 @@ def socialdata_status_base(now: datetime, paid_source_state: dict[str, Any] | No
     state_entry = paid_source_state_entry(paid_source_state, "socialdata")
     enable_toggle = env_flag_default("SOCIALDATA_ENABLED", True)
     api_key_present = bool(str(os.environ.get("SOCIALDATA_API_KEY") or "").strip())
+    # The curated KOL list is a SECOND paid path on top of the keyword search,
+    # so the per-run cost ceiling must include it (search cap + list cap).
+    list_id = str(os.environ.get("SOCIALDATA_LIST_ID") or SOCIALDATA_LIST_ID_DEFAULT).strip()
+    list_enabled = bool(list_id) and env_flag_default("SOCIALDATA_LIST_ENABLED", True)
+    list_cap = max(0, min(env_int("SOCIALDATA_LIST_MAX_RESULTS", SOCIALDATA_LIST_DEFAULT_MAX_RESULTS), 200)) if list_enabled else 0
+    combined_cap = effective_cap + list_cap
     return {
         "enabled": enable_toggle and api_key_present,
         "enable_toggle": enable_toggle,
@@ -3340,7 +3352,11 @@ def socialdata_status_base(now: datetime, paid_source_state: dict[str, Any] | No
         "daily_tweet_limit": daily_tweet_limit,
         "max_results_per_run": max_results,
         "effective_result_cap": effective_cap,
-        "estimated_max_cost_usd_per_run": round(effective_cap * SOCIALDATA_TWEET_READ_COST_USD, 4),
+        "search_result_cap": effective_cap,
+        "list_result_cap": list_cap,
+        "combined_result_cap": combined_cap,
+        "recency_days": SOCIALDATA_RECENCY_DAYS,
+        "estimated_max_cost_usd_per_run": round(combined_cap * SOCIALDATA_TWEET_READ_COST_USD, 4),
         "run_interval_hours": paid_source_interval_hours("SOCIALDATA"),
         "run_utc_hour": max(0, min(env_int("SOCIALDATA_RUN_UTC_HOUR", 0), 23)),
         "run_utc_minute_max": max(0, min(env_int("SOCIALDATA_RUN_UTC_MINUTE_MAX", 10), 59)),
@@ -3472,10 +3488,13 @@ def fetch_socialdata_list_tweets(
     max_results: int,
     exclude_handles: set[str] | None = None,
     base_url: str = SOCIALDATA_API_BASE_DEFAULT,
+    max_pages: int = SOCIALDATA_LIST_MAX_PAGES,
 ) -> tuple[list[RawItem], dict[str, Any]]:
     """Pull a curated X list timeline through SocialData, keeping only members'
     own AI posts. Retweets, replies, the excluded owner, and egg-avatar accounts
-    are dropped so the list stays a high-signal, bot-free source."""
+    are dropped so the list stays a high-signal, bot-free source. Pagination is
+    hard-capped at ``max_pages`` so a heavily-filtered list can't bill without
+    bound."""
     list_id = str(list_id or "").strip()
     if not list_id:
         raise ValueError("socialdata_list_id_empty")
@@ -3489,7 +3508,9 @@ def fetch_socialdata_list_tweets(
     seen_cursors: set[str] = set()
     seen_tweet_ids: set[str] = set()
     pagination_error: str | None = None
-    while len(out) < capped_max_results:
+    page_cap = max(1, int(max_pages or 1))
+    hit_page_cap = False
+    while len(out) < capped_max_results and page_count < page_cap:
         params: dict[str, str] = {}
         if cursor:
             params["cursor"] = cursor
@@ -3572,12 +3593,15 @@ def fetch_socialdata_list_tweets(
             break
         seen_cursors.add(next_cursor)
         cursor = next_cursor
+    hit_page_cap = page_count >= page_cap and len(out) < capped_max_results
     diagnostics = {
         "endpoint": f"/twitter/list/{list_id}/tweets",
         "list_id": list_id,
         "raw_tweet_count": raw_tweet_count,
         "mapped_tweet_count": len(out),
         "page_count": page_count,
+        "max_pages": page_cap,
+        "hit_page_cap": hit_page_cap,
         "skipped": skipped,
         "excluded_handles": sorted(exclude),
         "reached_result_cap": len(out) >= capped_max_results,
@@ -3637,6 +3661,8 @@ def maybe_fetch_socialdata_updates(
     items: list[RawItem] = []
     seen_urls: set[str] = set()
     errors: list[str] = []
+    recency_cutoff = now - timedelta(days=SOCIALDATA_RECENCY_DAYS) if SOCIALDATA_RECENCY_DAYS else None
+    skipped_stale = 0
 
     # 1) Broad keyword search: discovers new voices across en/zh.
     try:
@@ -3651,6 +3677,9 @@ def maybe_fetch_socialdata_updates(
         )
         status["diagnostics"] = diagnostics
         for item in search_items:
+            if recency_cutoff and item.published_at and item.published_at < recency_cutoff:
+                skipped_stale += 1
+                continue
             if item.url in seen_urls:
                 continue
             seen_urls.add(item.url)
@@ -3673,6 +3702,9 @@ def maybe_fetch_socialdata_updates(
             )
             status["list_diagnostics"] = list_diagnostics
             for item in list_items:
+                if recency_cutoff and item.published_at and item.published_at < recency_cutoff:
+                    skipped_stale += 1
+                    continue
                 if item.url in seen_urls:
                     continue
                 seen_urls.add(item.url)
@@ -3681,11 +3713,19 @@ def maybe_fetch_socialdata_updates(
         except Exception as exc:
             errors.append(f"list:{type(exc).__name__}")
 
+    # SocialData bills per tweet READ (raw), not per kept item; the list discards
+    # retweets/replies/stale posts, so raw reads exceed mapped items. Cost and the
+    # ceiling in socialdata_status_base both track raw reads across BOTH paths.
+    search_raw = int((status.get("diagnostics") or {}).get("raw_tweet_count") or 0)
+    list_raw = int((status.get("list_diagnostics") or {}).get("raw_tweet_count") or 0)
     status["list_enabled"] = list_enabled
     status["list_item_count"] = list_item_count
     status["search_item_count"] = len(items) - list_item_count
     status["item_count"] = len(items)
-    status["estimated_cost_usd"] = round(len(items) * SOCIALDATA_TWEET_READ_COST_USD, 4)
+    status["recency_days"] = SOCIALDATA_RECENCY_DAYS
+    status["skipped_stale_count"] = skipped_stale
+    status["raw_reads"] = search_raw + list_raw
+    status["estimated_cost_usd"] = round((search_raw + list_raw) * SOCIALDATA_TWEET_READ_COST_USD, 4)
     if errors and not items:
         status["ok"] = False
         status["error"] = ";".join(errors)
