@@ -11,6 +11,7 @@ const state = {
   allDataUrl: "data/latest-24h-all.json",
   allDataPromise: null,
   siteFilter: "",
+  authorFilter: "",
   query: "",
   mode: "ai",
   waytoagiMode: "today",
@@ -23,6 +24,7 @@ const state = {
   boleExpanded: false,
   listSort: "priority",
   siteGroupsExpanded: false,
+  xAuthorsExpanded: false,
 };
 
 const statsEl = document.getElementById("stats");
@@ -400,12 +402,30 @@ function renderSiteFilters() {
   };
   sitePillsEl.appendChild(allPill);
 
+  if (state.authorFilter) {
+    const authorPill = document.createElement("button");
+    authorPill.type = "button";
+    authorPill.className = "pill active author-filter-pill";
+    authorPill.textContent = `X 博主 ${state.authorFilter} ×`;
+    authorPill.title = "清除博主筛选";
+    authorPill.onclick = () => {
+      state.authorFilter = "";
+      state.siteFilter = "";
+      state.siteGroupsExpanded = false;
+      renderSiteFilters();
+      renderBolePicks();
+      renderList();
+    };
+    sitePillsEl.appendChild(authorPill);
+  }
+
   stats.forEach((s) => {
     const btn = document.createElement("button");
     btn.className = `pill ${state.siteFilter === s.site_id ? "active" : ""}`;
     btn.textContent = `${s.site_name} ${siteRatioText(s)}`;
     btn.onclick = () => {
       state.siteFilter = s.site_id;
+      if (s.site_id !== "socialdata_x") state.authorFilter = "";
       renderSiteFilters();
       renderBolePicks();
       renderList();
@@ -509,6 +529,7 @@ function getFilteredItems() {
   const q = state.query.trim().toLowerCase();
   return sectionItems().filter((item) => {
     if (state.siteFilter && item.site_id !== state.siteFilter) return false;
+    if (state.authorFilter && (item.site_id !== "socialdata_x" || item.source !== state.authorFilter)) return false;
     if (!q) return true;
     const hay = `${item.title || ""} ${item.title_zh || ""} ${item.title_en || ""} ${item.site_name || ""} ${item.source || ""}`.toLowerCase();
     return hay.includes(q);
@@ -1327,7 +1348,7 @@ function renderBoleFallback(picks) {
 }
 
 function storyMatchesFilteredItems(story, filteredItems) {
-  if (state.activeSection === "hot" && !state.siteFilter && !state.query.trim()) return true;
+  if (state.activeSection === "hot" && !state.siteFilter && !state.authorFilter && !state.query.trim()) return true;
   const urls = new Set(filteredItems.map((item) => item.url).filter(Boolean));
   const ids = new Set(filteredItems.map((item) => item.id).filter(Boolean));
   const storyRefs = [
@@ -1642,7 +1663,11 @@ function buildTopStoryCard(row, rank) {
   const meta = document.createElement("div");
   meta.className = "intel-meta";
   const time = document.createElement("time");
-  time.textContent = fmtTime(timelineIso(item));
+  // Brief stories keep their timeline on the story object rather than repeating
+  // it on primary_item. Fall back to that aggregate time so Top 3 never shows
+  // "时间未知" when the story itself has a verified latest/earliest timestamp.
+  const storyTimeline = row.story?.latest_at || row.story?.earliest_at || "";
+  time.textContent = fmtTime(timelineIso(item) || storyTimeline);
   const primarySource = itemSourceRefs(item, row)[0];
   const score = document.createElement("strong");
   const displayScore = row.story
@@ -1963,6 +1988,7 @@ function renderLoadingNotice(label, count) {
 }
 
 function currentFilterLabel(filtered) {
+  if (state.authorFilter) return `${listTitleText()} · X 博主 ${state.authorFilter}`;
   if (state.siteFilter) {
     const item = filtered[0];
     const stat = currentSiteStats().find((s) => s.site_id === state.siteFilter);
@@ -2143,9 +2169,16 @@ function renderWaytoagi(waytoagi) {
   });
 }
 
-function renderMetric(label, value, tone = "") {
-  const node = document.createElement("div");
-  node.className = `health-metric ${tone}`.trim();
+function renderMetric(label, value, tone = "", options = {}) {
+  const interactive = typeof options.onClick === "function";
+  const node = document.createElement(interactive ? "button" : "div");
+  node.className = `health-metric ${interactive ? "health-metric-button" : ""} ${tone}`.trim();
+  if (interactive) {
+    node.type = "button";
+    node.title = options.title || "查看详情";
+    node.setAttribute("aria-expanded", String(Boolean(options.expanded)));
+    node.addEventListener("click", options.onClick);
+  }
   const labelEl = document.createElement("span");
   labelEl.className = "health-label";
   labelEl.textContent = label;
@@ -2153,6 +2186,54 @@ function renderMetric(label, value, tone = "") {
   valueEl.textContent = value;
   node.append(labelEl, valueEl);
   return node;
+}
+
+function socialdataAuthors() {
+  return Array.from(new Set(
+    state.itemsAi
+      .filter((item) => item.site_id === "socialdata_x")
+      .map((item) => String(item.source || "").trim())
+      .filter(Boolean),
+  )).sort((a, b) => a.localeCompare(b, "en"));
+}
+
+function selectSocialdataAuthor(author) {
+  state.authorFilter = author;
+  state.siteFilter = "socialdata_x";
+  state.activeSection = "hot";
+  state.boleExpanded = false;
+  state.siteGroupsExpanded = false;
+  state.xAuthorsExpanded = false;
+  renderSectionTabs();
+  renderModeSwitch();
+  renderSiteFilters();
+  renderBolePicks();
+  renderList();
+  renderSourceHealth();
+  document.querySelector(".list-wrap")?.scrollIntoView({ behavior: "smooth", block: "start" });
+}
+
+function renderSocialdataAuthorList(authors, itemCount) {
+  const panel = document.createElement("section");
+  panel.className = "health-author-list";
+  const heading = document.createElement("div");
+  heading.className = "health-author-list-title";
+  heading.textContent = "本轮 X 扫到的博主";
+  const meta = document.createElement("div");
+  meta.className = "health-author-list-meta";
+  meta.textContent = `${fmtNumber(authors.length)} 位博主 · ${fmtNumber(itemCount)} 条入池内容`;
+  const list = document.createElement("div");
+  list.className = "health-author-list-items";
+  authors.forEach((author) => {
+    const item = document.createElement("button");
+    item.type = "button";
+    item.textContent = author;
+    item.title = `查看 ${author} 的 X 内容`;
+    item.addEventListener("click", () => selectSocialdataAuthor(author));
+    list.appendChild(item);
+  });
+  panel.append(heading, meta, list);
+  return panel;
 }
 
 function renderIssueList(title, items) {
@@ -2201,10 +2282,26 @@ function renderSourceHealth(errorMessage = "") {
   const failedFeeds = Array.isArray(rss.failed_feeds) ? rss.failed_feeds : [];
   const skippedFeeds = Array.isArray(rss.skipped_feeds) ? rss.skipped_feeds : [];
   const replacedFeeds = Array.isArray(rss.replaced_feeds) ? rss.replaced_feeds : [];
+  // Paid sources run on a protected interval. A skipped refresh can still have
+  // usable records from the last successful run in today's data pool, so don't
+  // hide them behind a misleading "待窗口" status.
+  const socialdataLiveCount = Number(socialdata.item_count || 0);
+  const socialdataPoolCount = siteAiPoolCount("socialdata_x");
+  const socialdataDisplayCount = socialdataLiveCount || socialdataPoolCount;
+  const xApiLiveCount = Number(xApi.item_count || 0);
+  const xApiPoolCount = siteAiPoolCount("xapi");
+  const xApiDisplayCount = xApiLiveCount || xApiPoolCount;
+  const xAuthors = socialdataAuthors();
 
   const xMetricValue = socialdata.enabled
-    ? (socialdata.skipped ? "待窗口" : (Number(socialdata.item_count || 0) ? `${fmtNumber(socialdata.item_count)}条` : "已连接，暂无匹配"))
-    : (xApi.enabled ? (xApi.skipped ? "待窗口" : `${fmtNumber(xApi.item_count || 0)}条`) : "未启用");
+    ? (socialdataDisplayCount
+      ? "成功"
+      : (socialdata.skipped ? "待窗口" : "已连接，暂无匹配"))
+    : (xApi.enabled
+      ? (xApiDisplayCount
+        ? "成功"
+        : (xApi.skipped ? "待窗口" : "已连接，暂无匹配"))
+      : "未启用");
   const xMetricTone = socialdata.error || xApi.error ? "bad" : (emptyAdvanced.length ? "warn" : "");
 
   const metricGrid = document.createElement("div");
@@ -2212,12 +2309,22 @@ function renderSourceHealth(errorMessage = "") {
   metricGrid.append(
     renderMetric("内置源", `${fmtNumber(status.successful_sites || 0)}/${fmtNumber(sites.length)}`, failedSites.length ? "warn" : "ok"),
     renderMetric("RSS", rss.enabled ? `${fmtNumber(rss.ok_feeds || 0)}/${fmtNumber(rss.effective_feed_total || 0)}` : "未启用"),
-    renderMetric("X数据源", xMetricValue, xMetricTone),
+    renderMetric("X数据源", xMetricValue, xMetricTone, xAuthors.length ? {
+      expanded: state.xAuthorsExpanded,
+      title: "查看本轮扫描到的 X 博主",
+      onClick: () => {
+        state.xAuthorsExpanded = !state.xAuthorsExpanded;
+        renderSourceHealth();
+      },
+    } : {}),
     renderMetric("AgentMail", agentmail.enabled ? `${fmtNumber(agentmail.item_count || 0)}封` : "未启用", agentmail.error ? "bad" : ""),
     renderMetric("失败源", fmtNumber(failedSites.length + failedFeeds.length), failedSites.length || failedFeeds.length ? "bad" : "ok"),
     renderMetric("替换/跳过", `${fmtNumber(replacedFeeds.length)}/${fmtNumber(skippedFeeds.length)}`)
   );
   sourceHealthEl.appendChild(metricGrid);
+  if (state.xAuthorsExpanded && xAuthors.length) {
+    sourceHealthEl.appendChild(renderSocialdataAuthorList(xAuthors, socialdataDisplayCount));
+  }
 
   const issues = document.createElement("div");
   issues.className = "health-issues";
@@ -2348,6 +2455,8 @@ async function init() {
     waytoagiUpdatedAtEl.textContent = "加载失败";
     waytoagiListEl.innerHTML = `<div class="waytoagi-error">${waytoagiResult.reason.message}</div>`;
   }
+
+  document.dispatchEvent(new CustomEvent("aiRadar:ready"));
 }
 
 searchInputEl.addEventListener("input", (e) => {
@@ -2358,6 +2467,7 @@ searchInputEl.addEventListener("input", (e) => {
 
 siteSelectEl.addEventListener("change", (e) => {
   state.siteFilter = e.target.value;
+  if (state.siteFilter !== "socialdata_x") state.authorFilter = "";
   renderSiteFilters();
   renderBolePicks();
   renderList();

@@ -3780,6 +3780,41 @@ def parse_epoch_any(value: Any, now: datetime) -> datetime | None:
         return None
 
 
+def is_tikhub_generic_audio_title(title: str) -> bool:
+    return bool(
+        re.fullmatch(
+            r"@?.{1,80}(?:创作的原声|的原声|original\s+sound)",
+            (title or "").strip(),
+            flags=re.IGNORECASE,
+        )
+    )
+
+
+def first_tikhub_douyin_title(aweme: dict[str, Any]) -> str:
+    share_info = aweme.get("share_info") if isinstance(aweme.get("share_info"), dict) else {}
+    candidates = (
+        aweme.get("desc"),
+        aweme.get("title"),
+        aweme.get("caption"),
+        share_info.get("share_desc"),
+        share_info.get("share_title"),
+    )
+    for candidate in candidates:
+        title = compact_public_snippet(str(candidate or ""), max_chars=220)
+        if title and not is_tikhub_generic_audio_title(title):
+            return title
+    return ""
+
+
+def parse_tikhub_published_at(record: dict[str, Any], now: datetime, fields: tuple[str, ...]) -> datetime | None:
+    for field in fields:
+        value = record.get(field)
+        published = parse_epoch_any(value, now) or parse_date_any(value, now)
+        if published:
+            return published
+    return None
+
+
 def parse_tikhub_douyin_items(payload: dict[str, Any], now: datetime, keyword: str, limit: int) -> list[RawItem]:
     out: list[RawItem] = []
     seen_ids: set[str] = set()
@@ -3792,10 +3827,7 @@ def parse_tikhub_douyin_items(payload: dict[str, Any], now: datetime, keyword: s
         if not isinstance(aweme, dict):
             continue
         post_id = str(aweme.get("aweme_id") or aweme.get("awemeId") or "").strip()
-        title = compact_public_snippet(str(aweme.get("desc") or aweme.get("title") or aweme.get("caption") or ""), max_chars=220)
-        generic_audio_title = re.fullmatch(r"@?.{1,80}(?:创作的原声|的原声|original\s+sound)", title, flags=re.IGNORECASE)
-        if generic_audio_title:
-            title = ""
+        title = first_tikhub_douyin_title(aweme)
         if not (post_id and title) or post_id in seen_ids:
             continue
         seen_ids.add(post_id)
@@ -3806,7 +3838,21 @@ def parse_tikhub_douyin_items(payload: dict[str, Any], now: datetime, keyword: s
             aweme.get("share_info", {}).get("share_url") if isinstance(aweme.get("share_info"), dict) else "",
             f"https://www.douyin.com/video/{post_id}",
         )
-        published = parse_epoch_any(aweme.get("create_time") or aweme.get("create_time_stamp"), now) or now
+        published = parse_tikhub_published_at(
+            aweme,
+            now,
+            (
+                "create_time",
+                "create_time_stamp",
+                "createTime",
+                "createTimeStamp",
+                "created_at",
+                "publish_time",
+                "publishTime",
+                "publish_timestamp",
+                "time",
+            ),
+        ) or now
         out.append(
             RawItem(
                 site_id="tikhub_douyin",
@@ -3894,20 +3940,35 @@ def parse_tikhub_xiaohongshu_items(payload: dict[str, Any], now: datetime, keywo
             node.get("shareUrl"),
             f"https://www.xiaohongshu.com/explore/{note_id}{'?xsec_token=' + xsec_token if xsec_token else ''}",
         )
-        published = (
-            parse_epoch_any(
-                note.get("time")
-                or note.get("create_time")
-                or note.get("created_at")
-                or note.get("last_update_time")
-                or node.get("time")
-                or node.get("create_time")
-                or node.get("created_at")
-                or node.get("last_update_time"),
-                now,
-            )
-            or now
-        )
+        published = parse_tikhub_published_at(
+            note,
+            now,
+            (
+                "time",
+                "create_time",
+                "created_at",
+                "last_update_time",
+                "createTime",
+                "createdAt",
+                "lastUpdateTime",
+                "publish_time",
+                "publishTime",
+            ),
+        ) or parse_tikhub_published_at(
+            node,
+            now,
+            (
+                "time",
+                "create_time",
+                "created_at",
+                "last_update_time",
+                "createTime",
+                "createdAt",
+                "lastUpdateTime",
+                "publish_time",
+                "publishTime",
+            ),
+        ) or now
         out.append(
             RawItem(
                 site_id="tikhub_xiaohongshu",

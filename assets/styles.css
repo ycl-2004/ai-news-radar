@@ -483,6 +483,20 @@ summary:focus-visible {
   background: var(--surface-soft);
 }
 
+.health-metric-button {
+  width: 100%;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.health-metric-button:hover,
+.health-metric-button:focus-visible {
+  border-color: var(--accent);
+  outline: none;
+}
+
 .health-metric strong {
   font-size: 18px;
 }
@@ -522,6 +536,53 @@ summary:focus-visible {
 .health-issues {
   display: grid;
   gap: 8px;
+}
+
+.health-author-list {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 10px 12px;
+  background: var(--surface-soft);
+}
+
+.health-author-list-title {
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.health-author-list-meta {
+  margin-top: 3px;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.health-author-list-items {
+  display: flex;
+  max-height: 220px;
+  margin-top: 9px;
+  gap: 6px;
+  overflow: auto;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.health-author-list-items button {
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 3px 7px;
+  color: var(--ink-soft);
+  background: var(--surface);
+  font: inherit;
+  font-size: 12px;
+  line-height: 1.25;
+  cursor: pointer;
+}
+
+.health-author-list-items button:hover,
+.health-author-list-items button:focus-visible {
+  border-color: var(--accent);
+  color: var(--accent);
+  outline: none;
 }
 
 .health-issue {

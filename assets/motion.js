@@ -6,16 +6,22 @@
   mm.add("(prefers-reduced-motion: no-preference)", function () {
     gsap.defaults({ duration: 0.55, ease: "power3.out" });
 
-    // Page intro timeline
-    const tl = gsap.timeline();
-    tl.from(".hero-headline", { autoAlpha: 0, y: 18, duration: 0.5 })
-      .from(".hero-sub", { autoAlpha: 0, y: 10, duration: 0.4 }, "-=0.2")
-      .from(".hero-meta", { autoAlpha: 0, y: 10, duration: 0.4 }, "-=0.25")
-      .from(".stat", { autoAlpha: 0, y: 14, scale: 0.98, stagger: 0.06, duration: 0.45 }, "-=0.15")
-      .from(".section-tab", { autoAlpha: 0, y: 10, stagger: 0.045, duration: 0.4 }, "-=0.2")
-      .from(".section-summary", { autoAlpha: 0, y: 8, duration: 0.35 }, "-=0.25")
-      .from(".primary-controls", { autoAlpha: 0, y: 8, duration: 0.4 }, "-=0.15")
-      .from(".advanced-panel", { autoAlpha: 0, y: 8, duration: 0.4 }, "-=0.3");
+    // Stats and section tabs are data-driven. Wait until app.js has rendered
+    // them so GSAP never tries to animate missing targets on first load.
+    document.addEventListener("aiRadar:ready", function () {
+      const tl = gsap.timeline();
+      const addFrom = function (selector, vars, position) {
+        if (document.querySelector(selector)) tl.from(selector, vars, position);
+      };
+      addFrom(".hero-headline", { autoAlpha: 0, y: 18, duration: 0.5 });
+      addFrom(".hero-sub", { autoAlpha: 0, y: 10, duration: 0.4 }, "-=0.2");
+      addFrom(".hero-meta", { autoAlpha: 0, y: 10, duration: 0.4 }, "-=0.25");
+      addFrom(".stat", { autoAlpha: 0, y: 14, scale: 0.98, stagger: 0.06, duration: 0.45 }, "-=0.15");
+      addFrom(".section-tab", { autoAlpha: 0, y: 10, stagger: 0.045, duration: 0.4 }, "-=0.2");
+      addFrom(".section-summary", { autoAlpha: 0, y: 8, duration: 0.35 }, "-=0.25");
+      addFrom(".primary-controls", { autoAlpha: 0, y: 8, duration: 0.4 }, "-=0.15");
+      addFrom(".advanced-panel", { autoAlpha: 0, y: 8, duration: 0.4 }, "-=0.3");
+    }, { once: true });
 
     // Top stories render after data loads; keep legacy selectors for old data views.
     document.addEventListener("aiRadar:briefRendered", function () {

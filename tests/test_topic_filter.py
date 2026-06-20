@@ -1308,6 +1308,37 @@ class TopicFilterTests(unittest.TestCase):
         self.assertEqual(items[0].url, "https://www.douyin.com/video/712345")
         self.assertEqual(items[0].meta["keyword"], "AI")
 
+    def test_parse_tikhub_douyin_uses_meaningful_fallback_title_and_camel_case_time(self):
+        now = __import__("datetime").datetime.fromisoformat("2026-05-03T01:00:00+00:00")
+        created_at = int((now - __import__("datetime").timedelta(days=2)).timestamp())
+        payload = {
+            "data": [
+                {
+                    "aweme_info": {
+                        "aweme_id": "fallback-title",
+                        "desc": "@AI大道创作的原声",
+                        "caption": "用 AI 做了一个自动化工作流",
+                        "createTime": created_at,
+                        "author": {"nickname": "AI创作者"},
+                    }
+                },
+                {
+                    "aweme_info": {
+                        "aweme_id": "audio-only",
+                        "desc": "@AI大道创作的原声",
+                        "create_time": created_at,
+                        "author": {"nickname": "应被跳过"},
+                    }
+                },
+            ]
+        }
+
+        items = parse_tikhub_douyin_items(payload, now=now, keyword="AI", limit=5)
+
+        self.assertEqual(len(items), 1)
+        self.assertEqual(items[0].title, "用 AI 做了一个自动化工作流")
+        self.assertEqual(items[0].published_at, __import__("datetime").datetime.fromtimestamp(created_at, tz=timezone.utc))
+
     def test_fetch_tikhub_search_drops_posts_older_than_recency_window(self):
         import datetime as _dt
 
@@ -1375,6 +1406,29 @@ class TopicFilterTests(unittest.TestCase):
         self.assertEqual(items[0].source, "工具研究员")
         self.assertEqual(items[0].url, "https://www.xiaohongshu.com/explore/xhs123")
         self.assertEqual(items[0].meta["post_id"], "xhs123")
+
+    def test_parse_tikhub_xiaohongshu_accepts_camel_case_publish_time(self):
+        now = __import__("datetime").datetime.fromisoformat("2026-05-03T01:00:00+00:00")
+        created_at = int((now - __import__("datetime").timedelta(days=2)).timestamp())
+        payload = {
+            "data": {
+                "items": [
+                    {
+                        "id": "xhs-camel-time",
+                        "note_card": {
+                            "display_title": "AI 编程工作流实测",
+                            "createTime": created_at,
+                            "user": {"nickname": "时间字段测试"},
+                        },
+                    }
+                ]
+            }
+        }
+
+        items = parse_tikhub_xiaohongshu_items(payload, now=now, keyword="AI", limit=5)
+
+        self.assertEqual(len(items), 1)
+        self.assertEqual(items[0].published_at, __import__("datetime").datetime.fromtimestamp(created_at, tz=timezone.utc))
 
     def test_fetch_tikhub_search_calls_both_platforms(self):
         class FakeResponse:
