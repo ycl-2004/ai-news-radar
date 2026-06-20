@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-19T23:01:16.233559Z",
+  "generated_at": "2026-06-20T01:34:58.068354Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -38,15 +38,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8356,
-      "importance": 0.8356,
-      "importance_score": 0.8356,
+      "score": 0.8296,
+      "importance": 0.8296,
+      "importance_score": 0.8296,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.9087,
+        "recency": 0.8757,
         "story_heat": 0.0
       },
       "category": "official",
@@ -100,15 +100,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8266,
-      "importance": 0.8266,
-      "importance_score": 0.8266,
+      "score": 0.8207,
+      "importance": 0.8207,
+      "importance_score": 0.8207,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.9036,
+        "recency": 0.8708,
         "story_heat": 0.0
       },
       "category": "official",
@@ -181,15 +181,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8072,
-      "importance": 0.8072,
-      "importance_score": 0.8072,
+      "score": 0.8007,
+      "importance": 0.8007,
+      "importance_score": 0.8007,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.77,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9978,
+        "recency": 0.9615,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -262,15 +262,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7932,
-      "importance": 0.7932,
-      "importance_score": 0.7932,
+      "score": 0.7869,
+      "importance": 0.7869,
+      "importance_score": 0.7869,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9531,
+        "recency": 0.9184,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -324,15 +324,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7826,
-      "importance": 0.7826,
-      "importance_score": 0.7826,
+      "score": 0.7761,
+      "importance": 0.7761,
+      "importance_score": 0.7761,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.78,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9831,
+        "recency": 0.9474,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -347,106 +347,6 @@
         "title": "Figure机器人数首超人类员工",
         "url": "https://x.com/rohanpaul_ai/status/2068089038213693800",
         "source": "X：Rohan Paul (@rohanpaul_ai)",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_8d2f277efd93",
-      "title": "八部门联合发文力推\"人工智能 + 消费\"，扩大 AI 手机电脑及智能网联汽车消费",
-      "url": "https://www.ithome.com/0/966/295.htm",
-      "primary_url": "https://www.ithome.com/0/966/295.htm",
-      "source": "IT之家（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "31e504614dd0d6caadfbaa4eb8b6834ce92eccb4",
-          "title": "八部门联合发文力推\"人工智能 + 消费\"，扩大 AI 手机电脑及智能网联汽车消费",
-          "url": "https://www.ithome.com/0/966/295.htm",
-          "source": "IT之家（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-18T23:56:08Z"
-        },
-        {
-          "id": "9b6421b74a99026eba9c8b589f4ba66792c87530",
-          "title": "八部门联合发文力推「人工智能 + 消费」，扩大 AI 手机电脑及智能网联汽车消费",
-          "url": "https://www.ithome.com/0/966/295.htm",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        },
-        {
-          "id": "dac92555236efcfb4dd2b027e8dc73bac0447ff5",
-          "title": "八部门联合发文加快“人工智能 + 消费”发展，扩大 AI 手机电脑及智能网联汽车消费",
-          "url": "https://www.ithome.com/0/966/295.htm",
-          "source": "IT之家 (ITHome)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-18T23:56:08Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "IT之家 (ITHome)",
-        "IT之家（RSS）",
-        "Readhub · AI"
-      ],
-      "items": [
-        {
-          "id": "31e504614dd0d6caadfbaa4eb8b6834ce92eccb4",
-          "title": "八部门联合发文力推\"人工智能 + 消费\"，扩大 AI 手机电脑及智能网联汽车消费",
-          "url": "https://www.ithome.com/0/966/295.htm",
-          "source": "IT之家（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-18T23:56:08Z"
-        },
-        {
-          "id": "9b6421b74a99026eba9c8b589f4ba66792c87530",
-          "title": "八部门联合发文力推「人工智能 + 消费」，扩大 AI 手机电脑及智能网联汽车消费",
-          "url": "https://www.ithome.com/0/966/295.htm",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        },
-        {
-          "id": "dac92555236efcfb4dd2b027e8dc73bac0447ff5",
-          "title": "八部门联合发文加快“人工智能 + 消费”发展，扩大 AI 手机电脑及智能网联汽车消费",
-          "url": "https://www.ithome.com/0/966/295.htm",
-          "source": "IT之家 (ITHome)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-18T23:56:08Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.7786,
-      "importance": 0.7786,
-      "importance_score": 0.7786,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.76,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7165,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-18T23:56:08Z",
-      "latest_at": "2026-06-19T00:54:54.036357Z",
-      "primary_item": {
-        "id": "31e504614dd0d6caadfbaa4eb8b6834ce92eccb4",
-        "title": "八部门联合发文力推\"人工智能 + 消费\"，扩大 AI 手机电脑及智能网联汽车消费",
-        "url": "https://www.ithome.com/0/966/295.htm",
-        "source": "IT之家（RSS）",
         "source_name": "AI HOT"
       }
     },
@@ -485,15 +385,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7658,
-      "importance": 0.7658,
-      "importance_score": 0.7658,
+      "score": 0.7596,
+      "importance": 0.7596,
+      "importance_score": 0.7596,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9398,
+        "recency": 0.9057,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -509,68 +409,6 @@
         "url": "https://x.com/dotey/status/2068042001895809420",
         "source": "X：宝玉 (@dotey)",
         "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_4f4fa9bb905b",
-      "title": "Opus 4.6 即将弃用（快速） / Upcoming deprecation of Opus 4.6 (fast)",
-      "url": "https://github.blog/changelog/2026-06-18-upcoming-deprecation-of-opus-4-6-fast",
-      "primary_url": "https://github.blog/changelog/2026-06-18-upcoming-deprecation-of-opus-4-6-fast",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "c5facff93428bad346379901a1f9cd1a29309639",
-          "title": "Opus 4.6 即将弃用（快速） / Upcoming deprecation of Opus 4.6 (fast)",
-          "url": "https://github.blog/changelog/2026-06-18-upcoming-deprecation-of-opus-4-6-fast",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-18T23:58:34Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "items": [
-        {
-          "id": "c5facff93428bad346379901a1f9cd1a29309639",
-          "title": "Opus 4.6 即将弃用（快速） / Upcoming deprecation of Opus 4.6 (fast)",
-          "url": "https://github.blog/changelog/2026-06-18-upcoming-deprecation-of-opus-4-6-fast",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-18T23:58:34Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.793,
-      "importance": 0.793,
-      "importance_score": 0.793,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.7169,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-18T23:58:34Z",
-      "latest_at": "2026-06-18T23:58:34Z",
-      "primary_item": {
-        "id": "c5facff93428bad346379901a1f9cd1a29309639",
-        "title": "Opus 4.6 即将弃用（快速） / Upcoming deprecation of Opus 4.6 (fast)",
-        "url": "https://github.blog/changelog/2026-06-18-upcoming-deprecation-of-opus-4-6-fast",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
       }
     },
     {
@@ -608,21 +446,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7519,
-      "importance": 0.7519,
-      "importance_score": 0.7519,
+      "score": 0.7463,
+      "importance": 0.7463,
+      "importance_score": 0.7463,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8629,
+        "recency": 0.8316,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-06-19T12:48:45Z",
       "latest_at": "2026-06-19T12:48:45Z",
@@ -669,21 +506,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7513,
-      "importance": 0.7513,
-      "importance_score": 0.7513,
+      "score": 0.7459,
+      "importance": 0.7459,
+      "importance_score": 0.7459,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.77,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8263,
+        "recency": 0.7963,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-06-19T09:48:28Z",
       "latest_at": "2026-06-19T09:48:28Z",
@@ -730,21 +566,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7505,
-      "importance": 0.7505,
-      "importance_score": 0.7505,
+      "score": 0.7446,
+      "importance": 0.7446,
+      "importance_score": 0.7446,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9052,
+        "recency": 0.8723,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-06-19T16:07:27Z",
       "latest_at": "2026-06-19T16:07:27Z",
@@ -791,15 +626,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.747,
-      "importance": 0.747,
-      "importance_score": 0.747,
+      "score": 0.742,
+      "importance": 0.742,
+      "importance_score": 0.742,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.79,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7689,
+        "recency": 0.741,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -851,15 +686,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7675,
-      "importance": 0.7675,
-      "importance_score": 0.7675,
+      "score": 0.762,
+      "importance": 0.762,
+      "importance_score": 0.762,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.81,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8497,
+        "recency": 0.8189,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -912,15 +747,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7359,
-      "importance": 0.7359,
-      "importance_score": 0.7359,
+      "score": 0.7301,
+      "importance": 0.7301,
+      "importance_score": 0.7301,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.68,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8906,
+        "recency": 0.8583,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -972,15 +807,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7294,
-      "importance": 0.7294,
-      "importance_score": 0.7294,
+      "score": 0.7245,
+      "importance": 0.7245,
+      "importance_score": 0.7245,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.74,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7547,
+        "recency": 0.7273,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -994,87 +829,6 @@
         "title": "Fable模型被美国临时关闭，AI安全管控时代来临",
         "url": "https://steve-yegge.medium.com/the-flat-curve-society-36c8b01eb33b",
         "source": "Steve Yegge：Medium（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_43a940462463",
-      "title": "这家韩国电信巨头是Anthropic\"Mythos\"争议的焦点",
-      "url": "https://www.wired.com/story/[redacted-secret]",
-      "primary_url": "https://www.wired.com/story/[redacted-secret]",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "09cf5f59e090e95066695d82f7017c335690051d",
-          "title": "这家韩国电信巨头是Anthropic\"Mythos\"争议的焦点",
-          "url": "https://www.wired.com/story/[redacted-secret]",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-19T01:33:10.751000Z"
-        },
-        {
-          "id": "3597dfb9b1572f104dbd35782f736ecdcf140c2b",
-          "title": "这家韩国电信巨头是Anthropic“Mythos”争议的焦点",
-          "url": "https://www.wired.com/story/[redacted-secret]",
-          "source": "www.wired.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-19T01:33:10.751000Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News 热门（buzzing.cc 中文翻译）",
-        "www.wired.com"
-      ],
-      "items": [
-        {
-          "id": "09cf5f59e090e95066695d82f7017c335690051d",
-          "title": "这家韩国电信巨头是Anthropic\"Mythos\"争议的焦点",
-          "url": "https://www.wired.com/story/[redacted-secret]",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-19T01:33:10.751000Z"
-        },
-        {
-          "id": "3597dfb9b1572f104dbd35782f736ecdcf140c2b",
-          "title": "这家韩国电信巨头是Anthropic“Mythos”争议的焦点",
-          "url": "https://www.wired.com/story/[redacted-secret]",
-          "source": "www.wired.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-19T01:33:10.751000Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7566,
-      "importance": 0.7566,
-      "importance_score": 0.7566,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.76,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7334,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-19T01:33:10.751000Z",
-      "latest_at": "2026-06-19T01:33:10.751000Z",
-      "primary_item": {
-        "id": "09cf5f59e090e95066695d82f7017c335690051d",
-        "title": "这家韩国电信巨头是Anthropic\"Mythos\"争议的焦点",
-        "url": "https://www.wired.com/story/[redacted-secret]",
-        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
         "source_name": "AI HOT"
       }
     },
@@ -1113,15 +867,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7363,
-      "importance": 0.7363,
-      "importance_score": 0.7363,
+      "score": 0.7314,
+      "importance": 0.7314,
+      "importance_score": 0.7314,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.76,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7596,
+        "recency": 0.732,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1173,15 +927,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7309,
-      "importance": 0.7309,
-      "importance_score": 0.7309,
+      "score": 0.726,
+      "importance": 0.726,
+      "importance_score": 0.726,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7461,
+        "recency": 0.719,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1233,15 +987,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7294,
-      "importance": 0.7294,
-      "importance_score": 0.7294,
+      "score": 0.7244,
+      "importance": 0.7244,
+      "importance_score": 0.7244,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.73,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7711,
+        "recency": 0.7431,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1259,63 +1013,447 @@
       }
     },
     {
-      "story_id": "story_f1c46e9ab12a",
-      "title": "AI 员工 Viktor 登陆 Microsoft Teams，年化收入达 2000 万美元",
-      "url": "https://x.com/rohanpaul_ai/status/2067755504613613699",
-      "primary_url": "https://x.com/rohanpaul_ai/status/2067755504613613699",
-      "source": "X：Rohan Paul (@rohanpaul_ai)",
-      "source_name": "AI HOT",
+      "story_id": "story_2df82173bb28",
+      "title": "Agent、Codex、Claude Code等产品的快速发展，让 AI 工程领域出现了一批新的术语：Prompt Engineering、Context Engineering、Loop Engineering、Harness Engineering。新名词越来越多，边界越来越模糊。这篇文章就带大家梳理下从Prompt Engineering到Harness Engineering：AI 工程体系的四次演进。",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+      "primary_url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+      "source": "社区更新 · 2026-06-19",
+      "source_name": "WaytoAGI",
       "sources": [
         {
-          "id": "d059bbe93c69bc3f33ffaef1aec7a92e694c1d7a",
-          "title": "AI 员工 Viktor 登陆 Microsoft Teams，年化收入达 2000 万美元",
-          "url": "https://x.com/rohanpaul_ai/status/2067755504613613699",
-          "source": "X：Rohan Paul (@rohanpaul_ai)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-18T23:45:03Z"
+          "id": "873753a7dd7c986f82d7aaeaaf7c54080d2082f0",
+          "title": "Agent、Codex、Claude Code等产品的快速发展，让 AI 工程领域出现了一批新的术语：Prompt Engineering、Context Engineering、Loop Engineering、Harness Engineering。新名词越来越多，边界越来越模糊。这篇文章就带大家梳理下从Prompt Engineering到Harness Engineering：AI 工程体系的四次演进。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-19",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-19T15:46:34.308094Z"
+        },
+        {
+          "id": "511e0c5ba0fa0bcdb00aff975b1981f6f4e9b487",
+          "title": "不少HTML PPT常常会出现信息分配失衡、排版遮挡文字、页面无讲述逻辑等等问题。卡尔推出了Humanize PPT v0.9版的Skill一口气全解决了。不是单纯堆砌精美模板，而是以现场表达为核心，解决AI生成PPT好看却无从开口讲解的核心难题，非常适合线下演讲、路演人群。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-19",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-19T15:46:34.308094Z"
+        },
+        {
+          "id": "3a7b8e83166934f277c215b9d38c6ea9cc1c5a55",
+          "title": "不少入门者学习AI工程只会照搬教程安装依赖、调用API，项目报错后仅凭直觉乱改参数碰运气，没有标准化的排查逻辑。本篇文章提炼了六大核心底层概念，帮学习者们摆脱低效试错，建立标准化、可复盘的开发思维。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-19",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-19T15:46:34.308094Z"
+        },
+        {
+          "id": "4ada9a3fa49782e96b6cd8e0187fd3b5b8f6e855",
+          "title": "很多人只把Claude当成问答工具，白白浪费了它深度梳理知识的核心能力。斯坦福研发的STORM系统能产出逻辑更完整的长文，仅凭四句提示词就能在 Claude 复刻同等效果。全程无需下载软件、拉取代码、调试配置，复制粘贴就能直接使用。短短五分钟就能完成对某个主题的深度调研，梳理出的知识框架也条理清晰。快来试试！",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-19",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-19T15:46:34.308094Z"
         }
       ],
-      "source_count": 1,
+      "source_count": 4,
       "source_names": [
-        "X：Rohan Paul (@rohanpaul_ai)"
+        "社区更新 · 2026-06-19"
       ],
       "items": [
         {
-          "id": "d059bbe93c69bc3f33ffaef1aec7a92e694c1d7a",
-          "title": "AI 员工 Viktor 登陆 Microsoft Teams，年化收入达 2000 万美元",
-          "url": "https://x.com/rohanpaul_ai/status/2067755504613613699",
-          "source": "X：Rohan Paul (@rohanpaul_ai)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-18T23:45:03Z"
+          "id": "873753a7dd7c986f82d7aaeaaf7c54080d2082f0",
+          "title": "Agent、Codex、Claude Code等产品的快速发展，让 AI 工程领域出现了一批新的术语：Prompt Engineering、Context Engineering、Loop Engineering、Harness Engineering。新名词越来越多，边界越来越模糊。这篇文章就带大家梳理下从Prompt Engineering到Harness Engineering：AI 工程体系的四次演进。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-19",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-19T15:46:34.308094Z"
+        },
+        {
+          "id": "511e0c5ba0fa0bcdb00aff975b1981f6f4e9b487",
+          "title": "不少HTML PPT常常会出现信息分配失衡、排版遮挡文字、页面无讲述逻辑等等问题。卡尔推出了Humanize PPT v0.9版的Skill一口气全解决了。不是单纯堆砌精美模板，而是以现场表达为核心，解决AI生成PPT好看却无从开口讲解的核心难题，非常适合线下演讲、路演人群。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-19",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-19T15:46:34.308094Z"
+        },
+        {
+          "id": "3a7b8e83166934f277c215b9d38c6ea9cc1c5a55",
+          "title": "不少入门者学习AI工程只会照搬教程安装依赖、调用API，项目报错后仅凭直觉乱改参数碰运气，没有标准化的排查逻辑。本篇文章提炼了六大核心底层概念，帮学习者们摆脱低效试错，建立标准化、可复盘的开发思维。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-19",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-19T15:46:34.308094Z"
+        },
+        {
+          "id": "4ada9a3fa49782e96b6cd8e0187fd3b5b8f6e855",
+          "title": "很多人只把Claude当成问答工具，白白浪费了它深度梳理知识的核心能力。斯坦福研发的STORM系统能产出逻辑更完整的长文，仅凭四句提示词就能在 Claude 复刻同等效果。全程无需下载软件、拉取代码、调试配置，复制粘贴就能直接使用。短短五分钟就能完成对某个主题的深度调研，梳理出的知识框架也条理清晰。快来试试！",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-19",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-19T15:46:34.308094Z"
         }
       ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7252,
-      "importance": 0.7252,
-      "importance_score": 0.7252,
-      "importance_label": "行业动态",
+      "item_count": 4,
+      "duplicate_count": 4,
+      "score": 0.6288,
+      "importance": 0.6288,
+      "importance_score": 0.6288,
+      "importance_label": "多源热议",
       "importance_breakdown": {
-        "editorial": 0.75,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7146,
-        "story_heat": 0.0
+        "editorial": 0.4824,
+        "source_tier": 0.54,
+        "ai_relevance": 0.67,
+        "recency": 0.868,
+        "story_heat": 0.75
       },
-      "category": "industry",
+      "category": "multi_source",
       "reasons": [
-        "high_ai_relevance"
+        "multi_source"
       ],
-      "earliest_at": "2026-06-18T23:45:03Z",
-      "latest_at": "2026-06-18T23:45:03Z",
+      "earliest_at": "2026-06-19T15:46:34.308094Z",
+      "latest_at": "2026-06-19T15:46:34.308094Z",
       "primary_item": {
-        "id": "d059bbe93c69bc3f33ffaef1aec7a92e694c1d7a",
-        "title": "AI 员工 Viktor 登陆 Microsoft Teams，年化收入达 2000 万美元",
-        "url": "https://x.com/rohanpaul_ai/status/2067755504613613699",
-        "source": "X：Rohan Paul (@rohanpaul_ai)",
-        "source_name": "AI HOT"
+        "id": "873753a7dd7c986f82d7aaeaaf7c54080d2082f0",
+        "title": "Agent、Codex、Claude Code等产品的快速发展，让 AI 工程领域出现了一批新的术语：Prompt Engineering、Context Engineering、Loop Engineering、Harness Engineering。新名词越来越多，边界越来越模糊。这篇文章就带大家梳理下从Prompt Engineering到Harness Engineering：AI 工程体系的四次演进。",
+        "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+        "source": "社区更新 · 2026-06-19",
+        "source_name": "WaytoAGI"
+      }
+    },
+    {
+      "story_id": "story_0a3a69608a9f",
+      "title": "亚马逊在宣布与 OpenAI 合作后放弃了山姆·奥特曼 (Sam Altman) 电影 / Amazon Drops Sam Altman Movie After Announcing OpenAI Partnership",
+      "url": "https://entertainment.slashdot.org/story/26/06/19/2146253/amazon-drops-sam-altman-movie-after-announcing-openai-partnership",
+      "primary_url": "https://entertainment.slashdot.org/story/26/06/19/2146253/amazon-drops-sam-altman-movie-after-announcing-openai-partnership",
+      "source": "Slashdot",
+      "source_name": "TechURLs",
+      "sources": [
+        {
+          "id": "e4829a0639488dbc408c6ff15fdfd20aff412033",
+          "title": "亚马逊在宣布与 OpenAI 合作后放弃了山姆·奥特曼 (Sam Altman) 电影 / Amazon Drops Sam Altman Movie After Announcing OpenAI Partnership",
+          "url": "https://entertainment.slashdot.org/story/26/06/19/2146253/amazon-drops-sam-altman-movie-after-announcing-openai-partnership",
+          "source": "Slashdot",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-19T23:00:00Z"
+        },
+        {
+          "id": "e5a044ee2f5e19d8a585dba0d017adf43327ba0e",
+          "title": "亚马逊在宣布与OpenAI合作后，撤下萨姆·阿尔特曼的传记电影",
+          "url": "https://www.the-independent.com/arts-entertainment/films/news/sam-altman-biopic-amazon-openai-deal-b2999321.html",
+          "source": "www.the-independent.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-19T21:33:11.069000Z"
+        },
+        {
+          "id": "aa438330809238467424b92807ea9723befccbba",
+          "title": "亚马逊在宣布与 OpenAI 合作后放弃了山姆·奥特曼 (Sam Altman) 电影 / Amazon drops Sam Altman movie after announcing OpenAI partnership",
+          "url": "https://news.ycombinator.com/item?id=48602639",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-19T20:40:06.985000Z"
+        },
+        {
+          "id": "789aa30f7785c13412ba5611ae67e713207fd768",
+          "title": "亚马逊在宣布与OpenAI合作后，撤下萨姆·阿尔特曼的传记电影 / Amazon drops Sam Altman movie after announcing OpenAI partnership",
+          "url": "https://www.the-independent.com/arts-entertainment/films/news/sam-altman-biopic-amazon-openai-deal-b2999321.html",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-19T20:03:16Z"
+        }
+      ],
+      "source_count": 4,
+      "source_names": [
+        "Hacker News · 24h最热",
+        "Slashdot",
+        "hackernews",
+        "www.the-independent.com"
+      ],
+      "items": [
+        {
+          "id": "e4829a0639488dbc408c6ff15fdfd20aff412033",
+          "title": "亚马逊在宣布与 OpenAI 合作后放弃了山姆·奥特曼 (Sam Altman) 电影 / Amazon Drops Sam Altman Movie After Announcing OpenAI Partnership",
+          "url": "https://entertainment.slashdot.org/story/26/06/19/2146253/amazon-drops-sam-altman-movie-after-announcing-openai-partnership",
+          "source": "Slashdot",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-19T23:00:00Z"
+        },
+        {
+          "id": "e5a044ee2f5e19d8a585dba0d017adf43327ba0e",
+          "title": "亚马逊在宣布与OpenAI合作后，撤下萨姆·阿尔特曼的传记电影",
+          "url": "https://www.the-independent.com/arts-entertainment/films/news/sam-altman-biopic-amazon-openai-deal-b2999321.html",
+          "source": "www.the-independent.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-19T21:33:11.069000Z"
+        },
+        {
+          "id": "aa438330809238467424b92807ea9723befccbba",
+          "title": "亚马逊在宣布与 OpenAI 合作后放弃了山姆·奥特曼 (Sam Altman) 电影 / Amazon drops Sam Altman movie after announcing OpenAI partnership",
+          "url": "https://news.ycombinator.com/item?id=48602639",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-19T20:40:06.985000Z"
+        },
+        {
+          "id": "789aa30f7785c13412ba5611ae67e713207fd768",
+          "title": "亚马逊在宣布与OpenAI合作后，撤下萨姆·阿尔特曼的传记电影 / Amazon drops Sam Altman movie after announcing OpenAI partnership",
+          "url": "https://www.the-independent.com/arts-entertainment/films/news/sam-altman-biopic-amazon-openai-deal-b2999321.html",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-19T20:03:16Z"
+        }
+      ],
+      "item_count": 4,
+      "duplicate_count": 4,
+      "score": 0.5892,
+      "importance": 0.5892,
+      "importance_score": 0.5892,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9634,
+        "story_heat": 0.75
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-19T20:03:16Z",
+      "latest_at": "2026-06-19T23:00:00Z",
+      "primary_item": {
+        "id": "e4829a0639488dbc408c6ff15fdfd20aff412033",
+        "title": "亚马逊在宣布与 OpenAI 合作后放弃了山姆·奥特曼 (Sam Altman) 电影 / Amazon Drops Sam Altman Movie After Announcing OpenAI Partnership",
+        "url": "https://entertainment.slashdot.org/story/26/06/19/2146253/amazon-drops-sam-altman-movie-after-announcing-openai-partnership",
+        "source": "Slashdot",
+        "source_name": "TechURLs"
+      }
+    },
+    {
+      "story_id": "story_df14fad20f44",
+      "title": "挪威对小学阶段的人工智能实施近乎全面禁令",
+      "url": "https://www.reuters.com/technology/norway-imposes-near-ban-ai-elementary-school-2026-06-19",
+      "primary_url": "https://www.reuters.com/technology/norway-imposes-near-ban-ai-elementary-school-2026-06-19",
+      "source": "www.reuters.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "74e95f3ecbc679f4bdbc924ebbd1884cf97cf027",
+          "title": "挪威对小学阶段的人工智能实施近乎全面禁令",
+          "url": "https://www.reuters.com/technology/norway-imposes-near-ban-ai-elementary-school-2026-06-19",
+          "source": "www.reuters.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-19T22:05:15.288000Z"
+        },
+        {
+          "id": "b129530196b10181233d9a02e60a50cb92e2cd7b",
+          "title": "挪威小学近乎禁止人工智能 / Norway Imposes Near Ban On AI In Elementary School",
+          "url": "https://yro.slashdot.org/story/26/06/19/2140248/norway-imposes-near-ban-on-ai-in-elementary-school",
+          "source": "Slashdot (科技资讯)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-19T22:00:00Z"
+        },
+        {
+          "id": "941a9af5e7fc879a34283cd840f84df85d53deeb",
+          "title": "挪威小学几乎禁止人工智能 / Norway imposes near ban on AI in elementary school",
+          "url": "https://news.ycombinator.com/item?id=48600093",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-19T21:40:15.701000Z"
+        },
+        {
+          "id": "d3a47cdb711babe082b4f15739076bc32c3b5e71",
+          "title": "挪威对小学阶段的人工智能实施近乎全面禁令 / Norway imposes near ban on AI in elementary school",
+          "url": "https://www.reuters.com/technology/norway-imposes-near-ban-ai-elementary-school-2026-06-19",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-19T16:03:15Z"
+        }
+      ],
+      "source_count": 4,
+      "source_names": [
+        "Hacker News · 24h最热",
+        "Slashdot (科技资讯)",
+        "hackernews",
+        "www.reuters.com"
+      ],
+      "items": [
+        {
+          "id": "74e95f3ecbc679f4bdbc924ebbd1884cf97cf027",
+          "title": "挪威对小学阶段的人工智能实施近乎全面禁令",
+          "url": "https://www.reuters.com/technology/norway-imposes-near-ban-ai-elementary-school-2026-06-19",
+          "source": "www.reuters.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-19T22:05:15.288000Z"
+        },
+        {
+          "id": "b129530196b10181233d9a02e60a50cb92e2cd7b",
+          "title": "挪威小学近乎禁止人工智能 / Norway Imposes Near Ban On AI In Elementary School",
+          "url": "https://yro.slashdot.org/story/26/06/19/2140248/norway-imposes-near-ban-on-ai-in-elementary-school",
+          "source": "Slashdot (科技资讯)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-19T22:00:00Z"
+        },
+        {
+          "id": "941a9af5e7fc879a34283cd840f84df85d53deeb",
+          "title": "挪威小学几乎禁止人工智能 / Norway imposes near ban on AI in elementary school",
+          "url": "https://news.ycombinator.com/item?id=48600093",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-19T21:40:15.701000Z"
+        },
+        {
+          "id": "d3a47cdb711babe082b4f15739076bc32c3b5e71",
+          "title": "挪威对小学阶段的人工智能实施近乎全面禁令 / Norway imposes near ban on AI in elementary school",
+          "url": "https://www.reuters.com/technology/norway-imposes-near-ban-ai-elementary-school-2026-06-19",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-19T16:03:15Z"
+        }
+      ],
+      "item_count": 4,
+      "duplicate_count": 4,
+      "score": 0.5869,
+      "importance": 0.5869,
+      "importance_score": 0.5869,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9508,
+        "story_heat": 0.75
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-19T16:03:15Z",
+      "latest_at": "2026-06-19T22:05:15.288000Z",
+      "primary_item": {
+        "id": "74e95f3ecbc679f4bdbc924ebbd1884cf97cf027",
+        "title": "挪威对小学阶段的人工智能实施近乎全面禁令",
+        "url": "https://www.reuters.com/technology/norway-imposes-near-ban-ai-elementary-school-2026-06-19",
+        "source": "www.reuters.com",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_bcd29eb51485",
+      "title": "打脸！谁说AI不会表演？？？",
+      "url": "https://www.xiaohongshu.com/explore/6a2d8e4d000000000702784d?xsec_token=YBDDJm08aEJolf0J6UXNWFEjrI_bF8Je1gb_c2wGknQgM%3D",
+      "primary_url": "https://www.xiaohongshu.com/explore/6a2d8e4d000000000702784d?xsec_token=YBDDJm08aEJolf0J6UXNWFEjrI_bF8Je1gb_c2wGknQgM%3D",
+      "source": "AI插话师",
+      "source_name": "TikHub Xiaohongshu",
+      "sources": [
+        {
+          "id": "f06cf4210940b96349940257bc79d0df9485e3cf",
+          "title": "打脸！谁说AI不会表演？？？",
+          "url": "https://www.xiaohongshu.com/explore/6a2d8e4d000000000702784d?xsec_token=YBDDJm08aEJolf0J6UXNWFEjrI_bF8Je1gb_c2wGknQgM%3D",
+          "source": "AI插话师",
+          "source_name": "TikHub Xiaohongshu",
+          "site_id": "tikhub_xiaohongshu",
+          "published_at": "2026-06-19T14:10:43.028916Z"
+        },
+        {
+          "id": "5094a0f7dccdb205381b9e5c71f1c2d6b5ff6070",
+          "title": "打脸！谁说AI不会表演？？？",
+          "url": "https://www.xiaohongshu.com/explore/6a2d8e4d000000000702784d?xsec_token=YBlrFnZ1iQArpUo0-mHRj7TCSerrP7ee3165c-OWw5mzU%3D",
+          "source": "AI插话师",
+          "source_name": "TikHub Xiaohongshu",
+          "site_id": "tikhub_xiaohongshu",
+          "published_at": "2026-06-19T14:06:17.488483Z"
+        },
+        {
+          "id": "e5c7059a634df66b1152b67b2f1399561e28ede6",
+          "title": "打脸！谁说AI不会表演？？？",
+          "url": "https://www.xiaohongshu.com/explore/6a2d8e4d000000000702784d?xsec_token=YBlrFnZ1iQArpUo0-mHRj7TPosFRhXOaJIuJkxkVXSdx0%3D",
+          "source": "AI插话师",
+          "source_name": "TikHub Xiaohongshu",
+          "site_id": "tikhub_xiaohongshu",
+          "published_at": "2026-06-19T14:01:09.271846Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "AI插话师"
+      ],
+      "items": [
+        {
+          "id": "f06cf4210940b96349940257bc79d0df9485e3cf",
+          "title": "打脸！谁说AI不会表演？？？",
+          "url": "https://www.xiaohongshu.com/explore/6a2d8e4d000000000702784d?xsec_token=YBDDJm08aEJolf0J6UXNWFEjrI_bF8Je1gb_c2wGknQgM%3D",
+          "source": "AI插话师",
+          "source_name": "TikHub Xiaohongshu",
+          "site_id": "tikhub_xiaohongshu",
+          "published_at": "2026-06-19T14:10:43.028916Z"
+        },
+        {
+          "id": "5094a0f7dccdb205381b9e5c71f1c2d6b5ff6070",
+          "title": "打脸！谁说AI不会表演？？？",
+          "url": "https://www.xiaohongshu.com/explore/6a2d8e4d000000000702784d?xsec_token=YBlrFnZ1iQArpUo0-mHRj7TCSerrP7ee3165c-OWw5mzU%3D",
+          "source": "AI插话师",
+          "source_name": "TikHub Xiaohongshu",
+          "site_id": "tikhub_xiaohongshu",
+          "published_at": "2026-06-19T14:06:17.488483Z"
+        },
+        {
+          "id": "e5c7059a634df66b1152b67b2f1399561e28ede6",
+          "title": "打脸！谁说AI不会表演？？？",
+          "url": "https://www.xiaohongshu.com/explore/6a2d8e4d000000000702784d?xsec_token=YBlrFnZ1iQArpUo0-mHRj7TPosFRhXOaJIuJkxkVXSdx0%3D",
+          "source": "AI插话师",
+          "source_name": "TikHub Xiaohongshu",
+          "site_id": "tikhub_xiaohongshu",
+          "published_at": "2026-06-19T14:01:09.271846Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.5787,
+      "importance": 0.5787,
+      "importance_score": 0.5787,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.48,
+        "ai_relevance": 0.65,
+        "recency": 0.8482,
+        "story_heat": 0.5
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-19T14:01:09.271846Z",
+      "latest_at": "2026-06-19T14:10:43.028916Z",
+      "primary_item": {
+        "id": "f06cf4210940b96349940257bc79d0df9485e3cf",
+        "title": "打脸！谁说AI不会表演？？？",
+        "url": "https://www.xiaohongshu.com/explore/6a2d8e4d000000000702784d?xsec_token=YBDDJm08aEJolf0J6UXNWFEjrI_bF8Je1gb_c2wGknQgM%3D",
+        "source": "AI插话师",
+        "source_name": "TikHub Xiaohongshu"
       }
     }
   ]
