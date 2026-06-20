@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-20T01:34:58.068354Z",
+  "generated_at": "2026-06-20T06:14:03.499705Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -38,15 +38,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8296,
-      "importance": 0.8296,
-      "importance_score": 0.8296,
+      "score": 0.8194,
+      "importance": 0.8194,
+      "importance_score": 0.8194,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.8757,
+        "recency": 0.8188,
         "story_heat": 0.0
       },
       "category": "official",
@@ -100,15 +100,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8207,
-      "importance": 0.8207,
-      "importance_score": 0.8207,
+      "score": 0.8106,
+      "importance": 0.8106,
+      "importance_score": 0.8106,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.8708,
+        "recency": 0.8142,
         "story_heat": 0.0
       },
       "category": "official",
@@ -181,15 +181,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8007,
-      "importance": 0.8007,
-      "importance_score": 0.8007,
+      "score": 0.7894,
+      "importance": 0.7894,
+      "importance_score": 0.7894,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.77,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9615,
+        "recency": 0.8991,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -262,15 +262,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7869,
-      "importance": 0.7869,
-      "importance_score": 0.7869,
+      "score": 0.7762,
+      "importance": 0.7762,
+      "importance_score": 0.7762,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9184,
+        "recency": 0.8588,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -324,15 +324,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7761,
-      "importance": 0.7761,
-      "importance_score": 0.7761,
+      "score": 0.7651,
+      "importance": 0.7651,
+      "importance_score": 0.7651,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.78,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9474,
+        "recency": 0.8858,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -385,21 +385,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7596,
-      "importance": 0.7596,
-      "importance_score": 0.7596,
+      "score": 0.749,
+      "importance": 0.749,
+      "importance_score": 0.749,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9057,
+        "recency": 0.8469,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-06-19T18:43:30Z",
       "latest_at": "2026-06-19T18:43:30Z",
@@ -446,15 +445,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7463,
-      "importance": 0.7463,
-      "importance_score": 0.7463,
+      "score": 0.7366,
+      "importance": 0.7366,
+      "importance_score": 0.7366,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8316,
+        "recency": 0.7776,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -506,15 +505,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7459,
-      "importance": 0.7459,
-      "importance_score": 0.7459,
+      "score": 0.7366,
+      "importance": 0.7366,
+      "importance_score": 0.7366,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.77,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7963,
+        "recency": 0.7446,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -566,15 +565,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7446,
-      "importance": 0.7446,
-      "importance_score": 0.7446,
+      "score": 0.7344,
+      "importance": 0.7344,
+      "importance_score": 0.7344,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8723,
+        "recency": 0.8157,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -588,66 +587,6 @@
         "title": "AlphaFold 负责人 John Jumper 离职 Google DeepMind，加入 Anthropic",
         "url": "https://x.com/demishassabis/status/2068002732250640603",
         "source": "X：Demis Hassabis (@demishassabis)",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_9c66a2975159",
-      "title": "阿里开源向量数据库Zvec，UCSD黄碧薇教授提出因果AI第四代范式",
-      "url": "https://x.com/AYi_AInotes/status/2067832098816250346",
-      "primary_url": "https://x.com/AYi_AInotes/status/2067832098816250346",
-      "source": "X：阿易 AI Notes (@AYi_AInotes)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "d8b3f6f691ddb7b875697338d72568a365a1f60c",
-          "title": "阿里开源向量数据库Zvec，UCSD黄碧薇教授提出因果AI第四代范式",
-          "url": "https://x.com/AYi_AInotes/status/2067832098816250346",
-          "source": "X：阿易 AI Notes (@AYi_AInotes)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-19T04:49:25Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：阿易 AI Notes (@AYi_AInotes)"
-      ],
-      "items": [
-        {
-          "id": "d8b3f6f691ddb7b875697338d72568a365a1f60c",
-          "title": "阿里开源向量数据库Zvec，UCSD黄碧薇教授提出因果AI第四代范式",
-          "url": "https://x.com/AYi_AInotes/status/2067832098816250346",
-          "source": "X：阿易 AI Notes (@AYi_AInotes)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-19T04:49:25Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.742,
-      "importance": 0.742,
-      "importance_score": 0.742,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.79,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.741,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-19T04:49:25Z",
-      "latest_at": "2026-06-19T04:49:25Z",
-      "primary_item": {
-        "id": "d8b3f6f691ddb7b875697338d72568a365a1f60c",
-        "title": "阿里开源向量数据库Zvec，UCSD黄碧薇教授提出因果AI第四代范式",
-        "url": "https://x.com/AYi_AInotes/status/2067832098816250346",
-        "source": "X：阿易 AI Notes (@AYi_AInotes)",
         "source_name": "AI HOT"
       }
     },
@@ -686,15 +625,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.762,
-      "importance": 0.762,
-      "importance_score": 0.762,
+      "score": 0.7524,
+      "importance": 0.7524,
+      "importance_score": 0.7524,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.81,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8189,
+        "recency": 0.7657,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -747,15 +686,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7301,
-      "importance": 0.7301,
-      "importance_score": 0.7301,
+      "score": 0.7201,
+      "importance": 0.7201,
+      "importance_score": 0.7201,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.68,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8583,
+        "recency": 0.8025,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -773,243 +712,81 @@
       }
     },
     {
-      "story_id": "story_476ce10324ab",
-      "title": "Fable模型被美国临时关闭，AI安全管控时代来临",
-      "url": "https://steve-yegge.medium.com/the-flat-curve-society-36c8b01eb33b",
-      "primary_url": "https://steve-yegge.medium.com/the-flat-curve-society-36c8b01eb33b",
-      "source": "Steve Yegge：Medium（RSS）",
-      "source_name": "AI HOT",
+      "story_id": "story_ef1cc3a7e9c9",
+      "title": "加密、间谍软件和现在的神话：历史表明为什么网络出口管制不起作用 / Encryption, spyware, and now Mythos: History shows why cyber export control doesn’t work",
+      "url": "https://techcrunch.com/2026/06/19/encryption-spyware-and-now-mythos-history-shows-why-cyber-export-control-doesnt-work",
+      "primary_url": "https://techcrunch.com/2026/06/19/encryption-spyware-and-now-mythos-history-shows-why-cyber-export-control-doesnt-work",
+      "source": "TechCrunch AI",
+      "source_name": "Curated Media",
       "sources": [
         {
-          "id": "22534b7e2e784ef6b38dc3b45c7acba730f21464",
-          "title": "Fable模型被美国临时关闭，AI安全管控时代来临",
-          "url": "https://steve-yegge.medium.com/the-flat-curve-society-36c8b01eb33b",
-          "source": "Steve Yegge：Medium（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-19T03:31:56Z"
+          "id": "63c53ea51abe90768fda7205bb8a76a94e198d49",
+          "title": "加密、间谍软件和现在的神话：历史表明为什么网络出口管制不起作用 / Encryption, spyware, and now Mythos: History shows why cyber export control doesn’t work",
+          "url": "https://techcrunch.com/2026/06/19/encryption-spyware-and-now-mythos-history-shows-why-cyber-export-control-doesnt-work",
+          "source": "TechCrunch AI",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-06-19T22:40:14Z"
+        },
+        {
+          "id": "3c0db7f39c309003e78d538eb05622821a8f35bb",
+          "title": "从 PGP 到神话：没有阻止任何人的出口管制简史 / From PGP to Mythos: a brief history of export controls that didn’t stop anyone",
+          "url": "https://techcrunch.com/2026/06/19/encryption-spyware-and-now-mythos-history-shows-why-cyber-export-control-doesnt-work",
+          "source": "TechCrunch AI",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-06-19T22:40:14Z"
         }
       ],
-      "source_count": 1,
+      "source_count": 2,
       "source_names": [
-        "Steve Yegge：Medium（RSS）"
+        "TechCrunch AI"
       ],
       "items": [
         {
-          "id": "22534b7e2e784ef6b38dc3b45c7acba730f21464",
-          "title": "Fable模型被美国临时关闭，AI安全管控时代来临",
-          "url": "https://steve-yegge.medium.com/the-flat-curve-society-36c8b01eb33b",
-          "source": "Steve Yegge：Medium（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-19T03:31:56Z"
+          "id": "63c53ea51abe90768fda7205bb8a76a94e198d49",
+          "title": "加密、间谍软件和现在的神话：历史表明为什么网络出口管制不起作用 / Encryption, spyware, and now Mythos: History shows why cyber export control doesn’t work",
+          "url": "https://techcrunch.com/2026/06/19/encryption-spyware-and-now-mythos-history-shows-why-cyber-export-control-doesnt-work",
+          "source": "TechCrunch AI",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-06-19T22:40:14Z"
+        },
+        {
+          "id": "3c0db7f39c309003e78d538eb05622821a8f35bb",
+          "title": "从 PGP 到神话：没有阻止任何人的出口管制简史 / From PGP to Mythos: a brief history of export controls that didn’t stop anyone",
+          "url": "https://techcrunch.com/2026/06/19/encryption-spyware-and-now-mythos-history-shows-why-cyber-export-control-doesnt-work",
+          "source": "TechCrunch AI",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-06-19T22:40:14Z"
         }
       ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7245,
-      "importance": 0.7245,
-      "importance_score": 0.7245,
-      "importance_label": "行业动态",
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.6301,
+      "importance": 0.6301,
+      "importance_score": 0.6301,
+      "importance_label": "值得关注",
       "importance_breakdown": {
-        "editorial": 0.74,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7273,
-        "story_heat": 0.0
+        "editorial": 0.5472,
+        "source_tier": 0.58,
+        "ai_relevance": 0.76,
+        "recency": 0.8965,
+        "story_heat": 0.25
       },
-      "category": "industry",
+      "category": "watch",
       "reasons": [
-        "high_ai_relevance"
+        "multi_source"
       ],
-      "earliest_at": "2026-06-19T03:31:56Z",
-      "latest_at": "2026-06-19T03:31:56Z",
+      "earliest_at": "2026-06-19T22:40:14Z",
+      "latest_at": "2026-06-19T22:40:14Z",
       "primary_item": {
-        "id": "22534b7e2e784ef6b38dc3b45c7acba730f21464",
-        "title": "Fable模型被美国临时关闭，AI安全管控时代来临",
-        "url": "https://steve-yegge.medium.com/the-flat-curve-society-36c8b01eb33b",
-        "source": "Steve Yegge：Medium（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_ec85ba36d117",
-      "title": "DeepSeek研究员开源AutoResearch：AI自主跑通285B模型RL研究闭环",
-      "url": "https://x.com/AYi_AInotes/status/2067819352926150953",
-      "primary_url": "https://x.com/AYi_AInotes/status/2067819352926150953",
-      "source": "X：阿易 AI Notes (@AYi_AInotes)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "bf9f70a2b531f394e47b2f1a069697a815e6b7cf",
-          "title": "DeepSeek研究员开源AutoResearch：AI自主跑通285B模型RL研究闭环",
-          "url": "https://x.com/AYi_AInotes/status/2067819352926150953",
-          "source": "X：阿易 AI Notes (@AYi_AInotes)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-19T03:58:46Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：阿易 AI Notes (@AYi_AInotes)"
-      ],
-      "items": [
-        {
-          "id": "bf9f70a2b531f394e47b2f1a069697a815e6b7cf",
-          "title": "DeepSeek研究员开源AutoResearch：AI自主跑通285B模型RL研究闭环",
-          "url": "https://x.com/AYi_AInotes/status/2067819352926150953",
-          "source": "X：阿易 AI Notes (@AYi_AInotes)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-19T03:58:46Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7314,
-      "importance": 0.7314,
-      "importance_score": 0.7314,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.76,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.732,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-19T03:58:46Z",
-      "latest_at": "2026-06-19T03:58:46Z",
-      "primary_item": {
-        "id": "bf9f70a2b531f394e47b2f1a069697a815e6b7cf",
-        "title": "DeepSeek研究员开源AutoResearch：AI自主跑通285B模型RL研究闭环",
-        "url": "https://x.com/AYi_AInotes/status/2067819352926150953",
-        "source": "X：阿易 AI Notes (@AYi_AInotes)",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_b272084139ff",
-      "title": "Salesforce CodeGen教程：生成、验证并重排序Python函数（含单元测试与安全检查）",
-      "url": "https://www.marktechpost.com/2026/06/18/salesforce-codegen-tutorial-generate-validate-and-rerank-python-functions-with-unit-tests-and-safety-checks",
-      "primary_url": "https://www.marktechpost.com/2026/06/18/salesforce-codegen-tutorial-generate-validate-and-rerank-python-functions-with-unit-tests-and-safety-checks",
-      "source": "MarkTechPost（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "165fd816c0bdefe9a52b6da1528552fbe57b7f85",
-          "title": "Salesforce CodeGen教程：生成、验证并重排序Python函数（含单元测试与安全检查）",
-          "url": "https://www.marktechpost.com/2026/06/18/salesforce-codegen-tutorial-generate-validate-and-rerank-python-functions-with-unit-tests-and-safety-checks",
-          "source": "MarkTechPost（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-19T02:44:12Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "MarkTechPost（RSS）"
-      ],
-      "items": [
-        {
-          "id": "165fd816c0bdefe9a52b6da1528552fbe57b7f85",
-          "title": "Salesforce CodeGen教程：生成、验证并重排序Python函数（含单元测试与安全检查）",
-          "url": "https://www.marktechpost.com/2026/06/18/salesforce-codegen-tutorial-generate-validate-and-rerank-python-functions-with-unit-tests-and-safety-checks",
-          "source": "MarkTechPost（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-19T02:44:12Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.726,
-      "importance": 0.726,
-      "importance_score": 0.726,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.75,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.719,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-19T02:44:12Z",
-      "latest_at": "2026-06-19T02:44:12Z",
-      "primary_item": {
-        "id": "165fd816c0bdefe9a52b6da1528552fbe57b7f85",
-        "title": "Salesforce CodeGen教程：生成、验证并重排序Python函数（含单元测试与安全检查）",
-        "url": "https://www.marktechpost.com/2026/06/18/salesforce-codegen-tutorial-generate-validate-and-rerank-python-functions-with-unit-tests-and-safety-checks",
-        "source": "MarkTechPost（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_d064b3eae2a9",
-      "title": "我们在 Elasticsearch 上构建了一个持久化代理内存层，其召回率为0.89",
-      "url": "https://www.elastic.co/search-labs/blog/agent-memory-elasticsearch",
-      "primary_url": "https://www.elastic.co/search-labs/blog/agent-memory-elasticsearch",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "2f6f11ace9b57f291b1fb01fa3b446081bdd5832",
-          "title": "我们在 Elasticsearch 上构建了一个持久化代理内存层，其召回率为0.89",
-          "url": "https://www.elastic.co/search-labs/blog/agent-memory-elasticsearch",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-19T05:01:18.006000Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Hacker News 热门（buzzing.cc 中文翻译）"
-      ],
-      "items": [
-        {
-          "id": "2f6f11ace9b57f291b1fb01fa3b446081bdd5832",
-          "title": "我们在 Elasticsearch 上构建了一个持久化代理内存层，其召回率为0.89",
-          "url": "https://www.elastic.co/search-labs/blog/agent-memory-elasticsearch",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-19T05:01:18.006000Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7244,
-      "importance": 0.7244,
-      "importance_score": 0.7244,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.73,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7431,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-19T05:01:18.006000Z",
-      "latest_at": "2026-06-19T05:01:18.006000Z",
-      "primary_item": {
-        "id": "2f6f11ace9b57f291b1fb01fa3b446081bdd5832",
-        "title": "我们在 Elasticsearch 上构建了一个持久化代理内存层，其召回率为0.89",
-        "url": "https://www.elastic.co/search-labs/blog/agent-memory-elasticsearch",
-        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-        "source_name": "AI HOT"
+        "id": "63c53ea51abe90768fda7205bb8a76a94e198d49",
+        "title": "加密、间谍软件和现在的神话：历史表明为什么网络出口管制不起作用 / Encryption, spyware, and now Mythos: History shows why cyber export control doesn’t work",
+        "url": "https://techcrunch.com/2026/06/19/encryption-spyware-and-now-mythos-history-shows-why-cyber-export-control-doesnt-work",
+        "source": "TechCrunch AI",
+        "source_name": "Curated Media"
       }
     },
     {
@@ -1101,15 +878,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.6288,
-      "importance": 0.6288,
-      "importance_score": 0.6288,
+      "score": 0.6186,
+      "importance": 0.6186,
+      "importance_score": 0.6186,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.4824,
         "source_tier": 0.54,
         "ai_relevance": 0.67,
-        "recency": 0.868,
+        "recency": 0.8116,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -1124,6 +901,123 @@
         "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
         "source": "社区更新 · 2026-06-19",
         "source_name": "WaytoAGI"
+      }
+    },
+    {
+      "story_id": "story_e8cd117c5165",
+      "title": "由于成本压力导致预算紧张，企业开始限制人工智能的使用",
+      "url": "https://www.ft.com/content/1d37cc08-e0aa-45a4-a45d-4ad282529314",
+      "primary_url": "https://www.ft.com/content/1d37cc08-e0aa-45a4-a45d-4ad282529314",
+      "source": "www.ft.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "236396eadebbb69083ea7d062fab849ce5788620",
+          "title": "由于成本压力导致预算紧张，企业开始限制人工智能的使用",
+          "url": "https://www.ft.com/content/1d37cc08-e0aa-45a4-a45d-4ad282529314",
+          "source": "www.ft.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-20T06:05:07.343000Z"
+        },
+        {
+          "id": "c40bcc2fd204477274b5a585c6978bcc69578bae",
+          "title": "由于成本预算紧张，公司限制人工智能的使用 / Companies rein in AI usage as costs strain budgets",
+          "url": "https://news.ycombinator.com/item?id=48602571",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-19T21:40:15.701000Z"
+        },
+        {
+          "id": "8780e2778dd4bdfa3e771c53ddd97591997e9566",
+          "title": "由于成本压力导致预算紧张，企业开始限制人工智能的使用 / 'We created a monster': companies rein in AI usage as costs strain budgets",
+          "url": "https://www.ft.com/content/1d37cc08-e0aa-45a4-a45d-4ad282529314",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-19T19:57:18Z"
+        },
+        {
+          "id": "cb78ac4e40522d8024016c4262cdff8f2a53cee8",
+          "title": "由于成本压力导致预算紧张，企业开始限制人工智能的使用 / Companies rein in AI usage as costs strain budgets",
+          "url": "https://www.ft.com/content/1d37cc08-e0aa-45a4-a45d-4ad282529314",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-19T19:57:18Z"
+        }
+      ],
+      "source_count": 4,
+      "source_names": [
+        "Hacker News",
+        "Hacker News (黑客新闻)",
+        "hackernews",
+        "www.ft.com"
+      ],
+      "items": [
+        {
+          "id": "236396eadebbb69083ea7d062fab849ce5788620",
+          "title": "由于成本压力导致预算紧张，企业开始限制人工智能的使用",
+          "url": "https://www.ft.com/content/1d37cc08-e0aa-45a4-a45d-4ad282529314",
+          "source": "www.ft.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-20T06:05:07.343000Z"
+        },
+        {
+          "id": "c40bcc2fd204477274b5a585c6978bcc69578bae",
+          "title": "由于成本预算紧张，公司限制人工智能的使用 / Companies rein in AI usage as costs strain budgets",
+          "url": "https://news.ycombinator.com/item?id=48602571",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-19T21:40:15.701000Z"
+        },
+        {
+          "id": "8780e2778dd4bdfa3e771c53ddd97591997e9566",
+          "title": "由于成本压力导致预算紧张，企业开始限制人工智能的使用 / 'We created a monster': companies rein in AI usage as costs strain budgets",
+          "url": "https://www.ft.com/content/1d37cc08-e0aa-45a4-a45d-4ad282529314",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-19T19:57:18Z"
+        },
+        {
+          "id": "cb78ac4e40522d8024016c4262cdff8f2a53cee8",
+          "title": "由于成本压力导致预算紧张，企业开始限制人工智能的使用 / Companies rein in AI usage as costs strain budgets",
+          "url": "https://www.ft.com/content/1d37cc08-e0aa-45a4-a45d-4ad282529314",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-19T19:57:18Z"
+        }
+      ],
+      "item_count": 4,
+      "duplicate_count": 4,
+      "score": 0.5954,
+      "importance": 0.5954,
+      "importance_score": 0.5954,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9979,
+        "story_heat": 0.75
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-19T19:57:18Z",
+      "latest_at": "2026-06-20T06:05:07.343000Z",
+      "primary_item": {
+        "id": "236396eadebbb69083ea7d062fab849ce5788620",
+        "title": "由于成本压力导致预算紧张，企业开始限制人工智能的使用",
+        "url": "https://www.ft.com/content/1d37cc08-e0aa-45a4-a45d-4ad282529314",
+        "source": "www.ft.com",
+        "source_name": "Buzzing"
       }
     },
     {
@@ -1218,15 +1112,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.5892,
-      "importance": 0.5892,
-      "importance_score": 0.5892,
+      "score": 0.5779,
+      "importance": 0.5779,
+      "importance_score": 0.5779,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9634,
+        "recency": 0.9008,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -1241,6 +1135,84 @@
         "url": "https://entertainment.slashdot.org/story/26/06/19/2146253/amazon-drops-sam-altman-movie-after-announcing-openai-partnership",
         "source": "Slashdot",
         "source_name": "TechURLs"
+      }
+    },
+    {
+      "story_id": "story_471479598601",
+      "title": "美国称ASML的顶级芯片工具可能在中国，但如何呢？ / The US says ASML’s top chip tool may be in China, but how?",
+      "url": "https://techcrunch.com/2026/06/19/the-us-says-asmls-top-chip-tool-may-be-in-china-asml-says-it-isnt",
+      "primary_url": "https://techcrunch.com/2026/06/19/the-us-says-asmls-top-chip-tool-may-be-in-china-asml-says-it-isnt",
+      "source": "TechCrunch AI",
+      "source_name": "Curated Media",
+      "sources": [
+        {
+          "id": "1a7a43e7f323a48dd138dcac0f35b9b082b9447c",
+          "title": "美国称ASML的顶级芯片工具可能在中国，但如何呢？ / The US says ASML’s top chip tool may be in China, but how?",
+          "url": "https://techcrunch.com/2026/06/19/the-us-says-asmls-top-chip-tool-may-be-in-china-asml-says-it-isnt",
+          "source": "TechCrunch AI",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-06-19T07:59:12Z"
+        },
+        {
+          "id": "734552f73f56e817f400d0334b8c595db271f0a8",
+          "title": "美国称ASML的顶级芯片工具可能在中国。 ASML 表示并非如此。 / The US says ASML’s top chip tool may be in China. ASML says it isn’t.",
+          "url": "https://techcrunch.com/2026/06/19/the-us-says-asmls-top-chip-tool-may-be-in-china-asml-says-it-isnt",
+          "source": "TechCrunch AI",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-06-19T07:59:12Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "TechCrunch AI"
+      ],
+      "items": [
+        {
+          "id": "1a7a43e7f323a48dd138dcac0f35b9b082b9447c",
+          "title": "美国称ASML的顶级芯片工具可能在中国，但如何呢？ / The US says ASML’s top chip tool may be in China, but how?",
+          "url": "https://techcrunch.com/2026/06/19/the-us-says-asmls-top-chip-tool-may-be-in-china-asml-says-it-isnt",
+          "source": "TechCrunch AI",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-06-19T07:59:12Z"
+        },
+        {
+          "id": "734552f73f56e817f400d0334b8c595db271f0a8",
+          "title": "美国称ASML的顶级芯片工具可能在中国。 ASML 表示并非如此。 / The US says ASML’s top chip tool may be in China. ASML says it isn’t.",
+          "url": "https://techcrunch.com/2026/06/19/the-us-says-asmls-top-chip-tool-may-be-in-china-asml-says-it-isnt",
+          "source": "TechCrunch AI",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-06-19T07:59:12Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.6076,
+      "importance": 0.6076,
+      "importance_score": 0.6076,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5616,
+        "source_tier": 0.58,
+        "ai_relevance": 0.78,
+        "recency": 0.7252,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-19T07:59:12Z",
+      "latest_at": "2026-06-19T07:59:12Z",
+      "primary_item": {
+        "id": "1a7a43e7f323a48dd138dcac0f35b9b082b9447c",
+        "title": "美国称ASML的顶级芯片工具可能在中国，但如何呢？ / The US says ASML’s top chip tool may be in China, but how?",
+        "url": "https://techcrunch.com/2026/06/19/the-us-says-asmls-top-chip-tool-may-be-in-china-asml-says-it-isnt",
+        "source": "TechCrunch AI",
+        "source_name": "Curated Media"
       }
     },
     {
@@ -1335,15 +1307,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.5869,
-      "importance": 0.5869,
-      "importance_score": 0.5869,
+      "score": 0.5758,
+      "importance": 0.5758,
+      "importance_score": 0.5758,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9508,
+        "recency": 0.889,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -1357,6 +1329,104 @@
         "title": "挪威对小学阶段的人工智能实施近乎全面禁令",
         "url": "https://www.reuters.com/technology/norway-imposes-near-ban-ai-elementary-school-2026-06-19",
         "source": "www.reuters.com",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_7f9301bfcba1",
+      "title": "约翰·詹珀将加入Anthropic",
+      "url": "https://twitter.com/JohnJumperSci/status/2068001285173834106",
+      "primary_url": "https://twitter.com/JohnJumperSci/status/2068001285173834106",
+      "source": "twitter.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "da56195bec2b0f3112f980e0ad0c915a17269821",
+          "title": "约翰·詹珀将加入Anthropic",
+          "url": "https://twitter.com/JohnJumperSci/status/2068001285173834106",
+          "source": "twitter.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-20T05:49:06.853000Z"
+        },
+        {
+          "id": "563fab04c0fa74e046b8ea93ec34d1948b555058",
+          "title": "约翰·詹珀 (John Jumper) 加盟 Anthropic / John Jumper to join Anthropic",
+          "url": "https://news.ycombinator.com/item?id=48601162",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-19T20:40:06.985000Z"
+        },
+        {
+          "id": "c7cd1ddbf84cdb5375df6709f765d655a9744fe2",
+          "title": "约翰·詹珀将加入Anthropic / John Jumper to join Anthropic",
+          "url": "https://twitter.com/JohnJumperSci/status/2068001285173834106",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-19T17:53:00Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "Hacker News (黑客新闻)",
+        "hackernews",
+        "twitter.com"
+      ],
+      "items": [
+        {
+          "id": "da56195bec2b0f3112f980e0ad0c915a17269821",
+          "title": "约翰·詹珀将加入Anthropic",
+          "url": "https://twitter.com/JohnJumperSci/status/2068001285173834106",
+          "source": "twitter.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-20T05:49:06.853000Z"
+        },
+        {
+          "id": "563fab04c0fa74e046b8ea93ec34d1948b555058",
+          "title": "约翰·詹珀 (John Jumper) 加盟 Anthropic / John Jumper to join Anthropic",
+          "url": "https://news.ycombinator.com/item?id=48601162",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-19T20:40:06.985000Z"
+        },
+        {
+          "id": "c7cd1ddbf84cdb5375df6709f765d655a9744fe2",
+          "title": "约翰·詹珀将加入Anthropic / John Jumper to join Anthropic",
+          "url": "https://twitter.com/JohnJumperSci/status/2068001285173834106",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-19T17:53:00Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.5697,
+      "importance": 0.5697,
+      "importance_score": 0.5697,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.994,
+        "story_heat": 0.5
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-19T17:53:00Z",
+      "latest_at": "2026-06-20T05:49:06.853000Z",
+      "primary_item": {
+        "id": "da56195bec2b0f3112f980e0ad0c915a17269821",
+        "title": "约翰·詹珀将加入Anthropic",
+        "url": "https://twitter.com/JohnJumperSci/status/2068001285173834106",
+        "source": "twitter.com",
         "source_name": "Buzzing"
       }
     },
@@ -1431,15 +1501,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5787,
-      "importance": 0.5787,
-      "importance_score": 0.5787,
+      "score": 0.5688,
+      "importance": 0.5688,
+      "importance_score": 0.5688,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.48,
         "ai_relevance": 0.65,
-        "recency": 0.8482,
+        "recency": 0.7931,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1454,6 +1524,85 @@
         "url": "https://www.xiaohongshu.com/explore/6a2d8e4d000000000702784d?xsec_token=YBDDJm08aEJolf0J6UXNWFEjrI_bF8Je1gb_c2wGknQgM%3D",
         "source": "AI插话师",
         "source_name": "TikHub Xiaohongshu"
+      }
+    },
+    {
+      "story_id": "story_5f761ea192e9",
+      "title": "对话王小川：造医生，战豆包，与无尽的 AI 非共识",
+      "url": "https://www.huxiu.com/article/4868828.html?f=rss",
+      "primary_url": "https://www.huxiu.com/article/4868828.html?f=rss",
+      "source": "Readhub · AI",
+      "source_name": "TopHub",
+      "sources": [
+        {
+          "id": "9861b2f9420c3ac4aac2c53a361a0c57c8de6038",
+          "title": "对话王小川：造医生，战豆包，与无尽的 AI 非共识",
+          "url": "https://www.huxiu.com/article/4868828.html?f=rss",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        },
+        {
+          "id": "32fe3ea49c3ad1300306218166915ca2e34b1a42",
+          "title": "对话王小川：造医生，战豆包，与无尽的AI 非共识",
+          "url": "https://www.huxiu.com/article/4868828.html?f=rss",
+          "source": "虎嗅 (Huxiu)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-20T04:49:38Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Readhub · AI",
+        "虎嗅 (Huxiu)"
+      ],
+      "items": [
+        {
+          "id": "9861b2f9420c3ac4aac2c53a361a0c57c8de6038",
+          "title": "对话王小川：造医生，战豆包，与无尽的 AI 非共识",
+          "url": "https://www.huxiu.com/article/4868828.html?f=rss",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        },
+        {
+          "id": "32fe3ea49c3ad1300306218166915ca2e34b1a42",
+          "title": "对话王小川：造医生，战豆包，与无尽的AI 非共识",
+          "url": "https://www.huxiu.com/article/4868828.html?f=rss",
+          "source": "虎嗅 (Huxiu)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-20T04:49:38Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5458,
+      "importance": 0.5458,
+      "importance_score": 0.5458,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 1.0,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-20T04:49:38Z",
+      "latest_at": "2026-06-20T06:14:03.499705Z",
+      "primary_item": {
+        "id": "9861b2f9420c3ac4aac2c53a361a0c57c8de6038",
+        "title": "对话王小川：造医生，战豆包，与无尽的 AI 非共识",
+        "url": "https://www.huxiu.com/article/4868828.html?f=rss",
+        "source": "Readhub · AI",
+        "source_name": "TopHub"
       }
     }
   ]
