@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-20T06:14:03.499705Z",
+  "generated_at": "2026-06-20T09:47:56.183036Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -38,15 +38,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8194,
-      "importance": 0.8194,
-      "importance_score": 0.8194,
+      "score": 0.812,
+      "importance": 0.812,
+      "importance_score": 0.812,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.8188,
+        "recency": 0.7777,
         "story_heat": 0.0
       },
       "category": "official",
@@ -100,15 +100,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8106,
-      "importance": 0.8106,
-      "importance_score": 0.8106,
+      "score": 0.8032,
+      "importance": 0.8032,
+      "importance_score": 0.8032,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.8142,
+        "recency": 0.7733,
         "story_heat": 0.0
       },
       "category": "official",
@@ -181,15 +181,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7894,
-      "importance": 0.7894,
-      "importance_score": 0.7894,
+      "score": 0.7813,
+      "importance": 0.7813,
+      "importance_score": 0.7813,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.77,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8991,
+        "recency": 0.854,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -262,15 +262,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7762,
-      "importance": 0.7762,
-      "importance_score": 0.7762,
+      "score": 0.7684,
+      "importance": 0.7684,
+      "importance_score": 0.7684,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8588,
+        "recency": 0.8157,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -286,6 +286,67 @@
         "title": "JAWBONE Act：一项打击政府为压制合法网络言论而施压的新法案",
         "url": "https://www.eff.org/deeplinks/2026/06/new-bill-takes-aim-government-pressure-silence-lawful-online-speech",
         "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_a76b50900a60",
+      "title": "微软双向转售GPT与DeepSeek成全球最大AI中间商",
+      "url": "https://x.com/AYi_AInotes/status/2068218661710512231",
+      "primary_url": "https://x.com/AYi_AInotes/status/2068218661710512231",
+      "source": "X：阿易 AI Notes (@AYi_AInotes)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "83a8f8ada6d53fb653645f5a5cb66bd04363b947",
+          "title": "微软双向转售GPT与DeepSeek成全球最大AI中间商",
+          "url": "https://x.com/AYi_AInotes/status/2068218661710512231",
+          "source": "X：阿易 AI Notes (@AYi_AInotes)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-20T06:25:29Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "X：阿易 AI Notes (@AYi_AInotes)"
+      ],
+      "items": [
+        {
+          "id": "83a8f8ada6d53fb653645f5a5cb66bd04363b947",
+          "title": "微软双向转售GPT与DeepSeek成全球最大AI中间商",
+          "url": "https://x.com/AYi_AInotes/status/2068218661710512231",
+          "source": "X：阿易 AI Notes (@AYi_AInotes)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-20T06:25:29Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.768,
+      "importance": 0.768,
+      "importance_score": 0.768,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.75,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9524,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-20T06:25:29Z",
+      "latest_at": "2026-06-20T06:25:29Z",
+      "primary_item": {
+        "id": "83a8f8ada6d53fb653645f5a5cb66bd04363b947",
+        "title": "微软双向转售GPT与DeepSeek成全球最大AI中间商",
+        "url": "https://x.com/AYi_AInotes/status/2068218661710512231",
+        "source": "X：阿易 AI Notes (@AYi_AInotes)",
         "source_name": "AI HOT"
       }
     },
@@ -324,15 +385,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7651,
-      "importance": 0.7651,
-      "importance_score": 0.7651,
+      "score": 0.7571,
+      "importance": 0.7571,
+      "importance_score": 0.7571,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.78,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8858,
+        "recency": 0.8414,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -385,15 +446,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.749,
-      "importance": 0.749,
-      "importance_score": 0.749,
+      "score": 0.7414,
+      "importance": 0.7414,
+      "importance_score": 0.7414,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8469,
+        "recency": 0.8044,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -407,66 +468,6 @@
         "title": "baoyu-design Skill迭代：修复导出样式与渐变丢失问题，支持AI配图导出PPTX",
         "url": "https://x.com/dotey/status/2068042001895809420",
         "source": "X：宝玉 (@dotey)",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_fccd344b3af2",
-      "title": "/youtube-notetaker：YT 视频转 Artifacts",
-      "url": "https://x.com/omarsar0/status/2067952726282031411",
-      "primary_url": "https://x.com/omarsar0/status/2067952726282031411",
-      "source": "X：Elvis Saravia (@omarsar0, DAIR.AI)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "cb7126cffe632c2a8663585798d48922cb776af4",
-          "title": "/youtube-notetaker：YT 视频转 Artifacts",
-          "url": "https://x.com/omarsar0/status/2067952726282031411",
-          "source": "X：Elvis Saravia (@omarsar0, DAIR.AI)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-19T12:48:45Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：Elvis Saravia (@omarsar0, DAIR.AI)"
-      ],
-      "items": [
-        {
-          "id": "cb7126cffe632c2a8663585798d48922cb776af4",
-          "title": "/youtube-notetaker：YT 视频转 Artifacts",
-          "url": "https://x.com/omarsar0/status/2067952726282031411",
-          "source": "X：Elvis Saravia (@omarsar0, DAIR.AI)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-19T12:48:45Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7366,
-      "importance": 0.7366,
-      "importance_score": 0.7366,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.75,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7776,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-19T12:48:45Z",
-      "latest_at": "2026-06-19T12:48:45Z",
-      "primary_item": {
-        "id": "cb7126cffe632c2a8663585798d48922cb776af4",
-        "title": "/youtube-notetaker：YT 视频转 Artifacts",
-        "url": "https://x.com/omarsar0/status/2067952726282031411",
-        "source": "X：Elvis Saravia (@omarsar0, DAIR.AI)",
         "source_name": "AI HOT"
       }
     },
@@ -505,15 +506,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7366,
-      "importance": 0.7366,
-      "importance_score": 0.7366,
+      "score": 0.7299,
+      "importance": 0.7299,
+      "importance_score": 0.7299,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.77,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7446,
+        "recency": 0.7072,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -527,6 +528,66 @@
         "title": "Humanize PPT v0.9：为演讲而生的开源PPT Skill",
         "url": "https://mp.weixin.qq.com/s/rGoYnUcBRkfRKQPbIaawyg",
         "source": "公众号：卡尔的AI沃茨",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_fccd344b3af2",
+      "title": "/youtube-notetaker：YT 视频转 Artifacts",
+      "url": "https://x.com/omarsar0/status/2067952726282031411",
+      "primary_url": "https://x.com/omarsar0/status/2067952726282031411",
+      "source": "X：Elvis Saravia (@omarsar0, DAIR.AI)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "cb7126cffe632c2a8663585798d48922cb776af4",
+          "title": "/youtube-notetaker：YT 视频转 Artifacts",
+          "url": "https://x.com/omarsar0/status/2067952726282031411",
+          "source": "X：Elvis Saravia (@omarsar0, DAIR.AI)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-19T12:48:45Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "X：Elvis Saravia (@omarsar0, DAIR.AI)"
+      ],
+      "items": [
+        {
+          "id": "cb7126cffe632c2a8663585798d48922cb776af4",
+          "title": "/youtube-notetaker：YT 视频转 Artifacts",
+          "url": "https://x.com/omarsar0/status/2067952726282031411",
+          "source": "X：Elvis Saravia (@omarsar0, DAIR.AI)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-19T12:48:45Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7295,
+      "importance": 0.7295,
+      "importance_score": 0.7295,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.75,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7386,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-06-19T12:48:45Z",
+      "latest_at": "2026-06-19T12:48:45Z",
+      "primary_item": {
+        "id": "cb7126cffe632c2a8663585798d48922cb776af4",
+        "title": "/youtube-notetaker：YT 视频转 Artifacts",
+        "url": "https://x.com/omarsar0/status/2067952726282031411",
+        "source": "X：Elvis Saravia (@omarsar0, DAIR.AI)",
         "source_name": "AI HOT"
       }
     },
@@ -565,15 +626,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7344,
-      "importance": 0.7344,
-      "importance_score": 0.7344,
+      "score": 0.7271,
+      "importance": 0.7271,
+      "importance_score": 0.7271,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8157,
+        "recency": 0.7747,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -625,21 +686,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7524,
-      "importance": 0.7524,
-      "importance_score": 0.7524,
+      "score": 0.7455,
+      "importance": 0.7455,
+      "importance_score": 0.7455,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.81,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7657,
+        "recency": 0.7272,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-06-19T11:44:36Z",
       "latest_at": "2026-06-19T11:44:36Z",
@@ -648,66 +708,6 @@
         "title": "OpenAI 将前沿健康 AI 能力迁移至免费版 GPT-5.5 Instant",
         "url": "https://x.com/rohanpaul_ai/status/2067936581441528040",
         "source": "X：Rohan Paul (@rohanpaul_ai)",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_1299495a1df6",
-      "title": "OpenRouter vs LiteLLM：如何选择 LLM 网关",
-      "url": "https://openrouter.ai/blog/insights/openrouter-vs-litellm",
-      "primary_url": "https://openrouter.ai/blog/insights/openrouter-vs-litellm",
-      "source": "OpenRouter：Announcements（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "f3b81a45ee1a63d59659d6969b1d45a558007e84",
-          "title": "OpenRouter vs LiteLLM：如何选择 LLM 网关",
-          "url": "https://openrouter.ai/blog/insights/openrouter-vs-litellm",
-          "source": "OpenRouter：Announcements（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-19T15:00:00Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "OpenRouter：Announcements（RSS）"
-      ],
-      "items": [
-        {
-          "id": "f3b81a45ee1a63d59659d6969b1d45a558007e84",
-          "title": "OpenRouter vs LiteLLM：如何选择 LLM 网关",
-          "url": "https://openrouter.ai/blog/insights/openrouter-vs-litellm",
-          "source": "OpenRouter：Announcements（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-19T15:00:00Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7201,
-      "importance": 0.7201,
-      "importance_score": 0.7201,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.68,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8025,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-19T15:00:00Z",
-      "latest_at": "2026-06-19T15:00:00Z",
-      "primary_item": {
-        "id": "f3b81a45ee1a63d59659d6969b1d45a558007e84",
-        "title": "OpenRouter vs LiteLLM：如何选择 LLM 网关",
-        "url": "https://openrouter.ai/blog/insights/openrouter-vs-litellm",
-        "source": "OpenRouter：Announcements（RSS）",
         "source_name": "AI HOT"
       }
     },
@@ -764,15 +764,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.6301,
-      "importance": 0.6301,
-      "importance_score": 0.6301,
+      "score": 0.622,
+      "importance": 0.622,
+      "importance_score": 0.622,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.5472,
         "source_tier": 0.58,
         "ai_relevance": 0.76,
-        "recency": 0.8965,
+        "recency": 0.8515,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -878,15 +878,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.6186,
-      "importance": 0.6186,
-      "importance_score": 0.6186,
+      "score": 0.6113,
+      "importance": 0.6113,
+      "importance_score": 0.6113,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.4824,
         "source_tier": 0.54,
         "ai_relevance": 0.67,
-        "recency": 0.8116,
+        "recency": 0.7709,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -995,15 +995,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.5954,
-      "importance": 0.5954,
-      "importance_score": 0.5954,
+      "score": 0.5864,
+      "importance": 0.5864,
+      "importance_score": 0.5864,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9979,
+        "recency": 0.9478,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -1112,15 +1112,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.5779,
-      "importance": 0.5779,
-      "importance_score": 0.5779,
+      "score": 0.5698,
+      "importance": 0.5698,
+      "importance_score": 0.5698,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9008,
+        "recency": 0.8556,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -1135,84 +1135,6 @@
         "url": "https://entertainment.slashdot.org/story/26/06/19/2146253/amazon-drops-sam-altman-movie-after-announcing-openai-partnership",
         "source": "Slashdot",
         "source_name": "TechURLs"
-      }
-    },
-    {
-      "story_id": "story_471479598601",
-      "title": "美国称ASML的顶级芯片工具可能在中国，但如何呢？ / The US says ASML’s top chip tool may be in China, but how?",
-      "url": "https://techcrunch.com/2026/06/19/the-us-says-asmls-top-chip-tool-may-be-in-china-asml-says-it-isnt",
-      "primary_url": "https://techcrunch.com/2026/06/19/the-us-says-asmls-top-chip-tool-may-be-in-china-asml-says-it-isnt",
-      "source": "TechCrunch AI",
-      "source_name": "Curated Media",
-      "sources": [
-        {
-          "id": "1a7a43e7f323a48dd138dcac0f35b9b082b9447c",
-          "title": "美国称ASML的顶级芯片工具可能在中国，但如何呢？ / The US says ASML’s top chip tool may be in China, but how?",
-          "url": "https://techcrunch.com/2026/06/19/the-us-says-asmls-top-chip-tool-may-be-in-china-asml-says-it-isnt",
-          "source": "TechCrunch AI",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-06-19T07:59:12Z"
-        },
-        {
-          "id": "734552f73f56e817f400d0334b8c595db271f0a8",
-          "title": "美国称ASML的顶级芯片工具可能在中国。 ASML 表示并非如此。 / The US says ASML’s top chip tool may be in China. ASML says it isn’t.",
-          "url": "https://techcrunch.com/2026/06/19/the-us-says-asmls-top-chip-tool-may-be-in-china-asml-says-it-isnt",
-          "source": "TechCrunch AI",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-06-19T07:59:12Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "TechCrunch AI"
-      ],
-      "items": [
-        {
-          "id": "1a7a43e7f323a48dd138dcac0f35b9b082b9447c",
-          "title": "美国称ASML的顶级芯片工具可能在中国，但如何呢？ / The US says ASML’s top chip tool may be in China, but how?",
-          "url": "https://techcrunch.com/2026/06/19/the-us-says-asmls-top-chip-tool-may-be-in-china-asml-says-it-isnt",
-          "source": "TechCrunch AI",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-06-19T07:59:12Z"
-        },
-        {
-          "id": "734552f73f56e817f400d0334b8c595db271f0a8",
-          "title": "美国称ASML的顶级芯片工具可能在中国。 ASML 表示并非如此。 / The US says ASML’s top chip tool may be in China. ASML says it isn’t.",
-          "url": "https://techcrunch.com/2026/06/19/the-us-says-asmls-top-chip-tool-may-be-in-china-asml-says-it-isnt",
-          "source": "TechCrunch AI",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-06-19T07:59:12Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.6076,
-      "importance": 0.6076,
-      "importance_score": 0.6076,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5616,
-        "source_tier": 0.58,
-        "ai_relevance": 0.78,
-        "recency": 0.7252,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-19T07:59:12Z",
-      "latest_at": "2026-06-19T07:59:12Z",
-      "primary_item": {
-        "id": "1a7a43e7f323a48dd138dcac0f35b9b082b9447c",
-        "title": "美国称ASML的顶级芯片工具可能在中国，但如何呢？ / The US says ASML’s top chip tool may be in China, but how?",
-        "url": "https://techcrunch.com/2026/06/19/the-us-says-asmls-top-chip-tool-may-be-in-china-asml-says-it-isnt",
-        "source": "TechCrunch AI",
-        "source_name": "Curated Media"
       }
     },
     {
@@ -1307,15 +1229,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.5758,
-      "importance": 0.5758,
-      "importance_score": 0.5758,
+      "score": 0.5678,
+      "importance": 0.5678,
+      "importance_score": 0.5678,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.889,
+        "recency": 0.8444,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -1330,6 +1252,102 @@
         "url": "https://www.reuters.com/technology/norway-imposes-near-ban-ai-elementary-school-2026-06-19",
         "source": "www.reuters.com",
         "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_bcd29eb51485",
+      "title": "打脸！谁说AI不会表演？？？",
+      "url": "https://www.xiaohongshu.com/explore/6a2d8e4d000000000702784d?xsec_token=YBDDJm08aEJolf0J6UXNWFEjrI_bF8Je1gb_c2wGknQgM%3D",
+      "primary_url": "https://www.xiaohongshu.com/explore/6a2d8e4d000000000702784d?xsec_token=YBDDJm08aEJolf0J6UXNWFEjrI_bF8Je1gb_c2wGknQgM%3D",
+      "source": "AI插话师",
+      "source_name": "TikHub Xiaohongshu",
+      "sources": [
+        {
+          "id": "f06cf4210940b96349940257bc79d0df9485e3cf",
+          "title": "打脸！谁说AI不会表演？？？",
+          "url": "https://www.xiaohongshu.com/explore/6a2d8e4d000000000702784d?xsec_token=YBDDJm08aEJolf0J6UXNWFEjrI_bF8Je1gb_c2wGknQgM%3D",
+          "source": "AI插话师",
+          "source_name": "TikHub Xiaohongshu",
+          "site_id": "tikhub_xiaohongshu",
+          "published_at": "2026-06-19T14:10:43.028916Z"
+        },
+        {
+          "id": "5094a0f7dccdb205381b9e5c71f1c2d6b5ff6070",
+          "title": "打脸！谁说AI不会表演？？？",
+          "url": "https://www.xiaohongshu.com/explore/6a2d8e4d000000000702784d?xsec_token=YBlrFnZ1iQArpUo0-mHRj7TCSerrP7ee3165c-OWw5mzU%3D",
+          "source": "AI插话师",
+          "source_name": "TikHub Xiaohongshu",
+          "site_id": "tikhub_xiaohongshu",
+          "published_at": "2026-06-19T14:06:17.488483Z"
+        },
+        {
+          "id": "e5c7059a634df66b1152b67b2f1399561e28ede6",
+          "title": "打脸！谁说AI不会表演？？？",
+          "url": "https://www.xiaohongshu.com/explore/6a2d8e4d000000000702784d?xsec_token=YBlrFnZ1iQArpUo0-mHRj7TPosFRhXOaJIuJkxkVXSdx0%3D",
+          "source": "AI插话师",
+          "source_name": "TikHub Xiaohongshu",
+          "site_id": "tikhub_xiaohongshu",
+          "published_at": "2026-06-19T14:01:09.271846Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "AI插话师"
+      ],
+      "items": [
+        {
+          "id": "f06cf4210940b96349940257bc79d0df9485e3cf",
+          "title": "打脸！谁说AI不会表演？？？",
+          "url": "https://www.xiaohongshu.com/explore/6a2d8e4d000000000702784d?xsec_token=YBDDJm08aEJolf0J6UXNWFEjrI_bF8Je1gb_c2wGknQgM%3D",
+          "source": "AI插话师",
+          "source_name": "TikHub Xiaohongshu",
+          "site_id": "tikhub_xiaohongshu",
+          "published_at": "2026-06-19T14:10:43.028916Z"
+        },
+        {
+          "id": "5094a0f7dccdb205381b9e5c71f1c2d6b5ff6070",
+          "title": "打脸！谁说AI不会表演？？？",
+          "url": "https://www.xiaohongshu.com/explore/6a2d8e4d000000000702784d?xsec_token=YBlrFnZ1iQArpUo0-mHRj7TCSerrP7ee3165c-OWw5mzU%3D",
+          "source": "AI插话师",
+          "source_name": "TikHub Xiaohongshu",
+          "site_id": "tikhub_xiaohongshu",
+          "published_at": "2026-06-19T14:06:17.488483Z"
+        },
+        {
+          "id": "e5c7059a634df66b1152b67b2f1399561e28ede6",
+          "title": "打脸！谁说AI不会表演？？？",
+          "url": "https://www.xiaohongshu.com/explore/6a2d8e4d000000000702784d?xsec_token=YBlrFnZ1iQArpUo0-mHRj7TPosFRhXOaJIuJkxkVXSdx0%3D",
+          "source": "AI插话师",
+          "source_name": "TikHub Xiaohongshu",
+          "site_id": "tikhub_xiaohongshu",
+          "published_at": "2026-06-19T14:01:09.271846Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.5616,
+      "importance": 0.5616,
+      "importance_score": 0.5616,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.48,
+        "ai_relevance": 0.65,
+        "recency": 0.7533,
+        "story_heat": 0.5
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-19T14:01:09.271846Z",
+      "latest_at": "2026-06-19T14:10:43.028916Z",
+      "primary_item": {
+        "id": "f06cf4210940b96349940257bc79d0df9485e3cf",
+        "title": "打脸！谁说AI不会表演？？？",
+        "url": "https://www.xiaohongshu.com/explore/6a2d8e4d000000000702784d?xsec_token=YBDDJm08aEJolf0J6UXNWFEjrI_bF8Je1gb_c2wGknQgM%3D",
+        "source": "AI插话师",
+        "source_name": "TikHub Xiaohongshu"
       }
     },
     {
@@ -1405,15 +1423,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5697,
-      "importance": 0.5697,
-      "importance_score": 0.5697,
+      "score": 0.5607,
+      "importance": 0.5607,
+      "importance_score": 0.5607,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.994,
+        "recency": 0.9441,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1431,151 +1449,55 @@
       }
     },
     {
-      "story_id": "story_bcd29eb51485",
-      "title": "打脸！谁说AI不会表演？？？",
-      "url": "https://www.xiaohongshu.com/explore/6a2d8e4d000000000702784d?xsec_token=YBDDJm08aEJolf0J6UXNWFEjrI_bF8Je1gb_c2wGknQgM%3D",
-      "primary_url": "https://www.xiaohongshu.com/explore/6a2d8e4d000000000702784d?xsec_token=YBDDJm08aEJolf0J6UXNWFEjrI_bF8Je1gb_c2wGknQgM%3D",
-      "source": "AI插话师",
-      "source_name": "TikHub Xiaohongshu",
-      "sources": [
-        {
-          "id": "f06cf4210940b96349940257bc79d0df9485e3cf",
-          "title": "打脸！谁说AI不会表演？？？",
-          "url": "https://www.xiaohongshu.com/explore/6a2d8e4d000000000702784d?xsec_token=YBDDJm08aEJolf0J6UXNWFEjrI_bF8Je1gb_c2wGknQgM%3D",
-          "source": "AI插话师",
-          "source_name": "TikHub Xiaohongshu",
-          "site_id": "tikhub_xiaohongshu",
-          "published_at": "2026-06-19T14:10:43.028916Z"
-        },
-        {
-          "id": "5094a0f7dccdb205381b9e5c71f1c2d6b5ff6070",
-          "title": "打脸！谁说AI不会表演？？？",
-          "url": "https://www.xiaohongshu.com/explore/6a2d8e4d000000000702784d?xsec_token=YBlrFnZ1iQArpUo0-mHRj7TCSerrP7ee3165c-OWw5mzU%3D",
-          "source": "AI插话师",
-          "source_name": "TikHub Xiaohongshu",
-          "site_id": "tikhub_xiaohongshu",
-          "published_at": "2026-06-19T14:06:17.488483Z"
-        },
-        {
-          "id": "e5c7059a634df66b1152b67b2f1399561e28ede6",
-          "title": "打脸！谁说AI不会表演？？？",
-          "url": "https://www.xiaohongshu.com/explore/6a2d8e4d000000000702784d?xsec_token=YBlrFnZ1iQArpUo0-mHRj7TPosFRhXOaJIuJkxkVXSdx0%3D",
-          "source": "AI插话师",
-          "source_name": "TikHub Xiaohongshu",
-          "site_id": "tikhub_xiaohongshu",
-          "published_at": "2026-06-19T14:01:09.271846Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "AI插话师"
-      ],
-      "items": [
-        {
-          "id": "f06cf4210940b96349940257bc79d0df9485e3cf",
-          "title": "打脸！谁说AI不会表演？？？",
-          "url": "https://www.xiaohongshu.com/explore/6a2d8e4d000000000702784d?xsec_token=YBDDJm08aEJolf0J6UXNWFEjrI_bF8Je1gb_c2wGknQgM%3D",
-          "source": "AI插话师",
-          "source_name": "TikHub Xiaohongshu",
-          "site_id": "tikhub_xiaohongshu",
-          "published_at": "2026-06-19T14:10:43.028916Z"
-        },
-        {
-          "id": "5094a0f7dccdb205381b9e5c71f1c2d6b5ff6070",
-          "title": "打脸！谁说AI不会表演？？？",
-          "url": "https://www.xiaohongshu.com/explore/6a2d8e4d000000000702784d?xsec_token=YBlrFnZ1iQArpUo0-mHRj7TCSerrP7ee3165c-OWw5mzU%3D",
-          "source": "AI插话师",
-          "source_name": "TikHub Xiaohongshu",
-          "site_id": "tikhub_xiaohongshu",
-          "published_at": "2026-06-19T14:06:17.488483Z"
-        },
-        {
-          "id": "e5c7059a634df66b1152b67b2f1399561e28ede6",
-          "title": "打脸！谁说AI不会表演？？？",
-          "url": "https://www.xiaohongshu.com/explore/6a2d8e4d000000000702784d?xsec_token=YBlrFnZ1iQArpUo0-mHRj7TPosFRhXOaJIuJkxkVXSdx0%3D",
-          "source": "AI插话师",
-          "source_name": "TikHub Xiaohongshu",
-          "site_id": "tikhub_xiaohongshu",
-          "published_at": "2026-06-19T14:01:09.271846Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.5688,
-      "importance": 0.5688,
-      "importance_score": 0.5688,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.48,
-        "ai_relevance": 0.65,
-        "recency": 0.7931,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-19T14:01:09.271846Z",
-      "latest_at": "2026-06-19T14:10:43.028916Z",
-      "primary_item": {
-        "id": "f06cf4210940b96349940257bc79d0df9485e3cf",
-        "title": "打脸！谁说AI不会表演？？？",
-        "url": "https://www.xiaohongshu.com/explore/6a2d8e4d000000000702784d?xsec_token=YBDDJm08aEJolf0J6UXNWFEjrI_bF8Je1gb_c2wGknQgM%3D",
-        "source": "AI插话师",
-        "source_name": "TikHub Xiaohongshu"
-      }
-    },
-    {
-      "story_id": "story_5f761ea192e9",
-      "title": "对话王小川：造医生，战豆包，与无尽的 AI 非共识",
-      "url": "https://www.huxiu.com/article/4868828.html?f=rss",
-      "primary_url": "https://www.huxiu.com/article/4868828.html?f=rss",
+      "story_id": "story_13b5394eceeb",
+      "title": "中国科学家提出「AI 语言」：人类难懂但模型能懂，文本压缩至 27.9% 仍保留 99.5% 语义",
+      "url": "https://www.ithome.com/0/966/529.htm",
+      "primary_url": "https://www.ithome.com/0/966/529.htm",
       "source": "Readhub · AI",
       "source_name": "TopHub",
       "sources": [
         {
-          "id": "9861b2f9420c3ac4aac2c53a361a0c57c8de6038",
-          "title": "对话王小川：造医生，战豆包，与无尽的 AI 非共识",
-          "url": "https://www.huxiu.com/article/4868828.html?f=rss",
+          "id": "753fe60aa43efc58eec0a8bb859b6b5ac1123842",
+          "title": "中国科学家提出「AI 语言」：人类难懂但模型能懂，文本压缩至 27.9% 仍保留 99.5% 语义",
+          "url": "https://www.ithome.com/0/966/529.htm",
           "source": "Readhub · AI",
           "source_name": "TopHub",
           "site_id": "tophub",
           "published_at": null
         },
         {
-          "id": "32fe3ea49c3ad1300306218166915ca2e34b1a42",
-          "title": "对话王小川：造医生，战豆包，与无尽的AI 非共识",
-          "url": "https://www.huxiu.com/article/4868828.html?f=rss",
-          "source": "虎嗅 (Huxiu)",
+          "id": "879ebc15ce7303ad16c216c01cae5e4e04b10226",
+          "title": "中国科学家提出“AI 语言”：人类难懂但模型能懂，文本压缩至 27.9% 仍保留 99.5% 语义",
+          "url": "https://www.ithome.com/0/966/529.htm",
+          "source": "IT之家 (ITHome)",
           "source_name": "Info Flow",
           "site_id": "iris",
-          "published_at": "2026-06-20T04:49:38Z"
+          "published_at": "2026-06-20T08:18:02Z"
         }
       ],
       "source_count": 2,
       "source_names": [
-        "Readhub · AI",
-        "虎嗅 (Huxiu)"
+        "IT之家 (ITHome)",
+        "Readhub · AI"
       ],
       "items": [
         {
-          "id": "9861b2f9420c3ac4aac2c53a361a0c57c8de6038",
-          "title": "对话王小川：造医生，战豆包，与无尽的 AI 非共识",
-          "url": "https://www.huxiu.com/article/4868828.html?f=rss",
+          "id": "753fe60aa43efc58eec0a8bb859b6b5ac1123842",
+          "title": "中国科学家提出「AI 语言」：人类难懂但模型能懂，文本压缩至 27.9% 仍保留 99.5% 语义",
+          "url": "https://www.ithome.com/0/966/529.htm",
           "source": "Readhub · AI",
           "source_name": "TopHub",
           "site_id": "tophub",
           "published_at": null
         },
         {
-          "id": "32fe3ea49c3ad1300306218166915ca2e34b1a42",
-          "title": "对话王小川：造医生，战豆包，与无尽的AI 非共识",
-          "url": "https://www.huxiu.com/article/4868828.html?f=rss",
-          "source": "虎嗅 (Huxiu)",
+          "id": "879ebc15ce7303ad16c216c01cae5e4e04b10226",
+          "title": "中国科学家提出“AI 语言”：人类难懂但模型能懂，文本压缩至 27.9% 仍保留 99.5% 语义",
+          "url": "https://www.ithome.com/0/966/529.htm",
+          "source": "IT之家 (ITHome)",
           "source_name": "Info Flow",
           "site_id": "iris",
-          "published_at": "2026-06-20T04:49:38Z"
+          "published_at": "2026-06-20T08:18:02Z"
         }
       ],
       "item_count": 2,
@@ -1595,14 +1517,93 @@
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-20T04:49:38Z",
-      "latest_at": "2026-06-20T06:14:03.499705Z",
+      "earliest_at": "2026-06-20T08:18:02Z",
+      "latest_at": "2026-06-20T09:47:56.183036Z",
       "primary_item": {
-        "id": "9861b2f9420c3ac4aac2c53a361a0c57c8de6038",
-        "title": "对话王小川：造医生，战豆包，与无尽的 AI 非共识",
-        "url": "https://www.huxiu.com/article/4868828.html?f=rss",
+        "id": "753fe60aa43efc58eec0a8bb859b6b5ac1123842",
+        "title": "中国科学家提出「AI 语言」：人类难懂但模型能懂，文本压缩至 27.9% 仍保留 99.5% 语义",
+        "url": "https://www.ithome.com/0/966/529.htm",
         "source": "Readhub · AI",
         "source_name": "TopHub"
+      }
+    },
+    {
+      "story_id": "story_c4c6757d2ee6",
+      "title": "让人工智能帮你选午餐的隐性成本",
+      "url": "https://www.businessinsider.com/ai-reliance-decision-making-life-advice-cognitive-surrender-2026-6",
+      "primary_url": "https://www.businessinsider.com/ai-reliance-decision-making-life-advice-cognitive-surrender-2026-6",
+      "source": "www.businessinsider.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "f706ac38817210dce598f9eb8cdc800814f8f6c8",
+          "title": "让人工智能帮你选午餐的隐性成本",
+          "url": "https://www.businessinsider.com/ai-reliance-decision-making-life-advice-cognitive-surrender-2026-6",
+          "source": "www.businessinsider.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-20T08:45:09.549000Z"
+        },
+        {
+          "id": "30ae6d5322407c79de0dad970c69195b6b99bc11",
+          "title": "让人工智能帮你选午餐的隐性成本 / The hidden cost of letting AI choose your lunch",
+          "url": "https://www.businessinsider.com/ai-reliance-decision-making-life-advice-cognitive-surrender-2026-6",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-20T08:42:24Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Business Insider",
+        "www.businessinsider.com"
+      ],
+      "items": [
+        {
+          "id": "f706ac38817210dce598f9eb8cdc800814f8f6c8",
+          "title": "让人工智能帮你选午餐的隐性成本",
+          "url": "https://www.businessinsider.com/ai-reliance-decision-making-life-advice-cognitive-surrender-2026-6",
+          "source": "www.businessinsider.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-20T08:45:09.549000Z"
+        },
+        {
+          "id": "30ae6d5322407c79de0dad970c69195b6b99bc11",
+          "title": "让人工智能帮你选午餐的隐性成本 / The hidden cost of letting AI choose your lunch",
+          "url": "https://www.businessinsider.com/ai-reliance-decision-making-life-advice-cognitive-surrender-2026-6",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-20T08:42:24Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5431,
+      "importance": 0.5431,
+      "importance_score": 0.5431,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.985,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-20T08:42:24Z",
+      "latest_at": "2026-06-20T08:45:09.549000Z",
+      "primary_item": {
+        "id": "f706ac38817210dce598f9eb8cdc800814f8f6c8",
+        "title": "让人工智能帮你选午餐的隐性成本",
+        "url": "https://www.businessinsider.com/ai-reliance-decision-making-life-advice-cognitive-surrender-2026-6",
+        "source": "www.businessinsider.com",
+        "source_name": "Buzzing"
       }
     }
   ]
