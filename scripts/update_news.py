@@ -3073,6 +3073,17 @@ def update_paid_source_state(
         entry["last_error"] = status.get("error")
 
 
+def sync_paid_source_status_timestamps(
+    status: dict[str, Any],
+    state: dict[str, Any],
+    source_key: str,
+) -> None:
+    """Keep the published status aligned with the state used by the run gate."""
+    entry = paid_source_state_entry(state, source_key)
+    status["last_run_at"] = entry.get("last_run_at")
+    status["last_success_at"] = entry.get("last_success_at")
+
+
 def maybe_fetch_agentmail_digest(
     session: requests.Session,
     generated_at: str,
@@ -4946,6 +4957,7 @@ def main() -> int:
         )
     socialdata_items, socialdata_status = maybe_fetch_socialdata_updates(session, now, paid_source_state)
     update_paid_source_state(paid_source_state, "socialdata", socialdata_status, now)
+    sync_paid_source_status_timestamps(socialdata_status, paid_source_state, "socialdata")
     if socialdata_status.get("enabled"):
         raw_items.extend(socialdata_items)
         statuses.append(
@@ -4962,6 +4974,7 @@ def main() -> int:
         )
     tikhub_items, tikhub_status = maybe_fetch_tikhub_updates(session, now, paid_source_state)
     update_paid_source_state(paid_source_state, "tikhub", tikhub_status, now)
+    sync_paid_source_status_timestamps(tikhub_status, paid_source_state, "tikhub")
     if tikhub_status.get("enabled"):
         raw_items.extend(tikhub_items)
         tikhub_counts: dict[str, int] = {}

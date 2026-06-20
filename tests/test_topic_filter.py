@@ -33,10 +33,23 @@ from scripts.update_news import (
     parse_follow_builders_items,
     parse_openai_codex_changelog_items,
     redact_public_text,
+    sync_paid_source_status_timestamps,
+    update_paid_source_state,
 )
 
 
 class TopicFilterTests(unittest.TestCase):
+    def test_paid_source_status_uses_the_persisted_run_timestamps(self):
+        now = __import__("datetime").datetime.fromisoformat("2026-05-03T01:00:00+00:00")
+        state = {"sources": {}}
+        status = {"attempted": True, "ok": True, "item_count": 7}
+
+        update_paid_source_state(state, "socialdata", status, now)
+        sync_paid_source_status_timestamps(status, state, "socialdata")
+
+        self.assertEqual(status["last_run_at"], "2026-05-03T01:00:00Z")
+        self.assertEqual(status["last_success_at"], "2026-05-03T01:00:00Z")
+
     def test_accepts_ai_keyword(self):
         rec = {
             "site_id": "techurls",
