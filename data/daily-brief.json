@@ -1,89 +1,8 @@
 {
-  "generated_at": "2026-06-20T21:45:24.889110Z",
+  "generated_at": "2026-06-20T22:59:46.110385Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
-    {
-      "story_id": "story_a2c721be533d",
-      "title": "NVIDIA Research 发布 SpatialClaw：免训练空间推理框架",
-      "url": "https://www.marktechpost.com/2026/06/19/nvidia-ai-introduce-spatialclaw-a-training-free-agent-that-treats-code-as-the-action-interface-for-spatial-reasoning",
-      "primary_url": "https://www.marktechpost.com/2026/06/19/nvidia-ai-introduce-spatialclaw-a-training-free-agent-that-treats-code-as-the-action-interface-for-spatial-reasoning",
-      "source": "MarkTechPost（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "c8b8bb056819dc2aa81ba9b849b672539bd41a4a",
-          "title": "NVIDIA Research 发布 SpatialClaw：免训练空间推理框架",
-          "url": "https://www.marktechpost.com/2026/06/19/nvidia-ai-introduce-spatialclaw-a-training-free-agent-that-treats-code-as-the-action-interface-for-spatial-reasoning",
-          "source": "MarkTechPost（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-19T22:51:59Z"
-        },
-        {
-          "id": "ede48318f91906ce2dd08d748fbc6dd7deac1ddc",
-          "title": "NVIDIA Research 发布 SpatialClaw：免训练空间推理框架 / NVIDIA AI Introduce SpatialClaw: A Training-Free Agent That Treats Code as the Action Interface for Spatial Reasoning",
-          "url": "https://www.marktechpost.com/2026/06/19/nvidia-ai-introduce-spatialclaw-a-training-free-agent-that-treats-code-as-the-action-interface-for-spatial-reasoning",
-          "source": "MarkTechPost Research",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-06-19T22:51:59Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "MarkTechPost Research",
-        "MarkTechPost（RSS）"
-      ],
-      "items": [
-        {
-          "id": "c8b8bb056819dc2aa81ba9b849b672539bd41a4a",
-          "title": "NVIDIA Research 发布 SpatialClaw：免训练空间推理框架",
-          "url": "https://www.marktechpost.com/2026/06/19/nvidia-ai-introduce-spatialclaw-a-training-free-agent-that-treats-code-as-the-action-interface-for-spatial-reasoning",
-          "source": "MarkTechPost（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-19T22:51:59Z"
-        },
-        {
-          "id": "ede48318f91906ce2dd08d748fbc6dd7deac1ddc",
-          "title": "NVIDIA Research 发布 SpatialClaw：免训练空间推理框架 / NVIDIA AI Introduce SpatialClaw: A Training-Free Agent That Treats Code as the Action Interface for Spatial Reasoning",
-          "url": "https://www.marktechpost.com/2026/06/19/nvidia-ai-introduce-spatialclaw-a-training-free-agent-that-treats-code-as-the-action-interface-for-spatial-reasoning",
-          "source": "MarkTechPost Research",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-06-19T22:51:59Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7569,
-      "importance": 0.7569,
-      "importance_score": 0.7569,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.77,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7185,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-19T22:51:59Z",
-      "latest_at": "2026-06-19T22:51:59Z",
-      "primary_item": {
-        "id": "c8b8bb056819dc2aa81ba9b849b672539bd41a4a",
-        "title": "NVIDIA Research 发布 SpatialClaw：免训练空间推理框架",
-        "url": "https://www.marktechpost.com/2026/06/19/nvidia-ai-introduce-spatialclaw-a-training-free-agent-that-treats-code-as-the-action-interface-for-spatial-reasoning",
-        "source": "MarkTechPost（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
     {
       "story_id": "story_767c73782c59",
       "title": "开源教程《Deep Agents 实战》发布",
@@ -119,15 +38,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7536,
-      "importance": 0.7536,
-      "importance_score": 0.7536,
+      "score": 0.7508,
+      "importance": 0.7508,
+      "importance_score": 0.7508,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.872,
+        "recency": 0.8565,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -180,15 +99,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7409,
-      "importance": 0.7409,
-      "importance_score": 0.7409,
+      "score": 0.7383,
+      "importance": 0.7383,
+      "importance_score": 0.7383,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8014,
+        "recency": 0.7872,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -206,160 +125,99 @@
       }
     },
     {
-      "story_id": "story_4aad406cdc9b",
-      "title": "Figure机器人数首超人类员工",
-      "url": "https://x.com/rohanpaul_ai/status/2068089038213693800",
-      "primary_url": "https://x.com/rohanpaul_ai/status/2068089038213693800",
-      "source": "X：Rohan Paul (@rohanpaul_ai)",
-      "source_name": "AI HOT",
+      "story_id": "story_2df82173bb28",
+      "title": "Silicon Valley Girl 这期对话真正有用的地方，不在于预测AI抢走多少工作，而在于把未来职场拆成两个很具体的问题：谁还在等流程喂任务，谁已经能带着 AI 改写自己的工作边界。AI 不会把每个人立刻推到同一个终点，但会放大主动学习者和旁观者之间的差距。今天最小的开始，可以只是把一个重复任务交给 AI，亲手跑通，再问自己：我的工作里，还有哪一步可以被重新设计。",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+      "primary_url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+      "source": "社区更新 · 2026-06-20",
+      "source_name": "WaytoAGI",
       "sources": [
         {
-          "id": "559358974e655c714c8615b6b8f22d38e2670c53",
-          "title": "Figure机器人数首超人类员工",
-          "url": "https://x.com/rohanpaul_ai/status/2068089038213693800",
-          "source": "X：Rohan Paul (@rohanpaul_ai)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-19T21:50:24Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：Rohan Paul (@rohanpaul_ai)"
-      ],
-      "items": [
-        {
-          "id": "559358974e655c714c8615b6b8f22d38e2670c53",
-          "title": "Figure机器人数首超人类员工",
-          "url": "https://x.com/rohanpaul_ai/status/2068089038213693800",
-          "source": "X：Rohan Paul (@rohanpaul_ai)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-19T21:50:24Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.733,
-      "importance": 0.733,
-      "importance_score": 0.733,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.78,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.708,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-19T21:50:24Z",
-      "latest_at": "2026-06-19T21:50:24Z",
-      "primary_item": {
-        "id": "559358974e655c714c8615b6b8f22d38e2670c53",
-        "title": "Figure机器人数首超人类员工",
-        "url": "https://x.com/rohanpaul_ai/status/2068089038213693800",
-        "source": "X：Rohan Paul (@rohanpaul_ai)",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_ef1cc3a7e9c9",
-      "title": "从PGP到Mythos：出口管制未能阻止任何人的简史 / Encryption, spyware, and now Mythos: History shows why cyber export control doesn’t work",
-      "url": "https://techcrunch.com/2026/06/19/encryption-spyware-and-now-mythos-history-shows-why-cyber-export-control-doesnt-work",
-      "primary_url": "https://techcrunch.com/2026/06/19/encryption-spyware-and-now-mythos-history-shows-why-cyber-export-control-doesnt-work",
-      "source": "TechCrunch AI",
-      "source_name": "Curated Media",
-      "sources": [
-        {
-          "id": "63c53ea51abe90768fda7205bb8a76a94e198d49",
-          "title": "从PGP到Mythos：出口管制未能阻止任何人的简史 / Encryption, spyware, and now Mythos: History shows why cyber export control doesn’t work",
-          "url": "https://techcrunch.com/2026/06/19/encryption-spyware-and-now-mythos-history-shows-why-cyber-export-control-doesnt-work",
-          "source": "TechCrunch AI",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-06-19T22:40:14Z"
+          "id": "aac60a51107a072d184313d4d4664afaa25a61aa",
+          "title": "Silicon Valley Girl 这期对话真正有用的地方，不在于预测AI抢走多少工作，而在于把未来职场拆成两个很具体的问题：谁还在等流程喂任务，谁已经能带着 AI 改写自己的工作边界。AI 不会把每个人立刻推到同一个终点，但会放大主动学习者和旁观者之间的差距。今天最小的开始，可以只是把一个重复任务交给 AI，亲手跑通，再问自己：我的工作里，还有哪一步可以被重新设计。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-20",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-20T22:59:46.110385Z"
         },
         {
-          "id": "3c0db7f39c309003e78d538eb05622821a8f35bb",
-          "title": "从PGP到Mythos：出口管制未能阻止任何人的简史 / From PGP to Mythos: a brief history of export controls that didn’t stop anyone",
-          "url": "https://techcrunch.com/2026/06/19/encryption-spyware-and-now-mythos-history-shows-why-cyber-export-control-doesnt-work",
-          "source": "TechCrunch AI",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-06-19T22:40:14Z"
+          "id": "78ffc4bf2c047ca2f23a349eea9a9e1e244f7c94",
+          "title": "Vibe Coding圈里最近流传着一个说法：不要再给你的编码智能体写提示词了，开始设计能替你提示它们的循环。和所有新东西一样，这句话被反复转述，却很少被讲清楚。这篇文章讲解了什么是智能体循环，为什么它重要，以及它在生产环境里长什么样。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-20",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-20T22:59:46.110385Z"
         },
         {
-          "id": "f84a609904778aaa8e3a52e449b593aa21c8c5b0",
-          "title": "从PGP到Mythos：出口管制未能阻止任何人的简史 / From PGP to Mythos: a brief history of export controls that didn't stop anyone",
-          "url": "https://techcrunch.com/2026/06/19/encryption-spyware-and-now-mythos-history-shows-why-cyber-export-control-doesnt-work",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-20T13:44:39Z"
+          "id": "c4fa53e99e34abeb9259034008f67d553de331b1",
+          "title": "大聪明这篇文章拆解了Claude Code 七类上下文注入方案，带你清晰区分 CLAUDE.md、Rules、Skills、Subagents、Hooks 等适用场景，理清技能与隔离子Agent的分工差异。除此之外还拆解了事件驱动 Hooks 如何实现无偏差自动化，以及Dynamic Workflows的新能力。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-20",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-20T22:59:46.110385Z"
         }
       ],
       "source_count": 3,
       "source_names": [
-        "Hacker News · 24h最热",
-        "TechCrunch AI"
+        "社区更新 · 2026-06-20"
       ],
       "items": [
         {
-          "id": "63c53ea51abe90768fda7205bb8a76a94e198d49",
-          "title": "从PGP到Mythos：出口管制未能阻止任何人的简史 / Encryption, spyware, and now Mythos: History shows why cyber export control doesn’t work",
-          "url": "https://techcrunch.com/2026/06/19/encryption-spyware-and-now-mythos-history-shows-why-cyber-export-control-doesnt-work",
-          "source": "TechCrunch AI",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-06-19T22:40:14Z"
+          "id": "aac60a51107a072d184313d4d4664afaa25a61aa",
+          "title": "Silicon Valley Girl 这期对话真正有用的地方，不在于预测AI抢走多少工作，而在于把未来职场拆成两个很具体的问题：谁还在等流程喂任务，谁已经能带着 AI 改写自己的工作边界。AI 不会把每个人立刻推到同一个终点，但会放大主动学习者和旁观者之间的差距。今天最小的开始，可以只是把一个重复任务交给 AI，亲手跑通，再问自己：我的工作里，还有哪一步可以被重新设计。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-20",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-20T22:59:46.110385Z"
         },
         {
-          "id": "3c0db7f39c309003e78d538eb05622821a8f35bb",
-          "title": "从PGP到Mythos：出口管制未能阻止任何人的简史 / From PGP to Mythos: a brief history of export controls that didn’t stop anyone",
-          "url": "https://techcrunch.com/2026/06/19/encryption-spyware-and-now-mythos-history-shows-why-cyber-export-control-doesnt-work",
-          "source": "TechCrunch AI",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-06-19T22:40:14Z"
+          "id": "78ffc4bf2c047ca2f23a349eea9a9e1e244f7c94",
+          "title": "Vibe Coding圈里最近流传着一个说法：不要再给你的编码智能体写提示词了，开始设计能替你提示它们的循环。和所有新东西一样，这句话被反复转述，却很少被讲清楚。这篇文章讲解了什么是智能体循环，为什么它重要，以及它在生产环境里长什么样。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-20",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-20T22:59:46.110385Z"
         },
         {
-          "id": "f84a609904778aaa8e3a52e449b593aa21c8c5b0",
-          "title": "从PGP到Mythos：出口管制未能阻止任何人的简史 / From PGP to Mythos: a brief history of export controls that didn't stop anyone",
-          "url": "https://techcrunch.com/2026/06/19/encryption-spyware-and-now-mythos-history-shows-why-cyber-export-control-doesnt-work",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-20T13:44:39Z"
+          "id": "c4fa53e99e34abeb9259034008f67d553de331b1",
+          "title": "大聪明这篇文章拆解了Claude Code 七类上下文注入方案，带你清晰区分 CLAUDE.md、Rules、Skills、Subagents、Hooks 等适用场景，理清技能与隔离子Agent的分工差异。除此之外还拆解了事件驱动 Hooks 如何实现无偏差自动化，以及Dynamic Workflows的新能力。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-20",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-20T22:59:46.110385Z"
         }
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.6227,
-      "importance": 0.6227,
-      "importance_score": 0.6227,
+      "score": 0.6192,
+      "importance": 0.6192,
+      "importance_score": 0.6192,
       "importance_label": "多源热议",
       "importance_breakdown": {
-        "editorial": 0.5472,
-        "source_tier": 0.58,
-        "ai_relevance": 0.76,
-        "recency": 0.7165,
+        "editorial": 0.468,
+        "source_tier": 0.54,
+        "ai_relevance": 0.65,
+        "recency": 1.0,
         "story_heat": 0.5
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-19T22:40:14Z",
-      "latest_at": "2026-06-20T13:44:39Z",
+      "earliest_at": "2026-06-20T22:59:46.110385Z",
+      "latest_at": "2026-06-20T22:59:46.110385Z",
       "primary_item": {
-        "id": "63c53ea51abe90768fda7205bb8a76a94e198d49",
-        "title": "从PGP到Mythos：出口管制未能阻止任何人的简史 / Encryption, spyware, and now Mythos: History shows why cyber export control doesn’t work",
-        "url": "https://techcrunch.com/2026/06/19/encryption-spyware-and-now-mythos-history-shows-why-cyber-export-control-doesnt-work",
-        "source": "TechCrunch AI",
-        "source_name": "Curated Media"
+        "id": "aac60a51107a072d184313d4d4664afaa25a61aa",
+        "title": "Silicon Valley Girl 这期对话真正有用的地方，不在于预测AI抢走多少工作，而在于把未来职场拆成两个很具体的问题：谁还在等流程喂任务，谁已经能带着 AI 改写自己的工作边界。AI 不会把每个人立刻推到同一个终点，但会放大主动学习者和旁观者之间的差距。今天最小的开始，可以只是把一个重复任务交给 AI，亲手跑通，再问自己：我的工作里，还有哪一步可以被重新设计。",
+        "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+        "source": "社区更新 · 2026-06-20",
+        "source_name": "WaytoAGI"
       }
     },
     {
@@ -453,15 +311,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.5885,
-      "importance": 0.5885,
-      "importance_score": 0.5885,
+      "score": 0.5854,
+      "importance": 0.5854,
+      "importance_score": 0.5854,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9595,
+        "recency": 0.9424,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -532,15 +390,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5734,
-      "importance": 0.5734,
-      "importance_score": 0.5734,
+      "score": 0.5709,
+      "importance": 0.5709,
+      "importance_score": 0.5709,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.62,
         "ai_relevance": 0.65,
-        "recency": 0.7867,
+        "recency": 0.7727,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -630,15 +488,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5668,
-      "importance": 0.5668,
-      "importance_score": 0.5668,
+      "score": 0.5637,
+      "importance": 0.5637,
+      "importance_score": 0.5637,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.978,
+        "recency": 0.9607,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -709,15 +567,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5663,
-      "importance": 0.5663,
-      "importance_score": 0.5663,
+      "score": 0.5634,
+      "importance": 0.5634,
+      "importance_score": 0.5634,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.4824,
         "source_tier": 0.45,
         "ai_relevance": 0.67,
-        "recency": 0.9088,
+        "recency": 0.8927,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -788,15 +646,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5663,
-      "importance": 0.5663,
-      "importance_score": 0.5663,
+      "score": 0.5634,
+      "importance": 0.5634,
+      "importance_score": 0.5634,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.4824,
         "source_tier": 0.45,
         "ai_relevance": 0.67,
-        "recency": 0.9088,
+        "recency": 0.8927,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -867,15 +725,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.534,
-      "importance": 0.534,
-      "importance_score": 0.534,
+      "score": 0.531,
+      "importance": 0.531,
+      "importance_score": 0.531,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9346,
+        "recency": 0.918,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -946,15 +804,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5301,
-      "importance": 0.5301,
-      "importance_score": 0.5301,
+      "score": 0.5271,
+      "importance": 0.5271,
+      "importance_score": 0.5271,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9125,
+        "recency": 0.8964,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1025,15 +883,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5185,
-      "importance": 0.5185,
-      "importance_score": 0.5185,
+      "score": 0.5158,
+      "importance": 0.5158,
+      "importance_score": 0.5158,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8482,
+        "recency": 0.8331,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1104,15 +962,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5448,
-      "importance": 0.5448,
-      "importance_score": 0.5448,
+      "score": 0.5416,
+      "importance": 0.5416,
+      "importance_score": 0.5416,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9942,
+        "recency": 0.9766,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1183,15 +1041,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.505,
-      "importance": 0.505,
-      "importance_score": 0.505,
+      "score": 0.5025,
+      "importance": 0.5025,
+      "importance_score": 0.5025,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7733,
+        "recency": 0.7596,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1262,15 +1120,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5296,
-      "importance": 0.5296,
-      "importance_score": 0.5296,
+      "score": 0.5267,
+      "importance": 0.5267,
+      "importance_score": 0.5267,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9098,
+        "recency": 0.8936,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1341,15 +1199,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.515,
-      "importance": 0.515,
-      "importance_score": 0.515,
+      "score": 0.5123,
+      "importance": 0.5123,
+      "importance_score": 0.5123,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8288,
+        "recency": 0.8141,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1420,15 +1278,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5335,
-      "importance": 0.5335,
-      "importance_score": 0.5335,
+      "score": 0.5305,
+      "importance": 0.5305,
+      "importance_score": 0.5305,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9316,
+        "recency": 0.915,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1499,15 +1357,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5296,
-      "importance": 0.5296,
-      "importance_score": 0.5296,
+      "score": 0.5267,
+      "importance": 0.5267,
+      "importance_score": 0.5267,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9098,
+        "recency": 0.8936,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1578,15 +1436,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5299,
-      "importance": 0.5299,
-      "importance_score": 0.5299,
+      "score": 0.527,
+      "importance": 0.527,
+      "importance_score": 0.527,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9115,
+        "recency": 0.8954,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1601,6 +1459,164 @@
         "url": "https://news.ycombinator.com/item?id=48609506",
         "source": "hackernews",
         "source_name": "NewsNow"
+      }
+    },
+    {
+      "story_id": "story_961a893013ba",
+      "title": "LM Studio 与苹果合作，成功用四台 Mac Studio 运行万亿参数 Kimi K2.6 大模型",
+      "url": "https://stock.jrj.com.cn/2026/06/20175957532728.shtml",
+      "primary_url": "https://stock.jrj.com.cn/2026/06/20175957532728.shtml",
+      "source": "Readhub · AI",
+      "source_name": "TopHub",
+      "sources": [
+        {
+          "id": "e5a72fb3b725cc16dab6bd0d31193f2d22b2fadc",
+          "title": "LM Studio 与苹果合作，成功用四台 Mac Studio 运行万亿参数 Kimi K2.6 大模型",
+          "url": "https://stock.jrj.com.cn/2026/06/20175957532728.shtml",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        },
+        {
+          "id": "e1bd586c8ee9fadb2674776edf62a49c2f11ae1a",
+          "title": "LM Studio 与苹果合作，成功用四台 Mac Studio 运行万亿参数 Kimi K2.6 大模型",
+          "url": "https://www.ithome.com/0/966/539.htm",
+          "source": "IT之家 (ITHome)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-20T09:37:07Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "IT之家 (ITHome)",
+        "Readhub · AI"
+      ],
+      "items": [
+        {
+          "id": "e5a72fb3b725cc16dab6bd0d31193f2d22b2fadc",
+          "title": "LM Studio 与苹果合作，成功用四台 Mac Studio 运行万亿参数 Kimi K2.6 大模型",
+          "url": "https://stock.jrj.com.cn/2026/06/20175957532728.shtml",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        },
+        {
+          "id": "e1bd586c8ee9fadb2674776edf62a49c2f11ae1a",
+          "title": "LM Studio 与苹果合作，成功用四台 Mac Studio 运行万亿参数 Kimi K2.6 大模型",
+          "url": "https://www.ithome.com/0/966/539.htm",
+          "source": "IT之家 (ITHome)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-20T09:37:07Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5191,
+      "importance": 0.5191,
+      "importance_score": 0.5191,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.8515,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-20T09:37:07Z",
+      "latest_at": "2026-06-20T11:51:53.660302Z",
+      "primary_item": {
+        "id": "e5a72fb3b725cc16dab6bd0d31193f2d22b2fadc",
+        "title": "LM Studio 与苹果合作，成功用四台 Mac Studio 运行万亿参数 Kimi K2.6 大模型",
+        "url": "https://stock.jrj.com.cn/2026/06/20175957532728.shtml",
+        "source": "Readhub · AI",
+        "source_name": "TopHub"
+      }
+    },
+    {
+      "story_id": "story_13b5394eceeb",
+      "title": "中国科学家提出「AI 语言」：人类难懂但模型能懂，文本压缩至 27.9% 仍保留 99.5% 语义",
+      "url": "https://www.ithome.com/0/966/529.htm",
+      "primary_url": "https://www.ithome.com/0/966/529.htm",
+      "source": "Readhub · AI",
+      "source_name": "TopHub",
+      "sources": [
+        {
+          "id": "753fe60aa43efc58eec0a8bb859b6b5ac1123842",
+          "title": "中国科学家提出「AI 语言」：人类难懂但模型能懂，文本压缩至 27.9% 仍保留 99.5% 语义",
+          "url": "https://www.ithome.com/0/966/529.htm",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        },
+        {
+          "id": "879ebc15ce7303ad16c216c01cae5e4e04b10226",
+          "title": "中国科学家提出“AI 语言”：人类难懂但模型能懂，文本压缩至 27.9% 仍保留 99.5% 语义",
+          "url": "https://www.ithome.com/0/966/529.htm",
+          "source": "IT之家 (ITHome)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-20T08:18:02Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "IT之家 (ITHome)",
+        "Readhub · AI"
+      ],
+      "items": [
+        {
+          "id": "753fe60aa43efc58eec0a8bb859b6b5ac1123842",
+          "title": "中国科学家提出「AI 语言」：人类难懂但模型能懂，文本压缩至 27.9% 仍保留 99.5% 语义",
+          "url": "https://www.ithome.com/0/966/529.htm",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        },
+        {
+          "id": "879ebc15ce7303ad16c216c01cae5e4e04b10226",
+          "title": "中国科学家提出“AI 语言”：人类难懂但模型能懂，文本压缩至 27.9% 仍保留 99.5% 语义",
+          "url": "https://www.ithome.com/0/966/529.htm",
+          "source": "IT之家 (ITHome)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-20T08:18:02Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5146,
+      "importance": 0.5146,
+      "importance_score": 0.5146,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.8265,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-20T08:18:02Z",
+      "latest_at": "2026-06-20T09:47:56.183036Z",
+      "primary_item": {
+        "id": "753fe60aa43efc58eec0a8bb859b6b5ac1123842",
+        "title": "中国科学家提出「AI 语言」：人类难懂但模型能懂，文本压缩至 27.9% 仍保留 99.5% 语义",
+        "url": "https://www.ithome.com/0/966/529.htm",
+        "source": "Readhub · AI",
+        "source_name": "TopHub"
       }
     }
   ]
