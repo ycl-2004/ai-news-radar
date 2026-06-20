@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-20T11:51:53.660302Z",
+  "generated_at": "2026-06-20T13:43:53.923157Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -38,15 +38,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8079,
-      "importance": 0.8079,
-      "importance_score": 0.8079,
+      "score": 0.8043,
+      "importance": 0.8043,
+      "importance_score": 0.8043,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.7549,
+        "recency": 0.7348,
         "story_heat": 0.0
       },
       "category": "official",
@@ -100,15 +100,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7991,
-      "importance": 0.7991,
-      "importance_score": 0.7991,
+      "score": 0.7955,
+      "importance": 0.7955,
+      "importance_score": 0.7955,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.7506,
+        "recency": 0.7307,
         "story_heat": 0.0
       },
       "category": "official",
@@ -181,15 +181,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7768,
-      "importance": 0.7768,
-      "importance_score": 0.7768,
+      "score": 0.7728,
+      "importance": 0.7728,
+      "importance_score": 0.7728,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.77,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8289,
+        "recency": 0.8068,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -205,6 +205,67 @@
         "title": "NVIDIA Research 发布 SpatialClaw：免训练空间推理框架",
         "url": "https://www.marktechpost.com/2026/06/19/nvidia-ai-introduce-spatialclaw-a-training-free-agent-that-treats-code-as-the-action-interface-for-spatial-reasoning",
         "source": "MarkTechPost（RSS）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_767c73782c59",
+      "title": "开源教程《Deep Agents 实战》发布",
+      "url": "https://x.com/shao__meng/status/2068306942184034471",
+      "primary_url": "https://x.com/shao__meng/status/2068306942184034471",
+      "source": "X：邵猛 (@shao__meng)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "70c44c96db3c855eac9ceadd458bd02b754774dd",
+          "title": "开源教程《Deep Agents 实战》发布",
+          "url": "https://x.com/shao__meng/status/2068306942184034471",
+          "source": "X：邵猛 (@shao__meng)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-20T12:16:16Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "X：邵猛 (@shao__meng)"
+      ],
+      "items": [
+        {
+          "id": "70c44c96db3c855eac9ceadd458bd02b754774dd",
+          "title": "开源教程《Deep Agents 实战》发布",
+          "url": "https://x.com/shao__meng/status/2068306942184034471",
+          "source": "X：邵猛 (@shao__meng)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-20T12:16:16Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7728,
+      "importance": 0.7728,
+      "importance_score": 0.7728,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.75,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9791,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-20T12:16:16Z",
+      "latest_at": "2026-06-20T12:16:16Z",
+      "primary_item": {
+        "id": "70c44c96db3c855eac9ceadd458bd02b754774dd",
+        "title": "开源教程《Deep Agents 实战》发布",
+        "url": "https://x.com/shao__meng/status/2068306942184034471",
+        "source": "X：邵猛 (@shao__meng)",
         "source_name": "AI HOT"
       }
     },
@@ -262,15 +323,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7641,
-      "importance": 0.7641,
-      "importance_score": 0.7641,
+      "score": 0.7603,
+      "importance": 0.7603,
+      "importance_score": 0.7603,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7917,
+        "recency": 0.7707,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -324,15 +385,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.763,
-      "importance": 0.763,
-      "importance_score": 0.763,
+      "score": 0.7586,
+      "importance": 0.7586,
+      "importance_score": 0.7586,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9244,
+        "recency": 0.8999,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -385,21 +446,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7526,
-      "importance": 0.7526,
-      "importance_score": 0.7526,
+      "score": 0.7487,
+      "importance": 0.7487,
+      "importance_score": 0.7487,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.78,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8167,
+        "recency": 0.7949,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-06-19T21:50:24Z",
       "latest_at": "2026-06-19T21:50:24Z",
@@ -446,15 +506,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7371,
-      "importance": 0.7371,
-      "importance_score": 0.7371,
+      "score": 0.7334,
+      "importance": 0.7334,
+      "importance_score": 0.7334,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7807,
+        "recency": 0.76,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -468,126 +528,6 @@
         "title": "baoyu-design Skill迭代：修复导出样式与渐变丢失问题，支持AI配图导出PPTX",
         "url": "https://x.com/dotey/status/2068042001895809420",
         "source": "X：宝玉 (@dotey)",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_fccd344b3af2",
-      "title": "/youtube-notetaker：YT 视频转 Artifacts",
-      "url": "https://x.com/omarsar0/status/2067952726282031411",
-      "primary_url": "https://x.com/omarsar0/status/2067952726282031411",
-      "source": "X：Elvis Saravia (@omarsar0, DAIR.AI)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "cb7126cffe632c2a8663585798d48922cb776af4",
-          "title": "/youtube-notetaker：YT 视频转 Artifacts",
-          "url": "https://x.com/omarsar0/status/2067952726282031411",
-          "source": "X：Elvis Saravia (@omarsar0, DAIR.AI)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-19T12:48:45Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：Elvis Saravia (@omarsar0, DAIR.AI)"
-      ],
-      "items": [
-        {
-          "id": "cb7126cffe632c2a8663585798d48922cb776af4",
-          "title": "/youtube-notetaker：YT 视频转 Artifacts",
-          "url": "https://x.com/omarsar0/status/2067952726282031411",
-          "source": "X：Elvis Saravia (@omarsar0, DAIR.AI)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-19T12:48:45Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7256,
-      "importance": 0.7256,
-      "importance_score": 0.7256,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.75,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7168,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-19T12:48:45Z",
-      "latest_at": "2026-06-19T12:48:45Z",
-      "primary_item": {
-        "id": "cb7126cffe632c2a8663585798d48922cb776af4",
-        "title": "/youtube-notetaker：YT 视频转 Artifacts",
-        "url": "https://x.com/omarsar0/status/2067952726282031411",
-        "source": "X：Elvis Saravia (@omarsar0, DAIR.AI)",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_889e24629103",
-      "title": "AlphaFold 负责人 John Jumper 离职 Google DeepMind，加入 Anthropic",
-      "url": "https://x.com/demishassabis/status/2068002732250640603",
-      "primary_url": "https://x.com/demishassabis/status/2068002732250640603",
-      "source": "X：Demis Hassabis (@demishassabis)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "c0c8f038c23f8ee7b46bdb8c3ffbba50cbb96dee",
-          "title": "AlphaFold 负责人 John Jumper 离职 Google DeepMind，加入 Anthropic",
-          "url": "https://x.com/demishassabis/status/2068002732250640603",
-          "source": "X：Demis Hassabis (@demishassabis)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-19T16:07:27Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：Demis Hassabis (@demishassabis)"
-      ],
-      "items": [
-        {
-          "id": "c0c8f038c23f8ee7b46bdb8c3ffbba50cbb96dee",
-          "title": "AlphaFold 负责人 John Jumper 离职 Google DeepMind，加入 Anthropic",
-          "url": "https://x.com/demishassabis/status/2068002732250640603",
-          "source": "X：Demis Hassabis (@demishassabis)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-19T16:07:27Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.723,
-      "importance": 0.723,
-      "importance_score": 0.723,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.752,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-19T16:07:27Z",
-      "latest_at": "2026-06-19T16:07:27Z",
-      "primary_item": {
-        "id": "c0c8f038c23f8ee7b46bdb8c3ffbba50cbb96dee",
-        "title": "AlphaFold 负责人 John Jumper 离职 Google DeepMind，加入 Anthropic",
-        "url": "https://x.com/demishassabis/status/2068002732250640603",
-        "source": "X：Demis Hassabis (@demishassabis)",
         "source_name": "AI HOT"
       }
     },
@@ -644,15 +584,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.6175,
-      "importance": 0.6175,
-      "importance_score": 0.6175,
+      "score": 0.6136,
+      "importance": 0.6136,
+      "importance_score": 0.6136,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.5472,
         "source_tier": 0.58,
         "ai_relevance": 0.76,
-        "recency": 0.8265,
+        "recency": 0.8045,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -758,15 +698,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.6072,
-      "importance": 0.6072,
-      "importance_score": 0.6072,
+      "score": 0.6036,
+      "importance": 0.6036,
+      "importance_score": 0.6036,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.4824,
         "source_tier": 0.54,
         "ai_relevance": 0.67,
-        "recency": 0.7482,
+        "recency": 0.7283,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -875,15 +815,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.5814,
-      "importance": 0.5814,
-      "importance_score": 0.5814,
+      "score": 0.577,
+      "importance": 0.577,
+      "importance_score": 0.577,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9199,
+        "recency": 0.8955,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -992,15 +932,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.5653,
-      "importance": 0.5653,
-      "importance_score": 0.5653,
+      "score": 0.5613,
+      "importance": 0.5613,
+      "importance_score": 0.5613,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8305,
+        "recency": 0.8084,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -1109,15 +1049,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.5633,
-      "importance": 0.5633,
-      "importance_score": 0.5633,
+      "score": 0.5594,
+      "importance": 0.5594,
+      "importance_score": 0.5594,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8196,
+        "recency": 0.7978,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -1205,15 +1145,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5576,
-      "importance": 0.5576,
-      "importance_score": 0.5576,
+      "score": 0.5541,
+      "importance": 0.5541,
+      "importance_score": 0.5541,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.48,
         "ai_relevance": 0.65,
-        "recency": 0.7311,
+        "recency": 0.7117,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1303,15 +1243,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5558,
-      "importance": 0.5558,
-      "importance_score": 0.5558,
+      "score": 0.5514,
+      "importance": 0.5514,
+      "importance_score": 0.5514,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9164,
+        "recency": 0.892,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1382,15 +1322,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5458,
-      "importance": 0.5458,
-      "importance_score": 0.5458,
+      "score": 0.541,
+      "importance": 0.541,
+      "importance_score": 0.541,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 1.0,
+        "recency": 0.9734,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1461,15 +1401,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5419,
-      "importance": 0.5419,
-      "importance_score": 0.5419,
+      "score": 0.5372,
+      "importance": 0.5372,
+      "importance_score": 0.5372,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9784,
+        "recency": 0.9524,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1540,15 +1480,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5366,
-      "importance": 0.5366,
-      "importance_score": 0.5366,
+      "score": 0.532,
+      "importance": 0.532,
+      "importance_score": 0.532,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9488,
+        "recency": 0.9235,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1566,82 +1506,159 @@
       }
     },
     {
-      "story_id": "story_b2c3f6155af5",
-      "title": "亚马逊正在调查三名公开反对建立更多人工智能数据中心的员工 #Amazon #Seattle https://t.co/xC0jUdsoZU / Amazon Is Investigating Three Employees Who Spoke Out Against Building More AI Data Centers #Amazon #Seattle https://t.co/xC0jUdsoZU",
-      "url": "https://x.com/MaureenHSulliv2/status/2067972297898463394",
-      "primary_url": "https://x.com/MaureenHSulliv2/status/2067972297898463394",
-      "source": "@MaureenHSulliv2",
-      "source_name": "SocialData X",
+      "story_id": "story_7ac6691a7778",
+      "title": "AI小狗",
+      "url": "https://www.xiaohongshu.com/explore/67f865c9000000001d02dc96?xsec_token=YBei2Xcq1TMsEoPC9N7_A68jIYDg78wOLvkVN6HeB7dpc%3D",
+      "primary_url": "https://www.xiaohongshu.com/explore/67f865c9000000001d02dc96?xsec_token=YBei2Xcq1TMsEoPC9N7_A68jIYDg78wOLvkVN6HeB7dpc%3D",
+      "source": "小布布",
+      "source_name": "TikHub Xiaohongshu",
       "sources": [
         {
-          "id": "8087c102389623eb89ad2ed4e7b6cd80ee601acb",
-          "title": "亚马逊正在调查三名公开反对建立更多人工智能数据中心的员工 #Amazon #Seattle https://t.co/xC0jUdsoZU / Amazon Is Investigating Three Employees Who Spoke Out Against Building More AI Data Centers #Amazon #Seattle https://t.co/xC0jUdsoZU",
-          "url": "https://x.com/MaureenHSulliv2/status/2067972297898463394",
-          "source": "@MaureenHSulliv2",
-          "source_name": "SocialData X",
-          "site_id": "socialdata_x",
-          "published_at": "2026-06-19T14:06:31Z"
+          "id": "e8af757ba5eacb2b7dbab604ab4c7ba440375905",
+          "title": "AI小狗",
+          "url": "https://www.xiaohongshu.com/explore/67f865c9000000001d02dc96?xsec_token=YBei2Xcq1TMsEoPC9N7_A68jIYDg78wOLvkVN6HeB7dpc%3D",
+          "source": "小布布",
+          "source_name": "TikHub Xiaohongshu",
+          "site_id": "tikhub_xiaohongshu",
+          "published_at": "2026-06-19T14:10:43.028916Z"
         },
         {
-          "id": "efa8a25eaf814e0706a84f3f2abe2ae66590ace9",
-          "title": "亚马逊正在调查三名公开反对建立更多人工智能数据中心的员工 / Amazon is investigating three employees who spoke out against building more AI data centers",
-          "url": "https://www.engadget.com/2197988/amazon-investigates-engineers-spoke-out-against-ai-data-center",
-          "source": "Engadget",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-19T12:05:13Z"
+          "id": "15208d6bc830bf92c3ca8a11c7e3b2ab79d5fe8a",
+          "title": "AI小狗",
+          "url": "https://www.xiaohongshu.com/explore/67f865c9000000001d02dc96?xsec_token=YBi7JmL3e_OYlX5TVLTKggRKIQXMycKeWm_3OLzbHjXvw%3D",
+          "source": "小布布",
+          "source_name": "TikHub Xiaohongshu",
+          "site_id": "tikhub_xiaohongshu",
+          "published_at": "2026-06-19T14:06:17.488483Z"
         }
       ],
       "source_count": 2,
       "source_names": [
-        "@MaureenHSulliv2",
-        "Engadget"
+        "小布布"
       ],
       "items": [
         {
-          "id": "8087c102389623eb89ad2ed4e7b6cd80ee601acb",
-          "title": "亚马逊正在调查三名公开反对建立更多人工智能数据中心的员工 #Amazon #Seattle https://t.co/xC0jUdsoZU / Amazon Is Investigating Three Employees Who Spoke Out Against Building More AI Data Centers #Amazon #Seattle https://t.co/xC0jUdsoZU",
-          "url": "https://x.com/MaureenHSulliv2/status/2067972297898463394",
-          "source": "@MaureenHSulliv2",
-          "source_name": "SocialData X",
-          "site_id": "socialdata_x",
-          "published_at": "2026-06-19T14:06:31Z"
+          "id": "e8af757ba5eacb2b7dbab604ab4c7ba440375905",
+          "title": "AI小狗",
+          "url": "https://www.xiaohongshu.com/explore/67f865c9000000001d02dc96?xsec_token=YBei2Xcq1TMsEoPC9N7_A68jIYDg78wOLvkVN6HeB7dpc%3D",
+          "source": "小布布",
+          "source_name": "TikHub Xiaohongshu",
+          "site_id": "tikhub_xiaohongshu",
+          "published_at": "2026-06-19T14:10:43.028916Z"
         },
         {
-          "id": "efa8a25eaf814e0706a84f3f2abe2ae66590ace9",
-          "title": "亚马逊正在调查三名公开反对建立更多人工智能数据中心的员工 / Amazon is investigating three employees who spoke out against building more AI data centers",
-          "url": "https://www.engadget.com/2197988/amazon-investigates-engineers-spoke-out-against-ai-data-center",
-          "source": "Engadget",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-19T12:05:13Z"
+          "id": "15208d6bc830bf92c3ca8a11c7e3b2ab79d5fe8a",
+          "title": "AI小狗",
+          "url": "https://www.xiaohongshu.com/explore/67f865c9000000001d02dc96?xsec_token=YBi7JmL3e_OYlX5TVLTKggRKIQXMycKeWm_3OLzbHjXvw%3D",
+          "source": "小布布",
+          "source_name": "TikHub Xiaohongshu",
+          "site_id": "tikhub_xiaohongshu",
+          "published_at": "2026-06-19T14:06:17.488483Z"
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5342,
-      "importance": 0.5342,
-      "importance_score": 0.5342,
+      "score": 0.5291,
+      "importance": 0.5291,
+      "importance_score": 0.5291,
       "importance_label": "值得关注",
       "importance_breakdown": {
-        "editorial": 0.4824,
-        "source_tier": 0.45,
-        "ai_relevance": 0.67,
-        "recency": 0.7304,
+        "editorial": 0.468,
+        "source_tier": 0.48,
+        "ai_relevance": 0.65,
+        "recency": 0.7117,
         "story_heat": 0.25
       },
       "category": "watch",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-19T12:05:13Z",
-      "latest_at": "2026-06-19T14:06:31Z",
+      "earliest_at": "2026-06-19T14:06:17.488483Z",
+      "latest_at": "2026-06-19T14:10:43.028916Z",
       "primary_item": {
-        "id": "8087c102389623eb89ad2ed4e7b6cd80ee601acb",
-        "title": "亚马逊正在调查三名公开反对建立更多人工智能数据中心的员工 #Amazon #Seattle https://t.co/xC0jUdsoZU / Amazon Is Investigating Three Employees Who Spoke Out Against Building More AI Data Centers #Amazon #Seattle https://t.co/xC0jUdsoZU",
-        "url": "https://x.com/MaureenHSulliv2/status/2067972297898463394",
-        "source": "@MaureenHSulliv2",
-        "source_name": "SocialData X"
+        "id": "e8af757ba5eacb2b7dbab604ab4c7ba440375905",
+        "title": "AI小狗",
+        "url": "https://www.xiaohongshu.com/explore/67f865c9000000001d02dc96?xsec_token=YBei2Xcq1TMsEoPC9N7_A68jIYDg78wOLvkVN6HeB7dpc%3D",
+        "source": "小布布",
+        "source_name": "TikHub Xiaohongshu"
+      }
+    },
+    {
+      "story_id": "story_2ccffc96e8e6",
+      "title": "一张图，把 AI 全部讲清楚了",
+      "url": "https://www.xiaohongshu.com/explore/69437306000000000d03b7be?xsec_token=YBcA8cYXYWhlaGudyGncG4kyuo5yvarKNmTbKQtxNxYrs%3D",
+      "primary_url": "https://www.xiaohongshu.com/explore/69437306000000000d03b7be?xsec_token=YBcA8cYXYWhlaGudyGncG4kyuo5yvarKNmTbKQtxNxYrs%3D",
+      "source": "程序员八阿哥",
+      "source_name": "TikHub Xiaohongshu",
+      "sources": [
+        {
+          "id": "fac4b8d31c08898134ba4d951e462b5e7680379d",
+          "title": "一张图，把 AI 全部讲清楚了",
+          "url": "https://www.xiaohongshu.com/explore/69437306000000000d03b7be?xsec_token=YBcA8cYXYWhlaGudyGncG4kyuo5yvarKNmTbKQtxNxYrs%3D",
+          "source": "程序员八阿哥",
+          "source_name": "TikHub Xiaohongshu",
+          "site_id": "tikhub_xiaohongshu",
+          "published_at": "2026-06-19T14:10:43.028916Z"
+        },
+        {
+          "id": "174f81fe3f317cea4dc28e168bbc09d484abe3d5",
+          "title": "一张图，把 AI 全部讲清楚了",
+          "url": "https://www.xiaohongshu.com/explore/69437306000000000d03b7be?xsec_token=YBgxcJb3JYcqt6ZOV0UkJ8am7fPjeAFEOP_3hPbs0W3sg%3D",
+          "source": "程序员八阿哥",
+          "source_name": "TikHub Xiaohongshu",
+          "site_id": "tikhub_xiaohongshu",
+          "published_at": "2026-06-19T14:01:09.271846Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "程序员八阿哥"
+      ],
+      "items": [
+        {
+          "id": "fac4b8d31c08898134ba4d951e462b5e7680379d",
+          "title": "一张图，把 AI 全部讲清楚了",
+          "url": "https://www.xiaohongshu.com/explore/69437306000000000d03b7be?xsec_token=YBcA8cYXYWhlaGudyGncG4kyuo5yvarKNmTbKQtxNxYrs%3D",
+          "source": "程序员八阿哥",
+          "source_name": "TikHub Xiaohongshu",
+          "site_id": "tikhub_xiaohongshu",
+          "published_at": "2026-06-19T14:10:43.028916Z"
+        },
+        {
+          "id": "174f81fe3f317cea4dc28e168bbc09d484abe3d5",
+          "title": "一张图，把 AI 全部讲清楚了",
+          "url": "https://www.xiaohongshu.com/explore/69437306000000000d03b7be?xsec_token=YBgxcJb3JYcqt6ZOV0UkJ8am7fPjeAFEOP_3hPbs0W3sg%3D",
+          "source": "程序员八阿哥",
+          "source_name": "TikHub Xiaohongshu",
+          "site_id": "tikhub_xiaohongshu",
+          "published_at": "2026-06-19T14:01:09.271846Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5291,
+      "importance": 0.5291,
+      "importance_score": 0.5291,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.48,
+        "ai_relevance": 0.65,
+        "recency": 0.7117,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-19T14:01:09.271846Z",
+      "latest_at": "2026-06-19T14:10:43.028916Z",
+      "primary_item": {
+        "id": "fac4b8d31c08898134ba4d951e462b5e7680379d",
+        "title": "一张图，把 AI 全部讲清楚了",
+        "url": "https://www.xiaohongshu.com/explore/69437306000000000d03b7be?xsec_token=YBcA8cYXYWhlaGudyGncG4kyuo5yvarKNmTbKQtxNxYrs%3D",
+        "source": "程序员八阿哥",
+        "source_name": "TikHub Xiaohongshu"
       }
     }
   ]
