@@ -8,6 +8,7 @@ from scripts.update_news import (
     dedupe_items_by_title_url,
     fetch_agentmail_digest,
     fetch_aihot,
+    fetch_socialdata_list_tweets,
     fetch_tikhub_search,
     is_ai_related_record,
     is_hubtoday_generic_anchor_title,
@@ -612,6 +613,26 @@ class TopicFilterTests(unittest.TestCase):
         self.assertFalse(status["enabled"])
         self.assertEqual(session.calls, 0)
 
+    def test_x_api_default_on_when_token_present(self):
+        # Bearer token present, X_API_ENABLED unset -> treated as enabled (token
+        # is the switch); outside the daily window it schedules without calling.
+        class NoNetworkSession:
+            def __init__(self):
+                self.calls = 0
+
+            def get(self, *args, **kwargs):
+                self.calls += 1
+                raise AssertionError("should wait for the daily window, not call now")
+
+        session = NoNetworkSession()
+        env = {"X_BEARER_TOKEN": "test", "X_API_RUN_UTC_HOUR": "0"}
+        with patch.dict("os.environ", env, clear=True):
+            items, status = maybe_fetch_x_api_updates(session, __import__("datetime").datetime.fromisoformat("2026-05-03T01:00:00+00:00"))
+        self.assertEqual(items, [])
+        self.assertTrue(status["enabled"])
+        self.assertTrue(status["skipped"])
+        self.assertEqual(session.calls, 0)
+
     def test_x_api_enabled_outside_daily_window_does_not_request_network(self):
         class NoNetworkSession:
             def __init__(self):
@@ -709,9 +730,57 @@ class TopicFilterTests(unittest.TestCase):
                 __import__("datetime").datetime.fromisoformat("2026-05-03T01:00:00+00:00"),
             )
         self.assertEqual(items, [])
+        # Key-first policy: no key -> not enabled, regardless of ENABLED=1.
+        self.assertFalse(status["enabled"])
+        self.assertTrue(status["enable_toggle"])
+        self.assertFalse(status["api_key_present"])
+        self.assertEqual(status["disabled_reason"], "no_api_key")
+        self.assertEqual(session.calls, 0)
+
+    def test_socialdata_default_on_when_key_present(self):
+        # API key present, ENABLED unset -> treated as enabled (key is the switch).
+        # 01:00 is outside the initial run window, so it schedules but does not call.
+        class NoNetworkSession:
+            def __init__(self):
+                self.calls = 0
+
+            def get(self, *args, **kwargs):
+                self.calls += 1
+                raise AssertionError("should wait for the run window, not call now")
+
+        session = NoNetworkSession()
+        env = {"SOCIALDATA_API_KEY": "test"}
+        with patch.dict("os.environ", env, clear=True):
+            items, status = maybe_fetch_socialdata_updates(
+                session,
+                __import__("datetime").datetime.fromisoformat("2026-05-03T01:00:00+00:00"),
+            )
+        self.assertEqual(items, [])
         self.assertTrue(status["enabled"])
-        self.assertFalse(status["ok"])
-        self.assertEqual(status["error"], "missing_socialdata_api_key")
+        self.assertTrue(status["skipped"])
+        self.assertEqual(session.calls, 0)
+
+    def test_socialdata_enabled_zero_is_kill_switch(self):
+        # Explicit ENABLED=0 hard-stops the source even with a key and FORCE_RUN.
+        class NoNetworkSession:
+            def __init__(self):
+                self.calls = 0
+
+            def get(self, *args, **kwargs):
+                self.calls += 1
+                raise AssertionError("ENABLED=0 must hard-stop SocialData")
+
+        session = NoNetworkSession()
+        env = {"SOCIALDATA_API_KEY": "test", "SOCIALDATA_ENABLED": "0", "SOCIALDATA_FORCE_RUN": "1"}
+        with patch.dict("os.environ", env, clear=True):
+            items, status = maybe_fetch_socialdata_updates(
+                session,
+                __import__("datetime").datetime.fromisoformat("2026-05-03T01:00:00+00:00"),
+            )
+        self.assertEqual(items, [])
+        self.assertFalse(status["enabled"])
+        self.assertFalse(status["enable_toggle"])
+        self.assertEqual(status["disabled_reason"], "disabled_by_toggle")
         self.assertEqual(session.calls, 0)
 
     def test_socialdata_interval_state_skips_without_network(self):
@@ -782,6 +851,7 @@ class TopicFilterTests(unittest.TestCase):
             "SOCIALDATA_API_KEY": "test",
             "SOCIALDATA_FORCE_RUN": "1",
             "SOCIALDATA_MAX_RESULTS": "1",
+            "SOCIALDATA_LIST_ENABLED": "0",
         }
         with patch.dict("os.environ", env, clear=True):
             items, status = maybe_fetch_socialdata_updates(
@@ -865,6 +935,7 @@ class TopicFilterTests(unittest.TestCase):
             "SOCIALDATA_FORCE_RUN": "1",
             "SOCIALDATA_MAX_RESULTS": "3",
             "SOCIALDATA_DAILY_TWEET_LIMIT": "3",
+            "SOCIALDATA_LIST_ENABLED": "0",
         }
         with patch.dict("os.environ", env, clear=True):
             items, status = maybe_fetch_socialdata_updates(
@@ -912,6 +983,94 @@ class TopicFilterTests(unittest.TestCase):
         self.assertEqual(status["diagnostics"]["response_top_level_keys"], ["next_cursor", "tweets"])
         self.assertEqual(status["diagnostics"]["empty_reason"], "no_tweets_returned_by_socialdata")
 
+    def test_socialdata_list_filters_noise_and_excludes_owner(self):
+        class FakeResponse:
+            def raise_for_status(self):
+                return None
+
+            def json(self):
+                return {
+                    "next_cursor": None,
+                    "tweets": [
+                        {
+                            "id_str": "10",
+                            "type": "tweet",
+                            "full_text": "First-party AI insight from a member",
+                            "tweet_created_at": "2026-05-03T00:00:00.000000Z",
+                            "lang": "en",
+                            "user": {"screen_name": "karminski3"},
+                        },
+                        {
+                            "id_str": "11",
+                            "type": "quote",
+                            "full_text": "成员对大模型的中文评论",
+                            "tweet_created_at": "2026-05-03T00:01:00.000000Z",
+                            "lang": "zh",
+                            "user": {"screen_name": "dotey"},
+                        },
+                        {
+                            "id_str": "12",
+                            "type": "retweet",
+                            "full_text": "RT @someone: not authored by the member",
+                            "tweet_created_at": "2026-05-03T00:02:00.000000Z",
+                            "user": {"screen_name": "dotey"},
+                        },
+                        {
+                            "id_str": "13",
+                            "type": "reply",
+                            "full_text": "@x conversational reply noise",
+                            "tweet_created_at": "2026-05-03T00:03:00.000000Z",
+                            "user": {"screen_name": "vista8"},
+                        },
+                        {
+                            "id_str": "14",
+                            "type": "tweet",
+                            "full_text": "owner self-promo to drop",
+                            "tweet_created_at": "2026-05-03T00:04:00.000000Z",
+                            "user": {"screen_name": "aiwarts"},
+                        },
+                        {
+                            "id_str": "15",
+                            "type": "tweet",
+                            "full_text": "egg-avatar bot spam",
+                            "tweet_created_at": "2026-05-03T00:05:00.000000Z",
+                            "user": {"screen_name": "spammer", "default_profile_image": True},
+                        },
+                    ],
+                }
+
+        class FakeSession:
+            def __init__(self):
+                self.calls = []
+
+            def get(self, url, **kwargs):
+                self.calls.append((url, kwargs))
+                return FakeResponse()
+
+        session = FakeSession()
+        items, diagnostics = fetch_socialdata_list_tweets(
+            session,
+            api_key="test",
+            list_id="1695376776867062037",
+            now=__import__("datetime").datetime.fromisoformat("2026-05-03T01:00:00+00:00"),
+            max_results=50,
+            exclude_handles={"aiwarts"},
+        )
+
+        self.assertEqual([item.source for item in items], ["@karminski3", "@dotey"])
+        self.assertTrue(all(item.site_id == "socialdata_x" for item in items))
+        self.assertTrue(all(item.meta["via"] == "list" for item in items))
+        self.assertEqual(items[0].url, "https://x.com/karminski3/status/10")
+        self.assertEqual(diagnostics["mapped_tweet_count"], 2)
+        self.assertEqual(diagnostics["skipped"]["retweet_or_reply"], 2)
+        self.assertEqual(diagnostics["skipped"]["excluded_author"], 1)
+        self.assertEqual(diagnostics["skipped"]["bot_like"], 1)
+        url, kwargs = session.calls[0]
+        self.assertEqual(
+            url, "https://api.socialdata.tools/twitter/list/1695376776867062037/tweets"
+        )
+        self.assertEqual(kwargs["headers"]["Authorization"], "Bearer test")
+
     def test_tikhub_default_off_does_not_request_network(self):
         class NoNetworkSession:
             def __init__(self):
@@ -956,9 +1115,38 @@ class TopicFilterTests(unittest.TestCase):
                 __import__("datetime").datetime.fromisoformat("2026-05-03T01:00:00+00:00"),
             )
         self.assertEqual(items, [])
+        # Key-first policy: no key -> not enabled, regardless of ENABLED=1.
+        self.assertFalse(status["enabled"])
+        self.assertTrue(status["enable_toggle"])
+        self.assertFalse(status["api_key_present"])
+        self.assertEqual(status["disabled_reason"], "no_api_key")
+        self.assertEqual(session.calls, 0)
+
+    def test_tikhub_default_on_when_key_present(self):
+        # API key present, ENABLED unset -> treated as enabled; outside the run
+        # window it schedules without calling the network.
+        class NoNetworkSession:
+            def __init__(self):
+                self.calls = 0
+
+            def get(self, *args, **kwargs):
+                self.calls += 1
+                raise AssertionError("should wait for the run window, not call now")
+
+            def post(self, *args, **kwargs):
+                self.calls += 1
+                raise AssertionError("should wait for the run window, not call now")
+
+        session = NoNetworkSession()
+        env = {"TIKHUB_API_KEY": "test"}
+        with patch.dict("os.environ", env, clear=True):
+            items, status = maybe_fetch_tikhub_updates(
+                session,
+                __import__("datetime").datetime.fromisoformat("2026-05-03T01:00:00+00:00"),
+            )
+        self.assertEqual(items, [])
         self.assertTrue(status["enabled"])
-        self.assertFalse(status["ok"])
-        self.assertEqual(status["error"], "missing_tikhub_api_key")
+        self.assertTrue(status["skipped"])
         self.assertEqual(session.calls, 0)
 
     def test_tikhub_interval_state_skips_without_network(self):
@@ -1019,6 +1207,47 @@ class TopicFilterTests(unittest.TestCase):
         self.assertEqual(items[0].source, "AI观察")
         self.assertEqual(items[0].url, "https://www.douyin.com/video/712345")
         self.assertEqual(items[0].meta["keyword"], "AI")
+
+    def test_fetch_tikhub_search_drops_posts_older_than_recency_window(self):
+        import datetime as _dt
+
+        now = _dt.datetime.fromisoformat("2026-05-03T01:00:00+00:00")
+        recent_ts = int((now - _dt.timedelta(days=2)).timestamp())
+        stale_ts = int((now - _dt.timedelta(days=10)).timestamp())
+        payload = {
+            "data": [
+                {"aweme_info": {"aweme_id": "fresh1", "desc": "最新 AI Agent 发布解读",
+                                "create_time": recent_ts, "author": {"nickname": "AI观察"},
+                                "statistics": {"digg_count": 42}}},
+                {"aweme_info": {"aweme_id": "stale1", "desc": "十天前的 AI 大模型视频",
+                                "create_time": stale_ts, "author": {"nickname": "AI观察"},
+                                "statistics": {"digg_count": 10}}},
+            ]
+        }
+
+        class FakeResponse:
+            def raise_for_status(self):
+                return None
+
+            def json(self):
+                return payload
+
+        class FakeSession:
+            def __init__(self):
+                self.calls = 0
+
+            def post(self, url, **kwargs):
+                self.calls += 1
+                return FakeResponse()
+
+        session = FakeSession()
+        items, diagnostics = fetch_tikhub_search(
+            session, api_key="test", query="AI", now=now, max_results=10, platforms=["douyin"]
+        )
+        self.assertEqual(len(items), 1)
+        self.assertIn("fresh1", items[0].url)
+        self.assertEqual(diagnostics["recency_days"], 4)
+        self.assertEqual(diagnostics["skipped_stale_count"], 1)
 
     def test_parse_tikhub_xiaohongshu_items(self):
         payload = {

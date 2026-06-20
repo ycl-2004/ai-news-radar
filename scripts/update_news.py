@@ -194,14 +194,42 @@ X_API_DEFAULT_MAX_RESULTS = 20
 X_API_MAX_QUERY_CHARS = 512
 SOCIALDATA_API_BASE_DEFAULT = "https://api.socialdata.tools"
 SOCIALDATA_TWEET_READ_COST_USD = 0.0002
-SOCIALDATA_DEFAULT_QUERY = '(AI OR "artificial intelligence" OR "large language model" OR LLM) lang:en -filter:retweets'
+SOCIALDATA_DEFAULT_QUERY = '(AI OR "artificial intelligence" OR LLM OR "large language model" OR 人工智能 OR 大模型 OR 大语言模型 OR AIGC OR 智能体 OR Agent) (lang:en OR lang:zh) -filter:retweets'
 SOCIALDATA_DEFAULT_MAX_RESULTS = 20
 SOCIALDATA_MAX_QUERY_CHARS = 512
+# Curated X list "AI is cool, i guess" (owner @aiwarts). The list timeline pulls
+# each member's own posts by identity, which is far higher-signal than the broad
+# keyword search. No member is excluded by default; set SOCIALDATA_LIST_EXCLUDE
+# (comma-separated handles) to drop specific accounts if needed.
+SOCIALDATA_LIST_ID_DEFAULT = "1695376776867062037"
+SOCIALDATA_LIST_DEFAULT_MAX_RESULTS = 50
+SOCIALDATA_LIST_DEFAULT_EXCLUDE = ""
+# Keep only first-party posts; drop retweets and replies (conversational noise).
+SOCIALDATA_LIST_ALLOWED_TYPES = frozenset({"tweet", "quote"})
 TIKHUB_API_BASE_DEFAULT = "https://api.tikhub.io"
 TIKHUB_DEFAULT_QUERY = "AI,人工智能,大模型,OpenAI,Claude,Agent,AI工具"
 TIKHUB_DEFAULT_PLATFORMS = "douyin,xiaohongshu"
 TIKHUB_DEFAULT_MAX_RESULTS = 20
 TIKHUB_MAX_QUERY_CHARS = 256
+# --- TikHub search ranking / time-window tuning (edit here, no env var needed) ---
+# Exact recency window for TikHub results, in days. Douyin/Xiaohongshu search
+# only expose coarse buckets (不限/一天内/一周内/半年内 — there is no "4 days"),
+# so we ask the API for the nearest covering bucket (一周内) and then enforce the
+# exact window in code by dropping posts older than this many days.
+TIKHUB_RECENCY_DAYS = 4              # keep only posts from the last 4 days
+# Douyin fetch_general_search_v2 enums (standard Douyin search filter):
+#   sort_type:    0=综合, 1=最新, 2=最多点赞(most likes)
+#   publish_time: 0=不限, 1=一天内, 7=一周内, 180=半年内  (no 4-day bucket exists)
+TIKHUB_DOUYIN_SORT_TYPE = "2"        # 最多点赞 / most likes
+TIKHUB_DOUYIN_PUBLISH_TIME = "7"     # 一周内 = nearest bucket; real cap = TIKHUB_RECENCY_DAYS
+# Xiaohongshu search. app_v2 uses the app's filter labels; sort uses the
+# popularity/time/general tokens (web_v3 already takes "time_descending").
+#   sort:        general(综合) / time_descending(最新) / popularity_descending(最多点赞/最热)
+#   note_type:   "不限"(app_v2, all) ; web_v3 uses 0 for "all"
+#   time_filter: "不限" / "一天内" / "一周内" / "半年内"  (no 4-day bucket exists)
+TIKHUB_XHS_SORT = "popularity_descending"  # 最多点赞 / most likes
+TIKHUB_XHS_NOTE_TYPE = "不限"               # all note types
+TIKHUB_XHS_TIME_FILTER = "一周内"           # 一周内 = nearest bucket; real cap = TIKHUB_RECENCY_DAYS
 
 
 @dataclass
@@ -2986,6 +3014,19 @@ def env_flag(name: str) -> bool:
     return str(os.environ.get(name) or "").strip().lower() in {"1", "true", "yes", "on"}
 
 
+def env_flag_default(name: str, default: bool) -> bool:
+    """Three-state toggle: unset/blank -> default; explicit truthy/falsey wins.
+
+    Used for the *_ENABLED switches so API-key presence is the primary driver
+    (key in env -> source runs) while ENABLED stays available as an explicit
+    kill switch: set it to 0/false/no/off to force a paid source off even when a
+    key is present."""
+    raw = str(os.environ.get(name) or "").strip().lower()
+    if not raw:
+        return default
+    return raw in {"1", "true", "yes", "on"}
+
+
 def env_int(name: str, default: int) -> int:
     try:
         return int(str(os.environ.get(name) or default).strip() or default)
@@ -3142,8 +3183,14 @@ def x_api_status_base(now: datetime) -> dict[str, Any]:
     daily_post_limit = max(0, env_int("X_API_DAILY_POST_LIMIT", X_API_DEFAULT_MAX_RESULTS))
     max_results = max(10, min(env_int("X_API_MAX_RESULTS", X_API_DEFAULT_MAX_RESULTS), 100))
     effective_cap = min(max_results, daily_post_limit) if daily_post_limit else 0
+    enable_toggle = env_flag_default("X_API_ENABLED", True)
+    token_present = bool(
+        str(os.environ.get("X_BEARER_TOKEN") or os.environ.get("X_API_BEARER_TOKEN") or "").strip()
+    )
     return {
-        "enabled": env_flag("X_API_ENABLED"),
+        "enabled": enable_toggle and token_present,
+        "enable_toggle": enable_toggle,
+        "api_key_present": token_present,
         "ok": None,
         "item_count": 0,
         "privacy": "public_posts_metadata_only",
@@ -3225,9 +3272,15 @@ def maybe_fetch_x_api_updates(
     session: requests.Session,
     now: datetime,
 ) -> tuple[list[RawItem], dict[str, Any]]:
-    """Fetch X only when explicitly enabled, credentialed, scheduled, and capped."""
+    """Fetch X when a bearer token is present and ENABLED is not turned off, then
+    only if scheduled and capped. The token is the primary switch; ENABLED is an
+    optional kill switch (set it to 0 to force off)."""
     status = x_api_status_base(now)
-    if not status["enabled"]:
+    if not status["enable_toggle"]:
+        status["disabled_reason"] = "disabled_by_toggle"
+        return [], status
+    if not status["api_key_present"]:
+        status["disabled_reason"] = "no_bearer_token"
         return [], status
 
     if status["effective_result_cap"] < 10:
@@ -3241,10 +3294,6 @@ def maybe_fetch_x_api_updates(
         return [], status
 
     bearer_token = str(os.environ.get("X_BEARER_TOKEN") or os.environ.get("X_API_BEARER_TOKEN") or "").strip()
-    if not bearer_token:
-        status["ok"] = False
-        status["error"] = "missing_x_bearer_token"
-        return [], status
 
     query = str(os.environ.get("X_API_QUERY") or X_API_DEFAULT_QUERY).strip()
     base_url = str(os.environ.get("X_API_BASE_URL") or X_API_BASE_DEFAULT).strip()
@@ -3277,8 +3326,12 @@ def socialdata_status_base(now: datetime, paid_source_state: dict[str, Any] | No
     max_results = max(1, min(env_int("SOCIALDATA_MAX_RESULTS", SOCIALDATA_DEFAULT_MAX_RESULTS), 100))
     effective_cap = min(max_results, daily_tweet_limit) if daily_tweet_limit else 0
     state_entry = paid_source_state_entry(paid_source_state, "socialdata")
+    enable_toggle = env_flag_default("SOCIALDATA_ENABLED", True)
+    api_key_present = bool(str(os.environ.get("SOCIALDATA_API_KEY") or "").strip())
     return {
-        "enabled": env_flag("SOCIALDATA_ENABLED"),
+        "enabled": enable_toggle and api_key_present,
+        "enable_toggle": enable_toggle,
+        "api_key_present": api_key_present,
         "ok": None,
         "item_count": 0,
         "privacy": "public_posts_metadata_only",
@@ -3411,14 +3464,143 @@ def fetch_socialdata_search(
     return out, diagnostics
 
 
+def fetch_socialdata_list_tweets(
+    session: requests.Session,
+    api_key: str,
+    list_id: str,
+    now: datetime,
+    max_results: int,
+    exclude_handles: set[str] | None = None,
+    base_url: str = SOCIALDATA_API_BASE_DEFAULT,
+) -> tuple[list[RawItem], dict[str, Any]]:
+    """Pull a curated X list timeline through SocialData, keeping only members'
+    own AI posts. Retweets, replies, the excluded owner, and egg-avatar accounts
+    are dropped so the list stays a high-signal, bot-free source."""
+    list_id = str(list_id or "").strip()
+    if not list_id:
+        raise ValueError("socialdata_list_id_empty")
+    capped_max_results = max(1, min(int(max_results or SOCIALDATA_LIST_DEFAULT_MAX_RESULTS), 200))
+    exclude = {h.strip().lstrip("@").lower() for h in (exclude_handles or set()) if h.strip()}
+    out: list[RawItem] = []
+    raw_tweet_count = 0
+    skipped = {"retweet_or_reply": 0, "excluded_author": 0, "bot_like": 0, "empty": 0, "duplicate": 0}
+    page_count = 0
+    cursor = ""
+    seen_cursors: set[str] = set()
+    seen_tweet_ids: set[str] = set()
+    pagination_error: str | None = None
+    while len(out) < capped_max_results:
+        params: dict[str, str] = {}
+        if cursor:
+            params["cursor"] = cursor
+        try:
+            response = session.get(
+                f"{(base_url or SOCIALDATA_API_BASE_DEFAULT).rstrip('/')}/twitter/list/{list_id}/tweets",
+                headers={
+                    "Authorization": f"Bearer {api_key}",
+                    "Accept": "application/json",
+                },
+                params=params,
+                timeout=30,
+            )
+            response.raise_for_status()
+        except Exception as exc:
+            if page_count == 0:
+                raise
+            pagination_error = type(exc).__name__
+            break
+
+        payload = response.json()
+        page_count += 1
+        tweets = payload.get("tweets") if isinstance(payload, dict) else []
+        raw_tweet_count += len(tweets) if isinstance(tweets, list) else 0
+        for tweet in tweets or []:
+            if len(out) >= capped_max_results:
+                break
+            if not isinstance(tweet, dict):
+                continue
+            tweet_type = str(tweet.get("type") or "tweet").lower()
+            if tweet_type not in SOCIALDATA_LIST_ALLOWED_TYPES:
+                skipped["retweet_or_reply"] += 1
+                continue
+            user = tweet.get("user") if isinstance(tweet.get("user"), dict) else {}
+            username = str(user.get("screen_name") or "").strip().lstrip("@")
+            if username.lower() in exclude:
+                skipped["excluded_author"] += 1
+                continue
+            if user.get("default_profile_image"):
+                skipped["bot_like"] += 1
+                continue
+            tweet_id = str(tweet.get("id_str") or tweet.get("id") or "").strip()
+            text = compact_public_snippet(str(tweet.get("full_text") or tweet.get("text") or ""), max_chars=220)
+            if not (tweet_id and text and username):
+                skipped["empty"] += 1
+                continue
+            if tweet_id in seen_tweet_ids:
+                skipped["duplicate"] += 1
+                continue
+            seen_tweet_ids.add(tweet_id)
+            published = parse_iso(str(tweet.get("tweet_created_at") or tweet.get("created_at") or "")) or now
+            out.append(
+                RawItem(
+                    site_id="socialdata_x",
+                    site_name="SocialData X",
+                    source=f"@{username}",
+                    title=text,
+                    url=f"https://x.com/{username}/status/{tweet_id}",
+                    published_at=published,
+                    meta={
+                        "post_id": tweet_id,
+                        "via": "list",
+                        "list_id": list_id,
+                        "tweet_type": tweet_type,
+                        "lang": tweet.get("lang"),
+                        "public_metrics": {
+                            "reply_count": tweet.get("reply_count"),
+                            "retweet_count": tweet.get("retweet_count"),
+                            "quote_count": tweet.get("quote_count"),
+                            "favorite_count": tweet.get("favorite_count"),
+                            "bookmark_count": tweet.get("bookmark_count"),
+                            "views_count": tweet.get("views_count"),
+                        },
+                    },
+                )
+            )
+
+        next_cursor = str(payload.get("next_cursor") or "").strip() if isinstance(payload, dict) else ""
+        if not next_cursor or next_cursor in seen_cursors:
+            break
+        seen_cursors.add(next_cursor)
+        cursor = next_cursor
+    diagnostics = {
+        "endpoint": f"/twitter/list/{list_id}/tweets",
+        "list_id": list_id,
+        "raw_tweet_count": raw_tweet_count,
+        "mapped_tweet_count": len(out),
+        "page_count": page_count,
+        "skipped": skipped,
+        "excluded_handles": sorted(exclude),
+        "reached_result_cap": len(out) >= capped_max_results,
+    }
+    if pagination_error:
+        diagnostics["pagination_error"] = pagination_error
+    return out, diagnostics
+
+
 def maybe_fetch_socialdata_updates(
     session: requests.Session,
     now: datetime,
     paid_source_state: dict[str, Any] | None = None,
 ) -> tuple[list[RawItem], dict[str, Any]]:
-    """Fetch SocialData only when explicitly enabled, credentialed, scheduled, and capped."""
+    """Fetch SocialData when an API key is present and ENABLED is not turned off,
+    then only if scheduled and capped. The key is the primary switch; ENABLED is
+    an optional kill switch (set it to 0 to force off)."""
     status = socialdata_status_base(now, paid_source_state)
-    if not status["enabled"]:
+    if not status["enable_toggle"]:
+        status["disabled_reason"] = "disabled_by_toggle"
+        return [], status
+    if not status["api_key_present"]:
+        status["disabled_reason"] = "no_api_key"
         return [], status
 
     if status["effective_result_cap"] < 1:
@@ -3433,17 +3615,32 @@ def maybe_fetch_socialdata_updates(
         return [], status
 
     api_key = str(os.environ.get("SOCIALDATA_API_KEY") or "").strip()
-    if not api_key:
-        status["ok"] = False
-        status["error"] = "missing_socialdata_api_key"
-        return [], status
 
     query = str(os.environ.get("SOCIALDATA_QUERY") or SOCIALDATA_DEFAULT_QUERY).strip()
     base_url = str(os.environ.get("SOCIALDATA_API_BASE_URL") or SOCIALDATA_API_BASE_DEFAULT).strip()
     search_type = str(os.environ.get("SOCIALDATA_SEARCH_TYPE") or "Latest").strip() or "Latest"
+    list_id = str(os.environ.get("SOCIALDATA_LIST_ID") or SOCIALDATA_LIST_ID_DEFAULT).strip()
+    list_enabled = bool(list_id) and str(os.environ.get("SOCIALDATA_LIST_ENABLED", "1")).strip().lower() in {
+        "1",
+        "true",
+        "yes",
+        "on",
+    }
+    list_max_results = max(0, min(env_int("SOCIALDATA_LIST_MAX_RESULTS", SOCIALDATA_LIST_DEFAULT_MAX_RESULTS), 200))
+    list_exclude = {
+        handle.strip().lstrip("@").lower()
+        for handle in str(os.environ.get("SOCIALDATA_LIST_EXCLUDE") or SOCIALDATA_LIST_DEFAULT_EXCLUDE).split(",")
+        if handle.strip()
+    }
     status["attempted"] = True
+
+    items: list[RawItem] = []
+    seen_urls: set[str] = set()
+    errors: list[str] = []
+
+    # 1) Broad keyword search: discovers new voices across en/zh.
     try:
-        items, diagnostics = fetch_socialdata_search(
+        search_items, diagnostics = fetch_socialdata_search(
             session,
             api_key=api_key,
             query=query,
@@ -3452,15 +3649,51 @@ def maybe_fetch_socialdata_updates(
             search_type=search_type,
             base_url=base_url,
         )
-        status["ok"] = True
-        status["item_count"] = len(items)
-        status["estimated_cost_usd"] = round(len(items) * SOCIALDATA_TWEET_READ_COST_USD, 4)
         status["diagnostics"] = diagnostics
-        return items, status
+        for item in search_items:
+            if item.url in seen_urls:
+                continue
+            seen_urls.add(item.url)
+            items.append(item)
     except Exception as exc:
+        errors.append(f"search:{type(exc).__name__}")
+
+    # 2) Curated list timeline: stably tracks known KOLs by identity, bot-filtered.
+    list_item_count = 0
+    if list_enabled and list_max_results >= 1:
+        try:
+            list_items, list_diagnostics = fetch_socialdata_list_tweets(
+                session,
+                api_key=api_key,
+                list_id=list_id,
+                now=now,
+                max_results=list_max_results,
+                exclude_handles=list_exclude,
+                base_url=base_url,
+            )
+            status["list_diagnostics"] = list_diagnostics
+            for item in list_items:
+                if item.url in seen_urls:
+                    continue
+                seen_urls.add(item.url)
+                items.append(item)
+                list_item_count += 1
+        except Exception as exc:
+            errors.append(f"list:{type(exc).__name__}")
+
+    status["list_enabled"] = list_enabled
+    status["list_item_count"] = list_item_count
+    status["search_item_count"] = len(items) - list_item_count
+    status["item_count"] = len(items)
+    status["estimated_cost_usd"] = round(len(items) * SOCIALDATA_TWEET_READ_COST_USD, 4)
+    if errors and not items:
         status["ok"] = False
-        status["error"] = type(exc).__name__
-        return [], status
+        status["error"] = ";".join(errors)
+    else:
+        status["ok"] = True
+        if errors:
+            status["partial_error"] = ";".join(errors)
+    return items, status
 
 
 def tikhub_should_run_now(now: datetime, paid_source_state: dict[str, Any] | None = None) -> tuple[bool, str | None]:
@@ -3472,8 +3705,7 @@ def tikhub_status_base(now: datetime, paid_source_state: dict[str, Any] | None =
     daily_limit = max(0, env_int("TIKHUB_DAILY_ITEM_LIMIT", TIKHUB_DEFAULT_MAX_RESULTS))
     max_results = max(1, min(env_int("TIKHUB_MAX_RESULTS", TIKHUB_DEFAULT_MAX_RESULTS), 100))
     effective_cap = min(max_results, daily_limit) if daily_limit else 0
-    enabled = env_flag("TIKHUB_ENABLED")
-    force_run = env_flag("TIKHUB_FORCE_RUN")
+    enable_toggle = env_flag_default("TIKHUB_ENABLED", True)
     api_key_present = bool(str(os.environ.get("TIKHUB_API_KEY") or "").strip())
     platforms = [
         part.strip().lower()
@@ -3482,8 +3714,10 @@ def tikhub_status_base(now: datetime, paid_source_state: dict[str, Any] | None =
     ]
     state_entry = paid_source_state_entry(paid_source_state, "tikhub")
     return {
-        "enabled": enabled or (force_run and api_key_present),
-        "enabled_by": "force_run" if (not enabled and force_run and api_key_present) else ("explicit" if enabled else "disabled"),
+        "enabled": enable_toggle and api_key_present,
+        "enable_toggle": enable_toggle,
+        "api_key_present": api_key_present,
+        "enabled_by": "disabled_by_toggle" if not enable_toggle else ("ready" if api_key_present else "no_api_key"),
         "ok": None,
         "item_count": 0,
         "privacy": "public_social_posts_metadata_only",
@@ -3746,14 +3980,21 @@ def fetch_tikhub_search(
         "requests": [],
         "successful_request_count": 0,
         "request_error_count": 0,
+        "recency_days": TIKHUB_RECENCY_DAYS,
+        "skipped_stale_count": 0,
     }
     seen_item_keys: set[str] = set()
+    recency_cutoff = now - timedelta(days=TIKHUB_RECENCY_DAYS) if TIKHUB_RECENCY_DAYS else None
 
     def append_mapped_items(mapped: list[RawItem], surface: str, remaining: int) -> int:
         appended = 0
         for item in mapped:
             if appended >= remaining:
                 break
+            # Enforce the exact recency window (the API only has coarse buckets).
+            if recency_cutoff and item.published_at and item.published_at < recency_cutoff:
+                diagnostics["skipped_stale_count"] += 1
+                continue
             key = tikhub_raw_item_key(item)
             if key in seen_item_keys:
                 continue
@@ -3791,8 +4032,8 @@ def fetch_tikhub_search(
                         json={
                             "keyword": keyword,
                             "cursor": 0,
-                            "sort_type": "2",
-                            "publish_time": "1",
+                            "sort_type": TIKHUB_DOUYIN_SORT_TYPE,
+                            "publish_time": TIKHUB_DOUYIN_PUBLISH_TIME,
                             "filter_duration": "0",
                             "content_type": "0",
                             "search_id": "",
@@ -3829,9 +4070,9 @@ def fetch_tikhub_search(
                         {
                             "keyword": keyword,
                             "page": 1,
-                            "sort_type": "general",
-                            "note_type": "不限",
-                            "time_filter": "不限",
+                            "sort_type": TIKHUB_XHS_SORT,
+                            "note_type": TIKHUB_XHS_NOTE_TYPE,
+                            "time_filter": TIKHUB_XHS_TIME_FILTER,
                             "search_id": "",
                             "search_session_id": "",
                             "source": "explore_feed",
@@ -3841,7 +4082,7 @@ def fetch_tikhub_search(
                     (
                         "xiaohongshu_web_v3",
                         "/api/v1/xiaohongshu/web_v3/fetch_search_notes",
-                        {"keyword": keyword, "page": 1, "sort": "time_descending", "note_type": 0},
+                        {"keyword": keyword, "page": 1, "sort": TIKHUB_XHS_SORT, "note_type": 0},
                     ),
                 )
                 per_surface_cap = max(1, (remaining + len(xhs_surfaces) - 1) // len(xhs_surfaces))
@@ -3894,9 +4135,15 @@ def maybe_fetch_tikhub_updates(
     now: datetime,
     paid_source_state: dict[str, Any] | None = None,
 ) -> tuple[list[RawItem], dict[str, Any]]:
-    """Fetch TikHub Douyin/Xiaohongshu search only when explicitly enabled."""
+    """Fetch TikHub when an API key is present and ENABLED is not turned off,
+    then only if scheduled and capped. The key is the primary switch; ENABLED is
+    an optional kill switch (set it to 0 to force off)."""
     status = tikhub_status_base(now, paid_source_state)
-    if not status["enabled"]:
+    if not status["enable_toggle"]:
+        status["disabled_reason"] = "disabled_by_toggle"
+        return [], status
+    if not status["api_key_present"]:
+        status["disabled_reason"] = "no_api_key"
         return [], status
 
     if status["effective_result_cap"] < 1:
@@ -3911,10 +4158,6 @@ def maybe_fetch_tikhub_updates(
         return [], status
 
     api_key = str(os.environ.get("TIKHUB_API_KEY") or "").strip()
-    if not api_key:
-        status["ok"] = False
-        status["error"] = "missing_tikhub_api_key"
-        return [], status
 
     query = str(os.environ.get("TIKHUB_QUERY") or TIKHUB_DEFAULT_QUERY).strip()
     base_url = str(os.environ.get("TIKHUB_API_BASE_URL") or TIKHUB_API_BASE_DEFAULT).strip()
