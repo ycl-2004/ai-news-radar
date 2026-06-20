@@ -8,6 +8,7 @@ from scripts.update_news import (
     dedupe_items_by_title_url,
     fetch_agentmail_digest,
     fetch_aihot,
+    fetch_ai_hubtoday,
     fetch_socialdata_list_tweets,
     fetch_tikhub_search,
     is_ai_related_record,
@@ -694,6 +695,45 @@ class TopicFilterTests(unittest.TestCase):
         url, kwargs = session.calls[0]
         self.assertEqual(url, "https://api.x.com/2/tweets/search/recent")
         self.assertEqual(kwargs["params"]["max_results"], 10)
+
+    def test_fetch_ai_hubtoday_parses_rss_feed(self):
+        # ai.hubtoday.app moved to hex2077.dev; we now read its RSS feed.
+        rss = (
+            '<?xml version="1.0" encoding="UTF-8"?>'
+            '<rss version="2.0"><channel><title>hex2077</title>'
+            '<item><title>AI 资讯日报 2026/6/20 多家发布</title>'
+            '<link>https://hex2077.dev/docs/2026-06/2026-06-20/</link>'
+            '<pubDate>Sat, 20 Jun 2026 00:00:00 GMT</pubDate></item>'
+            '<item><title>AI 深度信号周报 W24</title>'
+            '<link>https://hex2077.dev/blog/weekly/2026-w24/</link>'
+            '<pubDate>Fri, 19 Jun 2026 10:00:00 GMT</pubDate></item>'
+            '</channel></rss>'
+        ).encode("utf-8")
+
+        class FakeResponse:
+            content = rss
+
+            def raise_for_status(self):
+                return None
+
+        class FakeSession:
+            def __init__(self):
+                self.calls = []
+
+            def get(self, url, **kwargs):
+                self.calls.append(url)
+                return FakeResponse()
+
+        session = FakeSession()
+        items = fetch_ai_hubtoday(
+            session,
+            __import__("datetime").datetime.fromisoformat("2026-06-20T12:00:00+00:00"),
+        )
+        self.assertEqual(len(items), 2)
+        self.assertTrue(all(i.site_id == "aihubtoday" for i in items))
+        self.assertEqual(items[0].url, "https://hex2077.dev/docs/2026-06/2026-06-20/")
+        self.assertIsNotNone(items[0].published_at)
+        self.assertEqual(session.calls[0], "https://hex2077.dev/rss-zh-CN.xml")
 
     def test_socialdata_default_off_does_not_request_network(self):
         class NoNetworkSession:
