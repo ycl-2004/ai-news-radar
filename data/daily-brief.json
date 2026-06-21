@@ -1,8 +1,69 @@
 {
-  "generated_at": "2026-06-21T09:06:17.408044Z",
+  "generated_at": "2026-06-21T11:58:50.680643Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
+    {
+      "story_id": "story_a0aef8c4c60a",
+      "title": "美团tabbit国际版免费接入GPT-5.5/Claude Opus 4.8等旗舰模型",
+      "url": "https://x.com/AYi_AInotes/status/2068637890247016607",
+      "primary_url": "https://x.com/AYi_AInotes/status/2068637890247016607",
+      "source": "X：阿易 AI Notes (@AYi_AInotes)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "efbfd8b5170262b75a10750125292b5fc49d528b",
+          "title": "美团tabbit国际版免费接入GPT-5.5/Claude Opus 4.8等旗舰模型",
+          "url": "https://x.com/AYi_AInotes/status/2068637890247016607",
+          "source": "X：阿易 AI Notes (@AYi_AInotes)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-21T10:11:21Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "X：阿易 AI Notes (@AYi_AInotes)"
+      ],
+      "items": [
+        {
+          "id": "efbfd8b5170262b75a10750125292b5fc49d528b",
+          "title": "美团tabbit国际版免费接入GPT-5.5/Claude Opus 4.8等旗舰模型",
+          "url": "https://x.com/AYi_AInotes/status/2068637890247016607",
+          "source": "X：阿易 AI Notes (@AYi_AInotes)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-21T10:11:21Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.781,
+      "importance": 0.781,
+      "importance_score": 0.781,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.78,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9745,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-21T10:11:21Z",
+      "latest_at": "2026-06-21T10:11:21Z",
+      "primary_item": {
+        "id": "efbfd8b5170262b75a10750125292b5fc49d528b",
+        "title": "美团tabbit国际版免费接入GPT-5.5/Claude Opus 4.8等旗舰模型",
+        "url": "https://x.com/AYi_AInotes/status/2068637890247016607",
+        "source": "X：阿易 AI Notes (@AYi_AInotes)",
+        "source_name": "AI HOT"
+      }
+    },
     {
       "story_id": "story_7c9eee920092",
       "title": "腾讯元宝父亲节活动：上传照片生成与年轻爸爸的合影",
@@ -38,15 +99,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7329,
-      "importance": 0.7329,
-      "importance_score": 0.7329,
+      "score": 0.726,
+      "importance": 0.726,
+      "importance_score": 0.726,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.64,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9404,
+        "recency": 0.9022,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -98,15 +159,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7298,
-      "importance": 0.7298,
-      "importance_score": 0.7298,
+      "score": 0.7244,
+      "importance": 0.7244,
+      "importance_score": 0.7244,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7402,
+        "recency": 0.7101,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -230,15 +291,15 @@
       ],
       "item_count": 5,
       "duplicate_count": 5,
-      "score": 0.6475,
-      "importance": 0.6475,
-      "importance_score": 0.6475,
+      "score": 0.6411,
+      "importance": 0.6411,
+      "importance_score": 0.6411,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.54,
         "ai_relevance": 0.65,
-        "recency": 0.8797,
+        "recency": 0.8439,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -253,6 +314,104 @@
         "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
         "source": "社区更新 · 2026-06-20",
         "source_name": "WaytoAGI"
+      }
+    },
+    {
+      "story_id": "story_adb703e42fd4",
+      "title": "构建可靠的代理式人工智能系统",
+      "url": "https://martinfowler.com/articles/reliable-llm-bayer.html",
+      "primary_url": "https://martinfowler.com/articles/reliable-llm-bayer.html",
+      "source": "martinfowler.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "db20149076b392dacf05ff088d49d1e741446c41",
+          "title": "构建可靠的代理式人工智能系统",
+          "url": "https://martinfowler.com/articles/reliable-llm-bayer.html",
+          "source": "martinfowler.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-21T09:49:12.872000Z"
+        },
+        {
+          "id": "4a2b347226b60ae7491e3155dd530269f351b968",
+          "title": "构建可靠的代理人工智能系统 / Building reliable agentic AI systems",
+          "url": "https://news.ycombinator.com/item?id=48615680",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-21T08:54:29.645000Z"
+        },
+        {
+          "id": "5b65f1c550cd0d81fc82e777faf01951bb72ab16",
+          "title": "构建可靠的代理式人工智能系统 / Building reliable agentic AI systems",
+          "url": "https://martinfowler.com/articles/reliable-llm-bayer.html",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-21T04:28:39Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "Hacker News (黑客新闻)",
+        "hackernews",
+        "martinfowler.com"
+      ],
+      "items": [
+        {
+          "id": "db20149076b392dacf05ff088d49d1e741446c41",
+          "title": "构建可靠的代理式人工智能系统",
+          "url": "https://martinfowler.com/articles/reliable-llm-bayer.html",
+          "source": "martinfowler.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-21T09:49:12.872000Z"
+        },
+        {
+          "id": "4a2b347226b60ae7491e3155dd530269f351b968",
+          "title": "构建可靠的代理人工智能系统 / Building reliable agentic AI systems",
+          "url": "https://news.ycombinator.com/item?id=48615680",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-21T08:54:29.645000Z"
+        },
+        {
+          "id": "5b65f1c550cd0d81fc82e777faf01951bb72ab16",
+          "title": "构建可靠的代理式人工智能系统 / Building reliable agentic AI systems",
+          "url": "https://martinfowler.com/articles/reliable-llm-bayer.html",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-21T04:28:39Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.5653,
+      "importance": 0.5653,
+      "importance_score": 0.5653,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9693,
+        "story_heat": 0.5
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-21T04:28:39Z",
+      "latest_at": "2026-06-21T09:49:12.872000Z",
+      "primary_item": {
+        "id": "db20149076b392dacf05ff088d49d1e741446c41",
+        "title": "构建可靠的代理式人工智能系统",
+        "url": "https://martinfowler.com/articles/reliable-llm-bayer.html",
+        "source": "martinfowler.com",
+        "source_name": "Buzzing"
       }
     },
     {
@@ -328,15 +487,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5614,
-      "importance": 0.5614,
-      "importance_score": 0.5614,
+      "score": 0.5545,
+      "importance": 0.5545,
+      "importance_score": 0.5545,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.948,
+        "recency": 0.9094,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -351,6 +510,480 @@
         "url": "https://news.ycombinator.com/item?id=48614631",
         "source": "hackernews",
         "source_name": "NewsNow"
+      }
+    },
+    {
+      "story_id": "story_a699cca17620",
+      "title": "asgeirtj /      system_prompts_leaks",
+      "url": "https://github.com/asgeirtj/system_prompts_leaks",
+      "primary_url": "https://github.com/asgeirtj/system_prompts_leaks",
+      "source": "github",
+      "source_name": "NewsNow",
+      "sources": [
+        {
+          "id": "baa9d03b16ed38aed33577d7ed876031205e6795",
+          "title": "asgeirtj /      system_prompts_leaks",
+          "url": "https://github.com/asgeirtj/system_prompts_leaks",
+          "source": "github",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-21T11:59:28.223000Z"
+        },
+        {
+          "id": "2fa4d188d72c83942d8eda61541a4bf7f9cd6c7d",
+          "title": "asgeirtj / system_prompts_leaks",
+          "url": "https://github.com/asgeirtj/system_prompts_leaks",
+          "source": "GitHub · Trending Today",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "GitHub · Trending Today",
+        "github"
+      ],
+      "items": [
+        {
+          "id": "baa9d03b16ed38aed33577d7ed876031205e6795",
+          "title": "asgeirtj /      system_prompts_leaks",
+          "url": "https://github.com/asgeirtj/system_prompts_leaks",
+          "source": "github",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-21T11:59:28.223000Z"
+        },
+        {
+          "id": "2fa4d188d72c83942d8eda61541a4bf7f9cd6c7d",
+          "title": "asgeirtj / system_prompts_leaks",
+          "url": "https://github.com/asgeirtj/system_prompts_leaks",
+          "source": "GitHub · Trending Today",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5458,
+      "importance": 0.5458,
+      "importance_score": 0.5458,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 1.0,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-21T11:58:50.680643Z",
+      "latest_at": "2026-06-21T11:59:28.223000Z",
+      "primary_item": {
+        "id": "baa9d03b16ed38aed33577d7ed876031205e6795",
+        "title": "asgeirtj /      system_prompts_leaks",
+        "url": "https://github.com/asgeirtj/system_prompts_leaks",
+        "source": "github",
+        "source_name": "NewsNow"
+      }
+    },
+    {
+      "story_id": "story_4b15b4f11170",
+      "title": "具身赛道现状素描：脑子灵，模型好，不是百亿，就是独角",
+      "url": "https://www.qbitai.com/2026/06/437198.html",
+      "primary_url": "https://www.qbitai.com/2026/06/437198.html",
+      "source": "量子位 · 每日最新",
+      "source_name": "TopHub",
+      "sources": [
+        {
+          "id": "881cb8ada6558b81307cfe40d409ac2aec31f9f9",
+          "title": "具身赛道现状素描：脑子灵，模型好，不是百亿，就是独角",
+          "url": "https://www.qbitai.com/2026/06/437198.html",
+          "source": "量子位 · 每日最新",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        },
+        {
+          "id": "4917a8872990202cd3f4c9c4a8be3d735ffbbd2d",
+          "title": "具身赛道现状素描：脑子灵，模型好，不是百亿，就是独角",
+          "url": "https://www.huxiu.com/article/4868948.html?f=rss",
+          "source": "虎嗅 (Huxiu)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-21T06:17:46Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "虎嗅 (Huxiu)",
+        "量子位 · 每日最新"
+      ],
+      "items": [
+        {
+          "id": "881cb8ada6558b81307cfe40d409ac2aec31f9f9",
+          "title": "具身赛道现状素描：脑子灵，模型好，不是百亿，就是独角",
+          "url": "https://www.qbitai.com/2026/06/437198.html",
+          "source": "量子位 · 每日最新",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        },
+        {
+          "id": "4917a8872990202cd3f4c9c4a8be3d735ffbbd2d",
+          "title": "具身赛道现状素描：脑子灵，模型好，不是百亿，就是独角",
+          "url": "https://www.huxiu.com/article/4868948.html?f=rss",
+          "source": "虎嗅 (Huxiu)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-21T06:17:46Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5458,
+      "importance": 0.5458,
+      "importance_score": 0.5458,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 1.0,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-21T06:17:46Z",
+      "latest_at": "2026-06-21T11:58:50.680643Z",
+      "primary_item": {
+        "id": "881cb8ada6558b81307cfe40d409ac2aec31f9f9",
+        "title": "具身赛道现状素描：脑子灵，模型好，不是百亿，就是独角",
+        "url": "https://www.qbitai.com/2026/06/437198.html",
+        "source": "量子位 · 每日最新",
+        "source_name": "TopHub"
+      }
+    },
+    {
+      "story_id": "story_8671cdb2de60",
+      "title": "刘强东称京东所有 AI 技术都会向海外各个国家所有伙伴开放：不希望任何企业或国家形成技术壁垒，这本质上是「剥削」",
+      "url": "https://www.ithome.com/0/966/690.htm",
+      "primary_url": "https://www.ithome.com/0/966/690.htm",
+      "source": "Readhub · AI",
+      "source_name": "TopHub",
+      "sources": [
+        {
+          "id": "f5f6f25b311f7a5c9fae0cb097bae9e3cd138acb",
+          "title": "刘强东称京东所有 AI 技术都会向海外各个国家所有伙伴开放：不希望任何企业或国家形成技术壁垒，这本质上是「剥削」",
+          "url": "https://www.ithome.com/0/966/690.htm",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        },
+        {
+          "id": "8be88f88d310d0b3c3bbe1b737f6e3c6c58ad2b4",
+          "title": "刘强东称京东所有 AI 技术都会向海外各个国家所有伙伴开放：不希望任何企业或国家形成技术壁垒，这本质上是“剥削”",
+          "url": "https://www.ithome.com/0/966/690.htm",
+          "source": "IT之家 (ITHome)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-21T10:15:24Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "IT之家 (ITHome)",
+        "Readhub · AI"
+      ],
+      "items": [
+        {
+          "id": "f5f6f25b311f7a5c9fae0cb097bae9e3cd138acb",
+          "title": "刘强东称京东所有 AI 技术都会向海外各个国家所有伙伴开放：不希望任何企业或国家形成技术壁垒，这本质上是「剥削」",
+          "url": "https://www.ithome.com/0/966/690.htm",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        },
+        {
+          "id": "8be88f88d310d0b3c3bbe1b737f6e3c6c58ad2b4",
+          "title": "刘强东称京东所有 AI 技术都会向海外各个国家所有伙伴开放：不希望任何企业或国家形成技术壁垒，这本质上是“剥削”",
+          "url": "https://www.ithome.com/0/966/690.htm",
+          "source": "IT之家 (ITHome)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-21T10:15:24Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5458,
+      "importance": 0.5458,
+      "importance_score": 0.5458,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 1.0,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-21T10:15:24Z",
+      "latest_at": "2026-06-21T11:58:50.680643Z",
+      "primary_item": {
+        "id": "f5f6f25b311f7a5c9fae0cb097bae9e3cd138acb",
+        "title": "刘强东称京东所有 AI 技术都会向海外各个国家所有伙伴开放：不希望任何企业或国家形成技术壁垒，这本质上是「剥削」",
+        "url": "https://www.ithome.com/0/966/690.htm",
+        "source": "Readhub · AI",
+        "source_name": "TopHub"
+      }
+    },
+    {
+      "story_id": "story_d6fe158cc16a",
+      "title": "人工智能会毁掉我们的技能吗？初步结果已经出炉，情况并不乐观",
+      "url": "https://www.nature.com/articles/d41586-026-01947-1",
+      "primary_url": "https://www.nature.com/articles/d41586-026-01947-1",
+      "source": "www.nature.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "72723572bbf5a76ec2daf0f6511f6d030cfb46df",
+          "title": "人工智能会毁掉我们的技能吗？初步结果已经出炉，情况并不乐观",
+          "url": "https://www.nature.com/articles/d41586-026-01947-1",
+          "source": "www.nature.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-21T10:53:10.002000Z"
+        },
+        {
+          "id": "8bfbdeb114c7a9bc5e3bc5f5cb9c006cba204923",
+          "title": "人工智能会毁掉我们的技能吗？初步结果已经出炉，情况并不乐观 / Is AI ruining our skills? Early results are in and they’re not good",
+          "url": "https://www.nature.com/articles/d41586-026-01947-1",
+          "source": "Lobsters (技术社区)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-21T10:41:47Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Lobsters (技术社区)",
+        "www.nature.com"
+      ],
+      "items": [
+        {
+          "id": "72723572bbf5a76ec2daf0f6511f6d030cfb46df",
+          "title": "人工智能会毁掉我们的技能吗？初步结果已经出炉，情况并不乐观",
+          "url": "https://www.nature.com/articles/d41586-026-01947-1",
+          "source": "www.nature.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-21T10:53:10.002000Z"
+        },
+        {
+          "id": "8bfbdeb114c7a9bc5e3bc5f5cb9c006cba204923",
+          "title": "人工智能会毁掉我们的技能吗？初步结果已经出炉，情况并不乐观 / Is AI ruining our skills? Early results are in and they’re not good",
+          "url": "https://www.nature.com/articles/d41586-026-01947-1",
+          "source": "Lobsters (技术社区)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-21T10:41:47Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.543,
+      "importance": 0.543,
+      "importance_score": 0.543,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9843,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-21T10:41:47Z",
+      "latest_at": "2026-06-21T10:53:10.002000Z",
+      "primary_item": {
+        "id": "72723572bbf5a76ec2daf0f6511f6d030cfb46df",
+        "title": "人工智能会毁掉我们的技能吗？初步结果已经出炉，情况并不乐观",
+        "url": "https://www.nature.com/articles/d41586-026-01947-1",
+        "source": "www.nature.com",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_2b7ea3e84afb",
+      "title": "我研究深度伪造技术已有二十年。人工智能的发展使得人们几乎无法分辨真假。",
+      "url": "https://www.businessinsider.com/deepfake-expert-ai-video-images-hard-to-know-whats-real-2026-6",
+      "primary_url": "https://www.businessinsider.com/deepfake-expert-ai-video-images-hard-to-know-whats-real-2026-6",
+      "source": "www.businessinsider.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "85d335af887e8f67d5b5a1ed6afe70d906946826",
+          "title": "我研究深度伪造技术已有二十年。人工智能的发展使得人们几乎无法分辨真假。",
+          "url": "https://www.businessinsider.com/deepfake-expert-ai-video-images-hard-to-know-whats-real-2026-6",
+          "source": "www.businessinsider.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-21T09:49:13.061000Z"
+        },
+        {
+          "id": "2f31b815e50a0f3a786a4a48a5f3a80017f565dc",
+          "title": "我研究深度伪造技术已有二十年。人工智能的发展使得人们几乎无法分辨真假。 / I've studied deepfakes for more than 25 years. Here's why AI is making it nearly impossible for you to know what's real.",
+          "url": "https://www.businessinsider.com/deepfake-expert-ai-video-images-hard-to-know-whats-real-2026-6",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-21T09:41:01Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Business Insider",
+        "www.businessinsider.com"
+      ],
+      "items": [
+        {
+          "id": "85d335af887e8f67d5b5a1ed6afe70d906946826",
+          "title": "我研究深度伪造技术已有二十年。人工智能的发展使得人们几乎无法分辨真假。",
+          "url": "https://www.businessinsider.com/deepfake-expert-ai-video-images-hard-to-know-whats-real-2026-6",
+          "source": "www.businessinsider.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-21T09:49:13.061000Z"
+        },
+        {
+          "id": "2f31b815e50a0f3a786a4a48a5f3a80017f565dc",
+          "title": "我研究深度伪造技术已有二十年。人工智能的发展使得人们几乎无法分辨真假。 / I've studied deepfakes for more than 25 years. Here's why AI is making it nearly impossible for you to know what's real.",
+          "url": "https://www.businessinsider.com/deepfake-expert-ai-video-images-hard-to-know-whats-real-2026-6",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-21T09:41:01Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5403,
+      "importance": 0.5403,
+      "importance_score": 0.5403,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9693,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-21T09:41:01Z",
+      "latest_at": "2026-06-21T09:49:13.061000Z",
+      "primary_item": {
+        "id": "85d335af887e8f67d5b5a1ed6afe70d906946826",
+        "title": "我研究深度伪造技术已有二十年。人工智能的发展使得人们几乎无法分辨真假。",
+        "url": "https://www.businessinsider.com/deepfake-expert-ai-video-images-hard-to-know-whats-real-2026-6",
+        "source": "www.businessinsider.com",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_ea5379cae11a",
+      "title": "人工智能的10万个“为什么”",
+      "url": "https://lcamtuf.substack.com/p/the-100000-whys-of-ai",
+      "primary_url": "https://lcamtuf.substack.com/p/the-100000-whys-of-ai",
+      "source": "lcamtuf.substack.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "dda5e1eedfcbd7afcc81c948226c3a36d840aca6",
+          "title": "人工智能的10万个“为什么”",
+          "url": "https://lcamtuf.substack.com/p/the-100000-whys-of-ai",
+          "source": "lcamtuf.substack.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-21T09:17:10.157000Z"
+        },
+        {
+          "id": "f31d474cf66081a281b215baa59be447d785f6a6",
+          "title": "人工智能的10万个“为什么” / The 100k Whys of AI",
+          "url": "https://lcamtuf.substack.com/p/the-100000-whys-of-ai",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-21T05:45:21Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News (黑客新闻)",
+        "lcamtuf.substack.com"
+      ],
+      "items": [
+        {
+          "id": "dda5e1eedfcbd7afcc81c948226c3a36d840aca6",
+          "title": "人工智能的10万个“为什么”",
+          "url": "https://lcamtuf.substack.com/p/the-100000-whys-of-ai",
+          "source": "lcamtuf.substack.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-21T09:17:10.157000Z"
+        },
+        {
+          "id": "f31d474cf66081a281b215baa59be447d785f6a6",
+          "title": "人工智能的10万个“为什么” / The 100k Whys of AI",
+          "url": "https://lcamtuf.substack.com/p/the-100000-whys-of-ai",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-21T05:45:21Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5389,
+      "importance": 0.5389,
+      "importance_score": 0.5389,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9618,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-21T05:45:21Z",
+      "latest_at": "2026-06-21T09:17:10.157000Z",
+      "primary_item": {
+        "id": "dda5e1eedfcbd7afcc81c948226c3a36d840aca6",
+        "title": "人工智能的10万个“为什么”",
+        "url": "https://lcamtuf.substack.com/p/the-100000-whys-of-ai",
+        "source": "lcamtuf.substack.com",
+        "source_name": "Buzzing"
       }
     },
     {
@@ -407,15 +1040,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5416,
-      "importance": 0.5416,
-      "importance_score": 0.5416,
+      "score": 0.5359,
+      "importance": 0.5359,
+      "importance_score": 0.5359,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.4824,
         "source_tier": 0.45,
         "ai_relevance": 0.67,
-        "recency": 0.7714,
+        "recency": 0.74,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -486,15 +1119,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5416,
-      "importance": 0.5416,
-      "importance_score": 0.5416,
+      "score": 0.5359,
+      "importance": 0.5359,
+      "importance_score": 0.5359,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.4824,
         "source_tier": 0.45,
         "ai_relevance": 0.67,
-        "recency": 0.7714,
+        "recency": 0.7401,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -509,104 +1142,6 @@
         "url": "https://x.com/angga_aliaras/status/2068350175265845405",
         "source": "@angga_aliaras",
         "source_name": "SocialData X"
-      }
-    },
-    {
-      "story_id": "story_fd6b244d6a5f",
-      "title": "用于 AI 代理的临时 Cloudflare 账户",
-      "url": "https://blog.cloudflare.com/temporary-accounts",
-      "primary_url": "https://blog.cloudflare.com/temporary-accounts",
-      "source": "blog.cloudflare.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "cc222b16f027ccb232c72501b0ad05e63bbf6616",
-          "title": "用于 AI 代理的临时 Cloudflare 账户",
-          "url": "https://blog.cloudflare.com/temporary-accounts",
-          "source": "blog.cloudflare.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-20T20:13:09.604000Z"
-        },
-        {
-          "id": "be6db6a7713e9be8b07b1e1d8c5805eae89c1331",
-          "title": "AI 代理的临时 Cloudflare 帐户 / Temporary Cloudflare accounts for AI agents",
-          "url": "https://news.ycombinator.com/item?id=48608394",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-20T14:50:25.866000Z"
-        },
-        {
-          "id": "a1a87e6ee558095aa56dacea3fc7db142f61a6e0",
-          "title": "用于 AI 代理的临时 Cloudflare 账户 / Temporary Cloudflare accounts for AI agents",
-          "url": "https://blog.cloudflare.com/temporary-accounts",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-20T11:19:05Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Hacker News (黑客新闻)",
-        "blog.cloudflare.com",
-        "hackernews"
-      ],
-      "items": [
-        {
-          "id": "cc222b16f027ccb232c72501b0ad05e63bbf6616",
-          "title": "用于 AI 代理的临时 Cloudflare 账户",
-          "url": "https://blog.cloudflare.com/temporary-accounts",
-          "source": "blog.cloudflare.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-20T20:13:09.604000Z"
-        },
-        {
-          "id": "be6db6a7713e9be8b07b1e1d8c5805eae89c1331",
-          "title": "AI 代理的临时 Cloudflare 帐户 / Temporary Cloudflare accounts for AI agents",
-          "url": "https://news.ycombinator.com/item?id=48608394",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-20T14:50:25.866000Z"
-        },
-        {
-          "id": "a1a87e6ee558095aa56dacea3fc7db142f61a6e0",
-          "title": "用于 AI 代理的临时 Cloudflare 账户 / Temporary Cloudflare accounts for AI agents",
-          "url": "https://blog.cloudflare.com/temporary-accounts",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-20T11:19:05Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.5402,
-      "importance": 0.5402,
-      "importance_score": 0.5402,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8302,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-20T11:19:05Z",
-      "latest_at": "2026-06-20T20:13:09.604000Z",
-      "primary_item": {
-        "id": "cc222b16f027ccb232c72501b0ad05e63bbf6616",
-        "title": "用于 AI 代理的临时 Cloudflare 账户",
-        "url": "https://blog.cloudflare.com/temporary-accounts",
-        "source": "blog.cloudflare.com",
-        "source_name": "Buzzing"
       }
     },
     {
@@ -681,15 +1216,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5374,
-      "importance": 0.5374,
-      "importance_score": 0.5374,
+      "score": 0.5314,
+      "importance": 0.5314,
+      "importance_score": 0.5314,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8144,
+        "recency": 0.7813,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -704,85 +1239,6 @@
         "url": "https://waxy.org/2026/06/the-wholesale-plagiarism-of-obscure-sorrows",
         "source": "waxy.org",
         "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_550ddb14dbb9",
-      "title": "AI 巨头的「Token 补贴大战」，快打完了吗？",
-      "url": "https://www.huxiu.com/article/4868933.html?f=rss",
-      "primary_url": "https://www.huxiu.com/article/4868933.html?f=rss",
-      "source": "Readhub · AI",
-      "source_name": "TopHub",
-      "sources": [
-        {
-          "id": "ddd5fff8563b04c4735d322daa7f51f74f1a5e08",
-          "title": "AI 巨头的「Token 补贴大战」，快打完了吗？",
-          "url": "https://www.huxiu.com/article/4868933.html?f=rss",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        },
-        {
-          "id": "8eb3a7e5ba53729999d5fb9db3da613d4744e3f4",
-          "title": "AI巨头的“Token补贴大战”，快打完了吗？",
-          "url": "https://www.huxiu.com/article/4868933.html?f=rss",
-          "source": "虎嗅 (Huxiu)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-21T04:06:00Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Readhub · AI",
-        "虎嗅 (Huxiu)"
-      ],
-      "items": [
-        {
-          "id": "ddd5fff8563b04c4735d322daa7f51f74f1a5e08",
-          "title": "AI 巨头的「Token 补贴大战」，快打完了吗？",
-          "url": "https://www.huxiu.com/article/4868933.html?f=rss",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        },
-        {
-          "id": "8eb3a7e5ba53729999d5fb9db3da613d4744e3f4",
-          "title": "AI巨头的“Token补贴大战”，快打完了吗？",
-          "url": "https://www.huxiu.com/article/4868933.html?f=rss",
-          "source": "虎嗅 (Huxiu)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-21T04:06:00Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5364,
-      "importance": 0.5364,
-      "importance_score": 0.5364,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9479,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-21T04:06:00Z",
-      "latest_at": "2026-06-21T05:23:48.244239Z",
-      "primary_item": {
-        "id": "ddd5fff8563b04c4735d322daa7f51f74f1a5e08",
-        "title": "AI 巨头的「Token 补贴大战」，快打完了吗？",
-        "url": "https://www.huxiu.com/article/4868933.html?f=rss",
-        "source": "Readhub · AI",
-        "source_name": "TopHub"
       }
     },
     {
@@ -839,15 +1295,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5348,
-      "importance": 0.5348,
-      "importance_score": 0.5348,
+      "score": 0.528,
+      "importance": 0.528,
+      "importance_score": 0.528,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9391,
+        "recency": 0.9009,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -918,15 +1374,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5329,
-      "importance": 0.5329,
-      "importance_score": 0.5329,
+      "score": 0.5261,
+      "importance": 0.5261,
+      "importance_score": 0.5261,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9283,
+        "recency": 0.8906,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -997,15 +1453,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5278,
-      "importance": 0.5278,
-      "importance_score": 0.5278,
+      "score": 0.5212,
+      "importance": 0.5212,
+      "importance_score": 0.5212,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9002,
+        "recency": 0.8636,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1020,6 +1476,85 @@
         "url": "https://macrocodex.app",
         "source": "macrocodex.app",
         "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_ed99da94672b",
+      "title": "mukul975 / 人类网络安全技能 / mukul975 /      Anthropic-Cybersecurity-Skills",
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "primary_url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "source": "github",
+      "source_name": "NewsNow",
+      "sources": [
+        {
+          "id": "081f0ca8929b601efa8ad986e1d47b7a5d0e399b",
+          "title": "mukul975 / 人类网络安全技能 / mukul975 /      Anthropic-Cybersecurity-Skills",
+          "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+          "source": "github",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-21T11:59:28.223000Z"
+        },
+        {
+          "id": "43fc0e4aff137f6391633214396a5290eb71eae6",
+          "title": "mukul975 / 人类网络安全技能 / mukul975 / Anthropic-Cybersecurity-Skills",
+          "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+          "source": "GitHub · Trending Today",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "GitHub · Trending Today",
+        "github"
+      ],
+      "items": [
+        {
+          "id": "081f0ca8929b601efa8ad986e1d47b7a5d0e399b",
+          "title": "mukul975 / 人类网络安全技能 / mukul975 /      Anthropic-Cybersecurity-Skills",
+          "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+          "source": "github",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-21T11:59:28.223000Z"
+        },
+        {
+          "id": "43fc0e4aff137f6391633214396a5290eb71eae6",
+          "title": "mukul975 / 人类网络安全技能 / mukul975 / Anthropic-Cybersecurity-Skills",
+          "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+          "source": "GitHub · Trending Today",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5458,
+      "importance": 0.5458,
+      "importance_score": 0.5458,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 1.0,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-21T11:58:50.680643Z",
+      "latest_at": "2026-06-21T11:59:28.223000Z",
+      "primary_item": {
+        "id": "081f0ca8929b601efa8ad986e1d47b7a5d0e399b",
+        "title": "mukul975 / 人类网络安全技能 / mukul975 /      Anthropic-Cybersecurity-Skills",
+        "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+        "source": "github",
+        "source_name": "NewsNow"
       }
     },
     {
@@ -1075,15 +1610,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5211,
-      "importance": 0.5211,
-      "importance_score": 0.5211,
+      "score": 0.5148,
+      "importance": 0.5148,
+      "importance_score": 0.5148,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.863,
+        "recency": 0.8279,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1098,559 +1633,6 @@
         "url": "https://www.bbc.com/future/article/20260618-the-weird-and-wonderful-libraries-of-finland",
         "source": "Hacker News · 24h最热",
         "source_name": "Zeli"
-      }
-    },
-    {
-      "story_id": "story_05a28e1ed5f3",
-      "title": "公益公告：别说你用人工智能写作 / Public Service Announcement: Don't Say You Use AI for Writing",
-      "url": "https://news.ycombinator.com/item?id=48615776",
-      "primary_url": "https://news.ycombinator.com/item?id=48615776",
-      "source": "hackernews",
-      "source_name": "NewsNow",
-      "sources": [
-        {
-          "id": "ed5602ed5c0a31ae29c54a18a6a9491f0a1b8a02",
-          "title": "公益公告：别说你用人工智能写作 / Public Service Announcement: Don't Say You Use AI for Writing",
-          "url": "https://news.ycombinator.com/item?id=48615776",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-21T08:54:29.645000Z"
-        },
-        {
-          "id": "e694a83c10bfd90ca3eb66f4f682607b1631f5a6",
-          "title": "公益公告：别说你用人工智能写作 / Public Service Announcement: Don't Say You Use AI for Writing",
-          "url": "https://www.satisfice.com/blog/archives/488148",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-21T04:50:46Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News",
-        "hackernews"
-      ],
-      "items": [
-        {
-          "id": "ed5602ed5c0a31ae29c54a18a6a9491f0a1b8a02",
-          "title": "公益公告：别说你用人工智能写作 / Public Service Announcement: Don't Say You Use AI for Writing",
-          "url": "https://news.ycombinator.com/item?id=48615776",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-21T08:54:29.645000Z"
-        },
-        {
-          "id": "e694a83c10bfd90ca3eb66f4f682607b1631f5a6",
-          "title": "公益公告：别说你用人工智能写作 / Public Service Announcement: Don't Say You Use AI for Writing",
-          "url": "https://www.satisfice.com/blog/archives/488148",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-21T04:50:46Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5453,
-      "importance": 0.5453,
-      "importance_score": 0.5453,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9972,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-21T04:50:46Z",
-      "latest_at": "2026-06-21T08:54:29.645000Z",
-      "primary_item": {
-        "id": "ed5602ed5c0a31ae29c54a18a6a9491f0a1b8a02",
-        "title": "公益公告：别说你用人工智能写作 / Public Service Announcement: Don't Say You Use AI for Writing",
-        "url": "https://news.ycombinator.com/item?id=48615776",
-        "source": "hackernews",
-        "source_name": "NewsNow"
-      }
-    },
-    {
-      "story_id": "story_ccb7fe6d982d",
-      "title": "Anthropic 首席执行官：人工智能公司需要「数千亿美元」收入，否则将面临生存风险",
-      "url": "https://36kr.com/newsflashes/3862373538386952?f=rss",
-      "primary_url": "https://36kr.com/newsflashes/3862373538386952?f=rss",
-      "source": "Readhub · AI",
-      "source_name": "TopHub",
-      "sources": [
-        {
-          "id": "36bf3fc5e293c0efea1077d5a0ded09903e1c7e4",
-          "title": "Anthropic 首席执行官：人工智能公司需要「数千亿美元」收入，否则将面临生存风险",
-          "url": "https://36kr.com/newsflashes/3862373538386952?f=rss",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        },
-        {
-          "id": "3b49417f33c115d34961cea30338d996d3f0c21c",
-          "title": "Anthropic首席执行官：人工智能公司需要“数千亿美元”收入，否则将面临生存风险",
-          "url": "https://36kr.com/newsflashes/3862373538386952?f=rss",
-          "source": "36氪 (36Kr)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-21T03:40:32Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "36氪 (36Kr)",
-        "Readhub · AI"
-      ],
-      "items": [
-        {
-          "id": "36bf3fc5e293c0efea1077d5a0ded09903e1c7e4",
-          "title": "Anthropic 首席执行官：人工智能公司需要「数千亿美元」收入，否则将面临生存风险",
-          "url": "https://36kr.com/newsflashes/3862373538386952?f=rss",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        },
-        {
-          "id": "3b49417f33c115d34961cea30338d996d3f0c21c",
-          "title": "Anthropic首席执行官：人工智能公司需要“数千亿美元”收入，否则将面临生存风险",
-          "url": "https://36kr.com/newsflashes/3862373538386952?f=rss",
-          "source": "36氪 (36Kr)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-21T03:40:32Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5364,
-      "importance": 0.5364,
-      "importance_score": 0.5364,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9479,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-21T03:40:32Z",
-      "latest_at": "2026-06-21T05:23:48.244239Z",
-      "primary_item": {
-        "id": "36bf3fc5e293c0efea1077d5a0ded09903e1c7e4",
-        "title": "Anthropic 首席执行官：人工智能公司需要「数千亿美元」收入，否则将面临生存风险",
-        "url": "https://36kr.com/newsflashes/3862373538386952?f=rss",
-        "source": "Readhub · AI",
-        "source_name": "TopHub"
-      }
-    },
-    {
-      "story_id": "story_95fc177c1caa",
-      "title": "Replika创始人预测AI将引发“疯狂抗议”：“人们真的很难找到工作”",
-      "url": "https://www.businessinsider.com/replika-founder-warns-ai-protests-job-displacement-2026-6",
-      "primary_url": "https://www.businessinsider.com/replika-founder-warns-ai-protests-job-displacement-2026-6",
-      "source": "www.businessinsider.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "f8170dca53e4c356de3bf5d0f4ba4186bd17d05f",
-          "title": "Replika创始人预测AI将引发“疯狂抗议”：“人们真的很难找到工作”",
-          "url": "https://www.businessinsider.com/replika-founder-warns-ai-protests-job-displacement-2026-6",
-          "source": "www.businessinsider.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-20T10:21:09.347000Z"
-        },
-        {
-          "id": "c2456f82b3b0622722ad2cf29256a243b080be4d",
-          "title": "Replika创始人预测AI将引发“疯狂抗议”：“人们真的很难找到工作” / Replika founder predicts 'crazy protests' over AI: 'People are really struggling to find jobs'",
-          "url": "https://www.businessinsider.com/replika-founder-warns-ai-protests-job-displacement-2026-6",
-          "source": "Business Insider",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-20T10:05:01Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Business Insider",
-        "www.businessinsider.com"
-      ],
-      "items": [
-        {
-          "id": "f8170dca53e4c356de3bf5d0f4ba4186bd17d05f",
-          "title": "Replika创始人预测AI将引发“疯狂抗议”：“人们真的很难找到工作”",
-          "url": "https://www.businessinsider.com/replika-founder-warns-ai-protests-job-displacement-2026-6",
-          "source": "www.businessinsider.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-20T10:21:09.347000Z"
-        },
-        {
-          "id": "c2456f82b3b0622722ad2cf29256a243b080be4d",
-          "title": "Replika创始人预测AI将引发“疯狂抗议”：“人们真的很难找到工作” / Replika founder predicts 'crazy protests' over AI: 'People are really struggling to find jobs'",
-          "url": "https://www.businessinsider.com/replika-founder-warns-ai-protests-job-displacement-2026-6",
-          "source": "Business Insider",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-20T10:05:01Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.4954,
-      "importance": 0.4954,
-      "importance_score": 0.4954,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.72,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-20T10:05:01Z",
-      "latest_at": "2026-06-20T10:21:09.347000Z",
-      "primary_item": {
-        "id": "f8170dca53e4c356de3bf5d0f4ba4186bd17d05f",
-        "title": "Replika创始人预测AI将引发“疯狂抗议”：“人们真的很难找到工作”",
-        "url": "https://www.businessinsider.com/replika-founder-warns-ai-protests-job-displacement-2026-6",
-        "source": "www.businessinsider.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_adb703e42fd4",
-      "title": "构建可靠的代理人工智能系统 / Building reliable agentic AI systems",
-      "url": "https://news.ycombinator.com/item?id=48615680",
-      "primary_url": "https://news.ycombinator.com/item?id=48615680",
-      "source": "hackernews",
-      "source_name": "NewsNow",
-      "sources": [
-        {
-          "id": "4a2b347226b60ae7491e3155dd530269f351b968",
-          "title": "构建可靠的代理人工智能系统 / Building reliable agentic AI systems",
-          "url": "https://news.ycombinator.com/item?id=48615680",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-21T08:54:29.645000Z"
-        },
-        {
-          "id": "5b65f1c550cd0d81fc82e777faf01951bb72ab16",
-          "title": "构建可靠的代理人工智能系统 / Building reliable agentic AI systems",
-          "url": "https://martinfowler.com/articles/reliable-llm-bayer.html",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-21T04:28:39Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News (黑客新闻)",
-        "hackernews"
-      ],
-      "items": [
-        {
-          "id": "4a2b347226b60ae7491e3155dd530269f351b968",
-          "title": "构建可靠的代理人工智能系统 / Building reliable agentic AI systems",
-          "url": "https://news.ycombinator.com/item?id=48615680",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-21T08:54:29.645000Z"
-        },
-        {
-          "id": "5b65f1c550cd0d81fc82e777faf01951bb72ab16",
-          "title": "构建可靠的代理人工智能系统 / Building reliable agentic AI systems",
-          "url": "https://martinfowler.com/articles/reliable-llm-bayer.html",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-21T04:28:39Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5453,
-      "importance": 0.5453,
-      "importance_score": 0.5453,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9972,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-21T04:28:39Z",
-      "latest_at": "2026-06-21T08:54:29.645000Z",
-      "primary_item": {
-        "id": "4a2b347226b60ae7491e3155dd530269f351b968",
-        "title": "构建可靠的代理人工智能系统 / Building reliable agentic AI systems",
-        "url": "https://news.ycombinator.com/item?id=48615680",
-        "source": "hackernews",
-        "source_name": "NewsNow"
-      }
-    },
-    {
-      "story_id": "story_c706e0bd4a3a",
-      "title": "Fable5 与 Manus，AI 的成人礼：管控你释放出去的能量",
-      "url": "https://www.huxiu.com/article/4868900.html?f=rss",
-      "primary_url": "https://www.huxiu.com/article/4868900.html?f=rss",
-      "source": "Readhub · AI",
-      "source_name": "TopHub",
-      "sources": [
-        {
-          "id": "ed11d061e462961c68e2d90e255a9dfc6c15eda8",
-          "title": "Fable5 与 Manus，AI 的成人礼：管控你释放出去的能量",
-          "url": "https://www.huxiu.com/article/4868900.html?f=rss",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        },
-        {
-          "id": "6669595cfac86f34f109e5e73695fab44f675a56",
-          "title": "Fable5与Manus，AI的成人礼：管控你释放出去的能量",
-          "url": "https://www.huxiu.com/article/4868900.html?f=rss",
-          "source": "虎嗅 (Huxiu)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-20T15:00:26Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Readhub · AI",
-        "虎嗅 (Huxiu)"
-      ],
-      "items": [
-        {
-          "id": "ed11d061e462961c68e2d90e255a9dfc6c15eda8",
-          "title": "Fable5 与 Manus，AI 的成人礼：管控你释放出去的能量",
-          "url": "https://www.huxiu.com/article/4868900.html?f=rss",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        },
-        {
-          "id": "6669595cfac86f34f109e5e73695fab44f675a56",
-          "title": "Fable5与Manus，AI的成人礼：管控你释放出去的能量",
-          "url": "https://www.huxiu.com/article/4868900.html?f=rss",
-          "source": "虎嗅 (Huxiu)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-20T15:00:26Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5086,
-      "importance": 0.5086,
-      "importance_score": 0.5086,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.7934,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-20T15:00:26Z",
-      "latest_at": "2026-06-20T17:04:29.626458Z",
-      "primary_item": {
-        "id": "ed11d061e462961c68e2d90e255a9dfc6c15eda8",
-        "title": "Fable5 与 Manus，AI 的成人礼：管控你释放出去的能量",
-        "url": "https://www.huxiu.com/article/4868900.html?f=rss",
-        "source": "Readhub · AI",
-        "source_name": "TopHub"
-      }
-    },
-    {
-      "story_id": "story_c78582c763e0",
-      "title": "英国内政部斥资 7500 万英镑推出“PoliceAI”以利用人工智能 / UK Home Office launches £75M 'PoliceAI' to capitalise on artificial intelligence",
-      "url": "https://news.ycombinator.com/item?id=48612806",
-      "primary_url": "https://news.ycombinator.com/item?id=48612806",
-      "source": "hackernews",
-      "source_name": "NewsNow",
-      "sources": [
-        {
-          "id": "1073f0e41b8a651830c024bc63f03ae0a9303e38",
-          "title": "英国内政部斥资 7500 万英镑推出“PoliceAI”以利用人工智能 / UK Home Office launches £75M 'PoliceAI' to capitalise on artificial intelligence",
-          "url": "https://news.ycombinator.com/item?id=48612806",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-20T21:21:23.717000Z"
-        },
-        {
-          "id": "a8ff6b5db327d45595775f8b7394e62bc53f3db0",
-          "title": "英国内政部斥资 7500 万英镑推出“PoliceAI”以利用人工智能 / UK Home Office launches £75M 'PoliceAI' to capitalise on artificial intelligence",
-          "url": "https://www.publictechnology.net/2026/06/15/public-order-justice-and-rights/home-office-launches-75m-policeai-to-capitalise-on-artificial-intelligence",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-20T20:41:06Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News · 24h最热",
-        "hackernews"
-      ],
-      "items": [
-        {
-          "id": "1073f0e41b8a651830c024bc63f03ae0a9303e38",
-          "title": "英国内政部斥资 7500 万英镑推出“PoliceAI”以利用人工智能 / UK Home Office launches £75M 'PoliceAI' to capitalise on artificial intelligence",
-          "url": "https://news.ycombinator.com/item?id=48612806",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-20T21:21:23.717000Z"
-        },
-        {
-          "id": "a8ff6b5db327d45595775f8b7394e62bc53f3db0",
-          "title": "英国内政部斥资 7500 万英镑推出“PoliceAI”以利用人工智能 / UK Home Office launches £75M 'PoliceAI' to capitalise on artificial intelligence",
-          "url": "https://www.publictechnology.net/2026/06/15/public-order-justice-and-rights/home-office-launches-75m-policeai-to-capitalise-on-artificial-intelligence",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-20T20:41:06Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5177,
-      "importance": 0.5177,
-      "importance_score": 0.5177,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.844,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-20T20:41:06Z",
-      "latest_at": "2026-06-20T21:21:23.717000Z",
-      "primary_item": {
-        "id": "1073f0e41b8a651830c024bc63f03ae0a9303e38",
-        "title": "英国内政部斥资 7500 万英镑推出“PoliceAI”以利用人工智能 / UK Home Office launches £75M 'PoliceAI' to capitalise on artificial intelligence",
-        "url": "https://news.ycombinator.com/item?id=48612806",
-        "source": "hackernews",
-        "source_name": "NewsNow"
-      }
-    },
-    {
-      "story_id": "story_c82c8f2b495b",
-      "title": "千百万「爱压抑」的网友，用 AI 把菲比和 Doro 改造成了自己的电子女儿",
-      "url": "https://www.huxiu.com/article/4868898.html?f=rss",
-      "primary_url": "https://www.huxiu.com/article/4868898.html?f=rss",
-      "source": "Readhub · AI",
-      "source_name": "TopHub",
-      "sources": [
-        {
-          "id": "c2abc3d478f5486853f1dfd440ba748b88df0823",
-          "title": "千百万「爱压抑」的网友，用 AI 把菲比和 Doro 改造成了自己的电子女儿",
-          "url": "https://www.huxiu.com/article/4868898.html?f=rss",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        },
-        {
-          "id": "34f9653c144c5b4e5529e3d82bc4892f948c83f5",
-          "title": "千百万“爱压抑”的网友，用AI把菲比和Doro改造成了自己的电子女儿",
-          "url": "https://www.huxiu.com/article/4868898.html?f=rss",
-          "source": "虎嗅 (Huxiu)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-20T14:41:51Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Readhub · AI",
-        "虎嗅 (Huxiu)"
-      ],
-      "items": [
-        {
-          "id": "c2abc3d478f5486853f1dfd440ba748b88df0823",
-          "title": "千百万「爱压抑」的网友，用 AI 把菲比和 Doro 改造成了自己的电子女儿",
-          "url": "https://www.huxiu.com/article/4868898.html?f=rss",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        },
-        {
-          "id": "34f9653c144c5b4e5529e3d82bc4892f948c83f5",
-          "title": "千百万“爱压抑”的网友，用AI把菲比和Doro改造成了自己的电子女儿",
-          "url": "https://www.huxiu.com/article/4868898.html?f=rss",
-          "source": "虎嗅 (Huxiu)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-20T14:41:51Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5048,
-      "importance": 0.5048,
-      "importance_score": 0.5048,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.7723,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-20T14:41:51Z",
-      "latest_at": "2026-06-20T15:12:32.266061Z",
-      "primary_item": {
-        "id": "c2abc3d478f5486853f1dfd440ba748b88df0823",
-        "title": "千百万「爱压抑」的网友，用 AI 把菲比和 Doro 改造成了自己的电子女儿",
-        "url": "https://www.huxiu.com/article/4868898.html?f=rss",
-        "source": "Readhub · AI",
-        "source_name": "TopHub"
       }
     }
   ]
