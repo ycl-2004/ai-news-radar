@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-21T20:10:43.439933Z",
+  "generated_at": "2026-06-21T21:50:41.486116Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -38,15 +38,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7799,
-      "importance": 0.7799,
-      "importance_score": 0.7799,
+      "score": 0.7759,
+      "importance": 0.7759,
+      "importance_score": 0.7759,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.8,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9351,
+        "recency": 0.9129,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -99,15 +99,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7614,
-      "importance": 0.7614,
-      "importance_score": 0.7614,
+      "score": 0.7577,
+      "importance": 0.7577,
+      "importance_score": 0.7577,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.78,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8657,
+        "recency": 0.8451,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -287,15 +287,15 @@
       ],
       "item_count": 8,
       "duplicate_count": 8,
-      "score": 0.6637,
-      "importance": 0.6637,
-      "importance_score": 0.6637,
+      "score": 0.6596,
+      "importance": 0.6596,
+      "importance_score": 0.6596,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.54,
         "ai_relevance": 0.65,
-        "recency": 0.9696,
+        "recency": 0.9466,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -403,15 +403,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.5954,
-      "importance": 0.5954,
-      "importance_score": 0.5954,
+      "score": 0.5911,
+      "importance": 0.5911,
+      "importance_score": 0.5911,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9978,
+        "recency": 0.974,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -501,15 +501,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5458,
-      "importance": 0.5458,
-      "importance_score": 0.5458,
+      "score": 0.5421,
+      "importance": 0.5421,
+      "importance_score": 0.5421,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8611,
+        "recency": 0.8406,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -523,6 +523,164 @@
         "title": "构建可靠的代理式人工智能系统",
         "url": "https://martinfowler.com/articles/reliable-llm-bayer.html",
         "source": "martinfowler.com",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_0e3cdbc242c9",
+      "title": "什么是GLM-5.2？又一款开源的中国AI模型引起了硅谷的关注。",
+      "url": "https://www.businessinsider.com/what-is-glm-5-2-chinese-ai-coding-model-2026-6",
+      "primary_url": "https://www.businessinsider.com/what-is-glm-5-2-chinese-ai-coding-model-2026-6",
+      "source": "www.businessinsider.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "421d1b6c4db292173edd378b92dbd411898ac4af",
+          "title": "什么是GLM-5.2？又一款开源的中国AI模型引起了硅谷的关注。",
+          "url": "https://www.businessinsider.com/what-is-glm-5-2-chinese-ai-coding-model-2026-6",
+          "source": "www.businessinsider.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-21T20:12:24.001000Z"
+        },
+        {
+          "id": "cff35a8f7510d0c54034354e7717a14d0fab73c7",
+          "title": "什么是GLM-5.2？又一款开源的中国AI模型引起了硅谷的关注。 / What is GLM-5.2? Another open-source Chinese AI model has Silicon Valley's attention.",
+          "url": "https://www.businessinsider.com/what-is-glm-5-2-chinese-ai-coding-model-2026-6",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-21T19:52:34Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Business Insider",
+        "www.businessinsider.com"
+      ],
+      "items": [
+        {
+          "id": "421d1b6c4db292173edd378b92dbd411898ac4af",
+          "title": "什么是GLM-5.2？又一款开源的中国AI模型引起了硅谷的关注。",
+          "url": "https://www.businessinsider.com/what-is-glm-5-2-chinese-ai-coding-model-2026-6",
+          "source": "www.businessinsider.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-21T20:12:24.001000Z"
+        },
+        {
+          "id": "cff35a8f7510d0c54034354e7717a14d0fab73c7",
+          "title": "什么是GLM-5.2？又一款开源的中国AI模型引起了硅谷的关注。 / What is GLM-5.2? Another open-source Chinese AI model has Silicon Valley's attention.",
+          "url": "https://www.businessinsider.com/what-is-glm-5-2-chinese-ai-coding-model-2026-6",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-21T19:52:34Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5416,
+      "importance": 0.5416,
+      "importance_score": 0.5416,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9766,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-21T19:52:34Z",
+      "latest_at": "2026-06-21T20:12:24.001000Z",
+      "primary_item": {
+        "id": "421d1b6c4db292173edd378b92dbd411898ac4af",
+        "title": "什么是GLM-5.2？又一款开源的中国AI模型引起了硅谷的关注。",
+        "url": "https://www.businessinsider.com/what-is-glm-5-2-chinese-ai-coding-model-2026-6",
+        "source": "www.businessinsider.com",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_15205fd2aacf",
+      "title": "关于当前艺术作品中出现的LLM中毒现象，有什么建议吗？",
+      "url": "https://lobste.rs/s/lbjdlo/what_s_advice_for_llm_poisoning_artwork",
+      "primary_url": "https://lobste.rs/s/lbjdlo/what_s_advice_for_llm_poisoning_artwork",
+      "source": "lobste.rs",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "5d5c463067c240ea404cd51383a3be940844dd6d",
+          "title": "关于当前艺术作品中出现的LLM中毒现象，有什么建议吗？",
+          "url": "https://lobste.rs/s/lbjdlo/what_s_advice_for_llm_poisoning_artwork",
+          "source": "lobste.rs",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-21T20:12:23.872000Z"
+        },
+        {
+          "id": "97dd14f1bd766b571d716db1318f56619a206ae0",
+          "title": "关于当前艺术作品中出现的LLM中毒现象，有什么建议吗？ / What's the advice for LLM poisoning of artwork these days?",
+          "url": "https://lobste.rs/s/lbjdlo/what_s_advice_for_llm_poisoning_artwork",
+          "source": "Lobsters (技术社区)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-21T19:57:17Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Lobsters (技术社区)",
+        "lobste.rs"
+      ],
+      "items": [
+        {
+          "id": "5d5c463067c240ea404cd51383a3be940844dd6d",
+          "title": "关于当前艺术作品中出现的LLM中毒现象，有什么建议吗？",
+          "url": "https://lobste.rs/s/lbjdlo/what_s_advice_for_llm_poisoning_artwork",
+          "source": "lobste.rs",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-21T20:12:23.872000Z"
+        },
+        {
+          "id": "97dd14f1bd766b571d716db1318f56619a206ae0",
+          "title": "关于当前艺术作品中出现的LLM中毒现象，有什么建议吗？ / What's the advice for LLM poisoning of artwork these days?",
+          "url": "https://lobste.rs/s/lbjdlo/what_s_advice_for_llm_poisoning_artwork",
+          "source": "Lobsters (技术社区)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-21T19:57:17Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5416,
+      "importance": 0.5416,
+      "importance_score": 0.5416,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9766,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-21T19:57:17Z",
+      "latest_at": "2026-06-21T20:12:23.872000Z",
+      "primary_item": {
+        "id": "5d5c463067c240ea404cd51383a3be940844dd6d",
+        "title": "关于当前艺术作品中出现的LLM中毒现象，有什么建议吗？",
+        "url": "https://lobste.rs/s/lbjdlo/what_s_advice_for_llm_poisoning_artwork",
+        "source": "lobste.rs",
         "source_name": "Buzzing"
       }
     },
@@ -579,15 +737,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5373,
-      "importance": 0.5373,
-      "importance_score": 0.5373,
+      "score": 0.5332,
+      "importance": 0.5332,
+      "importance_score": 0.5332,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9526,
+        "recency": 0.9299,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -605,81 +763,81 @@
       }
     },
     {
-      "story_id": "story_e51ee7d97a6a",
-      "title": "我十几岁的儿子正在用人工智能完成数学作业。我现在正在协助他的学校起草首份人工智能政策。",
-      "url": "https://www.businessinsider.com/teenager-uses-ai-homework-mom-helped-school-write-ai-policy-2026-6",
-      "primary_url": "https://www.businessinsider.com/teenager-uses-ai-homework-mom-helped-school-write-ai-policy-2026-6",
-      "source": "www.businessinsider.com",
+      "story_id": "story_1af03584a41f",
+      "title": "Show HN: 适用于Abaqus的Jacobi–IDE子程序，包含解析测试和AI诊断功能",
+      "url": "https://jacobee.netlify.app",
+      "primary_url": "https://jacobee.netlify.app",
+      "source": "jacobee.netlify.app",
       "source_name": "Buzzing",
       "sources": [
         {
-          "id": "65a438dc6b40a7a45e1dce02ee8d6c75320cc0b8",
-          "title": "我十几岁的儿子正在用人工智能完成数学作业。我现在正在协助他的学校起草首份人工智能政策。",
-          "url": "https://www.businessinsider.com/teenager-uses-ai-homework-mom-helped-school-write-ai-policy-2026-6",
-          "source": "www.businessinsider.com",
+          "id": "880ba9bbf56a37b7abbab85936d71ed00fc9ffb0",
+          "title": "Show HN: 适用于Abaqus的Jacobi–IDE子程序，包含解析测试和AI诊断功能",
+          "url": "https://jacobee.netlify.app",
+          "source": "jacobee.netlify.app",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-06-21T13:33:07.152000Z"
+          "published_at": "2026-06-21T16:29:26.413000Z"
         },
         {
-          "id": "cacb464a8480ecc58f75868b9495d8ff7606f567",
-          "title": "我十几岁的儿子正在用人工智能完成数学作业。我现在正在协助他的学校起草首份人工智能政策。 / My teenage son is using AI to do his math homework. I'm now helping his school write its first AI policy.",
-          "url": "https://www.businessinsider.com/teenager-uses-ai-homework-mom-helped-school-write-ai-policy-2026-6",
-          "source": "Business Insider",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-21T13:27:01Z"
+          "id": "13df682925b541ed564fb7d00297f4d3f1b20882",
+          "title": "Show HN: 适用于Abaqus的Jacobi–IDE子程序，包含解析测试和AI诊断功能 / Show HN: Jacobi–IDE for Abaqus subroutine with analytical tests and AI diagnosis",
+          "url": "https://jacobee.netlify.app",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-21T16:20:46Z"
         }
       ],
       "source_count": 2,
       "source_names": [
-        "Business Insider",
-        "www.businessinsider.com"
+        "Hacker News · 24h最热",
+        "jacobee.netlify.app"
       ],
       "items": [
         {
-          "id": "65a438dc6b40a7a45e1dce02ee8d6c75320cc0b8",
-          "title": "我十几岁的儿子正在用人工智能完成数学作业。我现在正在协助他的学校起草首份人工智能政策。",
-          "url": "https://www.businessinsider.com/teenager-uses-ai-homework-mom-helped-school-write-ai-policy-2026-6",
-          "source": "www.businessinsider.com",
+          "id": "880ba9bbf56a37b7abbab85936d71ed00fc9ffb0",
+          "title": "Show HN: 适用于Abaqus的Jacobi–IDE子程序，包含解析测试和AI诊断功能",
+          "url": "https://jacobee.netlify.app",
+          "source": "jacobee.netlify.app",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-06-21T13:33:07.152000Z"
+          "published_at": "2026-06-21T16:29:26.413000Z"
         },
         {
-          "id": "cacb464a8480ecc58f75868b9495d8ff7606f567",
-          "title": "我十几岁的儿子正在用人工智能完成数学作业。我现在正在协助他的学校起草首份人工智能政策。 / My teenage son is using AI to do his math homework. I'm now helping his school write its first AI policy.",
-          "url": "https://www.businessinsider.com/teenager-uses-ai-homework-mom-helped-school-write-ai-policy-2026-6",
-          "source": "Business Insider",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-21T13:27:01Z"
+          "id": "13df682925b541ed564fb7d00297f4d3f1b20882",
+          "title": "Show HN: 适用于Abaqus的Jacobi–IDE子程序，包含解析测试和AI诊断功能 / Show HN: Jacobi–IDE for Abaqus subroutine with analytical tests and AI diagnosis",
+          "url": "https://jacobee.netlify.app",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-21T16:20:46Z"
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5294,
-      "importance": 0.5294,
-      "importance_score": 0.5294,
+      "score": 0.5324,
+      "importance": 0.5324,
+      "importance_score": 0.5324,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9087,
+        "recency": 0.9256,
         "story_heat": 0.25
       },
       "category": "watch",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-21T13:27:01Z",
-      "latest_at": "2026-06-21T13:33:07.152000Z",
+      "earliest_at": "2026-06-21T16:20:46Z",
+      "latest_at": "2026-06-21T16:29:26.413000Z",
       "primary_item": {
-        "id": "65a438dc6b40a7a45e1dce02ee8d6c75320cc0b8",
-        "title": "我十几岁的儿子正在用人工智能完成数学作业。我现在正在协助他的学校起草首份人工智能政策。",
-        "url": "https://www.businessinsider.com/teenager-uses-ai-homework-mom-helped-school-write-ai-policy-2026-6",
-        "source": "www.businessinsider.com",
+        "id": "880ba9bbf56a37b7abbab85936d71ed00fc9ffb0",
+        "title": "Show HN: 适用于Abaqus的Jacobi–IDE子程序，包含解析测试和AI诊断功能",
+        "url": "https://jacobee.netlify.app",
+        "source": "jacobee.netlify.app",
         "source_name": "Buzzing"
       }
     },
@@ -737,15 +895,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5275,
-      "importance": 0.5275,
-      "importance_score": 0.5275,
+      "score": 0.5236,
+      "importance": 0.5236,
+      "importance_score": 0.5236,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8982,
+        "recency": 0.8768,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -816,15 +974,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5257,
-      "importance": 0.5257,
-      "importance_score": 0.5257,
+      "score": 0.5219,
+      "importance": 0.5219,
+      "importance_score": 0.5219,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8885,
+        "recency": 0.8674,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -895,15 +1053,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5257,
-      "importance": 0.5257,
-      "importance_score": 0.5257,
+      "score": 0.5219,
+      "importance": 0.5219,
+      "importance_score": 0.5219,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8884,
+        "recency": 0.8672,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -974,15 +1132,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5257,
-      "importance": 0.5257,
-      "importance_score": 0.5257,
+      "score": 0.5219,
+      "importance": 0.5219,
+      "importance_score": 0.5219,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8884,
+        "recency": 0.8672,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1053,15 +1211,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5232,
-      "importance": 0.5232,
-      "importance_score": 0.5232,
+      "score": 0.5195,
+      "importance": 0.5195,
+      "importance_score": 0.5195,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8744,
+        "recency": 0.8536,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1132,15 +1290,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5196,
-      "importance": 0.5196,
-      "importance_score": 0.5196,
+      "score": 0.5159,
+      "importance": 0.5159,
+      "importance_score": 0.5159,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8545,
+        "recency": 0.8341,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1155,104 +1313,6 @@
         "url": "https://lcamtuf.substack.com/p/the-100000-whys-of-ai",
         "source": "lcamtuf.substack.com",
         "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_05a28e1ed5f3",
-      "title": "公益公告：别说你用人工智能写作 / Public Service Announcement: Don't Say You Use AI for Writing",
-      "url": "https://news.ycombinator.com/item?id=48615776",
-      "primary_url": "https://news.ycombinator.com/item?id=48615776",
-      "source": "hackernews",
-      "source_name": "NewsNow",
-      "sources": [
-        {
-          "id": "ed5602ed5c0a31ae29c54a18a6a9491f0a1b8a02",
-          "title": "公益公告：别说你用人工智能写作 / Public Service Announcement: Don't Say You Use AI for Writing",
-          "url": "https://news.ycombinator.com/item?id=48615776",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-21T08:54:29.645000Z"
-        },
-        {
-          "id": "16c8a4c19330de556a68feb0246ca7a63bd75032",
-          "title": "不要使用人工智能来编写你作为自己的作品呈现的东西 / Don’t use AI to write things that you present as your own work",
-          "url": "https://www.satisfice.com/blog/archives/488148",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-21T04:50:46Z"
-        },
-        {
-          "id": "e694a83c10bfd90ca3eb66f4f682607b1631f5a6",
-          "title": "公益公告：别说你用人工智能写作 / Public Service Announcement: Don't Say You Use AI for Writing",
-          "url": "https://www.satisfice.com/blog/archives/488148",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-21T04:50:46Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Hacker News",
-        "Hacker News · 24h最热",
-        "hackernews"
-      ],
-      "items": [
-        {
-          "id": "ed5602ed5c0a31ae29c54a18a6a9491f0a1b8a02",
-          "title": "公益公告：别说你用人工智能写作 / Public Service Announcement: Don't Say You Use AI for Writing",
-          "url": "https://news.ycombinator.com/item?id=48615776",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-21T08:54:29.645000Z"
-        },
-        {
-          "id": "16c8a4c19330de556a68feb0246ca7a63bd75032",
-          "title": "不要使用人工智能来编写你作为自己的作品呈现的东西 / Don’t use AI to write things that you present as your own work",
-          "url": "https://www.satisfice.com/blog/archives/488148",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-21T04:50:46Z"
-        },
-        {
-          "id": "e694a83c10bfd90ca3eb66f4f682607b1631f5a6",
-          "title": "公益公告：别说你用人工智能写作 / Public Service Announcement: Don't Say You Use AI for Writing",
-          "url": "https://www.satisfice.com/blog/archives/488148",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-21T04:50:46Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.5438,
-      "importance": 0.5438,
-      "importance_score": 0.5438,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8498,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-21T04:50:46Z",
-      "latest_at": "2026-06-21T08:54:29.645000Z",
-      "primary_item": {
-        "id": "ed5602ed5c0a31ae29c54a18a6a9491f0a1b8a02",
-        "title": "公益公告：别说你用人工智能写作 / Public Service Announcement: Don't Say You Use AI for Writing",
-        "url": "https://news.ycombinator.com/item?id=48615776",
-        "source": "hackernews",
-        "source_name": "NewsNow"
       }
     },
     {
@@ -1309,15 +1369,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5099,
-      "importance": 0.5099,
-      "importance_score": 0.5099,
+      "score": 0.5064,
+      "importance": 0.5064,
+      "importance_score": 0.5064,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8003,
+        "recency": 0.7813,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1388,15 +1448,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5082,
-      "importance": 0.5082,
-      "importance_score": 0.5082,
+      "score": 0.5048,
+      "importance": 0.5048,
+      "importance_score": 0.5048,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7911,
+        "recency": 0.7723,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1411,6 +1471,104 @@
         "url": "https://www.bbc.com/news/articles/cpwerjy20kyo?at_medium=RSS&at_campaign=rss",
         "source": "www.bbc.com",
         "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_bea99f24c301",
+      "title": "当我拒绝人工智能代码时，即使它有效 / When I reject AI code even if it works",
+      "url": "https://news.ycombinator.com/item?id=48614631",
+      "primary_url": "https://news.ycombinator.com/item?id=48614631",
+      "source": "hackernews",
+      "source_name": "NewsNow",
+      "sources": [
+        {
+          "id": "4e8424118c861548c8df41d76a5945f555a4d0b4",
+          "title": "当我拒绝人工智能代码时，即使它有效 / When I reject AI code even if it works",
+          "url": "https://news.ycombinator.com/item?id=48614631",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-21T05:24:26.650000Z"
+        },
+        {
+          "id": "fb88692a770fabce368eb14025c417c790753116",
+          "title": "即使AI生成的代码能正常运行，我也会拒绝它",
+          "url": "https://vinibrasil.com/when-i-reject-ai-code-even-if-it-works",
+          "source": "vinibrasil.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-21T05:01:07.092000Z"
+        },
+        {
+          "id": "c99af7d1a4986314e5bedce25a97706569fafa35",
+          "title": "即使AI生成的代码能正常运行，我也会拒绝它 / When I reject AI code even if it works",
+          "url": "https://vinibrasil.com/when-i-reject-ai-code-even-if-it-works",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-21T00:58:13Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "Hacker News (黑客新闻)",
+        "hackernews",
+        "vinibrasil.com"
+      ],
+      "items": [
+        {
+          "id": "4e8424118c861548c8df41d76a5945f555a4d0b4",
+          "title": "当我拒绝人工智能代码时，即使它有效 / When I reject AI code even if it works",
+          "url": "https://news.ycombinator.com/item?id=48614631",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-21T05:24:26.650000Z"
+        },
+        {
+          "id": "fb88692a770fabce368eb14025c417c790753116",
+          "title": "即使AI生成的代码能正常运行，我也会拒绝它",
+          "url": "https://vinibrasil.com/when-i-reject-ai-code-even-if-it-works",
+          "source": "vinibrasil.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-21T05:01:07.092000Z"
+        },
+        {
+          "id": "c99af7d1a4986314e5bedce25a97706569fafa35",
+          "title": "即使AI生成的代码能正常运行，我也会拒绝它 / When I reject AI code even if it works",
+          "url": "https://vinibrasil.com/when-i-reject-ai-code-even-if-it-works",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-21T00:58:13Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.5328,
+      "importance": 0.5328,
+      "importance_score": 0.5328,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.7887,
+        "story_heat": 0.5
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-21T00:58:13Z",
+      "latest_at": "2026-06-21T05:24:26.650000Z",
+      "primary_item": {
+        "id": "4e8424118c861548c8df41d76a5945f555a4d0b4",
+        "title": "当我拒绝人工智能代码时，即使它有效 / When I reject AI code even if it works",
+        "url": "https://news.ycombinator.com/item?id=48614631",
+        "source": "hackernews",
+        "source_name": "NewsNow"
       }
     },
     {
@@ -1466,15 +1624,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5356,
-      "importance": 0.5356,
-      "importance_score": 0.5356,
+      "score": 0.5316,
+      "importance": 0.5316,
+      "importance_score": 0.5316,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9433,
+        "recency": 0.9209,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1545,15 +1703,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5039,
-      "importance": 0.5039,
-      "importance_score": 0.5039,
+      "score": 0.5006,
+      "importance": 0.5006,
+      "importance_score": 0.5006,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7671,
+        "recency": 0.7489,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1567,164 +1725,6 @@
         "title": "Show HN: 增肌、减脂、重塑体形。计算维持热量",
         "url": "https://macrocodex.app",
         "source": "macrocodex.app",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_b6aa7c45e685",
-      "title": "Show HN: Pulse——Claude Code 的仪表盘，通过手机审批工具调用请求",
-      "url": "https://github.com/nikitadoudikov/claude-pulse",
-      "primary_url": "https://github.com/nikitadoudikov/claude-pulse",
-      "source": "github.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "48f54c2ac7355ec2cdc06f4ecab20a1840153799",
-          "title": "Show HN: Pulse——Claude Code 的仪表盘，通过手机审批工具调用请求",
-          "url": "https://github.com/nikitadoudikov/claude-pulse",
-          "source": "github.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-20T23:41:04.583000Z"
-        },
-        {
-          "id": "286a755b0ec2591047b880a5821a9e6ce4878b78",
-          "title": "Show HN: Pulse——Claude Code 的仪表盘，通过手机审批工具调用请求 / Show HN: Pulse – Dashboard for Claude Code, approve tool calls from your phone",
-          "url": "https://github.com/nikitadoudikov/claude-pulse",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-20T20:46:50Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News (黑客新闻)",
-        "github.com"
-      ],
-      "items": [
-        {
-          "id": "48f54c2ac7355ec2cdc06f4ecab20a1840153799",
-          "title": "Show HN: Pulse——Claude Code 的仪表盘，通过手机审批工具调用请求",
-          "url": "https://github.com/nikitadoudikov/claude-pulse",
-          "source": "github.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-20T23:41:04.583000Z"
-        },
-        {
-          "id": "286a755b0ec2591047b880a5821a9e6ce4878b78",
-          "title": "Show HN: Pulse——Claude Code 的仪表盘，通过手机审批工具调用请求 / Show HN: Pulse – Dashboard for Claude Code, approve tool calls from your phone",
-          "url": "https://github.com/nikitadoudikov/claude-pulse",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-20T20:46:50Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.4997,
-      "importance": 0.4997,
-      "importance_score": 0.4997,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.7438,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-20T20:46:50Z",
-      "latest_at": "2026-06-20T23:41:04.583000Z",
-      "primary_item": {
-        "id": "48f54c2ac7355ec2cdc06f4ecab20a1840153799",
-        "title": "Show HN: Pulse——Claude Code 的仪表盘，通过手机审批工具调用请求",
-        "url": "https://github.com/nikitadoudikov/claude-pulse",
-        "source": "github.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_85540405bd5a",
-      "title": "凯文·奥利里表示，他投资的公司正在摒弃咨询顾问，直接转向人工智能",
-      "url": "https://www.businessinsider.com/kevin-oleary-consulting-industry-ai-mckinsey-bcg-accenture-2026-6",
-      "primary_url": "https://www.businessinsider.com/kevin-oleary-consulting-industry-ai-mckinsey-bcg-accenture-2026-6",
-      "source": "www.businessinsider.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "32d10793476331074e8124bb566b644286221411",
-          "title": "凯文·奥利里表示，他投资的公司正在摒弃咨询顾问，直接转向人工智能",
-          "url": "https://www.businessinsider.com/kevin-oleary-consulting-industry-ai-mckinsey-bcg-accenture-2026-6",
-          "source": "www.businessinsider.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-21T13:17:02.536000Z"
-        },
-        {
-          "id": "06a606fa9ccc8331fe7543ca9a07461b097f8f9d",
-          "title": "凯文·奥利里表示，他投资的公司正在摒弃咨询顾问，直接转向人工智能 / 'Shark Tank' investor Kevin O'Leary says the companies he backs are skipping consultants and going straight to AI",
-          "url": "https://www.businessinsider.com/kevin-oleary-consulting-industry-ai-mckinsey-bcg-accenture-2026-6",
-          "source": "Business Insider",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-21T13:05:59Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Business Insider",
-        "www.businessinsider.com"
-      ],
-      "items": [
-        {
-          "id": "32d10793476331074e8124bb566b644286221411",
-          "title": "凯文·奥利里表示，他投资的公司正在摒弃咨询顾问，直接转向人工智能",
-          "url": "https://www.businessinsider.com/kevin-oleary-consulting-industry-ai-mckinsey-bcg-accenture-2026-6",
-          "source": "www.businessinsider.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-21T13:17:02.536000Z"
-        },
-        {
-          "id": "06a606fa9ccc8331fe7543ca9a07461b097f8f9d",
-          "title": "凯文·奥利里表示，他投资的公司正在摒弃咨询顾问，直接转向人工智能 / 'Shark Tank' investor Kevin O'Leary says the companies he backs are skipping consultants and going straight to AI",
-          "url": "https://www.businessinsider.com/kevin-oleary-consulting-industry-ai-mckinsey-bcg-accenture-2026-6",
-          "source": "Business Insider",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-21T13:05:59Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5287,
-      "importance": 0.5287,
-      "importance_score": 0.5287,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9052,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-21T13:05:59Z",
-      "latest_at": "2026-06-21T13:17:02.536000Z",
-      "primary_item": {
-        "id": "32d10793476331074e8124bb566b644286221411",
-        "title": "凯文·奥利里表示，他投资的公司正在摒弃咨询顾问，直接转向人工智能",
-        "url": "https://www.businessinsider.com/kevin-oleary-consulting-industry-ai-mckinsey-bcg-accenture-2026-6",
-        "source": "www.businessinsider.com",
         "source_name": "Buzzing"
       }
     }
