@@ -1,8 +1,69 @@
 {
-  "generated_at": "2026-06-21T14:15:56.537531Z",
+  "generated_at": "2026-06-21T16:14:10.181292Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
+    {
+      "story_id": "story_02279eb95a0f",
+      "title": "NSA局长：Mythos数小时内攻破其几乎所有机密系统",
+      "url": "https://x.com/AISafetyMemes/status/2068718552174252477",
+      "primary_url": "https://x.com/AISafetyMemes/status/2068718552174252477",
+      "source": "X：AI Safety Memes (@AISafetyMemes)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "62bb858acc539e17409bd6d9e791f834106318d7",
+          "title": "NSA局长：Mythos数小时内攻破其几乎所有机密系统",
+          "url": "https://x.com/AISafetyMemes/status/2068718552174252477",
+          "source": "X：AI Safety Memes (@AISafetyMemes)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-21T15:31:52Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "X：AI Safety Memes (@AISafetyMemes)"
+      ],
+      "items": [
+        {
+          "id": "62bb858acc539e17409bd6d9e791f834106318d7",
+          "title": "NSA局长：Mythos数小时内攻破其几乎所有机密系统",
+          "url": "https://x.com/AISafetyMemes/status/2068718552174252477",
+          "source": "X：AI Safety Memes (@AISafetyMemes)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-21T15:31:52Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7898,
+      "importance": 0.7898,
+      "importance_score": 0.7898,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.8,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9899,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-21T15:31:52Z",
+      "latest_at": "2026-06-21T15:31:52Z",
+      "primary_item": {
+        "id": "62bb858acc539e17409bd6d9e791f834106318d7",
+        "title": "NSA局长：Mythos数小时内攻破其几乎所有机密系统",
+        "url": "https://x.com/AISafetyMemes/status/2068718552174252477",
+        "source": "X：AI Safety Memes (@AISafetyMemes)",
+        "source_name": "AI HOT"
+      }
+    },
     {
       "story_id": "story_a0aef8c4c60a",
       "title": "美团tabbit国际版免费接入GPT-5.5/Claude Opus 4.8等旗舰模型",
@@ -38,15 +99,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7753,
-      "importance": 0.7753,
-      "importance_score": 0.7753,
+      "score": 0.7705,
+      "importance": 0.7705,
+      "importance_score": 0.7705,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.78,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9428,
+        "recency": 0.9164,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -65,74 +126,32 @@
       }
     },
     {
-      "story_id": "story_7c9eee920092",
-      "title": "腾讯元宝父亲节活动：上传照片生成与年轻爸爸的合影",
-      "url": "https://mp.weixin.qq.com/s/xrTg2Bdy3FF3gn3C_gVBJQ",
-      "primary_url": "https://mp.weixin.qq.com/s/xrTg2Bdy3FF3gn3C_gVBJQ",
-      "source": "公众号：腾讯元宝",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "37ae2396ad2e84d4e66c1d7c48b469fa348cd404",
-          "title": "腾讯元宝父亲节活动：上传照片生成与年轻爸爸的合影",
-          "url": "https://mp.weixin.qq.com/s/xrTg2Bdy3FF3gn3C_gVBJQ",
-          "source": "公众号：腾讯元宝",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-21T04:51:10Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "公众号：腾讯元宝"
-      ],
-      "items": [
-        {
-          "id": "37ae2396ad2e84d4e66c1d7c48b469fa348cd404",
-          "title": "腾讯元宝父亲节活动：上传照片生成与年轻爸爸的合影",
-          "url": "https://mp.weixin.qq.com/s/xrTg2Bdy3FF3gn3C_gVBJQ",
-          "source": "公众号：腾讯元宝",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-21T04:51:10Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7207,
-      "importance": 0.7207,
-      "importance_score": 0.7207,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.64,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8729,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-21T04:51:10Z",
-      "latest_at": "2026-06-21T04:51:10Z",
-      "primary_item": {
-        "id": "37ae2396ad2e84d4e66c1d7c48b469fa348cd404",
-        "title": "腾讯元宝父亲节活动：上传照片生成与年轻爸爸的合影",
-        "url": "https://mp.weixin.qq.com/s/xrTg2Bdy3FF3gn3C_gVBJQ",
-        "source": "公众号：腾讯元宝",
-        "source_name": "AI HOT"
-      }
-    },
-    {
       "story_id": "story_2df82173bb28",
-      "title": "今天学习任何东西，既容易，又让人迷糊。容易，是因为 AI 几秒钟就能解释几乎任何内容。迷糊，是因为大多数人只是随意提问获取碎片化解答，只会短暂看懂内容，无法形成长效记忆。下面这 6 条提示词，可以把 Claude 变成你的私人老师、考官、资源筛选器和学习伙伴，帮助你深度吃透知识点、巩固长期记忆！",
+      "title": "Fiona Fung 现在带着 Anthropic里Claude Code和Cowork背后的工程、产品团队，也就是Boris Cherny和Cat Wu所在的组织。她能同时看到工程师、PM、设计师、数据科学家和小企业用户怎么被AI改变。让我们一同看看最AI化的产品团队是如何工作的？",
       "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
       "primary_url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-      "source": "社区更新 · 2026-06-20",
+      "source": "社区更新 · 2026-06-21",
       "source_name": "WaytoAGI",
       "sources": [
         {
+          "id": "030271890e8053ab3d816e34373a1565ec1e5de5",
+          "title": "Fiona Fung 现在带着 Anthropic里Claude Code和Cowork背后的工程、产品团队，也就是Boris Cherny和Cat Wu所在的组织。她能同时看到工程师、PM、设计师、数据科学家和小企业用户怎么被AI改变。让我们一同看看最AI化的产品团队是如何工作的？",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-21",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-21T16:14:10.181292Z"
+        },
+        {
+          "id": "3c4671e5b6cc6254c55508a472e21e13b55fd7ed",
+          "title": "阿真分享了一套可定制专属卡通IP信息图的Codex专用Skill，可以解决自媒体配图形象不统一、辨识度弱的问题。只用粘贴文章或者飞书文档链接，即可一键批量产出适配多平台、可调长宽比例的系列信息图。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-21",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-21T16:14:10.181292Z"
+        },
+        {
           "id": "fbda5748dd9ff0850854e8507604fbc521fe6858",
           "title": "今天学习任何东西，既容易，又让人迷糊。容易，是因为 AI 几秒钟就能解释几乎任何内容。迷糊，是因为大多数人只是随意提问获取碎片化解答，只会短暂看懂内容，无法形成长效记忆。下面这 6 条提示词，可以把 Claude 变成你的私人老师、考官、资源筛选器和学习伙伴，帮助你深度吃透知识点、巩固长期记忆！",
           "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
@@ -178,12 +197,31 @@
           "published_at": "2026-06-20T22:59:46.110385Z"
         }
       ],
-      "source_count": 5,
+      "source_count": 7,
       "source_names": [
-        "社区更新 · 2026-06-20"
+        "社区更新 · 2026-06-20",
+        "社区更新 · 2026-06-21"
       ],
       "items": [
         {
+          "id": "030271890e8053ab3d816e34373a1565ec1e5de5",
+          "title": "Fiona Fung 现在带着 Anthropic里Claude Code和Cowork背后的工程、产品团队，也就是Boris Cherny和Cat Wu所在的组织。她能同时看到工程师、PM、设计师、数据科学家和小企业用户怎么被AI改变。让我们一同看看最AI化的产品团队是如何工作的？",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-21",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-21T16:14:10.181292Z"
+        },
+        {
+          "id": "3c4671e5b6cc6254c55508a472e21e13b55fd7ed",
+          "title": "阿真分享了一套可定制专属卡通IP信息图的Codex专用Skill，可以解决自媒体配图形象不统一、辨识度弱的问题。只用粘贴文章或者飞书文档链接，即可一键批量产出适配多平台、可调长宽比例的系列信息图。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-21",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-21T16:14:10.181292Z"
+        },
+        {
           "id": "fbda5748dd9ff0850854e8507604fbc521fe6858",
           "title": "今天学习任何东西，既容易，又让人迷糊。容易，是因为 AI 几秒钟就能解释几乎任何内容。迷糊，是因为大多数人只是随意提问获取碎片化解答，只会短暂看懂内容，无法形成长效记忆。下面这 6 条提示词，可以把 Claude 变成你的私人老师、考官、资源筛选器和学习伙伴，帮助你深度吃透知识点、巩固长期记忆！",
           "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
@@ -229,17 +267,17 @@
           "published_at": "2026-06-20T22:59:46.110385Z"
         }
       ],
-      "item_count": 5,
-      "duplicate_count": 5,
-      "score": 0.6362,
-      "importance": 0.6362,
-      "importance_score": 0.6362,
+      "item_count": 7,
+      "duplicate_count": 7,
+      "score": 0.6692,
+      "importance": 0.6692,
+      "importance_score": 0.6692,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.54,
         "ai_relevance": 0.65,
-        "recency": 0.8165,
+        "recency": 1.0,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -247,13 +285,111 @@
         "multi_source"
       ],
       "earliest_at": "2026-06-20T22:59:46.110385Z",
-      "latest_at": "2026-06-21T00:13:29.715655Z",
+      "latest_at": "2026-06-21T16:14:10.181292Z",
       "primary_item": {
-        "id": "fbda5748dd9ff0850854e8507604fbc521fe6858",
-        "title": "今天学习任何东西，既容易，又让人迷糊。容易，是因为 AI 几秒钟就能解释几乎任何内容。迷糊，是因为大多数人只是随意提问获取碎片化解答，只会短暂看懂内容，无法形成长效记忆。下面这 6 条提示词，可以把 Claude 变成你的私人老师、考官、资源筛选器和学习伙伴，帮助你深度吃透知识点、巩固长期记忆！",
+        "id": "030271890e8053ab3d816e34373a1565ec1e5de5",
+        "title": "Fiona Fung 现在带着 Anthropic里Claude Code和Cowork背后的工程、产品团队，也就是Boris Cherny和Cat Wu所在的组织。她能同时看到工程师、PM、设计师、数据科学家和小企业用户怎么被AI改变。让我们一同看看最AI化的产品团队是如何工作的？",
         "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-        "source": "社区更新 · 2026-06-20",
+        "source": "社区更新 · 2026-06-21",
         "source_name": "WaytoAGI"
+      }
+    },
+    {
+      "story_id": "story_6d0cd62ad09e",
+      "title": "Anthropic将于7月8日起对部分功能实施身份验证要求",
+      "url": "https://old.reddit.com/r/ClaudeAI/comments/1ubm53n/official_anthropic_to_require_identity",
+      "primary_url": "https://old.reddit.com/r/ClaudeAI/comments/1ubm53n/official_anthropic_to_require_identity",
+      "source": "old.reddit.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "37636cf871f3aa06b34466700bfa515d9b3b6f4c",
+          "title": "Anthropic将于7月8日起对部分功能实施身份验证要求",
+          "url": "https://old.reddit.com/r/ClaudeAI/comments/1ubm53n/official_anthropic_to_require_identity",
+          "source": "old.reddit.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-21T14:21:24.353000Z"
+        },
+        {
+          "id": "dede4f5255c767a65c1abfc1e7125daa5289ca44",
+          "title": "Anthropic 从 7 月 8 日起要求对某些功能进行身份验证 / Anthropic to Require ID Verification for Certain Capabilities Starting July 8",
+          "url": "https://news.ycombinator.com/item?id=48618455",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-21T13:55:18.107000Z"
+        },
+        {
+          "id": "98c4126f68fee956c8a8d24608e819209ed90f64",
+          "title": "Anthropic将于7月8日起对部分功能实施身份验证要求 / Anthropic to Require ID Verification for Certain Capabilities Starting July 8",
+          "url": "https://old.reddit.com/r/ClaudeAI/comments/1ubm53n/official_anthropic_to_require_identity",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-21T12:44:13Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "Hacker News · 24h最热",
+        "hackernews",
+        "old.reddit.com"
+      ],
+      "items": [
+        {
+          "id": "37636cf871f3aa06b34466700bfa515d9b3b6f4c",
+          "title": "Anthropic将于7月8日起对部分功能实施身份验证要求",
+          "url": "https://old.reddit.com/r/ClaudeAI/comments/1ubm53n/official_anthropic_to_require_identity",
+          "source": "old.reddit.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-21T14:21:24.353000Z"
+        },
+        {
+          "id": "dede4f5255c767a65c1abfc1e7125daa5289ca44",
+          "title": "Anthropic 从 7 月 8 日起要求对某些功能进行身份验证 / Anthropic to Require ID Verification for Certain Capabilities Starting July 8",
+          "url": "https://news.ycombinator.com/item?id=48618455",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-21T13:55:18.107000Z"
+        },
+        {
+          "id": "98c4126f68fee956c8a8d24608e819209ed90f64",
+          "title": "Anthropic将于7月8日起对部分功能实施身份验证要求 / Anthropic to Require ID Verification for Certain Capabilities Starting July 8",
+          "url": "https://old.reddit.com/r/ClaudeAI/comments/1ubm53n/official_anthropic_to_require_identity",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-21T12:44:13Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.566,
+      "importance": 0.566,
+      "importance_score": 0.566,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9732,
+        "story_heat": 0.5
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-21T12:44:13Z",
+      "latest_at": "2026-06-21T14:21:24.353000Z",
+      "primary_item": {
+        "id": "37636cf871f3aa06b34466700bfa515d9b3b6f4c",
+        "title": "Anthropic将于7月8日起对部分功能实施身份验证要求",
+        "url": "https://old.reddit.com/r/ClaudeAI/comments/1ubm53n/official_anthropic_to_require_identity",
+        "source": "old.reddit.com",
+        "source_name": "Buzzing"
       }
     },
     {
@@ -329,15 +465,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5596,
-      "importance": 0.5596,
-      "importance_score": 0.5596,
+      "score": 0.5549,
+      "importance": 0.5549,
+      "importance_score": 0.5549,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9378,
+        "recency": 0.9115,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -427,15 +563,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5492,
-      "importance": 0.5492,
-      "importance_score": 0.5492,
+      "score": 0.5447,
+      "importance": 0.5447,
+      "importance_score": 0.5447,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8799,
+        "recency": 0.8552,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -450,6 +586,85 @@
         "url": "https://news.ycombinator.com/item?id=48614631",
         "source": "hackernews",
         "source_name": "NewsNow"
+      }
+    },
+    {
+      "story_id": "story_e51ee7d97a6a",
+      "title": "我十几岁的儿子正在用人工智能完成数学作业。我现在正在协助他的学校起草首份人工智能政策。",
+      "url": "https://www.businessinsider.com/teenager-uses-ai-homework-mom-helped-school-write-ai-policy-2026-6",
+      "primary_url": "https://www.businessinsider.com/teenager-uses-ai-homework-mom-helped-school-write-ai-policy-2026-6",
+      "source": "www.businessinsider.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "65a438dc6b40a7a45e1dce02ee8d6c75320cc0b8",
+          "title": "我十几岁的儿子正在用人工智能完成数学作业。我现在正在协助他的学校起草首份人工智能政策。",
+          "url": "https://www.businessinsider.com/teenager-uses-ai-homework-mom-helped-school-write-ai-policy-2026-6",
+          "source": "www.businessinsider.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-21T13:33:07.152000Z"
+        },
+        {
+          "id": "cacb464a8480ecc58f75868b9495d8ff7606f567",
+          "title": "我十几岁的儿子正在用人工智能完成数学作业。我现在正在协助他的学校起草首份人工智能政策。 / My teenage son is using AI to do his math homework. I'm now helping his school write its first AI policy.",
+          "url": "https://www.businessinsider.com/teenager-uses-ai-homework-mom-helped-school-write-ai-policy-2026-6",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-21T13:27:01Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Business Insider",
+        "www.businessinsider.com"
+      ],
+      "items": [
+        {
+          "id": "65a438dc6b40a7a45e1dce02ee8d6c75320cc0b8",
+          "title": "我十几岁的儿子正在用人工智能完成数学作业。我现在正在协助他的学校起草首份人工智能政策。",
+          "url": "https://www.businessinsider.com/teenager-uses-ai-homework-mom-helped-school-write-ai-policy-2026-6",
+          "source": "www.businessinsider.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-21T13:33:07.152000Z"
+        },
+        {
+          "id": "cacb464a8480ecc58f75868b9495d8ff7606f567",
+          "title": "我十几岁的儿子正在用人工智能完成数学作业。我现在正在协助他的学校起草首份人工智能政策。 / My teenage son is using AI to do his math homework. I'm now helping his school write its first AI policy.",
+          "url": "https://www.businessinsider.com/teenager-uses-ai-homework-mom-helped-school-write-ai-policy-2026-6",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-21T13:27:01Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.539,
+      "importance": 0.539,
+      "importance_score": 0.539,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.962,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-21T13:27:01Z",
+      "latest_at": "2026-06-21T13:33:07.152000Z",
+      "primary_item": {
+        "id": "65a438dc6b40a7a45e1dce02ee8d6c75320cc0b8",
+        "title": "我十几岁的儿子正在用人工智能完成数学作业。我现在正在协助他的学校起草首份人工智能政策。",
+        "url": "https://www.businessinsider.com/teenager-uses-ai-homework-mom-helped-school-write-ai-policy-2026-6",
+        "source": "www.businessinsider.com",
+        "source_name": "Buzzing"
       }
     },
     {
@@ -506,15 +721,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5419,
-      "importance": 0.5419,
-      "importance_score": 0.5419,
+      "score": 0.5369,
+      "importance": 0.5369,
+      "importance_score": 0.5369,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9783,
+        "recency": 0.9508,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -585,15 +800,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.54,
-      "importance": 0.54,
-      "importance_score": 0.54,
+      "score": 0.5351,
+      "importance": 0.5351,
+      "importance_score": 0.5351,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9677,
+        "recency": 0.9405,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -664,15 +879,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.54,
-      "importance": 0.54,
-      "importance_score": 0.54,
+      "score": 0.5351,
+      "importance": 0.5351,
+      "importance_score": 0.5351,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9675,
+        "recency": 0.9404,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -743,15 +958,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.54,
-      "importance": 0.54,
-      "importance_score": 0.54,
+      "score": 0.5351,
+      "importance": 0.5351,
+      "importance_score": 0.5351,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9675,
+        "recency": 0.9404,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -766,85 +981,6 @@
         "url": "https://www.ithome.com/0/966/690.htm",
         "source": "Readhub · AI",
         "source_name": "TopHub"
-      }
-    },
-    {
-      "story_id": "story_24352d358b1f",
-      "title": "科技从业者们利用夜晚和周末的时间学习新的AI工具。他们表示，自己别无选择，必须这么做。",
-      "url": "https://www.businessinsider.com/tech-workers-learning-ai-tools-after-work-productivity-jobs-amazon-2026-6",
-      "primary_url": "https://www.businessinsider.com/tech-workers-learning-ai-tools-after-work-productivity-jobs-amazon-2026-6",
-      "source": "www.businessinsider.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "4557d39d0c9fd9d75ef7b8aa59fc9e1b93795bd1",
-          "title": "科技从业者们利用夜晚和周末的时间学习新的AI工具。他们表示，自己别无选择，必须这么做。",
-          "url": "https://www.businessinsider.com/tech-workers-learning-ai-tools-after-work-productivity-jobs-amazon-2026-6",
-          "source": "www.businessinsider.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-21T11:25:28.635000Z"
-        },
-        {
-          "id": "a26f40da00dcf66ac3817d9cd9173cf721fdf99f",
-          "title": "科技从业者们利用夜晚和周末的时间学习新的AI工具。他们表示，自己别无选择，必须这么做。 / Tech workers are spending nights and weekends learning new AI tools. They say they can't afford not to.",
-          "url": "https://www.businessinsider.com/tech-workers-learning-ai-tools-after-work-productivity-jobs-amazon-2026-6",
-          "source": "Business Insider",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-21T11:00:01Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Business Insider",
-        "www.businessinsider.com"
-      ],
-      "items": [
-        {
-          "id": "4557d39d0c9fd9d75ef7b8aa59fc9e1b93795bd1",
-          "title": "科技从业者们利用夜晚和周末的时间学习新的AI工具。他们表示，自己别无选择，必须这么做。",
-          "url": "https://www.businessinsider.com/tech-workers-learning-ai-tools-after-work-productivity-jobs-amazon-2026-6",
-          "source": "www.businessinsider.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-21T11:25:28.635000Z"
-        },
-        {
-          "id": "a26f40da00dcf66ac3817d9cd9173cf721fdf99f",
-          "title": "科技从业者们利用夜晚和周末的时间学习新的AI工具。他们表示，自己别无选择，必须这么做。 / Tech workers are spending nights and weekends learning new AI tools. They say they can't afford not to.",
-          "url": "https://www.businessinsider.com/tech-workers-learning-ai-tools-after-work-productivity-jobs-amazon-2026-6",
-          "source": "Business Insider",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-21T11:00:01Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5386,
-      "importance": 0.5386,
-      "importance_score": 0.5386,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9598,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-21T11:00:01Z",
-      "latest_at": "2026-06-21T11:25:28.635000Z",
-      "primary_item": {
-        "id": "4557d39d0c9fd9d75ef7b8aa59fc9e1b93795bd1",
-        "title": "科技从业者们利用夜晚和周末的时间学习新的AI工具。他们表示，自己别无选择，必须这么做。",
-        "url": "https://www.businessinsider.com/tech-workers-learning-ai-tools-after-work-productivity-jobs-amazon-2026-6",
-        "source": "www.businessinsider.com",
-        "source_name": "Buzzing"
       }
     },
     {
@@ -901,15 +1037,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5372,
-      "importance": 0.5372,
-      "importance_score": 0.5372,
+      "score": 0.5324,
+      "importance": 0.5324,
+      "importance_score": 0.5324,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9524,
+        "recency": 0.9257,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -980,15 +1116,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5333,
-      "importance": 0.5333,
-      "importance_score": 0.5333,
+      "score": 0.5286,
+      "importance": 0.5286,
+      "importance_score": 0.5286,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9306,
+        "recency": 0.9045,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1003,164 +1139,6 @@
         "url": "https://lcamtuf.substack.com/p/the-100000-whys-of-ai",
         "source": "lcamtuf.substack.com",
         "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_cc7209866328",
-      "title": "📢 官方更新：Oracle AI Trade 推出人工智能驱动的市场预测平台 🚀 📌 更多信息：https://t.co/rS8o2u066h https://t.co/8xFoM85yTe / 📢 OFFICIAL UPDATE: Oracle AI Trade reveals its AI driven market forecasting platform 🚀 📌 More info: https://t.co/rS8o2u066h https://t.co/8xFoM85yTe",
-      "url": "https://x.com/KlkTeka/status/2068350163844829657",
-      "primary_url": "https://x.com/KlkTeka/status/2068350163844829657",
-      "source": "@KlkTeka",
-      "source_name": "SocialData X",
-      "sources": [
-        {
-          "id": "2a3b130c9f4e3d17ddc25b75bcff258e7f97d7b0",
-          "title": "📢 官方更新：Oracle AI Trade 推出人工智能驱动的市场预测平台 🚀 📌 更多信息：https://t.co/rS8o2u066h https://t.co/8xFoM85yTe / 📢 OFFICIAL UPDATE: Oracle AI Trade reveals its AI driven market forecasting platform 🚀 📌 More info: https://t.co/rS8o2u066h https://t.co/8xFoM85yTe",
-          "url": "https://x.com/KlkTeka/status/2068350163844829657",
-          "source": "@KlkTeka",
-          "source_name": "SocialData X",
-          "site_id": "socialdata_x",
-          "published_at": "2026-06-20T15:08:01Z"
-        },
-        {
-          "id": "65a3c0328d7326c81fc84bfa79a6ea5d345b5799",
-          "title": "📢 新公告：Oracle AI Trade 推出人工智能驱动的市场预测平台 🚀 📌 更多信息：https://t.co/WpofDtncrS ‌ https://t.co/5QHLMoJiw4 / 📢 NEW ANNOUNCEMENT: Oracle AI Trade reveals its AI driven market forecasting platform 🚀 📌 More info: https://t.co/WpofDtncrS ‌ https://t.co/5QHLMoJiw4",
-          "url": "https://x.com/niksa_lol/status/2068350151765217633",
-          "source": "@niksa_lol",
-          "source_name": "SocialData X",
-          "site_id": "socialdata_x",
-          "published_at": "2026-06-20T15:07:58Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "@KlkTeka",
-        "@niksa_lol"
-      ],
-      "items": [
-        {
-          "id": "2a3b130c9f4e3d17ddc25b75bcff258e7f97d7b0",
-          "title": "📢 官方更新：Oracle AI Trade 推出人工智能驱动的市场预测平台 🚀 📌 更多信息：https://t.co/rS8o2u066h https://t.co/8xFoM85yTe / 📢 OFFICIAL UPDATE: Oracle AI Trade reveals its AI driven market forecasting platform 🚀 📌 More info: https://t.co/rS8o2u066h https://t.co/8xFoM85yTe",
-          "url": "https://x.com/KlkTeka/status/2068350163844829657",
-          "source": "@KlkTeka",
-          "source_name": "SocialData X",
-          "site_id": "socialdata_x",
-          "published_at": "2026-06-20T15:08:01Z"
-        },
-        {
-          "id": "65a3c0328d7326c81fc84bfa79a6ea5d345b5799",
-          "title": "📢 新公告：Oracle AI Trade 推出人工智能驱动的市场预测平台 🚀 📌 更多信息：https://t.co/WpofDtncrS ‌ https://t.co/5QHLMoJiw4 / 📢 NEW ANNOUNCEMENT: Oracle AI Trade reveals its AI driven market forecasting platform 🚀 📌 More info: https://t.co/WpofDtncrS ‌ https://t.co/5QHLMoJiw4",
-          "url": "https://x.com/niksa_lol/status/2068350151765217633",
-          "source": "@niksa_lol",
-          "source_name": "SocialData X",
-          "site_id": "socialdata_x",
-          "published_at": "2026-06-20T15:07:58Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5316,
-      "importance": 0.5316,
-      "importance_score": 0.5316,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.4824,
-        "source_tier": 0.45,
-        "ai_relevance": 0.67,
-        "recency": 0.716,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-20T15:07:58Z",
-      "latest_at": "2026-06-20T15:08:01Z",
-      "primary_item": {
-        "id": "2a3b130c9f4e3d17ddc25b75bcff258e7f97d7b0",
-        "title": "📢 官方更新：Oracle AI Trade 推出人工智能驱动的市场预测平台 🚀 📌 更多信息：https://t.co/rS8o2u066h https://t.co/8xFoM85yTe / 📢 OFFICIAL UPDATE: Oracle AI Trade reveals its AI driven market forecasting platform 🚀 📌 More info: https://t.co/rS8o2u066h https://t.co/8xFoM85yTe",
-        "url": "https://x.com/KlkTeka/status/2068350163844829657",
-        "source": "@KlkTeka",
-        "source_name": "SocialData X"
-      }
-    },
-    {
-      "story_id": "story_7bb2b02a67cd",
-      "title": "📢 最新消息：Oracle AI Trade 引入了智能市场交易的新时代 🚀 📌 更多信息：https://t.co/gI05aqlcmx https://t.co/m8oNQxaF1L / 📢 FRESH NEWS: Oracle AI Trade introduces a new era of intelligent market trading 🚀 📌 More info: https://t.co/gI05aqlcmx https://t.co/m8oNQxaF1L",
-      "url": "https://x.com/angga_aliaras/status/2068350175265845405",
-      "primary_url": "https://x.com/angga_aliaras/status/2068350175265845405",
-      "source": "@angga_aliaras",
-      "source_name": "SocialData X",
-      "sources": [
-        {
-          "id": "0ccc964129e2a384976f0c71575f382302128dba",
-          "title": "📢 最新消息：Oracle AI Trade 引入了智能市场交易的新时代 🚀 📌 更多信息：https://t.co/gI05aqlcmx https://t.co/m8oNQxaF1L / 📢 FRESH NEWS: Oracle AI Trade introduces a new era of intelligent market trading 🚀 📌 More info: https://t.co/gI05aqlcmx https://t.co/m8oNQxaF1L",
-          "url": "https://x.com/angga_aliaras/status/2068350175265845405",
-          "source": "@angga_aliaras",
-          "source_name": "SocialData X",
-          "site_id": "socialdata_x",
-          "published_at": "2026-06-20T15:08:04Z"
-        },
-        {
-          "id": "6c838ef8fcfa383c65617a36753a03149497c9b3",
-          "title": "📢 官方更新：Oracle AI Trade 引入智能市场交易的新时代 🚀 📌 更多信息：https://t.co/8ssKlQcCQ1 https://t.co/1r6XsGazJo / 📢 OFFICIAL UPDATE: Oracle AI Trade introduces a new era of intelligent market trading 🚀 📌 More info: https://t.co/8ssKlQcCQ1 https://t.co/1r6XsGazJo",
-          "url": "https://x.com/Buddhivanta5/status/2068350175324832187",
-          "source": "@Buddhivanta5",
-          "source_name": "SocialData X",
-          "site_id": "socialdata_x",
-          "published_at": "2026-06-20T15:08:04Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "@Buddhivanta5",
-        "@angga_aliaras"
-      ],
-      "items": [
-        {
-          "id": "0ccc964129e2a384976f0c71575f382302128dba",
-          "title": "📢 最新消息：Oracle AI Trade 引入了智能市场交易的新时代 🚀 📌 更多信息：https://t.co/gI05aqlcmx https://t.co/m8oNQxaF1L / 📢 FRESH NEWS: Oracle AI Trade introduces a new era of intelligent market trading 🚀 📌 More info: https://t.co/gI05aqlcmx https://t.co/m8oNQxaF1L",
-          "url": "https://x.com/angga_aliaras/status/2068350175265845405",
-          "source": "@angga_aliaras",
-          "source_name": "SocialData X",
-          "site_id": "socialdata_x",
-          "published_at": "2026-06-20T15:08:04Z"
-        },
-        {
-          "id": "6c838ef8fcfa383c65617a36753a03149497c9b3",
-          "title": "📢 官方更新：Oracle AI Trade 引入智能市场交易的新时代 🚀 📌 更多信息：https://t.co/8ssKlQcCQ1 https://t.co/1r6XsGazJo / 📢 OFFICIAL UPDATE: Oracle AI Trade introduces a new era of intelligent market trading 🚀 📌 More info: https://t.co/8ssKlQcCQ1 https://t.co/1r6XsGazJo",
-          "url": "https://x.com/Buddhivanta5/status/2068350175324832187",
-          "source": "@Buddhivanta5",
-          "source_name": "SocialData X",
-          "site_id": "socialdata_x",
-          "published_at": "2026-06-20T15:08:04Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5316,
-      "importance": 0.5316,
-      "importance_score": 0.5316,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.4824,
-        "source_tier": 0.45,
-        "ai_relevance": 0.67,
-        "recency": 0.716,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-20T15:08:04Z",
-      "latest_at": "2026-06-20T15:08:04Z",
-      "primary_item": {
-        "id": "0ccc964129e2a384976f0c71575f382302128dba",
-        "title": "📢 最新消息：Oracle AI Trade 引入了智能市场交易的新时代 🚀 📌 更多信息：https://t.co/gI05aqlcmx https://t.co/m8oNQxaF1L / 📢 FRESH NEWS: Oracle AI Trade introduces a new era of intelligent market trading 🚀 📌 More info: https://t.co/gI05aqlcmx https://t.co/m8oNQxaF1L",
-        "url": "https://x.com/angga_aliaras/status/2068350175265845405",
-        "source": "@angga_aliaras",
-        "source_name": "SocialData X"
       }
     },
     {
@@ -1235,15 +1213,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5269,
-      "importance": 0.5269,
-      "importance_score": 0.5269,
+      "score": 0.523,
+      "importance": 0.523,
+      "importance_score": 0.523,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7559,
+        "recency": 0.7347,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1314,15 +1292,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5227,
-      "importance": 0.5227,
-      "importance_score": 0.5227,
+      "score": 0.5183,
+      "importance": 0.5183,
+      "importance_score": 0.5183,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8716,
+        "recency": 0.8472,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1393,15 +1371,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5209,
-      "importance": 0.5209,
-      "importance_score": 0.5209,
+      "score": 0.5165,
+      "importance": 0.5165,
+      "importance_score": 0.5165,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8617,
+        "recency": 0.8375,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1472,15 +1450,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5162,
-      "importance": 0.5162,
-      "importance_score": 0.5162,
+      "score": 0.512,
+      "importance": 0.512,
+      "importance_score": 0.512,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8355,
+        "recency": 0.8121,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1498,82 +1476,160 @@
       }
     },
     {
-      "story_id": "story_6d0cd62ad09e",
-      "title": "Anthropic 从 7 月 8 日起要求对某些功能进行身份验证 / Anthropic to Require ID Verification for Certain Capabilities Starting July 8",
-      "url": "https://news.ycombinator.com/item?id=48618455",
-      "primary_url": "https://news.ycombinator.com/item?id=48618455",
-      "source": "hackernews",
-      "source_name": "NewsNow",
+      "story_id": "story_85540405bd5a",
+      "title": "凯文·奥利里表示，他投资的公司正在摒弃咨询顾问，直接转向人工智能",
+      "url": "https://www.businessinsider.com/kevin-oleary-consulting-industry-ai-mckinsey-bcg-accenture-2026-6",
+      "primary_url": "https://www.businessinsider.com/kevin-oleary-consulting-industry-ai-mckinsey-bcg-accenture-2026-6",
+      "source": "www.businessinsider.com",
+      "source_name": "Buzzing",
       "sources": [
         {
-          "id": "dede4f5255c767a65c1abfc1e7125daa5289ca44",
-          "title": "Anthropic 从 7 月 8 日起要求对某些功能进行身份验证 / Anthropic to Require ID Verification for Certain Capabilities Starting July 8",
-          "url": "https://news.ycombinator.com/item?id=48618455",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-21T13:55:18.107000Z"
+          "id": "32d10793476331074e8124bb566b644286221411",
+          "title": "凯文·奥利里表示，他投资的公司正在摒弃咨询顾问，直接转向人工智能",
+          "url": "https://www.businessinsider.com/kevin-oleary-consulting-industry-ai-mckinsey-bcg-accenture-2026-6",
+          "source": "www.businessinsider.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-21T13:17:02.536000Z"
         },
         {
-          "id": "98c4126f68fee956c8a8d24608e819209ed90f64",
-          "title": "Anthropic 从 7 月 8 日起要求对某些功能进行身份验证 / Anthropic to Require ID Verification for Certain Capabilities Starting July 8",
-          "url": "https://old.reddit.com/r/ClaudeAI/comments/1ubm53n/official_anthropic_to_require_identity",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-21T12:44:13Z"
+          "id": "06a606fa9ccc8331fe7543ca9a07461b097f8f9d",
+          "title": "凯文·奥利里表示，他投资的公司正在摒弃咨询顾问，直接转向人工智能 / 'Shark Tank' investor Kevin O'Leary says the companies he backs are skipping consultants and going straight to AI",
+          "url": "https://www.businessinsider.com/kevin-oleary-consulting-industry-ai-mckinsey-bcg-accenture-2026-6",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-21T13:05:59Z"
         }
       ],
       "source_count": 2,
       "source_names": [
-        "Hacker News · 24h最热",
-        "hackernews"
+        "Business Insider",
+        "www.businessinsider.com"
       ],
       "items": [
         {
-          "id": "dede4f5255c767a65c1abfc1e7125daa5289ca44",
-          "title": "Anthropic 从 7 月 8 日起要求对某些功能进行身份验证 / Anthropic to Require ID Verification for Certain Capabilities Starting July 8",
-          "url": "https://news.ycombinator.com/item?id=48618455",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-21T13:55:18.107000Z"
+          "id": "32d10793476331074e8124bb566b644286221411",
+          "title": "凯文·奥利里表示，他投资的公司正在摒弃咨询顾问，直接转向人工智能",
+          "url": "https://www.businessinsider.com/kevin-oleary-consulting-industry-ai-mckinsey-bcg-accenture-2026-6",
+          "source": "www.businessinsider.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-21T13:17:02.536000Z"
         },
         {
-          "id": "98c4126f68fee956c8a8d24608e819209ed90f64",
-          "title": "Anthropic 从 7 月 8 日起要求对某些功能进行身份验证 / Anthropic to Require ID Verification for Certain Capabilities Starting July 8",
-          "url": "https://old.reddit.com/r/ClaudeAI/comments/1ubm53n/official_anthropic_to_require_identity",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-21T12:44:13Z"
+          "id": "06a606fa9ccc8331fe7543ca9a07461b097f8f9d",
+          "title": "凯文·奥利里表示，他投资的公司正在摒弃咨询顾问，直接转向人工智能 / 'Shark Tank' investor Kevin O'Leary says the companies he backs are skipping consultants and going straight to AI",
+          "url": "https://www.businessinsider.com/kevin-oleary-consulting-industry-ai-mckinsey-bcg-accenture-2026-6",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-21T13:05:59Z"
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5449,
-      "importance": 0.5449,
-      "importance_score": 0.5449,
+      "score": 0.5383,
+      "importance": 0.5383,
+      "importance_score": 0.5383,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.995,
+        "recency": 0.9583,
         "story_heat": 0.25
       },
       "category": "watch",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-21T12:44:13Z",
-      "latest_at": "2026-06-21T13:55:18.107000Z",
+      "earliest_at": "2026-06-21T13:05:59Z",
+      "latest_at": "2026-06-21T13:17:02.536000Z",
       "primary_item": {
-        "id": "dede4f5255c767a65c1abfc1e7125daa5289ca44",
-        "title": "Anthropic 从 7 月 8 日起要求对某些功能进行身份验证 / Anthropic to Require ID Verification for Certain Capabilities Starting July 8",
-        "url": "https://news.ycombinator.com/item?id=48618455",
-        "source": "hackernews",
-        "source_name": "NewsNow"
+        "id": "32d10793476331074e8124bb566b644286221411",
+        "title": "凯文·奥利里表示，他投资的公司正在摒弃咨询顾问，直接转向人工智能",
+        "url": "https://www.businessinsider.com/kevin-oleary-consulting-industry-ai-mckinsey-bcg-accenture-2026-6",
+        "source": "www.businessinsider.com",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_556f0a7eda04",
+      "title": "从图书馆租用缝纫机 / Not just books: renting a sewing machine from the library can improve democracy",
+      "url": "https://www.bbc.com/future/article/20260618-the-weird-and-wonderful-libraries-of-finland",
+      "primary_url": "https://www.bbc.com/future/article/20260618-the-weird-and-wonderful-libraries-of-finland",
+      "source": "Hacker News · 24h最热",
+      "source_name": "Zeli",
+      "sources": [
+        {
+          "id": "e844eb5907042ae4890a401102eb4d875d0522a4",
+          "title": "从图书馆租用缝纫机 / Not just books: renting a sewing machine from the library can improve democracy",
+          "url": "https://www.bbc.com/future/article/20260618-the-weird-and-wonderful-libraries-of-finland",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-20T22:54:11Z"
+        },
+        {
+          "id": "2129afe403447f87236953853ae938bd43822789",
+          "title": "从图书馆租用缝纫机 / Renting a sewing machine from the library",
+          "url": "https://www.bbc.com/future/article/20260618-the-weird-and-wonderful-libraries-of-finland",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-20T22:54:11Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News · 24h最热"
+      ],
+      "items": [
+        {
+          "id": "e844eb5907042ae4890a401102eb4d875d0522a4",
+          "title": "从图书馆租用缝纫机 / Not just books: renting a sewing machine from the library can improve democracy",
+          "url": "https://www.bbc.com/future/article/20260618-the-weird-and-wonderful-libraries-of-finland",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-20T22:54:11Z"
+        },
+        {
+          "id": "2129afe403447f87236953853ae938bd43822789",
+          "title": "从图书馆租用缝纫机 / Renting a sewing machine from the library",
+          "url": "https://www.bbc.com/future/article/20260618-the-weird-and-wonderful-libraries-of-finland",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-20T22:54:11Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5059,
+      "importance": 0.5059,
+      "importance_score": 0.5059,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.7786,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-20T22:54:11Z",
+      "latest_at": "2026-06-20T22:54:11Z",
+      "primary_item": {
+        "id": "e844eb5907042ae4890a401102eb4d875d0522a4",
+        "title": "从图书馆租用缝纫机 / Not just books: renting a sewing machine from the library can improve democracy",
+        "url": "https://www.bbc.com/future/article/20260618-the-weird-and-wonderful-libraries-of-finland",
+        "source": "Hacker News · 24h最热",
+        "source_name": "Zeli"
       }
     },
     {
@@ -1630,15 +1686,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.54,
-      "importance": 0.54,
-      "importance_score": 0.54,
+      "score": 0.5351,
+      "importance": 0.5351,
+      "importance_score": 0.5351,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9677,
+        "recency": 0.9405,
         "story_heat": 0.25
       },
       "category": "watch",
