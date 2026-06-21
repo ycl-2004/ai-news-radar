@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-06-21T16:14:10.181292Z",
+  "generated_at": "2026-06-21T18:02:33.588748Z",
   "sites": [
     {
       "site_id": "official_ai",
       "site_name": "Official AI Updates",
       "ok": true,
       "item_count": 194,
-      "duration_ms": 3521,
+      "duration_ms": 9059,
       "error": null
     },
     {
       "site_id": "curated_media",
       "site_name": "Curated Media",
       "ok": true,
-      "item_count": 27,
-      "duration_ms": 2523,
+      "item_count": 42,
+      "duration_ms": 2954,
       "error": null
     },
     {
@@ -22,7 +22,7 @@
       "site_name": "AI Breakfast",
       "ok": true,
       "item_count": 9,
-      "duration_ms": 228,
+      "duration_ms": 233,
       "error": null
     },
     {
@@ -30,7 +30,7 @@
       "site_name": "Follow Builders",
       "ok": true,
       "item_count": 28,
-      "duration_ms": 22,
+      "duration_ms": 45,
       "error": null
     },
     {
@@ -38,7 +38,7 @@
       "site_name": "TechURLs",
       "ok": true,
       "item_count": 405,
-      "duration_ms": 495,
+      "duration_ms": 377,
       "error": null
     },
     {
@@ -46,15 +46,15 @@
       "site_name": "Buzzing",
       "ok": true,
       "item_count": 744,
-      "duration_ms": 316,
+      "duration_ms": 298,
       "error": null
     },
     {
       "site_id": "iris",
       "site_name": "Info Flow",
       "ok": true,
-      "item_count": 362,
-      "duration_ms": 12364,
+      "item_count": 365,
+      "duration_ms": 17634,
       "error": null
     },
     {
@@ -62,23 +62,23 @@
       "site_name": "BestBlogs",
       "ok": true,
       "item_count": 1,
-      "duration_ms": 1042,
+      "duration_ms": 695,
       "error": null
     },
     {
       "site_id": "tophub",
       "site_name": "TopHub",
       "ok": true,
-      "item_count": 3033,
-      "duration_ms": 1339,
+      "item_count": 3030,
+      "duration_ms": 1693,
       "error": null
     },
     {
       "site_id": "zeli",
       "site_name": "Zeli",
       "ok": true,
-      "item_count": 67,
-      "duration_ms": 486,
+      "item_count": 68,
+      "duration_ms": 684,
       "error": null
     },
     {
@@ -86,7 +86,7 @@
       "site_name": "AI HubToday",
       "ok": true,
       "item_count": 21,
-      "duration_ms": 265,
+      "duration_ms": 261,
       "error": null
     },
     {
@@ -94,61 +94,61 @@
       "site_name": "AIbase",
       "ok": true,
       "item_count": 20,
-      "duration_ms": 1477,
+      "duration_ms": 1528,
       "error": null
     },
     {
       "site_id": "aihot",
       "site_name": "AI HOT",
       "ok": true,
-      "item_count": 112,
-      "duration_ms": 1967,
+      "item_count": 110,
+      "duration_ms": 2109,
       "error": null
     },
     {
       "site_id": "newsnow",
       "site_name": "NewsNow",
       "ok": true,
-      "item_count": 146,
-      "duration_ms": 866,
+      "item_count": 147,
+      "duration_ms": 524,
       "error": null
     },
     {
       "site_id": "socialdata_x",
       "site_name": "SocialData X",
       "ok": true,
-      "item_count": 70,
+      "item_count": 0,
       "duration_ms": 0,
       "error": null,
-      "skipped": false,
-      "skip_reason": null
+      "skipped": true,
+      "skip_reason": "before_socialdata_run_interval"
     },
     {
       "site_id": "tikhub_douyin",
       "site_name": "TikHub Douyin",
       "ok": true,
-      "item_count": 10,
+      "item_count": 0,
       "duration_ms": 0,
       "error": null,
-      "skipped": false,
-      "skip_reason": null
+      "skipped": true,
+      "skip_reason": "before_tikhub_run_interval"
     },
     {
       "site_id": "tikhub_xiaohongshu",
       "site_name": "TikHub Xiaohongshu",
       "ok": true,
-      "item_count": 3,
+      "item_count": 0,
       "duration_ms": 0,
       "error": null,
-      "skipped": false,
-      "skip_reason": null
+      "skipped": true,
+      "skip_reason": "before_tikhub_run_interval"
     },
     {
       "site_id": "waytoagi",
       "site_name": "WaytoAGI",
       "ok": true,
-      "item_count": 2,
-      "duration_ms": 5884,
+      "item_count": 4,
+      "duration_ms": 6750,
       "error": null
     },
     {
@@ -157,7 +157,7 @@
       "ok": true,
       "partial_failures": 0,
       "item_count": 2155,
-      "duration_ms": 5000,
+      "duration_ms": 5400,
       "error": null,
       "feed_count": 10,
       "effective_feed_count": 10,
@@ -171,9 +171,9 @@
   "failed_sites": [],
   "zero_item_sites": [],
   "empty_advanced_sources": [],
-  "fetched_raw_items": 7409,
-  "items_before_topic_filter": 4858,
-  "items_in_24h": 421,
+  "fetched_raw_items": 7343,
+  "items_before_topic_filter": 4986,
+  "items_in_24h": 438,
   "rss_opml": {
     "enabled": true,
     "path": "configured",
@@ -193,7 +193,7 @@
         "effective_feed_url": "https://blog.google/technology/ai/rss/",
         "ok": true,
         "item_count": 20,
-        "duration_ms": 329,
+        "duration_ms": 240,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -208,7 +208,7 @@
         "effective_feed_url": "https://deepmind.google/blog/rss.xml",
         "ok": true,
         "item_count": 100,
-        "duration_ms": 453,
+        "duration_ms": 377,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -223,7 +223,7 @@
         "effective_feed_url": "https://huggingface.co/blog/feed.xml",
         "ok": true,
         "item_count": 803,
-        "duration_ms": 482,
+        "duration_ms": 325,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -238,7 +238,7 @@
         "effective_feed_url": "https://www.infoq.cn/feed",
         "ok": true,
         "item_count": 20,
-        "duration_ms": 1157,
+        "duration_ms": 1632,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -253,7 +253,7 @@
         "effective_feed_url": "https://news.microsoft.com/source/topics/ai/feed/",
         "ok": true,
         "item_count": 10,
-        "duration_ms": 110,
+        "duration_ms": 224,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -268,7 +268,7 @@
         "effective_feed_url": "https://developer.nvidia.com/blog/category/generative-ai/feed/",
         "ok": true,
         "item_count": 100,
-        "duration_ms": 822,
+        "duration_ms": 771,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -283,7 +283,7 @@
         "effective_feed_url": "https://openai.com/news/rss.xml",
         "ok": true,
         "item_count": 1012,
-        "duration_ms": 1065,
+        "duration_ms": 855,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -298,7 +298,7 @@
         "effective_feed_url": "https://simonwillison.net/atom/everything/",
         "ok": true,
         "item_count": 30,
-        "duration_ms": 135,
+        "duration_ms": 384,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -313,7 +313,7 @@
         "effective_feed_url": "https://www.wired.com/feed/tag/ai/latest/rss",
         "ok": true,
         "item_count": 10,
-        "duration_ms": 50,
+        "duration_ms": 182,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -328,7 +328,7 @@
         "effective_feed_url": "https://baoyu.io/feed.xml",
         "ok": true,
         "item_count": 50,
-        "duration_ms": 397,
+        "duration_ms": 410,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -366,8 +366,8 @@
     "enabled": true,
     "enable_toggle": true,
     "api_key_present": true,
-    "ok": true,
-    "item_count": 70,
+    "ok": null,
+    "item_count": 0,
     "privacy": "public_posts_metadata_only",
     "published_by_default": false,
     "unit_cost_usd_per_tweet_read": 0.0002,
@@ -385,53 +385,16 @@
     "last_run_at": "2026-06-21T16:14:10.181292Z",
     "last_success_at": "2026-06-21T16:14:10.181292Z",
     "generated_date_utc": "2026-06-21",
-    "attempted": true,
-    "diagnostics": {
-      "endpoint": "/twitter/search",
-      "search_type": "Latest",
-      "query_chars": 152,
-      "response_top_level_keys": [
-        "next_cursor",
-        "tweets"
-      ],
-      "raw_tweet_count": 20,
-      "mapped_tweet_count": 20,
-      "page_count": 1,
-      "cursor_request_count": 0,
-      "reached_result_cap": true
-    },
-    "list_diagnostics": {
-      "endpoint": "/twitter/list/1695376776867062037/tweets",
-      "list_id": "1695376776867062037",
-      "raw_tweet_count": 85,
-      "mapped_tweet_count": 50,
-      "page_count": 1,
-      "max_pages": 10,
-      "hit_page_cap": false,
-      "skipped": {
-        "retweet_or_reply": 27,
-        "excluded_author": 0,
-        "bot_like": 0,
-        "empty": 0,
-        "duplicate": 0
-      },
-      "excluded_handles": [],
-      "reached_result_cap": true
-    },
-    "list_enabled": true,
-    "list_item_count": 50,
-    "search_item_count": 20,
-    "skipped_stale_count": 0,
-    "raw_reads": 105,
-    "estimated_cost_usd": 0.021
+    "skipped": true,
+    "skip_reason": "before_socialdata_run_interval"
   },
   "tikhub": {
     "enabled": true,
     "enable_toggle": true,
     "api_key_present": true,
     "enabled_by": "ready",
-    "ok": true,
-    "item_count": 13,
+    "ok": null,
+    "item_count": 0,
     "privacy": "public_social_posts_metadata_only",
     "published_by_default": false,
     "billing": "tikhub_charged_request",
@@ -448,816 +411,7 @@
     "last_run_at": "2026-06-21T16:14:10.181292Z",
     "last_success_at": "2026-06-21T16:14:10.181292Z",
     "generated_date_utc": "2026-06-21",
-    "attempted": true,
-    "diagnostics": {
-      "keywords": [
-        "AI",
-        "人工智能",
-        "大模型",
-        "OpenAI",
-        "Claude",
-        "Agent",
-        "AI工具"
-      ],
-      "platforms": [
-        "douyin",
-        "xiaohongshu"
-      ],
-      "requests": [
-        {
-          "platform": "douyin",
-          "surface": "douyin_general_v2",
-          "endpoint": "/api/v1/douyin/search/fetch_general_search_v2",
-          "keyword": "AI",
-          "mapped_item_count": 10,
-          "appended_item_count": 10,
-          "response_top_level_keys": [
-            "cache_message",
-            "cache_message_zh",
-            "cache_url",
-            "code",
-            "data",
-            "docs",
-            "message",
-            "message_zh",
-            "params",
-            "request_id",
-            "router",
-            "support"
-          ],
-          "payload_shape": {
-            "dict_count": 3042,
-            "data_type": "dict",
-            "data_keys": [
-              "business_config",
-              "business_data",
-              "extra",
-              "global_config",
-              "log",
-              "log_pb",
-              "maokai_extra",
-              "status_code"
-            ],
-            "data_items_count": null,
-            "data_business_count": 19,
-            "aweme_info_count": 17,
-            "note_card_count": 0,
-            "sample_nodes": [
-              {
-                "keys": [
-                  "aweme_info",
-                  "aweme_list",
-                  "card_id",
-                  "card_info",
-                  "card_protocal_struct",
-                  "card_style_type",
-                  "card_type",
-                  "card_type_id",
-                  "card_type_name",
-                  "comment_list",
-                  "data",
-                  "debug_data",
-                  "debug_diff_info",
-                  "doc_type",
-                  "ecom_goods_list",
-                  "feedback"
-                ]
-              },
-              {
-                "keys": [
-                  "author",
-                  "banner_list",
-                  "cha_attrs",
-                  "cha_name",
-                  "challenge_status",
-                  "cid",
-                  "collect_stat",
-                  "connect_music",
-                  "desc",
-                  "extra_attr",
-                  "from_ugc_hashtag_bank",
-                  "hashtag_profile",
-                  "insert_template_category_list",
-                  "is_challenge",
-                  "is_commerce",
-                  "is_pgcshow"
-                ]
-              },
-              {
-                "keys": [
-                  "actors",
-                  "content_sub_type",
-                  "cover_url",
-                  "create_time",
-                  "dark_icon_url",
-                  "desc",
-                  "directors",
-                  "disable_display_bar",
-                  "disable_display_bar_inner",
-                  "dog_card_info",
-                  "enable_use_new_ent_data",
-                  "entertainment_suggest_info",
-                  "extra",
-                  "ids",
-                  "is_charge_series",
-                  "is_exclusive"
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "platform": "xiaohongshu",
-          "surface": "xiaohongshu_app_v2",
-          "endpoint": "/api/v1/xiaohongshu/app_v2/search_notes",
-          "keyword": "AI",
-          "mapped_item_count": 5,
-          "appended_item_count": 0,
-          "response_top_level_keys": [
-            "cache_message",
-            "cache_message_zh",
-            "cache_url",
-            "code",
-            "data",
-            "docs",
-            "message",
-            "message_zh",
-            "params",
-            "request_id",
-            "router",
-            "support"
-          ],
-          "payload_shape": {
-            "dict_count": 547,
-            "data_type": "dict",
-            "data_keys": [
-              "code",
-              "data",
-              "debug_id",
-              "debug_info",
-              "msg",
-              "next_page",
-              "page",
-              "search_id",
-              "search_session_id",
-              "success"
-            ],
-            "data_items_count": null,
-            "data_business_count": null,
-            "aweme_info_count": 0,
-            "note_card_count": 0,
-            "sample_nodes": [
-              {
-                "keys": [
-                  "advanced_widgets_groups",
-                  "click_score",
-                  "collected",
-                  "collected_count",
-                  "comments_count",
-                  "corner_tag_info",
-                  "cover_image_index",
-                  "debug_info_str",
-                  "desc",
-                  "extract_text_enabled",
-                  "geo_info",
-                  "has_music",
-                  "id",
-                  "images_list",
-                  "interaction_area",
-                  "last_update_time"
-                ]
-              },
-              {
-                "keys": [
-                  "title",
-                  "type"
-                ]
-              },
-              {
-                "keys": [
-                  "advanced_widgets_groups",
-                  "click_score",
-                  "collected",
-                  "collected_count",
-                  "comments_count",
-                  "corner_tag_info",
-                  "cover_image_index",
-                  "debug_info_str",
-                  "desc",
-                  "extract_text_enabled",
-                  "geo_info",
-                  "has_music",
-                  "id",
-                  "images_list",
-                  "interaction_area",
-                  "last_update_time"
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "platform": "xiaohongshu",
-          "surface": "xiaohongshu_web_v3",
-          "endpoint": "/api/v1/xiaohongshu/web_v3/fetch_search_notes",
-          "keyword": "AI",
-          "error": "HTTPError",
-          "status_code": 400
-        },
-        {
-          "platform": "xiaohongshu",
-          "surface": "xiaohongshu_app_v2",
-          "endpoint": "/api/v1/xiaohongshu/app_v2/search_notes",
-          "keyword": "人工智能",
-          "mapped_item_count": 5,
-          "appended_item_count": 1,
-          "response_top_level_keys": [
-            "cache_message",
-            "cache_message_zh",
-            "cache_url",
-            "code",
-            "data",
-            "docs",
-            "message",
-            "message_zh",
-            "params",
-            "request_id",
-            "router",
-            "support"
-          ],
-          "payload_shape": {
-            "dict_count": 466,
-            "data_type": "dict",
-            "data_keys": [
-              "code",
-              "data",
-              "debug_id",
-              "debug_info",
-              "msg",
-              "next_page",
-              "page",
-              "search_id",
-              "search_session_id",
-              "success"
-            ],
-            "data_items_count": null,
-            "data_business_count": null,
-            "aweme_info_count": 0,
-            "note_card_count": 0,
-            "sample_nodes": [
-              {
-                "keys": [
-                  "advanced_widgets_groups",
-                  "at_user_list",
-                  "click_score",
-                  "collected",
-                  "collected_count",
-                  "comments_count",
-                  "corner_tag_info",
-                  "cover_image_index",
-                  "debug_info_str",
-                  "desc",
-                  "extract_text_enabled",
-                  "geo_info",
-                  "has_music",
-                  "id",
-                  "images_list",
-                  "interaction_area"
-                ]
-              },
-              {
-                "keys": [
-                  "title",
-                  "type"
-                ]
-              },
-              {
-                "keys": [
-                  "advanced_widgets_groups",
-                  "click_score",
-                  "collected",
-                  "collected_count",
-                  "comments_count",
-                  "corner_tag_info",
-                  "cover_image_index",
-                  "debug_info_str",
-                  "desc",
-                  "extract_text_enabled",
-                  "geo_info",
-                  "has_music",
-                  "id",
-                  "images_list",
-                  "interaction_area",
-                  "last_update_time"
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "platform": "xiaohongshu",
-          "surface": "xiaohongshu_web_v3",
-          "endpoint": "/api/v1/xiaohongshu/web_v3/fetch_search_notes",
-          "keyword": "人工智能",
-          "error": "HTTPError",
-          "status_code": 400
-        },
-        {
-          "platform": "xiaohongshu",
-          "surface": "xiaohongshu_app_v2",
-          "endpoint": "/api/v1/xiaohongshu/app_v2/search_notes",
-          "keyword": "大模型",
-          "mapped_item_count": 5,
-          "appended_item_count": 2,
-          "response_top_level_keys": [
-            "cache_message",
-            "cache_message_zh",
-            "cache_url",
-            "code",
-            "data",
-            "docs",
-            "message",
-            "message_zh",
-            "params",
-            "request_id",
-            "router",
-            "support"
-          ],
-          "payload_shape": {
-            "dict_count": 369,
-            "data_type": "dict",
-            "data_keys": [
-              "code",
-              "data",
-              "debug_id",
-              "debug_info",
-              "msg",
-              "next_page",
-              "page",
-              "search_id",
-              "search_session_id",
-              "success"
-            ],
-            "data_items_count": null,
-            "data_business_count": null,
-            "aweme_info_count": 0,
-            "note_card_count": 0,
-            "sample_nodes": [
-              {
-                "keys": [
-                  "advanced_widgets_groups",
-                  "click_score",
-                  "collected",
-                  "collected_count",
-                  "comments_count",
-                  "corner_tag_info",
-                  "cover_image_index",
-                  "debug_info_str",
-                  "desc",
-                  "extract_text_enabled",
-                  "geo_info",
-                  "has_music",
-                  "id",
-                  "images_list",
-                  "interaction_area",
-                  "last_update_time"
-                ]
-              },
-              {
-                "keys": [
-                  "title",
-                  "type"
-                ]
-              },
-              {
-                "keys": [
-                  "advanced_widgets_groups",
-                  "click_score",
-                  "collected",
-                  "collected_count",
-                  "comments_count",
-                  "corner_tag_info",
-                  "cover_image_index",
-                  "debug_info_str",
-                  "desc",
-                  "extract_text_enabled",
-                  "geo_info",
-                  "has_music",
-                  "id",
-                  "images_list",
-                  "interaction_area",
-                  "last_update_time"
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "platform": "xiaohongshu",
-          "surface": "xiaohongshu_web_v3",
-          "endpoint": "/api/v1/xiaohongshu/web_v3/fetch_search_notes",
-          "keyword": "大模型",
-          "error": "HTTPError",
-          "status_code": 400
-        },
-        {
-          "platform": "xiaohongshu",
-          "surface": "xiaohongshu_app_v2",
-          "endpoint": "/api/v1/xiaohongshu/app_v2/search_notes",
-          "keyword": "OpenAI",
-          "mapped_item_count": 4,
-          "appended_item_count": 0,
-          "response_top_level_keys": [
-            "cache_message",
-            "cache_message_zh",
-            "cache_url",
-            "code",
-            "data",
-            "docs",
-            "message",
-            "message_zh",
-            "params",
-            "request_id",
-            "router",
-            "support"
-          ],
-          "payload_shape": {
-            "dict_count": 411,
-            "data_type": "dict",
-            "data_keys": [
-              "code",
-              "data",
-              "debug_id",
-              "debug_info",
-              "msg",
-              "next_page",
-              "page",
-              "search_id",
-              "search_session_id",
-              "success"
-            ],
-            "data_items_count": null,
-            "data_business_count": null,
-            "aweme_info_count": 0,
-            "note_card_count": 0,
-            "sample_nodes": [
-              {
-                "keys": [
-                  "advanced_widgets_groups",
-                  "at_user_list",
-                  "click_score",
-                  "collected",
-                  "collected_count",
-                  "comments_count",
-                  "corner_tag_info",
-                  "cover_image_index",
-                  "debug_info_str",
-                  "desc",
-                  "extract_text_enabled",
-                  "geo_info",
-                  "has_music",
-                  "id",
-                  "images_list",
-                  "interaction_area"
-                ]
-              },
-              {
-                "keys": [
-                  "title",
-                  "type"
-                ]
-              },
-              {
-                "keys": [
-                  "advanced_widgets_groups",
-                  "click_score",
-                  "collected",
-                  "collected_count",
-                  "comments_count",
-                  "corner_tag_info",
-                  "cover_image_index",
-                  "debug_info_str",
-                  "desc",
-                  "extract_text_enabled",
-                  "geo_info",
-                  "has_music",
-                  "id",
-                  "images_list",
-                  "interaction_area",
-                  "last_update_time"
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "platform": "xiaohongshu",
-          "surface": "xiaohongshu_web_v3",
-          "endpoint": "/api/v1/xiaohongshu/web_v3/fetch_search_notes",
-          "keyword": "OpenAI",
-          "error": "HTTPError",
-          "status_code": 400
-        },
-        {
-          "platform": "xiaohongshu",
-          "surface": "xiaohongshu_app_v2",
-          "endpoint": "/api/v1/xiaohongshu/app_v2/search_notes",
-          "keyword": "Claude",
-          "mapped_item_count": 4,
-          "appended_item_count": 0,
-          "response_top_level_keys": [
-            "cache_message",
-            "cache_message_zh",
-            "cache_url",
-            "code",
-            "data",
-            "docs",
-            "message",
-            "message_zh",
-            "params",
-            "request_id",
-            "router",
-            "support"
-          ],
-          "payload_shape": {
-            "dict_count": 641,
-            "data_type": "dict",
-            "data_keys": [
-              "code",
-              "data",
-              "debug_id",
-              "debug_info",
-              "msg",
-              "next_page",
-              "page",
-              "search_id",
-              "search_session_id",
-              "success"
-            ],
-            "data_items_count": null,
-            "data_business_count": null,
-            "aweme_info_count": 0,
-            "note_card_count": 0,
-            "sample_nodes": [
-              {
-                "keys": [
-                  "advanced_widgets_groups",
-                  "click_score",
-                  "collected",
-                  "collected_count",
-                  "comments_count",
-                  "corner_tag_info",
-                  "cover_image_index",
-                  "debug_info_str",
-                  "desc",
-                  "extract_text_enabled",
-                  "geo_info",
-                  "has_music",
-                  "id",
-                  "images_list",
-                  "interaction_area",
-                  "last_update_time"
-                ]
-              },
-              {
-                "keys": [
-                  "title",
-                  "type"
-                ]
-              },
-              {
-                "keys": [
-                  "advanced_widgets_groups",
-                  "click_score",
-                  "collected",
-                  "collected_count",
-                  "comments_count",
-                  "corner_tag_info",
-                  "cover_image_index",
-                  "debug_info_str",
-                  "desc",
-                  "extract_text_enabled",
-                  "geo_info",
-                  "has_music",
-                  "id",
-                  "images_list",
-                  "interaction_area",
-                  "last_update_time"
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "platform": "xiaohongshu",
-          "surface": "xiaohongshu_web_v3",
-          "endpoint": "/api/v1/xiaohongshu/web_v3/fetch_search_notes",
-          "keyword": "Claude",
-          "error": "HTTPError",
-          "status_code": 400
-        },
-        {
-          "platform": "xiaohongshu",
-          "surface": "xiaohongshu_app_v2",
-          "endpoint": "/api/v1/xiaohongshu/app_v2/search_notes",
-          "keyword": "Agent",
-          "mapped_item_count": 4,
-          "appended_item_count": 0,
-          "response_top_level_keys": [
-            "cache_message",
-            "cache_message_zh",
-            "cache_url",
-            "code",
-            "data",
-            "docs",
-            "message",
-            "message_zh",
-            "params",
-            "request_id",
-            "router",
-            "support"
-          ],
-          "payload_shape": {
-            "dict_count": 520,
-            "data_type": "dict",
-            "data_keys": [
-              "code",
-              "data",
-              "debug_id",
-              "debug_info",
-              "msg",
-              "next_page",
-              "page",
-              "search_id",
-              "search_session_id",
-              "success"
-            ],
-            "data_items_count": null,
-            "data_business_count": null,
-            "aweme_info_count": 0,
-            "note_card_count": 0,
-            "sample_nodes": [
-              {
-                "keys": [
-                  "advanced_widgets_groups",
-                  "click_score",
-                  "collected",
-                  "collected_count",
-                  "comments_count",
-                  "corner_tag_info",
-                  "cover_image_index",
-                  "debug_info_str",
-                  "desc",
-                  "extract_text_enabled",
-                  "geo_info",
-                  "has_music",
-                  "id",
-                  "images_list",
-                  "interaction_area",
-                  "last_update_time"
-                ]
-              },
-              {
-                "keys": [
-                  "title",
-                  "type"
-                ]
-              },
-              {
-                "keys": [
-                  "advanced_widgets_groups",
-                  "click_score",
-                  "collected",
-                  "collected_count",
-                  "comments_count",
-                  "corner_tag_info",
-                  "cover_image_index",
-                  "debug_info_str",
-                  "desc",
-                  "extract_text_enabled",
-                  "geo_info",
-                  "has_music",
-                  "id",
-                  "images_list",
-                  "interaction_area",
-                  "last_update_time"
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "platform": "xiaohongshu",
-          "surface": "xiaohongshu_web_v3",
-          "endpoint": "/api/v1/xiaohongshu/web_v3/fetch_search_notes",
-          "keyword": "Agent",
-          "error": "HTTPError",
-          "status_code": 400
-        },
-        {
-          "platform": "xiaohongshu",
-          "surface": "xiaohongshu_app_v2",
-          "endpoint": "/api/v1/xiaohongshu/app_v2/search_notes",
-          "keyword": "AI工具",
-          "mapped_item_count": 4,
-          "appended_item_count": 0,
-          "response_top_level_keys": [
-            "cache_message",
-            "cache_message_zh",
-            "cache_url",
-            "code",
-            "data",
-            "docs",
-            "message",
-            "message_zh",
-            "params",
-            "request_id",
-            "router",
-            "support"
-          ],
-          "payload_shape": {
-            "dict_count": 623,
-            "data_type": "dict",
-            "data_keys": [
-              "code",
-              "data",
-              "debug_id",
-              "debug_info",
-              "msg",
-              "next_page",
-              "page",
-              "search_id",
-              "search_session_id",
-              "success"
-            ],
-            "data_items_count": null,
-            "data_business_count": null,
-            "aweme_info_count": 0,
-            "note_card_count": 0,
-            "sample_nodes": [
-              {
-                "keys": [
-                  "advanced_widgets_groups",
-                  "click_score",
-                  "collected",
-                  "collected_count",
-                  "comments_count",
-                  "corner_tag_info",
-                  "cover_image_index",
-                  "debug_info_str",
-                  "desc",
-                  "extract_text_enabled",
-                  "geo_info",
-                  "has_music",
-                  "id",
-                  "images_list",
-                  "interaction_area",
-                  "last_update_time"
-                ]
-              },
-              {
-                "keys": [
-                  "title",
-                  "type"
-                ]
-              },
-              {
-                "keys": [
-                  "advanced_widgets_groups",
-                  "click_score",
-                  "collected",
-                  "collected_count",
-                  "comments_count",
-                  "corner_tag_info",
-                  "cover_image_index",
-                  "debug_info_str",
-                  "desc",
-                  "extract_text_enabled",
-                  "geo_info",
-                  "has_music",
-                  "id",
-                  "images_list",
-                  "interaction_area",
-                  "last_update_time"
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "platform": "xiaohongshu",
-          "surface": "xiaohongshu_web_v3",
-          "endpoint": "/api/v1/xiaohongshu/web_v3/fetch_search_notes",
-          "keyword": "AI工具",
-          "error": "HTTPError",
-          "status_code": 400
-        }
-      ],
-      "successful_request_count": 8,
-      "request_error_count": 7,
-      "recency_days": 4,
-      "skipped_stale_count": 28,
-      "mapped_item_count": 13
-    }
+    "skipped": true,
+    "skip_reason": "before_tikhub_run_interval"
   }
 }
