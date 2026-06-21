@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-21T11:58:50.680643Z",
+  "generated_at": "2026-06-21T14:15:56.537531Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -38,15 +38,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.781,
-      "importance": 0.781,
-      "importance_score": 0.781,
+      "score": 0.7753,
+      "importance": 0.7753,
+      "importance_score": 0.7753,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.78,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9745,
+        "recency": 0.9428,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -99,15 +99,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.726,
-      "importance": 0.726,
-      "importance_score": 0.726,
+      "score": 0.7207,
+      "importance": 0.7207,
+      "importance_score": 0.7207,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.64,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9022,
+        "recency": 0.8729,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -121,66 +121,6 @@
         "title": "腾讯元宝父亲节活动：上传照片生成与年轻爸爸的合影",
         "url": "https://mp.weixin.qq.com/s/xrTg2Bdy3FF3gn3C_gVBJQ",
         "source": "公众号：腾讯元宝",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_767c73782c59",
-      "title": "开源教程《Deep Agents 实战》发布",
-      "url": "https://x.com/shao__meng/status/2068306942184034471",
-      "primary_url": "https://x.com/shao__meng/status/2068306942184034471",
-      "source": "X：邵猛 (@shao__meng)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "70c44c96db3c855eac9ceadd458bd02b754774dd",
-          "title": "开源教程《Deep Agents 实战》发布",
-          "url": "https://x.com/shao__meng/status/2068306942184034471",
-          "source": "X：邵猛 (@shao__meng)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-20T12:16:16Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：邵猛 (@shao__meng)"
-      ],
-      "items": [
-        {
-          "id": "70c44c96db3c855eac9ceadd458bd02b754774dd",
-          "title": "开源教程《Deep Agents 实战》发布",
-          "url": "https://x.com/shao__meng/status/2068306942184034471",
-          "source": "X：邵猛 (@shao__meng)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-20T12:16:16Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7244,
-      "importance": 0.7244,
-      "importance_score": 0.7244,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.75,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7101,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-20T12:16:16Z",
-      "latest_at": "2026-06-20T12:16:16Z",
-      "primary_item": {
-        "id": "70c44c96db3c855eac9ceadd458bd02b754774dd",
-        "title": "开源教程《Deep Agents 实战》发布",
-        "url": "https://x.com/shao__meng/status/2068306942184034471",
-        "source": "X：邵猛 (@shao__meng)",
         "source_name": "AI HOT"
       }
     },
@@ -291,15 +231,15 @@
       ],
       "item_count": 5,
       "duplicate_count": 5,
-      "score": 0.6411,
-      "importance": 0.6411,
-      "importance_score": 0.6411,
+      "score": 0.6362,
+      "importance": 0.6362,
+      "importance_score": 0.6362,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.54,
         "ai_relevance": 0.65,
-        "recency": 0.8439,
+        "recency": 0.8165,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -389,15 +329,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5653,
-      "importance": 0.5653,
-      "importance_score": 0.5653,
+      "score": 0.5596,
+      "importance": 0.5596,
+      "importance_score": 0.5596,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9693,
+        "recency": 0.9378,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -487,15 +427,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5545,
-      "importance": 0.5545,
-      "importance_score": 0.5545,
+      "score": 0.5492,
+      "importance": 0.5492,
+      "importance_score": 0.5492,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9094,
+        "recency": 0.8799,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -510,6 +450,85 @@
         "url": "https://news.ycombinator.com/item?id=48614631",
         "source": "hackernews",
         "source_name": "NewsNow"
+      }
+    },
+    {
+      "story_id": "story_2369e54e30ae",
+      "title": "“大空头”查诺斯：当前AI产业链存在巨大“财务不匹配”，“AI云”实际是租赁中介，看空SpaceX",
+      "url": "https://www.huxiu.com/article/4868995.html?f=rss",
+      "primary_url": "https://www.huxiu.com/article/4868995.html?f=rss",
+      "source": "虎嗅 (Huxiu)",
+      "source_name": "Info Flow",
+      "sources": [
+        {
+          "id": "c0c0f9dce909aed383ea778957107e4cbbbab053",
+          "title": "“大空头”查诺斯：当前AI产业链存在巨大“财务不匹配”，“AI云”实际是租赁中介，看空SpaceX",
+          "url": "https://www.huxiu.com/article/4868995.html?f=rss",
+          "source": "虎嗅 (Huxiu)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-21T12:44:35Z"
+        },
+        {
+          "id": "dcdacef0e60959bff79f15360f7e1566f9c9a869",
+          "title": "大空头查诺斯：当前 AI 产业链存在巨大「财务不匹配」，「AI 云」实际是租赁中介，看空 SpaceX",
+          "url": "https://wallstreetcn.com/articles/3775129",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Readhub · AI",
+        "虎嗅 (Huxiu)"
+      ],
+      "items": [
+        {
+          "id": "c0c0f9dce909aed383ea778957107e4cbbbab053",
+          "title": "“大空头”查诺斯：当前AI产业链存在巨大“财务不匹配”，“AI云”实际是租赁中介，看空SpaceX",
+          "url": "https://www.huxiu.com/article/4868995.html?f=rss",
+          "source": "虎嗅 (Huxiu)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-21T12:44:35Z"
+        },
+        {
+          "id": "dcdacef0e60959bff79f15360f7e1566f9c9a869",
+          "title": "大空头查诺斯：当前 AI 产业链存在巨大「财务不匹配」，「AI 云」实际是租赁中介，看空 SpaceX",
+          "url": "https://wallstreetcn.com/articles/3775129",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5419,
+      "importance": 0.5419,
+      "importance_score": 0.5419,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9783,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-21T11:58:50.680643Z",
+      "latest_at": "2026-06-21T12:44:35Z",
+      "primary_item": {
+        "id": "c0c0f9dce909aed383ea778957107e4cbbbab053",
+        "title": "“大空头”查诺斯：当前AI产业链存在巨大“财务不匹配”，“AI云”实际是租赁中介，看空SpaceX",
+        "url": "https://www.huxiu.com/article/4868995.html?f=rss",
+        "source": "虎嗅 (Huxiu)",
+        "source_name": "Info Flow"
       }
     },
     {
@@ -566,15 +585,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5458,
-      "importance": 0.5458,
-      "importance_score": 0.5458,
+      "score": 0.54,
+      "importance": 0.54,
+      "importance_score": 0.54,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 1.0,
+        "recency": 0.9677,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -645,15 +664,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5458,
-      "importance": 0.5458,
-      "importance_score": 0.5458,
+      "score": 0.54,
+      "importance": 0.54,
+      "importance_score": 0.54,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 1.0,
+        "recency": 0.9675,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -724,15 +743,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5458,
-      "importance": 0.5458,
-      "importance_score": 0.5458,
+      "score": 0.54,
+      "importance": 0.54,
+      "importance_score": 0.54,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 1.0,
+        "recency": 0.9675,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -747,6 +766,85 @@
         "url": "https://www.ithome.com/0/966/690.htm",
         "source": "Readhub · AI",
         "source_name": "TopHub"
+      }
+    },
+    {
+      "story_id": "story_24352d358b1f",
+      "title": "科技从业者们利用夜晚和周末的时间学习新的AI工具。他们表示，自己别无选择，必须这么做。",
+      "url": "https://www.businessinsider.com/tech-workers-learning-ai-tools-after-work-productivity-jobs-amazon-2026-6",
+      "primary_url": "https://www.businessinsider.com/tech-workers-learning-ai-tools-after-work-productivity-jobs-amazon-2026-6",
+      "source": "www.businessinsider.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "4557d39d0c9fd9d75ef7b8aa59fc9e1b93795bd1",
+          "title": "科技从业者们利用夜晚和周末的时间学习新的AI工具。他们表示，自己别无选择，必须这么做。",
+          "url": "https://www.businessinsider.com/tech-workers-learning-ai-tools-after-work-productivity-jobs-amazon-2026-6",
+          "source": "www.businessinsider.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-21T11:25:28.635000Z"
+        },
+        {
+          "id": "a26f40da00dcf66ac3817d9cd9173cf721fdf99f",
+          "title": "科技从业者们利用夜晚和周末的时间学习新的AI工具。他们表示，自己别无选择，必须这么做。 / Tech workers are spending nights and weekends learning new AI tools. They say they can't afford not to.",
+          "url": "https://www.businessinsider.com/tech-workers-learning-ai-tools-after-work-productivity-jobs-amazon-2026-6",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-21T11:00:01Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Business Insider",
+        "www.businessinsider.com"
+      ],
+      "items": [
+        {
+          "id": "4557d39d0c9fd9d75ef7b8aa59fc9e1b93795bd1",
+          "title": "科技从业者们利用夜晚和周末的时间学习新的AI工具。他们表示，自己别无选择，必须这么做。",
+          "url": "https://www.businessinsider.com/tech-workers-learning-ai-tools-after-work-productivity-jobs-amazon-2026-6",
+          "source": "www.businessinsider.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-21T11:25:28.635000Z"
+        },
+        {
+          "id": "a26f40da00dcf66ac3817d9cd9173cf721fdf99f",
+          "title": "科技从业者们利用夜晚和周末的时间学习新的AI工具。他们表示，自己别无选择，必须这么做。 / Tech workers are spending nights and weekends learning new AI tools. They say they can't afford not to.",
+          "url": "https://www.businessinsider.com/tech-workers-learning-ai-tools-after-work-productivity-jobs-amazon-2026-6",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-21T11:00:01Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5386,
+      "importance": 0.5386,
+      "importance_score": 0.5386,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9598,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-21T11:00:01Z",
+      "latest_at": "2026-06-21T11:25:28.635000Z",
+      "primary_item": {
+        "id": "4557d39d0c9fd9d75ef7b8aa59fc9e1b93795bd1",
+        "title": "科技从业者们利用夜晚和周末的时间学习新的AI工具。他们表示，自己别无选择，必须这么做。",
+        "url": "https://www.businessinsider.com/tech-workers-learning-ai-tools-after-work-productivity-jobs-amazon-2026-6",
+        "source": "www.businessinsider.com",
+        "source_name": "Buzzing"
       }
     },
     {
@@ -803,15 +901,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.543,
-      "importance": 0.543,
-      "importance_score": 0.543,
+      "score": 0.5372,
+      "importance": 0.5372,
+      "importance_score": 0.5372,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9843,
+        "recency": 0.9524,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -825,85 +923,6 @@
         "title": "人工智能会毁掉我们的技能吗？初步结果已经出炉，情况并不乐观",
         "url": "https://www.nature.com/articles/d41586-026-01947-1",
         "source": "www.nature.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_2b7ea3e84afb",
-      "title": "我研究深度伪造技术已有二十年。人工智能的发展使得人们几乎无法分辨真假。",
-      "url": "https://www.businessinsider.com/deepfake-expert-ai-video-images-hard-to-know-whats-real-2026-6",
-      "primary_url": "https://www.businessinsider.com/deepfake-expert-ai-video-images-hard-to-know-whats-real-2026-6",
-      "source": "www.businessinsider.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "85d335af887e8f67d5b5a1ed6afe70d906946826",
-          "title": "我研究深度伪造技术已有二十年。人工智能的发展使得人们几乎无法分辨真假。",
-          "url": "https://www.businessinsider.com/deepfake-expert-ai-video-images-hard-to-know-whats-real-2026-6",
-          "source": "www.businessinsider.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-21T09:49:13.061000Z"
-        },
-        {
-          "id": "2f31b815e50a0f3a786a4a48a5f3a80017f565dc",
-          "title": "我研究深度伪造技术已有二十年。人工智能的发展使得人们几乎无法分辨真假。 / I've studied deepfakes for more than 25 years. Here's why AI is making it nearly impossible for you to know what's real.",
-          "url": "https://www.businessinsider.com/deepfake-expert-ai-video-images-hard-to-know-whats-real-2026-6",
-          "source": "Business Insider",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-21T09:41:01Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Business Insider",
-        "www.businessinsider.com"
-      ],
-      "items": [
-        {
-          "id": "85d335af887e8f67d5b5a1ed6afe70d906946826",
-          "title": "我研究深度伪造技术已有二十年。人工智能的发展使得人们几乎无法分辨真假。",
-          "url": "https://www.businessinsider.com/deepfake-expert-ai-video-images-hard-to-know-whats-real-2026-6",
-          "source": "www.businessinsider.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-21T09:49:13.061000Z"
-        },
-        {
-          "id": "2f31b815e50a0f3a786a4a48a5f3a80017f565dc",
-          "title": "我研究深度伪造技术已有二十年。人工智能的发展使得人们几乎无法分辨真假。 / I've studied deepfakes for more than 25 years. Here's why AI is making it nearly impossible for you to know what's real.",
-          "url": "https://www.businessinsider.com/deepfake-expert-ai-video-images-hard-to-know-whats-real-2026-6",
-          "source": "Business Insider",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-21T09:41:01Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5403,
-      "importance": 0.5403,
-      "importance_score": 0.5403,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9693,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-21T09:41:01Z",
-      "latest_at": "2026-06-21T09:49:13.061000Z",
-      "primary_item": {
-        "id": "85d335af887e8f67d5b5a1ed6afe70d906946826",
-        "title": "我研究深度伪造技术已有二十年。人工智能的发展使得人们几乎无法分辨真假。",
-        "url": "https://www.businessinsider.com/deepfake-expert-ai-video-images-hard-to-know-whats-real-2026-6",
-        "source": "www.businessinsider.com",
         "source_name": "Buzzing"
       }
     },
@@ -961,15 +980,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5389,
-      "importance": 0.5389,
-      "importance_score": 0.5389,
+      "score": 0.5333,
+      "importance": 0.5333,
+      "importance_score": 0.5333,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9618,
+        "recency": 0.9306,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1040,15 +1059,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5359,
-      "importance": 0.5359,
-      "importance_score": 0.5359,
+      "score": 0.5316,
+      "importance": 0.5316,
+      "importance_score": 0.5316,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.4824,
         "source_tier": 0.45,
         "ai_relevance": 0.67,
-        "recency": 0.74,
+        "recency": 0.716,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1119,15 +1138,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5359,
-      "importance": 0.5359,
-      "importance_score": 0.5359,
+      "score": 0.5316,
+      "importance": 0.5316,
+      "importance_score": 0.5316,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.4824,
         "source_tier": 0.45,
         "ai_relevance": 0.67,
-        "recency": 0.7401,
+        "recency": 0.716,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1216,15 +1235,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5314,
-      "importance": 0.5314,
-      "importance_score": 0.5314,
+      "score": 0.5269,
+      "importance": 0.5269,
+      "importance_score": 0.5269,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7813,
+        "recency": 0.7559,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1295,15 +1314,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.528,
-      "importance": 0.528,
-      "importance_score": 0.528,
+      "score": 0.5227,
+      "importance": 0.5227,
+      "importance_score": 0.5227,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9009,
+        "recency": 0.8716,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1374,15 +1393,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5261,
-      "importance": 0.5261,
-      "importance_score": 0.5261,
+      "score": 0.5209,
+      "importance": 0.5209,
+      "importance_score": 0.5209,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8906,
+        "recency": 0.8617,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1453,15 +1472,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5212,
-      "importance": 0.5212,
-      "importance_score": 0.5212,
+      "score": 0.5162,
+      "importance": 0.5162,
+      "importance_score": 0.5162,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8636,
+        "recency": 0.8355,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1476,6 +1495,85 @@
         "url": "https://macrocodex.app",
         "source": "macrocodex.app",
         "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_6d0cd62ad09e",
+      "title": "Anthropic 从 7 月 8 日起要求对某些功能进行身份验证 / Anthropic to Require ID Verification for Certain Capabilities Starting July 8",
+      "url": "https://news.ycombinator.com/item?id=48618455",
+      "primary_url": "https://news.ycombinator.com/item?id=48618455",
+      "source": "hackernews",
+      "source_name": "NewsNow",
+      "sources": [
+        {
+          "id": "dede4f5255c767a65c1abfc1e7125daa5289ca44",
+          "title": "Anthropic 从 7 月 8 日起要求对某些功能进行身份验证 / Anthropic to Require ID Verification for Certain Capabilities Starting July 8",
+          "url": "https://news.ycombinator.com/item?id=48618455",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-21T13:55:18.107000Z"
+        },
+        {
+          "id": "98c4126f68fee956c8a8d24608e819209ed90f64",
+          "title": "Anthropic 从 7 月 8 日起要求对某些功能进行身份验证 / Anthropic to Require ID Verification for Certain Capabilities Starting July 8",
+          "url": "https://old.reddit.com/r/ClaudeAI/comments/1ubm53n/official_anthropic_to_require_identity",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-21T12:44:13Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News · 24h最热",
+        "hackernews"
+      ],
+      "items": [
+        {
+          "id": "dede4f5255c767a65c1abfc1e7125daa5289ca44",
+          "title": "Anthropic 从 7 月 8 日起要求对某些功能进行身份验证 / Anthropic to Require ID Verification for Certain Capabilities Starting July 8",
+          "url": "https://news.ycombinator.com/item?id=48618455",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-21T13:55:18.107000Z"
+        },
+        {
+          "id": "98c4126f68fee956c8a8d24608e819209ed90f64",
+          "title": "Anthropic 从 7 月 8 日起要求对某些功能进行身份验证 / Anthropic to Require ID Verification for Certain Capabilities Starting July 8",
+          "url": "https://old.reddit.com/r/ClaudeAI/comments/1ubm53n/official_anthropic_to_require_identity",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-21T12:44:13Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5449,
+      "importance": 0.5449,
+      "importance_score": 0.5449,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.995,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-21T12:44:13Z",
+      "latest_at": "2026-06-21T13:55:18.107000Z",
+      "primary_item": {
+        "id": "dede4f5255c767a65c1abfc1e7125daa5289ca44",
+        "title": "Anthropic 从 7 月 8 日起要求对某些功能进行身份验证 / Anthropic to Require ID Verification for Certain Capabilities Starting July 8",
+        "url": "https://news.ycombinator.com/item?id=48618455",
+        "source": "hackernews",
+        "source_name": "NewsNow"
       }
     },
     {
@@ -1532,15 +1630,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5458,
-      "importance": 0.5458,
-      "importance_score": 0.5458,
+      "score": 0.54,
+      "importance": 0.54,
+      "importance_score": 0.54,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 1.0,
+        "recency": 0.9677,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1555,84 +1653,6 @@
         "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
         "source": "github",
         "source_name": "NewsNow"
-      }
-    },
-    {
-      "story_id": "story_556f0a7eda04",
-      "title": "从图书馆租用缝纫机 / Not just books: renting a sewing machine from the library can improve democracy",
-      "url": "https://www.bbc.com/future/article/20260618-the-weird-and-wonderful-libraries-of-finland",
-      "primary_url": "https://www.bbc.com/future/article/20260618-the-weird-and-wonderful-libraries-of-finland",
-      "source": "Hacker News · 24h最热",
-      "source_name": "Zeli",
-      "sources": [
-        {
-          "id": "e844eb5907042ae4890a401102eb4d875d0522a4",
-          "title": "从图书馆租用缝纫机 / Not just books: renting a sewing machine from the library can improve democracy",
-          "url": "https://www.bbc.com/future/article/20260618-the-weird-and-wonderful-libraries-of-finland",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-20T22:54:11Z"
-        },
-        {
-          "id": "2129afe403447f87236953853ae938bd43822789",
-          "title": "从图书馆租用缝纫机 / Renting a sewing machine from the library",
-          "url": "https://www.bbc.com/future/article/20260618-the-weird-and-wonderful-libraries-of-finland",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-20T22:54:11Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News · 24h最热"
-      ],
-      "items": [
-        {
-          "id": "e844eb5907042ae4890a401102eb4d875d0522a4",
-          "title": "从图书馆租用缝纫机 / Not just books: renting a sewing machine from the library can improve democracy",
-          "url": "https://www.bbc.com/future/article/20260618-the-weird-and-wonderful-libraries-of-finland",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-20T22:54:11Z"
-        },
-        {
-          "id": "2129afe403447f87236953853ae938bd43822789",
-          "title": "从图书馆租用缝纫机 / Renting a sewing machine from the library",
-          "url": "https://www.bbc.com/future/article/20260618-the-weird-and-wonderful-libraries-of-finland",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-20T22:54:11Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5148,
-      "importance": 0.5148,
-      "importance_score": 0.5148,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8279,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-20T22:54:11Z",
-      "latest_at": "2026-06-20T22:54:11Z",
-      "primary_item": {
-        "id": "e844eb5907042ae4890a401102eb4d875d0522a4",
-        "title": "从图书馆租用缝纫机 / Not just books: renting a sewing machine from the library can improve democracy",
-        "url": "https://www.bbc.com/future/article/20260618-the-weird-and-wonderful-libraries-of-finland",
-        "source": "Hacker News · 24h最热",
-        "source_name": "Zeli"
       }
     }
   ]
