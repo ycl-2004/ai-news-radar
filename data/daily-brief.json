@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T01:34:36.951223Z",
+  "generated_at": "2026-06-22T01:51:46.185070Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -38,15 +38,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8614,
-      "importance": 0.8614,
-      "importance_score": 0.8614,
+      "score": 0.8607,
+      "importance": 0.8607,
+      "importance_score": 0.8607,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.99,
-        "recency": 0.9635,
+        "recency": 0.9595,
         "story_heat": 0.0
       },
       "category": "official",
@@ -66,26 +66,26 @@
       }
     },
     {
-      "story_id": "story_7ed4fb2323bf",
-      "title": "​Getty Images携手OpenAI达成合作 正版图库内容接入ChatGPT检索场景",
-      "url": "https://www.aibase.com/news/29024",
-      "primary_url": "https://www.aibase.com/news/29024",
+      "story_id": "story_1c79584e7855",
+      "title": "AI 进化的下一块拼图：GPT-5.6 或于下周登场，主打“Agent”级操作能力",
+      "url": "https://www.aibase.com/news/29029",
+      "primary_url": "https://www.aibase.com/news/29029",
       "source": "AIbase",
       "source_name": "AIbase",
       "sources": [
         {
-          "id": "b7e5b2b8fd2524b4c148e309d3b4ad9d0b16e041",
-          "title": "​Getty Images携手OpenAI达成合作 正版图库内容接入ChatGPT检索场景",
-          "url": "https://www.aibase.com/news/29024",
+          "id": "a37138863d4beafe577795dc7c456c17499f6bb6",
+          "title": "AI 进化的下一块拼图：GPT-5.6 或于下周登场，主打“Agent”级操作能力",
+          "url": "https://www.aibase.com/news/29029",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
           "published_at": "2026-06-22T01:31:31.705209Z"
         },
         {
-          "id": "75ea438dbd2315e3b274fa0f8fc897e94de22e2a",
-          "title": "​Getty Images 携手 OpenAI 达成合作 正版图库内容接入 ChatGPT 检索场景",
-          "url": "https://www.aibase.com/zh/news/29024",
+          "id": "035e7ae2326467fba532341f4113fe7366eec054",
+          "title": "AI 进化的下一块拼图：GPT-5.6 或于下周登场，主打「Agent」级操作能力",
+          "url": "https://www.aibase.com/zh/news/29029",
           "source": "Readhub · AI",
           "source_name": "TopHub",
           "site_id": "tophub",
@@ -99,18 +99,18 @@
       ],
       "items": [
         {
-          "id": "b7e5b2b8fd2524b4c148e309d3b4ad9d0b16e041",
-          "title": "​Getty Images携手OpenAI达成合作 正版图库内容接入ChatGPT检索场景",
-          "url": "https://www.aibase.com/news/29024",
+          "id": "a37138863d4beafe577795dc7c456c17499f6bb6",
+          "title": "AI 进化的下一块拼图：GPT-5.6 或于下周登场，主打“Agent”级操作能力",
+          "url": "https://www.aibase.com/news/29029",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
           "published_at": "2026-06-22T01:31:31.705209Z"
         },
         {
-          "id": "75ea438dbd2315e3b274fa0f8fc897e94de22e2a",
-          "title": "​Getty Images 携手 OpenAI 达成合作 正版图库内容接入 ChatGPT 检索场景",
-          "url": "https://www.aibase.com/zh/news/29024",
+          "id": "035e7ae2326467fba532341f4113fe7366eec054",
+          "title": "AI 进化的下一块拼图：GPT-5.6 或于下周登场，主打「Agent」级操作能力",
+          "url": "https://www.aibase.com/zh/news/29029",
           "source": "Readhub · AI",
           "source_name": "TopHub",
           "site_id": "tophub",
@@ -119,15 +119,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7925,
-      "importance": 0.7925,
-      "importance_score": 0.7925,
+      "score": 0.7917,
+      "importance": 0.7917,
+      "importance_score": 0.7917,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9993,
+        "recency": 0.9951,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -137,11 +137,11 @@
         "high_importance"
       ],
       "earliest_at": "2026-06-22T01:31:31.705209Z",
-      "latest_at": "2026-06-22T01:31:31.705209Z",
+      "latest_at": "2026-06-22T01:51:46.185070Z",
       "primary_item": {
-        "id": "b7e5b2b8fd2524b4c148e309d3b4ad9d0b16e041",
-        "title": "​Getty Images携手OpenAI达成合作 正版图库内容接入ChatGPT检索场景",
-        "url": "https://www.aibase.com/news/29024",
+        "id": "a37138863d4beafe577795dc7c456c17499f6bb6",
+        "title": "AI 进化的下一块拼图：GPT-5.6 或于下周登场，主打“Agent”级操作能力",
+        "url": "https://www.aibase.com/news/29029",
         "source": "AIbase",
         "source_name": "AIbase"
       }
@@ -200,15 +200,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7836,
-      "importance": 0.7836,
-      "importance_score": 0.7836,
+      "score": 0.7829,
+      "importance": 0.7829,
+      "importance_score": 0.7829,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9499,
+        "recency": 0.946,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -262,15 +262,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7673,
-      "importance": 0.7673,
-      "importance_score": 0.7673,
+      "score": 0.7667,
+      "importance": 0.7667,
+      "importance_score": 0.7667,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.8,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.865,
+        "recency": 0.8614,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -285,6 +285,147 @@
         "title": "NSA局长：Mythos数小时内攻破其几乎所有机密系统",
         "url": "https://x.com/AISafetyMemes/status/2068718552174252477",
         "source": "X：AI Safety Memes (@AISafetyMemes)",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_7ed4fb2323bf",
+      "title": "​Getty Images携手OpenAI达成合作 正版图库内容接入ChatGPT检索场景",
+      "url": "https://www.aibase.com/news/29024",
+      "primary_url": "https://www.aibase.com/news/29024",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "b7e5b2b8fd2524b4c148e309d3b4ad9d0b16e041",
+          "title": "​Getty Images携手OpenAI达成合作 正版图库内容接入ChatGPT检索场景",
+          "url": "https://www.aibase.com/news/29024",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-22T01:31:31.705209Z"
+        },
+        {
+          "id": "75ea438dbd2315e3b274fa0f8fc897e94de22e2a",
+          "title": "​Getty Images 携手 OpenAI 达成合作 正版图库内容接入 ChatGPT 检索场景",
+          "url": "https://www.aibase.com/zh/news/29024",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "AIbase",
+        "Readhub · AI"
+      ],
+      "items": [
+        {
+          "id": "b7e5b2b8fd2524b4c148e309d3b4ad9d0b16e041",
+          "title": "​Getty Images携手OpenAI达成合作 正版图库内容接入ChatGPT检索场景",
+          "url": "https://www.aibase.com/news/29024",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-22T01:31:31.705209Z"
+        },
+        {
+          "id": "75ea438dbd2315e3b274fa0f8fc897e94de22e2a",
+          "title": "​Getty Images 携手 OpenAI 达成合作 正版图库内容接入 ChatGPT 检索场景",
+          "url": "https://www.aibase.com/zh/news/29024",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7917,
+      "importance": 0.7917,
+      "importance_score": 0.7917,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9951,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-22T01:31:31.705209Z",
+      "latest_at": "2026-06-22T01:31:31.705209Z",
+      "primary_item": {
+        "id": "b7e5b2b8fd2524b4c148e309d3b4ad9d0b16e041",
+        "title": "​Getty Images携手OpenAI达成合作 正版图库内容接入ChatGPT检索场景",
+        "url": "https://www.aibase.com/news/29024",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_a0aef8c4c60a",
+      "title": "美团tabbit国际版免费接入GPT-5.5/Claude Opus 4.8等旗舰模型",
+      "url": "https://x.com/AYi_AInotes/status/2068637890247016607",
+      "primary_url": "https://x.com/AYi_AInotes/status/2068637890247016607",
+      "source": "X：阿易 AI Notes (@AYi_AInotes)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "efbfd8b5170262b75a10750125292b5fc49d528b",
+          "title": "美团tabbit国际版免费接入GPT-5.5/Claude Opus 4.8等旗舰模型",
+          "url": "https://x.com/AYi_AInotes/status/2068637890247016607",
+          "source": "X：阿易 AI Notes (@AYi_AInotes)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-21T10:11:21Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "X：阿易 AI Notes (@AYi_AInotes)"
+      ],
+      "items": [
+        {
+          "id": "efbfd8b5170262b75a10750125292b5fc49d528b",
+          "title": "美团tabbit国际版免费接入GPT-5.5/Claude Opus 4.8等旗舰模型",
+          "url": "https://x.com/AYi_AInotes/status/2068637890247016607",
+          "source": "X：阿易 AI Notes (@AYi_AInotes)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-21T10:11:21Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7491,
+      "importance": 0.7491,
+      "importance_score": 0.7491,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.78,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7974,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-06-21T10:11:21Z",
+      "latest_at": "2026-06-21T10:11:21Z",
+      "primary_item": {
+        "id": "efbfd8b5170262b75a10750125292b5fc49d528b",
+        "title": "美团tabbit国际版免费接入GPT-5.5/Claude Opus 4.8等旗舰模型",
+        "url": "https://x.com/AYi_AInotes/status/2068637890247016607",
+        "source": "X：阿易 AI Notes (@AYi_AInotes)",
         "source_name": "AI HOT"
       }
     },
@@ -342,15 +483,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7925,
-      "importance": 0.7925,
-      "importance_score": 0.7925,
+      "score": 0.7917,
+      "importance": 0.7917,
+      "importance_score": 0.7917,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9993,
+        "recency": 0.9951,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -370,81 +511,21 @@
       }
     },
     {
-      "story_id": "story_a0aef8c4c60a",
-      "title": "美团tabbit国际版免费接入GPT-5.5/Claude Opus 4.8等旗舰模型",
-      "url": "https://x.com/AYi_AInotes/status/2068637890247016607",
-      "primary_url": "https://x.com/AYi_AInotes/status/2068637890247016607",
-      "source": "X：阿易 AI Notes (@AYi_AInotes)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "efbfd8b5170262b75a10750125292b5fc49d528b",
-          "title": "美团tabbit国际版免费接入GPT-5.5/Claude Opus 4.8等旗舰模型",
-          "url": "https://x.com/AYi_AInotes/status/2068637890247016607",
-          "source": "X：阿易 AI Notes (@AYi_AInotes)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-21T10:11:21Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：阿易 AI Notes (@AYi_AInotes)"
-      ],
-      "items": [
-        {
-          "id": "efbfd8b5170262b75a10750125292b5fc49d528b",
-          "title": "美团tabbit国际版免费接入GPT-5.5/Claude Opus 4.8等旗舰模型",
-          "url": "https://x.com/AYi_AInotes/status/2068637890247016607",
-          "source": "X：阿易 AI Notes (@AYi_AInotes)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-21T10:11:21Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7497,
-      "importance": 0.7497,
-      "importance_score": 0.7497,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.78,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8007,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-21T10:11:21Z",
-      "latest_at": "2026-06-21T10:11:21Z",
-      "primary_item": {
-        "id": "efbfd8b5170262b75a10750125292b5fc49d528b",
-        "title": "美团tabbit国际版免费接入GPT-5.5/Claude Opus 4.8等旗舰模型",
-        "url": "https://x.com/AYi_AInotes/status/2068637890247016607",
-        "source": "X：阿易 AI Notes (@AYi_AInotes)",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_1c79584e7855",
-      "title": "AI 进化的下一块拼图：GPT-5.6 或于下周登场，主打“Agent”级操作能力",
-      "url": "https://www.aibase.com/news/29029",
-      "primary_url": "https://www.aibase.com/news/29029",
+      "story_id": "story_05ef536d0c01",
+      "title": "AI人才争夺战再起：谷歌Gemini负责人沙泽尔转投OpenAI",
+      "url": "https://www.aibase.com/news/29031",
+      "primary_url": "https://www.aibase.com/news/29031",
       "source": "AIbase",
       "source_name": "AIbase",
       "sources": [
         {
-          "id": "a37138863d4beafe577795dc7c456c17499f6bb6",
-          "title": "AI 进化的下一块拼图：GPT-5.6 或于下周登场，主打“Agent”级操作能力",
-          "url": "https://www.aibase.com/news/29029",
+          "id": "f2b56c0020de3d3e487804757d4c70c9390a63d0",
+          "title": "AI人才争夺战再起：谷歌Gemini负责人沙泽尔转投OpenAI",
+          "url": "https://www.aibase.com/news/29031",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-06-22T01:31:31.705209Z"
+          "published_at": "2026-06-22T01:51:46.185070Z"
         }
       ],
       "source_count": 1,
@@ -453,26 +534,26 @@
       ],
       "items": [
         {
-          "id": "a37138863d4beafe577795dc7c456c17499f6bb6",
-          "title": "AI 进化的下一块拼图：GPT-5.6 或于下周登场，主打“Agent”级操作能力",
-          "url": "https://www.aibase.com/news/29029",
+          "id": "f2b56c0020de3d3e487804757d4c70c9390a63d0",
+          "title": "AI人才争夺战再起：谷歌Gemini负责人沙泽尔转投OpenAI",
+          "url": "https://www.aibase.com/news/29031",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-06-22T01:31:31.705209Z"
+          "published_at": "2026-06-22T01:51:46.185070Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7675,
-      "importance": 0.7675,
-      "importance_score": 0.7675,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9993,
+        "recency": 1.0,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -480,12 +561,73 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-06-22T01:31:31.705209Z",
-      "latest_at": "2026-06-22T01:31:31.705209Z",
+      "earliest_at": "2026-06-22T01:51:46.185070Z",
+      "latest_at": "2026-06-22T01:51:46.185070Z",
       "primary_item": {
-        "id": "a37138863d4beafe577795dc7c456c17499f6bb6",
-        "title": "AI 进化的下一块拼图：GPT-5.6 或于下周登场，主打“Agent”级操作能力",
-        "url": "https://www.aibase.com/news/29029",
+        "id": "f2b56c0020de3d3e487804757d4c70c9390a63d0",
+        "title": "AI人才争夺战再起：谷歌Gemini负责人沙泽尔转投OpenAI",
+        "url": "https://www.aibase.com/news/29031",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_8c7eee48f31a",
+      "title": "谷歌明星研究员接连出走，诺奖得主约翰·詹珀转投 Anthropic",
+      "url": "https://www.aibase.com/news/29030",
+      "primary_url": "https://www.aibase.com/news/29030",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "d6efb0f3c8ba320cde07b145cb1987edd2bf836c",
+          "title": "谷歌明星研究员接连出走，诺奖得主约翰·詹珀转投 Anthropic",
+          "url": "https://www.aibase.com/news/29030",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-22T01:51:46.185070Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "d6efb0f3c8ba320cde07b145cb1987edd2bf836c",
+          "title": "谷歌明星研究员接连出走，诺奖得主约翰·詹珀转投 Anthropic",
+          "url": "https://www.aibase.com/news/29030",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-22T01:51:46.185070Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-22T01:51:46.185070Z",
+      "latest_at": "2026-06-22T01:51:46.185070Z",
+      "primary_item": {
+        "id": "d6efb0f3c8ba320cde07b145cb1987edd2bf836c",
+        "title": "谷歌明星研究员接连出走，诺奖得主约翰·詹珀转投 Anthropic",
+        "url": "https://www.aibase.com/news/29030",
         "source": "AIbase",
         "source_name": "AIbase"
       }
@@ -525,15 +667,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7675,
-      "importance": 0.7675,
-      "importance_score": 0.7675,
+      "score": 0.7667,
+      "importance": 0.7667,
+      "importance_score": 0.7667,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9993,
+        "recency": 0.9951,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -547,128 +689,6 @@
         "id": "5dbbaf4b5ab5ccf346484145e2e8228975183014",
         "title": "Snap分拆生成式AI视频团队成立新公司Dotmo 缓解高昂研发成本压力",
         "url": "https://www.aibase.com/news/29027",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      }
-    },
-    {
-      "story_id": "story_7dd658cd5e19",
-      "title": "​借 AI 编造股市虚假信息引流牟利 四川南充一女子遭行政处罚",
-      "url": "https://www.aibase.com/news/29028",
-      "primary_url": "https://www.aibase.com/news/29028",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "f2ca30b00113b3f5e29aa798cccf872854c96334",
-          "title": "​借 AI 编造股市虚假信息引流牟利 四川南充一女子遭行政处罚",
-          "url": "https://www.aibase.com/news/29028",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-22T01:31:31.705209Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "f2ca30b00113b3f5e29aa798cccf872854c96334",
-          "title": "​借 AI 编造股市虚假信息引流牟利 四川南充一女子遭行政处罚",
-          "url": "https://www.aibase.com/news/29028",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-22T01:31:31.705209Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7675,
-      "importance": 0.7675,
-      "importance_score": 0.7675,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9993,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-22T01:31:31.705209Z",
-      "latest_at": "2026-06-22T01:31:31.705209Z",
-      "primary_item": {
-        "id": "f2ca30b00113b3f5e29aa798cccf872854c96334",
-        "title": "​借 AI 编造股市虚假信息引流牟利 四川南充一女子遭行政处罚",
-        "url": "https://www.aibase.com/news/29028",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      }
-    },
-    {
-      "story_id": "story_992c0833980e",
-      "title": "苹果iOS27绕开传统对话式AI:系统级无感化智能成手机系统新趋势",
-      "url": "https://www.aibase.com/news/29026",
-      "primary_url": "https://www.aibase.com/news/29026",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "e5a3bcf139f218b2e4d23431c098a39052907f65",
-          "title": "苹果iOS27绕开传统对话式AI:系统级无感化智能成手机系统新趋势",
-          "url": "https://www.aibase.com/news/29026",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-22T01:31:31.705209Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "e5a3bcf139f218b2e4d23431c098a39052907f65",
-          "title": "苹果iOS27绕开传统对话式AI:系统级无感化智能成手机系统新趋势",
-          "url": "https://www.aibase.com/news/29026",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-22T01:31:31.705209Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7675,
-      "importance": 0.7675,
-      "importance_score": 0.7675,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9993,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-22T01:31:31.705209Z",
-      "latest_at": "2026-06-22T01:31:31.705209Z",
-      "primary_item": {
-        "id": "e5a3bcf139f218b2e4d23431c098a39052907f65",
-        "title": "苹果iOS27绕开传统对话式AI:系统级无感化智能成手机系统新趋势",
-        "url": "https://www.aibase.com/news/29026",
         "source": "AIbase",
         "source_name": "AIbase"
       }
@@ -744,15 +764,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.6006,
-      "importance": 0.6006,
-      "importance_score": 0.6006,
+      "score": 0.6,
+      "importance": 0.6,
+      "importance_score": 0.6,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.54,
         "ai_relevance": 0.65,
-        "recency": 0.8969,
+        "recency": 0.8932,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -860,15 +880,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.5957,
-      "importance": 0.5957,
-      "importance_score": 0.5957,
+      "score": 0.5949,
+      "importance": 0.5949,
+      "importance_score": 0.5949,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9994,
+        "recency": 0.9953,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -886,17 +906,17 @@
       }
     },
     {
-      "story_id": "story_6eed9a859336",
-      "title": "视觉盛宴接入 AI：Getty Images 与 OpenAI 达成战略授权合作",
-      "url": "https://www.aibase.com/news/29023",
-      "primary_url": "https://www.aibase.com/news/29023",
+      "story_id": "story_7dd658cd5e19",
+      "title": "​借 AI 编造股市虚假信息引流牟利 四川南充一女子遭行政处罚",
+      "url": "https://www.aibase.com/news/29028",
+      "primary_url": "https://www.aibase.com/news/29028",
       "source": "AIbase",
       "source_name": "AIbase",
       "sources": [
         {
-          "id": "9bb36451af8abfe871191a798128a769eb8901c3",
-          "title": "视觉盛宴接入 AI：Getty Images 与 OpenAI 达成战略授权合作",
-          "url": "https://www.aibase.com/news/29023",
+          "id": "f2ca30b00113b3f5e29aa798cccf872854c96334",
+          "title": "​借 AI 编造股市虚假信息引流牟利 四川南充一女子遭行政处罚",
+          "url": "https://www.aibase.com/news/29028",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
@@ -909,9 +929,9 @@
       ],
       "items": [
         {
-          "id": "9bb36451af8abfe871191a798128a769eb8901c3",
-          "title": "视觉盛宴接入 AI：Getty Images 与 OpenAI 达成战略授权合作",
-          "url": "https://www.aibase.com/news/29023",
+          "id": "f2ca30b00113b3f5e29aa798cccf872854c96334",
+          "title": "​借 AI 编造股市虚假信息引流牟利 四川南充一女子遭行政处罚",
+          "url": "https://www.aibase.com/news/29028",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
@@ -920,15 +940,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7675,
-      "importance": 0.7675,
-      "importance_score": 0.7675,
+      "score": 0.7667,
+      "importance": 0.7667,
+      "importance_score": 0.7667,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9993,
+        "recency": 0.9951,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -939,9 +959,9 @@
       "earliest_at": "2026-06-22T01:31:31.705209Z",
       "latest_at": "2026-06-22T01:31:31.705209Z",
       "primary_item": {
-        "id": "9bb36451af8abfe871191a798128a769eb8901c3",
-        "title": "视觉盛宴接入 AI：Getty Images 与 OpenAI 达成战略授权合作",
-        "url": "https://www.aibase.com/news/29023",
+        "id": "f2ca30b00113b3f5e29aa798cccf872854c96334",
+        "title": "​借 AI 编造股市虚假信息引流牟利 四川南充一女子遭行政处罚",
+        "url": "https://www.aibase.com/news/29028",
         "source": "AIbase",
         "source_name": "AIbase"
       }
@@ -1019,15 +1039,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5652,
-      "importance": 0.5652,
-      "importance_score": 0.5652,
+      "score": 0.5645,
+      "importance": 0.5645,
+      "importance_score": 0.5645,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9691,
+        "recency": 0.9651,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1042,6 +1062,67 @@
         "url": "https://apertvs.ai",
         "source": "apertvs.ai",
         "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_992c0833980e",
+      "title": "苹果iOS27绕开传统对话式AI:系统级无感化智能成手机系统新趋势",
+      "url": "https://www.aibase.com/news/29026",
+      "primary_url": "https://www.aibase.com/news/29026",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "e5a3bcf139f218b2e4d23431c098a39052907f65",
+          "title": "苹果iOS27绕开传统对话式AI:系统级无感化智能成手机系统新趋势",
+          "url": "https://www.aibase.com/news/29026",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-22T01:31:31.705209Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "e5a3bcf139f218b2e4d23431c098a39052907f65",
+          "title": "苹果iOS27绕开传统对话式AI:系统级无感化智能成手机系统新趋势",
+          "url": "https://www.aibase.com/news/29026",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-22T01:31:31.705209Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7667,
+      "importance": 0.7667,
+      "importance_score": 0.7667,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9951,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-22T01:31:31.705209Z",
+      "latest_at": "2026-06-22T01:31:31.705209Z",
+      "primary_item": {
+        "id": "e5a3bcf139f218b2e4d23431c098a39052907f65",
+        "title": "苹果iOS27绕开传统对话式AI:系统级无感化智能成手机系统新趋势",
+        "url": "https://www.aibase.com/news/29026",
+        "source": "AIbase",
+        "source_name": "AIbase"
       }
     },
     {
@@ -1135,15 +1216,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.5819,
-      "importance": 0.5819,
-      "importance_score": 0.5819,
+      "score": 0.5812,
+      "importance": 0.5812,
+      "importance_score": 0.5812,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9229,
+        "recency": 0.9191,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -1214,15 +1295,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5457,
-      "importance": 0.5457,
-      "importance_score": 0.5457,
+      "score": 0.5449,
+      "importance": 0.5449,
+      "importance_score": 0.5449,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9993,
+        "recency": 0.9951,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1292,15 +1373,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5365,
-      "importance": 0.5365,
-      "importance_score": 0.5365,
+      "score": 0.5358,
+      "importance": 0.5358,
+      "importance_score": 0.5358,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9484,
+        "recency": 0.9445,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1390,15 +1471,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5342,
-      "importance": 0.5342,
-      "importance_score": 0.5342,
+      "score": 0.5336,
+      "importance": 0.5336,
+      "importance_score": 0.5336,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7965,
+        "recency": 0.7932,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1469,15 +1550,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5324,
-      "importance": 0.5324,
-      "importance_score": 0.5324,
+      "score": 0.5317,
+      "importance": 0.5317,
+      "importance_score": 0.5317,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9254,
+        "recency": 0.9216,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1491,85 +1572,6 @@
         "title": "什么是GLM-5.2？又一款开源的中国AI模型引起了硅谷的关注。",
         "url": "https://www.businessinsider.com/what-is-glm-5-2-chinese-ai-coding-model-2026-6",
         "source": "www.businessinsider.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_15205fd2aacf",
-      "title": "关于当前艺术作品中出现的LLM中毒现象，有什么建议吗？",
-      "url": "https://lobste.rs/s/lbjdlo/what_s_advice_for_llm_poisoning_artwork",
-      "primary_url": "https://lobste.rs/s/lbjdlo/what_s_advice_for_llm_poisoning_artwork",
-      "source": "lobste.rs",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "5d5c463067c240ea404cd51383a3be940844dd6d",
-          "title": "关于当前艺术作品中出现的LLM中毒现象，有什么建议吗？",
-          "url": "https://lobste.rs/s/lbjdlo/what_s_advice_for_llm_poisoning_artwork",
-          "source": "lobste.rs",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-21T20:12:23.872000Z"
-        },
-        {
-          "id": "97dd14f1bd766b571d716db1318f56619a206ae0",
-          "title": "关于当前艺术作品中出现的LLM中毒现象，有什么建议吗？ / What's the advice for LLM poisoning of artwork these days?",
-          "url": "https://lobste.rs/s/lbjdlo/what_s_advice_for_llm_poisoning_artwork",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-21T19:57:17Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Lobsters (技术社区)",
-        "lobste.rs"
-      ],
-      "items": [
-        {
-          "id": "5d5c463067c240ea404cd51383a3be940844dd6d",
-          "title": "关于当前艺术作品中出现的LLM中毒现象，有什么建议吗？",
-          "url": "https://lobste.rs/s/lbjdlo/what_s_advice_for_llm_poisoning_artwork",
-          "source": "lobste.rs",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-21T20:12:23.872000Z"
-        },
-        {
-          "id": "97dd14f1bd766b571d716db1318f56619a206ae0",
-          "title": "关于当前艺术作品中出现的LLM中毒现象，有什么建议吗？ / What's the advice for LLM poisoning of artwork these days?",
-          "url": "https://lobste.rs/s/lbjdlo/what_s_advice_for_llm_poisoning_artwork",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-21T19:57:17Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5324,
-      "importance": 0.5324,
-      "importance_score": 0.5324,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9254,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-21T19:57:17Z",
-      "latest_at": "2026-06-21T20:12:23.872000Z",
-      "primary_item": {
-        "id": "5d5c463067c240ea404cd51383a3be940844dd6d",
-        "title": "关于当前艺术作品中出现的LLM中毒现象，有什么建议吗？",
-        "url": "https://lobste.rs/s/lbjdlo/what_s_advice_for_llm_poisoning_artwork",
-        "source": "lobste.rs",
         "source_name": "Buzzing"
       }
     }
