@@ -1,145 +1,8 @@
 {
-  "generated_at": "2026-06-22T21:18:42.510070Z",
+  "generated_at": "2026-06-22T22:59:31.353284Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
-    {
-      "story_id": "story_72e247ee906f",
-      "title": "Show HN：Oak--专为代理设计的 Git 替代方案",
-      "url": "https://oak.space/oak/oak",
-      "primary_url": "https://oak.space/oak/oak",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "da3fab35ef43007ec3565732d3de24dfcce7eef9",
-          "title": "Show HN：Oak--专为代理设计的 Git 替代方案",
-          "url": "https://oak.space/oak/oak",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-22T21:00:09.808000Z"
-        },
-        {
-          "id": "c49703343289304e950aa718d749f947186da345",
-          "title": "Show HN：Oak – 专为代理设计的 Git 替代方案 / Show HN: Oak – Git alternative designed for agents",
-          "url": "https://news.ycombinator.com/item?id=48631726",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-22T20:53:07.593000Z"
-        },
-        {
-          "id": "a2e801a509db7942693d3773582a00abd57084b5",
-          "title": "Show HN：Oak – 专为代理设计的 Git 替代品 / Show HN: Oak – Git replacement designed for agents",
-          "url": "https://news.ycombinator.com/item?id=48631726",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-22T17:52:43.116000Z"
-        },
-        {
-          "id": "82cbde6c31bdfaa899618a062587f9f96d8673b9",
-          "title": "Show HN：Oak--专为代理设计的 Git 替代方案 / Show HN: Oak – Git alternative designed for agents",
-          "url": "https://oak.space/oak/oak",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-22T15:37:48Z"
-        },
-        {
-          "id": "79e68df459b1f8e02efaf16be7b2bb3278e3e655",
-          "title": "Show HN：Oak--专为代理设计的 Git 替代方案 / Show HN: Oak – Git replacement designed for agents",
-          "url": "https://oak.space/oak/oak",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-22T15:37:48Z"
-        }
-      ],
-      "source_count": 5,
-      "source_names": [
-        "Hacker News (黑客新闻)",
-        "Hacker News · 24h最热",
-        "Hacker News 热门（buzzing.cc 中文翻译）",
-        "hackernews"
-      ],
-      "items": [
-        {
-          "id": "da3fab35ef43007ec3565732d3de24dfcce7eef9",
-          "title": "Show HN：Oak--专为代理设计的 Git 替代方案",
-          "url": "https://oak.space/oak/oak",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-22T21:00:09.808000Z"
-        },
-        {
-          "id": "c49703343289304e950aa718d749f947186da345",
-          "title": "Show HN：Oak – 专为代理设计的 Git 替代方案 / Show HN: Oak – Git alternative designed for agents",
-          "url": "https://news.ycombinator.com/item?id=48631726",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-22T20:53:07.593000Z"
-        },
-        {
-          "id": "a2e801a509db7942693d3773582a00abd57084b5",
-          "title": "Show HN：Oak – 专为代理设计的 Git 替代品 / Show HN: Oak – Git replacement designed for agents",
-          "url": "https://news.ycombinator.com/item?id=48631726",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-22T17:52:43.116000Z"
-        },
-        {
-          "id": "82cbde6c31bdfaa899618a062587f9f96d8673b9",
-          "title": "Show HN：Oak--专为代理设计的 Git 替代方案 / Show HN: Oak – Git alternative designed for agents",
-          "url": "https://oak.space/oak/oak",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-22T15:37:48Z"
-        },
-        {
-          "id": "79e68df459b1f8e02efaf16be7b2bb3278e3e655",
-          "title": "Show HN：Oak--专为代理设计的 Git 替代方案 / Show HN: Oak – Git replacement designed for agents",
-          "url": "https://oak.space/oak/oak",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-22T15:37:48Z"
-        }
-      ],
-      "item_count": 5,
-      "duplicate_count": 5,
-      "score": 0.8668,
-      "importance": 0.8668,
-      "importance_score": 0.8668,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9955,
-        "story_heat": 1.0
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-22T15:37:48Z",
-      "latest_at": "2026-06-22T21:00:09.808000Z",
-      "primary_item": {
-        "id": "da3fab35ef43007ec3565732d3de24dfcce7eef9",
-        "title": "Show HN：Oak--专为代理设计的 Git 替代方案",
-        "url": "https://oak.space/oak/oak",
-        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-        "source_name": "AI HOT"
-      }
-    },
     {
       "story_id": "story_76bfa22b1a42",
       "title": "JetBrains IDE 中的新功能和 Claude 作为代理提供商预览 / New features and Claude as agent provider preview in JetBrains IDEs",
@@ -175,15 +38,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8377,
-      "importance": 0.8377,
-      "importance_score": 0.8377,
+      "score": 0.8337,
+      "importance": 0.8337,
+      "importance_score": 0.8337,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.9204,
+        "recency": 0.8983,
         "story_heat": 0.0
       },
       "category": "official",
@@ -237,15 +100,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8184,
-      "importance": 0.8184,
-      "importance_score": 0.8184,
+      "score": 0.8153,
+      "importance": 0.8153,
+      "importance_score": 0.8153,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.99,
-        "recency": 0.7246,
+        "recency": 0.7072,
         "story_heat": 0.0
       },
       "category": "official",
@@ -262,6 +125,87 @@
         "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
         "source": "OpenAI News",
         "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_6b0918e46f53",
+      "title": "美国警长利用Flock车牌系统跟踪前女友案频发，Flock法务官承认\"最常见滥用\"",
+      "url": "https://ipvm.com/reports/police-chiefs-track",
+      "primary_url": "https://ipvm.com/reports/police-chiefs-track",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "8864c671b9c920cfaf71bd79239d682b6fbb7e7b",
+          "title": "美国警长利用Flock车牌系统跟踪前女友案频发，Flock法务官承认\"最常见滥用\"",
+          "url": "https://ipvm.com/reports/police-chiefs-track",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-22T21:32:12.384000Z"
+        },
+        {
+          "id": "6ac6db84fec5c7ca9a200c7df1470fa24e12c27e",
+          "title": "美国警长利用Flock车牌系统跟踪前女友案频发，Flock法务官承认\"最常见滥用\" / Flock-Powered Police Chiefs Stalking Women Shows Why Warrants Are Needed",
+          "url": "https://ipvm.com/reports/police-chiefs-track",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-22T19:13:46Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News · 24h最热",
+        "Hacker News 热门（buzzing.cc 中文翻译）"
+      ],
+      "items": [
+        {
+          "id": "8864c671b9c920cfaf71bd79239d682b6fbb7e7b",
+          "title": "美国警长利用Flock车牌系统跟踪前女友案频发，Flock法务官承认\"最常见滥用\"",
+          "url": "https://ipvm.com/reports/police-chiefs-track",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-22T21:32:12.384000Z"
+        },
+        {
+          "id": "6ac6db84fec5c7ca9a200c7df1470fa24e12c27e",
+          "title": "美国警长利用Flock车牌系统跟踪前女友案频发，Flock法务官承认\"最常见滥用\" / Flock-Powered Police Chiefs Stalking Women Shows Why Warrants Are Needed",
+          "url": "https://ipvm.com/reports/police-chiefs-track",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-22T19:13:46Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.8129,
+      "importance": 0.8129,
+      "importance_score": 0.8129,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.8,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9792,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-22T19:13:46Z",
+      "latest_at": "2026-06-22T21:32:12.384000Z",
+      "primary_item": {
+        "id": "8864c671b9c920cfaf71bd79239d682b6fbb7e7b",
+        "title": "美国警长利用Flock车牌系统跟踪前女友案频发，Flock法务官承认\"最常见滥用\"",
+        "url": "https://ipvm.com/reports/police-chiefs-track",
+        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "source_name": "AI HOT"
       }
     },
     {
@@ -299,15 +243,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7915,
-      "importance": 0.7915,
-      "importance_score": 0.7915,
+      "score": 0.7875,
+      "importance": 0.7875,
+      "importance_score": 0.7875,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.85,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9159,
+        "recency": 0.8939,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -379,15 +323,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7888,
-      "importance": 0.7888,
-      "importance_score": 0.7888,
+      "score": 0.7848,
+      "importance": 0.7848,
+      "importance_score": 0.7848,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9288,
+        "recency": 0.9065,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -403,6 +347,106 @@
         "title": "东京 AI 公司 Sakana AI 推出多智能体编排系统 Sakana Fugu",
         "url": "https://x.com/berryxia/status/2069090959938466298",
         "source": "X：Berry Xia (@berryxia)",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_72e247ee906f",
+      "title": "Show HN：Oak--专为代理设计的 Git 替代方案",
+      "url": "https://oak.space/oak/oak",
+      "primary_url": "https://oak.space/oak/oak",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "da3fab35ef43007ec3565732d3de24dfcce7eef9",
+          "title": "Show HN：Oak--专为代理设计的 Git 替代方案",
+          "url": "https://oak.space/oak/oak",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-22T21:00:09.808000Z"
+        },
+        {
+          "id": "82cbde6c31bdfaa899618a062587f9f96d8673b9",
+          "title": "Show HN：Oak--专为代理设计的 Git 替代方案 / Show HN: Oak – Git alternative designed for agents",
+          "url": "https://oak.space/oak/oak",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-22T15:37:48Z"
+        },
+        {
+          "id": "79e68df459b1f8e02efaf16be7b2bb3278e3e655",
+          "title": "Show HN：Oak--专为代理设计的 Git 替代方案 / Show HN: Oak – Git replacement designed for agents",
+          "url": "https://oak.space/oak/oak",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-22T15:37:48Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "Hacker News (黑客新闻)",
+        "Hacker News · 24h最热",
+        "Hacker News 热门（buzzing.cc 中文翻译）"
+      ],
+      "items": [
+        {
+          "id": "da3fab35ef43007ec3565732d3de24dfcce7eef9",
+          "title": "Show HN：Oak--专为代理设计的 Git 替代方案",
+          "url": "https://oak.space/oak/oak",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-22T21:00:09.808000Z"
+        },
+        {
+          "id": "82cbde6c31bdfaa899618a062587f9f96d8673b9",
+          "title": "Show HN：Oak--专为代理设计的 Git 替代方案 / Show HN: Oak – Git alternative designed for agents",
+          "url": "https://oak.space/oak/oak",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-22T15:37:48Z"
+        },
+        {
+          "id": "79e68df459b1f8e02efaf16be7b2bb3278e3e655",
+          "title": "Show HN：Oak--专为代理设计的 Git 替代方案 / Show HN: Oak – Git replacement designed for agents",
+          "url": "https://oak.space/oak/oak",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-22T15:37:48Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.8125,
+      "importance": 0.8125,
+      "importance_score": 0.8125,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9717,
+        "story_heat": 0.5
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-22T15:37:48Z",
+      "latest_at": "2026-06-22T21:00:09.808000Z",
+      "primary_item": {
+        "id": "da3fab35ef43007ec3565732d3de24dfcce7eef9",
+        "title": "Show HN：Oak--专为代理设计的 Git 替代方案",
+        "url": "https://oak.space/oak/oak",
+        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
         "source_name": "AI HOT"
       }
     },
@@ -441,15 +485,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8123,
-      "importance": 0.8123,
-      "importance_score": 0.8123,
+      "score": 0.8091,
+      "importance": 0.8091,
+      "importance_score": 0.8091,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.7351,
+        "recency": 0.7175,
         "story_heat": 0.0
       },
       "category": "official",
@@ -522,15 +566,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7803,
-      "importance": 0.7803,
-      "importance_score": 0.7803,
+      "score": 0.7761,
+      "importance": 0.7761,
+      "importance_score": 0.7761,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9648,
+        "recency": 0.9417,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -603,15 +647,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.764,
-      "importance": 0.764,
-      "importance_score": 0.764,
+      "score": 0.7601,
+      "importance": 0.7601,
+      "importance_score": 0.7601,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.69,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8909,
+        "recency": 0.8696,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -665,15 +709,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7486,
-      "importance": 0.7486,
-      "importance_score": 0.7486,
+      "score": 0.7447,
+      "importance": 0.7447,
+      "importance_score": 0.7447,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8942,
+        "recency": 0.8728,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -691,61 +735,81 @@
       }
     },
     {
-      "story_id": "story_40c8ae514e75",
-      "title": "OpenAI拿下史上最大企业订单！三星 12 万员工全面接入ChatGPT",
-      "url": "https://www.aibase.com/news/29061",
-      "primary_url": "https://www.aibase.com/news/29061",
+      "story_id": "story_1c79584e7855",
+      "title": "AI 进化的下一块拼图：GPT-5.6 或于下周登场，主打“Agent”级操作能力",
+      "url": "https://www.aibase.com/news/29029",
+      "primary_url": "https://www.aibase.com/news/29029",
       "source": "AIbase",
       "source_name": "AIbase",
       "sources": [
         {
-          "id": "6f70031b454beab17cadb0a94ce602bfa1f461b7",
-          "title": "OpenAI拿下史上最大企业订单！三星 12 万员工全面接入ChatGPT",
-          "url": "https://www.aibase.com/news/29061",
+          "id": "a37138863d4beafe577795dc7c456c17499f6bb6",
+          "title": "AI 进化的下一块拼图：GPT-5.6 或于下周登场，主打“Agent”级操作能力",
+          "url": "https://www.aibase.com/news/29029",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-06-22T13:28:49.313075Z"
+          "published_at": "2026-06-22T01:31:31.705209Z"
+        },
+        {
+          "id": "035e7ae2326467fba532341f4113fe7366eec054",
+          "title": "AI 进化的下一块拼图：GPT-5.6 或于下周登场，主打「Agent」级操作能力",
+          "url": "https://www.aibase.com/zh/news/29029",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
         }
       ],
-      "source_count": 1,
+      "source_count": 2,
       "source_names": [
-        "AIbase"
+        "AIbase",
+        "Readhub · AI"
       ],
       "items": [
         {
-          "id": "6f70031b454beab17cadb0a94ce602bfa1f461b7",
-          "title": "OpenAI拿下史上最大企业订单！三星 12 万员工全面接入ChatGPT",
-          "url": "https://www.aibase.com/news/29061",
+          "id": "a37138863d4beafe577795dc7c456c17499f6bb6",
+          "title": "AI 进化的下一块拼图：GPT-5.6 或于下周登场，主打“Agent”级操作能力",
+          "url": "https://www.aibase.com/news/29029",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-06-22T13:28:49.313075Z"
+          "published_at": "2026-06-22T01:31:31.705209Z"
+        },
+        {
+          "id": "035e7ae2326467fba532341f4113fe7366eec054",
+          "title": "AI 进化的下一块拼图：GPT-5.6 或于下周登场，主打「Agent」级操作能力",
+          "url": "https://www.aibase.com/zh/news/29029",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
         }
       ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7484,
-      "importance": 0.7484,
-      "importance_score": 0.7484,
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7446,
+      "importance": 0.7446,
+      "importance_score": 0.7446,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8931,
-        "story_heat": 0.0
+        "recency": 0.7335,
+        "story_heat": 0.25
       },
       "category": "industry",
       "reasons": [
+        "multi_source",
         "high_ai_relevance"
       ],
-      "earliest_at": "2026-06-22T13:28:49.313075Z",
-      "latest_at": "2026-06-22T13:28:49.313075Z",
+      "earliest_at": "2026-06-22T01:31:31.705209Z",
+      "latest_at": "2026-06-22T01:51:46.185070Z",
       "primary_item": {
-        "id": "6f70031b454beab17cadb0a94ce602bfa1f461b7",
-        "title": "OpenAI拿下史上最大企业订单！三星 12 万员工全面接入ChatGPT",
-        "url": "https://www.aibase.com/news/29061",
+        "id": "a37138863d4beafe577795dc7c456c17499f6bb6",
+        "title": "AI 进化的下一块拼图：GPT-5.6 或于下周登场，主打“Agent”级操作能力",
+        "url": "https://www.aibase.com/news/29029",
         "source": "AIbase",
         "source_name": "AIbase"
       }
@@ -785,15 +849,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.745,
-      "importance": 0.745,
-      "importance_score": 0.745,
+      "score": 0.7412,
+      "importance": 0.7412,
+      "importance_score": 0.7412,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8742,
+        "recency": 0.8532,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -811,68 +875,68 @@
       }
     },
     {
-      "story_id": "story_24264b2a209d",
-      "title": "Cloudflare 临时账户 for AI agents",
-      "url": "https://simonwillison.net/2026/Jun/21/temporary-cloudflare-accounts",
-      "primary_url": "https://simonwillison.net/2026/Jun/21/temporary-cloudflare-accounts",
-      "source": "Simon Willison 博客",
-      "source_name": "AI HOT",
+      "story_id": "story_d5129800bc55",
+      "title": "​Getty Images携手OpenAI达成合作 正版图库内容接入ChatGPT检索场景",
+      "url": "https://www.aibase.com/news/29024",
+      "primary_url": "https://www.aibase.com/news/29024",
+      "source": "AIbase",
+      "source_name": "AIbase",
       "sources": [
         {
-          "id": "8e0c123411f49253214e80b87d8a89b87cff5a81",
-          "title": "Cloudflare 临时账户 for AI agents",
-          "url": "https://simonwillison.net/2026/Jun/21/temporary-cloudflare-accounts",
-          "source": "Simon Willison 博客",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-21T22:01:04Z"
+          "id": "b7e5b2b8fd2524b4c148e309d3b4ad9d0b16e041",
+          "title": "​Getty Images携手OpenAI达成合作 正版图库内容接入ChatGPT检索场景",
+          "url": "https://www.aibase.com/news/29024",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-22T01:31:31.705209Z"
         },
         {
-          "id": "377102892f30ad2e885054b8fd1175211121ab28",
-          "title": "Cloudflare 临时账户 for AI agents / Temporary Cloudflare Accounts for AI agents",
-          "url": "https://simonwillison.net/2026/Jun/21/temporary-cloudflare-accounts",
-          "source": "Simon Willison",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-21T22:01:04Z"
+          "id": "75ea438dbd2315e3b274fa0f8fc897e94de22e2a",
+          "title": "​Getty Images 携手 OpenAI 达成合作 正版图库内容接入 ChatGPT 检索场景",
+          "url": "https://www.aibase.com/zh/news/29024",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
         }
       ],
       "source_count": 2,
       "source_names": [
-        "Simon Willison",
-        "Simon Willison 博客"
+        "AIbase",
+        "Readhub · AI"
       ],
       "items": [
         {
-          "id": "8e0c123411f49253214e80b87d8a89b87cff5a81",
-          "title": "Cloudflare 临时账户 for AI agents",
-          "url": "https://simonwillison.net/2026/Jun/21/temporary-cloudflare-accounts",
-          "source": "Simon Willison 博客",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-21T22:01:04Z"
+          "id": "b7e5b2b8fd2524b4c148e309d3b4ad9d0b16e041",
+          "title": "​Getty Images携手OpenAI达成合作 正版图库内容接入ChatGPT检索场景",
+          "url": "https://www.aibase.com/news/29024",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-22T01:31:31.705209Z"
         },
         {
-          "id": "377102892f30ad2e885054b8fd1175211121ab28",
-          "title": "Cloudflare 临时账户 for AI agents / Temporary Cloudflare Accounts for AI agents",
-          "url": "https://simonwillison.net/2026/Jun/21/temporary-cloudflare-accounts",
-          "source": "Simon Willison",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-21T22:01:04Z"
+          "id": "75ea438dbd2315e3b274fa0f8fc897e94de22e2a",
+          "title": "​Getty Images 携手 OpenAI 达成合作 正版图库内容接入 ChatGPT 检索场景",
+          "url": "https://www.aibase.com/zh/news/29024",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7412,
-      "importance": 0.7412,
-      "importance_score": 0.7412,
+      "score": 0.7446,
+      "importance": 0.7446,
+      "importance_score": 0.7446,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7144,
+        "recency": 0.7335,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -880,192 +944,92 @@
         "multi_source",
         "high_ai_relevance"
       ],
-      "earliest_at": "2026-06-21T22:01:04Z",
-      "latest_at": "2026-06-21T22:01:04Z",
+      "earliest_at": "2026-06-22T01:31:31.705209Z",
+      "latest_at": "2026-06-22T01:31:31.705209Z",
       "primary_item": {
-        "id": "8e0c123411f49253214e80b87d8a89b87cff5a81",
-        "title": "Cloudflare 临时账户 for AI agents",
-        "url": "https://simonwillison.net/2026/Jun/21/temporary-cloudflare-accounts",
-        "source": "Simon Willison 博客",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_9071a5cf85c6",
-      "title": "Google Labs 提出用\"洞察策略\"评估 AI 编码智能体的主动性",
-      "url": "https://developers.googleblog.com/measuring-what-matters-with-jules",
-      "primary_url": "https://developers.googleblog.com/measuring-what-matters-with-jules",
-      "source": "Google Developers Blog（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "5b3b3348cb82560e01135ef40ee0544527c2e3e1",
-          "title": "Google Labs 提出用\"洞察策略\"评估 AI 编码智能体的主动性",
-          "url": "https://developers.googleblog.com/measuring-what-matters-with-jules",
-          "source": "Google Developers Blog（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-22T16:08:41.780000Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Google Developers Blog（RSS）"
-      ],
-      "items": [
-        {
-          "id": "5b3b3348cb82560e01135ef40ee0544527c2e3e1",
-          "title": "Google Labs 提出用\"洞察策略\"评估 AI 编码智能体的主动性",
-          "url": "https://developers.googleblog.com/measuring-what-matters-with-jules",
-          "source": "Google Developers Blog（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-22T16:08:41.780000Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7217,
-      "importance": 0.7217,
-      "importance_score": 0.7217,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.61,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9281,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-22T16:08:41.780000Z",
-      "latest_at": "2026-06-22T16:08:41.780000Z",
-      "primary_item": {
-        "id": "5b3b3348cb82560e01135ef40ee0544527c2e3e1",
-        "title": "Google Labs 提出用\"洞察策略\"评估 AI 编码智能体的主动性",
-        "url": "https://developers.googleblog.com/measuring-what-matters-with-jules",
-        "source": "Google Developers Blog（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_2eeb4be61641",
-      "title": "前商汤科技高管创立的流形空间融资近 10 亿元，跃升为世界模型独角兽！",
-      "url": "https://www.aibase.com/news/29065",
-      "primary_url": "https://www.aibase.com/news/29065",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "b7782f1790c3af0c5d074a7ba4de436f58ef16f5",
-          "title": "前商汤科技高管创立的流形空间融资近 10 亿元，跃升为世界模型独角兽！",
-          "url": "https://www.aibase.com/news/29065",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-22T13:28:49.313075Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "b7782f1790c3af0c5d074a7ba4de436f58ef16f5",
-          "title": "前商汤科技高管创立的流形空间融资近 10 亿元，跃升为世界模型独角兽！",
-          "url": "https://www.aibase.com/news/29065",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-22T13:28:49.313075Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7484,
-      "importance": 0.7484,
-      "importance_score": 0.7484,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8931,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-22T13:28:49.313075Z",
-      "latest_at": "2026-06-22T13:28:49.313075Z",
-      "primary_item": {
-        "id": "b7782f1790c3af0c5d074a7ba4de436f58ef16f5",
-        "title": "前商汤科技高管创立的流形空间融资近 10 亿元，跃升为世界模型独角兽！",
-        "url": "https://www.aibase.com/news/29065",
+        "id": "b7e5b2b8fd2524b4c148e309d3b4ad9d0b16e041",
+        "title": "​Getty Images携手OpenAI达成合作 正版图库内容接入ChatGPT检索场景",
+        "url": "https://www.aibase.com/news/29024",
         "source": "AIbase",
         "source_name": "AIbase"
       }
     },
     {
-      "story_id": "story_7327d56f4117",
-      "title": "四台Mac Studio干翻云端集群！苹果联手LM Studio本地跑起万亿参数大模型",
-      "url": "https://www.aibase.com/news/29057",
-      "primary_url": "https://www.aibase.com/news/29057",
+      "story_id": "story_65b9bd9a1c48",
+      "title": "动口不动手：特斯拉即将通过 Grok 实现 FSD 语音操控",
+      "url": "https://www.aibase.com/news/29025",
+      "primary_url": "https://www.aibase.com/news/29025",
       "source": "AIbase",
       "source_name": "AIbase",
       "sources": [
         {
-          "id": "d12353aaa60389d028e469cacb944ea88d4e0c90",
-          "title": "四台Mac Studio干翻云端集群！苹果联手LM Studio本地跑起万亿参数大模型",
-          "url": "https://www.aibase.com/news/29057",
+          "id": "22ef72ff8b32a0780084666329a364fd39ff58e2",
+          "title": "动口不动手：特斯拉即将通过 Grok 实现 FSD 语音操控",
+          "url": "https://www.aibase.com/news/29025",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-06-22T13:28:49.313075Z"
+          "published_at": "2026-06-22T01:31:31.705209Z"
+        },
+        {
+          "id": "c427eba63f5da0a1f9fccbe71313fb5a4b0d2867",
+          "title": "动口不动手：特斯拉即将通过 Grok 实现 FSD 语音操控",
+          "url": "https://www.aibase.com/zh/news/29025",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
         }
       ],
-      "source_count": 1,
+      "source_count": 2,
       "source_names": [
-        "AIbase"
+        "AIbase",
+        "Readhub · AI"
       ],
       "items": [
         {
-          "id": "d12353aaa60389d028e469cacb944ea88d4e0c90",
-          "title": "四台Mac Studio干翻云端集群！苹果联手LM Studio本地跑起万亿参数大模型",
-          "url": "https://www.aibase.com/news/29057",
+          "id": "22ef72ff8b32a0780084666329a364fd39ff58e2",
+          "title": "动口不动手：特斯拉即将通过 Grok 实现 FSD 语音操控",
+          "url": "https://www.aibase.com/news/29025",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-06-22T13:28:49.313075Z"
+          "published_at": "2026-06-22T01:31:31.705209Z"
+        },
+        {
+          "id": "c427eba63f5da0a1f9fccbe71313fb5a4b0d2867",
+          "title": "动口不动手：特斯拉即将通过 Grok 实现 FSD 语音操控",
+          "url": "https://www.aibase.com/zh/news/29025",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
         }
       ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7484,
-      "importance": 0.7484,
-      "importance_score": 0.7484,
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7446,
+      "importance": 0.7446,
+      "importance_score": 0.7446,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8931,
-        "story_heat": 0.0
+        "recency": 0.7335,
+        "story_heat": 0.25
       },
       "category": "industry",
       "reasons": [
+        "multi_source",
         "high_ai_relevance"
       ],
-      "earliest_at": "2026-06-22T13:28:49.313075Z",
-      "latest_at": "2026-06-22T13:28:49.313075Z",
+      "earliest_at": "2026-06-22T01:31:31.705209Z",
+      "latest_at": "2026-06-22T01:31:31.705209Z",
       "primary_item": {
-        "id": "d12353aaa60389d028e469cacb944ea88d4e0c90",
-        "title": "四台Mac Studio干翻云端集群！苹果联手LM Studio本地跑起万亿参数大模型",
-        "url": "https://www.aibase.com/news/29057",
+        "id": "22ef72ff8b32a0780084666329a364fd39ff58e2",
+        "title": "动口不动手：特斯拉即将通过 Grok 实现 FSD 语音操控",
+        "url": "https://www.aibase.com/news/29025",
         "source": "AIbase",
         "source_name": "AIbase"
       }
@@ -1213,15 +1177,15 @@
       ],
       "item_count": 7,
       "duplicate_count": 7,
-      "score": 0.661,
-      "importance": 0.661,
-      "importance_score": 0.661,
+      "score": 0.6568,
+      "importance": 0.6568,
+      "importance_score": 0.6568,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.54,
         "ai_relevance": 0.65,
-        "recency": 0.9542,
+        "recency": 0.9314,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -1239,17 +1203,17 @@
       }
     },
     {
-      "story_id": "story_5f002749a665",
-      "title": "拒绝“一问一答”：京东开源实时视频交互模型 JoyAI-VL-Interaction",
-      "url": "https://www.aibase.com/news/29063",
-      "primary_url": "https://www.aibase.com/news/29063",
+      "story_id": "story_40c8ae514e75",
+      "title": "OpenAI拿下史上最大企业订单！三星 12 万员工全面接入ChatGPT",
+      "url": "https://www.aibase.com/news/29061",
+      "primary_url": "https://www.aibase.com/news/29061",
       "source": "AIbase",
       "source_name": "AIbase",
       "sources": [
         {
-          "id": "31358d938c742ca36f866d10d17e2153396a9daa",
-          "title": "拒绝“一问一答”：京东开源实时视频交互模型 JoyAI-VL-Interaction",
-          "url": "https://www.aibase.com/news/29063",
+          "id": "6f70031b454beab17cadb0a94ce602bfa1f461b7",
+          "title": "OpenAI拿下史上最大企业订单！三星 12 万员工全面接入ChatGPT",
+          "url": "https://www.aibase.com/news/29061",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
@@ -1262,9 +1226,9 @@
       ],
       "items": [
         {
-          "id": "31358d938c742ca36f866d10d17e2153396a9daa",
-          "title": "拒绝“一问一答”：京东开源实时视频交互模型 JoyAI-VL-Interaction",
-          "url": "https://www.aibase.com/news/29063",
+          "id": "6f70031b454beab17cadb0a94ce602bfa1f461b7",
+          "title": "OpenAI拿下史上最大企业订单！三星 12 万员工全面接入ChatGPT",
+          "url": "https://www.aibase.com/news/29061",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
@@ -1273,15 +1237,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7484,
-      "importance": 0.7484,
-      "importance_score": 0.7484,
+      "score": 0.7445,
+      "importance": 0.7445,
+      "importance_score": 0.7445,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8931,
+        "recency": 0.8717,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1291,9 +1255,9 @@
       "earliest_at": "2026-06-22T13:28:49.313075Z",
       "latest_at": "2026-06-22T13:28:49.313075Z",
       "primary_item": {
-        "id": "31358d938c742ca36f866d10d17e2153396a9daa",
-        "title": "拒绝“一问一答”：京东开源实时视频交互模型 JoyAI-VL-Interaction",
-        "url": "https://www.aibase.com/news/29063",
+        "id": "6f70031b454beab17cadb0a94ce602bfa1f461b7",
+        "title": "OpenAI拿下史上最大企业订单！三星 12 万员工全面接入ChatGPT",
+        "url": "https://www.aibase.com/news/29061",
         "source": "AIbase",
         "source_name": "AIbase"
       }
@@ -1352,15 +1316,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.6375,
-      "importance": 0.6375,
-      "importance_score": 0.6375,
+      "score": 0.6335,
+      "importance": 0.6335,
+      "importance_score": 0.6335,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.5472,
         "source_tier": 0.58,
         "ai_relevance": 0.76,
-        "recency": 0.9377,
+        "recency": 0.9152,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1378,17 +1342,17 @@
       }
     },
     {
-      "story_id": "story_7bef45bda6d6",
-      "title": "日本豪掷 10 万亿日元押注物理AI， 17 大战略领域圈定未来产业版图",
-      "url": "https://www.aibase.com/news/29059",
-      "primary_url": "https://www.aibase.com/news/29059",
+      "story_id": "story_2eeb4be61641",
+      "title": "前商汤科技高管创立的流形空间融资近 10 亿元，跃升为世界模型独角兽！",
+      "url": "https://www.aibase.com/news/29065",
+      "primary_url": "https://www.aibase.com/news/29065",
       "source": "AIbase",
       "source_name": "AIbase",
       "sources": [
         {
-          "id": "5d5136b6350f8c86f59ea8879869d063c93231f0",
-          "title": "日本豪掷 10 万亿日元押注物理AI， 17 大战略领域圈定未来产业版图",
-          "url": "https://www.aibase.com/news/29059",
+          "id": "b7782f1790c3af0c5d074a7ba4de436f58ef16f5",
+          "title": "前商汤科技高管创立的流形空间融资近 10 亿元，跃升为世界模型独角兽！",
+          "url": "https://www.aibase.com/news/29065",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
@@ -1401,9 +1365,9 @@
       ],
       "items": [
         {
-          "id": "5d5136b6350f8c86f59ea8879869d063c93231f0",
-          "title": "日本豪掷 10 万亿日元押注物理AI， 17 大战略领域圈定未来产业版图",
-          "url": "https://www.aibase.com/news/29059",
+          "id": "b7782f1790c3af0c5d074a7ba4de436f58ef16f5",
+          "title": "前商汤科技高管创立的流形空间融资近 10 亿元，跃升为世界模型独角兽！",
+          "url": "https://www.aibase.com/news/29065",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
@@ -1412,15 +1376,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7484,
-      "importance": 0.7484,
-      "importance_score": 0.7484,
+      "score": 0.7445,
+      "importance": 0.7445,
+      "importance_score": 0.7445,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8931,
+        "recency": 0.8717,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1430,25 +1394,25 @@
       "earliest_at": "2026-06-22T13:28:49.313075Z",
       "latest_at": "2026-06-22T13:28:49.313075Z",
       "primary_item": {
-        "id": "5d5136b6350f8c86f59ea8879869d063c93231f0",
-        "title": "日本豪掷 10 万亿日元押注物理AI， 17 大战略领域圈定未来产业版图",
-        "url": "https://www.aibase.com/news/29059",
+        "id": "b7782f1790c3af0c5d074a7ba4de436f58ef16f5",
+        "title": "前商汤科技高管创立的流形空间融资近 10 亿元，跃升为世界模型独角兽！",
+        "url": "https://www.aibase.com/news/29065",
         "source": "AIbase",
         "source_name": "AIbase"
       }
     },
     {
-      "story_id": "story_4909c4a00def",
-      "title": "美团破解百万商家的视觉难题 AI 海报生成的“技术闭环”",
-      "url": "https://www.aibase.com/news/29062",
-      "primary_url": "https://www.aibase.com/news/29062",
+      "story_id": "story_7327d56f4117",
+      "title": "四台Mac Studio干翻云端集群！苹果联手LM Studio本地跑起万亿参数大模型",
+      "url": "https://www.aibase.com/news/29057",
+      "primary_url": "https://www.aibase.com/news/29057",
       "source": "AIbase",
       "source_name": "AIbase",
       "sources": [
         {
-          "id": "2422f14962755a7252a64fcaa265b329cfba03a7",
-          "title": "美团破解百万商家的视觉难题 AI 海报生成的“技术闭环”",
-          "url": "https://www.aibase.com/news/29062",
+          "id": "d12353aaa60389d028e469cacb944ea88d4e0c90",
+          "title": "四台Mac Studio干翻云端集群！苹果联手LM Studio本地跑起万亿参数大模型",
+          "url": "https://www.aibase.com/news/29057",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
@@ -1461,9 +1425,9 @@
       ],
       "items": [
         {
-          "id": "2422f14962755a7252a64fcaa265b329cfba03a7",
-          "title": "美团破解百万商家的视觉难题 AI 海报生成的“技术闭环”",
-          "url": "https://www.aibase.com/news/29062",
+          "id": "d12353aaa60389d028e469cacb944ea88d4e0c90",
+          "title": "四台Mac Studio干翻云端集群！苹果联手LM Studio本地跑起万亿参数大模型",
+          "url": "https://www.aibase.com/news/29057",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
@@ -1472,15 +1436,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7484,
-      "importance": 0.7484,
-      "importance_score": 0.7484,
+      "score": 0.7445,
+      "importance": 0.7445,
+      "importance_score": 0.7445,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8931,
+        "recency": 0.8717,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1490,9 +1454,69 @@
       "earliest_at": "2026-06-22T13:28:49.313075Z",
       "latest_at": "2026-06-22T13:28:49.313075Z",
       "primary_item": {
-        "id": "2422f14962755a7252a64fcaa265b329cfba03a7",
-        "title": "美团破解百万商家的视觉难题 AI 海报生成的“技术闭环”",
-        "url": "https://www.aibase.com/news/29062",
+        "id": "d12353aaa60389d028e469cacb944ea88d4e0c90",
+        "title": "四台Mac Studio干翻云端集群！苹果联手LM Studio本地跑起万亿参数大模型",
+        "url": "https://www.aibase.com/news/29057",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_5f002749a665",
+      "title": "拒绝“一问一答”：京东开源实时视频交互模型 JoyAI-VL-Interaction",
+      "url": "https://www.aibase.com/news/29063",
+      "primary_url": "https://www.aibase.com/news/29063",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "31358d938c742ca36f866d10d17e2153396a9daa",
+          "title": "拒绝“一问一答”：京东开源实时视频交互模型 JoyAI-VL-Interaction",
+          "url": "https://www.aibase.com/news/29063",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-22T13:28:49.313075Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "31358d938c742ca36f866d10d17e2153396a9daa",
+          "title": "拒绝“一问一答”：京东开源实时视频交互模型 JoyAI-VL-Interaction",
+          "url": "https://www.aibase.com/news/29063",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-22T13:28:49.313075Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7445,
+      "importance": 0.7445,
+      "importance_score": 0.7445,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8717,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-06-22T13:28:49.313075Z",
+      "latest_at": "2026-06-22T13:28:49.313075Z",
+      "primary_item": {
+        "id": "31358d938c742ca36f866d10d17e2153396a9daa",
+        "title": "拒绝“一问一答”：京东开源实时视频交互模型 JoyAI-VL-Interaction",
+        "url": "https://www.aibase.com/news/29063",
         "source": "AIbase",
         "source_name": "AIbase"
       }
