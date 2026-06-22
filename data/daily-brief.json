@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-21T23:03:09.689403Z",
+  "generated_at": "2026-06-22T01:31:31.705209Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -38,15 +38,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8679,
-      "importance": 0.8679,
-      "importance_score": 0.8679,
+      "score": 0.8616,
+      "importance": 0.8616,
+      "importance_score": 0.8616,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.99,
-        "recency": 0.9992,
+        "recency": 0.9642,
         "story_heat": 0.0
       },
       "category": "official",
@@ -63,6 +63,87 @@
         "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
         "source": "OpenAI News",
         "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_7ed4fb2323bf",
+      "title": "​Getty Images携手OpenAI达成合作 正版图库内容接入ChatGPT检索场景",
+      "url": "https://www.aibase.com/news/29024",
+      "primary_url": "https://www.aibase.com/news/29024",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "b7e5b2b8fd2524b4c148e309d3b4ad9d0b16e041",
+          "title": "​Getty Images携手OpenAI达成合作 正版图库内容接入ChatGPT检索场景",
+          "url": "https://www.aibase.com/news/29024",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-22T01:31:31.705209Z"
+        },
+        {
+          "id": "75ea438dbd2315e3b274fa0f8fc897e94de22e2a",
+          "title": "​Getty Images 携手 OpenAI 达成合作 正版图库内容接入 ChatGPT 检索场景",
+          "url": "https://www.aibase.com/zh/news/29024",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "AIbase",
+        "Readhub · AI"
+      ],
+      "items": [
+        {
+          "id": "b7e5b2b8fd2524b4c148e309d3b4ad9d0b16e041",
+          "title": "​Getty Images携手OpenAI达成合作 正版图库内容接入ChatGPT检索场景",
+          "url": "https://www.aibase.com/news/29024",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-22T01:31:31.705209Z"
+        },
+        {
+          "id": "75ea438dbd2315e3b274fa0f8fc897e94de22e2a",
+          "title": "​Getty Images 携手 OpenAI 达成合作 正版图库内容接入 ChatGPT 检索场景",
+          "url": "https://www.aibase.com/zh/news/29024",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7926,
+      "importance": 0.7926,
+      "importance_score": 0.7926,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-22T01:31:31.705209Z",
+      "latest_at": "2026-06-22T01:31:31.705209Z",
+      "primary_item": {
+        "id": "b7e5b2b8fd2524b4c148e309d3b4ad9d0b16e041",
+        "title": "​Getty Images携手OpenAI达成合作 正版图库内容接入ChatGPT检索场景",
+        "url": "https://www.aibase.com/news/29024",
+        "source": "AIbase",
+        "source_name": "AIbase"
       }
     },
     {
@@ -119,15 +200,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7899,
-      "importance": 0.7899,
-      "importance_score": 0.7899,
+      "score": 0.7837,
+      "importance": 0.7837,
+      "importance_score": 0.7837,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9852,
+        "recency": 0.9506,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -181,15 +262,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7731,
-      "importance": 0.7731,
-      "importance_score": 0.7731,
+      "score": 0.7674,
+      "importance": 0.7674,
+      "importance_score": 0.7674,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.8,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8971,
+        "recency": 0.8656,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -205,6 +286,87 @@
         "url": "https://x.com/AISafetyMemes/status/2068718552174252477",
         "source": "X：AI Safety Memes (@AISafetyMemes)",
         "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_ecb2db6e10f8",
+      "title": "动口不动手：特斯拉即将通过 Grok 实现 FSD 语音操控",
+      "url": "https://www.aibase.com/news/29025",
+      "primary_url": "https://www.aibase.com/news/29025",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "22ef72ff8b32a0780084666329a364fd39ff58e2",
+          "title": "动口不动手：特斯拉即将通过 Grok 实现 FSD 语音操控",
+          "url": "https://www.aibase.com/news/29025",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-22T01:31:31.705209Z"
+        },
+        {
+          "id": "c427eba63f5da0a1f9fccbe71313fb5a4b0d2867",
+          "title": "动口不动手：特斯拉即将通过 Grok 实现 FSD 语音操控",
+          "url": "https://www.aibase.com/zh/news/29025",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "AIbase",
+        "Readhub · AI"
+      ],
+      "items": [
+        {
+          "id": "22ef72ff8b32a0780084666329a364fd39ff58e2",
+          "title": "动口不动手：特斯拉即将通过 Grok 实现 FSD 语音操控",
+          "url": "https://www.aibase.com/news/29025",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-22T01:31:31.705209Z"
+        },
+        {
+          "id": "c427eba63f5da0a1f9fccbe71313fb5a4b0d2867",
+          "title": "动口不动手：特斯拉即将通过 Grok 实现 FSD 语音操控",
+          "url": "https://www.aibase.com/zh/news/29025",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7926,
+      "importance": 0.7926,
+      "importance_score": 0.7926,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-22T01:31:31.705209Z",
+      "latest_at": "2026-06-22T01:31:31.705209Z",
+      "primary_item": {
+        "id": "22ef72ff8b32a0780084666329a364fd39ff58e2",
+        "title": "动口不动手：特斯拉即将通过 Grok 实现 FSD 语音操控",
+        "url": "https://www.aibase.com/news/29025",
+        "source": "AIbase",
+        "source_name": "AIbase"
       }
     },
     {
@@ -242,21 +404,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7551,
-      "importance": 0.7551,
-      "importance_score": 0.7551,
+      "score": 0.7498,
+      "importance": 0.7498,
+      "importance_score": 0.7498,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.78,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8305,
+        "recency": 0.8013,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-06-21T10:11:21Z",
       "latest_at": "2026-06-21T10:11:21Z",
@@ -266,6 +427,250 @@
         "url": "https://x.com/AYi_AInotes/status/2068637890247016607",
         "source": "X：阿易 AI Notes (@AYi_AInotes)",
         "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_1c79584e7855",
+      "title": "AI 进化的下一块拼图：GPT-5.6 或于下周登场，主打“Agent”级操作能力",
+      "url": "https://www.aibase.com/news/29029",
+      "primary_url": "https://www.aibase.com/news/29029",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "a37138863d4beafe577795dc7c456c17499f6bb6",
+          "title": "AI 进化的下一块拼图：GPT-5.6 或于下周登场，主打“Agent”级操作能力",
+          "url": "https://www.aibase.com/news/29029",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-22T01:31:31.705209Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "a37138863d4beafe577795dc7c456c17499f6bb6",
+          "title": "AI 进化的下一块拼图：GPT-5.6 或于下周登场，主打“Agent”级操作能力",
+          "url": "https://www.aibase.com/news/29029",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-22T01:31:31.705209Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-22T01:31:31.705209Z",
+      "latest_at": "2026-06-22T01:31:31.705209Z",
+      "primary_item": {
+        "id": "a37138863d4beafe577795dc7c456c17499f6bb6",
+        "title": "AI 进化的下一块拼图：GPT-5.6 或于下周登场，主打“Agent”级操作能力",
+        "url": "https://www.aibase.com/news/29029",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_742f8340ff40",
+      "title": "Snap分拆生成式AI视频团队成立新公司Dotmo 缓解高昂研发成本压力",
+      "url": "https://www.aibase.com/news/29027",
+      "primary_url": "https://www.aibase.com/news/29027",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "5dbbaf4b5ab5ccf346484145e2e8228975183014",
+          "title": "Snap分拆生成式AI视频团队成立新公司Dotmo 缓解高昂研发成本压力",
+          "url": "https://www.aibase.com/news/29027",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-22T01:31:31.705209Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "5dbbaf4b5ab5ccf346484145e2e8228975183014",
+          "title": "Snap分拆生成式AI视频团队成立新公司Dotmo 缓解高昂研发成本压力",
+          "url": "https://www.aibase.com/news/29027",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-22T01:31:31.705209Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-22T01:31:31.705209Z",
+      "latest_at": "2026-06-22T01:31:31.705209Z",
+      "primary_item": {
+        "id": "5dbbaf4b5ab5ccf346484145e2e8228975183014",
+        "title": "Snap分拆生成式AI视频团队成立新公司Dotmo 缓解高昂研发成本压力",
+        "url": "https://www.aibase.com/news/29027",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_7dd658cd5e19",
+      "title": "​借 AI 编造股市虚假信息引流牟利 四川南充一女子遭行政处罚",
+      "url": "https://www.aibase.com/news/29028",
+      "primary_url": "https://www.aibase.com/news/29028",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "f2ca30b00113b3f5e29aa798cccf872854c96334",
+          "title": "​借 AI 编造股市虚假信息引流牟利 四川南充一女子遭行政处罚",
+          "url": "https://www.aibase.com/news/29028",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-22T01:31:31.705209Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "f2ca30b00113b3f5e29aa798cccf872854c96334",
+          "title": "​借 AI 编造股市虚假信息引流牟利 四川南充一女子遭行政处罚",
+          "url": "https://www.aibase.com/news/29028",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-22T01:31:31.705209Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-22T01:31:31.705209Z",
+      "latest_at": "2026-06-22T01:31:31.705209Z",
+      "primary_item": {
+        "id": "f2ca30b00113b3f5e29aa798cccf872854c96334",
+        "title": "​借 AI 编造股市虚假信息引流牟利 四川南充一女子遭行政处罚",
+        "url": "https://www.aibase.com/news/29028",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_992c0833980e",
+      "title": "苹果iOS27绕开传统对话式AI:系统级无感化智能成手机系统新趋势",
+      "url": "https://www.aibase.com/news/29026",
+      "primary_url": "https://www.aibase.com/news/29026",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "e5a3bcf139f218b2e4d23431c098a39052907f65",
+          "title": "苹果iOS27绕开传统对话式AI:系统级无感化智能成手机系统新趋势",
+          "url": "https://www.aibase.com/news/29026",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-22T01:31:31.705209Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "e5a3bcf139f218b2e4d23431c098a39052907f65",
+          "title": "苹果iOS27绕开传统对话式AI:系统级无感化智能成手机系统新趋势",
+          "url": "https://www.aibase.com/news/29026",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-22T01:31:31.705209Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-22T01:31:31.705209Z",
+      "latest_at": "2026-06-22T01:31:31.705209Z",
+      "primary_item": {
+        "id": "e5a3bcf139f218b2e4d23431c098a39052907f65",
+        "title": "苹果iOS27绕开传统对话式AI:系统级无感化智能成手机系统新趋势",
+        "url": "https://www.aibase.com/news/29026",
+        "source": "AIbase",
+        "source_name": "AIbase"
       }
     },
     {
@@ -302,29 +707,10 @@
           "source_name": "WaytoAGI",
           "site_id": "waytoagi",
           "published_at": "2026-06-21T16:14:10.181292Z"
-        },
-        {
-          "id": "fbda5748dd9ff0850854e8507604fbc521fe6858",
-          "title": "今天学习任何东西，既容易，又让人迷糊。容易，是因为 AI 几秒钟就能解释几乎任何内容。迷糊，是因为大多数人只是随意提问获取碎片化解答，只会短暂看懂内容，无法形成长效记忆。下面这 6 条提示词，可以把 Claude 变成你的私人老师、考官、资源筛选器和学习伙伴，帮助你深度吃透知识点、巩固长期记忆！",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-06-20",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-06-21T00:13:29.715655Z"
-        },
-        {
-          "id": "ec0fa62fb83bbe29eea88d3882fe9c2575298d8d",
-          "title": "很多人热衷于收藏各类AI学习资料，最后囤积很多教程却从不落地实操。文中整理了Claude的10门官方课程和14篇实操指南，全部免费，并且搭建了一套条理清晰、可直接跟进的完整学习路线。这份学习地图适合刚入门、找不到系统学习方向，总在盲目收集资料却毫无进步的AI学习者。快来试试！",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-06-20",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-06-21T00:13:29.715655Z"
         }
       ],
-      "source_count": 5,
+      "source_count": 3,
       "source_names": [
-        "社区更新 · 2026-06-20",
         "社区更新 · 2026-06-21"
       ],
       "items": [
@@ -354,44 +740,26 @@
           "source_name": "WaytoAGI",
           "site_id": "waytoagi",
           "published_at": "2026-06-21T16:14:10.181292Z"
-        },
-        {
-          "id": "fbda5748dd9ff0850854e8507604fbc521fe6858",
-          "title": "今天学习任何东西，既容易，又让人迷糊。容易，是因为 AI 几秒钟就能解释几乎任何内容。迷糊，是因为大多数人只是随意提问获取碎片化解答，只会短暂看懂内容，无法形成长效记忆。下面这 6 条提示词，可以把 Claude 变成你的私人老师、考官、资源筛选器和学习伙伴，帮助你深度吃透知识点、巩固长期记忆！",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-06-20",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-06-21T00:13:29.715655Z"
-        },
-        {
-          "id": "ec0fa62fb83bbe29eea88d3882fe9c2575298d8d",
-          "title": "很多人热衷于收藏各类AI学习资料，最后囤积很多教程却从不落地实操。文中整理了Claude的10门官方课程和14篇实操指南，全部免费，并且搭建了一套条理清晰、可直接跟进的完整学习路线。这份学习地图适合刚入门、找不到系统学习方向，总在盲目收集资料却毫无进步的AI学习者。快来试试！",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-06-20",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-06-21T00:13:29.715655Z"
         }
       ],
-      "item_count": 5,
-      "duplicate_count": 5,
-      "score": 0.6566,
-      "importance": 0.6566,
-      "importance_score": 0.6566,
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.6008,
+      "importance": 0.6008,
+      "importance_score": 0.6008,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.54,
         "ai_relevance": 0.65,
-        "recency": 0.9302,
-        "story_heat": 1.0
+        "recency": 0.8976,
+        "story_heat": 0.5
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-21T00:13:29.715655Z",
+      "earliest_at": "2026-06-21T16:14:10.181292Z",
       "latest_at": "2026-06-21T18:02:33.588748Z",
       "primary_item": {
         "id": "7e803bd05882a47b80121d6263a5e2a2632922fd",
@@ -399,6 +767,67 @@
         "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
         "source": "社区更新 · 2026-06-21",
         "source_name": "WaytoAGI"
+      }
+    },
+    {
+      "story_id": "story_6eed9a859336",
+      "title": "视觉盛宴接入 AI：Getty Images 与 OpenAI 达成战略授权合作",
+      "url": "https://www.aibase.com/news/29023",
+      "primary_url": "https://www.aibase.com/news/29023",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "9bb36451af8abfe871191a798128a769eb8901c3",
+          "title": "视觉盛宴接入 AI：Getty Images 与 OpenAI 达成战略授权合作",
+          "url": "https://www.aibase.com/news/29023",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-22T01:31:31.705209Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "9bb36451af8abfe871191a798128a769eb8901c3",
+          "title": "视觉盛宴接入 AI：Getty Images 与 OpenAI 达成战略授权合作",
+          "url": "https://www.aibase.com/news/29023",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-22T01:31:31.705209Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-22T01:31:31.705209Z",
+      "latest_at": "2026-06-22T01:31:31.705209Z",
+      "primary_item": {
+        "id": "9bb36451af8abfe871191a798128a769eb8901c3",
+        "title": "视觉盛宴接入 AI：Getty Images 与 OpenAI 达成战略授权合作",
+        "url": "https://www.aibase.com/news/29023",
+        "source": "AIbase",
+        "source_name": "AIbase"
       }
     },
     {
@@ -492,15 +921,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.5881,
-      "importance": 0.5881,
-      "importance_score": 0.5881,
+      "score": 0.5821,
+      "importance": 0.5821,
+      "importance_score": 0.5821,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9572,
+        "recency": 0.9236,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -515,6 +944,358 @@
         "url": "https://news.ycombinator.com/item?id=48618455",
         "source": "hackernews",
         "source_name": "NewsNow"
+      }
+    },
+    {
+      "story_id": "story_8f30dfad7969",
+      "title": "Show HN: Recall——Claude Code 的完全本地化项目内存",
+      "url": "https://github.com/raiyanyahya/recall",
+      "primary_url": "https://github.com/raiyanyahya/recall",
+      "source": "github.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "fd3833f7aee6fbd1320566ee50bb2ee14874d981",
+          "title": "Show HN: Recall——Claude Code 的完全本地化项目内存",
+          "url": "https://github.com/raiyanyahya/recall",
+          "source": "github.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-22T00:28:09.030000Z"
+        },
+        {
+          "id": "52c0c265e9988e4cd6f24ea1dee2abb85388783a",
+          "title": "Show HN: Recall——Claude Code 的完全本地化项目内存 / Show HN: Recall – fully-local project memory for Claude Code",
+          "url": "https://github.com/raiyanyahya/recall",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-21T21:05:37Z"
+        },
+        {
+          "id": "8d919a3f77b3dbc271b9484b4165dba6d72cc71b",
+          "title": "Show HN: Recall——Claude Code 的完全本地化项目内存 / Stop wasting tokens and re explaining your project between sessions",
+          "url": "https://github.com/raiyanyahya/recall",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-21T21:05:37Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "Hacker News · 24h最热",
+        "github.com"
+      ],
+      "items": [
+        {
+          "id": "fd3833f7aee6fbd1320566ee50bb2ee14874d981",
+          "title": "Show HN: Recall——Claude Code 的完全本地化项目内存",
+          "url": "https://github.com/raiyanyahya/recall",
+          "source": "github.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-22T00:28:09.030000Z"
+        },
+        {
+          "id": "52c0c265e9988e4cd6f24ea1dee2abb85388783a",
+          "title": "Show HN: Recall——Claude Code 的完全本地化项目内存 / Show HN: Recall – fully-local project memory for Claude Code",
+          "url": "https://github.com/raiyanyahya/recall",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-21T21:05:37Z"
+        },
+        {
+          "id": "8d919a3f77b3dbc271b9484b4165dba6d72cc71b",
+          "title": "Show HN: Recall——Claude Code 的完全本地化项目内存 / Stop wasting tokens and re explaining your project between sessions",
+          "url": "https://github.com/raiyanyahya/recall",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-21T21:05:37Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.5681,
+      "importance": 0.5681,
+      "importance_score": 0.5681,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9849,
+        "story_heat": 0.5
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-21T21:05:37Z",
+      "latest_at": "2026-06-22T00:28:09.030000Z",
+      "primary_item": {
+        "id": "fd3833f7aee6fbd1320566ee50bb2ee14874d981",
+        "title": "Show HN: Recall——Claude Code 的完全本地化项目内存",
+        "url": "https://github.com/raiyanyahya/recall",
+        "source": "github.com",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_a70218bc5d4a",
+      "title": "Apertus——面向主权人工智能的开放式基础模型",
+      "url": "https://apertvs.ai",
+      "primary_url": "https://apertvs.ai",
+      "source": "apertvs.ai",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "d147c27ddbc5d2fa214e290bd8ec6cc8e90c0e0e",
+          "title": "Apertus——面向主权人工智能的开放式基础模型",
+          "url": "https://apertvs.ai",
+          "source": "apertvs.ai",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-21T23:24:05.154000Z"
+        },
+        {
+          "id": "6d5d789e1e7a1b8162eb9face018693e65666442",
+          "title": "Apertus – 主权人工智能的开放基础模型 / Apertus – Open Foundation Model for Sovereign AI",
+          "url": "https://news.ycombinator.com/item?id=48622778",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-21T23:03:41.891000Z"
+        },
+        {
+          "id": "93f8899442a8e6f8ebbde7f6f473a8d5d13f044e",
+          "title": "Apertus——面向主权人工智能的开放式基础模型 / Apertus – Open Foundation Model for Sovereign AI",
+          "url": "https://apertvs.ai",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-21T21:29:43Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "Hacker News · 24h最热",
+        "apertvs.ai",
+        "hackernews"
+      ],
+      "items": [
+        {
+          "id": "d147c27ddbc5d2fa214e290bd8ec6cc8e90c0e0e",
+          "title": "Apertus——面向主权人工智能的开放式基础模型",
+          "url": "https://apertvs.ai",
+          "source": "apertvs.ai",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-21T23:24:05.154000Z"
+        },
+        {
+          "id": "6d5d789e1e7a1b8162eb9face018693e65666442",
+          "title": "Apertus – 主权人工智能的开放基础模型 / Apertus – Open Foundation Model for Sovereign AI",
+          "url": "https://news.ycombinator.com/item?id=48622778",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-21T23:03:41.891000Z"
+        },
+        {
+          "id": "93f8899442a8e6f8ebbde7f6f473a8d5d13f044e",
+          "title": "Apertus——面向主权人工智能的开放式基础模型 / Apertus – Open Foundation Model for Sovereign AI",
+          "url": "https://apertvs.ai",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-21T21:29:43Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.5654,
+      "importance": 0.5654,
+      "importance_score": 0.5654,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9698,
+        "story_heat": 0.5
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-21T21:29:43Z",
+      "latest_at": "2026-06-21T23:24:05.154000Z",
+      "primary_item": {
+        "id": "d147c27ddbc5d2fa214e290bd8ec6cc8e90c0e0e",
+        "title": "Apertus——面向主权人工智能的开放式基础模型",
+        "url": "https://apertvs.ai",
+        "source": "apertvs.ai",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_1c9eb4f0ada4",
+      "title": "中信证券：看好具备 SOTA 能力溢价的头部模型厂商及 AI 基建、AI 应用的投资机会",
+      "url": "https://36kr.com/newsflashes/3863619874755849?f=rss",
+      "primary_url": "https://36kr.com/newsflashes/3863619874755849?f=rss",
+      "source": "Readhub · AI",
+      "source_name": "TopHub",
+      "sources": [
+        {
+          "id": "5191fce099cf652352375b1aac868534e0e76703",
+          "title": "中信证券：看好具备 SOTA 能力溢价的头部模型厂商及 AI 基建、AI 应用的投资机会",
+          "url": "https://36kr.com/newsflashes/3863619874755849?f=rss",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        },
+        {
+          "id": "128966248a37c6172094a513ca58f7c581a7239e",
+          "title": "中信证券：看好具备SOTA能力溢价的头部模型厂商及AI基建、AI应用的投资机会",
+          "url": "https://36kr.com/newsflashes/3863619874755849?f=rss",
+          "source": "36氪 (36Kr)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-22T00:46:20Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "36氪 (36Kr)",
+        "Readhub · AI"
+      ],
+      "items": [
+        {
+          "id": "5191fce099cf652352375b1aac868534e0e76703",
+          "title": "中信证券：看好具备 SOTA 能力溢价的头部模型厂商及 AI 基建、AI 应用的投资机会",
+          "url": "https://36kr.com/newsflashes/3863619874755849?f=rss",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        },
+        {
+          "id": "128966248a37c6172094a513ca58f7c581a7239e",
+          "title": "中信证券：看好具备SOTA能力溢价的头部模型厂商及AI基建、AI应用的投资机会",
+          "url": "https://36kr.com/newsflashes/3863619874755849?f=rss",
+          "source": "36氪 (36Kr)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-22T00:46:20Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5458,
+      "importance": 0.5458,
+      "importance_score": 0.5458,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 1.0,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-22T00:46:20Z",
+      "latest_at": "2026-06-22T01:31:31.705209Z",
+      "primary_item": {
+        "id": "5191fce099cf652352375b1aac868534e0e76703",
+        "title": "中信证券：看好具备 SOTA 能力溢价的头部模型厂商及 AI 基建、AI 应用的投资机会",
+        "url": "https://36kr.com/newsflashes/3863619874755849?f=rss",
+        "source": "Readhub · AI",
+        "source_name": "TopHub"
+      }
+    },
+    {
+      "story_id": "story_66b4e5f43215",
+      "title": "纽约的租金收入下降 / Rent collections are down in New York",
+      "url": "https://www.politico.com/news/2026/06/21/rent-collections-are-down-in-new-york-and-no-ones-sure-why-00966982",
+      "primary_url": "https://www.politico.com/news/2026/06/21/rent-collections-are-down-in-new-york-and-no-ones-sure-why-00966982",
+      "source": "Hacker News · 24h最热",
+      "source_name": "Zeli",
+      "sources": [
+        {
+          "id": "0a2bdfed2b73f966fe64f41784cec5f3acc42bdb",
+          "title": "纽约的租金收入下降 / Rent collections are down in New York",
+          "url": "https://www.politico.com/news/2026/06/21/rent-collections-are-down-in-new-york-and-no-ones-sure-why-00966982",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-21T21:54:34Z"
+        },
+        {
+          "id": "8c1184cd394c4efff0733ec04b199a27eb30b802",
+          "title": "纽约的租金收入下降——没人知道原因 / Rent collections are down in New York – and no one's sure why",
+          "url": "https://www.politico.com/news/2026/06/21/rent-collections-are-down-in-new-york-and-no-ones-sure-why-00966982",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-21T21:54:34Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News · 24h最热"
+      ],
+      "items": [
+        {
+          "id": "0a2bdfed2b73f966fe64f41784cec5f3acc42bdb",
+          "title": "纽约的租金收入下降 / Rent collections are down in New York",
+          "url": "https://www.politico.com/news/2026/06/21/rent-collections-are-down-in-new-york-and-no-ones-sure-why-00966982",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-21T21:54:34Z"
+        },
+        {
+          "id": "8c1184cd394c4efff0733ec04b199a27eb30b802",
+          "title": "纽约的租金收入下降——没人知道原因 / Rent collections are down in New York – and no one's sure why",
+          "url": "https://www.politico.com/news/2026/06/21/rent-collections-are-down-in-new-york-and-no-ones-sure-why-00966982",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-21T21:54:34Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5366,
+      "importance": 0.5366,
+      "importance_score": 0.5366,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9491,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-21T21:54:34Z",
+      "latest_at": "2026-06-21T21:54:34Z",
+      "primary_item": {
+        "id": "0a2bdfed2b73f966fe64f41784cec5f3acc42bdb",
+        "title": "纽约的租金收入下降 / Rent collections are down in New York",
+        "url": "https://www.politico.com/news/2026/06/21/rent-collections-are-down-in-new-york-and-no-ones-sure-why-00966982",
+        "source": "Hacker News · 24h最热",
+        "source_name": "Zeli"
       }
     },
     {
@@ -590,15 +1371,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5395,
-      "importance": 0.5395,
-      "importance_score": 0.5395,
+      "score": 0.5343,
+      "importance": 0.5343,
+      "importance_score": 0.5343,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8261,
+        "recency": 0.7971,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -669,15 +1450,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5386,
-      "importance": 0.5386,
-      "importance_score": 0.5386,
+      "score": 0.5325,
+      "importance": 0.5325,
+      "importance_score": 0.5325,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9597,
+        "recency": 0.9261,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -748,15 +1529,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5386,
-      "importance": 0.5386,
-      "importance_score": 0.5386,
+      "score": 0.5325,
+      "importance": 0.5325,
+      "importance_score": 0.5325,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9597,
+        "recency": 0.9261,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -770,874 +1551,6 @@
         "title": "关于当前艺术作品中出现的LLM中毒现象，有什么建议吗？",
         "url": "https://lobste.rs/s/lbjdlo/what_s_advice_for_llm_poisoning_artwork",
         "source": "lobste.rs",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_774f7412d1a3",
-      "title": "人工智能是一种大众精神病错觉[视频] / AI is a mass psychotic delusion [video]",
-      "url": "https://www.youtube.com/watch?v=WNiSUGCC-gY",
-      "primary_url": "https://www.youtube.com/watch?v=WNiSUGCC-gY",
-      "source": "Hacker News · 24h最热",
-      "source_name": "Zeli",
-      "sources": [
-        {
-          "id": "0dea59365aa7ac0ad87ce3ae5cf3bc9fbfa11605",
-          "title": "人工智能是一种大众精神病错觉[视频] / AI is a mass psychotic delusion [video]",
-          "url": "https://www.youtube.com/watch?v=WNiSUGCC-gY",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-21T16:48:47Z"
-        },
-        {
-          "id": "1f8e23fd289152c671e8b3d56a284ae0dacc2e01",
-          "title": "弯曲 Emacs Ep。 14：使用代理 shell 艺术家模式和技能制作 iOS 应用程序原型 [视频] / Bending Emacs Ep. 14: Prototype iOS apps with agent-shell artist-mode and skills [video]",
-          "url": "https://www.youtube.com/watch?v=7fdHeUoRRgg",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-21T15:12:22Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News · 24h最热"
-      ],
-      "items": [
-        {
-          "id": "0dea59365aa7ac0ad87ce3ae5cf3bc9fbfa11605",
-          "title": "人工智能是一种大众精神病错觉[视频] / AI is a mass psychotic delusion [video]",
-          "url": "https://www.youtube.com/watch?v=WNiSUGCC-gY",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-21T16:48:47Z"
-        },
-        {
-          "id": "1f8e23fd289152c671e8b3d56a284ae0dacc2e01",
-          "title": "弯曲 Emacs Ep。 14：使用代理 shell 艺术家模式和技能制作 iOS 应用程序原型 [视频] / Bending Emacs Ep. 14: Prototype iOS apps with agent-shell artist-mode and skills [video]",
-          "url": "https://www.youtube.com/watch?v=7fdHeUoRRgg",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-21T15:12:22Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5303,
-      "importance": 0.5303,
-      "importance_score": 0.5303,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9138,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-21T15:12:22Z",
-      "latest_at": "2026-06-21T16:48:47Z",
-      "primary_item": {
-        "id": "0dea59365aa7ac0ad87ce3ae5cf3bc9fbfa11605",
-        "title": "人工智能是一种大众精神病错觉[视频] / AI is a mass psychotic delusion [video]",
-        "url": "https://www.youtube.com/watch?v=WNiSUGCC-gY",
-        "source": "Hacker News · 24h最热",
-        "source_name": "Zeli"
-      }
-    },
-    {
-      "story_id": "story_1af03584a41f",
-      "title": "Show HN: 适用于Abaqus的Jacobi–IDE子程序，包含解析测试和AI诊断功能",
-      "url": "https://jacobee.netlify.app",
-      "primary_url": "https://jacobee.netlify.app",
-      "source": "jacobee.netlify.app",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "880ba9bbf56a37b7abbab85936d71ed00fc9ffb0",
-          "title": "Show HN: 适用于Abaqus的Jacobi–IDE子程序，包含解析测试和AI诊断功能",
-          "url": "https://jacobee.netlify.app",
-          "source": "jacobee.netlify.app",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-21T16:29:26.413000Z"
-        },
-        {
-          "id": "13df682925b541ed564fb7d00297f4d3f1b20882",
-          "title": "Show HN: 适用于Abaqus的Jacobi–IDE子程序，包含解析测试和AI诊断功能 / Show HN: Jacobi–IDE for Abaqus subroutine with analytical tests and AI diagnosis",
-          "url": "https://jacobee.netlify.app",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-21T16:20:46Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News · 24h最热",
-        "jacobee.netlify.app"
-      ],
-      "items": [
-        {
-          "id": "880ba9bbf56a37b7abbab85936d71ed00fc9ffb0",
-          "title": "Show HN: 适用于Abaqus的Jacobi–IDE子程序，包含解析测试和AI诊断功能",
-          "url": "https://jacobee.netlify.app",
-          "source": "jacobee.netlify.app",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-21T16:29:26.413000Z"
-        },
-        {
-          "id": "13df682925b541ed564fb7d00297f4d3f1b20882",
-          "title": "Show HN: 适用于Abaqus的Jacobi–IDE子程序，包含解析测试和AI诊断功能 / Show HN: Jacobi–IDE for Abaqus subroutine with analytical tests and AI diagnosis",
-          "url": "https://jacobee.netlify.app",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-21T16:20:46Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5295,
-      "importance": 0.5295,
-      "importance_score": 0.5295,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9096,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-21T16:20:46Z",
-      "latest_at": "2026-06-21T16:29:26.413000Z",
-      "primary_item": {
-        "id": "880ba9bbf56a37b7abbab85936d71ed00fc9ffb0",
-        "title": "Show HN: 适用于Abaqus的Jacobi–IDE子程序，包含解析测试和AI诊断功能",
-        "url": "https://jacobee.netlify.app",
-        "source": "jacobee.netlify.app",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_2369e54e30ae",
-      "title": "“大空头”查诺斯：当前AI产业链存在巨大“财务不匹配”，“AI云”实际是租赁中介，看空SpaceX",
-      "url": "https://www.huxiu.com/article/4868995.html?f=rss",
-      "primary_url": "https://www.huxiu.com/article/4868995.html?f=rss",
-      "source": "虎嗅 (Huxiu)",
-      "source_name": "Info Flow",
-      "sources": [
-        {
-          "id": "c0c0f9dce909aed383ea778957107e4cbbbab053",
-          "title": "“大空头”查诺斯：当前AI产业链存在巨大“财务不匹配”，“AI云”实际是租赁中介，看空SpaceX",
-          "url": "https://www.huxiu.com/article/4868995.html?f=rss",
-          "source": "虎嗅 (Huxiu)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-21T12:44:35Z"
-        },
-        {
-          "id": "dcdacef0e60959bff79f15360f7e1566f9c9a869",
-          "title": "大空头查诺斯：当前 AI 产业链存在巨大「财务不匹配」，「AI 云」实际是租赁中介，看空 SpaceX",
-          "url": "https://wallstreetcn.com/articles/3775129",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Readhub · AI",
-        "虎嗅 (Huxiu)"
-      ],
-      "items": [
-        {
-          "id": "c0c0f9dce909aed383ea778957107e4cbbbab053",
-          "title": "“大空头”查诺斯：当前AI产业链存在巨大“财务不匹配”，“AI云”实际是租赁中介，看空SpaceX",
-          "url": "https://www.huxiu.com/article/4868995.html?f=rss",
-          "source": "虎嗅 (Huxiu)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-21T12:44:35Z"
-        },
-        {
-          "id": "dcdacef0e60959bff79f15360f7e1566f9c9a869",
-          "title": "大空头查诺斯：当前 AI 产业链存在巨大「财务不匹配」，「AI 云」实际是租赁中介，看空 SpaceX",
-          "url": "https://wallstreetcn.com/articles/3775129",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5209,
-      "importance": 0.5209,
-      "importance_score": 0.5209,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8617,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-21T11:58:50.680643Z",
-      "latest_at": "2026-06-21T12:44:35Z",
-      "primary_item": {
-        "id": "c0c0f9dce909aed383ea778957107e4cbbbab053",
-        "title": "“大空头”查诺斯：当前AI产业链存在巨大“财务不匹配”，“AI云”实际是租赁中介，看空SpaceX",
-        "url": "https://www.huxiu.com/article/4868995.html?f=rss",
-        "source": "虎嗅 (Huxiu)",
-        "source_name": "Info Flow"
-      }
-    },
-    {
-      "story_id": "story_a699cca17620",
-      "title": "asgeirtj /      system_prompts_leaks",
-      "url": "https://github.com/asgeirtj/system_prompts_leaks",
-      "primary_url": "https://github.com/asgeirtj/system_prompts_leaks",
-      "source": "github",
-      "source_name": "NewsNow",
-      "sources": [
-        {
-          "id": "baa9d03b16ed38aed33577d7ed876031205e6795",
-          "title": "asgeirtj /      system_prompts_leaks",
-          "url": "https://github.com/asgeirtj/system_prompts_leaks",
-          "source": "github",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-21T11:59:28.223000Z"
-        },
-        {
-          "id": "2fa4d188d72c83942d8eda61541a4bf7f9cd6c7d",
-          "title": "asgeirtj / system_prompts_leaks",
-          "url": "https://github.com/asgeirtj/system_prompts_leaks",
-          "source": "GitHub · Trending Today",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "GitHub · Trending Today",
-        "github"
-      ],
-      "items": [
-        {
-          "id": "baa9d03b16ed38aed33577d7ed876031205e6795",
-          "title": "asgeirtj /      system_prompts_leaks",
-          "url": "https://github.com/asgeirtj/system_prompts_leaks",
-          "source": "github",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-21T11:59:28.223000Z"
-        },
-        {
-          "id": "2fa4d188d72c83942d8eda61541a4bf7f9cd6c7d",
-          "title": "asgeirtj / system_prompts_leaks",
-          "url": "https://github.com/asgeirtj/system_prompts_leaks",
-          "source": "GitHub · Trending Today",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5192,
-      "importance": 0.5192,
-      "importance_score": 0.5192,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8524,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-21T11:58:50.680643Z",
-      "latest_at": "2026-06-21T11:59:28.223000Z",
-      "primary_item": {
-        "id": "baa9d03b16ed38aed33577d7ed876031205e6795",
-        "title": "asgeirtj /      system_prompts_leaks",
-        "url": "https://github.com/asgeirtj/system_prompts_leaks",
-        "source": "github",
-        "source_name": "NewsNow"
-      }
-    },
-    {
-      "story_id": "story_4b15b4f11170",
-      "title": "具身赛道现状素描：脑子灵，模型好，不是百亿，就是独角",
-      "url": "https://www.qbitai.com/2026/06/437198.html",
-      "primary_url": "https://www.qbitai.com/2026/06/437198.html",
-      "source": "量子位 · 每日最新",
-      "source_name": "TopHub",
-      "sources": [
-        {
-          "id": "881cb8ada6558b81307cfe40d409ac2aec31f9f9",
-          "title": "具身赛道现状素描：脑子灵，模型好，不是百亿，就是独角",
-          "url": "https://www.qbitai.com/2026/06/437198.html",
-          "source": "量子位 · 每日最新",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        },
-        {
-          "id": "4917a8872990202cd3f4c9c4a8be3d735ffbbd2d",
-          "title": "具身赛道现状素描：脑子灵，模型好，不是百亿，就是独角",
-          "url": "https://www.huxiu.com/article/4868948.html?f=rss",
-          "source": "虎嗅 (Huxiu)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-21T06:17:46Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "虎嗅 (Huxiu)",
-        "量子位 · 每日最新"
-      ],
-      "items": [
-        {
-          "id": "881cb8ada6558b81307cfe40d409ac2aec31f9f9",
-          "title": "具身赛道现状素描：脑子灵，模型好，不是百亿，就是独角",
-          "url": "https://www.qbitai.com/2026/06/437198.html",
-          "source": "量子位 · 每日最新",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        },
-        {
-          "id": "4917a8872990202cd3f4c9c4a8be3d735ffbbd2d",
-          "title": "具身赛道现状素描：脑子灵，模型好，不是百亿，就是独角",
-          "url": "https://www.huxiu.com/article/4868948.html?f=rss",
-          "source": "虎嗅 (Huxiu)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-21T06:17:46Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5192,
-      "importance": 0.5192,
-      "importance_score": 0.5192,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8522,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-21T06:17:46Z",
-      "latest_at": "2026-06-21T11:58:50.680643Z",
-      "primary_item": {
-        "id": "881cb8ada6558b81307cfe40d409ac2aec31f9f9",
-        "title": "具身赛道现状素描：脑子灵，模型好，不是百亿，就是独角",
-        "url": "https://www.qbitai.com/2026/06/437198.html",
-        "source": "量子位 · 每日最新",
-        "source_name": "TopHub"
-      }
-    },
-    {
-      "story_id": "story_8671cdb2de60",
-      "title": "刘强东称京东所有 AI 技术都会向海外各个国家所有伙伴开放：不希望任何企业或国家形成技术壁垒，这本质上是「剥削」",
-      "url": "https://www.ithome.com/0/966/690.htm",
-      "primary_url": "https://www.ithome.com/0/966/690.htm",
-      "source": "Readhub · AI",
-      "source_name": "TopHub",
-      "sources": [
-        {
-          "id": "f5f6f25b311f7a5c9fae0cb097bae9e3cd138acb",
-          "title": "刘强东称京东所有 AI 技术都会向海外各个国家所有伙伴开放：不希望任何企业或国家形成技术壁垒，这本质上是「剥削」",
-          "url": "https://www.ithome.com/0/966/690.htm",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        },
-        {
-          "id": "8be88f88d310d0b3c3bbe1b737f6e3c6c58ad2b4",
-          "title": "刘强东称京东所有 AI 技术都会向海外各个国家所有伙伴开放：不希望任何企业或国家形成技术壁垒，这本质上是“剥削”",
-          "url": "https://www.ithome.com/0/966/690.htm",
-          "source": "IT之家 (ITHome)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-21T10:15:24Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "IT之家 (ITHome)",
-        "Readhub · AI"
-      ],
-      "items": [
-        {
-          "id": "f5f6f25b311f7a5c9fae0cb097bae9e3cd138acb",
-          "title": "刘强东称京东所有 AI 技术都会向海外各个国家所有伙伴开放：不希望任何企业或国家形成技术壁垒，这本质上是「剥削」",
-          "url": "https://www.ithome.com/0/966/690.htm",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        },
-        {
-          "id": "8be88f88d310d0b3c3bbe1b737f6e3c6c58ad2b4",
-          "title": "刘强东称京东所有 AI 技术都会向海外各个国家所有伙伴开放：不希望任何企业或国家形成技术壁垒，这本质上是“剥削”",
-          "url": "https://www.ithome.com/0/966/690.htm",
-          "source": "IT之家 (ITHome)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-21T10:15:24Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5192,
-      "importance": 0.5192,
-      "importance_score": 0.5192,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8522,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-21T10:15:24Z",
-      "latest_at": "2026-06-21T11:58:50.680643Z",
-      "primary_item": {
-        "id": "f5f6f25b311f7a5c9fae0cb097bae9e3cd138acb",
-        "title": "刘强东称京东所有 AI 技术都会向海外各个国家所有伙伴开放：不希望任何企业或国家形成技术壁垒，这本质上是「剥削」",
-        "url": "https://www.ithome.com/0/966/690.htm",
-        "source": "Readhub · AI",
-        "source_name": "TopHub"
-      }
-    },
-    {
-      "story_id": "story_d6fe158cc16a",
-      "title": "人工智能会毁掉我们的技能吗？初步结果已经出炉，情况并不乐观",
-      "url": "https://www.nature.com/articles/d41586-026-01947-1",
-      "primary_url": "https://www.nature.com/articles/d41586-026-01947-1",
-      "source": "www.nature.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "72723572bbf5a76ec2daf0f6511f6d030cfb46df",
-          "title": "人工智能会毁掉我们的技能吗？初步结果已经出炉，情况并不乐观",
-          "url": "https://www.nature.com/articles/d41586-026-01947-1",
-          "source": "www.nature.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-21T10:53:10.002000Z"
-        },
-        {
-          "id": "8bfbdeb114c7a9bc5e3bc5f5cb9c006cba204923",
-          "title": "人工智能会毁掉我们的技能吗？初步结果已经出炉，情况并不乐观 / Is AI ruining our skills? Early results are in and they’re not good",
-          "url": "https://www.nature.com/articles/d41586-026-01947-1",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-21T10:41:47Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Lobsters (技术社区)",
-        "www.nature.com"
-      ],
-      "items": [
-        {
-          "id": "72723572bbf5a76ec2daf0f6511f6d030cfb46df",
-          "title": "人工智能会毁掉我们的技能吗？初步结果已经出炉，情况并不乐观",
-          "url": "https://www.nature.com/articles/d41586-026-01947-1",
-          "source": "www.nature.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-21T10:53:10.002000Z"
-        },
-        {
-          "id": "8bfbdeb114c7a9bc5e3bc5f5cb9c006cba204923",
-          "title": "人工智能会毁掉我们的技能吗？初步结果已经出炉，情况并不乐观 / Is AI ruining our skills? Early results are in and they’re not good",
-          "url": "https://www.nature.com/articles/d41586-026-01947-1",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-21T10:41:47Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5168,
-      "importance": 0.5168,
-      "importance_score": 0.5168,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8389,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-21T10:41:47Z",
-      "latest_at": "2026-06-21T10:53:10.002000Z",
-      "primary_item": {
-        "id": "72723572bbf5a76ec2daf0f6511f6d030cfb46df",
-        "title": "人工智能会毁掉我们的技能吗？初步结果已经出炉，情况并不乐观",
-        "url": "https://www.nature.com/articles/d41586-026-01947-1",
-        "source": "www.nature.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_a70218bc5d4a",
-      "title": "Apertus – 主权人工智能的开放基础模型 / Apertus – Open Foundation Model for Sovereign AI",
-      "url": "https://news.ycombinator.com/item?id=48622778",
-      "primary_url": "https://news.ycombinator.com/item?id=48622778",
-      "source": "hackernews",
-      "source_name": "NewsNow",
-      "sources": [
-        {
-          "id": "6d5d789e1e7a1b8162eb9face018693e65666442",
-          "title": "Apertus – 主权人工智能的开放基础模型 / Apertus – Open Foundation Model for Sovereign AI",
-          "url": "https://news.ycombinator.com/item?id=48622778",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-21T23:03:41.891000Z"
-        },
-        {
-          "id": "93f8899442a8e6f8ebbde7f6f473a8d5d13f044e",
-          "title": "Apertus – 主权人工智能的开放基础模型 / Apertus – Open Foundation Model for Sovereign AI",
-          "url": "https://apertvs.ai",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-21T21:29:43Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News · 24h最热",
-        "hackernews"
-      ],
-      "items": [
-        {
-          "id": "6d5d789e1e7a1b8162eb9face018693e65666442",
-          "title": "Apertus – 主权人工智能的开放基础模型 / Apertus – Open Foundation Model for Sovereign AI",
-          "url": "https://news.ycombinator.com/item?id=48622778",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-21T23:03:41.891000Z"
-        },
-        {
-          "id": "93f8899442a8e6f8ebbde7f6f473a8d5d13f044e",
-          "title": "Apertus – 主权人工智能的开放基础模型 / Apertus – Open Foundation Model for Sovereign AI",
-          "url": "https://apertvs.ai",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-21T21:29:43Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5458,
-      "importance": 0.5458,
-      "importance_score": 0.5458,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 1.0,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-21T21:29:43Z",
-      "latest_at": "2026-06-21T23:03:41.891000Z",
-      "primary_item": {
-        "id": "6d5d789e1e7a1b8162eb9face018693e65666442",
-        "title": "Apertus – 主权人工智能的开放基础模型 / Apertus – Open Foundation Model for Sovereign AI",
-        "url": "https://news.ycombinator.com/item?id=48622778",
-        "source": "hackernews",
-        "source_name": "NewsNow"
-      }
-    },
-    {
-      "story_id": "story_ea5379cae11a",
-      "title": "人工智能的10万个“为什么”",
-      "url": "https://lcamtuf.substack.com/p/the-100000-whys-of-ai",
-      "primary_url": "https://lcamtuf.substack.com/p/the-100000-whys-of-ai",
-      "source": "lcamtuf.substack.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "dda5e1eedfcbd7afcc81c948226c3a36d840aca6",
-          "title": "人工智能的10万个“为什么”",
-          "url": "https://lcamtuf.substack.com/p/the-100000-whys-of-ai",
-          "source": "lcamtuf.substack.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-21T09:17:10.157000Z"
-        },
-        {
-          "id": "f31d474cf66081a281b215baa59be447d785f6a6",
-          "title": "人工智能的10万个“为什么” / The 100k Whys of AI",
-          "url": "https://lcamtuf.substack.com/p/the-100000-whys-of-ai",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-21T05:45:21Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News (黑客新闻)",
-        "lcamtuf.substack.com"
-      ],
-      "items": [
-        {
-          "id": "dda5e1eedfcbd7afcc81c948226c3a36d840aca6",
-          "title": "人工智能的10万个“为什么”",
-          "url": "https://lcamtuf.substack.com/p/the-100000-whys-of-ai",
-          "source": "lcamtuf.substack.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-21T09:17:10.157000Z"
-        },
-        {
-          "id": "f31d474cf66081a281b215baa59be447d785f6a6",
-          "title": "人工智能的10万个“为什么” / The 100k Whys of AI",
-          "url": "https://lcamtuf.substack.com/p/the-100000-whys-of-ai",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-21T05:45:21Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5133,
-      "importance": 0.5133,
-      "importance_score": 0.5133,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8197,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-21T05:45:21Z",
-      "latest_at": "2026-06-21T09:17:10.157000Z",
-      "primary_item": {
-        "id": "dda5e1eedfcbd7afcc81c948226c3a36d840aca6",
-        "title": "人工智能的10万个“为什么”",
-        "url": "https://lcamtuf.substack.com/p/the-100000-whys-of-ai",
-        "source": "lcamtuf.substack.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_40e72acb2213",
-      "title": "大型语言模型（LLM）的有效应用场景",
-      "url": "https://aggressivelyparaphrasing.me/2026/06/21/effective-use-cases-for-llms",
-      "primary_url": "https://aggressivelyparaphrasing.me/2026/06/21/effective-use-cases-for-llms",
-      "source": "aggressivelyparaphrasing.me",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "0cbee932107e333006c4a6ce0628d0878037d0ab",
-          "title": "大型语言模型（LLM）的有效应用场景",
-          "url": "https://aggressivelyparaphrasing.me/2026/06/21/effective-use-cases-for-llms",
-          "source": "aggressivelyparaphrasing.me",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-21T04:45:05.964000Z"
-        },
-        {
-          "id": "ac484391baf82b7b5753d84e2dd834a231090fc1",
-          "title": "大型语言模型（LLM）的有效应用场景 / Effective use-cases for LLMs",
-          "url": "https://aggressivelyparaphrasing.me/2026/06/21/effective-use-cases-for-llms",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-21T04:37:33Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Lobsters (技术社区)",
-        "aggressivelyparaphrasing.me"
-      ],
-      "items": [
-        {
-          "id": "0cbee932107e333006c4a6ce0628d0878037d0ab",
-          "title": "大型语言模型（LLM）的有效应用场景",
-          "url": "https://aggressivelyparaphrasing.me/2026/06/21/effective-use-cases-for-llms",
-          "source": "aggressivelyparaphrasing.me",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-21T04:45:05.964000Z"
-        },
-        {
-          "id": "ac484391baf82b7b5753d84e2dd834a231090fc1",
-          "title": "大型语言模型（LLM）的有效应用场景 / Effective use-cases for LLMs",
-          "url": "https://aggressivelyparaphrasing.me/2026/06/21/effective-use-cases-for-llms",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-21T04:37:33Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.504,
-      "importance": 0.504,
-      "importance_score": 0.504,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.7678,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-21T04:37:33Z",
-      "latest_at": "2026-06-21T04:45:05.964000Z",
-      "primary_item": {
-        "id": "0cbee932107e333006c4a6ce0628d0878037d0ab",
-        "title": "大型语言模型（LLM）的有效应用场景",
-        "url": "https://aggressivelyparaphrasing.me/2026/06/21/effective-use-cases-for-llms",
-        "source": "aggressivelyparaphrasing.me",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_05d632b02bf7",
-      "title": "一家人工智能公司为何免费帮我打扫了位于纽约市的公寓",
-      "url": "https://www.bbc.com/news/articles/cpwerjy20kyo?at_medium=RSS&at_campaign=rss",
-      "primary_url": "https://www.bbc.com/news/articles/cpwerjy20kyo?at_medium=RSS&at_campaign=rss",
-      "source": "www.bbc.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "2af27dcab649bb127da2276ae21abf4adb985bea",
-          "title": "一家人工智能公司为何免费帮我打扫了位于纽约市的公寓",
-          "url": "https://www.bbc.com/news/articles/cpwerjy20kyo?at_medium=RSS&at_campaign=rss",
-          "source": "www.bbc.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-21T03:57:20.523000Z"
-        },
-        {
-          "id": "9e3c0e7483406d467f723c2eb04003c22d463d0c",
-          "title": "一家人工智能公司为何免费帮我打扫了位于纽约市的公寓 / Why an AI company cleaned my New York City apartment for free",
-          "url": "https://www.bbc.com/news/articles/cpwerjy20kyo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC News (世界新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-20T23:18:55Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "BBC News (世界新闻)",
-        "www.bbc.com"
-      ],
-      "items": [
-        {
-          "id": "2af27dcab649bb127da2276ae21abf4adb985bea",
-          "title": "一家人工智能公司为何免费帮我打扫了位于纽约市的公寓",
-          "url": "https://www.bbc.com/news/articles/cpwerjy20kyo?at_medium=RSS&at_campaign=rss",
-          "source": "www.bbc.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-21T03:57:20.523000Z"
-        },
-        {
-          "id": "9e3c0e7483406d467f723c2eb04003c22d463d0c",
-          "title": "一家人工智能公司为何免费帮我打扫了位于纽约市的公寓 / Why an AI company cleaned my New York City apartment for free",
-          "url": "https://www.bbc.com/news/articles/cpwerjy20kyo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC News (世界新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-20T23:18:55Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5024,
-      "importance": 0.5024,
-      "importance_score": 0.5024,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.759,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-20T23:18:55Z",
-      "latest_at": "2026-06-21T03:57:20.523000Z",
-      "primary_item": {
-        "id": "2af27dcab649bb127da2276ae21abf4adb985bea",
-        "title": "一家人工智能公司为何免费帮我打扫了位于纽约市的公寓",
-        "url": "https://www.bbc.com/news/articles/cpwerjy20kyo?at_medium=RSS&at_campaign=rss",
-        "source": "www.bbc.com",
         "source_name": "Buzzing"
       }
     }
