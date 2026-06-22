@@ -8,6 +8,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from email.utils import parseaddr
 import hashlib
 import json
+import math
 import os
 import random
 import re
@@ -218,6 +219,10 @@ TIKHUB_DEFAULT_PLATFORMS = "douyin,xiaohongshu"
 TIKHUB_DEFAULT_MAX_RESULTS = 20
 TIKHUB_MAX_QUERY_CHARS = 256
 TIKHUB_RESPONSE_SCAN_LIMIT = 100
+CREATOR_HOT_WINDOW_DAYS = 7
+CREATOR_FRESHNESS_BONUS_HOURS = 24
+CREATOR_FRESHNESS_BONUS_POINTS = 15.0
+CREATOR_SITE_IDS = frozenset({"tikhub_douyin", "tikhub_xiaohongshu"})
 # --- TikHub search ranking / time-window tuning (edit here, no env var needed) ---
 # Exact recency window for TikHub results, in days. Douyin/Xiaohongshu search
 # only expose coarse buckets (不限/一天内/一周内/半年内), so we ask the API for
@@ -226,14 +231,14 @@ TIKHUB_RECENCY_DAYS = 7              # keep only current-week posts
 # Douyin fetch_general_search_v2 enums (standard Douyin search filter):
 #   sort_type:    0=综合, 1=最多点赞(most likes), 2=最新
 #   publish_time: 0=不限, 1=一天内, 7=一周内, 180=半年内
-TIKHUB_DOUYIN_SORT_TYPE = "2"        # 最新 / latest
+TIKHUB_DOUYIN_SORT_TYPE = "1"        # 最多点赞 / most likes
 TIKHUB_DOUYIN_PUBLISH_TIME = "7"     # 一周内; real cap = TIKHUB_RECENCY_DAYS
 # Xiaohongshu search. app_v2 uses the app's filter labels; sort uses the
 # popularity/time/general tokens (web_v3 already takes "time_descending").
 #   sort:        general(综合) / time_descending(最新) / popularity_descending(最多点赞/最热)
 #   note_type:   "不限"(app_v2, all) ; web_v3 uses 0 for "all"
 #   time_filter: "不限" / "一天内" / "一周内" / "半年内"
-TIKHUB_XHS_SORT = "time_descending"  # 最新 / latest
+TIKHUB_XHS_SORT = "popularity_descending"  # 最多点赞 / most likes
 TIKHUB_XHS_NOTE_TYPE = "不限"               # all note types
 TIKHUB_XHS_TIME_FILTER = "一周内"           # 一周内; real cap = TIKHUB_RECENCY_DAYS
 
@@ -253,6 +258,7 @@ PUBLIC_RAW_META_FIELDS: tuple[str, ...] = (
     "aihot_score",
     "aihot_category",
     "aihot_selected",
+    "creator_metrics",
     "search_surface",
     "summary",
 )
@@ -3848,6 +3854,42 @@ def is_credible_xiaohongshu_published_at(published: datetime | None, now: dateti
     return datetime(2013, 1, 1, tzinfo=UTC) <= published <= now.astimezone(UTC)
 
 
+def creator_metric_count(*values: Any) -> int:
+    for value in values:
+        if value is None or value == "":
+            continue
+        try:
+            return max(0, int(float(str(value).replace(",", "").strip())))
+        except (TypeError, ValueError):
+            continue
+    return 0
+
+
+def normalize_creator_metrics(platform: str, *records: dict[str, Any]) -> dict[str, int]:
+    merged: dict[str, Any] = {}
+    for record in records:
+        if isinstance(record, dict):
+            merged.update(record)
+    if platform == "douyin":
+        return {
+            "likes": creator_metric_count(merged.get("digg_count"), merged.get("like_count")),
+            "comments": creator_metric_count(merged.get("comment_count"), merged.get("comments_count")),
+            "collects": creator_metric_count(merged.get("collect_count"), merged.get("collected_count")),
+            "shares": creator_metric_count(merged.get("share_count"), merged.get("shared_count")),
+        }
+    return {
+        "likes": creator_metric_count(
+            merged.get("liked_count"),
+            merged.get("likes_count"),
+            merged.get("like_count"),
+            merged.get("digg_count"),
+        ),
+        "comments": creator_metric_count(merged.get("comments_count"), merged.get("comment_count")),
+        "collects": creator_metric_count(merged.get("collected_count"), merged.get("collect_count")),
+        "shares": creator_metric_count(merged.get("shared_count"), merged.get("share_count")),
+    }
+
+
 def parse_tikhub_douyin_items(payload: dict[str, Any], now: datetime, keyword: str, limit: int) -> list[RawItem]:
     out: list[RawItem] = []
     seen_ids: set[str] = set()
@@ -3886,6 +3928,7 @@ def parse_tikhub_douyin_items(payload: dict[str, Any], now: datetime, keyword: s
                 "time",
             ),
         ) or now
+        statistics = aweme.get("statistics") if isinstance(aweme.get("statistics"), dict) else {}
         out.append(
             RawItem(
                 site_id="tikhub_douyin",
@@ -3898,7 +3941,8 @@ def parse_tikhub_douyin_items(payload: dict[str, Any], now: datetime, keyword: s
                     "platform": "douyin",
                     "keyword": keyword,
                     "post_id": post_id,
-                    "public_metrics": aweme.get("statistics") or {},
+                    "public_metrics": statistics,
+                    "creator_metrics": normalize_creator_metrics("douyin", statistics),
                 },
             )
         )
@@ -4006,6 +4050,8 @@ def parse_tikhub_xiaohongshu_items(payload: dict[str, Any], now: datetime, keywo
             )
         if not is_credible_xiaohongshu_published_at(published, now):
             published = parse_xiaohongshu_note_id_published_at(note_id, now)
+        interact_info = note.get("interact_info") if isinstance(note.get("interact_info"), dict) else {}
+        creator_metrics = normalize_creator_metrics("xiaohongshu", node, note, interact_info)
         out.append(
             RawItem(
                 site_id="tikhub_xiaohongshu",
@@ -4018,7 +4064,8 @@ def parse_tikhub_xiaohongshu_items(payload: dict[str, Any], now: datetime, keywo
                     "platform": "xiaohongshu",
                     "keyword": keyword,
                     "post_id": note_id,
-                    "public_metrics": note.get("interact_info") or {},
+                    "public_metrics": interact_info or creator_metrics,
+                    "creator_metrics": creator_metrics,
                 },
             )
         )
@@ -4594,6 +4641,37 @@ def ai_relevance_score(record: dict[str, Any]) -> float:
         return 1.0 if record.get("ai_is_related") else 0.0
 
 
+def add_creator_ranking_fields(record: dict[str, Any], now: datetime) -> dict[str, Any]:
+    out = dict(record)
+    metrics = record.get("creator_metrics") if isinstance(record.get("creator_metrics"), dict) else {}
+    likes = creator_metric_count(metrics.get("likes"))
+    comments = creator_metric_count(metrics.get("comments"))
+    collects = creator_metric_count(metrics.get("collects"))
+    shares = creator_metric_count(metrics.get("shares"))
+    weighted_engagement = likes + (comments * 2.0) + (collects * 1.5) + (shares * 2.0)
+
+    # Xiaohongshu engagement is smaller in absolute terms than Douyin, so use
+    # separate fixed log scales instead of pretending raw counts are comparable.
+    scale = 22.0 if str(record.get("site_id") or "") == "tikhub_xiaohongshu" else 20.0
+    heat_score = min(100.0, scale * math.log10(1.0 + weighted_engagement))
+    published = event_time(record)
+    age_hours = (now - published).total_seconds() / 3600 if published else float("inf")
+    freshness_bonus = CREATOR_FRESHNESS_BONUS_POINTS if 0 <= age_hours <= CREATOR_FRESHNESS_BONUS_HOURS else 0.0
+    hot_score = min(100.0, (heat_score * 0.85) + freshness_bonus)
+
+    out["creator_metrics"] = {
+        "likes": likes,
+        "comments": comments,
+        "collects": collects,
+        "shares": shares,
+    }
+    out["creator_engagement_total"] = round(weighted_engagement, 1)
+    out["creator_heat_score"] = round(heat_score, 1)
+    out["creator_freshness_bonus"] = round(freshness_bonus, 1)
+    out["creator_hot_score"] = round(hot_score, 1)
+    return out
+
+
 def editorial_score(record: dict[str, Any]) -> float:
     """External or internal editorial strength used by the headline ranker."""
     value = record.get("aihot_score")
@@ -4930,6 +5008,46 @@ def build_merge_log_payload(events: list[dict[str, Any]], generated_at: str) -> 
     }
 
 
+def build_creator_hot_items(
+    archive: dict[str, dict[str, Any]],
+    now: datetime,
+    *,
+    ai_only: bool,
+) -> list[dict[str, Any]]:
+    window_start = now - timedelta(days=CREATOR_HOT_WINDOW_DAYS)
+    items: list[dict[str, Any]] = []
+    for record in archive.values():
+        if str(record.get("site_id") or "") not in CREATOR_SITE_IDS:
+            continue
+        if not isinstance(record.get("creator_metrics"), dict):
+            continue
+        published = event_time(record)
+        if not published or published < window_start or published > now:
+            continue
+        normalized = dict(record)
+        normalized["title"] = maybe_fix_mojibake(str(normalized.get("title") or ""))
+        normalized["source"] = maybe_fix_mojibake(normalize_source_for_display(
+            str(normalized.get("site_id") or ""),
+            str(normalized.get("source") or ""),
+            str(normalized.get("url") or ""),
+        ))
+        normalized = add_ai_relevance_fields(normalized)
+        if ai_only and not normalized.get("ai_is_related", is_ai_related_record(normalized)):
+            continue
+        normalized = add_source_tier_fields(normalized)
+        items.append(add_creator_ranking_fields(normalized, now))
+
+    deduped = suppress_near_duplicate_items(dedupe_items_by_title_url(items, random_pick=False))
+    deduped.sort(
+        key=lambda item: (
+            float(item.get("creator_hot_score") or 0),
+            event_time(item) or datetime.min.replace(tzinfo=UTC),
+        ),
+        reverse=True,
+    )
+    return deduped
+
+
 def build_latest_payloads(latest_payload: dict[str, Any]) -> tuple[dict[str, Any], dict[str, Any]]:
     """Split initial AI payload from bulky all-mode lists for lazy browser loading."""
     slim_payload = dict(latest_payload)
@@ -5199,6 +5317,15 @@ def main() -> int:
         title_cache,
         max_new_translations=max(0, args.translate_max_new),
     )
+    creator_items_ai = build_creator_hot_items(archive, now, ai_only=True)
+    creator_items_all = build_creator_hot_items(archive, now, ai_only=False)
+    creator_items_ai, creator_items_all, title_cache = add_bilingual_fields(
+        creator_items_ai,
+        creator_items_all,
+        session,
+        title_cache,
+        max_new_translations=0,
+    )
     latest_items_ai_dedup = suppress_near_duplicate_items(dedupe_items_by_title_url(latest_items, random_pick=False))
     latest_items_all_dedup = dedupe_items_by_title_url(latest_items_all, random_pick=True)
     stories, merge_events = merge_story_items(latest_items_ai_dedup, now=now, window_hours=args.window_hours)
@@ -5256,6 +5383,10 @@ def main() -> int:
         "site_count": len(site_stat),
         "source_count": len({f"{i['site_id']}::{i['source']}" for i in latest_items_ai_dedup}),
         "site_stats": sorted(site_stat.values(), key=lambda x: x["count"], reverse=True),
+        "creator_window_days": CREATOR_HOT_WINDOW_DAYS,
+        "creator_ranking": "engagement_85_fresh_24h_bonus_15_v1",
+        "creator_items_ai": creator_items_ai,
+        "creator_items_all": creator_items_all,
         "items": latest_items_ai_dedup,
         "items_ai": latest_items_ai_dedup,
         "items_all_raw": latest_items_all,

@@ -3,7 +3,9 @@ from datetime import datetime, timezone
 from unittest.mock import patch
 
 from scripts.update_news import (
+    add_creator_ranking_fields,
     build_agentmail_digest_payload,
+    build_creator_hot_items,
     build_latest_payloads,
     dedupe_items_by_title_url,
     fetch_agentmail_digest,
@@ -453,11 +455,13 @@ class TopicFilterTests(unittest.TestCase):
             "total_items_raw": 3,
             "total_items_all_mode": 2,
             "items_ai": [{"title": "AI post", "url": "https://example.com/a"}],
+            "creator_items_ai": [{"title": "Hot creator post", "url": "https://example.com/hot"}],
             "items_all": [{"title": "All post", "url": "https://example.com/b"}],
             "items_all_raw": [{"title": "Raw post", "url": "https://example.com/c"}],
         }
         slim, all_payload = build_latest_payloads(latest_payload)
         self.assertIn("items_ai", slim)
+        self.assertIn("creator_items_ai", slim)
         self.assertNotIn("items_all", slim)
         self.assertNotIn("items_all_raw", slim)
         self.assertEqual(all_payload["items_all"][0]["title"], "All post")
@@ -1402,7 +1406,12 @@ class TopicFilterTests(unittest.TestCase):
                         "note_card": {
                             "display_title": "Claude Code 实测：AI 编程代理",
                             "user": {"nickname": "工具研究员"},
-                            "interact_info": {"liked_count": "99"},
+                            "interact_info": {
+                                "liked_count": "99",
+                                "comments_count": "7",
+                                "collected_count": "31",
+                                "shared_count": "12",
+                            },
                         },
                     }
                 ]
@@ -1419,6 +1428,10 @@ class TopicFilterTests(unittest.TestCase):
         self.assertEqual(items[0].source, "工具研究员")
         self.assertEqual(items[0].url, "https://www.xiaohongshu.com/explore/69f53e8000000000180190e6")
         self.assertEqual(items[0].meta["post_id"], "69f53e8000000000180190e6")
+        self.assertEqual(
+            items[0].meta["creator_metrics"],
+            {"likes": 99, "comments": 7, "collects": 31, "shares": 12},
+        )
         self.assertEqual(
             items[0].published_at,
             __import__("datetime").datetime.fromtimestamp(int("69f53e80", 16), tz=timezone.utc),
@@ -1470,6 +1483,61 @@ class TopicFilterTests(unittest.TestCase):
             items[0].published_at,
             __import__("datetime").datetime.fromtimestamp(int(note_id[:8], 16), tz=timezone.utc),
         )
+
+    def test_creator_hot_ranking_keeps_heat_primary_and_adds_24h_bonus(self):
+        import datetime as _dt
+
+        now = _dt.datetime.fromisoformat("2026-06-22T01:30:00+00:00")
+        hot_week_item = add_creator_ranking_fields(
+            {
+                "site_id": "tikhub_xiaohongshu",
+                "published_at": (now - _dt.timedelta(days=3)).isoformat(),
+                "creator_metrics": {"likes": 2800, "comments": 70, "collects": 3600, "shares": 1400},
+            },
+            now,
+        )
+        fresh_low_item = add_creator_ranking_fields(
+            {
+                "site_id": "tikhub_xiaohongshu",
+                "published_at": (now - _dt.timedelta(hours=1)).isoformat(),
+                "creator_metrics": {"likes": 2, "comments": 0, "collects": 0, "shares": 0},
+            },
+            now,
+        )
+
+        self.assertEqual(hot_week_item["creator_freshness_bonus"], 0)
+        self.assertEqual(fresh_low_item["creator_freshness_bonus"], 15)
+        self.assertGreater(hot_week_item["creator_hot_score"], fresh_low_item["creator_hot_score"])
+
+    def test_build_creator_hot_items_uses_seven_day_window_and_hot_score_order(self):
+        import datetime as _dt
+
+        now = _dt.datetime.fromisoformat("2026-06-22T01:30:00+00:00")
+
+        def record(item_id, age, likes):
+            return {
+                "id": item_id,
+                "site_id": "tikhub_xiaohongshu",
+                "site_name": "TikHub Xiaohongshu",
+                "source": "AI作者",
+                "title": f"OpenAI 热门内容 {item_id}",
+                "url": f"https://example.com/{item_id}",
+                "published_at": (now - age).isoformat(),
+                "first_seen_at": now.isoformat(),
+                "last_seen_at": now.isoformat(),
+                "creator_metrics": {"likes": likes, "comments": 0, "collects": 0, "shares": 0},
+            }
+
+        archive = {
+            "week-hot": record("week-hot", _dt.timedelta(days=3), 2000),
+            "fresh-low": record("fresh-low", _dt.timedelta(hours=1), 2),
+            "stale": record("stale", _dt.timedelta(days=8), 99999),
+        }
+
+        items = build_creator_hot_items(archive, now, ai_only=True)
+
+        self.assertEqual([item["id"] for item in items], ["week-hot", "fresh-low"])
+        self.assertGreater(items[0]["creator_hot_score"], items[1]["creator_hot_score"])
 
     def test_parse_tikhub_xiaohongshu_accepts_millisecond_api_time(self):
         import datetime as _dt
@@ -1716,13 +1784,13 @@ class TopicFilterTests(unittest.TestCase):
             "xiaohongshu_web_v3",
         ])
         self.assertEqual([call[0] for call in session.calls], ["POST", "GET", "GET"])
-        self.assertEqual(session.calls[0][2]["json"]["sort_type"], "2")
+        self.assertEqual(session.calls[0][2]["json"]["sort_type"], "1")
         self.assertEqual(session.calls[0][2]["json"]["publish_time"], "7")
         self.assertIn("/api/v1/xiaohongshu/app_v2/search_notes", session.calls[1][1])
-        self.assertEqual(session.calls[1][2]["params"]["sort_type"], "time_descending")
+        self.assertEqual(session.calls[1][2]["params"]["sort_type"], "popularity_descending")
         self.assertEqual(session.calls[1][2]["params"]["time_filter"], "一周内")
         self.assertIn("/api/v1/xiaohongshu/web_v3/fetch_search_notes", session.calls[2][1])
-        self.assertEqual(session.calls[2][2]["params"]["sort"], "time_descending")
+        self.assertEqual(session.calls[2][2]["params"]["sort"], "popularity_descending")
         self.assertEqual(diagnostics["mapped_item_count"], 3)
 
     def test_fetch_tikhub_search_falls_back_to_xiaohongshu_web_v3(self):

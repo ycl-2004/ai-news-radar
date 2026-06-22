@@ -133,9 +133,12 @@ baseline, then let the aggregator layer add breadth.
   Signal view. The default query puts focused AI terms such as OpenAI, Claude,
   large models, Agent, and AI tools ahead of broad `AI`/`人工智能` fallbacks, and
   per-platform caps are spread across keywords so one broad term cannot consume
-  the whole paid-source budget. TikHub requests use the latest/time-descending
+  the whole paid-source budget. TikHub requests use the most-liked/popularity
   sort and a one-week publish bucket, then the radar enforces the current-week
-  cutoff in code. Xiaohongshu uses the recommended App V2 search endpoint
+  cutoff in code. The creator lane uses a separate seven-day pool ranked by
+  85% engagement heat plus a 15-point bonus for posts published in the last
+  24 hours; the rest of the site remains a 24-hour radar. Xiaohongshu uses the
+  recommended App V2 search endpoint
   first and only falls back to Web V3 when App V2 cannot fill the current
   keyword budget. It deduplicates by note id, ignores sentinel API timestamps
   such as zero, infers missing note times from the timestamp prefix in the

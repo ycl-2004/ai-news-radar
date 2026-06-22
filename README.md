@@ -288,7 +288,12 @@ PY
 gh workflow run update-news.yml --ref master -f force_tikhub=true
 ```
 
-小红书按“先搜索、后详情”处理。搜索阶段使用 App V2 的最新排序和
+自媒体栏目使用独立的 7 天热榜池，不改变其他栏目的 24 小时窗口。抖音和
+小红书搜索都优先请求“一周内最多点赞”，再从响应中提取点赞、收藏、评论
+和分享数。榜单分数由 85% 互动热度和 15% 的 24 小时新鲜度加分组成；因此
+真正的周内爆款优先，但刚开始起量的新内容仍有机会进入 Top 3。
+
+小红书按“先搜索、后详情”处理。搜索阶段使用 App V2 的最多点赞排序和
 7 天筛选，并再次在本地校验发布时间：可信 API 时间优先；`0`、未来时间
 或缺失时间会回退到 note id 的时间前缀；仍无法确认或早于 7 天的笔记会被
 跳过。通过时间门禁后，如需补齐图文详情，可按需调用官方详情接口：
@@ -305,7 +310,7 @@ search = requests.get(
     params={
         "keyword": "AI",
         "page": 1,
-        "sort_type": "time_descending",
+        "sort_type": "popularity_descending",
         "note_type": "不限",
         "time_filter": "一周内",
     },
