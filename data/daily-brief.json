@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T01:59:50.994060Z",
+  "generated_at": "2026-06-22T07:30:39.571652Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -38,15 +38,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8604,
-      "importance": 0.8604,
-      "importance_score": 0.8604,
+      "score": 0.8472,
+      "importance": 0.8472,
+      "importance_score": 0.8472,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.99,
-        "recency": 0.9576,
+        "recency": 0.8843,
         "story_heat": 0.0
       },
       "category": "official",
@@ -119,15 +119,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7914,
-      "importance": 0.7914,
-      "importance_score": 0.7914,
+      "score": 0.7777,
+      "importance": 0.7777,
+      "importance_score": 0.7777,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9932,
+        "recency": 0.9172,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -200,15 +200,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7825,
-      "importance": 0.7825,
-      "importance_score": 0.7825,
+      "score": 0.7695,
+      "importance": 0.7695,
+      "importance_score": 0.7695,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9442,
+        "recency": 0.8719,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -262,15 +262,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7664,
-      "importance": 0.7664,
-      "importance_score": 0.7664,
+      "score": 0.7545,
+      "importance": 0.7545,
+      "importance_score": 0.7545,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.8,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8597,
+        "recency": 0.7939,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -342,15 +342,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7914,
-      "importance": 0.7914,
-      "importance_score": 0.7914,
+      "score": 0.7777,
+      "importance": 0.7777,
+      "importance_score": 0.7777,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9932,
+        "recency": 0.9172,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -404,15 +404,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7489,
-      "importance": 0.7489,
-      "importance_score": 0.7489,
+      "score": 0.7379,
+      "importance": 0.7379,
+      "importance_score": 0.7379,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.78,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7959,
+        "recency": 0.735,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -483,15 +483,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7914,
-      "importance": 0.7914,
-      "importance_score": 0.7914,
+      "score": 0.7777,
+      "importance": 0.7777,
+      "importance_score": 0.7777,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9932,
+        "recency": 0.9172,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -511,21 +511,21 @@
       }
     },
     {
-      "story_id": "story_be8a49473db1",
-      "title": "只需演示一次即可无限重复，OpenAI Codex 解锁“录制与回放”新技能",
-      "url": "https://www.aibase.com/news/29032",
-      "primary_url": "https://www.aibase.com/news/29032",
+      "story_id": "story_fea130759293",
+      "title": "AI 圈太“卷”：成本压力下，微软 Copilot 拟引入 DeepSeek 模型",
+      "url": "https://www.aibase.com/news/29046",
+      "primary_url": "https://www.aibase.com/news/29046",
       "source": "AIbase",
       "source_name": "AIbase",
       "sources": [
         {
-          "id": "a0e09981be5e9506fde07fedb73a840f9d664aa2",
-          "title": "只需演示一次即可无限重复，OpenAI Codex 解锁“录制与回放”新技能",
-          "url": "https://www.aibase.com/news/29032",
+          "id": "8bd562abcb1afe6359429b3ea4d736a2d1473169",
+          "title": "AI 圈太“卷”：成本压力下，微软 Copilot 拟引入 DeepSeek 模型",
+          "url": "https://www.aibase.com/news/29046",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-06-22T01:59:50.994060Z"
+          "published_at": "2026-06-22T07:30:39.571652Z"
         }
       ],
       "source_count": 1,
@@ -534,13 +534,13 @@
       ],
       "items": [
         {
-          "id": "a0e09981be5e9506fde07fedb73a840f9d664aa2",
-          "title": "只需演示一次即可无限重复，OpenAI Codex 解锁“录制与回放”新技能",
-          "url": "https://www.aibase.com/news/29032",
+          "id": "8bd562abcb1afe6359429b3ea4d736a2d1473169",
+          "title": "AI 圈太“卷”：成本压力下，微软 Copilot 拟引入 DeepSeek 模型",
+          "url": "https://www.aibase.com/news/29046",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-06-22T01:59:50.994060Z"
+          "published_at": "2026-06-22T07:30:39.571652Z"
         }
       ],
       "item_count": 1,
@@ -561,32 +561,32 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-06-22T01:59:50.994060Z",
-      "latest_at": "2026-06-22T01:59:50.994060Z",
+      "earliest_at": "2026-06-22T07:30:39.571652Z",
+      "latest_at": "2026-06-22T07:30:39.571652Z",
       "primary_item": {
-        "id": "a0e09981be5e9506fde07fedb73a840f9d664aa2",
-        "title": "只需演示一次即可无限重复，OpenAI Codex 解锁“录制与回放”新技能",
-        "url": "https://www.aibase.com/news/29032",
+        "id": "8bd562abcb1afe6359429b3ea4d736a2d1473169",
+        "title": "AI 圈太“卷”：成本压力下，微软 Copilot 拟引入 DeepSeek 模型",
+        "url": "https://www.aibase.com/news/29046",
         "source": "AIbase",
         "source_name": "AIbase"
       }
     },
     {
-      "story_id": "story_b353bc268dd7",
-      "title": "本地也能跑万亿大模型：苹果与 LM Studio 联手解锁 Mac Studio 算力极限",
-      "url": "https://www.aibase.com/news/29033",
-      "primary_url": "https://www.aibase.com/news/29033",
+      "story_id": "story_efa3786f250e",
+      "title": "AI领军人物“大迁徙”：诺奖得主John Jumper告别DeepMind，转投Anthropic",
+      "url": "https://www.aibase.com/news/29040",
+      "primary_url": "https://www.aibase.com/news/29040",
       "source": "AIbase",
       "source_name": "AIbase",
       "sources": [
         {
-          "id": "a40aa06921a34f551c3893e3bc2ada072b79a4e1",
-          "title": "本地也能跑万亿大模型：苹果与 LM Studio 联手解锁 Mac Studio 算力极限",
-          "url": "https://www.aibase.com/news/29033",
+          "id": "d1b45c1cb657a1b424bba837c4b15b027fed097e",
+          "title": "AI领军人物“大迁徙”：诺奖得主John Jumper告别DeepMind，转投Anthropic",
+          "url": "https://www.aibase.com/news/29040",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-06-22T01:59:50.994060Z"
+          "published_at": "2026-06-22T07:30:39.571652Z"
         }
       ],
       "source_count": 1,
@@ -595,13 +595,13 @@
       ],
       "items": [
         {
-          "id": "a40aa06921a34f551c3893e3bc2ada072b79a4e1",
-          "title": "本地也能跑万亿大模型：苹果与 LM Studio 联手解锁 Mac Studio 算力极限",
-          "url": "https://www.aibase.com/news/29033",
+          "id": "d1b45c1cb657a1b424bba837c4b15b027fed097e",
+          "title": "AI领军人物“大迁徙”：诺奖得主John Jumper告别DeepMind，转投Anthropic",
+          "url": "https://www.aibase.com/news/29040",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-06-22T01:59:50.994060Z"
+          "published_at": "2026-06-22T07:30:39.571652Z"
         }
       ],
       "item_count": 1,
@@ -622,32 +622,185 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-06-22T01:59:50.994060Z",
-      "latest_at": "2026-06-22T01:59:50.994060Z",
+      "earliest_at": "2026-06-22T07:30:39.571652Z",
+      "latest_at": "2026-06-22T07:30:39.571652Z",
       "primary_item": {
-        "id": "a40aa06921a34f551c3893e3bc2ada072b79a4e1",
-        "title": "本地也能跑万亿大模型：苹果与 LM Studio 联手解锁 Mac Studio 算力极限",
-        "url": "https://www.aibase.com/news/29033",
+        "id": "d1b45c1cb657a1b424bba837c4b15b027fed097e",
+        "title": "AI领军人物“大迁徙”：诺奖得主John Jumper告别DeepMind，转投Anthropic",
+        "url": "https://www.aibase.com/news/29040",
         "source": "AIbase",
         "source_name": "AIbase"
       }
     },
     {
-      "story_id": "story_05ef536d0c01",
-      "title": "AI人才争夺战再起：谷歌Gemini负责人沙泽尔转投OpenAI",
-      "url": "https://www.aibase.com/news/29031",
-      "primary_url": "https://www.aibase.com/news/29031",
+      "story_id": "story_8f30dfad7969",
+      "title": "Show HN: Recall——Claude Code 的本地项目内存",
+      "url": "https://github.com/raiyanyahya/recall",
+      "primary_url": "https://github.com/raiyanyahya/recall",
+      "source": "github.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "ea934cb508d3b3b9d73cd9f5f090a7004b524e62",
+          "title": "Show HN: Recall——Claude Code 的本地项目内存",
+          "url": "https://github.com/raiyanyahya/recall",
+          "source": "github.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-22T07:08:17.083000Z"
+        },
+        {
+          "id": "15702b5bb39284410810f0cb8b06142e07f6a367",
+          "title": "显示 HN：Recall – Claude Code 的完全本地项目内存 / Show HN: Recall – fully-local project memory for Claude Code",
+          "url": "https://news.ycombinator.com/item?id=48622590",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-22T01:32:05.162000Z"
+        },
+        {
+          "id": "fd3833f7aee6fbd1320566ee50bb2ee14874d981",
+          "title": "Show HN: Recall——Claude Code 的完全本地化项目内存",
+          "url": "https://github.com/raiyanyahya/recall",
+          "source": "github.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-22T00:28:09.030000Z"
+        },
+        {
+          "id": "dc6b98dc96b251d290ce91f3f9e5b88e2ef42140",
+          "title": "Show HN: Recall——Claude Code 的完全本地化项目内存 / Show HN: Recall – Local project memory for Claude Code",
+          "url": "https://github.com/raiyanyahya/recall",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-21T21:05:37Z"
+        },
+        {
+          "id": "52c0c265e9988e4cd6f24ea1dee2abb85388783a",
+          "title": "Show HN: Recall——Claude Code 的完全本地化项目内存 / Show HN: Recall – fully-local project memory for Claude Code",
+          "url": "https://github.com/raiyanyahya/recall",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-21T21:05:37Z"
+        },
+        {
+          "id": "8d919a3f77b3dbc271b9484b4165dba6d72cc71b",
+          "title": "Show HN: Recall——Claude Code 的完全本地化项目内存 / Stop wasting tokens and re explaining your project between sessions",
+          "url": "https://github.com/raiyanyahya/recall",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-21T21:05:37Z"
+        }
+      ],
+      "source_count": 6,
+      "source_names": [
+        "Hacker News (黑客新闻)",
+        "Hacker News · 24h最热",
+        "github.com",
+        "hackernews"
+      ],
+      "items": [
+        {
+          "id": "ea934cb508d3b3b9d73cd9f5f090a7004b524e62",
+          "title": "Show HN: Recall——Claude Code 的本地项目内存",
+          "url": "https://github.com/raiyanyahya/recall",
+          "source": "github.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-22T07:08:17.083000Z"
+        },
+        {
+          "id": "15702b5bb39284410810f0cb8b06142e07f6a367",
+          "title": "显示 HN：Recall – Claude Code 的完全本地项目内存 / Show HN: Recall – fully-local project memory for Claude Code",
+          "url": "https://news.ycombinator.com/item?id=48622590",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-22T01:32:05.162000Z"
+        },
+        {
+          "id": "fd3833f7aee6fbd1320566ee50bb2ee14874d981",
+          "title": "Show HN: Recall——Claude Code 的完全本地化项目内存",
+          "url": "https://github.com/raiyanyahya/recall",
+          "source": "github.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-22T00:28:09.030000Z"
+        },
+        {
+          "id": "dc6b98dc96b251d290ce91f3f9e5b88e2ef42140",
+          "title": "Show HN: Recall——Claude Code 的完全本地化项目内存 / Show HN: Recall – Local project memory for Claude Code",
+          "url": "https://github.com/raiyanyahya/recall",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-21T21:05:37Z"
+        },
+        {
+          "id": "52c0c265e9988e4cd6f24ea1dee2abb85388783a",
+          "title": "Show HN: Recall——Claude Code 的完全本地化项目内存 / Show HN: Recall – fully-local project memory for Claude Code",
+          "url": "https://github.com/raiyanyahya/recall",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-21T21:05:37Z"
+        },
+        {
+          "id": "8d919a3f77b3dbc271b9484b4165dba6d72cc71b",
+          "title": "Show HN: Recall——Claude Code 的完全本地化项目内存 / Stop wasting tokens and re explaining your project between sessions",
+          "url": "https://github.com/raiyanyahya/recall",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-21T21:05:37Z"
+        }
+      ],
+      "item_count": 6,
+      "duplicate_count": 6,
+      "score": 0.6198,
+      "importance": 0.6198,
+      "importance_score": 0.6198,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9946,
+        "story_heat": 1.0
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-21T21:05:37Z",
+      "latest_at": "2026-06-22T07:08:17.083000Z",
+      "primary_item": {
+        "id": "ea934cb508d3b3b9d73cd9f5f090a7004b524e62",
+        "title": "Show HN: Recall——Claude Code 的本地项目内存",
+        "url": "https://github.com/raiyanyahya/recall",
+        "source": "github.com",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_1201c8b2dea0",
+      "title": "AWS 发布 Continuum 与 Context 两项新服务，全面补齐 AI 代理安全与业务背景短板",
+      "url": "https://www.aibase.com/news/29037",
+      "primary_url": "https://www.aibase.com/news/29037",
       "source": "AIbase",
       "source_name": "AIbase",
       "sources": [
         {
-          "id": "f2b56c0020de3d3e487804757d4c70c9390a63d0",
-          "title": "AI人才争夺战再起：谷歌Gemini负责人沙泽尔转投OpenAI",
-          "url": "https://www.aibase.com/news/29031",
+          "id": "00227662e478d69afabe85902ced5f1ff5cb6dc9",
+          "title": "AWS 发布 Continuum 与 Context 两项新服务，全面补齐 AI 代理安全与业务背景短板",
+          "url": "https://www.aibase.com/news/29037",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-06-22T01:51:46.185070Z"
+          "published_at": "2026-06-22T07:30:39.571652Z"
         }
       ],
       "source_count": 1,
@@ -656,26 +809,26 @@
       ],
       "items": [
         {
-          "id": "f2b56c0020de3d3e487804757d4c70c9390a63d0",
-          "title": "AI人才争夺战再起：谷歌Gemini负责人沙泽尔转投OpenAI",
-          "url": "https://www.aibase.com/news/29031",
+          "id": "00227662e478d69afabe85902ced5f1ff5cb6dc9",
+          "title": "AWS 发布 Continuum 与 Context 两项新服务，全面补齐 AI 代理安全与业务背景短板",
+          "url": "https://www.aibase.com/news/29037",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-06-22T01:51:46.185070Z"
+          "published_at": "2026-06-22T07:30:39.571652Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7673,
-      "importance": 0.7673,
-      "importance_score": 0.7673,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9981,
+        "recency": 1.0,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -683,12 +836,73 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-06-22T01:51:46.185070Z",
-      "latest_at": "2026-06-22T01:51:46.185070Z",
+      "earliest_at": "2026-06-22T07:30:39.571652Z",
+      "latest_at": "2026-06-22T07:30:39.571652Z",
       "primary_item": {
-        "id": "f2b56c0020de3d3e487804757d4c70c9390a63d0",
-        "title": "AI人才争夺战再起：谷歌Gemini负责人沙泽尔转投OpenAI",
-        "url": "https://www.aibase.com/news/29031",
+        "id": "00227662e478d69afabe85902ced5f1ff5cb6dc9",
+        "title": "AWS 发布 Continuum 与 Context 两项新服务，全面补齐 AI 代理安全与业务背景短板",
+        "url": "https://www.aibase.com/news/29037",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_be49e349108e",
+      "title": "Meta前高管：AI时代别做十年规划，把握这两件事就够了",
+      "url": "https://www.aibase.com/news/29051",
+      "primary_url": "https://www.aibase.com/news/29051",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "1b1c9b131873a3ead7bdea760bd3fc88c248e8c4",
+          "title": "Meta前高管：AI时代别做十年规划，把握这两件事就够了",
+          "url": "https://www.aibase.com/news/29051",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-22T07:30:39.571652Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "1b1c9b131873a3ead7bdea760bd3fc88c248e8c4",
+          "title": "Meta前高管：AI时代别做十年规划，把握这两件事就够了",
+          "url": "https://www.aibase.com/news/29051",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-22T07:30:39.571652Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-22T07:30:39.571652Z",
+      "latest_at": "2026-06-22T07:30:39.571652Z",
+      "primary_item": {
+        "id": "1b1c9b131873a3ead7bdea760bd3fc88c248e8c4",
+        "title": "Meta前高管：AI时代别做十年规划，把握这两件事就够了",
+        "url": "https://www.aibase.com/news/29051",
         "source": "AIbase",
         "source_name": "AIbase"
       }
@@ -764,15 +978,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5997,
-      "importance": 0.5997,
-      "importance_score": 0.5997,
+      "score": 0.5874,
+      "importance": 0.5874,
+      "importance_score": 0.5874,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.54,
         "ai_relevance": 0.65,
-        "recency": 0.8915,
+        "recency": 0.8233,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -790,339 +1004,101 @@
       }
     },
     {
-      "story_id": "story_8f30dfad7969",
-      "title": "显示 HN：Recall – Claude Code 的完全本地项目内存 / Show HN: Recall – fully-local project memory for Claude Code",
-      "url": "https://news.ycombinator.com/item?id=48622590",
-      "primary_url": "https://news.ycombinator.com/item?id=48622590",
-      "source": "hackernews",
-      "source_name": "NewsNow",
-      "sources": [
-        {
-          "id": "15702b5bb39284410810f0cb8b06142e07f6a367",
-          "title": "显示 HN：Recall – Claude Code 的完全本地项目内存 / Show HN: Recall – fully-local project memory for Claude Code",
-          "url": "https://news.ycombinator.com/item?id=48622590",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-22T01:32:05.162000Z"
-        },
-        {
-          "id": "fd3833f7aee6fbd1320566ee50bb2ee14874d981",
-          "title": "Show HN: Recall——Claude Code 的完全本地化项目内存",
-          "url": "https://github.com/raiyanyahya/recall",
-          "source": "github.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-22T00:28:09.030000Z"
-        },
-        {
-          "id": "52c0c265e9988e4cd6f24ea1dee2abb85388783a",
-          "title": "Show HN: Recall——Claude Code 的完全本地化项目内存 / Show HN: Recall – fully-local project memory for Claude Code",
-          "url": "https://github.com/raiyanyahya/recall",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-21T21:05:37Z"
-        },
-        {
-          "id": "8d919a3f77b3dbc271b9484b4165dba6d72cc71b",
-          "title": "Show HN: Recall——Claude Code 的完全本地化项目内存 / Stop wasting tokens and re explaining your project between sessions",
-          "url": "https://github.com/raiyanyahya/recall",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-21T21:05:37Z"
-        }
-      ],
-      "source_count": 4,
-      "source_names": [
-        "Hacker News · 24h最热",
-        "github.com",
-        "hackernews"
-      ],
-      "items": [
-        {
-          "id": "15702b5bb39284410810f0cb8b06142e07f6a367",
-          "title": "显示 HN：Recall – Claude Code 的完全本地项目内存 / Show HN: Recall – fully-local project memory for Claude Code",
-          "url": "https://news.ycombinator.com/item?id=48622590",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-22T01:32:05.162000Z"
-        },
-        {
-          "id": "fd3833f7aee6fbd1320566ee50bb2ee14874d981",
-          "title": "Show HN: Recall——Claude Code 的完全本地化项目内存",
-          "url": "https://github.com/raiyanyahya/recall",
-          "source": "github.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-22T00:28:09.030000Z"
-        },
-        {
-          "id": "52c0c265e9988e4cd6f24ea1dee2abb85388783a",
-          "title": "Show HN: Recall——Claude Code 的完全本地化项目内存 / Show HN: Recall – fully-local project memory for Claude Code",
-          "url": "https://github.com/raiyanyahya/recall",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-21T21:05:37Z"
-        },
-        {
-          "id": "8d919a3f77b3dbc271b9484b4165dba6d72cc71b",
-          "title": "Show HN: Recall——Claude Code 的完全本地化项目内存 / Stop wasting tokens and re explaining your project between sessions",
-          "url": "https://github.com/raiyanyahya/recall",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-21T21:05:37Z"
-        }
-      ],
-      "item_count": 4,
-      "duplicate_count": 4,
-      "score": 0.5946,
-      "importance": 0.5946,
-      "importance_score": 0.5946,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9933,
-        "story_heat": 0.75
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-21T21:05:37Z",
-      "latest_at": "2026-06-22T01:32:05.162000Z",
-      "primary_item": {
-        "id": "15702b5bb39284410810f0cb8b06142e07f6a367",
-        "title": "显示 HN：Recall – Claude Code 的完全本地项目内存 / Show HN: Recall – fully-local project memory for Claude Code",
-        "url": "https://news.ycombinator.com/item?id=48622590",
-        "source": "hackernews",
-        "source_name": "NewsNow"
-      }
-    },
-    {
-      "story_id": "story_8c7eee48f31a",
-      "title": "谷歌明星研究员接连出走，诺奖得主约翰·詹珀转投 Anthropic",
-      "url": "https://www.aibase.com/news/29030",
-      "primary_url": "https://www.aibase.com/news/29030",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "d6efb0f3c8ba320cde07b145cb1987edd2bf836c",
-          "title": "谷歌明星研究员接连出走，诺奖得主约翰·詹珀转投 Anthropic",
-          "url": "https://www.aibase.com/news/29030",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-22T01:51:46.185070Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "d6efb0f3c8ba320cde07b145cb1987edd2bf836c",
-          "title": "谷歌明星研究员接连出走，诺奖得主约翰·詹珀转投 Anthropic",
-          "url": "https://www.aibase.com/news/29030",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-22T01:51:46.185070Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7673,
-      "importance": 0.7673,
-      "importance_score": 0.7673,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9981,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-22T01:51:46.185070Z",
-      "latest_at": "2026-06-22T01:51:46.185070Z",
-      "primary_item": {
-        "id": "d6efb0f3c8ba320cde07b145cb1987edd2bf836c",
-        "title": "谷歌明星研究员接连出走，诺奖得主约翰·詹珀转投 Anthropic",
-        "url": "https://www.aibase.com/news/29030",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      }
-    },
-    {
-      "story_id": "story_a70218bc5d4a",
-      "title": "Apertus——面向主权人工智能的开放式基础模型",
-      "url": "https://apertvs.ai",
-      "primary_url": "https://apertvs.ai",
-      "source": "apertvs.ai",
+      "story_id": "story_201ce65b3ce5",
+      "title": "通过对Qwen 3:0.6B等本地大型语言模型（LLM）进行微调，使其能够对问题进行分类，取得了良好的效果",
+      "url": "https://www.teachmecoolstuff.com/viewarticle/fine-tuning-a-local-llm-to-categorize-questions",
+      "primary_url": "https://www.teachmecoolstuff.com/viewarticle/fine-tuning-a-local-llm-to-categorize-questions",
+      "source": "www.teachmecoolstuff.com",
       "source_name": "Buzzing",
       "sources": [
         {
-          "id": "d147c27ddbc5d2fa214e290bd8ec6cc8e90c0e0e",
-          "title": "Apertus——面向主权人工智能的开放式基础模型",
-          "url": "https://apertvs.ai",
-          "source": "apertvs.ai",
+          "id": "bd8bf76d6a2a4147d0995b5d3661ec41cdb2856f",
+          "title": "通过对Qwen 3:0.6B等本地大型语言模型（LLM）进行微调，使其能够对问题进行分类，取得了良好的效果",
+          "url": "https://www.teachmecoolstuff.com/viewarticle/fine-tuning-a-local-llm-to-categorize-questions",
+          "source": "www.teachmecoolstuff.com",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-06-21T23:24:05.154000Z"
+          "published_at": "2026-06-22T06:52:26.356000Z"
         },
         {
-          "id": "6d5d789e1e7a1b8162eb9face018693e65666442",
-          "title": "Apertus – 主权人工智能的开放基础模型 / Apertus – Open Foundation Model for Sovereign AI",
-          "url": "https://news.ycombinator.com/item?id=48622778",
+          "id": "6b615f7e7d0c0f2e663a7622337fe642bdff2237",
+          "title": "微调本地法学硕士（如 Qwen 3:0.6B）以对问题进行分类，效果良好 / Good results fine tuning a local LLM like Qwen 3:0.6B to categorize questions",
+          "url": "https://news.ycombinator.com/item?id=48623434",
           "source": "hackernews",
           "source_name": "NewsNow",
           "site_id": "newsnow",
-          "published_at": "2026-06-21T23:03:41.891000Z"
+          "published_at": "2026-06-22T01:32:05.162000Z"
         },
         {
-          "id": "93f8899442a8e6f8ebbde7f6f473a8d5d13f044e",
-          "title": "Apertus——面向主权人工智能的开放式基础模型 / Apertus – Open Foundation Model for Sovereign AI",
-          "url": "https://apertvs.ai",
+          "id": "fa50eb569b4bd6cda2f0096c63424f9417728b4d",
+          "title": "通过对Qwen 3:0.6B等本地大型语言模型（LLM）进行微调，使其能够对问题进行分类，取得了良好的效果 / Good results fine tuning a local LLM like Qwen 3:0.6B to categorize questions",
+          "url": "https://www.teachmecoolstuff.com/viewarticle/fine-tuning-a-local-llm-to-categorize-questions",
           "source": "Hacker News · 24h最热",
           "source_name": "Zeli",
           "site_id": "zeli",
-          "published_at": "2026-06-21T21:29:43Z"
+          "published_at": "2026-06-21T22:55:23Z"
         }
       ],
       "source_count": 3,
       "source_names": [
         "Hacker News · 24h最热",
-        "apertvs.ai",
-        "hackernews"
+        "hackernews",
+        "www.teachmecoolstuff.com"
       ],
       "items": [
         {
-          "id": "d147c27ddbc5d2fa214e290bd8ec6cc8e90c0e0e",
-          "title": "Apertus——面向主权人工智能的开放式基础模型",
-          "url": "https://apertvs.ai",
-          "source": "apertvs.ai",
+          "id": "bd8bf76d6a2a4147d0995b5d3661ec41cdb2856f",
+          "title": "通过对Qwen 3:0.6B等本地大型语言模型（LLM）进行微调，使其能够对问题进行分类，取得了良好的效果",
+          "url": "https://www.teachmecoolstuff.com/viewarticle/fine-tuning-a-local-llm-to-categorize-questions",
+          "source": "www.teachmecoolstuff.com",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-06-21T23:24:05.154000Z"
+          "published_at": "2026-06-22T06:52:26.356000Z"
         },
         {
-          "id": "6d5d789e1e7a1b8162eb9face018693e65666442",
-          "title": "Apertus – 主权人工智能的开放基础模型 / Apertus – Open Foundation Model for Sovereign AI",
-          "url": "https://news.ycombinator.com/item?id=48622778",
+          "id": "6b615f7e7d0c0f2e663a7622337fe642bdff2237",
+          "title": "微调本地法学硕士（如 Qwen 3:0.6B）以对问题进行分类，效果良好 / Good results fine tuning a local LLM like Qwen 3:0.6B to categorize questions",
+          "url": "https://news.ycombinator.com/item?id=48623434",
           "source": "hackernews",
           "source_name": "NewsNow",
           "site_id": "newsnow",
-          "published_at": "2026-06-21T23:03:41.891000Z"
+          "published_at": "2026-06-22T01:32:05.162000Z"
         },
         {
-          "id": "93f8899442a8e6f8ebbde7f6f473a8d5d13f044e",
-          "title": "Apertus——面向主权人工智能的开放式基础模型 / Apertus – Open Foundation Model for Sovereign AI",
-          "url": "https://apertvs.ai",
+          "id": "fa50eb569b4bd6cda2f0096c63424f9417728b4d",
+          "title": "通过对Qwen 3:0.6B等本地大型语言模型（LLM）进行微调，使其能够对问题进行分类，取得了良好的效果 / Good results fine tuning a local LLM like Qwen 3:0.6B to categorize questions",
+          "url": "https://www.teachmecoolstuff.com/viewarticle/fine-tuning-a-local-llm-to-categorize-questions",
           "source": "Hacker News · 24h最热",
           "source_name": "Zeli",
           "site_id": "zeli",
-          "published_at": "2026-06-21T21:29:43Z"
+          "published_at": "2026-06-21T22:55:23Z"
         }
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5642,
-      "importance": 0.5642,
-      "importance_score": 0.5642,
+      "score": 0.5692,
+      "importance": 0.5692,
+      "importance_score": 0.5692,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9632,
+        "recency": 0.9908,
         "story_heat": 0.5
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-21T21:29:43Z",
-      "latest_at": "2026-06-21T23:24:05.154000Z",
+      "earliest_at": "2026-06-21T22:55:23Z",
+      "latest_at": "2026-06-22T06:52:26.356000Z",
       "primary_item": {
-        "id": "d147c27ddbc5d2fa214e290bd8ec6cc8e90c0e0e",
-        "title": "Apertus——面向主权人工智能的开放式基础模型",
-        "url": "https://apertvs.ai",
-        "source": "apertvs.ai",
+        "id": "bd8bf76d6a2a4147d0995b5d3661ec41cdb2856f",
+        "title": "通过对Qwen 3:0.6B等本地大型语言模型（LLM）进行微调，使其能够对问题进行分类，取得了良好的效果",
+        "url": "https://www.teachmecoolstuff.com/viewarticle/fine-tuning-a-local-llm-to-categorize-questions",
+        "source": "www.teachmecoolstuff.com",
         "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_742f8340ff40",
-      "title": "Snap分拆生成式AI视频团队成立新公司Dotmo 缓解高昂研发成本压力",
-      "url": "https://www.aibase.com/news/29027",
-      "primary_url": "https://www.aibase.com/news/29027",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "5dbbaf4b5ab5ccf346484145e2e8228975183014",
-          "title": "Snap分拆生成式AI视频团队成立新公司Dotmo 缓解高昂研发成本压力",
-          "url": "https://www.aibase.com/news/29027",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-22T01:31:31.705209Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "5dbbaf4b5ab5ccf346484145e2e8228975183014",
-          "title": "Snap分拆生成式AI视频团队成立新公司Dotmo 缓解高昂研发成本压力",
-          "url": "https://www.aibase.com/news/29027",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-22T01:31:31.705209Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7664,
-      "importance": 0.7664,
-      "importance_score": 0.7664,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9932,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-22T01:31:31.705209Z",
-      "latest_at": "2026-06-22T01:31:31.705209Z",
-      "primary_item": {
-        "id": "5dbbaf4b5ab5ccf346484145e2e8228975183014",
-        "title": "Snap分拆生成式AI视频团队成立新公司Dotmo 缓解高昂研发成本压力",
-        "url": "https://www.aibase.com/news/29027",
-        "source": "AIbase",
-        "source_name": "AIbase"
       }
     },
     {
@@ -1216,15 +1192,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.5809,
-      "importance": 0.5809,
-      "importance_score": 0.5809,
+      "score": 0.5683,
+      "importance": 0.5683,
+      "importance_score": 0.5683,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9173,
+        "recency": 0.8471,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -1242,337 +1218,381 @@
       }
     },
     {
-      "story_id": "story_1c9eb4f0ada4",
-      "title": "中信证券：看好具备 SOTA 能力溢价的头部模型厂商及 AI 基建、AI 应用的投资机会",
-      "url": "https://36kr.com/newsflashes/3863619874755849?f=rss",
-      "primary_url": "https://36kr.com/newsflashes/3863619874755849?f=rss",
-      "source": "Readhub · AI",
-      "source_name": "TopHub",
+      "story_id": "story_099a80d37590",
+      "title": "Midjourney跨界大动作：布局人体扫描，打造“Spa”式健康体验",
+      "url": "https://www.aibase.com/news/29042",
+      "primary_url": "https://www.aibase.com/news/29042",
+      "source": "AIbase",
+      "source_name": "AIbase",
       "sources": [
         {
-          "id": "5191fce099cf652352375b1aac868534e0e76703",
-          "title": "中信证券：看好具备 SOTA 能力溢价的头部模型厂商及 AI 基建、AI 应用的投资机会",
-          "url": "https://36kr.com/newsflashes/3863619874755849?f=rss",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        },
-        {
-          "id": "128966248a37c6172094a513ca58f7c581a7239e",
-          "title": "中信证券：看好具备SOTA能力溢价的头部模型厂商及AI基建、AI应用的投资机会",
-          "url": "https://36kr.com/newsflashes/3863619874755849?f=rss",
-          "source": "36氪 (36Kr)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-22T00:46:20Z"
+          "id": "98bfaa6d97f3a421122ed44ae703f862a9e089b2",
+          "title": "Midjourney跨界大动作：布局人体扫描，打造“Spa”式健康体验",
+          "url": "https://www.aibase.com/news/29042",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-22T07:30:39.571652Z"
         }
       ],
-      "source_count": 2,
+      "source_count": 1,
       "source_names": [
-        "36氪 (36Kr)",
-        "Readhub · AI"
+        "AIbase"
       ],
       "items": [
         {
-          "id": "5191fce099cf652352375b1aac868534e0e76703",
-          "title": "中信证券：看好具备 SOTA 能力溢价的头部模型厂商及 AI 基建、AI 应用的投资机会",
-          "url": "https://36kr.com/newsflashes/3863619874755849?f=rss",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        },
-        {
-          "id": "128966248a37c6172094a513ca58f7c581a7239e",
-          "title": "中信证券：看好具备SOTA能力溢价的头部模型厂商及AI基建、AI应用的投资机会",
-          "url": "https://36kr.com/newsflashes/3863619874755849?f=rss",
-          "source": "36氪 (36Kr)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-22T00:46:20Z"
+          "id": "98bfaa6d97f3a421122ed44ae703f862a9e089b2",
+          "title": "Midjourney跨界大动作：布局人体扫描，打造“Spa”式健康体验",
+          "url": "https://www.aibase.com/news/29042",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-22T07:30:39.571652Z"
         }
       ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5446,
-      "importance": 0.5446,
-      "importance_score": 0.5446,
-      "importance_label": "值得关注",
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9932,
-        "story_heat": 0.25
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
       },
-      "category": "watch",
+      "category": "industry",
       "reasons": [
-        "multi_source"
+        "high_ai_relevance",
+        "high_importance"
       ],
-      "earliest_at": "2026-06-22T00:46:20Z",
-      "latest_at": "2026-06-22T01:31:31.705209Z",
+      "earliest_at": "2026-06-22T07:30:39.571652Z",
+      "latest_at": "2026-06-22T07:30:39.571652Z",
       "primary_item": {
-        "id": "5191fce099cf652352375b1aac868534e0e76703",
-        "title": "中信证券：看好具备 SOTA 能力溢价的头部模型厂商及 AI 基建、AI 应用的投资机会",
-        "url": "https://36kr.com/newsflashes/3863619874755849?f=rss",
-        "source": "Readhub · AI",
-        "source_name": "TopHub"
+        "id": "98bfaa6d97f3a421122ed44ae703f862a9e089b2",
+        "title": "Midjourney跨界大动作：布局人体扫描，打造“Spa”式健康体验",
+        "url": "https://www.aibase.com/news/29042",
+        "source": "AIbase",
+        "source_name": "AIbase"
       }
     },
     {
-      "story_id": "story_66b4e5f43215",
-      "title": "纽约的租金收入下降 / Rent collections are down in New York",
-      "url": "https://www.politico.com/news/2026/06/21/rent-collections-are-down-in-new-york-and-no-ones-sure-why-00966982",
-      "primary_url": "https://www.politico.com/news/2026/06/21/rent-collections-are-down-in-new-york-and-no-ones-sure-why-00966982",
-      "source": "Hacker News · 24h最热",
-      "source_name": "Zeli",
-      "sources": [
-        {
-          "id": "0a2bdfed2b73f966fe64f41784cec5f3acc42bdb",
-          "title": "纽约的租金收入下降 / Rent collections are down in New York",
-          "url": "https://www.politico.com/news/2026/06/21/rent-collections-are-down-in-new-york-and-no-ones-sure-why-00966982",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-21T21:54:34Z"
-        },
-        {
-          "id": "8c1184cd394c4efff0733ec04b199a27eb30b802",
-          "title": "纽约的租金收入下降——没人知道原因 / Rent collections are down in New York – and no one's sure why",
-          "url": "https://www.politico.com/news/2026/06/21/rent-collections-are-down-in-new-york-and-no-ones-sure-why-00966982",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-21T21:54:34Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News · 24h最热"
-      ],
-      "items": [
-        {
-          "id": "0a2bdfed2b73f966fe64f41784cec5f3acc42bdb",
-          "title": "纽约的租金收入下降 / Rent collections are down in New York",
-          "url": "https://www.politico.com/news/2026/06/21/rent-collections-are-down-in-new-york-and-no-ones-sure-why-00966982",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-21T21:54:34Z"
-        },
-        {
-          "id": "8c1184cd394c4efff0733ec04b199a27eb30b802",
-          "title": "纽约的租金收入下降——没人知道原因 / Rent collections are down in New York – and no one's sure why",
-          "url": "https://www.politico.com/news/2026/06/21/rent-collections-are-down-in-new-york-and-no-ones-sure-why-00966982",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-21T21:54:34Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5355,
-      "importance": 0.5355,
-      "importance_score": 0.5355,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9427,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-21T21:54:34Z",
-      "latest_at": "2026-06-21T21:54:34Z",
-      "primary_item": {
-        "id": "0a2bdfed2b73f966fe64f41784cec5f3acc42bdb",
-        "title": "纽约的租金收入下降 / Rent collections are down in New York",
-        "url": "https://www.politico.com/news/2026/06/21/rent-collections-are-down-in-new-york-and-no-ones-sure-why-00966982",
-        "source": "Hacker News · 24h最热",
-        "source_name": "Zeli"
-      }
-    },
-    {
-      "story_id": "story_adb703e42fd4",
-      "title": "构建可靠的代理式人工智能系统",
-      "url": "https://martinfowler.com/articles/reliable-llm-bayer.html",
-      "primary_url": "https://martinfowler.com/articles/reliable-llm-bayer.html",
-      "source": "martinfowler.com",
+      "story_id": "story_a70218bc5d4a",
+      "title": "Apertus——面向主权人工智能的开放式基础模型",
+      "url": "https://apertvs.ai",
+      "primary_url": "https://apertvs.ai",
+      "source": "apertvs.ai",
       "source_name": "Buzzing",
       "sources": [
         {
-          "id": "db20149076b392dacf05ff088d49d1e741446c41",
-          "title": "构建可靠的代理式人工智能系统",
-          "url": "https://martinfowler.com/articles/reliable-llm-bayer.html",
-          "source": "martinfowler.com",
+          "id": "d147c27ddbc5d2fa214e290bd8ec6cc8e90c0e0e",
+          "title": "Apertus——面向主权人工智能的开放式基础模型",
+          "url": "https://apertvs.ai",
+          "source": "apertvs.ai",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-06-21T09:49:12.872000Z"
+          "published_at": "2026-06-21T23:24:05.154000Z"
         },
         {
-          "id": "4a2b347226b60ae7491e3155dd530269f351b968",
-          "title": "构建可靠的代理人工智能系统 / Building reliable agentic AI systems",
-          "url": "https://news.ycombinator.com/item?id=48615680",
+          "id": "6d5d789e1e7a1b8162eb9face018693e65666442",
+          "title": "Apertus – 主权人工智能的开放基础模型 / Apertus – Open Foundation Model for Sovereign AI",
+          "url": "https://news.ycombinator.com/item?id=48622778",
           "source": "hackernews",
           "source_name": "NewsNow",
           "site_id": "newsnow",
-          "published_at": "2026-06-21T08:54:29.645000Z"
+          "published_at": "2026-06-21T23:03:41.891000Z"
         },
         {
-          "id": "5b65f1c550cd0d81fc82e777faf01951bb72ab16",
-          "title": "构建可靠的代理式人工智能系统 / Building reliable agentic AI systems",
-          "url": "https://martinfowler.com/articles/reliable-llm-bayer.html",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-21T04:28:39Z"
+          "id": "93f8899442a8e6f8ebbde7f6f473a8d5d13f044e",
+          "title": "Apertus——面向主权人工智能的开放式基础模型 / Apertus – Open Foundation Model for Sovereign AI",
+          "url": "https://apertvs.ai",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-21T21:29:43Z"
         }
       ],
       "source_count": 3,
       "source_names": [
-        "Hacker News (黑客新闻)",
-        "hackernews",
-        "martinfowler.com"
+        "Hacker News · 24h最热",
+        "apertvs.ai",
+        "hackernews"
       ],
       "items": [
         {
-          "id": "db20149076b392dacf05ff088d49d1e741446c41",
-          "title": "构建可靠的代理式人工智能系统",
-          "url": "https://martinfowler.com/articles/reliable-llm-bayer.html",
-          "source": "martinfowler.com",
+          "id": "d147c27ddbc5d2fa214e290bd8ec6cc8e90c0e0e",
+          "title": "Apertus——面向主权人工智能的开放式基础模型",
+          "url": "https://apertvs.ai",
+          "source": "apertvs.ai",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-06-21T09:49:12.872000Z"
+          "published_at": "2026-06-21T23:24:05.154000Z"
         },
         {
-          "id": "4a2b347226b60ae7491e3155dd530269f351b968",
-          "title": "构建可靠的代理人工智能系统 / Building reliable agentic AI systems",
-          "url": "https://news.ycombinator.com/item?id=48615680",
+          "id": "6d5d789e1e7a1b8162eb9face018693e65666442",
+          "title": "Apertus – 主权人工智能的开放基础模型 / Apertus – Open Foundation Model for Sovereign AI",
+          "url": "https://news.ycombinator.com/item?id=48622778",
           "source": "hackernews",
           "source_name": "NewsNow",
           "site_id": "newsnow",
-          "published_at": "2026-06-21T08:54:29.645000Z"
+          "published_at": "2026-06-21T23:03:41.891000Z"
         },
         {
-          "id": "5b65f1c550cd0d81fc82e777faf01951bb72ab16",
-          "title": "构建可靠的代理式人工智能系统 / Building reliable agentic AI systems",
-          "url": "https://martinfowler.com/articles/reliable-llm-bayer.html",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-21T04:28:39Z"
+          "id": "93f8899442a8e6f8ebbde7f6f473a8d5d13f044e",
+          "title": "Apertus——面向主权人工智能的开放式基础模型 / Apertus – Open Foundation Model for Sovereign AI",
+          "url": "https://apertvs.ai",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-21T21:29:43Z"
         }
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5333,
-      "importance": 0.5333,
-      "importance_score": 0.5333,
+      "score": 0.5509,
+      "importance": 0.5509,
+      "importance_score": 0.5509,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7917,
+        "recency": 0.8895,
         "story_heat": 0.5
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-21T04:28:39Z",
-      "latest_at": "2026-06-21T09:49:12.872000Z",
+      "earliest_at": "2026-06-21T21:29:43Z",
+      "latest_at": "2026-06-21T23:24:05.154000Z",
       "primary_item": {
-        "id": "db20149076b392dacf05ff088d49d1e741446c41",
-        "title": "构建可靠的代理式人工智能系统",
-        "url": "https://martinfowler.com/articles/reliable-llm-bayer.html",
-        "source": "martinfowler.com",
+        "id": "d147c27ddbc5d2fa214e290bd8ec6cc8e90c0e0e",
+        "title": "Apertus——面向主权人工智能的开放式基础模型",
+        "url": "https://apertvs.ai",
+        "source": "apertvs.ai",
         "source_name": "Buzzing"
       }
     },
     {
-      "story_id": "story_0e3cdbc242c9",
-      "title": "什么是GLM-5.2？又一款开源的中国AI模型引起了硅谷的关注。",
-      "url": "https://www.businessinsider.com/what-is-glm-5-2-chinese-ai-coding-model-2026-6",
-      "primary_url": "https://www.businessinsider.com/what-is-glm-5-2-chinese-ai-coding-model-2026-6",
-      "source": "www.businessinsider.com",
-      "source_name": "Buzzing",
+      "story_id": "story_3ed668aa2867",
+      "title": "arXiv：谷歌量子 AI 团队最新研究：椭圆曲线密码学的量子危机与防御",
+      "url": "https://www.huxiu.com/article/4869167.html?f=rss",
+      "primary_url": "https://www.huxiu.com/article/4869167.html?f=rss",
+      "source": "Readhub · AI",
+      "source_name": "TopHub",
       "sources": [
         {
-          "id": "421d1b6c4db292173edd378b92dbd411898ac4af",
-          "title": "什么是GLM-5.2？又一款开源的中国AI模型引起了硅谷的关注。",
-          "url": "https://www.businessinsider.com/what-is-glm-5-2-chinese-ai-coding-model-2026-6",
-          "source": "www.businessinsider.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-21T20:12:24.001000Z"
+          "id": "5794633cbc473fb63cd025b437c06c856ea78c92",
+          "title": "arXiv：谷歌量子 AI 团队最新研究：椭圆曲线密码学的量子危机与防御",
+          "url": "https://www.huxiu.com/article/4869167.html?f=rss",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
         },
         {
-          "id": "cff35a8f7510d0c54034354e7717a14d0fab73c7",
-          "title": "什么是GLM-5.2？又一款开源的中国AI模型引起了硅谷的关注。 / What is GLM-5.2? Another open-source Chinese AI model has Silicon Valley's attention.",
-          "url": "https://www.businessinsider.com/what-is-glm-5-2-chinese-ai-coding-model-2026-6",
-          "source": "Business Insider",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-21T19:52:34Z"
+          "id": "7992000ef88bbb027b5b83627bcab7aa70989fde",
+          "title": "arXiv：谷歌量子AI团队最新研究：椭圆曲线密码学的量子危机与防御",
+          "url": "https://www.huxiu.com/article/4869167.html?f=rss",
+          "source": "虎嗅 (Huxiu)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-22T06:40:56Z"
         }
       ],
       "source_count": 2,
       "source_names": [
-        "Business Insider",
-        "www.businessinsider.com"
+        "Readhub · AI",
+        "虎嗅 (Huxiu)"
       ],
       "items": [
         {
-          "id": "421d1b6c4db292173edd378b92dbd411898ac4af",
-          "title": "什么是GLM-5.2？又一款开源的中国AI模型引起了硅谷的关注。",
-          "url": "https://www.businessinsider.com/what-is-glm-5-2-chinese-ai-coding-model-2026-6",
-          "source": "www.businessinsider.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-21T20:12:24.001000Z"
+          "id": "5794633cbc473fb63cd025b437c06c856ea78c92",
+          "title": "arXiv：谷歌量子 AI 团队最新研究：椭圆曲线密码学的量子危机与防御",
+          "url": "https://www.huxiu.com/article/4869167.html?f=rss",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
         },
         {
-          "id": "cff35a8f7510d0c54034354e7717a14d0fab73c7",
-          "title": "什么是GLM-5.2？又一款开源的中国AI模型引起了硅谷的关注。 / What is GLM-5.2? Another open-source Chinese AI model has Silicon Valley's attention.",
-          "url": "https://www.businessinsider.com/what-is-glm-5-2-chinese-ai-coding-model-2026-6",
-          "source": "Business Insider",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-21T19:52:34Z"
+          "id": "7992000ef88bbb027b5b83627bcab7aa70989fde",
+          "title": "arXiv：谷歌量子AI团队最新研究：椭圆曲线密码学的量子危机与防御",
+          "url": "https://www.huxiu.com/article/4869167.html?f=rss",
+          "source": "虎嗅 (Huxiu)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-22T06:40:56Z"
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5314,
-      "importance": 0.5314,
-      "importance_score": 0.5314,
+      "score": 0.5458,
+      "importance": 0.5458,
+      "importance_score": 0.5458,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9198,
+        "recency": 1.0,
         "story_heat": 0.25
       },
       "category": "watch",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-21T19:52:34Z",
-      "latest_at": "2026-06-21T20:12:24.001000Z",
+      "earliest_at": "2026-06-22T06:40:56Z",
+      "latest_at": "2026-06-22T07:30:39.571652Z",
       "primary_item": {
-        "id": "421d1b6c4db292173edd378b92dbd411898ac4af",
-        "title": "什么是GLM-5.2？又一款开源的中国AI模型引起了硅谷的关注。",
-        "url": "https://www.businessinsider.com/what-is-glm-5-2-chinese-ai-coding-model-2026-6",
-        "source": "www.businessinsider.com",
+        "id": "5794633cbc473fb63cd025b437c06c856ea78c92",
+        "title": "arXiv：谷歌量子 AI 团队最新研究：椭圆曲线密码学的量子危机与防御",
+        "url": "https://www.huxiu.com/article/4869167.html?f=rss",
+        "source": "Readhub · AI",
+        "source_name": "TopHub"
+      }
+    },
+    {
+      "story_id": "story_0c8b2cb87256",
+      "title": "萨卡纳·福古",
+      "url": "https://sakana.ai/fugu",
+      "primary_url": "https://sakana.ai/fugu",
+      "source": "sakana.ai",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "023fe69c459d5e8808ea84df6e56cc3eda3ad6ed",
+          "title": "萨卡纳·福古",
+          "url": "https://sakana.ai/fugu",
+          "source": "sakana.ai",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-22T07:24:14.938000Z"
+        },
+        {
+          "id": "777c553ccdd2719300954cdee43409dd55a228b7",
+          "title": "萨卡纳·福古 / Sakana Fugu",
+          "url": "https://sakana.ai/fugu",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-22T02:08:18Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News",
+        "sakana.ai"
+      ],
+      "items": [
+        {
+          "id": "023fe69c459d5e8808ea84df6e56cc3eda3ad6ed",
+          "title": "萨卡纳·福古",
+          "url": "https://sakana.ai/fugu",
+          "source": "sakana.ai",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-22T07:24:14.938000Z"
+        },
+        {
+          "id": "777c553ccdd2719300954cdee43409dd55a228b7",
+          "title": "萨卡纳·福古 / Sakana Fugu",
+          "url": "https://sakana.ai/fugu",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-22T02:08:18Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5455,
+      "importance": 0.5455,
+      "importance_score": 0.5455,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9985,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-22T02:08:18Z",
+      "latest_at": "2026-06-22T07:24:14.938000Z",
+      "primary_item": {
+        "id": "023fe69c459d5e8808ea84df6e56cc3eda3ad6ed",
+        "title": "萨卡纳·福古",
+        "url": "https://sakana.ai/fugu",
+        "source": "sakana.ai",
         "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_4d742081efb5",
+      "title": "OpenAI拿下史上最大订单：三星 12 万员工全面开启AI办公时代",
+      "url": "https://www.aibase.com/news/29056",
+      "primary_url": "https://www.aibase.com/news/29056",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "91cf833ffa2eb5ac209adf14ff0ac338e6d793b0",
+          "title": "OpenAI拿下史上最大订单：三星 12 万员工全面开启AI办公时代",
+          "url": "https://www.aibase.com/news/29056",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-22T07:30:39.571652Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "91cf833ffa2eb5ac209adf14ff0ac338e6d793b0",
+          "title": "OpenAI拿下史上最大订单：三星 12 万员工全面开启AI办公时代",
+          "url": "https://www.aibase.com/news/29056",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-22T07:30:39.571652Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-22T07:30:39.571652Z",
+      "latest_at": "2026-06-22T07:30:39.571652Z",
+      "primary_item": {
+        "id": "91cf833ffa2eb5ac209adf14ff0ac338e6d793b0",
+        "title": "OpenAI拿下史上最大订单：三星 12 万员工全面开启AI办公时代",
+        "url": "https://www.aibase.com/news/29056",
+        "source": "AIbase",
+        "source_name": "AIbase"
       }
     }
   ]
