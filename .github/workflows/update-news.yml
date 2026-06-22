@@ -2,6 +2,12 @@ name: Update AI News Snapshot
 
 on:
   workflow_dispatch:
+    inputs:
+      force_tikhub:
+        description: "Force a paid TikHub refresh even before its normal interval"
+        required: false
+        default: false
+        type: boolean
   schedule:
     - cron: "*/30 * * * *"
 
@@ -67,6 +73,7 @@ jobs:
           SOCIALDATA_API_KEY: ${{ secrets.SOCIALDATA_API_KEY }}
           TIKHUB_ENABLED: ${{ secrets.TIKHUB_ENABLED || vars.TIKHUB_ENABLED }}
           TIKHUB_API_KEY: ${{ secrets.TIKHUB_API_KEY }}
+          TIKHUB_FORCE_RUN: ${{ inputs.force_tikhub && '1' || '' }}
           RSS_MAX_FEEDS: ${{ vars.RSS_MAX_FEEDS || 10 }}
         run: |
           if [ -f feeds/follow.opml ]; then

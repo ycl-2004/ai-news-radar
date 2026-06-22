@@ -236,7 +236,7 @@ python scripts/update_news.py --output-dir data --window-hours 24 --rss-opml fee
 
 `.github/workflows/update-news.yml` 已经配置好定时任务。
 
-- 支持手动触发 `workflow_dispatch`
+- 支持手动触发 `workflow_dispatch`；需要忽略 TikHub 的正常付费源间隔时，显式传入 `force_tikhub=true`
 - 默认每 30 分钟运行一次：`*/30 * * * *`
 - 自动生成并提交 `data/*.json`；工作流使用 `git add data/`，避免新增 JSON 文件因为白名单遗漏而停留在旧更新时间
 - 如果没有设置 `FOLLOW_OPML_B64`，线上工作流会自动使用公开示例 `feeds/follow.example.opml`，让页面展示 RSS/OPML 能力
@@ -280,6 +280,12 @@ print("tikhub_status =", [s for s in status.get("sites", []) if str(s.get("site_
 counts = Counter(i.get("site_id") for i in latest.get("items_all_raw", []))
 print("tikhub_24h_counts =", {k: counts[k] for k in sorted(counts) if str(k).startswith("tikhub")})
 PY
+```
+
+远端需要用当前 `master` 立即重跑 TikHub 时：
+
+```bash
+gh workflow run update-news.yml --ref master -f force_tikhub=true
 ```
 
 小红书按“先搜索、后详情”处理。搜索阶段使用 App V2 的最新排序和
