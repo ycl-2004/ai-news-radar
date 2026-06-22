@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T07:30:39.571652Z",
+  "generated_at": "2026-06-22T13:28:49.313075Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -38,15 +38,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8472,
-      "importance": 0.8472,
-      "importance_score": 0.8472,
+      "score": 0.834,
+      "importance": 0.834,
+      "importance_score": 0.834,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.99,
-        "recency": 0.8843,
+        "recency": 0.8113,
         "story_heat": 0.0
       },
       "category": "official",
@@ -66,82 +66,62 @@
       }
     },
     {
-      "story_id": "story_1c79584e7855",
-      "title": "AI 进化的下一块拼图：GPT-5.6 或于下周登场，主打“Agent”级操作能力",
-      "url": "https://www.aibase.com/news/29029",
-      "primary_url": "https://www.aibase.com/news/29029",
+      "story_id": "story_40c8ae514e75",
+      "title": "OpenAI拿下史上最大企业订单！三星 12 万员工全面接入ChatGPT",
+      "url": "https://www.aibase.com/news/29061",
+      "primary_url": "https://www.aibase.com/news/29061",
       "source": "AIbase",
       "source_name": "AIbase",
       "sources": [
         {
-          "id": "a37138863d4beafe577795dc7c456c17499f6bb6",
-          "title": "AI 进化的下一块拼图：GPT-5.6 或于下周登场，主打“Agent”级操作能力",
-          "url": "https://www.aibase.com/news/29029",
+          "id": "6f70031b454beab17cadb0a94ce602bfa1f461b7",
+          "title": "OpenAI拿下史上最大企业订单！三星 12 万员工全面接入ChatGPT",
+          "url": "https://www.aibase.com/news/29061",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-06-22T01:31:31.705209Z"
-        },
-        {
-          "id": "035e7ae2326467fba532341f4113fe7366eec054",
-          "title": "AI 进化的下一块拼图：GPT-5.6 或于下周登场，主打「Agent」级操作能力",
-          "url": "https://www.aibase.com/zh/news/29029",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
+          "published_at": "2026-06-22T13:28:49.313075Z"
         }
       ],
-      "source_count": 2,
+      "source_count": 1,
       "source_names": [
-        "AIbase",
-        "Readhub · AI"
+        "AIbase"
       ],
       "items": [
         {
-          "id": "a37138863d4beafe577795dc7c456c17499f6bb6",
-          "title": "AI 进化的下一块拼图：GPT-5.6 或于下周登场，主打“Agent”级操作能力",
-          "url": "https://www.aibase.com/news/29029",
+          "id": "6f70031b454beab17cadb0a94ce602bfa1f461b7",
+          "title": "OpenAI拿下史上最大企业订单！三星 12 万员工全面接入ChatGPT",
+          "url": "https://www.aibase.com/news/29061",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-06-22T01:31:31.705209Z"
-        },
-        {
-          "id": "035e7ae2326467fba532341f4113fe7366eec054",
-          "title": "AI 进化的下一块拼图：GPT-5.6 或于下周登场，主打「Agent」级操作能力",
-          "url": "https://www.aibase.com/zh/news/29029",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
+          "published_at": "2026-06-22T13:28:49.313075Z"
         }
       ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7777,
-      "importance": 0.7777,
-      "importance_score": 0.7777,
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9172,
-        "story_heat": 0.25
+        "recency": 1.0,
+        "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "multi_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-06-22T01:31:31.705209Z",
-      "latest_at": "2026-06-22T01:51:46.185070Z",
+      "earliest_at": "2026-06-22T13:28:49.313075Z",
+      "latest_at": "2026-06-22T13:28:49.313075Z",
       "primary_item": {
-        "id": "a37138863d4beafe577795dc7c456c17499f6bb6",
-        "title": "AI 进化的下一块拼图：GPT-5.6 或于下周登场，主打“Agent”级操作能力",
-        "url": "https://www.aibase.com/news/29029",
+        "id": "6f70031b454beab17cadb0a94ce602bfa1f461b7",
+        "title": "OpenAI拿下史上最大企业订单！三星 12 万员工全面接入ChatGPT",
+        "url": "https://www.aibase.com/news/29061",
         "source": "AIbase",
         "source_name": "AIbase"
       }
@@ -200,15 +180,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7695,
-      "importance": 0.7695,
-      "importance_score": 0.7695,
+      "score": 0.7566,
+      "importance": 0.7566,
+      "importance_score": 0.7566,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8719,
+        "recency": 0.7999,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -262,21 +242,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7545,
-      "importance": 0.7545,
-      "importance_score": 0.7545,
+      "score": 0.7427,
+      "importance": 0.7427,
+      "importance_score": 0.7427,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.8,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7939,
+        "recency": 0.7284,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-06-21T15:31:52Z",
       "latest_at": "2026-06-21T15:31:52Z",
@@ -289,243 +268,21 @@
       }
     },
     {
-      "story_id": "story_d5129800bc55",
-      "title": "​Getty Images携手OpenAI达成合作 正版图库内容接入ChatGPT检索场景",
-      "url": "https://www.aibase.com/news/29024",
-      "primary_url": "https://www.aibase.com/news/29024",
+      "story_id": "story_2eeb4be61641",
+      "title": "前商汤科技高管创立的流形空间融资近 10 亿元，跃升为世界模型独角兽！",
+      "url": "https://www.aibase.com/news/29065",
+      "primary_url": "https://www.aibase.com/news/29065",
       "source": "AIbase",
       "source_name": "AIbase",
       "sources": [
         {
-          "id": "b7e5b2b8fd2524b4c148e309d3b4ad9d0b16e041",
-          "title": "​Getty Images携手OpenAI达成合作 正版图库内容接入ChatGPT检索场景",
-          "url": "https://www.aibase.com/news/29024",
+          "id": "b7782f1790c3af0c5d074a7ba4de436f58ef16f5",
+          "title": "前商汤科技高管创立的流形空间融资近 10 亿元，跃升为世界模型独角兽！",
+          "url": "https://www.aibase.com/news/29065",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-06-22T01:31:31.705209Z"
-        },
-        {
-          "id": "75ea438dbd2315e3b274fa0f8fc897e94de22e2a",
-          "title": "​Getty Images 携手 OpenAI 达成合作 正版图库内容接入 ChatGPT 检索场景",
-          "url": "https://www.aibase.com/zh/news/29024",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "AIbase",
-        "Readhub · AI"
-      ],
-      "items": [
-        {
-          "id": "b7e5b2b8fd2524b4c148e309d3b4ad9d0b16e041",
-          "title": "​Getty Images携手OpenAI达成合作 正版图库内容接入ChatGPT检索场景",
-          "url": "https://www.aibase.com/news/29024",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-22T01:31:31.705209Z"
-        },
-        {
-          "id": "75ea438dbd2315e3b274fa0f8fc897e94de22e2a",
-          "title": "​Getty Images 携手 OpenAI 达成合作 正版图库内容接入 ChatGPT 检索场景",
-          "url": "https://www.aibase.com/zh/news/29024",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7777,
-      "importance": 0.7777,
-      "importance_score": 0.7777,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9172,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-22T01:31:31.705209Z",
-      "latest_at": "2026-06-22T01:31:31.705209Z",
-      "primary_item": {
-        "id": "b7e5b2b8fd2524b4c148e309d3b4ad9d0b16e041",
-        "title": "​Getty Images携手OpenAI达成合作 正版图库内容接入ChatGPT检索场景",
-        "url": "https://www.aibase.com/news/29024",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      }
-    },
-    {
-      "story_id": "story_a0aef8c4c60a",
-      "title": "美团tabbit国际版免费接入GPT-5.5/Claude Opus 4.8等旗舰模型",
-      "url": "https://x.com/AYi_AInotes/status/2068637890247016607",
-      "primary_url": "https://x.com/AYi_AInotes/status/2068637890247016607",
-      "source": "X：阿易 AI Notes (@AYi_AInotes)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "efbfd8b5170262b75a10750125292b5fc49d528b",
-          "title": "美团tabbit国际版免费接入GPT-5.5/Claude Opus 4.8等旗舰模型",
-          "url": "https://x.com/AYi_AInotes/status/2068637890247016607",
-          "source": "X：阿易 AI Notes (@AYi_AInotes)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-21T10:11:21Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：阿易 AI Notes (@AYi_AInotes)"
-      ],
-      "items": [
-        {
-          "id": "efbfd8b5170262b75a10750125292b5fc49d528b",
-          "title": "美团tabbit国际版免费接入GPT-5.5/Claude Opus 4.8等旗舰模型",
-          "url": "https://x.com/AYi_AInotes/status/2068637890247016607",
-          "source": "X：阿易 AI Notes (@AYi_AInotes)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-21T10:11:21Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7379,
-      "importance": 0.7379,
-      "importance_score": 0.7379,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.78,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.735,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-21T10:11:21Z",
-      "latest_at": "2026-06-21T10:11:21Z",
-      "primary_item": {
-        "id": "efbfd8b5170262b75a10750125292b5fc49d528b",
-        "title": "美团tabbit国际版免费接入GPT-5.5/Claude Opus 4.8等旗舰模型",
-        "url": "https://x.com/AYi_AInotes/status/2068637890247016607",
-        "source": "X：阿易 AI Notes (@AYi_AInotes)",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_65b9bd9a1c48",
-      "title": "动口不动手：特斯拉即将通过 Grok 实现 FSD 语音操控",
-      "url": "https://www.aibase.com/news/29025",
-      "primary_url": "https://www.aibase.com/news/29025",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "22ef72ff8b32a0780084666329a364fd39ff58e2",
-          "title": "动口不动手：特斯拉即将通过 Grok 实现 FSD 语音操控",
-          "url": "https://www.aibase.com/news/29025",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-22T01:31:31.705209Z"
-        },
-        {
-          "id": "c427eba63f5da0a1f9fccbe71313fb5a4b0d2867",
-          "title": "动口不动手：特斯拉即将通过 Grok 实现 FSD 语音操控",
-          "url": "https://www.aibase.com/zh/news/29025",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "AIbase",
-        "Readhub · AI"
-      ],
-      "items": [
-        {
-          "id": "22ef72ff8b32a0780084666329a364fd39ff58e2",
-          "title": "动口不动手：特斯拉即将通过 Grok 实现 FSD 语音操控",
-          "url": "https://www.aibase.com/news/29025",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-22T01:31:31.705209Z"
-        },
-        {
-          "id": "c427eba63f5da0a1f9fccbe71313fb5a4b0d2867",
-          "title": "动口不动手：特斯拉即将通过 Grok 实现 FSD 语音操控",
-          "url": "https://www.aibase.com/zh/news/29025",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7777,
-      "importance": 0.7777,
-      "importance_score": 0.7777,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9172,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-22T01:31:31.705209Z",
-      "latest_at": "2026-06-22T01:31:31.705209Z",
-      "primary_item": {
-        "id": "22ef72ff8b32a0780084666329a364fd39ff58e2",
-        "title": "动口不动手：特斯拉即将通过 Grok 实现 FSD 语音操控",
-        "url": "https://www.aibase.com/news/29025",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      }
-    },
-    {
-      "story_id": "story_fea130759293",
-      "title": "AI 圈太“卷”：成本压力下，微软 Copilot 拟引入 DeepSeek 模型",
-      "url": "https://www.aibase.com/news/29046",
-      "primary_url": "https://www.aibase.com/news/29046",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "8bd562abcb1afe6359429b3ea4d736a2d1473169",
-          "title": "AI 圈太“卷”：成本压力下，微软 Copilot 拟引入 DeepSeek 模型",
-          "url": "https://www.aibase.com/news/29046",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-22T07:30:39.571652Z"
+          "published_at": "2026-06-22T13:28:49.313075Z"
         }
       ],
       "source_count": 1,
@@ -534,13 +291,13 @@
       ],
       "items": [
         {
-          "id": "8bd562abcb1afe6359429b3ea4d736a2d1473169",
-          "title": "AI 圈太“卷”：成本压力下，微软 Copilot 拟引入 DeepSeek 模型",
-          "url": "https://www.aibase.com/news/29046",
+          "id": "b7782f1790c3af0c5d074a7ba4de436f58ef16f5",
+          "title": "前商汤科技高管创立的流形空间融资近 10 亿元，跃升为世界模型独角兽！",
+          "url": "https://www.aibase.com/news/29065",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-06-22T07:30:39.571652Z"
+          "published_at": "2026-06-22T13:28:49.313075Z"
         }
       ],
       "item_count": 1,
@@ -561,32 +318,32 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-06-22T07:30:39.571652Z",
-      "latest_at": "2026-06-22T07:30:39.571652Z",
+      "earliest_at": "2026-06-22T13:28:49.313075Z",
+      "latest_at": "2026-06-22T13:28:49.313075Z",
       "primary_item": {
-        "id": "8bd562abcb1afe6359429b3ea4d736a2d1473169",
-        "title": "AI 圈太“卷”：成本压力下，微软 Copilot 拟引入 DeepSeek 模型",
-        "url": "https://www.aibase.com/news/29046",
+        "id": "b7782f1790c3af0c5d074a7ba4de436f58ef16f5",
+        "title": "前商汤科技高管创立的流形空间融资近 10 亿元，跃升为世界模型独角兽！",
+        "url": "https://www.aibase.com/news/29065",
         "source": "AIbase",
         "source_name": "AIbase"
       }
     },
     {
-      "story_id": "story_efa3786f250e",
-      "title": "AI领军人物“大迁徙”：诺奖得主John Jumper告别DeepMind，转投Anthropic",
-      "url": "https://www.aibase.com/news/29040",
-      "primary_url": "https://www.aibase.com/news/29040",
+      "story_id": "story_7327d56f4117",
+      "title": "四台Mac Studio干翻云端集群！苹果联手LM Studio本地跑起万亿参数大模型",
+      "url": "https://www.aibase.com/news/29057",
+      "primary_url": "https://www.aibase.com/news/29057",
       "source": "AIbase",
       "source_name": "AIbase",
       "sources": [
         {
-          "id": "d1b45c1cb657a1b424bba837c4b15b027fed097e",
-          "title": "AI领军人物“大迁徙”：诺奖得主John Jumper告别DeepMind，转投Anthropic",
-          "url": "https://www.aibase.com/news/29040",
+          "id": "d12353aaa60389d028e469cacb944ea88d4e0c90",
+          "title": "四台Mac Studio干翻云端集群！苹果联手LM Studio本地跑起万亿参数大模型",
+          "url": "https://www.aibase.com/news/29057",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-06-22T07:30:39.571652Z"
+          "published_at": "2026-06-22T13:28:49.313075Z"
         }
       ],
       "source_count": 1,
@@ -595,13 +352,13 @@
       ],
       "items": [
         {
-          "id": "d1b45c1cb657a1b424bba837c4b15b027fed097e",
-          "title": "AI领军人物“大迁徙”：诺奖得主John Jumper告别DeepMind，转投Anthropic",
-          "url": "https://www.aibase.com/news/29040",
+          "id": "d12353aaa60389d028e469cacb944ea88d4e0c90",
+          "title": "四台Mac Studio干翻云端集群！苹果联手LM Studio本地跑起万亿参数大模型",
+          "url": "https://www.aibase.com/news/29057",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-06-22T07:30:39.571652Z"
+          "published_at": "2026-06-22T13:28:49.313075Z"
         }
       ],
       "item_count": 1,
@@ -622,12 +379,328 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-06-22T07:30:39.571652Z",
-      "latest_at": "2026-06-22T07:30:39.571652Z",
+      "earliest_at": "2026-06-22T13:28:49.313075Z",
+      "latest_at": "2026-06-22T13:28:49.313075Z",
       "primary_item": {
-        "id": "d1b45c1cb657a1b424bba837c4b15b027fed097e",
-        "title": "AI领军人物“大迁徙”：诺奖得主John Jumper告别DeepMind，转投Anthropic",
-        "url": "https://www.aibase.com/news/29040",
+        "id": "d12353aaa60389d028e469cacb944ea88d4e0c90",
+        "title": "四台Mac Studio干翻云端集群！苹果联手LM Studio本地跑起万亿参数大模型",
+        "url": "https://www.aibase.com/news/29057",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_5f002749a665",
+      "title": "拒绝“一问一答”：京东开源实时视频交互模型 JoyAI-VL-Interaction",
+      "url": "https://www.aibase.com/news/29063",
+      "primary_url": "https://www.aibase.com/news/29063",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "31358d938c742ca36f866d10d17e2153396a9daa",
+          "title": "拒绝“一问一答”：京东开源实时视频交互模型 JoyAI-VL-Interaction",
+          "url": "https://www.aibase.com/news/29063",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-22T13:28:49.313075Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "31358d938c742ca36f866d10d17e2153396a9daa",
+          "title": "拒绝“一问一答”：京东开源实时视频交互模型 JoyAI-VL-Interaction",
+          "url": "https://www.aibase.com/news/29063",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-22T13:28:49.313075Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-22T13:28:49.313075Z",
+      "latest_at": "2026-06-22T13:28:49.313075Z",
+      "primary_item": {
+        "id": "31358d938c742ca36f866d10d17e2153396a9daa",
+        "title": "拒绝“一问一答”：京东开源实时视频交互模型 JoyAI-VL-Interaction",
+        "url": "https://www.aibase.com/news/29063",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_2df82173bb28",
+      "title": "不少人给Claude Code、Codex设置Goal时经常会堆砌特别长的提示词，导致AI擅自拓展任务、严重偏离需求。老金的开源工具GoalPro针对性地解决了这一问题。它内置了五层校验闸门，逐层理清真实需求、划定操作边界、明确验收依据、设置高危暂停机制，输出标准化可复核的目标合约，把任务决策权留在使用者手中。",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+      "primary_url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+      "source": "社区更新 · 2026-06-22",
+      "source_name": "WaytoAGI",
+      "sources": [
+        {
+          "id": "ef195eeddd767508872b158ae25438aa6de3f4ba",
+          "title": "不少人给Claude Code、Codex设置Goal时经常会堆砌特别长的提示词，导致AI擅自拓展任务、严重偏离需求。老金的开源工具GoalPro针对性地解决了这一问题。它内置了五层校验闸门，逐层理清真实需求、划定操作边界、明确验收依据、设置高危暂停机制，输出标准化可复核的目标合约，把任务决策权留在使用者手中。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-22",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-22T13:28:49.313075Z"
+        },
+        {
+          "id": "b86f8bd706d09ed22ec73b7c0e5ecb0900f82475",
+          "title": "本周AI音乐资讯合集覆盖工具更新、前沿模型、版权维权与前沿论文四大板块。ElevenLabs、阿里通义等推出长曲生成、说唱人声无缝切换能力，多款创作平台上线分轨混音、多角色MV、视频智能配乐等实用功能，大幅降低了二创的门槛。大西洋月刊还上线侵权音乐检索库，缓解了从业者对版权的顾虑。还有六篇顶级论文，围绕模型遗忘、AI 音乐检测、歌声精细控制等方向给出了一些创新方案。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-22",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-22T13:28:49.313075Z"
+        },
+        {
+          "id": "7e803bd05882a47b80121d6263a5e2a2632922fd",
+          "title": "本周精选的十篇顶级论文，覆盖空间视觉推理、技能调度、电脑操作智能体、强化学习、长期记忆、网页自动化与金融数据集多个关键方向。文中提炼了每项工作的核心创新、实测性能提升与落地意义，带你一站式梳理前沿突破。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-21",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-21T18:02:33.588748Z"
+        },
+        {
+          "id": "030271890e8053ab3d816e34373a1565ec1e5de5",
+          "title": "Fiona Fung 现在带着 Anthropic里Claude Code和Cowork背后的工程、产品团队，也就是Boris Cherny和Cat Wu所在的组织。她能同时看到工程师、PM、设计师、数据科学家和小企业用户怎么被AI改变。让我们一同看看最AI化的产品团队是如何工作的？",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-21",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-21T16:14:10.181292Z"
+        },
+        {
+          "id": "3c4671e5b6cc6254c55508a472e21e13b55fd7ed",
+          "title": "阿真分享了一套可定制专属卡通IP信息图的Codex专用Skill，可以解决自媒体配图形象不统一、辨识度弱的问题。只用粘贴文章或者飞书文档链接，即可一键批量产出适配多平台、可调长宽比例的系列信息图。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-21",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-21T16:14:10.181292Z"
+        }
+      ],
+      "source_count": 5,
+      "source_names": [
+        "社区更新 · 2026-06-21",
+        "社区更新 · 2026-06-22"
+      ],
+      "items": [
+        {
+          "id": "ef195eeddd767508872b158ae25438aa6de3f4ba",
+          "title": "不少人给Claude Code、Codex设置Goal时经常会堆砌特别长的提示词，导致AI擅自拓展任务、严重偏离需求。老金的开源工具GoalPro针对性地解决了这一问题。它内置了五层校验闸门，逐层理清真实需求、划定操作边界、明确验收依据、设置高危暂停机制，输出标准化可复核的目标合约，把任务决策权留在使用者手中。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-22",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-22T13:28:49.313075Z"
+        },
+        {
+          "id": "b86f8bd706d09ed22ec73b7c0e5ecb0900f82475",
+          "title": "本周AI音乐资讯合集覆盖工具更新、前沿模型、版权维权与前沿论文四大板块。ElevenLabs、阿里通义等推出长曲生成、说唱人声无缝切换能力，多款创作平台上线分轨混音、多角色MV、视频智能配乐等实用功能，大幅降低了二创的门槛。大西洋月刊还上线侵权音乐检索库，缓解了从业者对版权的顾虑。还有六篇顶级论文，围绕模型遗忘、AI 音乐检测、歌声精细控制等方向给出了一些创新方案。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-22",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-22T13:28:49.313075Z"
+        },
+        {
+          "id": "7e803bd05882a47b80121d6263a5e2a2632922fd",
+          "title": "本周精选的十篇顶级论文，覆盖空间视觉推理、技能调度、电脑操作智能体、强化学习、长期记忆、网页自动化与金融数据集多个关键方向。文中提炼了每项工作的核心创新、实测性能提升与落地意义，带你一站式梳理前沿突破。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-21",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-21T18:02:33.588748Z"
+        },
+        {
+          "id": "030271890e8053ab3d816e34373a1565ec1e5de5",
+          "title": "Fiona Fung 现在带着 Anthropic里Claude Code和Cowork背后的工程、产品团队，也就是Boris Cherny和Cat Wu所在的组织。她能同时看到工程师、PM、设计师、数据科学家和小企业用户怎么被AI改变。让我们一同看看最AI化的产品团队是如何工作的？",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-21",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-21T16:14:10.181292Z"
+        },
+        {
+          "id": "3c4671e5b6cc6254c55508a472e21e13b55fd7ed",
+          "title": "阿真分享了一套可定制专属卡通IP信息图的Codex专用Skill，可以解决自媒体配图形象不统一、辨识度弱的问题。只用粘贴文章或者飞书文档链接，即可一键批量产出适配多平台、可调长宽比例的系列信息图。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-21",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-21T16:14:10.181292Z"
+        }
+      ],
+      "item_count": 5,
+      "duplicate_count": 5,
+      "score": 0.6692,
+      "importance": 0.6692,
+      "importance_score": 0.6692,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.54,
+        "ai_relevance": 0.65,
+        "recency": 1.0,
+        "story_heat": 1.0
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-21T16:14:10.181292Z",
+      "latest_at": "2026-06-22T13:28:49.313075Z",
+      "primary_item": {
+        "id": "ef195eeddd767508872b158ae25438aa6de3f4ba",
+        "title": "不少人给Claude Code、Codex设置Goal时经常会堆砌特别长的提示词，导致AI擅自拓展任务、严重偏离需求。老金的开源工具GoalPro针对性地解决了这一问题。它内置了五层校验闸门，逐层理清真实需求、划定操作边界、明确验收依据、设置高危暂停机制，输出标准化可复核的目标合约，把任务决策权留在使用者手中。",
+        "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+        "source": "社区更新 · 2026-06-22",
+        "source_name": "WaytoAGI"
+      }
+    },
+    {
+      "story_id": "story_7bef45bda6d6",
+      "title": "日本豪掷 10 万亿日元押注物理AI， 17 大战略领域圈定未来产业版图",
+      "url": "https://www.aibase.com/news/29059",
+      "primary_url": "https://www.aibase.com/news/29059",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "5d5136b6350f8c86f59ea8879869d063c93231f0",
+          "title": "日本豪掷 10 万亿日元押注物理AI， 17 大战略领域圈定未来产业版图",
+          "url": "https://www.aibase.com/news/29059",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-22T13:28:49.313075Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "5d5136b6350f8c86f59ea8879869d063c93231f0",
+          "title": "日本豪掷 10 万亿日元押注物理AI， 17 大战略领域圈定未来产业版图",
+          "url": "https://www.aibase.com/news/29059",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-22T13:28:49.313075Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-22T13:28:49.313075Z",
+      "latest_at": "2026-06-22T13:28:49.313075Z",
+      "primary_item": {
+        "id": "5d5136b6350f8c86f59ea8879869d063c93231f0",
+        "title": "日本豪掷 10 万亿日元押注物理AI， 17 大战略领域圈定未来产业版图",
+        "url": "https://www.aibase.com/news/29059",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_4909c4a00def",
+      "title": "美团破解百万商家的视觉难题 AI 海报生成的“技术闭环”",
+      "url": "https://www.aibase.com/news/29062",
+      "primary_url": "https://www.aibase.com/news/29062",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "2422f14962755a7252a64fcaa265b329cfba03a7",
+          "title": "美团破解百万商家的视觉难题 AI 海报生成的“技术闭环”",
+          "url": "https://www.aibase.com/news/29062",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-22T13:28:49.313075Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "2422f14962755a7252a64fcaa265b329cfba03a7",
+          "title": "美团破解百万商家的视觉难题 AI 海报生成的“技术闭环”",
+          "url": "https://www.aibase.com/news/29062",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-22T13:28:49.313075Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-22T13:28:49.313075Z",
+      "latest_at": "2026-06-22T13:28:49.313075Z",
+      "primary_item": {
+        "id": "2422f14962755a7252a64fcaa265b329cfba03a7",
+        "title": "美团破解百万商家的视觉难题 AI 海报生成的“技术闭环”",
+        "url": "https://www.aibase.com/news/29062",
         "source": "AIbase",
         "source_name": "AIbase"
       }
@@ -760,15 +833,15 @@
       ],
       "item_count": 6,
       "duplicate_count": 6,
-      "score": 0.6198,
-      "importance": 0.6198,
-      "importance_score": 0.6198,
+      "score": 0.605,
+      "importance": 0.605,
+      "importance_score": 0.605,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9946,
+        "recency": 0.9125,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -786,21 +859,21 @@
       }
     },
     {
-      "story_id": "story_1201c8b2dea0",
-      "title": "AWS 发布 Continuum 与 Context 两项新服务，全面补齐 AI 代理安全与业务背景短板",
-      "url": "https://www.aibase.com/news/29037",
-      "primary_url": "https://www.aibase.com/news/29037",
+      "story_id": "story_a3e1554648a4",
+      "title": "联动全屋五大场景!英特尔携手国内科技巨头，让“AI大脑”住进千家万户",
+      "url": "https://www.aibase.com/news/29064",
+      "primary_url": "https://www.aibase.com/news/29064",
       "source": "AIbase",
       "source_name": "AIbase",
       "sources": [
         {
-          "id": "00227662e478d69afabe85902ced5f1ff5cb6dc9",
-          "title": "AWS 发布 Continuum 与 Context 两项新服务，全面补齐 AI 代理安全与业务背景短板",
-          "url": "https://www.aibase.com/news/29037",
+          "id": "8519e824302778fbf591a546afeec3f284e82966",
+          "title": "联动全屋五大场景!英特尔携手国内科技巨头，让“AI大脑”住进千家万户",
+          "url": "https://www.aibase.com/news/29064",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-06-22T07:30:39.571652Z"
+          "published_at": "2026-06-22T13:28:49.313075Z"
         }
       ],
       "source_count": 1,
@@ -809,13 +882,13 @@
       ],
       "items": [
         {
-          "id": "00227662e478d69afabe85902ced5f1ff5cb6dc9",
-          "title": "AWS 发布 Continuum 与 Context 两项新服务，全面补齐 AI 代理安全与业务背景短板",
-          "url": "https://www.aibase.com/news/29037",
+          "id": "8519e824302778fbf591a546afeec3f284e82966",
+          "title": "联动全屋五大场景!英特尔携手国内科技巨头，让“AI大脑”住进千家万户",
+          "url": "https://www.aibase.com/news/29064",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-06-22T07:30:39.571652Z"
+          "published_at": "2026-06-22T13:28:49.313075Z"
         }
       ],
       "item_count": 1,
@@ -836,171 +909,173 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-06-22T07:30:39.571652Z",
-      "latest_at": "2026-06-22T07:30:39.571652Z",
+      "earliest_at": "2026-06-22T13:28:49.313075Z",
+      "latest_at": "2026-06-22T13:28:49.313075Z",
       "primary_item": {
-        "id": "00227662e478d69afabe85902ced5f1ff5cb6dc9",
-        "title": "AWS 发布 Continuum 与 Context 两项新服务，全面补齐 AI 代理安全与业务背景短板",
-        "url": "https://www.aibase.com/news/29037",
+        "id": "8519e824302778fbf591a546afeec3f284e82966",
+        "title": "联动全屋五大场景!英特尔携手国内科技巨头，让“AI大脑”住进千家万户",
+        "url": "https://www.aibase.com/news/29064",
         "source": "AIbase",
         "source_name": "AIbase"
       }
     },
     {
-      "story_id": "story_be49e349108e",
-      "title": "Meta前高管：AI时代别做十年规划，把握这两件事就够了",
-      "url": "https://www.aibase.com/news/29051",
-      "primary_url": "https://www.aibase.com/news/29051",
-      "source": "AIbase",
-      "source_name": "AIbase",
+      "story_id": "story_12119eb3ecaa",
+      "title": "1991 年慕尼黑：当前人工智能热潮的根源 / Munich 1991: The Roots of the Current AI Boom",
+      "url": "https://news.ycombinator.com/item?id=48599998",
+      "primary_url": "https://news.ycombinator.com/item?id=48599998",
+      "source": "hackernews",
+      "source_name": "NewsNow",
       "sources": [
         {
-          "id": "1b1c9b131873a3ead7bdea760bd3fc88c248e8c4",
-          "title": "Meta前高管：AI时代别做十年规划，把握这两件事就够了",
-          "url": "https://www.aibase.com/news/29051",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-22T07:30:39.571652Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "1b1c9b131873a3ead7bdea760bd3fc88c248e8c4",
-          "title": "Meta前高管：AI时代别做十年规划，把握这两件事就够了",
-          "url": "https://www.aibase.com/news/29051",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-22T07:30:39.571652Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 1.0,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-22T07:30:39.571652Z",
-      "latest_at": "2026-06-22T07:30:39.571652Z",
-      "primary_item": {
-        "id": "1b1c9b131873a3ead7bdea760bd3fc88c248e8c4",
-        "title": "Meta前高管：AI时代别做十年规划，把握这两件事就够了",
-        "url": "https://www.aibase.com/news/29051",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      }
-    },
-    {
-      "story_id": "story_2df82173bb28",
-      "title": "本周精选的十篇顶级论文，覆盖空间视觉推理、技能调度、电脑操作智能体、强化学习、长期记忆、网页自动化与金融数据集多个关键方向。文中提炼了每项工作的核心创新、实测性能提升与落地意义，带你一站式梳理前沿突破。",
-      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-      "primary_url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-      "source": "社区更新 · 2026-06-21",
-      "source_name": "WaytoAGI",
-      "sources": [
-        {
-          "id": "7e803bd05882a47b80121d6263a5e2a2632922fd",
-          "title": "本周精选的十篇顶级论文，覆盖空间视觉推理、技能调度、电脑操作智能体、强化学习、长期记忆、网页自动化与金融数据集多个关键方向。文中提炼了每项工作的核心创新、实测性能提升与落地意义，带你一站式梳理前沿突破。",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-06-21",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-06-21T18:02:33.588748Z"
+          "id": "de1b0a50e1a613c953f57698434add52db358886",
+          "title": "1991 年慕尼黑：当前人工智能热潮的根源 / Munich 1991: The Roots of the Current AI Boom",
+          "url": "https://news.ycombinator.com/item?id=48599998",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-22T13:18:53.324000Z"
         },
         {
-          "id": "030271890e8053ab3d816e34373a1565ec1e5de5",
-          "title": "Fiona Fung 现在带着 Anthropic里Claude Code和Cowork背后的工程、产品团队，也就是Boris Cherny和Cat Wu所在的组织。她能同时看到工程师、PM、设计师、数据科学家和小企业用户怎么被AI改变。让我们一同看看最AI化的产品团队是如何工作的？",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-06-21",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-06-21T16:14:10.181292Z"
+          "id": "cf08087fabc6447dcb449a159ecdcf95ba4bd2f4",
+          "title": "1991年慕尼黑：当前人工智能热潮的起源",
+          "url": "https://people.idsia.ch/~juergen/ai-boom-roots-munich-1991.html",
+          "source": "people.idsia.ch",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-22T12:44:12.700000Z"
         },
         {
-          "id": "3c4671e5b6cc6254c55508a472e21e13b55fd7ed",
-          "title": "阿真分享了一套可定制专属卡通IP信息图的Codex专用Skill，可以解决自媒体配图形象不统一、辨识度弱的问题。只用粘贴文章或者飞书文档链接，即可一键批量产出适配多平台、可调长宽比例的系列信息图。",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-06-21",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-06-21T16:14:10.181292Z"
+          "id": "8fcb1049a0f79b2075e128d14b116ebc461f1590",
+          "title": "1991年慕尼黑：当前人工智能热潮的起源 / Munich 1991: the Roots of the Current AI Boom",
+          "url": "https://people.idsia.ch/~juergen/ai-boom-roots-munich-1991.html",
+          "source": "Lobsters (技术社区)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-22T12:09:39Z"
         }
       ],
       "source_count": 3,
       "source_names": [
-        "社区更新 · 2026-06-21"
+        "Lobsters (技术社区)",
+        "hackernews",
+        "people.idsia.ch"
       ],
       "items": [
         {
-          "id": "7e803bd05882a47b80121d6263a5e2a2632922fd",
-          "title": "本周精选的十篇顶级论文，覆盖空间视觉推理、技能调度、电脑操作智能体、强化学习、长期记忆、网页自动化与金融数据集多个关键方向。文中提炼了每项工作的核心创新、实测性能提升与落地意义，带你一站式梳理前沿突破。",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-06-21",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-06-21T18:02:33.588748Z"
+          "id": "de1b0a50e1a613c953f57698434add52db358886",
+          "title": "1991 年慕尼黑：当前人工智能热潮的根源 / Munich 1991: The Roots of the Current AI Boom",
+          "url": "https://news.ycombinator.com/item?id=48599998",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-22T13:18:53.324000Z"
         },
         {
-          "id": "030271890e8053ab3d816e34373a1565ec1e5de5",
-          "title": "Fiona Fung 现在带着 Anthropic里Claude Code和Cowork背后的工程、产品团队，也就是Boris Cherny和Cat Wu所在的组织。她能同时看到工程师、PM、设计师、数据科学家和小企业用户怎么被AI改变。让我们一同看看最AI化的产品团队是如何工作的？",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-06-21",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-06-21T16:14:10.181292Z"
+          "id": "cf08087fabc6447dcb449a159ecdcf95ba4bd2f4",
+          "title": "1991年慕尼黑：当前人工智能热潮的起源",
+          "url": "https://people.idsia.ch/~juergen/ai-boom-roots-munich-1991.html",
+          "source": "people.idsia.ch",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-22T12:44:12.700000Z"
         },
         {
-          "id": "3c4671e5b6cc6254c55508a472e21e13b55fd7ed",
-          "title": "阿真分享了一套可定制专属卡通IP信息图的Codex专用Skill，可以解决自媒体配图形象不统一、辨识度弱的问题。只用粘贴文章或者飞书文档链接，即可一键批量产出适配多平台、可调长宽比例的系列信息图。",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-06-21",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-06-21T16:14:10.181292Z"
+          "id": "8fcb1049a0f79b2075e128d14b116ebc461f1590",
+          "title": "1991年慕尼黑：当前人工智能热潮的起源 / Munich 1991: the Roots of the Current AI Boom",
+          "url": "https://people.idsia.ch/~juergen/ai-boom-roots-munich-1991.html",
+          "source": "Lobsters (技术社区)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-22T12:09:39Z"
         }
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5874,
-      "importance": 0.5874,
-      "importance_score": 0.5874,
+      "score": 0.5704,
+      "importance": 0.5704,
+      "importance_score": 0.5704,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
-        "source_tier": 0.54,
+        "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8233,
+        "recency": 0.9976,
         "story_heat": 0.5
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-21T16:14:10.181292Z",
-      "latest_at": "2026-06-21T18:02:33.588748Z",
+      "earliest_at": "2026-06-22T12:09:39Z",
+      "latest_at": "2026-06-22T13:18:53.324000Z",
       "primary_item": {
-        "id": "7e803bd05882a47b80121d6263a5e2a2632922fd",
-        "title": "本周精选的十篇顶级论文，覆盖空间视觉推理、技能调度、电脑操作智能体、强化学习、长期记忆、网页自动化与金融数据集多个关键方向。文中提炼了每项工作的核心创新、实测性能提升与落地意义，带你一站式梳理前沿突破。",
-        "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-        "source": "社区更新 · 2026-06-21",
-        "source_name": "WaytoAGI"
+        "id": "de1b0a50e1a613c953f57698434add52db358886",
+        "title": "1991 年慕尼黑：当前人工智能热潮的根源 / Munich 1991: The Roots of the Current AI Boom",
+        "url": "https://news.ycombinator.com/item?id=48599998",
+        "source": "hackernews",
+        "source_name": "NewsNow"
+      }
+    },
+    {
+      "story_id": "story_71b4fe8be4f1",
+      "title": "资本市场新宠：智谱市值突破万亿，国产大模型迎来高光时刻",
+      "url": "https://www.aibase.com/news/29058",
+      "primary_url": "https://www.aibase.com/news/29058",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "7b8796dbec61e03e5dd550c74aca829ec4280a83",
+          "title": "资本市场新宠：智谱市值突破万亿，国产大模型迎来高光时刻",
+          "url": "https://www.aibase.com/news/29058",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-22T13:28:49.313075Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "7b8796dbec61e03e5dd550c74aca829ec4280a83",
+          "title": "资本市场新宠：智谱市值突破万亿，国产大模型迎来高光时刻",
+          "url": "https://www.aibase.com/news/29058",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-22T13:28:49.313075Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-22T13:28:49.313075Z",
+      "latest_at": "2026-06-22T13:28:49.313075Z",
+      "primary_item": {
+        "id": "7b8796dbec61e03e5dd550c74aca829ec4280a83",
+        "title": "资本市场新宠：智谱市值突破万亿，国产大模型迎来高光时刻",
+        "url": "https://www.aibase.com/news/29058",
+        "source": "AIbase",
+        "source_name": "AIbase"
       }
     },
     {
@@ -1076,15 +1151,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5692,
-      "importance": 0.5692,
-      "importance_score": 0.5692,
+      "score": 0.5544,
+      "importance": 0.5544,
+      "importance_score": 0.5544,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9908,
+        "recency": 0.909,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1102,180 +1177,180 @@
       }
     },
     {
-      "story_id": "story_6d0cd62ad09e",
-      "title": "克劳德身份验证 / Identity verification on Claude",
-      "url": "https://news.ycombinator.com/item?id=48618455",
-      "primary_url": "https://news.ycombinator.com/item?id=48618455",
+      "story_id": "story_2a59fbf9b429",
+      "title": "JCodes更多 / ai-website-clone-template / JCodesMore / ai-website-cloner-template",
+      "url": "https://github.com/JCodesMore/ai-website-cloner-template",
+      "primary_url": "https://github.com/JCodesMore/ai-website-cloner-template",
+      "source": "GitHub · Trending Today",
+      "source_name": "TopHub",
+      "sources": [
+        {
+          "id": "09e0f8b47c4796645798facafcdc107d14527833",
+          "title": "JCodes更多 / ai-website-clone-template / JCodesMore / ai-website-cloner-template",
+          "url": "https://github.com/JCodesMore/ai-website-cloner-template",
+          "source": "GitHub · Trending Today",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        },
+        {
+          "id": "5f3c2e59043df585e66d00d92b8aa38592df74e2",
+          "title": "JCodes更多 / ai-website-clone-template / JCodesMore /      ai-website-cloner-template",
+          "url": "https://github.com/JCodesMore/ai-website-cloner-template",
+          "source": "github",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-22T13:02:25.688000Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "GitHub · Trending Today",
+        "github"
+      ],
+      "items": [
+        {
+          "id": "09e0f8b47c4796645798facafcdc107d14527833",
+          "title": "JCodes更多 / ai-website-clone-template / JCodesMore / ai-website-cloner-template",
+          "url": "https://github.com/JCodesMore/ai-website-cloner-template",
+          "source": "GitHub · Trending Today",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        },
+        {
+          "id": "5f3c2e59043df585e66d00d92b8aa38592df74e2",
+          "title": "JCodes更多 / ai-website-clone-template / JCodesMore /      ai-website-cloner-template",
+          "url": "https://github.com/JCodesMore/ai-website-cloner-template",
+          "source": "github",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-22T13:02:25.688000Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5458,
+      "importance": 0.5458,
+      "importance_score": 0.5458,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 1.0,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-22T13:02:25.688000Z",
+      "latest_at": "2026-06-22T13:28:49.313075Z",
+      "primary_item": {
+        "id": "09e0f8b47c4796645798facafcdc107d14527833",
+        "title": "JCodes更多 / ai-website-clone-template / JCodesMore / ai-website-cloner-template",
+        "url": "https://github.com/JCodesMore/ai-website-cloner-template",
+        "source": "GitHub · Trending Today",
+        "source_name": "TopHub"
+      }
+    },
+    {
+      "story_id": "story_678fabf3749f",
+      "title": "Codex 日志记录错误可能会将 TB 写入本地 SSD / Codex logging bug may write TBs to local SSDs",
+      "url": "https://news.ycombinator.com/item?id=48626930",
+      "primary_url": "https://news.ycombinator.com/item?id=48626930",
       "source": "hackernews",
       "source_name": "NewsNow",
       "sources": [
         {
-          "id": "08e5180aebc8d225712d3f257dffded024d5b178",
-          "title": "克劳德身份验证 / Identity verification on Claude",
-          "url": "https://news.ycombinator.com/item?id=48618455",
+          "id": "ba89af6198251fb3ec6725758298a7557ebdf9d7",
+          "title": "Codex 日志记录错误可能会将 TB 写入本地 SSD / Codex logging bug may write TBs to local SSDs",
+          "url": "https://news.ycombinator.com/item?id=48626930",
           "source": "hackernews",
           "source_name": "NewsNow",
           "site_id": "newsnow",
-          "published_at": "2026-06-21T20:01:23.464000Z"
+          "published_at": "2026-06-22T13:18:53.324000Z"
         },
         {
-          "id": "37636cf871f3aa06b34466700bfa515d9b3b6f4c",
-          "title": "Anthropic将于7月8日起对部分功能实施身份验证要求",
-          "url": "https://old.reddit.com/r/ClaudeAI/comments/1ubm53n/official_anthropic_to_require_identity",
-          "source": "old.reddit.com",
+          "id": "0817a9970b2e8d2497ac095feca2f7ca56f0a7fe",
+          "title": "Codex 日志记录漏洞可能向本地 SSD 写入 TB 级数据",
+          "url": "https://github.com/openai/codex/issues/28224",
+          "source": "github.com",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-06-21T14:21:24.353000Z"
+          "published_at": "2026-06-22T10:52:21.761000Z"
         },
         {
-          "id": "dede4f5255c767a65c1abfc1e7125daa5289ca44",
-          "title": "Anthropic 从 7 月 8 日起要求对某些功能进行身份验证 / Anthropic to Require ID Verification for Certain Capabilities Starting July 8",
-          "url": "https://news.ycombinator.com/item?id=48618455",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-21T13:55:18.107000Z"
-        },
-        {
-          "id": "98c4126f68fee956c8a8d24608e819209ed90f64",
-          "title": "Anthropic将于7月8日起对部分功能实施身份验证要求 / Anthropic to Require ID Verification for Certain Capabilities Starting July 8",
-          "url": "https://old.reddit.com/r/ClaudeAI/comments/1ubm53n/official_anthropic_to_require_identity",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-21T12:44:13Z"
+          "id": "e8496969c7b28a31b4052759be30a201a3b9f786",
+          "title": "Codex 日志记录漏洞可能向本地 SSD 写入 TB 级数据 / Codex logging bug may write TBs to local SSDs",
+          "url": "https://github.com/openai/codex/issues/28224",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-22T07:30:17Z"
         }
       ],
-      "source_count": 4,
+      "source_count": 3,
       "source_names": [
-        "Hacker News · 24h最热",
-        "hackernews",
-        "old.reddit.com"
+        "Hacker News",
+        "github.com",
+        "hackernews"
       ],
       "items": [
         {
-          "id": "08e5180aebc8d225712d3f257dffded024d5b178",
-          "title": "克劳德身份验证 / Identity verification on Claude",
-          "url": "https://news.ycombinator.com/item?id=48618455",
+          "id": "ba89af6198251fb3ec6725758298a7557ebdf9d7",
+          "title": "Codex 日志记录错误可能会将 TB 写入本地 SSD / Codex logging bug may write TBs to local SSDs",
+          "url": "https://news.ycombinator.com/item?id=48626930",
           "source": "hackernews",
           "source_name": "NewsNow",
           "site_id": "newsnow",
-          "published_at": "2026-06-21T20:01:23.464000Z"
+          "published_at": "2026-06-22T13:18:53.324000Z"
         },
         {
-          "id": "37636cf871f3aa06b34466700bfa515d9b3b6f4c",
-          "title": "Anthropic将于7月8日起对部分功能实施身份验证要求",
-          "url": "https://old.reddit.com/r/ClaudeAI/comments/1ubm53n/official_anthropic_to_require_identity",
-          "source": "old.reddit.com",
+          "id": "0817a9970b2e8d2497ac095feca2f7ca56f0a7fe",
+          "title": "Codex 日志记录漏洞可能向本地 SSD 写入 TB 级数据",
+          "url": "https://github.com/openai/codex/issues/28224",
+          "source": "github.com",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-06-21T14:21:24.353000Z"
+          "published_at": "2026-06-22T10:52:21.761000Z"
         },
         {
-          "id": "dede4f5255c767a65c1abfc1e7125daa5289ca44",
-          "title": "Anthropic 从 7 月 8 日起要求对某些功能进行身份验证 / Anthropic to Require ID Verification for Certain Capabilities Starting July 8",
-          "url": "https://news.ycombinator.com/item?id=48618455",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-21T13:55:18.107000Z"
-        },
-        {
-          "id": "98c4126f68fee956c8a8d24608e819209ed90f64",
-          "title": "Anthropic将于7月8日起对部分功能实施身份验证要求 / Anthropic to Require ID Verification for Certain Capabilities Starting July 8",
-          "url": "https://old.reddit.com/r/ClaudeAI/comments/1ubm53n/official_anthropic_to_require_identity",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-21T12:44:13Z"
+          "id": "e8496969c7b28a31b4052759be30a201a3b9f786",
+          "title": "Codex 日志记录漏洞可能向本地 SSD 写入 TB 级数据 / Codex logging bug may write TBs to local SSDs",
+          "url": "https://github.com/openai/codex/issues/28224",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-22T07:30:17Z"
         }
       ],
-      "item_count": 4,
-      "duplicate_count": 4,
-      "score": 0.5683,
-      "importance": 0.5683,
-      "importance_score": 0.5683,
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.5704,
+      "importance": 0.5704,
+      "importance_score": 0.5704,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8471,
-        "story_heat": 0.75
+        "recency": 0.9976,
+        "story_heat": 0.5
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-21T12:44:13Z",
-      "latest_at": "2026-06-21T20:01:23.464000Z",
+      "earliest_at": "2026-06-22T07:30:17Z",
+      "latest_at": "2026-06-22T13:18:53.324000Z",
       "primary_item": {
-        "id": "08e5180aebc8d225712d3f257dffded024d5b178",
-        "title": "克劳德身份验证 / Identity verification on Claude",
-        "url": "https://news.ycombinator.com/item?id=48618455",
+        "id": "ba89af6198251fb3ec6725758298a7557ebdf9d7",
+        "title": "Codex 日志记录错误可能会将 TB 写入本地 SSD / Codex logging bug may write TBs to local SSDs",
+        "url": "https://news.ycombinator.com/item?id=48626930",
         "source": "hackernews",
         "source_name": "NewsNow"
-      }
-    },
-    {
-      "story_id": "story_099a80d37590",
-      "title": "Midjourney跨界大动作：布局人体扫描，打造“Spa”式健康体验",
-      "url": "https://www.aibase.com/news/29042",
-      "primary_url": "https://www.aibase.com/news/29042",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "98bfaa6d97f3a421122ed44ae703f862a9e089b2",
-          "title": "Midjourney跨界大动作：布局人体扫描，打造“Spa”式健康体验",
-          "url": "https://www.aibase.com/news/29042",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-22T07:30:39.571652Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "98bfaa6d97f3a421122ed44ae703f862a9e089b2",
-          "title": "Midjourney跨界大动作：布局人体扫描，打造“Spa”式健康体验",
-          "url": "https://www.aibase.com/news/29042",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-22T07:30:39.571652Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 1.0,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-22T07:30:39.571652Z",
-      "latest_at": "2026-06-22T07:30:39.571652Z",
-      "primary_item": {
-        "id": "98bfaa6d97f3a421122ed44ae703f862a9e089b2",
-        "title": "Midjourney跨界大动作：布局人体扫描，打造“Spa”式健康体验",
-        "url": "https://www.aibase.com/news/29042",
-        "source": "AIbase",
-        "source_name": "AIbase"
       }
     },
     {
@@ -1351,15 +1426,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5509,
-      "importance": 0.5509,
-      "importance_score": 0.5509,
+      "score": 0.5377,
+      "importance": 0.5377,
+      "importance_score": 0.5377,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8895,
+        "recency": 0.816,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1430,15 +1505,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5458,
-      "importance": 0.5458,
-      "importance_score": 0.5458,
+      "score": 0.5309,
+      "importance": 0.5309,
+      "importance_score": 0.5309,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 1.0,
+        "recency": 0.9174,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1509,15 +1584,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5455,
-      "importance": 0.5455,
-      "importance_score": 0.5455,
+      "score": 0.5307,
+      "importance": 0.5307,
+      "importance_score": 0.5307,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9985,
+        "recency": 0.916,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1532,67 +1607,6 @@
         "url": "https://sakana.ai/fugu",
         "source": "sakana.ai",
         "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_4d742081efb5",
-      "title": "OpenAI拿下史上最大订单：三星 12 万员工全面开启AI办公时代",
-      "url": "https://www.aibase.com/news/29056",
-      "primary_url": "https://www.aibase.com/news/29056",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "91cf833ffa2eb5ac209adf14ff0ac338e6d793b0",
-          "title": "OpenAI拿下史上最大订单：三星 12 万员工全面开启AI办公时代",
-          "url": "https://www.aibase.com/news/29056",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-22T07:30:39.571652Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "91cf833ffa2eb5ac209adf14ff0ac338e6d793b0",
-          "title": "OpenAI拿下史上最大订单：三星 12 万员工全面开启AI办公时代",
-          "url": "https://www.aibase.com/news/29056",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-22T07:30:39.571652Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 1.0,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-22T07:30:39.571652Z",
-      "latest_at": "2026-06-22T07:30:39.571652Z",
-      "primary_item": {
-        "id": "91cf833ffa2eb5ac209adf14ff0ac338e6d793b0",
-        "title": "OpenAI拿下史上最大订单：三星 12 万员工全面开启AI办公时代",
-        "url": "https://www.aibase.com/news/29056",
-        "source": "AIbase",
-        "source_name": "AIbase"
       }
     }
   ]
