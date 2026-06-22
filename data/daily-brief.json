@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T01:31:31.705209Z",
+  "generated_at": "2026-06-22T01:34:36.951223Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -38,15 +38,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8616,
-      "importance": 0.8616,
-      "importance_score": 0.8616,
+      "score": 0.8614,
+      "importance": 0.8614,
+      "importance_score": 0.8614,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.99,
-        "recency": 0.9642,
+        "recency": 0.9635,
         "story_heat": 0.0
       },
       "category": "official",
@@ -119,15 +119,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7926,
-      "importance": 0.7926,
-      "importance_score": 0.7926,
+      "score": 0.7925,
+      "importance": 0.7925,
+      "importance_score": 0.7925,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.9993,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -200,15 +200,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7837,
-      "importance": 0.7837,
-      "importance_score": 0.7837,
+      "score": 0.7836,
+      "importance": 0.7836,
+      "importance_score": 0.7836,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9506,
+        "recency": 0.9499,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -262,15 +262,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7674,
-      "importance": 0.7674,
-      "importance_score": 0.7674,
+      "score": 0.7673,
+      "importance": 0.7673,
+      "importance_score": 0.7673,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.8,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8656,
+        "recency": 0.865,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -342,15 +342,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7926,
-      "importance": 0.7926,
-      "importance_score": 0.7926,
+      "score": 0.7925,
+      "importance": 0.7925,
+      "importance_score": 0.7925,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.9993,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -404,15 +404,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7498,
-      "importance": 0.7498,
-      "importance_score": 0.7498,
+      "score": 0.7497,
+      "importance": 0.7497,
+      "importance_score": 0.7497,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.78,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8013,
+        "recency": 0.8007,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -464,15 +464,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
+      "score": 0.7675,
+      "importance": 0.7675,
+      "importance_score": 0.7675,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.9993,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -525,15 +525,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
+      "score": 0.7675,
+      "importance": 0.7675,
+      "importance_score": 0.7675,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.9993,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -586,15 +586,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
+      "score": 0.7675,
+      "importance": 0.7675,
+      "importance_score": 0.7675,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.9993,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -647,15 +647,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
+      "score": 0.7675,
+      "importance": 0.7675,
+      "importance_score": 0.7675,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.9993,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -744,15 +744,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.6008,
-      "importance": 0.6008,
-      "importance_score": 0.6008,
+      "score": 0.6006,
+      "importance": 0.6006,
+      "importance_score": 0.6006,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.54,
         "ai_relevance": 0.65,
-        "recency": 0.8976,
+        "recency": 0.8969,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -767,6 +767,122 @@
         "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
         "source": "社区更新 · 2026-06-21",
         "source_name": "WaytoAGI"
+      }
+    },
+    {
+      "story_id": "story_8f30dfad7969",
+      "title": "显示 HN：Recall – Claude Code 的完全本地项目内存 / Show HN: Recall – fully-local project memory for Claude Code",
+      "url": "https://news.ycombinator.com/item?id=48622590",
+      "primary_url": "https://news.ycombinator.com/item?id=48622590",
+      "source": "hackernews",
+      "source_name": "NewsNow",
+      "sources": [
+        {
+          "id": "15702b5bb39284410810f0cb8b06142e07f6a367",
+          "title": "显示 HN：Recall – Claude Code 的完全本地项目内存 / Show HN: Recall – fully-local project memory for Claude Code",
+          "url": "https://news.ycombinator.com/item?id=48622590",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-22T01:32:05.162000Z"
+        },
+        {
+          "id": "fd3833f7aee6fbd1320566ee50bb2ee14874d981",
+          "title": "Show HN: Recall——Claude Code 的完全本地化项目内存",
+          "url": "https://github.com/raiyanyahya/recall",
+          "source": "github.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-22T00:28:09.030000Z"
+        },
+        {
+          "id": "52c0c265e9988e4cd6f24ea1dee2abb85388783a",
+          "title": "Show HN: Recall——Claude Code 的完全本地化项目内存 / Show HN: Recall – fully-local project memory for Claude Code",
+          "url": "https://github.com/raiyanyahya/recall",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-21T21:05:37Z"
+        },
+        {
+          "id": "8d919a3f77b3dbc271b9484b4165dba6d72cc71b",
+          "title": "Show HN: Recall——Claude Code 的完全本地化项目内存 / Stop wasting tokens and re explaining your project between sessions",
+          "url": "https://github.com/raiyanyahya/recall",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-21T21:05:37Z"
+        }
+      ],
+      "source_count": 4,
+      "source_names": [
+        "Hacker News · 24h最热",
+        "github.com",
+        "hackernews"
+      ],
+      "items": [
+        {
+          "id": "15702b5bb39284410810f0cb8b06142e07f6a367",
+          "title": "显示 HN：Recall – Claude Code 的完全本地项目内存 / Show HN: Recall – fully-local project memory for Claude Code",
+          "url": "https://news.ycombinator.com/item?id=48622590",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-22T01:32:05.162000Z"
+        },
+        {
+          "id": "fd3833f7aee6fbd1320566ee50bb2ee14874d981",
+          "title": "Show HN: Recall——Claude Code 的完全本地化项目内存",
+          "url": "https://github.com/raiyanyahya/recall",
+          "source": "github.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-22T00:28:09.030000Z"
+        },
+        {
+          "id": "52c0c265e9988e4cd6f24ea1dee2abb85388783a",
+          "title": "Show HN: Recall——Claude Code 的完全本地化项目内存 / Show HN: Recall – fully-local project memory for Claude Code",
+          "url": "https://github.com/raiyanyahya/recall",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-21T21:05:37Z"
+        },
+        {
+          "id": "8d919a3f77b3dbc271b9484b4165dba6d72cc71b",
+          "title": "Show HN: Recall——Claude Code 的完全本地化项目内存 / Stop wasting tokens and re explaining your project between sessions",
+          "url": "https://github.com/raiyanyahya/recall",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-21T21:05:37Z"
+        }
+      ],
+      "item_count": 4,
+      "duplicate_count": 4,
+      "score": 0.5957,
+      "importance": 0.5957,
+      "importance_score": 0.5957,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9994,
+        "story_heat": 0.75
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-21T21:05:37Z",
+      "latest_at": "2026-06-22T01:32:05.162000Z",
+      "primary_item": {
+        "id": "15702b5bb39284410810f0cb8b06142e07f6a367",
+        "title": "显示 HN：Recall – Claude Code 的完全本地项目内存 / Show HN: Recall – fully-local project memory for Claude Code",
+        "url": "https://news.ycombinator.com/item?id=48622590",
+        "source": "hackernews",
+        "source_name": "NewsNow"
       }
     },
     {
@@ -804,15 +920,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
+      "score": 0.7675,
+      "importance": 0.7675,
+      "importance_score": 0.7675,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.9993,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -828,6 +944,104 @@
         "url": "https://www.aibase.com/news/29023",
         "source": "AIbase",
         "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_a70218bc5d4a",
+      "title": "Apertus——面向主权人工智能的开放式基础模型",
+      "url": "https://apertvs.ai",
+      "primary_url": "https://apertvs.ai",
+      "source": "apertvs.ai",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "d147c27ddbc5d2fa214e290bd8ec6cc8e90c0e0e",
+          "title": "Apertus——面向主权人工智能的开放式基础模型",
+          "url": "https://apertvs.ai",
+          "source": "apertvs.ai",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-21T23:24:05.154000Z"
+        },
+        {
+          "id": "6d5d789e1e7a1b8162eb9face018693e65666442",
+          "title": "Apertus – 主权人工智能的开放基础模型 / Apertus – Open Foundation Model for Sovereign AI",
+          "url": "https://news.ycombinator.com/item?id=48622778",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-21T23:03:41.891000Z"
+        },
+        {
+          "id": "93f8899442a8e6f8ebbde7f6f473a8d5d13f044e",
+          "title": "Apertus——面向主权人工智能的开放式基础模型 / Apertus – Open Foundation Model for Sovereign AI",
+          "url": "https://apertvs.ai",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-21T21:29:43Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "Hacker News · 24h最热",
+        "apertvs.ai",
+        "hackernews"
+      ],
+      "items": [
+        {
+          "id": "d147c27ddbc5d2fa214e290bd8ec6cc8e90c0e0e",
+          "title": "Apertus——面向主权人工智能的开放式基础模型",
+          "url": "https://apertvs.ai",
+          "source": "apertvs.ai",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-21T23:24:05.154000Z"
+        },
+        {
+          "id": "6d5d789e1e7a1b8162eb9face018693e65666442",
+          "title": "Apertus – 主权人工智能的开放基础模型 / Apertus – Open Foundation Model for Sovereign AI",
+          "url": "https://news.ycombinator.com/item?id=48622778",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-21T23:03:41.891000Z"
+        },
+        {
+          "id": "93f8899442a8e6f8ebbde7f6f473a8d5d13f044e",
+          "title": "Apertus——面向主权人工智能的开放式基础模型 / Apertus – Open Foundation Model for Sovereign AI",
+          "url": "https://apertvs.ai",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-21T21:29:43Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.5652,
+      "importance": 0.5652,
+      "importance_score": 0.5652,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9691,
+        "story_heat": 0.5
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-21T21:29:43Z",
+      "latest_at": "2026-06-21T23:24:05.154000Z",
+      "primary_item": {
+        "id": "d147c27ddbc5d2fa214e290bd8ec6cc8e90c0e0e",
+        "title": "Apertus——面向主权人工智能的开放式基础模型",
+        "url": "https://apertvs.ai",
+        "source": "apertvs.ai",
+        "source_name": "Buzzing"
       }
     },
     {
@@ -921,15 +1135,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.5821,
-      "importance": 0.5821,
-      "importance_score": 0.5821,
+      "score": 0.5819,
+      "importance": 0.5819,
+      "importance_score": 0.5819,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9236,
+        "recency": 0.9229,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -944,201 +1158,6 @@
         "url": "https://news.ycombinator.com/item?id=48618455",
         "source": "hackernews",
         "source_name": "NewsNow"
-      }
-    },
-    {
-      "story_id": "story_8f30dfad7969",
-      "title": "Show HN: Recall——Claude Code 的完全本地化项目内存",
-      "url": "https://github.com/raiyanyahya/recall",
-      "primary_url": "https://github.com/raiyanyahya/recall",
-      "source": "github.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "fd3833f7aee6fbd1320566ee50bb2ee14874d981",
-          "title": "Show HN: Recall——Claude Code 的完全本地化项目内存",
-          "url": "https://github.com/raiyanyahya/recall",
-          "source": "github.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-22T00:28:09.030000Z"
-        },
-        {
-          "id": "52c0c265e9988e4cd6f24ea1dee2abb85388783a",
-          "title": "Show HN: Recall——Claude Code 的完全本地化项目内存 / Show HN: Recall – fully-local project memory for Claude Code",
-          "url": "https://github.com/raiyanyahya/recall",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-21T21:05:37Z"
-        },
-        {
-          "id": "8d919a3f77b3dbc271b9484b4165dba6d72cc71b",
-          "title": "Show HN: Recall——Claude Code 的完全本地化项目内存 / Stop wasting tokens and re explaining your project between sessions",
-          "url": "https://github.com/raiyanyahya/recall",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-21T21:05:37Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Hacker News · 24h最热",
-        "github.com"
-      ],
-      "items": [
-        {
-          "id": "fd3833f7aee6fbd1320566ee50bb2ee14874d981",
-          "title": "Show HN: Recall——Claude Code 的完全本地化项目内存",
-          "url": "https://github.com/raiyanyahya/recall",
-          "source": "github.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-22T00:28:09.030000Z"
-        },
-        {
-          "id": "52c0c265e9988e4cd6f24ea1dee2abb85388783a",
-          "title": "Show HN: Recall——Claude Code 的完全本地化项目内存 / Show HN: Recall – fully-local project memory for Claude Code",
-          "url": "https://github.com/raiyanyahya/recall",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-21T21:05:37Z"
-        },
-        {
-          "id": "8d919a3f77b3dbc271b9484b4165dba6d72cc71b",
-          "title": "Show HN: Recall——Claude Code 的完全本地化项目内存 / Stop wasting tokens and re explaining your project between sessions",
-          "url": "https://github.com/raiyanyahya/recall",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-21T21:05:37Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.5681,
-      "importance": 0.5681,
-      "importance_score": 0.5681,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9849,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-21T21:05:37Z",
-      "latest_at": "2026-06-22T00:28:09.030000Z",
-      "primary_item": {
-        "id": "fd3833f7aee6fbd1320566ee50bb2ee14874d981",
-        "title": "Show HN: Recall——Claude Code 的完全本地化项目内存",
-        "url": "https://github.com/raiyanyahya/recall",
-        "source": "github.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_a70218bc5d4a",
-      "title": "Apertus——面向主权人工智能的开放式基础模型",
-      "url": "https://apertvs.ai",
-      "primary_url": "https://apertvs.ai",
-      "source": "apertvs.ai",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "d147c27ddbc5d2fa214e290bd8ec6cc8e90c0e0e",
-          "title": "Apertus——面向主权人工智能的开放式基础模型",
-          "url": "https://apertvs.ai",
-          "source": "apertvs.ai",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-21T23:24:05.154000Z"
-        },
-        {
-          "id": "6d5d789e1e7a1b8162eb9face018693e65666442",
-          "title": "Apertus – 主权人工智能的开放基础模型 / Apertus – Open Foundation Model for Sovereign AI",
-          "url": "https://news.ycombinator.com/item?id=48622778",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-21T23:03:41.891000Z"
-        },
-        {
-          "id": "93f8899442a8e6f8ebbde7f6f473a8d5d13f044e",
-          "title": "Apertus——面向主权人工智能的开放式基础模型 / Apertus – Open Foundation Model for Sovereign AI",
-          "url": "https://apertvs.ai",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-21T21:29:43Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Hacker News · 24h最热",
-        "apertvs.ai",
-        "hackernews"
-      ],
-      "items": [
-        {
-          "id": "d147c27ddbc5d2fa214e290bd8ec6cc8e90c0e0e",
-          "title": "Apertus——面向主权人工智能的开放式基础模型",
-          "url": "https://apertvs.ai",
-          "source": "apertvs.ai",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-21T23:24:05.154000Z"
-        },
-        {
-          "id": "6d5d789e1e7a1b8162eb9face018693e65666442",
-          "title": "Apertus – 主权人工智能的开放基础模型 / Apertus – Open Foundation Model for Sovereign AI",
-          "url": "https://news.ycombinator.com/item?id=48622778",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-21T23:03:41.891000Z"
-        },
-        {
-          "id": "93f8899442a8e6f8ebbde7f6f473a8d5d13f044e",
-          "title": "Apertus——面向主权人工智能的开放式基础模型 / Apertus – Open Foundation Model for Sovereign AI",
-          "url": "https://apertvs.ai",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-21T21:29:43Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.5654,
-      "importance": 0.5654,
-      "importance_score": 0.5654,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9698,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-21T21:29:43Z",
-      "latest_at": "2026-06-21T23:24:05.154000Z",
-      "primary_item": {
-        "id": "d147c27ddbc5d2fa214e290bd8ec6cc8e90c0e0e",
-        "title": "Apertus——面向主权人工智能的开放式基础模型",
-        "url": "https://apertvs.ai",
-        "source": "apertvs.ai",
-        "source_name": "Buzzing"
       }
     },
     {
@@ -1195,15 +1214,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5458,
-      "importance": 0.5458,
-      "importance_score": 0.5458,
+      "score": 0.5457,
+      "importance": 0.5457,
+      "importance_score": 0.5457,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 1.0,
+        "recency": 0.9993,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1273,15 +1292,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5366,
-      "importance": 0.5366,
-      "importance_score": 0.5366,
+      "score": 0.5365,
+      "importance": 0.5365,
+      "importance_score": 0.5365,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9491,
+        "recency": 0.9484,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1371,15 +1390,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5343,
-      "importance": 0.5343,
-      "importance_score": 0.5343,
+      "score": 0.5342,
+      "importance": 0.5342,
+      "importance_score": 0.5342,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7971,
+        "recency": 0.7965,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1450,15 +1469,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5325,
-      "importance": 0.5325,
-      "importance_score": 0.5325,
+      "score": 0.5324,
+      "importance": 0.5324,
+      "importance_score": 0.5324,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9261,
+        "recency": 0.9254,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1529,15 +1548,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5325,
-      "importance": 0.5325,
-      "importance_score": 0.5325,
+      "score": 0.5324,
+      "importance": 0.5324,
+      "importance_score": 0.5324,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9261,
+        "recency": 0.9254,
         "story_heat": 0.25
       },
       "category": "watch",
