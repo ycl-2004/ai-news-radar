@@ -1,8 +1,70 @@
 {
-  "generated_at": "2026-06-22T13:28:49.313075Z",
+  "generated_at": "2026-06-22T18:04:06.749267Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
+    {
+      "story_id": "story_76bfa22b1a42",
+      "title": "JetBrains IDE 中的新功能和 Claude 作为代理提供商预览 / New features and Claude as agent provider preview in JetBrains IDEs",
+      "url": "https://github.blog/changelog/2026-06-22-new-features-and-claude-as-agent-provider-preview-in-jetbrains-ides",
+      "primary_url": "https://github.blog/changelog/2026-06-22-new-features-and-claude-as-agent-provider-preview-in-jetbrains-ides",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "76f9590dd5120f37a8a9c1b7a2b01015251fe453",
+          "title": "JetBrains IDE 中的新功能和 Claude 作为代理提供商预览 / New features and Claude as agent provider preview in JetBrains IDEs",
+          "url": "https://github.blog/changelog/2026-06-22-new-features-and-claude-as-agent-provider-preview-in-jetbrains-ides",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-22T15:34:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "items": [
+        {
+          "id": "76f9590dd5120f37a8a9c1b7a2b01015251fe453",
+          "title": "JetBrains IDE 中的新功能和 Claude 作为代理提供商预览 / New features and Claude as agent provider preview in JetBrains IDEs",
+          "url": "https://github.blog/changelog/2026-06-22-new-features-and-claude-as-agent-provider-preview-in-jetbrains-ides",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-22T15:34:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8456,
+      "importance": 0.8456,
+      "importance_score": 0.8456,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.9645,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-22T15:34:00Z",
+      "latest_at": "2026-06-22T15:34:00Z",
+      "primary_item": {
+        "id": "76f9590dd5120f37a8a9c1b7a2b01015251fe453",
+        "title": "JetBrains IDE 中的新功能和 Claude 作为代理提供商预览 / New features and Claude as agent provider preview in JetBrains IDEs",
+        "url": "https://github.blog/changelog/2026-06-22-new-features-and-claude-as-agent-provider-preview-in-jetbrains-ides",
+        "source": "GitHub Changelog",
+        "source_name": "Official AI Updates"
+      }
+    },
     {
       "story_id": "story_eebdb7f63bb5",
       "title": "三星电子为员工带来 ChatGPT 和 Codex / Samsung Electronics brings ChatGPT and Codex to employees",
@@ -38,15 +100,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.834,
-      "importance": 0.834,
-      "importance_score": 0.834,
+      "score": 0.8247,
+      "importance": 0.8247,
+      "importance_score": 0.8247,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.99,
-        "recency": 0.8113,
+        "recency": 0.7593,
         "story_heat": 0.0
       },
       "category": "official",
@@ -63,6 +125,290 @@
         "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
         "source": "OpenAI News",
         "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_005182103894",
+      "title": "开辟新赛道：小米 YU7 GT 创全球首个纽北自动驾驶圈速纪录，官方圈速榜新增\"自动驾驶\"分类",
+      "url": "https://www.ithome.com/0/967/234.htm",
+      "primary_url": "https://www.ithome.com/0/967/234.htm",
+      "source": "IT之家（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "aee943e14703df485360cef3a21badbba7a11674",
+          "title": "开辟新赛道：小米 YU7 GT 创全球首个纽北自动驾驶圈速纪录，官方圈速榜新增\"自动驾驶\"分类",
+          "url": "https://www.ithome.com/0/967/234.htm",
+          "source": "IT之家（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-22T15:13:29Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "IT之家（RSS）"
+      ],
+      "items": [
+        {
+          "id": "aee943e14703df485360cef3a21badbba7a11674",
+          "title": "开辟新赛道：小米 YU7 GT 创全球首个纽北自动驾驶圈速纪录，官方圈速榜新增\"自动驾驶\"分类",
+          "url": "https://www.ithome.com/0/967/234.htm",
+          "source": "IT之家（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-22T15:13:29Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7994,
+      "importance": 0.7994,
+      "importance_score": 0.7994,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.85,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9598,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-22T15:13:29Z",
+      "latest_at": "2026-06-22T15:13:29Z",
+      "primary_item": {
+        "id": "aee943e14703df485360cef3a21badbba7a11674",
+        "title": "开辟新赛道：小米 YU7 GT 创全球首个纽北自动驾驶圈速纪录，官方圈速榜新增\"自动驾驶\"分类",
+        "url": "https://www.ithome.com/0/967/234.htm",
+        "source": "IT之家（RSS）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_cbdfac336953",
+      "title": "东京 AI 公司 Sakana AI 推出多智能体编排系统 Sakana Fugu",
+      "url": "https://x.com/berryxia/status/2069090959938466298",
+      "primary_url": "https://x.com/berryxia/status/2069090959938466298",
+      "source": "X：Berry Xia (@berryxia)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "cd9583ec48f7ced35e4cab3e24dbedcda3611854",
+          "title": "东京 AI 公司 Sakana AI 推出多智能体编排系统 Sakana Fugu",
+          "url": "https://x.com/berryxia/status/2069090959938466298",
+          "source": "X：Berry Xia (@berryxia)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-22T16:11:41Z"
+        },
+        {
+          "id": "a9eb7b4f95d6c4e8048302118f84d585a74355bc",
+          "title": "Sakana AI 是2023年在东京成立的AI研发公司，核心定位是开发“自然启发”（nature-inspired）的AI模型。 强调集体智能（collective intelligence）和演化方法，目标是打造不受单一大模型限制的系统，并服务于日本的AI主权（sovereignty）需求。 三位联合创始人： • David Ha（CEO）：前Google Brain日本团队负责人，曾在日本高盛担任衍生品交易主管，有很深的日本工作…",
+          "url": "https://x.com/berryxia/status/2069090959938466298",
+          "source": "@berryxia",
+          "source_name": "SocialData X",
+          "site_id": "socialdata_x",
+          "published_at": "2026-06-22T16:11:41Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "@berryxia",
+        "X：Berry Xia (@berryxia)"
+      ],
+      "items": [
+        {
+          "id": "cd9583ec48f7ced35e4cab3e24dbedcda3611854",
+          "title": "东京 AI 公司 Sakana AI 推出多智能体编排系统 Sakana Fugu",
+          "url": "https://x.com/berryxia/status/2069090959938466298",
+          "source": "X：Berry Xia (@berryxia)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-22T16:11:41Z"
+        },
+        {
+          "id": "a9eb7b4f95d6c4e8048302118f84d585a74355bc",
+          "title": "Sakana AI 是2023年在东京成立的AI研发公司，核心定位是开发“自然启发”（nature-inspired）的AI模型。 强调集体智能（collective intelligence）和演化方法，目标是打造不受单一大模型限制的系统，并服务于日本的AI主权（sovereignty）需求。 三位联合创始人： • David Ha（CEO）：前Google Brain日本团队负责人，曾在日本高盛担任衍生品交易主管，有很深的日本工作…",
+          "url": "https://x.com/berryxia/status/2069090959938466298",
+          "source": "@berryxia",
+          "source_name": "SocialData X",
+          "site_id": "socialdata_x",
+          "published_at": "2026-06-22T16:11:41Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7968,
+      "importance": 0.7968,
+      "importance_score": 0.7968,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.75,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9733,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-22T16:11:41Z",
+      "latest_at": "2026-06-22T16:11:41Z",
+      "primary_item": {
+        "id": "cd9583ec48f7ced35e4cab3e24dbedcda3611854",
+        "title": "东京 AI 公司 Sakana AI 推出多智能体编排系统 Sakana Fugu",
+        "url": "https://x.com/berryxia/status/2069090959938466298",
+        "source": "X：Berry Xia (@berryxia)",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_493a508e4cea",
+      "title": "PP-OCRv6 on Hugging Face：50 语言 OCR，参数规模 1.5M 至 34.5M",
+      "url": "https://huggingface.co/blog/PaddlePaddle/pp-ocrv6",
+      "primary_url": "https://huggingface.co/blog/PaddlePaddle/pp-ocrv6",
+      "source": "Hugging Face：Blog（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "83de75fb3038cc33b60346f3bea097342e51b7ee",
+          "title": "PP-OCRv6 on Hugging Face：50 语言 OCR，参数规模 1.5M 至 34.5M",
+          "url": "https://huggingface.co/blog/PaddlePaddle/pp-ocrv6",
+          "source": "Hugging Face：Blog（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-22T13:18:56Z"
+        },
+        {
+          "id": "2d8796a08960d7a403954b472ae40ef7b60ca916",
+          "title": "PP-OCRv6 on Hugging Face：50 语言 OCR，参数规模 1.5M 至 34.5M / PP-OCRv6 on Hugging Face: 50-Language OCR from 1.5M to 34.5M Parameters",
+          "url": "https://huggingface.co/blog/PaddlePaddle/pp-ocrv6",
+          "source": "Hugging Face Blog",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-06-22T13:18:56Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hugging Face Blog",
+        "Hugging Face：Blog（RSS）"
+      ],
+      "items": [
+        {
+          "id": "83de75fb3038cc33b60346f3bea097342e51b7ee",
+          "title": "PP-OCRv6 on Hugging Face：50 语言 OCR，参数规模 1.5M 至 34.5M",
+          "url": "https://huggingface.co/blog/PaddlePaddle/pp-ocrv6",
+          "source": "Hugging Face：Blog（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-22T13:18:56Z"
+        },
+        {
+          "id": "2d8796a08960d7a403954b472ae40ef7b60ca916",
+          "title": "PP-OCRv6 on Hugging Face：50 语言 OCR，参数规模 1.5M 至 34.5M / PP-OCRv6 on Hugging Face: 50-Language OCR from 1.5M to 34.5M Parameters",
+          "url": "https://huggingface.co/blog/PaddlePaddle/pp-ocrv6",
+          "source": "Hugging Face Blog",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-06-22T13:18:56Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7717,
+      "importance": 0.7717,
+      "importance_score": 0.7717,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.69,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9337,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-22T13:18:56Z",
+      "latest_at": "2026-06-22T13:18:56Z",
+      "primary_item": {
+        "id": "83de75fb3038cc33b60346f3bea097342e51b7ee",
+        "title": "PP-OCRv6 on Hugging Face：50 语言 OCR，参数规模 1.5M 至 34.5M",
+        "url": "https://huggingface.co/blog/PaddlePaddle/pp-ocrv6",
+        "source": "Hugging Face：Blog（RSS）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_b28952886954",
+      "title": "微信Agent小微灰度内测：主入口发消息红包，子入口可读聊天记录",
+      "url": "https://mp.weixin.qq.com/s/qVdfx01e9C9r5mGi0jh2BA",
+      "primary_url": "https://mp.weixin.qq.com/s/qVdfx01e9C9r5mGi0jh2BA",
+      "source": "公众号：数字生命卡兹克",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "deceebfd47ef29e2e53e627ecbc3a2ee2c7dbc90",
+          "title": "微信Agent小微灰度内测：主入口发消息红包，子入口可读聊天记录",
+          "url": "https://mp.weixin.qq.com/s/qVdfx01e9C9r5mGi0jh2BA",
+          "source": "公众号：数字生命卡兹克",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-22T13:34:14Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "公众号：数字生命卡兹克"
+      ],
+      "items": [
+        {
+          "id": "deceebfd47ef29e2e53e627ecbc3a2ee2c7dbc90",
+          "title": "微信Agent小微灰度内测：主入口发消息红包，子入口可读聊天记录",
+          "url": "https://mp.weixin.qq.com/s/qVdfx01e9C9r5mGi0jh2BA",
+          "source": "公众号：数字生命卡兹克",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-22T13:34:14Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7563,
+      "importance": 0.7563,
+      "importance_score": 0.7563,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9371,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-22T13:34:14Z",
+      "latest_at": "2026-06-22T13:34:14Z",
+      "primary_item": {
+        "id": "deceebfd47ef29e2e53e627ecbc3a2ee2c7dbc90",
+        "title": "微信Agent小微灰度内测：主入口发消息红包，子入口可读聊天记录",
+        "url": "https://mp.weixin.qq.com/s/qVdfx01e9C9r5mGi0jh2BA",
+        "source": "公众号：数字生命卡兹克",
+        "source_name": "AI HOT"
       }
     },
     {
@@ -100,15 +446,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
+      "score": 0.7561,
+      "importance": 0.7561,
+      "importance_score": 0.7561,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.9359,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -124,6 +470,67 @@
         "url": "https://www.aibase.com/news/29061",
         "source": "AIbase",
         "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_7e524650c521",
+      "title": "Cursor 审计发现奖励黑客行为淹没模型智能提升",
+      "url": "https://cursor.com/blog/reward-hacking-coding-benchmarks",
+      "primary_url": "https://cursor.com/blog/reward-hacking-coding-benchmarks",
+      "source": "Cursor Blog",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "ba5e6888e4a118c0e2dfed3a372495ccaecf88a1",
+          "title": "Cursor 审计发现奖励黑客行为淹没模型智能提升",
+          "url": "https://cursor.com/blog/reward-hacking-coding-benchmarks",
+          "source": "Cursor Blog",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-22T12:00:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Cursor Blog"
+      ],
+      "items": [
+        {
+          "id": "ba5e6888e4a118c0e2dfed3a372495ccaecf88a1",
+          "title": "Cursor 审计发现奖励黑客行为淹没模型智能提升",
+          "url": "https://cursor.com/blog/reward-hacking-coding-benchmarks",
+          "source": "Cursor Blog",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-22T12:00:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7525,
+      "importance": 0.7525,
+      "importance_score": 0.7525,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9161,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-22T12:00:00Z",
+      "latest_at": "2026-06-22T12:00:00Z",
+      "primary_item": {
+        "id": "ba5e6888e4a118c0e2dfed3a372495ccaecf88a1",
+        "title": "Cursor 审计发现奖励黑客行为淹没模型智能提升",
+        "url": "https://cursor.com/blog/reward-hacking-coding-benchmarks",
+        "source": "Cursor Blog",
+        "source_name": "AI HOT"
       }
     },
     {
@@ -180,22 +587,21 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7566,
-      "importance": 0.7566,
-      "importance_score": 0.7566,
+      "score": 0.7473,
+      "importance": 0.7473,
+      "importance_score": 0.7473,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7999,
+        "recency": 0.7486,
         "story_heat": 0.25
       },
       "category": "industry",
       "reasons": [
         "multi_source",
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-06-21T22:01:04Z",
       "latest_at": "2026-06-21T22:01:04Z",
@@ -208,62 +614,62 @@
       }
     },
     {
-      "story_id": "story_02279eb95a0f",
-      "title": "NSA局长：Mythos数小时内攻破其几乎所有机密系统",
-      "url": "https://x.com/AISafetyMemes/status/2068718552174252477",
-      "primary_url": "https://x.com/AISafetyMemes/status/2068718552174252477",
-      "source": "X：AI Safety Memes (@AISafetyMemes)",
+      "story_id": "story_9071a5cf85c6",
+      "title": "Google Labs 提出用\"洞察策略\"评估 AI 编码智能体的主动性",
+      "url": "https://developers.googleblog.com/measuring-what-matters-with-jules",
+      "primary_url": "https://developers.googleblog.com/measuring-what-matters-with-jules",
+      "source": "Google Developers Blog（RSS）",
       "source_name": "AI HOT",
       "sources": [
         {
-          "id": "62bb858acc539e17409bd6d9e791f834106318d7",
-          "title": "NSA局长：Mythos数小时内攻破其几乎所有机密系统",
-          "url": "https://x.com/AISafetyMemes/status/2068718552174252477",
-          "source": "X：AI Safety Memes (@AISafetyMemes)",
+          "id": "5b3b3348cb82560e01135ef40ee0544527c2e3e1",
+          "title": "Google Labs 提出用\"洞察策略\"评估 AI 编码智能体的主动性",
+          "url": "https://developers.googleblog.com/measuring-what-matters-with-jules",
+          "source": "Google Developers Blog（RSS）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-06-21T15:31:52Z"
+          "published_at": "2026-06-22T16:08:41.780000Z"
         }
       ],
       "source_count": 1,
       "source_names": [
-        "X：AI Safety Memes (@AISafetyMemes)"
+        "Google Developers Blog（RSS）"
       ],
       "items": [
         {
-          "id": "62bb858acc539e17409bd6d9e791f834106318d7",
-          "title": "NSA局长：Mythos数小时内攻破其几乎所有机密系统",
-          "url": "https://x.com/AISafetyMemes/status/2068718552174252477",
-          "source": "X：AI Safety Memes (@AISafetyMemes)",
+          "id": "5b3b3348cb82560e01135ef40ee0544527c2e3e1",
+          "title": "Google Labs 提出用\"洞察策略\"评估 AI 编码智能体的主动性",
+          "url": "https://developers.googleblog.com/measuring-what-matters-with-jules",
+          "source": "Google Developers Blog（RSS）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-06-21T15:31:52Z"
+          "published_at": "2026-06-22T16:08:41.780000Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7427,
-      "importance": 0.7427,
-      "importance_score": 0.7427,
+      "score": 0.7297,
+      "importance": 0.7297,
+      "importance_score": 0.7297,
       "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.8,
+        "editorial": 0.61,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7284,
+        "recency": 0.9726,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
         "high_ai_relevance"
       ],
-      "earliest_at": "2026-06-21T15:31:52Z",
-      "latest_at": "2026-06-21T15:31:52Z",
+      "earliest_at": "2026-06-22T16:08:41.780000Z",
+      "latest_at": "2026-06-22T16:08:41.780000Z",
       "primary_item": {
-        "id": "62bb858acc539e17409bd6d9e791f834106318d7",
-        "title": "NSA局长：Mythos数小时内攻破其几乎所有机密系统",
-        "url": "https://x.com/AISafetyMemes/status/2068718552174252477",
-        "source": "X：AI Safety Memes (@AISafetyMemes)",
+        "id": "5b3b3348cb82560e01135ef40ee0544527c2e3e1",
+        "title": "Google Labs 提出用\"洞察策略\"评估 AI 编码智能体的主动性",
+        "url": "https://developers.googleblog.com/measuring-what-matters-with-jules",
+        "source": "Google Developers Blog（RSS）",
         "source_name": "AI HOT"
       }
     },
@@ -302,15 +708,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
+      "score": 0.7561,
+      "importance": 0.7561,
+      "importance_score": 0.7561,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.9359,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -363,15 +769,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
+      "score": 0.7561,
+      "importance": 0.7561,
+      "importance_score": 0.7561,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.9359,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -387,6 +793,174 @@
         "url": "https://www.aibase.com/news/29057",
         "source": "AIbase",
         "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_2df82173bb28",
+      "title": "Claude Code 上线满一年，Boris Cherny 和 Cat Wu 以主创身份复盘了团队内部的真实工作流。他们谈论的不是某个具体功能，而是人和agent到底该怎么分工。 让我们来一起探究一下！",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+      "primary_url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+      "source": "社区更新 · 2026-06-22",
+      "source_name": "WaytoAGI",
+      "sources": [
+        {
+          "id": "aaedd40fd9122d6caafc8474744eac4eb392b730",
+          "title": "Claude Code 上线满一年，Boris Cherny 和 Cat Wu 以主创身份复盘了团队内部的真实工作流。他们谈论的不是某个具体功能，而是人和agent到底该怎么分工。 让我们来一起探究一下！",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-22",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-22T18:04:06.749267Z"
+        },
+        {
+          "id": "7af2e3e98d129f6f8aa07be2cc3e6250b6b94863",
+          "title": "Codex最近更新了一个录制回放的插件：Record & Replay 。简单来说，你在电脑上先手动把一个工作流程走一遍，Codex会观察并记录你的操作，随后转成一份可复用、可迭代的Agent Skill。这个插件到底怎么用、和传统 RPA是不是一回事，这篇文章带你拆清楚。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-22",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-22T18:04:06.749267Z"
+        },
+        {
+          "id": "a2cf7758fe3b342eaef6d444249fdf7620d20d65",
+          "title": "YC合伙人Tom Blomfield 在这期对话中带我们揭秘公司如何把自己改造成一个会学习的系统：如果 AI 能读取公司的知识、调用工具、观察结果、改写流程，一家公司还需要像过去那样靠层级、会议和中层管理来传递信息吗？",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-22",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-22T18:04:06.749267Z"
+        },
+        {
+          "id": "cd1b3b41efc1dd923cad7df4cfa64032d279b2d0",
+          "title": "在深耕一年Agent基础设施、服务五百余名用户后，作者发现分层可独立的迭代才是优质智能体架构的核心。于是做了一个更好的 Agent 框架：FastClaw，面向云原生多租户场景设计，更快、更轻量、更好用。这篇文章记录了他对 OpenClaw 架构的理解，以及对 FastClaw 架构设计的经验总结。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-22",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-22T18:04:06.749267Z"
+        },
+        {
+          "id": "af73ad02e00b1e47e33650d79ddfb807796d500a",
+          "title": "成峰这款剪辑 Skill又升级啦！只需上传素材与文稿，AI就可以自动精剪口播、清理瑕疵、生成对齐字幕，还能智能匹配镜头、生成手绘风动态动画。全程支持可视化校对、片段精细化修改，最后一键合成高清成片。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-22",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-22T18:04:06.749267Z"
+        },
+        {
+          "id": "ef195eeddd767508872b158ae25438aa6de3f4ba",
+          "title": "不少人给Claude Code、Codex设置Goal时经常会堆砌特别长的提示词，导致AI擅自拓展任务、严重偏离需求。老金的开源工具GoalPro针对性地解决了这一问题。它内置了五层校验闸门，逐层理清真实需求、划定操作边界、明确验收依据、设置高危暂停机制，输出标准化可复核的目标合约，把任务决策权留在使用者手中。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-22",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-22T13:28:49.313075Z"
+        },
+        {
+          "id": "b86f8bd706d09ed22ec73b7c0e5ecb0900f82475",
+          "title": "本周AI音乐资讯合集覆盖工具更新、前沿模型、版权维权与前沿论文四大板块。ElevenLabs、阿里通义等推出长曲生成、说唱人声无缝切换能力，多款创作平台上线分轨混音、多角色MV、视频智能配乐等实用功能，大幅降低了二创的门槛。大西洋月刊还上线侵权音乐检索库，缓解了从业者对版权的顾虑。还有六篇顶级论文，围绕模型遗忘、AI 音乐检测、歌声精细控制等方向给出了一些创新方案。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-22",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-22T13:28:49.313075Z"
+        }
+      ],
+      "source_count": 7,
+      "source_names": [
+        "社区更新 · 2026-06-22"
+      ],
+      "items": [
+        {
+          "id": "aaedd40fd9122d6caafc8474744eac4eb392b730",
+          "title": "Claude Code 上线满一年，Boris Cherny 和 Cat Wu 以主创身份复盘了团队内部的真实工作流。他们谈论的不是某个具体功能，而是人和agent到底该怎么分工。 让我们来一起探究一下！",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-22",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-22T18:04:06.749267Z"
+        },
+        {
+          "id": "7af2e3e98d129f6f8aa07be2cc3e6250b6b94863",
+          "title": "Codex最近更新了一个录制回放的插件：Record & Replay 。简单来说，你在电脑上先手动把一个工作流程走一遍，Codex会观察并记录你的操作，随后转成一份可复用、可迭代的Agent Skill。这个插件到底怎么用、和传统 RPA是不是一回事，这篇文章带你拆清楚。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-22",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-22T18:04:06.749267Z"
+        },
+        {
+          "id": "a2cf7758fe3b342eaef6d444249fdf7620d20d65",
+          "title": "YC合伙人Tom Blomfield 在这期对话中带我们揭秘公司如何把自己改造成一个会学习的系统：如果 AI 能读取公司的知识、调用工具、观察结果、改写流程，一家公司还需要像过去那样靠层级、会议和中层管理来传递信息吗？",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-22",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-22T18:04:06.749267Z"
+        },
+        {
+          "id": "cd1b3b41efc1dd923cad7df4cfa64032d279b2d0",
+          "title": "在深耕一年Agent基础设施、服务五百余名用户后，作者发现分层可独立的迭代才是优质智能体架构的核心。于是做了一个更好的 Agent 框架：FastClaw，面向云原生多租户场景设计，更快、更轻量、更好用。这篇文章记录了他对 OpenClaw 架构的理解，以及对 FastClaw 架构设计的经验总结。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-22",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-22T18:04:06.749267Z"
+        },
+        {
+          "id": "af73ad02e00b1e47e33650d79ddfb807796d500a",
+          "title": "成峰这款剪辑 Skill又升级啦！只需上传素材与文稿，AI就可以自动精剪口播、清理瑕疵、生成对齐字幕，还能智能匹配镜头、生成手绘风动态动画。全程支持可视化校对、片段精细化修改，最后一键合成高清成片。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-22",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-22T18:04:06.749267Z"
+        },
+        {
+          "id": "ef195eeddd767508872b158ae25438aa6de3f4ba",
+          "title": "不少人给Claude Code、Codex设置Goal时经常会堆砌特别长的提示词，导致AI擅自拓展任务、严重偏离需求。老金的开源工具GoalPro针对性地解决了这一问题。它内置了五层校验闸门，逐层理清真实需求、划定操作边界、明确验收依据、设置高危暂停机制，输出标准化可复核的目标合约，把任务决策权留在使用者手中。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-22",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-22T13:28:49.313075Z"
+        },
+        {
+          "id": "b86f8bd706d09ed22ec73b7c0e5ecb0900f82475",
+          "title": "本周AI音乐资讯合集覆盖工具更新、前沿模型、版权维权与前沿论文四大板块。ElevenLabs、阿里通义等推出长曲生成、说唱人声无缝切换能力，多款创作平台上线分轨混音、多角色MV、视频智能配乐等实用功能，大幅降低了二创的门槛。大西洋月刊还上线侵权音乐检索库，缓解了从业者对版权的顾虑。还有六篇顶级论文，围绕模型遗忘、AI 音乐检测、歌声精细控制等方向给出了一些创新方案。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-22",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-22T13:28:49.313075Z"
+        }
+      ],
+      "item_count": 7,
+      "duplicate_count": 7,
+      "score": 0.6692,
+      "importance": 0.6692,
+      "importance_score": 0.6692,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.54,
+        "ai_relevance": 0.65,
+        "recency": 1.0,
+        "story_heat": 1.0
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-22T13:28:49.313075Z",
+      "latest_at": "2026-06-22T18:04:06.749267Z",
+      "primary_item": {
+        "id": "aaedd40fd9122d6caafc8474744eac4eb392b730",
+        "title": "Claude Code 上线满一年，Boris Cherny 和 Cat Wu 以主创身份复盘了团队内部的真实工作流。他们谈论的不是某个具体功能，而是人和agent到底该怎么分工。 让我们来一起探究一下！",
+        "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+        "source": "社区更新 · 2026-06-22",
+        "source_name": "WaytoAGI"
       }
     },
     {
@@ -424,15 +998,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
+      "score": 0.7561,
+      "importance": 0.7561,
+      "importance_score": 0.7561,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.9359,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -451,136 +1025,82 @@
       }
     },
     {
-      "story_id": "story_2df82173bb28",
-      "title": "不少人给Claude Code、Codex设置Goal时经常会堆砌特别长的提示词，导致AI擅自拓展任务、严重偏离需求。老金的开源工具GoalPro针对性地解决了这一问题。它内置了五层校验闸门，逐层理清真实需求、划定操作边界、明确验收依据、设置高危暂停机制，输出标准化可复核的目标合约，把任务决策权留在使用者手中。",
-      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-      "primary_url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-      "source": "社区更新 · 2026-06-22",
-      "source_name": "WaytoAGI",
+      "story_id": "story_d8b296a069a1",
+      "title": "SpaceX 与开源人工智能实验室 Reflection AI 签署计算协议 / SpaceX inks compute deal with Reflection AI, an open source AI lab",
+      "url": "https://techcrunch.com/2026/06/22/spacex-inks-compute-deal-with-reflection-ai-an-open-source-ai-lab",
+      "primary_url": "https://techcrunch.com/2026/06/22/spacex-inks-compute-deal-with-reflection-ai-an-open-source-ai-lab",
+      "source": "TechCrunch AI",
+      "source_name": "Curated Media",
       "sources": [
         {
-          "id": "ef195eeddd767508872b158ae25438aa6de3f4ba",
-          "title": "不少人给Claude Code、Codex设置Goal时经常会堆砌特别长的提示词，导致AI擅自拓展任务、严重偏离需求。老金的开源工具GoalPro针对性地解决了这一问题。它内置了五层校验闸门，逐层理清真实需求、划定操作边界、明确验收依据、设置高危暂停机制，输出标准化可复核的目标合约，把任务决策权留在使用者手中。",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-06-22",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-06-22T13:28:49.313075Z"
+          "id": "8493d1d04d375c8dcceb1a9e942b215ab394dc93",
+          "title": "SpaceX 与开源人工智能实验室 Reflection AI 签署计算协议 / SpaceX inks compute deal with Reflection AI, an open source AI lab",
+          "url": "https://techcrunch.com/2026/06/22/spacex-inks-compute-deal-with-reflection-ai-an-open-source-ai-lab",
+          "source": "TechCrunch AI",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-06-22T16:51:29Z"
         },
         {
-          "id": "b86f8bd706d09ed22ec73b7c0e5ecb0900f82475",
-          "title": "本周AI音乐资讯合集覆盖工具更新、前沿模型、版权维权与前沿论文四大板块。ElevenLabs、阿里通义等推出长曲生成、说唱人声无缝切换能力，多款创作平台上线分轨混音、多角色MV、视频智能配乐等实用功能，大幅降低了二创的门槛。大西洋月刊还上线侵权音乐检索库，缓解了从业者对版权的顾虑。还有六篇顶级论文，围绕模型遗忘、AI 音乐检测、歌声精细控制等方向给出了一些创新方案。",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-06-22",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-06-22T13:28:49.313075Z"
-        },
-        {
-          "id": "7e803bd05882a47b80121d6263a5e2a2632922fd",
-          "title": "本周精选的十篇顶级论文，覆盖空间视觉推理、技能调度、电脑操作智能体、强化学习、长期记忆、网页自动化与金融数据集多个关键方向。文中提炼了每项工作的核心创新、实测性能提升与落地意义，带你一站式梳理前沿突破。",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-06-21",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-06-21T18:02:33.588748Z"
-        },
-        {
-          "id": "030271890e8053ab3d816e34373a1565ec1e5de5",
-          "title": "Fiona Fung 现在带着 Anthropic里Claude Code和Cowork背后的工程、产品团队，也就是Boris Cherny和Cat Wu所在的组织。她能同时看到工程师、PM、设计师、数据科学家和小企业用户怎么被AI改变。让我们一同看看最AI化的产品团队是如何工作的？",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-06-21",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-06-21T16:14:10.181292Z"
-        },
-        {
-          "id": "3c4671e5b6cc6254c55508a472e21e13b55fd7ed",
-          "title": "阿真分享了一套可定制专属卡通IP信息图的Codex专用Skill，可以解决自媒体配图形象不统一、辨识度弱的问题。只用粘贴文章或者飞书文档链接，即可一键批量产出适配多平台、可调长宽比例的系列信息图。",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-06-21",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-06-21T16:14:10.181292Z"
+          "id": "8fd01d55813c8561b318be2ee0f357a63f8f6f34",
+          "title": "SpaceX 与开源人工智能实验室 Reflection AI 签署计算协议 / SpaceX inks compute deal with Reflection AI, an open-source AI lab",
+          "url": "https://techcrunch.com/2026/06/22/spacex-inks-compute-deal-with-reflection-ai-an-open-source-ai-lab",
+          "source": "TechCrunch",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-22T16:51:29Z"
         }
       ],
-      "source_count": 5,
+      "source_count": 2,
       "source_names": [
-        "社区更新 · 2026-06-21",
-        "社区更新 · 2026-06-22"
+        "TechCrunch",
+        "TechCrunch AI"
       ],
       "items": [
         {
-          "id": "ef195eeddd767508872b158ae25438aa6de3f4ba",
-          "title": "不少人给Claude Code、Codex设置Goal时经常会堆砌特别长的提示词，导致AI擅自拓展任务、严重偏离需求。老金的开源工具GoalPro针对性地解决了这一问题。它内置了五层校验闸门，逐层理清真实需求、划定操作边界、明确验收依据、设置高危暂停机制，输出标准化可复核的目标合约，把任务决策权留在使用者手中。",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-06-22",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-06-22T13:28:49.313075Z"
+          "id": "8493d1d04d375c8dcceb1a9e942b215ab394dc93",
+          "title": "SpaceX 与开源人工智能实验室 Reflection AI 签署计算协议 / SpaceX inks compute deal with Reflection AI, an open source AI lab",
+          "url": "https://techcrunch.com/2026/06/22/spacex-inks-compute-deal-with-reflection-ai-an-open-source-ai-lab",
+          "source": "TechCrunch AI",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-06-22T16:51:29Z"
         },
         {
-          "id": "b86f8bd706d09ed22ec73b7c0e5ecb0900f82475",
-          "title": "本周AI音乐资讯合集覆盖工具更新、前沿模型、版权维权与前沿论文四大板块。ElevenLabs、阿里通义等推出长曲生成、说唱人声无缝切换能力，多款创作平台上线分轨混音、多角色MV、视频智能配乐等实用功能，大幅降低了二创的门槛。大西洋月刊还上线侵权音乐检索库，缓解了从业者对版权的顾虑。还有六篇顶级论文，围绕模型遗忘、AI 音乐检测、歌声精细控制等方向给出了一些创新方案。",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-06-22",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-06-22T13:28:49.313075Z"
-        },
-        {
-          "id": "7e803bd05882a47b80121d6263a5e2a2632922fd",
-          "title": "本周精选的十篇顶级论文，覆盖空间视觉推理、技能调度、电脑操作智能体、强化学习、长期记忆、网页自动化与金融数据集多个关键方向。文中提炼了每项工作的核心创新、实测性能提升与落地意义，带你一站式梳理前沿突破。",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-06-21",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-06-21T18:02:33.588748Z"
-        },
-        {
-          "id": "030271890e8053ab3d816e34373a1565ec1e5de5",
-          "title": "Fiona Fung 现在带着 Anthropic里Claude Code和Cowork背后的工程、产品团队，也就是Boris Cherny和Cat Wu所在的组织。她能同时看到工程师、PM、设计师、数据科学家和小企业用户怎么被AI改变。让我们一同看看最AI化的产品团队是如何工作的？",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-06-21",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-06-21T16:14:10.181292Z"
-        },
-        {
-          "id": "3c4671e5b6cc6254c55508a472e21e13b55fd7ed",
-          "title": "阿真分享了一套可定制专属卡通IP信息图的Codex专用Skill，可以解决自媒体配图形象不统一、辨识度弱的问题。只用粘贴文章或者飞书文档链接，即可一键批量产出适配多平台、可调长宽比例的系列信息图。",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-06-21",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-06-21T16:14:10.181292Z"
+          "id": "8fd01d55813c8561b318be2ee0f357a63f8f6f34",
+          "title": "SpaceX 与开源人工智能实验室 Reflection AI 签署计算协议 / SpaceX inks compute deal with Reflection AI, an open-source AI lab",
+          "url": "https://techcrunch.com/2026/06/22/spacex-inks-compute-deal-with-reflection-ai-an-open-source-ai-lab",
+          "source": "TechCrunch",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-22T16:51:29Z"
         }
       ],
-      "item_count": 5,
-      "duplicate_count": 5,
-      "score": 0.6692,
-      "importance": 0.6692,
-      "importance_score": 0.6692,
-      "importance_label": "多源热议",
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.6456,
+      "importance": 0.6456,
+      "importance_score": 0.6456,
+      "importance_label": "值得关注",
       "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.54,
-        "ai_relevance": 0.65,
-        "recency": 1.0,
-        "story_heat": 1.0
+        "editorial": 0.5472,
+        "source_tier": 0.58,
+        "ai_relevance": 0.76,
+        "recency": 0.9827,
+        "story_heat": 0.25
       },
-      "category": "multi_source",
+      "category": "watch",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-21T16:14:10.181292Z",
-      "latest_at": "2026-06-22T13:28:49.313075Z",
+      "earliest_at": "2026-06-22T16:51:29Z",
+      "latest_at": "2026-06-22T16:51:29Z",
       "primary_item": {
-        "id": "ef195eeddd767508872b158ae25438aa6de3f4ba",
-        "title": "不少人给Claude Code、Codex设置Goal时经常会堆砌特别长的提示词，导致AI擅自拓展任务、严重偏离需求。老金的开源工具GoalPro针对性地解决了这一问题。它内置了五层校验闸门，逐层理清真实需求、划定操作边界、明确验收依据、设置高危暂停机制，输出标准化可复核的目标合约，把任务决策权留在使用者手中。",
-        "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-        "source": "社区更新 · 2026-06-22",
-        "source_name": "WaytoAGI"
+        "id": "8493d1d04d375c8dcceb1a9e942b215ab394dc93",
+        "title": "SpaceX 与开源人工智能实验室 Reflection AI 签署计算协议 / SpaceX inks compute deal with Reflection AI, an open source AI lab",
+        "url": "https://techcrunch.com/2026/06/22/spacex-inks-compute-deal-with-reflection-ai-an-open-source-ai-lab",
+        "source": "TechCrunch AI",
+        "source_name": "Curated Media"
       }
     },
     {
@@ -618,15 +1138,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
+      "score": 0.7561,
+      "importance": 0.7561,
+      "importance_score": 0.7561,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.9359,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -679,15 +1199,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
+      "score": 0.7561,
+      "importance": 0.7561,
+      "importance_score": 0.7561,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.9359,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -833,15 +1353,15 @@
       ],
       "item_count": 6,
       "duplicate_count": 6,
-      "score": 0.605,
-      "importance": 0.605,
-      "importance_score": 0.605,
+      "score": 0.5945,
+      "importance": 0.5945,
+      "importance_score": 0.5945,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9125,
+        "recency": 0.854,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -893,15 +1413,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
+      "score": 0.7561,
+      "importance": 0.7561,
+      "importance_score": 0.7561,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.9359,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -920,693 +1440,101 @@
       }
     },
     {
-      "story_id": "story_12119eb3ecaa",
-      "title": "1991 年慕尼黑：当前人工智能热潮的根源 / Munich 1991: The Roots of the Current AI Boom",
-      "url": "https://news.ycombinator.com/item?id=48599998",
-      "primary_url": "https://news.ycombinator.com/item?id=48599998",
+      "story_id": "story_d16966e63aaa",
+      "title": "即时注射为何有效的理论 / A Theory of Why Prompt Injection Works",
+      "url": "https://news.ycombinator.com/item?id=48631888",
+      "primary_url": "https://news.ycombinator.com/item?id=48631888",
       "source": "hackernews",
       "source_name": "NewsNow",
       "sources": [
         {
-          "id": "de1b0a50e1a613c953f57698434add52db358886",
-          "title": "1991 年慕尼黑：当前人工智能热潮的根源 / Munich 1991: The Roots of the Current AI Boom",
-          "url": "https://news.ycombinator.com/item?id=48599998",
+          "id": "071e16727020d04d5ad0f5dbc887b80a88681c5b",
+          "title": "即时注射为何有效的理论 / A Theory of Why Prompt Injection Works",
+          "url": "https://news.ycombinator.com/item?id=48631888",
           "source": "hackernews",
           "source_name": "NewsNow",
           "site_id": "newsnow",
-          "published_at": "2026-06-22T13:18:53.324000Z"
+          "published_at": "2026-06-22T17:52:43.116000Z"
         },
         {
-          "id": "cf08087fabc6447dcb449a159ecdcf95ba4bd2f4",
-          "title": "1991年慕尼黑：当前人工智能热潮的起源",
-          "url": "https://people.idsia.ch/~juergen/ai-boom-roots-munich-1991.html",
-          "source": "people.idsia.ch",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-22T12:44:12.700000Z"
-        },
-        {
-          "id": "8fcb1049a0f79b2075e128d14b116ebc461f1590",
-          "title": "1991年慕尼黑：当前人工智能热潮的起源 / Munich 1991: the Roots of the Current AI Boom",
-          "url": "https://people.idsia.ch/~juergen/ai-boom-roots-munich-1991.html",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-22T12:09:39Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Lobsters (技术社区)",
-        "hackernews",
-        "people.idsia.ch"
-      ],
-      "items": [
-        {
-          "id": "de1b0a50e1a613c953f57698434add52db358886",
-          "title": "1991 年慕尼黑：当前人工智能热潮的根源 / Munich 1991: The Roots of the Current AI Boom",
-          "url": "https://news.ycombinator.com/item?id=48599998",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-22T13:18:53.324000Z"
-        },
-        {
-          "id": "cf08087fabc6447dcb449a159ecdcf95ba4bd2f4",
-          "title": "1991年慕尼黑：当前人工智能热潮的起源",
-          "url": "https://people.idsia.ch/~juergen/ai-boom-roots-munich-1991.html",
-          "source": "people.idsia.ch",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-22T12:44:12.700000Z"
-        },
-        {
-          "id": "8fcb1049a0f79b2075e128d14b116ebc461f1590",
-          "title": "1991年慕尼黑：当前人工智能热潮的起源 / Munich 1991: the Roots of the Current AI Boom",
-          "url": "https://people.idsia.ch/~juergen/ai-boom-roots-munich-1991.html",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-22T12:09:39Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.5704,
-      "importance": 0.5704,
-      "importance_score": 0.5704,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9976,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-22T12:09:39Z",
-      "latest_at": "2026-06-22T13:18:53.324000Z",
-      "primary_item": {
-        "id": "de1b0a50e1a613c953f57698434add52db358886",
-        "title": "1991 年慕尼黑：当前人工智能热潮的根源 / Munich 1991: The Roots of the Current AI Boom",
-        "url": "https://news.ycombinator.com/item?id=48599998",
-        "source": "hackernews",
-        "source_name": "NewsNow"
-      }
-    },
-    {
-      "story_id": "story_71b4fe8be4f1",
-      "title": "资本市场新宠：智谱市值突破万亿，国产大模型迎来高光时刻",
-      "url": "https://www.aibase.com/news/29058",
-      "primary_url": "https://www.aibase.com/news/29058",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "7b8796dbec61e03e5dd550c74aca829ec4280a83",
-          "title": "资本市场新宠：智谱市值突破万亿，国产大模型迎来高光时刻",
-          "url": "https://www.aibase.com/news/29058",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-22T13:28:49.313075Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "7b8796dbec61e03e5dd550c74aca829ec4280a83",
-          "title": "资本市场新宠：智谱市值突破万亿，国产大模型迎来高光时刻",
-          "url": "https://www.aibase.com/news/29058",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-22T13:28:49.313075Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 1.0,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-22T13:28:49.313075Z",
-      "latest_at": "2026-06-22T13:28:49.313075Z",
-      "primary_item": {
-        "id": "7b8796dbec61e03e5dd550c74aca829ec4280a83",
-        "title": "资本市场新宠：智谱市值突破万亿，国产大模型迎来高光时刻",
-        "url": "https://www.aibase.com/news/29058",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      }
-    },
-    {
-      "story_id": "story_201ce65b3ce5",
-      "title": "通过对Qwen 3:0.6B等本地大型语言模型（LLM）进行微调，使其能够对问题进行分类，取得了良好的效果",
-      "url": "https://www.teachmecoolstuff.com/viewarticle/fine-tuning-a-local-llm-to-categorize-questions",
-      "primary_url": "https://www.teachmecoolstuff.com/viewarticle/fine-tuning-a-local-llm-to-categorize-questions",
-      "source": "www.teachmecoolstuff.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "bd8bf76d6a2a4147d0995b5d3661ec41cdb2856f",
-          "title": "通过对Qwen 3:0.6B等本地大型语言模型（LLM）进行微调，使其能够对问题进行分类，取得了良好的效果",
-          "url": "https://www.teachmecoolstuff.com/viewarticle/fine-tuning-a-local-llm-to-categorize-questions",
-          "source": "www.teachmecoolstuff.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-22T06:52:26.356000Z"
-        },
-        {
-          "id": "6b615f7e7d0c0f2e663a7622337fe642bdff2237",
-          "title": "微调本地法学硕士（如 Qwen 3:0.6B）以对问题进行分类，效果良好 / Good results fine tuning a local LLM like Qwen 3:0.6B to categorize questions",
-          "url": "https://news.ycombinator.com/item?id=48623434",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-22T01:32:05.162000Z"
-        },
-        {
-          "id": "fa50eb569b4bd6cda2f0096c63424f9417728b4d",
-          "title": "通过对Qwen 3:0.6B等本地大型语言模型（LLM）进行微调，使其能够对问题进行分类，取得了良好的效果 / Good results fine tuning a local LLM like Qwen 3:0.6B to categorize questions",
-          "url": "https://www.teachmecoolstuff.com/viewarticle/fine-tuning-a-local-llm-to-categorize-questions",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-21T22:55:23Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Hacker News · 24h最热",
-        "hackernews",
-        "www.teachmecoolstuff.com"
-      ],
-      "items": [
-        {
-          "id": "bd8bf76d6a2a4147d0995b5d3661ec41cdb2856f",
-          "title": "通过对Qwen 3:0.6B等本地大型语言模型（LLM）进行微调，使其能够对问题进行分类，取得了良好的效果",
-          "url": "https://www.teachmecoolstuff.com/viewarticle/fine-tuning-a-local-llm-to-categorize-questions",
-          "source": "www.teachmecoolstuff.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-22T06:52:26.356000Z"
-        },
-        {
-          "id": "6b615f7e7d0c0f2e663a7622337fe642bdff2237",
-          "title": "微调本地法学硕士（如 Qwen 3:0.6B）以对问题进行分类，效果良好 / Good results fine tuning a local LLM like Qwen 3:0.6B to categorize questions",
-          "url": "https://news.ycombinator.com/item?id=48623434",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-22T01:32:05.162000Z"
-        },
-        {
-          "id": "fa50eb569b4bd6cda2f0096c63424f9417728b4d",
-          "title": "通过对Qwen 3:0.6B等本地大型语言模型（LLM）进行微调，使其能够对问题进行分类，取得了良好的效果 / Good results fine tuning a local LLM like Qwen 3:0.6B to categorize questions",
-          "url": "https://www.teachmecoolstuff.com/viewarticle/fine-tuning-a-local-llm-to-categorize-questions",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-21T22:55:23Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.5544,
-      "importance": 0.5544,
-      "importance_score": 0.5544,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.909,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-21T22:55:23Z",
-      "latest_at": "2026-06-22T06:52:26.356000Z",
-      "primary_item": {
-        "id": "bd8bf76d6a2a4147d0995b5d3661ec41cdb2856f",
-        "title": "通过对Qwen 3:0.6B等本地大型语言模型（LLM）进行微调，使其能够对问题进行分类，取得了良好的效果",
-        "url": "https://www.teachmecoolstuff.com/viewarticle/fine-tuning-a-local-llm-to-categorize-questions",
-        "source": "www.teachmecoolstuff.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_2a59fbf9b429",
-      "title": "JCodes更多 / ai-website-clone-template / JCodesMore / ai-website-cloner-template",
-      "url": "https://github.com/JCodesMore/ai-website-cloner-template",
-      "primary_url": "https://github.com/JCodesMore/ai-website-cloner-template",
-      "source": "GitHub · Trending Today",
-      "source_name": "TopHub",
-      "sources": [
-        {
-          "id": "09e0f8b47c4796645798facafcdc107d14527833",
-          "title": "JCodes更多 / ai-website-clone-template / JCodesMore / ai-website-cloner-template",
-          "url": "https://github.com/JCodesMore/ai-website-cloner-template",
-          "source": "GitHub · Trending Today",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        },
-        {
-          "id": "5f3c2e59043df585e66d00d92b8aa38592df74e2",
-          "title": "JCodes更多 / ai-website-clone-template / JCodesMore /      ai-website-cloner-template",
-          "url": "https://github.com/JCodesMore/ai-website-cloner-template",
-          "source": "github",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-22T13:02:25.688000Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "GitHub · Trending Today",
-        "github"
-      ],
-      "items": [
-        {
-          "id": "09e0f8b47c4796645798facafcdc107d14527833",
-          "title": "JCodes更多 / ai-website-clone-template / JCodesMore / ai-website-cloner-template",
-          "url": "https://github.com/JCodesMore/ai-website-cloner-template",
-          "source": "GitHub · Trending Today",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        },
-        {
-          "id": "5f3c2e59043df585e66d00d92b8aa38592df74e2",
-          "title": "JCodes更多 / ai-website-clone-template / JCodesMore /      ai-website-cloner-template",
-          "url": "https://github.com/JCodesMore/ai-website-cloner-template",
-          "source": "github",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-22T13:02:25.688000Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5458,
-      "importance": 0.5458,
-      "importance_score": 0.5458,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 1.0,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-22T13:02:25.688000Z",
-      "latest_at": "2026-06-22T13:28:49.313075Z",
-      "primary_item": {
-        "id": "09e0f8b47c4796645798facafcdc107d14527833",
-        "title": "JCodes更多 / ai-website-clone-template / JCodesMore / ai-website-cloner-template",
-        "url": "https://github.com/JCodesMore/ai-website-cloner-template",
-        "source": "GitHub · Trending Today",
-        "source_name": "TopHub"
-      }
-    },
-    {
-      "story_id": "story_678fabf3749f",
-      "title": "Codex 日志记录错误可能会将 TB 写入本地 SSD / Codex logging bug may write TBs to local SSDs",
-      "url": "https://news.ycombinator.com/item?id=48626930",
-      "primary_url": "https://news.ycombinator.com/item?id=48626930",
-      "source": "hackernews",
-      "source_name": "NewsNow",
-      "sources": [
-        {
-          "id": "ba89af6198251fb3ec6725758298a7557ebdf9d7",
-          "title": "Codex 日志记录错误可能会将 TB 写入本地 SSD / Codex logging bug may write TBs to local SSDs",
-          "url": "https://news.ycombinator.com/item?id=48626930",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-22T13:18:53.324000Z"
-        },
-        {
-          "id": "0817a9970b2e8d2497ac095feca2f7ca56f0a7fe",
-          "title": "Codex 日志记录漏洞可能向本地 SSD 写入 TB 级数据",
-          "url": "https://github.com/openai/codex/issues/28224",
-          "source": "github.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-22T10:52:21.761000Z"
-        },
-        {
-          "id": "e8496969c7b28a31b4052759be30a201a3b9f786",
-          "title": "Codex 日志记录漏洞可能向本地 SSD 写入 TB 级数据 / Codex logging bug may write TBs to local SSDs",
-          "url": "https://github.com/openai/codex/issues/28224",
+          "id": "4e73e5b49561c244720d3fa628f976322f4755b3",
+          "title": "即时注射为何有效的理论 / A Theory of Why Prompt Injection Works",
+          "url": "https://role-confusion.github.io",
           "source": "Hacker News",
           "source_name": "TechURLs",
           "site_id": "techurls",
-          "published_at": "2026-06-22T07:30:17Z"
+          "published_at": "2026-06-22T15:48:55Z"
+        },
+        {
+          "id": "804f9f33bf14a150d8bb6a41bdcf6ab8064b9dfc",
+          "title": "角色混淆导致提示注射 / Prompt Injection as Role Confusion",
+          "url": "https://role-confusion.github.io",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-22T15:48:55Z"
         }
       ],
       "source_count": 3,
       "source_names": [
         "Hacker News",
-        "github.com",
+        "Hacker News · 24h最热",
         "hackernews"
       ],
       "items": [
         {
-          "id": "ba89af6198251fb3ec6725758298a7557ebdf9d7",
-          "title": "Codex 日志记录错误可能会将 TB 写入本地 SSD / Codex logging bug may write TBs to local SSDs",
-          "url": "https://news.ycombinator.com/item?id=48626930",
+          "id": "071e16727020d04d5ad0f5dbc887b80a88681c5b",
+          "title": "即时注射为何有效的理论 / A Theory of Why Prompt Injection Works",
+          "url": "https://news.ycombinator.com/item?id=48631888",
           "source": "hackernews",
           "source_name": "NewsNow",
           "site_id": "newsnow",
-          "published_at": "2026-06-22T13:18:53.324000Z"
+          "published_at": "2026-06-22T17:52:43.116000Z"
         },
         {
-          "id": "0817a9970b2e8d2497ac095feca2f7ca56f0a7fe",
-          "title": "Codex 日志记录漏洞可能向本地 SSD 写入 TB 级数据",
-          "url": "https://github.com/openai/codex/issues/28224",
-          "source": "github.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-22T10:52:21.761000Z"
-        },
-        {
-          "id": "e8496969c7b28a31b4052759be30a201a3b9f786",
-          "title": "Codex 日志记录漏洞可能向本地 SSD 写入 TB 级数据 / Codex logging bug may write TBs to local SSDs",
-          "url": "https://github.com/openai/codex/issues/28224",
+          "id": "4e73e5b49561c244720d3fa628f976322f4755b3",
+          "title": "即时注射为何有效的理论 / A Theory of Why Prompt Injection Works",
+          "url": "https://role-confusion.github.io",
           "source": "Hacker News",
           "source_name": "TechURLs",
           "site_id": "techurls",
-          "published_at": "2026-06-22T07:30:17Z"
+          "published_at": "2026-06-22T15:48:55Z"
+        },
+        {
+          "id": "804f9f33bf14a150d8bb6a41bdcf6ab8064b9dfc",
+          "title": "角色混淆导致提示注射 / Prompt Injection as Role Confusion",
+          "url": "https://role-confusion.github.io",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-22T15:48:55Z"
         }
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5704,
-      "importance": 0.5704,
-      "importance_score": 0.5704,
+      "score": 0.5703,
+      "importance": 0.5703,
+      "importance_score": 0.5703,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9976,
+        "recency": 0.9973,
         "story_heat": 0.5
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-22T07:30:17Z",
-      "latest_at": "2026-06-22T13:18:53.324000Z",
+      "earliest_at": "2026-06-22T15:48:55Z",
+      "latest_at": "2026-06-22T17:52:43.116000Z",
       "primary_item": {
-        "id": "ba89af6198251fb3ec6725758298a7557ebdf9d7",
-        "title": "Codex 日志记录错误可能会将 TB 写入本地 SSD / Codex logging bug may write TBs to local SSDs",
-        "url": "https://news.ycombinator.com/item?id=48626930",
+        "id": "071e16727020d04d5ad0f5dbc887b80a88681c5b",
+        "title": "即时注射为何有效的理论 / A Theory of Why Prompt Injection Works",
+        "url": "https://news.ycombinator.com/item?id=48631888",
         "source": "hackernews",
         "source_name": "NewsNow"
-      }
-    },
-    {
-      "story_id": "story_a70218bc5d4a",
-      "title": "Apertus——面向主权人工智能的开放式基础模型",
-      "url": "https://apertvs.ai",
-      "primary_url": "https://apertvs.ai",
-      "source": "apertvs.ai",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "d147c27ddbc5d2fa214e290bd8ec6cc8e90c0e0e",
-          "title": "Apertus——面向主权人工智能的开放式基础模型",
-          "url": "https://apertvs.ai",
-          "source": "apertvs.ai",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-21T23:24:05.154000Z"
-        },
-        {
-          "id": "6d5d789e1e7a1b8162eb9face018693e65666442",
-          "title": "Apertus – 主权人工智能的开放基础模型 / Apertus – Open Foundation Model for Sovereign AI",
-          "url": "https://news.ycombinator.com/item?id=48622778",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-21T23:03:41.891000Z"
-        },
-        {
-          "id": "93f8899442a8e6f8ebbde7f6f473a8d5d13f044e",
-          "title": "Apertus——面向主权人工智能的开放式基础模型 / Apertus – Open Foundation Model for Sovereign AI",
-          "url": "https://apertvs.ai",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-21T21:29:43Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Hacker News · 24h最热",
-        "apertvs.ai",
-        "hackernews"
-      ],
-      "items": [
-        {
-          "id": "d147c27ddbc5d2fa214e290bd8ec6cc8e90c0e0e",
-          "title": "Apertus——面向主权人工智能的开放式基础模型",
-          "url": "https://apertvs.ai",
-          "source": "apertvs.ai",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-21T23:24:05.154000Z"
-        },
-        {
-          "id": "6d5d789e1e7a1b8162eb9face018693e65666442",
-          "title": "Apertus – 主权人工智能的开放基础模型 / Apertus – Open Foundation Model for Sovereign AI",
-          "url": "https://news.ycombinator.com/item?id=48622778",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-21T23:03:41.891000Z"
-        },
-        {
-          "id": "93f8899442a8e6f8ebbde7f6f473a8d5d13f044e",
-          "title": "Apertus——面向主权人工智能的开放式基础模型 / Apertus – Open Foundation Model for Sovereign AI",
-          "url": "https://apertvs.ai",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-21T21:29:43Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.5377,
-      "importance": 0.5377,
-      "importance_score": 0.5377,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.816,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-21T21:29:43Z",
-      "latest_at": "2026-06-21T23:24:05.154000Z",
-      "primary_item": {
-        "id": "d147c27ddbc5d2fa214e290bd8ec6cc8e90c0e0e",
-        "title": "Apertus——面向主权人工智能的开放式基础模型",
-        "url": "https://apertvs.ai",
-        "source": "apertvs.ai",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_3ed668aa2867",
-      "title": "arXiv：谷歌量子 AI 团队最新研究：椭圆曲线密码学的量子危机与防御",
-      "url": "https://www.huxiu.com/article/4869167.html?f=rss",
-      "primary_url": "https://www.huxiu.com/article/4869167.html?f=rss",
-      "source": "Readhub · AI",
-      "source_name": "TopHub",
-      "sources": [
-        {
-          "id": "5794633cbc473fb63cd025b437c06c856ea78c92",
-          "title": "arXiv：谷歌量子 AI 团队最新研究：椭圆曲线密码学的量子危机与防御",
-          "url": "https://www.huxiu.com/article/4869167.html?f=rss",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        },
-        {
-          "id": "7992000ef88bbb027b5b83627bcab7aa70989fde",
-          "title": "arXiv：谷歌量子AI团队最新研究：椭圆曲线密码学的量子危机与防御",
-          "url": "https://www.huxiu.com/article/4869167.html?f=rss",
-          "source": "虎嗅 (Huxiu)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-22T06:40:56Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Readhub · AI",
-        "虎嗅 (Huxiu)"
-      ],
-      "items": [
-        {
-          "id": "5794633cbc473fb63cd025b437c06c856ea78c92",
-          "title": "arXiv：谷歌量子 AI 团队最新研究：椭圆曲线密码学的量子危机与防御",
-          "url": "https://www.huxiu.com/article/4869167.html?f=rss",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        },
-        {
-          "id": "7992000ef88bbb027b5b83627bcab7aa70989fde",
-          "title": "arXiv：谷歌量子AI团队最新研究：椭圆曲线密码学的量子危机与防御",
-          "url": "https://www.huxiu.com/article/4869167.html?f=rss",
-          "source": "虎嗅 (Huxiu)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-22T06:40:56Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5309,
-      "importance": 0.5309,
-      "importance_score": 0.5309,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9174,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-22T06:40:56Z",
-      "latest_at": "2026-06-22T07:30:39.571652Z",
-      "primary_item": {
-        "id": "5794633cbc473fb63cd025b437c06c856ea78c92",
-        "title": "arXiv：谷歌量子 AI 团队最新研究：椭圆曲线密码学的量子危机与防御",
-        "url": "https://www.huxiu.com/article/4869167.html?f=rss",
-        "source": "Readhub · AI",
-        "source_name": "TopHub"
-      }
-    },
-    {
-      "story_id": "story_0c8b2cb87256",
-      "title": "萨卡纳·福古",
-      "url": "https://sakana.ai/fugu",
-      "primary_url": "https://sakana.ai/fugu",
-      "source": "sakana.ai",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "023fe69c459d5e8808ea84df6e56cc3eda3ad6ed",
-          "title": "萨卡纳·福古",
-          "url": "https://sakana.ai/fugu",
-          "source": "sakana.ai",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-22T07:24:14.938000Z"
-        },
-        {
-          "id": "777c553ccdd2719300954cdee43409dd55a228b7",
-          "title": "萨卡纳·福古 / Sakana Fugu",
-          "url": "https://sakana.ai/fugu",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-22T02:08:18Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News",
-        "sakana.ai"
-      ],
-      "items": [
-        {
-          "id": "023fe69c459d5e8808ea84df6e56cc3eda3ad6ed",
-          "title": "萨卡纳·福古",
-          "url": "https://sakana.ai/fugu",
-          "source": "sakana.ai",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-22T07:24:14.938000Z"
-        },
-        {
-          "id": "777c553ccdd2719300954cdee43409dd55a228b7",
-          "title": "萨卡纳·福古 / Sakana Fugu",
-          "url": "https://sakana.ai/fugu",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-22T02:08:18Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5307,
-      "importance": 0.5307,
-      "importance_score": 0.5307,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.916,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-22T02:08:18Z",
-      "latest_at": "2026-06-22T07:24:14.938000Z",
-      "primary_item": {
-        "id": "023fe69c459d5e8808ea84df6e56cc3eda3ad6ed",
-        "title": "萨卡纳·福古",
-        "url": "https://sakana.ai/fugu",
-        "source": "sakana.ai",
-        "source_name": "Buzzing"
       }
     }
   ]
