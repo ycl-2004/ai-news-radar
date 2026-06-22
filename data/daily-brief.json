@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T01:51:46.185070Z",
+  "generated_at": "2026-06-22T01:59:50.994060Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -38,15 +38,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8607,
-      "importance": 0.8607,
-      "importance_score": 0.8607,
+      "score": 0.8604,
+      "importance": 0.8604,
+      "importance_score": 0.8604,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.99,
-        "recency": 0.9595,
+        "recency": 0.9576,
         "story_heat": 0.0
       },
       "category": "official",
@@ -119,15 +119,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7917,
-      "importance": 0.7917,
-      "importance_score": 0.7917,
+      "score": 0.7914,
+      "importance": 0.7914,
+      "importance_score": 0.7914,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9951,
+        "recency": 0.9932,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -200,15 +200,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7829,
-      "importance": 0.7829,
-      "importance_score": 0.7829,
+      "score": 0.7825,
+      "importance": 0.7825,
+      "importance_score": 0.7825,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.946,
+        "recency": 0.9442,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -262,15 +262,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7667,
-      "importance": 0.7667,
-      "importance_score": 0.7667,
+      "score": 0.7664,
+      "importance": 0.7664,
+      "importance_score": 0.7664,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.8,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8614,
+        "recency": 0.8597,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -289,7 +289,7 @@
       }
     },
     {
-      "story_id": "story_7ed4fb2323bf",
+      "story_id": "story_d5129800bc55",
       "title": "​Getty Images携手OpenAI达成合作 正版图库内容接入ChatGPT检索场景",
       "url": "https://www.aibase.com/news/29024",
       "primary_url": "https://www.aibase.com/news/29024",
@@ -342,15 +342,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7917,
-      "importance": 0.7917,
-      "importance_score": 0.7917,
+      "score": 0.7914,
+      "importance": 0.7914,
+      "importance_score": 0.7914,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9951,
+        "recency": 0.9932,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -404,15 +404,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7491,
-      "importance": 0.7491,
-      "importance_score": 0.7491,
+      "score": 0.7489,
+      "importance": 0.7489,
+      "importance_score": 0.7489,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.78,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7974,
+        "recency": 0.7959,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -430,7 +430,7 @@
       }
     },
     {
-      "story_id": "story_ecb2db6e10f8",
+      "story_id": "story_65b9bd9a1c48",
       "title": "动口不动手：特斯拉即将通过 Grok 实现 FSD 语音操控",
       "url": "https://www.aibase.com/news/29025",
       "primary_url": "https://www.aibase.com/news/29025",
@@ -483,15 +483,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7917,
-      "importance": 0.7917,
-      "importance_score": 0.7917,
+      "score": 0.7914,
+      "importance": 0.7914,
+      "importance_score": 0.7914,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9951,
+        "recency": 0.9932,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -506,6 +506,128 @@
         "id": "22ef72ff8b32a0780084666329a364fd39ff58e2",
         "title": "动口不动手：特斯拉即将通过 Grok 实现 FSD 语音操控",
         "url": "https://www.aibase.com/news/29025",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_be8a49473db1",
+      "title": "只需演示一次即可无限重复，OpenAI Codex 解锁“录制与回放”新技能",
+      "url": "https://www.aibase.com/news/29032",
+      "primary_url": "https://www.aibase.com/news/29032",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "a0e09981be5e9506fde07fedb73a840f9d664aa2",
+          "title": "只需演示一次即可无限重复，OpenAI Codex 解锁“录制与回放”新技能",
+          "url": "https://www.aibase.com/news/29032",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-22T01:59:50.994060Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "a0e09981be5e9506fde07fedb73a840f9d664aa2",
+          "title": "只需演示一次即可无限重复，OpenAI Codex 解锁“录制与回放”新技能",
+          "url": "https://www.aibase.com/news/29032",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-22T01:59:50.994060Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-22T01:59:50.994060Z",
+      "latest_at": "2026-06-22T01:59:50.994060Z",
+      "primary_item": {
+        "id": "a0e09981be5e9506fde07fedb73a840f9d664aa2",
+        "title": "只需演示一次即可无限重复，OpenAI Codex 解锁“录制与回放”新技能",
+        "url": "https://www.aibase.com/news/29032",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_b353bc268dd7",
+      "title": "本地也能跑万亿大模型：苹果与 LM Studio 联手解锁 Mac Studio 算力极限",
+      "url": "https://www.aibase.com/news/29033",
+      "primary_url": "https://www.aibase.com/news/29033",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "a40aa06921a34f551c3893e3bc2ada072b79a4e1",
+          "title": "本地也能跑万亿大模型：苹果与 LM Studio 联手解锁 Mac Studio 算力极限",
+          "url": "https://www.aibase.com/news/29033",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-22T01:59:50.994060Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "a40aa06921a34f551c3893e3bc2ada072b79a4e1",
+          "title": "本地也能跑万亿大模型：苹果与 LM Studio 联手解锁 Mac Studio 算力极限",
+          "url": "https://www.aibase.com/news/29033",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-22T01:59:50.994060Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-22T01:59:50.994060Z",
+      "latest_at": "2026-06-22T01:59:50.994060Z",
+      "primary_item": {
+        "id": "a40aa06921a34f551c3893e3bc2ada072b79a4e1",
+        "title": "本地也能跑万亿大模型：苹果与 LM Studio 联手解锁 Mac Studio 算力极限",
+        "url": "https://www.aibase.com/news/29033",
         "source": "AIbase",
         "source_name": "AIbase"
       }
@@ -545,15 +667,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
+      "score": 0.7673,
+      "importance": 0.7673,
+      "importance_score": 0.7673,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.9981,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -567,128 +689,6 @@
         "id": "f2b56c0020de3d3e487804757d4c70c9390a63d0",
         "title": "AI人才争夺战再起：谷歌Gemini负责人沙泽尔转投OpenAI",
         "url": "https://www.aibase.com/news/29031",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      }
-    },
-    {
-      "story_id": "story_8c7eee48f31a",
-      "title": "谷歌明星研究员接连出走，诺奖得主约翰·詹珀转投 Anthropic",
-      "url": "https://www.aibase.com/news/29030",
-      "primary_url": "https://www.aibase.com/news/29030",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "d6efb0f3c8ba320cde07b145cb1987edd2bf836c",
-          "title": "谷歌明星研究员接连出走，诺奖得主约翰·詹珀转投 Anthropic",
-          "url": "https://www.aibase.com/news/29030",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-22T01:51:46.185070Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "d6efb0f3c8ba320cde07b145cb1987edd2bf836c",
-          "title": "谷歌明星研究员接连出走，诺奖得主约翰·詹珀转投 Anthropic",
-          "url": "https://www.aibase.com/news/29030",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-22T01:51:46.185070Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 1.0,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-22T01:51:46.185070Z",
-      "latest_at": "2026-06-22T01:51:46.185070Z",
-      "primary_item": {
-        "id": "d6efb0f3c8ba320cde07b145cb1987edd2bf836c",
-        "title": "谷歌明星研究员接连出走，诺奖得主约翰·詹珀转投 Anthropic",
-        "url": "https://www.aibase.com/news/29030",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      }
-    },
-    {
-      "story_id": "story_742f8340ff40",
-      "title": "Snap分拆生成式AI视频团队成立新公司Dotmo 缓解高昂研发成本压力",
-      "url": "https://www.aibase.com/news/29027",
-      "primary_url": "https://www.aibase.com/news/29027",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "5dbbaf4b5ab5ccf346484145e2e8228975183014",
-          "title": "Snap分拆生成式AI视频团队成立新公司Dotmo 缓解高昂研发成本压力",
-          "url": "https://www.aibase.com/news/29027",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-22T01:31:31.705209Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "5dbbaf4b5ab5ccf346484145e2e8228975183014",
-          "title": "Snap分拆生成式AI视频团队成立新公司Dotmo 缓解高昂研发成本压力",
-          "url": "https://www.aibase.com/news/29027",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-22T01:31:31.705209Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7667,
-      "importance": 0.7667,
-      "importance_score": 0.7667,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9951,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-22T01:31:31.705209Z",
-      "latest_at": "2026-06-22T01:31:31.705209Z",
-      "primary_item": {
-        "id": "5dbbaf4b5ab5ccf346484145e2e8228975183014",
-        "title": "Snap分拆生成式AI视频团队成立新公司Dotmo 缓解高昂研发成本压力",
-        "url": "https://www.aibase.com/news/29027",
         "source": "AIbase",
         "source_name": "AIbase"
       }
@@ -764,15 +764,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.6,
-      "importance": 0.6,
-      "importance_score": 0.6,
+      "score": 0.5997,
+      "importance": 0.5997,
+      "importance_score": 0.5997,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.54,
         "ai_relevance": 0.65,
-        "recency": 0.8932,
+        "recency": 0.8915,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -880,15 +880,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.5949,
-      "importance": 0.5949,
-      "importance_score": 0.5949,
+      "score": 0.5946,
+      "importance": 0.5946,
+      "importance_score": 0.5946,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9953,
+        "recency": 0.9933,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -906,21 +906,21 @@
       }
     },
     {
-      "story_id": "story_7dd658cd5e19",
-      "title": "​借 AI 编造股市虚假信息引流牟利 四川南充一女子遭行政处罚",
-      "url": "https://www.aibase.com/news/29028",
-      "primary_url": "https://www.aibase.com/news/29028",
+      "story_id": "story_8c7eee48f31a",
+      "title": "谷歌明星研究员接连出走，诺奖得主约翰·詹珀转投 Anthropic",
+      "url": "https://www.aibase.com/news/29030",
+      "primary_url": "https://www.aibase.com/news/29030",
       "source": "AIbase",
       "source_name": "AIbase",
       "sources": [
         {
-          "id": "f2ca30b00113b3f5e29aa798cccf872854c96334",
-          "title": "​借 AI 编造股市虚假信息引流牟利 四川南充一女子遭行政处罚",
-          "url": "https://www.aibase.com/news/29028",
+          "id": "d6efb0f3c8ba320cde07b145cb1987edd2bf836c",
+          "title": "谷歌明星研究员接连出走，诺奖得主约翰·詹珀转投 Anthropic",
+          "url": "https://www.aibase.com/news/29030",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-06-22T01:31:31.705209Z"
+          "published_at": "2026-06-22T01:51:46.185070Z"
         }
       ],
       "source_count": 1,
@@ -929,26 +929,26 @@
       ],
       "items": [
         {
-          "id": "f2ca30b00113b3f5e29aa798cccf872854c96334",
-          "title": "​借 AI 编造股市虚假信息引流牟利 四川南充一女子遭行政处罚",
-          "url": "https://www.aibase.com/news/29028",
+          "id": "d6efb0f3c8ba320cde07b145cb1987edd2bf836c",
+          "title": "谷歌明星研究员接连出走，诺奖得主约翰·詹珀转投 Anthropic",
+          "url": "https://www.aibase.com/news/29030",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-06-22T01:31:31.705209Z"
+          "published_at": "2026-06-22T01:51:46.185070Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7667,
-      "importance": 0.7667,
-      "importance_score": 0.7667,
+      "score": 0.7673,
+      "importance": 0.7673,
+      "importance_score": 0.7673,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9951,
+        "recency": 0.9981,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -956,12 +956,12 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-06-22T01:31:31.705209Z",
-      "latest_at": "2026-06-22T01:31:31.705209Z",
+      "earliest_at": "2026-06-22T01:51:46.185070Z",
+      "latest_at": "2026-06-22T01:51:46.185070Z",
       "primary_item": {
-        "id": "f2ca30b00113b3f5e29aa798cccf872854c96334",
-        "title": "​借 AI 编造股市虚假信息引流牟利 四川南充一女子遭行政处罚",
-        "url": "https://www.aibase.com/news/29028",
+        "id": "d6efb0f3c8ba320cde07b145cb1987edd2bf836c",
+        "title": "谷歌明星研究员接连出走，诺奖得主约翰·詹珀转投 Anthropic",
+        "url": "https://www.aibase.com/news/29030",
         "source": "AIbase",
         "source_name": "AIbase"
       }
@@ -1039,15 +1039,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5645,
-      "importance": 0.5645,
-      "importance_score": 0.5645,
+      "score": 0.5642,
+      "importance": 0.5642,
+      "importance_score": 0.5642,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9651,
+        "recency": 0.9632,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1065,17 +1065,17 @@
       }
     },
     {
-      "story_id": "story_992c0833980e",
-      "title": "苹果iOS27绕开传统对话式AI:系统级无感化智能成手机系统新趋势",
-      "url": "https://www.aibase.com/news/29026",
-      "primary_url": "https://www.aibase.com/news/29026",
+      "story_id": "story_742f8340ff40",
+      "title": "Snap分拆生成式AI视频团队成立新公司Dotmo 缓解高昂研发成本压力",
+      "url": "https://www.aibase.com/news/29027",
+      "primary_url": "https://www.aibase.com/news/29027",
       "source": "AIbase",
       "source_name": "AIbase",
       "sources": [
         {
-          "id": "e5a3bcf139f218b2e4d23431c098a39052907f65",
-          "title": "苹果iOS27绕开传统对话式AI:系统级无感化智能成手机系统新趋势",
-          "url": "https://www.aibase.com/news/29026",
+          "id": "5dbbaf4b5ab5ccf346484145e2e8228975183014",
+          "title": "Snap分拆生成式AI视频团队成立新公司Dotmo 缓解高昂研发成本压力",
+          "url": "https://www.aibase.com/news/29027",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
@@ -1088,9 +1088,9 @@
       ],
       "items": [
         {
-          "id": "e5a3bcf139f218b2e4d23431c098a39052907f65",
-          "title": "苹果iOS27绕开传统对话式AI:系统级无感化智能成手机系统新趋势",
-          "url": "https://www.aibase.com/news/29026",
+          "id": "5dbbaf4b5ab5ccf346484145e2e8228975183014",
+          "title": "Snap分拆生成式AI视频团队成立新公司Dotmo 缓解高昂研发成本压力",
+          "url": "https://www.aibase.com/news/29027",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
@@ -1099,15 +1099,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7667,
-      "importance": 0.7667,
-      "importance_score": 0.7667,
+      "score": 0.7664,
+      "importance": 0.7664,
+      "importance_score": 0.7664,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9951,
+        "recency": 0.9932,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1118,9 +1118,9 @@
       "earliest_at": "2026-06-22T01:31:31.705209Z",
       "latest_at": "2026-06-22T01:31:31.705209Z",
       "primary_item": {
-        "id": "e5a3bcf139f218b2e4d23431c098a39052907f65",
-        "title": "苹果iOS27绕开传统对话式AI:系统级无感化智能成手机系统新趋势",
-        "url": "https://www.aibase.com/news/29026",
+        "id": "5dbbaf4b5ab5ccf346484145e2e8228975183014",
+        "title": "Snap分拆生成式AI视频团队成立新公司Dotmo 缓解高昂研发成本压力",
+        "url": "https://www.aibase.com/news/29027",
         "source": "AIbase",
         "source_name": "AIbase"
       }
@@ -1216,15 +1216,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.5812,
-      "importance": 0.5812,
-      "importance_score": 0.5812,
+      "score": 0.5809,
+      "importance": 0.5809,
+      "importance_score": 0.5809,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9191,
+        "recency": 0.9173,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -1295,15 +1295,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5449,
-      "importance": 0.5449,
-      "importance_score": 0.5449,
+      "score": 0.5446,
+      "importance": 0.5446,
+      "importance_score": 0.5446,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9951,
+        "recency": 0.9932,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1373,15 +1373,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5358,
-      "importance": 0.5358,
-      "importance_score": 0.5358,
+      "score": 0.5355,
+      "importance": 0.5355,
+      "importance_score": 0.5355,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9445,
+        "recency": 0.9427,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1471,15 +1471,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5336,
-      "importance": 0.5336,
-      "importance_score": 0.5336,
+      "score": 0.5333,
+      "importance": 0.5333,
+      "importance_score": 0.5333,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7932,
+        "recency": 0.7917,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1550,15 +1550,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5317,
-      "importance": 0.5317,
-      "importance_score": 0.5317,
+      "score": 0.5314,
+      "importance": 0.5314,
+      "importance_score": 0.5314,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9216,
+        "recency": 0.9198,
         "story_heat": 0.25
       },
       "category": "watch",
