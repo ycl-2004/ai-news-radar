@@ -130,10 +130,18 @@ baseline, then let the aggregator layer add breadth.
   `TIKHUB_RUN_UTC_HOUR` setting still controls the first run window when no
   paid-source state exists yet. Prefer focused AI
   keywords over general hot lists so entertainment trends do not flood the
-  Signal view. Xiaohongshu scans both the recommended App V2 search endpoint
-  and the public Web V3 search endpoint, then deduplicates by note id; Douyin
-  stays on TikHub's current Douyin Search API rather than deprecated App V3
-  search paths.
+  Signal view. The default query puts focused AI terms such as OpenAI, Claude,
+  large models, Agent, and AI tools ahead of broad `AI`/`人工智能` fallbacks, and
+  per-platform caps are spread across keywords so one broad term cannot consume
+  the whole paid-source budget. TikHub requests use the latest/time-descending
+  sort and a one-week publish bucket, then the radar enforces the current-week
+  cutoff in code. Xiaohongshu uses the recommended App V2 search endpoint
+  first and only falls back to Web V3 when App V2 cannot fill the current
+  keyword budget. It deduplicates by note id, ignores sentinel API timestamps
+  such as zero, infers missing note times from the timestamp prefix in the
+  Xiaohongshu note id, and drops results whose publish time is missing or older
+  than the current-week window; Douyin stays on TikHub's current Douyin Search
+  API rather than deprecated App V3 search paths.
 
   The official TikHub Python SDK is generated from OpenAPI V5.3.2, so SDK
   resources mirror OpenAPI tags. The SDK documents Douyin coverage as

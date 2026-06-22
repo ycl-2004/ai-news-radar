@@ -1390,7 +1390,7 @@ class TopicFilterTests(unittest.TestCase):
         )
         self.assertEqual(len(items), 1)
         self.assertIn("fresh1", items[0].url)
-        self.assertEqual(diagnostics["recency_days"], 4)
+        self.assertEqual(diagnostics["recency_days"], 7)
         self.assertEqual(diagnostics["skipped_stale_count"], 1)
 
     def test_parse_tikhub_xiaohongshu_items(self):
@@ -1398,7 +1398,7 @@ class TopicFilterTests(unittest.TestCase):
             "data": {
                 "items": [
                     {
-                        "id": "xhs123",
+                        "id": "69f53e8000000000180190e6",
                         "note_card": {
                             "display_title": "Claude Code 实测：AI 编程代理",
                             "user": {"nickname": "工具研究员"},
@@ -1417,8 +1417,12 @@ class TopicFilterTests(unittest.TestCase):
         self.assertEqual(len(items), 1)
         self.assertEqual(items[0].site_id, "tikhub_xiaohongshu")
         self.assertEqual(items[0].source, "工具研究员")
-        self.assertEqual(items[0].url, "https://www.xiaohongshu.com/explore/xhs123")
-        self.assertEqual(items[0].meta["post_id"], "xhs123")
+        self.assertEqual(items[0].url, "https://www.xiaohongshu.com/explore/69f53e8000000000180190e6")
+        self.assertEqual(items[0].meta["post_id"], "69f53e8000000000180190e6")
+        self.assertEqual(
+            items[0].published_at,
+            __import__("datetime").datetime.fromtimestamp(int("69f53e80", 16), tz=timezone.utc),
+        )
 
     def test_parse_tikhub_xiaohongshu_accepts_camel_case_publish_time(self):
         now = __import__("datetime").datetime.fromisoformat("2026-05-03T01:00:00+00:00")
@@ -1442,6 +1446,194 @@ class TopicFilterTests(unittest.TestCase):
 
         self.assertEqual(len(items), 1)
         self.assertEqual(items[0].published_at, __import__("datetime").datetime.fromtimestamp(created_at, tz=timezone.utc))
+
+    def test_parse_tikhub_xiaohongshu_ignores_zero_api_time_and_uses_note_id(self):
+        now = __import__("datetime").datetime.fromisoformat("2026-06-22T01:30:00+00:00")
+        note_id = "6a388dd1000000001503c7b5"
+        payload = {
+            "data": {
+                "items": [
+                    {
+                        "id": note_id,
+                        "desc": "今日 AI 大事件",
+                        "last_update_time": 0,
+                        "user": {"nickname": "AI观察"},
+                    }
+                ]
+            }
+        }
+
+        items = parse_tikhub_xiaohongshu_items(payload, now=now, keyword="AI", limit=5)
+
+        self.assertEqual(len(items), 1)
+        self.assertEqual(
+            items[0].published_at,
+            __import__("datetime").datetime.fromtimestamp(int(note_id[:8], 16), tz=timezone.utc),
+        )
+
+    def test_parse_tikhub_xiaohongshu_accepts_millisecond_api_time(self):
+        import datetime as _dt
+
+        now = _dt.datetime.fromisoformat("2026-06-22T01:30:00+00:00")
+        published = now - _dt.timedelta(hours=2)
+        payload = {
+            "data": {
+                "items": [
+                    {
+                        "id": "67934b0c00000000180190e6",
+                        "desc": "毫秒时间的 AI 笔记",
+                        "create_time": int(published.timestamp() * 1000),
+                        "user": {"nickname": "毫秒时间作者"},
+                    }
+                ]
+            }
+        }
+
+        items = parse_tikhub_xiaohongshu_items(payload, now=now, keyword="AI", limit=5)
+
+        self.assertEqual(len(items), 1)
+        self.assertEqual(items[0].published_at, published)
+
+    def test_parse_tikhub_xiaohongshu_rejects_future_api_time_and_uses_note_id(self):
+        import datetime as _dt
+
+        now = _dt.datetime.fromisoformat("2026-06-22T01:30:00+00:00")
+        note_time = now - _dt.timedelta(hours=1)
+        note_id = f"{int(note_time.timestamp()):x}00000000180190e6"
+        payload = {
+            "data": {
+                "items": [
+                    {
+                        "id": note_id,
+                        "desc": "未来 API 时间应回退 note_id",
+                        "create_time": int((now + _dt.timedelta(minutes=1)).timestamp()),
+                        "user": {"nickname": "未来时间作者"},
+                    }
+                ]
+            }
+        }
+
+        items = parse_tikhub_xiaohongshu_items(payload, now=now, keyword="AI", limit=5)
+
+        self.assertEqual(len(items), 1)
+        self.assertEqual(items[0].published_at, note_time)
+
+    def test_fetch_tikhub_xiaohongshu_enforces_exact_seven_day_boundary(self):
+        import datetime as _dt
+
+        now = _dt.datetime.fromisoformat("2026-06-22T01:30:00+00:00")
+        cutoff = now - _dt.timedelta(days=7)
+        boundary_note_id = f"{int(cutoff.timestamp()):x}00000000180190e6"
+        stale_note_id = f"{int((cutoff - _dt.timedelta(seconds=1)).timestamp()):x}00000000180190e6"
+
+        class FakeResponse:
+            def __init__(self, payload):
+                self.payload = payload
+
+            def raise_for_status(self):
+                return None
+
+            def json(self):
+                return self.payload
+
+        class FakeSession:
+            def get(self, url, **kwargs):
+                if "/web_v3/fetch_search_notes" in url:
+                    return FakeResponse({"data": {"items": []}})
+                return FakeResponse(
+                    {
+                        "data": {
+                            "items": [
+                                {"id": stale_note_id, "desc": "超过七天一秒", "user": {"nickname": "旧帖"}},
+                                {"id": "not-a-timestamp", "desc": "无法确认时间", "user": {"nickname": "未知时间"}},
+                                {"id": boundary_note_id, "desc": "恰好七天", "user": {"nickname": "边界帖"}},
+                            ]
+                        }
+                    }
+                )
+
+        items, diagnostics = fetch_tikhub_search(
+            FakeSession(),
+            api_key="test",
+            query="AI",
+            now=now,
+            max_results=10,
+            platforms=["xiaohongshu"],
+        )
+
+        self.assertEqual([item.meta["post_id"] for item in items], [boundary_note_id])
+        self.assertEqual(items[0].published_at, cutoff)
+        self.assertEqual(diagnostics["skipped_stale_count"], 1)
+        self.assertEqual(diagnostics["skipped_missing_published_at_count"], 1)
+
+    def test_fetch_tikhub_xiaohongshu_drops_old_note_id_when_api_time_missing(self):
+        import datetime as _dt
+
+        now = _dt.datetime.fromisoformat("2026-06-21T16:00:00+00:00")
+        recent_ts = int((now - _dt.timedelta(days=1)).timestamp())
+        recent_note_id = f"{recent_ts:x}00000000180190e6"
+        old_note_id = "67934b0c00000000180190e6"
+        future_ts = int((now + _dt.timedelta(seconds=1)).timestamp())
+        future_note_id = f"{future_ts:x}00000000180190e6"
+
+        class FakeResponse:
+            def __init__(self, payload):
+                self.payload = payload
+
+            def raise_for_status(self):
+                return None
+
+            def json(self):
+                return self.payload
+
+        class FakeSession:
+            def get(self, url, **kwargs):
+                if "/web_v3/fetch_search_notes" in url:
+                    return FakeResponse({"data": {"items": []}})
+                return FakeResponse(
+                    {
+                        "data": {
+                            "items": [
+                                {
+                                    "id": old_note_id,
+                                    "note_card": {
+                                        "display_title": "一月旧 AI 大模型合集",
+                                        "user": {"nickname": "旧帖作者"},
+                                    },
+                                },
+                                {
+                                    "id": future_note_id,
+                                    "note_card": {
+                                        "display_title": "未来时间的 AI 笔记",
+                                        "user": {"nickname": "异常时间作者"},
+                                    },
+                                },
+                                {
+                                    "id": recent_note_id,
+                                    "note_card": {
+                                        "display_title": "今天的 AI Agent 笔记",
+                                        "user": {"nickname": "小红书AI"},
+                                    },
+                                },
+                            ]
+                        }
+                    }
+                )
+
+        items, diagnostics = fetch_tikhub_search(
+            FakeSession(),
+            api_key="test",
+            query="AI",
+            now=now,
+            max_results=1,
+            platforms=["xiaohongshu"],
+        )
+
+        self.assertEqual(len(items), 1)
+        self.assertEqual(items[0].meta["post_id"], recent_note_id)
+        self.assertEqual(items[0].published_at, _dt.datetime.fromtimestamp(recent_ts, tz=timezone.utc))
+        self.assertEqual(diagnostics["skipped_stale_count"], 1)
+        self.assertEqual(diagnostics["skipped_missing_published_at_count"], 1)
 
     def test_fetch_tikhub_search_calls_both_platforms(self):
         class FakeResponse:
@@ -1482,7 +1674,7 @@ class TopicFilterTests(unittest.TestCase):
                             "data": {
                                 "items": [
                                     {
-                                        "id": "xhs-web",
+                                        "id": "69f53e8100000000180190e6",
                                         "note_card": {
                                             "display_title": "Web 端 AI 工具更新",
                                             "user": {"nickname": "小红书Web"},
@@ -1497,7 +1689,7 @@ class TopicFilterTests(unittest.TestCase):
                         "data": {
                             "items": [
                                 {
-                                    "id": "xhs1",
+                                    "id": "69f53e8000000000180190e6",
                                     "note_card": {
                                         "display_title": "大模型工具更新",
                                         "user": {"nickname": "小红书AI"},
@@ -1524,8 +1716,13 @@ class TopicFilterTests(unittest.TestCase):
             "xiaohongshu_web_v3",
         ])
         self.assertEqual([call[0] for call in session.calls], ["POST", "GET", "GET"])
+        self.assertEqual(session.calls[0][2]["json"]["sort_type"], "2")
+        self.assertEqual(session.calls[0][2]["json"]["publish_time"], "7")
         self.assertIn("/api/v1/xiaohongshu/app_v2/search_notes", session.calls[1][1])
+        self.assertEqual(session.calls[1][2]["params"]["sort_type"], "time_descending")
+        self.assertEqual(session.calls[1][2]["params"]["time_filter"], "一周内")
         self.assertIn("/api/v1/xiaohongshu/web_v3/fetch_search_notes", session.calls[2][1])
+        self.assertEqual(session.calls[2][2]["params"]["sort"], "time_descending")
         self.assertEqual(diagnostics["mapped_item_count"], 3)
 
     def test_fetch_tikhub_search_falls_back_to_xiaohongshu_web_v3(self):
@@ -1552,7 +1749,7 @@ class TopicFilterTests(unittest.TestCase):
                         "data": {
                             "items": [
                                 {
-                                    "id": "xhs-web",
+                                    "id": "69f53e8200000000180190e6",
                                     "note_card": {
                                         "display_title": "AI 工作流笔记",
                                         "user": {"nickname": "Web V3 用户"},
@@ -1602,7 +1799,7 @@ class TopicFilterTests(unittest.TestCase):
                         "data": {
                             "items": [
                                 {
-                                    "id": "same-note",
+                                    "id": "69f53e8300000000180190e6",
                                     "note_card": {
                                         "display_title": "同一条 AI 笔记",
                                         "user": {"nickname": "同一作者"},
@@ -1656,7 +1853,7 @@ class TopicFilterTests(unittest.TestCase):
                         "data": {
                             "items": [
                                 {
-                                    "id": "xhs-app",
+                                    "id": "69f53e8400000000180190e6",
                                     "note_card": {
                                         "display_title": "App 端 AI 笔记",
                                         "user": {"nickname": "App 用户"},

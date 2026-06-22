@@ -213,29 +213,29 @@ SOCIALDATA_RECENCY_DAYS = 4
 # Keep only first-party posts; drop retweets and replies (conversational noise).
 SOCIALDATA_LIST_ALLOWED_TYPES = frozenset({"tweet", "quote"})
 TIKHUB_API_BASE_DEFAULT = "https://api.tikhub.io"
-TIKHUB_DEFAULT_QUERY = "AI,人工智能,大模型,OpenAI,Claude,Agent,AI工具"
+TIKHUB_DEFAULT_QUERY = "OpenAI,Claude,大模型,Agent,AI工具,人工智能,AI"
 TIKHUB_DEFAULT_PLATFORMS = "douyin,xiaohongshu"
 TIKHUB_DEFAULT_MAX_RESULTS = 20
 TIKHUB_MAX_QUERY_CHARS = 256
+TIKHUB_RESPONSE_SCAN_LIMIT = 100
 # --- TikHub search ranking / time-window tuning (edit here, no env var needed) ---
 # Exact recency window for TikHub results, in days. Douyin/Xiaohongshu search
-# only expose coarse buckets (不限/一天内/一周内/半年内 — there is no "4 days"),
-# so we ask the API for the nearest covering bucket (一周内) and then enforce the
-# exact window in code by dropping posts older than this many days.
-TIKHUB_RECENCY_DAYS = 4              # keep only posts from the last 4 days
+# only expose coarse buckets (不限/一天内/一周内/半年内), so we ask the API for
+# 一周内 and then enforce the exact current-week window in code.
+TIKHUB_RECENCY_DAYS = 7              # keep only current-week posts
 # Douyin fetch_general_search_v2 enums (standard Douyin search filter):
-#   sort_type:    0=综合, 1=最新, 2=最多点赞(most likes)
-#   publish_time: 0=不限, 1=一天内, 7=一周内, 180=半年内  (no 4-day bucket exists)
-TIKHUB_DOUYIN_SORT_TYPE = "2"        # 最多点赞 / most likes
-TIKHUB_DOUYIN_PUBLISH_TIME = "7"     # 一周内 = nearest bucket; real cap = TIKHUB_RECENCY_DAYS
+#   sort_type:    0=综合, 1=最多点赞(most likes), 2=最新
+#   publish_time: 0=不限, 1=一天内, 7=一周内, 180=半年内
+TIKHUB_DOUYIN_SORT_TYPE = "2"        # 最新 / latest
+TIKHUB_DOUYIN_PUBLISH_TIME = "7"     # 一周内; real cap = TIKHUB_RECENCY_DAYS
 # Xiaohongshu search. app_v2 uses the app's filter labels; sort uses the
 # popularity/time/general tokens (web_v3 already takes "time_descending").
 #   sort:        general(综合) / time_descending(最新) / popularity_descending(最多点赞/最热)
 #   note_type:   "不限"(app_v2, all) ; web_v3 uses 0 for "all"
-#   time_filter: "不限" / "一天内" / "一周内" / "半年内"  (no 4-day bucket exists)
-TIKHUB_XHS_SORT = "popularity_descending"  # 最多点赞 / most likes
+#   time_filter: "不限" / "一天内" / "一周内" / "半年内"
+TIKHUB_XHS_SORT = "time_descending"  # 最新 / latest
 TIKHUB_XHS_NOTE_TYPE = "不限"               # all note types
-TIKHUB_XHS_TIME_FILTER = "一周内"           # 一周内 = nearest bucket; real cap = TIKHUB_RECENCY_DAYS
+TIKHUB_XHS_TIME_FILTER = "一周内"           # 一周内; real cap = TIKHUB_RECENCY_DAYS
 
 
 @dataclass
@@ -3826,6 +3826,28 @@ def parse_tikhub_published_at(record: dict[str, Any], now: datetime, fields: tup
     return None
 
 
+def parse_xiaohongshu_note_id_published_at(note_id: str, now: datetime) -> datetime | None:
+    """Infer Xiaohongshu note creation time from the timestamp prefix in note id."""
+    raw = str(note_id or "").strip()
+    match = re.match(r"^([0-9a-fA-F]{8})", raw)
+    if not match:
+        return None
+    published = parse_unix_timestamp(int(match.group(1), 16))
+    if not published:
+        return None
+    earliest_supported = datetime(2013, 1, 1, tzinfo=UTC)
+    latest_supported = now.astimezone(UTC)
+    if published < earliest_supported or published > latest_supported:
+        return None
+    return published
+
+
+def is_credible_xiaohongshu_published_at(published: datetime | None, now: datetime) -> bool:
+    if not published:
+        return False
+    return datetime(2013, 1, 1, tzinfo=UTC) <= published <= now.astimezone(UTC)
+
+
 def parse_tikhub_douyin_items(payload: dict[str, Any], now: datetime, keyword: str, limit: int) -> list[RawItem]:
     out: list[RawItem] = []
     seen_ids: set[str] = set()
@@ -3965,21 +3987,25 @@ def parse_tikhub_xiaohongshu_items(payload: dict[str, Any], now: datetime, keywo
                 "publish_time",
                 "publishTime",
             ),
-        ) or parse_tikhub_published_at(
-            node,
-            now,
-            (
-                "time",
-                "create_time",
-                "created_at",
-                "last_update_time",
-                "createTime",
-                "createdAt",
-                "lastUpdateTime",
-                "publish_time",
-                "publishTime",
-            ),
-        ) or now
+        )
+        if not is_credible_xiaohongshu_published_at(published, now):
+            published = parse_tikhub_published_at(
+                node,
+                now,
+                (
+                    "time",
+                    "create_time",
+                    "created_at",
+                    "last_update_time",
+                    "createTime",
+                    "createdAt",
+                    "lastUpdateTime",
+                    "publish_time",
+                    "publishTime",
+                ),
+            )
+        if not is_credible_xiaohongshu_published_at(published, now):
+            published = parse_xiaohongshu_note_id_published_at(note_id, now)
         out.append(
             RawItem(
                 site_id="tikhub_xiaohongshu",
@@ -4032,13 +4058,16 @@ def fetch_tikhub_search(
             platform_list.append(platform)
     out: list[RawItem] = []
     per_platform_cap = max(1, (capped_max_results + max(len(platform_list), 1) - 1) // max(len(platform_list), 1))
+    per_keyword_cap = max(1, (per_platform_cap + max(len(keywords), 1) - 1) // max(len(keywords), 1))
     diagnostics: dict[str, Any] = {
         "keywords": keywords,
         "platforms": platform_list,
+        "per_keyword_cap": per_keyword_cap,
         "requests": [],
         "successful_request_count": 0,
         "request_error_count": 0,
         "recency_days": TIKHUB_RECENCY_DAYS,
+        "skipped_missing_published_at_count": 0,
         "skipped_stale_count": 0,
     }
     seen_item_keys: set[str] = set()
@@ -4050,6 +4079,9 @@ def fetch_tikhub_search(
             if appended >= remaining:
                 break
             # Enforce the exact recency window (the API only has coarse buckets).
+            if not item.published_at:
+                diagnostics["skipped_missing_published_at_count"] += 1
+                continue
             if recency_cutoff and item.published_at and item.published_at < recency_cutoff:
                 diagnostics["skipped_stale_count"] += 1
                 continue
@@ -4072,7 +4104,7 @@ def fetch_tikhub_search(
     for platform in platform_list:
         platform_count = 0
         for keyword in keywords:
-            remaining = min(capped_max_results - len(out), per_platform_cap - platform_count)
+            remaining = min(capped_max_results - len(out), per_platform_cap - platform_count, per_keyword_cap)
             if remaining <= 0:
                 break
             if platform == "douyin":
@@ -4101,7 +4133,12 @@ def fetch_tikhub_search(
                     )
                     response.raise_for_status()
                     payload = response.json()
-                    mapped = parse_tikhub_douyin_items(payload, now=now, keyword=keyword, limit=remaining)
+                    mapped = parse_tikhub_douyin_items(
+                        payload,
+                        now=now,
+                        keyword=keyword,
+                        limit=max(remaining, TIKHUB_RESPONSE_SCAN_LIMIT),
+                    )
                     appended = append_mapped_items(mapped, "douyin_general_v2", remaining)
                     platform_count += appended
                     request_info.update(
@@ -4143,10 +4180,10 @@ def fetch_tikhub_search(
                         {"keyword": keyword, "page": 1, "sort": TIKHUB_XHS_SORT, "note_type": 0},
                     ),
                 )
-                per_surface_cap = max(1, (remaining + len(xhs_surfaces) - 1) // len(xhs_surfaces))
+                keyword_count = 0
                 for surface, endpoint, params in xhs_surfaces:
                     surface_remaining = min(
-                        per_surface_cap,
+                        remaining - keyword_count,
                         capped_max_results - len(out),
                         per_platform_cap - platform_count,
                     )
@@ -4162,9 +4199,15 @@ def fetch_tikhub_search(
                         response = session.get(f"{root}{endpoint}", headers=headers, params=params, timeout=30)
                         response.raise_for_status()
                         payload = response.json()
-                        mapped = parse_tikhub_xiaohongshu_items(payload, now=now, keyword=keyword, limit=surface_remaining)
+                        mapped = parse_tikhub_xiaohongshu_items(
+                            payload,
+                            now=now,
+                            keyword=keyword,
+                            limit=max(surface_remaining, TIKHUB_RESPONSE_SCAN_LIMIT),
+                        )
                         appended = append_mapped_items(mapped, surface, surface_remaining)
                         platform_count += appended
+                        keyword_count += appended
                         request_info.update(
                             {
                                 "mapped_item_count": len(mapped),
@@ -4173,8 +4216,12 @@ def fetch_tikhub_search(
                                 "payload_shape": tikhub_payload_shape(payload),
                             }
                         )
-                        if surface == "xiaohongshu_app_v2" and not mapped:
-                            request_info["fallback_reason"] = "no_items_mapped_try_web_v3"
+                        if surface == "xiaohongshu_app_v2" and keyword_count < remaining:
+                            request_info["fallback_reason"] = (
+                                "no_items_mapped_try_web_v3"
+                                if not mapped
+                                else "insufficient_recent_items_try_web_v3"
+                            )
                         diagnostics["successful_request_count"] += 1
                     except Exception as exc:
                         diagnostics["request_error_count"] += 1

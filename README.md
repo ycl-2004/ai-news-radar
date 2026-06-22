@@ -262,11 +262,11 @@ python scripts/update_news.py --output-dir data --window-hours 24 --rss-opml fee
 export TIKHUB_ENABLED=1
 export TIKHUB_API_KEY='你的 TikHub API Key'
 export TIKHUB_FORCE_RUN=1
-export TIKHUB_QUERY='AI,大模型,Agent'
+export TIKHUB_QUERY='OpenAI,Claude,大模型,Agent,AI工具,人工智能,AI'
 export TIKHUB_PLATFORMS=douyin,xiaohongshu
 export TIKHUB_MAX_RESULTS=10
 export TIKHUB_DAILY_ITEM_LIMIT=10
-python3 scripts/probe_tikhub.py --query 'AI,大模型,Agent' --platforms douyin,xiaohongshu --max-results 10
+python3 scripts/probe_tikhub.py --query 'OpenAI,Claude,大模型,Agent,AI工具,人工智能,AI' --platforms douyin,xiaohongshu --max-results 10
 python3 scripts/update_news.py --output-dir /tmp/ai-news-radar-tikhub --window-hours 24 --archive-days 3
 python3 - <<'PY'
 import json
@@ -281,6 +281,45 @@ counts = Counter(i.get("site_id") for i in latest.get("items_all_raw", []))
 print("tikhub_24h_counts =", {k: counts[k] for k in sorted(counts) if str(k).startswith("tikhub")})
 PY
 ```
+
+小红书按“先搜索、后详情”处理。搜索阶段使用 App V2 的最新排序和
+7 天筛选，并再次在本地校验发布时间：可信 API 时间优先；`0`、未来时间
+或缺失时间会回退到 note id 的时间前缀；仍无法确认或早于 7 天的笔记会被
+跳过。通过时间门禁后，如需补齐图文详情，可按需调用官方详情接口：
+
+```python
+import os
+import requests
+
+headers = {"Authorization": f"Bearer {os.environ['TIKHUB_API_KEY']}"}
+
+search = requests.get(
+    "https://api.tikhub.io/api/v1/xiaohongshu/app_v2/search_notes",
+    headers=headers,
+    params={
+        "keyword": "AI",
+        "page": 1,
+        "sort_type": "time_descending",
+        "note_type": "不限",
+        "time_filter": "一周内",
+    },
+    timeout=30,
+)
+search.raise_for_status()
+
+# Only request details after the search result passes the local 7-day time gate.
+detail = requests.get(
+    "https://api.tikhub.io/api/v1/xiaohongshu/app_v2/get_image_note_detail",
+    headers=headers,
+    params={"note_id": "通过时间校验的 note_id"},
+    timeout=30,
+)
+detail.raise_for_status()
+print(detail.json())
+```
+
+视频笔记使用 `get_video_note_detail`。详情接口用于补充作者、互动量、图片、
+标签等结构化字段，不替代搜索阶段的发布时间判断。
 
 X API演示配置见 `docs/guides/x-api-demo-config.md`；
 
