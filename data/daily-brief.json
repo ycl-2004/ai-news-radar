@@ -1,8 +1,90 @@
 {
-  "generated_at": "2026-06-23T11:36:58.965698Z",
+  "generated_at": "2026-06-23T14:31:56.202150Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
+    {
+      "story_id": "story_f0c4ab467506",
+      "title": "IBM 开源 CUGA：轻量级智能体框架，提供二十余个单文件示例应用 / Build real agentic apps using CUGA: two dozen working examples on a lightweight harness",
+      "url": "https://huggingface.co/blog/ibm-research/cuga-apps",
+      "primary_url": "https://huggingface.co/blog/ibm-research/cuga-apps",
+      "source": "Hugging Face Blog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "208b0a82425c19fc58181ebbc930008e5c9f0528",
+          "title": "IBM 开源 CUGA：轻量级智能体框架，提供二十余个单文件示例应用 / Build real agentic apps using CUGA: two dozen working examples on a lightweight harness",
+          "url": "https://huggingface.co/blog/ibm-research/cuga-apps",
+          "source": "Hugging Face Blog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-23T12:51:55Z"
+        },
+        {
+          "id": "d6e860374df0b52a99a706e63a41777df75dabed",
+          "title": "IBM 开源 CUGA：轻量级智能体框架，提供二十余个单文件示例应用",
+          "url": "https://huggingface.co/blog/ibm-research/cuga-apps",
+          "source": "Hugging Face：Blog（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-23T12:51:55Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hugging Face Blog",
+        "Hugging Face：Blog（RSS）"
+      ],
+      "items": [
+        {
+          "id": "208b0a82425c19fc58181ebbc930008e5c9f0528",
+          "title": "IBM 开源 CUGA：轻量级智能体框架，提供二十余个单文件示例应用 / Build real agentic apps using CUGA: two dozen working examples on a lightweight harness",
+          "url": "https://huggingface.co/blog/ibm-research/cuga-apps",
+          "source": "Hugging Face Blog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-23T12:51:55Z"
+        },
+        {
+          "id": "d6e860374df0b52a99a706e63a41777df75dabed",
+          "title": "IBM 开源 CUGA：轻量级智能体框架，提供二十余个单文件示例应用",
+          "url": "https://huggingface.co/blog/ibm-research/cuga-apps",
+          "source": "Hugging Face：Blog（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-23T12:51:55Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.8807,
+      "importance": 0.8807,
+      "importance_score": 0.8807,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.95,
+        "recency": 0.9762,
+        "story_heat": 0.25
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-23T12:51:55Z",
+      "latest_at": "2026-06-23T12:51:55Z",
+      "primary_item": {
+        "id": "208b0a82425c19fc58181ebbc930008e5c9f0528",
+        "title": "IBM 开源 CUGA：轻量级智能体框架，提供二十余个单文件示例应用 / Build real agentic apps using CUGA: two dozen working examples on a lightweight harness",
+        "url": "https://huggingface.co/blog/ibm-research/cuga-apps",
+        "source": "Hugging Face Blog",
+        "source_name": "Official AI Updates"
+      }
+    },
     {
       "story_id": "story_49c160394cb9",
       "title": "huggingface_hub 实现每周发布：AI、开源工具、人工审核闭环 / Shipping huggingface_hub every week with AI, open tools, and a human in the loop",
@@ -57,15 +139,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8572,
-      "importance": 0.8572,
-      "importance_score": 0.8572,
+      "score": 0.8509,
+      "importance": 0.8509,
+      "importance_score": 0.8509,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.8456,
+        "recency": 0.8107,
         "story_heat": 0.25
       },
       "category": "official",
@@ -120,15 +202,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8068,
-      "importance": 0.8068,
-      "importance_score": 0.8068,
+      "score": 0.8012,
+      "importance": 0.8012,
+      "importance_score": 0.8012,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.7486,
+        "recency": 0.7177,
         "story_heat": 0.0
       },
       "category": "official",
@@ -145,6 +227,87 @@
         "url": "https://github.blog/changelog/2026-06-22-new-features-and-claude-as-agent-provider-preview-in-jetbrains-ides",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_c67823bff2e2",
+      "title": "无限制OCR：单次长时域解析",
+      "url": "https://github.com/baidu/Unlimited-OCR",
+      "primary_url": "https://github.com/baidu/Unlimited-OCR",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "b937d81a41d706fedd134d3d93a2abb797f7980e",
+          "title": "无限制OCR：单次长时域解析",
+          "url": "https://github.com/baidu/Unlimited-OCR",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-23T13:32:22.612000Z"
+        },
+        {
+          "id": "cdf900d98f754bec2199c9a668779b586b3e159f",
+          "title": "无限制OCR：单次长时域解析 / Unlimited OCR: One-Shot Long-Horizon Parsing",
+          "url": "https://github.com/baidu/Unlimited-OCR",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-23T11:35:05Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News · 24h最热",
+        "Hacker News 热门（buzzing.cc 中文翻译）"
+      ],
+      "items": [
+        {
+          "id": "b937d81a41d706fedd134d3d93a2abb797f7980e",
+          "title": "无限制OCR：单次长时域解析",
+          "url": "https://github.com/baidu/Unlimited-OCR",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-23T13:32:22.612000Z"
+        },
+        {
+          "id": "cdf900d98f754bec2199c9a668779b586b3e159f",
+          "title": "无限制OCR：单次长时域解析 / Unlimited OCR: One-Shot Long-Horizon Parsing",
+          "url": "https://github.com/baidu/Unlimited-OCR",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-23T11:35:05Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.784,
+      "importance": 0.784,
+      "importance_score": 0.784,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.7,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9858,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-23T11:35:05Z",
+      "latest_at": "2026-06-23T13:32:22.612000Z",
+      "primary_item": {
+        "id": "b937d81a41d706fedd134d3d93a2abb797f7980e",
+        "title": "无限制OCR：单次长时域解析",
+        "url": "https://github.com/baidu/Unlimited-OCR",
+        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "source_name": "AI HOT"
       }
     },
     {
@@ -201,15 +364,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.791,
-      "importance": 0.791,
-      "importance_score": 0.791,
+      "score": 0.7836,
+      "importance": 0.7836,
+      "importance_score": 0.7836,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9911,
+        "recency": 0.9503,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -229,7 +392,7 @@
       }
     },
     {
-      "story_id": "story_0554fcf0d66a",
+      "story_id": "story_ef1b74f661b0",
       "title": "火山引擎发布豆包2.1Pro:日常功能确认免费，将推专业版办公模式",
       "url": "https://www.aibase.com/news/29095",
       "primary_url": "https://www.aibase.com/news/29095",
@@ -282,15 +445,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7845,
-      "importance": 0.7845,
-      "importance_score": 0.7845,
+      "score": 0.7774,
+      "importance": 0.7774,
+      "importance_score": 0.7774,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9548,
+        "recency": 0.9154,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -307,87 +470,6 @@
         "url": "https://www.aibase.com/news/29095",
         "source": "AIbase",
         "source_name": "AIbase"
-      }
-    },
-    {
-      "story_id": "story_6b0918e46f53",
-      "title": "美国警长利用Flock车牌系统跟踪前女友案频发，Flock法务官承认\"最常见滥用\"",
-      "url": "https://ipvm.com/reports/police-chiefs-track",
-      "primary_url": "https://ipvm.com/reports/police-chiefs-track",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "8864c671b9c920cfaf71bd79239d682b6fbb7e7b",
-          "title": "美国警长利用Flock车牌系统跟踪前女友案频发，Flock法务官承认\"最常见滥用\"",
-          "url": "https://ipvm.com/reports/police-chiefs-track",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-22T21:32:12.384000Z"
-        },
-        {
-          "id": "6ac6db84fec5c7ca9a200c7df1470fa24e12c27e",
-          "title": "美国警长利用Flock车牌系统跟踪前女友案频发，Flock法务官承认\"最常见滥用\" / Flock-Powered Police Chiefs Stalking Women Shows Why Warrants Are Needed",
-          "url": "https://ipvm.com/reports/police-chiefs-track",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-22T19:13:46Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News · 24h最热",
-        "Hacker News 热门（buzzing.cc 中文翻译）"
-      ],
-      "items": [
-        {
-          "id": "8864c671b9c920cfaf71bd79239d682b6fbb7e7b",
-          "title": "美国警长利用Flock车牌系统跟踪前女友案频发，Flock法务官承认\"最常见滥用\"",
-          "url": "https://ipvm.com/reports/police-chiefs-track",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-22T21:32:12.384000Z"
-        },
-        {
-          "id": "6ac6db84fec5c7ca9a200c7df1470fa24e12c27e",
-          "title": "美国警长利用Flock车牌系统跟踪前女友案频发，Flock法务官承认\"最常见滥用\" / Flock-Powered Police Chiefs Stalking Women Shows Why Warrants Are Needed",
-          "url": "https://ipvm.com/reports/police-chiefs-track",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-22T19:13:46Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7835,
-      "importance": 0.7835,
-      "importance_score": 0.7835,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.8,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.816,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-22T19:13:46Z",
-      "latest_at": "2026-06-22T21:32:12.384000Z",
-      "primary_item": {
-        "id": "8864c671b9c920cfaf71bd79239d682b6fbb7e7b",
-        "title": "美国警长利用Flock车牌系统跟踪前女友案频发，Flock法务官承认\"最常见滥用\"",
-        "url": "https://ipvm.com/reports/police-chiefs-track",
-        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-        "source_name": "AI HOT"
       }
     },
     {
@@ -425,15 +507,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7644,
-      "importance": 0.7644,
-      "importance_score": 0.7644,
+      "score": 0.7574,
+      "importance": 0.7574,
+      "importance_score": 0.7574,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.74,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9491,
+        "recency": 0.91,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -452,49 +534,49 @@
       }
     },
     {
-      "story_id": "story_0d66a29397f1",
-      "title": "火山引擎FORCE大会发布Doubao-Seed-2.1系列及新功能",
-      "url": "https://mp.weixin.qq.com/s/p10dn6zpSR4D5u9BOF9FeQ",
-      "primary_url": "https://mp.weixin.qq.com/s/p10dn6zpSR4D5u9BOF9FeQ",
-      "source": "公众号：数字生命卡兹克",
+      "story_id": "story_5cf9082081aa",
+      "title": "米斯特拉尔 OCR 4 / Mistral OCR 4",
+      "url": "https://mistral.ai/news/ocr-4",
+      "primary_url": "https://mistral.ai/news/ocr-4",
+      "source": "Mistral AI：News（网页）",
       "source_name": "AI HOT",
       "sources": [
         {
-          "id": "a140cca805bde6302d5db84f0f61c0309b78ed17",
-          "title": "火山引擎FORCE大会发布Doubao-Seed-2.1系列及新功能",
-          "url": "https://mp.weixin.qq.com/s/p10dn6zpSR4D5u9BOF9FeQ",
-          "source": "公众号：数字生命卡兹克",
+          "id": "96d76206830e16ff918f7b7f68ec710174c8f404",
+          "title": "米斯特拉尔 OCR 4 / Mistral OCR 4",
+          "url": "https://mistral.ai/news/ocr-4",
+          "source": "Mistral AI：News（网页）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-06-23T04:14:39Z"
+          "published_at": "2026-06-23T14:24:55.949000Z"
         }
       ],
       "source_count": 1,
       "source_names": [
-        "公众号：数字生命卡兹克"
+        "Mistral AI：News（网页）"
       ],
       "items": [
         {
-          "id": "a140cca805bde6302d5db84f0f61c0309b78ed17",
-          "title": "火山引擎FORCE大会发布Doubao-Seed-2.1系列及新功能",
-          "url": "https://mp.weixin.qq.com/s/p10dn6zpSR4D5u9BOF9FeQ",
-          "source": "公众号：数字生命卡兹克",
+          "id": "96d76206830e16ff918f7b7f68ec710174c8f404",
+          "title": "米斯特拉尔 OCR 4 / Mistral OCR 4",
+          "url": "https://mistral.ai/news/ocr-4",
+          "source": "Mistral AI：News（网页）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-06-23T04:14:39Z"
+          "published_at": "2026-06-23T14:24:55.949000Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7584,
-      "importance": 0.7584,
-      "importance_score": 0.7584,
+      "score": 0.7553,
+      "importance": 0.7553,
+      "importance_score": 0.7553,
       "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.75,
+        "editorial": 0.68,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.899,
+        "recency": 0.9983,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -502,13 +584,13 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-06-23T04:14:39Z",
-      "latest_at": "2026-06-23T04:14:39Z",
+      "earliest_at": "2026-06-23T14:24:55.949000Z",
+      "latest_at": "2026-06-23T14:24:55.949000Z",
       "primary_item": {
-        "id": "a140cca805bde6302d5db84f0f61c0309b78ed17",
-        "title": "火山引擎FORCE大会发布Doubao-Seed-2.1系列及新功能",
-        "url": "https://mp.weixin.qq.com/s/p10dn6zpSR4D5u9BOF9FeQ",
-        "source": "公众号：数字生命卡兹克",
+        "id": "96d76206830e16ff918f7b7f68ec710174c8f404",
+        "title": "米斯特拉尔 OCR 4 / Mistral OCR 4",
+        "url": "https://mistral.ai/news/ocr-4",
+        "source": "Mistral AI：News（网页）",
         "source_name": "AI HOT"
       }
     },
@@ -566,15 +648,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7576,
-      "importance": 0.7576,
-      "importance_score": 0.7576,
+      "score": 0.752,
+      "importance": 0.752,
+      "importance_score": 0.752,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7554,
+        "recency": 0.7243,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -590,6 +672,67 @@
         "title": "东京 AI 公司 Sakana AI 推出多智能体编排系统 Sakana Fugu",
         "url": "https://x.com/berryxia/status/2069090959938466298",
         "source": "X：Berry Xia (@berryxia)",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_0d66a29397f1",
+      "title": "火山引擎FORCE大会发布Doubao-Seed-2.1系列及新功能",
+      "url": "https://mp.weixin.qq.com/s/p10dn6zpSR4D5u9BOF9FeQ",
+      "primary_url": "https://mp.weixin.qq.com/s/p10dn6zpSR4D5u9BOF9FeQ",
+      "source": "公众号：数字生命卡兹克",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "a140cca805bde6302d5db84f0f61c0309b78ed17",
+          "title": "火山引擎FORCE大会发布Doubao-Seed-2.1系列及新功能",
+          "url": "https://mp.weixin.qq.com/s/p10dn6zpSR4D5u9BOF9FeQ",
+          "source": "公众号：数字生命卡兹克",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-23T04:14:39Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "公众号：数字生命卡兹克"
+      ],
+      "items": [
+        {
+          "id": "a140cca805bde6302d5db84f0f61c0309b78ed17",
+          "title": "火山引擎FORCE大会发布Doubao-Seed-2.1系列及新功能",
+          "url": "https://mp.weixin.qq.com/s/p10dn6zpSR4D5u9BOF9FeQ",
+          "source": "公众号：数字生命卡兹克",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-23T04:14:39Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7517,
+      "importance": 0.7517,
+      "importance_score": 0.7517,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.75,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8619,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-23T04:14:39Z",
+      "latest_at": "2026-06-23T04:14:39Z",
+      "primary_item": {
+        "id": "a140cca805bde6302d5db84f0f61c0309b78ed17",
+        "title": "火山引擎FORCE大会发布Doubao-Seed-2.1系列及新功能",
+        "url": "https://mp.weixin.qq.com/s/p10dn6zpSR4D5u9BOF9FeQ",
+        "source": "公众号：数字生命卡兹克",
         "source_name": "AI HOT"
       }
     },
@@ -628,21 +771,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7568,
-      "importance": 0.7568,
-      "importance_score": 0.7568,
+      "score": 0.7499,
+      "importance": 0.7499,
+      "importance_score": 0.7499,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.73,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9232,
+        "recency": 0.8851,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-06-23T06:04:50Z",
       "latest_at": "2026-06-23T06:04:50Z",
@@ -651,6 +793,409 @@
         "title": "京东全栈开源JoyAI-VL-Interaction，从\"一问一答\"走向\"边看边说\"",
         "url": "https://mp.weixin.qq.com/s/IY6XGp4k6VgD9ZPH6YprCA",
         "source": "公众号：京东JoyAI",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_6b0918e46f53",
+      "title": "美国警长利用Flock车牌系统跟踪前女友案频发，Flock法务官承认\"最常见滥用\"",
+      "url": "https://ipvm.com/reports/police-chiefs-track",
+      "primary_url": "https://ipvm.com/reports/police-chiefs-track",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "8864c671b9c920cfaf71bd79239d682b6fbb7e7b",
+          "title": "美国警长利用Flock车牌系统跟踪前女友案频发，Flock法务官承认\"最常见滥用\"",
+          "url": "https://ipvm.com/reports/police-chiefs-track",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-22T21:32:12.384000Z"
+        },
+        {
+          "id": "6ac6db84fec5c7ca9a200c7df1470fa24e12c27e",
+          "title": "由“群情”驱使的警察局长们尾随女性，这说明了为何需要搜查令 / Flock-Powered Police Chiefs Stalking Women Shows Why Warrants Are Needed",
+          "url": "https://ipvm.com/reports/police-chiefs-track",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-22T19:13:46Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News · 24h最热",
+        "Hacker News 热门（buzzing.cc 中文翻译）"
+      ],
+      "items": [
+        {
+          "id": "8864c671b9c920cfaf71bd79239d682b6fbb7e7b",
+          "title": "美国警长利用Flock车牌系统跟踪前女友案频发，Flock法务官承认\"最常见滥用\"",
+          "url": "https://ipvm.com/reports/police-chiefs-track",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-22T21:32:12.384000Z"
+        },
+        {
+          "id": "6ac6db84fec5c7ca9a200c7df1470fa24e12c27e",
+          "title": "由“群情”驱使的警察局长们尾随女性，这说明了为何需要搜查令 / Flock-Powered Police Chiefs Stalking Women Shows Why Warrants Are Needed",
+          "url": "https://ipvm.com/reports/police-chiefs-track",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-22T19:13:46Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7774,
+      "importance": 0.7774,
+      "importance_score": 0.7774,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.8,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7824,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-22T19:13:46Z",
+      "latest_at": "2026-06-22T21:32:12.384000Z",
+      "primary_item": {
+        "id": "8864c671b9c920cfaf71bd79239d682b6fbb7e7b",
+        "title": "美国警长利用Flock车牌系统跟踪前女友案频发，Flock法务官承认\"最常见滥用\"",
+        "url": "https://ipvm.com/reports/police-chiefs-track",
+        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_e8195798ed58",
+      "title": "豆包音频生成模型1.0发布，重新定义AI音频创作",
+      "url": "https://mp.weixin.qq.com/s/iL0uyUjOMUEfudeuDP6wQQ",
+      "primary_url": "https://mp.weixin.qq.com/s/iL0uyUjOMUEfudeuDP6wQQ",
+      "source": "公众号：火山引擎",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "f00f4e872f2ef1bde56564d48a2e8b63d0c01320",
+          "title": "豆包音频生成模型1.0发布，重新定义AI音频创作",
+          "url": "https://mp.weixin.qq.com/s/iL0uyUjOMUEfudeuDP6wQQ",
+          "source": "公众号：火山引擎",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-23T05:41:11Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "公众号：火山引擎"
+      ],
+      "items": [
+        {
+          "id": "f00f4e872f2ef1bde56564d48a2e8b63d0c01320",
+          "title": "豆包音频生成模型1.0发布，重新定义AI音频创作",
+          "url": "https://mp.weixin.qq.com/s/iL0uyUjOMUEfudeuDP6wQQ",
+          "source": "公众号：火山引擎",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-23T05:41:11Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.743,
+      "importance": 0.743,
+      "importance_score": 0.743,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.71,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8801,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-06-23T05:41:11Z",
+      "latest_at": "2026-06-23T05:41:11Z",
+      "primary_item": {
+        "id": "f00f4e872f2ef1bde56564d48a2e8b63d0c01320",
+        "title": "豆包音频生成模型1.0发布，重新定义AI音频创作",
+        "url": "https://mp.weixin.qq.com/s/iL0uyUjOMUEfudeuDP6wQQ",
+        "source": "公众号：火山引擎",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_d025874d1925",
+      "title": "Google DeepMind 7500 万美元投资 A24，合作开发电影 AI 工具",
+      "url": "https://techcrunch.com/2026/06/22/google-deepmind-bets-75m-on-ais-future-in-hollywood-with-a24-deal",
+      "primary_url": "https://techcrunch.com/2026/06/22/google-deepmind-bets-75m-on-ais-future-in-hollywood-with-a24-deal",
+      "source": "TechCrunch：AI（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "a9ed00eddc3f0802d26e85705dbe7ef17ff2b342",
+          "title": "Google DeepMind 7500 万美元投资 A24，合作开发电影 AI 工具",
+          "url": "https://techcrunch.com/2026/06/22/google-deepmind-bets-75m-on-ais-future-in-hollywood-with-a24-deal",
+          "source": "TechCrunch：AI（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-22T18:49:44Z"
+        },
+        {
+          "id": "9c13f9c410e1c92d103835b4d1629a33c9a74b0f",
+          "title": "Google DeepMind 7500 万美元投资 A24，合作开发电影 AI 工具 / Google DeepMind bets $75M on AI’s future in Hollywood with A24 deal",
+          "url": "https://techcrunch.com/2026/06/22/google-deepmind-bets-75m-on-ais-future-in-hollywood-with-a24-deal",
+          "source": "TechCrunch AI",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-06-22T18:49:44Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "TechCrunch AI",
+        "TechCrunch：AI（RSS）"
+      ],
+      "items": [
+        {
+          "id": "a9ed00eddc3f0802d26e85705dbe7ef17ff2b342",
+          "title": "Google DeepMind 7500 万美元投资 A24，合作开发电影 AI 工具",
+          "url": "https://techcrunch.com/2026/06/22/google-deepmind-bets-75m-on-ais-future-in-hollywood-with-a24-deal",
+          "source": "TechCrunch：AI（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-22T18:49:44Z"
+        },
+        {
+          "id": "9c13f9c410e1c92d103835b4d1629a33c9a74b0f",
+          "title": "Google DeepMind 7500 万美元投资 A24，合作开发电影 AI 工具 / Google DeepMind bets $75M on AI’s future in Hollywood with A24 deal",
+          "url": "https://techcrunch.com/2026/06/22/google-deepmind-bets-75m-on-ais-future-in-hollywood-with-a24-deal",
+          "source": "TechCrunch AI",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-06-22T18:49:44Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.742,
+      "importance": 0.742,
+      "importance_score": 0.742,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.7,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7524,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-06-22T18:49:44Z",
+      "latest_at": "2026-06-22T18:49:44Z",
+      "primary_item": {
+        "id": "a9ed00eddc3f0802d26e85705dbe7ef17ff2b342",
+        "title": "Google DeepMind 7500 万美元投资 A24，合作开发电影 AI 工具",
+        "url": "https://techcrunch.com/2026/06/22/google-deepmind-bets-75m-on-ais-future-in-hollywood-with-a24-deal",
+        "source": "TechCrunch：AI（RSS）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_334bc590ee97",
+      "title": "企业微信\"大圆\"内测上线：左滑一下，AI就能帮你盘客户、写总结",
+      "url": "https://www.aibase.com/news/29101",
+      "primary_url": "https://www.aibase.com/news/29101",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "691404fd660f911479f6dc591e7b521502157c64",
+          "title": "企业微信\"大圆\"内测上线：左滑一下，AI就能帮你盘客户、写总结",
+          "url": "https://www.aibase.com/news/29101",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-23T11:36:58.965698Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "691404fd660f911479f6dc591e7b521502157c64",
+          "title": "企业微信\"大圆\"内测上线：左滑一下，AI就能帮你盘客户、写总结",
+          "url": "https://www.aibase.com/news/29101",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-23T11:36:58.965698Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7602,
+      "importance": 0.7602,
+      "importance_score": 0.7602,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9588,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-23T11:36:58.965698Z",
+      "latest_at": "2026-06-23T11:36:58.965698Z",
+      "primary_item": {
+        "id": "691404fd660f911479f6dc591e7b521502157c64",
+        "title": "企业微信\"大圆\"内测上线：左滑一下，AI就能帮你盘客户、写总结",
+        "url": "https://www.aibase.com/news/29101",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_005182103894",
+      "title": "开辟新赛道：小米 YU7 GT 创全球首个纽北自动驾驶圈速纪录，官方圈速榜新增\"自动驾驶\"分类",
+      "url": "https://www.ithome.com/0/967/234.htm",
+      "primary_url": "https://www.ithome.com/0/967/234.htm",
+      "source": "IT之家（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "aee943e14703df485360cef3a21badbba7a11674",
+          "title": "开辟新赛道：小米 YU7 GT 创全球首个纽北自动驾驶圈速纪录，官方圈速榜新增\"自动驾驶\"分类",
+          "url": "https://www.ithome.com/0/967/234.htm",
+          "source": "IT之家（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-22T15:13:29Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "IT之家（RSS）"
+      ],
+      "items": [
+        {
+          "id": "aee943e14703df485360cef3a21badbba7a11674",
+          "title": "开辟新赛道：小米 YU7 GT 创全球首个纽北自动驾驶圈速纪录，官方圈速榜新增\"自动驾驶\"分类",
+          "url": "https://www.ithome.com/0/967/234.htm",
+          "source": "IT之家（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-22T15:13:29Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7552,
+      "importance": 0.7552,
+      "importance_score": 0.7552,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.85,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7142,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-22T15:13:29Z",
+      "latest_at": "2026-06-22T15:13:29Z",
+      "primary_item": {
+        "id": "aee943e14703df485360cef3a21badbba7a11674",
+        "title": "开辟新赛道：小米 YU7 GT 创全球首个纽北自动驾驶圈速纪录，官方圈速榜新增\"自动驾驶\"分类",
+        "url": "https://www.ithome.com/0/967/234.htm",
+        "source": "IT之家（RSS）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_fd6023b459ff",
+      "title": "国内首个高考志愿AI测评出炉，千问多项表现超过资深咨询师",
+      "url": "https://mp.weixin.qq.com/s/oGHVP4MgGS1rbmT8s8St8Q",
+      "primary_url": "https://mp.weixin.qq.com/s/oGHVP4MgGS1rbmT8s8St8Q",
+      "source": "公众号：千问APP（阿里）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "4e79a91effd35e18ee4b9a4112ce81b705c779e3",
+          "title": "国内首个高考志愿AI测评出炉，千问多项表现超过资深咨询师",
+          "url": "https://mp.weixin.qq.com/s/oGHVP4MgGS1rbmT8s8St8Q",
+          "source": "公众号：千问APP（阿里）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-23T10:54:49Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "公众号：千问APP（阿里）"
+      ],
+      "items": [
+        {
+          "id": "4e79a91effd35e18ee4b9a4112ce81b705c779e3",
+          "title": "国内首个高考志愿AI测评出炉，千问多项表现超过资深咨询师",
+          "url": "https://mp.weixin.qq.com/s/oGHVP4MgGS1rbmT8s8St8Q",
+          "source": "公众号：千问APP（阿里）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-23T10:54:49Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7224,
+      "importance": 0.7224,
+      "importance_score": 0.7224,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.6,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9491,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-06-23T10:54:49Z",
+      "latest_at": "2026-06-23T10:54:49Z",
+      "primary_item": {
+        "id": "4e79a91effd35e18ee4b9a4112ce81b705c779e3",
+        "title": "国内首个高考志愿AI测评出炉，千问多项表现超过资深咨询师",
+        "url": "https://mp.weixin.qq.com/s/oGHVP4MgGS1rbmT8s8St8Q",
+        "source": "公众号：千问APP（阿里）",
         "source_name": "AI HOT"
       }
     },
@@ -727,15 +1272,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.7834,
-      "importance": 0.7834,
-      "importance_score": 0.7834,
+      "score": 0.7773,
+      "importance": 0.7773,
+      "importance_score": 0.7773,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8098,
+        "recency": 0.7764,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -751,468 +1296,6 @@
         "title": "Show HN：Oak--专为代理设计的 Git 替代方案",
         "url": "https://oak.space/oak/oak",
         "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_e8195798ed58",
-      "title": "豆包音频生成模型1.0发布，重新定义AI音频创作",
-      "url": "https://mp.weixin.qq.com/s/iL0uyUjOMUEfudeuDP6wQQ",
-      "primary_url": "https://mp.weixin.qq.com/s/iL0uyUjOMUEfudeuDP6wQQ",
-      "source": "公众号：火山引擎",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "f00f4e872f2ef1bde56564d48a2e8b63d0c01320",
-          "title": "豆包音频生成模型1.0发布，重新定义AI音频创作",
-          "url": "https://mp.weixin.qq.com/s/iL0uyUjOMUEfudeuDP6wQQ",
-          "source": "公众号：火山引擎",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-23T05:41:11Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "公众号：火山引擎"
-      ],
-      "items": [
-        {
-          "id": "f00f4e872f2ef1bde56564d48a2e8b63d0c01320",
-          "title": "豆包音频生成模型1.0发布，重新定义AI音频创作",
-          "url": "https://mp.weixin.qq.com/s/iL0uyUjOMUEfudeuDP6wQQ",
-          "source": "公众号：火山引擎",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-23T05:41:11Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7498,
-      "importance": 0.7498,
-      "importance_score": 0.7498,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.71,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9179,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-23T05:41:11Z",
-      "latest_at": "2026-06-23T05:41:11Z",
-      "primary_item": {
-        "id": "f00f4e872f2ef1bde56564d48a2e8b63d0c01320",
-        "title": "豆包音频生成模型1.0发布，重新定义AI音频创作",
-        "url": "https://mp.weixin.qq.com/s/iL0uyUjOMUEfudeuDP6wQQ",
-        "source": "公众号：火山引擎",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_d025874d1925",
-      "title": "Google DeepMind 7500 万美元投资 A24，合作开发电影 AI 工具",
-      "url": "https://techcrunch.com/2026/06/22/google-deepmind-bets-75m-on-ais-future-in-hollywood-with-a24-deal",
-      "primary_url": "https://techcrunch.com/2026/06/22/google-deepmind-bets-75m-on-ais-future-in-hollywood-with-a24-deal",
-      "source": "TechCrunch：AI（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "a9ed00eddc3f0802d26e85705dbe7ef17ff2b342",
-          "title": "Google DeepMind 7500 万美元投资 A24，合作开发电影 AI 工具",
-          "url": "https://techcrunch.com/2026/06/22/google-deepmind-bets-75m-on-ais-future-in-hollywood-with-a24-deal",
-          "source": "TechCrunch：AI（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-22T18:49:44Z"
-        },
-        {
-          "id": "9c13f9c410e1c92d103835b4d1629a33c9a74b0f",
-          "title": "Google DeepMind 7500 万美元投资 A24，合作开发电影 AI 工具 / Google DeepMind bets $75M on AI’s future in Hollywood with A24 deal",
-          "url": "https://techcrunch.com/2026/06/22/google-deepmind-bets-75m-on-ais-future-in-hollywood-with-a24-deal",
-          "source": "TechCrunch AI",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-06-22T18:49:44Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "TechCrunch AI",
-        "TechCrunch：AI（RSS）"
-      ],
-      "items": [
-        {
-          "id": "a9ed00eddc3f0802d26e85705dbe7ef17ff2b342",
-          "title": "Google DeepMind 7500 万美元投资 A24，合作开发电影 AI 工具",
-          "url": "https://techcrunch.com/2026/06/22/google-deepmind-bets-75m-on-ais-future-in-hollywood-with-a24-deal",
-          "source": "TechCrunch：AI（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-22T18:49:44Z"
-        },
-        {
-          "id": "9c13f9c410e1c92d103835b4d1629a33c9a74b0f",
-          "title": "Google DeepMind 7500 万美元投资 A24，合作开发电影 AI 工具 / Google DeepMind bets $75M on AI’s future in Hollywood with A24 deal",
-          "url": "https://techcrunch.com/2026/06/22/google-deepmind-bets-75m-on-ais-future-in-hollywood-with-a24-deal",
-          "source": "TechCrunch AI",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-06-22T18:49:44Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7479,
-      "importance": 0.7479,
-      "importance_score": 0.7479,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.7,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7847,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-22T18:49:44Z",
-      "latest_at": "2026-06-22T18:49:44Z",
-      "primary_item": {
-        "id": "a9ed00eddc3f0802d26e85705dbe7ef17ff2b342",
-        "title": "Google DeepMind 7500 万美元投资 A24，合作开发电影 AI 工具",
-        "url": "https://techcrunch.com/2026/06/22/google-deepmind-bets-75m-on-ais-future-in-hollywood-with-a24-deal",
-        "source": "TechCrunch：AI（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_334bc590ee97",
-      "title": "企业微信\"大圆\"内测上线：左滑一下，AI就能帮你盘客户、写总结",
-      "url": "https://www.aibase.com/news/29101",
-      "primary_url": "https://www.aibase.com/news/29101",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "691404fd660f911479f6dc591e7b521502157c64",
-          "title": "企业微信\"大圆\"内测上线：左滑一下，AI就能帮你盘客户、写总结",
-          "url": "https://www.aibase.com/news/29101",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-23T11:36:58.965698Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "691404fd660f911479f6dc591e7b521502157c64",
-          "title": "企业微信\"大圆\"内测上线：左滑一下，AI就能帮你盘客户、写总结",
-          "url": "https://www.aibase.com/news/29101",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-23T11:36:58.965698Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 1.0,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-23T11:36:58.965698Z",
-      "latest_at": "2026-06-23T11:36:58.965698Z",
-      "primary_item": {
-        "id": "691404fd660f911479f6dc591e7b521502157c64",
-        "title": "企业微信\"大圆\"内测上线：左滑一下，AI就能帮你盘客户、写总结",
-        "url": "https://www.aibase.com/news/29101",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      }
-    },
-    {
-      "story_id": "story_493a508e4cea",
-      "title": "PP-OCRv6 on Hugging Face：50 语言 OCR，参数规模 1.5M 至 34.5M",
-      "url": "https://huggingface.co/blog/PaddlePaddle/pp-ocrv6",
-      "primary_url": "https://huggingface.co/blog/PaddlePaddle/pp-ocrv6",
-      "source": "Hugging Face：Blog（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "83de75fb3038cc33b60346f3bea097342e51b7ee",
-          "title": "PP-OCRv6 on Hugging Face：50 语言 OCR，参数规模 1.5M 至 34.5M",
-          "url": "https://huggingface.co/blog/PaddlePaddle/pp-ocrv6",
-          "source": "Hugging Face：Blog（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-22T13:18:56Z"
-        },
-        {
-          "id": "2d8796a08960d7a403954b472ae40ef7b60ca916",
-          "title": "PP-OCRv6 on Hugging Face：50 语言 OCR，参数规模 1.5M 至 34.5M / PP-OCRv6 on Hugging Face: 50-Language OCR from 1.5M to 34.5M Parameters",
-          "url": "https://huggingface.co/blog/PaddlePaddle/pp-ocrv6",
-          "source": "Hugging Face Blog",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-22T13:18:56Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hugging Face Blog",
-        "Hugging Face：Blog（RSS）"
-      ],
-      "items": [
-        {
-          "id": "83de75fb3038cc33b60346f3bea097342e51b7ee",
-          "title": "PP-OCRv6 on Hugging Face：50 语言 OCR，参数规模 1.5M 至 34.5M",
-          "url": "https://huggingface.co/blog/PaddlePaddle/pp-ocrv6",
-          "source": "Hugging Face：Blog（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-22T13:18:56Z"
-        },
-        {
-          "id": "2d8796a08960d7a403954b472ae40ef7b60ca916",
-          "title": "PP-OCRv6 on Hugging Face：50 语言 OCR，参数规模 1.5M 至 34.5M / PP-OCRv6 on Hugging Face: 50-Language OCR from 1.5M to 34.5M Parameters",
-          "url": "https://huggingface.co/blog/PaddlePaddle/pp-ocrv6",
-          "source": "Hugging Face Blog",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-22T13:18:56Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.734,
-      "importance": 0.734,
-      "importance_score": 0.734,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.69,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7247,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-22T13:18:56Z",
-      "latest_at": "2026-06-22T13:18:56Z",
-      "primary_item": {
-        "id": "83de75fb3038cc33b60346f3bea097342e51b7ee",
-        "title": "PP-OCRv6 on Hugging Face：50 语言 OCR，参数规模 1.5M 至 34.5M",
-        "url": "https://huggingface.co/blog/PaddlePaddle/pp-ocrv6",
-        "source": "Hugging Face：Blog（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_005182103894",
-      "title": "开辟新赛道：小米 YU7 GT 创全球首个纽北自动驾驶圈速纪录，官方圈速榜新增\"自动驾驶\"分类",
-      "url": "https://www.ithome.com/0/967/234.htm",
-      "primary_url": "https://www.ithome.com/0/967/234.htm",
-      "source": "IT之家（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "aee943e14703df485360cef3a21badbba7a11674",
-          "title": "开辟新赛道：小米 YU7 GT 创全球首个纽北自动驾驶圈速纪录，官方圈速榜新增\"自动驾驶\"分类",
-          "url": "https://www.ithome.com/0/967/234.htm",
-          "source": "IT之家（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-22T15:13:29Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "IT之家（RSS）"
-      ],
-      "items": [
-        {
-          "id": "aee943e14703df485360cef3a21badbba7a11674",
-          "title": "开辟新赛道：小米 YU7 GT 创全球首个纽北自动驾驶圈速纪录，官方圈速榜新增\"自动驾驶\"分类",
-          "url": "https://www.ithome.com/0/967/234.htm",
-          "source": "IT之家（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-22T15:13:29Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7607,
-      "importance": 0.7607,
-      "importance_score": 0.7607,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.85,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7449,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-22T15:13:29Z",
-      "latest_at": "2026-06-22T15:13:29Z",
-      "primary_item": {
-        "id": "aee943e14703df485360cef3a21badbba7a11674",
-        "title": "开辟新赛道：小米 YU7 GT 创全球首个纽北自动驾驶圈速纪录，官方圈速榜新增\"自动驾驶\"分类",
-        "url": "https://www.ithome.com/0/967/234.htm",
-        "source": "IT之家（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_fd6023b459ff",
-      "title": "国内首个高考志愿AI测评出炉，千问多项表现超过资深咨询师",
-      "url": "https://mp.weixin.qq.com/s/oGHVP4MgGS1rbmT8s8St8Q",
-      "primary_url": "https://mp.weixin.qq.com/s/oGHVP4MgGS1rbmT8s8St8Q",
-      "source": "公众号：千问APP（阿里）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "4e79a91effd35e18ee4b9a4112ce81b705c779e3",
-          "title": "国内首个高考志愿AI测评出炉，千问多项表现超过资深咨询师",
-          "url": "https://mp.weixin.qq.com/s/oGHVP4MgGS1rbmT8s8St8Q",
-          "source": "公众号：千问APP（阿里）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-23T10:54:49Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "公众号：千问APP（阿里）"
-      ],
-      "items": [
-        {
-          "id": "4e79a91effd35e18ee4b9a4112ce81b705c779e3",
-          "title": "国内首个高考志愿AI测评出炉，千问多项表现超过资深咨询师",
-          "url": "https://mp.weixin.qq.com/s/oGHVP4MgGS1rbmT8s8St8Q",
-          "source": "公众号：千问APP（阿里）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-23T10:54:49Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7298,
-      "importance": 0.7298,
-      "importance_score": 0.7298,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.6,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9899,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-23T10:54:49Z",
-      "latest_at": "2026-06-23T10:54:49Z",
-      "primary_item": {
-        "id": "4e79a91effd35e18ee4b9a4112ce81b705c779e3",
-        "title": "国内首个高考志愿AI测评出炉，千问多项表现超过资深咨询师",
-        "url": "https://mp.weixin.qq.com/s/oGHVP4MgGS1rbmT8s8St8Q",
-        "source": "公众号：千问APP（阿里）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_6c0f74693744",
-      "title": "OpenRouter：通过API路由实现AI数据驻留合规",
-      "url": "https://openrouter.ai/blog/insights/ai-data-residency",
-      "primary_url": "https://openrouter.ai/blog/insights/ai-data-residency",
-      "source": "OpenRouter：Announcements（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "441b80b540fa90358f4ae89a334fd691d109455b",
-          "title": "OpenRouter：通过API路由实现AI数据驻留合规",
-          "url": "https://openrouter.ai/blog/insights/ai-data-residency",
-          "source": "OpenRouter：Announcements（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-22T15:00:00Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "OpenRouter：Announcements（RSS）"
-      ],
-      "items": [
-        {
-          "id": "441b80b540fa90358f4ae89a334fd691d109455b",
-          "title": "OpenRouter：通过API路由实现AI数据驻留合规",
-          "url": "https://openrouter.ai/blog/insights/ai-data-residency",
-          "source": "OpenRouter：Announcements（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-22T15:00:00Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7213,
-      "importance": 0.7213,
-      "importance_score": 0.7213,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7425,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-22T15:00:00Z",
-      "latest_at": "2026-06-22T15:00:00Z",
-      "primary_item": {
-        "id": "441b80b540fa90358f4ae89a334fd691d109455b",
-        "title": "OpenRouter：通过API路由实现AI数据驻留合规",
-        "url": "https://openrouter.ai/blog/insights/ai-data-residency",
-        "source": "OpenRouter：Announcements（RSS）",
         "source_name": "AI HOT"
       }
     },
@@ -1251,15 +1334,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
+      "score": 0.7602,
+      "importance": 0.7602,
+      "importance_score": 0.7602,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.9588,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1312,15 +1395,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
+      "score": 0.7602,
+      "importance": 0.7602,
+      "importance_score": 0.7602,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.9588,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1336,229 +1419,6 @@
         "url": "https://www.aibase.com/news/29092",
         "source": "AIbase",
         "source_name": "AIbase"
-      }
-    },
-    {
-      "story_id": "story_2df82173bb28",
-      "title": "如果你刚接触 Codex，但已经看到很多人在说Skill，这篇可以先帮你把框架搭起来。那么Skill 到底是什么？哪些值得先看？以及你该怎么跟 Codex 提需求，才能让它更稳定地帮你干活？如果你已经用过一段时间，也可以把它当作一份工具清单，看看有没有值得补上的能力。",
-      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-      "primary_url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-      "source": "社区更新 · 2026-06-23",
-      "source_name": "WaytoAGI",
-      "sources": [
-        {
-          "id": "bacec34f6e4630ca30dca639c6234632c98a2214",
-          "title": "如果你刚接触 Codex，但已经看到很多人在说Skill，这篇可以先帮你把框架搭起来。那么Skill 到底是什么？哪些值得先看？以及你该怎么跟 Codex 提需求，才能让它更稳定地帮你干活？如果你已经用过一段时间，也可以把它当作一份工具清单，看看有没有值得补上的能力。",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-06-23",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-06-23T08:24:52.988697Z"
-        },
-        {
-          "id": "20fb266fc648c57490c36bae1edb941f92897e77",
-          "title": "字节Seed 2.1系列模型正式发布 ，以解决日常生活、专业工作和前沿探索中的复杂需求为目标来进行迭代。模型三大核心能力全面升级，既能跨工具完成多步骤高价值办公与生活任务，也能独立走完企业开发全流程实现稳定的代码交付，更强的多模态、推理底层能力全程作为支撑。目前该模型已接入豆包、TRAE，火山引擎同步开放 API，快来上手体验下！",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-06-23",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-06-23T08:24:52.988697Z"
-        },
-        {
-          "id": "dff52cacb682b45ca14656290002825dabb49fb2",
-          "title": "很多开发者习惯开启多个Claude Code、Codex会话模块来提升开发效率，但人工只能逐个审核校验，频繁切屏查看各会话进度很容易漏掉关键节点，打断AI持续运行的节奏。云舒分享了一套轻量化解决方案，借助蓝牙音箱的灯光、语音提醒实时同步每个任务的推进阶段。不用反复切换窗口紧盯界面，就能全程掌握所有会话状态，最大化多线程协同开发的整体效率。",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-06-23",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-06-23T08:24:52.988697Z"
-        },
-        {
-          "id": "aaedd40fd9122d6caafc8474744eac4eb392b730",
-          "title": "Claude Code 上线满一年，Boris Cherny 和 Cat Wu 以主创身份复盘了团队内部的真实工作流。他们谈论的不是某个具体功能，而是人和agent到底该怎么分工。 让我们来一起探究一下！",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-06-22",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-06-22T18:04:06.749267Z"
-        },
-        {
-          "id": "7af2e3e98d129f6f8aa07be2cc3e6250b6b94863",
-          "title": "Codex最近更新了一个录制回放的插件：Record & Replay 。简单来说，你在电脑上先手动把一个工作流程走一遍，Codex会观察并记录你的操作，随后转成一份可复用、可迭代的Agent Skill。这个插件到底怎么用、和传统 RPA是不是一回事，这篇文章带你拆清楚。",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-06-22",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-06-22T18:04:06.749267Z"
-        },
-        {
-          "id": "a2cf7758fe3b342eaef6d444249fdf7620d20d65",
-          "title": "YC合伙人Tom Blomfield 在这期对话中带我们揭秘公司如何把自己改造成一个会学习的系统：如果 AI 能读取公司的知识、调用工具、观察结果、改写流程，一家公司还需要像过去那样靠层级、会议和中层管理来传递信息吗？",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-06-22",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-06-22T18:04:06.749267Z"
-        },
-        {
-          "id": "cd1b3b41efc1dd923cad7df4cfa64032d279b2d0",
-          "title": "在深耕一年Agent基础设施、服务五百余名用户后，作者发现分层可独立的迭代才是优质智能体架构的核心。于是做了一个更好的 Agent 框架：FastClaw，面向云原生多租户场景设计，更快、更轻量、更好用。这篇文章记录了他对 OpenClaw 架构的理解，以及对 FastClaw 架构设计的经验总结。",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-06-22",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-06-22T18:04:06.749267Z"
-        },
-        {
-          "id": "af73ad02e00b1e47e33650d79ddfb807796d500a",
-          "title": "成峰这款剪辑 Skill又升级啦！只需上传素材与文稿，AI就可以自动精剪口播、清理瑕疵、生成对齐字幕，还能智能匹配镜头、生成手绘风动态动画。全程支持可视化校对、片段精细化修改，最后一键合成高清成片。",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-06-22",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-06-22T18:04:06.749267Z"
-        },
-        {
-          "id": "ef195eeddd767508872b158ae25438aa6de3f4ba",
-          "title": "不少人给Claude Code、Codex设置Goal时经常会堆砌特别长的提示词，导致AI擅自拓展任务、严重偏离需求。老金的开源工具GoalPro针对性地解决了这一问题。它内置了五层校验闸门，逐层理清真实需求、划定操作边界、明确验收依据、设置高危暂停机制，输出标准化可复核的目标合约，把任务决策权留在使用者手中。",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-06-22",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-06-22T13:28:49.313075Z"
-        },
-        {
-          "id": "b86f8bd706d09ed22ec73b7c0e5ecb0900f82475",
-          "title": "本周AI音乐资讯合集覆盖工具更新、前沿模型、版权维权与前沿论文四大板块。ElevenLabs、阿里通义等推出长曲生成、说唱人声无缝切换能力，多款创作平台上线分轨混音、多角色MV、视频智能配乐等实用功能，大幅降低了二创的门槛。大西洋月刊还上线侵权音乐检索库，缓解了从业者对版权的顾虑。还有六篇顶级论文，围绕模型遗忘、AI 音乐检测、歌声精细控制等方向给出了一些创新方案。",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-06-22",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-06-22T13:28:49.313075Z"
-        }
-      ],
-      "source_count": 10,
-      "source_names": [
-        "社区更新 · 2026-06-22",
-        "社区更新 · 2026-06-23"
-      ],
-      "items": [
-        {
-          "id": "bacec34f6e4630ca30dca639c6234632c98a2214",
-          "title": "如果你刚接触 Codex，但已经看到很多人在说Skill，这篇可以先帮你把框架搭起来。那么Skill 到底是什么？哪些值得先看？以及你该怎么跟 Codex 提需求，才能让它更稳定地帮你干活？如果你已经用过一段时间，也可以把它当作一份工具清单，看看有没有值得补上的能力。",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-06-23",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-06-23T08:24:52.988697Z"
-        },
-        {
-          "id": "20fb266fc648c57490c36bae1edb941f92897e77",
-          "title": "字节Seed 2.1系列模型正式发布 ，以解决日常生活、专业工作和前沿探索中的复杂需求为目标来进行迭代。模型三大核心能力全面升级，既能跨工具完成多步骤高价值办公与生活任务，也能独立走完企业开发全流程实现稳定的代码交付，更强的多模态、推理底层能力全程作为支撑。目前该模型已接入豆包、TRAE，火山引擎同步开放 API，快来上手体验下！",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-06-23",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-06-23T08:24:52.988697Z"
-        },
-        {
-          "id": "dff52cacb682b45ca14656290002825dabb49fb2",
-          "title": "很多开发者习惯开启多个Claude Code、Codex会话模块来提升开发效率，但人工只能逐个审核校验，频繁切屏查看各会话进度很容易漏掉关键节点，打断AI持续运行的节奏。云舒分享了一套轻量化解决方案，借助蓝牙音箱的灯光、语音提醒实时同步每个任务的推进阶段。不用反复切换窗口紧盯界面，就能全程掌握所有会话状态，最大化多线程协同开发的整体效率。",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-06-23",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-06-23T08:24:52.988697Z"
-        },
-        {
-          "id": "aaedd40fd9122d6caafc8474744eac4eb392b730",
-          "title": "Claude Code 上线满一年，Boris Cherny 和 Cat Wu 以主创身份复盘了团队内部的真实工作流。他们谈论的不是某个具体功能，而是人和agent到底该怎么分工。 让我们来一起探究一下！",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-06-22",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-06-22T18:04:06.749267Z"
-        },
-        {
-          "id": "7af2e3e98d129f6f8aa07be2cc3e6250b6b94863",
-          "title": "Codex最近更新了一个录制回放的插件：Record & Replay 。简单来说，你在电脑上先手动把一个工作流程走一遍，Codex会观察并记录你的操作，随后转成一份可复用、可迭代的Agent Skill。这个插件到底怎么用、和传统 RPA是不是一回事，这篇文章带你拆清楚。",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-06-22",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-06-22T18:04:06.749267Z"
-        },
-        {
-          "id": "a2cf7758fe3b342eaef6d444249fdf7620d20d65",
-          "title": "YC合伙人Tom Blomfield 在这期对话中带我们揭秘公司如何把自己改造成一个会学习的系统：如果 AI 能读取公司的知识、调用工具、观察结果、改写流程，一家公司还需要像过去那样靠层级、会议和中层管理来传递信息吗？",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-06-22",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-06-22T18:04:06.749267Z"
-        },
-        {
-          "id": "cd1b3b41efc1dd923cad7df4cfa64032d279b2d0",
-          "title": "在深耕一年Agent基础设施、服务五百余名用户后，作者发现分层可独立的迭代才是优质智能体架构的核心。于是做了一个更好的 Agent 框架：FastClaw，面向云原生多租户场景设计，更快、更轻量、更好用。这篇文章记录了他对 OpenClaw 架构的理解，以及对 FastClaw 架构设计的经验总结。",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-06-22",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-06-22T18:04:06.749267Z"
-        },
-        {
-          "id": "af73ad02e00b1e47e33650d79ddfb807796d500a",
-          "title": "成峰这款剪辑 Skill又升级啦！只需上传素材与文稿，AI就可以自动精剪口播、清理瑕疵、生成对齐字幕，还能智能匹配镜头、生成手绘风动态动画。全程支持可视化校对、片段精细化修改，最后一键合成高清成片。",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-06-22",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-06-22T18:04:06.749267Z"
-        },
-        {
-          "id": "ef195eeddd767508872b158ae25438aa6de3f4ba",
-          "title": "不少人给Claude Code、Codex设置Goal时经常会堆砌特别长的提示词，导致AI擅自拓展任务、严重偏离需求。老金的开源工具GoalPro针对性地解决了这一问题。它内置了五层校验闸门，逐层理清真实需求、划定操作边界、明确验收依据、设置高危暂停机制，输出标准化可复核的目标合约，把任务决策权留在使用者手中。",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-06-22",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-06-22T13:28:49.313075Z"
-        },
-        {
-          "id": "b86f8bd706d09ed22ec73b7c0e5ecb0900f82475",
-          "title": "本周AI音乐资讯合集覆盖工具更新、前沿模型、版权维权与前沿论文四大板块。ElevenLabs、阿里通义等推出长曲生成、说唱人声无缝切换能力，多款创作平台上线分轨混音、多角色MV、视频智能配乐等实用功能，大幅降低了二创的门槛。大西洋月刊还上线侵权音乐检索库，缓解了从业者对版权的顾虑。还有六篇顶级论文，围绕模型遗忘、AI 音乐检测、歌声精细控制等方向给出了一些创新方案。",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-06-22",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-06-22T13:28:49.313075Z"
-        }
-      ],
-      "item_count": 10,
-      "duplicate_count": 10,
-      "score": 0.6611,
-      "importance": 0.6611,
-      "importance_score": 0.6611,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.54,
-        "ai_relevance": 0.65,
-        "recency": 0.9548,
-        "story_heat": 1.0
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-22T13:28:49.313075Z",
-      "latest_at": "2026-06-23T08:24:52.988697Z",
-      "primary_item": {
-        "id": "bacec34f6e4630ca30dca639c6234632c98a2214",
-        "title": "如果你刚接触 Codex，但已经看到很多人在说Skill，这篇可以先帮你把框架搭起来。那么Skill 到底是什么？哪些值得先看？以及你该怎么跟 Codex 提需求，才能让它更稳定地帮你干活？如果你已经用过一段时间，也可以把它当作一份工具清单，看看有没有值得补上的能力。",
-        "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-        "source": "社区更新 · 2026-06-23",
-        "source_name": "WaytoAGI"
       }
     }
   ]
