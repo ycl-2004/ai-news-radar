@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-23T14:31:56.202150Z",
+  "generated_at": "2026-06-23T17:11:47.102138Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -57,15 +57,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8807,
-      "importance": 0.8807,
-      "importance_score": 0.8807,
+      "score": 0.8741,
+      "importance": 0.8741,
+      "importance_score": 0.8741,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.9762,
+        "recency": 0.9394,
         "story_heat": 0.25
       },
       "category": "official",
@@ -82,6 +82,130 @@
         "title": "IBM 开源 CUGA：轻量级智能体框架，提供二十余个单文件示例应用 / Build real agentic apps using CUGA: two dozen working examples on a lightweight harness",
         "url": "https://huggingface.co/blog/ibm-research/cuga-apps",
         "source": "Hugging Face Blog",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_8e10ac4aaa85",
+      "title": "Copilot CLI：新的终端界面全面可用 / Copilot CLI: New terminal interface is generally available",
+      "url": "https://github.blog/changelog/2026-06-23-copilot-cli-new-terminal-interface-is-generally-available",
+      "primary_url": "https://github.blog/changelog/2026-06-23-copilot-cli-new-terminal-interface-is-generally-available",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "3010ef4ecdf6e64a70a87d900ff9489a4f93d61b",
+          "title": "Copilot CLI：新的终端界面全面可用 / Copilot CLI: New terminal interface is generally available",
+          "url": "https://github.blog/changelog/2026-06-23-copilot-cli-new-terminal-interface-is-generally-available",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-23T16:35:45Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "items": [
+        {
+          "id": "3010ef4ecdf6e64a70a87d900ff9489a4f93d61b",
+          "title": "Copilot CLI：新的终端界面全面可用 / Copilot CLI: New terminal interface is generally available",
+          "url": "https://github.blog/changelog/2026-06-23-copilot-cli-new-terminal-interface-is-generally-available",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-23T16:35:45Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8504,
+      "importance": 0.8504,
+      "importance_score": 0.8504,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.9914,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-23T16:35:45Z",
+      "latest_at": "2026-06-23T16:35:45Z",
+      "primary_item": {
+        "id": "3010ef4ecdf6e64a70a87d900ff9489a4f93d61b",
+        "title": "Copilot CLI：新的终端界面全面可用 / Copilot CLI: New terminal interface is generally available",
+        "url": "https://github.blog/changelog/2026-06-23-copilot-cli-new-terminal-interface-is-generally-available",
+        "source": "GitHub Changelog",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_50b0e84c9b4e",
+      "title": "我自动化了我的工作（这让我成为了更好的领导者） / I automated my job (and it made me a better leader)",
+      "url": "https://github.blog/developer-skills/github/i-automated-my-job-and-it-made-me-a-better-leader",
+      "primary_url": "https://github.blog/developer-skills/github/i-automated-my-job-and-it-made-me-a-better-leader",
+      "source": "GitHub AI & ML",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "e42a21aea4b8bf2a240940b1c5bea233b1b5b5ca",
+          "title": "我自动化了我的工作（这让我成为了更好的领导者） / I automated my job (and it made me a better leader)",
+          "url": "https://github.blog/developer-skills/github/i-automated-my-job-and-it-made-me-a-better-leader",
+          "source": "GitHub AI & ML",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-23T16:00:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "GitHub AI & ML"
+      ],
+      "items": [
+        {
+          "id": "e42a21aea4b8bf2a240940b1c5bea233b1b5b5ca",
+          "title": "我自动化了我的工作（这让我成为了更好的领导者） / I automated my job (and it made me a better leader)",
+          "url": "https://github.blog/developer-skills/github/i-automated-my-job-and-it-made-me-a-better-leader",
+          "source": "GitHub AI & ML",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-23T16:00:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8409,
+      "importance": 0.8409,
+      "importance_score": 0.8409,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.87,
+        "recency": 0.9829,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-23T16:00:00Z",
+      "latest_at": "2026-06-23T16:00:00Z",
+      "primary_item": {
+        "id": "e42a21aea4b8bf2a240940b1c5bea233b1b5b5ca",
+        "title": "我自动化了我的工作（这让我成为了更好的领导者） / I automated my job (and it made me a better leader)",
+        "url": "https://github.blog/developer-skills/github/i-automated-my-job-and-it-made-me-a-better-leader",
+        "source": "GitHub AI & ML",
         "source_name": "Official AI Updates"
       }
     },
@@ -139,15 +263,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8509,
-      "importance": 0.8509,
-      "importance_score": 0.8509,
+      "score": 0.8454,
+      "importance": 0.8454,
+      "importance_score": 0.8454,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.8107,
+        "recency": 0.7801,
         "story_heat": 0.25
       },
       "category": "official",
@@ -168,21 +292,21 @@
       }
     },
     {
-      "story_id": "story_76bfa22b1a42",
-      "title": "JetBrains IDE 中的新功能和 Claude 作为代理提供商预览 / New features and Claude as agent provider preview in JetBrains IDEs",
-      "url": "https://github.blog/changelog/2026-06-22-new-features-and-claude-as-agent-provider-preview-in-jetbrains-ides",
-      "primary_url": "https://github.blog/changelog/2026-06-22-new-features-and-claude-as-agent-provider-preview-in-jetbrains-ides",
+      "story_id": "story_0930e77e2dc7",
+      "title": "自动 Dependabot 访问 GitHub 托管的注册表 / Automatic Dependabot access to GitHub-hosted registries",
+      "url": "https://github.blog/changelog/2026-06-23-automatic-dependabot-access-to-github-hosted-registries",
+      "primary_url": "https://github.blog/changelog/2026-06-23-automatic-dependabot-access-to-github-hosted-registries",
       "source": "GitHub Changelog",
       "source_name": "Official AI Updates",
       "sources": [
         {
-          "id": "76f9590dd5120f37a8a9c1b7a2b01015251fe453",
-          "title": "JetBrains IDE 中的新功能和 Claude 作为代理提供商预览 / New features and Claude as agent provider preview in JetBrains IDEs",
-          "url": "https://github.blog/changelog/2026-06-22-new-features-and-claude-as-agent-provider-preview-in-jetbrains-ides",
+          "id": "fd25b8723ccf992966a699fc6fbb55e17e01ede0",
+          "title": "自动 Dependabot 访问 GitHub 托管的注册表 / Automatic Dependabot access to GitHub-hosted registries",
+          "url": "https://github.blog/changelog/2026-06-23-automatic-dependabot-access-to-github-hosted-registries",
           "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-06-22T15:34:00Z"
+          "published_at": "2026-06-23T16:46:05Z"
         }
       ],
       "source_count": 1,
@@ -191,26 +315,26 @@
       ],
       "items": [
         {
-          "id": "76f9590dd5120f37a8a9c1b7a2b01015251fe453",
-          "title": "JetBrains IDE 中的新功能和 Claude 作为代理提供商预览 / New features and Claude as agent provider preview in JetBrains IDEs",
-          "url": "https://github.blog/changelog/2026-06-22-new-features-and-claude-as-agent-provider-preview-in-jetbrains-ides",
+          "id": "fd25b8723ccf992966a699fc6fbb55e17e01ede0",
+          "title": "自动 Dependabot 访问 GitHub 托管的注册表 / Automatic Dependabot access to GitHub-hosted registries",
+          "url": "https://github.blog/changelog/2026-06-23-automatic-dependabot-access-to-github-hosted-registries",
           "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-06-22T15:34:00Z"
+          "published_at": "2026-06-23T16:46:05Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8012,
-      "importance": 0.8012,
-      "importance_score": 0.8012,
+      "score": 0.8429,
+      "importance": 0.8429,
+      "importance_score": 0.8429,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.7177,
+        "ai_relevance": 0.87,
+        "recency": 0.9938,
         "story_heat": 0.0
       },
       "category": "official",
@@ -219,12 +343,74 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-06-22T15:34:00Z",
-      "latest_at": "2026-06-22T15:34:00Z",
+      "earliest_at": "2026-06-23T16:46:05Z",
+      "latest_at": "2026-06-23T16:46:05Z",
       "primary_item": {
-        "id": "76f9590dd5120f37a8a9c1b7a2b01015251fe453",
-        "title": "JetBrains IDE 中的新功能和 Claude 作为代理提供商预览 / New features and Claude as agent provider preview in JetBrains IDEs",
-        "url": "https://github.blog/changelog/2026-06-22-new-features-and-claude-as-agent-provider-preview-in-jetbrains-ides",
+        "id": "fd25b8723ccf992966a699fc6fbb55e17e01ede0",
+        "title": "自动 Dependabot 访问 GitHub 托管的注册表 / Automatic Dependabot access to GitHub-hosted registries",
+        "url": "https://github.blog/changelog/2026-06-23-automatic-dependabot-access-to-github-hosted-registries",
+        "source": "GitHub Changelog",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_fc7ab554d043",
+      "title": "Dependabot 弃用 Python 3.9 / Deprecation of Python 3.9 for Dependabot",
+      "url": "https://github.blog/changelog/2026-06-23-deprecation-of-python-3-9-for-dependabot",
+      "primary_url": "https://github.blog/changelog/2026-06-23-deprecation-of-python-3-9-for-dependabot",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "bc9ea50a8834f30b6a24a9ec489c31069c9ce5e9",
+          "title": "Dependabot 弃用 Python 3.9 / Deprecation of Python 3.9 for Dependabot",
+          "url": "https://github.blog/changelog/2026-06-23-deprecation-of-python-3-9-for-dependabot",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-23T15:46:30Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "items": [
+        {
+          "id": "bc9ea50a8834f30b6a24a9ec489c31069c9ce5e9",
+          "title": "Dependabot 弃用 Python 3.9 / Deprecation of Python 3.9 for Dependabot",
+          "url": "https://github.blog/changelog/2026-06-23-deprecation-of-python-3-9-for-dependabot",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-23T15:46:30Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8403,
+      "importance": 0.8403,
+      "importance_score": 0.8403,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.87,
+        "recency": 0.9797,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-23T15:46:30Z",
+      "latest_at": "2026-06-23T15:46:30Z",
+      "primary_item": {
+        "id": "bc9ea50a8834f30b6a24a9ec489c31069c9ce5e9",
+        "title": "Dependabot 弃用 Python 3.9 / Deprecation of Python 3.9 for Dependabot",
+        "url": "https://github.blog/changelog/2026-06-23-deprecation-of-python-3-9-for-dependabot",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
       }
@@ -283,15 +469,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.784,
-      "importance": 0.784,
-      "importance_score": 0.784,
+      "score": 0.7773,
+      "importance": 0.7773,
+      "importance_score": 0.7773,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9858,
+        "recency": 0.9486,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -364,15 +550,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7836,
-      "importance": 0.7836,
-      "importance_score": 0.7836,
+      "score": 0.7772,
+      "importance": 0.7772,
+      "importance_score": 0.7772,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9503,
+        "recency": 0.9144,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -388,6 +574,87 @@
         "title": "网易有道发布 Confucius4-TTS：14 语种跨语种无口音语音克隆开源模型",
         "url": "https://www.ithome.com/0/967/636.htm",
         "source": "IT之家（RSS）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_0daa94cd4310",
+      "title": "五眼联盟警告：AI网络威胁数月内将影响普通用户",
+      "url": "https://www.artificialintelligence-news.com/news/five-eyes-warning-ai-cyber-threats",
+      "primary_url": "https://www.artificialintelligence-news.com/news/five-eyes-warning-ai-cyber-threats",
+      "source": "Artificial Intelligence News（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "0b401d9991bff0537c3907198a5aa6c211b1f1bd",
+          "title": "五眼联盟警告：AI网络威胁数月内将影响普通用户",
+          "url": "https://www.artificialintelligence-news.com/news/five-eyes-warning-ai-cyber-threats",
+          "source": "Artificial Intelligence News（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-23T08:00:00Z"
+        },
+        {
+          "id": "9ba02011491d47d1683686c6a5f4b2bbfd014813",
+          "title": "五眼联盟警告：AI网络威胁数月内将影响普通用户 / Top spy agencies say AI cyber threats will impact you within months. Here’s why",
+          "url": "https://www.artificialintelligence-news.com/news/five-eyes-warning-ai-cyber-threats",
+          "source": "Artificial Intelligence News",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-06-23T08:00:00Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Artificial Intelligence News",
+        "Artificial Intelligence News（RSS）"
+      ],
+      "items": [
+        {
+          "id": "0b401d9991bff0537c3907198a5aa6c211b1f1bd",
+          "title": "五眼联盟警告：AI网络威胁数月内将影响普通用户",
+          "url": "https://www.artificialintelligence-news.com/news/five-eyes-warning-ai-cyber-threats",
+          "source": "Artificial Intelligence News（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-23T08:00:00Z"
+        },
+        {
+          "id": "9ba02011491d47d1683686c6a5f4b2bbfd014813",
+          "title": "五眼联盟警告：AI网络威胁数月内将影响普通用户 / Top spy agencies say AI cyber threats will impact you within months. Here’s why",
+          "url": "https://www.artificialintelligence-news.com/news/five-eyes-warning-ai-cyber-threats",
+          "source": "Artificial Intelligence News",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-06-23T08:00:00Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7762,
+      "importance": 0.7762,
+      "importance_score": 0.7762,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.74,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8756,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-23T08:00:00Z",
+      "latest_at": "2026-06-23T08:00:00Z",
+      "primary_item": {
+        "id": "0b401d9991bff0537c3907198a5aa6c211b1f1bd",
+        "title": "五眼联盟警告：AI网络威胁数月内将影响普通用户",
+        "url": "https://www.artificialintelligence-news.com/news/five-eyes-warning-ai-cyber-threats",
+        "source": "Artificial Intelligence News（RSS）",
         "source_name": "AI HOT"
       }
     },
@@ -445,15 +712,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7774,
-      "importance": 0.7774,
-      "importance_score": 0.7774,
+      "score": 0.7712,
+      "importance": 0.7712,
+      "importance_score": 0.7712,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9154,
+        "recency": 0.8809,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -470,209 +737,6 @@
         "url": "https://www.aibase.com/news/29095",
         "source": "AIbase",
         "source_name": "AIbase"
-      }
-    },
-    {
-      "story_id": "story_0daa94cd4310",
-      "title": "五眼联盟警告：AI网络威胁数月内将影响普通用户",
-      "url": "https://www.artificialintelligence-news.com/news/five-eyes-warning-ai-cyber-threats",
-      "primary_url": "https://www.artificialintelligence-news.com/news/five-eyes-warning-ai-cyber-threats",
-      "source": "Artificial Intelligence News（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "0b401d9991bff0537c3907198a5aa6c211b1f1bd",
-          "title": "五眼联盟警告：AI网络威胁数月内将影响普通用户",
-          "url": "https://www.artificialintelligence-news.com/news/five-eyes-warning-ai-cyber-threats",
-          "source": "Artificial Intelligence News（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-23T08:00:00Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Artificial Intelligence News（RSS）"
-      ],
-      "items": [
-        {
-          "id": "0b401d9991bff0537c3907198a5aa6c211b1f1bd",
-          "title": "五眼联盟警告：AI网络威胁数月内将影响普通用户",
-          "url": "https://www.artificialintelligence-news.com/news/five-eyes-warning-ai-cyber-threats",
-          "source": "Artificial Intelligence News（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-23T08:00:00Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7574,
-      "importance": 0.7574,
-      "importance_score": 0.7574,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.74,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.91,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-23T08:00:00Z",
-      "latest_at": "2026-06-23T08:00:00Z",
-      "primary_item": {
-        "id": "0b401d9991bff0537c3907198a5aa6c211b1f1bd",
-        "title": "五眼联盟警告：AI网络威胁数月内将影响普通用户",
-        "url": "https://www.artificialintelligence-news.com/news/five-eyes-warning-ai-cyber-threats",
-        "source": "Artificial Intelligence News（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_5cf9082081aa",
-      "title": "米斯特拉尔 OCR 4 / Mistral OCR 4",
-      "url": "https://mistral.ai/news/ocr-4",
-      "primary_url": "https://mistral.ai/news/ocr-4",
-      "source": "Mistral AI：News（网页）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "96d76206830e16ff918f7b7f68ec710174c8f404",
-          "title": "米斯特拉尔 OCR 4 / Mistral OCR 4",
-          "url": "https://mistral.ai/news/ocr-4",
-          "source": "Mistral AI：News（网页）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-23T14:24:55.949000Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Mistral AI：News（网页）"
-      ],
-      "items": [
-        {
-          "id": "96d76206830e16ff918f7b7f68ec710174c8f404",
-          "title": "米斯特拉尔 OCR 4 / Mistral OCR 4",
-          "url": "https://mistral.ai/news/ocr-4",
-          "source": "Mistral AI：News（网页）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-23T14:24:55.949000Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7553,
-      "importance": 0.7553,
-      "importance_score": 0.7553,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.68,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9983,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-23T14:24:55.949000Z",
-      "latest_at": "2026-06-23T14:24:55.949000Z",
-      "primary_item": {
-        "id": "96d76206830e16ff918f7b7f68ec710174c8f404",
-        "title": "米斯特拉尔 OCR 4 / Mistral OCR 4",
-        "url": "https://mistral.ai/news/ocr-4",
-        "source": "Mistral AI：News（网页）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_cbdfac336953",
-      "title": "东京 AI 公司 Sakana AI 推出多智能体编排系统 Sakana Fugu",
-      "url": "https://x.com/berryxia/status/2069090959938466298",
-      "primary_url": "https://x.com/berryxia/status/2069090959938466298",
-      "source": "X：Berry Xia (@berryxia)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "cd9583ec48f7ced35e4cab3e24dbedcda3611854",
-          "title": "东京 AI 公司 Sakana AI 推出多智能体编排系统 Sakana Fugu",
-          "url": "https://x.com/berryxia/status/2069090959938466298",
-          "source": "X：Berry Xia (@berryxia)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-22T16:11:41Z"
-        },
-        {
-          "id": "a9eb7b4f95d6c4e8048302118f84d585a74355bc",
-          "title": "Sakana AI 是2023年在东京成立的AI研发公司，核心定位是开发“自然启发”（nature-inspired）的AI模型。 强调集体智能（collective intelligence）和演化方法，目标是打造不受单一大模型限制的系统，并服务于日本的AI主权（sovereignty）需求。 三位联合创始人： • David Ha（CEO）：前Google Brain日本团队负责人，曾在日本高盛担任衍生品交易主管，有很深的日本工作…",
-          "url": "https://x.com/berryxia/status/2069090959938466298",
-          "source": "@berryxia",
-          "source_name": "SocialData X",
-          "site_id": "socialdata_x",
-          "published_at": "2026-06-22T16:11:41Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "@berryxia",
-        "X：Berry Xia (@berryxia)"
-      ],
-      "items": [
-        {
-          "id": "cd9583ec48f7ced35e4cab3e24dbedcda3611854",
-          "title": "东京 AI 公司 Sakana AI 推出多智能体编排系统 Sakana Fugu",
-          "url": "https://x.com/berryxia/status/2069090959938466298",
-          "source": "X：Berry Xia (@berryxia)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-22T16:11:41Z"
-        },
-        {
-          "id": "a9eb7b4f95d6c4e8048302118f84d585a74355bc",
-          "title": "Sakana AI 是2023年在东京成立的AI研发公司，核心定位是开发“自然启发”（nature-inspired）的AI模型。 强调集体智能（collective intelligence）和演化方法，目标是打造不受单一大模型限制的系统，并服务于日本的AI主权（sovereignty）需求。 三位联合创始人： • David Ha（CEO）：前Google Brain日本团队负责人，曾在日本高盛担任衍生品交易主管，有很深的日本工作…",
-          "url": "https://x.com/berryxia/status/2069090959938466298",
-          "source": "@berryxia",
-          "source_name": "SocialData X",
-          "site_id": "socialdata_x",
-          "published_at": "2026-06-22T16:11:41Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.752,
-      "importance": 0.752,
-      "importance_score": 0.752,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.75,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7243,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-22T16:11:41Z",
-      "latest_at": "2026-06-22T16:11:41Z",
-      "primary_item": {
-        "id": "cd9583ec48f7ced35e4cab3e24dbedcda3611854",
-        "title": "东京 AI 公司 Sakana AI 推出多智能体编排系统 Sakana Fugu",
-        "url": "https://x.com/berryxia/status/2069090959938466298",
-        "source": "X：Berry Xia (@berryxia)",
-        "source_name": "AI HOT"
       }
     },
     {
@@ -710,21 +774,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7517,
-      "importance": 0.7517,
-      "importance_score": 0.7517,
+      "score": 0.7459,
+      "importance": 0.7459,
+      "importance_score": 0.7459,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8619,
+        "recency": 0.8294,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-06-23T04:14:39Z",
       "latest_at": "2026-06-23T04:14:39Z",
@@ -771,15 +834,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7499,
-      "importance": 0.7499,
-      "importance_score": 0.7499,
+      "score": 0.7439,
+      "importance": 0.7439,
+      "importance_score": 0.7439,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.73,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8851,
+        "recency": 0.8517,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -850,15 +913,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7774,
-      "importance": 0.7774,
-      "importance_score": 0.7774,
+      "score": 0.7721,
+      "importance": 0.7721,
+      "importance_score": 0.7721,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.8,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7824,
+        "recency": 0.7528,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -912,15 +975,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.743,
-      "importance": 0.743,
-      "importance_score": 0.743,
+      "score": 0.737,
+      "importance": 0.737,
+      "importance_score": 0.737,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.71,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8801,
+        "recency": 0.8469,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -991,15 +1054,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.742,
-      "importance": 0.742,
-      "importance_score": 0.742,
+      "score": 0.7369,
+      "importance": 0.7369,
+      "importance_score": 0.7369,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7524,
+        "recency": 0.724,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -1052,15 +1115,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7602,
-      "importance": 0.7602,
-      "importance_score": 0.7602,
+      "score": 0.7537,
+      "importance": 0.7537,
+      "importance_score": 0.7537,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9588,
+        "recency": 0.9226,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1076,227 +1139,6 @@
         "url": "https://www.aibase.com/news/29101",
         "source": "AIbase",
         "source_name": "AIbase"
-      }
-    },
-    {
-      "story_id": "story_005182103894",
-      "title": "开辟新赛道：小米 YU7 GT 创全球首个纽北自动驾驶圈速纪录，官方圈速榜新增\"自动驾驶\"分类",
-      "url": "https://www.ithome.com/0/967/234.htm",
-      "primary_url": "https://www.ithome.com/0/967/234.htm",
-      "source": "IT之家（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "aee943e14703df485360cef3a21badbba7a11674",
-          "title": "开辟新赛道：小米 YU7 GT 创全球首个纽北自动驾驶圈速纪录，官方圈速榜新增\"自动驾驶\"分类",
-          "url": "https://www.ithome.com/0/967/234.htm",
-          "source": "IT之家（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-22T15:13:29Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "IT之家（RSS）"
-      ],
-      "items": [
-        {
-          "id": "aee943e14703df485360cef3a21badbba7a11674",
-          "title": "开辟新赛道：小米 YU7 GT 创全球首个纽北自动驾驶圈速纪录，官方圈速榜新增\"自动驾驶\"分类",
-          "url": "https://www.ithome.com/0/967/234.htm",
-          "source": "IT之家（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-22T15:13:29Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7552,
-      "importance": 0.7552,
-      "importance_score": 0.7552,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.85,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7142,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-22T15:13:29Z",
-      "latest_at": "2026-06-22T15:13:29Z",
-      "primary_item": {
-        "id": "aee943e14703df485360cef3a21badbba7a11674",
-        "title": "开辟新赛道：小米 YU7 GT 创全球首个纽北自动驾驶圈速纪录，官方圈速榜新增\"自动驾驶\"分类",
-        "url": "https://www.ithome.com/0/967/234.htm",
-        "source": "IT之家（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_fd6023b459ff",
-      "title": "国内首个高考志愿AI测评出炉，千问多项表现超过资深咨询师",
-      "url": "https://mp.weixin.qq.com/s/oGHVP4MgGS1rbmT8s8St8Q",
-      "primary_url": "https://mp.weixin.qq.com/s/oGHVP4MgGS1rbmT8s8St8Q",
-      "source": "公众号：千问APP（阿里）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "4e79a91effd35e18ee4b9a4112ce81b705c779e3",
-          "title": "国内首个高考志愿AI测评出炉，千问多项表现超过资深咨询师",
-          "url": "https://mp.weixin.qq.com/s/oGHVP4MgGS1rbmT8s8St8Q",
-          "source": "公众号：千问APP（阿里）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-23T10:54:49Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "公众号：千问APP（阿里）"
-      ],
-      "items": [
-        {
-          "id": "4e79a91effd35e18ee4b9a4112ce81b705c779e3",
-          "title": "国内首个高考志愿AI测评出炉，千问多项表现超过资深咨询师",
-          "url": "https://mp.weixin.qq.com/s/oGHVP4MgGS1rbmT8s8St8Q",
-          "source": "公众号：千问APP（阿里）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-23T10:54:49Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7224,
-      "importance": 0.7224,
-      "importance_score": 0.7224,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.6,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9491,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-23T10:54:49Z",
-      "latest_at": "2026-06-23T10:54:49Z",
-      "primary_item": {
-        "id": "4e79a91effd35e18ee4b9a4112ce81b705c779e3",
-        "title": "国内首个高考志愿AI测评出炉，千问多项表现超过资深咨询师",
-        "url": "https://mp.weixin.qq.com/s/oGHVP4MgGS1rbmT8s8St8Q",
-        "source": "公众号：千问APP（阿里）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_72e247ee906f",
-      "title": "Show HN：Oak--专为代理设计的 Git 替代方案",
-      "url": "https://oak.space/oak/oak",
-      "primary_url": "https://oak.space/oak/oak",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "da3fab35ef43007ec3565732d3de24dfcce7eef9",
-          "title": "Show HN：Oak--专为代理设计的 Git 替代方案",
-          "url": "https://oak.space/oak/oak",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-22T21:00:09.808000Z"
-        },
-        {
-          "id": "82cbde6c31bdfaa899618a062587f9f96d8673b9",
-          "title": "Show HN: Oak——专为代理设计的 Git 替代方案 / Show HN: Oak – Git alternative designed for agents",
-          "url": "https://oak.space/oak/oak",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-22T15:37:48Z"
-        },
-        {
-          "id": "79e68df459b1f8e02efaf16be7b2bb3278e3e655",
-          "title": "Show HN: Oak——专为代理设计的 Git 替代方案 / Show HN: Oak – Git replacement designed for agents",
-          "url": "https://oak.space/oak/oak",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-22T15:37:48Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Hacker News (黑客新闻)",
-        "Hacker News · 24h最热",
-        "Hacker News 热门（buzzing.cc 中文翻译）"
-      ],
-      "items": [
-        {
-          "id": "da3fab35ef43007ec3565732d3de24dfcce7eef9",
-          "title": "Show HN：Oak--专为代理设计的 Git 替代方案",
-          "url": "https://oak.space/oak/oak",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-22T21:00:09.808000Z"
-        },
-        {
-          "id": "82cbde6c31bdfaa899618a062587f9f96d8673b9",
-          "title": "Show HN: Oak——专为代理设计的 Git 替代方案 / Show HN: Oak – Git alternative designed for agents",
-          "url": "https://oak.space/oak/oak",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-22T15:37:48Z"
-        },
-        {
-          "id": "79e68df459b1f8e02efaf16be7b2bb3278e3e655",
-          "title": "Show HN: Oak——专为代理设计的 Git 替代方案 / Show HN: Oak – Git replacement designed for agents",
-          "url": "https://oak.space/oak/oak",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-22T15:37:48Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.7773,
-      "importance": 0.7773,
-      "importance_score": 0.7773,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7764,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-22T15:37:48Z",
-      "latest_at": "2026-06-22T21:00:09.808000Z",
-      "primary_item": {
-        "id": "da3fab35ef43007ec3565732d3de24dfcce7eef9",
-        "title": "Show HN：Oak--专为代理设计的 Git 替代方案",
-        "url": "https://oak.space/oak/oak",
-        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-        "source_name": "AI HOT"
       }
     },
     {
@@ -1334,15 +1176,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7602,
-      "importance": 0.7602,
-      "importance_score": 0.7602,
+      "score": 0.7537,
+      "importance": 0.7537,
+      "importance_score": 0.7537,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9588,
+        "recency": 0.9226,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1358,6 +1200,229 @@
         "url": "https://www.aibase.com/news/29100",
         "source": "AIbase",
         "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_2df82173bb28",
+      "title": "火山引擎Force原动力大会发布了全系列多模态模型，覆盖文本、视频、图像、语音四大赛道，还上线了官方IP二创版权平台。Doubao-Seed-2.1 Pro实现生产级能力，支持超长视频解析、五百级多智能体协同，调用成本远低于海外大模型；Seedance 2.5支持30秒长叙事、3D白模预演与多语言局部改片；Seedream 5.0 Pro自带分层拆解、复杂图文排版能力，图像视频模型可联动创作；全新音频模型能多角色带环境音完整演绎剧情。",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+      "primary_url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+      "source": "社区更新 · 2026-06-23",
+      "source_name": "WaytoAGI",
+      "sources": [
+        {
+          "id": "f6db9ffd5f09a9edd60b2ec6462a089e4a54f29f",
+          "title": "火山引擎Force原动力大会发布了全系列多模态模型，覆盖文本、视频、图像、语音四大赛道，还上线了官方IP二创版权平台。Doubao-Seed-2.1 Pro实现生产级能力，支持超长视频解析、五百级多智能体协同，调用成本远低于海外大模型；Seedance 2.5支持30秒长叙事、3D白模预演与多语言局部改片；Seedream 5.0 Pro自带分层拆解、复杂图文排版能力，图像视频模型可联动创作；全新音频模型能多角色带环境音完整演绎剧情。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-23",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-23T17:11:47.102138Z"
+        },
+        {
+          "id": "222b3fc8c784e81b2441e8a607f483ca2353e124",
+          "title": "经常用Codex生成图片的人或许常常会遇到版本混乱、修改指令模糊的问题，作者自研并开源了一个本地插件Prompt Canvas。工具采用SQLite本地存储，可以更直观地留存所有迭代版本，而且支持画布可视化批注，自动生成带坐标的结构化修改文档。文中有完整安装流程，快来上手搭建一个可完整回溯、稳定高效的AI做图工具。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-23",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-23T17:11:47.102138Z"
+        },
+        {
+          "id": "bacec34f6e4630ca30dca639c6234632c98a2214",
+          "title": "如果你刚接触 Codex，但已经看到很多人在说Skill，这篇可以先帮你把框架搭起来。那么Skill 到底是什么？哪些值得先看？以及你该怎么跟 Codex 提需求，才能让它更稳定地帮你干活？如果你已经用过一段时间，也可以把它当作一份工具清单，看看有没有值得补上的能力。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-23",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-23T08:24:52.988697Z"
+        },
+        {
+          "id": "20fb266fc648c57490c36bae1edb941f92897e77",
+          "title": "字节Seed 2.1系列模型正式发布 ，以解决日常生活、专业工作和前沿探索中的复杂需求为目标来进行迭代。模型三大核心能力全面升级，既能跨工具完成多步骤高价值办公与生活任务，也能独立走完企业开发全流程实现稳定的代码交付，更强的多模态、推理底层能力全程作为支撑。目前该模型已接入豆包、TRAE，火山引擎同步开放 API，快来上手体验下！",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-23",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-23T08:24:52.988697Z"
+        },
+        {
+          "id": "dff52cacb682b45ca14656290002825dabb49fb2",
+          "title": "很多开发者习惯开启多个Claude Code、Codex会话模块来提升开发效率，但人工只能逐个审核校验，频繁切屏查看各会话进度很容易漏掉关键节点，打断AI持续运行的节奏。云舒分享了一套轻量化解决方案，借助蓝牙音箱的灯光、语音提醒实时同步每个任务的推进阶段。不用反复切换窗口紧盯界面，就能全程掌握所有会话状态，最大化多线程协同开发的整体效率。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-23",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-23T08:24:52.988697Z"
+        },
+        {
+          "id": "aaedd40fd9122d6caafc8474744eac4eb392b730",
+          "title": "Claude Code 上线满一年，Boris Cherny 和 Cat Wu 以主创身份复盘了团队内部的真实工作流。他们谈论的不是某个具体功能，而是人和agent到底该怎么分工。 让我们来一起探究一下！",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-22",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-22T18:04:06.749267Z"
+        },
+        {
+          "id": "7af2e3e98d129f6f8aa07be2cc3e6250b6b94863",
+          "title": "Codex最近更新了一个录制回放的插件：Record & Replay 。简单来说，你在电脑上先手动把一个工作流程走一遍，Codex会观察并记录你的操作，随后转成一份可复用、可迭代的Agent Skill。这个插件到底怎么用、和传统 RPA是不是一回事，这篇文章带你拆清楚。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-22",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-22T18:04:06.749267Z"
+        },
+        {
+          "id": "a2cf7758fe3b342eaef6d444249fdf7620d20d65",
+          "title": "YC合伙人Tom Blomfield 在这期对话中带我们揭秘公司如何把自己改造成一个会学习的系统：如果 AI 能读取公司的知识、调用工具、观察结果、改写流程，一家公司还需要像过去那样靠层级、会议和中层管理来传递信息吗？",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-22",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-22T18:04:06.749267Z"
+        },
+        {
+          "id": "cd1b3b41efc1dd923cad7df4cfa64032d279b2d0",
+          "title": "在深耕一年Agent基础设施、服务五百余名用户后，作者发现分层可独立的迭代才是优质智能体架构的核心。于是做了一个更好的 Agent 框架：FastClaw，面向云原生多租户场景设计，更快、更轻量、更好用。这篇文章记录了他对 OpenClaw 架构的理解，以及对 FastClaw 架构设计的经验总结。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-22",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-22T18:04:06.749267Z"
+        },
+        {
+          "id": "af73ad02e00b1e47e33650d79ddfb807796d500a",
+          "title": "成峰这款剪辑 Skill又升级啦！只需上传素材与文稿，AI就可以自动精剪口播、清理瑕疵、生成对齐字幕，还能智能匹配镜头、生成手绘风动态动画。全程支持可视化校对、片段精细化修改，最后一键合成高清成片。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-22",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-22T18:04:06.749267Z"
+        }
+      ],
+      "source_count": 10,
+      "source_names": [
+        "社区更新 · 2026-06-22",
+        "社区更新 · 2026-06-23"
+      ],
+      "items": [
+        {
+          "id": "f6db9ffd5f09a9edd60b2ec6462a089e4a54f29f",
+          "title": "火山引擎Force原动力大会发布了全系列多模态模型，覆盖文本、视频、图像、语音四大赛道，还上线了官方IP二创版权平台。Doubao-Seed-2.1 Pro实现生产级能力，支持超长视频解析、五百级多智能体协同，调用成本远低于海外大模型；Seedance 2.5支持30秒长叙事、3D白模预演与多语言局部改片；Seedream 5.0 Pro自带分层拆解、复杂图文排版能力，图像视频模型可联动创作；全新音频模型能多角色带环境音完整演绎剧情。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-23",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-23T17:11:47.102138Z"
+        },
+        {
+          "id": "222b3fc8c784e81b2441e8a607f483ca2353e124",
+          "title": "经常用Codex生成图片的人或许常常会遇到版本混乱、修改指令模糊的问题，作者自研并开源了一个本地插件Prompt Canvas。工具采用SQLite本地存储，可以更直观地留存所有迭代版本，而且支持画布可视化批注，自动生成带坐标的结构化修改文档。文中有完整安装流程，快来上手搭建一个可完整回溯、稳定高效的AI做图工具。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-23",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-23T17:11:47.102138Z"
+        },
+        {
+          "id": "bacec34f6e4630ca30dca639c6234632c98a2214",
+          "title": "如果你刚接触 Codex，但已经看到很多人在说Skill，这篇可以先帮你把框架搭起来。那么Skill 到底是什么？哪些值得先看？以及你该怎么跟 Codex 提需求，才能让它更稳定地帮你干活？如果你已经用过一段时间，也可以把它当作一份工具清单，看看有没有值得补上的能力。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-23",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-23T08:24:52.988697Z"
+        },
+        {
+          "id": "20fb266fc648c57490c36bae1edb941f92897e77",
+          "title": "字节Seed 2.1系列模型正式发布 ，以解决日常生活、专业工作和前沿探索中的复杂需求为目标来进行迭代。模型三大核心能力全面升级，既能跨工具完成多步骤高价值办公与生活任务，也能独立走完企业开发全流程实现稳定的代码交付，更强的多模态、推理底层能力全程作为支撑。目前该模型已接入豆包、TRAE，火山引擎同步开放 API，快来上手体验下！",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-23",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-23T08:24:52.988697Z"
+        },
+        {
+          "id": "dff52cacb682b45ca14656290002825dabb49fb2",
+          "title": "很多开发者习惯开启多个Claude Code、Codex会话模块来提升开发效率，但人工只能逐个审核校验，频繁切屏查看各会话进度很容易漏掉关键节点，打断AI持续运行的节奏。云舒分享了一套轻量化解决方案，借助蓝牙音箱的灯光、语音提醒实时同步每个任务的推进阶段。不用反复切换窗口紧盯界面，就能全程掌握所有会话状态，最大化多线程协同开发的整体效率。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-23",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-23T08:24:52.988697Z"
+        },
+        {
+          "id": "aaedd40fd9122d6caafc8474744eac4eb392b730",
+          "title": "Claude Code 上线满一年，Boris Cherny 和 Cat Wu 以主创身份复盘了团队内部的真实工作流。他们谈论的不是某个具体功能，而是人和agent到底该怎么分工。 让我们来一起探究一下！",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-22",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-22T18:04:06.749267Z"
+        },
+        {
+          "id": "7af2e3e98d129f6f8aa07be2cc3e6250b6b94863",
+          "title": "Codex最近更新了一个录制回放的插件：Record & Replay 。简单来说，你在电脑上先手动把一个工作流程走一遍，Codex会观察并记录你的操作，随后转成一份可复用、可迭代的Agent Skill。这个插件到底怎么用、和传统 RPA是不是一回事，这篇文章带你拆清楚。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-22",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-22T18:04:06.749267Z"
+        },
+        {
+          "id": "a2cf7758fe3b342eaef6d444249fdf7620d20d65",
+          "title": "YC合伙人Tom Blomfield 在这期对话中带我们揭秘公司如何把自己改造成一个会学习的系统：如果 AI 能读取公司的知识、调用工具、观察结果、改写流程，一家公司还需要像过去那样靠层级、会议和中层管理来传递信息吗？",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-22",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-22T18:04:06.749267Z"
+        },
+        {
+          "id": "cd1b3b41efc1dd923cad7df4cfa64032d279b2d0",
+          "title": "在深耕一年Agent基础设施、服务五百余名用户后，作者发现分层可独立的迭代才是优质智能体架构的核心。于是做了一个更好的 Agent 框架：FastClaw，面向云原生多租户场景设计，更快、更轻量、更好用。这篇文章记录了他对 OpenClaw 架构的理解，以及对 FastClaw 架构设计的经验总结。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-22",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-22T18:04:06.749267Z"
+        },
+        {
+          "id": "af73ad02e00b1e47e33650d79ddfb807796d500a",
+          "title": "成峰这款剪辑 Skill又升级啦！只需上传素材与文稿，AI就可以自动精剪口播、清理瑕疵、生成对齐字幕，还能智能匹配镜头、生成手绘风动态动画。全程支持可视化校对、片段精细化修改，最后一键合成高清成片。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-22",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-22T18:04:06.749267Z"
+        }
+      ],
+      "item_count": 10,
+      "duplicate_count": 10,
+      "score": 0.6692,
+      "importance": 0.6692,
+      "importance_score": 0.6692,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.54,
+        "ai_relevance": 0.65,
+        "recency": 1.0,
+        "story_heat": 1.0
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-22T18:04:06.749267Z",
+      "latest_at": "2026-06-23T17:11:47.102138Z",
+      "primary_item": {
+        "id": "f6db9ffd5f09a9edd60b2ec6462a089e4a54f29f",
+        "title": "火山引擎Force原动力大会发布了全系列多模态模型，覆盖文本、视频、图像、语音四大赛道，还上线了官方IP二创版权平台。Doubao-Seed-2.1 Pro实现生产级能力，支持超长视频解析、五百级多智能体协同，调用成本远低于海外大模型；Seedance 2.5支持30秒长叙事、3D白模预演与多语言局部改片；Seedream 5.0 Pro自带分层拆解、复杂图文排版能力，图像视频模型可联动创作；全新音频模型能多角色带环境音完整演绎剧情。",
+        "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+        "source": "社区更新 · 2026-06-23",
+        "source_name": "WaytoAGI"
       }
     },
     {
@@ -1395,15 +1460,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7602,
-      "importance": 0.7602,
-      "importance_score": 0.7602,
+      "score": 0.7537,
+      "importance": 0.7537,
+      "importance_score": 0.7537,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9588,
+        "recency": 0.9226,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1419,6 +1484,66 @@
         "url": "https://www.aibase.com/news/29092",
         "source": "AIbase",
         "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_72e247ee906f",
+      "title": "Show HN：Oak--专为代理设计的 Git 替代方案",
+      "url": "https://oak.space/oak/oak",
+      "primary_url": "https://oak.space/oak/oak",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "da3fab35ef43007ec3565732d3de24dfcce7eef9",
+          "title": "Show HN：Oak--专为代理设计的 Git 替代方案",
+          "url": "https://oak.space/oak/oak",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-22T21:00:09.808000Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Hacker News 热门（buzzing.cc 中文翻译）"
+      ],
+      "items": [
+        {
+          "id": "da3fab35ef43007ec3565732d3de24dfcce7eef9",
+          "title": "Show HN：Oak--专为代理设计的 Git 替代方案",
+          "url": "https://oak.space/oak/oak",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-22T21:00:09.808000Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7221,
+      "importance": 0.7221,
+      "importance_score": 0.7221,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7471,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-06-22T21:00:09.808000Z",
+      "latest_at": "2026-06-22T21:00:09.808000Z",
+      "primary_item": {
+        "id": "da3fab35ef43007ec3565732d3de24dfcce7eef9",
+        "title": "Show HN：Oak--专为代理设计的 Git 替代方案",
+        "url": "https://oak.space/oak/oak",
+        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "source_name": "AI HOT"
       }
     }
   ]
