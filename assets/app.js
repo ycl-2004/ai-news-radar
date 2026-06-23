@@ -83,6 +83,7 @@ const SOURCE_KINDS = {
   bestblogs: { label: "博客", tone: "blogs" },
   tophub: { label: "聚合", tone: "aggregate" },
   zeli: { label: "聚合", tone: "aggregate" },
+  hackernews: { label: "HN", tone: "aggregate" },
   aihubtoday: { label: "AI站点", tone: "aihub" },
   aibase: { label: "AI站点", tone: "aihub" },
   waytoagi: { label: "社区", tone: "builders" },
@@ -95,6 +96,7 @@ const SECTION_DEFS = [
   { id: "models", label: "模型", short: "模型", description: "模型发布、能力升级、评测与开源权重" },
   { id: "products", label: "产品", short: "产品", description: "AI 应用、Agent、生成工具和用户产品更新" },
   { id: "devtools", label: "开发者", short: "开发者", description: "编程工具、API、开源项目、推理与工程实践" },
+  { id: "hn", label: "HN热议", short: "HN", description: "Hacker News 过去 24 小时的 AI 关键词讨论与高互动 story" },
   { id: "industry", label: "行业", short: "行业", description: "公司战略、融资收购、监管、芯片与产业变化" },
   { id: "research", label: "研究", short: "研究", description: "论文、基准、方法、数据集与研究团队动态" },
   { id: "creator", label: "自媒体", short: "自媒体", description: "一周内互动热度优先，24 小时新内容额外加分" },
@@ -597,6 +599,7 @@ function itemTagTone(label) {
   if (text.includes("多源")) return "strong";
   if (text.includes("官方")) return "official";
   if (text.includes("精选") || text.includes("热点")) return "hot";
+  if (text.includes("HN")) return "aggregate";
   if (text.includes("模型")) return "models";
   if (text.includes("开发")) return "devtools";
   if (text.includes("研究")) return "research";
@@ -743,6 +746,14 @@ function itemSections(item) {
       /github|cursor|codex|copilot|openrouter|api|sdk|mcp|cli|framework|inference|推理|开发者|开源|代码|编程|算力|芯片|nvidia|cloud|部署|benchmarking|token/,
     ])
   ) sections.add("devtools");
+
+  if (
+    item.site_id === "hackernews" ||
+    item.site_id === "zeli" ||
+    source.includes("hacker news") ||
+    source.includes("hackernews") ||
+    source.includes("hn algolia")
+  ) sections.add("hn");
 
   if (
     label === "industry_business" ||
@@ -1655,6 +1666,7 @@ function itemTagLabels(item, row = null) {
   if (item.site_id === "aihot") tags.push("精选");
   if (sections.has("models")) tags.push("模型发布");
   if (sections.has("devtools")) tags.push("开发者");
+  if (sections.has("hn")) tags.push("HN热议");
   if (sections.has("research")) tags.push("研究");
   if (sections.has("creator")) tags.push("自媒体");
   if (sections.has("community")) tags.push("社区");

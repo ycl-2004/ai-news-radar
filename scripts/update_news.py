@@ -182,6 +182,55 @@ AIHOT_FALLBACK_FEED_URLS = (
     "https://aihot.virxact.com/feed/daily.xml",
 )
 FOLLOW_BUILDERS_FEED_BASE = "https://raw.githubusercontent.com/zarazhangrui/follow-builders/main"
+HN_ALGOLIA_URL = "https://hn.algolia.com/api/v1/search_by_date"
+HN_ALGOLIA_QUERIES: tuple[str, ...] = (
+    "OpenAI",
+    "Anthropic",
+    "Claude Code",
+    "Claude",
+    "Gemini",
+    "Google AI",
+    "DeepSeek",
+    "Qwen",
+    "AI agent",
+    "AI coding",
+    "Codex",
+    "Cursor",
+    "MCP",
+    "LLM",
+    "GPT",
+    "Sora",
+    "Copilot",
+    "Nvidia AI",
+)
+HN_ALGOLIA_KEYWORDS: tuple[str, ...] = (
+    "openai",
+    "anthropic",
+    "claude",
+    "claude code",
+    "codex",
+    "cursor",
+    "mcp",
+    "gemini",
+    "deepseek",
+    "qwen",
+    "llm",
+    "gpt",
+    "sora",
+    "copilot",
+    "agent",
+    "ai coding",
+    "benchmark",
+    "eval",
+    "paper",
+    "model",
+    "inference",
+)
+HN_ALGOLIA_HITS_PER_QUERY = 35
+HN_ALGOLIA_MIN_KEYWORD_SCORE = 0.38
+HN_ALGOLIA_MIN_COMMENTS = 2
+HN_ALGOLIA_MIN_POINTS = 10
+HN_ALGOLIA_QUERY_PAUSE_SECONDS = 0.1
 AGENTMAIL_API_BASE_DEFAULT = "https://api.agentmail.to"
 AGENTMAIL_DIGEST_FILE = "email-digest.json"
 AGENTMAIL_DEFAULT_LIMIT = 50
@@ -1257,6 +1306,110 @@ def fetch_zeli(session: requests.Session, now: datetime) -> list[RawItem]:
     return out
 
 
+def hn_algolia_keyword_score(title: str) -> float:
+    blob = title.lower()
+    hits = 0
+    for keyword in HN_ALGOLIA_KEYWORDS:
+        if re.search(rf"(?<![a-z0-9]){re.escape(keyword)}(?![a-z0-9])", blob):
+            hits += 1
+    return min(1.0, hits / 3)
+
+
+def parse_hn_algolia_hits(payloads: list[tuple[str, dict[str, Any]]], now: datetime) -> list[RawItem]:
+    seen_ids: set[str] = set()
+    out: list[RawItem] = []
+
+    for query, payload in payloads:
+        hits = payload.get("hits")
+        if not isinstance(hits, list):
+            continue
+
+        for hit in hits:
+            if not isinstance(hit, dict):
+                continue
+            object_id = str(hit.get("objectID") or "").strip()
+            if not object_id or object_id in seen_ids:
+                continue
+            seen_ids.add(object_id)
+
+            title = maybe_fix_mojibake(str(first_non_empty(hit.get("title"), hit.get("story_title"))))
+            if not title or hn_algolia_keyword_score(title) < HN_ALGOLIA_MIN_KEYWORD_SCORE:
+                continue
+
+            try:
+                comments = int(hit.get("num_comments") or 0)
+            except Exception:
+                comments = 0
+            try:
+                points = int(hit.get("points") or 0)
+            except Exception:
+                points = 0
+            if comments < HN_ALGOLIA_MIN_COMMENTS and points < HN_ALGOLIA_MIN_POINTS:
+                continue
+
+            item_url = str(hit.get("url") or "").strip()
+            hn_url = f"https://news.ycombinator.com/item?id={object_id}"
+            published = parse_date_any(hit.get("created_at"), now) or parse_unix_timestamp(hit.get("created_at_i")) or now
+
+            out.append(
+                RawItem(
+                    site_id="hackernews",
+                    site_name="Hacker News",
+                    source="HN Algolia · AI 24h",
+                    title=title,
+                    url=item_url or hn_url,
+                    published_at=published,
+                    meta={
+                        "hn_id": object_id,
+                        "hn_url": hn_url,
+                        "hn_query": query,
+                        "hn_comments": comments,
+                        "hn_points": points,
+                    },
+                )
+            )
+
+    out.sort(
+        key=lambda item: (
+            int(item.meta.get("hn_comments") or 0),
+            int(item.meta.get("hn_points") or 0),
+            item.published_at or datetime.min.replace(tzinfo=UTC),
+        ),
+        reverse=True,
+    )
+    return out
+
+
+def fetch_hacker_news_algolia(session: requests.Session, now: datetime) -> list[RawItem]:
+    start_ts = int((now - timedelta(hours=24)).timestamp())
+    payloads: list[tuple[str, dict[str, Any]]] = []
+    errors: list[str] = []
+
+    for query in HN_ALGOLIA_QUERIES:
+        try:
+            response = session.get(
+                HN_ALGOLIA_URL,
+                params={
+                    "query": query,
+                    "tags": "story",
+                    "numericFilters": f"created_at_i>{start_ts}",
+                    "hitsPerPage": HN_ALGOLIA_HITS_PER_QUERY,
+                },
+                headers={"Accept": "application/json"},
+                timeout=16,
+            )
+            response.raise_for_status()
+            payloads.append((query, response.json()))
+        except Exception as exc:
+            errors.append(f"{query}: {exc}")
+        time.sleep(HN_ALGOLIA_QUERY_PAUSE_SECONDS)
+
+    if not payloads and errors:
+        raise ValueError(f"HN Algolia queries failed: {'; '.join(errors[:3])}")
+
+    return parse_hn_algolia_hits(payloads, now)
+
+
 def parse_anthropic_news_items(page_html: str, now: datetime) -> list[RawItem]:
     site_id = "official_ai"
     site_name = "Official AI Updates"
@@ -2133,6 +2286,7 @@ def collect_all(session: requests.Session, now: datetime) -> tuple[list[RawItem]
         ("bestblogs", "BestBlogs", fetch_bestblogs),
         ("tophub", "TopHub", fetch_tophub),
         ("zeli", "Zeli", fetch_zeli),
+        ("hackernews", "Hacker News", fetch_hacker_news_algolia),
         ("aihubtoday", "AI HubToday", fetch_ai_hubtoday),
         ("aibase", "AIbase", fetch_aibase),
         ("aihot", "AI HOT", fetch_aihot),
@@ -2592,6 +2746,7 @@ SOURCE_TIER_BY_SITE: dict[str, tuple[str, str, int]] = {
     "iris": ("discussion", "热议参考", 5),
     "tophub": ("discussion", "热议参考", 5),
     "zeli": ("discussion", "热议参考", 5),
+    "hackernews": ("discussion", "热议参考", 5),
     "newsnow": ("discussion", "热议参考", 5),
 }
 

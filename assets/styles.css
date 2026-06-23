@@ -1217,6 +1217,13 @@ summary:focus-visible {
   background: rgba(18, 106, 115, 0.08);
 }
 
+.signal-tag.tone-aggregate,
+.ai-tag.tone-aggregate {
+  color: #5f6b75;
+  border-color: rgba(95, 107, 117, 0.28);
+  background: rgba(95, 107, 117, 0.08);
+}
+
 .signal-tag.tone-research,
 .ai-tag.tone-research {
   color: #6b568f;

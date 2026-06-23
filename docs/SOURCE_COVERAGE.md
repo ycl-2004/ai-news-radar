@@ -98,6 +98,14 @@ baseline, then let the aggregator layer add breadth.
   API in selected mode and keeps only items whose AI HOT card score is at least
   60. The RSS feed is intentionally not used for the default fetch path because
   it does not expose the source score field needed for this quality gate.
+- **Hacker News Algolia**: reads the public
+  `https://hn.algolia.com/api/v1/search_by_date` endpoint for the last 24 hours
+  of HN stories matching focused AI/tooling keywords such as OpenAI, Anthropic,
+  Claude Code, Codex, MCP, Cursor, Gemini, DeepSeek, Qwen, LLM, GPT, Sora, and
+  Copilot. This is not a private HN API and does not require a key. It keeps
+  only titles with multiple AI keyword signals and enough discussion
+  (`num_comments >= 2` or `points >= 10`), so it remains a discussion/heat
+  reference rather than a broad HN firehose.
 - **WaytoAGI**: reads the public Feishu wiki update log into
   `data/waytoagi-7d.json`; the latest update day is also promoted into the
   community signal lane so it can appear under the Community tab without

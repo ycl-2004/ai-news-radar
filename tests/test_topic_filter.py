@@ -11,8 +11,10 @@ from scripts.update_news import (
     fetch_agentmail_digest,
     fetch_aihot,
     fetch_ai_hubtoday,
+    fetch_hacker_news_algolia,
     fetch_socialdata_list_tweets,
     fetch_tikhub_search,
+    hn_algolia_keyword_score,
     is_ai_related_record,
     is_hubtoday_generic_anchor_title,
     is_hubtoday_placeholder_title,
@@ -29,6 +31,7 @@ from scripts.update_news import (
     parse_curated_ai_media_feed_items,
     parse_date_any,
     parse_feed_entries_via_xml,
+    parse_hn_algolia_hits,
     parse_tikhub_douyin_items,
     parse_tikhub_xiaohongshu_items,
     parse_anthropic_news_items,
@@ -129,6 +132,115 @@ class TopicFilterTests(unittest.TestCase):
         }
         self.assertTrue(is_ai_related_record(keep))
         self.assertFalse(is_ai_related_record(drop))
+
+    def test_hn_algolia_keyword_score_requires_multiple_signals(self):
+        self.assertGreaterEqual(hn_algolia_keyword_score("OpenAI releases Codex agent tools"), 0.38)
+        self.assertLess(hn_algolia_keyword_score("OpenAI announces a policy update"), 0.38)
+
+    def test_parse_hn_algolia_hits_filters_and_dedupes_discussion_items(self):
+        now = datetime(2026, 6, 23, 12, 0, tzinfo=timezone.utc)
+        payloads = [
+            (
+                "OpenAI",
+                {
+                    "hits": [
+                        {
+                            "objectID": "1",
+                            "title": "OpenAI releases Codex agent tools",
+                            "url": "https://example.com/codex",
+                            "created_at": "2026-06-23T10:00:00Z",
+                            "num_comments": 5,
+                            "points": 11,
+                        },
+                        {
+                            "objectID": "2",
+                            "title": "OpenAI announces a policy update",
+                            "url": "https://example.com/policy",
+                            "created_at": "2026-06-23T09:00:00Z",
+                            "num_comments": 20,
+                            "points": 50,
+                        },
+                        {
+                            "objectID": "3",
+                            "title": "MCP server benchmark for coding agents",
+                            "created_at_i": 1782210600,
+                            "num_comments": 1,
+                            "points": 8,
+                        },
+                    ]
+                },
+            ),
+            (
+                "Codex",
+                {
+                    "hits": [
+                        {
+                            "objectID": "1",
+                            "title": "OpenAI releases Codex agent tools",
+                            "url": "https://duplicate.example.com/codex",
+                            "created_at": "2026-06-23T10:00:00Z",
+                            "num_comments": 99,
+                            "points": 99,
+                        },
+                        {
+                            "objectID": "4",
+                            "title": "MCP server benchmark for coding agents",
+                            "created_at_i": 1782210600,
+                            "num_comments": 2,
+                            "points": 10,
+                        },
+                    ]
+                },
+            ),
+        ]
+
+        items = parse_hn_algolia_hits(payloads, now)
+
+        self.assertEqual([item.meta["hn_id"] for item in items], ["1", "4"])
+        self.assertEqual(items[0].site_id, "hackernews")
+        self.assertEqual(items[0].site_name, "Hacker News")
+        self.assertEqual(items[0].source, "HN Algolia · AI 24h")
+        self.assertEqual(items[0].meta["hn_url"], "https://news.ycombinator.com/item?id=1")
+        self.assertEqual(items[1].url, "https://news.ycombinator.com/item?id=4")
+
+    def test_fetch_hn_algolia_uses_public_search_by_date_api(self):
+        now = datetime(2026, 6, 23, 12, 0, tzinfo=timezone.utc)
+
+        class FakeResponse:
+            def raise_for_status(self):
+                return None
+
+            def json(self):
+                return {
+                    "hits": [
+                        {
+                            "objectID": "1",
+                            "title": "OpenAI releases Codex agent tools",
+                            "url": "https://example.com/codex",
+                            "created_at": "2026-06-23T10:00:00Z",
+                            "num_comments": 5,
+                            "points": 11,
+                        }
+                    ]
+                }
+
+        class FakeSession:
+            def __init__(self):
+                self.calls = []
+
+            def get(self, url, **kwargs):
+                self.calls.append((url, kwargs))
+                return FakeResponse()
+
+        session = FakeSession()
+        with patch("scripts.update_news.HN_ALGOLIA_QUERIES", ("OpenAI",)), patch("scripts.update_news.time.sleep"):
+            items = fetch_hacker_news_algolia(session, now)
+
+        self.assertEqual(len(items), 1)
+        self.assertEqual(session.calls[0][0], "https://hn.algolia.com/api/v1/search_by_date")
+        self.assertEqual(session.calls[0][1]["params"]["query"], "OpenAI")
+        self.assertEqual(session.calls[0][1]["params"]["tags"], "story")
+        self.assertEqual(session.calls[0][1]["params"]["numericFilters"], "created_at_i>1782129600")
 
     def test_buzzing_source_fallback_to_host(self):
         source = normalize_source_for_display("buzzing", "Buzzing", "https://news.ycombinator.com/item?id=1")
