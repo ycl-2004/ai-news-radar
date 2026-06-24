@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T19:11:40.150741Z",
+  "generated_at": "2026-06-24T21:08:09.596121Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -57,15 +57,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8849,
-      "importance": 0.8849,
-      "importance_score": 0.8849,
+      "score": 0.8801,
+      "importance": 0.8801,
+      "importance_score": 0.8801,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.99,
-        "recency": 0.955,
+        "recency": 0.9286,
         "story_heat": 0.25
       },
       "category": "official",
@@ -177,15 +177,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.8484,
-      "importance": 0.8484,
-      "importance_score": 0.8484,
+      "score": 0.8438,
+      "importance": 0.8438,
+      "importance_score": 0.8438,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.78,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9323,
+        "recency": 0.9065,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -239,15 +239,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8451,
-      "importance": 0.8451,
-      "importance_score": 0.8451,
+      "score": 0.8403,
+      "importance": 0.8403,
+      "importance_score": 0.8403,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.9618,
+        "recency": 0.9352,
         "story_heat": 0.0
       },
       "category": "official",
@@ -301,15 +301,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8371,
-      "importance": 0.8371,
-      "importance_score": 0.8371,
+      "score": 0.8323,
+      "importance": 0.8323,
+      "importance_score": 0.8323,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.9615,
+        "recency": 0.9349,
         "story_heat": 0.0
       },
       "category": "official",
@@ -382,15 +382,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8474,
-      "importance": 0.8474,
-      "importance_score": 0.8474,
+      "score": 0.8437,
+      "importance": 0.8437,
+      "importance_score": 0.8437,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.98,
-        "recency": 0.7579,
+        "recency": 0.737,
         "story_heat": 0.25
       },
       "category": "official",
@@ -464,15 +464,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7925,
-      "importance": 0.7925,
-      "importance_score": 0.7925,
+      "score": 0.7877,
+      "importance": 0.7877,
+      "importance_score": 0.7877,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.74,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9662,
+        "recency": 0.9395,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -492,102 +492,83 @@
       }
     },
     {
-      "story_id": "story_295b7b9a80ac",
-      "title": "Oracle因AI应用裁员21000人，债务驱动云基础设施投资",
-      "url": "https://arstechnica.com/ai/2026/06/oracles-21000-layoffs-help-drive-its-debt-fueled-ai-investments",
-      "primary_url": "https://arstechnica.com/ai/2026/06/oracles-21000-layoffs-help-drive-its-debt-fueled-ai-investments",
-      "source": "Ars Technica：AI（RSS）",
+      "story_id": "story_4ad3f5f9d177",
+      "title": "GPT-5.5 Instant 新版本，对话更有趣",
+      "url": "https://x.com/OpenAI/status/2069843083701915755",
+      "primary_url": "https://x.com/OpenAI/status/2069843083701915755",
+      "source": "X：OpenAI (@OpenAI)",
       "source_name": "AI HOT",
       "sources": [
         {
-          "id": "806d5c5b54c69875b71f7b3cdc7c44bcb2fed77f",
-          "title": "Oracle因AI应用裁员21000人，债务驱动云基础设施投资",
-          "url": "https://arstechnica.com/ai/2026/06/oracles-21000-layoffs-help-drive-its-debt-fueled-ai-investments",
-          "source": "Ars Technica：AI（RSS）",
+          "id": "5973441026ba54a0e769ff5a05a4ee81f8df33fb",
+          "title": "GPT-5.5 Instant 新版本，对话更有趣",
+          "url": "https://x.com/OpenAI/status/2069843083701915755",
+          "source": "X：OpenAI (@OpenAI)",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-06-23T20:17:38Z"
+          "published_at": "2026-06-24T18:00:21Z"
         },
         {
-          "id": "134541b684ab4bbd09dc1279b6a354f2bec7ec49",
-          "title": "甲骨文裁员21,000人，助推其以债务为动力的AI投资",
-          "url": "https://arstechnica.com/ai/2026/06/oracles-21000-layoffs-help-drive-its-debt-fueled-ai-investments",
-          "source": "arstechnica.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-23T21:00:26.216000Z"
-        },
-        {
-          "id": "38234c7432f3f6799e68e885fcf4984efdf96687",
-          "title": "Oracle因AI应用裁员21000人，债务驱动云基础设施投资 / Oracle’s 21,000 layoffs help drive its debt-fueled AI investments",
-          "url": "https://arstechnica.com/ai/2026/06/oracles-21000-layoffs-help-drive-its-debt-fueled-ai-investments",
-          "source": "Ars Technica (科技媒体)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-23T20:17:38Z"
+          "id": "009aefb67416e15e0e63c7a06cf1ba4e561cddce",
+          "title": "GPT-5.5 Instant 新版本，对话更有趣 / We have a new version of GPT-5.5 Instant for you, and it's much more fun to talk to. Our most-used model is now better at understanding the intent behind a question and adapting its response accordingly. It also handles…",
+          "url": "https://x.com/OpenAI/status/2069843083701915755",
+          "source": "@OpenAI",
+          "source_name": "SocialData X",
+          "site_id": "socialdata_x",
+          "published_at": "2026-06-24T18:00:21Z"
         }
       ],
-      "source_count": 3,
+      "source_count": 2,
       "source_names": [
-        "Ars Technica (科技媒体)",
-        "Ars Technica：AI（RSS）",
-        "arstechnica.com"
+        "@OpenAI",
+        "X：OpenAI (@OpenAI)"
       ],
       "items": [
         {
-          "id": "806d5c5b54c69875b71f7b3cdc7c44bcb2fed77f",
-          "title": "Oracle因AI应用裁员21000人，债务驱动云基础设施投资",
-          "url": "https://arstechnica.com/ai/2026/06/oracles-21000-layoffs-help-drive-its-debt-fueled-ai-investments",
-          "source": "Ars Technica：AI（RSS）",
+          "id": "5973441026ba54a0e769ff5a05a4ee81f8df33fb",
+          "title": "GPT-5.5 Instant 新版本，对话更有趣",
+          "url": "https://x.com/OpenAI/status/2069843083701915755",
+          "source": "X：OpenAI (@OpenAI)",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-06-23T20:17:38Z"
+          "published_at": "2026-06-24T18:00:21Z"
         },
         {
-          "id": "134541b684ab4bbd09dc1279b6a354f2bec7ec49",
-          "title": "甲骨文裁员21,000人，助推其以债务为动力的AI投资",
-          "url": "https://arstechnica.com/ai/2026/06/oracles-21000-layoffs-help-drive-its-debt-fueled-ai-investments",
-          "source": "arstechnica.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-23T21:00:26.216000Z"
-        },
-        {
-          "id": "38234c7432f3f6799e68e885fcf4984efdf96687",
-          "title": "Oracle因AI应用裁员21000人，债务驱动云基础设施投资 / Oracle’s 21,000 layoffs help drive its debt-fueled AI investments",
-          "url": "https://arstechnica.com/ai/2026/06/oracles-21000-layoffs-help-drive-its-debt-fueled-ai-investments",
-          "source": "Ars Technica (科技媒体)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-23T20:17:38Z"
+          "id": "009aefb67416e15e0e63c7a06cf1ba4e561cddce",
+          "title": "GPT-5.5 Instant 新版本，对话更有趣 / We have a new version of GPT-5.5 Instant for you, and it's much more fun to talk to. Our most-used model is now better at understanding the intent behind a question and adapting its response accordingly. It also handles…",
+          "url": "https://x.com/OpenAI/status/2069843083701915755",
+          "source": "@OpenAI",
+          "source_name": "SocialData X",
+          "site_id": "socialdata_x",
+          "published_at": "2026-06-24T18:00:21Z"
         }
       ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.7789,
-      "importance": 0.7789,
-      "importance_score": 0.7789,
-      "importance_label": "多源热议",
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7696,
+      "importance": 0.7696,
+      "importance_score": 0.7696,
+      "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.76,
+        "editorial": 0.67,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7184,
-        "story_heat": 0.5
+        "recency": 0.9558,
+        "story_heat": 0.25
       },
-      "category": "multi_source",
+      "category": "industry",
       "reasons": [
         "multi_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-06-23T20:17:38Z",
-      "latest_at": "2026-06-23T21:00:26.216000Z",
+      "earliest_at": "2026-06-24T18:00:21Z",
+      "latest_at": "2026-06-24T18:00:21Z",
       "primary_item": {
-        "id": "806d5c5b54c69875b71f7b3cdc7c44bcb2fed77f",
-        "title": "Oracle因AI应用裁员21000人，债务驱动云基础设施投资",
-        "url": "https://arstechnica.com/ai/2026/06/oracles-21000-layoffs-help-drive-its-debt-fueled-ai-investments",
-        "source": "Ars Technica：AI（RSS）",
+        "id": "5973441026ba54a0e769ff5a05a4ee81f8df33fb",
+        "title": "GPT-5.5 Instant 新版本，对话更有趣",
+        "url": "https://x.com/OpenAI/status/2069843083701915755",
+        "source": "X：OpenAI (@OpenAI)",
         "source_name": "AI HOT"
       }
     },
@@ -645,15 +626,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7708,
-      "importance": 0.7708,
-      "importance_score": 0.7708,
+      "score": 0.7664,
+      "importance": 0.7664,
+      "importance_score": 0.7664,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8789,
+        "recency": 0.8546,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -726,15 +707,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7643,
-      "importance": 0.7643,
-      "importance_score": 0.7643,
+      "score": 0.7603,
+      "importance": 0.7603,
+      "importance_score": 0.7603,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.74,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8097,
+        "recency": 0.7873,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -751,68 +732,6 @@
         "url": "https://www.ithome.com/0/967/852.htm",
         "source": "IT之家（RSS）",
         "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_2b6df21683e4",
-      "title": "秘密扫描为复制秘密添加了扩展元数据 / Secret scanning adds extended metadata for Replicate secrets",
-      "url": "https://github.blog/changelog/2026-06-23-secret-scanning-adds-extended-metadata-for-replicate-secrets",
-      "primary_url": "https://github.blog/changelog/2026-06-23-secret-scanning-adds-extended-metadata-for-replicate-secrets",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "999c633e50129f65e141d4a5ac13fa19fed971ac",
-          "title": "秘密扫描为复制秘密添加了扩展元数据 / Secret scanning adds extended metadata for Replicate secrets",
-          "url": "https://github.blog/changelog/2026-06-23-secret-scanning-adds-extended-metadata-for-replicate-secrets",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-23T19:50:00Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "items": [
-        {
-          "id": "999c633e50129f65e141d4a5ac13fa19fed971ac",
-          "title": "秘密扫描为复制秘密添加了扩展元数据 / Secret scanning adds extended metadata for Replicate secrets",
-          "url": "https://github.blog/changelog/2026-06-23-secret-scanning-adds-extended-metadata-for-replicate-secrets",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-23T19:50:00Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7925,
-      "importance": 0.7925,
-      "importance_score": 0.7925,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.7137,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-23T19:50:00Z",
-      "latest_at": "2026-06-23T19:50:00Z",
-      "primary_item": {
-        "id": "999c633e50129f65e141d4a5ac13fa19fed971ac",
-        "title": "秘密扫描为复制秘密添加了扩展元数据 / Secret scanning adds extended metadata for Replicate secrets",
-        "url": "https://github.blog/changelog/2026-06-23-secret-scanning-adds-extended-metadata-for-replicate-secrets",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
       }
     },
     {
@@ -850,15 +769,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7607,
-      "importance": 0.7607,
-      "importance_score": 0.7607,
+      "score": 0.7561,
+      "importance": 0.7561,
+      "importance_score": 0.7561,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.74,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9283,
+        "recency": 0.9027,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -911,21 +830,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7532,
-      "importance": 0.7532,
-      "importance_score": 0.7532,
+      "score": 0.7484,
+      "importance": 0.7484,
+      "importance_score": 0.7484,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.69,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9701,
+        "recency": 0.9433,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-06-24T17:05:40.380000Z",
       "latest_at": "2026-06-24T17:05:40.380000Z",
@@ -938,62 +856,182 @@
       }
     },
     {
-      "story_id": "story_4ad3f5f9d177",
-      "title": "GPT-5.5 Instant 新版本，对话更有趣",
-      "url": "https://x.com/OpenAI/status/2069843083701915755",
-      "primary_url": "https://x.com/OpenAI/status/2069843083701915755",
-      "source": "X：OpenAI (@OpenAI)",
+      "story_id": "story_dc2e61f7754f",
+      "title": "Notion 使用 Cursor SDK 嵌入编码智能体",
+      "url": "https://cursor.com/blog/notion",
+      "primary_url": "https://cursor.com/blog/notion",
+      "source": "Cursor Blog",
       "source_name": "AI HOT",
       "sources": [
         {
-          "id": "5973441026ba54a0e769ff5a05a4ee81f8df33fb",
-          "title": "GPT-5.5 Instant 新版本，对话更有趣",
-          "url": "https://x.com/OpenAI/status/2069843083701915755",
-          "source": "X：OpenAI (@OpenAI)",
+          "id": "c35a6812044773fda99d56197e6b48da5938999b",
+          "title": "Notion 使用 Cursor SDK 嵌入编码智能体",
+          "url": "https://cursor.com/blog/notion",
+          "source": "Cursor Blog",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-06-24T18:00:21Z"
+          "published_at": "2026-06-24T20:55:19.799000Z"
         }
       ],
       "source_count": 1,
       "source_names": [
-        "X：OpenAI (@OpenAI)"
+        "Cursor Blog"
       ],
       "items": [
         {
-          "id": "5973441026ba54a0e769ff5a05a4ee81f8df33fb",
-          "title": "GPT-5.5 Instant 新版本，对话更有趣",
-          "url": "https://x.com/OpenAI/status/2069843083701915755",
-          "source": "X：OpenAI (@OpenAI)",
+          "id": "c35a6812044773fda99d56197e6b48da5938999b",
+          "title": "Notion 使用 Cursor SDK 嵌入编码智能体",
+          "url": "https://cursor.com/blog/notion",
+          "source": "Cursor Blog",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-06-24T18:00:21Z"
+          "published_at": "2026-06-24T20:55:19.799000Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7495,
-      "importance": 0.7495,
-      "importance_score": 0.7495,
+      "score": 0.746,
+      "importance": 0.746,
+      "importance_score": 0.746,
       "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.67,
+        "editorial": 0.65,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.983,
+        "recency": 0.9969,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
         "high_ai_relevance"
       ],
-      "earliest_at": "2026-06-24T18:00:21Z",
-      "latest_at": "2026-06-24T18:00:21Z",
+      "earliest_at": "2026-06-24T20:55:19.799000Z",
+      "latest_at": "2026-06-24T20:55:19.799000Z",
       "primary_item": {
-        "id": "5973441026ba54a0e769ff5a05a4ee81f8df33fb",
-        "title": "GPT-5.5 Instant 新版本，对话更有趣",
-        "url": "https://x.com/OpenAI/status/2069843083701915755",
-        "source": "X：OpenAI (@OpenAI)",
+        "id": "c35a6812044773fda99d56197e6b48da5938999b",
+        "title": "Notion 使用 Cursor SDK 嵌入编码智能体",
+        "url": "https://cursor.com/blog/notion",
+        "source": "Cursor Blog",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_111f8c18c9b5",
+      "title": "OpenRouter 零数据留存（ZDR）实践：97 款新模型，流量占比近半",
+      "url": "https://openrouter.ai/blog/insights/when-zero-means-zero",
+      "primary_url": "https://openrouter.ai/blog/insights/when-zero-means-zero",
+      "source": "OpenRouter：Announcements（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "0c114f5a42eaebcda511a34dc25d43e9fc11a192",
+          "title": "OpenRouter 零数据留存（ZDR）实践：97 款新模型，流量占比近半",
+          "url": "https://openrouter.ai/blog/insights/when-zero-means-zero",
+          "source": "OpenRouter：Announcements（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-24T16:00:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "OpenRouter：Announcements（RSS）"
+      ],
+      "items": [
+        {
+          "id": "0c114f5a42eaebcda511a34dc25d43e9fc11a192",
+          "title": "OpenRouter 零数据留存（ZDR）实践：97 款新模型，流量占比近半",
+          "url": "https://openrouter.ai/blog/insights/when-zero-means-zero",
+          "source": "OpenRouter：Announcements（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-24T16:00:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7427,
+      "importance": 0.7427,
+      "importance_score": 0.7427,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.68,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9285,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-06-24T16:00:00Z",
+      "latest_at": "2026-06-24T16:00:00Z",
+      "primary_item": {
+        "id": "0c114f5a42eaebcda511a34dc25d43e9fc11a192",
+        "title": "OpenRouter 零数据留存（ZDR）实践：97 款新模型，流量占比近半",
+        "url": "https://openrouter.ai/blog/insights/when-zero-means-zero",
+        "source": "OpenRouter：Announcements（RSS）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_512fdde1e885",
+      "title": "Perplexity推出Computer for Counsel",
+      "url": "https://x.com/perplexity_ai/status/2069866668671766804",
+      "primary_url": "https://x.com/perplexity_ai/status/2069866668671766804",
+      "source": "X：Perplexity (@perplexity_ai)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "95d6569fec3cf989081d28e11f2877f35fe2a6f9",
+          "title": "Perplexity推出Computer for Counsel",
+          "url": "https://x.com/perplexity_ai/status/2069866668671766804",
+          "source": "X：Perplexity (@perplexity_ai)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-24T19:34:04Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "X：Perplexity (@perplexity_ai)"
+      ],
+      "items": [
+        {
+          "id": "95d6569fec3cf989081d28e11f2877f35fe2a6f9",
+          "title": "Perplexity推出Computer for Counsel",
+          "url": "https://x.com/perplexity_ai/status/2069866668671766804",
+          "source": "X：Perplexity (@perplexity_ai)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-24T19:34:04Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7426,
+      "importance": 0.7426,
+      "importance_score": 0.7426,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.65,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9776,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-06-24T19:34:04Z",
+      "latest_at": "2026-06-24T19:34:04Z",
+      "primary_item": {
+        "id": "95d6569fec3cf989081d28e11f2877f35fe2a6f9",
+        "title": "Perplexity推出Computer for Counsel",
+        "url": "https://x.com/perplexity_ai/status/2069866668671766804",
+        "source": "X：Perplexity (@perplexity_ai)",
         "source_name": "AI HOT"
       }
     },
@@ -1032,15 +1070,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7453,
-      "importance": 0.7453,
-      "importance_score": 0.7453,
+      "score": 0.7411,
+      "importance": 0.7411,
+      "importance_score": 0.7411,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.74,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8428,
+        "recency": 0.8195,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1092,15 +1130,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.741,
-      "importance": 0.741,
-      "importance_score": 0.741,
+      "score": 0.7372,
+      "importance": 0.7372,
+      "importance_score": 0.7372,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.77,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7689,
+        "recency": 0.7477,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1152,15 +1190,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7372,
-      "importance": 0.7372,
-      "importance_score": 0.7372,
+      "score": 0.7332,
+      "importance": 0.7332,
+      "importance_score": 0.7332,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.74,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7976,
+        "recency": 0.7756,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1212,15 +1250,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7295,
-      "importance": 0.7295,
-      "importance_score": 0.7295,
+      "score": 0.7247,
+      "importance": 0.7247,
+      "importance_score": 0.7247,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.62,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9549,
+        "recency": 0.9285,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1272,15 +1310,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7458,
-      "importance": 0.7458,
-      "importance_score": 0.7458,
+      "score": 0.7414,
+      "importance": 0.7414,
+      "importance_score": 0.7414,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8789,
+        "recency": 0.8546,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1332,15 +1370,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7279,
-      "importance": 0.7279,
-      "importance_score": 0.7279,
+      "score": 0.7235,
+      "importance": 0.7235,
+      "importance_score": 0.7235,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.66,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8795,
+        "recency": 0.8551,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1355,66 +1393,6 @@
         "url": "https://mp.weixin.qq.com/s/83mrPAPgQRKhxLkoSvRgBQ",
         "source": "公众号：火山引擎",
         "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_6a4ed720b882",
-      "title": "即梦AI Seedance2.0VIP上线原生4K，视频生成分辨率实现源头突破",
-      "url": "https://www.aibase.com/news/29133",
-      "primary_url": "https://www.aibase.com/news/29133",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "814cd5be164c04fb7245dbd3f351c414ead3238f",
-          "title": "即梦AI Seedance2.0VIP上线原生4K，视频生成分辨率实现源头突破",
-          "url": "https://www.aibase.com/news/29133",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-24T10:15:31.292438Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "814cd5be164c04fb7245dbd3f351c414ead3238f",
-          "title": "即梦AI Seedance2.0VIP上线原生4K，视频生成分辨率实现源头突破",
-          "url": "https://www.aibase.com/news/29133",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-24T10:15:31.292438Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7458,
-      "importance": 0.7458,
-      "importance_score": 0.7458,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8789,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-24T10:15:31.292438Z",
-      "latest_at": "2026-06-24T10:15:31.292438Z",
-      "primary_item": {
-        "id": "814cd5be164c04fb7245dbd3f351c414ead3238f",
-        "title": "即梦AI Seedance2.0VIP上线原生4K，视频生成分辨率实现源头突破",
-        "url": "https://www.aibase.com/news/29133",
-        "source": "AIbase",
-        "source_name": "AIbase"
       }
     }
   ]
