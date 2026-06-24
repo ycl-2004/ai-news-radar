@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T10:15:31.292438Z",
+  "generated_at": "2026-06-24T12:32:02.485487Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -57,15 +57,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8372,
-      "importance": 0.8372,
-      "importance_score": 0.8372,
+      "score": 0.8329,
+      "importance": 0.8329,
+      "importance_score": 0.8329,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.7342,
+        "recency": 0.7105,
         "story_heat": 0.25
       },
       "category": "official",
@@ -120,15 +120,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8115,
-      "importance": 0.8115,
-      "importance_score": 0.8115,
+      "score": 0.807,
+      "importance": 0.807,
+      "importance_score": 0.807,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.7749,
+        "recency": 0.7498,
         "story_heat": 0.0
       },
       "category": "official",
@@ -182,15 +182,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8023,
-      "importance": 0.8023,
-      "importance_score": 0.8023,
+      "score": 0.7978,
+      "importance": 0.7978,
+      "importance_score": 0.7978,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.7682,
+        "recency": 0.7434,
         "story_heat": 0.0
       },
       "category": "official",
@@ -282,15 +282,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.7967,
-      "importance": 0.7967,
-      "importance_score": 0.7967,
+      "score": 0.792,
+      "importance": 0.792,
+      "importance_score": 0.792,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.76,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8174,
+        "recency": 0.791,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -363,15 +363,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7926,
-      "importance": 0.7926,
-      "importance_score": 0.7926,
+      "score": 0.7868,
+      "importance": 0.7868,
+      "importance_score": 0.7868,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.9677,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -463,15 +463,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.785,
-      "importance": 0.785,
-      "importance_score": 0.785,
+      "score": 0.7801,
+      "importance": 0.7801,
+      "importance_score": 0.7801,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.71,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8354,
+        "recency": 0.8084,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -544,15 +544,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7844,
-      "importance": 0.7844,
-      "importance_score": 0.7844,
+      "score": 0.7791,
+      "importance": 0.7791,
+      "importance_score": 0.7791,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.74,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9212,
+        "recency": 0.8914,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -606,15 +606,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8102,
-      "importance": 0.8102,
-      "importance_score": 0.8102,
+      "score": 0.8054,
+      "importance": 0.8054,
+      "importance_score": 0.8054,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.812,
+        "recency": 0.7857,
         "story_heat": 0.0
       },
       "category": "official",
@@ -668,15 +668,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7662,
-      "importance": 0.7662,
-      "importance_score": 0.7662,
+      "score": 0.7606,
+      "importance": 0.7606,
+      "importance_score": 0.7606,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.74,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9589,
+        "recency": 0.9279,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -729,15 +729,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7601,
-      "importance": 0.7601,
-      "importance_score": 0.7601,
+      "score": 0.755,
+      "importance": 0.755,
+      "importance_score": 0.755,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.77,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8749,
+        "recency": 0.8466,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -790,15 +790,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7569,
-      "importance": 0.7569,
-      "importance_score": 0.7569,
+      "score": 0.7517,
+      "importance": 0.7517,
+      "importance_score": 0.7517,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.74,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9075,
+        "recency": 0.8781,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -813,6 +813,66 @@
         "title": "Qwen-AgentWorld 开源：让 Agent 学会\"先预测，再行动\"",
         "url": "https://mp.weixin.qq.com/s/NV9WGpGsfFz35jww5agM9g",
         "source": "公众号：通义实验室（千问）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_53a96122f224",
+      "title": "火山引擎推出Agent Ready基础设施，AgentKit与ArkClaw企业版升级",
+      "url": "https://mp.weixin.qq.com/s/83mrPAPgQRKhxLkoSvRgBQ",
+      "primary_url": "https://mp.weixin.qq.com/s/83mrPAPgQRKhxLkoSvRgBQ",
+      "source": "公众号：火山引擎",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "b91e09ca71100ce9e5a09dea0d33dd184467f3af",
+          "title": "火山引擎推出Agent Ready基础设施，AgentKit与ArkClaw企业版升级",
+          "url": "https://mp.weixin.qq.com/s/83mrPAPgQRKhxLkoSvRgBQ",
+          "source": "公众号：火山引擎",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-24T10:17:58Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "公众号：火山引擎"
+      ],
+      "items": [
+        {
+          "id": "b91e09ca71100ce9e5a09dea0d33dd184467f3af",
+          "title": "火山引擎推出Agent Ready基础设施，AgentKit与ArkClaw企业版升级",
+          "url": "https://mp.weixin.qq.com/s/83mrPAPgQRKhxLkoSvRgBQ",
+          "source": "公众号：火山引擎",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-24T10:17:58Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7439,
+      "importance": 0.7439,
+      "importance_score": 0.7439,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.66,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9682,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-06-24T10:17:58Z",
+      "latest_at": "2026-06-24T10:17:58Z",
+      "primary_item": {
+        "id": "b91e09ca71100ce9e5a09dea0d33dd184467f3af",
+        "title": "火山引擎推出Agent Ready基础设施，AgentKit与ArkClaw企业版升级",
+        "url": "https://mp.weixin.qq.com/s/83mrPAPgQRKhxLkoSvRgBQ",
+        "source": "公众号：火山引擎",
         "source_name": "AI HOT"
       }
     },
@@ -851,15 +911,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8077,
-      "importance": 0.8077,
-      "importance_score": 0.8077,
+      "score": 0.803,
+      "importance": 0.803,
+      "importance_score": 0.803,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.7981,
+        "recency": 0.7723,
         "story_heat": 0.0
       },
       "category": "official",
@@ -913,15 +973,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7382,
-      "importance": 0.7382,
-      "importance_score": 0.7382,
+      "score": 0.7327,
+      "importance": 0.7327,
+      "importance_score": 0.7327,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.65,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9535,
+        "recency": 0.9227,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -973,15 +1033,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7376,
-      "importance": 0.7376,
-      "importance_score": 0.7376,
+      "score": 0.7327,
+      "importance": 0.7327,
+      "importance_score": 0.7327,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8331,
+        "recency": 0.8062,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1033,15 +1093,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
+      "score": 0.7618,
+      "importance": 0.7618,
+      "importance_score": 0.7618,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.9677,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1094,15 +1154,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7347,
-      "importance": 0.7347,
-      "importance_score": 0.7347,
+      "score": 0.7301,
+      "importance": 0.7301,
+      "importance_score": 0.7301,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.73,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8008,
+        "recency": 0.7749,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1154,15 +1214,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.726,
-      "importance": 0.726,
-      "importance_score": 0.726,
+      "score": 0.7214,
+      "importance": 0.7214,
+      "importance_score": 0.7214,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.71,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7853,
+        "recency": 0.7599,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1214,15 +1274,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8038,
-      "importance": 0.8038,
-      "importance_score": 0.8038,
+      "score": 0.7993,
+      "importance": 0.7993,
+      "importance_score": 0.7993,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.7768,
+        "recency": 0.7517,
         "story_heat": 0.0
       },
       "category": "official",
@@ -1242,163 +1302,64 @@
       }
     },
     {
-      "story_id": "story_88321bfd39ba",
-      "title": "网易有道发布 Confucius4-TTS：14 语种跨语种无口音语音克隆开源模型",
-      "url": "https://www.ithome.com/0/967/636.htm",
-      "primary_url": "https://www.ithome.com/0/967/636.htm",
-      "source": "IT之家（RSS）",
-      "source_name": "AI HOT",
+      "story_id": "story_6a4ed720b882",
+      "title": "即梦AI Seedance2.0VIP上线原生4K，视频生成分辨率实现源头突破",
+      "url": "https://www.aibase.com/news/29133",
+      "primary_url": "https://www.aibase.com/news/29133",
+      "source": "AIbase",
+      "source_name": "AIbase",
       "sources": [
         {
-          "id": "425838cb5d8d6bf2b0b75966a9e365216dd5d7a3",
-          "title": "网易有道发布 Confucius4-TTS：14 语种跨语种无口音语音克隆开源模型",
-          "url": "https://www.ithome.com/0/967/636.htm",
-          "source": "IT之家（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-23T11:00:00Z"
-        },
-        {
-          "id": "a3ca769fc1047b4e3bd6e0a5f4eb5c31578ab6b5",
-          "title": "网易发布 Confucius4-TTS：业内首个支持 14 种语言跨语种无口音、且无需参考文本即可完成语音克隆的开源模型，3 秒音频即可克隆音色",
-          "url": "https://www.ithome.com/0/967/636.htm",
-          "source": "IT之家 (ITHome)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-23T11:00:00Z"
+          "id": "814cd5be164c04fb7245dbd3f351c414ead3238f",
+          "title": "即梦AI Seedance2.0VIP上线原生4K，视频生成分辨率实现源头突破",
+          "url": "https://www.aibase.com/news/29133",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-24T10:15:31.292438Z"
         }
       ],
-      "source_count": 2,
+      "source_count": 1,
       "source_names": [
-        "IT之家 (ITHome)",
-        "IT之家（RSS）"
+        "AIbase"
       ],
       "items": [
         {
-          "id": "425838cb5d8d6bf2b0b75966a9e365216dd5d7a3",
-          "title": "网易有道发布 Confucius4-TTS：14 语种跨语种无口音语音克隆开源模型",
-          "url": "https://www.ithome.com/0/967/636.htm",
-          "source": "IT之家（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-23T11:00:00Z"
-        },
-        {
-          "id": "a3ca769fc1047b4e3bd6e0a5f4eb5c31578ab6b5",
-          "title": "网易发布 Confucius4-TTS：业内首个支持 14 种语言跨语种无口音、且无需参考文本即可完成语音克隆的开源模型，3 秒音频即可克隆音色",
-          "url": "https://www.ithome.com/0/967/636.htm",
-          "source": "IT之家 (ITHome)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-23T11:00:00Z"
+          "id": "814cd5be164c04fb7245dbd3f351c414ead3238f",
+          "title": "即梦AI Seedance2.0VIP上线原生4K，视频生成分辨率实现源头突破",
+          "url": "https://www.aibase.com/news/29133",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-24T10:15:31.292438Z"
         }
       ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7412,
-      "importance": 0.7412,
-      "importance_score": 0.7412,
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7618,
+      "importance": 0.7618,
+      "importance_score": 0.7618,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7147,
-        "story_heat": 0.25
+        "recency": 0.9677,
+        "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "multi_source",
-        "high_ai_relevance"
+        "high_ai_relevance",
+        "high_importance"
       ],
-      "earliest_at": "2026-06-23T11:00:00Z",
-      "latest_at": "2026-06-23T11:00:00Z",
+      "earliest_at": "2026-06-24T10:15:31.292438Z",
+      "latest_at": "2026-06-24T10:15:31.292438Z",
       "primary_item": {
-        "id": "425838cb5d8d6bf2b0b75966a9e365216dd5d7a3",
-        "title": "网易有道发布 Confucius4-TTS：14 语种跨语种无口音语音克隆开源模型",
-        "url": "https://www.ithome.com/0/967/636.htm",
-        "source": "IT之家（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_c67823bff2e2",
-      "title": "无限制OCR：单次长时域解析",
-      "url": "https://github.com/baidu/Unlimited-OCR",
-      "primary_url": "https://github.com/baidu/Unlimited-OCR",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "b937d81a41d706fedd134d3d93a2abb797f7980e",
-          "title": "无限制OCR：单次长时域解析",
-          "url": "https://github.com/baidu/Unlimited-OCR",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-23T13:32:22.612000Z"
-        },
-        {
-          "id": "cdf900d98f754bec2199c9a668779b586b3e159f",
-          "title": "无限制OCR：单次长时域解析 / Unlimited OCR: One-shot long-horizon parsing",
-          "url": "https://github.com/baidu/Unlimited-OCR",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-23T11:35:05Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News · 24h最热",
-        "Hacker News 热门（buzzing.cc 中文翻译）"
-      ],
-      "items": [
-        {
-          "id": "b937d81a41d706fedd134d3d93a2abb797f7980e",
-          "title": "无限制OCR：单次长时域解析",
-          "url": "https://github.com/baidu/Unlimited-OCR",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-23T13:32:22.612000Z"
-        },
-        {
-          "id": "cdf900d98f754bec2199c9a668779b586b3e159f",
-          "title": "无限制OCR：单次长时域解析 / Unlimited OCR: One-shot long-horizon parsing",
-          "url": "https://github.com/baidu/Unlimited-OCR",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-23T11:35:05Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7401,
-      "importance": 0.7401,
-      "importance_score": 0.7401,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.7,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7414,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-23T11:35:05Z",
-      "latest_at": "2026-06-23T13:32:22.612000Z",
-      "primary_item": {
-        "id": "b937d81a41d706fedd134d3d93a2abb797f7980e",
-        "title": "无限制OCR：单次长时域解析",
-        "url": "https://github.com/baidu/Unlimited-OCR",
-        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-        "source_name": "AI HOT"
+        "id": "814cd5be164c04fb7245dbd3f351c414ead3238f",
+        "title": "即梦AI Seedance2.0VIP上线原生4K，视频生成分辨率实现源头突破",
+        "url": "https://www.aibase.com/news/29133",
+        "source": "AIbase",
+        "source_name": "AIbase"
       }
     }
   ]
