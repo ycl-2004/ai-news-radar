@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T06:38:35.999084Z",
+  "generated_at": "2026-06-24T10:15:31.292438Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -57,15 +57,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8442,
-      "importance": 0.8442,
-      "importance_score": 0.8442,
+      "score": 0.8372,
+      "importance": 0.8372,
+      "importance_score": 0.8372,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.7736,
+        "recency": 0.7342,
         "story_heat": 0.25
       },
       "category": "official",
@@ -120,15 +120,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.819,
-      "importance": 0.819,
-      "importance_score": 0.819,
+      "score": 0.8115,
+      "importance": 0.8115,
+      "importance_score": 0.8115,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.8164,
+        "recency": 0.7749,
         "story_heat": 0.0
       },
       "category": "official",
@@ -145,125 +145,6 @@
         "url": "https://github.blog/changelog/2026-06-23-copilot-cli-new-terminal-interface-is-generally-available",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
-      }
-    },
-    {
-      "story_id": "story_b0b6250b5d11",
-      "title": "AI招聘工具存在种族偏见和系统性排斥；黑人占比26%，亚裔占比15%",
-      "url": "https://hai.stanford.edu/news/ai-hiring-tools-can-yield-racial-bias-and-systemic-rejection",
-      "primary_url": "https://hai.stanford.edu/news/ai-hiring-tools-can-yield-racial-bias-and-systemic-rejection",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "ca57be98086a74134f25577bba0a5c0308f6fccf",
-          "title": "AI招聘工具存在种族偏见和系统性排斥；黑人占比26%，亚裔占比15%",
-          "url": "https://hai.stanford.edu/news/ai-hiring-tools-can-yield-racial-bias-and-systemic-rejection",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-23T21:48:25.964000Z"
-        },
-        {
-          "id": "ad5e2a98968cb6a0e60747a881830c8f69ab6267",
-          "title": "人工智能招聘工具会产生种族偏见和系统性拒绝； 26% 黑人和 15% 亚洲人 / AI Hiring Tools Yield Racial Bias and Systemic Rejection; 26% Black & 15% Asian",
-          "url": "https://news.ycombinator.com/item?id=48649673",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-23T20:43:35.392000Z"
-        },
-        {
-          "id": "cf340c95a1277eac565e91076dd87e97028415fb",
-          "title": "AI招聘工具存在种族偏见和系统性排斥；黑人占比26%，亚裔占比15% / AI Hiring Tools Yield Racial Bias and Systemic Rejection; 26% Black & 15% Asian",
-          "url": "https://hai.stanford.edu/news/ai-hiring-tools-can-yield-racial-bias-and-systemic-rejection",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-23T18:56:19Z"
-        },
-        {
-          "id": "e17e45295b8bb7fa23177cef34638246ef06fd68",
-          "title": "AI招聘工具存在种族偏见和系统性排斥；黑人占比26%，亚裔占比15% / Algorithmic Monocultures in Hiring",
-          "url": "https://hai.stanford.edu/news/ai-hiring-tools-can-yield-racial-bias-and-systemic-rejection",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-23T18:56:19Z"
-        }
-      ],
-      "source_count": 4,
-      "source_names": [
-        "Hacker News (黑客新闻)",
-        "Hacker News · 24h最热",
-        "Hacker News 热门（buzzing.cc 中文翻译）",
-        "hackernews"
-      ],
-      "items": [
-        {
-          "id": "ca57be98086a74134f25577bba0a5c0308f6fccf",
-          "title": "AI招聘工具存在种族偏见和系统性排斥；黑人占比26%，亚裔占比15%",
-          "url": "https://hai.stanford.edu/news/ai-hiring-tools-can-yield-racial-bias-and-systemic-rejection",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-23T21:48:25.964000Z"
-        },
-        {
-          "id": "ad5e2a98968cb6a0e60747a881830c8f69ab6267",
-          "title": "人工智能招聘工具会产生种族偏见和系统性拒绝； 26% 黑人和 15% 亚洲人 / AI Hiring Tools Yield Racial Bias and Systemic Rejection; 26% Black & 15% Asian",
-          "url": "https://news.ycombinator.com/item?id=48649673",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-23T20:43:35.392000Z"
-        },
-        {
-          "id": "cf340c95a1277eac565e91076dd87e97028415fb",
-          "title": "AI招聘工具存在种族偏见和系统性排斥；黑人占比26%，亚裔占比15% / AI Hiring Tools Yield Racial Bias and Systemic Rejection; 26% Black & 15% Asian",
-          "url": "https://hai.stanford.edu/news/ai-hiring-tools-can-yield-racial-bias-and-systemic-rejection",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-23T18:56:19Z"
-        },
-        {
-          "id": "e17e45295b8bb7fa23177cef34638246ef06fd68",
-          "title": "AI招聘工具存在种族偏见和系统性排斥；黑人占比26%，亚裔占比15% / Algorithmic Monocultures in Hiring",
-          "url": "https://hai.stanford.edu/news/ai-hiring-tools-can-yield-racial-bias-and-systemic-rejection",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-23T18:56:19Z"
-        }
-      ],
-      "item_count": 4,
-      "duplicate_count": 4,
-      "score": 0.818,
-      "importance": 0.818,
-      "importance_score": 0.818,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.71,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8802,
-        "story_heat": 0.75
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-23T18:56:19Z",
-      "latest_at": "2026-06-23T21:48:25.964000Z",
-      "primary_item": {
-        "id": "ca57be98086a74134f25577bba0a5c0308f6fccf",
-        "title": "AI招聘工具存在种族偏见和系统性排斥；黑人占比26%，亚裔占比15%",
-        "url": "https://hai.stanford.edu/news/ai-hiring-tools-can-yield-racial-bias-and-systemic-rejection",
-        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-        "source_name": "AI HOT"
       }
     },
     {
@@ -301,15 +182,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8097,
-      "importance": 0.8097,
-      "importance_score": 0.8097,
+      "score": 0.8023,
+      "importance": 0.8023,
+      "importance_score": 0.8023,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.8094,
+        "recency": 0.7682,
         "story_heat": 0.0
       },
       "category": "official",
@@ -401,15 +282,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.8046,
-      "importance": 0.8046,
-      "importance_score": 0.8046,
+      "score": 0.7967,
+      "importance": 0.7967,
+      "importance_score": 0.7967,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.76,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8612,
+        "recency": 0.8174,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -425,6 +306,187 @@
         "title": "Oracle因AI应用裁员21000人，债务驱动云基础设施投资",
         "url": "https://arstechnica.com/ai/2026/06/oracles-21000-layoffs-help-drive-its-debt-fueled-ai-investments",
         "source": "Ars Technica：AI（RSS）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_86cafafd8a00",
+      "title": "豪掷 6 亿港元激励全员：MiniMax 以“真金白银”提振团队信心",
+      "url": "https://www.aibase.com/news/29135",
+      "primary_url": "https://www.aibase.com/news/29135",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "7138ea14dca24895ade0d476430ba879ee625075",
+          "title": "豪掷 6 亿港元激励全员：MiniMax 以“真金白银”提振团队信心",
+          "url": "https://www.aibase.com/news/29135",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-24T10:15:31.292438Z"
+        },
+        {
+          "id": "21fe8293abbdf56608fffa5374384907dece61b3",
+          "title": "豪掷 6 亿港元激励全员：MiniMax 以「真金白银」提振团队信心",
+          "url": "https://www.aibase.com/zh/news/29135",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "AIbase",
+        "Readhub · AI"
+      ],
+      "items": [
+        {
+          "id": "7138ea14dca24895ade0d476430ba879ee625075",
+          "title": "豪掷 6 亿港元激励全员：MiniMax 以“真金白银”提振团队信心",
+          "url": "https://www.aibase.com/news/29135",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-24T10:15:31.292438Z"
+        },
+        {
+          "id": "21fe8293abbdf56608fffa5374384907dece61b3",
+          "title": "豪掷 6 亿港元激励全员：MiniMax 以「真金白银」提振团队信心",
+          "url": "https://www.aibase.com/zh/news/29135",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7926,
+      "importance": 0.7926,
+      "importance_score": 0.7926,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-24T10:15:31.292438Z",
+      "latest_at": "2026-06-24T10:15:31.292438Z",
+      "primary_item": {
+        "id": "7138ea14dca24895ade0d476430ba879ee625075",
+        "title": "豪掷 6 亿港元激励全员：MiniMax 以“真金白银”提振团队信心",
+        "url": "https://www.aibase.com/news/29135",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_b0b6250b5d11",
+      "title": "AI招聘工具存在种族偏见和系统性排斥；黑人占比26%，亚裔占比15%",
+      "url": "https://hai.stanford.edu/news/ai-hiring-tools-can-yield-racial-bias-and-systemic-rejection",
+      "primary_url": "https://hai.stanford.edu/news/ai-hiring-tools-can-yield-racial-bias-and-systemic-rejection",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "ca57be98086a74134f25577bba0a5c0308f6fccf",
+          "title": "AI招聘工具存在种族偏见和系统性排斥；黑人占比26%，亚裔占比15%",
+          "url": "https://hai.stanford.edu/news/ai-hiring-tools-can-yield-racial-bias-and-systemic-rejection",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-23T21:48:25.964000Z"
+        },
+        {
+          "id": "cf340c95a1277eac565e91076dd87e97028415fb",
+          "title": "AI招聘工具存在种族偏见和系统性排斥；黑人占比26%，亚裔占比15% / AI Hiring Tools Yield Racial Bias and Systemic Rejection; 26% Black & 15% Asian",
+          "url": "https://hai.stanford.edu/news/ai-hiring-tools-can-yield-racial-bias-and-systemic-rejection",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-23T18:56:19Z"
+        },
+        {
+          "id": "e17e45295b8bb7fa23177cef34638246ef06fd68",
+          "title": "AI招聘工具存在种族偏见和系统性排斥；黑人占比26%，亚裔占比15% / Algorithmic Monocultures in Hiring",
+          "url": "https://hai.stanford.edu/news/ai-hiring-tools-can-yield-racial-bias-and-systemic-rejection",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-23T18:56:19Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "Hacker News (黑客新闻)",
+        "Hacker News · 24h最热",
+        "Hacker News 热门（buzzing.cc 中文翻译）"
+      ],
+      "items": [
+        {
+          "id": "ca57be98086a74134f25577bba0a5c0308f6fccf",
+          "title": "AI招聘工具存在种族偏见和系统性排斥；黑人占比26%，亚裔占比15%",
+          "url": "https://hai.stanford.edu/news/ai-hiring-tools-can-yield-racial-bias-and-systemic-rejection",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-23T21:48:25.964000Z"
+        },
+        {
+          "id": "cf340c95a1277eac565e91076dd87e97028415fb",
+          "title": "AI招聘工具存在种族偏见和系统性排斥；黑人占比26%，亚裔占比15% / AI Hiring Tools Yield Racial Bias and Systemic Rejection; 26% Black & 15% Asian",
+          "url": "https://hai.stanford.edu/news/ai-hiring-tools-can-yield-racial-bias-and-systemic-rejection",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-23T18:56:19Z"
+        },
+        {
+          "id": "e17e45295b8bb7fa23177cef34638246ef06fd68",
+          "title": "AI招聘工具存在种族偏见和系统性排斥；黑人占比26%，亚裔占比15% / Algorithmic Monocultures in Hiring",
+          "url": "https://hai.stanford.edu/news/ai-hiring-tools-can-yield-racial-bias-and-systemic-rejection",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-23T18:56:19Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.785,
+      "importance": 0.785,
+      "importance_score": 0.785,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.71,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8354,
+        "story_heat": 0.5
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-23T18:56:19Z",
+      "latest_at": "2026-06-23T21:48:25.964000Z",
+      "primary_item": {
+        "id": "ca57be98086a74134f25577bba0a5c0308f6fccf",
+        "title": "AI招聘工具存在种族偏见和系统性排斥；黑人占比26%，亚裔占比15%",
+        "url": "https://hai.stanford.edu/news/ai-hiring-tools-can-yield-racial-bias-and-systemic-rejection",
+        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
         "source_name": "AI HOT"
       }
     },
@@ -482,15 +544,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7933,
-      "importance": 0.7933,
-      "importance_score": 0.7933,
+      "score": 0.7844,
+      "importance": 0.7844,
+      "importance_score": 0.7844,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.74,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9706,
+        "recency": 0.9212,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -544,15 +606,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.818,
-      "importance": 0.818,
-      "importance_score": 0.818,
+      "score": 0.8102,
+      "importance": 0.8102,
+      "importance_score": 0.8102,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.8555,
+        "recency": 0.812,
         "story_heat": 0.0
       },
       "category": "official",
@@ -569,6 +631,67 @@
         "url": "https://github.blog/changelog/2026-06-23-secret-scanning-adds-extended-metadata-for-replicate-secrets",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_712f8565a67c",
+      "title": "DFlash：块扩散草稿模型实现最高15倍吞吐量提升",
+      "url": "https://www.marktechpost.com/2026/06/24/dflash-speculative-decoding-drafts-whole-token-blocks-in-parallel-for-up-to-15x-higher-throughput-on-nvidia-blackwell",
+      "primary_url": "https://www.marktechpost.com/2026/06/24/dflash-speculative-decoding-drafts-whole-token-blocks-in-parallel-for-up-to-15x-higher-throughput-on-nvidia-blackwell",
+      "source": "MarkTechPost（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "ed9e42cd5609ddaa38c0c89c55d00b2d33d98d02",
+          "title": "DFlash：块扩散草稿模型实现最高15倍吞吐量提升",
+          "url": "https://www.marktechpost.com/2026/06/24/dflash-speculative-decoding-drafts-whole-token-blocks-in-parallel-for-up-to-15x-higher-throughput-on-nvidia-blackwell",
+          "source": "MarkTechPost（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-24T07:21:10Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "MarkTechPost（RSS）"
+      ],
+      "items": [
+        {
+          "id": "ed9e42cd5609ddaa38c0c89c55d00b2d33d98d02",
+          "title": "DFlash：块扩散草稿模型实现最高15倍吞吐量提升",
+          "url": "https://www.marktechpost.com/2026/06/24/dflash-speculative-decoding-drafts-whole-token-blocks-in-parallel-for-up-to-15x-higher-throughput-on-nvidia-blackwell",
+          "source": "MarkTechPost（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-24T07:21:10Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7662,
+      "importance": 0.7662,
+      "importance_score": 0.7662,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.74,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9589,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-24T07:21:10Z",
+      "latest_at": "2026-06-24T07:21:10Z",
+      "primary_item": {
+        "id": "ed9e42cd5609ddaa38c0c89c55d00b2d33d98d02",
+        "title": "DFlash：块扩散草稿模型实现最高15倍吞吐量提升",
+        "url": "https://www.marktechpost.com/2026/06/24/dflash-speculative-decoding-drafts-whole-token-blocks-in-parallel-for-up-to-15x-higher-throughput-on-nvidia-blackwell",
+        "source": "MarkTechPost（RSS）",
+        "source_name": "AI HOT"
       }
     },
     {
@@ -606,15 +729,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7685,
-      "importance": 0.7685,
-      "importance_score": 0.7685,
+      "score": 0.7601,
+      "importance": 0.7601,
+      "importance_score": 0.7601,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.77,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9217,
+        "recency": 0.8749,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -630,67 +753,6 @@
         "url": "https://mp.weixin.qq.com/s/Sb-NMXTrWFQES1EDO_Gr2g",
         "source": "公众号：豆包（字节）",
         "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_2d34494a69f2",
-      "title": "AI智能体的进化新里程：千问发布原生语言世界模型 Qwen-AgentWorld",
-      "url": "https://www.aibase.com/news/29124",
-      "primary_url": "https://www.aibase.com/news/29124",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "bc6db98c2c5f2afa7f817d964c108bcb641e9449",
-          "title": "AI智能体的进化新里程：千问发布原生语言世界模型 Qwen-AgentWorld",
-          "url": "https://www.aibase.com/news/29124",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-24T06:38:35.999084Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "bc6db98c2c5f2afa7f817d964c108bcb641e9449",
-          "title": "AI智能体的进化新里程：千问发布原生语言世界模型 Qwen-AgentWorld",
-          "url": "https://www.aibase.com/news/29124",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-24T06:38:35.999084Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 1.0,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-24T06:38:35.999084Z",
-      "latest_at": "2026-06-24T06:38:35.999084Z",
-      "primary_item": {
-        "id": "bc6db98c2c5f2afa7f817d964c108bcb641e9449",
-        "title": "AI智能体的进化新里程：千问发布原生语言世界模型 Qwen-AgentWorld",
-        "url": "https://www.aibase.com/news/29124",
-        "source": "AIbase",
-        "source_name": "AIbase"
       }
     },
     {
@@ -728,15 +790,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7657,
-      "importance": 0.7657,
-      "importance_score": 0.7657,
+      "score": 0.7569,
+      "importance": 0.7569,
+      "importance_score": 0.7569,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.74,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9561,
+        "recency": 0.9075,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -789,15 +851,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8154,
-      "importance": 0.8154,
-      "importance_score": 0.8154,
+      "score": 0.8077,
+      "importance": 0.8077,
+      "importance_score": 0.8077,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.8409,
+        "recency": 0.7981,
         "story_heat": 0.0
       },
       "category": "official",
@@ -817,82 +879,62 @@
       }
     },
     {
-      "story_id": "story_0daa94cd4310",
-      "title": "五眼联盟警告：AI网络威胁数月内将影响普通用户",
-      "url": "https://www.artificialintelligence-news.com/news/five-eyes-warning-ai-cyber-threats",
-      "primary_url": "https://www.artificialintelligence-news.com/news/five-eyes-warning-ai-cyber-threats",
-      "source": "Artificial Intelligence News（RSS）",
+      "story_id": "story_7bdfb8410179",
+      "title": "MiniCPM-V 4.6 在 Apple Core AI 上高速运行",
+      "url": "https://x.com/OpenBMB/status/2069676334381728106",
+      "primary_url": "https://x.com/OpenBMB/status/2069676334381728106",
+      "source": "X：面壁智能 OpenBMB (@OpenBMB)",
       "source_name": "AI HOT",
       "sources": [
         {
-          "id": "0b401d9991bff0537c3907198a5aa6c211b1f1bd",
-          "title": "五眼联盟警告：AI网络威胁数月内将影响普通用户",
-          "url": "https://www.artificialintelligence-news.com/news/five-eyes-warning-ai-cyber-threats",
-          "source": "Artificial Intelligence News（RSS）",
+          "id": "ad30bbf1e40b76cbef0e283a69b1c131e742d332",
+          "title": "MiniCPM-V 4.6 在 Apple Core AI 上高速运行",
+          "url": "https://x.com/OpenBMB/status/2069676334381728106",
+          "source": "X：面壁智能 OpenBMB (@OpenBMB)",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-06-23T08:00:00Z"
-        },
-        {
-          "id": "9ba02011491d47d1683686c6a5f4b2bbfd014813",
-          "title": "五眼联盟警告：AI网络威胁数月内将影响普通用户 / Top spy agencies say AI cyber threats will impact you within months. Here’s why",
-          "url": "https://www.artificialintelligence-news.com/news/five-eyes-warning-ai-cyber-threats",
-          "source": "Artificial Intelligence News",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-06-23T08:00:00Z"
+          "published_at": "2026-06-24T06:57:45Z"
         }
       ],
-      "source_count": 2,
+      "source_count": 1,
       "source_names": [
-        "Artificial Intelligence News",
-        "Artificial Intelligence News（RSS）"
+        "X：面壁智能 OpenBMB (@OpenBMB)"
       ],
       "items": [
         {
-          "id": "0b401d9991bff0537c3907198a5aa6c211b1f1bd",
-          "title": "五眼联盟警告：AI网络威胁数月内将影响普通用户",
-          "url": "https://www.artificialintelligence-news.com/news/five-eyes-warning-ai-cyber-threats",
-          "source": "Artificial Intelligence News（RSS）",
+          "id": "ad30bbf1e40b76cbef0e283a69b1c131e742d332",
+          "title": "MiniCPM-V 4.6 在 Apple Core AI 上高速运行",
+          "url": "https://x.com/OpenBMB/status/2069676334381728106",
+          "source": "X：面壁智能 OpenBMB (@OpenBMB)",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-06-23T08:00:00Z"
-        },
-        {
-          "id": "9ba02011491d47d1683686c6a5f4b2bbfd014813",
-          "title": "五眼联盟警告：AI网络威胁数月内将影响普通用户 / Top spy agencies say AI cyber threats will impact you within months. Here’s why",
-          "url": "https://www.artificialintelligence-news.com/news/five-eyes-warning-ai-cyber-threats",
-          "source": "Artificial Intelligence News",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-06-23T08:00:00Z"
+          "published_at": "2026-06-24T06:57:45Z"
         }
       ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7484,
-      "importance": 0.7484,
-      "importance_score": 0.7484,
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7382,
+      "importance": 0.7382,
+      "importance_score": 0.7382,
       "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.74,
+        "editorial": 0.65,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7211,
-        "story_heat": 0.25
+        "recency": 0.9535,
+        "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "multi_source",
         "high_ai_relevance"
       ],
-      "earliest_at": "2026-06-23T08:00:00Z",
-      "latest_at": "2026-06-23T08:00:00Z",
+      "earliest_at": "2026-06-24T06:57:45Z",
+      "latest_at": "2026-06-24T06:57:45Z",
       "primary_item": {
-        "id": "0b401d9991bff0537c3907198a5aa6c211b1f1bd",
-        "title": "五眼联盟警告：AI网络威胁数月内将影响普通用户",
-        "url": "https://www.artificialintelligence-news.com/news/five-eyes-warning-ai-cyber-threats",
-        "source": "Artificial Intelligence News（RSS）",
+        "id": "ad30bbf1e40b76cbef0e283a69b1c131e742d332",
+        "title": "MiniCPM-V 4.6 在 Apple Core AI 上高速运行",
+        "url": "https://x.com/OpenBMB/status/2069676334381728106",
+        "source": "X：面壁智能 OpenBMB (@OpenBMB)",
         "source_name": "AI HOT"
       }
     },
@@ -931,15 +973,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7456,
-      "importance": 0.7456,
-      "importance_score": 0.7456,
+      "score": 0.7376,
+      "importance": 0.7376,
+      "importance_score": 0.7376,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8777,
+        "recency": 0.8331,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -954,6 +996,67 @@
         "url": "https://x.com/runwayml/status/2069535148450705517",
         "source": "X：Runway (@runwayml)",
         "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_c505c564b881",
+      "title": "Meta监控员工练AI两个月就翻车：4. 5 万张隐私数据表泄露， 1600 人联名喊停",
+      "url": "https://www.aibase.com/news/29131",
+      "primary_url": "https://www.aibase.com/news/29131",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "1d22f4d133ab9b381b11159d78c8f77b5fce939c",
+          "title": "Meta监控员工练AI两个月就翻车：4. 5 万张隐私数据表泄露， 1600 人联名喊停",
+          "url": "https://www.aibase.com/news/29131",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-24T10:15:31.292438Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "1d22f4d133ab9b381b11159d78c8f77b5fce939c",
+          "title": "Meta监控员工练AI两个月就翻车：4. 5 万张隐私数据表泄露， 1600 人联名喊停",
+          "url": "https://www.aibase.com/news/29131",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-24T10:15:31.292438Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-24T10:15:31.292438Z",
+      "latest_at": "2026-06-24T10:15:31.292438Z",
+      "primary_item": {
+        "id": "1d22f4d133ab9b381b11159d78c8f77b5fce939c",
+        "title": "Meta监控员工练AI两个月就翻车：4. 5 万张隐私数据表泄露， 1600 人联名喊停",
+        "url": "https://www.aibase.com/news/29131",
+        "source": "AIbase",
+        "source_name": "AIbase"
       }
     },
     {
@@ -991,15 +1094,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7425,
-      "importance": 0.7425,
-      "importance_score": 0.7425,
+      "score": 0.7347,
+      "importance": 0.7347,
+      "importance_score": 0.7347,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.73,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8437,
+        "recency": 0.8008,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1014,67 +1117,6 @@
         "url": "https://x.com/haoailab/status/2069493820732170695",
         "source": "X：Sky Computing Lab (@haoailab)",
         "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_1445f313f963",
-      "title": "Anthropic AI模型数小时\"攻破\"美国机密系统，政府反手就把它\"关了禁闭\"",
-      "url": "https://www.aibase.com/news/29126",
-      "primary_url": "https://www.aibase.com/news/29126",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "d6818210e03e9fc4c7cae6ee06c792f22c28fe95",
-          "title": "Anthropic AI模型数小时\"攻破\"美国机密系统，政府反手就把它\"关了禁闭\"",
-          "url": "https://www.aibase.com/news/29126",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-24T06:38:35.999084Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "d6818210e03e9fc4c7cae6ee06c792f22c28fe95",
-          "title": "Anthropic AI模型数小时\"攻破\"美国机密系统，政府反手就把它\"关了禁闭\"",
-          "url": "https://www.aibase.com/news/29126",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-24T06:38:35.999084Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 1.0,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-24T06:38:35.999084Z",
-      "latest_at": "2026-06-24T06:38:35.999084Z",
-      "primary_item": {
-        "id": "d6818210e03e9fc4c7cae6ee06c792f22c28fe95",
-        "title": "Anthropic AI模型数小时\"攻破\"美国机密系统，政府反手就把它\"关了禁闭\"",
-        "url": "https://www.aibase.com/news/29126",
-        "source": "AIbase",
-        "source_name": "AIbase"
       }
     },
     {
@@ -1112,15 +1154,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7335,
-      "importance": 0.7335,
-      "importance_score": 0.7335,
+      "score": 0.726,
+      "importance": 0.726,
+      "importance_score": 0.726,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.71,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8274,
+        "recency": 0.7853,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1172,15 +1214,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8113,
-      "importance": 0.8113,
-      "importance_score": 0.8113,
+      "score": 0.8038,
+      "importance": 0.8038,
+      "importance_score": 0.8038,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.8184,
+        "recency": 0.7768,
         "story_heat": 0.0
       },
       "category": "official",
@@ -1253,15 +1295,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7481,
-      "importance": 0.7481,
-      "importance_score": 0.7481,
+      "score": 0.7412,
+      "importance": 0.7412,
+      "importance_score": 0.7412,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.753,
+        "recency": 0.7147,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -1333,15 +1375,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7472,
-      "importance": 0.7472,
-      "importance_score": 0.7472,
+      "score": 0.7401,
+      "importance": 0.7401,
+      "importance_score": 0.7401,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7812,
+        "recency": 0.7414,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -1357,67 +1399,6 @@
         "url": "https://github.com/baidu/Unlimited-OCR",
         "source": "Hacker News 热门（buzzing.cc 中文翻译）",
         "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_7051a63bfe15",
-      "title": "Cursor发布全自主训练大模型，同步推出全新Git平台Origin及移动端App",
-      "url": "https://www.aibase.com/news/29119",
-      "primary_url": "https://www.aibase.com/news/29119",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "e4bba0833b0b531993ec0b63fe35827c24a2818f",
-          "title": "Cursor发布全自主训练大模型，同步推出全新Git平台Origin及移动端App",
-          "url": "https://www.aibase.com/news/29119",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-24T06:38:35.999084Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "e4bba0833b0b531993ec0b63fe35827c24a2818f",
-          "title": "Cursor发布全自主训练大模型，同步推出全新Git平台Origin及移动端App",
-          "url": "https://www.aibase.com/news/29119",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-24T06:38:35.999084Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 1.0,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-24T06:38:35.999084Z",
-      "latest_at": "2026-06-24T06:38:35.999084Z",
-      "primary_item": {
-        "id": "e4bba0833b0b531993ec0b63fe35827c24a2818f",
-        "title": "Cursor发布全自主训练大模型，同步推出全新Git平台Origin及移动端App",
-        "url": "https://www.aibase.com/news/29119",
-        "source": "AIbase",
-        "source_name": "AIbase"
       }
     }
   ]
