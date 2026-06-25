@@ -39,6 +39,7 @@ from scripts.update_news import (
     parse_openai_codex_changelog_items,
     redact_public_text,
     sync_paid_source_status_timestamps,
+    tikhub_status_base,
     update_paid_source_state,
 )
 
@@ -54,6 +55,15 @@ class TopicFilterTests(unittest.TestCase):
 
         self.assertEqual(status["last_run_at"], "2026-05-03T01:00:00Z")
         self.assertEqual(status["last_success_at"], "2026-05-03T01:00:00Z")
+
+    def test_paid_source_default_intervals_are_per_source(self):
+        now = __import__("datetime").datetime.fromisoformat("2026-05-03T01:00:00+00:00")
+        with patch.dict("os.environ", {}, clear=True):
+            socialdata_status = socialdata_status_base(now, None)
+            tikhub_status = tikhub_status_base(now, None)
+
+        self.assertEqual(socialdata_status["run_interval_hours"], 12)
+        self.assertEqual(tikhub_status["run_interval_hours"], 24)
 
     def test_accepts_ai_keyword(self):
         rec = {
@@ -576,6 +586,8 @@ class TopicFilterTests(unittest.TestCase):
         self.assertIn("creator_items_ai", slim)
         self.assertNotIn("items_all", slim)
         self.assertNotIn("items_all_raw", slim)
+        self.assertEqual(slim["all_mode_data_url"], "data/latest-24h-all.json")
+        self.assertEqual(slim["stories_data_url"], "data/stories-merged.json")
         self.assertEqual(all_payload["items_all"][0]["title"], "All post")
         self.assertEqual(all_payload["items_all_raw"][0]["title"], "Raw post")
 

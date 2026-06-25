@@ -236,6 +236,10 @@ AGENTMAIL_DIGEST_FILE = "email-digest.json"
 AGENTMAIL_DEFAULT_LIMIT = 50
 PAID_SOURCE_STATE_FILE = "paid-source-state.json"
 PAID_SOURCE_DEFAULT_INTERVAL_HOURS = 24
+PAID_SOURCE_DEFAULT_INTERVAL_HOURS_BY_PREFIX = {
+    "SOCIALDATA": 12,
+    "TIKHUB": 24,
+}
 PAID_SOURCE_MAX_INTERVAL_HOURS = 24 * 14
 X_API_BASE_DEFAULT = "https://api.x.com"
 X_API_POST_READ_COST_USD = 0.005
@@ -3168,7 +3172,8 @@ def load_paid_source_state(path: Path) -> dict[str, Any]:
 
 
 def paid_source_interval_hours(prefix: str) -> int:
-    interval = env_int(f"{prefix}_RUN_INTERVAL_HOURS", PAID_SOURCE_DEFAULT_INTERVAL_HOURS)
+    default = PAID_SOURCE_DEFAULT_INTERVAL_HOURS_BY_PREFIX.get(prefix, PAID_SOURCE_DEFAULT_INTERVAL_HOURS)
+    interval = env_int(f"{prefix}_RUN_INTERVAL_HOURS", default)
     return max(1, min(interval, PAID_SOURCE_MAX_INTERVAL_HOURS))
 
 
@@ -5219,6 +5224,7 @@ def build_latest_payloads(latest_payload: dict[str, Any]) -> tuple[dict[str, Any
     slim_payload.pop("items_all", None)
     slim_payload.pop("items_all_raw", None)
     slim_payload["all_mode_data_url"] = "data/latest-24h-all.json"
+    slim_payload["stories_data_url"] = "data/stories-merged.json"
     return slim_payload, all_payload
 
 

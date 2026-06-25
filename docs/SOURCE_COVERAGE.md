@@ -123,9 +123,10 @@ baseline, then let the aggregator layer add breadth.
   default. It reads public X/Twitter search results from the third-party
   SocialData API, not from the official X API. Use `SOCIALDATA_QUERY`,
   `SOCIALDATA_MAX_RESULTS`, `SOCIALDATA_DAILY_TWEET_LIMIT`, and
-  `SOCIALDATA_RUN_INTERVAL_HOURS` to keep cost and noise bounded. The previous
-  `SOCIALDATA_RUN_UTC_HOUR` setting still controls the first run window when no
-  paid-source state exists yet. SocialData search normally returns about 20
+  `SOCIALDATA_RUN_INTERVAL_HOURS` to keep cost and noise bounded. The default
+  SocialData interval is 12 hours. The previous `SOCIALDATA_RUN_UTC_HOUR`
+  setting still controls the first run window when no paid-source state exists
+  yet. SocialData search normally returns about 20
   tweets per page; the fetcher follows `next_cursor` with the `cursor`
   parameter until the configured effective cap is reached or the API stops
   returning a cursor.
@@ -134,7 +135,8 @@ baseline, then let the aggregator layer add breadth.
   disabled by default. It reads public Douyin and Xiaohongshu keyword search
   results through TikHub's paid API, not official RSS. Use `TIKHUB_QUERY`,
   `TIKHUB_PLATFORMS`, `TIKHUB_MAX_RESULTS`, `TIKHUB_DAILY_ITEM_LIMIT`, and
-  `TIKHUB_RUN_INTERVAL_HOURS` to keep cost and noise bounded. The previous
+  `TIKHUB_RUN_INTERVAL_HOURS` to keep cost and noise bounded. The default
+  TikHub interval for Douyin/Xiaohongshu is 24 hours. The previous
   `TIKHUB_RUN_UTC_HOUR` setting still controls the first run window when no
   paid-source state exists yet. Prefer focused AI
   keywords over general hot lists so entertainment trends do not flood the

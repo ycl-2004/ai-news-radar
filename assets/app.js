@@ -22,6 +22,8 @@ const state = {
   sourceStatus: null,
   generatedAt: null,
   dailyBrief: null,
+  storiesMerged: null,
+  storiesDataUrl: "data/stories-merged.json",
   activeSection: "hot",
   boleView: "hot",
   boleExpanded: false,
@@ -391,7 +393,12 @@ function renderSectionSummary(filteredItems = null) {
 function siteRatioText(siteStats) {
   const count = Number(siteStats.count || 0);
   const raw = Number(siteStats.raw_count ?? siteStats.count ?? 0);
-  if (!raw) return `${fmtNumber(count)} 条`;
+  if (!raw) {
+    const scanned = Number(siteRow(siteStats.site_id)?.item_count || 0);
+    if (!count && scanned) return `24h 0 · 已扫 ${fmtNumber(scanned)}`;
+    if (!count) return "已扫 0";
+    return `${fmtNumber(count)} 条`;
+  }
   if (raw === count) return `${fmtNumber(count)} 条`;
   return `${fmtNumber(count)}/${fmtNumber(raw)} · ${Math.round((count / raw) * 100)}%AI`;
 }
@@ -1404,11 +1411,47 @@ function storyMatchesFilteredItems(story, filteredItems) {
   return storyRefs.some((ref) => (ref.url && urls.has(ref.url)) || (ref.id && ids.has(ref.id)));
 }
 
-function currentBriefStories(filteredItems) {
-  if (state.activeSection === "creator") return [];
-  const stories = Array.isArray(state.dailyBrief?.items) ? state.dailyBrief.items : [];
-  if (!stories.length) return [];
-  return stories.filter((story) => storyMatchesFilteredItems(story, filteredItems));
+function briefStories() {
+  return Array.isArray(state.dailyBrief?.items) ? state.dailyBrief.items : [];
+}
+
+function mergedStories() {
+  return Array.isArray(state.storiesMerged?.stories) ? state.storiesMerged.stories : [];
+}
+
+function storyStableKey(story) {
+  if (!story) return "";
+  return story.story_id || story.primary_url || story.url || story.primary_item?.url || story.title || "";
+}
+
+function uniqueStories(stories, excludeKeys = new Set(), excludeIdentityKeys = new Set()) {
+  const seen = new Set(excludeKeys);
+  return stories.filter((story) => {
+    const key = storyStableKey(story);
+    if (key && seen.has(key)) return false;
+    if (storyHasAnyKey(story, excludeIdentityKeys)) return false;
+    if (key) seen.add(key);
+    return true;
+  });
+}
+
+function currentStoryPools(filteredItems) {
+  if (state.activeSection === "creator") return { brief: [], merged: [], followup: [] };
+  const brief = briefStories().filter((story) => storyMatchesFilteredItems(story, filteredItems));
+  const merged = mergedStories().filter((story) => storyMatchesFilteredItems(story, filteredItems));
+  const briefKeys = new Set(brief.map(storyStableKey).filter(Boolean));
+  const briefIdentityKeys = new Set();
+  brief.forEach((story) => storyIdentityKeys(story).forEach((key) => briefIdentityKeys.add(key)));
+  return {
+    brief,
+    merged,
+    followup: uniqueStories(merged, briefKeys, briefIdentityKeys),
+  };
+}
+
+function storyRowsForPool(stories) {
+  const pool = state.boleView === "hot" ? hotStories(stories) : stories;
+  return rankedBriefRows(pool);
 }
 
 function renderStoryViewPanel(stories, excludedRows = []) {
@@ -1592,16 +1635,31 @@ function renderBolePicks() {
 
   const section = SECTION_BY_ID[state.activeSection] || SECTION_BY_ID.hot;
   const filtered = getFilteredItems();
-  const stories = currentBriefStories(filtered);
-  const usesStories = stories.length > 0;
-  const rows = usesStories ? rankedBriefRows(stories) : rankedFallbackRows(filtered);
+  const storyPools = currentStoryPools(filtered);
+  const availableStoryPool = storyPools.brief.length
+    ? [...storyPools.brief, ...storyPools.followup]
+    : storyPools.merged;
+  const usesStories = availableStoryPool.length > 0;
+  const hotAvailable = usesStories && hotStories(availableStoryPool).length >= 2;
+  if (usesStories && !hotAvailable && state.boleView === "hot") {
+    state.boleView = "timeline";
+  }
+  const rows = usesStories
+    ? [
+      ...(storyPools.brief.length ? storyRowsForPool(storyPools.brief) : []),
+      ...storyRowsForPool(storyPools.brief.length ? storyPools.followup : storyPools.merged),
+    ]
+    : rankedFallbackRows(filtered);
   const top = rows.slice(0, 3);
   const remainingCount = Math.max(0, rows.length - top.length);
   if (topStoriesTitleEl) topStoriesTitleEl.textContent = state.activeSection === "hot" ? "今日 Top 3" : `${section.label} Top 3`;
   if (topStoriesSubEl) topStoriesSubEl.textContent = `${section.description}；Top3 与后续列表使用同一故事池排序，下方全量信息源保留完整单条池。`;
-  bolePicksMetaEl.textContent = `${fmtNumber(filtered.length)} 条候选 · ${fmtNumber(rows.length)} 条${usesStories ? "故事" : "聚合候选"} · Top${fmtNumber(top.length)}${remainingCount ? ` · 后续 ${fmtNumber(remainingCount)} 条` : ""}`;
+  const storyMeta = usesStories
+    ? `${fmtNumber(availableStoryPool.length)} 条故事${storyPools.brief.length ? ` · 精选 ${fmtNumber(storyPools.brief.length)} 条` : ""}`
+    : `${fmtNumber(rows.length)} 条聚合候选`;
+  bolePicksMetaEl.textContent = `${fmtNumber(filtered.length)} 条候选 · ${storyMeta} · Top${fmtNumber(top.length)}${remainingCount ? ` · 后续 ${fmtNumber(remainingCount)} 条` : ""}`;
   if (boleViewToggleEl) {
-    boleViewToggleEl.hidden = !rows.length;
+    boleViewToggleEl.hidden = usesStories ? !hotAvailable : true;
     if (boleHotBtnEl) boleHotBtnEl.classList.toggle("active", state.boleView === "hot");
     if (boleTimelineBtnEl) boleTimelineBtnEl.classList.toggle("active", state.boleView === "timeline");
   }
@@ -2347,9 +2405,12 @@ function renderSourceHealth(errorMessage = "") {
   const xApiLiveCount = Number(xApi.item_count || 0);
   const xApiPoolCount = siteAiPoolCount("xapi");
   const xApiDisplayCount = xApiLiveCount || xApiPoolCount;
+  const xDisplayCount = socialdataDisplayCount + xApiDisplayCount;
   const xAuthors = socialdataAuthors();
 
-  const xMetricValue = socialdata.enabled
+  const xMetricValue = xDisplayCount
+    ? `已入池 ${fmtNumber(xDisplayCount)}条`
+    : socialdata.enabled
     ? (socialdataDisplayCount
       ? "成功"
       : (socialdata.skipped ? "待窗口" : "已连接，暂无匹配"))
@@ -2358,7 +2419,7 @@ function renderSourceHealth(errorMessage = "") {
         ? "成功"
         : (xApi.skipped ? "待窗口" : "已连接，暂无匹配"))
       : "未启用");
-  const xMetricTone = socialdata.error || xApi.error ? "bad" : (emptyAdvanced.length ? "warn" : "");
+  const xMetricTone = socialdata.error || xApi.error ? "bad" : (xDisplayCount ? "ok" : (emptyAdvanced.length ? "warn" : ""));
 
   const metricGrid = document.createElement("div");
   metricGrid.className = "health-grid";
@@ -2452,12 +2513,19 @@ async function loadDailyBriefData() {
   return res.json();
 }
 
+async function loadStoriesData() {
+  const res = await fetch(`./${state.storiesDataUrl}?t=${Date.now()}`);
+  if (!res.ok) throw new Error(`加载 stories-merged.json 失败: ${res.status}`);
+  return res.json();
+}
+
 async function init() {
-  const [newsResult, waytoagiResult, statusResult, briefResult] = await Promise.allSettled([
+  const [newsResult, waytoagiResult, statusResult, briefResult, storiesResult] = await Promise.allSettled([
     loadNewsData(),
     loadWaytoagiData(),
     loadSourceStatusData(),
     loadDailyBriefData(),
+    loadStoriesData(),
   ]);
 
   if (briefResult.status === "fulfilled") {
@@ -2466,8 +2534,15 @@ async function init() {
     state.dailyBrief = null;
   }
 
+  if (storiesResult.status === "fulfilled") {
+    state.storiesMerged = storiesResult.value;
+  } else {
+    state.storiesMerged = null;
+  }
+
   if (newsResult.status === "fulfilled") {
     const payload = newsResult.value;
+    const loadedStoriesDataUrl = state.storiesDataUrl;
     state.itemsAi = payload.items_ai || payload.items || [];
     state.itemsAllRaw = payload.items_all_raw || payload.items_all || [];
     state.itemsAll = payload.items_all || [];
@@ -2479,6 +2554,14 @@ async function init() {
     state.totalRaw = payload.total_items_raw || state.itemsAllRaw.length;
     state.totalAllMode = payload.total_items_all_mode || state.itemsAll.length;
     state.allDataUrl = payload.all_mode_data_url || state.allDataUrl;
+    state.storiesDataUrl = payload.stories_data_url || state.storiesDataUrl;
+    if (state.storiesDataUrl !== loadedStoriesDataUrl) {
+      try {
+        state.storiesMerged = await loadStoriesData();
+      } catch {
+        state.storiesMerged = null;
+      }
+    }
     state.allDataLoaded = Boolean(payload.items_all || payload.items_all_raw);
     state.generatedAt = payload.generated_at;
 
