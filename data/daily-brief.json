@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-06-25T16:18:14.829646Z",
+  "generated_at": "2026-06-25T18:30:14.882796Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
     {
-      "story_id": "story_95af1288ca5c",
-      "title": "npm 为高影响力帐户添加了预防性帐户保护 / npm adds preventive account protection for high-impact accounts",
-      "url": "https://github.blog/changelog/2026-06-25-npm-adds-preventive-account-protection-for-high-impact-accounts",
-      "primary_url": "https://github.blog/changelog/2026-06-25-npm-adds-preventive-account-protection-for-high-impact-accounts",
+      "story_id": "story_01de969be41c",
+      "title": "现在可以并行运行操作步骤 / Actions steps can now be run in parallel",
+      "url": "https://github.blog/changelog/2026-06-25-actions-steps-can-now-be-run-in-parallel",
+      "primary_url": "https://github.blog/changelog/2026-06-25-actions-steps-can-now-be-run-in-parallel",
       "source": "GitHub Changelog",
       "source_name": "Official AI Updates",
       "sources": [
         {
-          "id": "655a83565bd0c4044b82a9a388e64fc66c2a39d8",
-          "title": "npm 为高影响力帐户添加了预防性帐户保护 / npm adds preventive account protection for high-impact accounts",
-          "url": "https://github.blog/changelog/2026-06-25-npm-adds-preventive-account-protection-for-high-impact-accounts",
+          "id": "3d22e39f449143dec262b60950247b36c74429c3",
+          "title": "现在可以并行运行操作步骤 / Actions steps can now be run in parallel",
+          "url": "https://github.blog/changelog/2026-06-25-actions-steps-can-now-be-run-in-parallel",
           "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-06-25T16:02:09Z"
+          "published_at": "2026-06-25T16:46:09Z"
         }
       ],
       "source_count": 1,
@@ -27,26 +27,26 @@
       ],
       "items": [
         {
-          "id": "655a83565bd0c4044b82a9a388e64fc66c2a39d8",
-          "title": "npm 为高影响力帐户添加了预防性帐户保护 / npm adds preventive account protection for high-impact accounts",
-          "url": "https://github.blog/changelog/2026-06-25-npm-adds-preventive-account-protection-for-high-impact-accounts",
+          "id": "3d22e39f449143dec262b60950247b36c74429c3",
+          "title": "现在可以并行运行操作步骤 / Actions steps can now be run in parallel",
+          "url": "https://github.blog/changelog/2026-06-25-actions-steps-can-now-be-run-in-parallel",
           "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-06-25T16:02:09Z"
+          "published_at": "2026-06-25T16:46:09Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8433,
-      "importance": 0.8433,
-      "importance_score": 0.8433,
+      "score": 0.8395,
+      "importance": 0.8395,
+      "importance_score": 0.8395,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.9961,
+        "recency": 0.9753,
         "story_heat": 0.0
       },
       "category": "official",
@@ -55,12 +55,12 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-06-25T16:02:09Z",
-      "latest_at": "2026-06-25T16:02:09Z",
+      "earliest_at": "2026-06-25T16:46:09Z",
+      "latest_at": "2026-06-25T16:46:09Z",
       "primary_item": {
-        "id": "655a83565bd0c4044b82a9a388e64fc66c2a39d8",
-        "title": "npm 为高影响力帐户添加了预防性帐户保护 / npm adds preventive account protection for high-impact accounts",
-        "url": "https://github.blog/changelog/2026-06-25-npm-adds-preventive-account-protection-for-high-impact-accounts",
+        "id": "3d22e39f449143dec262b60950247b36c74429c3",
+        "title": "现在可以并行运行操作步骤 / Actions steps can now be run in parallel",
+        "url": "https://github.blog/changelog/2026-06-25-actions-steps-can-now-be-run-in-parallel",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
       }
@@ -100,15 +100,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8432,
-      "importance": 0.8432,
-      "importance_score": 0.8432,
+      "score": 0.8376,
+      "importance": 0.8376,
+      "importance_score": 0.8376,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.9956,
+        "recency": 0.9645,
         "story_heat": 0.0
       },
       "category": "official",
@@ -162,15 +162,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8184,
-      "importance": 0.8184,
-      "importance_score": 0.8184,
+      "score": 0.8138,
+      "importance": 0.8138,
+      "importance_score": 0.8138,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.8134,
+        "recency": 0.7879,
         "story_heat": 0.0
       },
       "category": "official",
@@ -190,21 +190,21 @@
       }
     },
     {
-      "story_id": "story_43a0ba32a32a",
-      "title": "Red Hat Enterprise Linux 运行程序镜像现已推出公共预览版 / Red Hat Enterprise Linux runner images are now in public preview",
-      "url": "https://github.blog/changelog/2026-06-25-red-hat-enterprise-linux-runner-images-are-now-in-public-preview",
-      "primary_url": "https://github.blog/changelog/2026-06-25-red-hat-enterprise-linux-runner-images-are-now-in-public-preview",
+      "story_id": "story_95af1288ca5c",
+      "title": "npm 为高影响力帐户添加了预防性帐户保护 / npm adds preventive account protection for high-impact accounts",
+      "url": "https://github.blog/changelog/2026-06-25-npm-adds-preventive-account-protection-for-high-impact-accounts",
+      "primary_url": "https://github.blog/changelog/2026-06-25-npm-adds-preventive-account-protection-for-high-impact-accounts",
       "source": "GitHub Changelog",
       "source_name": "Official AI Updates",
       "sources": [
         {
-          "id": "d2b1f309932b20f690f0a2def2d6d2da325653a5",
-          "title": "Red Hat Enterprise Linux 运行程序镜像现已推出公共预览版 / Red Hat Enterprise Linux runner images are now in public preview",
-          "url": "https://github.blog/changelog/2026-06-25-red-hat-enterprise-linux-runner-images-are-now-in-public-preview",
+          "id": "655a83565bd0c4044b82a9a388e64fc66c2a39d8",
+          "title": "npm 为高影响力帐户添加了预防性帐户保护 / npm adds preventive account protection for high-impact accounts",
+          "url": "https://github.blog/changelog/2026-06-25-npm-adds-preventive-account-protection-for-high-impact-accounts",
           "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-06-25T15:40:04Z"
+          "published_at": "2026-06-25T16:02:09Z"
         }
       ],
       "source_count": 1,
@@ -213,26 +213,26 @@
       ],
       "items": [
         {
-          "id": "d2b1f309932b20f690f0a2def2d6d2da325653a5",
-          "title": "Red Hat Enterprise Linux 运行程序镜像现已推出公共预览版 / Red Hat Enterprise Linux runner images are now in public preview",
-          "url": "https://github.blog/changelog/2026-06-25-red-hat-enterprise-linux-runner-images-are-now-in-public-preview",
+          "id": "655a83565bd0c4044b82a9a388e64fc66c2a39d8",
+          "title": "npm 为高影响力帐户添加了预防性帐户保护 / npm adds preventive account protection for high-impact accounts",
+          "url": "https://github.blog/changelog/2026-06-25-npm-adds-preventive-account-protection-for-high-impact-accounts",
           "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-06-25T15:40:04Z"
+          "published_at": "2026-06-25T16:02:09Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8424,
-      "importance": 0.8424,
-      "importance_score": 0.8424,
+      "score": 0.8377,
+      "importance": 0.8377,
+      "importance_score": 0.8377,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.9909,
+        "recency": 0.965,
         "story_heat": 0.0
       },
       "category": "official",
@@ -241,75 +241,13 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-06-25T15:40:04Z",
-      "latest_at": "2026-06-25T15:40:04Z",
+      "earliest_at": "2026-06-25T16:02:09Z",
+      "latest_at": "2026-06-25T16:02:09Z",
       "primary_item": {
-        "id": "d2b1f309932b20f690f0a2def2d6d2da325653a5",
-        "title": "Red Hat Enterprise Linux 运行程序镜像现已推出公共预览版 / Red Hat Enterprise Linux runner images are now in public preview",
-        "url": "https://github.blog/changelog/2026-06-25-red-hat-enterprise-linux-runner-images-are-now-in-public-preview",
+        "id": "655a83565bd0c4044b82a9a388e64fc66c2a39d8",
+        "title": "npm 为高影响力帐户添加了预防性帐户保护 / npm adds preventive account protection for high-impact accounts",
+        "url": "https://github.blog/changelog/2026-06-25-npm-adds-preventive-account-protection-for-high-impact-accounts",
         "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
-      }
-    },
-    {
-      "story_id": "story_4eff6133e838",
-      "title": "Gemini 3.5 Flash 中电脑使用介绍 / Introducing computer use in Gemini 3.5 Flash",
-      "url": "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash",
-      "primary_url": "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash",
-      "source": "Google DeepMind",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "e1663dad019fc27cc95da6b71d6578fc79d5196f",
-          "title": "Gemini 3.5 Flash 中电脑使用介绍 / Introducing computer use in Gemini 3.5 Flash",
-          "url": "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash",
-          "source": "Google DeepMind",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-24T16:30:01Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Google DeepMind"
-      ],
-      "items": [
-        {
-          "id": "e1663dad019fc27cc95da6b71d6578fc79d5196f",
-          "title": "Gemini 3.5 Flash 中电脑使用介绍 / Introducing computer use in Gemini 3.5 Flash",
-          "url": "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash",
-          "source": "Google DeepMind",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-24T16:30:01Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7996,
-      "importance": 0.7996,
-      "importance_score": 0.7996,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.7091,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-24T16:30:01Z",
-      "latest_at": "2026-06-24T16:30:01Z",
-      "primary_item": {
-        "id": "e1663dad019fc27cc95da6b71d6578fc79d5196f",
-        "title": "Gemini 3.5 Flash 中电脑使用介绍 / Introducing computer use in Gemini 3.5 Flash",
-        "url": "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash",
-        "source": "Google DeepMind",
         "source_name": "Official AI Updates"
       }
     },
@@ -386,15 +324,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.7954,
-      "importance": 0.7954,
-      "importance_score": 0.7954,
+      "score": 0.7908,
+      "importance": 0.7908,
+      "importance_score": 0.7908,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8268,
+        "recency": 0.8009,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -467,15 +405,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.795,
-      "importance": 0.795,
-      "importance_score": 0.795,
+      "score": 0.7894,
+      "importance": 0.7894,
+      "importance_score": 0.7894,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.73,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9967,
+        "recency": 0.9655,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -491,6 +429,352 @@
         "title": "多数主流AI聊天机器人政治立场偏左，\"反觉醒\"模型也不例外",
         "url": "https://the-decoder.com/most-major-ai-chatbots-still-lean-left-on-political-questions-even-anti-woke-models-are-no-exception",
         "source": "The Decoder：AI News（RSS）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_61e14fcfb922",
+      "title": "General Intuition 完成 3.2 亿美元融资，用游戏数据训练通用 AI 智能体",
+      "url": "https://techcrunch.com/2026/06/25/from-fortnite-to-robots-general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world",
+      "primary_url": "https://techcrunch.com/2026/06/25/from-fortnite-to-robots-general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world",
+      "source": "TechCrunch：AI（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "69c57f1581893d8f78c7fef14e4f93380c0cf58f",
+          "title": "General Intuition 完成 3.2 亿美元融资，用游戏数据训练通用 AI 智能体",
+          "url": "https://techcrunch.com/2026/06/25/from-fortnite-to-robots-general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world",
+          "source": "TechCrunch：AI（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-25T16:00:00Z"
+        },
+        {
+          "id": "e1224584ed456a0d79f513f81fcd61ac61e6dda0",
+          "title": "General Intuition 完成 3.2 亿美元融资，用游戏数据训练通用 AI 智能体 / General Intuition raises $2.3B on bet that video games can train AI agents for the real world",
+          "url": "https://techcrunch.com/2026/06/25/from-fortnite-to-robots-general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world",
+          "source": "TechCrunch",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-25T16:00:00Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "TechCrunch",
+        "TechCrunch：AI（RSS）"
+      ],
+      "items": [
+        {
+          "id": "69c57f1581893d8f78c7fef14e4f93380c0cf58f",
+          "title": "General Intuition 完成 3.2 亿美元融资，用游戏数据训练通用 AI 智能体",
+          "url": "https://techcrunch.com/2026/06/25/from-fortnite-to-robots-general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world",
+          "source": "TechCrunch：AI（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-25T16:00:00Z"
+        },
+        {
+          "id": "e1224584ed456a0d79f513f81fcd61ac61e6dda0",
+          "title": "General Intuition 完成 3.2 亿美元融资，用游戏数据训练通用 AI 智能体 / General Intuition raises $2.3B on bet that video games can train AI agents for the real world",
+          "url": "https://techcrunch.com/2026/06/25/from-fortnite-to-robots-general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world",
+          "source": "TechCrunch",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-25T16:00:00Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7832,
+      "importance": 0.7832,
+      "importance_score": 0.7832,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.71,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9645,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-25T16:00:00Z",
+      "latest_at": "2026-06-25T16:00:00Z",
+      "primary_item": {
+        "id": "69c57f1581893d8f78c7fef14e4f93380c0cf58f",
+        "title": "General Intuition 完成 3.2 亿美元融资，用游戏数据训练通用 AI 智能体",
+        "url": "https://techcrunch.com/2026/06/25/from-fortnite-to-robots-general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world",
+        "source": "TechCrunch：AI（RSS）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_43a0ba32a32a",
+      "title": "Red Hat Enterprise Linux 运行程序镜像现已推出公共预览版 / Red Hat Enterprise Linux runner images are now in public preview",
+      "url": "https://github.blog/changelog/2026-06-25-red-hat-enterprise-linux-runner-images-are-now-in-public-preview",
+      "primary_url": "https://github.blog/changelog/2026-06-25-red-hat-enterprise-linux-runner-images-are-now-in-public-preview",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "d2b1f309932b20f690f0a2def2d6d2da325653a5",
+          "title": "Red Hat Enterprise Linux 运行程序镜像现已推出公共预览版 / Red Hat Enterprise Linux runner images are now in public preview",
+          "url": "https://github.blog/changelog/2026-06-25-red-hat-enterprise-linux-runner-images-are-now-in-public-preview",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-25T15:40:04Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "items": [
+        {
+          "id": "d2b1f309932b20f690f0a2def2d6d2da325653a5",
+          "title": "Red Hat Enterprise Linux 运行程序镜像现已推出公共预览版 / Red Hat Enterprise Linux runner images are now in public preview",
+          "url": "https://github.blog/changelog/2026-06-25-red-hat-enterprise-linux-runner-images-are-now-in-public-preview",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-25T15:40:04Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8368,
+      "importance": 0.8368,
+      "importance_score": 0.8368,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.87,
+        "recency": 0.9599,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-25T15:40:04Z",
+      "latest_at": "2026-06-25T15:40:04Z",
+      "primary_item": {
+        "id": "d2b1f309932b20f690f0a2def2d6d2da325653a5",
+        "title": "Red Hat Enterprise Linux 运行程序镜像现已推出公共预览版 / Red Hat Enterprise Linux runner images are now in public preview",
+        "url": "https://github.blog/changelog/2026-06-25-red-hat-enterprise-linux-runner-images-are-now-in-public-preview",
+        "source": "GitHub Changelog",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_bb02e123ea8c",
+      "title": "Ornith-1.0 开源模型家族发布，专注 Agentic Coding 全参数规模",
+      "url": "https://x.com/berryxia/status/2070167806700908957",
+      "primary_url": "https://x.com/berryxia/status/2070167806700908957",
+      "source": "X：Berry Xia (@berryxia)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "367ab11c6b2dc39eb1a9afa8654984834412b4f1",
+          "title": "Ornith-1.0 开源模型家族发布，专注 Agentic Coding 全参数规模",
+          "url": "https://x.com/berryxia/status/2070167806700908957",
+          "source": "X：Berry Xia (@berryxia)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-25T15:30:41Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "X：Berry Xia (@berryxia)"
+      ],
+      "items": [
+        {
+          "id": "367ab11c6b2dc39eb1a9afa8654984834412b4f1",
+          "title": "Ornith-1.0 开源模型家族发布，专注 Agentic Coding 全参数规模",
+          "url": "https://x.com/berryxia/status/2070167806700908957",
+          "source": "X：Berry Xia (@berryxia)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-25T15:30:41Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.772,
+      "importance": 0.772,
+      "importance_score": 0.772,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.76,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9577,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-25T15:30:41Z",
+      "latest_at": "2026-06-25T15:30:41Z",
+      "primary_item": {
+        "id": "367ab11c6b2dc39eb1a9afa8654984834412b4f1",
+        "title": "Ornith-1.0 开源模型家族发布，专注 Agentic Coding 全参数规模",
+        "url": "https://x.com/berryxia/status/2070167806700908957",
+        "source": "X：Berry Xia (@berryxia)",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_97db0890a77a",
+      "title": "Anthropic 称阿里巴巴必须为最大规模 Claude 克隆攻击受罚",
+      "url": "https://arstechnica.com/tech-policy/2026/06/anthropic-claims-alibaba-defied-trump-to-attack-claude-and-steal-capabilities",
+      "primary_url": "https://arstechnica.com/tech-policy/2026/06/anthropic-claims-alibaba-defied-trump-to-attack-claude-and-steal-capabilities",
+      "source": "Ars Technica：AI（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "c532b203287caef5ac570ef294a3ba9b6bfeb06e",
+          "title": "Anthropic 称阿里巴巴必须为最大规模 Claude 克隆攻击受罚",
+          "url": "https://arstechnica.com/tech-policy/2026/06/anthropic-claims-alibaba-defied-trump-to-attack-claude-and-steal-capabilities",
+          "source": "Ars Technica：AI（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-25T18:01:48Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Ars Technica：AI（RSS）"
+      ],
+      "items": [
+        {
+          "id": "c532b203287caef5ac570ef294a3ba9b6bfeb06e",
+          "title": "Anthropic 称阿里巴巴必须为最大规模 Claude 克隆攻击受罚",
+          "url": "https://arstechnica.com/tech-policy/2026/06/anthropic-claims-alibaba-defied-trump-to-attack-claude-and-steal-capabilities",
+          "source": "Ars Technica：AI（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-25T18:01:48Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7694,
+      "importance": 0.7694,
+      "importance_score": 0.7694,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.73,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9932,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-25T18:01:48Z",
+      "latest_at": "2026-06-25T18:01:48Z",
+      "primary_item": {
+        "id": "c532b203287caef5ac570ef294a3ba9b6bfeb06e",
+        "title": "Anthropic 称阿里巴巴必须为最大规模 Claude 克隆攻击受罚",
+        "url": "https://arstechnica.com/tech-policy/2026/06/anthropic-claims-alibaba-defied-trump-to-attack-claude-and-steal-capabilities",
+        "source": "Ars Technica：AI（RSS）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_04bd48744b58",
+      "title": "OLMo Hybrid vs Transformer：混合模型在实义词上优势明显，但重复短语上几无优势",
+      "url": "https://huggingface.co/blog/allenai/hybrid-token-prediction",
+      "primary_url": "https://huggingface.co/blog/allenai/hybrid-token-prediction",
+      "source": "Hugging Face：Blog（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "548d585f2d5ea646336b9ed0aa173087f0b99dcb",
+          "title": "OLMo Hybrid vs Transformer：混合模型在实义词上优势明显，但重复短语上几无优势",
+          "url": "https://huggingface.co/blog/allenai/hybrid-token-prediction",
+          "source": "Hugging Face：Blog（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-25T16:11:42Z"
+        },
+        {
+          "id": "edb54681aaec0bb9d12ed082abeb15f78138eaf0",
+          "title": "OLMo Hybrid vs Transformer：混合模型在实义词上优势明显，但重复短语上几无优势 / Which tokens does a hybrid model predict better?",
+          "url": "https://huggingface.co/blog/allenai/hybrid-token-prediction",
+          "source": "Hugging Face Blog",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-06-25T16:11:42Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hugging Face Blog",
+        "Hugging Face：Blog（RSS）"
+      ],
+      "items": [
+        {
+          "id": "548d585f2d5ea646336b9ed0aa173087f0b99dcb",
+          "title": "OLMo Hybrid vs Transformer：混合模型在实义词上优势明显，但重复短语上几无优势",
+          "url": "https://huggingface.co/blog/allenai/hybrid-token-prediction",
+          "source": "Hugging Face：Blog（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-25T16:11:42Z"
+        },
+        {
+          "id": "edb54681aaec0bb9d12ed082abeb15f78138eaf0",
+          "title": "OLMo Hybrid vs Transformer：混合模型在实义词上优势明显，但重复短语上几无优势 / Which tokens does a hybrid model predict better?",
+          "url": "https://huggingface.co/blog/allenai/hybrid-token-prediction",
+          "source": "Hugging Face Blog",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-06-25T16:11:42Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7657,
+      "importance": 0.7657,
+      "importance_score": 0.7657,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.65,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9672,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-25T16:11:42Z",
+      "latest_at": "2026-06-25T16:11:42Z",
+      "primary_item": {
+        "id": "548d585f2d5ea646336b9ed0aa173087f0b99dcb",
+        "title": "OLMo Hybrid vs Transformer：混合模型在实义词上优势明显，但重复短语上几无优势",
+        "url": "https://huggingface.co/blog/allenai/hybrid-token-prediction",
+        "source": "Hugging Face：Blog（RSS）",
         "source_name": "AI HOT"
       }
     },
@@ -529,15 +813,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7698,
-      "importance": 0.7698,
-      "importance_score": 0.7698,
+      "score": 0.7642,
+      "importance": 0.7642,
+      "importance_score": 0.7642,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.73,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9957,
+        "recency": 0.9646,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -553,68 +837,6 @@
         "url": "https://x.com/googleaidevs/status/2070175289481576777",
         "source": "X：Google AI for Developers (@googleaidevs)",
         "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_6e4aaf40ce95",
-      "title": "成本中心现在支持企业团队 / Cost centers now support enterprise teams",
-      "url": "https://github.blog/changelog/2026-06-25-assign-enterprise-teams-to-cost-centers",
-      "primary_url": "https://github.blog/changelog/2026-06-25-assign-enterprise-teams-to-cost-centers",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "2a6c485cd1a19304bd59bfaec9fbe109f4fb32c3",
-          "title": "成本中心现在支持企业团队 / Cost centers now support enterprise teams",
-          "url": "https://github.blog/changelog/2026-06-25-assign-enterprise-teams-to-cost-centers",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-25T10:15:19Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "items": [
-        {
-          "id": "2a6c485cd1a19304bd59bfaec9fbe109f4fb32c3",
-          "title": "成本中心现在支持企业团队 / Cost centers now support enterprise teams",
-          "url": "https://github.blog/changelog/2026-06-25-assign-enterprise-teams-to-cost-centers",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-25T10:15:19Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8289,
-      "importance": 0.8289,
-      "importance_score": 0.8289,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.9164,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-25T10:15:19Z",
-      "latest_at": "2026-06-25T10:15:19Z",
-      "primary_item": {
-        "id": "2a6c485cd1a19304bd59bfaec9fbe109f4fb32c3",
-        "title": "成本中心现在支持企业团队 / Cost centers now support enterprise teams",
-        "url": "https://github.blog/changelog/2026-06-25-assign-enterprise-teams-to-cost-centers",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
       }
     },
     {
@@ -671,15 +893,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7648,
-      "importance": 0.7648,
-      "importance_score": 0.7648,
+      "score": 0.76,
+      "importance": 0.76,
+      "importance_score": 0.76,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8455,
+        "recency": 0.8191,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -752,15 +974,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7802,
-      "importance": 0.7802,
-      "importance_score": 0.7802,
+      "score": 0.7751,
+      "importance": 0.7751,
+      "importance_score": 0.7751,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.73,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9146,
+        "recency": 0.886,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -777,6 +999,188 @@
         "url": "https://the-decoder.com/meta-employees-warn-ai-moderation-rollout-is-too-fast",
         "source": "The Decoder：AI News（RSS）",
         "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_6e4aaf40ce95",
+      "title": "成本中心现在支持企业团队 / Cost centers now support enterprise teams",
+      "url": "https://github.blog/changelog/2026-06-25-assign-enterprise-teams-to-cost-centers",
+      "primary_url": "https://github.blog/changelog/2026-06-25-assign-enterprise-teams-to-cost-centers",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "2a6c485cd1a19304bd59bfaec9fbe109f4fb32c3",
+          "title": "成本中心现在支持企业团队 / Cost centers now support enterprise teams",
+          "url": "https://github.blog/changelog/2026-06-25-assign-enterprise-teams-to-cost-centers",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-25T10:15:19Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "items": [
+        {
+          "id": "2a6c485cd1a19304bd59bfaec9fbe109f4fb32c3",
+          "title": "成本中心现在支持企业团队 / Cost centers now support enterprise teams",
+          "url": "https://github.blog/changelog/2026-06-25-assign-enterprise-teams-to-cost-centers",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-25T10:15:19Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8238,
+      "importance": 0.8238,
+      "importance_score": 0.8238,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.87,
+        "recency": 0.8877,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-25T10:15:19Z",
+      "latest_at": "2026-06-25T10:15:19Z",
+      "primary_item": {
+        "id": "2a6c485cd1a19304bd59bfaec9fbe109f4fb32c3",
+        "title": "成本中心现在支持企业团队 / Cost centers now support enterprise teams",
+        "url": "https://github.blog/changelog/2026-06-25-assign-enterprise-teams-to-cost-centers",
+        "source": "GitHub Changelog",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_ec76817e0dd3",
+      "title": "OpenRouter MCP 服务器发布",
+      "url": "https://openrouter.ai/blog/announcements/openrouter-mcp-server",
+      "primary_url": "https://openrouter.ai/blog/announcements/openrouter-mcp-server",
+      "source": "OpenRouter：Announcements（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "c7c48e3c1414b6791d81f0c545db4d936bf839d6",
+          "title": "OpenRouter MCP 服务器发布",
+          "url": "https://openrouter.ai/blog/announcements/openrouter-mcp-server",
+          "source": "OpenRouter：Announcements（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-25T00:00:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "OpenRouter：Announcements（RSS）"
+      ],
+      "items": [
+        {
+          "id": "c7c48e3c1414b6791d81f0c545db4d936bf839d6",
+          "title": "OpenRouter MCP 服务器发布",
+          "url": "https://openrouter.ai/blog/announcements/openrouter-mcp-server",
+          "source": "OpenRouter：Announcements（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-25T00:00:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7224,
+      "importance": 0.7224,
+      "importance_score": 0.7224,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.71,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7655,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-06-25T00:00:00Z",
+      "latest_at": "2026-06-25T00:00:00Z",
+      "primary_item": {
+        "id": "c7c48e3c1414b6791d81f0c545db4d936bf839d6",
+        "title": "OpenRouter MCP 服务器发布",
+        "url": "https://openrouter.ai/blog/announcements/openrouter-mcp-server",
+        "source": "OpenRouter：Announcements（RSS）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_704fc70379f8",
+      "title": "​前印度信息技术巨头新创企业，欲用 AI 颠覆 IT 服务行业",
+      "url": "https://www.aibase.com/news/29167",
+      "primary_url": "https://www.aibase.com/news/29167",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "4789bd39bcbe84cffdb3fc2d595e79d5ce42450f",
+          "title": "​前印度信息技术巨头新创企业，欲用 AI 颠覆 IT 服务行业",
+          "url": "https://www.aibase.com/news/29167",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-25T11:12:38.027616Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "4789bd39bcbe84cffdb3fc2d595e79d5ce42450f",
+          "title": "​前印度信息技术巨头新创企业，欲用 AI 颠覆 IT 服务行业",
+          "url": "https://www.aibase.com/news/29167",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-25T11:12:38.027616Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7496,
+      "importance": 0.7496,
+      "importance_score": 0.7496,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-06-25T11:12:38.027616Z",
+      "latest_at": "2026-06-25T11:12:38.027616Z",
+      "primary_item": {
+        "id": "4789bd39bcbe84cffdb3fc2d595e79d5ce42450f",
+        "title": "​前印度信息技术巨头新创企业，欲用 AI 颠覆 IT 服务行业",
+        "url": "https://www.aibase.com/news/29167",
+        "source": "AIbase",
+        "source_name": "AIbase"
       }
     },
     {
@@ -833,15 +1237,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7447,
-      "importance": 0.7447,
-      "importance_score": 0.7447,
+      "score": 0.7404,
+      "importance": 0.7404,
+      "importance_score": 0.7404,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7671,
+        "recency": 0.7431,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -857,369 +1261,6 @@
         "url": "https://techcrunch.com/2026/06/24/ai-was-supposed-to-kill-engineering-jobs-but-new-data-suggests-theyre-the-most-resilient",
         "source": "TechCrunch：AI（RSS）",
         "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_8920bc1fc121",
-      "title": "Gemini 3.5 Flash 中的计算机使用",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash",
-      "primary_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "b6638a1bfb6b9d73056f12c282b4ec8c06da067e",
-          "title": "Gemini 3.5 Flash 中的计算机使用",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-24T21:16:01.786000Z"
-        },
-        {
-          "id": "597b0de71044fd89d50f5a51e90a1f8b1982077e",
-          "title": "Gemini 3.5 Flash 中的计算机使用 / Computer use in Gemini 3.5 Flash",
-          "url": "https://news.ycombinator.com/item?id=48662999",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-24T18:45:56.706000Z"
-        },
-        {
-          "id": "cb6eeffd105d2e51520da87ffc9977c4313c9366",
-          "title": "Gemini 3.5 Flash 中的计算机使用 / Computer use in Gemini 3.5 Flash",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-24T17:21:34Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Hacker News",
-        "Hacker News 热门（buzzing.cc 中文翻译）",
-        "hackernews"
-      ],
-      "items": [
-        {
-          "id": "b6638a1bfb6b9d73056f12c282b4ec8c06da067e",
-          "title": "Gemini 3.5 Flash 中的计算机使用",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-24T21:16:01.786000Z"
-        },
-        {
-          "id": "597b0de71044fd89d50f5a51e90a1f8b1982077e",
-          "title": "Gemini 3.5 Flash 中的计算机使用 / Computer use in Gemini 3.5 Flash",
-          "url": "https://news.ycombinator.com/item?id=48662999",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-24T18:45:56.706000Z"
-        },
-        {
-          "id": "cb6eeffd105d2e51520da87ffc9977c4313c9366",
-          "title": "Gemini 3.5 Flash 中的计算机使用 / Computer use in Gemini 3.5 Flash",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-24T17:21:34Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.7713,
-      "importance": 0.7713,
-      "importance_score": 0.7713,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.71,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7596,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-24T17:21:34Z",
-      "latest_at": "2026-06-24T21:16:01.786000Z",
-      "primary_item": {
-        "id": "b6638a1bfb6b9d73056f12c282b4ec8c06da067e",
-        "title": "Gemini 3.5 Flash 中的计算机使用",
-        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash",
-        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_4ad3f5f9d177",
-      "title": "GPT-5.5 Instant 新版本，对话更有趣",
-      "url": "https://x.com/OpenAI/status/2069843083701915755",
-      "primary_url": "https://x.com/OpenAI/status/2069843083701915755",
-      "source": "X：OpenAI (@OpenAI)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "5973441026ba54a0e769ff5a05a4ee81f8df33fb",
-          "title": "GPT-5.5 Instant 新版本，对话更有趣",
-          "url": "https://x.com/OpenAI/status/2069843083701915755",
-          "source": "X：OpenAI (@OpenAI)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-24T18:00:21Z"
-        },
-        {
-          "id": "009aefb67416e15e0e63c7a06cf1ba4e561cddce",
-          "title": "GPT-5.5 Instant 新版本，对话更有趣 / We have a new version of GPT-5.5 Instant for you, and it's much more fun to talk to. Our most-used model is now better at understanding the intent behind a question and adapting its response accordingly. It also handles…",
-          "url": "https://x.com/OpenAI/status/2069843083701915755",
-          "source": "@OpenAI",
-          "source_name": "SocialData X",
-          "site_id": "socialdata_x",
-          "published_at": "2026-06-24T18:00:21Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "@OpenAI",
-        "X：OpenAI (@OpenAI)"
-      ],
-      "items": [
-        {
-          "id": "5973441026ba54a0e769ff5a05a4ee81f8df33fb",
-          "title": "GPT-5.5 Instant 新版本，对话更有趣",
-          "url": "https://x.com/OpenAI/status/2069843083701915755",
-          "source": "X：OpenAI (@OpenAI)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-24T18:00:21Z"
-        },
-        {
-          "id": "009aefb67416e15e0e63c7a06cf1ba4e561cddce",
-          "title": "GPT-5.5 Instant 新版本，对话更有趣 / We have a new version of GPT-5.5 Instant for you, and it's much more fun to talk to. Our most-used model is now better at understanding the intent behind a question and adapting its response accordingly. It also handles…",
-          "url": "https://x.com/OpenAI/status/2069843083701915755",
-          "source": "@OpenAI",
-          "source_name": "SocialData X",
-          "site_id": "socialdata_x",
-          "published_at": "2026-06-24T18:00:21Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.728,
-      "importance": 0.728,
-      "importance_score": 0.728,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.67,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7247,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-24T18:00:21Z",
-      "latest_at": "2026-06-24T18:00:21Z",
-      "primary_item": {
-        "id": "5973441026ba54a0e769ff5a05a4ee81f8df33fb",
-        "title": "GPT-5.5 Instant 新版本，对话更有趣",
-        "url": "https://x.com/OpenAI/status/2069843083701915755",
-        "source": "X：OpenAI (@OpenAI)",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_ec76817e0dd3",
-      "title": "OpenRouter MCP 服务器发布",
-      "url": "https://openrouter.ai/blog/announcements/openrouter-mcp-server",
-      "primary_url": "https://openrouter.ai/blog/announcements/openrouter-mcp-server",
-      "source": "OpenRouter：Announcements（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "c7c48e3c1414b6791d81f0c545db4d936bf839d6",
-          "title": "OpenRouter MCP 服务器发布",
-          "url": "https://openrouter.ai/blog/announcements/openrouter-mcp-server",
-          "source": "OpenRouter：Announcements（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-25T00:00:00Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "OpenRouter：Announcements（RSS）"
-      ],
-      "items": [
-        {
-          "id": "c7c48e3c1414b6791d81f0c545db4d936bf839d6",
-          "title": "OpenRouter MCP 服务器发布",
-          "url": "https://openrouter.ai/blog/announcements/openrouter-mcp-server",
-          "source": "OpenRouter：Announcements（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-25T00:00:00Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7268,
-      "importance": 0.7268,
-      "importance_score": 0.7268,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.71,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7902,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-25T00:00:00Z",
-      "latest_at": "2026-06-25T00:00:00Z",
-      "primary_item": {
-        "id": "c7c48e3c1414b6791d81f0c545db4d936bf839d6",
-        "title": "OpenRouter MCP 服务器发布",
-        "url": "https://openrouter.ai/blog/announcements/openrouter-mcp-server",
-        "source": "OpenRouter：Announcements（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_704fc70379f8",
-      "title": "​前印度信息技术巨头新创企业，欲用 AI 颠覆 IT 服务行业",
-      "url": "https://www.aibase.com/news/29167",
-      "primary_url": "https://www.aibase.com/news/29167",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "4789bd39bcbe84cffdb3fc2d595e79d5ce42450f",
-          "title": "​前印度信息技术巨头新创企业，欲用 AI 颠覆 IT 服务行业",
-          "url": "https://www.aibase.com/news/29167",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-25T11:12:38.027616Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "4789bd39bcbe84cffdb3fc2d595e79d5ce42450f",
-          "title": "​前印度信息技术巨头新创企业，欲用 AI 颠覆 IT 服务行业",
-          "url": "https://www.aibase.com/news/29167",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-25T11:12:38.027616Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7548,
-      "importance": 0.7548,
-      "importance_score": 0.7548,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9291,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-25T11:12:38.027616Z",
-      "latest_at": "2026-06-25T11:12:38.027616Z",
-      "primary_item": {
-        "id": "4789bd39bcbe84cffdb3fc2d595e79d5ce42450f",
-        "title": "​前印度信息技术巨头新创企业，欲用 AI 颠覆 IT 服务行业",
-        "url": "https://www.aibase.com/news/29167",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      }
-    },
-    {
-      "story_id": "story_2579333ba986",
-      "title": "事件响应的自助凭证撤销 / Self-service credential revocation for incident response",
-      "url": "https://github.blog/changelog/2026-06-24-self-service-credential-revocation-for-incident-response",
-      "primary_url": "https://github.blog/changelog/2026-06-24-self-service-credential-revocation-for-incident-response",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "2c13f1cd981b50654539316dcb8446bf4a8247ac",
-          "title": "事件响应的自助凭证撤销 / Self-service credential revocation for incident response",
-          "url": "https://github.blog/changelog/2026-06-24-self-service-credential-revocation-for-incident-response",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-24T16:47:20Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "items": [
-        {
-          "id": "2c13f1cd981b50654539316dcb8446bf4a8247ac",
-          "title": "事件响应的自助凭证撤销 / Self-service credential revocation for incident response",
-          "url": "https://github.blog/changelog/2026-06-24-self-service-credential-revocation-for-incident-response",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-24T16:47:20Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7922,
-      "importance": 0.7922,
-      "importance_score": 0.7922,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.7121,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-24T16:47:20Z",
-      "latest_at": "2026-06-24T16:47:20Z",
-      "primary_item": {
-        "id": "2c13f1cd981b50654539316dcb8446bf4a8247ac",
-        "title": "事件响应的自助凭证撤销 / Self-service credential revocation for incident response",
-        "url": "https://github.blog/changelog/2026-06-24-self-service-credential-revocation-for-incident-response",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
       }
     },
     {
@@ -1257,21 +1298,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7548,
-      "importance": 0.7548,
-      "importance_score": 0.7548,
+      "score": 0.7496,
+      "importance": 0.7496,
+      "importance_score": 0.7496,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9291,
+        "recency": 0.9,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-06-25T11:12:38.027616Z",
       "latest_at": "2026-06-25T11:12:38.027616Z",
@@ -1284,145 +1324,154 @@
       }
     },
     {
-      "story_id": "story_cb8cf31b91ad",
-      "title": "Figma在Config 2026押注人类判断，画布AI能力却来自第三方",
-      "url": "https://the-decoder.com/figma-bets-on-human-judgment-at-config-2026-while-the-ai-powering-its-canvas-belongs-to-someone-else",
-      "primary_url": "https://the-decoder.com/figma-bets-on-human-judgment-at-config-2026-while-the-ai-powering-its-canvas-belongs-to-someone-else",
-      "source": "The Decoder：AI News（RSS）",
-      "source_name": "AI HOT",
+      "story_id": "story_2df82173bb28",
+      "title": "AI大幅降低开发门槛后，很多团队盲目落地积压的需求，结果徒增维护与运营成本，Token消耗沦为无效指标。产品运营和 AI 策略顾问 Katie Robly在这期对话中重新划分了PM、设计、工程师的协作边界，同时提出核心思路：AI适合承接整理反馈、生成原型等重复性战术工作，人们应该聚焦客户调研、战略取舍等决策环节，初级产品经理尤其要手动核验AI输出、夯实判断力，前置客户需求调研再启动开发。",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+      "primary_url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+      "source": "社区更新 · 2026-06-25",
+      "source_name": "WaytoAGI",
       "sources": [
         {
-          "id": "e803b1e857c45c8f6da733bc8a6fc37c64603b39",
-          "title": "Figma在Config 2026押注人类判断，画布AI能力却来自第三方",
-          "url": "https://the-decoder.com/figma-bets-on-human-judgment-at-config-2026-while-the-ai-powering-its-canvas-belongs-to-someone-else",
-          "source": "The Decoder：AI News（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-24T16:49:01Z"
+          "id": "182a4326157603383a7180fd27f856cde8a5c276",
+          "title": "AI大幅降低开发门槛后，很多团队盲目落地积压的需求，结果徒增维护与运营成本，Token消耗沦为无效指标。产品运营和 AI 策略顾问 Katie Robly在这期对话中重新划分了PM、设计、工程师的协作边界，同时提出核心思路：AI适合承接整理反馈、生成原型等重复性战术工作，人们应该聚焦客户调研、战略取舍等决策环节，初级产品经理尤其要手动核验AI输出、夯实判断力，前置客户需求调研再启动开发。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-25",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-25T18:30:14.882796Z"
         },
         {
-          "id": "cb7a253c9daf7aed75b878bb6bfd0ed852419c10",
-          "title": "Figma在Config 2026押注人类判断，画布AI能力却来自第三方 / Figma bets on human judgment at Config 2026 while the AI powering its canvas belongs to someone else",
-          "url": "https://the-decoder.com/figma-bets-on-human-judgment-at-config-2026-while-the-ai-powering-its-canvas-belongs-to-someone-else",
-          "source": "The Decoder AI News",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-06-24T16:49:01Z"
+          "id": "7c8d6d7b5b66bf7f4584ae7bf0482ac4be39d149",
+          "title": "这是一篇GitHub的奶爸级别教学。如果你是 AI 编程爱好者，本文对你帮助是极大的。包括：怎么注册，搜索，使用 GitHub、了解 GitHub 详细功能点、如何提交和备份 GitHub 项目。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-25",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-25T11:12:38.027616Z"
+        },
+        {
+          "id": "1794db05181c851d959a10bc62f76065d7fc716c",
+          "title": "火山方舟上线Seed 2.1 Pro，多项Agent、代码、多模态基准成绩位居前列，兼容主流开发工具且调用成本远低于海外模型。作者用它做了一个毕业生就业补贴公益项目，自主完成全网信息抓取、OCR识别、数据核验质检、开源仓库搭建与检索网站开发。整套项目完成成本仅为同类海外模型的几十分之一，快来看看效果如何。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-25",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-25T08:18:17.801339Z"
+        },
+        {
+          "id": "e62cab6fad3c71ebacc2f74581948782618f0530",
+          "title": "你读完一本很棒的书。两周后，却连一个章节都想不起来。不是因为你笨，而是因为从来没人教过你如何真正学习。你可以在Claude里用20分钟跑完本文中的4个提示词，20分钟，让知识真正留在脑子里。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-24",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-24T19:11:40.150741Z"
+        },
+        {
+          "id": "6bf87a6c105e36f3cd4672887e78907616da229e",
+          "title": "定时任务经常静默失效、无效重复执行？Loop Engineering可以解决传统静态定时Agent的痛点，将单次提示词升级为可以自主判断、自检迭代的智能循环体系。有一个开源项目提供了五大核心模块、七套成熟生产模板，搭配三条CLI工具完成初始化、成本预估与环境检测，还设计了L1-L3分级放权机制，循序渐进放开自动化权限规避风险。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-24",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-24T19:11:40.150741Z"
+        },
+        {
+          "id": "6170d9f23ba0cc89c18cfa1c49aa06c469447885",
+          "title": "真正理解AI 智能体如何工作的开发者，只占其中很小一部分。每周都会出现一个新的智能体框架。一个新工具。一次新的“这会改变一切”的发布。大多数开发者因此觉得自己落后了。但让你落后的，不是错过了某个新工具。而是没有理解这个工具背后的理念。这篇文章的30个概念，会出现在几乎所有智能体框架里，可以帮助你理解以后出现的每一个新工具。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-24",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-24T19:11:40.150741Z"
         }
       ],
-      "source_count": 2,
+      "source_count": 6,
       "source_names": [
-        "The Decoder AI News",
-        "The Decoder：AI News（RSS）"
+        "社区更新 · 2026-06-24",
+        "社区更新 · 2026-06-25"
       ],
       "items": [
         {
-          "id": "e803b1e857c45c8f6da733bc8a6fc37c64603b39",
-          "title": "Figma在Config 2026押注人类判断，画布AI能力却来自第三方",
-          "url": "https://the-decoder.com/figma-bets-on-human-judgment-at-config-2026-while-the-ai-powering-its-canvas-belongs-to-someone-else",
-          "source": "The Decoder：AI News（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-24T16:49:01Z"
+          "id": "182a4326157603383a7180fd27f856cde8a5c276",
+          "title": "AI大幅降低开发门槛后，很多团队盲目落地积压的需求，结果徒增维护与运营成本，Token消耗沦为无效指标。产品运营和 AI 策略顾问 Katie Robly在这期对话中重新划分了PM、设计、工程师的协作边界，同时提出核心思路：AI适合承接整理反馈、生成原型等重复性战术工作，人们应该聚焦客户调研、战略取舍等决策环节，初级产品经理尤其要手动核验AI输出、夯实判断力，前置客户需求调研再启动开发。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-25",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-25T18:30:14.882796Z"
         },
         {
-          "id": "cb7a253c9daf7aed75b878bb6bfd0ed852419c10",
-          "title": "Figma在Config 2026押注人类判断，画布AI能力却来自第三方 / Figma bets on human judgment at Config 2026 while the AI powering its canvas belongs to someone else",
-          "url": "https://the-decoder.com/figma-bets-on-human-judgment-at-config-2026-while-the-ai-powering-its-canvas-belongs-to-someone-else",
-          "source": "The Decoder AI News",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-06-24T16:49:01Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7468,
-      "importance": 0.7468,
-      "importance_score": 0.7468,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.74,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7124,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-24T16:49:01Z",
-      "latest_at": "2026-06-24T16:49:01Z",
-      "primary_item": {
-        "id": "e803b1e857c45c8f6da733bc8a6fc37c64603b39",
-        "title": "Figma在Config 2026押注人类判断，画布AI能力却来自第三方",
-        "url": "https://the-decoder.com/figma-bets-on-human-judgment-at-config-2026-while-the-ai-powering-its-canvas-belongs-to-someone-else",
-        "source": "The Decoder：AI News（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_c51974b30bf7",
-      "title": "免费和学生计划的型号选择发生变化 / Changes to model selection for Free and Student plans",
-      "url": "https://github.blog/changelog/2026-06-24-changes-to-model-selection-for-free-and-student-plans",
-      "primary_url": "https://github.blog/changelog/2026-06-24-changes-to-model-selection-for-free-and-student-plans",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "sources": [
+          "id": "7c8d6d7b5b66bf7f4584ae7bf0482ac4be39d149",
+          "title": "这是一篇GitHub的奶爸级别教学。如果你是 AI 编程爱好者，本文对你帮助是极大的。包括：怎么注册，搜索，使用 GitHub、了解 GitHub 详细功能点、如何提交和备份 GitHub 项目。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-25",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-25T11:12:38.027616Z"
+        },
         {
-          "id": "4a2efb6362c98cb884ab793334b4373463f8fe3a",
-          "title": "免费和学生计划的型号选择发生变化 / Changes to model selection for Free and Student plans",
-          "url": "https://github.blog/changelog/2026-06-24-changes-to-model-selection-for-free-and-student-plans",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-24T16:28:36Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "items": [
+          "id": "1794db05181c851d959a10bc62f76065d7fc716c",
+          "title": "火山方舟上线Seed 2.1 Pro，多项Agent、代码、多模态基准成绩位居前列，兼容主流开发工具且调用成本远低于海外模型。作者用它做了一个毕业生就业补贴公益项目，自主完成全网信息抓取、OCR识别、数据核验质检、开源仓库搭建与检索网站开发。整套项目完成成本仅为同类海外模型的几十分之一，快来看看效果如何。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-25",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-25T08:18:17.801339Z"
+        },
         {
-          "id": "4a2efb6362c98cb884ab793334b4373463f8fe3a",
-          "title": "免费和学生计划的型号选择发生变化 / Changes to model selection for Free and Student plans",
-          "url": "https://github.blog/changelog/2026-06-24-changes-to-model-selection-for-free-and-student-plans",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-24T16:28:36Z"
+          "id": "e62cab6fad3c71ebacc2f74581948782618f0530",
+          "title": "你读完一本很棒的书。两周后，却连一个章节都想不起来。不是因为你笨，而是因为从来没人教过你如何真正学习。你可以在Claude里用20分钟跑完本文中的4个提示词，20分钟，让知识真正留在脑子里。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-24",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-24T19:11:40.150741Z"
+        },
+        {
+          "id": "6bf87a6c105e36f3cd4672887e78907616da229e",
+          "title": "定时任务经常静默失效、无效重复执行？Loop Engineering可以解决传统静态定时Agent的痛点，将单次提示词升级为可以自主判断、自检迭代的智能循环体系。有一个开源项目提供了五大核心模块、七套成熟生产模板，搭配三条CLI工具完成初始化、成本预估与环境检测，还设计了L1-L3分级放权机制，循序渐进放开自动化权限规避风险。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-24",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-24T19:11:40.150741Z"
+        },
+        {
+          "id": "6170d9f23ba0cc89c18cfa1c49aa06c469447885",
+          "title": "真正理解AI 智能体如何工作的开发者，只占其中很小一部分。每周都会出现一个新的智能体框架。一个新工具。一次新的“这会改变一切”的发布。大多数开发者因此觉得自己落后了。但让你落后的，不是错过了某个新工具。而是没有理解这个工具背后的理念。这篇文章的30个概念，会出现在几乎所有智能体框架里，可以帮助你理解以后出现的每一个新工具。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-24",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-24T19:11:40.150741Z"
         }
       ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7916,
-      "importance": 0.7916,
-      "importance_score": 0.7916,
-      "importance_label": "官方更新",
+      "item_count": 6,
+      "duplicate_count": 6,
+      "score": 0.6692,
+      "importance": 0.6692,
+      "importance_score": 0.6692,
+      "importance_label": "多源热议",
       "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.7089,
-        "story_heat": 0.0
+        "editorial": 0.468,
+        "source_tier": 0.54,
+        "ai_relevance": 0.65,
+        "recency": 1.0,
+        "story_heat": 1.0
       },
-      "category": "official",
+      "category": "multi_source",
       "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
+        "multi_source"
       ],
-      "earliest_at": "2026-06-24T16:28:36Z",
-      "latest_at": "2026-06-24T16:28:36Z",
+      "earliest_at": "2026-06-24T19:11:40.150741Z",
+      "latest_at": "2026-06-25T18:30:14.882796Z",
       "primary_item": {
-        "id": "4a2efb6362c98cb884ab793334b4373463f8fe3a",
-        "title": "免费和学生计划的型号选择发生变化 / Changes to model selection for Free and Student plans",
-        "url": "https://github.blog/changelog/2026-06-24-changes-to-model-selection-for-free-and-student-plans",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
+        "id": "182a4326157603383a7180fd27f856cde8a5c276",
+        "title": "AI大幅降低开发门槛后，很多团队盲目落地积压的需求，结果徒增维护与运营成本，Token消耗沦为无效指标。产品运营和 AI 策略顾问 Katie Robly在这期对话中重新划分了PM、设计、工程师的协作边界，同时提出核心思路：AI适合承接整理反馈、生成原型等重复性战术工作，人们应该聚焦客户调研、战略取舍等决策环节，初级产品经理尤其要手动核验AI输出、夯实判断力，前置客户需求调研再启动开发。",
+        "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+        "source": "社区更新 · 2026-06-25",
+        "source_name": "WaytoAGI"
       }
     }
   ]
