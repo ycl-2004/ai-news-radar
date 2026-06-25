@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T04:40:56.711525Z",
+  "generated_at": "2026-06-25T08:18:17.801339Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -57,15 +57,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8629,
-      "importance": 0.8629,
-      "importance_score": 0.8629,
+      "score": 0.8552,
+      "importance": 0.8552,
+      "importance_score": 0.8552,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.99,
-        "recency": 0.8327,
+        "recency": 0.7903,
         "story_heat": 0.25
       },
       "category": "official",
@@ -177,15 +177,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.8269,
-      "importance": 0.8269,
-      "importance_score": 0.8269,
+      "score": 0.8195,
+      "importance": 0.8195,
+      "importance_score": 0.8195,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.78,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8129,
+        "recency": 0.7715,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -239,15 +239,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.823,
-      "importance": 0.823,
-      "importance_score": 0.823,
+      "score": 0.8153,
+      "importance": 0.8153,
+      "importance_score": 0.8153,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.8387,
+        "recency": 0.7959,
         "story_heat": 0.0
       },
       "category": "official",
@@ -301,15 +301,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8156,
-      "importance": 0.8156,
-      "importance_score": 0.8156,
+      "score": 0.8079,
+      "importance": 0.8079,
+      "importance_score": 0.8079,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.8422,
+        "recency": 0.7993,
         "story_heat": 0.0
       },
       "category": "official",
@@ -401,15 +401,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.8226,
-      "importance": 0.8226,
-      "importance_score": 0.8226,
+      "score": 0.8136,
+      "importance": 0.8136,
+      "importance_score": 0.8136,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9778,
+        "recency": 0.928,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -482,15 +482,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7926,
-      "importance": 0.7926,
-      "importance_score": 0.7926,
+      "score": 0.7834,
+      "importance": 0.7834,
+      "importance_score": 0.7834,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.949,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -544,15 +544,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8149,
-      "importance": 0.8149,
-      "importance_score": 0.8149,
+      "score": 0.8072,
+      "importance": 0.8072,
+      "importance_score": 0.8072,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.8384,
+        "recency": 0.7957,
         "story_heat": 0.0
       },
       "category": "official",
@@ -625,15 +625,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7703,
-      "importance": 0.7703,
-      "importance_score": 0.7703,
+      "score": 0.7625,
+      "importance": 0.7625,
+      "importance_score": 0.7625,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.74,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8425,
+        "recency": 0.7996,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -706,15 +706,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7699,
-      "importance": 0.7699,
-      "importance_score": 0.7699,
+      "score": 0.7616,
+      "importance": 0.7616,
+      "importance_score": 0.7616,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9073,
+        "recency": 0.861,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -787,22 +787,21 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7519,
-      "importance": 0.7519,
-      "importance_score": 0.7519,
+      "score": 0.744,
+      "importance": 0.744,
+      "importance_score": 0.744,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.67,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8571,
+        "recency": 0.8134,
         "story_heat": 0.25
       },
       "category": "industry",
       "reasons": [
         "multi_source",
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-06-24T18:00:21Z",
       "latest_at": "2026-06-24T18:00:21Z",
@@ -812,6 +811,67 @@
         "url": "https://x.com/OpenAI/status/2069843083701915755",
         "source": "X：OpenAI (@OpenAI)",
         "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_368b50ad3196",
+      "title": "2026全球独角兽总估值飙升43%:大模型点燃资本狂热，重塑全球科技产业重心",
+      "url": "https://www.aibase.com/news/29163",
+      "primary_url": "https://www.aibase.com/news/29163",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "bc8e2f3134db3fc30bb3e5e506e8ce5ecd39a5f8",
+          "title": "2026全球独角兽总估值飙升43%:大模型点燃资本狂热，重塑全球科技产业重心",
+          "url": "https://www.aibase.com/news/29163",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-25T08:18:17.801339Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "bc8e2f3134db3fc30bb3e5e506e8ce5ecd39a5f8",
+          "title": "2026全球独角兽总估值飙升43%:大模型点燃资本狂热，重塑全球科技产业重心",
+          "url": "https://www.aibase.com/news/29163",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-25T08:18:17.801339Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-25T08:18:17.801339Z",
+      "latest_at": "2026-06-25T08:18:17.801339Z",
+      "primary_item": {
+        "id": "bc8e2f3134db3fc30bb3e5e506e8ce5ecd39a5f8",
+        "title": "2026全球独角兽总估值飙升43%:大模型点燃资本狂热，重塑全球科技产业重心",
+        "url": "https://www.aibase.com/news/29163",
+        "source": "AIbase",
+        "source_name": "AIbase"
       }
     },
     {
@@ -849,15 +909,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7393,
-      "importance": 0.7393,
-      "importance_score": 0.7393,
+      "score": 0.7319,
+      "importance": 0.7319,
+      "importance_score": 0.7319,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.74,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8095,
+        "recency": 0.7682,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -872,67 +932,6 @@
         "url": "https://mp.weixin.qq.com/s/mdmaAyUIvxE8WT_GEbF2wQ",
         "source": "公众号：火山引擎",
         "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_940c3d4e476d",
-      "title": "27亿留不住核心大牛?谷歌 AI 天团现离职潮，多位顶级科学家投奔死敌",
-      "url": "https://www.aibase.com/news/29139",
-      "primary_url": "https://www.aibase.com/news/29139",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "7799bbff563381316830969c9cb2805a8355ff29",
-          "title": "27亿留不住核心大牛?谷歌 AI 天团现离职潮，多位顶级科学家投奔死敌",
-          "url": "https://www.aibase.com/news/29139",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-25T04:40:56.711525Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "7799bbff563381316830969c9cb2805a8355ff29",
-          "title": "27亿留不住核心大牛?谷歌 AI 天团现离职潮，多位顶级科学家投奔死敌",
-          "url": "https://www.aibase.com/news/29139",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-25T04:40:56.711525Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 1.0,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-25T04:40:56.711525Z",
-      "latest_at": "2026-06-25T04:40:56.711525Z",
-      "primary_item": {
-        "id": "7799bbff563381316830969c9cb2805a8355ff29",
-        "title": "27亿留不住核心大牛?谷歌 AI 天团现离职潮，多位顶级科学家投奔死敌",
-        "url": "https://www.aibase.com/news/29139",
-        "source": "AIbase",
-        "source_name": "AIbase"
       }
     },
     {
@@ -1008,15 +1007,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.7963,
-      "importance": 0.7963,
-      "importance_score": 0.7963,
+      "score": 0.7881,
+      "importance": 0.7881,
+      "importance_score": 0.7881,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.71,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8985,
+        "recency": 0.8527,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1070,15 +1069,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7309,
-      "importance": 0.7309,
-      "importance_score": 0.7309,
+      "score": 0.7231,
+      "importance": 0.7231,
+      "importance_score": 0.7231,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.69,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8459,
+        "recency": 0.8028,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1096,261 +1095,21 @@
       }
     },
     {
-      "story_id": "story_dc2e61f7754f",
-      "title": "Notion 使用 Cursor SDK 嵌入编码智能体",
-      "url": "https://cursor.com/blog/notion",
-      "primary_url": "https://cursor.com/blog/notion",
-      "source": "Cursor Blog",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "c35a6812044773fda99d56197e6b48da5938999b",
-          "title": "Notion 使用 Cursor SDK 嵌入编码智能体",
-          "url": "https://cursor.com/blog/notion",
-          "source": "Cursor Blog",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-24T20:55:19.799000Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Cursor Blog"
-      ],
-      "items": [
-        {
-          "id": "c35a6812044773fda99d56197e6b48da5938999b",
-          "title": "Notion 使用 Cursor SDK 嵌入编码智能体",
-          "url": "https://cursor.com/blog/notion",
-          "source": "Cursor Blog",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-24T20:55:19.799000Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7275,
-      "importance": 0.7275,
-      "importance_score": 0.7275,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.65,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.894,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-24T20:55:19.799000Z",
-      "latest_at": "2026-06-24T20:55:19.799000Z",
-      "primary_item": {
-        "id": "c35a6812044773fda99d56197e6b48da5938999b",
-        "title": "Notion 使用 Cursor SDK 嵌入编码智能体",
-        "url": "https://cursor.com/blog/notion",
-        "source": "Cursor Blog",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_712f8565a67c",
-      "title": "DFlash：块扩散草稿模型实现最高15倍吞吐量提升",
-      "url": "https://www.marktechpost.com/2026/06/24/dflash-speculative-decoding-drafts-whole-token-blocks-in-parallel-for-up-to-15x-higher-throughput-on-nvidia-blackwell",
-      "primary_url": "https://www.marktechpost.com/2026/06/24/dflash-speculative-decoding-drafts-whole-token-blocks-in-parallel-for-up-to-15x-higher-throughput-on-nvidia-blackwell",
-      "source": "MarkTechPost（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "ed9e42cd5609ddaa38c0c89c55d00b2d33d98d02",
-          "title": "DFlash：块扩散草稿模型实现最高15倍吞吐量提升",
-          "url": "https://www.marktechpost.com/2026/06/24/dflash-speculative-decoding-drafts-whole-token-blocks-in-parallel-for-up-to-15x-higher-throughput-on-nvidia-blackwell",
-          "source": "MarkTechPost（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-24T07:21:10Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "MarkTechPost（RSS）"
-      ],
-      "items": [
-        {
-          "id": "ed9e42cd5609ddaa38c0c89c55d00b2d33d98d02",
-          "title": "DFlash：块扩散草稿模型实现最高15倍吞吐量提升",
-          "url": "https://www.marktechpost.com/2026/06/24/dflash-speculative-decoding-drafts-whole-token-blocks-in-parallel-for-up-to-15x-higher-throughput-on-nvidia-blackwell",
-          "source": "MarkTechPost（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-24T07:21:10Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7259,
-      "importance": 0.7259,
-      "importance_score": 0.7259,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.74,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7349,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-24T07:21:10Z",
-      "latest_at": "2026-06-24T07:21:10Z",
-      "primary_item": {
-        "id": "ed9e42cd5609ddaa38c0c89c55d00b2d33d98d02",
-        "title": "DFlash：块扩散草稿模型实现最高15倍吞吐量提升",
-        "url": "https://www.marktechpost.com/2026/06/24/dflash-speculative-decoding-drafts-whole-token-blocks-in-parallel-for-up-to-15x-higher-throughput-on-nvidia-blackwell",
-        "source": "MarkTechPost（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_111f8c18c9b5",
-      "title": "OpenRouter 零数据留存（ZDR）实践：97 款新模型，流量占比近半",
-      "url": "https://openrouter.ai/blog/insights/when-zero-means-zero",
-      "primary_url": "https://openrouter.ai/blog/insights/when-zero-means-zero",
-      "source": "OpenRouter：Announcements（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "0c114f5a42eaebcda511a34dc25d43e9fc11a192",
-          "title": "OpenRouter 零数据留存（ZDR）实践：97 款新模型，流量占比近半",
-          "url": "https://openrouter.ai/blog/insights/when-zero-means-zero",
-          "source": "OpenRouter：Announcements（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-24T16:00:00Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "OpenRouter：Announcements（RSS）"
-      ],
-      "items": [
-        {
-          "id": "0c114f5a42eaebcda511a34dc25d43e9fc11a192",
-          "title": "OpenRouter 零数据留存（ZDR）实践：97 款新模型，流量占比近半",
-          "url": "https://openrouter.ai/blog/insights/when-zero-means-zero",
-          "source": "OpenRouter：Announcements（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-24T16:00:00Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7255,
-      "importance": 0.7255,
-      "importance_score": 0.7255,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.68,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8327,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-24T16:00:00Z",
-      "latest_at": "2026-06-24T16:00:00Z",
-      "primary_item": {
-        "id": "0c114f5a42eaebcda511a34dc25d43e9fc11a192",
-        "title": "OpenRouter 零数据留存（ZDR）实践：97 款新模型，流量占比近半",
-        "url": "https://openrouter.ai/blog/insights/when-zero-means-zero",
-        "source": "OpenRouter：Announcements（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_512fdde1e885",
-      "title": "Perplexity推出Computer for Counsel",
-      "url": "https://x.com/perplexity_ai/status/2069866668671766804",
-      "primary_url": "https://x.com/perplexity_ai/status/2069866668671766804",
-      "source": "X：Perplexity (@perplexity_ai)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "95d6569fec3cf989081d28e11f2877f35fe2a6f9",
-          "title": "Perplexity推出Computer for Counsel",
-          "url": "https://x.com/perplexity_ai/status/2069866668671766804",
-          "source": "X：Perplexity (@perplexity_ai)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-24T19:34:04Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：Perplexity (@perplexity_ai)"
-      ],
-      "items": [
-        {
-          "id": "95d6569fec3cf989081d28e11f2877f35fe2a6f9",
-          "title": "Perplexity推出Computer for Counsel",
-          "url": "https://x.com/perplexity_ai/status/2069866668671766804",
-          "source": "X：Perplexity (@perplexity_ai)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-24T19:34:04Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7244,
-      "importance": 0.7244,
-      "importance_score": 0.7244,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.65,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8767,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-24T19:34:04Z",
-      "latest_at": "2026-06-24T19:34:04Z",
-      "primary_item": {
-        "id": "95d6569fec3cf989081d28e11f2877f35fe2a6f9",
-        "title": "Perplexity推出Computer for Counsel",
-        "url": "https://x.com/perplexity_ai/status/2069866668671766804",
-        "source": "X：Perplexity (@perplexity_ai)",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_b3255613e655",
-      "title": "AI懂你所想：OpenAI 升级 GPT-5.5 Instant，购物推荐更“聪明”",
-      "url": "https://www.aibase.com/news/29137",
-      "primary_url": "https://www.aibase.com/news/29137",
+      "story_id": "story_203bda3d75bc",
+      "title": "3D生成领域的“中国黑马”：影眸科技斩获数亿融资，技术实力获英伟达青睐",
+      "url": "https://www.aibase.com/news/29162",
+      "primary_url": "https://www.aibase.com/news/29162",
       "source": "AIbase",
       "source_name": "AIbase",
       "sources": [
         {
-          "id": "8249d709c812b56c7e33445f5787ee51e5eaec1b",
-          "title": "AI懂你所想：OpenAI 升级 GPT-5.5 Instant，购物推荐更“聪明”",
-          "url": "https://www.aibase.com/news/29137",
+          "id": "591c2f1174b5caa71d619bd7c672bea9051f5ed0",
+          "title": "3D生成领域的“中国黑马”：影眸科技斩获数亿融资，技术实力获英伟达青睐",
+          "url": "https://www.aibase.com/news/29162",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-06-25T04:40:56.711525Z"
+          "published_at": "2026-06-25T08:18:17.801339Z"
         }
       ],
       "source_count": 1,
@@ -1359,13 +1118,13 @@
       ],
       "items": [
         {
-          "id": "8249d709c812b56c7e33445f5787ee51e5eaec1b",
-          "title": "AI懂你所想：OpenAI 升级 GPT-5.5 Instant，购物推荐更“聪明”",
-          "url": "https://www.aibase.com/news/29137",
+          "id": "591c2f1174b5caa71d619bd7c672bea9051f5ed0",
+          "title": "3D生成领域的“中国黑马”：影眸科技斩获数亿融资，技术实力获英伟达青睐",
+          "url": "https://www.aibase.com/news/29162",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-06-25T04:40:56.711525Z"
+          "published_at": "2026-06-25T08:18:17.801339Z"
         }
       ],
       "item_count": 1,
@@ -1386,32 +1145,32 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-06-25T04:40:56.711525Z",
-      "latest_at": "2026-06-25T04:40:56.711525Z",
+      "earliest_at": "2026-06-25T08:18:17.801339Z",
+      "latest_at": "2026-06-25T08:18:17.801339Z",
       "primary_item": {
-        "id": "8249d709c812b56c7e33445f5787ee51e5eaec1b",
-        "title": "AI懂你所想：OpenAI 升级 GPT-5.5 Instant，购物推荐更“聪明”",
-        "url": "https://www.aibase.com/news/29137",
+        "id": "591c2f1174b5caa71d619bd7c672bea9051f5ed0",
+        "title": "3D生成领域的“中国黑马”：影眸科技斩获数亿融资，技术实力获英伟达青睐",
+        "url": "https://www.aibase.com/news/29162",
         "source": "AIbase",
         "source_name": "AIbase"
       }
     },
     {
-      "story_id": "story_66496038576c",
-      "title": "Figma 发布重大更新:新增原生代码层、动画支持与 Weavy 工作流生成功能",
-      "url": "https://www.aibase.com/news/29136",
-      "primary_url": "https://www.aibase.com/news/29136",
+      "story_id": "story_0f57d6dd1ad6",
+      "title": "AI 框选即问！谷歌 Chrome 149 携手 Gemini 3.5 Flash 升级截屏交互",
+      "url": "https://www.aibase.com/news/29160",
+      "primary_url": "https://www.aibase.com/news/29160",
       "source": "AIbase",
       "source_name": "AIbase",
       "sources": [
         {
-          "id": "6379e5664e4bc40f4d49c08e58ffed6acfbd7987",
-          "title": "Figma 发布重大更新:新增原生代码层、动画支持与 Weavy 工作流生成功能",
-          "url": "https://www.aibase.com/news/29136",
+          "id": "6aa469fa48073a20312886f579ad0550a1858f10",
+          "title": "AI 框选即问！谷歌 Chrome 149 携手 Gemini 3.5 Flash 升级截屏交互",
+          "url": "https://www.aibase.com/news/29160",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-06-25T04:40:56.711525Z"
+          "published_at": "2026-06-25T08:18:17.801339Z"
         }
       ],
       "source_count": 1,
@@ -1420,13 +1179,13 @@
       ],
       "items": [
         {
-          "id": "6379e5664e4bc40f4d49c08e58ffed6acfbd7987",
-          "title": "Figma 发布重大更新:新增原生代码层、动画支持与 Weavy 工作流生成功能",
-          "url": "https://www.aibase.com/news/29136",
+          "id": "6aa469fa48073a20312886f579ad0550a1858f10",
+          "title": "AI 框选即问！谷歌 Chrome 149 携手 Gemini 3.5 Flash 升级截屏交互",
+          "url": "https://www.aibase.com/news/29160",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-06-25T04:40:56.711525Z"
+          "published_at": "2026-06-25T08:18:17.801339Z"
         }
       ],
       "item_count": 1,
@@ -1447,12 +1206,328 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-06-25T04:40:56.711525Z",
-      "latest_at": "2026-06-25T04:40:56.711525Z",
+      "earliest_at": "2026-06-25T08:18:17.801339Z",
+      "latest_at": "2026-06-25T08:18:17.801339Z",
       "primary_item": {
-        "id": "6379e5664e4bc40f4d49c08e58ffed6acfbd7987",
-        "title": "Figma 发布重大更新:新增原生代码层、动画支持与 Weavy 工作流生成功能",
-        "url": "https://www.aibase.com/news/29136",
+        "id": "6aa469fa48073a20312886f579ad0550a1858f10",
+        "title": "AI 框选即问！谷歌 Chrome 149 携手 Gemini 3.5 Flash 升级截屏交互",
+        "url": "https://www.aibase.com/news/29160",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_2df82173bb28",
+      "title": "火山方舟上线Seed 2.1 Pro，多项Agent、代码、多模态基准成绩位居前列，兼容主流开发工具且调用成本远低于海外模型。作者用它做了一个毕业生就业补贴公益项目，自主完成全网信息抓取、OCR识别、数据核验质检、开源仓库搭建与检索网站开发。整套项目完成成本仅为同类海外模型的几十分之一，快来看看效果如何。",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+      "primary_url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+      "source": "社区更新 · 2026-06-25",
+      "source_name": "WaytoAGI",
+      "sources": [
+        {
+          "id": "1794db05181c851d959a10bc62f76065d7fc716c",
+          "title": "火山方舟上线Seed 2.1 Pro，多项Agent、代码、多模态基准成绩位居前列，兼容主流开发工具且调用成本远低于海外模型。作者用它做了一个毕业生就业补贴公益项目，自主完成全网信息抓取、OCR识别、数据核验质检、开源仓库搭建与检索网站开发。整套项目完成成本仅为同类海外模型的几十分之一，快来看看效果如何。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-25",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-25T08:18:17.801339Z"
+        },
+        {
+          "id": "e62cab6fad3c71ebacc2f74581948782618f0530",
+          "title": "你读完一本很棒的书。两周后，却连一个章节都想不起来。不是因为你笨，而是因为从来没人教过你如何真正学习。你可以在Claude里用20分钟跑完本文中的4个提示词，20分钟，让知识真正留在脑子里。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-24",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-24T19:11:40.150741Z"
+        },
+        {
+          "id": "6bf87a6c105e36f3cd4672887e78907616da229e",
+          "title": "定时任务经常静默失效、无效重复执行？Loop Engineering可以解决传统静态定时Agent的痛点，将单次提示词升级为可以自主判断、自检迭代的智能循环体系。有一个开源项目提供了五大核心模块、七套成熟生产模板，搭配三条CLI工具完成初始化、成本预估与环境检测，还设计了L1-L3分级放权机制，循序渐进放开自动化权限规避风险。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-24",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-24T19:11:40.150741Z"
+        },
+        {
+          "id": "6170d9f23ba0cc89c18cfa1c49aa06c469447885",
+          "title": "真正理解AI 智能体如何工作的开发者，只占其中很小一部分。每周都会出现一个新的智能体框架。一个新工具。一次新的“这会改变一切”的发布。大多数开发者因此觉得自己落后了。但让你落后的，不是错过了某个新工具。而是没有理解这个工具背后的理念。这篇文章的30个概念，会出现在几乎所有智能体框架里，可以帮助你理解以后出现的每一个新工具。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-24",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-24T19:11:40.150741Z"
+        },
+        {
+          "id": "6fafe29553436aa2e0ca2d8c3358d5c3635200d0",
+          "title": "Airtable的CEO Howie Liu在Silicon Valley Girl的对话里，把重点落在一个更贴近管理者和产品人的变化：当 Agent 开始能跑几个小时的任务，人的工作会从亲手执行，转向设计任务、喂给上下文、判断结果。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-24",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-24T17:28:31.204091Z"
+        }
+      ],
+      "source_count": 5,
+      "source_names": [
+        "社区更新 · 2026-06-24",
+        "社区更新 · 2026-06-25"
+      ],
+      "items": [
+        {
+          "id": "1794db05181c851d959a10bc62f76065d7fc716c",
+          "title": "火山方舟上线Seed 2.1 Pro，多项Agent、代码、多模态基准成绩位居前列，兼容主流开发工具且调用成本远低于海外模型。作者用它做了一个毕业生就业补贴公益项目，自主完成全网信息抓取、OCR识别、数据核验质检、开源仓库搭建与检索网站开发。整套项目完成成本仅为同类海外模型的几十分之一，快来看看效果如何。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-25",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-25T08:18:17.801339Z"
+        },
+        {
+          "id": "e62cab6fad3c71ebacc2f74581948782618f0530",
+          "title": "你读完一本很棒的书。两周后，却连一个章节都想不起来。不是因为你笨，而是因为从来没人教过你如何真正学习。你可以在Claude里用20分钟跑完本文中的4个提示词，20分钟，让知识真正留在脑子里。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-24",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-24T19:11:40.150741Z"
+        },
+        {
+          "id": "6bf87a6c105e36f3cd4672887e78907616da229e",
+          "title": "定时任务经常静默失效、无效重复执行？Loop Engineering可以解决传统静态定时Agent的痛点，将单次提示词升级为可以自主判断、自检迭代的智能循环体系。有一个开源项目提供了五大核心模块、七套成熟生产模板，搭配三条CLI工具完成初始化、成本预估与环境检测，还设计了L1-L3分级放权机制，循序渐进放开自动化权限规避风险。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-24",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-24T19:11:40.150741Z"
+        },
+        {
+          "id": "6170d9f23ba0cc89c18cfa1c49aa06c469447885",
+          "title": "真正理解AI 智能体如何工作的开发者，只占其中很小一部分。每周都会出现一个新的智能体框架。一个新工具。一次新的“这会改变一切”的发布。大多数开发者因此觉得自己落后了。但让你落后的，不是错过了某个新工具。而是没有理解这个工具背后的理念。这篇文章的30个概念，会出现在几乎所有智能体框架里，可以帮助你理解以后出现的每一个新工具。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-24",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-24T19:11:40.150741Z"
+        },
+        {
+          "id": "6fafe29553436aa2e0ca2d8c3358d5c3635200d0",
+          "title": "Airtable的CEO Howie Liu在Silicon Valley Girl的对话里，把重点落在一个更贴近管理者和产品人的变化：当 Agent 开始能跑几个小时的任务，人的工作会从亲手执行，转向设计任务、喂给上下文、判断结果。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-24",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-24T17:28:31.204091Z"
+        }
+      ],
+      "item_count": 5,
+      "duplicate_count": 5,
+      "score": 0.6692,
+      "importance": 0.6692,
+      "importance_score": 0.6692,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.54,
+        "ai_relevance": 0.65,
+        "recency": 1.0,
+        "story_heat": 1.0
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-24T17:28:31.204091Z",
+      "latest_at": "2026-06-25T08:18:17.801339Z",
+      "primary_item": {
+        "id": "1794db05181c851d959a10bc62f76065d7fc716c",
+        "title": "火山方舟上线Seed 2.1 Pro，多项Agent、代码、多模态基准成绩位居前列，兼容主流开发工具且调用成本远低于海外模型。作者用它做了一个毕业生就业补贴公益项目，自主完成全网信息抓取、OCR识别、数据核验质检、开源仓库搭建与检索网站开发。整套项目完成成本仅为同类海外模型的几十分之一，快来看看效果如何。",
+        "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+        "source": "社区更新 · 2026-06-25",
+        "source_name": "WaytoAGI"
+      }
+    },
+    {
+      "story_id": "story_9f4a165aedac",
+      "title": "iOS27推出Siri AI专用App，实现Siri与ChatGPT一键切换",
+      "url": "https://www.aibase.com/news/29156",
+      "primary_url": "https://www.aibase.com/news/29156",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "3695b5fe5235375d2f48d4c928c3e3f76728ee5f",
+          "title": "iOS27推出Siri AI专用App，实现Siri与ChatGPT一键切换",
+          "url": "https://www.aibase.com/news/29156",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-25T08:18:17.801339Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "3695b5fe5235375d2f48d4c928c3e3f76728ee5f",
+          "title": "iOS27推出Siri AI专用App，实现Siri与ChatGPT一键切换",
+          "url": "https://www.aibase.com/news/29156",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-25T08:18:17.801339Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-25T08:18:17.801339Z",
+      "latest_at": "2026-06-25T08:18:17.801339Z",
+      "primary_item": {
+        "id": "3695b5fe5235375d2f48d4c928c3e3f76728ee5f",
+        "title": "iOS27推出Siri AI专用App，实现Siri与ChatGPT一键切换",
+        "url": "https://www.aibase.com/news/29156",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_6303b526b886",
+      "title": "​打破多模型切换壁垒！谷歌将“电脑操作”原生塞进 Gemini 3.5 Flash",
+      "url": "https://www.aibase.com/news/29159",
+      "primary_url": "https://www.aibase.com/news/29159",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "d7045a935a998c76d2d6215fcf107c7100b454e1",
+          "title": "​打破多模型切换壁垒！谷歌将“电脑操作”原生塞进 Gemini 3.5 Flash",
+          "url": "https://www.aibase.com/news/29159",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-25T08:18:17.801339Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "d7045a935a998c76d2d6215fcf107c7100b454e1",
+          "title": "​打破多模型切换壁垒！谷歌将“电脑操作”原生塞进 Gemini 3.5 Flash",
+          "url": "https://www.aibase.com/news/29159",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-25T08:18:17.801339Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-25T08:18:17.801339Z",
+      "latest_at": "2026-06-25T08:18:17.801339Z",
+      "primary_item": {
+        "id": "d7045a935a998c76d2d6215fcf107c7100b454e1",
+        "title": "​打破多模型切换壁垒！谷歌将“电脑操作”原生塞进 Gemini 3.5 Flash",
+        "url": "https://www.aibase.com/news/29159",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_2c70e383298a",
+      "title": "大模型成独角兽“吸金”引擎： 2026 全球榜单揭晓，霸榜前三名",
+      "url": "https://www.aibase.com/news/29157",
+      "primary_url": "https://www.aibase.com/news/29157",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "f0f67b45f48cc238dca7036a1d8ab502358ee3ae",
+          "title": "大模型成独角兽“吸金”引擎： 2026 全球榜单揭晓，霸榜前三名",
+          "url": "https://www.aibase.com/news/29157",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-25T08:18:17.801339Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "f0f67b45f48cc238dca7036a1d8ab502358ee3ae",
+          "title": "大模型成独角兽“吸金”引擎： 2026 全球榜单揭晓，霸榜前三名",
+          "url": "https://www.aibase.com/news/29157",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-25T08:18:17.801339Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-25T08:18:17.801339Z",
+      "latest_at": "2026-06-25T08:18:17.801339Z",
+      "primary_item": {
+        "id": "f0f67b45f48cc238dca7036a1d8ab502358ee3ae",
+        "title": "大模型成独角兽“吸金”引擎： 2026 全球榜单揭晓，霸榜前三名",
+        "url": "https://www.aibase.com/news/29157",
         "source": "AIbase",
         "source_name": "AIbase"
       }
