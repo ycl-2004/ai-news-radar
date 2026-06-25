@@ -25,9 +25,11 @@ const state = {
   storiesMerged: null,
   storiesDataUrl: "data/stories-merged.json",
   activeSection: "hot",
-  boleView: "hot",
+  boleView: "timeline",
   boleExpanded: false,
   listSort: "priority",
+  sourceTypeFilter: "",
+  signalLevelFilter: "",
   siteGroupsExpanded: false,
   xAuthorsExpanded: false,
 };
@@ -37,6 +39,8 @@ const siteSelectEl = document.getElementById("siteSelect");
 const sitePillsEl = document.getElementById("sitePills");
 const newsListEl = document.getElementById("newsList");
 const updatedAtEl = document.getElementById("updatedAt");
+const sourceStatusPillEl = document.getElementById("sourceStatusPill");
+const stickySummaryTextEl = document.getElementById("stickySummaryText");
 const searchInputEl = document.getElementById("searchInput");
 const resultCountEl = document.getElementById("resultCount");
 const listTitleEl = document.getElementById("listTitle");
@@ -49,6 +53,11 @@ const allDedupeToggleEl = document.getElementById("allDedupeToggle");
 const allDedupeLabelEl = document.getElementById("allDedupeLabel");
 const advancedSummaryEl = document.getElementById("advancedSummary");
 const sourceHealthEl = document.getElementById("sourceHealth");
+const sourceHealthDetailsEl = document.getElementById("sourceHealthDetails");
+const sourceStatusTableEl = document.getElementById("sourceStatusTable");
+const sectionSelectEl = document.getElementById("sectionSelect");
+const sourceTypeSelectEl = document.getElementById("sourceTypeSelect");
+const signalLevelSelectEl = document.getElementById("signalLevelSelect");
 
 const waytoagiWrapEl = document.querySelector(".waytoagi-wrap");
 const waytoagiUpdatedAtEl = document.getElementById("waytoagiUpdatedAt");
@@ -140,21 +149,85 @@ function fmtDate(iso) {
   }).format(d);
 }
 
-function setStats(payload) {
-  const cards = [
-    ["AI 信号", fmtNumber(payload.total_items)],
-    ["站点数", fmtNumber(payload.site_count)],
-    ["来源分组", fmtNumber(payload.source_count)],
-    ["归档", fmtNumber(payload.archive_total || 0)]
-  ];
-
+function setStats() {
   statsEl.innerHTML = "";
+  const items = state.itemsAi || [];
+  const highCount = items.filter((item) => isHighPriorityItem(item)).length;
+  const curatedCount = briefStories().length || Math.min(20, mergedStories().filter((story) => storyScore(story) >= 75).length);
+  const status = state.sourceStatus;
+  const totalSites = Array.isArray(status?.sites) ? status.sites.length : 0;
+  const okSites = Number(status?.successful_sites || 0);
+  const health = totalSites ? `${fmtNumber(okSites)}/${fmtNumber(totalSites)}正常` : "加载中";
+  const cards = [
+    ["AI", `${fmtNumber(state.totalAi || items.length)}条`],
+    ["高优", `${fmtNumber(highCount)}条`],
+    ["精选", `${fmtNumber(curatedCount)}条`],
+    ["源", health],
+  ];
+  statsEl.setAttribute(
+    "aria-label",
+    `过去 24 小时：AI 信号 ${fmtNumber(state.totalAi || items.length)} 条，高优先级 ${fmtNumber(highCount)} 条，精选 ${fmtNumber(curatedCount)} 条，源状态 ${totalSites ? `${fmtNumber(okSites)}/${fmtNumber(totalSites)} 源正常` : "加载中"}`,
+  );
+
+  const prefix = document.createElement("div");
+  prefix.className = "stat-prefix";
+  prefix.textContent = "过去 24 小时：";
+  statsEl.appendChild(prefix);
+
   cards.forEach(([k, v]) => {
     const node = document.createElement("div");
     node.className = "stat";
     node.innerHTML = `<div class="k">${k}</div><div class="v">${v}</div>`;
     statsEl.appendChild(node);
   });
+  renderStickySummary();
+  renderSourceStatusPill();
+}
+
+function failedSourceCount(status = state.sourceStatus) {
+  const failedSites = Array.isArray(status?.failed_sites) ? status.failed_sites.length : 0;
+  const rss = status?.rss_opml || {};
+  const failedFeeds = Array.isArray(rss.failed_feeds) ? rss.failed_feeds.length : 0;
+  return failedSites + failedFeeds;
+}
+
+function renderSourceStatusPill(errorMessage = "") {
+  if (!sourceStatusPillEl) return;
+  const status = state.sourceStatus;
+  sourceStatusPillEl.className = "source-status-pill";
+  if (!status) {
+    sourceStatusPillEl.textContent = errorMessage || "源状态加载中";
+    if (errorMessage) sourceStatusPillEl.classList.add("bad");
+    return;
+  }
+  const totalSites = Array.isArray(status.sites) ? status.sites.length : 0;
+  const okSites = Number(status.successful_sites || 0);
+  const failed = failedSourceCount(status);
+  sourceStatusPillEl.textContent = failed
+    ? `${fmtNumber(okSites)}/${fmtNumber(totalSites)} 源正常 · 失败 ${fmtNumber(failed)}`
+    : `${fmtNumber(okSites)}/${fmtNumber(totalSites)} 源正常`;
+  if (failed) sourceStatusPillEl.classList.add("warn");
+}
+
+function renderStickySummary() {
+  if (!stickySummaryTextEl) return;
+  const filteredCount = getFilteredItems().length;
+  const section = SECTION_BY_ID[state.activeSection] || SECTION_BY_ID.hot;
+  const query = state.query.trim();
+  const site = state.siteFilter
+    ? (currentSiteStats().find((row) => row.site_id === state.siteFilter)?.site_name || state.siteFilter)
+    : "";
+  const sourceType = sourceTypeSelectEl?.selectedOptions?.[0]?.textContent || "";
+  const signalLevel = signalLevelSelectEl?.selectedOptions?.[0]?.textContent || "";
+  const filters = [
+    state.activeSection === "hot" ? "" : section.label,
+    site,
+    state.sourceTypeFilter ? sourceType : "",
+    state.signalLevelFilter ? signalLevel : "",
+    query ? `搜索“${query}”` : "",
+  ].filter(Boolean);
+  const mode = state.mode === "all" ? "全量" : "AI强相关";
+  stickySummaryTextEl.textContent = `${fmtNumber(filteredCount)} 条 · ${mode}${filters.length ? ` · ${filters.join(" · ")}` : ""}`;
 }
 
 function sourceKind(siteId) {
@@ -303,17 +376,16 @@ function renderCoverageStrip(errorMessage = "") {
 function renderAdvancedSummary() {
   if (!advancedSummaryEl) return;
   const status = state.sourceStatus;
-  const allCount = state.allDedup
-    ? (state.totalAllMode || state.itemsAll.length)
-    : (state.totalRaw || state.itemsAllRaw.length);
+  const filteredCount = getFilteredItems().length;
   if (!status) {
-    advancedSummaryEl.textContent = `全量 ${fmtNumber(allCount)} 条`;
+    advancedSummaryEl.textContent = `${fmtNumber(filteredCount)} 条结果`;
     return;
   }
   const sites = Array.isArray(status.sites) ? status.sites : [];
   const totalSites = sites.length;
   const okSites = Number(status.successful_sites || 0);
-  advancedSummaryEl.textContent = `${fmtNumber(okSites)}/${fmtNumber(totalSites)} 源可用 · 全量 ${fmtNumber(allCount)} 条`;
+  const failed = failedSourceCount(status);
+  advancedSummaryEl.textContent = `${fmtNumber(filteredCount)} 条结果 · ${fmtNumber(okSites)}/${fmtNumber(totalSites)} 源正常${failed ? ` · 失败 ${fmtNumber(failed)}` : ""}`;
 }
 
 function computeSiteStats(items) {
@@ -346,9 +418,49 @@ function highPriorityScore(item) {
   return scorePercent(item);
 }
 
+function isHighPriorityItem(item) {
+  return highPriorityScore(item) >= 75 || itemPriorityScore(item) >= 82 || item.site_id === "official_ai" || item.site_id === "aihot";
+}
+
+function isCuratedItem(item) {
+  return item.site_id === "official_ai" || item.site_id === "aihot" || item.source_tier === "official" || item.source_tier === "curated";
+}
+
+function itemSourceType(item) {
+  const siteId = item.site_id || "";
+  const tier = item.source_tier || "";
+  if (siteId === "official_ai" || tier === "official") return "official";
+  if (siteId === "curated_media" || siteId === "aibreakfast" || siteId === "aihot") return "media";
+  if (siteId === "opmlrss" || tier === "user_opml") return "rss";
+  if (siteId === "waytoagi" || siteId === "followbuilders" || siteId === "hackernews" || siteId === "zeli" || siteId === "aibase") return "community";
+  if (siteId === "tikhub_douyin" || siteId === "tikhub_xiaohongshu") return "creator";
+  if (siteId === "socialdata_x" || siteId === "xapi" || siteId === "agentmail") return "advanced";
+  return "aggregate";
+}
+
+function multiSourceEventKeys(items) {
+  const map = new Map();
+  (items || []).forEach((item) => {
+    const key = eventKey(item);
+    if (!map.has(key)) map.set(key, new Set());
+    map.get(key).add(sourceSignal(item));
+  });
+  return new Set(Array.from(map.entries())
+    .filter(([, sources]) => sources.size > 1)
+    .map(([key]) => key));
+}
+
+function itemMatchesSignalLevel(item, multiSourceKeys = new Set()) {
+  if (!state.signalLevelFilter) return true;
+  if (state.signalLevelFilter === "high") return isHighPriorityItem(item);
+  if (state.signalLevelFilter === "curated") return isCuratedItem(item);
+  if (state.signalLevelFilter === "multi") return multiSourceKeys.has(eventKey(item));
+  return true;
+}
+
 function sectionStats(sectionId) {
   const items = sectionItems(modeItems(), sectionId);
-  const highCount = items.filter((item) => highPriorityScore(item) >= 75 || item.site_id === "official_ai" || item.site_id === "aihot").length;
+  const highCount = items.filter((item) => isHighPriorityItem(item)).length;
   const sourceSet = new Set(items.map((item) => item.source || item.site_name || item.site_id).filter(Boolean));
   return { items, count: items.length, highCount, sourceCount: sourceSet.size };
 }
@@ -377,17 +489,32 @@ function renderSectionTabs() {
     });
     sectionTabsEl.appendChild(btn);
   });
+  renderSectionFilterSelect();
+}
+
+function renderSectionFilterSelect() {
+  if (!sectionSelectEl) return;
+  if (!sectionSelectEl.options.length) {
+    SECTION_DEFS.forEach((section) => {
+      const option = document.createElement("option");
+      option.value = section.id;
+      option.textContent = section.label;
+      sectionSelectEl.appendChild(option);
+    });
+  }
+  sectionSelectEl.value = state.activeSection;
 }
 
 function renderSectionSummary(filteredItems = null) {
   if (!sectionSummaryEl) return;
   const section = SECTION_BY_ID[state.activeSection] || SECTION_BY_ID.hot;
   const items = filteredItems || getFilteredItems();
-  const highCount = items.filter((item) => highPriorityScore(item) >= 75 || item.site_id === "official_ai" || item.site_id === "aihot").length;
+  const highCount = items.filter((item) => isHighPriorityItem(item)).length;
   const sources = new Set(items.map((item) => item.source || item.site_name || item.site_id).filter(Boolean));
   const modeText = state.mode === "all" ? (state.allDedup ? "全量去重" : "全量原始") : "AI强相关";
   const windowText = state.activeSection === "creator" ? `过去 ${fmtNumber(state.creatorWindowDays)} 天 · 热度优先` : "过去 24 小时";
-  sectionSummaryEl.textContent = `${windowText} · ${section.label}全量池 · ${fmtNumber(items.length)} 条 · ${fmtNumber(highCount)} 条高优先级 · ${fmtNumber(sources.size)} 个来源 · ${modeText}`;
+  sectionSummaryEl.textContent = `${windowText} · ${fmtNumber(items.length)} 条${section.id === "hot" ? "" : ` ${section.label}`}信号 · ${fmtNumber(highCount)} 条高优先级 · ${fmtNumber(sources.size)} 个来源 · ${modeText}`;
+  renderStickySummary();
 }
 
 function siteRatioText(siteStats) {
@@ -483,8 +610,8 @@ function renderModeSwitch() {
 function listTitleText() {
   const section = SECTION_BY_ID[state.activeSection] || SECTION_BY_ID.hot;
   const pool = state.mode === "all"
-    ? (state.allDedup ? "全量去重信息源" : "全量原始信息源")
-    : "全量 AI 情报源";
+    ? (state.allDedup ? "情报流 · 全量去重" : "情报流 · 全量原始")
+    : "情报流";
   return state.activeSection === "hot" ? pool : `${section.label} · ${pool}`;
 }
 
@@ -556,13 +683,16 @@ function sectionItems(items = modeItems(), sectionId = state.activeSection) {
 
 function getFilteredItems() {
   const q = state.query.trim().toLowerCase();
-  return sectionItems().filter((item) => {
+  const preliminary = sectionItems().filter((item) => {
     if (state.siteFilter && item.site_id !== state.siteFilter) return false;
     if (state.authorFilter && (item.site_id !== "socialdata_x" || item.source !== state.authorFilter)) return false;
+    if (state.sourceTypeFilter && itemSourceType(item) !== state.sourceTypeFilter) return false;
     if (!q) return true;
     const hay = `${item.title || ""} ${item.title_zh || ""} ${item.title_en || ""} ${item.site_name || ""} ${item.source || ""}`.toLowerCase();
     return hay.includes(q);
   });
+  const multiKeys = multiSourceEventKeys(preliminary);
+  return preliminary.filter((item) => itemMatchesSignalLevel(item, multiKeys));
 }
 
 function itemTitleText(item) {
@@ -1400,7 +1530,14 @@ function renderBoleFallback(picks) {
 }
 
 function storyMatchesFilteredItems(story, filteredItems) {
-  if (state.activeSection === "hot" && !state.siteFilter && !state.authorFilter && !state.query.trim()) return true;
+  if (
+    state.activeSection === "hot" &&
+    !state.siteFilter &&
+    !state.authorFilter &&
+    !state.sourceTypeFilter &&
+    !state.signalLevelFilter &&
+    !state.query.trim()
+  ) return true;
   const urls = new Set(filteredItems.map((item) => item.url).filter(Boolean));
   const ids = new Set(filteredItems.map((item) => item.id).filter(Boolean));
   const storyRefs = [
@@ -1450,8 +1587,32 @@ function currentStoryPools(filteredItems) {
 }
 
 function storyRowsForPool(stories) {
-  const pool = state.boleView === "hot" ? hotStories(stories) : stories;
-  return rankedBriefRows(pool);
+  const source = Array.isArray(stories) ? stories : [];
+  const pool = state.boleView === "hot"
+    ? hotStories(source).slice(0, BOLE_HOT_LIMIT)
+    : latestStories(source).slice(0, BOLE_TIMELINE_LIMIT);
+  return pool.map(storyToBoleRow);
+}
+
+function storyCandidateCounts(stories) {
+  const source = Array.isArray(stories) ? stories : [];
+  const hotTotal = hotStories(source).length;
+  const timelineTotal = source.length;
+  return {
+    hot: Math.min(BOLE_HOT_LIMIT, hotTotal),
+    timeline: Math.min(BOLE_TIMELINE_LIMIT, timelineTotal),
+    hotTotal,
+    timelineTotal,
+  };
+}
+
+function latestStories(stories) {
+  return [...(Array.isArray(stories) ? stories : [])].sort((a, b) => {
+    const aLatest = storyTimeMs(a, "latest_at") || storyTimeMs(a, "earliest_at");
+    const bLatest = storyTimeMs(b, "latest_at") || storyTimeMs(b, "earliest_at");
+    if (aLatest !== bLatest) return bLatest - aLatest;
+    return storyScore(b) - storyScore(a);
+  });
 }
 
 function renderStoryViewPanel(stories, excludedRows = []) {
@@ -1573,8 +1734,9 @@ function rankedBriefRows(stories) {
       if (byScore !== 0) return byScore;
       return bLatest - aLatest;
     }
-    if (aLatest !== bLatest) return bLatest - aLatest;
-    return storyScore(b) - storyScore(a);
+    const byScore = storyScore(b) - storyScore(a);
+    if (byScore !== 0) return byScore;
+    return bLatest - aLatest;
   });
   return sorted.map(storyToBoleRow);
 }
@@ -1640,28 +1802,29 @@ function renderBolePicks() {
     ? [...storyPools.brief, ...storyPools.followup]
     : storyPools.merged;
   const usesStories = availableStoryPool.length > 0;
-  const hotAvailable = usesStories && hotStories(availableStoryPool).length >= 2;
+  const candidateCounts = storyCandidateCounts(availableStoryPool);
+  const hotAvailable = usesStories && candidateCounts.hot >= 2;
   if (usesStories && !hotAvailable && state.boleView === "hot") {
     state.boleView = "timeline";
   }
+  const defaultLimit = state.boleView === "hot" ? BOLE_HOT_LIMIT : BOLE_TIMELINE_LIMIT;
   const rows = usesStories
-    ? [
-      ...(storyPools.brief.length ? storyRowsForPool(storyPools.brief) : []),
-      ...storyRowsForPool(storyPools.brief.length ? storyPools.followup : storyPools.merged),
-    ]
-    : rankedFallbackRows(filtered);
+    ? storyRowsForPool(availableStoryPool)
+    : rankedFallbackRows(filtered).slice(0, defaultLimit);
   const top = rows.slice(0, 3);
   const remainingCount = Math.max(0, rows.length - top.length);
-  if (topStoriesTitleEl) topStoriesTitleEl.textContent = state.activeSection === "hot" ? "今日 Top 3" : `${section.label} Top 3`;
-  if (topStoriesSubEl) topStoriesSubEl.textContent = `${section.description}；Top3 与后续列表使用同一故事池排序，下方全量信息源保留完整单条池。`;
+  if (topStoriesTitleEl) topStoriesTitleEl.textContent = state.activeSection === "hot" ? "今日重点信号" : `${section.label}重点信号`;
+  if (topStoriesSubEl) topStoriesSubEl.textContent = `先回答“哪几条值得看、为什么值得看”；后续时间线和完整信号流保留更多细节。${section.description ? ` ${section.description}` : ""}`;
   const storyMeta = usesStories
-    ? `${fmtNumber(availableStoryPool.length)} 条故事${storyPools.brief.length ? ` · 精选 ${fmtNumber(storyPools.brief.length)} 条` : ""}`
-    : `${fmtNumber(rows.length)} 条聚合候选`;
-  bolePicksMetaEl.textContent = `${fmtNumber(filtered.length)} 条候选 · ${storyMeta} · Top${fmtNumber(top.length)}${remainingCount ? ` · 后续 ${fmtNumber(remainingCount)} 条` : ""}`;
+    ? `展示池：热点 ${fmtNumber(candidateCounts.hot)}/${fmtNumber(candidateCounts.hotTotal)} · 时间线 ${fmtNumber(candidateCounts.timeline)}/${fmtNumber(candidateCounts.timelineTotal)}`
+    : `展示池：${fmtNumber(rows.length)} 条`;
+  bolePicksMetaEl.textContent = storyMeta;
   if (boleViewToggleEl) {
     boleViewToggleEl.hidden = usesStories ? !hotAvailable : true;
     if (boleHotBtnEl) boleHotBtnEl.classList.toggle("active", state.boleView === "hot");
     if (boleTimelineBtnEl) boleTimelineBtnEl.classList.toggle("active", state.boleView === "timeline");
+    if (boleHotBtnEl) boleHotBtnEl.textContent = `当前热点 ${fmtNumber(candidateCounts.hot)}`;
+    if (boleTimelineBtnEl) boleTimelineBtnEl.textContent = `时间线 ${fmtNumber(candidateCounts.timeline)}`;
   }
 
   if (!top.length) {
@@ -1719,16 +1882,16 @@ function itemTagLabels(item, row = null) {
   const tags = [];
   const sections = itemSections(item);
   if (state.activeSection !== "hot") tags.push(sectionBadgeLabel(state.activeSection));
-  if (row && (row.sourceCount > 1 || row.mergedCount > 1)) tags.push("多源");
+  if (row && (row.sourceCount > 1 || row.mergedCount > 1)) tags.push("多源验证");
   if (item.site_id === "official_ai") tags.push("官方");
-  if (item.site_id === "aihot") tags.push("精选");
+  if (item.site_id === "aihot") tags.push("AI HOT");
   if (sections.has("models")) tags.push("模型发布");
   if (sections.has("devtools")) tags.push("开发者");
-  if (sections.has("hn")) tags.push("HN热议");
+  if (sections.has("hn")) tags.push("社区热议");
   if (sections.has("research")) tags.push("研究");
   if (sections.has("creator")) tags.push("自媒体");
   if (sections.has("community")) tags.push("社区");
-  return Array.from(new Set(tags)).slice(0, 5);
+  return Array.from(new Set(tags)).slice(0, 3);
 }
 
 function itemSourceRefs(item, row = null) {
@@ -1759,10 +1922,74 @@ function itemSourceRefs(item, row = null) {
   return refs.length ? refs : [{ label: "来源", tone: "default" }];
 }
 
+function priorityGrade(score) {
+  if (score >= 92) return "A+";
+  if (score >= 82) return "A";
+  if (score >= 70) return "B";
+  return "C";
+}
+
+function rowSourceCount(row) {
+  const item = row.item || {};
+  const refs = itemSourceRefs(item, row);
+  const storyCount = row.story ? storySourceCount(row.story) : 0;
+  return Math.max(1, refs.length, Number(row.sourceCount || 0), Number(row.mergedCount || 0), storyCount);
+}
+
+function signalSummaryText(row) {
+  const item = row.item || {};
+  const story = row.story || {};
+  const label = story.importance_label || labelText(item);
+  const sourceCount = rowSourceCount(row);
+  const multi = row.sourceCount > 1 || row.mergedCount > 1;
+  if (multi && label) return `${label}信号，已被 ${fmtNumber(sourceCount)} 个来源验证，适合优先判断是否继续深挖。`;
+  const reason = reasonText(item);
+  if (reason && !reason.startsWith("来源与标题")) return reason.replace(/^命中方向：/, "核心方向：");
+  return `${label}方向的新近更新，已进入 24 小时 AI 强相关池。`;
+}
+
+function whyImportantText(row) {
+  const item = row.item || {};
+  const story = row.story || {};
+  const sections = itemSections(item);
+  const reasons = Array.isArray(story.reasons) ? story.reasons : [];
+  if (reasons.includes("official_source") && reasons.includes("multi_source")) {
+    return "一手来源和聚合来源同时出现，说明它既有事实起点，也正在被外部信息流放大。";
+  }
+  if (sections.has("models")) {
+    return "模型能力或训练/推理方式变化会影响后续产品路线、开发者选型和评测基准。";
+  }
+  if (sections.has("devtools")) {
+    return "开发者工具和基础设施变化通常会很快传导到团队工作流、成本和可实现能力。";
+  }
+  if (sections.has("industry")) {
+    return "公司、监管、芯片或资本动态会改变 AI 生态的资源分配和落地节奏。";
+  }
+  if (sections.has("research")) {
+    return "研究信号可能还没产品化，但会提示下一轮模型、数据或方法的技术方向。";
+  }
+  if (sections.has("community") || sections.has("hn")) {
+    return "社区集中讨论代表开发者和早期用户正在形成共识，适合作为趋势验证入口。";
+  }
+  return "它在当前 24 小时窗口里同时具备相关度、新鲜度和来源权重，值得先读原文确认。";
+}
+
+function impactLabels(item) {
+  const sections = itemSections(item);
+  const labels = [];
+  if (sections.has("devtools")) labels.push("开发者");
+  if (sections.has("products")) labels.push("产品");
+  if (sections.has("industry")) labels.push("企业 / 投资");
+  if (sections.has("research")) labels.push("研究");
+  if (sections.has("models")) labels.push("模型团队");
+  if (sections.has("community") || sections.has("hn")) labels.push("社区");
+  return labels.slice(0, 3).length ? labels.slice(0, 3) : ["AI 观察者"];
+}
+
 function buildTopStoryCard(row, rank) {
   const item = row.item;
   const link = document.createElement("a");
-  link.className = "top-story-card";
+  link.className = `top-story-card ${rank === 1 ? "lead" : "secondary"}`;
   link.href = item.url || "#";
   link.target = "_blank";
   link.rel = "noopener noreferrer";
@@ -1782,19 +2009,30 @@ function buildTopStoryCard(row, rank) {
   const primarySource = itemSourceRefs(item, row)[0];
   const score = document.createElement("strong");
   const displayScore = row.story
-    ? (row.score || 0)
+    ? Math.max(row.score || 0, storyScore(row.story))
     : Math.max(row.score || 0, headlineClusterScore(row));
   score.className = `intel-score ${scoreTone(displayScore)}`;
-  score.textContent = `排序分 ${displayScore}`;
-  meta.append(time, sourceChip(primarySource.label, primarySource.tone, "source-chip intel-source"), score);
+  score.textContent = `优先级 ${priorityGrade(displayScore)}`;
+  const sourceCount = document.createElement("span");
+  sourceCount.className = "source-count";
+  sourceCount.textContent = `${fmtNumber(rowSourceCount(row))} 个来源`;
+  meta.append(rankEl, sourceChip(primarySource.label, primarySource.tone, "source-chip intel-source"), sourceCount, score, time);
 
   const title = document.createElement("div");
   title.className = "top-story-title";
   title.textContent = itemTitleText(item);
 
-  const reason = document.createElement("div");
-  reason.className = "top-story-reason";
-  reason.textContent = row.mergedCount > 1 ? boleReasonText(row) : reasonText(item);
+  const summary = document.createElement("p");
+  summary.className = "top-story-summary";
+  summary.textContent = signalSummaryText(row);
+
+  const why = document.createElement("div");
+  why.className = "top-story-why";
+  const whyLabel = document.createElement("span");
+  whyLabel.textContent = "为什么重要";
+  const whyText = document.createElement("p");
+  whyText.textContent = whyImportantText(row);
+  why.append(whyLabel, whyText);
 
   const tags = document.createElement("div");
   tags.className = "intel-tags";
@@ -1802,23 +2040,15 @@ function buildTopStoryCard(row, rank) {
     tags.appendChild(itemTagChip(label));
   });
 
-  const sources = document.createElement("div");
-  sources.className = "intel-card-sources";
-  const refs = itemSourceRefs(item, row);
-  const count = document.createElement("strong");
-  count.textContent = `${fmtNumber(refs.length)} 个来源`;
-  sources.appendChild(count);
-  refs.slice(0, 4).forEach((ref) => {
-    sources.appendChild(sourceChip(ref.label, ref.tone, "source-chip"));
+  const impact = document.createElement("div");
+  impact.className = "impact-row";
+  impactLabels(item).forEach((label) => {
+    const chip = document.createElement("span");
+    chip.textContent = label;
+    impact.appendChild(chip);
   });
-  if (refs.length > 4) {
-    const more = document.createElement("span");
-    more.className = "source-chip source-more";
-    more.textContent = `+${refs.length - 4}`;
-    sources.appendChild(more);
-  }
 
-  link.append(rankEl, meta, title, reason, tags, sources);
+  link.append(meta, title, summary, why, tags, impact);
   return link;
 }
 
@@ -1870,10 +2100,22 @@ function buildIntelCard(item, rank) {
   return card;
 }
 
-function renderItemNode(item) {
+function feedSummaryText(item) {
+  const signals = Array.isArray(item.ai_signals) ? item.ai_signals.filter(Boolean).slice(0, 2) : [];
+  if (signals.length) return `相关线索：${signals.join(" / ")}。`;
+  const reason = reasonText(item);
+  if (reason && !reason.startsWith("来源与标题")) return reason.replace(/^命中方向：/, "相关线索：");
+  return `${labelText(item)} · AI 相关度 ${scorePercent(item) || "待评估"}。`;
+}
+
+function renderItemNode(item, context = {}) {
   const node = itemTpl.content.firstElementChild.cloneNode(true);
   const metaRow = node.querySelector(".meta-row");
-  node.querySelector(".site").textContent = item.site_name;
+  const siteEl = node.querySelector(".site");
+  siteEl.textContent = item.source || item.site_name;
+  if (context.source && context.source === item.source) {
+    siteEl.hidden = true;
+  }
   const kind = sourceKind(item.site_id);
   const categoryEl = node.querySelector(".category");
   categoryEl.textContent = kind.label;
@@ -1890,6 +2132,9 @@ function renderItemNode(item) {
   const sourceEl = node.querySelector(".source");
   const sourceLabel = sourceSignal(item);
   setSourceBadge(sourceEl, sourceLabel, sourceSignalTone(sourceLabel), item.source ? `分区: ${item.source}` : "");
+  if (context.source && context.source === item.source) {
+    sourceEl.hidden = true;
+  }
 
   const primaryLabel = labelText(item);
   itemTagLabels(item)
@@ -1917,6 +2162,8 @@ function renderItemNode(item) {
     titleEl.textContent = item.title || zh || en;
   }
   titleEl.href = item.url;
+  const summaryEl = node.querySelector(".news-summary");
+  if (summaryEl) summaryEl.textContent = feedSummaryText(item);
   return node;
 }
 
@@ -1927,8 +2174,8 @@ const SITE_SOURCE_GROUP_INITIAL_LIMIT = 4;
 const SITE_SOURCE_GROUP_LOAD_STEP = 4;
 const SOURCE_GROUP_INITIAL_LIMIT = 8;
 const SOURCE_GROUP_LOAD_STEP = 8;
-const BOLE_HOT_LIMIT = 5;
-const BOLE_TIMELINE_LIMIT = 8;
+const BOLE_HOT_LIMIT = 10;
+const BOLE_TIMELINE_LIMIT = 20;
 
 function buildSourceGroupNode(source, items, rawCount = items.length) {
   const section = document.createElement("section");
@@ -1953,7 +2200,7 @@ function buildSourceGroupNode(source, items, rawCount = items.length) {
     const renderItems = () => {
       listEl.innerHTML = "";
       const visibleItems = expanded ? items : items.slice(0, SOURCE_ITEM_INITIAL_LIMIT);
-      visibleItems.forEach((item) => listEl.appendChild(renderItemNode(item)));
+      visibleItems.forEach((item) => listEl.appendChild(renderItemNode(item, { source })));
       moreBtn.textContent = expanded
         ? `收起，仅看前 ${SOURCE_ITEM_INITIAL_LIMIT} 条`
         : `展开剩余 ${fmtNumber(items.length - SOURCE_ITEM_INITIAL_LIMIT)} 条`;
@@ -1965,7 +2212,7 @@ function buildSourceGroupNode(source, items, rawCount = items.length) {
     renderItems();
     section.append(moreBtn);
   } else {
-    items.forEach((item) => listEl.appendChild(renderItemNode(item)));
+    items.forEach((item) => listEl.appendChild(renderItemNode(item, { source })));
   }
   return section;
 }
@@ -2202,6 +2449,17 @@ function renderList() {
   });
 }
 
+function rerenderCurrentView() {
+  state.boleExpanded = false;
+  state.siteGroupsExpanded = false;
+  renderSectionTabs();
+  renderModeSwitch();
+  renderSiteFilters();
+  renderBolePicks();
+  if (state.waytoagiData) renderWaytoagi(state.waytoagiData);
+  renderList();
+}
+
 function waytoagiViews(waytoagi) {
   const updates7d = Array.isArray(waytoagi?.updates_7d) ? waytoagi.updates_7d : [];
   const latestDate = waytoagi?.latest_date || (updates7d.length ? updates7d[0].date : null);
@@ -2371,17 +2629,74 @@ function renderIssueList(title, items) {
   return wrap;
 }
 
+function renderSourceHealthSummaryNode(status, errorMessage = "") {
+  const node = document.createElement("div");
+  node.className = "source-health-summary";
+  if (!status) {
+    node.classList.add(errorMessage ? "bad" : "warn");
+    node.innerHTML = `<strong>${errorMessage ? "源状态异常" : "源状态未生成"}</strong><span>${errorMessage || "等待 source-status.json"}</span>`;
+    return node;
+  }
+  const sites = Array.isArray(status.sites) ? status.sites : [];
+  const okSites = Number(status.successful_sites || 0);
+  const failed = failedSourceCount(status);
+  const fetched = Number(status.fetched_raw_items || state.totalRaw || status.items_before_topic_filter || 0);
+  node.classList.toggle("warn", failed > 0);
+  node.innerHTML = `<strong>${fmtNumber(okSites)}/${fmtNumber(sites.length)} 源正常</strong><span>今日采集 ${fmtNumber(fetched)} 条 · 失败 ${fmtNumber(failed)}</span>`;
+  return node;
+}
+
+function renderSourceStatusTable(status) {
+  if (!sourceStatusTableEl) return;
+  sourceStatusTableEl.innerHTML = "";
+  if (!status || !Array.isArray(status.sites) || !status.sites.length) return;
+
+  const rows = status.sites
+    .map((site) => {
+      const ai = aiSiteStat(site.site_id);
+      const aiCount = Number(ai?.count || 0);
+      const rawCount = Number(ai?.raw_count ?? site.item_count ?? 0);
+      const scanned = Number(site.item_count || rawCount || 0);
+      const ratioBase = rawCount || scanned;
+      const ratio = ratioBase ? Math.round((aiCount / ratioBase) * 100) : 0;
+      return { ...site, aiCount, rawCount: ratioBase, ratio };
+    })
+    .sort((a, b) => b.aiCount - a.aiCount || b.rawCount - a.rawCount || String(a.site_name).localeCompare(String(b.site_name), "zh-CN"))
+    .slice(0, 12);
+
+  const table = document.createElement("div");
+  table.className = "source-table";
+  const header = document.createElement("div");
+  header.className = "source-table-row source-table-head";
+  header.innerHTML = "<span>来源</span><span>AI / 原始</span><span>AI占比</span><span>状态</span>";
+  table.appendChild(header);
+  rows.forEach((site) => {
+    const row = document.createElement("div");
+    row.className = "source-table-row";
+    const statusText = site.ok ? "正常" : "异常";
+    row.innerHTML = `
+      <span>${site.site_name || site.site_id}</span>
+      <span>${fmtNumber(site.aiCount)} / ${fmtNumber(site.rawCount)}</span>
+      <span>${fmtNumber(site.ratio)}%</span>
+      <span class="${site.ok ? "ok" : "bad"}">${statusText}</span>
+    `;
+    table.appendChild(row);
+  });
+  sourceStatusTableEl.appendChild(table);
+}
+
 function renderSourceHealth(errorMessage = "") {
   if (!sourceHealthEl) return;
   sourceHealthEl.innerHTML = "";
+  if (sourceHealthDetailsEl) sourceHealthDetailsEl.innerHTML = "";
+  if (sourceStatusTableEl) sourceStatusTableEl.innerHTML = "";
 
   const status = state.sourceStatus;
   if (!status) {
-    const empty = document.createElement("div");
-    empty.className = "health-empty";
-    empty.textContent = errorMessage || "源状态未生成";
-    sourceHealthEl.appendChild(empty);
+    sourceHealthEl.appendChild(renderSourceHealthSummaryNode(null, errorMessage));
+    renderSourceStatusPill(errorMessage);
     renderAdvancedSummary();
+    setStats();
     return;
   }
 
@@ -2438,9 +2753,11 @@ function renderSourceHealth(errorMessage = "") {
     renderMetric("失败源", fmtNumber(failedSites.length + failedFeeds.length), failedSites.length || failedFeeds.length ? "bad" : "ok"),
     renderMetric("替换/跳过", `${fmtNumber(replacedFeeds.length)}/${fmtNumber(skippedFeeds.length)}`)
   );
-  sourceHealthEl.appendChild(metricGrid);
+  sourceHealthEl.appendChild(renderSourceHealthSummaryNode(status, errorMessage));
+  const detailTarget = sourceHealthDetailsEl || sourceHealthEl;
+  detailTarget.appendChild(metricGrid);
   if (state.xAuthorsExpanded && xAuthors.length) {
-    sourceHealthEl.appendChild(renderSocialdataAuthorList(xAuthors, socialdataDisplayCount));
+    detailTarget.appendChild(renderSocialdataAuthorList(xAuthors, socialdataDisplayCount));
   }
 
   const issues = document.createElement("div");
@@ -2456,14 +2773,17 @@ function renderSourceHealth(errorMessage = "") {
   }
 
   if (issues.childElementCount) {
-    sourceHealthEl.appendChild(issues);
+    detailTarget.appendChild(issues);
   } else {
     const ok = document.createElement("div");
     ok.className = "health-ok";
-    ok.textContent = "源状态正常";
-    sourceHealthEl.appendChild(ok);
+    ok.textContent = "详细源状态正常";
+    detailTarget.appendChild(ok);
   }
+  renderSourceStatusTable(status);
+  renderSourceStatusPill(errorMessage);
   renderAdvancedSummary();
+  setStats();
 }
 
 async function loadNewsData() {
@@ -2565,7 +2885,7 @@ async function init() {
     state.allDataLoaded = Boolean(payload.items_all || payload.items_all_raw);
     state.generatedAt = payload.generated_at;
 
-    setStats(payload);
+    setStats();
     renderSectionTabs();
     renderModeSwitch();
     renderListSortTools();
@@ -2573,7 +2893,7 @@ async function init() {
     renderSiteFilters();
     renderBolePicks();
     renderList();
-    updatedAtEl.textContent = `更新时间：${fmtTime(state.generatedAt)}`;
+    updatedAtEl.textContent = fmtTime(state.generatedAt);
   } else {
     updatedAtEl.textContent = "新闻数据加载失败";
     newsListEl.innerHTML = `<div class="empty">${newsResult.reason.message}</div>`;
@@ -2610,18 +2930,38 @@ searchInputEl.addEventListener("input", (e) => {
 siteSelectEl.addEventListener("change", (e) => {
   state.siteFilter = e.target.value;
   if (state.siteFilter !== "socialdata_x") state.authorFilter = "";
+  state.siteGroupsExpanded = false;
   renderSiteFilters();
   renderBolePicks();
   renderList();
 });
 
+if (sectionSelectEl) {
+  sectionSelectEl.addEventListener("change", (e) => {
+    state.activeSection = e.target.value || "hot";
+    rerenderCurrentView();
+  });
+}
+
+if (sourceTypeSelectEl) {
+  sourceTypeSelectEl.addEventListener("change", (e) => {
+    state.sourceTypeFilter = e.target.value;
+    state.siteFilter = "";
+    state.authorFilter = "";
+    rerenderCurrentView();
+  });
+}
+
+if (signalLevelSelectEl) {
+  signalLevelSelectEl.addEventListener("change", (e) => {
+    state.signalLevelFilter = e.target.value;
+    rerenderCurrentView();
+  });
+}
+
 modeAiBtnEl.addEventListener("click", () => {
   state.mode = "ai";
-  renderSectionTabs();
-  renderModeSwitch();
-  renderSiteFilters();
-  renderBolePicks();
-  renderList();
+  rerenderCurrentView();
 });
 
 modeAllBtnEl.addEventListener("click", async () => {
@@ -2634,11 +2974,7 @@ modeAllBtnEl.addEventListener("click", async () => {
   newsListEl.appendChild(loading);
   try {
     await loadAllModeData();
-    renderSectionTabs();
-    renderModeSwitch();
-    renderSiteFilters();
-    renderBolePicks();
-    renderList();
+    rerenderCurrentView();
   } catch (err) {
     newsListEl.innerHTML = "";
     const failed = document.createElement("div");
@@ -2651,11 +2987,7 @@ modeAllBtnEl.addEventListener("click", async () => {
 if (allDedupeToggleEl) {
   allDedupeToggleEl.addEventListener("change", (e) => {
     state.allDedup = Boolean(e.target.checked);
-    renderSectionTabs();
-    renderModeSwitch();
-    renderSiteFilters();
-    renderBolePicks();
-    renderList();
+    rerenderCurrentView();
   });
 }
 
