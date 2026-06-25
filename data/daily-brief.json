@@ -1,87 +1,129 @@
 {
-  "generated_at": "2026-06-25T13:33:22.967075Z",
+  "generated_at": "2026-06-25T16:18:14.829646Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
     {
-      "story_id": "story_9662972e681e",
-      "title": "NVIDIA NeMo AutoModel：一行代码加速Transformer MoE模型微调 / Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel",
-      "url": "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel",
-      "primary_url": "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel",
-      "source": "Hugging Face Blog",
+      "story_id": "story_95af1288ca5c",
+      "title": "npm 为高影响力帐户添加了预防性帐户保护 / npm adds preventive account protection for high-impact accounts",
+      "url": "https://github.blog/changelog/2026-06-25-npm-adds-preventive-account-protection-for-high-impact-accounts",
+      "primary_url": "https://github.blog/changelog/2026-06-25-npm-adds-preventive-account-protection-for-high-impact-accounts",
+      "source": "GitHub Changelog",
       "source_name": "Official AI Updates",
       "sources": [
         {
-          "id": "e245e799ffd322334959b73ed65151ecfd19cf8e",
-          "title": "NVIDIA NeMo AutoModel：一行代码加速Transformer MoE模型微调 / Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel",
-          "url": "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel",
-          "source": "Hugging Face Blog",
+          "id": "655a83565bd0c4044b82a9a388e64fc66c2a39d8",
+          "title": "npm 为高影响力帐户添加了预防性帐户保护 / npm adds preventive account protection for high-impact accounts",
+          "url": "https://github.blog/changelog/2026-06-25-npm-adds-preventive-account-protection-for-high-impact-accounts",
+          "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-06-24T16:00:13Z"
-        },
-        {
-          "id": "39b394d7459bb04ff9ee803d9322b4c91d931489",
-          "title": "NVIDIA NeMo AutoModel：一行代码加速Transformer MoE模型微调",
-          "url": "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel",
-          "source": "Hugging Face：Blog（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-24T16:00:13Z"
+          "published_at": "2026-06-25T16:02:09Z"
         }
       ],
-      "source_count": 2,
+      "source_count": 1,
       "source_names": [
-        "Hugging Face Blog",
-        "Hugging Face：Blog（RSS）"
+        "GitHub Changelog"
       ],
       "items": [
         {
-          "id": "e245e799ffd322334959b73ed65151ecfd19cf8e",
-          "title": "NVIDIA NeMo AutoModel：一行代码加速Transformer MoE模型微调 / Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel",
-          "url": "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel",
-          "source": "Hugging Face Blog",
+          "id": "655a83565bd0c4044b82a9a388e64fc66c2a39d8",
+          "title": "npm 为高影响力帐户添加了预防性帐户保护 / npm adds preventive account protection for high-impact accounts",
+          "url": "https://github.blog/changelog/2026-06-25-npm-adds-preventive-account-protection-for-high-impact-accounts",
+          "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-06-24T16:00:13Z"
-        },
-        {
-          "id": "39b394d7459bb04ff9ee803d9322b4c91d931489",
-          "title": "NVIDIA NeMo AutoModel：一行代码加速Transformer MoE模型微调",
-          "url": "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel",
-          "source": "Hugging Face：Blog（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-24T16:00:13Z"
+          "published_at": "2026-06-25T16:02:09Z"
         }
       ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.8449,
-      "importance": 0.8449,
-      "importance_score": 0.8449,
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8433,
+      "importance": 0.8433,
+      "importance_score": 0.8433,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
-        "ai_relevance": 0.99,
-        "recency": 0.7325,
-        "story_heat": 0.25
+        "ai_relevance": 0.87,
+        "recency": 0.9961,
+        "story_heat": 0.0
       },
       "category": "official",
       "reasons": [
         "official_source",
-        "multi_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-06-24T16:00:13Z",
-      "latest_at": "2026-06-24T16:00:13Z",
+      "earliest_at": "2026-06-25T16:02:09Z",
+      "latest_at": "2026-06-25T16:02:09Z",
       "primary_item": {
-        "id": "e245e799ffd322334959b73ed65151ecfd19cf8e",
-        "title": "NVIDIA NeMo AutoModel：一行代码加速Transformer MoE模型微调 / Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel",
-        "url": "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel",
-        "source": "Hugging Face Blog",
+        "id": "655a83565bd0c4044b82a9a388e64fc66c2a39d8",
+        "title": "npm 为高影响力帐户添加了预防性帐户保护 / npm adds preventive account protection for high-impact accounts",
+        "url": "https://github.blog/changelog/2026-06-25-npm-adds-preventive-account-protection-for-high-impact-accounts",
+        "source": "GitHub Changelog",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_dd1b8c72044f",
+      "title": "我们最新的 Google 财经升级，包括新应用 / Our latest Google Finance upgrades, including a new app",
+      "url": "https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026",
+      "primary_url": "https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026",
+      "source": "Google AI Blog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "494cd60b4f663c8c05e47ebeee0297f9797f8d6e",
+          "title": "我们最新的 Google 财经升级，包括新应用 / Our latest Google Finance upgrades, including a new app",
+          "url": "https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026",
+          "source": "Google AI Blog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-25T16:00:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Google AI Blog"
+      ],
+      "items": [
+        {
+          "id": "494cd60b4f663c8c05e47ebeee0297f9797f8d6e",
+          "title": "我们最新的 Google 财经升级，包括新应用 / Our latest Google Finance upgrades, including a new app",
+          "url": "https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026",
+          "source": "Google AI Blog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-25T16:00:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8432,
+      "importance": 0.8432,
+      "importance_score": 0.8432,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.87,
+        "recency": 0.9956,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-25T16:00:00Z",
+      "latest_at": "2026-06-25T16:00:00Z",
+      "primary_item": {
+        "id": "494cd60b4f663c8c05e47ebeee0297f9797f8d6e",
+        "title": "我们最新的 Google 财经升级，包括新应用 / Our latest Google Finance upgrades, including a new app",
+        "url": "https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026",
+        "source": "Google AI Blog",
         "source_name": "Official AI Updates"
       }
     },
@@ -120,15 +162,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8243,
-      "importance": 0.8243,
-      "importance_score": 0.8243,
+      "score": 0.8184,
+      "importance": 0.8184,
+      "importance_score": 0.8184,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.8463,
+        "recency": 0.8134,
         "story_heat": 0.0
       },
       "category": "official",
@@ -144,6 +186,68 @@
         "title": "客服人员如何改变工作方式 / How agents are transforming work",
         "url": "https://openai.com/index/how-agents-are-transforming-work",
         "source": "OpenAI News",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_43a0ba32a32a",
+      "title": "Red Hat Enterprise Linux 运行程序镜像现已推出公共预览版 / Red Hat Enterprise Linux runner images are now in public preview",
+      "url": "https://github.blog/changelog/2026-06-25-red-hat-enterprise-linux-runner-images-are-now-in-public-preview",
+      "primary_url": "https://github.blog/changelog/2026-06-25-red-hat-enterprise-linux-runner-images-are-now-in-public-preview",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "d2b1f309932b20f690f0a2def2d6d2da325653a5",
+          "title": "Red Hat Enterprise Linux 运行程序镜像现已推出公共预览版 / Red Hat Enterprise Linux runner images are now in public preview",
+          "url": "https://github.blog/changelog/2026-06-25-red-hat-enterprise-linux-runner-images-are-now-in-public-preview",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-25T15:40:04Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "items": [
+        {
+          "id": "d2b1f309932b20f690f0a2def2d6d2da325653a5",
+          "title": "Red Hat Enterprise Linux 运行程序镜像现已推出公共预览版 / Red Hat Enterprise Linux runner images are now in public preview",
+          "url": "https://github.blog/changelog/2026-06-25-red-hat-enterprise-linux-runner-images-are-now-in-public-preview",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-25T15:40:04Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8424,
+      "importance": 0.8424,
+      "importance_score": 0.8424,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.87,
+        "recency": 0.9909,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-25T15:40:04Z",
+      "latest_at": "2026-06-25T15:40:04Z",
+      "primary_item": {
+        "id": "d2b1f309932b20f690f0a2def2d6d2da325653a5",
+        "title": "Red Hat Enterprise Linux 运行程序镜像现已推出公共预览版 / Red Hat Enterprise Linux runner images are now in public preview",
+        "url": "https://github.blog/changelog/2026-06-25-red-hat-enterprise-linux-runner-images-are-now-in-public-preview",
+        "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
       }
     },
@@ -182,15 +286,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8048,
-      "importance": 0.8048,
-      "importance_score": 0.8048,
+      "score": 0.7996,
+      "importance": 0.7996,
+      "importance_score": 0.7996,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.7378,
+        "recency": 0.7091,
         "story_heat": 0.0
       },
       "category": "official",
@@ -282,15 +386,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.8014,
-      "importance": 0.8014,
-      "importance_score": 0.8014,
+      "score": 0.7954,
+      "importance": 0.7954,
+      "importance_score": 0.7954,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8602,
+        "recency": 0.8268,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -310,92 +414,30 @@
       }
     },
     {
-      "story_id": "story_2579333ba986",
-      "title": "事件响应的自助凭证撤销 / Self-service credential revocation for incident response",
-      "url": "https://github.blog/changelog/2026-06-24-self-service-credential-revocation-for-incident-response",
-      "primary_url": "https://github.blog/changelog/2026-06-24-self-service-credential-revocation-for-incident-response",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "2c13f1cd981b50654539316dcb8446bf4a8247ac",
-          "title": "事件响应的自助凭证撤销 / Self-service credential revocation for incident response",
-          "url": "https://github.blog/changelog/2026-06-24-self-service-credential-revocation-for-incident-response",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-24T16:47:20Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "items": [
-        {
-          "id": "2c13f1cd981b50654539316dcb8446bf4a8247ac",
-          "title": "事件响应的自助凭证撤销 / Self-service credential revocation for incident response",
-          "url": "https://github.blog/changelog/2026-06-24-self-service-credential-revocation-for-incident-response",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-24T16:47:20Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7974,
-      "importance": 0.7974,
-      "importance_score": 0.7974,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.7409,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-24T16:47:20Z",
-      "latest_at": "2026-06-24T16:47:20Z",
-      "primary_item": {
-        "id": "2c13f1cd981b50654539316dcb8446bf4a8247ac",
-        "title": "事件响应的自助凭证撤销 / Self-service credential revocation for incident response",
-        "url": "https://github.blog/changelog/2026-06-24-self-service-credential-revocation-for-incident-response",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
-      }
-    },
-    {
-      "story_id": "story_aca744981808",
-      "title": "Meta员工警告AI内容审核部署过快",
-      "url": "https://the-decoder.com/meta-employees-warn-ai-moderation-rollout-is-too-fast",
-      "primary_url": "https://the-decoder.com/meta-employees-warn-ai-moderation-rollout-is-too-fast",
+      "story_id": "story_00fd5d3f9f10",
+      "title": "多数主流AI聊天机器人政治立场偏左，\"反觉醒\"模型也不例外",
+      "url": "https://the-decoder.com/most-major-ai-chatbots-still-lean-left-on-political-questions-even-anti-woke-models-are-no-exception",
+      "primary_url": "https://the-decoder.com/most-major-ai-chatbots-still-lean-left-on-political-questions-even-anti-woke-models-are-no-exception",
       "source": "The Decoder：AI News（RSS）",
       "source_name": "AI HOT",
       "sources": [
         {
-          "id": "f5756c16f98363a5d9c312984eaae6ccb9b989f5",
-          "title": "Meta员工警告AI内容审核部署过快",
-          "url": "https://the-decoder.com/meta-employees-warn-ai-moderation-rollout-is-too-fast",
+          "id": "c2abf686ac2cefb9e9d541f637e118500103a262",
+          "title": "多数主流AI聊天机器人政治立场偏左，\"反觉醒\"模型也不例外",
+          "url": "https://the-decoder.com/most-major-ai-chatbots-still-lean-left-on-political-questions-even-anti-woke-models-are-no-exception",
           "source": "The Decoder：AI News（RSS）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-06-25T10:07:19Z"
+          "published_at": "2026-06-25T16:04:32Z"
         },
         {
-          "id": "164c783c2c761864c4d62ea7f43e66d24c926ad0",
-          "title": "Meta员工警告AI内容审核部署过快 / Meta employees warn AI moderation rollout is too fast",
-          "url": "https://the-decoder.com/meta-employees-warn-ai-moderation-rollout-is-too-fast",
+          "id": "d967f2645d0a4c6321ac9bf4e7475907269a1d6a",
+          "title": "多数主流AI聊天机器人政治立场偏左，\"反觉醒\"模型也不例外 / Most major AI chatbots still lean left on political questions, even \"anti-woke\" models are no exception",
+          "url": "https://the-decoder.com/most-major-ai-chatbots-still-lean-left-on-political-questions-even-anti-woke-models-are-no-exception",
           "source": "The Decoder AI News",
           "source_name": "Curated Media",
           "site_id": "curated_media",
-          "published_at": "2026-06-25T10:07:19Z"
+          "published_at": "2026-06-25T16:04:32Z"
         }
       ],
       "source_count": 2,
@@ -405,35 +447,35 @@
       ],
       "items": [
         {
-          "id": "f5756c16f98363a5d9c312984eaae6ccb9b989f5",
-          "title": "Meta员工警告AI内容审核部署过快",
-          "url": "https://the-decoder.com/meta-employees-warn-ai-moderation-rollout-is-too-fast",
+          "id": "c2abf686ac2cefb9e9d541f637e118500103a262",
+          "title": "多数主流AI聊天机器人政治立场偏左，\"反觉醒\"模型也不例外",
+          "url": "https://the-decoder.com/most-major-ai-chatbots-still-lean-left-on-political-questions-even-anti-woke-models-are-no-exception",
           "source": "The Decoder：AI News（RSS）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-06-25T10:07:19Z"
+          "published_at": "2026-06-25T16:04:32Z"
         },
         {
-          "id": "164c783c2c761864c4d62ea7f43e66d24c926ad0",
-          "title": "Meta员工警告AI内容审核部署过快 / Meta employees warn AI moderation rollout is too fast",
-          "url": "https://the-decoder.com/meta-employees-warn-ai-moderation-rollout-is-too-fast",
+          "id": "d967f2645d0a4c6321ac9bf4e7475907269a1d6a",
+          "title": "多数主流AI聊天机器人政治立场偏左，\"反觉醒\"模型也不例外 / Most major AI chatbots still lean left on political questions, even \"anti-woke\" models are no exception",
+          "url": "https://the-decoder.com/most-major-ai-chatbots-still-lean-left-on-political-questions-even-anti-woke-models-are-no-exception",
           "source": "The Decoder AI News",
           "source_name": "Curated Media",
           "site_id": "curated_media",
-          "published_at": "2026-06-25T10:07:19Z"
+          "published_at": "2026-06-25T16:04:32Z"
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7869,
-      "importance": 0.7869,
-      "importance_score": 0.7869,
+      "score": 0.795,
+      "importance": 0.795,
+      "importance_score": 0.795,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.73,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9516,
+        "recency": 0.9967,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -442,14 +484,137 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-06-25T10:07:19Z",
-      "latest_at": "2026-06-25T10:07:19Z",
+      "earliest_at": "2026-06-25T16:04:32Z",
+      "latest_at": "2026-06-25T16:04:32Z",
       "primary_item": {
-        "id": "f5756c16f98363a5d9c312984eaae6ccb9b989f5",
-        "title": "Meta员工警告AI内容审核部署过快",
-        "url": "https://the-decoder.com/meta-employees-warn-ai-moderation-rollout-is-too-fast",
+        "id": "c2abf686ac2cefb9e9d541f637e118500103a262",
+        "title": "多数主流AI聊天机器人政治立场偏左，\"反觉醒\"模型也不例外",
+        "url": "https://the-decoder.com/most-major-ai-chatbots-still-lean-left-on-political-questions-even-anti-woke-models-are-no-exception",
         "source": "The Decoder：AI News（RSS）",
         "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_369029017003",
+      "title": "Gemini 3.5 Flash 的 Computer Use 工具正式可用",
+      "url": "https://x.com/googleaidevs/status/2070175289481576777",
+      "primary_url": "https://x.com/googleaidevs/status/2070175289481576777",
+      "source": "X：Google AI for Developers (@googleaidevs)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "76ddd5acfd80429c08a3763c45f19df784d533df",
+          "title": "Gemini 3.5 Flash 的 Computer Use 工具正式可用",
+          "url": "https://x.com/googleaidevs/status/2070175289481576777",
+          "source": "X：Google AI for Developers (@googleaidevs)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-25T16:00:25Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "X：Google AI for Developers (@googleaidevs)"
+      ],
+      "items": [
+        {
+          "id": "76ddd5acfd80429c08a3763c45f19df784d533df",
+          "title": "Gemini 3.5 Flash 的 Computer Use 工具正式可用",
+          "url": "https://x.com/googleaidevs/status/2070175289481576777",
+          "source": "X：Google AI for Developers (@googleaidevs)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-25T16:00:25Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7698,
+      "importance": 0.7698,
+      "importance_score": 0.7698,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.73,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9957,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-25T16:00:25Z",
+      "latest_at": "2026-06-25T16:00:25Z",
+      "primary_item": {
+        "id": "76ddd5acfd80429c08a3763c45f19df784d533df",
+        "title": "Gemini 3.5 Flash 的 Computer Use 工具正式可用",
+        "url": "https://x.com/googleaidevs/status/2070175289481576777",
+        "source": "X：Google AI for Developers (@googleaidevs)",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_6e4aaf40ce95",
+      "title": "成本中心现在支持企业团队 / Cost centers now support enterprise teams",
+      "url": "https://github.blog/changelog/2026-06-25-assign-enterprise-teams-to-cost-centers",
+      "primary_url": "https://github.blog/changelog/2026-06-25-assign-enterprise-teams-to-cost-centers",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "2a6c485cd1a19304bd59bfaec9fbe109f4fb32c3",
+          "title": "成本中心现在支持企业团队 / Cost centers now support enterprise teams",
+          "url": "https://github.blog/changelog/2026-06-25-assign-enterprise-teams-to-cost-centers",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-25T10:15:19Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "items": [
+        {
+          "id": "2a6c485cd1a19304bd59bfaec9fbe109f4fb32c3",
+          "title": "成本中心现在支持企业团队 / Cost centers now support enterprise teams",
+          "url": "https://github.blog/changelog/2026-06-25-assign-enterprise-teams-to-cost-centers",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-25T10:15:19Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8289,
+      "importance": 0.8289,
+      "importance_score": 0.8289,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.87,
+        "recency": 0.9164,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-25T10:15:19Z",
+      "latest_at": "2026-06-25T10:15:19Z",
+      "primary_item": {
+        "id": "2a6c485cd1a19304bd59bfaec9fbe109f4fb32c3",
+        "title": "成本中心现在支持企业团队 / Cost centers now support enterprise teams",
+        "url": "https://github.blog/changelog/2026-06-25-assign-enterprise-teams-to-cost-centers",
+        "source": "GitHub Changelog",
+        "source_name": "Official AI Updates"
       }
     },
     {
@@ -506,15 +671,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.771,
-      "importance": 0.771,
-      "importance_score": 0.771,
+      "score": 0.7648,
+      "importance": 0.7648,
+      "importance_score": 0.7648,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8797,
+        "recency": 0.8455,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -534,65 +699,84 @@
       }
     },
     {
-      "story_id": "story_c51974b30bf7",
-      "title": "免费和学生计划的型号选择发生变化 / Changes to model selection for Free and Student plans",
-      "url": "https://github.blog/changelog/2026-06-24-changes-to-model-selection-for-free-and-student-plans",
-      "primary_url": "https://github.blog/changelog/2026-06-24-changes-to-model-selection-for-free-and-student-plans",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
+      "story_id": "story_aca744981808",
+      "title": "Meta员工警告AI内容审核部署过快",
+      "url": "https://the-decoder.com/meta-employees-warn-ai-moderation-rollout-is-too-fast",
+      "primary_url": "https://the-decoder.com/meta-employees-warn-ai-moderation-rollout-is-too-fast",
+      "source": "The Decoder：AI News（RSS）",
+      "source_name": "AI HOT",
       "sources": [
         {
-          "id": "4a2efb6362c98cb884ab793334b4373463f8fe3a",
-          "title": "免费和学生计划的型号选择发生变化 / Changes to model selection for Free and Student plans",
-          "url": "https://github.blog/changelog/2026-06-24-changes-to-model-selection-for-free-and-student-plans",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-24T16:28:36Z"
+          "id": "f5756c16f98363a5d9c312984eaae6ccb9b989f5",
+          "title": "Meta员工警告AI内容审核部署过快",
+          "url": "https://the-decoder.com/meta-employees-warn-ai-moderation-rollout-is-too-fast",
+          "source": "The Decoder：AI News（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-25T10:07:19Z"
+        },
+        {
+          "id": "164c783c2c761864c4d62ea7f43e66d24c926ad0",
+          "title": "Meta员工警告AI内容审核部署过快 / Meta employees warn AI moderation rollout is too fast",
+          "url": "https://the-decoder.com/meta-employees-warn-ai-moderation-rollout-is-too-fast",
+          "source": "The Decoder AI News",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-06-25T10:07:19Z"
         }
       ],
-      "source_count": 1,
+      "source_count": 2,
       "source_names": [
-        "GitHub Changelog"
+        "The Decoder AI News",
+        "The Decoder：AI News（RSS）"
       ],
       "items": [
         {
-          "id": "4a2efb6362c98cb884ab793334b4373463f8fe3a",
-          "title": "免费和学生计划的型号选择发生变化 / Changes to model selection for Free and Student plans",
-          "url": "https://github.blog/changelog/2026-06-24-changes-to-model-selection-for-free-and-student-plans",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-24T16:28:36Z"
+          "id": "f5756c16f98363a5d9c312984eaae6ccb9b989f5",
+          "title": "Meta员工警告AI内容审核部署过快",
+          "url": "https://the-decoder.com/meta-employees-warn-ai-moderation-rollout-is-too-fast",
+          "source": "The Decoder：AI News（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-25T10:07:19Z"
+        },
+        {
+          "id": "164c783c2c761864c4d62ea7f43e66d24c926ad0",
+          "title": "Meta员工警告AI内容审核部署过快 / Meta employees warn AI moderation rollout is too fast",
+          "url": "https://the-decoder.com/meta-employees-warn-ai-moderation-rollout-is-too-fast",
+          "source": "The Decoder AI News",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-06-25T10:07:19Z"
         }
       ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7968,
-      "importance": 0.7968,
-      "importance_score": 0.7968,
-      "importance_label": "官方更新",
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7802,
+      "importance": 0.7802,
+      "importance_score": 0.7802,
+      "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.7376,
-        "story_heat": 0.0
+        "editorial": 0.73,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9146,
+        "story_heat": 0.25
       },
-      "category": "official",
+      "category": "industry",
       "reasons": [
-        "official_source",
+        "multi_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-06-24T16:28:36Z",
-      "latest_at": "2026-06-24T16:28:36Z",
+      "earliest_at": "2026-06-25T10:07:19Z",
+      "latest_at": "2026-06-25T10:07:19Z",
       "primary_item": {
-        "id": "4a2efb6362c98cb884ab793334b4373463f8fe3a",
-        "title": "免费和学生计划的型号选择发生变化 / Changes to model selection for Free and Student plans",
-        "url": "https://github.blog/changelog/2026-06-24-changes-to-model-selection-for-free-and-student-plans",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
+        "id": "f5756c16f98363a5d9c312984eaae6ccb9b989f5",
+        "title": "Meta员工警告AI内容审核部署过快",
+        "url": "https://the-decoder.com/meta-employees-warn-ai-moderation-rollout-is-too-fast",
+        "source": "The Decoder：AI News（RSS）",
+        "source_name": "AI HOT"
       }
     },
     {
@@ -649,22 +833,21 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7503,
-      "importance": 0.7503,
-      "importance_score": 0.7503,
+      "score": 0.7447,
+      "importance": 0.7447,
+      "importance_score": 0.7447,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7982,
+        "recency": 0.7671,
         "story_heat": 0.25
       },
       "category": "industry",
       "reasons": [
         "multi_source",
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-06-24T21:56:41Z",
       "latest_at": "2026-06-24T21:56:41Z",
@@ -749,15 +932,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.7769,
-      "importance": 0.7769,
-      "importance_score": 0.7769,
+      "score": 0.7713,
+      "importance": 0.7713,
+      "importance_score": 0.7713,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.71,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7904,
+        "recency": 0.7596,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -830,15 +1013,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7333,
-      "importance": 0.7333,
-      "importance_score": 0.7333,
+      "score": 0.728,
+      "importance": 0.728,
+      "importance_score": 0.728,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.67,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.754,
+        "recency": 0.7247,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -853,6 +1036,66 @@
         "title": "GPT-5.5 Instant 新版本，对话更有趣",
         "url": "https://x.com/OpenAI/status/2069843083701915755",
         "source": "X：OpenAI (@OpenAI)",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_ec76817e0dd3",
+      "title": "OpenRouter MCP 服务器发布",
+      "url": "https://openrouter.ai/blog/announcements/openrouter-mcp-server",
+      "primary_url": "https://openrouter.ai/blog/announcements/openrouter-mcp-server",
+      "source": "OpenRouter：Announcements（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "c7c48e3c1414b6791d81f0c545db4d936bf839d6",
+          "title": "OpenRouter MCP 服务器发布",
+          "url": "https://openrouter.ai/blog/announcements/openrouter-mcp-server",
+          "source": "OpenRouter：Announcements（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-25T00:00:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "OpenRouter：Announcements（RSS）"
+      ],
+      "items": [
+        {
+          "id": "c7c48e3c1414b6791d81f0c545db4d936bf839d6",
+          "title": "OpenRouter MCP 服务器发布",
+          "url": "https://openrouter.ai/blog/announcements/openrouter-mcp-server",
+          "source": "OpenRouter：Announcements（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-25T00:00:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7268,
+      "importance": 0.7268,
+      "importance_score": 0.7268,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.71,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7902,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-06-25T00:00:00Z",
+      "latest_at": "2026-06-25T00:00:00Z",
+      "primary_item": {
+        "id": "c7c48e3c1414b6791d81f0c545db4d936bf839d6",
+        "title": "OpenRouter MCP 服务器发布",
+        "url": "https://openrouter.ai/blog/announcements/openrouter-mcp-server",
+        "source": "OpenRouter：Announcements（RSS）",
         "source_name": "AI HOT"
       }
     },
@@ -891,15 +1134,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7616,
-      "importance": 0.7616,
-      "importance_score": 0.7616,
+      "score": 0.7548,
+      "importance": 0.7548,
+      "importance_score": 0.7548,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9667,
+        "recency": 0.9291,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -913,6 +1156,129 @@
         "id": "4789bd39bcbe84cffdb3fc2d595e79d5ce42450f",
         "title": "​前印度信息技术巨头新创企业，欲用 AI 颠覆 IT 服务行业",
         "url": "https://www.aibase.com/news/29167",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_2579333ba986",
+      "title": "事件响应的自助凭证撤销 / Self-service credential revocation for incident response",
+      "url": "https://github.blog/changelog/2026-06-24-self-service-credential-revocation-for-incident-response",
+      "primary_url": "https://github.blog/changelog/2026-06-24-self-service-credential-revocation-for-incident-response",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "2c13f1cd981b50654539316dcb8446bf4a8247ac",
+          "title": "事件响应的自助凭证撤销 / Self-service credential revocation for incident response",
+          "url": "https://github.blog/changelog/2026-06-24-self-service-credential-revocation-for-incident-response",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-24T16:47:20Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "items": [
+        {
+          "id": "2c13f1cd981b50654539316dcb8446bf4a8247ac",
+          "title": "事件响应的自助凭证撤销 / Self-service credential revocation for incident response",
+          "url": "https://github.blog/changelog/2026-06-24-self-service-credential-revocation-for-incident-response",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-24T16:47:20Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7922,
+      "importance": 0.7922,
+      "importance_score": 0.7922,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.87,
+        "recency": 0.7121,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-24T16:47:20Z",
+      "latest_at": "2026-06-24T16:47:20Z",
+      "primary_item": {
+        "id": "2c13f1cd981b50654539316dcb8446bf4a8247ac",
+        "title": "事件响应的自助凭证撤销 / Self-service credential revocation for incident response",
+        "url": "https://github.blog/changelog/2026-06-24-self-service-credential-revocation-for-incident-response",
+        "source": "GitHub Changelog",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_eb42793d6d72",
+      "title": "​近 400 家地方报纸起诉 OpenAI 和微软，指控侵犯版权",
+      "url": "https://www.aibase.com/news/29171",
+      "primary_url": "https://www.aibase.com/news/29171",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "b0b3ac2c0c8f5e0d8f88bf939abd896987b1ac08",
+          "title": "​近 400 家地方报纸起诉 OpenAI 和微软，指控侵犯版权",
+          "url": "https://www.aibase.com/news/29171",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-25T11:12:38.027616Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "b0b3ac2c0c8f5e0d8f88bf939abd896987b1ac08",
+          "title": "​近 400 家地方报纸起诉 OpenAI 和微软，指控侵犯版权",
+          "url": "https://www.aibase.com/news/29171",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-25T11:12:38.027616Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7548,
+      "importance": 0.7548,
+      "importance_score": 0.7548,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9291,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-25T11:12:38.027616Z",
+      "latest_at": "2026-06-25T11:12:38.027616Z",
+      "primary_item": {
+        "id": "b0b3ac2c0c8f5e0d8f88bf939abd896987b1ac08",
+        "title": "​近 400 家地方报纸起诉 OpenAI 和微软，指控侵犯版权",
+        "url": "https://www.aibase.com/news/29171",
         "source": "AIbase",
         "source_name": "AIbase"
       }
@@ -971,22 +1337,21 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.752,
-      "importance": 0.752,
-      "importance_score": 0.752,
+      "score": 0.7468,
+      "importance": 0.7468,
+      "importance_score": 0.7468,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.74,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7412,
+        "recency": 0.7124,
         "story_heat": 0.25
       },
       "category": "industry",
       "reasons": [
         "multi_source",
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-06-24T16:49:01Z",
       "latest_at": "2026-06-24T16:49:01Z",
@@ -999,539 +1364,65 @@
       }
     },
     {
-      "story_id": "story_b28bda072fd0",
-      "title": "字节跳动技术副总裁洪定坤：AI Coding 的实践与探索",
-      "url": "https://mp.weixin.qq.com/s/mdmaAyUIvxE8WT_GEbF2wQ",
-      "primary_url": "https://mp.weixin.qq.com/s/mdmaAyUIvxE8WT_GEbF2wQ",
-      "source": "公众号：火山引擎",
-      "source_name": "AI HOT",
+      "story_id": "story_c51974b30bf7",
+      "title": "免费和学生计划的型号选择发生变化 / Changes to model selection for Free and Student plans",
+      "url": "https://github.blog/changelog/2026-06-24-changes-to-model-selection-for-free-and-student-plans",
+      "primary_url": "https://github.blog/changelog/2026-06-24-changes-to-model-selection-for-free-and-student-plans",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
       "sources": [
         {
-          "id": "a53ba8f21e366dc6a4529fbbcdb0af5579cd2248",
-          "title": "字节跳动技术副总裁洪定坤：AI Coding 的实践与探索",
-          "url": "https://mp.weixin.qq.com/s/mdmaAyUIvxE8WT_GEbF2wQ",
-          "source": "公众号：火山引擎",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-24T14:02:42Z"
+          "id": "4a2efb6362c98cb884ab793334b4373463f8fe3a",
+          "title": "免费和学生计划的型号选择发生变化 / Changes to model selection for Free and Student plans",
+          "url": "https://github.blog/changelog/2026-06-24-changes-to-model-selection-for-free-and-student-plans",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-24T16:28:36Z"
         }
       ],
       "source_count": 1,
       "source_names": [
-        "公众号：火山引擎"
+        "GitHub Changelog"
       ],
       "items": [
         {
-          "id": "a53ba8f21e366dc6a4529fbbcdb0af5579cd2248",
-          "title": "字节跳动技术副总裁洪定坤：AI Coding 的实践与探索",
-          "url": "https://mp.weixin.qq.com/s/mdmaAyUIvxE8WT_GEbF2wQ",
-          "source": "公众号：火山引擎",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-24T14:02:42Z"
+          "id": "4a2efb6362c98cb884ab793334b4373463f8fe3a",
+          "title": "免费和学生计划的型号选择发生变化 / Changes to model selection for Free and Student plans",
+          "url": "https://github.blog/changelog/2026-06-24-changes-to-model-selection-for-free-and-student-plans",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-24T16:28:36Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7218,
-      "importance": 0.7218,
-      "importance_score": 0.7218,
-      "importance_label": "行业动态",
+      "score": 0.7916,
+      "importance": 0.7916,
+      "importance_score": 0.7916,
+      "importance_label": "官方更新",
       "importance_breakdown": {
-        "editorial": 0.74,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7121,
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.87,
+        "recency": 0.7089,
         "story_heat": 0.0
       },
-      "category": "industry",
+      "category": "official",
       "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-24T14:02:42Z",
-      "latest_at": "2026-06-24T14:02:42Z",
-      "primary_item": {
-        "id": "a53ba8f21e366dc6a4529fbbcdb0af5579cd2248",
-        "title": "字节跳动技术副总裁洪定坤：AI Coding 的实践与探索",
-        "url": "https://mp.weixin.qq.com/s/mdmaAyUIvxE8WT_GEbF2wQ",
-        "source": "公众号：火山引擎",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_eb42793d6d72",
-      "title": "​近 400 家地方报纸起诉 OpenAI 和微软，指控侵犯版权",
-      "url": "https://www.aibase.com/news/29171",
-      "primary_url": "https://www.aibase.com/news/29171",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "b0b3ac2c0c8f5e0d8f88bf939abd896987b1ac08",
-          "title": "​近 400 家地方报纸起诉 OpenAI 和微软，指控侵犯版权",
-          "url": "https://www.aibase.com/news/29171",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-25T11:12:38.027616Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "b0b3ac2c0c8f5e0d8f88bf939abd896987b1ac08",
-          "title": "​近 400 家地方报纸起诉 OpenAI 和微软，指控侵犯版权",
-          "url": "https://www.aibase.com/news/29171",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-25T11:12:38.027616Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7616,
-      "importance": 0.7616,
-      "importance_score": 0.7616,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9667,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
+        "official_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-06-25T11:12:38.027616Z",
-      "latest_at": "2026-06-25T11:12:38.027616Z",
+      "earliest_at": "2026-06-24T16:28:36Z",
+      "latest_at": "2026-06-24T16:28:36Z",
       "primary_item": {
-        "id": "b0b3ac2c0c8f5e0d8f88bf939abd896987b1ac08",
-        "title": "​近 400 家地方报纸起诉 OpenAI 和微软，指控侵犯版权",
-        "url": "https://www.aibase.com/news/29171",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      }
-    },
-    {
-      "story_id": "story_f2ff27bae731",
-      "title": "里德·霍夫曼称SpaceX\"不是一家人工智能公司\"，xAI则是\"彻底的灾难\"",
-      "url": "https://fortune.com/2026/06/24/reid-hoffman-spacex-musk-openai-anthropic-gen-z-mistake",
-      "primary_url": "https://fortune.com/2026/06/24/reid-hoffman-spacex-musk-openai-anthropic-gen-z-mistake",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "a3436b1a52934802da74396b25c65d0b21e11264",
-          "title": "里德·霍夫曼称SpaceX\"不是一家人工智能公司\"，xAI则是\"彻底的灾难\"",
-          "url": "https://fortune.com/2026/06/24/reid-hoffman-spacex-musk-openai-anthropic-gen-z-mistake",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-24T14:20:14.340000Z"
-        },
-        {
-          "id": "fee375796c9518d14a9692c87603a2807f653f9d",
-          "title": "里德·霍夫曼称SpaceX“不是一家人工智能公司”，xAI则是“彻底的灾难”",
-          "url": "https://fortune.com/2026/06/24/reid-hoffman-spacex-musk-openai-anthropic-gen-z-mistake",
-          "source": "fortune.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-24T14:20:14.340000Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News 热门（buzzing.cc 中文翻译）",
-        "fortune.com"
-      ],
-      "items": [
-        {
-          "id": "a3436b1a52934802da74396b25c65d0b21e11264",
-          "title": "里德·霍夫曼称SpaceX\"不是一家人工智能公司\"，xAI则是\"彻底的灾难\"",
-          "url": "https://fortune.com/2026/06/24/reid-hoffman-spacex-musk-openai-anthropic-gen-z-mistake",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-24T14:20:14.340000Z"
-        },
-        {
-          "id": "fee375796c9518d14a9692c87603a2807f653f9d",
-          "title": "里德·霍夫曼称SpaceX“不是一家人工智能公司”，xAI则是“彻底的灾难”",
-          "url": "https://fortune.com/2026/06/24/reid-hoffman-spacex-musk-openai-anthropic-gen-z-mistake",
-          "source": "fortune.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-24T14:20:14.340000Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7593,
-      "importance": 0.7593,
-      "importance_score": 0.7593,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.78,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7151,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-24T14:20:14.340000Z",
-      "latest_at": "2026-06-24T14:20:14.340000Z",
-      "primary_item": {
-        "id": "a3436b1a52934802da74396b25c65d0b21e11264",
-        "title": "里德·霍夫曼称SpaceX\"不是一家人工智能公司\"，xAI则是\"彻底的灾难\"",
-        "url": "https://fortune.com/2026/06/24/reid-hoffman-spacex-musk-openai-anthropic-gen-z-mistake",
-        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_60ea0916c4c0",
-      "title": "商汤科技挺进智能体赛道：全新“全模态”基座蓄势待发",
-      "url": "https://www.aibase.com/news/29169",
-      "primary_url": "https://www.aibase.com/news/29169",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "3dabe9aaeddd6a41ccadf293d94e090cb24a071e",
-          "title": "商汤科技挺进智能体赛道：全新“全模态”基座蓄势待发",
-          "url": "https://www.aibase.com/news/29169",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-25T11:12:38.027616Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "3dabe9aaeddd6a41ccadf293d94e090cb24a071e",
-          "title": "商汤科技挺进智能体赛道：全新“全模态”基座蓄势待发",
-          "url": "https://www.aibase.com/news/29169",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-25T11:12:38.027616Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7616,
-      "importance": 0.7616,
-      "importance_score": 0.7616,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9667,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-25T11:12:38.027616Z",
-      "latest_at": "2026-06-25T11:12:38.027616Z",
-      "primary_item": {
-        "id": "3dabe9aaeddd6a41ccadf293d94e090cb24a071e",
-        "title": "商汤科技挺进智能体赛道：全新“全模态”基座蓄势待发",
-        "url": "https://www.aibase.com/news/29169",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      }
-    },
-    {
-      "story_id": "story_2df82173bb28",
-      "title": "这是一篇GitHub的奶爸级别教学。如果你是 AI 编程爱好者，本文对你帮助是极大的。包括：怎么注册，搜索，使用 GitHub、了解 GitHub 详细功能点、如何提交和备份 GitHub 项目。",
-      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-      "primary_url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-      "source": "社区更新 · 2026-06-25",
-      "source_name": "WaytoAGI",
-      "sources": [
-        {
-          "id": "7c8d6d7b5b66bf7f4584ae7bf0482ac4be39d149",
-          "title": "这是一篇GitHub的奶爸级别教学。如果你是 AI 编程爱好者，本文对你帮助是极大的。包括：怎么注册，搜索，使用 GitHub、了解 GitHub 详细功能点、如何提交和备份 GitHub 项目。",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-06-25",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-06-25T11:12:38.027616Z"
-        },
-        {
-          "id": "1794db05181c851d959a10bc62f76065d7fc716c",
-          "title": "火山方舟上线Seed 2.1 Pro，多项Agent、代码、多模态基准成绩位居前列，兼容主流开发工具且调用成本远低于海外模型。作者用它做了一个毕业生就业补贴公益项目，自主完成全网信息抓取、OCR识别、数据核验质检、开源仓库搭建与检索网站开发。整套项目完成成本仅为同类海外模型的几十分之一，快来看看效果如何。",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-06-25",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-06-25T08:18:17.801339Z"
-        },
-        {
-          "id": "e62cab6fad3c71ebacc2f74581948782618f0530",
-          "title": "你读完一本很棒的书。两周后，却连一个章节都想不起来。不是因为你笨，而是因为从来没人教过你如何真正学习。你可以在Claude里用20分钟跑完本文中的4个提示词，20分钟，让知识真正留在脑子里。",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-06-24",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-06-24T19:11:40.150741Z"
-        },
-        {
-          "id": "6bf87a6c105e36f3cd4672887e78907616da229e",
-          "title": "定时任务经常静默失效、无效重复执行？Loop Engineering可以解决传统静态定时Agent的痛点，将单次提示词升级为可以自主判断、自检迭代的智能循环体系。有一个开源项目提供了五大核心模块、七套成熟生产模板，搭配三条CLI工具完成初始化、成本预估与环境检测，还设计了L1-L3分级放权机制，循序渐进放开自动化权限规避风险。",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-06-24",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-06-24T19:11:40.150741Z"
-        },
-        {
-          "id": "6170d9f23ba0cc89c18cfa1c49aa06c469447885",
-          "title": "真正理解AI 智能体如何工作的开发者，只占其中很小一部分。每周都会出现一个新的智能体框架。一个新工具。一次新的“这会改变一切”的发布。大多数开发者因此觉得自己落后了。但让你落后的，不是错过了某个新工具。而是没有理解这个工具背后的理念。这篇文章的30个概念，会出现在几乎所有智能体框架里，可以帮助你理解以后出现的每一个新工具。",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-06-24",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-06-24T19:11:40.150741Z"
-        },
-        {
-          "id": "6fafe29553436aa2e0ca2d8c3358d5c3635200d0",
-          "title": "Airtable的CEO Howie Liu在Silicon Valley Girl的对话里，把重点落在一个更贴近管理者和产品人的变化：当 Agent 开始能跑几个小时的任务，人的工作会从亲手执行，转向设计任务、喂给上下文、判断结果。",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-06-24",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-06-24T17:28:31.204091Z"
-        }
-      ],
-      "source_count": 6,
-      "source_names": [
-        "社区更新 · 2026-06-24",
-        "社区更新 · 2026-06-25"
-      ],
-      "items": [
-        {
-          "id": "7c8d6d7b5b66bf7f4584ae7bf0482ac4be39d149",
-          "title": "这是一篇GitHub的奶爸级别教学。如果你是 AI 编程爱好者，本文对你帮助是极大的。包括：怎么注册，搜索，使用 GitHub、了解 GitHub 详细功能点、如何提交和备份 GitHub 项目。",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-06-25",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-06-25T11:12:38.027616Z"
-        },
-        {
-          "id": "1794db05181c851d959a10bc62f76065d7fc716c",
-          "title": "火山方舟上线Seed 2.1 Pro，多项Agent、代码、多模态基准成绩位居前列，兼容主流开发工具且调用成本远低于海外模型。作者用它做了一个毕业生就业补贴公益项目，自主完成全网信息抓取、OCR识别、数据核验质检、开源仓库搭建与检索网站开发。整套项目完成成本仅为同类海外模型的几十分之一，快来看看效果如何。",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-06-25",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-06-25T08:18:17.801339Z"
-        },
-        {
-          "id": "e62cab6fad3c71ebacc2f74581948782618f0530",
-          "title": "你读完一本很棒的书。两周后，却连一个章节都想不起来。不是因为你笨，而是因为从来没人教过你如何真正学习。你可以在Claude里用20分钟跑完本文中的4个提示词，20分钟，让知识真正留在脑子里。",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-06-24",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-06-24T19:11:40.150741Z"
-        },
-        {
-          "id": "6bf87a6c105e36f3cd4672887e78907616da229e",
-          "title": "定时任务经常静默失效、无效重复执行？Loop Engineering可以解决传统静态定时Agent的痛点，将单次提示词升级为可以自主判断、自检迭代的智能循环体系。有一个开源项目提供了五大核心模块、七套成熟生产模板，搭配三条CLI工具完成初始化、成本预估与环境检测，还设计了L1-L3分级放权机制，循序渐进放开自动化权限规避风险。",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-06-24",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-06-24T19:11:40.150741Z"
-        },
-        {
-          "id": "6170d9f23ba0cc89c18cfa1c49aa06c469447885",
-          "title": "真正理解AI 智能体如何工作的开发者，只占其中很小一部分。每周都会出现一个新的智能体框架。一个新工具。一次新的“这会改变一切”的发布。大多数开发者因此觉得自己落后了。但让你落后的，不是错过了某个新工具。而是没有理解这个工具背后的理念。这篇文章的30个概念，会出现在几乎所有智能体框架里，可以帮助你理解以后出现的每一个新工具。",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-06-24",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-06-24T19:11:40.150741Z"
-        },
-        {
-          "id": "6fafe29553436aa2e0ca2d8c3358d5c3635200d0",
-          "title": "Airtable的CEO Howie Liu在Silicon Valley Girl的对话里，把重点落在一个更贴近管理者和产品人的变化：当 Agent 开始能跑几个小时的任务，人的工作会从亲手执行，转向设计任务、喂给上下文、判断结果。",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-06-24",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-06-24T17:28:31.204091Z"
-        }
-      ],
-      "item_count": 6,
-      "duplicate_count": 6,
-      "score": 0.6632,
-      "importance": 0.6632,
-      "importance_score": 0.6632,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.54,
-        "ai_relevance": 0.65,
-        "recency": 0.9667,
-        "story_heat": 1.0
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-24T17:28:31.204091Z",
-      "latest_at": "2026-06-25T11:12:38.027616Z",
-      "primary_item": {
-        "id": "7c8d6d7b5b66bf7f4584ae7bf0482ac4be39d149",
-        "title": "这是一篇GitHub的奶爸级别教学。如果你是 AI 编程爱好者，本文对你帮助是极大的。包括：怎么注册，搜索，使用 GitHub、了解 GitHub 详细功能点、如何提交和备份 GitHub 项目。",
-        "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-        "source": "社区更新 · 2026-06-25",
-        "source_name": "WaytoAGI"
-      }
-    },
-    {
-      "story_id": "story_42dc429b5357",
-      "title": "商汤科技秘密研发多模态模型“U1Pro”:由林达华牵头，预计7月启动内测对标OpenAI",
-      "url": "https://www.aibase.com/news/29168",
-      "primary_url": "https://www.aibase.com/news/29168",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "74f777037bc461984520531eeb5ad391b60f5861",
-          "title": "商汤科技秘密研发多模态模型“U1Pro”:由林达华牵头，预计7月启动内测对标OpenAI",
-          "url": "https://www.aibase.com/news/29168",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-25T11:12:38.027616Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "74f777037bc461984520531eeb5ad391b60f5861",
-          "title": "商汤科技秘密研发多模态模型“U1Pro”:由林达华牵头，预计7月启动内测对标OpenAI",
-          "url": "https://www.aibase.com/news/29168",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-25T11:12:38.027616Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7616,
-      "importance": 0.7616,
-      "importance_score": 0.7616,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9667,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-25T11:12:38.027616Z",
-      "latest_at": "2026-06-25T11:12:38.027616Z",
-      "primary_item": {
-        "id": "74f777037bc461984520531eeb5ad391b60f5861",
-        "title": "商汤科技秘密研发多模态模型“U1Pro”:由林达华牵头，预计7月启动内测对标OpenAI",
-        "url": "https://www.aibase.com/news/29168",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      }
-    },
-    {
-      "story_id": "story_9265e5815a7e",
-      "title": "志愿填报“参谋”到位：高考出分三日，大模型已助 500 万考生“定心”",
-      "url": "https://www.aibase.com/news/29170",
-      "primary_url": "https://www.aibase.com/news/29170",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "da350d2a88ac7ccde0c4b6a19f65d46cc47bb6fc",
-          "title": "志愿填报“参谋”到位：高考出分三日，大模型已助 500 万考生“定心”",
-          "url": "https://www.aibase.com/news/29170",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-25T11:12:38.027616Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "da350d2a88ac7ccde0c4b6a19f65d46cc47bb6fc",
-          "title": "志愿填报“参谋”到位：高考出分三日，大模型已助 500 万考生“定心”",
-          "url": "https://www.aibase.com/news/29170",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-25T11:12:38.027616Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7616,
-      "importance": 0.7616,
-      "importance_score": 0.7616,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9667,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-25T11:12:38.027616Z",
-      "latest_at": "2026-06-25T11:12:38.027616Z",
-      "primary_item": {
-        "id": "da350d2a88ac7ccde0c4b6a19f65d46cc47bb6fc",
-        "title": "志愿填报“参谋”到位：高考出分三日，大模型已助 500 万考生“定心”",
-        "url": "https://www.aibase.com/news/29170",
-        "source": "AIbase",
-        "source_name": "AIbase"
+        "id": "4a2efb6362c98cb884ab793334b4373463f8fe3a",
+        "title": "免费和学生计划的型号选择发生变化 / Changes to model selection for Free and Student plans",
+        "url": "https://github.blog/changelog/2026-06-24-changes-to-model-selection-for-free-and-student-plans",
+        "source": "GitHub Changelog",
+        "source_name": "Official AI Updates"
       }
     }
   ]

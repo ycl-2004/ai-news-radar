@@ -2,10 +2,10 @@
   "schema_version": 1,
   "sources": {
     "socialdata": {
-      "last_run_at": "2026-06-24T21:08:09.596121Z",
+      "last_run_at": "2026-06-25T16:18:14.829646Z",
       "last_ok": true,
-      "last_item_count": 70,
-      "last_success_at": "2026-06-24T21:08:09.596121Z"
+      "last_item_count": 20,
+      "last_success_at": "2026-06-25T16:18:14.829646Z"
     },
     "tikhub": {
       "last_run_at": "2026-06-25T08:18:17.801339Z",
