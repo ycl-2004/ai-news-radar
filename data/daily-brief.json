@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T11:12:38.027616Z",
+  "generated_at": "2026-06-25T13:33:22.967075Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -57,15 +57,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8494,
-      "importance": 0.8494,
-      "importance_score": 0.8494,
+      "score": 0.8449,
+      "importance": 0.8449,
+      "importance_score": 0.8449,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.99,
-        "recency": 0.7578,
+        "recency": 0.7325,
         "story_heat": 0.25
       },
       "category": "official",
@@ -120,15 +120,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8296,
-      "importance": 0.8296,
-      "importance_score": 0.8296,
+      "score": 0.8243,
+      "importance": 0.8243,
+      "importance_score": 0.8243,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.8755,
+        "recency": 0.8463,
         "story_heat": 0.0
       },
       "category": "official",
@@ -145,125 +145,6 @@
         "url": "https://openai.com/index/how-agents-are-transforming-work",
         "source": "OpenAI News",
         "source_name": "Official AI Updates"
-      }
-    },
-    {
-      "story_id": "story_f2ff27bae731",
-      "title": "里德·霍夫曼称SpaceX\"不是一家人工智能公司\"，xAI则是\"彻底的灾难\"",
-      "url": "https://fortune.com/2026/06/24/reid-hoffman-spacex-musk-openai-anthropic-gen-z-mistake",
-      "primary_url": "https://fortune.com/2026/06/24/reid-hoffman-spacex-musk-openai-anthropic-gen-z-mistake",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "a3436b1a52934802da74396b25c65d0b21e11264",
-          "title": "里德·霍夫曼称SpaceX\"不是一家人工智能公司\"，xAI则是\"彻底的灾难\"",
-          "url": "https://fortune.com/2026/06/24/reid-hoffman-spacex-musk-openai-anthropic-gen-z-mistake",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-24T14:20:14.340000Z"
-        },
-        {
-          "id": "bb327fc88f3946c6a607d1d6e8779f962d0c5afe",
-          "title": "里德·霍夫曼 (Reid Hoffman) 表示 SpaceX“不是一家人工智能公司”，xAI“彻底失事” / Reid Hoffman says SpaceX 'not an AI company', xAI 'complete train wreck'",
-          "url": "https://news.ycombinator.com/item?id=48658647",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-24T15:15:44.531000Z"
-        },
-        {
-          "id": "fee375796c9518d14a9692c87603a2807f653f9d",
-          "title": "里德·霍夫曼称SpaceX“不是一家人工智能公司”，xAI则是“彻底的灾难”",
-          "url": "https://fortune.com/2026/06/24/reid-hoffman-spacex-musk-openai-anthropic-gen-z-mistake",
-          "source": "fortune.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-24T14:20:14.340000Z"
-        },
-        {
-          "id": "e25ece3fd57571090a9fc7797b3f6df385d4f975",
-          "title": "里德·霍夫曼称SpaceX“不是一家人工智能公司”，xAI则是“彻底的灾难” / Reid Hoffman says SpaceX 'not an AI company', xAI 'complete train wreck'",
-          "url": "https://fortune.com/2026/06/24/reid-hoffman-spacex-musk-openai-anthropic-gen-z-mistake",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-24T12:23:59Z"
-        }
-      ],
-      "source_count": 4,
-      "source_names": [
-        "Hacker News · 24h最热",
-        "Hacker News 热门（buzzing.cc 中文翻译）",
-        "fortune.com",
-        "hackernews"
-      ],
-      "items": [
-        {
-          "id": "a3436b1a52934802da74396b25c65d0b21e11264",
-          "title": "里德·霍夫曼称SpaceX\"不是一家人工智能公司\"，xAI则是\"彻底的灾难\"",
-          "url": "https://fortune.com/2026/06/24/reid-hoffman-spacex-musk-openai-anthropic-gen-z-mistake",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-24T14:20:14.340000Z"
-        },
-        {
-          "id": "bb327fc88f3946c6a607d1d6e8779f962d0c5afe",
-          "title": "里德·霍夫曼 (Reid Hoffman) 表示 SpaceX“不是一家人工智能公司”，xAI“彻底失事” / Reid Hoffman says SpaceX 'not an AI company', xAI 'complete train wreck'",
-          "url": "https://news.ycombinator.com/item?id=48658647",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-24T15:15:44.531000Z"
-        },
-        {
-          "id": "fee375796c9518d14a9692c87603a2807f653f9d",
-          "title": "里德·霍夫曼称SpaceX“不是一家人工智能公司”，xAI则是“彻底的灾难”",
-          "url": "https://fortune.com/2026/06/24/reid-hoffman-spacex-musk-openai-anthropic-gen-z-mistake",
-          "source": "fortune.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-24T14:20:14.340000Z"
-        },
-        {
-          "id": "e25ece3fd57571090a9fc7797b3f6df385d4f975",
-          "title": "里德·霍夫曼称SpaceX“不是一家人工智能公司”，xAI则是“彻底的灾难” / Reid Hoffman says SpaceX 'not an AI company', xAI 'complete train wreck'",
-          "url": "https://fortune.com/2026/06/24/reid-hoffman-spacex-musk-openai-anthropic-gen-z-mistake",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-24T12:23:59Z"
-        }
-      ],
-      "item_count": 4,
-      "duplicate_count": 4,
-      "score": 0.8138,
-      "importance": 0.8138,
-      "importance_score": 0.8138,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.78,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7398,
-        "story_heat": 0.75
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-24T12:23:59Z",
-      "latest_at": "2026-06-24T15:15:44.531000Z",
-      "primary_item": {
-        "id": "a3436b1a52934802da74396b25c65d0b21e11264",
-        "title": "里德·霍夫曼称SpaceX\"不是一家人工智能公司\"，xAI则是\"彻底的灾难\"",
-        "url": "https://fortune.com/2026/06/24/reid-hoffman-spacex-musk-openai-anthropic-gen-z-mistake",
-        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-        "source_name": "AI HOT"
       }
     },
     {
@@ -301,15 +182,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8094,
-      "importance": 0.8094,
-      "importance_score": 0.8094,
+      "score": 0.8048,
+      "importance": 0.8048,
+      "importance_score": 0.8048,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.7632,
+        "recency": 0.7378,
         "story_heat": 0.0
       },
       "category": "official",
@@ -326,149 +207,6 @@
         "url": "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash",
         "source": "Google DeepMind",
         "source_name": "Official AI Updates"
-      }
-    },
-    {
-      "story_id": "story_2579333ba986",
-      "title": "事件响应的自助凭证撤销 / Self-service credential revocation for incident response",
-      "url": "https://github.blog/changelog/2026-06-24-self-service-credential-revocation-for-incident-response",
-      "primary_url": "https://github.blog/changelog/2026-06-24-self-service-credential-revocation-for-incident-response",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "2c13f1cd981b50654539316dcb8446bf4a8247ac",
-          "title": "事件响应的自助凭证撤销 / Self-service credential revocation for incident response",
-          "url": "https://github.blog/changelog/2026-06-24-self-service-credential-revocation-for-incident-response",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-24T16:47:20Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "items": [
-        {
-          "id": "2c13f1cd981b50654539316dcb8446bf4a8247ac",
-          "title": "事件响应的自助凭证撤销 / Self-service credential revocation for incident response",
-          "url": "https://github.blog/changelog/2026-06-24-self-service-credential-revocation-for-incident-response",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-24T16:47:20Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.802,
-      "importance": 0.802,
-      "importance_score": 0.802,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.7664,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-24T16:47:20Z",
-      "latest_at": "2026-06-24T16:47:20Z",
-      "primary_item": {
-        "id": "2c13f1cd981b50654539316dcb8446bf4a8247ac",
-        "title": "事件响应的自助凭证撤销 / Self-service credential revocation for incident response",
-        "url": "https://github.blog/changelog/2026-06-24-self-service-credential-revocation-for-incident-response",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
-      }
-    },
-    {
-      "story_id": "story_aca744981808",
-      "title": "Meta员工警告AI内容审核部署过快",
-      "url": "https://the-decoder.com/meta-employees-warn-ai-moderation-rollout-is-too-fast",
-      "primary_url": "https://the-decoder.com/meta-employees-warn-ai-moderation-rollout-is-too-fast",
-      "source": "The Decoder：AI News（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "f5756c16f98363a5d9c312984eaae6ccb9b989f5",
-          "title": "Meta员工警告AI内容审核部署过快",
-          "url": "https://the-decoder.com/meta-employees-warn-ai-moderation-rollout-is-too-fast",
-          "source": "The Decoder：AI News（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-25T10:07:19Z"
-        },
-        {
-          "id": "164c783c2c761864c4d62ea7f43e66d24c926ad0",
-          "title": "Meta员工警告AI内容审核部署过快 / Meta employees warn AI moderation rollout is too fast",
-          "url": "https://the-decoder.com/meta-employees-warn-ai-moderation-rollout-is-too-fast",
-          "source": "The Decoder AI News",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-06-25T10:07:19Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "The Decoder AI News",
-        "The Decoder：AI News（RSS）"
-      ],
-      "items": [
-        {
-          "id": "f5756c16f98363a5d9c312984eaae6ccb9b989f5",
-          "title": "Meta员工警告AI内容审核部署过快",
-          "url": "https://the-decoder.com/meta-employees-warn-ai-moderation-rollout-is-too-fast",
-          "source": "The Decoder：AI News（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-25T10:07:19Z"
-        },
-        {
-          "id": "164c783c2c761864c4d62ea7f43e66d24c926ad0",
-          "title": "Meta员工警告AI内容审核部署过快 / Meta employees warn AI moderation rollout is too fast",
-          "url": "https://the-decoder.com/meta-employees-warn-ai-moderation-rollout-is-too-fast",
-          "source": "The Decoder AI News",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-06-25T10:07:19Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7928,
-      "importance": 0.7928,
-      "importance_score": 0.7928,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.73,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9844,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-25T10:07:19Z",
-      "latest_at": "2026-06-25T10:07:19Z",
-      "primary_item": {
-        "id": "f5756c16f98363a5d9c312984eaae6ccb9b989f5",
-        "title": "Meta员工警告AI内容审核部署过快",
-        "url": "https://the-decoder.com/meta-employees-warn-ai-moderation-rollout-is-too-fast",
-        "source": "The Decoder：AI News（RSS）",
-        "source_name": "AI HOT"
       }
     },
     {
@@ -544,15 +282,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.8068,
-      "importance": 0.8068,
-      "importance_score": 0.8068,
+      "score": 0.8014,
+      "importance": 0.8014,
+      "importance_score": 0.8014,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8899,
+        "recency": 0.8602,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -568,6 +306,149 @@
         "title": "Anthropic称阿里巴巴非法获取了Claude AI模型的功能",
         "url": "https://www.reuters.com/world/china/anthropic-says-alibaba-illicitly-extracted-claude-ai-model-capabilities-2026-06-24",
         "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_2579333ba986",
+      "title": "事件响应的自助凭证撤销 / Self-service credential revocation for incident response",
+      "url": "https://github.blog/changelog/2026-06-24-self-service-credential-revocation-for-incident-response",
+      "primary_url": "https://github.blog/changelog/2026-06-24-self-service-credential-revocation-for-incident-response",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "2c13f1cd981b50654539316dcb8446bf4a8247ac",
+          "title": "事件响应的自助凭证撤销 / Self-service credential revocation for incident response",
+          "url": "https://github.blog/changelog/2026-06-24-self-service-credential-revocation-for-incident-response",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-24T16:47:20Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "items": [
+        {
+          "id": "2c13f1cd981b50654539316dcb8446bf4a8247ac",
+          "title": "事件响应的自助凭证撤销 / Self-service credential revocation for incident response",
+          "url": "https://github.blog/changelog/2026-06-24-self-service-credential-revocation-for-incident-response",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-24T16:47:20Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7974,
+      "importance": 0.7974,
+      "importance_score": 0.7974,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.87,
+        "recency": 0.7409,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-24T16:47:20Z",
+      "latest_at": "2026-06-24T16:47:20Z",
+      "primary_item": {
+        "id": "2c13f1cd981b50654539316dcb8446bf4a8247ac",
+        "title": "事件响应的自助凭证撤销 / Self-service credential revocation for incident response",
+        "url": "https://github.blog/changelog/2026-06-24-self-service-credential-revocation-for-incident-response",
+        "source": "GitHub Changelog",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_aca744981808",
+      "title": "Meta员工警告AI内容审核部署过快",
+      "url": "https://the-decoder.com/meta-employees-warn-ai-moderation-rollout-is-too-fast",
+      "primary_url": "https://the-decoder.com/meta-employees-warn-ai-moderation-rollout-is-too-fast",
+      "source": "The Decoder：AI News（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "f5756c16f98363a5d9c312984eaae6ccb9b989f5",
+          "title": "Meta员工警告AI内容审核部署过快",
+          "url": "https://the-decoder.com/meta-employees-warn-ai-moderation-rollout-is-too-fast",
+          "source": "The Decoder：AI News（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-25T10:07:19Z"
+        },
+        {
+          "id": "164c783c2c761864c4d62ea7f43e66d24c926ad0",
+          "title": "Meta员工警告AI内容审核部署过快 / Meta employees warn AI moderation rollout is too fast",
+          "url": "https://the-decoder.com/meta-employees-warn-ai-moderation-rollout-is-too-fast",
+          "source": "The Decoder AI News",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-06-25T10:07:19Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "The Decoder AI News",
+        "The Decoder：AI News（RSS）"
+      ],
+      "items": [
+        {
+          "id": "f5756c16f98363a5d9c312984eaae6ccb9b989f5",
+          "title": "Meta员工警告AI内容审核部署过快",
+          "url": "https://the-decoder.com/meta-employees-warn-ai-moderation-rollout-is-too-fast",
+          "source": "The Decoder：AI News（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-25T10:07:19Z"
+        },
+        {
+          "id": "164c783c2c761864c4d62ea7f43e66d24c926ad0",
+          "title": "Meta员工警告AI内容审核部署过快 / Meta employees warn AI moderation rollout is too fast",
+          "url": "https://the-decoder.com/meta-employees-warn-ai-moderation-rollout-is-too-fast",
+          "source": "The Decoder AI News",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-06-25T10:07:19Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7869,
+      "importance": 0.7869,
+      "importance_score": 0.7869,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.73,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9516,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-25T10:07:19Z",
+      "latest_at": "2026-06-25T10:07:19Z",
+      "primary_item": {
+        "id": "f5756c16f98363a5d9c312984eaae6ccb9b989f5",
+        "title": "Meta员工警告AI内容审核部署过快",
+        "url": "https://the-decoder.com/meta-employees-warn-ai-moderation-rollout-is-too-fast",
+        "source": "The Decoder：AI News（RSS）",
         "source_name": "AI HOT"
       }
     },
@@ -625,15 +506,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7764,
-      "importance": 0.7764,
-      "importance_score": 0.7764,
+      "score": 0.771,
+      "importance": 0.771,
+      "importance_score": 0.771,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.91,
+        "recency": 0.8797,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -687,15 +568,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8013,
-      "importance": 0.8013,
-      "importance_score": 0.8013,
+      "score": 0.7968,
+      "importance": 0.7968,
+      "importance_score": 0.7968,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.763,
+        "recency": 0.7376,
         "story_heat": 0.0
       },
       "category": "official",
@@ -768,15 +649,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7552,
-      "importance": 0.7552,
-      "importance_score": 0.7552,
+      "score": 0.7503,
+      "importance": 0.7503,
+      "importance_score": 0.7503,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8257,
+        "recency": 0.7982,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -792,288 +673,6 @@
         "title": "AI被认为会取代工程岗位，但新数据显示工程是2025年最具韧性的岗位",
         "url": "https://techcrunch.com/2026/06/24/ai-was-supposed-to-kill-engineering-jobs-but-new-data-suggests-theyre-the-most-resilient",
         "source": "TechCrunch：AI（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_4ad3f5f9d177",
-      "title": "GPT-5.5 Instant 新版本，对话更有趣",
-      "url": "https://x.com/OpenAI/status/2069843083701915755",
-      "primary_url": "https://x.com/OpenAI/status/2069843083701915755",
-      "source": "X：OpenAI (@OpenAI)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "5973441026ba54a0e769ff5a05a4ee81f8df33fb",
-          "title": "GPT-5.5 Instant 新版本，对话更有趣",
-          "url": "https://x.com/OpenAI/status/2069843083701915755",
-          "source": "X：OpenAI (@OpenAI)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-24T18:00:21Z"
-        },
-        {
-          "id": "009aefb67416e15e0e63c7a06cf1ba4e561cddce",
-          "title": "GPT-5.5 Instant 新版本，对话更有趣 / We have a new version of GPT-5.5 Instant for you, and it's much more fun to talk to. Our most-used model is now better at understanding the intent behind a question and adapting its response accordingly. It also handles…",
-          "url": "https://x.com/OpenAI/status/2069843083701915755",
-          "source": "@OpenAI",
-          "source_name": "SocialData X",
-          "site_id": "socialdata_x",
-          "published_at": "2026-06-24T18:00:21Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "@OpenAI",
-        "X：OpenAI (@OpenAI)"
-      ],
-      "items": [
-        {
-          "id": "5973441026ba54a0e769ff5a05a4ee81f8df33fb",
-          "title": "GPT-5.5 Instant 新版本，对话更有趣",
-          "url": "https://x.com/OpenAI/status/2069843083701915755",
-          "source": "X：OpenAI (@OpenAI)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-24T18:00:21Z"
-        },
-        {
-          "id": "009aefb67416e15e0e63c7a06cf1ba4e561cddce",
-          "title": "GPT-5.5 Instant 新版本，对话更有趣 / We have a new version of GPT-5.5 Instant for you, and it's much more fun to talk to. Our most-used model is now better at understanding the intent behind a question and adapting its response accordingly. It also handles…",
-          "url": "https://x.com/OpenAI/status/2069843083701915755",
-          "source": "@OpenAI",
-          "source_name": "SocialData X",
-          "site_id": "socialdata_x",
-          "published_at": "2026-06-24T18:00:21Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.738,
-      "importance": 0.738,
-      "importance_score": 0.738,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.67,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.78,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-24T18:00:21Z",
-      "latest_at": "2026-06-24T18:00:21Z",
-      "primary_item": {
-        "id": "5973441026ba54a0e769ff5a05a4ee81f8df33fb",
-        "title": "GPT-5.5 Instant 新版本，对话更有趣",
-        "url": "https://x.com/OpenAI/status/2069843083701915755",
-        "source": "X：OpenAI (@OpenAI)",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_704fc70379f8",
-      "title": "​前印度信息技术巨头新创企业，欲用 AI 颠覆 IT 服务行业",
-      "url": "https://www.aibase.com/news/29167",
-      "primary_url": "https://www.aibase.com/news/29167",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "4789bd39bcbe84cffdb3fc2d595e79d5ce42450f",
-          "title": "​前印度信息技术巨头新创企业，欲用 AI 颠覆 IT 服务行业",
-          "url": "https://www.aibase.com/news/29167",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-25T11:12:38.027616Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "4789bd39bcbe84cffdb3fc2d595e79d5ce42450f",
-          "title": "​前印度信息技术巨头新创企业，欲用 AI 颠覆 IT 服务行业",
-          "url": "https://www.aibase.com/news/29167",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-25T11:12:38.027616Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 1.0,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-25T11:12:38.027616Z",
-      "latest_at": "2026-06-25T11:12:38.027616Z",
-      "primary_item": {
-        "id": "4789bd39bcbe84cffdb3fc2d595e79d5ce42450f",
-        "title": "​前印度信息技术巨头新创企业，欲用 AI 颠覆 IT 服务行业",
-        "url": "https://www.aibase.com/news/29167",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      }
-    },
-    {
-      "story_id": "story_cb8cf31b91ad",
-      "title": "Figma在Config 2026押注人类判断，画布AI能力却来自第三方",
-      "url": "https://the-decoder.com/figma-bets-on-human-judgment-at-config-2026-while-the-ai-powering-its-canvas-belongs-to-someone-else",
-      "primary_url": "https://the-decoder.com/figma-bets-on-human-judgment-at-config-2026-while-the-ai-powering-its-canvas-belongs-to-someone-else",
-      "source": "The Decoder：AI News（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "e803b1e857c45c8f6da733bc8a6fc37c64603b39",
-          "title": "Figma在Config 2026押注人类判断，画布AI能力却来自第三方",
-          "url": "https://the-decoder.com/figma-bets-on-human-judgment-at-config-2026-while-the-ai-powering-its-canvas-belongs-to-someone-else",
-          "source": "The Decoder：AI News（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-24T16:49:01Z"
-        },
-        {
-          "id": "cb7a253c9daf7aed75b878bb6bfd0ed852419c10",
-          "title": "Figma在Config 2026押注人类判断，画布AI能力却来自第三方 / Figma bets on human judgment at Config 2026 while the AI powering its canvas belongs to someone else",
-          "url": "https://the-decoder.com/figma-bets-on-human-judgment-at-config-2026-while-the-ai-powering-its-canvas-belongs-to-someone-else",
-          "source": "The Decoder AI News",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-06-24T16:49:01Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "The Decoder AI News",
-        "The Decoder：AI News（RSS）"
-      ],
-      "items": [
-        {
-          "id": "e803b1e857c45c8f6da733bc8a6fc37c64603b39",
-          "title": "Figma在Config 2026押注人类判断，画布AI能力却来自第三方",
-          "url": "https://the-decoder.com/figma-bets-on-human-judgment-at-config-2026-while-the-ai-powering-its-canvas-belongs-to-someone-else",
-          "source": "The Decoder：AI News（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-24T16:49:01Z"
-        },
-        {
-          "id": "cb7a253c9daf7aed75b878bb6bfd0ed852419c10",
-          "title": "Figma在Config 2026押注人类判断，画布AI能力却来自第三方 / Figma bets on human judgment at Config 2026 while the AI powering its canvas belongs to someone else",
-          "url": "https://the-decoder.com/figma-bets-on-human-judgment-at-config-2026-while-the-ai-powering-its-canvas-belongs-to-someone-else",
-          "source": "The Decoder AI News",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-06-24T16:49:01Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7566,
-      "importance": 0.7566,
-      "importance_score": 0.7566,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.74,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7667,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-24T16:49:01Z",
-      "latest_at": "2026-06-24T16:49:01Z",
-      "primary_item": {
-        "id": "e803b1e857c45c8f6da733bc8a6fc37c64603b39",
-        "title": "Figma在Config 2026押注人类判断，画布AI能力却来自第三方",
-        "url": "https://the-decoder.com/figma-bets-on-human-judgment-at-config-2026-while-the-ai-powering-its-canvas-belongs-to-someone-else",
-        "source": "The Decoder：AI News（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_b28bda072fd0",
-      "title": "字节跳动技术副总裁洪定坤：AI Coding 的实践与探索",
-      "url": "https://mp.weixin.qq.com/s/mdmaAyUIvxE8WT_GEbF2wQ",
-      "primary_url": "https://mp.weixin.qq.com/s/mdmaAyUIvxE8WT_GEbF2wQ",
-      "source": "公众号：火山引擎",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "a53ba8f21e366dc6a4529fbbcdb0af5579cd2248",
-          "title": "字节跳动技术副总裁洪定坤：AI Coding 的实践与探索",
-          "url": "https://mp.weixin.qq.com/s/mdmaAyUIvxE8WT_GEbF2wQ",
-          "source": "公众号：火山引擎",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-24T14:02:42Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "公众号：火山引擎"
-      ],
-      "items": [
-        {
-          "id": "a53ba8f21e366dc6a4529fbbcdb0af5579cd2248",
-          "title": "字节跳动技术副总裁洪定坤：AI Coding 的实践与探索",
-          "url": "https://mp.weixin.qq.com/s/mdmaAyUIvxE8WT_GEbF2wQ",
-          "source": "公众号：火山引擎",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-24T14:02:42Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7262,
-      "importance": 0.7262,
-      "importance_score": 0.7262,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.74,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7366,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-24T14:02:42Z",
-      "latest_at": "2026-06-24T14:02:42Z",
-      "primary_item": {
-        "id": "a53ba8f21e366dc6a4529fbbcdb0af5579cd2248",
-        "title": "字节跳动技术副总裁洪定坤：AI Coding 的实践与探索",
-        "url": "https://mp.weixin.qq.com/s/mdmaAyUIvxE8WT_GEbF2wQ",
-        "source": "公众号：火山引擎",
         "source_name": "AI HOT"
       }
     },
@@ -1150,15 +749,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.7818,
-      "importance": 0.7818,
-      "importance_score": 0.7818,
+      "score": 0.7769,
+      "importance": 0.7769,
+      "importance_score": 0.7769,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.71,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8176,
+        "recency": 0.7904,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1174,6 +773,288 @@
         "title": "Gemini 3.5 Flash 中的计算机使用",
         "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash",
         "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_4ad3f5f9d177",
+      "title": "GPT-5.5 Instant 新版本，对话更有趣",
+      "url": "https://x.com/OpenAI/status/2069843083701915755",
+      "primary_url": "https://x.com/OpenAI/status/2069843083701915755",
+      "source": "X：OpenAI (@OpenAI)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "5973441026ba54a0e769ff5a05a4ee81f8df33fb",
+          "title": "GPT-5.5 Instant 新版本，对话更有趣",
+          "url": "https://x.com/OpenAI/status/2069843083701915755",
+          "source": "X：OpenAI (@OpenAI)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-24T18:00:21Z"
+        },
+        {
+          "id": "009aefb67416e15e0e63c7a06cf1ba4e561cddce",
+          "title": "GPT-5.5 Instant 新版本，对话更有趣 / We have a new version of GPT-5.5 Instant for you, and it's much more fun to talk to. Our most-used model is now better at understanding the intent behind a question and adapting its response accordingly. It also handles…",
+          "url": "https://x.com/OpenAI/status/2069843083701915755",
+          "source": "@OpenAI",
+          "source_name": "SocialData X",
+          "site_id": "socialdata_x",
+          "published_at": "2026-06-24T18:00:21Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "@OpenAI",
+        "X：OpenAI (@OpenAI)"
+      ],
+      "items": [
+        {
+          "id": "5973441026ba54a0e769ff5a05a4ee81f8df33fb",
+          "title": "GPT-5.5 Instant 新版本，对话更有趣",
+          "url": "https://x.com/OpenAI/status/2069843083701915755",
+          "source": "X：OpenAI (@OpenAI)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-24T18:00:21Z"
+        },
+        {
+          "id": "009aefb67416e15e0e63c7a06cf1ba4e561cddce",
+          "title": "GPT-5.5 Instant 新版本，对话更有趣 / We have a new version of GPT-5.5 Instant for you, and it's much more fun to talk to. Our most-used model is now better at understanding the intent behind a question and adapting its response accordingly. It also handles…",
+          "url": "https://x.com/OpenAI/status/2069843083701915755",
+          "source": "@OpenAI",
+          "source_name": "SocialData X",
+          "site_id": "socialdata_x",
+          "published_at": "2026-06-24T18:00:21Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7333,
+      "importance": 0.7333,
+      "importance_score": 0.7333,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.67,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.754,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-06-24T18:00:21Z",
+      "latest_at": "2026-06-24T18:00:21Z",
+      "primary_item": {
+        "id": "5973441026ba54a0e769ff5a05a4ee81f8df33fb",
+        "title": "GPT-5.5 Instant 新版本，对话更有趣",
+        "url": "https://x.com/OpenAI/status/2069843083701915755",
+        "source": "X：OpenAI (@OpenAI)",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_704fc70379f8",
+      "title": "​前印度信息技术巨头新创企业，欲用 AI 颠覆 IT 服务行业",
+      "url": "https://www.aibase.com/news/29167",
+      "primary_url": "https://www.aibase.com/news/29167",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "4789bd39bcbe84cffdb3fc2d595e79d5ce42450f",
+          "title": "​前印度信息技术巨头新创企业，欲用 AI 颠覆 IT 服务行业",
+          "url": "https://www.aibase.com/news/29167",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-25T11:12:38.027616Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "4789bd39bcbe84cffdb3fc2d595e79d5ce42450f",
+          "title": "​前印度信息技术巨头新创企业，欲用 AI 颠覆 IT 服务行业",
+          "url": "https://www.aibase.com/news/29167",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-25T11:12:38.027616Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7616,
+      "importance": 0.7616,
+      "importance_score": 0.7616,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9667,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-25T11:12:38.027616Z",
+      "latest_at": "2026-06-25T11:12:38.027616Z",
+      "primary_item": {
+        "id": "4789bd39bcbe84cffdb3fc2d595e79d5ce42450f",
+        "title": "​前印度信息技术巨头新创企业，欲用 AI 颠覆 IT 服务行业",
+        "url": "https://www.aibase.com/news/29167",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_cb8cf31b91ad",
+      "title": "Figma在Config 2026押注人类判断，画布AI能力却来自第三方",
+      "url": "https://the-decoder.com/figma-bets-on-human-judgment-at-config-2026-while-the-ai-powering-its-canvas-belongs-to-someone-else",
+      "primary_url": "https://the-decoder.com/figma-bets-on-human-judgment-at-config-2026-while-the-ai-powering-its-canvas-belongs-to-someone-else",
+      "source": "The Decoder：AI News（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "e803b1e857c45c8f6da733bc8a6fc37c64603b39",
+          "title": "Figma在Config 2026押注人类判断，画布AI能力却来自第三方",
+          "url": "https://the-decoder.com/figma-bets-on-human-judgment-at-config-2026-while-the-ai-powering-its-canvas-belongs-to-someone-else",
+          "source": "The Decoder：AI News（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-24T16:49:01Z"
+        },
+        {
+          "id": "cb7a253c9daf7aed75b878bb6bfd0ed852419c10",
+          "title": "Figma在Config 2026押注人类判断，画布AI能力却来自第三方 / Figma bets on human judgment at Config 2026 while the AI powering its canvas belongs to someone else",
+          "url": "https://the-decoder.com/figma-bets-on-human-judgment-at-config-2026-while-the-ai-powering-its-canvas-belongs-to-someone-else",
+          "source": "The Decoder AI News",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-06-24T16:49:01Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "The Decoder AI News",
+        "The Decoder：AI News（RSS）"
+      ],
+      "items": [
+        {
+          "id": "e803b1e857c45c8f6da733bc8a6fc37c64603b39",
+          "title": "Figma在Config 2026押注人类判断，画布AI能力却来自第三方",
+          "url": "https://the-decoder.com/figma-bets-on-human-judgment-at-config-2026-while-the-ai-powering-its-canvas-belongs-to-someone-else",
+          "source": "The Decoder：AI News（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-24T16:49:01Z"
+        },
+        {
+          "id": "cb7a253c9daf7aed75b878bb6bfd0ed852419c10",
+          "title": "Figma在Config 2026押注人类判断，画布AI能力却来自第三方 / Figma bets on human judgment at Config 2026 while the AI powering its canvas belongs to someone else",
+          "url": "https://the-decoder.com/figma-bets-on-human-judgment-at-config-2026-while-the-ai-powering-its-canvas-belongs-to-someone-else",
+          "source": "The Decoder AI News",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-06-24T16:49:01Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.752,
+      "importance": 0.752,
+      "importance_score": 0.752,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.74,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7412,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-24T16:49:01Z",
+      "latest_at": "2026-06-24T16:49:01Z",
+      "primary_item": {
+        "id": "e803b1e857c45c8f6da733bc8a6fc37c64603b39",
+        "title": "Figma在Config 2026押注人类判断，画布AI能力却来自第三方",
+        "url": "https://the-decoder.com/figma-bets-on-human-judgment-at-config-2026-while-the-ai-powering-its-canvas-belongs-to-someone-else",
+        "source": "The Decoder：AI News（RSS）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_b28bda072fd0",
+      "title": "字节跳动技术副总裁洪定坤：AI Coding 的实践与探索",
+      "url": "https://mp.weixin.qq.com/s/mdmaAyUIvxE8WT_GEbF2wQ",
+      "primary_url": "https://mp.weixin.qq.com/s/mdmaAyUIvxE8WT_GEbF2wQ",
+      "source": "公众号：火山引擎",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "a53ba8f21e366dc6a4529fbbcdb0af5579cd2248",
+          "title": "字节跳动技术副总裁洪定坤：AI Coding 的实践与探索",
+          "url": "https://mp.weixin.qq.com/s/mdmaAyUIvxE8WT_GEbF2wQ",
+          "source": "公众号：火山引擎",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-24T14:02:42Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "公众号：火山引擎"
+      ],
+      "items": [
+        {
+          "id": "a53ba8f21e366dc6a4529fbbcdb0af5579cd2248",
+          "title": "字节跳动技术副总裁洪定坤：AI Coding 的实践与探索",
+          "url": "https://mp.weixin.qq.com/s/mdmaAyUIvxE8WT_GEbF2wQ",
+          "source": "公众号：火山引擎",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-24T14:02:42Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7218,
+      "importance": 0.7218,
+      "importance_score": 0.7218,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.74,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7121,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-06-24T14:02:42Z",
+      "latest_at": "2026-06-24T14:02:42Z",
+      "primary_item": {
+        "id": "a53ba8f21e366dc6a4529fbbcdb0af5579cd2248",
+        "title": "字节跳动技术副总裁洪定坤：AI Coding 的实践与探索",
+        "url": "https://mp.weixin.qq.com/s/mdmaAyUIvxE8WT_GEbF2wQ",
+        "source": "公众号：火山引擎",
         "source_name": "AI HOT"
       }
     },
@@ -1212,15 +1093,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
+      "score": 0.7616,
+      "importance": 0.7616,
+      "importance_score": 0.7616,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.9667,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1236,6 +1117,87 @@
         "url": "https://www.aibase.com/news/29171",
         "source": "AIbase",
         "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_f2ff27bae731",
+      "title": "里德·霍夫曼称SpaceX\"不是一家人工智能公司\"，xAI则是\"彻底的灾难\"",
+      "url": "https://fortune.com/2026/06/24/reid-hoffman-spacex-musk-openai-anthropic-gen-z-mistake",
+      "primary_url": "https://fortune.com/2026/06/24/reid-hoffman-spacex-musk-openai-anthropic-gen-z-mistake",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "a3436b1a52934802da74396b25c65d0b21e11264",
+          "title": "里德·霍夫曼称SpaceX\"不是一家人工智能公司\"，xAI则是\"彻底的灾难\"",
+          "url": "https://fortune.com/2026/06/24/reid-hoffman-spacex-musk-openai-anthropic-gen-z-mistake",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-24T14:20:14.340000Z"
+        },
+        {
+          "id": "fee375796c9518d14a9692c87603a2807f653f9d",
+          "title": "里德·霍夫曼称SpaceX“不是一家人工智能公司”，xAI则是“彻底的灾难”",
+          "url": "https://fortune.com/2026/06/24/reid-hoffman-spacex-musk-openai-anthropic-gen-z-mistake",
+          "source": "fortune.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-24T14:20:14.340000Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News 热门（buzzing.cc 中文翻译）",
+        "fortune.com"
+      ],
+      "items": [
+        {
+          "id": "a3436b1a52934802da74396b25c65d0b21e11264",
+          "title": "里德·霍夫曼称SpaceX\"不是一家人工智能公司\"，xAI则是\"彻底的灾难\"",
+          "url": "https://fortune.com/2026/06/24/reid-hoffman-spacex-musk-openai-anthropic-gen-z-mistake",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-24T14:20:14.340000Z"
+        },
+        {
+          "id": "fee375796c9518d14a9692c87603a2807f653f9d",
+          "title": "里德·霍夫曼称SpaceX“不是一家人工智能公司”，xAI则是“彻底的灾难”",
+          "url": "https://fortune.com/2026/06/24/reid-hoffman-spacex-musk-openai-anthropic-gen-z-mistake",
+          "source": "fortune.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-24T14:20:14.340000Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7593,
+      "importance": 0.7593,
+      "importance_score": 0.7593,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.78,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7151,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-24T14:20:14.340000Z",
+      "latest_at": "2026-06-24T14:20:14.340000Z",
+      "primary_item": {
+        "id": "a3436b1a52934802da74396b25c65d0b21e11264",
+        "title": "里德·霍夫曼称SpaceX\"不是一家人工智能公司\"，xAI则是\"彻底的灾难\"",
+        "url": "https://fortune.com/2026/06/24/reid-hoffman-spacex-musk-openai-anthropic-gen-z-mistake",
+        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "source_name": "AI HOT"
       }
     },
     {
@@ -1273,15 +1235,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
+      "score": 0.7616,
+      "importance": 0.7616,
+      "importance_score": 0.7616,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.9667,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1425,15 +1387,15 @@
       ],
       "item_count": 6,
       "duplicate_count": 6,
-      "score": 0.6692,
-      "importance": 0.6692,
-      "importance_score": 0.6692,
+      "score": 0.6632,
+      "importance": 0.6632,
+      "importance_score": 0.6632,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.54,
         "ai_relevance": 0.65,
-        "recency": 1.0,
+        "recency": 0.9667,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -1485,15 +1447,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
+      "score": 0.7616,
+      "importance": 0.7616,
+      "importance_score": 0.7616,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.9667,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1546,15 +1508,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
+      "score": 0.7616,
+      "importance": 0.7616,
+      "importance_score": 0.7616,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.9667,
         "story_heat": 0.0
       },
       "category": "industry",
