@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-06-25T18:30:14.882796Z",
+  "generated_at": "2026-06-25T20:32:53.241358Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
     {
-      "story_id": "story_01de969be41c",
-      "title": "现在可以并行运行操作步骤 / Actions steps can now be run in parallel",
-      "url": "https://github.blog/changelog/2026-06-25-actions-steps-can-now-be-run-in-parallel",
-      "primary_url": "https://github.blog/changelog/2026-06-25-actions-steps-can-now-be-run-in-parallel",
+      "story_id": "story_c6eeafaa2096",
+      "title": "存储库问题的保存视图 - 项目中的公共预览和可调整行高 / Saved views for repository issues – Public Preview and adjustable row heights in projects",
+      "url": "https://github.blog/changelog/2026-06-25-saved-views-for-repository-issues-and-adjustable-row-heights-in-projects",
+      "primary_url": "https://github.blog/changelog/2026-06-25-saved-views-for-repository-issues-and-adjustable-row-heights-in-projects",
       "source": "GitHub Changelog",
       "source_name": "Official AI Updates",
       "sources": [
         {
-          "id": "3d22e39f449143dec262b60950247b36c74429c3",
-          "title": "现在可以并行运行操作步骤 / Actions steps can now be run in parallel",
-          "url": "https://github.blog/changelog/2026-06-25-actions-steps-can-now-be-run-in-parallel",
+          "id": "72f6ceb3f689a36757f63b413500110865d86e1a",
+          "title": "存储库问题的保存视图 - 项目中的公共预览和可调整行高 / Saved views for repository issues – Public Preview and adjustable row heights in projects",
+          "url": "https://github.blog/changelog/2026-06-25-saved-views-for-repository-issues-and-adjustable-row-heights-in-projects",
           "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-06-25T16:46:09Z"
+          "published_at": "2026-06-25T18:29:01Z"
         }
       ],
       "source_count": 1,
@@ -27,26 +27,26 @@
       ],
       "items": [
         {
-          "id": "3d22e39f449143dec262b60950247b36c74429c3",
-          "title": "现在可以并行运行操作步骤 / Actions steps can now be run in parallel",
-          "url": "https://github.blog/changelog/2026-06-25-actions-steps-can-now-be-run-in-parallel",
+          "id": "72f6ceb3f689a36757f63b413500110865d86e1a",
+          "title": "存储库问题的保存视图 - 项目中的公共预览和可调整行高 / Saved views for repository issues – Public Preview and adjustable row heights in projects",
+          "url": "https://github.blog/changelog/2026-06-25-saved-views-for-repository-issues-and-adjustable-row-heights-in-projects",
           "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-06-25T16:46:09Z"
+          "published_at": "2026-06-25T18:29:01Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8395,
-      "importance": 0.8395,
-      "importance_score": 0.8395,
+      "score": 0.8387,
+      "importance": 0.8387,
+      "importance_score": 0.8387,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.9753,
+        "recency": 0.9706,
         "story_heat": 0.0
       },
       "category": "official",
@@ -55,12 +55,12 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-06-25T16:46:09Z",
-      "latest_at": "2026-06-25T16:46:09Z",
+      "earliest_at": "2026-06-25T18:29:01Z",
+      "latest_at": "2026-06-25T18:29:01Z",
       "primary_item": {
-        "id": "3d22e39f449143dec262b60950247b36c74429c3",
-        "title": "现在可以并行运行操作步骤 / Actions steps can now be run in parallel",
-        "url": "https://github.blog/changelog/2026-06-25-actions-steps-can-now-be-run-in-parallel",
+        "id": "72f6ceb3f689a36757f63b413500110865d86e1a",
+        "title": "存储库问题的保存视图 - 项目中的公共预览和可调整行高 / Saved views for repository issues – Public Preview and adjustable row heights in projects",
+        "url": "https://github.blog/changelog/2026-06-25-saved-views-for-repository-issues-and-adjustable-row-heights-in-projects",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
       }
@@ -100,15 +100,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8376,
-      "importance": 0.8376,
-      "importance_score": 0.8376,
+      "score": 0.8326,
+      "importance": 0.8326,
+      "importance_score": 0.8326,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.9645,
+        "recency": 0.9364,
         "story_heat": 0.0
       },
       "category": "official",
@@ -125,6 +125,106 @@
         "url": "https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026",
         "source": "Google AI Blog",
         "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_97db0890a77a",
+      "title": "Anthropic 称阿里巴巴必须为最大规模 Claude 克隆攻击受罚",
+      "url": "https://arstechnica.com/tech-policy/2026/06/anthropic-claims-alibaba-defied-trump-to-attack-claude-and-steal-capabilities",
+      "primary_url": "https://arstechnica.com/tech-policy/2026/06/anthropic-claims-alibaba-defied-trump-to-attack-claude-and-steal-capabilities",
+      "source": "Ars Technica：AI（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "c532b203287caef5ac570ef294a3ba9b6bfeb06e",
+          "title": "Anthropic 称阿里巴巴必须为最大规模 Claude 克隆攻击受罚",
+          "url": "https://arstechnica.com/tech-policy/2026/06/anthropic-claims-alibaba-defied-trump-to-attack-claude-and-steal-capabilities",
+          "source": "Ars Technica：AI（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-25T18:01:48Z"
+        },
+        {
+          "id": "369cfec96ad8bfc7db787884d8c291507fbdb200",
+          "title": "Anthropic表示，阿里巴巴必须为这起最大规模的Claude克隆攻击事件受到惩罚",
+          "url": "https://arstechnica.com/tech-policy/2026/06/anthropic-claims-alibaba-defied-trump-to-attack-claude-and-steal-capabilities",
+          "source": "arstechnica.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-25T20:11:57.386000Z"
+        },
+        {
+          "id": "ec9c39bc4323f40dc028ad5997ab40a0bd3b27ff",
+          "title": "Anthropic 称阿里巴巴必须为最大规模 Claude 克隆攻击受罚 / Anthropic says Alibaba must be punished for largest Claude cloning attack",
+          "url": "https://arstechnica.com/tech-policy/2026/06/anthropic-claims-alibaba-defied-trump-to-attack-claude-and-steal-capabilities",
+          "source": "Ars Technica",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-25T18:01:48Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "Ars Technica",
+        "Ars Technica：AI（RSS）",
+        "arstechnica.com"
+      ],
+      "items": [
+        {
+          "id": "c532b203287caef5ac570ef294a3ba9b6bfeb06e",
+          "title": "Anthropic 称阿里巴巴必须为最大规模 Claude 克隆攻击受罚",
+          "url": "https://arstechnica.com/tech-policy/2026/06/anthropic-claims-alibaba-defied-trump-to-attack-claude-and-steal-capabilities",
+          "source": "Ars Technica：AI（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-25T18:01:48Z"
+        },
+        {
+          "id": "369cfec96ad8bfc7db787884d8c291507fbdb200",
+          "title": "Anthropic表示，阿里巴巴必须为这起最大规模的Claude克隆攻击事件受到惩罚",
+          "url": "https://arstechnica.com/tech-policy/2026/06/anthropic-claims-alibaba-defied-trump-to-attack-claude-and-steal-capabilities",
+          "source": "arstechnica.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-25T20:11:57.386000Z"
+        },
+        {
+          "id": "ec9c39bc4323f40dc028ad5997ab40a0bd3b27ff",
+          "title": "Anthropic 称阿里巴巴必须为最大规模 Claude 克隆攻击受罚 / Anthropic says Alibaba must be punished for largest Claude cloning attack",
+          "url": "https://arstechnica.com/tech-policy/2026/06/anthropic-claims-alibaba-defied-trump-to-attack-claude-and-steal-capabilities",
+          "source": "Ars Technica",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-25T18:01:48Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.8142,
+      "importance": 0.8142,
+      "importance_score": 0.8142,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.73,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9643,
+        "story_heat": 0.5
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-25T18:01:48Z",
+      "latest_at": "2026-06-25T20:11:57.386000Z",
+      "primary_item": {
+        "id": "c532b203287caef5ac570ef294a3ba9b6bfeb06e",
+        "title": "Anthropic 称阿里巴巴必须为最大规模 Claude 克隆攻击受罚",
+        "url": "https://arstechnica.com/tech-policy/2026/06/anthropic-claims-alibaba-defied-trump-to-attack-claude-and-steal-capabilities",
+        "source": "Ars Technica：AI（RSS）",
+        "source_name": "AI HOT"
       }
     },
     {
@@ -162,15 +262,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8138,
-      "importance": 0.8138,
-      "importance_score": 0.8138,
+      "score": 0.8097,
+      "importance": 0.8097,
+      "importance_score": 0.8097,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.7879,
+        "recency": 0.765,
         "story_heat": 0.0
       },
       "category": "official",
@@ -190,21 +290,21 @@
       }
     },
     {
-      "story_id": "story_95af1288ca5c",
-      "title": "npm 为高影响力帐户添加了预防性帐户保护 / npm adds preventive account protection for high-impact accounts",
-      "url": "https://github.blog/changelog/2026-06-25-npm-adds-preventive-account-protection-for-high-impact-accounts",
-      "primary_url": "https://github.blog/changelog/2026-06-25-npm-adds-preventive-account-protection-for-high-impact-accounts",
+      "story_id": "story_43bc8b14a9a3",
+      "title": "更好地控制 GitHub 托管的运行器 / More control over your GitHub-hosted runners",
+      "url": "https://github.blog/changelog/2026-06-25-more-control-over-your-github-hosted-runners",
+      "primary_url": "https://github.blog/changelog/2026-06-25-more-control-over-your-github-hosted-runners",
       "source": "GitHub Changelog",
       "source_name": "Official AI Updates",
       "sources": [
         {
-          "id": "655a83565bd0c4044b82a9a388e64fc66c2a39d8",
-          "title": "npm 为高影响力帐户添加了预防性帐户保护 / npm adds preventive account protection for high-impact accounts",
-          "url": "https://github.blog/changelog/2026-06-25-npm-adds-preventive-account-protection-for-high-impact-accounts",
+          "id": "0e61ac1ebaa0afa1f5ff9d67844c5253e8f99072",
+          "title": "更好地控制 GitHub 托管的运行器 / More control over your GitHub-hosted runners",
+          "url": "https://github.blog/changelog/2026-06-25-more-control-over-your-github-hosted-runners",
           "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-06-25T16:02:09Z"
+          "published_at": "2026-06-25T18:16:46Z"
         }
       ],
       "source_count": 1,
@@ -213,26 +313,26 @@
       ],
       "items": [
         {
-          "id": "655a83565bd0c4044b82a9a388e64fc66c2a39d8",
-          "title": "npm 为高影响力帐户添加了预防性帐户保护 / npm adds preventive account protection for high-impact accounts",
-          "url": "https://github.blog/changelog/2026-06-25-npm-adds-preventive-account-protection-for-high-impact-accounts",
+          "id": "0e61ac1ebaa0afa1f5ff9d67844c5253e8f99072",
+          "title": "更好地控制 GitHub 托管的运行器 / More control over your GitHub-hosted runners",
+          "url": "https://github.blog/changelog/2026-06-25-more-control-over-your-github-hosted-runners",
           "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-06-25T16:02:09Z"
+          "published_at": "2026-06-25T18:16:46Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8377,
-      "importance": 0.8377,
-      "importance_score": 0.8377,
+      "score": 0.8382,
+      "importance": 0.8382,
+      "importance_score": 0.8382,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.965,
+        "recency": 0.9678,
         "story_heat": 0.0
       },
       "category": "official",
@@ -241,113 +341,155 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-06-25T16:02:09Z",
-      "latest_at": "2026-06-25T16:02:09Z",
+      "earliest_at": "2026-06-25T18:16:46Z",
+      "latest_at": "2026-06-25T18:16:46Z",
       "primary_item": {
-        "id": "655a83565bd0c4044b82a9a388e64fc66c2a39d8",
-        "title": "npm 为高影响力帐户添加了预防性帐户保护 / npm adds preventive account protection for high-impact accounts",
-        "url": "https://github.blog/changelog/2026-06-25-npm-adds-preventive-account-protection-for-high-impact-accounts",
+        "id": "0e61ac1ebaa0afa1f5ff9d67844c5253e8f99072",
+        "title": "更好地控制 GitHub 托管的运行器 / More control over your GitHub-hosted runners",
+        "url": "https://github.blog/changelog/2026-06-25-more-control-over-your-github-hosted-runners",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
       }
     },
     {
-      "story_id": "story_2aeed32ed517",
-      "title": "Anthropic称阿里巴巴非法获取了Claude AI模型的功能",
-      "url": "https://www.reuters.com/world/china/anthropic-says-alibaba-illicitly-extracted-claude-ai-model-capabilities-2026-06-24",
-      "primary_url": "https://www.reuters.com/world/china/anthropic-says-alibaba-illicitly-extracted-claude-ai-model-capabilities-2026-06-24",
+      "story_id": "story_7157eeceef54",
+      "title": "赫库兰尼姆古卷首次被完整虚拟解读",
+      "url": "https://scrollprize.org/firstscroll",
+      "primary_url": "https://scrollprize.org/firstscroll",
       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "source_name": "AI HOT",
       "sources": [
         {
-          "id": "d66a245381eeff98872405319d74ab3d80e7ddc4",
-          "title": "Anthropic称阿里巴巴非法获取了Claude AI模型的功能",
-          "url": "https://www.reuters.com/world/china/anthropic-says-alibaba-illicitly-extracted-claude-ai-model-capabilities-2026-06-24",
+          "id": "e0c0b35547a2e9d0cc9b80c44e5f31cc7854e392",
+          "title": "赫库兰尼姆古卷首次被完整虚拟解读",
+          "url": "https://scrollprize.org/firstscroll",
           "source": "Hacker News 热门（buzzing.cc 中文翻译）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-06-25T03:07:48.942000Z"
+          "published_at": "2026-06-25T18:03:58.685000Z"
         },
         {
-          "id": "a24aa0f548501c46f7746c0abfceb9a85ce0b4df",
-          "title": "Anthropic称阿里巴巴非法提取Claude AI模型能力 / Anthropic says Alibaba illicitly extracted Claude AI model capabilities",
-          "url": "https://news.ycombinator.com/item?id=48664814",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-25T04:41:42.956000Z"
-        },
-        {
-          "id": "ce6633cf7c157ff75177474fd8395c725f42bbce",
-          "title": "Anthropic称阿里巴巴非法获取了Claude AI模型的功能 / Anthropic says Alibaba illicitly extracted Claude AI model capabilities",
-          "url": "https://www.reuters.com/world/china/anthropic-says-alibaba-illicitly-extracted-claude-ai-model-capabilities-2026-06-24",
-          "source": "HN Algolia · AI 24h",
-          "source_name": "Hacker News",
-          "site_id": "hackernews",
-          "published_at": "2026-06-24T23:26:17Z"
+          "id": "aab501b3d2f5f214da3110a854c9317af3aedcb2",
+          "title": "赫库兰尼姆古卷首次被完整虚拟解读 / A Herculaneum scroll has been read for the first time",
+          "url": "https://scrollprize.org/firstscroll",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-25T15:48:07Z"
         }
       ],
-      "source_count": 3,
+      "source_count": 2,
       "source_names": [
-        "HN Algolia · AI 24h",
-        "Hacker News 热门（buzzing.cc 中文翻译）",
-        "hackernews"
+        "Hacker News · 24h最热",
+        "Hacker News 热门（buzzing.cc 中文翻译）"
       ],
       "items": [
         {
-          "id": "d66a245381eeff98872405319d74ab3d80e7ddc4",
-          "title": "Anthropic称阿里巴巴非法获取了Claude AI模型的功能",
-          "url": "https://www.reuters.com/world/china/anthropic-says-alibaba-illicitly-extracted-claude-ai-model-capabilities-2026-06-24",
+          "id": "e0c0b35547a2e9d0cc9b80c44e5f31cc7854e392",
+          "title": "赫库兰尼姆古卷首次被完整虚拟解读",
+          "url": "https://scrollprize.org/firstscroll",
           "source": "Hacker News 热门（buzzing.cc 中文翻译）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-06-25T03:07:48.942000Z"
+          "published_at": "2026-06-25T18:03:58.685000Z"
         },
         {
-          "id": "a24aa0f548501c46f7746c0abfceb9a85ce0b4df",
-          "title": "Anthropic称阿里巴巴非法提取Claude AI模型能力 / Anthropic says Alibaba illicitly extracted Claude AI model capabilities",
-          "url": "https://news.ycombinator.com/item?id=48664814",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-25T04:41:42.956000Z"
-        },
-        {
-          "id": "ce6633cf7c157ff75177474fd8395c725f42bbce",
-          "title": "Anthropic称阿里巴巴非法获取了Claude AI模型的功能 / Anthropic says Alibaba illicitly extracted Claude AI model capabilities",
-          "url": "https://www.reuters.com/world/china/anthropic-says-alibaba-illicitly-extracted-claude-ai-model-capabilities-2026-06-24",
-          "source": "HN Algolia · AI 24h",
-          "source_name": "Hacker News",
-          "site_id": "hackernews",
-          "published_at": "2026-06-24T23:26:17Z"
+          "id": "aab501b3d2f5f214da3110a854c9317af3aedcb2",
+          "title": "赫库兰尼姆古卷首次被完整虚拟解读 / A Herculaneum scroll has been read for the first time",
+          "url": "https://scrollprize.org/firstscroll",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-25T15:48:07Z"
         }
       ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.7908,
-      "importance": 0.7908,
-      "importance_score": 0.7908,
-      "importance_label": "多源热议",
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.8073,
+      "importance": 0.8073,
+      "importance_score": 0.8073,
+      "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.75,
+        "editorial": 0.79,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8009,
-        "story_heat": 0.5
+        "recency": 0.9648,
+        "story_heat": 0.25
       },
-      "category": "multi_source",
+      "category": "industry",
       "reasons": [
         "multi_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-06-24T23:26:17Z",
-      "latest_at": "2026-06-25T04:41:42.956000Z",
+      "earliest_at": "2026-06-25T15:48:07Z",
+      "latest_at": "2026-06-25T18:03:58.685000Z",
       "primary_item": {
-        "id": "d66a245381eeff98872405319d74ab3d80e7ddc4",
-        "title": "Anthropic称阿里巴巴非法获取了Claude AI模型的功能",
-        "url": "https://www.reuters.com/world/china/anthropic-says-alibaba-illicitly-extracted-claude-ai-model-capabilities-2026-06-24",
+        "id": "e0c0b35547a2e9d0cc9b80c44e5f31cc7854e392",
+        "title": "赫库兰尼姆古卷首次被完整虚拟解读",
+        "url": "https://scrollprize.org/firstscroll",
         "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_4cc42a3912fa",
+      "title": "OpenAI 内部论文：Codex 已占 99.8% 内部输出 tokens，智能体正向全部门扩散",
+      "url": "https://x.com/rohanpaul_ai/status/2070221621676441642",
+      "primary_url": "https://x.com/rohanpaul_ai/status/2070221621676441642",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "4ba6368af8e231426f0c056e936d9da6e636b61e",
+          "title": "OpenAI 内部论文：Codex 已占 99.8% 内部输出 tokens，智能体正向全部门扩散",
+          "url": "https://x.com/rohanpaul_ai/status/2070221621676441642",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-25T19:04:32Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "X：Rohan Paul (@rohanpaul_ai)"
+      ],
+      "items": [
+        {
+          "id": "4ba6368af8e231426f0c056e936d9da6e636b61e",
+          "title": "OpenAI 内部论文：Codex 已占 99.8% 内部输出 tokens，智能体正向全部门扩散",
+          "url": "https://x.com/rohanpaul_ai/status/2070221621676441642",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-25T19:04:32Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7878,
+      "importance": 0.7878,
+      "importance_score": 0.7878,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.8,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.979,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-25T19:04:32Z",
+      "latest_at": "2026-06-25T19:04:32Z",
+      "primary_item": {
+        "id": "4ba6368af8e231426f0c056e936d9da6e636b61e",
+        "title": "OpenAI 内部论文：Codex 已占 99.8% 内部输出 tokens，智能体正向全部门扩散",
+        "url": "https://x.com/rohanpaul_ai/status/2070221621676441642",
+        "source": "X：Rohan Paul (@rohanpaul_ai)",
         "source_name": "AI HOT"
       }
     },
@@ -405,15 +547,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7894,
-      "importance": 0.7894,
-      "importance_score": 0.7894,
+      "score": 0.7843,
+      "importance": 0.7843,
+      "importance_score": 0.7843,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.73,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9655,
+        "recency": 0.9375,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -486,15 +628,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7832,
-      "importance": 0.7832,
-      "importance_score": 0.7832,
+      "score": 0.7782,
+      "importance": 0.7782,
+      "importance_score": 0.7782,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.71,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9645,
+        "recency": 0.9364,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -514,21 +656,102 @@
       }
     },
     {
-      "story_id": "story_43a0ba32a32a",
-      "title": "Red Hat Enterprise Linux 运行程序镜像现已推出公共预览版 / Red Hat Enterprise Linux runner images are now in public preview",
-      "url": "https://github.blog/changelog/2026-06-25-red-hat-enterprise-linux-runner-images-are-now-in-public-preview",
-      "primary_url": "https://github.blog/changelog/2026-06-25-red-hat-enterprise-linux-runner-images-are-now-in-public-preview",
+      "story_id": "story_801476e6fa11",
+      "title": "IBM 首度推出亚纳米级芯片技术",
+      "url": "https://newsroom.ibm.com/2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology",
+      "primary_url": "https://newsroom.ibm.com/2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "7deed6ed305c50a7ed2c2800a2a057f455eb127c",
+          "title": "IBM 首度推出亚纳米级芯片技术",
+          "url": "https://newsroom.ibm.com/2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-25T18:52:05.282000Z"
+        },
+        {
+          "id": "caecbc9f9527954ca5a571f42e4b67c86492231e",
+          "title": "IBM 首度推出亚纳米级芯片技术 / IBM debuts sub-1 nanometer chip technology",
+          "url": "https://newsroom.ibm.com/2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-25T15:33:37Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News · 24h最热",
+        "Hacker News 热门（buzzing.cc 中文翻译）"
+      ],
+      "items": [
+        {
+          "id": "7deed6ed305c50a7ed2c2800a2a057f455eb127c",
+          "title": "IBM 首度推出亚纳米级芯片技术",
+          "url": "https://newsroom.ibm.com/2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-25T18:52:05.282000Z"
+        },
+        {
+          "id": "caecbc9f9527954ca5a571f42e4b67c86492231e",
+          "title": "IBM 首度推出亚纳米级芯片技术 / IBM debuts sub-1 nanometer chip technology",
+          "url": "https://newsroom.ibm.com/2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-25T15:33:37Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.8063,
+      "importance": 0.8063,
+      "importance_score": 0.8063,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.78,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.976,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-25T15:33:37Z",
+      "latest_at": "2026-06-25T18:52:05.282000Z",
+      "primary_item": {
+        "id": "7deed6ed305c50a7ed2c2800a2a057f455eb127c",
+        "title": "IBM 首度推出亚纳米级芯片技术",
+        "url": "https://newsroom.ibm.com/2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology",
+        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_01de969be41c",
+      "title": "现在可以并行运行操作步骤 / Actions steps can now be run in parallel",
+      "url": "https://github.blog/changelog/2026-06-25-actions-steps-can-now-be-run-in-parallel",
+      "primary_url": "https://github.blog/changelog/2026-06-25-actions-steps-can-now-be-run-in-parallel",
       "source": "GitHub Changelog",
       "source_name": "Official AI Updates",
       "sources": [
         {
-          "id": "d2b1f309932b20f690f0a2def2d6d2da325653a5",
-          "title": "Red Hat Enterprise Linux 运行程序镜像现已推出公共预览版 / Red Hat Enterprise Linux runner images are now in public preview",
-          "url": "https://github.blog/changelog/2026-06-25-red-hat-enterprise-linux-runner-images-are-now-in-public-preview",
+          "id": "3d22e39f449143dec262b60950247b36c74429c3",
+          "title": "现在可以并行运行操作步骤 / Actions steps can now be run in parallel",
+          "url": "https://github.blog/changelog/2026-06-25-actions-steps-can-now-be-run-in-parallel",
           "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-06-25T15:40:04Z"
+          "published_at": "2026-06-25T16:46:09Z"
         }
       ],
       "source_count": 1,
@@ -537,26 +760,26 @@
       ],
       "items": [
         {
-          "id": "d2b1f309932b20f690f0a2def2d6d2da325653a5",
-          "title": "Red Hat Enterprise Linux 运行程序镜像现已推出公共预览版 / Red Hat Enterprise Linux runner images are now in public preview",
-          "url": "https://github.blog/changelog/2026-06-25-red-hat-enterprise-linux-runner-images-are-now-in-public-preview",
+          "id": "3d22e39f449143dec262b60950247b36c74429c3",
+          "title": "现在可以并行运行操作步骤 / Actions steps can now be run in parallel",
+          "url": "https://github.blog/changelog/2026-06-25-actions-steps-can-now-be-run-in-parallel",
           "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-06-25T15:40:04Z"
+          "published_at": "2026-06-25T16:46:09Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8368,
-      "importance": 0.8368,
-      "importance_score": 0.8368,
+      "score": 0.8344,
+      "importance": 0.8344,
+      "importance_score": 0.8344,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.9599,
+        "recency": 0.9469,
         "story_heat": 0.0
       },
       "category": "official",
@@ -565,12 +788,12 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-06-25T15:40:04Z",
-      "latest_at": "2026-06-25T15:40:04Z",
+      "earliest_at": "2026-06-25T16:46:09Z",
+      "latest_at": "2026-06-25T16:46:09Z",
       "primary_item": {
-        "id": "d2b1f309932b20f690f0a2def2d6d2da325653a5",
-        "title": "Red Hat Enterprise Linux 运行程序镜像现已推出公共预览版 / Red Hat Enterprise Linux runner images are now in public preview",
-        "url": "https://github.blog/changelog/2026-06-25-red-hat-enterprise-linux-runner-images-are-now-in-public-preview",
+        "id": "3d22e39f449143dec262b60950247b36c74429c3",
+        "title": "现在可以并行运行操作步骤 / Actions steps can now be run in parallel",
+        "url": "https://github.blog/changelog/2026-06-25-actions-steps-can-now-be-run-in-parallel",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
       }
@@ -610,15 +833,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.772,
-      "importance": 0.772,
-      "importance_score": 0.772,
+      "score": 0.767,
+      "importance": 0.767,
+      "importance_score": 0.767,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.76,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9577,
+        "recency": 0.9298,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -633,67 +856,6 @@
         "title": "Ornith-1.0 开源模型家族发布，专注 Agentic Coding 全参数规模",
         "url": "https://x.com/berryxia/status/2070167806700908957",
         "source": "X：Berry Xia (@berryxia)",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_97db0890a77a",
-      "title": "Anthropic 称阿里巴巴必须为最大规模 Claude 克隆攻击受罚",
-      "url": "https://arstechnica.com/tech-policy/2026/06/anthropic-claims-alibaba-defied-trump-to-attack-claude-and-steal-capabilities",
-      "primary_url": "https://arstechnica.com/tech-policy/2026/06/anthropic-claims-alibaba-defied-trump-to-attack-claude-and-steal-capabilities",
-      "source": "Ars Technica：AI（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "c532b203287caef5ac570ef294a3ba9b6bfeb06e",
-          "title": "Anthropic 称阿里巴巴必须为最大规模 Claude 克隆攻击受罚",
-          "url": "https://arstechnica.com/tech-policy/2026/06/anthropic-claims-alibaba-defied-trump-to-attack-claude-and-steal-capabilities",
-          "source": "Ars Technica：AI（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-25T18:01:48Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Ars Technica：AI（RSS）"
-      ],
-      "items": [
-        {
-          "id": "c532b203287caef5ac570ef294a3ba9b6bfeb06e",
-          "title": "Anthropic 称阿里巴巴必须为最大规模 Claude 克隆攻击受罚",
-          "url": "https://arstechnica.com/tech-policy/2026/06/anthropic-claims-alibaba-defied-trump-to-attack-claude-and-steal-capabilities",
-          "source": "Ars Technica：AI（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-25T18:01:48Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7694,
-      "importance": 0.7694,
-      "importance_score": 0.7694,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.73,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9932,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-25T18:01:48Z",
-      "latest_at": "2026-06-25T18:01:48Z",
-      "primary_item": {
-        "id": "c532b203287caef5ac570ef294a3ba9b6bfeb06e",
-        "title": "Anthropic 称阿里巴巴必须为最大规模 Claude 克隆攻击受罚",
-        "url": "https://arstechnica.com/tech-policy/2026/06/anthropic-claims-alibaba-defied-trump-to-attack-claude-and-steal-capabilities",
-        "source": "Ars Technica：AI（RSS）",
         "source_name": "AI HOT"
       }
     },
@@ -751,15 +913,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7657,
-      "importance": 0.7657,
-      "importance_score": 0.7657,
+      "score": 0.7606,
+      "importance": 0.7606,
+      "importance_score": 0.7606,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.65,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9672,
+        "recency": 0.9391,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -813,15 +975,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7642,
-      "importance": 0.7642,
-      "importance_score": 0.7642,
+      "score": 0.7592,
+      "importance": 0.7592,
+      "importance_score": 0.7592,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.73,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9646,
+        "recency": 0.9365,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -893,15 +1055,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.76,
-      "importance": 0.76,
-      "importance_score": 0.76,
+      "score": 0.7557,
+      "importance": 0.7557,
+      "importance_score": 0.7557,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8191,
+        "recency": 0.7952,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -918,6 +1080,188 @@
         "url": "https://www.aibase.com/news/29154",
         "source": "AIbase",
         "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_41c95b3b152d",
+      "title": "Midjourney 预览 V8.2 并加速草稿模式",
+      "url": "https://x.com/midjourney/status/2070223272072065228",
+      "primary_url": "https://x.com/midjourney/status/2070223272072065228",
+      "source": "X：Midjourney (@midjourney)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "e430212ab614ef9ca218d2029f944203204d835a",
+          "title": "Midjourney 预览 V8.2 并加速草稿模式",
+          "url": "https://x.com/midjourney/status/2070223272072065228",
+          "source": "X：Midjourney (@midjourney)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-25T19:11:05Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "X：Midjourney (@midjourney)"
+      ],
+      "items": [
+        {
+          "id": "e430212ab614ef9ca218d2029f944203204d835a",
+          "title": "Midjourney 预览 V8.2 并加速草稿模式",
+          "url": "https://x.com/midjourney/status/2070223272072065228",
+          "source": "X：Midjourney (@midjourney)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-25T19:11:05Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7491,
+      "importance": 0.7491,
+      "importance_score": 0.7491,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.67,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9805,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-06-25T19:11:05Z",
+      "latest_at": "2026-06-25T19:11:05Z",
+      "primary_item": {
+        "id": "e430212ab614ef9ca218d2029f944203204d835a",
+        "title": "Midjourney 预览 V8.2 并加速草稿模式",
+        "url": "https://x.com/midjourney/status/2070223272072065228",
+        "source": "X：Midjourney (@midjourney)",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_95af1288ca5c",
+      "title": "npm 为高影响力帐户添加了预防性帐户保护 / npm adds preventive account protection for high-impact accounts",
+      "url": "https://github.blog/changelog/2026-06-25-npm-adds-preventive-account-protection-for-high-impact-accounts",
+      "primary_url": "https://github.blog/changelog/2026-06-25-npm-adds-preventive-account-protection-for-high-impact-accounts",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "655a83565bd0c4044b82a9a388e64fc66c2a39d8",
+          "title": "npm 为高影响力帐户添加了预防性帐户保护 / npm adds preventive account protection for high-impact accounts",
+          "url": "https://github.blog/changelog/2026-06-25-npm-adds-preventive-account-protection-for-high-impact-accounts",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-25T16:02:09Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "items": [
+        {
+          "id": "655a83565bd0c4044b82a9a388e64fc66c2a39d8",
+          "title": "npm 为高影响力帐户添加了预防性帐户保护 / npm adds preventive account protection for high-impact accounts",
+          "url": "https://github.blog/changelog/2026-06-25-npm-adds-preventive-account-protection-for-high-impact-accounts",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-25T16:02:09Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8326,
+      "importance": 0.8326,
+      "importance_score": 0.8326,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.87,
+        "recency": 0.9369,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-25T16:02:09Z",
+      "latest_at": "2026-06-25T16:02:09Z",
+      "primary_item": {
+        "id": "655a83565bd0c4044b82a9a388e64fc66c2a39d8",
+        "title": "npm 为高影响力帐户添加了预防性帐户保护 / npm adds preventive account protection for high-impact accounts",
+        "url": "https://github.blog/changelog/2026-06-25-npm-adds-preventive-account-protection-for-high-impact-accounts",
+        "source": "GitHub Changelog",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_3b47139284ff",
+      "title": "Runway发布Agent 2.0",
+      "url": "https://runwayml.com/news/introducing-agent-2",
+      "primary_url": "https://runwayml.com/news/introducing-agent-2",
+      "source": "Runway：News（网页）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "fd916869589ae57b07a9f67eb6e5d410595e6308",
+          "title": "Runway发布Agent 2.0",
+          "url": "https://runwayml.com/news/introducing-agent-2",
+          "source": "Runway：News（网页）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-25T18:41:58.502000Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Runway：News（网页）"
+      ],
+      "items": [
+        {
+          "id": "fd916869589ae57b07a9f67eb6e5d410595e6308",
+          "title": "Runway发布Agent 2.0",
+          "url": "https://runwayml.com/news/introducing-agent-2",
+          "source": "Runway：News（网页）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-25T18:41:58.502000Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7419,
+      "importance": 0.7419,
+      "importance_score": 0.7419,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.65,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9737,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-06-25T18:41:58.502000Z",
+      "latest_at": "2026-06-25T18:41:58.502000Z",
+      "primary_item": {
+        "id": "fd916869589ae57b07a9f67eb6e5d410595e6308",
+        "title": "Runway发布Agent 2.0",
+        "url": "https://runwayml.com/news/introducing-agent-2",
+        "source": "Runway：News（网页）",
+        "source_name": "AI HOT"
       }
     },
     {
@@ -974,15 +1318,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7751,
-      "importance": 0.7751,
-      "importance_score": 0.7751,
+      "score": 0.7704,
+      "importance": 0.7704,
+      "importance_score": 0.7704,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.73,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.886,
+        "recency": 0.8602,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -1002,476 +1346,63 @@
       }
     },
     {
-      "story_id": "story_6e4aaf40ce95",
-      "title": "成本中心现在支持企业团队 / Cost centers now support enterprise teams",
-      "url": "https://github.blog/changelog/2026-06-25-assign-enterprise-teams-to-cost-centers",
-      "primary_url": "https://github.blog/changelog/2026-06-25-assign-enterprise-teams-to-cost-centers",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "2a6c485cd1a19304bd59bfaec9fbe109f4fb32c3",
-          "title": "成本中心现在支持企业团队 / Cost centers now support enterprise teams",
-          "url": "https://github.blog/changelog/2026-06-25-assign-enterprise-teams-to-cost-centers",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-25T10:15:19Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "items": [
-        {
-          "id": "2a6c485cd1a19304bd59bfaec9fbe109f4fb32c3",
-          "title": "成本中心现在支持企业团队 / Cost centers now support enterprise teams",
-          "url": "https://github.blog/changelog/2026-06-25-assign-enterprise-teams-to-cost-centers",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-25T10:15:19Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8238,
-      "importance": 0.8238,
-      "importance_score": 0.8238,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.8877,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-25T10:15:19Z",
-      "latest_at": "2026-06-25T10:15:19Z",
-      "primary_item": {
-        "id": "2a6c485cd1a19304bd59bfaec9fbe109f4fb32c3",
-        "title": "成本中心现在支持企业团队 / Cost centers now support enterprise teams",
-        "url": "https://github.blog/changelog/2026-06-25-assign-enterprise-teams-to-cost-centers",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
-      }
-    },
-    {
-      "story_id": "story_ec76817e0dd3",
-      "title": "OpenRouter MCP 服务器发布",
-      "url": "https://openrouter.ai/blog/announcements/openrouter-mcp-server",
-      "primary_url": "https://openrouter.ai/blog/announcements/openrouter-mcp-server",
-      "source": "OpenRouter：Announcements（RSS）",
+      "story_id": "story_f7ea1bd9178e",
+      "title": "Midjourney V8.1 草稿模式新增随机风格功能",
+      "url": "https://updates.midjourney.com/random-styles-in-draft-mode",
+      "primary_url": "https://updates.midjourney.com/random-styles-in-draft-mode",
+      "source": "Midjourney：Updates（RSS）",
       "source_name": "AI HOT",
       "sources": [
         {
-          "id": "c7c48e3c1414b6791d81f0c545db4d936bf839d6",
-          "title": "OpenRouter MCP 服务器发布",
-          "url": "https://openrouter.ai/blog/announcements/openrouter-mcp-server",
-          "source": "OpenRouter：Announcements（RSS）",
+          "id": "8403befab3ab2b42b0e4d35e704d383ead1ce678",
+          "title": "Midjourney V8.1 草稿模式新增随机风格功能",
+          "url": "https://updates.midjourney.com/random-styles-in-draft-mode",
+          "source": "Midjourney：Updates（RSS）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-06-25T00:00:00Z"
+          "published_at": "2026-06-25T18:50:16Z"
         }
       ],
       "source_count": 1,
       "source_names": [
-        "OpenRouter：Announcements（RSS）"
+        "Midjourney：Updates（RSS）"
       ],
       "items": [
         {
-          "id": "c7c48e3c1414b6791d81f0c545db4d936bf839d6",
-          "title": "OpenRouter MCP 服务器发布",
-          "url": "https://openrouter.ai/blog/announcements/openrouter-mcp-server",
-          "source": "OpenRouter：Announcements（RSS）",
+          "id": "8403befab3ab2b42b0e4d35e704d383ead1ce678",
+          "title": "Midjourney V8.1 草稿模式新增随机风格功能",
+          "url": "https://updates.midjourney.com/random-styles-in-draft-mode",
+          "source": "Midjourney：Updates（RSS）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-06-25T00:00:00Z"
+          "published_at": "2026-06-25T18:50:16Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7224,
-      "importance": 0.7224,
-      "importance_score": 0.7224,
+      "score": 0.7332,
+      "importance": 0.7332,
+      "importance_score": 0.7332,
       "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.71,
+        "editorial": 0.62,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7655,
+        "recency": 0.9756,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
         "high_ai_relevance"
       ],
-      "earliest_at": "2026-06-25T00:00:00Z",
-      "latest_at": "2026-06-25T00:00:00Z",
+      "earliest_at": "2026-06-25T18:50:16Z",
+      "latest_at": "2026-06-25T18:50:16Z",
       "primary_item": {
-        "id": "c7c48e3c1414b6791d81f0c545db4d936bf839d6",
-        "title": "OpenRouter MCP 服务器发布",
-        "url": "https://openrouter.ai/blog/announcements/openrouter-mcp-server",
-        "source": "OpenRouter：Announcements（RSS）",
+        "id": "8403befab3ab2b42b0e4d35e704d383ead1ce678",
+        "title": "Midjourney V8.1 草稿模式新增随机风格功能",
+        "url": "https://updates.midjourney.com/random-styles-in-draft-mode",
+        "source": "Midjourney：Updates（RSS）",
         "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_704fc70379f8",
-      "title": "​前印度信息技术巨头新创企业，欲用 AI 颠覆 IT 服务行业",
-      "url": "https://www.aibase.com/news/29167",
-      "primary_url": "https://www.aibase.com/news/29167",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "4789bd39bcbe84cffdb3fc2d595e79d5ce42450f",
-          "title": "​前印度信息技术巨头新创企业，欲用 AI 颠覆 IT 服务行业",
-          "url": "https://www.aibase.com/news/29167",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-25T11:12:38.027616Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "4789bd39bcbe84cffdb3fc2d595e79d5ce42450f",
-          "title": "​前印度信息技术巨头新创企业，欲用 AI 颠覆 IT 服务行业",
-          "url": "https://www.aibase.com/news/29167",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-25T11:12:38.027616Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7496,
-      "importance": 0.7496,
-      "importance_score": 0.7496,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-25T11:12:38.027616Z",
-      "latest_at": "2026-06-25T11:12:38.027616Z",
-      "primary_item": {
-        "id": "4789bd39bcbe84cffdb3fc2d595e79d5ce42450f",
-        "title": "​前印度信息技术巨头新创企业，欲用 AI 颠覆 IT 服务行业",
-        "url": "https://www.aibase.com/news/29167",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      }
-    },
-    {
-      "story_id": "story_6212aea4b6f7",
-      "title": "AI被认为会取代工程岗位，但新数据显示工程是2025年最具韧性的岗位",
-      "url": "https://techcrunch.com/2026/06/24/ai-was-supposed-to-kill-engineering-jobs-but-new-data-suggests-theyre-the-most-resilient",
-      "primary_url": "https://techcrunch.com/2026/06/24/ai-was-supposed-to-kill-engineering-jobs-but-new-data-suggests-theyre-the-most-resilient",
-      "source": "TechCrunch：AI（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "ede7f05be2d7ff05160ce8e5901c5e4f00dd85b8",
-          "title": "AI被认为会取代工程岗位，但新数据显示工程是2025年最具韧性的岗位",
-          "url": "https://techcrunch.com/2026/06/24/ai-was-supposed-to-kill-engineering-jobs-but-new-data-suggests-theyre-the-most-resilient",
-          "source": "TechCrunch：AI（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-24T21:56:41Z"
-        },
-        {
-          "id": "ea4a9a4bfea0efea068b867665ab92d420d9cae9",
-          "title": "AI被认为会取代工程岗位，但新数据显示工程是2025年最具韧性的岗位 / AI was supposed to kill engineering jobs, but new data suggests they’re the most resilient",
-          "url": "https://techcrunch.com/2026/06/24/ai-was-supposed-to-kill-engineering-jobs-but-new-data-suggests-theyre-the-most-resilient",
-          "source": "TechCrunch AI",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-06-24T21:56:41Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "TechCrunch AI",
-        "TechCrunch：AI（RSS）"
-      ],
-      "items": [
-        {
-          "id": "ede7f05be2d7ff05160ce8e5901c5e4f00dd85b8",
-          "title": "AI被认为会取代工程岗位，但新数据显示工程是2025年最具韧性的岗位",
-          "url": "https://techcrunch.com/2026/06/24/ai-was-supposed-to-kill-engineering-jobs-but-new-data-suggests-theyre-the-most-resilient",
-          "source": "TechCrunch：AI（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-24T21:56:41Z"
-        },
-        {
-          "id": "ea4a9a4bfea0efea068b867665ab92d420d9cae9",
-          "title": "AI被认为会取代工程岗位，但新数据显示工程是2025年最具韧性的岗位 / AI was supposed to kill engineering jobs, but new data suggests they’re the most resilient",
-          "url": "https://techcrunch.com/2026/06/24/ai-was-supposed-to-kill-engineering-jobs-but-new-data-suggests-theyre-the-most-resilient",
-          "source": "TechCrunch AI",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-06-24T21:56:41Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7404,
-      "importance": 0.7404,
-      "importance_score": 0.7404,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.7,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7431,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-24T21:56:41Z",
-      "latest_at": "2026-06-24T21:56:41Z",
-      "primary_item": {
-        "id": "ede7f05be2d7ff05160ce8e5901c5e4f00dd85b8",
-        "title": "AI被认为会取代工程岗位，但新数据显示工程是2025年最具韧性的岗位",
-        "url": "https://techcrunch.com/2026/06/24/ai-was-supposed-to-kill-engineering-jobs-but-new-data-suggests-theyre-the-most-resilient",
-        "source": "TechCrunch：AI（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_eb42793d6d72",
-      "title": "​近 400 家地方报纸起诉 OpenAI 和微软，指控侵犯版权",
-      "url": "https://www.aibase.com/news/29171",
-      "primary_url": "https://www.aibase.com/news/29171",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "b0b3ac2c0c8f5e0d8f88bf939abd896987b1ac08",
-          "title": "​近 400 家地方报纸起诉 OpenAI 和微软，指控侵犯版权",
-          "url": "https://www.aibase.com/news/29171",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-25T11:12:38.027616Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "b0b3ac2c0c8f5e0d8f88bf939abd896987b1ac08",
-          "title": "​近 400 家地方报纸起诉 OpenAI 和微软，指控侵犯版权",
-          "url": "https://www.aibase.com/news/29171",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-25T11:12:38.027616Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7496,
-      "importance": 0.7496,
-      "importance_score": 0.7496,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-25T11:12:38.027616Z",
-      "latest_at": "2026-06-25T11:12:38.027616Z",
-      "primary_item": {
-        "id": "b0b3ac2c0c8f5e0d8f88bf939abd896987b1ac08",
-        "title": "​近 400 家地方报纸起诉 OpenAI 和微软，指控侵犯版权",
-        "url": "https://www.aibase.com/news/29171",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      }
-    },
-    {
-      "story_id": "story_2df82173bb28",
-      "title": "AI大幅降低开发门槛后，很多团队盲目落地积压的需求，结果徒增维护与运营成本，Token消耗沦为无效指标。产品运营和 AI 策略顾问 Katie Robly在这期对话中重新划分了PM、设计、工程师的协作边界，同时提出核心思路：AI适合承接整理反馈、生成原型等重复性战术工作，人们应该聚焦客户调研、战略取舍等决策环节，初级产品经理尤其要手动核验AI输出、夯实判断力，前置客户需求调研再启动开发。",
-      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-      "primary_url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-      "source": "社区更新 · 2026-06-25",
-      "source_name": "WaytoAGI",
-      "sources": [
-        {
-          "id": "182a4326157603383a7180fd27f856cde8a5c276",
-          "title": "AI大幅降低开发门槛后，很多团队盲目落地积压的需求，结果徒增维护与运营成本，Token消耗沦为无效指标。产品运营和 AI 策略顾问 Katie Robly在这期对话中重新划分了PM、设计、工程师的协作边界，同时提出核心思路：AI适合承接整理反馈、生成原型等重复性战术工作，人们应该聚焦客户调研、战略取舍等决策环节，初级产品经理尤其要手动核验AI输出、夯实判断力，前置客户需求调研再启动开发。",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-06-25",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-06-25T18:30:14.882796Z"
-        },
-        {
-          "id": "7c8d6d7b5b66bf7f4584ae7bf0482ac4be39d149",
-          "title": "这是一篇GitHub的奶爸级别教学。如果你是 AI 编程爱好者，本文对你帮助是极大的。包括：怎么注册，搜索，使用 GitHub、了解 GitHub 详细功能点、如何提交和备份 GitHub 项目。",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-06-25",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-06-25T11:12:38.027616Z"
-        },
-        {
-          "id": "1794db05181c851d959a10bc62f76065d7fc716c",
-          "title": "火山方舟上线Seed 2.1 Pro，多项Agent、代码、多模态基准成绩位居前列，兼容主流开发工具且调用成本远低于海外模型。作者用它做了一个毕业生就业补贴公益项目，自主完成全网信息抓取、OCR识别、数据核验质检、开源仓库搭建与检索网站开发。整套项目完成成本仅为同类海外模型的几十分之一，快来看看效果如何。",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-06-25",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-06-25T08:18:17.801339Z"
-        },
-        {
-          "id": "e62cab6fad3c71ebacc2f74581948782618f0530",
-          "title": "你读完一本很棒的书。两周后，却连一个章节都想不起来。不是因为你笨，而是因为从来没人教过你如何真正学习。你可以在Claude里用20分钟跑完本文中的4个提示词，20分钟，让知识真正留在脑子里。",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-06-24",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-06-24T19:11:40.150741Z"
-        },
-        {
-          "id": "6bf87a6c105e36f3cd4672887e78907616da229e",
-          "title": "定时任务经常静默失效、无效重复执行？Loop Engineering可以解决传统静态定时Agent的痛点，将单次提示词升级为可以自主判断、自检迭代的智能循环体系。有一个开源项目提供了五大核心模块、七套成熟生产模板，搭配三条CLI工具完成初始化、成本预估与环境检测，还设计了L1-L3分级放权机制，循序渐进放开自动化权限规避风险。",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-06-24",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-06-24T19:11:40.150741Z"
-        },
-        {
-          "id": "6170d9f23ba0cc89c18cfa1c49aa06c469447885",
-          "title": "真正理解AI 智能体如何工作的开发者，只占其中很小一部分。每周都会出现一个新的智能体框架。一个新工具。一次新的“这会改变一切”的发布。大多数开发者因此觉得自己落后了。但让你落后的，不是错过了某个新工具。而是没有理解这个工具背后的理念。这篇文章的30个概念，会出现在几乎所有智能体框架里，可以帮助你理解以后出现的每一个新工具。",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-06-24",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-06-24T19:11:40.150741Z"
-        }
-      ],
-      "source_count": 6,
-      "source_names": [
-        "社区更新 · 2026-06-24",
-        "社区更新 · 2026-06-25"
-      ],
-      "items": [
-        {
-          "id": "182a4326157603383a7180fd27f856cde8a5c276",
-          "title": "AI大幅降低开发门槛后，很多团队盲目落地积压的需求，结果徒增维护与运营成本，Token消耗沦为无效指标。产品运营和 AI 策略顾问 Katie Robly在这期对话中重新划分了PM、设计、工程师的协作边界，同时提出核心思路：AI适合承接整理反馈、生成原型等重复性战术工作，人们应该聚焦客户调研、战略取舍等决策环节，初级产品经理尤其要手动核验AI输出、夯实判断力，前置客户需求调研再启动开发。",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-06-25",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-06-25T18:30:14.882796Z"
-        },
-        {
-          "id": "7c8d6d7b5b66bf7f4584ae7bf0482ac4be39d149",
-          "title": "这是一篇GitHub的奶爸级别教学。如果你是 AI 编程爱好者，本文对你帮助是极大的。包括：怎么注册，搜索，使用 GitHub、了解 GitHub 详细功能点、如何提交和备份 GitHub 项目。",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-06-25",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-06-25T11:12:38.027616Z"
-        },
-        {
-          "id": "1794db05181c851d959a10bc62f76065d7fc716c",
-          "title": "火山方舟上线Seed 2.1 Pro，多项Agent、代码、多模态基准成绩位居前列，兼容主流开发工具且调用成本远低于海外模型。作者用它做了一个毕业生就业补贴公益项目，自主完成全网信息抓取、OCR识别、数据核验质检、开源仓库搭建与检索网站开发。整套项目完成成本仅为同类海外模型的几十分之一，快来看看效果如何。",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-06-25",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-06-25T08:18:17.801339Z"
-        },
-        {
-          "id": "e62cab6fad3c71ebacc2f74581948782618f0530",
-          "title": "你读完一本很棒的书。两周后，却连一个章节都想不起来。不是因为你笨，而是因为从来没人教过你如何真正学习。你可以在Claude里用20分钟跑完本文中的4个提示词，20分钟，让知识真正留在脑子里。",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-06-24",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-06-24T19:11:40.150741Z"
-        },
-        {
-          "id": "6bf87a6c105e36f3cd4672887e78907616da229e",
-          "title": "定时任务经常静默失效、无效重复执行？Loop Engineering可以解决传统静态定时Agent的痛点，将单次提示词升级为可以自主判断、自检迭代的智能循环体系。有一个开源项目提供了五大核心模块、七套成熟生产模板，搭配三条CLI工具完成初始化、成本预估与环境检测，还设计了L1-L3分级放权机制，循序渐进放开自动化权限规避风险。",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-06-24",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-06-24T19:11:40.150741Z"
-        },
-        {
-          "id": "6170d9f23ba0cc89c18cfa1c49aa06c469447885",
-          "title": "真正理解AI 智能体如何工作的开发者，只占其中很小一部分。每周都会出现一个新的智能体框架。一个新工具。一次新的“这会改变一切”的发布。大多数开发者因此觉得自己落后了。但让你落后的，不是错过了某个新工具。而是没有理解这个工具背后的理念。这篇文章的30个概念，会出现在几乎所有智能体框架里，可以帮助你理解以后出现的每一个新工具。",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-06-24",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-06-24T19:11:40.150741Z"
-        }
-      ],
-      "item_count": 6,
-      "duplicate_count": 6,
-      "score": 0.6692,
-      "importance": 0.6692,
-      "importance_score": 0.6692,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.54,
-        "ai_relevance": 0.65,
-        "recency": 1.0,
-        "story_heat": 1.0
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-24T19:11:40.150741Z",
-      "latest_at": "2026-06-25T18:30:14.882796Z",
-      "primary_item": {
-        "id": "182a4326157603383a7180fd27f856cde8a5c276",
-        "title": "AI大幅降低开发门槛后，很多团队盲目落地积压的需求，结果徒增维护与运营成本，Token消耗沦为无效指标。产品运营和 AI 策略顾问 Katie Robly在这期对话中重新划分了PM、设计、工程师的协作边界，同时提出核心思路：AI适合承接整理反馈、生成原型等重复性战术工作，人们应该聚焦客户调研、战略取舍等决策环节，初级产品经理尤其要手动核验AI输出、夯实判断力，前置客户需求调研再启动开发。",
-        "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-        "source": "社区更新 · 2026-06-25",
-        "source_name": "WaytoAGI"
       }
     }
   ]
