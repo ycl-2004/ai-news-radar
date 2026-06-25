@@ -1,8 +1,226 @@
 {
-  "generated_at": "2026-06-25T20:32:53.241358Z",
+  "generated_at": "2026-06-25T22:16:14.926691Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
+    {
+      "story_id": "story_91992ed9f82d",
+      "title": "法典 CLI 0.142.1 / Codex CLI 0.142.1",
+      "url": "https://developers.openai.com/codex/changelog",
+      "primary_url": "https://developers.openai.com/codex/changelog",
+      "source": "OpenAI Codex Changelog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "e329806d2a8fe2fa8d5dc5cc9468d3c4f40ae990",
+          "title": "法典 CLI 0.142.1 / Codex CLI 0.142.1",
+          "url": "https://developers.openai.com/codex/changelog",
+          "source": "OpenAI Codex Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-25T00:00:00Z"
+        },
+        {
+          "id": "e73b44a9f3f8de9b98166406b22d8635d858fd45",
+          "title": "法典 CLI 0.142.2 / Codex CLI 0.142.2",
+          "url": "https://developers.openai.com/codex/changelog",
+          "source": "OpenAI Codex Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-25T00:00:00Z"
+        },
+        {
+          "id": "06bdf1d58aed83751fe9dcd3cce0d615c652331f",
+          "title": "Codex Remote 全面上市 / Codex Remote reaches general availability",
+          "url": "https://developers.openai.com/codex/changelog",
+          "source": "OpenAI Codex Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-25T00:00:00Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "OpenAI Codex Changelog"
+      ],
+      "items": [
+        {
+          "id": "e329806d2a8fe2fa8d5dc5cc9468d3c4f40ae990",
+          "title": "法典 CLI 0.142.1 / Codex CLI 0.142.1",
+          "url": "https://developers.openai.com/codex/changelog",
+          "source": "OpenAI Codex Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-25T00:00:00Z"
+        },
+        {
+          "id": "e73b44a9f3f8de9b98166406b22d8635d858fd45",
+          "title": "法典 CLI 0.142.2 / Codex CLI 0.142.2",
+          "url": "https://developers.openai.com/codex/changelog",
+          "source": "OpenAI Codex Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-25T00:00:00Z"
+        },
+        {
+          "id": "06bdf1d58aed83751fe9dcd3cce0d615c652331f",
+          "title": "Codex Remote 全面上市 / Codex Remote reaches general availability",
+          "url": "https://developers.openai.com/codex/changelog",
+          "source": "OpenAI Codex Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-25T00:00:00Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.8665,
+      "importance": 0.8665,
+      "importance_score": 0.8665,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.98,
+        "recency": 0.725,
+        "story_heat": 0.5
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-25T00:00:00Z",
+      "latest_at": "2026-06-25T00:00:00Z",
+      "primary_item": {
+        "id": "e329806d2a8fe2fa8d5dc5cc9468d3c4f40ae990",
+        "title": "法典 CLI 0.142.1 / Codex CLI 0.142.1",
+        "url": "https://developers.openai.com/codex/changelog",
+        "source": "OpenAI Codex Changelog",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_97db0890a77a",
+      "title": "Anthropic 称阿里巴巴必须为最大规模 Claude 克隆攻击受罚",
+      "url": "https://arstechnica.com/tech-policy/2026/06/anthropic-claims-alibaba-defied-trump-to-attack-claude-and-steal-capabilities",
+      "primary_url": "https://arstechnica.com/tech-policy/2026/06/anthropic-claims-alibaba-defied-trump-to-attack-claude-and-steal-capabilities",
+      "source": "Ars Technica：AI（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "c532b203287caef5ac570ef294a3ba9b6bfeb06e",
+          "title": "Anthropic 称阿里巴巴必须为最大规模 Claude 克隆攻击受罚",
+          "url": "https://arstechnica.com/tech-policy/2026/06/anthropic-claims-alibaba-defied-trump-to-attack-claude-and-steal-capabilities",
+          "source": "Ars Technica：AI（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-25T18:01:48Z"
+        },
+        {
+          "id": "369cfec96ad8bfc7db787884d8c291507fbdb200",
+          "title": "Anthropic表示，阿里巴巴必须为这起最大规模的Claude克隆攻击事件受到惩罚",
+          "url": "https://arstechnica.com/tech-policy/2026/06/anthropic-claims-alibaba-defied-trump-to-attack-claude-and-steal-capabilities",
+          "source": "arstechnica.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-25T20:11:57.386000Z"
+        },
+        {
+          "id": "5f51027d5f2947afd6f20d07fe740ca358ea279a",
+          "title": "Anthropic 称阿里巴巴必须因最大规模的克劳德克隆攻击而受到惩罚 / Anthropic Says Alibaba Must Be Punished For Largest Claude Cloning Attack",
+          "url": "https://yro.slashdot.org/story/26/06/25/1810226/anthropic-says-alibaba-must-be-punished-for-largest-claude-cloning-attack",
+          "source": "Slashdot (科技资讯)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-25T18:12:00Z"
+        },
+        {
+          "id": "ec9c39bc4323f40dc028ad5997ab40a0bd3b27ff",
+          "title": "Anthropic 称阿里巴巴必须为最大规模 Claude 克隆攻击受罚 / Anthropic says Alibaba must be punished for largest Claude cloning attack",
+          "url": "https://arstechnica.com/tech-policy/2026/06/anthropic-claims-alibaba-defied-trump-to-attack-claude-and-steal-capabilities",
+          "source": "Ars Technica",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-25T18:01:48Z"
+        }
+      ],
+      "source_count": 4,
+      "source_names": [
+        "Ars Technica",
+        "Ars Technica：AI（RSS）",
+        "Slashdot (科技资讯)",
+        "arstechnica.com"
+      ],
+      "items": [
+        {
+          "id": "c532b203287caef5ac570ef294a3ba9b6bfeb06e",
+          "title": "Anthropic 称阿里巴巴必须为最大规模 Claude 克隆攻击受罚",
+          "url": "https://arstechnica.com/tech-policy/2026/06/anthropic-claims-alibaba-defied-trump-to-attack-claude-and-steal-capabilities",
+          "source": "Ars Technica：AI（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-25T18:01:48Z"
+        },
+        {
+          "id": "369cfec96ad8bfc7db787884d8c291507fbdb200",
+          "title": "Anthropic表示，阿里巴巴必须为这起最大规模的Claude克隆攻击事件受到惩罚",
+          "url": "https://arstechnica.com/tech-policy/2026/06/anthropic-claims-alibaba-defied-trump-to-attack-claude-and-steal-capabilities",
+          "source": "arstechnica.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-25T20:11:57.386000Z"
+        },
+        {
+          "id": "5f51027d5f2947afd6f20d07fe740ca358ea279a",
+          "title": "Anthropic 称阿里巴巴必须因最大规模的克劳德克隆攻击而受到惩罚 / Anthropic Says Alibaba Must Be Punished For Largest Claude Cloning Attack",
+          "url": "https://yro.slashdot.org/story/26/06/25/1810226/anthropic-says-alibaba-must-be-punished-for-largest-claude-cloning-attack",
+          "source": "Slashdot (科技资讯)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-25T18:12:00Z"
+        },
+        {
+          "id": "ec9c39bc4323f40dc028ad5997ab40a0bd3b27ff",
+          "title": "Anthropic 称阿里巴巴必须为最大规模 Claude 克隆攻击受罚 / Anthropic says Alibaba must be punished for largest Claude cloning attack",
+          "url": "https://arstechnica.com/tech-policy/2026/06/anthropic-claims-alibaba-defied-trump-to-attack-claude-and-steal-capabilities",
+          "source": "Ars Technica",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-25T18:01:48Z"
+        }
+      ],
+      "item_count": 4,
+      "duplicate_count": 4,
+      "score": 0.8349,
+      "importance": 0.8349,
+      "importance_score": 0.8349,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.73,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9406,
+        "story_heat": 0.75
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-25T18:01:48Z",
+      "latest_at": "2026-06-25T20:11:57.386000Z",
+      "primary_item": {
+        "id": "c532b203287caef5ac570ef294a3ba9b6bfeb06e",
+        "title": "Anthropic 称阿里巴巴必须为最大规模 Claude 克隆攻击受罚",
+        "url": "https://arstechnica.com/tech-policy/2026/06/anthropic-claims-alibaba-defied-trump-to-attack-claude-and-steal-capabilities",
+        "source": "Ars Technica：AI（RSS）",
+        "source_name": "AI HOT"
+      }
+    },
     {
       "story_id": "story_c6eeafaa2096",
       "title": "存储库问题的保存视图 - 项目中的公共预览和可调整行高 / Saved views for repository issues – Public Preview and adjustable row heights in projects",
@@ -38,15 +256,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8387,
-      "importance": 0.8387,
-      "importance_score": 0.8387,
+      "score": 0.8344,
+      "importance": 0.8344,
+      "importance_score": 0.8344,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.9706,
+        "recency": 0.9468,
         "story_heat": 0.0
       },
       "category": "official",
@@ -62,6 +280,88 @@
         "title": "存储库问题的保存视图 - 项目中的公共预览和可调整行高 / Saved views for repository issues – Public Preview and adjustable row heights in projects",
         "url": "https://github.blog/changelog/2026-06-25-saved-views-for-repository-issues-and-adjustable-row-heights-in-projects",
         "source": "GitHub Changelog",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_2b6976f96bb5",
+      "title": "OpenAI内部报告：智能体Codex如何改变工作 / How agents are transforming work",
+      "url": "https://openai.com/index/how-agents-are-transforming-work",
+      "primary_url": "https://openai.com/index/how-agents-are-transforming-work",
+      "source": "OpenAI News",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "25f8b643aef3153af022603a8d1d4080dada1ce0",
+          "title": "OpenAI内部报告：智能体Codex如何改变工作 / How agents are transforming work",
+          "url": "https://openai.com/index/how-agents-are-transforming-work",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-25T02:00:00Z"
+        },
+        {
+          "id": "a81bbc184761945898d9e8c69f145b9699dfe6d5",
+          "title": "OpenAI内部报告：智能体Codex如何改变工作",
+          "url": "https://openai.com/index/how-agents-are-transforming-work",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-25T02:00:00Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "OpenAI News",
+        "OpenAI：官网动态（RSS · 排除企业/客户案例）"
+      ],
+      "items": [
+        {
+          "id": "25f8b643aef3153af022603a8d1d4080dada1ce0",
+          "title": "OpenAI内部报告：智能体Codex如何改变工作 / How agents are transforming work",
+          "url": "https://openai.com/index/how-agents-are-transforming-work",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-25T02:00:00Z"
+        },
+        {
+          "id": "a81bbc184761945898d9e8c69f145b9699dfe6d5",
+          "title": "OpenAI内部报告：智能体Codex如何改变工作",
+          "url": "https://openai.com/index/how-agents-are-transforming-work",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-25T02:00:00Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.8313,
+      "importance": 0.8313,
+      "importance_score": 0.8313,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.7462,
+        "story_heat": 0.25
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-25T02:00:00Z",
+      "latest_at": "2026-06-25T02:00:00Z",
+      "primary_item": {
+        "id": "25f8b643aef3153af022603a8d1d4080dada1ce0",
+        "title": "OpenAI内部报告：智能体Codex如何改变工作 / How agents are transforming work",
+        "url": "https://openai.com/index/how-agents-are-transforming-work",
+        "source": "OpenAI News",
         "source_name": "Official AI Updates"
       }
     },
@@ -100,15 +400,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8326,
-      "importance": 0.8326,
-      "importance_score": 0.8326,
+      "score": 0.8284,
+      "importance": 0.8284,
+      "importance_score": 0.8284,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.9364,
+        "recency": 0.9134,
         "story_heat": 0.0
       },
       "category": "official",
@@ -124,168 +424,6 @@
         "title": "我们最新的 Google 财经升级，包括新应用 / Our latest Google Finance upgrades, including a new app",
         "url": "https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026",
         "source": "Google AI Blog",
-        "source_name": "Official AI Updates"
-      }
-    },
-    {
-      "story_id": "story_97db0890a77a",
-      "title": "Anthropic 称阿里巴巴必须为最大规模 Claude 克隆攻击受罚",
-      "url": "https://arstechnica.com/tech-policy/2026/06/anthropic-claims-alibaba-defied-trump-to-attack-claude-and-steal-capabilities",
-      "primary_url": "https://arstechnica.com/tech-policy/2026/06/anthropic-claims-alibaba-defied-trump-to-attack-claude-and-steal-capabilities",
-      "source": "Ars Technica：AI（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "c532b203287caef5ac570ef294a3ba9b6bfeb06e",
-          "title": "Anthropic 称阿里巴巴必须为最大规模 Claude 克隆攻击受罚",
-          "url": "https://arstechnica.com/tech-policy/2026/06/anthropic-claims-alibaba-defied-trump-to-attack-claude-and-steal-capabilities",
-          "source": "Ars Technica：AI（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-25T18:01:48Z"
-        },
-        {
-          "id": "369cfec96ad8bfc7db787884d8c291507fbdb200",
-          "title": "Anthropic表示，阿里巴巴必须为这起最大规模的Claude克隆攻击事件受到惩罚",
-          "url": "https://arstechnica.com/tech-policy/2026/06/anthropic-claims-alibaba-defied-trump-to-attack-claude-and-steal-capabilities",
-          "source": "arstechnica.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-25T20:11:57.386000Z"
-        },
-        {
-          "id": "ec9c39bc4323f40dc028ad5997ab40a0bd3b27ff",
-          "title": "Anthropic 称阿里巴巴必须为最大规模 Claude 克隆攻击受罚 / Anthropic says Alibaba must be punished for largest Claude cloning attack",
-          "url": "https://arstechnica.com/tech-policy/2026/06/anthropic-claims-alibaba-defied-trump-to-attack-claude-and-steal-capabilities",
-          "source": "Ars Technica",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-25T18:01:48Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Ars Technica",
-        "Ars Technica：AI（RSS）",
-        "arstechnica.com"
-      ],
-      "items": [
-        {
-          "id": "c532b203287caef5ac570ef294a3ba9b6bfeb06e",
-          "title": "Anthropic 称阿里巴巴必须为最大规模 Claude 克隆攻击受罚",
-          "url": "https://arstechnica.com/tech-policy/2026/06/anthropic-claims-alibaba-defied-trump-to-attack-claude-and-steal-capabilities",
-          "source": "Ars Technica：AI（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-25T18:01:48Z"
-        },
-        {
-          "id": "369cfec96ad8bfc7db787884d8c291507fbdb200",
-          "title": "Anthropic表示，阿里巴巴必须为这起最大规模的Claude克隆攻击事件受到惩罚",
-          "url": "https://arstechnica.com/tech-policy/2026/06/anthropic-claims-alibaba-defied-trump-to-attack-claude-and-steal-capabilities",
-          "source": "arstechnica.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-25T20:11:57.386000Z"
-        },
-        {
-          "id": "ec9c39bc4323f40dc028ad5997ab40a0bd3b27ff",
-          "title": "Anthropic 称阿里巴巴必须为最大规模 Claude 克隆攻击受罚 / Anthropic says Alibaba must be punished for largest Claude cloning attack",
-          "url": "https://arstechnica.com/tech-policy/2026/06/anthropic-claims-alibaba-defied-trump-to-attack-claude-and-steal-capabilities",
-          "source": "Ars Technica",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-25T18:01:48Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.8142,
-      "importance": 0.8142,
-      "importance_score": 0.8142,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.73,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9643,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-25T18:01:48Z",
-      "latest_at": "2026-06-25T20:11:57.386000Z",
-      "primary_item": {
-        "id": "c532b203287caef5ac570ef294a3ba9b6bfeb06e",
-        "title": "Anthropic 称阿里巴巴必须为最大规模 Claude 克隆攻击受罚",
-        "url": "https://arstechnica.com/tech-policy/2026/06/anthropic-claims-alibaba-defied-trump-to-attack-claude-and-steal-capabilities",
-        "source": "Ars Technica：AI（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_2b6976f96bb5",
-      "title": "客服人员如何改变工作方式 / How agents are transforming work",
-      "url": "https://openai.com/index/how-agents-are-transforming-work",
-      "primary_url": "https://openai.com/index/how-agents-are-transforming-work",
-      "source": "OpenAI News",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "25f8b643aef3153af022603a8d1d4080dada1ce0",
-          "title": "客服人员如何改变工作方式 / How agents are transforming work",
-          "url": "https://openai.com/index/how-agents-are-transforming-work",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-25T02:00:00Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "OpenAI News"
-      ],
-      "items": [
-        {
-          "id": "25f8b643aef3153af022603a8d1d4080dada1ce0",
-          "title": "客服人员如何改变工作方式 / How agents are transforming work",
-          "url": "https://openai.com/index/how-agents-are-transforming-work",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-25T02:00:00Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8097,
-      "importance": 0.8097,
-      "importance_score": 0.8097,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.765,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-25T02:00:00Z",
-      "latest_at": "2026-06-25T02:00:00Z",
-      "primary_item": {
-        "id": "25f8b643aef3153af022603a8d1d4080dada1ce0",
-        "title": "客服人员如何改变工作方式 / How agents are transforming work",
-        "url": "https://openai.com/index/how-agents-are-transforming-work",
-        "source": "OpenAI News",
         "source_name": "Official AI Updates"
       }
     },
@@ -324,15 +462,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8382,
-      "importance": 0.8382,
-      "importance_score": 0.8382,
+      "score": 0.8339,
+      "importance": 0.8339,
+      "importance_score": 0.8339,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.9678,
+        "recency": 0.944,
         "story_heat": 0.0
       },
       "category": "official",
@@ -369,8 +507,8 @@
           "published_at": "2026-06-25T18:03:58.685000Z"
         },
         {
-          "id": "aab501b3d2f5f214da3110a854c9317af3aedcb2",
-          "title": "赫库兰尼姆古卷首次被完整虚拟解读 / A Herculaneum scroll has been read for the first time",
+          "id": "e21f5280e910c528b4fd8d706dc45e9aecb4a523",
+          "title": "赫库兰尼姆古卷首次被完整虚拟解读 / An entire Herculaneum scroll has been read for the first time",
           "url": "https://scrollprize.org/firstscroll",
           "source": "Hacker News · 24h最热",
           "source_name": "Zeli",
@@ -394,8 +532,8 @@
           "published_at": "2026-06-25T18:03:58.685000Z"
         },
         {
-          "id": "aab501b3d2f5f214da3110a854c9317af3aedcb2",
-          "title": "赫库兰尼姆古卷首次被完整虚拟解读 / A Herculaneum scroll has been read for the first time",
+          "id": "e21f5280e910c528b4fd8d706dc45e9aecb4a523",
+          "title": "赫库兰尼姆古卷首次被完整虚拟解读 / An entire Herculaneum scroll has been read for the first time",
           "url": "https://scrollprize.org/firstscroll",
           "source": "Hacker News · 24h最热",
           "source_name": "Zeli",
@@ -405,15 +543,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8073,
-      "importance": 0.8073,
-      "importance_score": 0.8073,
+      "score": 0.803,
+      "importance": 0.803,
+      "importance_score": 0.803,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.79,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9648,
+        "recency": 0.9411,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -467,15 +605,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7878,
-      "importance": 0.7878,
-      "importance_score": 0.7878,
+      "score": 0.7835,
+      "importance": 0.7835,
+      "importance_score": 0.7835,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.8,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.979,
+        "recency": 0.9549,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -547,15 +685,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7843,
-      "importance": 0.7843,
-      "importance_score": 0.7843,
+      "score": 0.7802,
+      "importance": 0.7802,
+      "importance_score": 0.7802,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.73,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9375,
+        "recency": 0.9144,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -628,15 +766,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7782,
-      "importance": 0.7782,
-      "importance_score": 0.7782,
+      "score": 0.774,
+      "importance": 0.774,
+      "importance_score": 0.774,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.71,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9364,
+        "recency": 0.9134,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -709,15 +847,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8063,
-      "importance": 0.8063,
-      "importance_score": 0.8063,
+      "score": 0.802,
+      "importance": 0.802,
+      "importance_score": 0.802,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.78,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.976,
+        "recency": 0.9521,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -771,15 +909,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8344,
-      "importance": 0.8344,
-      "importance_score": 0.8344,
+      "score": 0.8303,
+      "importance": 0.8303,
+      "importance_score": 0.8303,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.9469,
+        "recency": 0.9236,
         "story_heat": 0.0
       },
       "category": "official",
@@ -833,15 +971,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.767,
-      "importance": 0.767,
-      "importance_score": 0.767,
+      "score": 0.7629,
+      "importance": 0.7629,
+      "importance_score": 0.7629,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.76,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9298,
+        "recency": 0.907,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -856,6 +994,87 @@
         "title": "Ornith-1.0 开源模型家族发布，专注 Agentic Coding 全参数规模",
         "url": "https://x.com/berryxia/status/2070167806700908957",
         "source": "X：Berry Xia (@berryxia)",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_b8e39c432dda",
+      "title": "Claude Code v2.1.193 发布",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.193",
+      "primary_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.193",
+      "source": "Claude Code：GitHub Releases（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "f3f846fd9b895612e14ed41b18f656d772f0d058",
+          "title": "Claude Code v2.1.193 发布",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.193",
+          "source": "Claude Code：GitHub Releases（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-25T21:45:57Z"
+        },
+        {
+          "id": "202dd03e7ef066f17058c1d5a38e322aaa0184eb",
+          "title": "v2.1.193",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.193",
+          "source": "Claude Code Releases",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-06-25T21:45:57Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Claude Code Releases",
+        "Claude Code：GitHub Releases（RSS）"
+      ],
+      "items": [
+        {
+          "id": "f3f846fd9b895612e14ed41b18f656d772f0d058",
+          "title": "Claude Code v2.1.193 发布",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.193",
+          "source": "Claude Code：GitHub Releases（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-25T21:45:57Z"
+        },
+        {
+          "id": "202dd03e7ef066f17058c1d5a38e322aaa0184eb",
+          "title": "v2.1.193",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.193",
+          "source": "Claude Code Releases",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-06-25T21:45:57Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7583,
+      "importance": 0.7583,
+      "importance_score": 0.7583,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.61,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9927,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-25T21:45:57Z",
+      "latest_at": "2026-06-25T21:45:57Z",
+      "primary_item": {
+        "id": "f3f846fd9b895612e14ed41b18f656d772f0d058",
+        "title": "Claude Code v2.1.193 发布",
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.193",
+        "source": "Claude Code：GitHub Releases（RSS）",
         "source_name": "AI HOT"
       }
     },
@@ -913,15 +1132,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7606,
-      "importance": 0.7606,
-      "importance_score": 0.7606,
+      "score": 0.7565,
+      "importance": 0.7565,
+      "importance_score": 0.7565,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.65,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9391,
+        "recency": 0.916,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -975,15 +1194,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7592,
-      "importance": 0.7592,
-      "importance_score": 0.7592,
+      "score": 0.755,
+      "importance": 0.755,
+      "importance_score": 0.755,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.73,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9365,
+        "recency": 0.9135,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1055,15 +1274,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7557,
-      "importance": 0.7557,
-      "importance_score": 0.7557,
+      "score": 0.7522,
+      "importance": 0.7522,
+      "importance_score": 0.7522,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7952,
+        "recency": 0.7757,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -1080,6 +1299,127 @@
         "url": "https://www.aibase.com/news/29154",
         "source": "AIbase",
         "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_05940679bf9e",
+      "title": "Codex 在 ChatGPT 移动 App 正式可用",
+      "url": "https://x.com/OpenAIDevs/status/2070254532911882707",
+      "primary_url": "https://x.com/OpenAIDevs/status/2070254532911882707",
+      "source": "X：OpenAI Developers (@OpenAIDevs)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "1bdcd2ad0adf074dc40720371aade9e20a5fe73d",
+          "title": "Codex 在 ChatGPT 移动 App 正式可用",
+          "url": "https://x.com/OpenAIDevs/status/2070254532911882707",
+          "source": "X：OpenAI Developers (@OpenAIDevs)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-25T21:15:18Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "X：OpenAI Developers (@OpenAIDevs)"
+      ],
+      "items": [
+        {
+          "id": "1bdcd2ad0adf074dc40720371aade9e20a5fe73d",
+          "title": "Codex 在 ChatGPT 移动 App 正式可用",
+          "url": "https://x.com/OpenAIDevs/status/2070254532911882707",
+          "source": "X：OpenAI Developers (@OpenAIDevs)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-25T21:15:18Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.747,
+      "importance": 0.747,
+      "importance_score": 0.747,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.66,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9854,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-06-25T21:15:18Z",
+      "latest_at": "2026-06-25T21:15:18Z",
+      "primary_item": {
+        "id": "1bdcd2ad0adf074dc40720371aade9e20a5fe73d",
+        "title": "Codex 在 ChatGPT 移动 App 正式可用",
+        "url": "https://x.com/OpenAIDevs/status/2070254532911882707",
+        "source": "X：OpenAI Developers (@OpenAIDevs)",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_e2127d901497",
+      "title": "美国政府要求OpenAI暂缓GPT-5.6广泛发布",
+      "url": "https://x.com/rohanpaul_ai/status/2070252433109049466",
+      "primary_url": "https://x.com/rohanpaul_ai/status/2070252433109049466",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "72ccddf02cf09d26a12239f6ba3617184a843d5d",
+          "title": "美国政府要求OpenAI暂缓GPT-5.6广泛发布",
+          "url": "https://x.com/rohanpaul_ai/status/2070252433109049466",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-25T21:06:58Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "X：Rohan Paul (@rohanpaul_ai)"
+      ],
+      "items": [
+        {
+          "id": "72ccddf02cf09d26a12239f6ba3617184a843d5d",
+          "title": "美国政府要求OpenAI暂缓GPT-5.6广泛发布",
+          "url": "https://x.com/rohanpaul_ai/status/2070252433109049466",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-25T21:06:58Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7766,
+      "importance": 0.7766,
+      "importance_score": 0.7766,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.76,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9835,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-25T21:06:58Z",
+      "latest_at": "2026-06-25T21:06:58Z",
+      "primary_item": {
+        "id": "72ccddf02cf09d26a12239f6ba3617184a843d5d",
+        "title": "美国政府要求OpenAI暂缓GPT-5.6广泛发布",
+        "url": "https://x.com/rohanpaul_ai/status/2070252433109049466",
+        "source": "X：Rohan Paul (@rohanpaul_ai)",
+        "source_name": "AI HOT"
       }
     },
     {
@@ -1117,15 +1457,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7491,
-      "importance": 0.7491,
-      "importance_score": 0.7491,
+      "score": 0.7448,
+      "importance": 0.7448,
+      "importance_score": 0.7448,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.67,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9805,
+        "recency": 0.9564,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1139,269 +1479,6 @@
         "title": "Midjourney 预览 V8.2 并加速草稿模式",
         "url": "https://x.com/midjourney/status/2070223272072065228",
         "source": "X：Midjourney (@midjourney)",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_95af1288ca5c",
-      "title": "npm 为高影响力帐户添加了预防性帐户保护 / npm adds preventive account protection for high-impact accounts",
-      "url": "https://github.blog/changelog/2026-06-25-npm-adds-preventive-account-protection-for-high-impact-accounts",
-      "primary_url": "https://github.blog/changelog/2026-06-25-npm-adds-preventive-account-protection-for-high-impact-accounts",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "655a83565bd0c4044b82a9a388e64fc66c2a39d8",
-          "title": "npm 为高影响力帐户添加了预防性帐户保护 / npm adds preventive account protection for high-impact accounts",
-          "url": "https://github.blog/changelog/2026-06-25-npm-adds-preventive-account-protection-for-high-impact-accounts",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-25T16:02:09Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "items": [
-        {
-          "id": "655a83565bd0c4044b82a9a388e64fc66c2a39d8",
-          "title": "npm 为高影响力帐户添加了预防性帐户保护 / npm adds preventive account protection for high-impact accounts",
-          "url": "https://github.blog/changelog/2026-06-25-npm-adds-preventive-account-protection-for-high-impact-accounts",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-25T16:02:09Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8326,
-      "importance": 0.8326,
-      "importance_score": 0.8326,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.9369,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-25T16:02:09Z",
-      "latest_at": "2026-06-25T16:02:09Z",
-      "primary_item": {
-        "id": "655a83565bd0c4044b82a9a388e64fc66c2a39d8",
-        "title": "npm 为高影响力帐户添加了预防性帐户保护 / npm adds preventive account protection for high-impact accounts",
-        "url": "https://github.blog/changelog/2026-06-25-npm-adds-preventive-account-protection-for-high-impact-accounts",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
-      }
-    },
-    {
-      "story_id": "story_3b47139284ff",
-      "title": "Runway发布Agent 2.0",
-      "url": "https://runwayml.com/news/introducing-agent-2",
-      "primary_url": "https://runwayml.com/news/introducing-agent-2",
-      "source": "Runway：News（网页）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "fd916869589ae57b07a9f67eb6e5d410595e6308",
-          "title": "Runway发布Agent 2.0",
-          "url": "https://runwayml.com/news/introducing-agent-2",
-          "source": "Runway：News（网页）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-25T18:41:58.502000Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Runway：News（网页）"
-      ],
-      "items": [
-        {
-          "id": "fd916869589ae57b07a9f67eb6e5d410595e6308",
-          "title": "Runway发布Agent 2.0",
-          "url": "https://runwayml.com/news/introducing-agent-2",
-          "source": "Runway：News（网页）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-25T18:41:58.502000Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7419,
-      "importance": 0.7419,
-      "importance_score": 0.7419,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.65,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9737,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-25T18:41:58.502000Z",
-      "latest_at": "2026-06-25T18:41:58.502000Z",
-      "primary_item": {
-        "id": "fd916869589ae57b07a9f67eb6e5d410595e6308",
-        "title": "Runway发布Agent 2.0",
-        "url": "https://runwayml.com/news/introducing-agent-2",
-        "source": "Runway：News（网页）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_aca744981808",
-      "title": "Meta员工警告AI内容审核部署过快",
-      "url": "https://the-decoder.com/meta-employees-warn-ai-moderation-rollout-is-too-fast",
-      "primary_url": "https://the-decoder.com/meta-employees-warn-ai-moderation-rollout-is-too-fast",
-      "source": "The Decoder：AI News（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "f5756c16f98363a5d9c312984eaae6ccb9b989f5",
-          "title": "Meta员工警告AI内容审核部署过快",
-          "url": "https://the-decoder.com/meta-employees-warn-ai-moderation-rollout-is-too-fast",
-          "source": "The Decoder：AI News（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-25T10:07:19Z"
-        },
-        {
-          "id": "164c783c2c761864c4d62ea7f43e66d24c926ad0",
-          "title": "Meta员工警告AI内容审核部署过快 / Meta employees warn AI moderation rollout is too fast",
-          "url": "https://the-decoder.com/meta-employees-warn-ai-moderation-rollout-is-too-fast",
-          "source": "The Decoder AI News",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-06-25T10:07:19Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "The Decoder AI News",
-        "The Decoder：AI News（RSS）"
-      ],
-      "items": [
-        {
-          "id": "f5756c16f98363a5d9c312984eaae6ccb9b989f5",
-          "title": "Meta员工警告AI内容审核部署过快",
-          "url": "https://the-decoder.com/meta-employees-warn-ai-moderation-rollout-is-too-fast",
-          "source": "The Decoder：AI News（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-25T10:07:19Z"
-        },
-        {
-          "id": "164c783c2c761864c4d62ea7f43e66d24c926ad0",
-          "title": "Meta员工警告AI内容审核部署过快 / Meta employees warn AI moderation rollout is too fast",
-          "url": "https://the-decoder.com/meta-employees-warn-ai-moderation-rollout-is-too-fast",
-          "source": "The Decoder AI News",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-06-25T10:07:19Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7704,
-      "importance": 0.7704,
-      "importance_score": 0.7704,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.73,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8602,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-25T10:07:19Z",
-      "latest_at": "2026-06-25T10:07:19Z",
-      "primary_item": {
-        "id": "f5756c16f98363a5d9c312984eaae6ccb9b989f5",
-        "title": "Meta员工警告AI内容审核部署过快",
-        "url": "https://the-decoder.com/meta-employees-warn-ai-moderation-rollout-is-too-fast",
-        "source": "The Decoder：AI News（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_f7ea1bd9178e",
-      "title": "Midjourney V8.1 草稿模式新增随机风格功能",
-      "url": "https://updates.midjourney.com/random-styles-in-draft-mode",
-      "primary_url": "https://updates.midjourney.com/random-styles-in-draft-mode",
-      "source": "Midjourney：Updates（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "8403befab3ab2b42b0e4d35e704d383ead1ce678",
-          "title": "Midjourney V8.1 草稿模式新增随机风格功能",
-          "url": "https://updates.midjourney.com/random-styles-in-draft-mode",
-          "source": "Midjourney：Updates（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-25T18:50:16Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Midjourney：Updates（RSS）"
-      ],
-      "items": [
-        {
-          "id": "8403befab3ab2b42b0e4d35e704d383ead1ce678",
-          "title": "Midjourney V8.1 草稿模式新增随机风格功能",
-          "url": "https://updates.midjourney.com/random-styles-in-draft-mode",
-          "source": "Midjourney：Updates（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-25T18:50:16Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7332,
-      "importance": 0.7332,
-      "importance_score": 0.7332,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.62,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9756,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-25T18:50:16Z",
-      "latest_at": "2026-06-25T18:50:16Z",
-      "primary_item": {
-        "id": "8403befab3ab2b42b0e4d35e704d383ead1ce678",
-        "title": "Midjourney V8.1 草稿模式新增随机风格功能",
-        "url": "https://updates.midjourney.com/random-styles-in-draft-mode",
-        "source": "Midjourney：Updates（RSS）",
         "source_name": "AI HOT"
       }
     }
