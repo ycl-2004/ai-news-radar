@@ -1,22 +1,8 @@
 {
-  "generated_at": "2026-06-25T08:18:17.801339Z",
+  "generated_at": "2026-06-25T11:12:38.027616Z",
   "merge_strategy": "url_or_title_similarity_v0_6",
-  "total_events": 60,
+  "total_events": 66,
   "events": [
-    {
-      "story_id": "story_f452558f3ad1",
-      "item_id": "99fb9bde096d7c3d3cff3c46c372bf1570ca1e0e",
-      "merged_into": "story_f452558f3ad1",
-      "reason": "canonical_url",
-      "similarity": 1.0
-    },
-    {
-      "story_id": "story_30cd40a8fc44",
-      "item_id": "21fe8293abbdf56608fffa5374384907dece61b3",
-      "merged_into": "story_30cd40a8fc44",
-      "reason": "title_similarity",
-      "similarity": 0.9647
-    },
     {
       "story_id": "story_a24cabc0b7cd",
       "item_id": "adda9c3e144782eaa8f955dcb366da63b2ca4f5e",
@@ -133,13 +119,6 @@
       "story_id": "story_7428bfb3844f",
       "item_id": "806940300de743c5158f23b42643e86cc9776a0a",
       "merged_into": "story_7428bfb3844f",
-      "reason": "canonical_url",
-      "similarity": 1.0
-    },
-    {
-      "story_id": "story_406644e73091",
-      "item_id": "f52ef945394b9ad7673e8bb6108ab87e702c3f09",
-      "merged_into": "story_406644e73091",
       "reason": "canonical_url",
       "similarity": 1.0
     },
@@ -277,6 +256,13 @@
       "similarity": 1.0
     },
     {
+      "story_id": "story_406644e73091",
+      "item_id": "6f2bae005e08538d9edac2400d6bbb26ea807406",
+      "merged_into": "story_406644e73091",
+      "reason": "title_similarity",
+      "similarity": 1.0
+    },
+    {
       "story_id": "story_8920bc1fc121",
       "item_id": "b6638a1bfb6b9d73056f12c282b4ec8c06da067e",
       "merged_into": "story_8920bc1fc121",
@@ -375,9 +361,9 @@
       "similarity": 1.0
     },
     {
-      "story_id": "story_2be0b7fff25f",
-      "item_id": "1b264eb6d8ca76c69daea28ecea1450488ee6b69",
-      "merged_into": "story_2be0b7fff25f",
+      "story_id": "story_5005c44be219",
+      "item_id": "eb0f9c79cd82628f9f71e8571952cb3a548f77b7",
+      "merged_into": "story_5005c44be219",
       "reason": "title_similarity",
       "similarity": 0.9586
     },
@@ -419,6 +405,62 @@
     {
       "story_id": "story_2df82173bb28",
       "item_id": "1794db05181c851d959a10bc62f76065d7fc716c",
+      "merged_into": "story_2df82173bb28",
+      "reason": "canonical_url",
+      "similarity": 1.0
+    },
+    {
+      "story_id": "story_620ff2db0377",
+      "item_id": "c6c28c291c1a64d5cda7932f79cba7ba230c379f",
+      "merged_into": "story_620ff2db0377",
+      "reason": "canonical_url",
+      "similarity": 1.0
+    },
+    {
+      "story_id": "story_ede7a26b0801",
+      "item_id": "7a1298aca5073ec54e2e877e70360bb0785b1160",
+      "merged_into": "story_ede7a26b0801",
+      "reason": "canonical_url",
+      "similarity": 1.0
+    },
+    {
+      "story_id": "story_aca744981808",
+      "item_id": "f5756c16f98363a5d9c312984eaae6ccb9b989f5",
+      "merged_into": "story_aca744981808",
+      "reason": "canonical_url",
+      "similarity": 1.0
+    },
+    {
+      "story_id": "story_62e5c089e9e2",
+      "item_id": "28222aeeb8586626d38ed536bf9819c543c7f4e5",
+      "merged_into": "story_62e5c089e9e2",
+      "reason": "canonical_url",
+      "similarity": 1.0
+    },
+    {
+      "story_id": "story_f0f05f531712",
+      "item_id": "4f7aec70ecf9626da1e1d3e0873f3616ae1bde59",
+      "merged_into": "story_f0f05f531712",
+      "reason": "canonical_url",
+      "similarity": 1.0
+    },
+    {
+      "story_id": "story_ae822d18f410",
+      "item_id": "cea4d4cdbbbd46c0860b8cd331a972e03b400548",
+      "merged_into": "story_ae822d18f410",
+      "reason": "canonical_url",
+      "similarity": 1.0
+    },
+    {
+      "story_id": "story_dd9256881ba9",
+      "item_id": "9e367224f82168a1b17adcdf8151d2b07784e765",
+      "merged_into": "story_dd9256881ba9",
+      "reason": "canonical_url",
+      "similarity": 1.0
+    },
+    {
+      "story_id": "story_2df82173bb28",
+      "item_id": "7c8d6d7b5b66bf7f4584ae7bf0482ac4be39d149",
       "merged_into": "story_2df82173bb28",
       "reason": "canonical_url",
       "similarity": 1.0

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T08:18:17.801339Z",
+  "generated_at": "2026-06-25T11:12:38.027616Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -57,15 +57,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8552,
-      "importance": 0.8552,
-      "importance_score": 0.8552,
+      "score": 0.8494,
+      "importance": 0.8494,
+      "importance_score": 0.8494,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.99,
-        "recency": 0.7903,
+        "recency": 0.7578,
         "story_heat": 0.25
       },
       "category": "official",
@@ -82,6 +82,68 @@
         "title": "NVIDIA NeMo AutoModel：一行代码加速Transformer MoE模型微调 / Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel",
         "url": "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel",
         "source": "Hugging Face Blog",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_2b6976f96bb5",
+      "title": "客服人员如何改变工作方式 / How agents are transforming work",
+      "url": "https://openai.com/index/how-agents-are-transforming-work",
+      "primary_url": "https://openai.com/index/how-agents-are-transforming-work",
+      "source": "OpenAI News",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "25f8b643aef3153af022603a8d1d4080dada1ce0",
+          "title": "客服人员如何改变工作方式 / How agents are transforming work",
+          "url": "https://openai.com/index/how-agents-are-transforming-work",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-25T02:00:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "OpenAI News"
+      ],
+      "items": [
+        {
+          "id": "25f8b643aef3153af022603a8d1d4080dada1ce0",
+          "title": "客服人员如何改变工作方式 / How agents are transforming work",
+          "url": "https://openai.com/index/how-agents-are-transforming-work",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-25T02:00:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8296,
+      "importance": 0.8296,
+      "importance_score": 0.8296,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.8755,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-25T02:00:00Z",
+      "latest_at": "2026-06-25T02:00:00Z",
+      "primary_item": {
+        "id": "25f8b643aef3153af022603a8d1d4080dada1ce0",
+        "title": "客服人员如何改变工作方式 / How agents are transforming work",
+        "url": "https://openai.com/index/how-agents-are-transforming-work",
+        "source": "OpenAI News",
         "source_name": "Official AI Updates"
       }
     },
@@ -177,15 +239,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.8195,
-      "importance": 0.8195,
-      "importance_score": 0.8195,
+      "score": 0.8138,
+      "importance": 0.8138,
+      "importance_score": 0.8138,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.78,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7715,
+        "recency": 0.7398,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -239,15 +301,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8153,
-      "importance": 0.8153,
-      "importance_score": 0.8153,
+      "score": 0.8094,
+      "importance": 0.8094,
+      "importance_score": 0.8094,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.7959,
+        "recency": 0.7632,
         "story_heat": 0.0
       },
       "category": "official",
@@ -301,15 +363,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8079,
-      "importance": 0.8079,
-      "importance_score": 0.8079,
+      "score": 0.802,
+      "importance": 0.802,
+      "importance_score": 0.802,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.7993,
+        "recency": 0.7664,
         "story_heat": 0.0
       },
       "category": "official",
@@ -326,6 +388,87 @@
         "url": "https://github.blog/changelog/2026-06-24-self-service-credential-revocation-for-incident-response",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_aca744981808",
+      "title": "Meta员工警告AI内容审核部署过快",
+      "url": "https://the-decoder.com/meta-employees-warn-ai-moderation-rollout-is-too-fast",
+      "primary_url": "https://the-decoder.com/meta-employees-warn-ai-moderation-rollout-is-too-fast",
+      "source": "The Decoder：AI News（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "f5756c16f98363a5d9c312984eaae6ccb9b989f5",
+          "title": "Meta员工警告AI内容审核部署过快",
+          "url": "https://the-decoder.com/meta-employees-warn-ai-moderation-rollout-is-too-fast",
+          "source": "The Decoder：AI News（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-25T10:07:19Z"
+        },
+        {
+          "id": "164c783c2c761864c4d62ea7f43e66d24c926ad0",
+          "title": "Meta员工警告AI内容审核部署过快 / Meta employees warn AI moderation rollout is too fast",
+          "url": "https://the-decoder.com/meta-employees-warn-ai-moderation-rollout-is-too-fast",
+          "source": "The Decoder AI News",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-06-25T10:07:19Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "The Decoder AI News",
+        "The Decoder：AI News（RSS）"
+      ],
+      "items": [
+        {
+          "id": "f5756c16f98363a5d9c312984eaae6ccb9b989f5",
+          "title": "Meta员工警告AI内容审核部署过快",
+          "url": "https://the-decoder.com/meta-employees-warn-ai-moderation-rollout-is-too-fast",
+          "source": "The Decoder：AI News（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-25T10:07:19Z"
+        },
+        {
+          "id": "164c783c2c761864c4d62ea7f43e66d24c926ad0",
+          "title": "Meta员工警告AI内容审核部署过快 / Meta employees warn AI moderation rollout is too fast",
+          "url": "https://the-decoder.com/meta-employees-warn-ai-moderation-rollout-is-too-fast",
+          "source": "The Decoder AI News",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-06-25T10:07:19Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7928,
+      "importance": 0.7928,
+      "importance_score": 0.7928,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.73,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9844,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-25T10:07:19Z",
+      "latest_at": "2026-06-25T10:07:19Z",
+      "primary_item": {
+        "id": "f5756c16f98363a5d9c312984eaae6ccb9b989f5",
+        "title": "Meta员工警告AI内容审核部署过快",
+        "url": "https://the-decoder.com/meta-employees-warn-ai-moderation-rollout-is-too-fast",
+        "source": "The Decoder：AI News（RSS）",
+        "source_name": "AI HOT"
       }
     },
     {
@@ -401,15 +544,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.8136,
-      "importance": 0.8136,
-      "importance_score": 0.8136,
+      "score": 0.8068,
+      "importance": 0.8068,
+      "importance_score": 0.8068,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.928,
+        "recency": 0.8899,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -429,7 +572,7 @@
       }
     },
     {
-      "story_id": "story_2be0b7fff25f",
+      "story_id": "story_5005c44be219",
       "title": "民航迈入“数智”新纪元：五部门联合部署，力推行业大模型应用",
       "url": "https://www.aibase.com/news/29154",
       "primary_url": "https://www.aibase.com/news/29154",
@@ -482,15 +625,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7834,
-      "importance": 0.7834,
-      "importance_score": 0.7834,
+      "score": 0.7764,
+      "importance": 0.7764,
+      "importance_score": 0.7764,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.949,
+        "recency": 0.91,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -544,15 +687,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8072,
-      "importance": 0.8072,
-      "importance_score": 0.8072,
+      "score": 0.8013,
+      "importance": 0.8013,
+      "importance_score": 0.8013,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.7957,
+        "recency": 0.763,
         "story_heat": 0.0
       },
       "category": "official",
@@ -569,87 +712,6 @@
         "url": "https://github.blog/changelog/2026-06-24-changes-to-model-selection-for-free-and-student-plans",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
-      }
-    },
-    {
-      "story_id": "story_cb8cf31b91ad",
-      "title": "Figma在Config 2026押注人类判断，画布AI能力却来自第三方",
-      "url": "https://the-decoder.com/figma-bets-on-human-judgment-at-config-2026-while-the-ai-powering-its-canvas-belongs-to-someone-else",
-      "primary_url": "https://the-decoder.com/figma-bets-on-human-judgment-at-config-2026-while-the-ai-powering-its-canvas-belongs-to-someone-else",
-      "source": "The Decoder：AI News（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "e803b1e857c45c8f6da733bc8a6fc37c64603b39",
-          "title": "Figma在Config 2026押注人类判断，画布AI能力却来自第三方",
-          "url": "https://the-decoder.com/figma-bets-on-human-judgment-at-config-2026-while-the-ai-powering-its-canvas-belongs-to-someone-else",
-          "source": "The Decoder：AI News（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-24T16:49:01Z"
-        },
-        {
-          "id": "cb7a253c9daf7aed75b878bb6bfd0ed852419c10",
-          "title": "Figma在Config 2026押注人类判断，画布AI能力却来自第三方 / Figma bets on human judgment at Config 2026 while the AI powering its canvas belongs to someone else",
-          "url": "https://the-decoder.com/figma-bets-on-human-judgment-at-config-2026-while-the-ai-powering-its-canvas-belongs-to-someone-else",
-          "source": "The Decoder AI News",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-06-24T16:49:01Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "The Decoder AI News",
-        "The Decoder：AI News（RSS）"
-      ],
-      "items": [
-        {
-          "id": "e803b1e857c45c8f6da733bc8a6fc37c64603b39",
-          "title": "Figma在Config 2026押注人类判断，画布AI能力却来自第三方",
-          "url": "https://the-decoder.com/figma-bets-on-human-judgment-at-config-2026-while-the-ai-powering-its-canvas-belongs-to-someone-else",
-          "source": "The Decoder：AI News（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-24T16:49:01Z"
-        },
-        {
-          "id": "cb7a253c9daf7aed75b878bb6bfd0ed852419c10",
-          "title": "Figma在Config 2026押注人类判断，画布AI能力却来自第三方 / Figma bets on human judgment at Config 2026 while the AI powering its canvas belongs to someone else",
-          "url": "https://the-decoder.com/figma-bets-on-human-judgment-at-config-2026-while-the-ai-powering-its-canvas-belongs-to-someone-else",
-          "source": "The Decoder AI News",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-06-24T16:49:01Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7625,
-      "importance": 0.7625,
-      "importance_score": 0.7625,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.74,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7996,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-24T16:49:01Z",
-      "latest_at": "2026-06-24T16:49:01Z",
-      "primary_item": {
-        "id": "e803b1e857c45c8f6da733bc8a6fc37c64603b39",
-        "title": "Figma在Config 2026押注人类判断，画布AI能力却来自第三方",
-        "url": "https://the-decoder.com/figma-bets-on-human-judgment-at-config-2026-while-the-ai-powering-its-canvas-belongs-to-someone-else",
-        "source": "The Decoder：AI News（RSS）",
-        "source_name": "AI HOT"
       }
     },
     {
@@ -706,15 +768,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7616,
-      "importance": 0.7616,
-      "importance_score": 0.7616,
+      "score": 0.7552,
+      "importance": 0.7552,
+      "importance_score": 0.7552,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.861,
+        "recency": 0.8257,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -787,15 +849,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.744,
-      "importance": 0.744,
-      "importance_score": 0.744,
+      "score": 0.738,
+      "importance": 0.738,
+      "importance_score": 0.738,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.67,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8134,
+        "recency": 0.78,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -814,21 +876,21 @@
       }
     },
     {
-      "story_id": "story_368b50ad3196",
-      "title": "2026全球独角兽总估值飙升43%:大模型点燃资本狂热，重塑全球科技产业重心",
-      "url": "https://www.aibase.com/news/29163",
-      "primary_url": "https://www.aibase.com/news/29163",
+      "story_id": "story_704fc70379f8",
+      "title": "​前印度信息技术巨头新创企业，欲用 AI 颠覆 IT 服务行业",
+      "url": "https://www.aibase.com/news/29167",
+      "primary_url": "https://www.aibase.com/news/29167",
       "source": "AIbase",
       "source_name": "AIbase",
       "sources": [
         {
-          "id": "bc8e2f3134db3fc30bb3e5e506e8ce5ecd39a5f8",
-          "title": "2026全球独角兽总估值飙升43%:大模型点燃资本狂热，重塑全球科技产业重心",
-          "url": "https://www.aibase.com/news/29163",
+          "id": "4789bd39bcbe84cffdb3fc2d595e79d5ce42450f",
+          "title": "​前印度信息技术巨头新创企业，欲用 AI 颠覆 IT 服务行业",
+          "url": "https://www.aibase.com/news/29167",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-06-25T08:18:17.801339Z"
+          "published_at": "2026-06-25T11:12:38.027616Z"
         }
       ],
       "source_count": 1,
@@ -837,13 +899,13 @@
       ],
       "items": [
         {
-          "id": "bc8e2f3134db3fc30bb3e5e506e8ce5ecd39a5f8",
-          "title": "2026全球独角兽总估值飙升43%:大模型点燃资本狂热，重塑全球科技产业重心",
-          "url": "https://www.aibase.com/news/29163",
+          "id": "4789bd39bcbe84cffdb3fc2d595e79d5ce42450f",
+          "title": "​前印度信息技术巨头新创企业，欲用 AI 颠覆 IT 服务行业",
+          "url": "https://www.aibase.com/news/29167",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-06-25T08:18:17.801339Z"
+          "published_at": "2026-06-25T11:12:38.027616Z"
         }
       ],
       "item_count": 1,
@@ -864,14 +926,95 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-06-25T08:18:17.801339Z",
-      "latest_at": "2026-06-25T08:18:17.801339Z",
+      "earliest_at": "2026-06-25T11:12:38.027616Z",
+      "latest_at": "2026-06-25T11:12:38.027616Z",
       "primary_item": {
-        "id": "bc8e2f3134db3fc30bb3e5e506e8ce5ecd39a5f8",
-        "title": "2026全球独角兽总估值飙升43%:大模型点燃资本狂热，重塑全球科技产业重心",
-        "url": "https://www.aibase.com/news/29163",
+        "id": "4789bd39bcbe84cffdb3fc2d595e79d5ce42450f",
+        "title": "​前印度信息技术巨头新创企业，欲用 AI 颠覆 IT 服务行业",
+        "url": "https://www.aibase.com/news/29167",
         "source": "AIbase",
         "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_cb8cf31b91ad",
+      "title": "Figma在Config 2026押注人类判断，画布AI能力却来自第三方",
+      "url": "https://the-decoder.com/figma-bets-on-human-judgment-at-config-2026-while-the-ai-powering-its-canvas-belongs-to-someone-else",
+      "primary_url": "https://the-decoder.com/figma-bets-on-human-judgment-at-config-2026-while-the-ai-powering-its-canvas-belongs-to-someone-else",
+      "source": "The Decoder：AI News（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "e803b1e857c45c8f6da733bc8a6fc37c64603b39",
+          "title": "Figma在Config 2026押注人类判断，画布AI能力却来自第三方",
+          "url": "https://the-decoder.com/figma-bets-on-human-judgment-at-config-2026-while-the-ai-powering-its-canvas-belongs-to-someone-else",
+          "source": "The Decoder：AI News（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-24T16:49:01Z"
+        },
+        {
+          "id": "cb7a253c9daf7aed75b878bb6bfd0ed852419c10",
+          "title": "Figma在Config 2026押注人类判断，画布AI能力却来自第三方 / Figma bets on human judgment at Config 2026 while the AI powering its canvas belongs to someone else",
+          "url": "https://the-decoder.com/figma-bets-on-human-judgment-at-config-2026-while-the-ai-powering-its-canvas-belongs-to-someone-else",
+          "source": "The Decoder AI News",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-06-24T16:49:01Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "The Decoder AI News",
+        "The Decoder：AI News（RSS）"
+      ],
+      "items": [
+        {
+          "id": "e803b1e857c45c8f6da733bc8a6fc37c64603b39",
+          "title": "Figma在Config 2026押注人类判断，画布AI能力却来自第三方",
+          "url": "https://the-decoder.com/figma-bets-on-human-judgment-at-config-2026-while-the-ai-powering-its-canvas-belongs-to-someone-else",
+          "source": "The Decoder：AI News（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-24T16:49:01Z"
+        },
+        {
+          "id": "cb7a253c9daf7aed75b878bb6bfd0ed852419c10",
+          "title": "Figma在Config 2026押注人类判断，画布AI能力却来自第三方 / Figma bets on human judgment at Config 2026 while the AI powering its canvas belongs to someone else",
+          "url": "https://the-decoder.com/figma-bets-on-human-judgment-at-config-2026-while-the-ai-powering-its-canvas-belongs-to-someone-else",
+          "source": "The Decoder AI News",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-06-24T16:49:01Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7566,
+      "importance": 0.7566,
+      "importance_score": 0.7566,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.74,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7667,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-24T16:49:01Z",
+      "latest_at": "2026-06-24T16:49:01Z",
+      "primary_item": {
+        "id": "e803b1e857c45c8f6da733bc8a6fc37c64603b39",
+        "title": "Figma在Config 2026押注人类判断，画布AI能力却来自第三方",
+        "url": "https://the-decoder.com/figma-bets-on-human-judgment-at-config-2026-while-the-ai-powering-its-canvas-belongs-to-someone-else",
+        "source": "The Decoder：AI News（RSS）",
+        "source_name": "AI HOT"
       }
     },
     {
@@ -909,15 +1052,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7319,
-      "importance": 0.7319,
-      "importance_score": 0.7319,
+      "score": 0.7262,
+      "importance": 0.7262,
+      "importance_score": 0.7262,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.74,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7682,
+        "recency": 0.7366,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1007,15 +1150,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.7881,
-      "importance": 0.7881,
-      "importance_score": 0.7881,
+      "score": 0.7818,
+      "importance": 0.7818,
+      "importance_score": 0.7818,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.71,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8527,
+        "recency": 0.8176,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1035,81 +1178,21 @@
       }
     },
     {
-      "story_id": "story_21352cf51e7e",
-      "title": "思考即回忆：推理如何解锁LLM中的参数化知识",
-      "url": "https://research.google/blog/thinking-to-recall-how-reasoning-unlocks-parametric-knowledge-in-llms",
-      "primary_url": "https://research.google/blog/thinking-to-recall-how-reasoning-unlocks-parametric-knowledge-in-llms",
-      "source": "Google Research：Blog（网页）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "c07dbd14106b1b242c33073a7d0ca612186c38e6",
-          "title": "思考即回忆：推理如何解锁LLM中的参数化知识",
-          "url": "https://research.google/blog/thinking-to-recall-how-reasoning-unlocks-parametric-knowledge-in-llms",
-          "source": "Google Research：Blog（网页）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-24T17:05:40.380000Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Google Research：Blog（网页）"
-      ],
-      "items": [
-        {
-          "id": "c07dbd14106b1b242c33073a7d0ca612186c38e6",
-          "title": "思考即回忆：推理如何解锁LLM中的参数化知识",
-          "url": "https://research.google/blog/thinking-to-recall-how-reasoning-unlocks-parametric-knowledge-in-llms",
-          "source": "Google Research：Blog（网页）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-24T17:05:40.380000Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7231,
-      "importance": 0.7231,
-      "importance_score": 0.7231,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.69,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8028,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-24T17:05:40.380000Z",
-      "latest_at": "2026-06-24T17:05:40.380000Z",
-      "primary_item": {
-        "id": "c07dbd14106b1b242c33073a7d0ca612186c38e6",
-        "title": "思考即回忆：推理如何解锁LLM中的参数化知识",
-        "url": "https://research.google/blog/thinking-to-recall-how-reasoning-unlocks-parametric-knowledge-in-llms",
-        "source": "Google Research：Blog（网页）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_203bda3d75bc",
-      "title": "3D生成领域的“中国黑马”：影眸科技斩获数亿融资，技术实力获英伟达青睐",
-      "url": "https://www.aibase.com/news/29162",
-      "primary_url": "https://www.aibase.com/news/29162",
+      "story_id": "story_eb42793d6d72",
+      "title": "​近 400 家地方报纸起诉 OpenAI 和微软，指控侵犯版权",
+      "url": "https://www.aibase.com/news/29171",
+      "primary_url": "https://www.aibase.com/news/29171",
       "source": "AIbase",
       "source_name": "AIbase",
       "sources": [
         {
-          "id": "591c2f1174b5caa71d619bd7c672bea9051f5ed0",
-          "title": "3D生成领域的“中国黑马”：影眸科技斩获数亿融资，技术实力获英伟达青睐",
-          "url": "https://www.aibase.com/news/29162",
+          "id": "b0b3ac2c0c8f5e0d8f88bf939abd896987b1ac08",
+          "title": "​近 400 家地方报纸起诉 OpenAI 和微软，指控侵犯版权",
+          "url": "https://www.aibase.com/news/29171",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-06-25T08:18:17.801339Z"
+          "published_at": "2026-06-25T11:12:38.027616Z"
         }
       ],
       "source_count": 1,
@@ -1118,13 +1201,13 @@
       ],
       "items": [
         {
-          "id": "591c2f1174b5caa71d619bd7c672bea9051f5ed0",
-          "title": "3D生成领域的“中国黑马”：影眸科技斩获数亿融资，技术实力获英伟达青睐",
-          "url": "https://www.aibase.com/news/29162",
+          "id": "b0b3ac2c0c8f5e0d8f88bf939abd896987b1ac08",
+          "title": "​近 400 家地方报纸起诉 OpenAI 和微软，指控侵犯版权",
+          "url": "https://www.aibase.com/news/29171",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-06-25T08:18:17.801339Z"
+          "published_at": "2026-06-25T11:12:38.027616Z"
         }
       ],
       "item_count": 1,
@@ -1145,32 +1228,32 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-06-25T08:18:17.801339Z",
-      "latest_at": "2026-06-25T08:18:17.801339Z",
+      "earliest_at": "2026-06-25T11:12:38.027616Z",
+      "latest_at": "2026-06-25T11:12:38.027616Z",
       "primary_item": {
-        "id": "591c2f1174b5caa71d619bd7c672bea9051f5ed0",
-        "title": "3D生成领域的“中国黑马”：影眸科技斩获数亿融资，技术实力获英伟达青睐",
-        "url": "https://www.aibase.com/news/29162",
+        "id": "b0b3ac2c0c8f5e0d8f88bf939abd896987b1ac08",
+        "title": "​近 400 家地方报纸起诉 OpenAI 和微软，指控侵犯版权",
+        "url": "https://www.aibase.com/news/29171",
         "source": "AIbase",
         "source_name": "AIbase"
       }
     },
     {
-      "story_id": "story_0f57d6dd1ad6",
-      "title": "AI 框选即问！谷歌 Chrome 149 携手 Gemini 3.5 Flash 升级截屏交互",
-      "url": "https://www.aibase.com/news/29160",
-      "primary_url": "https://www.aibase.com/news/29160",
+      "story_id": "story_60ea0916c4c0",
+      "title": "商汤科技挺进智能体赛道：全新“全模态”基座蓄势待发",
+      "url": "https://www.aibase.com/news/29169",
+      "primary_url": "https://www.aibase.com/news/29169",
       "source": "AIbase",
       "source_name": "AIbase",
       "sources": [
         {
-          "id": "6aa469fa48073a20312886f579ad0550a1858f10",
-          "title": "AI 框选即问！谷歌 Chrome 149 携手 Gemini 3.5 Flash 升级截屏交互",
-          "url": "https://www.aibase.com/news/29160",
+          "id": "3dabe9aaeddd6a41ccadf293d94e090cb24a071e",
+          "title": "商汤科技挺进智能体赛道：全新“全模态”基座蓄势待发",
+          "url": "https://www.aibase.com/news/29169",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-06-25T08:18:17.801339Z"
+          "published_at": "2026-06-25T11:12:38.027616Z"
         }
       ],
       "source_count": 1,
@@ -1179,13 +1262,13 @@
       ],
       "items": [
         {
-          "id": "6aa469fa48073a20312886f579ad0550a1858f10",
-          "title": "AI 框选即问！谷歌 Chrome 149 携手 Gemini 3.5 Flash 升级截屏交互",
-          "url": "https://www.aibase.com/news/29160",
+          "id": "3dabe9aaeddd6a41ccadf293d94e090cb24a071e",
+          "title": "商汤科技挺进智能体赛道：全新“全模态”基座蓄势待发",
+          "url": "https://www.aibase.com/news/29169",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-06-25T08:18:17.801339Z"
+          "published_at": "2026-06-25T11:12:38.027616Z"
         }
       ],
       "item_count": 1,
@@ -1206,25 +1289,34 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-06-25T08:18:17.801339Z",
-      "latest_at": "2026-06-25T08:18:17.801339Z",
+      "earliest_at": "2026-06-25T11:12:38.027616Z",
+      "latest_at": "2026-06-25T11:12:38.027616Z",
       "primary_item": {
-        "id": "6aa469fa48073a20312886f579ad0550a1858f10",
-        "title": "AI 框选即问！谷歌 Chrome 149 携手 Gemini 3.5 Flash 升级截屏交互",
-        "url": "https://www.aibase.com/news/29160",
+        "id": "3dabe9aaeddd6a41ccadf293d94e090cb24a071e",
+        "title": "商汤科技挺进智能体赛道：全新“全模态”基座蓄势待发",
+        "url": "https://www.aibase.com/news/29169",
         "source": "AIbase",
         "source_name": "AIbase"
       }
     },
     {
       "story_id": "story_2df82173bb28",
-      "title": "火山方舟上线Seed 2.1 Pro，多项Agent、代码、多模态基准成绩位居前列，兼容主流开发工具且调用成本远低于海外模型。作者用它做了一个毕业生就业补贴公益项目，自主完成全网信息抓取、OCR识别、数据核验质检、开源仓库搭建与检索网站开发。整套项目完成成本仅为同类海外模型的几十分之一，快来看看效果如何。",
+      "title": "这是一篇GitHub的奶爸级别教学。如果你是 AI 编程爱好者，本文对你帮助是极大的。包括：怎么注册，搜索，使用 GitHub、了解 GitHub 详细功能点、如何提交和备份 GitHub 项目。",
       "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
       "primary_url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
       "source": "社区更新 · 2026-06-25",
       "source_name": "WaytoAGI",
       "sources": [
         {
+          "id": "7c8d6d7b5b66bf7f4584ae7bf0482ac4be39d149",
+          "title": "这是一篇GitHub的奶爸级别教学。如果你是 AI 编程爱好者，本文对你帮助是极大的。包括：怎么注册，搜索，使用 GitHub、了解 GitHub 详细功能点、如何提交和备份 GitHub 项目。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-25",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-25T11:12:38.027616Z"
+        },
+        {
           "id": "1794db05181c851d959a10bc62f76065d7fc716c",
           "title": "火山方舟上线Seed 2.1 Pro，多项Agent、代码、多模态基准成绩位居前列，兼容主流开发工具且调用成本远低于海外模型。作者用它做了一个毕业生就业补贴公益项目，自主完成全网信息抓取、OCR识别、数据核验质检、开源仓库搭建与检索网站开发。整套项目完成成本仅为同类海外模型的几十分之一，快来看看效果如何。",
           "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
@@ -1270,13 +1362,22 @@
           "published_at": "2026-06-24T17:28:31.204091Z"
         }
       ],
-      "source_count": 5,
+      "source_count": 6,
       "source_names": [
         "社区更新 · 2026-06-24",
         "社区更新 · 2026-06-25"
       ],
       "items": [
         {
+          "id": "7c8d6d7b5b66bf7f4584ae7bf0482ac4be39d149",
+          "title": "这是一篇GitHub的奶爸级别教学。如果你是 AI 编程爱好者，本文对你帮助是极大的。包括：怎么注册，搜索，使用 GitHub、了解 GitHub 详细功能点、如何提交和备份 GitHub 项目。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-25",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-25T11:12:38.027616Z"
+        },
+        {
           "id": "1794db05181c851d959a10bc62f76065d7fc716c",
           "title": "火山方舟上线Seed 2.1 Pro，多项Agent、代码、多模态基准成绩位居前列，兼容主流开发工具且调用成本远低于海外模型。作者用它做了一个毕业生就业补贴公益项目，自主完成全网信息抓取、OCR识别、数据核验质检、开源仓库搭建与检索网站开发。整套项目完成成本仅为同类海外模型的几十分之一，快来看看效果如何。",
           "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
@@ -1322,8 +1423,8 @@
           "published_at": "2026-06-24T17:28:31.204091Z"
         }
       ],
-      "item_count": 5,
-      "duplicate_count": 5,
+      "item_count": 6,
+      "duplicate_count": 6,
       "score": 0.6692,
       "importance": 0.6692,
       "importance_score": 0.6692,
@@ -1340,31 +1441,31 @@
         "multi_source"
       ],
       "earliest_at": "2026-06-24T17:28:31.204091Z",
-      "latest_at": "2026-06-25T08:18:17.801339Z",
+      "latest_at": "2026-06-25T11:12:38.027616Z",
       "primary_item": {
-        "id": "1794db05181c851d959a10bc62f76065d7fc716c",
-        "title": "火山方舟上线Seed 2.1 Pro，多项Agent、代码、多模态基准成绩位居前列，兼容主流开发工具且调用成本远低于海外模型。作者用它做了一个毕业生就业补贴公益项目，自主完成全网信息抓取、OCR识别、数据核验质检、开源仓库搭建与检索网站开发。整套项目完成成本仅为同类海外模型的几十分之一，快来看看效果如何。",
+        "id": "7c8d6d7b5b66bf7f4584ae7bf0482ac4be39d149",
+        "title": "这是一篇GitHub的奶爸级别教学。如果你是 AI 编程爱好者，本文对你帮助是极大的。包括：怎么注册，搜索，使用 GitHub、了解 GitHub 详细功能点、如何提交和备份 GitHub 项目。",
         "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
         "source": "社区更新 · 2026-06-25",
         "source_name": "WaytoAGI"
       }
     },
     {
-      "story_id": "story_9f4a165aedac",
-      "title": "iOS27推出Siri AI专用App，实现Siri与ChatGPT一键切换",
-      "url": "https://www.aibase.com/news/29156",
-      "primary_url": "https://www.aibase.com/news/29156",
+      "story_id": "story_42dc429b5357",
+      "title": "商汤科技秘密研发多模态模型“U1Pro”:由林达华牵头，预计7月启动内测对标OpenAI",
+      "url": "https://www.aibase.com/news/29168",
+      "primary_url": "https://www.aibase.com/news/29168",
       "source": "AIbase",
       "source_name": "AIbase",
       "sources": [
         {
-          "id": "3695b5fe5235375d2f48d4c928c3e3f76728ee5f",
-          "title": "iOS27推出Siri AI专用App，实现Siri与ChatGPT一键切换",
-          "url": "https://www.aibase.com/news/29156",
+          "id": "74f777037bc461984520531eeb5ad391b60f5861",
+          "title": "商汤科技秘密研发多模态模型“U1Pro”:由林达华牵头，预计7月启动内测对标OpenAI",
+          "url": "https://www.aibase.com/news/29168",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-06-25T08:18:17.801339Z"
+          "published_at": "2026-06-25T11:12:38.027616Z"
         }
       ],
       "source_count": 1,
@@ -1373,13 +1474,13 @@
       ],
       "items": [
         {
-          "id": "3695b5fe5235375d2f48d4c928c3e3f76728ee5f",
-          "title": "iOS27推出Siri AI专用App，实现Siri与ChatGPT一键切换",
-          "url": "https://www.aibase.com/news/29156",
+          "id": "74f777037bc461984520531eeb5ad391b60f5861",
+          "title": "商汤科技秘密研发多模态模型“U1Pro”:由林达华牵头，预计7月启动内测对标OpenAI",
+          "url": "https://www.aibase.com/news/29168",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-06-25T08:18:17.801339Z"
+          "published_at": "2026-06-25T11:12:38.027616Z"
         }
       ],
       "item_count": 1,
@@ -1400,32 +1501,32 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-06-25T08:18:17.801339Z",
-      "latest_at": "2026-06-25T08:18:17.801339Z",
+      "earliest_at": "2026-06-25T11:12:38.027616Z",
+      "latest_at": "2026-06-25T11:12:38.027616Z",
       "primary_item": {
-        "id": "3695b5fe5235375d2f48d4c928c3e3f76728ee5f",
-        "title": "iOS27推出Siri AI专用App，实现Siri与ChatGPT一键切换",
-        "url": "https://www.aibase.com/news/29156",
+        "id": "74f777037bc461984520531eeb5ad391b60f5861",
+        "title": "商汤科技秘密研发多模态模型“U1Pro”:由林达华牵头，预计7月启动内测对标OpenAI",
+        "url": "https://www.aibase.com/news/29168",
         "source": "AIbase",
         "source_name": "AIbase"
       }
     },
     {
-      "story_id": "story_6303b526b886",
-      "title": "​打破多模型切换壁垒！谷歌将“电脑操作”原生塞进 Gemini 3.5 Flash",
-      "url": "https://www.aibase.com/news/29159",
-      "primary_url": "https://www.aibase.com/news/29159",
+      "story_id": "story_9265e5815a7e",
+      "title": "志愿填报“参谋”到位：高考出分三日，大模型已助 500 万考生“定心”",
+      "url": "https://www.aibase.com/news/29170",
+      "primary_url": "https://www.aibase.com/news/29170",
       "source": "AIbase",
       "source_name": "AIbase",
       "sources": [
         {
-          "id": "d7045a935a998c76d2d6215fcf107c7100b454e1",
-          "title": "​打破多模型切换壁垒！谷歌将“电脑操作”原生塞进 Gemini 3.5 Flash",
-          "url": "https://www.aibase.com/news/29159",
+          "id": "da350d2a88ac7ccde0c4b6a19f65d46cc47bb6fc",
+          "title": "志愿填报“参谋”到位：高考出分三日，大模型已助 500 万考生“定心”",
+          "url": "https://www.aibase.com/news/29170",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-06-25T08:18:17.801339Z"
+          "published_at": "2026-06-25T11:12:38.027616Z"
         }
       ],
       "source_count": 1,
@@ -1434,13 +1535,13 @@
       ],
       "items": [
         {
-          "id": "d7045a935a998c76d2d6215fcf107c7100b454e1",
-          "title": "​打破多模型切换壁垒！谷歌将“电脑操作”原生塞进 Gemini 3.5 Flash",
-          "url": "https://www.aibase.com/news/29159",
+          "id": "da350d2a88ac7ccde0c4b6a19f65d46cc47bb6fc",
+          "title": "志愿填报“参谋”到位：高考出分三日，大模型已助 500 万考生“定心”",
+          "url": "https://www.aibase.com/news/29170",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-06-25T08:18:17.801339Z"
+          "published_at": "2026-06-25T11:12:38.027616Z"
         }
       ],
       "item_count": 1,
@@ -1461,73 +1562,12 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-06-25T08:18:17.801339Z",
-      "latest_at": "2026-06-25T08:18:17.801339Z",
+      "earliest_at": "2026-06-25T11:12:38.027616Z",
+      "latest_at": "2026-06-25T11:12:38.027616Z",
       "primary_item": {
-        "id": "d7045a935a998c76d2d6215fcf107c7100b454e1",
-        "title": "​打破多模型切换壁垒！谷歌将“电脑操作”原生塞进 Gemini 3.5 Flash",
-        "url": "https://www.aibase.com/news/29159",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      }
-    },
-    {
-      "story_id": "story_2c70e383298a",
-      "title": "大模型成独角兽“吸金”引擎： 2026 全球榜单揭晓，霸榜前三名",
-      "url": "https://www.aibase.com/news/29157",
-      "primary_url": "https://www.aibase.com/news/29157",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "f0f67b45f48cc238dca7036a1d8ab502358ee3ae",
-          "title": "大模型成独角兽“吸金”引擎： 2026 全球榜单揭晓，霸榜前三名",
-          "url": "https://www.aibase.com/news/29157",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-25T08:18:17.801339Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "f0f67b45f48cc238dca7036a1d8ab502358ee3ae",
-          "title": "大模型成独角兽“吸金”引擎： 2026 全球榜单揭晓，霸榜前三名",
-          "url": "https://www.aibase.com/news/29157",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-25T08:18:17.801339Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 1.0,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-25T08:18:17.801339Z",
-      "latest_at": "2026-06-25T08:18:17.801339Z",
-      "primary_item": {
-        "id": "f0f67b45f48cc238dca7036a1d8ab502358ee3ae",
-        "title": "大模型成独角兽“吸金”引擎： 2026 全球榜单揭晓，霸榜前三名",
-        "url": "https://www.aibase.com/news/29157",
+        "id": "da350d2a88ac7ccde0c4b6a19f65d46cc47bb6fc",
+        "title": "志愿填报“参谋”到位：高考出分三日，大模型已助 500 万考生“定心”",
+        "url": "https://www.aibase.com/news/29170",
         "source": "AIbase",
         "source_name": "AIbase"
       }
