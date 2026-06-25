@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T00:01:05.497858Z",
+  "generated_at": "2026-06-25T04:40:56.711525Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -57,15 +57,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8733,
-      "importance": 0.8733,
-      "importance_score": 0.8733,
+      "score": 0.8629,
+      "importance": 0.8629,
+      "importance_score": 0.8629,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.99,
-        "recency": 0.8907,
+        "recency": 0.8327,
         "story_heat": 0.25
       },
       "category": "official",
@@ -122,7 +122,7 @@
         },
         {
           "id": "e25ece3fd57571090a9fc7797b3f6df385d4f975",
-          "title": "里德·霍夫曼称SpaceX\"不是一家人工智能公司\"，xAI则是\"彻底的灾难\" / Reid Hoffman says SpaceX 'not an AI company', xAI 'complete train wreck'",
+          "title": "里德·霍夫曼称SpaceX“不是一家人工智能公司”，xAI则是“彻底的灾难” / Reid Hoffman says SpaceX 'not an AI company', xAI 'complete train wreck'",
           "url": "https://fortune.com/2026/06/24/reid-hoffman-spacex-musk-openai-anthropic-gen-z-mistake",
           "source": "Hacker News · 24h最热",
           "source_name": "Zeli",
@@ -167,7 +167,7 @@
         },
         {
           "id": "e25ece3fd57571090a9fc7797b3f6df385d4f975",
-          "title": "里德·霍夫曼称SpaceX\"不是一家人工智能公司\"，xAI则是\"彻底的灾难\" / Reid Hoffman says SpaceX 'not an AI company', xAI 'complete train wreck'",
+          "title": "里德·霍夫曼称SpaceX“不是一家人工智能公司”，xAI则是“彻底的灾难” / Reid Hoffman says SpaceX 'not an AI company', xAI 'complete train wreck'",
           "url": "https://fortune.com/2026/06/24/reid-hoffman-spacex-musk-openai-anthropic-gen-z-mistake",
           "source": "Hacker News · 24h最热",
           "source_name": "Zeli",
@@ -177,15 +177,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.8371,
-      "importance": 0.8371,
-      "importance_score": 0.8371,
+      "score": 0.8269,
+      "importance": 0.8269,
+      "importance_score": 0.8269,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.78,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8695,
+        "recency": 0.8129,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -239,15 +239,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8335,
-      "importance": 0.8335,
-      "importance_score": 0.8335,
+      "score": 0.823,
+      "importance": 0.823,
+      "importance_score": 0.823,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.8971,
+        "recency": 0.8387,
         "story_heat": 0.0
       },
       "category": "official",
@@ -301,15 +301,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8262,
-      "importance": 0.8262,
-      "importance_score": 0.8262,
+      "score": 0.8156,
+      "importance": 0.8156,
+      "importance_score": 0.8156,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.9009,
+        "recency": 0.8422,
         "story_heat": 0.0
       },
       "category": "official",
@@ -326,6 +326,187 @@
         "url": "https://github.blog/changelog/2026-06-24-self-service-credential-revocation-for-incident-response",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_2aeed32ed517",
+      "title": "Anthropic称阿里巴巴非法获取了Claude AI模型的功能",
+      "url": "https://www.reuters.com/world/china/anthropic-says-alibaba-illicitly-extracted-claude-ai-model-capabilities-2026-06-24",
+      "primary_url": "https://www.reuters.com/world/china/anthropic-says-alibaba-illicitly-extracted-claude-ai-model-capabilities-2026-06-24",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "d66a245381eeff98872405319d74ab3d80e7ddc4",
+          "title": "Anthropic称阿里巴巴非法获取了Claude AI模型的功能",
+          "url": "https://www.reuters.com/world/china/anthropic-says-alibaba-illicitly-extracted-claude-ai-model-capabilities-2026-06-24",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-25T03:07:48.942000Z"
+        },
+        {
+          "id": "a24aa0f548501c46f7746c0abfceb9a85ce0b4df",
+          "title": "Anthropic称阿里巴巴非法提取Claude AI模型能力 / Anthropic says Alibaba illicitly extracted Claude AI model capabilities",
+          "url": "https://news.ycombinator.com/item?id=48664814",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-25T04:41:42.956000Z"
+        },
+        {
+          "id": "ce6633cf7c157ff75177474fd8395c725f42bbce",
+          "title": "Anthropic称阿里巴巴非法获取了Claude AI模型的功能 / Anthropic says Alibaba illicitly extracted Claude AI model capabilities",
+          "url": "https://www.reuters.com/world/china/anthropic-says-alibaba-illicitly-extracted-claude-ai-model-capabilities-2026-06-24",
+          "source": "HN Algolia · AI 24h",
+          "source_name": "Hacker News",
+          "site_id": "hackernews",
+          "published_at": "2026-06-24T23:26:17Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "HN Algolia · AI 24h",
+        "Hacker News 热门（buzzing.cc 中文翻译）",
+        "hackernews"
+      ],
+      "items": [
+        {
+          "id": "d66a245381eeff98872405319d74ab3d80e7ddc4",
+          "title": "Anthropic称阿里巴巴非法获取了Claude AI模型的功能",
+          "url": "https://www.reuters.com/world/china/anthropic-says-alibaba-illicitly-extracted-claude-ai-model-capabilities-2026-06-24",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-25T03:07:48.942000Z"
+        },
+        {
+          "id": "a24aa0f548501c46f7746c0abfceb9a85ce0b4df",
+          "title": "Anthropic称阿里巴巴非法提取Claude AI模型能力 / Anthropic says Alibaba illicitly extracted Claude AI model capabilities",
+          "url": "https://news.ycombinator.com/item?id=48664814",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-25T04:41:42.956000Z"
+        },
+        {
+          "id": "ce6633cf7c157ff75177474fd8395c725f42bbce",
+          "title": "Anthropic称阿里巴巴非法获取了Claude AI模型的功能 / Anthropic says Alibaba illicitly extracted Claude AI model capabilities",
+          "url": "https://www.reuters.com/world/china/anthropic-says-alibaba-illicitly-extracted-claude-ai-model-capabilities-2026-06-24",
+          "source": "HN Algolia · AI 24h",
+          "source_name": "Hacker News",
+          "site_id": "hackernews",
+          "published_at": "2026-06-24T23:26:17Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.8226,
+      "importance": 0.8226,
+      "importance_score": 0.8226,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.75,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9778,
+        "story_heat": 0.5
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-24T23:26:17Z",
+      "latest_at": "2026-06-25T04:41:42.956000Z",
+      "primary_item": {
+        "id": "d66a245381eeff98872405319d74ab3d80e7ddc4",
+        "title": "Anthropic称阿里巴巴非法获取了Claude AI模型的功能",
+        "url": "https://www.reuters.com/world/china/anthropic-says-alibaba-illicitly-extracted-claude-ai-model-capabilities-2026-06-24",
+        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_2be0b7fff25f",
+      "title": "民航迈入“数智”新纪元：五部门联合部署，力推行业大模型应用",
+      "url": "https://www.aibase.com/news/29154",
+      "primary_url": "https://www.aibase.com/news/29154",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "1b264eb6d8ca76c69daea28ecea1450488ee6b69",
+          "title": "民航迈入“数智”新纪元：五部门联合部署，力推行业大模型应用",
+          "url": "https://www.aibase.com/news/29154",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-25T04:40:56.711525Z"
+        },
+        {
+          "id": "eb0f9c79cd82628f9f71e8571952cb3a548f77b7",
+          "title": "民航迈入「数智」新纪元：五部门联合部署，力推行业大模型应用",
+          "url": "https://www.aibase.com/zh/news/29154",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "AIbase",
+        "Readhub · AI"
+      ],
+      "items": [
+        {
+          "id": "1b264eb6d8ca76c69daea28ecea1450488ee6b69",
+          "title": "民航迈入“数智”新纪元：五部门联合部署，力推行业大模型应用",
+          "url": "https://www.aibase.com/news/29154",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-25T04:40:56.711525Z"
+        },
+        {
+          "id": "eb0f9c79cd82628f9f71e8571952cb3a548f77b7",
+          "title": "民航迈入「数智」新纪元：五部门联合部署，力推行业大模型应用",
+          "url": "https://www.aibase.com/zh/news/29154",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7926,
+      "importance": 0.7926,
+      "importance_score": 0.7926,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-25T04:40:56.711525Z",
+      "latest_at": "2026-06-25T04:40:56.711525Z",
+      "primary_item": {
+        "id": "1b264eb6d8ca76c69daea28ecea1450488ee6b69",
+        "title": "民航迈入“数智”新纪元：五部门联合部署，力推行业大模型应用",
+        "url": "https://www.aibase.com/news/29154",
+        "source": "AIbase",
+        "source_name": "AIbase"
       }
     },
     {
@@ -363,15 +544,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8254,
-      "importance": 0.8254,
-      "importance_score": 0.8254,
+      "score": 0.8149,
+      "importance": 0.8149,
+      "importance_score": 0.8149,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.8968,
+        "recency": 0.8384,
         "story_heat": 0.0
       },
       "category": "official",
@@ -388,87 +569,6 @@
         "url": "https://github.blog/changelog/2026-06-24-changes-to-model-selection-for-free-and-student-plans",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
-      }
-    },
-    {
-      "story_id": "story_6212aea4b6f7",
-      "title": "AI被认为会取代工程岗位，但新数据显示工程是2025年最具韧性的岗位",
-      "url": "https://techcrunch.com/2026/06/24/ai-was-supposed-to-kill-engineering-jobs-but-new-data-suggests-theyre-the-most-resilient",
-      "primary_url": "https://techcrunch.com/2026/06/24/ai-was-supposed-to-kill-engineering-jobs-but-new-data-suggests-theyre-the-most-resilient",
-      "source": "TechCrunch：AI（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "ede7f05be2d7ff05160ce8e5901c5e4f00dd85b8",
-          "title": "AI被认为会取代工程岗位，但新数据显示工程是2025年最具韧性的岗位",
-          "url": "https://techcrunch.com/2026/06/24/ai-was-supposed-to-kill-engineering-jobs-but-new-data-suggests-theyre-the-most-resilient",
-          "source": "TechCrunch：AI（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-24T21:56:41Z"
-        },
-        {
-          "id": "ea4a9a4bfea0efea068b867665ab92d420d9cae9",
-          "title": "AI被认为会取代工程岗位，但新数据显示工程是2025年最具韧性的岗位 / AI was supposed to kill engineering jobs, but new data suggests they’re the most resilient",
-          "url": "https://techcrunch.com/2026/06/24/ai-was-supposed-to-kill-engineering-jobs-but-new-data-suggests-theyre-the-most-resilient",
-          "source": "TechCrunch AI",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-06-24T21:56:41Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "TechCrunch AI",
-        "TechCrunch：AI（RSS）"
-      ],
-      "items": [
-        {
-          "id": "ede7f05be2d7ff05160ce8e5901c5e4f00dd85b8",
-          "title": "AI被认为会取代工程岗位，但新数据显示工程是2025年最具韧性的岗位",
-          "url": "https://techcrunch.com/2026/06/24/ai-was-supposed-to-kill-engineering-jobs-but-new-data-suggests-theyre-the-most-resilient",
-          "source": "TechCrunch：AI（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-24T21:56:41Z"
-        },
-        {
-          "id": "ea4a9a4bfea0efea068b867665ab92d420d9cae9",
-          "title": "AI被认为会取代工程岗位，但新数据显示工程是2025年最具韧性的岗位 / AI was supposed to kill engineering jobs, but new data suggests they’re the most resilient",
-          "url": "https://techcrunch.com/2026/06/24/ai-was-supposed-to-kill-engineering-jobs-but-new-data-suggests-theyre-the-most-resilient",
-          "source": "TechCrunch AI",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-06-24T21:56:41Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7813,
-      "importance": 0.7813,
-      "importance_score": 0.7813,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.7,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9705,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-24T21:56:41Z",
-      "latest_at": "2026-06-24T21:56:41Z",
-      "primary_item": {
-        "id": "ede7f05be2d7ff05160ce8e5901c5e4f00dd85b8",
-        "title": "AI被认为会取代工程岗位，但新数据显示工程是2025年最具韧性的岗位",
-        "url": "https://techcrunch.com/2026/06/24/ai-was-supposed-to-kill-engineering-jobs-but-new-data-suggests-theyre-the-most-resilient",
-        "source": "TechCrunch：AI（RSS）",
-        "source_name": "AI HOT"
       }
     },
     {
@@ -525,15 +625,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7808,
-      "importance": 0.7808,
-      "importance_score": 0.7808,
+      "score": 0.7703,
+      "importance": 0.7703,
+      "importance_score": 0.7703,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.74,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9012,
+        "recency": 0.8425,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -550,6 +650,289 @@
         "url": "https://the-decoder.com/figma-bets-on-human-judgment-at-config-2026-while-the-ai-powering-its-canvas-belongs-to-someone-else",
         "source": "The Decoder：AI News（RSS）",
         "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_6212aea4b6f7",
+      "title": "AI被认为会取代工程岗位，但新数据显示工程是2025年最具韧性的岗位",
+      "url": "https://techcrunch.com/2026/06/24/ai-was-supposed-to-kill-engineering-jobs-but-new-data-suggests-theyre-the-most-resilient",
+      "primary_url": "https://techcrunch.com/2026/06/24/ai-was-supposed-to-kill-engineering-jobs-but-new-data-suggests-theyre-the-most-resilient",
+      "source": "TechCrunch：AI（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "ede7f05be2d7ff05160ce8e5901c5e4f00dd85b8",
+          "title": "AI被认为会取代工程岗位，但新数据显示工程是2025年最具韧性的岗位",
+          "url": "https://techcrunch.com/2026/06/24/ai-was-supposed-to-kill-engineering-jobs-but-new-data-suggests-theyre-the-most-resilient",
+          "source": "TechCrunch：AI（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-24T21:56:41Z"
+        },
+        {
+          "id": "ea4a9a4bfea0efea068b867665ab92d420d9cae9",
+          "title": "AI被认为会取代工程岗位，但新数据显示工程是2025年最具韧性的岗位 / AI was supposed to kill engineering jobs, but new data suggests they’re the most resilient",
+          "url": "https://techcrunch.com/2026/06/24/ai-was-supposed-to-kill-engineering-jobs-but-new-data-suggests-theyre-the-most-resilient",
+          "source": "TechCrunch AI",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-06-24T21:56:41Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "TechCrunch AI",
+        "TechCrunch：AI（RSS）"
+      ],
+      "items": [
+        {
+          "id": "ede7f05be2d7ff05160ce8e5901c5e4f00dd85b8",
+          "title": "AI被认为会取代工程岗位，但新数据显示工程是2025年最具韧性的岗位",
+          "url": "https://techcrunch.com/2026/06/24/ai-was-supposed-to-kill-engineering-jobs-but-new-data-suggests-theyre-the-most-resilient",
+          "source": "TechCrunch：AI（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-24T21:56:41Z"
+        },
+        {
+          "id": "ea4a9a4bfea0efea068b867665ab92d420d9cae9",
+          "title": "AI被认为会取代工程岗位，但新数据显示工程是2025年最具韧性的岗位 / AI was supposed to kill engineering jobs, but new data suggests they’re the most resilient",
+          "url": "https://techcrunch.com/2026/06/24/ai-was-supposed-to-kill-engineering-jobs-but-new-data-suggests-theyre-the-most-resilient",
+          "source": "TechCrunch AI",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-06-24T21:56:41Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7699,
+      "importance": 0.7699,
+      "importance_score": 0.7699,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.7,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9073,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-24T21:56:41Z",
+      "latest_at": "2026-06-24T21:56:41Z",
+      "primary_item": {
+        "id": "ede7f05be2d7ff05160ce8e5901c5e4f00dd85b8",
+        "title": "AI被认为会取代工程岗位，但新数据显示工程是2025年最具韧性的岗位",
+        "url": "https://techcrunch.com/2026/06/24/ai-was-supposed-to-kill-engineering-jobs-but-new-data-suggests-theyre-the-most-resilient",
+        "source": "TechCrunch：AI（RSS）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_4ad3f5f9d177",
+      "title": "GPT-5.5 Instant 新版本，对话更有趣",
+      "url": "https://x.com/OpenAI/status/2069843083701915755",
+      "primary_url": "https://x.com/OpenAI/status/2069843083701915755",
+      "source": "X：OpenAI (@OpenAI)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "5973441026ba54a0e769ff5a05a4ee81f8df33fb",
+          "title": "GPT-5.5 Instant 新版本，对话更有趣",
+          "url": "https://x.com/OpenAI/status/2069843083701915755",
+          "source": "X：OpenAI (@OpenAI)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-24T18:00:21Z"
+        },
+        {
+          "id": "009aefb67416e15e0e63c7a06cf1ba4e561cddce",
+          "title": "GPT-5.5 Instant 新版本，对话更有趣 / We have a new version of GPT-5.5 Instant for you, and it's much more fun to talk to. Our most-used model is now better at understanding the intent behind a question and adapting its response accordingly. It also handles…",
+          "url": "https://x.com/OpenAI/status/2069843083701915755",
+          "source": "@OpenAI",
+          "source_name": "SocialData X",
+          "site_id": "socialdata_x",
+          "published_at": "2026-06-24T18:00:21Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "@OpenAI",
+        "X：OpenAI (@OpenAI)"
+      ],
+      "items": [
+        {
+          "id": "5973441026ba54a0e769ff5a05a4ee81f8df33fb",
+          "title": "GPT-5.5 Instant 新版本，对话更有趣",
+          "url": "https://x.com/OpenAI/status/2069843083701915755",
+          "source": "X：OpenAI (@OpenAI)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-24T18:00:21Z"
+        },
+        {
+          "id": "009aefb67416e15e0e63c7a06cf1ba4e561cddce",
+          "title": "GPT-5.5 Instant 新版本，对话更有趣 / We have a new version of GPT-5.5 Instant for you, and it's much more fun to talk to. Our most-used model is now better at understanding the intent behind a question and adapting its response accordingly. It also handles…",
+          "url": "https://x.com/OpenAI/status/2069843083701915755",
+          "source": "@OpenAI",
+          "source_name": "SocialData X",
+          "site_id": "socialdata_x",
+          "published_at": "2026-06-24T18:00:21Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7519,
+      "importance": 0.7519,
+      "importance_score": 0.7519,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.67,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8571,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-24T18:00:21Z",
+      "latest_at": "2026-06-24T18:00:21Z",
+      "primary_item": {
+        "id": "5973441026ba54a0e769ff5a05a4ee81f8df33fb",
+        "title": "GPT-5.5 Instant 新版本，对话更有趣",
+        "url": "https://x.com/OpenAI/status/2069843083701915755",
+        "source": "X：OpenAI (@OpenAI)",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_b28bda072fd0",
+      "title": "字节跳动技术副总裁洪定坤：AI Coding 的实践与探索",
+      "url": "https://mp.weixin.qq.com/s/mdmaAyUIvxE8WT_GEbF2wQ",
+      "primary_url": "https://mp.weixin.qq.com/s/mdmaAyUIvxE8WT_GEbF2wQ",
+      "source": "公众号：火山引擎",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "a53ba8f21e366dc6a4529fbbcdb0af5579cd2248",
+          "title": "字节跳动技术副总裁洪定坤：AI Coding 的实践与探索",
+          "url": "https://mp.weixin.qq.com/s/mdmaAyUIvxE8WT_GEbF2wQ",
+          "source": "公众号：火山引擎",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-24T14:02:42Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "公众号：火山引擎"
+      ],
+      "items": [
+        {
+          "id": "a53ba8f21e366dc6a4529fbbcdb0af5579cd2248",
+          "title": "字节跳动技术副总裁洪定坤：AI Coding 的实践与探索",
+          "url": "https://mp.weixin.qq.com/s/mdmaAyUIvxE8WT_GEbF2wQ",
+          "source": "公众号：火山引擎",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-24T14:02:42Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7393,
+      "importance": 0.7393,
+      "importance_score": 0.7393,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.74,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8095,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-06-24T14:02:42Z",
+      "latest_at": "2026-06-24T14:02:42Z",
+      "primary_item": {
+        "id": "a53ba8f21e366dc6a4529fbbcdb0af5579cd2248",
+        "title": "字节跳动技术副总裁洪定坤：AI Coding 的实践与探索",
+        "url": "https://mp.weixin.qq.com/s/mdmaAyUIvxE8WT_GEbF2wQ",
+        "source": "公众号：火山引擎",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_940c3d4e476d",
+      "title": "27亿留不住核心大牛?谷歌 AI 天团现离职潮，多位顶级科学家投奔死敌",
+      "url": "https://www.aibase.com/news/29139",
+      "primary_url": "https://www.aibase.com/news/29139",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "7799bbff563381316830969c9cb2805a8355ff29",
+          "title": "27亿留不住核心大牛?谷歌 AI 天团现离职潮，多位顶级科学家投奔死敌",
+          "url": "https://www.aibase.com/news/29139",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-25T04:40:56.711525Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "7799bbff563381316830969c9cb2805a8355ff29",
+          "title": "27亿留不住核心大牛?谷歌 AI 天团现离职潮，多位顶级科学家投奔死敌",
+          "url": "https://www.aibase.com/news/29139",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-25T04:40:56.711525Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-25T04:40:56.711525Z",
+      "latest_at": "2026-06-25T04:40:56.711525Z",
+      "primary_item": {
+        "id": "7799bbff563381316830969c9cb2805a8355ff29",
+        "title": "27亿留不住核心大牛?谷歌 AI 天团现离职潮，多位顶级科学家投奔死敌",
+        "url": "https://www.aibase.com/news/29139",
+        "source": "AIbase",
+        "source_name": "AIbase"
       }
     },
     {
@@ -625,15 +1008,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.8076,
-      "importance": 0.8076,
-      "importance_score": 0.8076,
+      "score": 0.7963,
+      "importance": 0.7963,
+      "importance_score": 0.7963,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.71,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9611,
+        "recency": 0.8985,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -649,309 +1032,6 @@
         "title": "Gemini 3.5 Flash 中的计算机使用",
         "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash",
         "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_4ad3f5f9d177",
-      "title": "GPT-5.5 Instant 新版本，对话更有趣",
-      "url": "https://x.com/OpenAI/status/2069843083701915755",
-      "primary_url": "https://x.com/OpenAI/status/2069843083701915755",
-      "source": "X：OpenAI (@OpenAI)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "5973441026ba54a0e769ff5a05a4ee81f8df33fb",
-          "title": "GPT-5.5 Instant 新版本，对话更有趣",
-          "url": "https://x.com/OpenAI/status/2069843083701915755",
-          "source": "X：OpenAI (@OpenAI)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-24T18:00:21Z"
-        },
-        {
-          "id": "009aefb67416e15e0e63c7a06cf1ba4e561cddce",
-          "title": "GPT-5.5 Instant 新版本，对话更有趣 / We have a new version of GPT-5.5 Instant for you, and it's much more fun to talk to. Our most-used model is now better at understanding the intent behind a question and adapting its response accordingly. It also handles…",
-          "url": "https://x.com/OpenAI/status/2069843083701915755",
-          "source": "@OpenAI",
-          "source_name": "SocialData X",
-          "site_id": "socialdata_x",
-          "published_at": "2026-06-24T18:00:21Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "@OpenAI",
-        "X：OpenAI (@OpenAI)"
-      ],
-      "items": [
-        {
-          "id": "5973441026ba54a0e769ff5a05a4ee81f8df33fb",
-          "title": "GPT-5.5 Instant 新版本，对话更有趣",
-          "url": "https://x.com/OpenAI/status/2069843083701915755",
-          "source": "X：OpenAI (@OpenAI)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-24T18:00:21Z"
-        },
-        {
-          "id": "009aefb67416e15e0e63c7a06cf1ba4e561cddce",
-          "title": "GPT-5.5 Instant 新版本，对话更有趣 / We have a new version of GPT-5.5 Instant for you, and it's much more fun to talk to. Our most-used model is now better at understanding the intent behind a question and adapting its response accordingly. It also handles…",
-          "url": "https://x.com/OpenAI/status/2069843083701915755",
-          "source": "@OpenAI",
-          "source_name": "SocialData X",
-          "site_id": "socialdata_x",
-          "published_at": "2026-06-24T18:00:21Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7626,
-      "importance": 0.7626,
-      "importance_score": 0.7626,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.67,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9168,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-24T18:00:21Z",
-      "latest_at": "2026-06-24T18:00:21Z",
-      "primary_item": {
-        "id": "5973441026ba54a0e769ff5a05a4ee81f8df33fb",
-        "title": "GPT-5.5 Instant 新版本，对话更有趣",
-        "url": "https://x.com/OpenAI/status/2069843083701915755",
-        "source": "X：OpenAI (@OpenAI)",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_30cd40a8fc44",
-      "title": "豪掷 6 亿港元激励全员：MiniMax 以“真金白银”提振团队信心",
-      "url": "https://www.aibase.com/news/29135",
-      "primary_url": "https://www.aibase.com/news/29135",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "7138ea14dca24895ade0d476430ba879ee625075",
-          "title": "豪掷 6 亿港元激励全员：MiniMax 以“真金白银”提振团队信心",
-          "url": "https://www.aibase.com/news/29135",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-24T10:15:31.292438Z"
-        },
-        {
-          "id": "21fe8293abbdf56608fffa5374384907dece61b3",
-          "title": "豪掷 6 亿港元激励全员：MiniMax 以「真金白银」提振团队信心",
-          "url": "https://www.aibase.com/zh/news/29135",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "AIbase",
-        "Readhub · AI"
-      ],
-      "items": [
-        {
-          "id": "7138ea14dca24895ade0d476430ba879ee625075",
-          "title": "豪掷 6 亿港元激励全员：MiniMax 以“真金白银”提振团队信心",
-          "url": "https://www.aibase.com/news/29135",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-24T10:15:31.292438Z"
-        },
-        {
-          "id": "21fe8293abbdf56608fffa5374384907dece61b3",
-          "title": "豪掷 6 亿港元激励全员：MiniMax 以「真金白银」提振团队信心",
-          "url": "https://www.aibase.com/zh/news/29135",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7602,
-      "importance": 0.7602,
-      "importance_score": 0.7602,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8198,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-24T10:15:31.292438Z",
-      "latest_at": "2026-06-24T10:15:31.292438Z",
-      "primary_item": {
-        "id": "7138ea14dca24895ade0d476430ba879ee625075",
-        "title": "豪掷 6 亿港元激励全员：MiniMax 以“真金白银”提振团队信心",
-        "url": "https://www.aibase.com/news/29135",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      }
-    },
-    {
-      "story_id": "story_dfbc903dd158",
-      "title": "OpenAI ChatGPT 语音最大规模升级：双向AI语音模型 Bidi 1 已上线测试",
-      "url": "https://www.ithome.com/0/967/852.htm",
-      "primary_url": "https://www.ithome.com/0/967/852.htm",
-      "source": "IT之家（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "8e5d86a6b2530433d059bb1ab8a6696f0f5a097c",
-          "title": "OpenAI ChatGPT 语音最大规模升级：双向AI语音模型 Bidi 1 已上线测试",
-          "url": "https://www.ithome.com/0/967/852.htm",
-          "source": "IT之家（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-24T04:34:24Z"
-        },
-        {
-          "id": "b49934e3363b7d23216cce90343d36134c80b3ac",
-          "title": "OpenAI ChatGPT 语音最大规模升级：双向 AI 语音模型 Bidi 1 已上线测试",
-          "url": "https://www.ithome.com/0/967/852.htm",
-          "source": "IT之家 (ITHome)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-24T04:34:24Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "IT之家 (ITHome)",
-        "IT之家（RSS）"
-      ],
-      "items": [
-        {
-          "id": "8e5d86a6b2530433d059bb1ab8a6696f0f5a097c",
-          "title": "OpenAI ChatGPT 语音最大规模升级：双向AI语音模型 Bidi 1 已上线测试",
-          "url": "https://www.ithome.com/0/967/852.htm",
-          "source": "IT之家（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-24T04:34:24Z"
-        },
-        {
-          "id": "b49934e3363b7d23216cce90343d36134c80b3ac",
-          "title": "OpenAI ChatGPT 语音最大规模升级：双向 AI 语音模型 Bidi 1 已上线测试",
-          "url": "https://www.ithome.com/0/967/852.htm",
-          "source": "IT之家 (ITHome)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-24T04:34:24Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7545,
-      "importance": 0.7545,
-      "importance_score": 0.7545,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.74,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7552,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-24T04:34:24Z",
-      "latest_at": "2026-06-24T04:34:24Z",
-      "primary_item": {
-        "id": "8e5d86a6b2530433d059bb1ab8a6696f0f5a097c",
-        "title": "OpenAI ChatGPT 语音最大规模升级：双向AI语音模型 Bidi 1 已上线测试",
-        "url": "https://www.ithome.com/0/967/852.htm",
-        "source": "IT之家（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_b28bda072fd0",
-      "title": "字节跳动技术副总裁洪定坤：AI Coding 的实践与探索",
-      "url": "https://mp.weixin.qq.com/s/mdmaAyUIvxE8WT_GEbF2wQ",
-      "primary_url": "https://mp.weixin.qq.com/s/mdmaAyUIvxE8WT_GEbF2wQ",
-      "source": "公众号：火山引擎",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "a53ba8f21e366dc6a4529fbbcdb0af5579cd2248",
-          "title": "字节跳动技术副总裁洪定坤：AI Coding 的实践与探索",
-          "url": "https://mp.weixin.qq.com/s/mdmaAyUIvxE8WT_GEbF2wQ",
-          "source": "公众号：火山引擎",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-24T14:02:42Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "公众号：火山引擎"
-      ],
-      "items": [
-        {
-          "id": "a53ba8f21e366dc6a4529fbbcdb0af5579cd2248",
-          "title": "字节跳动技术副总裁洪定坤：AI Coding 的实践与探索",
-          "url": "https://mp.weixin.qq.com/s/mdmaAyUIvxE8WT_GEbF2wQ",
-          "source": "公众号：火山引擎",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-24T14:02:42Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7495,
-      "importance": 0.7495,
-      "importance_score": 0.7495,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.74,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8659,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-24T14:02:42Z",
-      "latest_at": "2026-06-24T14:02:42Z",
-      "primary_item": {
-        "id": "a53ba8f21e366dc6a4529fbbcdb0af5579cd2248",
-        "title": "字节跳动技术副总裁洪定坤：AI Coding 的实践与探索",
-        "url": "https://mp.weixin.qq.com/s/mdmaAyUIvxE8WT_GEbF2wQ",
-        "source": "公众号：火山引擎",
         "source_name": "AI HOT"
       }
     },
@@ -990,15 +1070,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7415,
-      "importance": 0.7415,
-      "importance_score": 0.7415,
+      "score": 0.7309,
+      "importance": 0.7309,
+      "importance_score": 0.7309,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.69,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9049,
+        "recency": 0.8459,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1050,15 +1130,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7387,
-      "importance": 0.7387,
-      "importance_score": 0.7387,
+      "score": 0.7275,
+      "importance": 0.7275,
+      "importance_score": 0.7275,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.65,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9563,
+        "recency": 0.894,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1072,6 +1152,66 @@
         "title": "Notion 使用 Cursor SDK 嵌入编码智能体",
         "url": "https://cursor.com/blog/notion",
         "source": "Cursor Blog",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_712f8565a67c",
+      "title": "DFlash：块扩散草稿模型实现最高15倍吞吐量提升",
+      "url": "https://www.marktechpost.com/2026/06/24/dflash-speculative-decoding-drafts-whole-token-blocks-in-parallel-for-up-to-15x-higher-throughput-on-nvidia-blackwell",
+      "primary_url": "https://www.marktechpost.com/2026/06/24/dflash-speculative-decoding-drafts-whole-token-blocks-in-parallel-for-up-to-15x-higher-throughput-on-nvidia-blackwell",
+      "source": "MarkTechPost（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "ed9e42cd5609ddaa38c0c89c55d00b2d33d98d02",
+          "title": "DFlash：块扩散草稿模型实现最高15倍吞吐量提升",
+          "url": "https://www.marktechpost.com/2026/06/24/dflash-speculative-decoding-drafts-whole-token-blocks-in-parallel-for-up-to-15x-higher-throughput-on-nvidia-blackwell",
+          "source": "MarkTechPost（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-24T07:21:10Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "MarkTechPost（RSS）"
+      ],
+      "items": [
+        {
+          "id": "ed9e42cd5609ddaa38c0c89c55d00b2d33d98d02",
+          "title": "DFlash：块扩散草稿模型实现最高15倍吞吐量提升",
+          "url": "https://www.marktechpost.com/2026/06/24/dflash-speculative-decoding-drafts-whole-token-blocks-in-parallel-for-up-to-15x-higher-throughput-on-nvidia-blackwell",
+          "source": "MarkTechPost（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-24T07:21:10Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7259,
+      "importance": 0.7259,
+      "importance_score": 0.7259,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.74,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7349,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-06-24T07:21:10Z",
+      "latest_at": "2026-06-24T07:21:10Z",
+      "primary_item": {
+        "id": "ed9e42cd5609ddaa38c0c89c55d00b2d33d98d02",
+        "title": "DFlash：块扩散草稿模型实现最高15倍吞吐量提升",
+        "url": "https://www.marktechpost.com/2026/06/24/dflash-speculative-decoding-drafts-whole-token-blocks-in-parallel-for-up-to-15x-higher-throughput-on-nvidia-blackwell",
+        "source": "MarkTechPost（RSS）",
         "source_name": "AI HOT"
       }
     },
@@ -1110,15 +1250,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7359,
-      "importance": 0.7359,
-      "importance_score": 0.7359,
+      "score": 0.7255,
+      "importance": 0.7255,
+      "importance_score": 0.7255,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.68,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8907,
+        "recency": 0.8327,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1170,15 +1310,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7354,
-      "importance": 0.7354,
-      "importance_score": 0.7354,
+      "score": 0.7244,
+      "importance": 0.7244,
+      "importance_score": 0.7244,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.65,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9378,
+        "recency": 0.8767,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1196,201 +1336,21 @@
       }
     },
     {
-      "story_id": "story_712f8565a67c",
-      "title": "DFlash：块扩散草稿模型实现最高15倍吞吐量提升",
-      "url": "https://www.marktechpost.com/2026/06/24/dflash-speculative-decoding-drafts-whole-token-blocks-in-parallel-for-up-to-15x-higher-throughput-on-nvidia-blackwell",
-      "primary_url": "https://www.marktechpost.com/2026/06/24/dflash-speculative-decoding-drafts-whole-token-blocks-in-parallel-for-up-to-15x-higher-throughput-on-nvidia-blackwell",
-      "source": "MarkTechPost（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "ed9e42cd5609ddaa38c0c89c55d00b2d33d98d02",
-          "title": "DFlash：块扩散草稿模型实现最高15倍吞吐量提升",
-          "url": "https://www.marktechpost.com/2026/06/24/dflash-speculative-decoding-drafts-whole-token-blocks-in-parallel-for-up-to-15x-higher-throughput-on-nvidia-blackwell",
-          "source": "MarkTechPost（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-24T07:21:10Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "MarkTechPost（RSS）"
-      ],
-      "items": [
-        {
-          "id": "ed9e42cd5609ddaa38c0c89c55d00b2d33d98d02",
-          "title": "DFlash：块扩散草稿模型实现最高15倍吞吐量提升",
-          "url": "https://www.marktechpost.com/2026/06/24/dflash-speculative-decoding-drafts-whole-token-blocks-in-parallel-for-up-to-15x-higher-throughput-on-nvidia-blackwell",
-          "source": "MarkTechPost（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-24T07:21:10Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7351,
-      "importance": 0.7351,
-      "importance_score": 0.7351,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.74,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7861,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-24T07:21:10Z",
-      "latest_at": "2026-06-24T07:21:10Z",
-      "primary_item": {
-        "id": "ed9e42cd5609ddaa38c0c89c55d00b2d33d98d02",
-        "title": "DFlash：块扩散草稿模型实现最高15倍吞吐量提升",
-        "url": "https://www.marktechpost.com/2026/06/24/dflash-speculative-decoding-drafts-whole-token-blocks-in-parallel-for-up-to-15x-higher-throughput-on-nvidia-blackwell",
-        "source": "MarkTechPost（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_cc9c662454c6",
-      "title": "今天，豆包正式推出专业版",
-      "url": "https://mp.weixin.qq.com/s/Sb-NMXTrWFQES1EDO_Gr2g",
-      "primary_url": "https://mp.weixin.qq.com/s/Sb-NMXTrWFQES1EDO_Gr2g",
-      "source": "公众号：豆包（字节）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "6f03b2c950c429e580188306df2b16aa245fac11",
-          "title": "今天，豆包正式推出专业版",
-          "url": "https://mp.weixin.qq.com/s/Sb-NMXTrWFQES1EDO_Gr2g",
-          "source": "公众号：豆包（字节）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-24T01:00:00Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "公众号：豆包（字节）"
-      ],
-      "items": [
-        {
-          "id": "6f03b2c950c429e580188306df2b16aa245fac11",
-          "title": "今天，豆包正式推出专业版",
-          "url": "https://mp.weixin.qq.com/s/Sb-NMXTrWFQES1EDO_Gr2g",
-          "source": "公众号：豆包（字节）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-24T01:00:00Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7317,
-      "importance": 0.7317,
-      "importance_score": 0.7317,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.77,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7172,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-24T01:00:00Z",
-      "latest_at": "2026-06-24T01:00:00Z",
-      "primary_item": {
-        "id": "6f03b2c950c429e580188306df2b16aa245fac11",
-        "title": "今天，豆包正式推出专业版",
-        "url": "https://mp.weixin.qq.com/s/Sb-NMXTrWFQES1EDO_Gr2g",
-        "source": "公众号：豆包（字节）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_910efd1decb2",
-      "title": "Qwen-AgentWorld 开源：让 Agent 学会\"先预测，再行动\"",
-      "url": "https://mp.weixin.qq.com/s/NV9WGpGsfFz35jww5agM9g",
-      "primary_url": "https://mp.weixin.qq.com/s/NV9WGpGsfFz35jww5agM9g",
-      "source": "公众号：通义实验室（千问）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "e2cc50995bddffbae79806d37fe10ea2d396cd2a",
-          "title": "Qwen-AgentWorld 开源：让 Agent 学会\"先预测，再行动\"",
-          "url": "https://mp.weixin.qq.com/s/NV9WGpGsfFz35jww5agM9g",
-          "source": "公众号：通义实验室（千问）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-24T03:32:04Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "公众号：通义实验室（千问）"
-      ],
-      "items": [
-        {
-          "id": "e2cc50995bddffbae79806d37fe10ea2d396cd2a",
-          "title": "Qwen-AgentWorld 开源：让 Agent 学会\"先预测，再行动\"",
-          "url": "https://mp.weixin.qq.com/s/NV9WGpGsfFz35jww5agM9g",
-          "source": "公众号：通义实验室（千问）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-24T03:32:04Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7275,
-      "importance": 0.7275,
-      "importance_score": 0.7275,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.74,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7439,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-24T03:32:04Z",
-      "latest_at": "2026-06-24T03:32:04Z",
-      "primary_item": {
-        "id": "e2cc50995bddffbae79806d37fe10ea2d396cd2a",
-        "title": "Qwen-AgentWorld 开源：让 Agent 学会\"先预测，再行动\"",
-        "url": "https://mp.weixin.qq.com/s/NV9WGpGsfFz35jww5agM9g",
-        "source": "公众号：通义实验室（千问）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_c505c564b881",
-      "title": "Meta监控员工练AI两个月就翻车：4. 5 万张隐私数据表泄露， 1600 人联名喊停",
-      "url": "https://www.aibase.com/news/29131",
-      "primary_url": "https://www.aibase.com/news/29131",
+      "story_id": "story_b3255613e655",
+      "title": "AI懂你所想：OpenAI 升级 GPT-5.5 Instant，购物推荐更“聪明”",
+      "url": "https://www.aibase.com/news/29137",
+      "primary_url": "https://www.aibase.com/news/29137",
       "source": "AIbase",
       "source_name": "AIbase",
       "sources": [
         {
-          "id": "1d22f4d133ab9b381b11159d78c8f77b5fce939c",
-          "title": "Meta监控员工练AI两个月就翻车：4. 5 万张隐私数据表泄露， 1600 人联名喊停",
-          "url": "https://www.aibase.com/news/29131",
+          "id": "8249d709c812b56c7e33445f5787ee51e5eaec1b",
+          "title": "AI懂你所想：OpenAI 升级 GPT-5.5 Instant，购物推荐更“聪明”",
+          "url": "https://www.aibase.com/news/29137",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-06-24T10:15:31.292438Z"
+          "published_at": "2026-06-25T04:40:56.711525Z"
         }
       ],
       "source_count": 1,
@@ -1399,38 +1359,100 @@
       ],
       "items": [
         {
-          "id": "1d22f4d133ab9b381b11159d78c8f77b5fce939c",
-          "title": "Meta监控员工练AI两个月就翻车：4. 5 万张隐私数据表泄露， 1600 人联名喊停",
-          "url": "https://www.aibase.com/news/29131",
+          "id": "8249d709c812b56c7e33445f5787ee51e5eaec1b",
+          "title": "AI懂你所想：OpenAI 升级 GPT-5.5 Instant，购物推荐更“聪明”",
+          "url": "https://www.aibase.com/news/29137",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-06-24T10:15:31.292438Z"
+          "published_at": "2026-06-25T04:40:56.711525Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7352,
-      "importance": 0.7352,
-      "importance_score": 0.7352,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8198,
+        "recency": 1.0,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance"
+        "high_ai_relevance",
+        "high_importance"
       ],
-      "earliest_at": "2026-06-24T10:15:31.292438Z",
-      "latest_at": "2026-06-24T10:15:31.292438Z",
+      "earliest_at": "2026-06-25T04:40:56.711525Z",
+      "latest_at": "2026-06-25T04:40:56.711525Z",
       "primary_item": {
-        "id": "1d22f4d133ab9b381b11159d78c8f77b5fce939c",
-        "title": "Meta监控员工练AI两个月就翻车：4. 5 万张隐私数据表泄露， 1600 人联名喊停",
-        "url": "https://www.aibase.com/news/29131",
+        "id": "8249d709c812b56c7e33445f5787ee51e5eaec1b",
+        "title": "AI懂你所想：OpenAI 升级 GPT-5.5 Instant，购物推荐更“聪明”",
+        "url": "https://www.aibase.com/news/29137",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_66496038576c",
+      "title": "Figma 发布重大更新:新增原生代码层、动画支持与 Weavy 工作流生成功能",
+      "url": "https://www.aibase.com/news/29136",
+      "primary_url": "https://www.aibase.com/news/29136",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "6379e5664e4bc40f4d49c08e58ffed6acfbd7987",
+          "title": "Figma 发布重大更新:新增原生代码层、动画支持与 Weavy 工作流生成功能",
+          "url": "https://www.aibase.com/news/29136",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-25T04:40:56.711525Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "6379e5664e4bc40f4d49c08e58ffed6acfbd7987",
+          "title": "Figma 发布重大更新:新增原生代码层、动画支持与 Weavy 工作流生成功能",
+          "url": "https://www.aibase.com/news/29136",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-25T04:40:56.711525Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-25T04:40:56.711525Z",
+      "latest_at": "2026-06-25T04:40:56.711525Z",
+      "primary_item": {
+        "id": "6379e5664e4bc40f4d49c08e58ffed6acfbd7987",
+        "title": "Figma 发布重大更新:新增原生代码层、动画支持与 Weavy 工作流生成功能",
+        "url": "https://www.aibase.com/news/29136",
         "source": "AIbase",
         "source_name": "AIbase"
       }
