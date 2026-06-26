@@ -1,107 +1,8 @@
 {
-  "generated_at": "2026-06-25T23:50:07.021955Z",
+  "generated_at": "2026-06-26T02:37:30.235851Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
-    {
-      "story_id": "story_91992ed9f82d",
-      "title": "法典 CLI 0.142.1 / Codex CLI 0.142.1",
-      "url": "https://developers.openai.com/codex/changelog",
-      "primary_url": "https://developers.openai.com/codex/changelog",
-      "source": "OpenAI Codex Changelog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "e329806d2a8fe2fa8d5dc5cc9468d3c4f40ae990",
-          "title": "法典 CLI 0.142.1 / Codex CLI 0.142.1",
-          "url": "https://developers.openai.com/codex/changelog",
-          "source": "OpenAI Codex Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-25T00:00:00Z"
-        },
-        {
-          "id": "e73b44a9f3f8de9b98166406b22d8635d858fd45",
-          "title": "法典 CLI 0.142.2 / Codex CLI 0.142.2",
-          "url": "https://developers.openai.com/codex/changelog",
-          "source": "OpenAI Codex Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-25T00:00:00Z"
-        },
-        {
-          "id": "06bdf1d58aed83751fe9dcd3cce0d615c652331f",
-          "title": "Codex Remote 全面上市 / Codex Remote reaches general availability",
-          "url": "https://developers.openai.com/codex/changelog",
-          "source": "OpenAI Codex Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-25T00:00:00Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "OpenAI Codex Changelog"
-      ],
-      "items": [
-        {
-          "id": "e329806d2a8fe2fa8d5dc5cc9468d3c4f40ae990",
-          "title": "法典 CLI 0.142.1 / Codex CLI 0.142.1",
-          "url": "https://developers.openai.com/codex/changelog",
-          "source": "OpenAI Codex Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-25T00:00:00Z"
-        },
-        {
-          "id": "e73b44a9f3f8de9b98166406b22d8635d858fd45",
-          "title": "法典 CLI 0.142.2 / Codex CLI 0.142.2",
-          "url": "https://developers.openai.com/codex/changelog",
-          "source": "OpenAI Codex Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-25T00:00:00Z"
-        },
-        {
-          "id": "06bdf1d58aed83751fe9dcd3cce0d615c652331f",
-          "title": "Codex Remote 全面上市 / Codex Remote reaches general availability",
-          "url": "https://developers.openai.com/codex/changelog",
-          "source": "OpenAI Codex Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-25T00:00:00Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.8636,
-      "importance": 0.8636,
-      "importance_score": 0.8636,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.98,
-        "recency": 0.7088,
-        "story_heat": 0.5
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-25T00:00:00Z",
-      "latest_at": "2026-06-25T00:00:00Z",
-      "primary_item": {
-        "id": "e329806d2a8fe2fa8d5dc5cc9468d3c4f40ae990",
-        "title": "法典 CLI 0.142.1 / Codex CLI 0.142.1",
-        "url": "https://developers.openai.com/codex/changelog",
-        "source": "OpenAI Codex Changelog",
-        "source_name": "Official AI Updates"
-      }
-    },
     {
       "story_id": "story_b6ca7e75baf6",
       "title": "跨模型和任务评估 GitHub Copilot 代理工具的性能和效率 / Evaluating performance and efficiency of the GitHub Copilot agentic harness across models and tasks",
@@ -137,15 +38,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8558,
-      "importance": 0.8558,
-      "importance_score": 0.8558,
+      "score": 0.8488,
+      "importance": 0.8488,
+      "importance_score": 0.8488,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.94,
-        "recency": 0.988,
+        "recency": 0.9489,
         "story_heat": 0.0
       },
       "category": "official",
@@ -199,15 +100,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8465,
-      "importance": 0.8465,
-      "importance_score": 0.8465,
+      "score": 0.8396,
+      "importance": 0.8396,
+      "importance_score": 0.8396,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.9695,
+        "recency": 0.9312,
         "story_heat": 0.0
       },
       "category": "official",
@@ -318,15 +219,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.8311,
-      "importance": 0.8311,
-      "importance_score": 0.8311,
+      "score": 0.8246,
+      "importance": 0.8246,
+      "importance_score": 0.8246,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.73,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9196,
+        "recency": 0.8833,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -343,88 +244,6 @@
         "url": "https://arstechnica.com/tech-policy/2026/06/anthropic-claims-alibaba-defied-trump-to-attack-claude-and-steal-capabilities",
         "source": "Ars Technica：AI（RSS）",
         "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_2b6976f96bb5",
-      "title": "OpenAI内部报告：智能体Codex如何改变工作 / How agents are transforming work",
-      "url": "https://openai.com/index/how-agents-are-transforming-work",
-      "primary_url": "https://openai.com/index/how-agents-are-transforming-work",
-      "source": "OpenAI News",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "25f8b643aef3153af022603a8d1d4080dada1ce0",
-          "title": "OpenAI内部报告：智能体Codex如何改变工作 / How agents are transforming work",
-          "url": "https://openai.com/index/how-agents-are-transforming-work",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-25T02:00:00Z"
-        },
-        {
-          "id": "a81bbc184761945898d9e8c69f145b9699dfe6d5",
-          "title": "OpenAI内部报告：智能体Codex如何改变工作",
-          "url": "https://openai.com/index/how-agents-are-transforming-work",
-          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-25T02:00:00Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "OpenAI News",
-        "OpenAI：官网动态（RSS · 排除企业/客户案例）"
-      ],
-      "items": [
-        {
-          "id": "25f8b643aef3153af022603a8d1d4080dada1ce0",
-          "title": "OpenAI内部报告：智能体Codex如何改变工作 / How agents are transforming work",
-          "url": "https://openai.com/index/how-agents-are-transforming-work",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-25T02:00:00Z"
-        },
-        {
-          "id": "a81bbc184761945898d9e8c69f145b9699dfe6d5",
-          "title": "OpenAI内部报告：智能体Codex如何改变工作",
-          "url": "https://openai.com/index/how-agents-are-transforming-work",
-          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-25T02:00:00Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.8283,
-      "importance": 0.8283,
-      "importance_score": 0.8283,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.7296,
-        "story_heat": 0.25
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-25T02:00:00Z",
-      "latest_at": "2026-06-25T02:00:00Z",
-      "primary_item": {
-        "id": "25f8b643aef3153af022603a8d1d4080dada1ce0",
-        "title": "OpenAI内部报告：智能体Codex如何改变工作 / How agents are transforming work",
-        "url": "https://openai.com/index/how-agents-are-transforming-work",
-        "source": "OpenAI News",
-        "source_name": "Official AI Updates"
       }
     },
     {
@@ -462,15 +281,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8247,
-      "importance": 0.8247,
-      "importance_score": 0.8247,
+      "score": 0.8184,
+      "importance": 0.8184,
+      "importance_score": 0.8184,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.893,
+        "recency": 0.8578,
         "story_heat": 0.0
       },
       "category": "official",
@@ -524,15 +343,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8461,
-      "importance": 0.8461,
-      "importance_score": 0.8461,
+      "score": 0.8392,
+      "importance": 0.8392,
+      "importance_score": 0.8392,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.967,
+        "recency": 0.9288,
         "story_heat": 0.0
       },
       "category": "official",
@@ -605,15 +424,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7992,
-      "importance": 0.7992,
-      "importance_score": 0.7992,
+      "score": 0.7927,
+      "importance": 0.7927,
+      "importance_score": 0.7927,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.79,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9201,
+        "recency": 0.8837,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -633,21 +452,163 @@
       }
     },
     {
-      "story_id": "story_4cc42a3912fa",
-      "title": "OpenAI 内部论文：Codex 已占 99.8% 内部输出 tokens，智能体正向全部门扩散",
-      "url": "https://x.com/rohanpaul_ai/status/2070221621676441642",
-      "primary_url": "https://x.com/rohanpaul_ai/status/2070221621676441642",
+      "story_id": "story_c9bb639330ad",
+      "title": "Adobe宣布收购视频与图像AI模型开发商Topaz Labs，深化Firefly生态布局",
+      "url": "https://www.aibase.com/news/29183",
+      "primary_url": "https://www.aibase.com/news/29183",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "026e65a50fce400098e5e0b51a82d3a677a58815",
+          "title": "Adobe宣布收购视频与图像AI模型开发商Topaz Labs，深化Firefly生态布局",
+          "url": "https://www.aibase.com/news/29183",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-26T02:37:30.235851Z"
+        },
+        {
+          "id": "d8d2f5843b13578219c43fa8cca3388230b1aa35",
+          "title": "Adobe 宣布收购视频与图像 AI 模型开发商 Topaz Labs，深化 Firefly 生态布局",
+          "url": "https://www.aibase.com/zh/news/29183",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "AIbase",
+        "Readhub · AI"
+      ],
+      "items": [
+        {
+          "id": "026e65a50fce400098e5e0b51a82d3a677a58815",
+          "title": "Adobe宣布收购视频与图像AI模型开发商Topaz Labs，深化Firefly生态布局",
+          "url": "https://www.aibase.com/news/29183",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-26T02:37:30.235851Z"
+        },
+        {
+          "id": "d8d2f5843b13578219c43fa8cca3388230b1aa35",
+          "title": "Adobe 宣布收购视频与图像 AI 模型开发商 Topaz Labs，深化 Firefly 生态布局",
+          "url": "https://www.aibase.com/zh/news/29183",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7926,
+      "importance": 0.7926,
+      "importance_score": 0.7926,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-26T02:37:30.235851Z",
+      "latest_at": "2026-06-26T02:37:30.235851Z",
+      "primary_item": {
+        "id": "026e65a50fce400098e5e0b51a82d3a677a58815",
+        "title": "Adobe宣布收购视频与图像AI模型开发商Topaz Labs，深化Firefly生态布局",
+        "url": "https://www.aibase.com/news/29183",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_a01216e7ec9a",
+      "title": "小互开源个人IP配图技能\"小互IP Studio\"，含31个原创角色",
+      "url": "https://x.com/xiaohu/status/2070317717811540149",
+      "primary_url": "https://x.com/xiaohu/status/2070317717811540149",
+      "source": "X：小互 (@xiaohu)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "671b2837bb6abe0fcd4dd14db0dcab8a71ab7a4f",
+          "title": "小互开源个人IP配图技能\"小互IP Studio\"，含31个原创角色",
+          "url": "https://x.com/xiaohu/status/2070317717811540149",
+          "source": "X：小互 (@xiaohu)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-26T01:26:23Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "X：小互 (@xiaohu)"
+      ],
+      "items": [
+        {
+          "id": "671b2837bb6abe0fcd4dd14db0dcab8a71ab7a4f",
+          "title": "小互开源个人IP配图技能\"小互IP Studio\"，含31个原创角色",
+          "url": "https://x.com/xiaohu/status/2070317717811540149",
+          "source": "X：小互 (@xiaohu)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-26T01:26:23Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7915,
+      "importance": 0.7915,
+      "importance_score": 0.7915,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.81,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.983,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-26T01:26:23Z",
+      "latest_at": "2026-06-26T01:26:23Z",
+      "primary_item": {
+        "id": "671b2837bb6abe0fcd4dd14db0dcab8a71ab7a4f",
+        "title": "小互开源个人IP配图技能\"小互IP Studio\"，含31个原创角色",
+        "url": "https://x.com/xiaohu/status/2070317717811540149",
+        "source": "X：小互 (@xiaohu)",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_5e4eee1b3db5",
+      "title": "@exponentialview 发布《State of the AI Economy》报告：AI经济年化收入超1750亿美元",
+      "url": "https://x.com/rohanpaul_ai/status/2070288396644491317",
+      "primary_url": "https://x.com/rohanpaul_ai/status/2070288396644491317",
       "source": "X：Rohan Paul (@rohanpaul_ai)",
       "source_name": "AI HOT",
       "sources": [
         {
-          "id": "4ba6368af8e231426f0c056e936d9da6e636b61e",
-          "title": "OpenAI 内部论文：Codex 已占 99.8% 内部输出 tokens，智能体正向全部门扩散",
-          "url": "https://x.com/rohanpaul_ai/status/2070221621676441642",
+          "id": "7a22e1daec7a8c8f53d0227ae3f1e9c796d15d6e",
+          "title": "@exponentialview 发布《State of the AI Economy》报告：AI经济年化收入超1750亿美元",
+          "url": "https://x.com/rohanpaul_ai/status/2070288396644491317",
           "source": "X：Rohan Paul (@rohanpaul_ai)",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-06-25T19:04:32Z"
+          "published_at": "2026-06-25T23:29:52Z"
         }
       ],
       "source_count": 1,
@@ -656,26 +617,26 @@
       ],
       "items": [
         {
-          "id": "4ba6368af8e231426f0c056e936d9da6e636b61e",
-          "title": "OpenAI 内部论文：Codex 已占 99.8% 内部输出 tokens，智能体正向全部门扩散",
-          "url": "https://x.com/rohanpaul_ai/status/2070221621676441642",
+          "id": "7a22e1daec7a8c8f53d0227ae3f1e9c796d15d6e",
+          "title": "@exponentialview 发布《State of the AI Economy》报告：AI经济年化收入超1750亿美元",
+          "url": "https://x.com/rohanpaul_ai/status/2070288396644491317",
           "source": "X：Rohan Paul (@rohanpaul_ai)",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-06-25T19:04:32Z"
+          "published_at": "2026-06-25T23:29:52Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7796,
-      "importance": 0.7796,
-      "importance_score": 0.7796,
+      "score": 0.7897,
+      "importance": 0.7897,
+      "importance_score": 0.7897,
       "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.8,
+        "editorial": 0.82,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9336,
+        "recency": 0.9558,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -683,12 +644,12 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-06-25T19:04:32Z",
-      "latest_at": "2026-06-25T19:04:32Z",
+      "earliest_at": "2026-06-25T23:29:52Z",
+      "latest_at": "2026-06-25T23:29:52Z",
       "primary_item": {
-        "id": "4ba6368af8e231426f0c056e936d9da6e636b61e",
-        "title": "OpenAI 内部论文：Codex 已占 99.8% 内部输出 tokens，智能体正向全部门扩散",
-        "url": "https://x.com/rohanpaul_ai/status/2070221621676441642",
+        "id": "7a22e1daec7a8c8f53d0227ae3f1e9c796d15d6e",
+        "title": "@exponentialview 发布《State of the AI Economy》报告：AI经济年化收入超1750亿美元",
+        "url": "https://x.com/rohanpaul_ai/status/2070288396644491317",
         "source": "X：Rohan Paul (@rohanpaul_ai)",
         "source_name": "AI HOT"
       }
@@ -747,15 +708,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7765,
-      "importance": 0.7765,
-      "importance_score": 0.7765,
+      "score": 0.7702,
+      "importance": 0.7702,
+      "importance_score": 0.7702,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.73,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.894,
+        "recency": 0.8587,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -809,15 +770,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8312,
-      "importance": 0.8312,
-      "importance_score": 0.8312,
+      "score": 0.8249,
+      "importance": 0.8249,
+      "importance_score": 0.8249,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.8842,
+        "recency": 0.8493,
         "story_heat": 0.0
       },
       "category": "official",
@@ -890,15 +851,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7703,
-      "importance": 0.7703,
-      "importance_score": 0.7703,
+      "score": 0.764,
+      "importance": 0.764,
+      "importance_score": 0.764,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.71,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.893,
+        "recency": 0.8578,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -915,6 +876,148 @@
         "url": "https://techcrunch.com/2026/06/25/from-fortnite-to-robots-general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world",
         "source": "TechCrunch：AI（RSS）",
         "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_6b43696c8815",
+      "title": "Claude Code 6个实用Hook玩法",
+      "url": "https://mp.weixin.qq.com/s/LVj2foSXi_hBRKxjuYaUyw",
+      "primary_url": "https://mp.weixin.qq.com/s/LVj2foSXi_hBRKxjuYaUyw",
+      "source": "公众号：数字生命卡兹克",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "636e51138ecf10f7d5a31ec7a1dd53d94fa5add0",
+          "title": "Claude Code 6个实用Hook玩法",
+          "url": "https://mp.weixin.qq.com/s/LVj2foSXi_hBRKxjuYaUyw",
+          "source": "公众号：数字生命卡兹克",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-26T02:02:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "公众号：数字生命卡兹克"
+      ],
+      "items": [
+        {
+          "id": "636e51138ecf10f7d5a31ec7a1dd53d94fa5add0",
+          "title": "Claude Code 6个实用Hook玩法",
+          "url": "https://mp.weixin.qq.com/s/LVj2foSXi_hBRKxjuYaUyw",
+          "source": "公众号：数字生命卡兹克",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-26T02:02:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7631,
+      "importance": 0.7631,
+      "importance_score": 0.7631,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.71,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9915,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-26T02:02:00Z",
+      "latest_at": "2026-06-26T02:02:00Z",
+      "primary_item": {
+        "id": "636e51138ecf10f7d5a31ec7a1dd53d94fa5add0",
+        "title": "Claude Code 6个实用Hook玩法",
+        "url": "https://mp.weixin.qq.com/s/LVj2foSXi_hBRKxjuYaUyw",
+        "source": "公众号：数字生命卡兹克",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_6ccdb3948724",
+      "title": "不给数据就割肉？谷歌强推AI训练新规",
+      "url": "https://www.aibase.com/news/29184",
+      "primary_url": "https://www.aibase.com/news/29184",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "495a41d44980a913dd229c351803a53e1bac841e",
+          "title": "不给数据就割肉？谷歌强推AI训练新规",
+          "url": "https://www.aibase.com/news/29184",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-26T02:37:30.235851Z"
+        },
+        {
+          "id": "a2f71252969321ff44bbc61e21f7e5844e49643d",
+          "title": "不给数据就割肉？谷歌强推 AI 训练新规",
+          "url": "https://www.aibase.com/zh/news/29184",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "AIbase",
+        "Readhub · AI"
+      ],
+      "items": [
+        {
+          "id": "495a41d44980a913dd229c351803a53e1bac841e",
+          "title": "不给数据就割肉？谷歌强推AI训练新规",
+          "url": "https://www.aibase.com/news/29184",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-26T02:37:30.235851Z"
+        },
+        {
+          "id": "a2f71252969321ff44bbc61e21f7e5844e49643d",
+          "title": "不给数据就割肉？谷歌强推 AI 训练新规",
+          "url": "https://www.aibase.com/zh/news/29184",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7926,
+      "importance": 0.7926,
+      "importance_score": 0.7926,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-26T02:37:30.235851Z",
+      "latest_at": "2026-06-26T02:37:30.235851Z",
+      "primary_item": {
+        "id": "495a41d44980a913dd229c351803a53e1bac841e",
+        "title": "不给数据就割肉？谷歌强推AI训练新规",
+        "url": "https://www.aibase.com/news/29184",
+        "source": "AIbase",
+        "source_name": "AIbase"
       }
     },
     {
@@ -971,15 +1074,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7981,
-      "importance": 0.7981,
-      "importance_score": 0.7981,
+      "score": 0.7915,
+      "importance": 0.7915,
+      "importance_score": 0.7915,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.78,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9308,
+        "recency": 0.894,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -1033,15 +1136,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7592,
-      "importance": 0.7592,
-      "importance_score": 0.7592,
+      "score": 0.7529,
+      "importance": 0.7529,
+      "importance_score": 0.7529,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.76,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8867,
+        "recency": 0.8517,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1113,22 +1216,21 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7543,
-      "importance": 0.7543,
-      "importance_score": 0.7543,
+      "score": 0.7474,
+      "importance": 0.7474,
+      "importance_score": 0.7474,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.61,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9706,
+        "recency": 0.9322,
         "story_heat": 0.25
       },
       "category": "industry",
       "reasons": [
         "multi_source",
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-06-25T21:45:57Z",
       "latest_at": "2026-06-25T21:45:57Z",
@@ -1194,22 +1296,21 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7528,
-      "importance": 0.7528,
-      "importance_score": 0.7528,
+      "score": 0.7464,
+      "importance": 0.7464,
+      "importance_score": 0.7464,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.65,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8955,
+        "recency": 0.8602,
         "story_heat": 0.25
       },
       "category": "industry",
       "reasons": [
         "multi_source",
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-06-25T16:11:42Z",
       "latest_at": "2026-06-25T16:11:42Z",
@@ -1256,21 +1357,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7514,
-      "importance": 0.7514,
-      "importance_score": 0.7514,
+      "score": 0.745,
+      "importance": 0.745,
+      "importance_score": 0.745,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.73,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8931,
+        "recency": 0.8578,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-06-25T16:00:25Z",
       "latest_at": "2026-06-25T16:00:25Z",
@@ -1283,161 +1383,21 @@
       }
     },
     {
-      "story_id": "story_5005c44be219",
-      "title": "民航迈入“数智”新纪元：五部门联合部署，力推行业大模型应用",
-      "url": "https://www.aibase.com/news/29154",
-      "primary_url": "https://www.aibase.com/news/29154",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "1b264eb6d8ca76c69daea28ecea1450488ee6b69",
-          "title": "民航迈入“数智”新纪元：五部门联合部署，力推行业大模型应用",
-          "url": "https://www.aibase.com/news/29154",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-25T04:40:56.711525Z"
-        },
-        {
-          "id": "eb0f9c79cd82628f9f71e8571952cb3a548f77b7",
-          "title": "民航迈入「数智」新纪元：五部门联合部署，力推行业大模型应用",
-          "url": "https://www.aibase.com/zh/news/29154",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "AIbase",
-        "Readhub · AI"
-      ],
-      "items": [
-        {
-          "id": "1b264eb6d8ca76c69daea28ecea1450488ee6b69",
-          "title": "民航迈入“数智”新纪元：五部门联合部署，力推行业大模型应用",
-          "url": "https://www.aibase.com/news/29154",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-25T04:40:56.711525Z"
-        },
-        {
-          "id": "eb0f9c79cd82628f9f71e8571952cb3a548f77b7",
-          "title": "民航迈入「数智」新纪元：五部门联合部署，力推行业大模型应用",
-          "url": "https://www.aibase.com/zh/news/29154",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7491,
-      "importance": 0.7491,
-      "importance_score": 0.7491,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7584,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-25T04:40:56.711525Z",
-      "latest_at": "2026-06-25T04:40:56.711525Z",
-      "primary_item": {
-        "id": "1b264eb6d8ca76c69daea28ecea1450488ee6b69",
-        "title": "民航迈入“数智”新纪元：五部门联合部署，力推行业大模型应用",
-        "url": "https://www.aibase.com/news/29154",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      }
-    },
-    {
-      "story_id": "story_05940679bf9e",
-      "title": "Codex 在 ChatGPT 移动 App 正式可用",
-      "url": "https://x.com/OpenAIDevs/status/2070254532911882707",
-      "primary_url": "https://x.com/OpenAIDevs/status/2070254532911882707",
-      "source": "X：OpenAI Developers (@OpenAIDevs)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "1bdcd2ad0adf074dc40720371aade9e20a5fe73d",
-          "title": "Codex 在 ChatGPT 移动 App 正式可用",
-          "url": "https://x.com/OpenAIDevs/status/2070254532911882707",
-          "source": "X：OpenAI Developers (@OpenAIDevs)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-25T21:15:18Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：OpenAI Developers (@OpenAIDevs)"
-      ],
-      "items": [
-        {
-          "id": "1bdcd2ad0adf074dc40720371aade9e20a5fe73d",
-          "title": "Codex 在 ChatGPT 移动 App 正式可用",
-          "url": "https://x.com/OpenAIDevs/status/2070254532911882707",
-          "source": "X：OpenAI Developers (@OpenAIDevs)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-25T21:15:18Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.743,
-      "importance": 0.743,
-      "importance_score": 0.743,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.66,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9634,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-25T21:15:18Z",
-      "latest_at": "2026-06-25T21:15:18Z",
-      "primary_item": {
-        "id": "1bdcd2ad0adf074dc40720371aade9e20a5fe73d",
-        "title": "Codex 在 ChatGPT 移动 App 正式可用",
-        "url": "https://x.com/OpenAIDevs/status/2070254532911882707",
-        "source": "X：OpenAI Developers (@OpenAIDevs)",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_e2127d901497",
-      "title": "美国政府要求OpenAI暂缓GPT-5.6广泛发布",
-      "url": "https://x.com/rohanpaul_ai/status/2070252433109049466",
-      "primary_url": "https://x.com/rohanpaul_ai/status/2070252433109049466",
+      "story_id": "story_4cc42a3912fa",
+      "title": "OpenAI 内部论文：Codex 已占 99.8% 内部输出 tokens，智能体正向全部门扩散",
+      "url": "https://x.com/rohanpaul_ai/status/2070221621676441642",
+      "primary_url": "https://x.com/rohanpaul_ai/status/2070221621676441642",
       "source": "X：Rohan Paul (@rohanpaul_ai)",
       "source_name": "AI HOT",
       "sources": [
         {
-          "id": "72ccddf02cf09d26a12239f6ba3617184a843d5d",
-          "title": "美国政府要求OpenAI暂缓GPT-5.6广泛发布",
-          "url": "https://x.com/rohanpaul_ai/status/2070252433109049466",
+          "id": "4ba6368af8e231426f0c056e936d9da6e636b61e",
+          "title": "OpenAI 内部论文：Codex 已占 99.8% 内部输出 tokens，智能体正向全部门扩散",
+          "url": "https://x.com/rohanpaul_ai/status/2070221621676441642",
           "source": "X：Rohan Paul (@rohanpaul_ai)",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-06-25T21:06:58Z"
+          "published_at": "2026-06-25T19:04:32Z"
         }
       ],
       "source_count": 1,
@@ -1446,26 +1406,26 @@
       ],
       "items": [
         {
-          "id": "72ccddf02cf09d26a12239f6ba3617184a843d5d",
-          "title": "美国政府要求OpenAI暂缓GPT-5.6广泛发布",
-          "url": "https://x.com/rohanpaul_ai/status/2070252433109049466",
+          "id": "4ba6368af8e231426f0c056e936d9da6e636b61e",
+          "title": "OpenAI 内部论文：Codex 已占 99.8% 内部输出 tokens，智能体正向全部门扩散",
+          "url": "https://x.com/rohanpaul_ai/status/2070221621676441642",
           "source": "X：Rohan Paul (@rohanpaul_ai)",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-06-25T21:06:58Z"
+          "published_at": "2026-06-25T19:04:32Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7727,
-      "importance": 0.7727,
-      "importance_score": 0.7727,
+      "score": 0.773,
+      "importance": 0.773,
+      "importance_score": 0.773,
       "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.76,
+        "editorial": 0.8,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9615,
+        "recency": 0.8967,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1473,12 +1433,12 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-06-25T21:06:58Z",
-      "latest_at": "2026-06-25T21:06:58Z",
+      "earliest_at": "2026-06-25T19:04:32Z",
+      "latest_at": "2026-06-25T19:04:32Z",
       "primary_item": {
-        "id": "72ccddf02cf09d26a12239f6ba3617184a843d5d",
-        "title": "美国政府要求OpenAI暂缓GPT-5.6广泛发布",
-        "url": "https://x.com/rohanpaul_ai/status/2070252433109049466",
+        "id": "4ba6368af8e231426f0c056e936d9da6e636b61e",
+        "title": "OpenAI 内部论文：Codex 已占 99.8% 内部输出 tokens，智能体正向全部门扩散",
+        "url": "https://x.com/rohanpaul_ai/status/2070221621676441642",
         "source": "X：Rohan Paul (@rohanpaul_ai)",
         "source_name": "AI HOT"
       }
