@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T06:46:37.410615Z",
+  "generated_at": "2026-06-26T10:16:42.916150Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -38,15 +38,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8389,
-      "importance": 0.8389,
-      "importance_score": 0.8389,
+      "score": 0.8309,
+      "importance": 0.8309,
+      "importance_score": 0.8309,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.94,
-        "recency": 0.8937,
+        "recency": 0.8497,
         "story_heat": 0.0
       },
       "category": "official",
@@ -100,15 +100,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8299,
-      "importance": 0.8299,
-      "importance_score": 0.8299,
+      "score": 0.8221,
+      "importance": 0.8221,
+      "importance_score": 0.8221,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.877,
+        "recency": 0.8338,
         "story_heat": 0.0
       },
       "category": "official",
@@ -219,15 +219,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.8153,
-      "importance": 0.8153,
-      "importance_score": 0.8153,
+      "score": 0.808,
+      "importance": 0.808,
+      "importance_score": 0.808,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.73,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8319,
+        "recency": 0.7909,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -281,15 +281,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8094,
-      "importance": 0.8094,
-      "importance_score": 0.8094,
+      "score": 0.8022,
+      "importance": 0.8022,
+      "importance_score": 0.8022,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.8078,
+        "recency": 0.768,
         "story_heat": 0.0
       },
       "category": "official",
@@ -306,6 +306,87 @@
         "url": "https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026",
         "source": "Google AI Blog",
         "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_6ecf5f4c0ba9",
+      "title": "百度千帆Coding Plan停止套餐续费，7月将升级推Token Plan按量计费产品",
+      "url": "https://www.aibase.com/news/29205",
+      "primary_url": "https://www.aibase.com/news/29205",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "5c26f4020a2e647bb8dec5c8bee3d7351f71fefd",
+          "title": "百度千帆Coding Plan停止套餐续费，7月将升级推Token Plan按量计费产品",
+          "url": "https://www.aibase.com/news/29205",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-26T10:16:42.916150Z"
+        },
+        {
+          "id": "89a5292c6d3d750912e0e17ada2f669f50e2d2d4",
+          "title": "百度千帆 Coding Plan 停止套餐续费，7 月将升级推 Token Plan 按量计费产品",
+          "url": "https://www.aibase.com/zh/news/29205",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "AIbase",
+        "Readhub · AI"
+      ],
+      "items": [
+        {
+          "id": "5c26f4020a2e647bb8dec5c8bee3d7351f71fefd",
+          "title": "百度千帆Coding Plan停止套餐续费，7月将升级推Token Plan按量计费产品",
+          "url": "https://www.aibase.com/news/29205",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-26T10:16:42.916150Z"
+        },
+        {
+          "id": "89a5292c6d3d750912e0e17ada2f669f50e2d2d4",
+          "title": "百度千帆 Coding Plan 停止套餐续费，7 月将升级推 Token Plan 按量计费产品",
+          "url": "https://www.aibase.com/zh/news/29205",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7926,
+      "importance": 0.7926,
+      "importance_score": 0.7926,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-26T10:16:42.916150Z",
+      "latest_at": "2026-06-26T10:16:42.916150Z",
+      "primary_item": {
+        "id": "5c26f4020a2e647bb8dec5c8bee3d7351f71fefd",
+        "title": "百度千帆Coding Plan停止套餐续费，7月将升级推Token Plan按量计费产品",
+        "url": "https://www.aibase.com/news/29205",
+        "source": "AIbase",
+        "source_name": "AIbase"
       }
     },
     {
@@ -343,15 +424,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8295,
-      "importance": 0.8295,
-      "importance_score": 0.8295,
+      "score": 0.8217,
+      "importance": 0.8217,
+      "importance_score": 0.8217,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.8748,
+        "recency": 0.8316,
         "story_heat": 0.0
       },
       "category": "official",
@@ -424,15 +505,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7931,
-      "importance": 0.7931,
-      "importance_score": 0.7931,
+      "score": 0.7845,
+      "importance": 0.7845,
+      "importance_score": 0.7845,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.74,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9695,
+        "recency": 0.9217,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -505,15 +586,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7834,
-      "importance": 0.7834,
-      "importance_score": 0.7834,
+      "score": 0.776,
+      "importance": 0.776,
+      "importance_score": 0.776,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.79,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8323,
+        "recency": 0.7913,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -530,87 +611,6 @@
         "url": "https://scrollprize.org/firstscroll",
         "source": "Hacker News 热门（buzzing.cc 中文翻译）",
         "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_c9bb639330ad",
-      "title": "Adobe宣布收购视频与图像AI模型开发商Topaz Labs，深化Firefly生态布局",
-      "url": "https://www.aibase.com/news/29183",
-      "primary_url": "https://www.aibase.com/news/29183",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "026e65a50fce400098e5e0b51a82d3a677a58815",
-          "title": "Adobe宣布收购视频与图像AI模型开发商Topaz Labs，深化Firefly生态布局",
-          "url": "https://www.aibase.com/news/29183",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-26T02:37:30.235851Z"
-        },
-        {
-          "id": "d8d2f5843b13578219c43fa8cca3388230b1aa35",
-          "title": "Adobe 宣布收购视频与图像 AI 模型开发商 Topaz Labs，深化 Firefly 生态布局",
-          "url": "https://www.aibase.com/zh/news/29183",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "AIbase",
-        "Readhub · AI"
-      ],
-      "items": [
-        {
-          "id": "026e65a50fce400098e5e0b51a82d3a677a58815",
-          "title": "Adobe宣布收购视频与图像AI模型开发商Topaz Labs，深化Firefly生态布局",
-          "url": "https://www.aibase.com/news/29183",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-26T02:37:30.235851Z"
-        },
-        {
-          "id": "d8d2f5843b13578219c43fa8cca3388230b1aa35",
-          "title": "Adobe 宣布收购视频与图像 AI 模型开发商 Topaz Labs，深化 Firefly 生态布局",
-          "url": "https://www.aibase.com/zh/news/29183",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7821,
-      "importance": 0.7821,
-      "importance_score": 0.7821,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9418,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-26T02:37:30.235851Z",
-      "latest_at": "2026-06-26T02:37:30.235851Z",
-      "primary_item": {
-        "id": "026e65a50fce400098e5e0b51a82d3a677a58815",
-        "title": "Adobe宣布收购视频与图像AI模型开发商Topaz Labs，深化Firefly生态布局",
-        "url": "https://www.aibase.com/news/29183",
-        "source": "AIbase",
-        "source_name": "AIbase"
       }
     },
     {
@@ -648,15 +648,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7812,
-      "importance": 0.7812,
-      "importance_score": 0.7812,
+      "score": 0.773,
+      "importance": 0.773,
+      "importance_score": 0.773,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.81,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9258,
+        "recency": 0.8802,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -709,15 +709,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7796,
-      "importance": 0.7796,
-      "importance_score": 0.7796,
+      "score": 0.7716,
+      "importance": 0.7716,
+      "importance_score": 0.7716,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.82,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9002,
+        "recency": 0.8558,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -733,6 +733,87 @@
         "url": "https://x.com/rohanpaul_ai/status/2070288396644491317",
         "source": "X：Rohan Paul (@rohanpaul_ai)",
         "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_532f268bb0d4",
+      "title": "钉钉“悟空”获全球首个AI管理体系国际认证，AI治理迈入标准化新阶段",
+      "url": "https://www.aibase.com/news/29204",
+      "primary_url": "https://www.aibase.com/news/29204",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "b1934cdfb3e87ca63113a1cde52aaffc6af8930a",
+          "title": "钉钉“悟空”获全球首个AI管理体系国际认证，AI治理迈入标准化新阶段",
+          "url": "https://www.aibase.com/news/29204",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-26T10:16:42.916150Z"
+        },
+        {
+          "id": "41a5d49eff42c5a189c2f8002fec6597c877dab0",
+          "title": "钉钉「悟空」获全球首个 AI 管理体系国际认证，AI 治理迈入标准化新阶段",
+          "url": "https://www.aibase.com/zh/news/29204",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "AIbase",
+        "Readhub · AI"
+      ],
+      "items": [
+        {
+          "id": "b1934cdfb3e87ca63113a1cde52aaffc6af8930a",
+          "title": "钉钉“悟空”获全球首个AI管理体系国际认证，AI治理迈入标准化新阶段",
+          "url": "https://www.aibase.com/news/29204",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-26T10:16:42.916150Z"
+        },
+        {
+          "id": "41a5d49eff42c5a189c2f8002fec6597c877dab0",
+          "title": "钉钉「悟空」获全球首个 AI 管理体系国际认证，AI 治理迈入标准化新阶段",
+          "url": "https://www.aibase.com/zh/news/29204",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7926,
+      "importance": 0.7926,
+      "importance_score": 0.7926,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-26T10:16:42.916150Z",
+      "latest_at": "2026-06-26T10:16:42.916150Z",
+      "primary_item": {
+        "id": "b1934cdfb3e87ca63113a1cde52aaffc6af8930a",
+        "title": "钉钉“悟空”获全球首个AI管理体系国际认证，AI治理迈入标准化新阶段",
+        "url": "https://www.aibase.com/news/29204",
+        "source": "AIbase",
+        "source_name": "AIbase"
       }
     },
     {
@@ -789,15 +870,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7612,
-      "importance": 0.7612,
-      "importance_score": 0.7612,
+      "score": 0.754,
+      "importance": 0.754,
+      "importance_score": 0.754,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.73,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8087,
+        "recency": 0.7688,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -851,15 +932,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.816,
-      "importance": 0.816,
-      "importance_score": 0.816,
+      "score": 0.8089,
+      "importance": 0.8089,
+      "importance_score": 0.8089,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.7999,
+        "recency": 0.7604,
         "story_heat": 0.0
       },
       "category": "official",
@@ -932,22 +1013,21 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.755,
-      "importance": 0.755,
-      "importance_score": 0.755,
+      "score": 0.7478,
+      "importance": 0.7478,
+      "importance_score": 0.7478,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.71,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8078,
+        "recency": 0.768,
         "story_heat": 0.25
       },
       "category": "industry",
       "reasons": [
         "multi_source",
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-06-25T16:00:00Z",
       "latest_at": "2026-06-25T16:00:00Z",
@@ -956,67 +1036,6 @@
         "title": "General Intuition 完成 3.2 亿美元融资，用游戏数据训练通用 AI 智能体",
         "url": "https://techcrunch.com/2026/06/25/from-fortnite-to-robots-general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world",
         "source": "TechCrunch：AI（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_6b43696c8815",
-      "title": "Claude Code 6个实用Hook玩法",
-      "url": "https://mp.weixin.qq.com/s/LVj2foSXi_hBRKxjuYaUyw",
-      "primary_url": "https://mp.weixin.qq.com/s/LVj2foSXi_hBRKxjuYaUyw",
-      "source": "公众号：数字生命卡兹克",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "636e51138ecf10f7d5a31ec7a1dd53d94fa5add0",
-          "title": "Claude Code 6个实用Hook玩法",
-          "url": "https://mp.weixin.qq.com/s/LVj2foSXi_hBRKxjuYaUyw",
-          "source": "公众号：数字生命卡兹克",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-26T02:02:00Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "公众号：数字生命卡兹克"
-      ],
-      "items": [
-        {
-          "id": "636e51138ecf10f7d5a31ec7a1dd53d94fa5add0",
-          "title": "Claude Code 6个实用Hook玩法",
-          "url": "https://mp.weixin.qq.com/s/LVj2foSXi_hBRKxjuYaUyw",
-          "source": "公众号：数字生命卡兹克",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-26T02:02:00Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7527,
-      "importance": 0.7527,
-      "importance_score": 0.7527,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.71,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9338,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-26T02:02:00Z",
-      "latest_at": "2026-06-26T02:02:00Z",
-      "primary_item": {
-        "id": "636e51138ecf10f7d5a31ec7a1dd53d94fa5add0",
-        "title": "Claude Code 6个实用Hook玩法",
-        "url": "https://mp.weixin.qq.com/s/LVj2foSXi_hBRKxjuYaUyw",
-        "source": "公众号：数字生命卡兹克",
         "source_name": "AI HOT"
       }
     },
@@ -1074,15 +1093,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7822,
-      "importance": 0.7822,
-      "importance_score": 0.7822,
+      "score": 0.7747,
+      "importance": 0.7747,
+      "importance_score": 0.7747,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.78,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.842,
+        "recency": 0.8005,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -1102,84 +1121,63 @@
       }
     },
     {
-      "story_id": "story_6ccdb3948724",
-      "title": "不给数据就割肉？谷歌强推AI训练新规",
-      "url": "https://www.aibase.com/news/29184",
-      "primary_url": "https://www.aibase.com/news/29184",
-      "source": "AIbase",
-      "source_name": "AIbase",
+      "story_id": "story_6b43696c8815",
+      "title": "Claude Code 6个实用Hook玩法",
+      "url": "https://mp.weixin.qq.com/s/LVj2foSXi_hBRKxjuYaUyw",
+      "primary_url": "https://mp.weixin.qq.com/s/LVj2foSXi_hBRKxjuYaUyw",
+      "source": "公众号：数字生命卡兹克",
+      "source_name": "AI HOT",
       "sources": [
         {
-          "id": "495a41d44980a913dd229c351803a53e1bac841e",
-          "title": "不给数据就割肉？谷歌强推AI训练新规",
-          "url": "https://www.aibase.com/news/29184",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-26T02:37:30.235851Z"
-        },
-        {
-          "id": "a2f71252969321ff44bbc61e21f7e5844e49643d",
-          "title": "不给数据就割肉？谷歌强推 AI 训练新规",
-          "url": "https://www.aibase.com/zh/news/29184",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
+          "id": "636e51138ecf10f7d5a31ec7a1dd53d94fa5add0",
+          "title": "Claude Code 6个实用Hook玩法",
+          "url": "https://mp.weixin.qq.com/s/LVj2foSXi_hBRKxjuYaUyw",
+          "source": "公众号：数字生命卡兹克",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-26T02:02:00Z"
         }
       ],
-      "source_count": 2,
+      "source_count": 1,
       "source_names": [
-        "AIbase",
-        "Readhub · AI"
+        "公众号：数字生命卡兹克"
       ],
       "items": [
         {
-          "id": "495a41d44980a913dd229c351803a53e1bac841e",
-          "title": "不给数据就割肉？谷歌强推AI训练新规",
-          "url": "https://www.aibase.com/news/29184",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-26T02:37:30.235851Z"
-        },
-        {
-          "id": "a2f71252969321ff44bbc61e21f7e5844e49643d",
-          "title": "不给数据就割肉？谷歌强推 AI 训练新规",
-          "url": "https://www.aibase.com/zh/news/29184",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
+          "id": "636e51138ecf10f7d5a31ec7a1dd53d94fa5add0",
+          "title": "Claude Code 6个实用Hook玩法",
+          "url": "https://mp.weixin.qq.com/s/LVj2foSXi_hBRKxjuYaUyw",
+          "source": "公众号：数字生命卡兹克",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-26T02:02:00Z"
         }
       ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7821,
-      "importance": 0.7821,
-      "importance_score": 0.7821,
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7444,
+      "importance": 0.7444,
+      "importance_score": 0.7444,
       "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.72,
+        "editorial": 0.71,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9418,
-        "story_heat": 0.25
+        "recency": 0.8877,
+        "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
-      "earliest_at": "2026-06-26T02:37:30.235851Z",
-      "latest_at": "2026-06-26T02:37:30.235851Z",
+      "earliest_at": "2026-06-26T02:02:00Z",
+      "latest_at": "2026-06-26T02:02:00Z",
       "primary_item": {
-        "id": "495a41d44980a913dd229c351803a53e1bac841e",
-        "title": "不给数据就割肉？谷歌强推AI训练新规",
-        "url": "https://www.aibase.com/news/29184",
-        "source": "AIbase",
-        "source_name": "AIbase"
+        "id": "636e51138ecf10f7d5a31ec7a1dd53d94fa5add0",
+        "title": "Claude Code 6个实用Hook玩法",
+        "url": "https://mp.weixin.qq.com/s/LVj2foSXi_hBRKxjuYaUyw",
+        "source": "公众号：数字生命卡兹克",
+        "source_name": "AI HOT"
       }
     },
     {
@@ -1217,15 +1215,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.744,
-      "importance": 0.744,
-      "importance_score": 0.744,
+      "score": 0.7369,
+      "importance": 0.7369,
+      "importance_score": 0.7369,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.76,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8022,
+        "recency": 0.7626,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1239,86 +1237,6 @@
         "title": "Ornith-1.0 开源模型家族发布，专注 Agentic Coding 全参数规模",
         "url": "https://x.com/berryxia/status/2070167806700908957",
         "source": "X：Berry Xia (@berryxia)",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_b8e39c432dda",
-      "title": "Claude Code v2.1.193 发布",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.193",
-      "primary_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.193",
-      "source": "Claude Code：GitHub Releases（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "f3f846fd9b895612e14ed41b18f656d772f0d058",
-          "title": "Claude Code v2.1.193 发布",
-          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.193",
-          "source": "Claude Code：GitHub Releases（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-25T21:45:57Z"
-        },
-        {
-          "id": "202dd03e7ef066f17058c1d5a38e322aaa0184eb",
-          "title": "v2.1.193",
-          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.193",
-          "source": "Claude Code Releases",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-06-25T21:45:57Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Claude Code Releases",
-        "Claude Code：GitHub Releases（RSS）"
-      ],
-      "items": [
-        {
-          "id": "f3f846fd9b895612e14ed41b18f656d772f0d058",
-          "title": "Claude Code v2.1.193 发布",
-          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.193",
-          "source": "Claude Code：GitHub Releases（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-25T21:45:57Z"
-        },
-        {
-          "id": "202dd03e7ef066f17058c1d5a38e322aaa0184eb",
-          "title": "v2.1.193",
-          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.193",
-          "source": "Claude Code Releases",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-06-25T21:45:57Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7376,
-      "importance": 0.7376,
-      "importance_score": 0.7376,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.61,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.878,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-25T21:45:57Z",
-      "latest_at": "2026-06-25T21:45:57Z",
-      "primary_item": {
-        "id": "f3f846fd9b895612e14ed41b18f656d772f0d058",
-        "title": "Claude Code v2.1.193 发布",
-        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.193",
-        "source": "Claude Code：GitHub Releases（RSS）",
         "source_name": "AI HOT"
       }
     },
@@ -1376,15 +1294,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7374,
-      "importance": 0.7374,
-      "importance_score": 0.7374,
+      "score": 0.7302,
+      "importance": 0.7302,
+      "importance_score": 0.7302,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.65,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8101,
+        "recency": 0.7702,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -1399,6 +1317,86 @@
         "title": "OLMo Hybrid vs Transformer：混合模型在实义词上优势明显，但重复短语上几无优势",
         "url": "https://huggingface.co/blog/allenai/hybrid-token-prediction",
         "source": "Hugging Face：Blog（RSS）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_b8e39c432dda",
+      "title": "Claude Code v2.1.193 发布",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.193",
+      "primary_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.193",
+      "source": "Claude Code：GitHub Releases（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "f3f846fd9b895612e14ed41b18f656d772f0d058",
+          "title": "Claude Code v2.1.193 发布",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.193",
+          "source": "Claude Code：GitHub Releases（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-25T21:45:57Z"
+        },
+        {
+          "id": "202dd03e7ef066f17058c1d5a38e322aaa0184eb",
+          "title": "v2.1.193",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.193",
+          "source": "Claude Code Releases",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-06-25T21:45:57Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Claude Code Releases",
+        "Claude Code：GitHub Releases（RSS）"
+      ],
+      "items": [
+        {
+          "id": "f3f846fd9b895612e14ed41b18f656d772f0d058",
+          "title": "Claude Code v2.1.193 发布",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.193",
+          "source": "Claude Code：GitHub Releases（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-25T21:45:57Z"
+        },
+        {
+          "id": "202dd03e7ef066f17058c1d5a38e322aaa0184eb",
+          "title": "v2.1.193",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.193",
+          "source": "Claude Code Releases",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-06-25T21:45:57Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7298,
+      "importance": 0.7298,
+      "importance_score": 0.7298,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.61,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8347,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-06-25T21:45:57Z",
+      "latest_at": "2026-06-25T21:45:57Z",
+      "primary_item": {
+        "id": "f3f846fd9b895612e14ed41b18f656d772f0d058",
+        "title": "Claude Code v2.1.193 发布",
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.193",
+        "source": "Claude Code：GitHub Releases（RSS）",
         "source_name": "AI HOT"
       }
     },
@@ -1437,15 +1435,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.736,
-      "importance": 0.736,
-      "importance_score": 0.736,
+      "score": 0.7289,
+      "importance": 0.7289,
+      "importance_score": 0.7289,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.73,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8079,
+        "recency": 0.7681,
         "story_heat": 0.0
       },
       "category": "industry",
