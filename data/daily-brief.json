@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T02:37:30.235851Z",
+  "generated_at": "2026-06-26T06:46:37.410615Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -38,15 +38,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8488,
-      "importance": 0.8488,
-      "importance_score": 0.8488,
+      "score": 0.8389,
+      "importance": 0.8389,
+      "importance_score": 0.8389,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.94,
-        "recency": 0.9489,
+        "recency": 0.8937,
         "story_heat": 0.0
       },
       "category": "official",
@@ -100,15 +100,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8396,
-      "importance": 0.8396,
-      "importance_score": 0.8396,
+      "score": 0.8299,
+      "importance": 0.8299,
+      "importance_score": 0.8299,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.9312,
+        "recency": 0.877,
         "story_heat": 0.0
       },
       "category": "official",
@@ -219,15 +219,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.8246,
-      "importance": 0.8246,
-      "importance_score": 0.8246,
+      "score": 0.8153,
+      "importance": 0.8153,
+      "importance_score": 0.8153,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.73,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8833,
+        "recency": 0.8319,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -281,15 +281,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8184,
-      "importance": 0.8184,
-      "importance_score": 0.8184,
+      "score": 0.8094,
+      "importance": 0.8094,
+      "importance_score": 0.8094,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.8578,
+        "recency": 0.8078,
         "story_heat": 0.0
       },
       "category": "official",
@@ -343,15 +343,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8392,
-      "importance": 0.8392,
-      "importance_score": 0.8392,
+      "score": 0.8295,
+      "importance": 0.8295,
+      "importance_score": 0.8295,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.9288,
+        "recency": 0.8748,
         "story_heat": 0.0
       },
       "category": "official",
@@ -368,6 +368,87 @@
         "url": "https://github.blog/changelog/2026-06-25-enterprise-managed-settings-now-support-strictknownmarketplaces-in-vs-code-and-the-cli",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_bab6f6953d7a",
+      "title": "近400家美国报纸起诉微软和OpenAI：未经授权抓取新闻内容训练AI",
+      "url": "https://www.ithome.com/0/968/872.htm",
+      "primary_url": "https://www.ithome.com/0/968/872.htm",
+      "source": "IT之家（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "b66f49ab0dde70742499f100ab45e7708329182d",
+          "title": "近400家美国报纸起诉微软和OpenAI：未经授权抓取新闻内容训练AI",
+          "url": "https://www.ithome.com/0/968/872.htm",
+          "source": "IT之家（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-26T04:37:58Z"
+        },
+        {
+          "id": "693d758be1695a9e76981ebabc8984eb7d4ab5c8",
+          "title": "近 400 家美国报纸联合起诉 OpenAI 和微软白嫖内容，AI 热潮恐成地方新闻“丧钟”",
+          "url": "https://www.ithome.com/0/968/872.htm",
+          "source": "IT之家 (ITHome)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-26T04:37:58Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "IT之家 (ITHome)",
+        "IT之家（RSS）"
+      ],
+      "items": [
+        {
+          "id": "b66f49ab0dde70742499f100ab45e7708329182d",
+          "title": "近400家美国报纸起诉微软和OpenAI：未经授权抓取新闻内容训练AI",
+          "url": "https://www.ithome.com/0/968/872.htm",
+          "source": "IT之家（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-26T04:37:58Z"
+        },
+        {
+          "id": "693d758be1695a9e76981ebabc8984eb7d4ab5c8",
+          "title": "近 400 家美国报纸联合起诉 OpenAI 和微软白嫖内容，AI 热潮恐成地方新闻“丧钟”",
+          "url": "https://www.ithome.com/0/968/872.htm",
+          "source": "IT之家 (ITHome)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-26T04:37:58Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7931,
+      "importance": 0.7931,
+      "importance_score": 0.7931,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.74,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9695,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-26T04:37:58Z",
+      "latest_at": "2026-06-26T04:37:58Z",
+      "primary_item": {
+        "id": "b66f49ab0dde70742499f100ab45e7708329182d",
+        "title": "近400家美国报纸起诉微软和OpenAI：未经授权抓取新闻内容训练AI",
+        "url": "https://www.ithome.com/0/968/872.htm",
+        "source": "IT之家（RSS）",
+        "source_name": "AI HOT"
       }
     },
     {
@@ -424,15 +505,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7927,
-      "importance": 0.7927,
-      "importance_score": 0.7927,
+      "score": 0.7834,
+      "importance": 0.7834,
+      "importance_score": 0.7834,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.79,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8837,
+        "recency": 0.8323,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -505,15 +586,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7926,
-      "importance": 0.7926,
-      "importance_score": 0.7926,
+      "score": 0.7821,
+      "importance": 0.7821,
+      "importance_score": 0.7821,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.9418,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -567,15 +648,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7915,
-      "importance": 0.7915,
-      "importance_score": 0.7915,
+      "score": 0.7812,
+      "importance": 0.7812,
+      "importance_score": 0.7812,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.81,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.983,
+        "recency": 0.9258,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -628,15 +709,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7897,
-      "importance": 0.7897,
-      "importance_score": 0.7897,
+      "score": 0.7796,
+      "importance": 0.7796,
+      "importance_score": 0.7796,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.82,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9558,
+        "recency": 0.9002,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -708,15 +789,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7702,
-      "importance": 0.7702,
-      "importance_score": 0.7702,
+      "score": 0.7612,
+      "importance": 0.7612,
+      "importance_score": 0.7612,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.73,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8587,
+        "recency": 0.8087,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -770,15 +851,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8249,
-      "importance": 0.8249,
-      "importance_score": 0.8249,
+      "score": 0.816,
+      "importance": 0.816,
+      "importance_score": 0.816,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.8493,
+        "recency": 0.7999,
         "story_heat": 0.0
       },
       "category": "official",
@@ -851,15 +932,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.764,
-      "importance": 0.764,
-      "importance_score": 0.764,
+      "score": 0.755,
+      "importance": 0.755,
+      "importance_score": 0.755,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.71,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8578,
+        "recency": 0.8078,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -913,15 +994,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7631,
-      "importance": 0.7631,
-      "importance_score": 0.7631,
+      "score": 0.7527,
+      "importance": 0.7527,
+      "importance_score": 0.7527,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.71,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9915,
+        "recency": 0.9338,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -936,6 +1017,87 @@
         "title": "Claude Code 6个实用Hook玩法",
         "url": "https://mp.weixin.qq.com/s/LVj2foSXi_hBRKxjuYaUyw",
         "source": "公众号：数字生命卡兹克",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_801476e6fa11",
+      "title": "IBM 首度推出亚纳米级芯片技术",
+      "url": "https://newsroom.ibm.com/2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology",
+      "primary_url": "https://newsroom.ibm.com/2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "7deed6ed305c50a7ed2c2800a2a057f455eb127c",
+          "title": "IBM 首度推出亚纳米级芯片技术",
+          "url": "https://newsroom.ibm.com/2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-25T18:52:05.282000Z"
+        },
+        {
+          "id": "caecbc9f9527954ca5a571f42e4b67c86492231e",
+          "title": "IBM 首度推出亚纳米级芯片技术 / IBM debuts sub-1 nanometer chip technology",
+          "url": "https://newsroom.ibm.com/2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-25T15:33:37Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News · 24h最热",
+        "Hacker News 热门（buzzing.cc 中文翻译）"
+      ],
+      "items": [
+        {
+          "id": "7deed6ed305c50a7ed2c2800a2a057f455eb127c",
+          "title": "IBM 首度推出亚纳米级芯片技术",
+          "url": "https://newsroom.ibm.com/2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-25T18:52:05.282000Z"
+        },
+        {
+          "id": "caecbc9f9527954ca5a571f42e4b67c86492231e",
+          "title": "IBM 首度推出亚纳米级芯片技术 / IBM debuts sub-1 nanometer chip technology",
+          "url": "https://newsroom.ibm.com/2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-25T15:33:37Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7822,
+      "importance": 0.7822,
+      "importance_score": 0.7822,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.78,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.842,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-25T15:33:37Z",
+      "latest_at": "2026-06-25T18:52:05.282000Z",
+      "primary_item": {
+        "id": "7deed6ed305c50a7ed2c2800a2a057f455eb127c",
+        "title": "IBM 首度推出亚纳米级芯片技术",
+        "url": "https://newsroom.ibm.com/2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology",
+        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
         "source_name": "AI HOT"
       }
     },
@@ -993,15 +1155,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7926,
-      "importance": 0.7926,
-      "importance_score": 0.7926,
+      "score": 0.7821,
+      "importance": 0.7821,
+      "importance_score": 0.7821,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.9418,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -1018,87 +1180,6 @@
         "url": "https://www.aibase.com/news/29184",
         "source": "AIbase",
         "source_name": "AIbase"
-      }
-    },
-    {
-      "story_id": "story_801476e6fa11",
-      "title": "IBM 首度推出亚纳米级芯片技术",
-      "url": "https://newsroom.ibm.com/2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology",
-      "primary_url": "https://newsroom.ibm.com/2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "7deed6ed305c50a7ed2c2800a2a057f455eb127c",
-          "title": "IBM 首度推出亚纳米级芯片技术",
-          "url": "https://newsroom.ibm.com/2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-25T18:52:05.282000Z"
-        },
-        {
-          "id": "caecbc9f9527954ca5a571f42e4b67c86492231e",
-          "title": "IBM 首度推出亚纳米级芯片技术 / IBM debuts sub-1 nanometer chip technology",
-          "url": "https://newsroom.ibm.com/2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-25T15:33:37Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News · 24h最热",
-        "Hacker News 热门（buzzing.cc 中文翻译）"
-      ],
-      "items": [
-        {
-          "id": "7deed6ed305c50a7ed2c2800a2a057f455eb127c",
-          "title": "IBM 首度推出亚纳米级芯片技术",
-          "url": "https://newsroom.ibm.com/2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-25T18:52:05.282000Z"
-        },
-        {
-          "id": "caecbc9f9527954ca5a571f42e4b67c86492231e",
-          "title": "IBM 首度推出亚纳米级芯片技术 / IBM debuts sub-1 nanometer chip technology",
-          "url": "https://newsroom.ibm.com/2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-25T15:33:37Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7915,
-      "importance": 0.7915,
-      "importance_score": 0.7915,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.78,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.894,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-25T15:33:37Z",
-      "latest_at": "2026-06-25T18:52:05.282000Z",
-      "primary_item": {
-        "id": "7deed6ed305c50a7ed2c2800a2a057f455eb127c",
-        "title": "IBM 首度推出亚纳米级芯片技术",
-        "url": "https://newsroom.ibm.com/2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology",
-        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-        "source_name": "AI HOT"
       }
     },
     {
@@ -1136,21 +1217,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7529,
-      "importance": 0.7529,
-      "importance_score": 0.7529,
+      "score": 0.744,
+      "importance": 0.744,
+      "importance_score": 0.744,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.76,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8517,
+        "recency": 0.8022,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-06-25T15:30:41Z",
       "latest_at": "2026-06-25T15:30:41Z",
@@ -1216,15 +1296,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7474,
-      "importance": 0.7474,
-      "importance_score": 0.7474,
+      "score": 0.7376,
+      "importance": 0.7376,
+      "importance_score": 0.7376,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.61,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9322,
+        "recency": 0.878,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -1296,15 +1376,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7464,
-      "importance": 0.7464,
-      "importance_score": 0.7464,
+      "score": 0.7374,
+      "importance": 0.7374,
+      "importance_score": 0.7374,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.65,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8602,
+        "recency": 0.8101,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -1357,15 +1437,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.745,
-      "importance": 0.745,
-      "importance_score": 0.745,
+      "score": 0.736,
+      "importance": 0.736,
+      "importance_score": 0.736,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.73,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8578,
+        "recency": 0.8079,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1379,67 +1459,6 @@
         "title": "Gemini 3.5 Flash 的 Computer Use 工具正式可用",
         "url": "https://x.com/googleaidevs/status/2070175289481576777",
         "source": "X：Google AI for Developers (@googleaidevs)",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_4cc42a3912fa",
-      "title": "OpenAI 内部论文：Codex 已占 99.8% 内部输出 tokens，智能体正向全部门扩散",
-      "url": "https://x.com/rohanpaul_ai/status/2070221621676441642",
-      "primary_url": "https://x.com/rohanpaul_ai/status/2070221621676441642",
-      "source": "X：Rohan Paul (@rohanpaul_ai)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "4ba6368af8e231426f0c056e936d9da6e636b61e",
-          "title": "OpenAI 内部论文：Codex 已占 99.8% 内部输出 tokens，智能体正向全部门扩散",
-          "url": "https://x.com/rohanpaul_ai/status/2070221621676441642",
-          "source": "X：Rohan Paul (@rohanpaul_ai)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-25T19:04:32Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：Rohan Paul (@rohanpaul_ai)"
-      ],
-      "items": [
-        {
-          "id": "4ba6368af8e231426f0c056e936d9da6e636b61e",
-          "title": "OpenAI 内部论文：Codex 已占 99.8% 内部输出 tokens，智能体正向全部门扩散",
-          "url": "https://x.com/rohanpaul_ai/status/2070221621676441642",
-          "source": "X：Rohan Paul (@rohanpaul_ai)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-25T19:04:32Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.773,
-      "importance": 0.773,
-      "importance_score": 0.773,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.8,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8967,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-25T19:04:32Z",
-      "latest_at": "2026-06-25T19:04:32Z",
-      "primary_item": {
-        "id": "4ba6368af8e231426f0c056e936d9da6e636b61e",
-        "title": "OpenAI 内部论文：Codex 已占 99.8% 内部输出 tokens，智能体正向全部门扩散",
-        "url": "https://x.com/rohanpaul_ai/status/2070221621676441642",
-        "source": "X：Rohan Paul (@rohanpaul_ai)",
         "source_name": "AI HOT"
       }
     }
