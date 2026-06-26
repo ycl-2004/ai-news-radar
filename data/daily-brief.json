@@ -1,24 +1,106 @@
 {
-  "generated_at": "2026-06-26T15:12:38.475002Z",
+  "generated_at": "2026-06-26T17:14:10.338649Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
     {
-      "story_id": "story_eaa14c52b6e0",
-      "title": "GitHub Desktop 3.6：工作树和更深入的 Copilot 集成 / GitHub Desktop 3.6: Worktrees and deeper Copilot integration",
-      "url": "https://github.blog/changelog/2026-06-26-github-desktop-3-6-worktrees-and-deeper-copilot-integration",
-      "primary_url": "https://github.blog/changelog/2026-06-26-github-desktop-3-6-worktrees-and-deeper-copilot-integration",
+      "story_id": "story_adbd50c1b1db",
+      "title": "预览 GPT-5.6 Sol：下一代模型 / Previewing GPT-5.6 Sol: a next-generation model",
+      "url": "https://openai.com/index/previewing-gpt-5-6-sol",
+      "primary_url": "https://openai.com/index/previewing-gpt-5-6-sol",
+      "source": "OpenAI News",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "6a8ed476ab2dd24ba1fadd1c70a5085f20ec203e",
+          "title": "预览 GPT-5.6 Sol：下一代模型 / Previewing GPT-5.6 Sol: a next-generation model",
+          "url": "https://openai.com/index/previewing-gpt-5-6-sol",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-26T10:00:00Z"
+        },
+        {
+          "id": "f50b30bc2cc13996cce1036a6e197cd36063b221",
+          "title": "预览 GPT‑5.6 Sol：下一代模型 / Previewing GPT‑5.6 Sol: a next-generation model",
+          "url": "https://openai.com/index/previewing-gpt-5-6-sol",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-26T17:06:55Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News · 24h最热",
+        "OpenAI News"
+      ],
+      "items": [
+        {
+          "id": "6a8ed476ab2dd24ba1fadd1c70a5085f20ec203e",
+          "title": "预览 GPT-5.6 Sol：下一代模型 / Previewing GPT-5.6 Sol: a next-generation model",
+          "url": "https://openai.com/index/previewing-gpt-5-6-sol",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-26T10:00:00Z"
+        },
+        {
+          "id": "f50b30bc2cc13996cce1036a6e197cd36063b221",
+          "title": "预览 GPT‑5.6 Sol：下一代模型 / Previewing GPT‑5.6 Sol: a next-generation model",
+          "url": "https://openai.com/index/previewing-gpt-5-6-sol",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-26T17:06:55Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.8671,
+      "importance": 0.8671,
+      "importance_score": 0.8671,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.95,
+        "recency": 0.9008,
+        "story_heat": 0.25
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-26T10:00:00Z",
+      "latest_at": "2026-06-26T17:06:55Z",
+      "primary_item": {
+        "id": "6a8ed476ab2dd24ba1fadd1c70a5085f20ec203e",
+        "title": "预览 GPT-5.6 Sol：下一代模型 / Previewing GPT-5.6 Sol: a next-generation model",
+        "url": "https://openai.com/index/previewing-gpt-5-6-sol",
+        "source": "OpenAI News",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_8d74ffd51987",
+      "title": "适用于 Copilot Business 和 Copilot Enterprise 的 MAI-Code-1-Flash / MAI-Code-1-Flash for Copilot Business and Copilot Enterprise",
+      "url": "https://github.blog/changelog/2026-06-26-mai-code-1-flash-for-copilot-business-and-copilot-enterprise",
+      "primary_url": "https://github.blog/changelog/2026-06-26-mai-code-1-flash-for-copilot-business-and-copilot-enterprise",
       "source": "GitHub Changelog",
       "source_name": "Official AI Updates",
       "sources": [
         {
-          "id": "d0bdbb32d3273eeba43fbee056df49ad15963f4e",
-          "title": "GitHub Desktop 3.6：工作树和更深入的 Copilot 集成 / GitHub Desktop 3.6: Worktrees and deeper Copilot integration",
-          "url": "https://github.blog/changelog/2026-06-26-github-desktop-3-6-worktrees-and-deeper-copilot-integration",
+          "id": "0559ae8717a848bacaaa30857be886e768639787",
+          "title": "适用于 Copilot Business 和 Copilot Enterprise 的 MAI-Code-1-Flash / MAI-Code-1-Flash for Copilot Business and Copilot Enterprise",
+          "url": "https://github.blog/changelog/2026-06-26-mai-code-1-flash-for-copilot-business-and-copilot-enterprise",
           "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-06-26T10:32:58Z"
+          "published_at": "2026-06-26T16:35:06Z"
         }
       ],
       "source_count": 1,
@@ -27,26 +109,26 @@
       ],
       "items": [
         {
-          "id": "d0bdbb32d3273eeba43fbee056df49ad15963f4e",
-          "title": "GitHub Desktop 3.6：工作树和更深入的 Copilot 集成 / GitHub Desktop 3.6: Worktrees and deeper Copilot integration",
-          "url": "https://github.blog/changelog/2026-06-26-github-desktop-3-6-worktrees-and-deeper-copilot-integration",
+          "id": "0559ae8717a848bacaaa30857be886e768639787",
+          "title": "适用于 Copilot Business 和 Copilot Enterprise 的 MAI-Code-1-Flash / MAI-Code-1-Flash for Copilot Business and Copilot Enterprise",
+          "url": "https://github.blog/changelog/2026-06-26-mai-code-1-flash-for-copilot-business-and-copilot-enterprise",
           "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-06-26T10:32:58Z"
+          "published_at": "2026-06-26T16:35:06Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8403,
-      "importance": 0.8403,
-      "importance_score": 0.8403,
+      "score": 0.8503,
+      "importance": 0.8503,
+      "importance_score": 0.8503,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.9349,
+        "recency": 0.9906,
         "story_heat": 0.0
       },
       "category": "official",
@@ -55,12 +137,12 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-06-26T10:32:58Z",
-      "latest_at": "2026-06-26T10:32:58Z",
+      "earliest_at": "2026-06-26T16:35:06Z",
+      "latest_at": "2026-06-26T16:35:06Z",
       "primary_item": {
-        "id": "d0bdbb32d3273eeba43fbee056df49ad15963f4e",
-        "title": "GitHub Desktop 3.6：工作树和更深入的 Copilot 集成 / GitHub Desktop 3.6: Worktrees and deeper Copilot integration",
-        "url": "https://github.blog/changelog/2026-06-26-github-desktop-3-6-worktrees-and-deeper-copilot-integration",
+        "id": "0559ae8717a848bacaaa30857be886e768639787",
+        "title": "适用于 Copilot Business 和 Copilot Enterprise 的 MAI-Code-1-Flash / MAI-Code-1-Flash for Copilot Business and Copilot Enterprise",
+        "url": "https://github.blog/changelog/2026-06-26-mai-code-1-flash-for-copilot-business-and-copilot-enterprise",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
       }
@@ -100,15 +182,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8204,
-      "importance": 0.8204,
-      "importance_score": 0.8204,
+      "score": 0.8163,
+      "importance": 0.8163,
+      "importance_score": 0.8163,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.94,
-        "recency": 0.7912,
+        "recency": 0.7684,
         "story_heat": 0.0
       },
       "category": "official",
@@ -124,6 +206,68 @@
         "title": "跨模型和任务评估 GitHub Copilot 代理工具的性能和效率 / Evaluating performance and efficiency of the GitHub Copilot agentic harness across models and tasks",
         "url": "https://github.blog/ai-and-ml/github-copilot/evaluating-performance-and-efficiency-of-the-github-copilot-agentic-harness-across-models-and-tasks",
         "source": "GitHub AI & ML",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_eaa14c52b6e0",
+      "title": "GitHub Desktop 3.6：工作树和更深入的 Copilot 集成 / GitHub Desktop 3.6: Worktrees and deeper Copilot integration",
+      "url": "https://github.blog/changelog/2026-06-26-github-desktop-3-6-worktrees-and-deeper-copilot-integration",
+      "primary_url": "https://github.blog/changelog/2026-06-26-github-desktop-3-6-worktrees-and-deeper-copilot-integration",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "d0bdbb32d3273eeba43fbee056df49ad15963f4e",
+          "title": "GitHub Desktop 3.6：工作树和更深入的 Copilot 集成 / GitHub Desktop 3.6: Worktrees and deeper Copilot integration",
+          "url": "https://github.blog/changelog/2026-06-26-github-desktop-3-6-worktrees-and-deeper-copilot-integration",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-26T10:32:58Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "items": [
+        {
+          "id": "d0bdbb32d3273eeba43fbee056df49ad15963f4e",
+          "title": "GitHub Desktop 3.6：工作树和更深入的 Copilot 集成 / GitHub Desktop 3.6: Worktrees and deeper Copilot integration",
+          "url": "https://github.blog/changelog/2026-06-26-github-desktop-3-6-worktrees-and-deeper-copilot-integration",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-26T10:32:58Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8354,
+      "importance": 0.8354,
+      "importance_score": 0.8354,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.908,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-26T10:32:58Z",
+      "latest_at": "2026-06-26T10:32:58Z",
+      "primary_item": {
+        "id": "d0bdbb32d3273eeba43fbee056df49ad15963f4e",
+        "title": "GitHub Desktop 3.6：工作树和更深入的 Copilot 集成 / GitHub Desktop 3.6: Worktrees and deeper Copilot integration",
+        "url": "https://github.blog/changelog/2026-06-26-github-desktop-3-6-worktrees-and-deeper-copilot-integration",
+        "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
       }
     },
@@ -219,15 +363,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.7982,
-      "importance": 0.7982,
-      "importance_score": 0.7982,
+      "score": 0.7943,
+      "importance": 0.7943,
+      "importance_score": 0.7943,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.73,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7365,
+        "recency": 0.7153,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -247,127 +391,125 @@
       }
     },
     {
-      "story_id": "story_dd1b8c72044f",
-      "title": "我们最新的 Google 财经升级，包括新应用 / Our latest Google Finance upgrades, including a new app",
-      "url": "https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026",
-      "primary_url": "https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026",
-      "source": "Google AI Blog",
-      "source_name": "Official AI Updates",
+      "story_id": "story_876d1b8a384d",
+      "title": "华盛顿邮报报告：AI聊天机器人存在左翼偏见",
+      "url": "https://x.com/rohanpaul_ai/status/2070550479621488896",
+      "primary_url": "https://x.com/rohanpaul_ai/status/2070550479621488896",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "source_name": "AI HOT",
       "sources": [
         {
-          "id": "494cd60b4f663c8c05e47ebeee0297f9797f8d6e",
-          "title": "我们最新的 Google 财经升级，包括新应用 / Our latest Google Finance upgrades, including a new app",
-          "url": "https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026",
-          "source": "Google AI Blog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-25T16:00:00Z"
+          "id": "193fd12b02e35f41a451de554e5c70724c1edbaa",
+          "title": "华盛顿邮报报告：AI聊天机器人存在左翼偏见",
+          "url": "https://x.com/rohanpaul_ai/status/2070550479621488896",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-26T16:51:17Z"
         }
       ],
       "source_count": 1,
       "source_names": [
-        "Google AI Blog"
+        "X：Rohan Paul (@rohanpaul_ai)"
       ],
       "items": [
         {
-          "id": "494cd60b4f663c8c05e47ebeee0297f9797f8d6e",
-          "title": "我们最新的 Google 财经升级，包括新应用 / Our latest Google Finance upgrades, including a new app",
-          "url": "https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026",
-          "source": "Google AI Blog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-25T16:00:00Z"
+          "id": "193fd12b02e35f41a451de554e5c70724c1edbaa",
+          "title": "华盛顿邮报报告：AI聊天机器人存在左翼偏见",
+          "url": "https://x.com/rohanpaul_ai/status/2070550479621488896",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-26T16:51:17Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7927,
-      "importance": 0.7927,
-      "importance_score": 0.7927,
-      "importance_label": "官方更新",
+      "score": 0.7756,
+      "importance": 0.7756,
+      "importance_score": 0.7756,
+      "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.7152,
+        "editorial": 0.75,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9945,
         "story_heat": 0.0
       },
-      "category": "official",
+      "category": "industry",
       "reasons": [
-        "official_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-06-25T16:00:00Z",
-      "latest_at": "2026-06-25T16:00:00Z",
+      "earliest_at": "2026-06-26T16:51:17Z",
+      "latest_at": "2026-06-26T16:51:17Z",
       "primary_item": {
-        "id": "494cd60b4f663c8c05e47ebeee0297f9797f8d6e",
-        "title": "我们最新的 Google 财经升级，包括新应用 / Our latest Google Finance upgrades, including a new app",
-        "url": "https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026",
-        "source": "Google AI Blog",
-        "source_name": "Official AI Updates"
+        "id": "193fd12b02e35f41a451de554e5c70724c1edbaa",
+        "title": "华盛顿邮报报告：AI聊天机器人存在左翼偏见",
+        "url": "https://x.com/rohanpaul_ai/status/2070550479621488896",
+        "source": "X：Rohan Paul (@rohanpaul_ai)",
+        "source_name": "AI HOT"
       }
     },
     {
-      "story_id": "story_cc97c2cd299c",
-      "title": "Copilot 代码审查：分析深度和效率更新 / Copilot code review: Analysis depth and efficiency updates",
-      "url": "https://github.blog/changelog/2026-06-25-copilot-code-review-analysis-depth-and-efficiency-updates",
-      "primary_url": "https://github.blog/changelog/2026-06-25-copilot-code-review-analysis-depth-and-efficiency-updates",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
+      "story_id": "story_e56d406e16bf",
+      "title": "Leaf 开源项目：将网红峰哥做成实时通话 AI 分身",
+      "url": "https://x.com/AYi_AInotes/status/2070531964067623381",
+      "primary_url": "https://x.com/AYi_AInotes/status/2070531964067623381",
+      "source": "X：阿易 AI Notes (@AYi_AInotes)",
+      "source_name": "AI HOT",
       "sources": [
         {
-          "id": "21911b12003d8f4100254e885cc65209d21983f8",
-          "title": "Copilot 代码审查：分析深度和效率更新 / Copilot code review: Analysis depth and efficiency updates",
-          "url": "https://github.blog/changelog/2026-06-25-copilot-code-review-analysis-depth-and-efficiency-updates",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-25T21:41:18Z"
+          "id": "e1cd1734ccb17dd32195e228b02b17c795fa92c1",
+          "title": "Leaf 开源项目：将网红峰哥做成实时通话 AI 分身",
+          "url": "https://x.com/AYi_AInotes/status/2070531964067623381",
+          "source": "X：阿易 AI Notes (@AYi_AInotes)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-26T15:37:43Z"
         }
       ],
       "source_count": 1,
       "source_names": [
-        "GitHub Changelog"
+        "X：阿易 AI Notes (@AYi_AInotes)"
       ],
       "items": [
         {
-          "id": "21911b12003d8f4100254e885cc65209d21983f8",
-          "title": "Copilot 代码审查：分析深度和效率更新 / Copilot code review: Analysis depth and efficiency updates",
-          "url": "https://github.blog/changelog/2026-06-25-copilot-code-review-analysis-depth-and-efficiency-updates",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-25T21:41:18Z"
+          "id": "e1cd1734ccb17dd32195e228b02b17c795fa92c1",
+          "title": "Leaf 开源项目：将网红峰哥做成实时通话 AI 分身",
+          "url": "https://x.com/AYi_AInotes/status/2070531964067623381",
+          "source": "X：阿易 AI Notes (@AYi_AInotes)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-26T15:37:43Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8118,
-      "importance": 0.8118,
-      "importance_score": 0.8118,
-      "importance_label": "官方更新",
+      "score": 0.7755,
+      "importance": 0.7755,
+      "importance_score": 0.7755,
+      "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.7764,
+        "editorial": 0.76,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9771,
         "story_heat": 0.0
       },
-      "category": "official",
+      "category": "industry",
       "reasons": [
-        "official_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-06-25T21:41:18Z",
-      "latest_at": "2026-06-25T21:41:18Z",
+      "earliest_at": "2026-06-26T15:37:43Z",
+      "latest_at": "2026-06-26T15:37:43Z",
       "primary_item": {
-        "id": "21911b12003d8f4100254e885cc65209d21983f8",
-        "title": "Copilot 代码审查：分析深度和效率更新 / Copilot code review: Analysis depth and efficiency updates",
-        "url": "https://github.blog/changelog/2026-06-25-copilot-code-review-analysis-depth-and-efficiency-updates",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
+        "id": "e1cd1734ccb17dd32195e228b02b17c795fa92c1",
+        "title": "Leaf 开源项目：将网红峰哥做成实时通话 AI 分身",
+        "url": "https://x.com/AYi_AInotes/status/2070531964067623381",
+        "source": "X：阿易 AI Notes (@AYi_AInotes)",
+        "source_name": "AI HOT"
       }
     },
     {
@@ -424,15 +566,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7802,
-      "importance": 0.7802,
-      "importance_score": 0.7802,
+      "score": 0.7754,
+      "importance": 0.7754,
+      "importance_score": 0.7754,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9313,
+        "recency": 0.9044,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -505,15 +647,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7731,
-      "importance": 0.7731,
-      "importance_score": 0.7731,
+      "score": 0.7686,
+      "importance": 0.7686,
+      "importance_score": 0.7686,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.74,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8583,
+        "recency": 0.8336,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -529,87 +671,6 @@
         "title": "近400家美国报纸起诉微软和OpenAI：未经授权抓取新闻内容训练AI",
         "url": "https://www.ithome.com/0/968/872.htm",
         "source": "IT之家（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_7157eeceef54",
-      "title": "赫库兰尼姆古卷首次被完整虚拟解读",
-      "url": "https://scrollprize.org/firstscroll",
-      "primary_url": "https://scrollprize.org/firstscroll",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "e0c0b35547a2e9d0cc9b80c44e5f31cc7854e392",
-          "title": "赫库兰尼姆古卷首次被完整虚拟解读",
-          "url": "https://scrollprize.org/firstscroll",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-25T18:03:58.685000Z"
-        },
-        {
-          "id": "e21f5280e910c528b4fd8d706dc45e9aecb4a523",
-          "title": "赫库兰尼姆的一卷古卷首次被解读 / An entire Herculaneum scroll has been read for the first time",
-          "url": "https://scrollprize.org/firstscroll",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-25T15:48:07Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News · 24h最热",
-        "Hacker News 热门（buzzing.cc 中文翻译）"
-      ],
-      "items": [
-        {
-          "id": "e0c0b35547a2e9d0cc9b80c44e5f31cc7854e392",
-          "title": "赫库兰尼姆古卷首次被完整虚拟解读",
-          "url": "https://scrollprize.org/firstscroll",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-25T18:03:58.685000Z"
-        },
-        {
-          "id": "e21f5280e910c528b4fd8d706dc45e9aecb4a523",
-          "title": "赫库兰尼姆的一卷古卷首次被解读 / An entire Herculaneum scroll has been read for the first time",
-          "url": "https://scrollprize.org/firstscroll",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-25T15:48:07Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7662,
-      "importance": 0.7662,
-      "importance_score": 0.7662,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.79,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7369,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-25T15:48:07Z",
-      "latest_at": "2026-06-25T18:03:58.685000Z",
-      "primary_item": {
-        "id": "e0c0b35547a2e9d0cc9b80c44e5f31cc7854e392",
-        "title": "赫库兰尼姆古卷首次被完整虚拟解读",
-        "url": "https://scrollprize.org/firstscroll",
-        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
         "source_name": "AI HOT"
       }
     },
@@ -648,15 +709,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7621,
-      "importance": 0.7621,
-      "importance_score": 0.7621,
+      "score": 0.7579,
+      "importance": 0.7579,
+      "importance_score": 0.7579,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.81,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8197,
+        "recency": 0.796,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -675,82 +736,21 @@
       }
     },
     {
-      "story_id": "story_5e4eee1b3db5",
-      "title": "@exponentialview 发布《State of the AI Economy》报告：AI经济年化收入超1750亿美元",
-      "url": "https://x.com/rohanpaul_ai/status/2070288396644491317",
-      "primary_url": "https://x.com/rohanpaul_ai/status/2070288396644491317",
-      "source": "X：Rohan Paul (@rohanpaul_ai)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "7a22e1daec7a8c8f53d0227ae3f1e9c796d15d6e",
-          "title": "@exponentialview 发布《State of the AI Economy》报告：AI经济年化收入超1750亿美元",
-          "url": "https://x.com/rohanpaul_ai/status/2070288396644491317",
-          "source": "X：Rohan Paul (@rohanpaul_ai)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-25T23:29:52Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：Rohan Paul (@rohanpaul_ai)"
-      ],
-      "items": [
-        {
-          "id": "7a22e1daec7a8c8f53d0227ae3f1e9c796d15d6e",
-          "title": "@exponentialview 发布《State of the AI Economy》报告：AI经济年化收入超1750亿美元",
-          "url": "https://x.com/rohanpaul_ai/status/2070288396644491317",
-          "source": "X：Rohan Paul (@rohanpaul_ai)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-25T23:29:52Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7611,
-      "importance": 0.7611,
-      "importance_score": 0.7611,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.82,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.797,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-25T23:29:52Z",
-      "latest_at": "2026-06-25T23:29:52Z",
-      "primary_item": {
-        "id": "7a22e1daec7a8c8f53d0227ae3f1e9c796d15d6e",
-        "title": "@exponentialview 发布《State of the AI Economy》报告：AI经济年化收入超1750亿美元",
-        "url": "https://x.com/rohanpaul_ai/status/2070288396644491317",
-        "source": "X：Rohan Paul (@rohanpaul_ai)",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_0dfa7e4bd23b",
-      "title": "企业管理的设置现在支持 VS Code 和 GitHub Copilot CLI 中的 strictKnownMarketplaces / Enterprise-managed settings now support strictKnownMarketplaces in VS Code and GitHub Copilot CLI",
-      "url": "https://github.blog/changelog/2026-06-25-enterprise-managed-settings-now-support-strictknownmarketplaces-in-vs-code-and-the-cli",
-      "primary_url": "https://github.blog/changelog/2026-06-25-enterprise-managed-settings-now-support-strictknownmarketplaces-in-vs-code-and-the-cli",
+      "story_id": "story_cc97c2cd299c",
+      "title": "Copilot 代码审查：分析深度和效率更新 / Copilot code review: Analysis depth and efficiency updates",
+      "url": "https://github.blog/changelog/2026-06-25-copilot-code-review-analysis-depth-and-efficiency-updates",
+      "primary_url": "https://github.blog/changelog/2026-06-25-copilot-code-review-analysis-depth-and-efficiency-updates",
       "source": "GitHub Changelog",
       "source_name": "Official AI Updates",
       "sources": [
         {
-          "id": "7033636f928ed08bd94d362116c72d6dd8154517",
-          "title": "企业管理的设置现在支持 VS Code 和 GitHub Copilot CLI 中的 strictKnownMarketplaces / Enterprise-managed settings now support strictKnownMarketplaces in VS Code and GitHub Copilot CLI",
-          "url": "https://github.blog/changelog/2026-06-25-enterprise-managed-settings-now-support-strictknownmarketplaces-in-vs-code-and-the-cli",
+          "id": "21911b12003d8f4100254e885cc65209d21983f8",
+          "title": "Copilot 代码审查：分析深度和效率更新 / Copilot code review: Analysis depth and efficiency updates",
+          "url": "https://github.blog/changelog/2026-06-25-copilot-code-review-analysis-depth-and-efficiency-updates",
           "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-06-25T21:30:42Z"
+          "published_at": "2026-06-25T21:41:18Z"
         }
       ],
       "source_count": 1,
@@ -759,26 +759,26 @@
       ],
       "items": [
         {
-          "id": "7033636f928ed08bd94d362116c72d6dd8154517",
-          "title": "企业管理的设置现在支持 VS Code 和 GitHub Copilot CLI 中的 strictKnownMarketplaces / Enterprise-managed settings now support strictKnownMarketplaces in VS Code and GitHub Copilot CLI",
-          "url": "https://github.blog/changelog/2026-06-25-enterprise-managed-settings-now-support-strictknownmarketplaces-in-vs-code-and-the-cli",
+          "id": "21911b12003d8f4100254e885cc65209d21983f8",
+          "title": "Copilot 代码审查：分析深度和效率更新 / Copilot code review: Analysis depth and efficiency updates",
+          "url": "https://github.blog/changelog/2026-06-25-copilot-code-review-analysis-depth-and-efficiency-updates",
           "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-06-25T21:30:42Z"
+          "published_at": "2026-06-25T21:41:18Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8114,
-      "importance": 0.8114,
-      "importance_score": 0.8114,
+      "score": 0.8077,
+      "importance": 0.8077,
+      "importance_score": 0.8077,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.7745,
+        "recency": 0.7541,
         "story_heat": 0.0
       },
       "category": "official",
@@ -787,12 +787,12 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-06-25T21:30:42Z",
-      "latest_at": "2026-06-25T21:30:42Z",
+      "earliest_at": "2026-06-25T21:41:18Z",
+      "latest_at": "2026-06-25T21:41:18Z",
       "primary_item": {
-        "id": "7033636f928ed08bd94d362116c72d6dd8154517",
-        "title": "企业管理的设置现在支持 VS Code 和 GitHub Copilot CLI 中的 strictKnownMarketplaces / Enterprise-managed settings now support strictKnownMarketplaces in VS Code and GitHub Copilot CLI",
-        "url": "https://github.blog/changelog/2026-06-25-enterprise-managed-settings-now-support-strictknownmarketplaces-in-vs-code-and-the-cli",
+        "id": "21911b12003d8f4100254e885cc65209d21983f8",
+        "title": "Copilot 代码审查：分析深度和效率更新 / Copilot code review: Analysis depth and efficiency updates",
+        "url": "https://github.blog/changelog/2026-06-25-copilot-code-review-analysis-depth-and-efficiency-updates",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
       }
@@ -851,15 +851,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7802,
-      "importance": 0.7802,
-      "importance_score": 0.7802,
+      "score": 0.7754,
+      "importance": 0.7754,
+      "importance_score": 0.7754,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9313,
+        "recency": 0.9044,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -879,242 +879,61 @@
       }
     },
     {
-      "story_id": "story_00fd5d3f9f10",
-      "title": "多数主流AI聊天机器人政治立场偏左，\"反觉醒\"模型也不例外",
-      "url": "https://the-decoder.com/most-major-ai-chatbots-still-lean-left-on-political-questions-even-anti-woke-models-are-no-exception",
-      "primary_url": "https://the-decoder.com/most-major-ai-chatbots-still-lean-left-on-political-questions-even-anti-woke-models-are-no-exception",
-      "source": "The Decoder：AI News（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "c2abf686ac2cefb9e9d541f637e118500103a262",
-          "title": "多数主流AI聊天机器人政治立场偏左，\"反觉醒\"模型也不例外",
-          "url": "https://the-decoder.com/most-major-ai-chatbots-still-lean-left-on-political-questions-even-anti-woke-models-are-no-exception",
-          "source": "The Decoder：AI News（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-25T16:04:32Z"
-        },
-        {
-          "id": "d967f2645d0a4c6321ac9bf4e7475907269a1d6a",
-          "title": "多数主流AI聊天机器人政治立场偏左，\"反觉醒\"模型也不例外 / Most major AI chatbots still lean left on political questions, even \"anti-woke\" models are no exception",
-          "url": "https://the-decoder.com/most-major-ai-chatbots-still-lean-left-on-political-questions-even-anti-woke-models-are-no-exception",
-          "source": "The Decoder AI News",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-06-25T16:04:32Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "The Decoder AI News",
-        "The Decoder：AI News（RSS）"
-      ],
-      "items": [
-        {
-          "id": "c2abf686ac2cefb9e9d541f637e118500103a262",
-          "title": "多数主流AI聊天机器人政治立场偏左，\"反觉醒\"模型也不例外",
-          "url": "https://the-decoder.com/most-major-ai-chatbots-still-lean-left-on-political-questions-even-anti-woke-models-are-no-exception",
-          "source": "The Decoder：AI News（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-25T16:04:32Z"
-        },
-        {
-          "id": "d967f2645d0a4c6321ac9bf4e7475907269a1d6a",
-          "title": "多数主流AI聊天机器人政治立场偏左，\"反觉醒\"模型也不例外 / Most major AI chatbots still lean left on political questions, even \"anti-woke\" models are no exception",
-          "url": "https://the-decoder.com/most-major-ai-chatbots-still-lean-left-on-political-questions-even-anti-woke-models-are-no-exception",
-          "source": "The Decoder AI News",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-06-25T16:04:32Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7445,
-      "importance": 0.7445,
-      "importance_score": 0.7445,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.73,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.716,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-25T16:04:32Z",
-      "latest_at": "2026-06-25T16:04:32Z",
-      "primary_item": {
-        "id": "c2abf686ac2cefb9e9d541f637e118500103a262",
-        "title": "多数主流AI聊天机器人政治立场偏左，\"反觉醒\"模型也不例外",
-        "url": "https://the-decoder.com/most-major-ai-chatbots-still-lean-left-on-political-questions-even-anti-woke-models-are-no-exception",
-        "source": "The Decoder：AI News（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_61e14fcfb922",
-      "title": "General Intuition 完成 3.2 亿美元融资，用游戏数据训练通用 AI 智能体",
-      "url": "https://techcrunch.com/2026/06/25/from-fortnite-to-robots-general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world",
-      "primary_url": "https://techcrunch.com/2026/06/25/from-fortnite-to-robots-general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world",
-      "source": "TechCrunch：AI（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "69c57f1581893d8f78c7fef14e4f93380c0cf58f",
-          "title": "General Intuition 完成 3.2 亿美元融资，用游戏数据训练通用 AI 智能体",
-          "url": "https://techcrunch.com/2026/06/25/from-fortnite-to-robots-general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world",
-          "source": "TechCrunch：AI（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-25T16:00:00Z"
-        },
-        {
-          "id": "e1224584ed456a0d79f513f81fcd61ac61e6dda0",
-          "title": "General Intuition 完成 3.2 亿美元融资，用游戏数据训练通用 AI 智能体 / General Intuition raises $2.3B on bet that video games can train AI agents for the real world",
-          "url": "https://techcrunch.com/2026/06/25/from-fortnite-to-robots-general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world",
-          "source": "TechCrunch",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-25T16:00:00Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "TechCrunch",
-        "TechCrunch：AI（RSS）"
-      ],
-      "items": [
-        {
-          "id": "69c57f1581893d8f78c7fef14e4f93380c0cf58f",
-          "title": "General Intuition 完成 3.2 亿美元融资，用游戏数据训练通用 AI 智能体",
-          "url": "https://techcrunch.com/2026/06/25/from-fortnite-to-robots-general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world",
-          "source": "TechCrunch：AI（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-25T16:00:00Z"
-        },
-        {
-          "id": "e1224584ed456a0d79f513f81fcd61ac61e6dda0",
-          "title": "General Intuition 完成 3.2 亿美元融资，用游戏数据训练通用 AI 智能体 / General Intuition raises $2.3B on bet that video games can train AI agents for the real world",
-          "url": "https://techcrunch.com/2026/06/25/from-fortnite-to-robots-general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world",
-          "source": "TechCrunch",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-25T16:00:00Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7383,
-      "importance": 0.7383,
-      "importance_score": 0.7383,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.71,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7152,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-25T16:00:00Z",
-      "latest_at": "2026-06-25T16:00:00Z",
-      "primary_item": {
-        "id": "69c57f1581893d8f78c7fef14e4f93380c0cf58f",
-        "title": "General Intuition 完成 3.2 亿美元融资，用游戏数据训练通用 AI 智能体",
-        "url": "https://techcrunch.com/2026/06/25/from-fortnite-to-robots-general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world",
-        "source": "TechCrunch：AI（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_801476e6fa11",
-      "title": "IBM 首度推出亚纳米级芯片技术",
-      "url": "https://newsroom.ibm.com/2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology",
-      "primary_url": "https://newsroom.ibm.com/2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology",
+      "story_id": "story_7157eeceef54",
+      "title": "赫库兰尼姆古卷首次被完整虚拟解读",
+      "url": "https://scrollprize.org/firstscroll",
+      "primary_url": "https://scrollprize.org/firstscroll",
       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "source_name": "AI HOT",
       "sources": [
         {
-          "id": "7deed6ed305c50a7ed2c2800a2a057f455eb127c",
-          "title": "IBM 首度推出亚纳米级芯片技术",
-          "url": "https://newsroom.ibm.com/2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology",
+          "id": "e0c0b35547a2e9d0cc9b80c44e5f31cc7854e392",
+          "title": "赫库兰尼姆古卷首次被完整虚拟解读",
+          "url": "https://scrollprize.org/firstscroll",
           "source": "Hacker News 热门（buzzing.cc 中文翻译）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-06-25T18:52:05.282000Z"
-        },
-        {
-          "id": "caecbc9f9527954ca5a571f42e4b67c86492231e",
-          "title": "IBM 首度推出亚纳米级芯片技术 / IBM debuts sub-1 nanometer chip technology",
-          "url": "https://newsroom.ibm.com/2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-25T15:33:37Z"
+          "published_at": "2026-06-25T18:03:58.685000Z"
         }
       ],
-      "source_count": 2,
+      "source_count": 1,
       "source_names": [
-        "Hacker News · 24h最热",
         "Hacker News 热门（buzzing.cc 中文翻译）"
       ],
       "items": [
         {
-          "id": "7deed6ed305c50a7ed2c2800a2a057f455eb127c",
-          "title": "IBM 首度推出亚纳米级芯片技术",
-          "url": "https://newsroom.ibm.com/2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology",
+          "id": "e0c0b35547a2e9d0cc9b80c44e5f31cc7854e392",
+          "title": "赫库兰尼姆古卷首次被完整虚拟解读",
+          "url": "https://scrollprize.org/firstscroll",
           "source": "Hacker News 热门（buzzing.cc 中文翻译）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-06-25T18:52:05.282000Z"
-        },
-        {
-          "id": "caecbc9f9527954ca5a571f42e4b67c86492231e",
-          "title": "IBM 首度推出亚纳米级芯片技术 / IBM debuts sub-1 nanometer chip technology",
-          "url": "https://newsroom.ibm.com/2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-25T15:33:37Z"
+          "published_at": "2026-06-25T18:03:58.685000Z"
         }
       ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7648,
-      "importance": 0.7648,
-      "importance_score": 0.7648,
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7374,
+      "importance": 0.7374,
+      "importance_score": 0.7374,
       "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.78,
+        "editorial": 0.79,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7455,
-        "story_heat": 0.25
+        "recency": 0.7156,
+        "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
-      "earliest_at": "2026-06-25T15:33:37Z",
-      "latest_at": "2026-06-25T18:52:05.282000Z",
+      "earliest_at": "2026-06-25T18:03:58.685000Z",
+      "latest_at": "2026-06-25T18:03:58.685000Z",
       "primary_item": {
-        "id": "7deed6ed305c50a7ed2c2800a2a057f455eb127c",
-        "title": "IBM 首度推出亚纳米级芯片技术",
-        "url": "https://newsroom.ibm.com/2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology",
+        "id": "e0c0b35547a2e9d0cc9b80c44e5f31cc7854e392",
+        "title": "赫库兰尼姆古卷首次被完整虚拟解读",
+        "url": "https://scrollprize.org/firstscroll",
         "source": "Hacker News 热门（buzzing.cc 中文翻译）",
         "source_name": "AI HOT"
       }
@@ -1154,15 +973,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7334,
-      "importance": 0.7334,
-      "importance_score": 0.7334,
+      "score": 0.7291,
+      "importance": 0.7291,
+      "importance_score": 0.7291,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.71,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8267,
+        "recency": 0.8029,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1180,143 +999,126 @@
       }
     },
     {
-      "story_id": "story_bb02e123ea8c",
-      "title": "Ornith-1.0 开源模型家族发布，专注 Agentic Coding 全参数规模",
-      "url": "https://x.com/berryxia/status/2070167806700908957",
-      "primary_url": "https://x.com/berryxia/status/2070167806700908957",
-      "source": "X：Berry Xia (@berryxia)",
+      "story_id": "story_5e4eee1b3db5",
+      "title": "@exponentialview 发布《State of the AI Economy》报告：AI经济年化收入超1750亿美元",
+      "url": "https://x.com/rohanpaul_ai/status/2070288396644491317",
+      "primary_url": "https://x.com/rohanpaul_ai/status/2070288396644491317",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
       "source_name": "AI HOT",
       "sources": [
         {
-          "id": "367ab11c6b2dc39eb1a9afa8654984834412b4f1",
-          "title": "Ornith-1.0 开源模型家族发布，专注 Agentic Coding 全参数规模",
-          "url": "https://x.com/berryxia/status/2070167806700908957",
-          "source": "X：Berry Xia (@berryxia)",
+          "id": "7a22e1daec7a8c8f53d0227ae3f1e9c796d15d6e",
+          "title": "@exponentialview 发布《State of the AI Economy》报告：AI经济年化收入超1750亿美元",
+          "url": "https://x.com/rohanpaul_ai/status/2070288396644491317",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-06-25T15:30:41Z"
+          "published_at": "2026-06-25T23:29:52Z"
         }
       ],
       "source_count": 1,
       "source_names": [
-        "X：Berry Xia (@berryxia)"
+        "X：Rohan Paul (@rohanpaul_ai)"
       ],
       "items": [
         {
-          "id": "367ab11c6b2dc39eb1a9afa8654984834412b4f1",
-          "title": "Ornith-1.0 开源模型家族发布，专注 Agentic Coding 全参数规模",
-          "url": "https://x.com/berryxia/status/2070167806700908957",
-          "source": "X：Berry Xia (@berryxia)",
+          "id": "7a22e1daec7a8c8f53d0227ae3f1e9c796d15d6e",
+          "title": "@exponentialview 发布《State of the AI Economy》报告：AI经济年化收入超1750亿美元",
+          "url": "https://x.com/rohanpaul_ai/status/2070288396644491317",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-06-25T15:30:41Z"
+          "published_at": "2026-06-25T23:29:52Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7274,
-      "importance": 0.7274,
-      "importance_score": 0.7274,
+      "score": 0.7569,
+      "importance": 0.7569,
+      "importance_score": 0.7569,
       "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.76,
+        "editorial": 0.82,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7102,
+        "recency": 0.774,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance"
+        "high_ai_relevance",
+        "high_importance"
       ],
-      "earliest_at": "2026-06-25T15:30:41Z",
-      "latest_at": "2026-06-25T15:30:41Z",
+      "earliest_at": "2026-06-25T23:29:52Z",
+      "latest_at": "2026-06-25T23:29:52Z",
       "primary_item": {
-        "id": "367ab11c6b2dc39eb1a9afa8654984834412b4f1",
-        "title": "Ornith-1.0 开源模型家族发布，专注 Agentic Coding 全参数规模",
-        "url": "https://x.com/berryxia/status/2070167806700908957",
-        "source": "X：Berry Xia (@berryxia)",
+        "id": "7a22e1daec7a8c8f53d0227ae3f1e9c796d15d6e",
+        "title": "@exponentialview 发布《State of the AI Economy》报告：AI经济年化收入超1750亿美元",
+        "url": "https://x.com/rohanpaul_ai/status/2070288396644491317",
+        "source": "X：Rohan Paul (@rohanpaul_ai)",
         "source_name": "AI HOT"
       }
     },
     {
-      "story_id": "story_04bd48744b58",
-      "title": "OLMo Hybrid vs Transformer：混合模型在实义词上优势明显，但重复短语上几无优势",
-      "url": "https://huggingface.co/blog/allenai/hybrid-token-prediction",
-      "primary_url": "https://huggingface.co/blog/allenai/hybrid-token-prediction",
-      "source": "Hugging Face：Blog（RSS）",
-      "source_name": "AI HOT",
+      "story_id": "story_0dfa7e4bd23b",
+      "title": "企业管理的设置现在支持 VS Code 和 GitHub Copilot CLI 中的 strictKnownMarketplaces / Enterprise-managed settings now support strictKnownMarketplaces in VS Code and GitHub Copilot CLI",
+      "url": "https://github.blog/changelog/2026-06-25-enterprise-managed-settings-now-support-strictknownmarketplaces-in-vs-code-and-the-cli",
+      "primary_url": "https://github.blog/changelog/2026-06-25-enterprise-managed-settings-now-support-strictknownmarketplaces-in-vs-code-and-the-cli",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
       "sources": [
         {
-          "id": "548d585f2d5ea646336b9ed0aa173087f0b99dcb",
-          "title": "OLMo Hybrid vs Transformer：混合模型在实义词上优势明显，但重复短语上几无优势",
-          "url": "https://huggingface.co/blog/allenai/hybrid-token-prediction",
-          "source": "Hugging Face：Blog（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-25T16:11:42Z"
-        },
-        {
-          "id": "edb54681aaec0bb9d12ed082abeb15f78138eaf0",
-          "title": "OLMo Hybrid vs Transformer：混合模型在实义词上优势明显，但重复短语上几无优势 / Which tokens does a hybrid model predict better?",
-          "url": "https://huggingface.co/blog/allenai/hybrid-token-prediction",
-          "source": "Hugging Face Blog",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-25T16:11:42Z"
+          "id": "7033636f928ed08bd94d362116c72d6dd8154517",
+          "title": "企业管理的设置现在支持 VS Code 和 GitHub Copilot CLI 中的 strictKnownMarketplaces / Enterprise-managed settings now support strictKnownMarketplaces in VS Code and GitHub Copilot CLI",
+          "url": "https://github.blog/changelog/2026-06-25-enterprise-managed-settings-now-support-strictknownmarketplaces-in-vs-code-and-the-cli",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-25T21:30:42Z"
         }
       ],
-      "source_count": 2,
+      "source_count": 1,
       "source_names": [
-        "Hugging Face Blog",
-        "Hugging Face：Blog（RSS）"
+        "GitHub Changelog"
       ],
       "items": [
         {
-          "id": "548d585f2d5ea646336b9ed0aa173087f0b99dcb",
-          "title": "OLMo Hybrid vs Transformer：混合模型在实义词上优势明显，但重复短语上几无优势",
-          "url": "https://huggingface.co/blog/allenai/hybrid-token-prediction",
-          "source": "Hugging Face：Blog（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-25T16:11:42Z"
-        },
-        {
-          "id": "edb54681aaec0bb9d12ed082abeb15f78138eaf0",
-          "title": "OLMo Hybrid vs Transformer：混合模型在实义词上优势明显，但重复短语上几无优势 / Which tokens does a hybrid model predict better?",
-          "url": "https://huggingface.co/blog/allenai/hybrid-token-prediction",
-          "source": "Hugging Face Blog",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-25T16:11:42Z"
+          "id": "7033636f928ed08bd94d362116c72d6dd8154517",
+          "title": "企业管理的设置现在支持 VS Code 和 GitHub Copilot CLI 中的 strictKnownMarketplaces / Enterprise-managed settings now support strictKnownMarketplaces in VS Code and GitHub Copilot CLI",
+          "url": "https://github.blog/changelog/2026-06-25-enterprise-managed-settings-now-support-strictknownmarketplaces-in-vs-code-and-the-cli",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-25T21:30:42Z"
         }
       ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7207,
-      "importance": 0.7207,
-      "importance_score": 0.7207,
-      "importance_label": "行业动态",
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8074,
+      "importance": 0.8074,
+      "importance_score": 0.8074,
+      "importance_label": "官方更新",
       "importance_breakdown": {
-        "editorial": 0.65,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7172,
-        "story_heat": 0.25
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.7521,
+        "story_heat": 0.0
       },
-      "category": "industry",
+      "category": "official",
       "reasons": [
-        "multi_source",
-        "high_ai_relevance"
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
       ],
-      "earliest_at": "2026-06-25T16:11:42Z",
-      "latest_at": "2026-06-25T16:11:42Z",
+      "earliest_at": "2026-06-25T21:30:42Z",
+      "latest_at": "2026-06-25T21:30:42Z",
       "primary_item": {
-        "id": "548d585f2d5ea646336b9ed0aa173087f0b99dcb",
-        "title": "OLMo Hybrid vs Transformer：混合模型在实义词上优势明显，但重复短语上几无优势",
-        "url": "https://huggingface.co/blog/allenai/hybrid-token-prediction",
-        "source": "Hugging Face：Blog（RSS）",
-        "source_name": "AI HOT"
+        "id": "7033636f928ed08bd94d362116c72d6dd8154517",
+        "title": "企业管理的设置现在支持 VS Code 和 GitHub Copilot CLI 中的 strictKnownMarketplaces / Enterprise-managed settings now support strictKnownMarketplaces in VS Code and GitHub Copilot CLI",
+        "url": "https://github.blog/changelog/2026-06-25-enterprise-managed-settings-now-support-strictknownmarketplaces-in-vs-code-and-the-cli",
+        "source": "GitHub Changelog",
+        "source_name": "Official AI Updates"
       }
     },
     {
@@ -1373,15 +1175,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7195,
-      "importance": 0.7195,
-      "importance_score": 0.7195,
+      "score": 0.7155,
+      "importance": 0.7155,
+      "importance_score": 0.7155,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.61,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7773,
+        "recency": 0.7549,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1400,63 +1202,204 @@
       }
     },
     {
-      "story_id": "story_4cc42a3912fa",
-      "title": "OpenAI 内部论文：Codex 已占 99.8% 内部输出 tokens，智能体正向全部门扩散",
-      "url": "https://x.com/rohanpaul_ai/status/2070221621676441642",
-      "primary_url": "https://x.com/rohanpaul_ai/status/2070221621676441642",
-      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "story_id": "story_801476e6fa11",
+      "title": "IBM 首度推出亚纳米级芯片技术",
+      "url": "https://newsroom.ibm.com/2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology",
+      "primary_url": "https://newsroom.ibm.com/2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "source_name": "AI HOT",
       "sources": [
         {
-          "id": "4ba6368af8e231426f0c056e936d9da6e636b61e",
-          "title": "OpenAI 内部论文：Codex 已占 99.8% 内部输出 tokens，智能体正向全部门扩散",
-          "url": "https://x.com/rohanpaul_ai/status/2070221621676441642",
-          "source": "X：Rohan Paul (@rohanpaul_ai)",
+          "id": "7deed6ed305c50a7ed2c2800a2a057f455eb127c",
+          "title": "IBM 首度推出亚纳米级芯片技术",
+          "url": "https://newsroom.ibm.com/2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-06-25T19:04:32Z"
+          "published_at": "2026-06-25T18:52:05.282000Z"
         }
       ],
       "source_count": 1,
       "source_names": [
-        "X：Rohan Paul (@rohanpaul_ai)"
+        "Hacker News 热门（buzzing.cc 中文翻译）"
       ],
       "items": [
         {
-          "id": "4ba6368af8e231426f0c056e936d9da6e636b61e",
-          "title": "OpenAI 内部论文：Codex 已占 99.8% 内部输出 tokens，智能体正向全部门扩散",
-          "url": "https://x.com/rohanpaul_ai/status/2070221621676441642",
-          "source": "X：Rohan Paul (@rohanpaul_ai)",
+          "id": "7deed6ed305c50a7ed2c2800a2a057f455eb127c",
+          "title": "IBM 首度推出亚纳米级芯片技术",
+          "url": "https://newsroom.ibm.com/2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-06-25T19:04:32Z"
+          "published_at": "2026-06-25T18:52:05.282000Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7462,
-      "importance": 0.7462,
-      "importance_score": 0.7462,
+      "score": 0.7359,
+      "importance": 0.7359,
+      "importance_score": 0.7359,
       "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.8,
+        "editorial": 0.78,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7477,
+        "recency": 0.724,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
         "high_ai_relevance"
       ],
-      "earliest_at": "2026-06-25T19:04:32Z",
-      "latest_at": "2026-06-25T19:04:32Z",
+      "earliest_at": "2026-06-25T18:52:05.282000Z",
+      "latest_at": "2026-06-25T18:52:05.282000Z",
       "primary_item": {
-        "id": "4ba6368af8e231426f0c056e936d9da6e636b61e",
-        "title": "OpenAI 内部论文：Codex 已占 99.8% 内部输出 tokens，智能体正向全部门扩散",
-        "url": "https://x.com/rohanpaul_ai/status/2070221621676441642",
-        "source": "X：Rohan Paul (@rohanpaul_ai)",
+        "id": "7deed6ed305c50a7ed2c2800a2a057f455eb127c",
+        "title": "IBM 首度推出亚纳米级芯片技术",
+        "url": "https://newsroom.ibm.com/2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology",
+        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
         "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_dcc4f8300cd9",
+      "title": "小鹏 CEO 何小鹏：2026 年底自动驾驶可以合法进入全球",
+      "url": "https://www.ithome.com/0/968/894.htm",
+      "primary_url": "https://www.ithome.com/0/968/894.htm",
+      "source": "IT之家（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "c6466984847b86bf8c5843261b7740c1c28a9f65",
+          "title": "小鹏 CEO 何小鹏：2026 年底自动驾驶可以合法进入全球",
+          "url": "https://www.ithome.com/0/968/894.htm",
+          "source": "IT之家（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-26T05:40:52Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "IT之家（RSS）"
+      ],
+      "items": [
+        {
+          "id": "c6466984847b86bf8c5843261b7740c1c28a9f65",
+          "title": "小鹏 CEO 何小鹏：2026 年底自动驾驶可以合法进入全球",
+          "url": "https://www.ithome.com/0/968/894.htm",
+          "source": "IT之家（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-26T05:40:52Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7339,
+      "importance": 0.7339,
+      "importance_score": 0.7339,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.7,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8463,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-06-26T05:40:52Z",
+      "latest_at": "2026-06-26T05:40:52Z",
+      "primary_item": {
+        "id": "c6466984847b86bf8c5843261b7740c1c28a9f65",
+        "title": "小鹏 CEO 何小鹏：2026 年底自动驾驶可以合法进入全球",
+        "url": "https://www.ithome.com/0/968/894.htm",
+        "source": "IT之家（RSS）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_2df39f94801f",
+      "title": "Adobe宣布收购视频与图像AI模型开发商Topaz Labs，深化Firefly生态布局",
+      "url": "https://www.aibase.com/news/29183",
+      "primary_url": "https://www.aibase.com/news/29183",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "026e65a50fce400098e5e0b51a82d3a677a58815",
+          "title": "Adobe宣布收购视频与图像AI模型开发商Topaz Labs，深化Firefly生态布局",
+          "url": "https://www.aibase.com/news/29183",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-26T02:37:30.235851Z"
+        },
+        {
+          "id": "d8d2f5843b13578219c43fa8cca3388230b1aa35",
+          "title": "Adobe 宣布收购视频与图像 AI 模型开发商 Topaz Labs，深化 Firefly 生态布局",
+          "url": "https://www.aibase.com/zh/news/29183",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "AIbase",
+        "Readhub · AI"
+      ],
+      "items": [
+        {
+          "id": "026e65a50fce400098e5e0b51a82d3a677a58815",
+          "title": "Adobe宣布收购视频与图像AI模型开发商Topaz Labs，深化Firefly生态布局",
+          "url": "https://www.aibase.com/news/29183",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-26T02:37:30.235851Z"
+        },
+        {
+          "id": "d8d2f5843b13578219c43fa8cca3388230b1aa35",
+          "title": "Adobe 宣布收购视频与图像 AI 模型开发商 Topaz Labs，深化 Firefly 生态布局",
+          "url": "https://www.aibase.com/zh/news/29183",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7584,
+      "importance": 0.7584,
+      "importance_score": 0.7584,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8098,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-26T02:37:30.235851Z",
+      "latest_at": "2026-06-26T02:37:30.235851Z",
+      "primary_item": {
+        "id": "026e65a50fce400098e5e0b51a82d3a677a58815",
+        "title": "Adobe宣布收购视频与图像AI模型开发商Topaz Labs，深化Firefly生态布局",
+        "url": "https://www.aibase.com/news/29183",
+        "source": "AIbase",
+        "source_name": "AIbase"
       }
     }
   ]
