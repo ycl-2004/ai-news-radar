@@ -75,7 +75,6 @@ const boleTimelineBtnEl = document.getElementById("boleTimelineBtn");
 const sectionTabsEl = document.getElementById("sectionTabs");
 const sectionSummaryEl = document.getElementById("sectionSummary");
 const topStoriesTitleEl = document.getElementById("topStoriesTitle");
-const topStoriesSubEl = document.getElementById("topStoriesSub");
 const listSortToolsEl = document.getElementById("listSortTools");
 
 const SOURCE_KINDS = {
@@ -119,7 +118,7 @@ const SECTION_BY_ID = Object.fromEntries(SECTION_DEFS.map((section) => [section.
 const LIST_SORT_DEFS = [
   { id: "priority", label: "综合" },
   { id: "latest", label: "最新" },
-  { id: "ai", label: "AI分" },
+  { id: "ai", label: "高分" },
   { id: "source", label: "来源" },
 ];
 
@@ -1814,7 +1813,6 @@ function renderBolePicks() {
   const top = rows.slice(0, 3);
   const remainingCount = Math.max(0, rows.length - top.length);
   if (topStoriesTitleEl) topStoriesTitleEl.textContent = state.activeSection === "hot" ? "今日重点信号" : `${section.label}重点信号`;
-  if (topStoriesSubEl) topStoriesSubEl.textContent = `先回答“哪几条值得看、为什么值得看”；后续时间线和完整信号流保留更多细节。${section.description ? ` ${section.description}` : ""}`;
   const storyMeta = usesStories
     ? `展示池：热点 ${fmtNumber(candidateCounts.hot)}/${fmtNumber(candidateCounts.hotTotal)} · 时间线 ${fmtNumber(candidateCounts.timeline)}/${fmtNumber(candidateCounts.timelineTotal)}`
     : `展示池：${fmtNumber(rows.length)} 条`;

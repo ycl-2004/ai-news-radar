@@ -92,13 +92,6 @@ button {
   overflow-wrap: break-word;
 }
 
-.hero-sub {
-  margin: 12px 0 0;
-  color: var(--muted);
-  font-size: 15px;
-  line-height: 1.6;
-}
-
 .hero-meta {
   align-self: start;
   display: grid;
@@ -148,6 +141,36 @@ button {
   color: var(--bad);
   border-color: rgba(180, 35, 24, 0.22);
   background: rgba(180, 35, 24, 0.07);
+}
+
+.hero-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 6px;
+  margin-top: 4px;
+}
+
+.hero-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 30px;
+  border: 1px solid rgba(18, 106, 115, 0.2);
+  border-radius: 999px;
+  padding: 5px 10px;
+  color: var(--accent);
+  background: rgba(18, 106, 115, 0.06);
+  font-size: 12px;
+  font-weight: 740;
+  line-height: 1;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.hero-link:hover {
+  border-color: rgba(18, 106, 115, 0.36);
+  background: rgba(18, 106, 115, 0.1);
 }
 
 .stats {
@@ -1024,14 +1047,6 @@ summary:focus-visible {
 
 .bole-view-toggle[hidden] {
   display: none;
-}
-
-.bole-picks-sub {
-  max-width: 760px;
-  padding: 0 18px 0;
-  color: var(--muted);
-  font-size: 13px;
-  line-height: 1.65;
 }
 
 .bole-more-btn,
@@ -2381,6 +2396,11 @@ summary:focus-visible {
     text-align: left;
   }
 
+  .hero-links {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
   .updated-label {
     display: none;
   }
@@ -2504,10 +2524,6 @@ summary:focus-visible {
   }
 
   #bolePicksMeta {
-    display: none;
-  }
-
-  .bole-picks-sub {
     display: none;
   }
 
