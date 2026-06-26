@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-06-26T17:14:10.338649Z",
+  "generated_at": "2026-06-26T19:15:11.243650Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
     {
       "story_id": "story_adbd50c1b1db",
-      "title": "预览 GPT-5.6 Sol：下一代模型 / Previewing GPT-5.6 Sol: a next-generation model",
+      "title": "OpenAI 预览新一代模型 GPT-5.6 Sol / Previewing GPT-5.6 Sol: a next-generation model",
       "url": "https://openai.com/index/previewing-gpt-5-6-sol",
       "primary_url": "https://openai.com/index/previewing-gpt-5-6-sol",
       "source": "OpenAI News",
@@ -13,7 +13,7 @@
       "sources": [
         {
           "id": "6a8ed476ab2dd24ba1fadd1c70a5085f20ec203e",
-          "title": "预览 GPT-5.6 Sol：下一代模型 / Previewing GPT-5.6 Sol: a next-generation model",
+          "title": "OpenAI 预览新一代模型 GPT-5.6 Sol / Previewing GPT-5.6 Sol: a next-generation model",
           "url": "https://openai.com/index/previewing-gpt-5-6-sol",
           "source": "OpenAI News",
           "source_name": "Official AI Updates",
@@ -21,8 +21,26 @@
           "published_at": "2026-06-26T10:00:00Z"
         },
         {
+          "id": "10d60fef99eb785c267b4bb1466e3170f6051790",
+          "title": "OpenAI 预览新一代模型 GPT-5.6 Sol",
+          "url": "https://openai.com/index/previewing-gpt-5-6-sol",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-26T10:00:00Z"
+        },
+        {
+          "id": "50b846d11b890d19e5f2173adc6d2954f7217666",
+          "title": "GPT‑5.6 Sol 预览：新一代模型",
+          "url": "https://openai.com/index/previewing-gpt-5-6-sol",
+          "source": "openai.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-26T17:31:54.233000Z"
+        },
+        {
           "id": "f50b30bc2cc13996cce1036a6e197cd36063b221",
-          "title": "预览 GPT‑5.6 Sol：下一代模型 / Previewing GPT‑5.6 Sol: a next-generation model",
+          "title": "OpenAI 预览新一代模型 GPT-5.6 Sol / Previewing GPT‑5.6 Sol: a next-generation model",
           "url": "https://openai.com/index/previewing-gpt-5-6-sol",
           "source": "Hacker News · 24h最热",
           "source_name": "Zeli",
@@ -30,15 +48,17 @@
           "published_at": "2026-06-26T17:06:55Z"
         }
       ],
-      "source_count": 2,
+      "source_count": 4,
       "source_names": [
         "Hacker News · 24h最热",
-        "OpenAI News"
+        "OpenAI News",
+        "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+        "openai.com"
       ],
       "items": [
         {
           "id": "6a8ed476ab2dd24ba1fadd1c70a5085f20ec203e",
-          "title": "预览 GPT-5.6 Sol：下一代模型 / Previewing GPT-5.6 Sol: a next-generation model",
+          "title": "OpenAI 预览新一代模型 GPT-5.6 Sol / Previewing GPT-5.6 Sol: a next-generation model",
           "url": "https://openai.com/index/previewing-gpt-5-6-sol",
           "source": "OpenAI News",
           "source_name": "Official AI Updates",
@@ -46,8 +66,26 @@
           "published_at": "2026-06-26T10:00:00Z"
         },
         {
+          "id": "10d60fef99eb785c267b4bb1466e3170f6051790",
+          "title": "OpenAI 预览新一代模型 GPT-5.6 Sol",
+          "url": "https://openai.com/index/previewing-gpt-5-6-sol",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-26T10:00:00Z"
+        },
+        {
+          "id": "50b846d11b890d19e5f2173adc6d2954f7217666",
+          "title": "GPT‑5.6 Sol 预览：新一代模型",
+          "url": "https://openai.com/index/previewing-gpt-5-6-sol",
+          "source": "openai.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-26T17:31:54.233000Z"
+        },
+        {
           "id": "f50b30bc2cc13996cce1036a6e197cd36063b221",
-          "title": "预览 GPT‑5.6 Sol：下一代模型 / Previewing GPT‑5.6 Sol: a next-generation model",
+          "title": "OpenAI 预览新一代模型 GPT-5.6 Sol / Previewing GPT‑5.6 Sol: a next-generation model",
           "url": "https://openai.com/index/previewing-gpt-5-6-sol",
           "source": "Hacker News · 24h最热",
           "source_name": "Zeli",
@@ -55,18 +93,18 @@
           "published_at": "2026-06-26T17:06:55Z"
         }
       ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.8671,
-      "importance": 0.8671,
-      "importance_score": 0.8671,
+      "item_count": 4,
+      "duplicate_count": 4,
+      "score": 0.9125,
+      "importance": 0.9125,
+      "importance_score": 0.9125,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.9008,
-        "story_heat": 0.25
+        "recency": 0.8749,
+        "story_heat": 0.75
       },
       "category": "official",
       "reasons": [
@@ -76,10 +114,10 @@
         "high_importance"
       ],
       "earliest_at": "2026-06-26T10:00:00Z",
-      "latest_at": "2026-06-26T17:06:55Z",
+      "latest_at": "2026-06-26T17:31:54.233000Z",
       "primary_item": {
         "id": "6a8ed476ab2dd24ba1fadd1c70a5085f20ec203e",
-        "title": "预览 GPT-5.6 Sol：下一代模型 / Previewing GPT-5.6 Sol: a next-generation model",
+        "title": "OpenAI 预览新一代模型 GPT-5.6 Sol / Previewing GPT-5.6 Sol: a next-generation model",
         "url": "https://openai.com/index/previewing-gpt-5-6-sol",
         "source": "OpenAI News",
         "source_name": "Official AI Updates"
@@ -120,15 +158,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8503,
-      "importance": 0.8503,
-      "importance_score": 0.8503,
+      "score": 0.8452,
+      "importance": 0.8452,
+      "importance_score": 0.8452,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.9906,
+        "recency": 0.9622,
         "story_heat": 0.0
       },
       "category": "official",
@@ -182,15 +220,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8163,
-      "importance": 0.8163,
-      "importance_score": 0.8163,
+      "score": 0.8123,
+      "importance": 0.8123,
+      "importance_score": 0.8123,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.94,
-        "recency": 0.7684,
+        "recency": 0.7464,
         "story_heat": 0.0
       },
       "category": "official",
@@ -244,15 +282,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8354,
-      "importance": 0.8354,
-      "importance_score": 0.8354,
+      "score": 0.8307,
+      "importance": 0.8307,
+      "importance_score": 0.8307,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.908,
+        "recency": 0.8819,
         "story_heat": 0.0
       },
       "category": "official",
@@ -269,247 +307,6 @@
         "url": "https://github.blog/changelog/2026-06-26-github-desktop-3-6-worktrees-and-deeper-copilot-integration",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
-      }
-    },
-    {
-      "story_id": "story_97db0890a77a",
-      "title": "Anthropic 称阿里巴巴必须为最大规模 Claude 克隆攻击受罚",
-      "url": "https://arstechnica.com/tech-policy/2026/06/anthropic-claims-alibaba-defied-trump-to-attack-claude-and-steal-capabilities",
-      "primary_url": "https://arstechnica.com/tech-policy/2026/06/anthropic-claims-alibaba-defied-trump-to-attack-claude-and-steal-capabilities",
-      "source": "Ars Technica：AI（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "c532b203287caef5ac570ef294a3ba9b6bfeb06e",
-          "title": "Anthropic 称阿里巴巴必须为最大规模 Claude 克隆攻击受罚",
-          "url": "https://arstechnica.com/tech-policy/2026/06/anthropic-claims-alibaba-defied-trump-to-attack-claude-and-steal-capabilities",
-          "source": "Ars Technica：AI（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-25T18:01:48Z"
-        },
-        {
-          "id": "369cfec96ad8bfc7db787884d8c291507fbdb200",
-          "title": "Anthropic表示，阿里巴巴必须为这起最大规模的Claude克隆攻击事件受到惩罚",
-          "url": "https://arstechnica.com/tech-policy/2026/06/anthropic-claims-alibaba-defied-trump-to-attack-claude-and-steal-capabilities",
-          "source": "arstechnica.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-25T20:11:57.386000Z"
-        },
-        {
-          "id": "5f51027d5f2947afd6f20d07fe740ca358ea279a",
-          "title": "Anthropic 称阿里巴巴必须因最大规模的克劳德克隆攻击而受到惩罚 / Anthropic Says Alibaba Must Be Punished For Largest Claude Cloning Attack",
-          "url": "https://yro.slashdot.org/story/26/06/25/1810226/anthropic-says-alibaba-must-be-punished-for-largest-claude-cloning-attack",
-          "source": "Slashdot (科技资讯)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-25T18:12:00Z"
-        },
-        {
-          "id": "ec9c39bc4323f40dc028ad5997ab40a0bd3b27ff",
-          "title": "Anthropic 称阿里巴巴必须为最大规模 Claude 克隆攻击受罚 / Anthropic says Alibaba must be punished for largest Claude cloning attack",
-          "url": "https://arstechnica.com/tech-policy/2026/06/anthropic-claims-alibaba-defied-trump-to-attack-claude-and-steal-capabilities",
-          "source": "Ars Technica",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-25T18:01:48Z"
-        }
-      ],
-      "source_count": 4,
-      "source_names": [
-        "Ars Technica",
-        "Ars Technica：AI（RSS）",
-        "Slashdot (科技资讯)",
-        "arstechnica.com"
-      ],
-      "items": [
-        {
-          "id": "c532b203287caef5ac570ef294a3ba9b6bfeb06e",
-          "title": "Anthropic 称阿里巴巴必须为最大规模 Claude 克隆攻击受罚",
-          "url": "https://arstechnica.com/tech-policy/2026/06/anthropic-claims-alibaba-defied-trump-to-attack-claude-and-steal-capabilities",
-          "source": "Ars Technica：AI（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-25T18:01:48Z"
-        },
-        {
-          "id": "369cfec96ad8bfc7db787884d8c291507fbdb200",
-          "title": "Anthropic表示，阿里巴巴必须为这起最大规模的Claude克隆攻击事件受到惩罚",
-          "url": "https://arstechnica.com/tech-policy/2026/06/anthropic-claims-alibaba-defied-trump-to-attack-claude-and-steal-capabilities",
-          "source": "arstechnica.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-25T20:11:57.386000Z"
-        },
-        {
-          "id": "5f51027d5f2947afd6f20d07fe740ca358ea279a",
-          "title": "Anthropic 称阿里巴巴必须因最大规模的克劳德克隆攻击而受到惩罚 / Anthropic Says Alibaba Must Be Punished For Largest Claude Cloning Attack",
-          "url": "https://yro.slashdot.org/story/26/06/25/1810226/anthropic-says-alibaba-must-be-punished-for-largest-claude-cloning-attack",
-          "source": "Slashdot (科技资讯)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-25T18:12:00Z"
-        },
-        {
-          "id": "ec9c39bc4323f40dc028ad5997ab40a0bd3b27ff",
-          "title": "Anthropic 称阿里巴巴必须为最大规模 Claude 克隆攻击受罚 / Anthropic says Alibaba must be punished for largest Claude cloning attack",
-          "url": "https://arstechnica.com/tech-policy/2026/06/anthropic-claims-alibaba-defied-trump-to-attack-claude-and-steal-capabilities",
-          "source": "Ars Technica",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-25T18:01:48Z"
-        }
-      ],
-      "item_count": 4,
-      "duplicate_count": 4,
-      "score": 0.7943,
-      "importance": 0.7943,
-      "importance_score": 0.7943,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.73,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7153,
-        "story_heat": 0.75
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-25T18:01:48Z",
-      "latest_at": "2026-06-25T20:11:57.386000Z",
-      "primary_item": {
-        "id": "c532b203287caef5ac570ef294a3ba9b6bfeb06e",
-        "title": "Anthropic 称阿里巴巴必须为最大规模 Claude 克隆攻击受罚",
-        "url": "https://arstechnica.com/tech-policy/2026/06/anthropic-claims-alibaba-defied-trump-to-attack-claude-and-steal-capabilities",
-        "source": "Ars Technica：AI（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_876d1b8a384d",
-      "title": "华盛顿邮报报告：AI聊天机器人存在左翼偏见",
-      "url": "https://x.com/rohanpaul_ai/status/2070550479621488896",
-      "primary_url": "https://x.com/rohanpaul_ai/status/2070550479621488896",
-      "source": "X：Rohan Paul (@rohanpaul_ai)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "193fd12b02e35f41a451de554e5c70724c1edbaa",
-          "title": "华盛顿邮报报告：AI聊天机器人存在左翼偏见",
-          "url": "https://x.com/rohanpaul_ai/status/2070550479621488896",
-          "source": "X：Rohan Paul (@rohanpaul_ai)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-26T16:51:17Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：Rohan Paul (@rohanpaul_ai)"
-      ],
-      "items": [
-        {
-          "id": "193fd12b02e35f41a451de554e5c70724c1edbaa",
-          "title": "华盛顿邮报报告：AI聊天机器人存在左翼偏见",
-          "url": "https://x.com/rohanpaul_ai/status/2070550479621488896",
-          "source": "X：Rohan Paul (@rohanpaul_ai)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-26T16:51:17Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7756,
-      "importance": 0.7756,
-      "importance_score": 0.7756,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.75,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9945,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-26T16:51:17Z",
-      "latest_at": "2026-06-26T16:51:17Z",
-      "primary_item": {
-        "id": "193fd12b02e35f41a451de554e5c70724c1edbaa",
-        "title": "华盛顿邮报报告：AI聊天机器人存在左翼偏见",
-        "url": "https://x.com/rohanpaul_ai/status/2070550479621488896",
-        "source": "X：Rohan Paul (@rohanpaul_ai)",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_e56d406e16bf",
-      "title": "Leaf 开源项目：将网红峰哥做成实时通话 AI 分身",
-      "url": "https://x.com/AYi_AInotes/status/2070531964067623381",
-      "primary_url": "https://x.com/AYi_AInotes/status/2070531964067623381",
-      "source": "X：阿易 AI Notes (@AYi_AInotes)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "e1cd1734ccb17dd32195e228b02b17c795fa92c1",
-          "title": "Leaf 开源项目：将网红峰哥做成实时通话 AI 分身",
-          "url": "https://x.com/AYi_AInotes/status/2070531964067623381",
-          "source": "X：阿易 AI Notes (@AYi_AInotes)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-26T15:37:43Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：阿易 AI Notes (@AYi_AInotes)"
-      ],
-      "items": [
-        {
-          "id": "e1cd1734ccb17dd32195e228b02b17c795fa92c1",
-          "title": "Leaf 开源项目：将网红峰哥做成实时通话 AI 分身",
-          "url": "https://x.com/AYi_AInotes/status/2070531964067623381",
-          "source": "X：阿易 AI Notes (@AYi_AInotes)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-26T15:37:43Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7755,
-      "importance": 0.7755,
-      "importance_score": 0.7755,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.76,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9771,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-26T15:37:43Z",
-      "latest_at": "2026-06-26T15:37:43Z",
-      "primary_item": {
-        "id": "e1cd1734ccb17dd32195e228b02b17c795fa92c1",
-        "title": "Leaf 开源项目：将网红峰哥做成实时通话 AI 分身",
-        "url": "https://x.com/AYi_AInotes/status/2070531964067623381",
-        "source": "X：阿易 AI Notes (@AYi_AInotes)",
-        "source_name": "AI HOT"
       }
     },
     {
@@ -566,15 +363,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7754,
-      "importance": 0.7754,
-      "importance_score": 0.7754,
+      "score": 0.7707,
+      "importance": 0.7707,
+      "importance_score": 0.7707,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9044,
+        "recency": 0.8784,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -591,6 +388,128 @@
         "url": "https://www.aibase.com/news/29205",
         "source": "AIbase",
         "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_876d1b8a384d",
+      "title": "华盛顿邮报报告：AI聊天机器人存在左翼偏见",
+      "url": "https://x.com/rohanpaul_ai/status/2070550479621488896",
+      "primary_url": "https://x.com/rohanpaul_ai/status/2070550479621488896",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "193fd12b02e35f41a451de554e5c70724c1edbaa",
+          "title": "华盛顿邮报报告：AI聊天机器人存在左翼偏见",
+          "url": "https://x.com/rohanpaul_ai/status/2070550479621488896",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-26T16:51:17Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "X：Rohan Paul (@rohanpaul_ai)"
+      ],
+      "items": [
+        {
+          "id": "193fd12b02e35f41a451de554e5c70724c1edbaa",
+          "title": "华盛顿邮报报告：AI聊天机器人存在左翼偏见",
+          "url": "https://x.com/rohanpaul_ai/status/2070550479621488896",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-26T16:51:17Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7705,
+      "importance": 0.7705,
+      "importance_score": 0.7705,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.75,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.966,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-26T16:51:17Z",
+      "latest_at": "2026-06-26T16:51:17Z",
+      "primary_item": {
+        "id": "193fd12b02e35f41a451de554e5c70724c1edbaa",
+        "title": "华盛顿邮报报告：AI聊天机器人存在左翼偏见",
+        "url": "https://x.com/rohanpaul_ai/status/2070550479621488896",
+        "source": "X：Rohan Paul (@rohanpaul_ai)",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_e56d406e16bf",
+      "title": "Leaf 开源项目：将网红峰哥做成实时通话 AI 分身",
+      "url": "https://x.com/AYi_AInotes/status/2070531964067623381",
+      "primary_url": "https://x.com/AYi_AInotes/status/2070531964067623381",
+      "source": "X：阿易 AI Notes (@AYi_AInotes)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "e1cd1734ccb17dd32195e228b02b17c795fa92c1",
+          "title": "Leaf 开源项目：将网红峰哥做成实时通话 AI 分身",
+          "url": "https://x.com/AYi_AInotes/status/2070531964067623381",
+          "source": "X：阿易 AI Notes (@AYi_AInotes)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-26T15:37:43Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "X：阿易 AI Notes (@AYi_AInotes)"
+      ],
+      "items": [
+        {
+          "id": "e1cd1734ccb17dd32195e228b02b17c795fa92c1",
+          "title": "Leaf 开源项目：将网红峰哥做成实时通话 AI 分身",
+          "url": "https://x.com/AYi_AInotes/status/2070531964067623381",
+          "source": "X：阿易 AI Notes (@AYi_AInotes)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-26T15:37:43Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7704,
+      "importance": 0.7704,
+      "importance_score": 0.7704,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.76,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.949,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-26T15:37:43Z",
+      "latest_at": "2026-06-26T15:37:43Z",
+      "primary_item": {
+        "id": "e1cd1734ccb17dd32195e228b02b17c795fa92c1",
+        "title": "Leaf 开源项目：将网红峰哥做成实时通话 AI 分身",
+        "url": "https://x.com/AYi_AInotes/status/2070531964067623381",
+        "source": "X：阿易 AI Notes (@AYi_AInotes)",
+        "source_name": "AI HOT"
       }
     },
     {
@@ -647,15 +566,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7686,
-      "importance": 0.7686,
-      "importance_score": 0.7686,
+      "score": 0.7643,
+      "importance": 0.7643,
+      "importance_score": 0.7643,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.74,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8336,
+        "recency": 0.8097,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -709,15 +628,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7579,
-      "importance": 0.7579,
-      "importance_score": 0.7579,
+      "score": 0.7538,
+      "importance": 0.7538,
+      "importance_score": 0.7538,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.81,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.796,
+        "recency": 0.7732,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -770,15 +689,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8077,
-      "importance": 0.8077,
-      "importance_score": 0.8077,
+      "score": 0.8038,
+      "importance": 0.8038,
+      "importance_score": 0.8038,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.7541,
+        "recency": 0.7324,
         "story_heat": 0.0
       },
       "category": "official",
@@ -851,15 +770,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7754,
-      "importance": 0.7754,
-      "importance_score": 0.7754,
+      "score": 0.7707,
+      "importance": 0.7707,
+      "importance_score": 0.7707,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9044,
+        "recency": 0.8784,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -876,66 +795,6 @@
         "url": "https://www.aibase.com/news/29204",
         "source": "AIbase",
         "source_name": "AIbase"
-      }
-    },
-    {
-      "story_id": "story_7157eeceef54",
-      "title": "赫库兰尼姆古卷首次被完整虚拟解读",
-      "url": "https://scrollprize.org/firstscroll",
-      "primary_url": "https://scrollprize.org/firstscroll",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "e0c0b35547a2e9d0cc9b80c44e5f31cc7854e392",
-          "title": "赫库兰尼姆古卷首次被完整虚拟解读",
-          "url": "https://scrollprize.org/firstscroll",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-25T18:03:58.685000Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Hacker News 热门（buzzing.cc 中文翻译）"
-      ],
-      "items": [
-        {
-          "id": "e0c0b35547a2e9d0cc9b80c44e5f31cc7854e392",
-          "title": "赫库兰尼姆古卷首次被完整虚拟解读",
-          "url": "https://scrollprize.org/firstscroll",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-25T18:03:58.685000Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7374,
-      "importance": 0.7374,
-      "importance_score": 0.7374,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.79,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7156,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-25T18:03:58.685000Z",
-      "latest_at": "2026-06-25T18:03:58.685000Z",
-      "primary_item": {
-        "id": "e0c0b35547a2e9d0cc9b80c44e5f31cc7854e392",
-        "title": "赫库兰尼姆古卷首次被完整虚拟解读",
-        "url": "https://scrollprize.org/firstscroll",
-        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-        "source_name": "AI HOT"
       }
     },
     {
@@ -973,15 +832,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7291,
-      "importance": 0.7291,
-      "importance_score": 0.7291,
+      "score": 0.725,
+      "importance": 0.725,
+      "importance_score": 0.725,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.71,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8029,
+        "recency": 0.7798,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1033,15 +892,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7569,
-      "importance": 0.7569,
-      "importance_score": 0.7569,
+      "score": 0.7529,
+      "importance": 0.7529,
+      "importance_score": 0.7529,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.82,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.774,
+        "recency": 0.7518,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1094,15 +953,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8074,
-      "importance": 0.8074,
-      "importance_score": 0.8074,
+      "score": 0.8035,
+      "importance": 0.8035,
+      "importance_score": 0.8035,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.7521,
+        "recency": 0.7305,
         "story_heat": 0.0
       },
       "category": "official",
@@ -1175,15 +1034,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7155,
-      "importance": 0.7155,
-      "importance_score": 0.7155,
+      "score": 0.7116,
+      "importance": 0.7116,
+      "importance_score": 0.7116,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.61,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7549,
+        "recency": 0.7332,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1198,66 +1057,6 @@
         "title": "Claude Code v2.1.193 发布",
         "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.193",
         "source": "Claude Code：GitHub Releases（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_801476e6fa11",
-      "title": "IBM 首度推出亚纳米级芯片技术",
-      "url": "https://newsroom.ibm.com/2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology",
-      "primary_url": "https://newsroom.ibm.com/2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "7deed6ed305c50a7ed2c2800a2a057f455eb127c",
-          "title": "IBM 首度推出亚纳米级芯片技术",
-          "url": "https://newsroom.ibm.com/2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-25T18:52:05.282000Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Hacker News 热门（buzzing.cc 中文翻译）"
-      ],
-      "items": [
-        {
-          "id": "7deed6ed305c50a7ed2c2800a2a057f455eb127c",
-          "title": "IBM 首度推出亚纳米级芯片技术",
-          "url": "https://newsroom.ibm.com/2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-25T18:52:05.282000Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7359,
-      "importance": 0.7359,
-      "importance_score": 0.7359,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.78,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.724,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-25T18:52:05.282000Z",
-      "latest_at": "2026-06-25T18:52:05.282000Z",
-      "primary_item": {
-        "id": "7deed6ed305c50a7ed2c2800a2a057f455eb127c",
-        "title": "IBM 首度推出亚纳米级芯片技术",
-        "url": "https://newsroom.ibm.com/2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology",
-        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
         "source_name": "AI HOT"
       }
     },
@@ -1296,15 +1095,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7339,
-      "importance": 0.7339,
-      "importance_score": 0.7339,
+      "score": 0.7296,
+      "importance": 0.7296,
+      "importance_score": 0.7296,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8463,
+        "recency": 0.822,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1375,15 +1174,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7584,
-      "importance": 0.7584,
-      "importance_score": 0.7584,
+      "score": 0.7542,
+      "importance": 0.7542,
+      "importance_score": 0.7542,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8098,
+        "recency": 0.7865,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -1400,6 +1199,226 @@
         "url": "https://www.aibase.com/news/29183",
         "source": "AIbase",
         "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_e2127d901497",
+      "title": "美国政府要求OpenAI暂缓GPT-5.6广泛发布",
+      "url": "https://x.com/rohanpaul_ai/status/2070252433109049466",
+      "primary_url": "https://x.com/rohanpaul_ai/status/2070252433109049466",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "72ccddf02cf09d26a12239f6ba3617184a843d5d",
+          "title": "美国政府要求OpenAI暂缓GPT-5.6广泛发布",
+          "url": "https://x.com/rohanpaul_ai/status/2070252433109049466",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-25T21:06:58Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "X：Rohan Paul (@rohanpaul_ai)"
+      ],
+      "items": [
+        {
+          "id": "72ccddf02cf09d26a12239f6ba3617184a843d5d",
+          "title": "美国政府要求OpenAI暂缓GPT-5.6广泛发布",
+          "url": "https://x.com/rohanpaul_ai/status/2070252433109049466",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-25T21:06:58Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7303,
+      "importance": 0.7303,
+      "importance_score": 0.7303,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.76,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7264,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-06-25T21:06:58Z",
+      "latest_at": "2026-06-25T21:06:58Z",
+      "primary_item": {
+        "id": "72ccddf02cf09d26a12239f6ba3617184a843d5d",
+        "title": "美国政府要求OpenAI暂缓GPT-5.6广泛发布",
+        "url": "https://x.com/rohanpaul_ai/status/2070252433109049466",
+        "source": "X：Rohan Paul (@rohanpaul_ai)",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_64377600f0f1",
+      "title": "不给数据就割肉？谷歌强推AI训练新规",
+      "url": "https://www.aibase.com/news/29184",
+      "primary_url": "https://www.aibase.com/news/29184",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "495a41d44980a913dd229c351803a53e1bac841e",
+          "title": "不给数据就割肉？谷歌强推AI训练新规",
+          "url": "https://www.aibase.com/news/29184",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-26T02:37:30.235851Z"
+        },
+        {
+          "id": "a2f71252969321ff44bbc61e21f7e5844e49643d",
+          "title": "不给数据就割肉？谷歌强推 AI 训练新规",
+          "url": "https://www.aibase.com/zh/news/29184",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "AIbase",
+        "Readhub · AI"
+      ],
+      "items": [
+        {
+          "id": "495a41d44980a913dd229c351803a53e1bac841e",
+          "title": "不给数据就割肉？谷歌强推AI训练新规",
+          "url": "https://www.aibase.com/news/29184",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-26T02:37:30.235851Z"
+        },
+        {
+          "id": "a2f71252969321ff44bbc61e21f7e5844e49643d",
+          "title": "不给数据就割肉？谷歌强推 AI 训练新规",
+          "url": "https://www.aibase.com/zh/news/29184",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7542,
+      "importance": 0.7542,
+      "importance_score": 0.7542,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7865,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-26T02:37:30.235851Z",
+      "latest_at": "2026-06-26T02:37:30.235851Z",
+      "primary_item": {
+        "id": "495a41d44980a913dd229c351803a53e1bac841e",
+        "title": "不给数据就割肉？谷歌强推AI训练新规",
+        "url": "https://www.aibase.com/news/29184",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_2175f124b087",
+      "title": "OpenAI 挖走 Uber 印度首席执行官，领导其美国以外最大市场 / OpenAI poaches Uber India chief to lead its biggest market outside the US",
+      "url": "https://techcrunch.com/2026/06/26/openai-poaches-uber-india-chief-to-lead-its-biggest-market-outside-the-u-s",
+      "primary_url": "https://techcrunch.com/2026/06/26/openai-poaches-uber-india-chief-to-lead-its-biggest-market-outside-the-u-s",
+      "source": "TechCrunch AI",
+      "source_name": "Curated Media",
+      "sources": [
+        {
+          "id": "fcccc181646b2f2ceb390195dc5ab965ec01d66a",
+          "title": "OpenAI 挖走 Uber 印度首席执行官，领导其美国以外最大市场 / OpenAI poaches Uber India chief to lead its biggest market outside the US",
+          "url": "https://techcrunch.com/2026/06/26/openai-poaches-uber-india-chief-to-lead-its-biggest-market-outside-the-u-s",
+          "source": "TechCrunch AI",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-06-26T18:19:36Z"
+        },
+        {
+          "id": "7d24efd25d880affc05ba348a81477b89a1e0f7e",
+          "title": "OpenAI 挖走 Uber 印度首席执行官，领导其美国以外最大市场 / OpenAI poaches Uber India chief to lead its biggest market outside the U.S.",
+          "url": "https://techcrunch.com/2026/06/26/openai-poaches-uber-india-chief-to-lead-its-biggest-market-outside-the-u-s",
+          "source": "TechCrunch",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-26T18:19:36Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "TechCrunch",
+        "TechCrunch AI"
+      ],
+      "items": [
+        {
+          "id": "fcccc181646b2f2ceb390195dc5ab965ec01d66a",
+          "title": "OpenAI 挖走 Uber 印度首席执行官，领导其美国以外最大市场 / OpenAI poaches Uber India chief to lead its biggest market outside the US",
+          "url": "https://techcrunch.com/2026/06/26/openai-poaches-uber-india-chief-to-lead-its-biggest-market-outside-the-u-s",
+          "source": "TechCrunch AI",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-06-26T18:19:36Z"
+        },
+        {
+          "id": "7d24efd25d880affc05ba348a81477b89a1e0f7e",
+          "title": "OpenAI 挖走 Uber 印度首席执行官，领导其美国以外最大市场 / OpenAI poaches Uber India chief to lead its biggest market outside the U.S.",
+          "url": "https://techcrunch.com/2026/06/26/openai-poaches-uber-india-chief-to-lead-its-biggest-market-outside-the-u-s",
+          "source": "TechCrunch",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-26T18:19:36Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.6588,
+      "importance": 0.6588,
+      "importance_score": 0.6588,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5688,
+        "source_tier": 0.58,
+        "ai_relevance": 0.79,
+        "recency": 0.9867,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-26T18:19:36Z",
+      "latest_at": "2026-06-26T18:19:36Z",
+      "primary_item": {
+        "id": "fcccc181646b2f2ceb390195dc5ab965ec01d66a",
+        "title": "OpenAI 挖走 Uber 印度首席执行官，领导其美国以外最大市场 / OpenAI poaches Uber India chief to lead its biggest market outside the US",
+        "url": "https://techcrunch.com/2026/06/26/openai-poaches-uber-india-chief-to-lead-its-biggest-market-outside-the-u-s",
+        "source": "TechCrunch AI",
+        "source_name": "Curated Media"
       }
     }
   ]
