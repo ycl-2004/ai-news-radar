@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T20:04:40.423254Z",
+  "generated_at": "2026-06-27T21:35:35.676197Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -57,15 +57,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8085,
-      "importance": 0.8085,
-      "importance_score": 0.8085,
+      "score": 0.8048,
+      "importance": 0.8048,
+      "importance_score": 0.8048,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.81,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9383,
+        "recency": 0.918,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -82,168 +82,6 @@
         "url": "https://grack.com/blog/2026/06/25/dissecting-a-failed-nation-state-attack",
         "source": "Hacker News 热门（buzzing.cc 中文翻译）",
         "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_2732ab390af9",
-      "title": "纽约时报修订诉讼，指控微软为OpenAI建造版权侵权超级计算机",
-      "url": "https://arstechnica.com/tech-policy/2026/06/microsoft-built-supercomputer-to-help-openai-infringe-copyrights-nyt-alleged",
-      "primary_url": "https://arstechnica.com/tech-policy/2026/06/microsoft-built-supercomputer-to-help-openai-infringe-copyrights-nyt-alleged",
-      "source": "Ars Technica：AI（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "74d718ee871efa44813c398a96de8e65bf89c4d9",
-          "title": "纽约时报修订诉讼，指控微软为OpenAI建造版权侵权超级计算机",
-          "url": "https://arstechnica.com/tech-policy/2026/06/microsoft-built-supercomputer-to-help-openai-infringe-copyrights-nyt-alleged",
-          "source": "Ars Technica：AI（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-26T20:04:55Z"
-        },
-        {
-          "id": "b2a5d3138fa1afa073ecd616c259865d74987ca0",
-          "title": "《纽约时报》抨击微软为OpenAI打造侵犯版权的超级计算机",
-          "url": "https://arstechnica.com/tech-policy/2026/06/microsoft-built-supercomputer-to-help-openai-infringe-copyrights-nyt-alleged",
-          "source": "arstechnica.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-26T21:15:51.287000Z"
-        },
-        {
-          "id": "80bafd5e654681731a91d6b23ef573c7518ffc58",
-          "title": "纽约时报修订诉讼，指控微软为OpenAI建造版权侵权超级计算机 / NYT slams Microsoft for building copyright-infringing supercomputer for OpenAI",
-          "url": "https://arstechnica.com/tech-policy/2026/06/microsoft-built-supercomputer-to-help-openai-infringe-copyrights-nyt-alleged",
-          "source": "Ars Technica (科技媒体)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-26T20:04:55Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Ars Technica (科技媒体)",
-        "Ars Technica：AI（RSS）",
-        "arstechnica.com"
-      ],
-      "items": [
-        {
-          "id": "74d718ee871efa44813c398a96de8e65bf89c4d9",
-          "title": "纽约时报修订诉讼，指控微软为OpenAI建造版权侵权超级计算机",
-          "url": "https://arstechnica.com/tech-policy/2026/06/microsoft-built-supercomputer-to-help-openai-infringe-copyrights-nyt-alleged",
-          "source": "Ars Technica：AI（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-26T20:04:55Z"
-        },
-        {
-          "id": "b2a5d3138fa1afa073ecd616c259865d74987ca0",
-          "title": "《纽约时报》抨击微软为OpenAI打造侵犯版权的超级计算机",
-          "url": "https://arstechnica.com/tech-policy/2026/06/microsoft-built-supercomputer-to-help-openai-infringe-copyrights-nyt-alleged",
-          "source": "arstechnica.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-26T21:15:51.287000Z"
-        },
-        {
-          "id": "80bafd5e654681731a91d6b23ef573c7518ffc58",
-          "title": "纽约时报修订诉讼，指控微软为OpenAI建造版权侵权超级计算机 / NYT slams Microsoft for building copyright-infringing supercomputer for OpenAI",
-          "url": "https://arstechnica.com/tech-policy/2026/06/microsoft-built-supercomputer-to-help-openai-infringe-copyrights-nyt-alleged",
-          "source": "Ars Technica (科技媒体)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-26T20:04:55Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.8009,
-      "importance": 0.8009,
-      "importance_score": 0.8009,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.84,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7071,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-26T20:04:55Z",
-      "latest_at": "2026-06-26T21:15:51.287000Z",
-      "primary_item": {
-        "id": "74d718ee871efa44813c398a96de8e65bf89c4d9",
-        "title": "纽约时报修订诉讼，指控微软为OpenAI建造版权侵权超级计算机",
-        "url": "https://arstechnica.com/tech-policy/2026/06/microsoft-built-supercomputer-to-help-openai-infringe-copyrights-nyt-alleged",
-        "source": "Ars Technica：AI（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_006c35e4141f",
-      "title": "在企业和组织报告中按采用阶段跟踪合并总数 / Track total merges by adoption phase in enterprise and organization reports",
-      "url": "https://github.blog/changelog/2026-06-26-track-total-merges-by-adoption-phase-in-enterprise-and-organization-reports",
-      "primary_url": "https://github.blog/changelog/2026-06-26-track-total-merges-by-adoption-phase-in-enterprise-and-organization-reports",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "93767bf0d3b908546b5f1810d8baa64e3ed7d74c",
-          "title": "在企业和组织报告中按采用阶段跟踪合并总数 / Track total merges by adoption phase in enterprise and organization reports",
-          "url": "https://github.blog/changelog/2026-06-26-track-total-merges-by-adoption-phase-in-enterprise-and-organization-reports",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-26T20:55:03Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "items": [
-        {
-          "id": "93767bf0d3b908546b5f1810d8baa64e3ed7d74c",
-          "title": "在企业和组织报告中按采用阶段跟踪合并总数 / Track total merges by adoption phase in enterprise and organization reports",
-          "url": "https://github.blog/changelog/2026-06-26-track-total-merges-by-adoption-phase-in-enterprise-and-organization-reports",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-26T20:55:03Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7928,
-      "importance": 0.7928,
-      "importance_score": 0.7928,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.7157,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-26T20:55:03Z",
-      "latest_at": "2026-06-26T20:55:03Z",
-      "primary_item": {
-        "id": "93767bf0d3b908546b5f1810d8baa64e3ed7d74c",
-        "title": "在企业和组织报告中按采用阶段跟踪合并总数 / Track total merges by adoption phase in enterprise and organization reports",
-        "url": "https://github.blog/changelog/2026-06-26-track-total-merges-by-adoption-phase-in-enterprise-and-organization-reports",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
       }
     },
     {
@@ -319,15 +157,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.7834,
-      "importance": 0.7834,
-      "importance_score": 0.7834,
+      "score": 0.7801,
+      "importance": 0.7801,
+      "importance_score": 0.7801,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8432,
+        "recency": 0.825,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -343,6 +181,67 @@
         "title": "AI 账单失控后 DeepSeek 成\"香饽饽\"，部分美国企业已 100% 切换",
         "url": "https://www.ithome.com/0/969/400.htm",
         "source": "IT之家（RSS）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_c2124e4dd184",
+      "title": "SpaceX 注册 SpaceXAI 商标，将合并 xAI",
+      "url": "https://x.com/cb_doge/status/2070973276562530507",
+      "primary_url": "https://x.com/cb_doge/status/2070973276562530507",
+      "source": "X：cb_doge (@cb_doge)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "b10123cdfc6118250369710ed76f260df36f7e19",
+          "title": "SpaceX 注册 SpaceXAI 商标，将合并 xAI",
+          "url": "https://x.com/cb_doge/status/2070973276562530507",
+          "source": "X：cb_doge (@cb_doge)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-27T20:51:20Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "X：cb_doge (@cb_doge)"
+      ],
+      "items": [
+        {
+          "id": "b10123cdfc6118250369710ed76f260df36f7e19",
+          "title": "SpaceX 注册 SpaceXAI 商标，将合并 xAI",
+          "url": "https://x.com/cb_doge/status/2070973276562530507",
+          "source": "X：cb_doge (@cb_doge)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-27T20:51:20Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7777,
+      "importance": 0.7777,
+      "importance_score": 0.7777,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.76,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9894,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-27T20:51:20Z",
+      "latest_at": "2026-06-27T20:51:20Z",
+      "primary_item": {
+        "id": "b10123cdfc6118250369710ed76f260df36f7e19",
+        "title": "SpaceX 注册 SpaceXAI 商标，将合并 xAI",
+        "url": "https://x.com/cb_doge/status/2070973276562530507",
+        "source": "X：cb_doge (@cb_doge)",
         "source_name": "AI HOT"
       }
     },
@@ -381,15 +280,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7808,
-      "importance": 0.7808,
-      "importance_score": 0.7808,
+      "score": 0.777,
+      "importance": 0.777,
+      "importance_score": 0.777,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.79,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9565,
+        "recency": 0.9358,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -442,15 +341,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.772,
-      "importance": 0.772,
-      "importance_score": 0.772,
+      "score": 0.7683,
+      "importance": 0.7683,
+      "importance_score": 0.7683,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.76,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9579,
+        "recency": 0.9371,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -522,15 +421,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7678,
-      "importance": 0.7678,
-      "importance_score": 0.7678,
+      "score": 0.7643,
+      "importance": 0.7643,
+      "importance_score": 0.7643,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8953,
+        "recency": 0.876,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -584,15 +483,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7322,
-      "importance": 0.7322,
-      "importance_score": 0.7322,
+      "score": 0.7287,
+      "importance": 0.7287,
+      "importance_score": 0.7287,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.66,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9033,
+        "recency": 0.8837,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -663,15 +562,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7576,
-      "importance": 0.7576,
-      "importance_score": 0.7576,
+      "score": 0.7545,
+      "importance": 0.7545,
+      "importance_score": 0.7545,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.73,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7888,
+        "recency": 0.7718,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -744,15 +643,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7554,
-      "importance": 0.7554,
-      "importance_score": 0.7554,
+      "score": 0.7525,
+      "importance": 0.7525,
+      "importance_score": 0.7525,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7432,
+        "recency": 0.7271,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -825,15 +724,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7477,
-      "importance": 0.7477,
-      "importance_score": 0.7477,
+      "score": 0.7447,
+      "importance": 0.7447,
+      "importance_score": 0.7447,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.71,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7671,
+        "recency": 0.7505,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -905,15 +804,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.6414,
-      "importance": 0.6414,
-      "importance_score": 0.6414,
+      "score": 0.638,
+      "importance": 0.638,
+      "importance_score": 0.638,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.5688,
         "source_tier": 0.58,
         "ai_relevance": 0.79,
-        "recency": 0.8899,
+        "recency": 0.8706,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1019,15 +918,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.6407,
-      "importance": 0.6407,
-      "importance_score": 0.6407,
+      "score": 0.6368,
+      "importance": 0.6368,
+      "importance_score": 0.6368,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.54,
         "ai_relevance": 0.65,
-        "recency": 0.9804,
+        "recency": 0.9592,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -1042,141 +941,6 @@
         "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
         "source": "社区更新 · 2026-06-27",
         "source_name": "WaytoAGI"
-      }
-    },
-    {
-      "story_id": "story_42658ae9e5a8",
-      "title": "DSpark：推测性解码加速 LLM 推理 [pdf] / DSpark: Speculative decoding accelerates LLM inference [pdf]",
-      "url": "https://news.ycombinator.com/item?id=48696585",
-      "primary_url": "https://news.ycombinator.com/item?id=48696585",
-      "source": "hackernews",
-      "source_name": "NewsNow",
-      "sources": [
-        {
-          "id": "9c08323f2fcab504c57ecf9599b56e86b968e29d",
-          "title": "DSpark：推测性解码加速 LLM 推理 [pdf] / DSpark: Speculative decoding accelerates LLM inference [pdf]",
-          "url": "https://news.ycombinator.com/item?id=48696585",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-27T14:08:16.346000Z"
-        },
-        {
-          "id": "cf2a5476f20349e7fee6c5b6f9676a5b91fde490",
-          "title": "DeepSeek 开源推理优化，生成速度提高 60–85% [pdf] / DeepSeek open-sources inference optimizations with 60–85% faster generation [pdf]",
-          "url": "https://news.ycombinator.com/item?id=48696585",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-27T10:53:24.405000Z"
-        },
-        {
-          "id": "9fb1184850fee3daac49d53b98e20d76bc5f04a9",
-          "title": "DeepSeek 开源了推理优化方案，生成速度提升了 60% 至 85% [pdf]",
-          "url": "https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf",
-          "source": "github.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-27T10:19:53.844000Z"
-        },
-        {
-          "id": "6bec3c0adfd0daa4ecf03f6687b322ae4d4cc6df",
-          "title": "DeepSeek 开源了推理优化方案，生成速度提升了 60% 至 85% [pdf] / DSpark: Speculative decoding accelerates LLM inference [pdf]",
-          "url": "https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-27T09:18:52Z"
-        },
-        {
-          "id": "e98297a754737fb90175d27eef8575e462557009",
-          "title": "DeepSeek 开源了推理优化方案，生成速度提升了 60% 至 85% [pdf] / DeepSeek open-sources inference optimizations with 60–85% faster generation [pdf]",
-          "url": "https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-27T09:18:52Z"
-        }
-      ],
-      "source_count": 5,
-      "source_names": [
-        "Hacker News (黑客新闻)",
-        "Hacker News · 24h最热",
-        "github.com",
-        "hackernews"
-      ],
-      "items": [
-        {
-          "id": "9c08323f2fcab504c57ecf9599b56e86b968e29d",
-          "title": "DSpark：推测性解码加速 LLM 推理 [pdf] / DSpark: Speculative decoding accelerates LLM inference [pdf]",
-          "url": "https://news.ycombinator.com/item?id=48696585",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-27T14:08:16.346000Z"
-        },
-        {
-          "id": "cf2a5476f20349e7fee6c5b6f9676a5b91fde490",
-          "title": "DeepSeek 开源推理优化，生成速度提高 60–85% [pdf] / DeepSeek open-sources inference optimizations with 60–85% faster generation [pdf]",
-          "url": "https://news.ycombinator.com/item?id=48696585",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-27T10:53:24.405000Z"
-        },
-        {
-          "id": "9fb1184850fee3daac49d53b98e20d76bc5f04a9",
-          "title": "DeepSeek 开源了推理优化方案，生成速度提升了 60% 至 85% [pdf]",
-          "url": "https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf",
-          "source": "github.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-27T10:19:53.844000Z"
-        },
-        {
-          "id": "6bec3c0adfd0daa4ecf03f6687b322ae4d4cc6df",
-          "title": "DeepSeek 开源了推理优化方案，生成速度提升了 60% 至 85% [pdf] / DSpark: Speculative decoding accelerates LLM inference [pdf]",
-          "url": "https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-27T09:18:52Z"
-        },
-        {
-          "id": "e98297a754737fb90175d27eef8575e462557009",
-          "title": "DeepSeek 开源了推理优化方案，生成速度提升了 60% 至 85% [pdf] / DeepSeek open-sources inference optimizations with 60–85% faster generation [pdf]",
-          "url": "https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-27T09:18:52Z"
-        }
-      ],
-      "item_count": 5,
-      "duplicate_count": 5,
-      "score": 0.606,
-      "importance": 0.606,
-      "importance_score": 0.606,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9178,
-        "story_heat": 1.0
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-27T09:18:52Z",
-      "latest_at": "2026-06-27T14:08:16.346000Z",
-      "primary_item": {
-        "id": "9c08323f2fcab504c57ecf9599b56e86b968e29d",
-        "title": "DSpark：推测性解码加速 LLM 推理 [pdf] / DSpark: Speculative decoding accelerates LLM inference [pdf]",
-        "url": "https://news.ycombinator.com/item?id=48696585",
-        "source": "hackernews",
-        "source_name": "NewsNow"
       }
     },
     {
@@ -1289,15 +1053,15 @@
       ],
       "item_count": 5,
       "duplicate_count": 5,
-      "score": 0.5895,
-      "importance": 0.5895,
-      "importance_score": 0.5895,
+      "score": 0.5863,
+      "importance": 0.5863,
+      "importance_score": 0.5863,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8263,
+        "recency": 0.8084,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -1441,15 +1205,15 @@
       ],
       "item_count": 6,
       "duplicate_count": 6,
-      "score": 0.5881,
-      "importance": 0.5881,
-      "importance_score": 0.5881,
+      "score": 0.5849,
+      "importance": 0.5849,
+      "importance_score": 0.5849,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8182,
+        "recency": 0.8005,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -1464,6 +1228,104 @@
         "url": "https://news.ycombinator.com/item?id=48692995",
         "source": "hackernews",
         "source_name": "NewsNow"
+      }
+    },
+    {
+      "story_id": "story_42658ae9e5a8",
+      "title": "DeepSeek 开源了推理优化方案，生成速度提升了 60% 至 85% [pdf]",
+      "url": "https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf",
+      "primary_url": "https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf",
+      "source": "github.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "9fb1184850fee3daac49d53b98e20d76bc5f04a9",
+          "title": "DeepSeek 开源了推理优化方案，生成速度提升了 60% 至 85% [pdf]",
+          "url": "https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf",
+          "source": "github.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-27T10:19:53.844000Z"
+        },
+        {
+          "id": "6bec3c0adfd0daa4ecf03f6687b322ae4d4cc6df",
+          "title": "DeepSeek 开源了推理优化方案，生成速度提升了 60% 至 85% [pdf] / DSpark: Speculative decoding accelerates LLM inference [pdf]",
+          "url": "https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-27T09:18:52Z"
+        },
+        {
+          "id": "e98297a754737fb90175d27eef8575e462557009",
+          "title": "DeepSeek 开源了推理优化方案，生成速度提升了 60% 至 85% [pdf] / DeepSeek open-sources inference optimizations with 60–85% faster generation [pdf]",
+          "url": "https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-27T09:18:52Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "Hacker News (黑客新闻)",
+        "Hacker News · 24h最热",
+        "github.com"
+      ],
+      "items": [
+        {
+          "id": "9fb1184850fee3daac49d53b98e20d76bc5f04a9",
+          "title": "DeepSeek 开源了推理优化方案，生成速度提升了 60% 至 85% [pdf]",
+          "url": "https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf",
+          "source": "github.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-27T10:19:53.844000Z"
+        },
+        {
+          "id": "6bec3c0adfd0daa4ecf03f6687b322ae4d4cc6df",
+          "title": "DeepSeek 开源了推理优化方案，生成速度提升了 60% 至 85% [pdf] / DSpark: Speculative decoding accelerates LLM inference [pdf]",
+          "url": "https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-27T09:18:52Z"
+        },
+        {
+          "id": "e98297a754737fb90175d27eef8575e462557009",
+          "title": "DeepSeek 开源了推理优化方案，生成速度提升了 60% 至 85% [pdf] / DeepSeek open-sources inference optimizations with 60–85% faster generation [pdf]",
+          "url": "https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-27T09:18:52Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.5438,
+      "importance": 0.5438,
+      "importance_score": 0.5438,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.8499,
+        "story_heat": 0.5
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-27T09:18:52Z",
+      "latest_at": "2026-06-27T10:19:53.844000Z",
+      "primary_item": {
+        "id": "9fb1184850fee3daac49d53b98e20d76bc5f04a9",
+        "title": "DeepSeek 开源了推理优化方案，生成速度提升了 60% 至 85% [pdf]",
+        "url": "https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf",
+        "source": "github.com",
+        "source_name": "Buzzing"
       }
     },
     {
@@ -1520,15 +1382,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5423,
-      "importance": 0.5423,
-      "importance_score": 0.5423,
+      "score": 0.5384,
+      "importance": 0.5384,
+      "importance_score": 0.5384,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9804,
+        "recency": 0.9592,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1543,85 +1405,6 @@
         "url": "https://www.huxiu.com/article/4870954.html?f=rss",
         "source": "Readhub · AI",
         "source_name": "TopHub"
-      }
-    },
-    {
-      "story_id": "story_0ef8d971e203",
-      "title": "GPT2-BASIC：基于BASIC语言的便携式机器智能",
-      "url": "https://github.com/tsotchke/gpt2-basic",
-      "primary_url": "https://github.com/tsotchke/gpt2-basic",
-      "source": "github.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "69bb89922907c4c98f1a90bd240ba766aa3597c7",
-          "title": "GPT2-BASIC：基于BASIC语言的便携式机器智能",
-          "url": "https://github.com/tsotchke/gpt2-basic",
-          "source": "github.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-27T15:40:00.164000Z"
-        },
-        {
-          "id": "1f3cd163375630758cae5afa63cf4e14f136d4ec",
-          "title": "GPT2-BASIC：基于BASIC语言的便携式机器智能 / GPT2-BASIC: Portable Machine Intelligence in BASIC",
-          "url": "https://github.com/tsotchke/gpt2-basic",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-27T15:15:46Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Lobsters (技术社区)",
-        "github.com"
-      ],
-      "items": [
-        {
-          "id": "69bb89922907c4c98f1a90bd240ba766aa3597c7",
-          "title": "GPT2-BASIC：基于BASIC语言的便携式机器智能",
-          "url": "https://github.com/tsotchke/gpt2-basic",
-          "source": "github.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-27T15:40:00.164000Z"
-        },
-        {
-          "id": "1f3cd163375630758cae5afa63cf4e14f136d4ec",
-          "title": "GPT2-BASIC：基于BASIC语言的便携式机器智能 / GPT2-BASIC: Portable Machine Intelligence in BASIC",
-          "url": "https://github.com/tsotchke/gpt2-basic",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-27T15:15:46Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5347,
-      "importance": 0.5347,
-      "importance_score": 0.5347,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9383,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-27T15:15:46Z",
-      "latest_at": "2026-06-27T15:40:00.164000Z",
-      "primary_item": {
-        "id": "69bb89922907c4c98f1a90bd240ba766aa3597c7",
-        "title": "GPT2-BASIC：基于BASIC语言的便携式机器智能",
-        "url": "https://github.com/tsotchke/gpt2-basic",
-        "source": "github.com",
-        "source_name": "Buzzing"
       }
     },
     {
@@ -1678,15 +1461,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5347,
-      "importance": 0.5347,
-      "importance_score": 0.5347,
+      "score": 0.531,
+      "importance": 0.531,
+      "importance_score": 0.531,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9383,
+        "recency": 0.918,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1757,15 +1540,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5334,
-      "importance": 0.5334,
-      "importance_score": 0.5334,
+      "score": 0.5298,
+      "importance": 0.5298,
+      "importance_score": 0.5298,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9311,
+        "recency": 0.9109,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1780,6 +1563,163 @@
         "url": "https://www.businessinsider.com/ai-tech-jobs-builder-seller-not-measurer-cloudflare-2026-6",
         "source": "www.businessinsider.com",
         "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_525c27ccf30b",
+      "title": "扎克伯格针对举报人的战争愈发离奇 / Zuckerberg's Increasingly Bizarre War on Whistleblowers",
+      "url": "https://pluralistic.net/2026/06/27/zuckerstreisand-2",
+      "primary_url": "https://pluralistic.net/2026/06/27/zuckerstreisand-2",
+      "source": "Hacker News · 24h最热",
+      "source_name": "Zeli",
+      "sources": [
+        {
+          "id": "383fcdedebd4d5cf723275e0f553e4660dc5a6ce",
+          "title": "扎克伯格针对举报人的战争愈发离奇 / Zuckerberg's Increasingly Bizarre War on Whistleblowers",
+          "url": "https://pluralistic.net/2026/06/27/zuckerstreisand-2",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-27T14:38:05Z"
+        },
+        {
+          "id": "60e45658ccf1a0cd17171d1b55159c5a9fb9c99f",
+          "title": "扎克伯格针对举报人的战争愈发离奇 / Zuckerberg's war on whistleblowers",
+          "url": "https://pluralistic.net/2026/06/27/zuckerstreisand-2",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-27T14:38:05Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News · 24h最热"
+      ],
+      "items": [
+        {
+          "id": "383fcdedebd4d5cf723275e0f553e4660dc5a6ce",
+          "title": "扎克伯格针对举报人的战争愈发离奇 / Zuckerberg's Increasingly Bizarre War on Whistleblowers",
+          "url": "https://pluralistic.net/2026/06/27/zuckerstreisand-2",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-27T14:38:05Z"
+        },
+        {
+          "id": "60e45658ccf1a0cd17171d1b55159c5a9fb9c99f",
+          "title": "扎克伯格针对举报人的战争愈发离奇 / Zuckerberg's war on whistleblowers",
+          "url": "https://pluralistic.net/2026/06/27/zuckerstreisand-2",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-27T14:38:05Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5286,
+      "importance": 0.5286,
+      "importance_score": 0.5286,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9044,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-27T14:38:05Z",
+      "latest_at": "2026-06-27T14:38:05Z",
+      "primary_item": {
+        "id": "383fcdedebd4d5cf723275e0f553e4660dc5a6ce",
+        "title": "扎克伯格针对举报人的战争愈发离奇 / Zuckerberg's Increasingly Bizarre War on Whistleblowers",
+        "url": "https://pluralistic.net/2026/06/27/zuckerstreisand-2",
+        "source": "Hacker News · 24h最热",
+        "source_name": "Zeli"
+      }
+    },
+    {
+      "story_id": "story_1647e421b056",
+      "title": "Anil-抹茶 / 开放生成-AI / Anil-matcha / Open-Generative-AI",
+      "url": "https://github.com/Anil-matcha/Open-Generative-AI",
+      "primary_url": "https://github.com/Anil-matcha/Open-Generative-AI",
+      "source": "GitHub · Trending Today",
+      "source_name": "TopHub",
+      "sources": [
+        {
+          "id": "76fa1f565e309ef83d66010b86b2639eeaa61318",
+          "title": "Anil-抹茶 / 开放生成-AI / Anil-matcha / Open-Generative-AI",
+          "url": "https://github.com/Anil-matcha/Open-Generative-AI",
+          "source": "GitHub · Trending Today",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        },
+        {
+          "id": "e2d768d1dfb74b27548ee818ed1d2ed68848b472",
+          "title": "Anil-抹茶 / 开放生成-AI / Anil-matcha /      Open-Generative-AI",
+          "url": "https://github.com/Anil-matcha/Open-Generative-AI",
+          "source": "github",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-27T12:32:41.900000Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "GitHub · Trending Today",
+        "github"
+      ],
+      "items": [
+        {
+          "id": "76fa1f565e309ef83d66010b86b2639eeaa61318",
+          "title": "Anil-抹茶 / 开放生成-AI / Anil-matcha / Open-Generative-AI",
+          "url": "https://github.com/Anil-matcha/Open-Generative-AI",
+          "source": "GitHub · Trending Today",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        },
+        {
+          "id": "e2d768d1dfb74b27548ee818ed1d2ed68848b472",
+          "title": "Anil-抹茶 / 开放生成-AI / Anil-matcha /      Open-Generative-AI",
+          "url": "https://github.com/Anil-matcha/Open-Generative-AI",
+          "source": "github",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-27T12:32:41.900000Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5244,
+      "importance": 0.5244,
+      "importance_score": 0.5244,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.8811,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-27T12:32:41.900000Z",
+      "latest_at": "2026-06-27T12:49:51.459003Z",
+      "primary_item": {
+        "id": "76fa1f565e309ef83d66010b86b2639eeaa61318",
+        "title": "Anil-抹茶 / 开放生成-AI / Anil-matcha / Open-Generative-AI",
+        "url": "https://github.com/Anil-matcha/Open-Generative-AI",
+        "source": "GitHub · Trending Today",
+        "source_name": "TopHub"
       }
     }
   ]
