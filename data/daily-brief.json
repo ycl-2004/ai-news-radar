@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T14:23:49.176109Z",
+  "generated_at": "2026-06-27T15:47:03.133159Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -76,15 +76,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.8118,
-      "importance": 0.8118,
-      "importance_score": 0.8118,
+      "score": 0.809,
+      "importance": 0.809,
+      "importance_score": 0.809,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.84,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7676,
+        "recency": 0.7524,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -138,15 +138,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8038,
-      "importance": 0.8038,
-      "importance_score": 0.8038,
+      "score": 0.8011,
+      "importance": 0.8011,
+      "importance_score": 0.8011,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.7769,
+        "recency": 0.7615,
         "story_heat": 0.0
       },
       "category": "official",
@@ -238,15 +238,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.7964,
-      "importance": 0.7964,
-      "importance_score": 0.7964,
+      "score": 0.7931,
+      "importance": 0.7931,
+      "importance_score": 0.7931,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9153,
+        "recency": 0.8972,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -319,15 +319,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7815,
-      "importance": 0.7815,
-      "importance_score": 0.7815,
+      "score": 0.7781,
+      "importance": 0.7781,
+      "importance_score": 0.7781,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9719,
+        "recency": 0.9526,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -381,15 +381,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8034,
-      "importance": 0.8034,
-      "importance_score": 0.8034,
+      "score": 0.8008,
+      "importance": 0.8008,
+      "importance_score": 0.8008,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.7298,
+        "recency": 0.7153,
         "story_heat": 0.0
       },
       "category": "official",
@@ -462,15 +462,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7668,
-      "importance": 0.7668,
-      "importance_score": 0.7668,
+      "score": 0.7639,
+      "importance": 0.7639,
+      "importance_score": 0.7639,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8067,
+        "recency": 0.7907,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -524,15 +524,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7461,
-      "importance": 0.7461,
-      "importance_score": 0.7461,
+      "score": 0.7426,
+      "importance": 0.7426,
+      "importance_score": 0.7426,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.66,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9805,
+        "recency": 0.9611,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -603,15 +603,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7697,
-      "importance": 0.7697,
-      "importance_score": 0.7697,
+      "score": 0.7667,
+      "importance": 0.7667,
+      "importance_score": 0.7667,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.73,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8563,
+        "recency": 0.8393,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -627,66 +627,6 @@
         "title": "阿里千问输入法上线 macOS 版：最快 300 字/分，AI 自动润色",
         "url": "https://www.ithome.com/0/969/334.htm",
         "source": "IT之家（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_e56d406e16bf",
-      "title": "Leaf 开源项目：将网红峰哥做成实时通话 AI 分身",
-      "url": "https://x.com/AYi_AInotes/status/2070531964067623381",
-      "primary_url": "https://x.com/AYi_AInotes/status/2070531964067623381",
-      "source": "X：阿易 AI Notes (@AYi_AInotes)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "e1cd1734ccb17dd32195e228b02b17c795fa92c1",
-          "title": "Leaf 开源项目：将网红峰哥做成实时通话 AI 分身",
-          "url": "https://x.com/AYi_AInotes/status/2070531964067623381",
-          "source": "X：阿易 AI Notes (@AYi_AInotes)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-26T15:37:43Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：阿易 AI Notes (@AYi_AInotes)"
-      ],
-      "items": [
-        {
-          "id": "e1cd1734ccb17dd32195e228b02b17c795fa92c1",
-          "title": "Leaf 开源项目：将网红峰哥做成实时通话 AI 分身",
-          "url": "https://x.com/AYi_AInotes/status/2070531964067623381",
-          "source": "X：阿易 AI Notes (@AYi_AInotes)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-26T15:37:43Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7292,
-      "importance": 0.7292,
-      "importance_score": 0.7292,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.76,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7198,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-26T15:37:43Z",
-      "latest_at": "2026-06-26T15:37:43Z",
-      "primary_item": {
-        "id": "e1cd1734ccb17dd32195e228b02b17c795fa92c1",
-        "title": "Leaf 开源项目：将网红峰哥做成实时通话 AI 分身",
-        "url": "https://x.com/AYi_AInotes/status/2070531964067623381",
-        "source": "X：阿易 AI Notes (@AYi_AInotes)",
         "source_name": "AI HOT"
       }
     },
@@ -725,15 +665,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7285,
-      "importance": 0.7285,
-      "importance_score": 0.7285,
+      "score": 0.7259,
+      "importance": 0.7259,
+      "importance_score": 0.7259,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7327,
+        "recency": 0.7181,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -804,15 +744,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7595,
-      "importance": 0.7595,
-      "importance_score": 0.7595,
+      "score": 0.7565,
+      "importance": 0.7565,
+      "importance_score": 0.7565,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.71,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8327,
+        "recency": 0.8162,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -849,18 +789,18 @@
           "published_at": "2026-06-27T12:00:00Z"
         },
         {
-          "id": "526e3927ab62f5ef9f85969d9f2422de36437190",
+          "id": "f7378cf11663c2d8781d9aa1109001a0ba153fbd",
           "title": "亚洲人工智能初创公司推出类似神话的模型 / Asian AI startups launch Mythos-like models",
           "url": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
           "published_at": "2026-06-27T13:10:21Z"
         }
       ],
       "source_count": 2,
       "source_names": [
-        "Hacker News · 24h最热",
+        "Hacker News",
         "TechCrunch AI"
       ],
       "items": [
@@ -874,26 +814,26 @@
           "published_at": "2026-06-27T12:00:00Z"
         },
         {
-          "id": "526e3927ab62f5ef9f85969d9f2422de36437190",
+          "id": "f7378cf11663c2d8781d9aa1109001a0ba153fbd",
           "title": "亚洲人工智能初创公司推出类似神话的模型 / Asian AI startups launch Mythos-like models",
           "url": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
           "published_at": "2026-06-27T13:10:21Z"
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.6551,
-      "importance": 0.6551,
-      "importance_score": 0.6551,
+      "score": 0.6517,
+      "importance": 0.6517,
+      "importance_score": 0.6517,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.5688,
         "source_tier": 0.58,
         "ai_relevance": 0.79,
-        "recency": 0.966,
+        "recency": 0.9468,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -963,15 +903,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.6412,
-      "importance": 0.6412,
-      "importance_score": 0.6412,
+      "score": 0.6386,
+      "importance": 0.6386,
+      "importance_score": 0.6386,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.612,
         "source_tier": 0.58,
         "ai_relevance": 0.85,
-        "recency": 0.7503,
+        "recency": 0.7354,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1099,15 +1039,15 @@
       ],
       "item_count": 5,
       "duplicate_count": 5,
-      "score": 0.6201,
-      "importance": 0.6201,
-      "importance_score": 0.6201,
+      "score": 0.6166,
+      "importance": 0.6166,
+      "importance_score": 0.6166,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9963,
+        "recency": 0.9765,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -1234,15 +1174,15 @@
       ],
       "item_count": 5,
       "duplicate_count": 5,
-      "score": 0.6022,
-      "importance": 0.6022,
-      "importance_score": 0.6022,
+      "score": 0.599,
+      "importance": 0.599,
+      "importance_score": 0.599,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8969,
+        "recency": 0.8791,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -1313,15 +1253,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.616,
-      "importance": 0.616,
-      "importance_score": 0.616,
+      "score": 0.6133,
+      "importance": 0.6133,
+      "importance_score": 0.6133,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.5688,
         "source_tier": 0.58,
         "ai_relevance": 0.79,
-        "recency": 0.7484,
+        "recency": 0.7336,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1465,15 +1405,15 @@
       ],
       "item_count": 6,
       "duplicate_count": 6,
-      "score": 0.6007,
-      "importance": 0.6007,
-      "importance_score": 0.6007,
+      "score": 0.5975,
+      "importance": 0.5975,
+      "importance_score": 0.5975,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8882,
+        "recency": 0.8705,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -1544,15 +1484,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5627,
-      "importance": 0.5627,
-      "importance_score": 0.5627,
+      "score": 0.5601,
+      "importance": 0.5601,
+      "importance_score": 0.5601,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.5112,
         "source_tier": 0.5,
         "ai_relevance": 0.71,
-        "recency": 0.7352,
+        "recency": 0.7206,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1661,15 +1601,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.5526,
-      "importance": 0.5526,
-      "importance_score": 0.5526,
+      "score": 0.5499,
+      "importance": 0.5499,
+      "importance_score": 0.5499,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.76,
+        "recency": 0.745,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -1739,15 +1679,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5507,
-      "importance": 0.5507,
-      "importance_score": 0.5507,
+      "score": 0.548,
+      "importance": 0.548,
+      "importance_score": 0.548,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.54,
         "ai_relevance": 0.65,
-        "recency": 0.7585,
+        "recency": 0.7434,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1762,6 +1702,85 @@
         "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
         "source": "社区更新 · 2026-06-26",
         "source_name": "WaytoAGI"
+      }
+    },
+    {
+      "story_id": "story_0ef8d971e203",
+      "title": "GPT2-BASIC：基于BASIC语言的便携式机器智能",
+      "url": "https://github.com/tsotchke/gpt2-basic",
+      "primary_url": "https://github.com/tsotchke/gpt2-basic",
+      "source": "github.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "69bb89922907c4c98f1a90bd240ba766aa3597c7",
+          "title": "GPT2-BASIC：基于BASIC语言的便携式机器智能",
+          "url": "https://github.com/tsotchke/gpt2-basic",
+          "source": "github.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-27T15:40:00.164000Z"
+        },
+        {
+          "id": "1f3cd163375630758cae5afa63cf4e14f136d4ec",
+          "title": "GPT2-BASIC：基于BASIC语言的便携式机器智能 / GPT2-BASIC: Portable Machine Intelligence in BASIC",
+          "url": "https://github.com/tsotchke/gpt2-basic",
+          "source": "Lobsters (技术社区)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-27T15:15:46Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Lobsters (技术社区)",
+        "github.com"
+      ],
+      "items": [
+        {
+          "id": "69bb89922907c4c98f1a90bd240ba766aa3597c7",
+          "title": "GPT2-BASIC：基于BASIC语言的便携式机器智能",
+          "url": "https://github.com/tsotchke/gpt2-basic",
+          "source": "github.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-27T15:40:00.164000Z"
+        },
+        {
+          "id": "1f3cd163375630758cae5afa63cf4e14f136d4ec",
+          "title": "GPT2-BASIC：基于BASIC语言的便携式机器智能 / GPT2-BASIC: Portable Machine Intelligence in BASIC",
+          "url": "https://github.com/tsotchke/gpt2-basic",
+          "source": "Lobsters (技术社区)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-27T15:15:46Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5455,
+      "importance": 0.5455,
+      "importance_score": 0.5455,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9983,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-27T15:15:46Z",
+      "latest_at": "2026-06-27T15:40:00.164000Z",
+      "primary_item": {
+        "id": "69bb89922907c4c98f1a90bd240ba766aa3597c7",
+        "title": "GPT2-BASIC：基于BASIC语言的便携式机器智能",
+        "url": "https://github.com/tsotchke/gpt2-basic",
+        "source": "github.com",
+        "source_name": "Buzzing"
       }
     }
   ]
