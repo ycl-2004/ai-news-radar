@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T06:28:11.139228Z",
+  "generated_at": "2026-06-27T09:12:00.410766Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -95,15 +95,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.8889,
-      "importance": 0.8889,
-      "importance_score": 0.8889,
+      "score": 0.8838,
+      "importance": 0.8838,
+      "importance_score": 0.8838,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.7441,
+        "recency": 0.7153,
         "story_heat": 0.75
       },
       "category": "official",
@@ -196,15 +196,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.8285,
-      "importance": 0.8285,
-      "importance_score": 0.8285,
+      "score": 0.8225,
+      "importance": 0.8225,
+      "importance_score": 0.8225,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.84,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8607,
+        "recency": 0.8274,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -258,15 +258,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8208,
-      "importance": 0.8208,
-      "importance_score": 0.8208,
+      "score": 0.8147,
+      "importance": 0.8147,
+      "importance_score": 0.8147,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.8712,
+        "recency": 0.8375,
         "story_heat": 0.0
       },
       "category": "official",
@@ -283,6 +283,106 @@
         "url": "https://github.blog/changelog/2026-06-26-track-total-merges-by-adoption-phase-in-enterprise-and-organization-reports",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_5258ff9579da",
+      "title": "AI 账单失控后 DeepSeek 成\"香饽饽\"，部分美国企业已 100% 切换",
+      "url": "https://www.ithome.com/0/969/400.htm",
+      "primary_url": "https://www.ithome.com/0/969/400.htm",
+      "source": "IT之家（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "ff0b37694e4bd3606df6fb79ce7f00759f39fd60",
+          "title": "AI 账单失控后 DeepSeek 成\"香饽饽\"，部分美国企业已 100% 切换",
+          "url": "https://www.ithome.com/0/969/400.htm",
+          "source": "IT之家（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-27T08:16:09Z"
+        },
+        {
+          "id": "f0f8639a2961ddc9fd543a66c7b54857325524be",
+          "title": "AI 账单失控后 DeepSeek 成「香饽饽」，部分美国企业已 100% 切换",
+          "url": "https://www.ithome.com/0/969/400.htm",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        },
+        {
+          "id": "dcc0eeba3b110db4e6c105af5760be57d6ac6c26",
+          "title": "AI 账单失控后 DeepSeek 成“香饽饽”，部分美国企业已 100% 切换",
+          "url": "https://www.ithome.com/0/969/400.htm",
+          "source": "IT之家 (ITHome)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-27T08:16:09Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "IT之家 (ITHome)",
+        "IT之家（RSS）",
+        "Readhub · AI"
+      ],
+      "items": [
+        {
+          "id": "ff0b37694e4bd3606df6fb79ce7f00759f39fd60",
+          "title": "AI 账单失控后 DeepSeek 成\"香饽饽\"，部分美国企业已 100% 切换",
+          "url": "https://www.ithome.com/0/969/400.htm",
+          "source": "IT之家（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-27T08:16:09Z"
+        },
+        {
+          "id": "f0f8639a2961ddc9fd543a66c7b54857325524be",
+          "title": "AI 账单失控后 DeepSeek 成「香饽饽」，部分美国企业已 100% 切换",
+          "url": "https://www.ithome.com/0/969/400.htm",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        },
+        {
+          "id": "dcc0eeba3b110db4e6c105af5760be57d6ac6c26",
+          "title": "AI 账单失控后 DeepSeek 成“香饽饽”，部分美国企业已 100% 切换",
+          "url": "https://www.ithome.com/0/969/400.htm",
+          "source": "IT之家 (ITHome)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-27T08:16:09Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.8092,
+      "importance": 0.8092,
+      "importance_score": 0.8092,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.7,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9866,
+        "story_heat": 0.5
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-27T08:16:09Z",
+      "latest_at": "2026-06-27T09:12:00.410766Z",
+      "primary_item": {
+        "id": "ff0b37694e4bd3606df6fb79ce7f00759f39fd60",
+        "title": "AI 账单失控后 DeepSeek 成\"香饽饽\"，部分美国企业已 100% 切换",
+        "url": "https://www.ithome.com/0/969/400.htm",
+        "source": "IT之家（RSS）",
+        "source_name": "AI HOT"
       }
     },
     {
@@ -320,15 +420,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8193,
-      "importance": 0.8193,
-      "importance_score": 0.8193,
+      "score": 0.8136,
+      "importance": 0.8136,
+      "importance_score": 0.8136,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.8183,
+        "recency": 0.7867,
         "story_heat": 0.0
       },
       "category": "official",
@@ -345,87 +445,6 @@
         "url": "https://github.blog/changelog/2026-06-26-mai-code-1-flash-for-copilot-business-and-copilot-enterprise",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
-      }
-    },
-    {
-      "story_id": "story_8a4fe10cc807",
-      "title": "阿里千问输入法上线 macOS 版：最快 300 字/分，AI 自动润色",
-      "url": "https://www.ithome.com/0/969/334.htm",
-      "primary_url": "https://www.ithome.com/0/969/334.htm",
-      "source": "IT之家（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "ab5269659ec754e3674a00887b02acdec8330fa3",
-          "title": "阿里千问输入法上线 macOS 版：最快 300 字/分，AI 自动润色",
-          "url": "https://www.ithome.com/0/969/334.htm",
-          "source": "IT之家（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-27T03:39:06Z"
-        },
-        {
-          "id": "62570124211d46f791a7e03e8b1c890e20f81552",
-          "title": "阿里千问输入法上线 macOS 版：最快 300 字 / 分，AI 自动润色",
-          "url": "https://www.ithome.com/0/969/334.htm",
-          "source": "IT之家 (ITHome)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-27T03:39:06Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "IT之家 (ITHome)",
-        "IT之家（RSS）"
-      ],
-      "items": [
-        {
-          "id": "ab5269659ec754e3674a00887b02acdec8330fa3",
-          "title": "阿里千问输入法上线 macOS 版：最快 300 字/分，AI 自动润色",
-          "url": "https://www.ithome.com/0/969/334.htm",
-          "source": "IT之家（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-27T03:39:06Z"
-        },
-        {
-          "id": "62570124211d46f791a7e03e8b1c890e20f81552",
-          "title": "阿里千问输入法上线 macOS 版：最快 300 字 / 分，AI 自动润色",
-          "url": "https://www.ithome.com/0/969/334.htm",
-          "source": "IT之家 (ITHome)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-27T03:39:06Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7884,
-      "importance": 0.7884,
-      "importance_score": 0.7884,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.73,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9601,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-27T03:39:06Z",
-      "latest_at": "2026-06-27T03:39:06Z",
-      "primary_item": {
-        "id": "ab5269659ec754e3674a00887b02acdec8330fa3",
-        "title": "阿里千问输入法上线 macOS 版：最快 300 字/分，AI 自动润色",
-        "url": "https://www.ithome.com/0/969/334.htm",
-        "source": "IT之家（RSS）",
-        "source_name": "AI HOT"
       }
     },
     {
@@ -482,15 +501,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7844,
-      "importance": 0.7844,
-      "importance_score": 0.7844,
+      "score": 0.7781,
+      "importance": 0.7781,
+      "importance_score": 0.7781,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9046,
+        "recency": 0.8696,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -510,30 +529,30 @@
       }
     },
     {
-      "story_id": "story_3913a744a585",
-      "title": "国家统计局：1-5月规上工业企业利润增18.8%，电子行业利润增103.9%贡献43.1%",
-      "url": "https://www.ithome.com/0/969/311.htm",
-      "primary_url": "https://www.ithome.com/0/969/311.htm",
+      "story_id": "story_8a4fe10cc807",
+      "title": "阿里千问输入法上线 macOS 版：最快 300 字/分，AI 自动润色",
+      "url": "https://www.ithome.com/0/969/334.htm",
+      "primary_url": "https://www.ithome.com/0/969/334.htm",
       "source": "IT之家（RSS）",
       "source_name": "AI HOT",
       "sources": [
         {
-          "id": "6fc5449d5cdd75fb091b372214940eb56fd6bfd5",
-          "title": "国家统计局：1-5月规上工业企业利润增18.8%，电子行业利润增103.9%贡献43.1%",
-          "url": "https://www.ithome.com/0/969/311.htm",
+          "id": "ab5269659ec754e3674a00887b02acdec8330fa3",
+          "title": "阿里千问输入法上线 macOS 版：最快 300 字/分，AI 自动润色",
+          "url": "https://www.ithome.com/0/969/334.htm",
           "source": "IT之家（RSS）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-06-27T01:43:18Z"
+          "published_at": "2026-06-27T03:39:06Z"
         },
         {
-          "id": "0628a2fac83615c1011227267aaeb61436acaa31",
-          "title": "国家统计局：电子行业利润 1-5 月增长 103.9%，AI 驱动高端算力 / 存储芯片需求爆发",
-          "url": "https://www.ithome.com/0/969/311.htm",
+          "id": "62570124211d46f791a7e03e8b1c890e20f81552",
+          "title": "阿里千问输入法上线 macOS 版：最快 300 字 / 分，AI 自动润色",
+          "url": "https://www.ithome.com/0/969/334.htm",
           "source": "IT之家 (ITHome)",
           "source_name": "Info Flow",
           "site_id": "iris",
-          "published_at": "2026-06-27T01:43:18Z"
+          "published_at": "2026-06-27T03:39:06Z"
         }
       ],
       "source_count": 2,
@@ -543,35 +562,35 @@
       ],
       "items": [
         {
-          "id": "6fc5449d5cdd75fb091b372214940eb56fd6bfd5",
-          "title": "国家统计局：1-5月规上工业企业利润增18.8%，电子行业利润增103.9%贡献43.1%",
-          "url": "https://www.ithome.com/0/969/311.htm",
+          "id": "ab5269659ec754e3674a00887b02acdec8330fa3",
+          "title": "阿里千问输入法上线 macOS 版：最快 300 字/分，AI 自动润色",
+          "url": "https://www.ithome.com/0/969/334.htm",
           "source": "IT之家（RSS）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-06-27T01:43:18Z"
+          "published_at": "2026-06-27T03:39:06Z"
         },
         {
-          "id": "0628a2fac83615c1011227267aaeb61436acaa31",
-          "title": "国家统计局：电子行业利润 1-5 月增长 103.9%，AI 驱动高端算力 / 存储芯片需求爆发",
-          "url": "https://www.ithome.com/0/969/311.htm",
+          "id": "62570124211d46f791a7e03e8b1c890e20f81552",
+          "title": "阿里千问输入法上线 macOS 版：最快 300 字 / 分，AI 自动润色",
+          "url": "https://www.ithome.com/0/969/334.htm",
           "source": "IT之家 (ITHome)",
           "source_name": "Info Flow",
           "site_id": "iris",
-          "published_at": "2026-06-27T01:43:18Z"
+          "published_at": "2026-06-27T03:39:06Z"
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7777,
-      "importance": 0.7777,
-      "importance_score": 0.7777,
+      "score": 0.7817,
+      "importance": 0.7817,
+      "importance_score": 0.7817,
       "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.71,
+        "editorial": 0.73,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9337,
+        "recency": 0.923,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -580,12 +599,12 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-06-27T01:43:18Z",
-      "latest_at": "2026-06-27T01:43:18Z",
+      "earliest_at": "2026-06-27T03:39:06Z",
+      "latest_at": "2026-06-27T03:39:06Z",
       "primary_item": {
-        "id": "6fc5449d5cdd75fb091b372214940eb56fd6bfd5",
-        "title": "国家统计局：1-5月规上工业企业利润增18.8%，电子行业利润增103.9%贡献43.1%",
-        "url": "https://www.ithome.com/0/969/311.htm",
+        "id": "ab5269659ec754e3674a00887b02acdec8330fa3",
+        "title": "阿里千问输入法上线 macOS 版：最快 300 字/分，AI 自动润色",
+        "url": "https://www.ithome.com/0/969/334.htm",
         "source": "IT之家（RSS）",
         "source_name": "AI HOT"
       }
@@ -644,15 +663,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7471,
-      "importance": 0.7471,
-      "importance_score": 0.7471,
+      "score": 0.7419,
+      "importance": 0.7419,
+      "importance_score": 0.7419,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7471,
+        "recency": 0.7182,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -705,15 +724,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.807,
-      "importance": 0.807,
-      "importance_score": 0.807,
+      "score": 0.8018,
+      "importance": 0.8018,
+      "importance_score": 0.8018,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.75,
+        "recency": 0.721,
         "story_heat": 0.0
       },
       "category": "official",
@@ -767,15 +786,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7449,
-      "importance": 0.7449,
-      "importance_score": 0.7449,
+      "score": 0.7393,
+      "importance": 0.7393,
+      "importance_score": 0.7393,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.76,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8071,
+        "recency": 0.7759,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -827,15 +846,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7445,
-      "importance": 0.7445,
-      "importance_score": 0.7445,
+      "score": 0.7388,
+      "importance": 0.7388,
+      "importance_score": 0.7388,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8215,
+        "recency": 0.7898,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -906,15 +925,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7471,
-      "importance": 0.7471,
-      "importance_score": 0.7471,
+      "score": 0.7419,
+      "importance": 0.7419,
+      "importance_score": 0.7419,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7471,
+        "recency": 0.7182,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -933,63 +952,163 @@
       }
     },
     {
-      "story_id": "story_91989e2294aa",
-      "title": "5 秒视频耗 10 部手机电量，AI产业正吞噬全球水电资源",
-      "url": "https://www.aibase.com/news/29200",
-      "primary_url": "https://www.aibase.com/news/29200",
-      "source": "AIbase",
-      "source_name": "AIbase",
+      "story_id": "story_3913a744a585",
+      "title": "国家统计局：1-5月规上工业企业利润增18.8%，电子行业利润增103.9%贡献43.1%",
+      "url": "https://www.ithome.com/0/969/311.htm",
+      "primary_url": "https://www.ithome.com/0/969/311.htm",
+      "source": "IT之家（RSS）",
+      "source_name": "AI HOT",
       "sources": [
         {
-          "id": "adb67ea2917ecdaca9e2cfee90d831832bc025e2",
-          "title": "5 秒视频耗 10 部手机电量，AI产业正吞噬全球水电资源",
-          "url": "https://www.aibase.com/news/29200",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-26T10:16:42.916150Z"
+          "id": "6fc5449d5cdd75fb091b372214940eb56fd6bfd5",
+          "title": "国家统计局：1-5月规上工业企业利润增18.8%，电子行业利润增103.9%贡献43.1%",
+          "url": "https://www.ithome.com/0/969/311.htm",
+          "source": "IT之家（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-27T01:43:18Z"
+        },
+        {
+          "id": "0628a2fac83615c1011227267aaeb61436acaa31",
+          "title": "国家统计局：电子行业利润 1-5 月增长 103.9%，AI 驱动高端算力 / 存储芯片需求爆发",
+          "url": "https://www.ithome.com/0/969/311.htm",
+          "source": "IT之家 (ITHome)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-27T01:43:18Z"
         }
       ],
-      "source_count": 1,
+      "source_count": 2,
       "source_names": [
-        "AIbase"
+        "IT之家 (ITHome)",
+        "IT之家（RSS）"
       ],
       "items": [
         {
-          "id": "adb67ea2917ecdaca9e2cfee90d831832bc025e2",
-          "title": "5 秒视频耗 10 部手机电量，AI产业正吞噬全球水电资源",
-          "url": "https://www.aibase.com/news/29200",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-26T10:16:42.916150Z"
+          "id": "6fc5449d5cdd75fb091b372214940eb56fd6bfd5",
+          "title": "国家统计局：1-5月规上工业企业利润增18.8%，电子行业利润增103.9%贡献43.1%",
+          "url": "https://www.ithome.com/0/969/311.htm",
+          "source": "IT之家（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-27T01:43:18Z"
+        },
+        {
+          "id": "0628a2fac83615c1011227267aaeb61436acaa31",
+          "title": "国家统计局：电子行业利润 1-5 月增长 103.9%，AI 驱动高端算力 / 存储芯片需求爆发",
+          "url": "https://www.ithome.com/0/969/311.htm",
+          "source": "IT之家 (ITHome)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-27T01:43:18Z"
         }
       ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7221,
-      "importance": 0.7221,
-      "importance_score": 0.7221,
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7712,
+      "importance": 0.7712,
+      "importance_score": 0.7712,
       "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.72,
+        "editorial": 0.71,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7471,
-        "story_heat": 0.0
+        "recency": 0.8976,
+        "story_heat": 0.25
       },
       "category": "industry",
       "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-27T01:43:18Z",
+      "latest_at": "2026-06-27T01:43:18Z",
+      "primary_item": {
+        "id": "6fc5449d5cdd75fb091b372214940eb56fd6bfd5",
+        "title": "国家统计局：1-5月规上工业企业利润增18.8%，电子行业利润增103.9%贡献43.1%",
+        "url": "https://www.ithome.com/0/969/311.htm",
+        "source": "IT之家（RSS）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_e9d0c6a5a573",
+      "title": "OpenAI 在政府准入下推出 Claude Mythos 竞争对手 GPT-5.6 Sol，称其不可持续 / OpenAI launches Claude Mythos rival GPT-5.6 Sol under government access it calls unsustainable",
+      "url": "https://the-decoder.com/openais-claude-mythos-competitor-gpt-5-6-sol-launches-under-government-controlled-access-it-calls-unsustainable",
+      "primary_url": "https://the-decoder.com/openais-claude-mythos-competitor-gpt-5-6-sol-launches-under-government-controlled-access-it-calls-unsustainable",
+      "source": "The Decoder AI News",
+      "source_name": "Curated Media",
+      "sources": [
+        {
+          "id": "67a4cb6658c195c68cde96f9c40a5f56d68d5ef5",
+          "title": "OpenAI 在政府准入下推出 Claude Mythos 竞争对手 GPT-5.6 Sol，称其不可持续 / OpenAI launches Claude Mythos rival GPT-5.6 Sol under government access it calls unsustainable",
+          "url": "https://the-decoder.com/openais-claude-mythos-competitor-gpt-5-6-sol-launches-under-government-controlled-access-it-calls-unsustainable",
+          "source": "The Decoder AI News",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-06-26T18:30:01Z"
+        },
+        {
+          "id": "1e9354e9f048d542c1d13f050797b5b43d5da53e",
+          "title": "OpenAI 的 GPT-5.6 Sol 根据政府访问规则推出，与 Claude Mythos 竞争，并称其不可持续 / OpenAI's GPT-5.6 Sol launches to rival Claude Mythos under government access rules it calls unsustainable",
+          "url": "https://the-decoder.com/openais-claude-mythos-competitor-gpt-5-6-sol-launches-under-government-controlled-access-it-calls-unsustainable",
+          "source": "The Decoder AI News",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-06-26T18:30:01Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "The Decoder AI News"
+      ],
+      "items": [
+        {
+          "id": "67a4cb6658c195c68cde96f9c40a5f56d68d5ef5",
+          "title": "OpenAI 在政府准入下推出 Claude Mythos 竞争对手 GPT-5.6 Sol，称其不可持续 / OpenAI launches Claude Mythos rival GPT-5.6 Sol under government access it calls unsustainable",
+          "url": "https://the-decoder.com/openais-claude-mythos-competitor-gpt-5-6-sol-launches-under-government-controlled-access-it-calls-unsustainable",
+          "source": "The Decoder AI News",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-06-26T18:30:01Z"
+        },
+        {
+          "id": "1e9354e9f048d542c1d13f050797b5b43d5da53e",
+          "title": "OpenAI 的 GPT-5.6 Sol 根据政府访问规则推出，与 Claude Mythos 竞争，并称其不可持续 / OpenAI's GPT-5.6 Sol launches to rival Claude Mythos under government access rules it calls unsustainable",
+          "url": "https://the-decoder.com/openais-claude-mythos-competitor-gpt-5-6-sol-launches-under-government-controlled-access-it-calls-unsustainable",
+          "source": "The Decoder AI News",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-06-26T18:30:01Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.6518,
+      "importance": 0.6518,
+      "importance_score": 0.6518,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.612,
+        "source_tier": 0.58,
+        "ai_relevance": 0.85,
+        "recency": 0.8087,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source",
         "high_ai_relevance"
       ],
-      "earliest_at": "2026-06-26T10:16:42.916150Z",
-      "latest_at": "2026-06-26T10:16:42.916150Z",
+      "earliest_at": "2026-06-26T18:30:01Z",
+      "latest_at": "2026-06-26T18:30:01Z",
       "primary_item": {
-        "id": "adb67ea2917ecdaca9e2cfee90d831832bc025e2",
-        "title": "5 秒视频耗 10 部手机电量，AI产业正吞噬全球水电资源",
-        "url": "https://www.aibase.com/news/29200",
-        "source": "AIbase",
-        "source_name": "AIbase"
+        "id": "67a4cb6658c195c68cde96f9c40a5f56d68d5ef5",
+        "title": "OpenAI 在政府准入下推出 Claude Mythos 竞争对手 GPT-5.6 Sol，称其不可持续 / OpenAI launches Claude Mythos rival GPT-5.6 Sol under government access it calls unsustainable",
+        "url": "https://the-decoder.com/openais-claude-mythos-competitor-gpt-5-6-sol-launches-under-government-controlled-access-it-calls-unsustainable",
+        "source": "The Decoder AI News",
+        "source_name": "Curated Media"
       }
     },
     {
@@ -1046,15 +1165,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.6323,
-      "importance": 0.6323,
-      "importance_score": 0.6323,
+      "score": 0.6264,
+      "importance": 0.6264,
+      "importance_score": 0.6264,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.5688,
         "source_tier": 0.58,
         "ai_relevance": 0.79,
-        "recency": 0.8392,
+        "recency": 0.8067,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1072,63 +1191,138 @@
       }
     },
     {
-      "story_id": "story_7d1c29d1345d",
-      "title": "AI导购精准度仅16%，上海消保委直指电商算法：别把消费者当韭菜",
-      "url": "https://www.aibase.com/news/29203",
-      "primary_url": "https://www.aibase.com/news/29203",
-      "source": "AIbase",
-      "source_name": "AIbase",
+      "story_id": "story_2f3830581c59",
+      "title": "数学领域的人工智能正引发重大问题",
+      "url": "https://spectrum.ieee.org/ai-in-mathematics",
+      "primary_url": "https://spectrum.ieee.org/ai-in-mathematics",
+      "source": "spectrum.ieee.org",
+      "source_name": "Buzzing",
       "sources": [
         {
-          "id": "adaa5a493b87d0ceef08f2ff151dad7cd3521727",
-          "title": "AI导购精准度仅16%，上海消保委直指电商算法：别把消费者当韭菜",
-          "url": "https://www.aibase.com/news/29203",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-26T10:16:42.916150Z"
+          "id": "33929fe17a57cb8f0e14284ad97b5164a26eee95",
+          "title": "数学领域的人工智能正引发重大问题",
+          "url": "https://spectrum.ieee.org/ai-in-mathematics",
+          "source": "spectrum.ieee.org",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-27T06:51:49.402000Z"
+        },
+        {
+          "id": "5d84d25fe2ac570f1b4903abb2a5d2454d2837f4",
+          "title": "当人工智能来处理数学计算时，作为一名数学家意味着什么？",
+          "url": "https://spectrum.ieee.org/ai-in-mathematics",
+          "source": "spectrum.ieee.org",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-27T02:52:01.640000Z"
+        },
+        {
+          "id": "812158c826547bb11f3c1a4f6e3e6825270b50a7",
+          "title": "数学领域的人工智能正在提出重大问题 / AI in mathematics is forcing big questions",
+          "url": "https://news.ycombinator.com/item?id=48692883",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-27T02:47:08.177000Z"
+        },
+        {
+          "id": "bbe48ed56aada2c99206584379926d65038647e1",
+          "title": "当人工智能来处理数学计算时，作为一名数学家意味着什么？ / What does it mean to be a mathematician when AI does the math?",
+          "url": "https://spectrum.ieee.org/ai-in-mathematics",
+          "source": "Lobsters (技术社区)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-27T00:27:42Z"
+        },
+        {
+          "id": "b9c3fc59a5cff8cfbd7bf152d105512b9b046926",
+          "title": "当人工智能来处理数学计算时，作为一名数学家意味着什么？ / AI in mathematics is forcing big questions",
+          "url": "https://spectrum.ieee.org/ai-in-mathematics",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-26T22:36:51Z"
         }
       ],
-      "source_count": 1,
+      "source_count": 5,
       "source_names": [
-        "AIbase"
+        "Hacker News · 24h最热",
+        "Lobsters (技术社区)",
+        "hackernews",
+        "spectrum.ieee.org"
       ],
       "items": [
         {
-          "id": "adaa5a493b87d0ceef08f2ff151dad7cd3521727",
-          "title": "AI导购精准度仅16%，上海消保委直指电商算法：别把消费者当韭菜",
-          "url": "https://www.aibase.com/news/29203",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-26T10:16:42.916150Z"
+          "id": "33929fe17a57cb8f0e14284ad97b5164a26eee95",
+          "title": "数学领域的人工智能正引发重大问题",
+          "url": "https://spectrum.ieee.org/ai-in-mathematics",
+          "source": "spectrum.ieee.org",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-27T06:51:49.402000Z"
+        },
+        {
+          "id": "5d84d25fe2ac570f1b4903abb2a5d2454d2837f4",
+          "title": "当人工智能来处理数学计算时，作为一名数学家意味着什么？",
+          "url": "https://spectrum.ieee.org/ai-in-mathematics",
+          "source": "spectrum.ieee.org",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-27T02:52:01.640000Z"
+        },
+        {
+          "id": "812158c826547bb11f3c1a4f6e3e6825270b50a7",
+          "title": "数学领域的人工智能正在提出重大问题 / AI in mathematics is forcing big questions",
+          "url": "https://news.ycombinator.com/item?id=48692883",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-27T02:47:08.177000Z"
+        },
+        {
+          "id": "bbe48ed56aada2c99206584379926d65038647e1",
+          "title": "当人工智能来处理数学计算时，作为一名数学家意味着什么？ / What does it mean to be a mathematician when AI does the math?",
+          "url": "https://spectrum.ieee.org/ai-in-mathematics",
+          "source": "Lobsters (技术社区)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-27T00:27:42Z"
+        },
+        {
+          "id": "b9c3fc59a5cff8cfbd7bf152d105512b9b046926",
+          "title": "当人工智能来处理数学计算时，作为一名数学家意味着什么？ / AI in mathematics is forcing big questions",
+          "url": "https://spectrum.ieee.org/ai-in-mathematics",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-26T22:36:51Z"
         }
       ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7221,
-      "importance": 0.7221,
-      "importance_score": 0.7221,
-      "importance_label": "行业动态",
+      "item_count": 5,
+      "duplicate_count": 5,
+      "score": 0.6148,
+      "importance": 0.6148,
+      "importance_score": 0.6148,
+      "importance_label": "多源热议",
       "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7471,
-        "story_heat": 0.0
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9668,
+        "story_heat": 1.0
       },
-      "category": "industry",
+      "category": "multi_source",
       "reasons": [
-        "high_ai_relevance"
+        "multi_source"
       ],
-      "earliest_at": "2026-06-26T10:16:42.916150Z",
-      "latest_at": "2026-06-26T10:16:42.916150Z",
+      "earliest_at": "2026-06-26T22:36:51Z",
+      "latest_at": "2026-06-27T06:51:49.402000Z",
       "primary_item": {
-        "id": "adaa5a493b87d0ceef08f2ff151dad7cd3521727",
-        "title": "AI导购精准度仅16%，上海消保委直指电商算法：别把消费者当韭菜",
-        "url": "https://www.aibase.com/news/29203",
-        "source": "AIbase",
-        "source_name": "AIbase"
+        "id": "33929fe17a57cb8f0e14284ad97b5164a26eee95",
+        "title": "数学领域的人工智能正引发重大问题",
+        "url": "https://spectrum.ieee.org/ai-in-mathematics",
+        "source": "spectrum.ieee.org",
+        "source_name": "Buzzing"
       }
     },
     {
@@ -1258,15 +1452,15 @@
       ],
       "item_count": 6,
       "duplicate_count": 6,
-      "score": 0.6201,
-      "importance": 0.6201,
-      "importance_score": 0.6201,
+      "score": 0.6131,
+      "importance": 0.6131,
+      "importance_score": 0.6131,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9959,
+        "recency": 0.9574,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -1281,183 +1475,6 @@
         "url": "https://news.ycombinator.com/item?id=48692995",
         "source": "hackernews",
         "source_name": "NewsNow"
-      }
-    },
-    {
-      "story_id": "story_dfc61ad06edf",
-      "title": "OpenAI Codex个人用户用量暴增 137 倍，AI编程已走出程序员圈子",
-      "url": "https://www.aibase.com/news/29198",
-      "primary_url": "https://www.aibase.com/news/29198",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "d6fcf852e50cfabe5377e3985ee152eaf3dc08aa",
-          "title": "OpenAI Codex个人用户用量暴增 137 倍，AI编程已走出程序员圈子",
-          "url": "https://www.aibase.com/news/29198",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-26T10:16:42.916150Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "d6fcf852e50cfabe5377e3985ee152eaf3dc08aa",
-          "title": "OpenAI Codex个人用户用量暴增 137 倍，AI编程已走出程序员圈子",
-          "url": "https://www.aibase.com/news/29198",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-26T10:16:42.916150Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7221,
-      "importance": 0.7221,
-      "importance_score": 0.7221,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7471,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-26T10:16:42.916150Z",
-      "latest_at": "2026-06-26T10:16:42.916150Z",
-      "primary_item": {
-        "id": "d6fcf852e50cfabe5377e3985ee152eaf3dc08aa",
-        "title": "OpenAI Codex个人用户用量暴增 137 倍，AI编程已走出程序员圈子",
-        "url": "https://www.aibase.com/news/29198",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      }
-    },
-    {
-      "story_id": "story_2f3830581c59",
-      "title": "当人工智能来处理数学计算时，作为一名数学家意味着什么？",
-      "url": "https://spectrum.ieee.org/ai-in-mathematics",
-      "primary_url": "https://spectrum.ieee.org/ai-in-mathematics",
-      "source": "spectrum.ieee.org",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "5d84d25fe2ac570f1b4903abb2a5d2454d2837f4",
-          "title": "当人工智能来处理数学计算时，作为一名数学家意味着什么？",
-          "url": "https://spectrum.ieee.org/ai-in-mathematics",
-          "source": "spectrum.ieee.org",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-27T02:52:01.640000Z"
-        },
-        {
-          "id": "812158c826547bb11f3c1a4f6e3e6825270b50a7",
-          "title": "数学领域的人工智能正在提出重大问题 / AI in mathematics is forcing big questions",
-          "url": "https://news.ycombinator.com/item?id=48692883",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-27T02:47:08.177000Z"
-        },
-        {
-          "id": "bbe48ed56aada2c99206584379926d65038647e1",
-          "title": "当人工智能来处理数学计算时，作为一名数学家意味着什么？ / What does it mean to be a mathematician when AI does the math?",
-          "url": "https://spectrum.ieee.org/ai-in-mathematics",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-27T00:27:42Z"
-        },
-        {
-          "id": "b9c3fc59a5cff8cfbd7bf152d105512b9b046926",
-          "title": "当人工智能来处理数学计算时，作为一名数学家意味着什么？ / AI in mathematics is forcing big questions",
-          "url": "https://spectrum.ieee.org/ai-in-mathematics",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-26T22:36:51Z"
-        }
-      ],
-      "source_count": 4,
-      "source_names": [
-        "Hacker News · 24h最热",
-        "Lobsters (技术社区)",
-        "hackernews",
-        "spectrum.ieee.org"
-      ],
-      "items": [
-        {
-          "id": "5d84d25fe2ac570f1b4903abb2a5d2454d2837f4",
-          "title": "当人工智能来处理数学计算时，作为一名数学家意味着什么？",
-          "url": "https://spectrum.ieee.org/ai-in-mathematics",
-          "source": "spectrum.ieee.org",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-27T02:52:01.640000Z"
-        },
-        {
-          "id": "812158c826547bb11f3c1a4f6e3e6825270b50a7",
-          "title": "数学领域的人工智能正在提出重大问题 / AI in mathematics is forcing big questions",
-          "url": "https://news.ycombinator.com/item?id=48692883",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-27T02:47:08.177000Z"
-        },
-        {
-          "id": "bbe48ed56aada2c99206584379926d65038647e1",
-          "title": "当人工智能来处理数学计算时，作为一名数学家意味着什么？ / What does it mean to be a mathematician when AI does the math?",
-          "url": "https://spectrum.ieee.org/ai-in-mathematics",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-27T00:27:42Z"
-        },
-        {
-          "id": "b9c3fc59a5cff8cfbd7bf152d105512b9b046926",
-          "title": "当人工智能来处理数学计算时，作为一名数学家意味着什么？ / AI in mathematics is forcing big questions",
-          "url": "https://spectrum.ieee.org/ai-in-mathematics",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-26T22:36:51Z"
-        }
-      ],
-      "item_count": 4,
-      "duplicate_count": 4,
-      "score": 0.5867,
-      "importance": 0.5867,
-      "importance_score": 0.5867,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9493,
-        "story_heat": 0.75
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-26T22:36:51Z",
-      "latest_at": "2026-06-27T02:52:01.640000Z",
-      "primary_item": {
-        "id": "5d84d25fe2ac570f1b4903abb2a5d2454d2837f4",
-        "title": "当人工智能来处理数学计算时，作为一名数学家意味着什么？",
-        "url": "https://spectrum.ieee.org/ai-in-mathematics",
-        "source": "spectrum.ieee.org",
-        "source_name": "Buzzing"
       }
     },
     {
@@ -1514,15 +1531,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5787,
-      "importance": 0.5787,
-      "importance_score": 0.5787,
+      "score": 0.573,
+      "importance": 0.573,
+      "importance_score": 0.573,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.5112,
         "source_tier": 0.5,
         "ai_relevance": 0.71,
-        "recency": 0.8244,
+        "recency": 0.7925,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1540,63 +1557,198 @@
       }
     },
     {
-      "story_id": "story_5159b27d61b8",
-      "title": "扩产受限需求高涨，AI存储紧缺周期或将延续至明年末",
-      "url": "https://www.aibase.com/news/29199",
-      "primary_url": "https://www.aibase.com/news/29199",
-      "source": "AIbase",
-      "source_name": "AIbase",
+      "story_id": "story_b482b19fe032",
+      "title": "美国政府将决定谁可以使用GPT-5.6",
+      "url": "https://www.washingtonpost.com/technology/2026/06/26/openai-says-us-government-will-vet-users-its-latest-ai-model",
+      "primary_url": "https://www.washingtonpost.com/technology/2026/06/26/openai-says-us-government-will-vet-users-its-latest-ai-model",
+      "source": "www.washingtonpost.com",
+      "source_name": "Buzzing",
       "sources": [
         {
-          "id": "e2e19254ce2674c90aa628a15beb40d8a9948774",
-          "title": "扩产受限需求高涨，AI存储紧缺周期或将延续至明年末",
-          "url": "https://www.aibase.com/news/29199",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-26T10:16:42.916150Z"
+          "id": "42c925379d0718e205a57b76176a393454d3f306",
+          "title": "美国政府将决定谁可以使用GPT-5.6",
+          "url": "https://www.washingtonpost.com/technology/2026/06/26/openai-says-us-government-will-vet-users-its-latest-ai-model",
+          "source": "www.washingtonpost.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-26T19:23:47.983000Z"
+        },
+        {
+          "id": "5042eeecbc5f1b61aa3d9e5ad24fdff4a01a05ab",
+          "title": "美国政府将决定谁可以使用 GPT-5.6 / U.S. government will decide who gets to use GPT-5.6",
+          "url": "https://news.ycombinator.com/item?id=48690101",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-26T19:02:29.351000Z"
+        },
+        {
+          "id": "fd493b5d17526d2a171ff10b12d3edf8b7a9fdd1",
+          "title": "美国政府将决定谁可以使用GPT-5.6 / U.S. government will decide who gets to use GPT-5.6",
+          "url": "https://www.washingtonpost.com/technology/2026/06/26/openai-says-us-government-will-vet-users-its-latest-ai-model",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-26T18:23:14Z"
+        },
+        {
+          "id": "9f767e57c4724c3197460cd32bd4f6221063323e",
+          "title": "美国政府将决定谁可以使用GPT-5.6 / U.S. government will decide who gets to use latest upgrade to ChatGPT",
+          "url": "https://www.washingtonpost.com/technology/2026/06/26/openai-says-us-government-will-vet-users-its-latest-ai-model",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-26T18:23:14Z"
         }
       ],
-      "source_count": 1,
+      "source_count": 4,
       "source_names": [
-        "AIbase"
+        "Hacker News",
+        "Hacker News · 24h最热",
+        "hackernews",
+        "www.washingtonpost.com"
       ],
       "items": [
         {
-          "id": "e2e19254ce2674c90aa628a15beb40d8a9948774",
-          "title": "扩产受限需求高涨，AI存储紧缺周期或将延续至明年末",
-          "url": "https://www.aibase.com/news/29199",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-26T10:16:42.916150Z"
+          "id": "42c925379d0718e205a57b76176a393454d3f306",
+          "title": "美国政府将决定谁可以使用GPT-5.6",
+          "url": "https://www.washingtonpost.com/technology/2026/06/26/openai-says-us-government-will-vet-users-its-latest-ai-model",
+          "source": "www.washingtonpost.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-26T19:23:47.983000Z"
+        },
+        {
+          "id": "5042eeecbc5f1b61aa3d9e5ad24fdff4a01a05ab",
+          "title": "美国政府将决定谁可以使用 GPT-5.6 / U.S. government will decide who gets to use GPT-5.6",
+          "url": "https://news.ycombinator.com/item?id=48690101",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-26T19:02:29.351000Z"
+        },
+        {
+          "id": "fd493b5d17526d2a171ff10b12d3edf8b7a9fdd1",
+          "title": "美国政府将决定谁可以使用GPT-5.6 / U.S. government will decide who gets to use GPT-5.6",
+          "url": "https://www.washingtonpost.com/technology/2026/06/26/openai-says-us-government-will-vet-users-its-latest-ai-model",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-26T18:23:14Z"
+        },
+        {
+          "id": "9f767e57c4724c3197460cd32bd4f6221063323e",
+          "title": "美国政府将决定谁可以使用GPT-5.6 / U.S. government will decide who gets to use latest upgrade to ChatGPT",
+          "url": "https://www.washingtonpost.com/technology/2026/06/26/openai-says-us-government-will-vet-users-its-latest-ai-model",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-26T18:23:14Z"
         }
       ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7221,
-      "importance": 0.7221,
-      "importance_score": 0.7221,
-      "importance_label": "行业动态",
+      "item_count": 4,
+      "duplicate_count": 4,
+      "score": 0.5633,
+      "importance": 0.5633,
+      "importance_score": 0.5633,
+      "importance_label": "多源热议",
       "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7471,
-        "story_heat": 0.0
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.8193,
+        "story_heat": 0.75
       },
-      "category": "industry",
+      "category": "multi_source",
       "reasons": [
-        "high_ai_relevance"
+        "multi_source"
       ],
-      "earliest_at": "2026-06-26T10:16:42.916150Z",
-      "latest_at": "2026-06-26T10:16:42.916150Z",
+      "earliest_at": "2026-06-26T18:23:14Z",
+      "latest_at": "2026-06-26T19:23:47.983000Z",
       "primary_item": {
-        "id": "e2e19254ce2674c90aa628a15beb40d8a9948774",
-        "title": "扩产受限需求高涨，AI存储紧缺周期或将延续至明年末",
-        "url": "https://www.aibase.com/news/29199",
-        "source": "AIbase",
-        "source_name": "AIbase"
+        "id": "42c925379d0718e205a57b76176a393454d3f306",
+        "title": "美国政府将决定谁可以使用GPT-5.6",
+        "url": "https://www.washingtonpost.com/technology/2026/06/26/openai-says-us-government-will-vet-users-its-latest-ai-model",
+        "source": "www.washingtonpost.com",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_2df82173bb28",
+      "title": "绝大多数开发者只把Claude Code当作简单编程工具，给出指令就直接采纳输出结果，白白浪费绝大多数核心能力。文中整理了27个实操方法，按入门、进阶、高阶分层拆解，能够大幅提高代码开发、项目改造的整体产出效率。",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+      "primary_url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+      "source": "社区更新 · 2026-06-26",
+      "source_name": "WaytoAGI",
+      "sources": [
+        {
+          "id": "4e57b30130778942cf80ec708199dba20d519acc",
+          "title": "绝大多数开发者只把Claude Code当作简单编程工具，给出指令就直接采纳输出结果，白白浪费绝大多数核心能力。文中整理了27个实操方法，按入门、进阶、高阶分层拆解，能够大幅提高代码开发、项目改造的整体产出效率。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-26",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-26T19:15:11.243650Z"
+        },
+        {
+          "id": "fe471d3173f01a9ce4c2eff5e408707c7ea815e7",
+          "title": "不少人用AI处理长程任务会遇到AI擅自扩大需求、虚报任务完成、流程无从追溯等失控问题。老金的开源框架Meta_Kim搭建了一个完整可控的治理闭环，专为Claude Code、Codex等编码工具设计。整套流程从拆解模糊需求、分步收集信息、全局检索可用工具能力，到操作闸门管控、关键节点交由人工决策、多层流程复核、实机结果校验，最后依托图谱与向量记忆沉淀复用经验。无代码基础也能上手，快来试试！",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-26",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-26T17:14:10.338649Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "社区更新 · 2026-06-26"
+      ],
+      "items": [
+        {
+          "id": "4e57b30130778942cf80ec708199dba20d519acc",
+          "title": "绝大多数开发者只把Claude Code当作简单编程工具，给出指令就直接采纳输出结果，白白浪费绝大多数核心能力。文中整理了27个实操方法，按入门、进阶、高阶分层拆解，能够大幅提高代码开发、项目改造的整体产出效率。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-26",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-26T19:15:11.243650Z"
+        },
+        {
+          "id": "fe471d3173f01a9ce4c2eff5e408707c7ea815e7",
+          "title": "不少人用AI处理长程任务会遇到AI擅自扩大需求、虚报任务完成、流程无从追溯等失控问题。老金的开源框架Meta_Kim搭建了一个完整可控的治理闭环，专为Claude Code、Codex等编码工具设计。整套流程从拆解模糊需求、分步收集信息、全局检索可用工具能力，到操作闸门管控、关键节点交由人工决策、多层流程复核、实机结果校验，最后依托图谱与向量记忆沉淀复用经验。无代码基础也能上手，快来试试！",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-26",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-26T17:14:10.338649Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5614,
+      "importance": 0.5614,
+      "importance_score": 0.5614,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.54,
+        "ai_relevance": 0.65,
+        "recency": 0.8176,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-26T17:14:10.338649Z",
+      "latest_at": "2026-06-26T19:15:11.243650Z",
+      "primary_item": {
+        "id": "4e57b30130778942cf80ec708199dba20d519acc",
+        "title": "绝大多数开发者只把Claude Code当作简单编程工具，给出指令就直接采纳输出结果，白白浪费绝大多数核心能力。文中整理了27个实操方法，按入门、进阶、高阶分层拆解，能够大幅提高代码开发、项目改造的整体产出效率。",
+        "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+        "source": "社区更新 · 2026-06-26",
+        "source_name": "WaytoAGI"
       }
     }
   ]
