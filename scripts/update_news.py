@@ -4638,16 +4638,10 @@ def dedupe_items_by_title_url(items: list[dict[str, Any]], random_pick: bool = T
         if random_pick:
             out.append(random.choice(values))
         else:
-            chosen = max(
-                values,
-                key=lambda x: (
-                    event_time(x) or datetime.min.replace(tzinfo=UTC),
-                    str(x.get("id") or ""),
-                ),
-            )
+            chosen = min(values, key=source_tier_sort_key)
             out.append(chosen)
 
-    out.sort(key=lambda x: event_time(x) or datetime.min.replace(tzinfo=UTC), reverse=True)
+    out.sort(key=source_tier_sort_key)
     return out
 
 

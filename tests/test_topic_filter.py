@@ -4,6 +4,7 @@ from unittest.mock import patch
 
 from scripts.update_news import (
     add_creator_ranking_fields,
+    add_source_tier_fields,
     build_agentmail_digest_payload,
     build_creator_hot_items,
     build_latest_payloads,
@@ -38,6 +39,8 @@ from scripts.update_news import (
     parse_follow_builders_items,
     parse_openai_codex_changelog_items,
     redact_public_text,
+    source_tier_for_site,
+    source_tier_sort_key,
     sync_paid_source_status_timestamps,
     tikhub_status_base,
     update_paid_source_state,
@@ -836,6 +839,68 @@ class TopicFilterTests(unittest.TestCase):
         url, kwargs = session.calls[0]
         self.assertEqual(url, "https://api.x.com/2/tweets/search/recent")
         self.assertEqual(kwargs["params"]["max_results"], 10)
+
+    def test_source_tiers_separate_discussion_signals_from_core_sources(self):
+        self.assertEqual(source_tier_for_site("official_ai")["source_tier"], "official")
+        self.assertEqual(source_tier_for_site("aihot")["source_tier"], "ai_vertical")
+        self.assertEqual(source_tier_for_site("curated_media")["source_tier"], "ai_media")
+        self.assertEqual(source_tier_for_site("followbuilders")["source_tier"], "builders")
+        self.assertEqual(source_tier_for_site("opmlrss:abc123")["source_tier"], "user_opml")
+        self.assertEqual(source_tier_for_site("socialdata_x")["source_tier"], "advanced")
+        self.assertEqual(source_tier_for_site("tikhub_xiaohongshu")["source_tier"], "self_media")
+        self.assertEqual(source_tier_for_site("zeli")["source_tier"], "discussion")
+        self.assertEqual(source_tier_for_site("newsnow")["source_tier_label"], "热议参考")
+
+    def test_source_tier_fields_and_sort_put_discussion_after_core_sources(self):
+        official = add_source_tier_fields(
+            {
+                "site_id": "official_ai",
+                "site_name": "Official AI Updates",
+                "source": "OpenAI News",
+                "title": "OpenAI ships a model",
+                "url": "https://example.com/openai",
+                "published_at": "2026-05-03T00:00:00Z",
+            }
+        )
+        discussion = add_source_tier_fields(
+            {
+                "site_id": "zeli",
+                "site_name": "Zeli",
+                "source": "Hacker News · 24h最热",
+                "title": "AI tool discussion",
+                "url": "https://example.com/hn",
+                "published_at": "2026-05-03T01:00:00Z",
+            }
+        )
+        self.assertEqual(official["source_tier_label"], "官方一手源")
+        self.assertEqual(discussion["source_tier_label"], "热议参考")
+        self.assertLess(source_tier_sort_key(official), source_tier_sort_key(discussion))
+
+    def test_dedupe_prefers_core_source_over_newer_discussion_duplicate(self):
+        official = add_source_tier_fields(
+            {
+                "id": "official",
+                "site_id": "official_ai",
+                "site_name": "Official AI Updates",
+                "source": "OpenAI News",
+                "title": "OpenAI ships a model",
+                "url": "https://example.com/same",
+                "published_at": "2026-05-03T00:00:00Z",
+            }
+        )
+        discussion = add_source_tier_fields(
+            {
+                "id": "discussion",
+                "site_id": "zeli",
+                "site_name": "Zeli",
+                "source": "Hacker News · 24h最热",
+                "title": "OpenAI ships a model",
+                "url": "https://example.com/same",
+                "published_at": "2026-05-03T01:00:00Z",
+            }
+        )
+        deduped = dedupe_items_by_title_url([discussion, official], random_pick=False)
+        self.assertEqual(deduped[0]["id"], "official")
 
     def test_fetch_ai_hubtoday_parses_rss_feed(self):
         # ai.hubtoday.app moved to hex2077.dev; we now read its RSS feed.
