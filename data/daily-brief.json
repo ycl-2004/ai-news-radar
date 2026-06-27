@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T23:57:34.975874Z",
+  "generated_at": "2026-06-27T02:57:02.021183Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -95,15 +95,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.9021,
-      "importance": 0.9021,
-      "importance_score": 0.9021,
+      "score": 0.8959,
+      "importance": 0.8959,
+      "importance_score": 0.8959,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.8174,
+        "recency": 0.7829,
         "story_heat": 0.75
       },
       "category": "official",
@@ -196,15 +196,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.8438,
-      "importance": 0.8438,
-      "importance_score": 0.8438,
+      "score": 0.8366,
+      "importance": 0.8366,
+      "importance_score": 0.8366,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.84,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9455,
+        "recency": 0.9056,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -258,15 +258,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8363,
-      "importance": 0.8363,
-      "importance_score": 0.8363,
+      "score": 0.829,
+      "importance": 0.829,
+      "importance_score": 0.829,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.957,
+        "recency": 0.9166,
         "story_heat": 0.0
       },
       "category": "official",
@@ -282,68 +282,6 @@
         "title": "在企业和组织报告中按采用阶段跟踪合并总数 / Track total merges by adoption phase in enterprise and organization reports",
         "url": "https://github.blog/changelog/2026-06-26-track-total-merges-by-adoption-phase-in-enterprise-and-organization-reports",
         "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
-      }
-    },
-    {
-      "story_id": "story_91992ed9f82d",
-      "title": "法典 CLI 0.142.3 / Codex CLI 0.142.3",
-      "url": "https://developers.openai.com/codex/changelog",
-      "primary_url": "https://developers.openai.com/codex/changelog",
-      "source": "OpenAI Codex Changelog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "404037c09bfca63e22482627a2bdcdd4fa65ca12",
-          "title": "法典 CLI 0.142.3 / Codex CLI 0.142.3",
-          "url": "https://developers.openai.com/codex/changelog",
-          "source": "OpenAI Codex Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-26T00:00:00Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "OpenAI Codex Changelog"
-      ],
-      "items": [
-        {
-          "id": "404037c09bfca63e22482627a2bdcdd4fa65ca12",
-          "title": "法典 CLI 0.142.3 / Codex CLI 0.142.3",
-          "url": "https://developers.openai.com/codex/changelog",
-          "source": "OpenAI Codex Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-26T00:00:00Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8134,
-      "importance": 0.8134,
-      "importance_score": 0.8134,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.98,
-        "recency": 0.7075,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-26T00:00:00Z",
-      "latest_at": "2026-06-26T00:00:00Z",
-      "primary_item": {
-        "id": "404037c09bfca63e22482627a2bdcdd4fa65ca12",
-        "title": "法典 CLI 0.142.3 / Codex CLI 0.142.3",
-        "url": "https://developers.openai.com/codex/changelog",
-        "source": "OpenAI Codex Changelog",
         "source_name": "Official AI Updates"
       }
     },
@@ -382,15 +320,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8338,
-      "importance": 0.8338,
-      "importance_score": 0.8338,
+      "score": 0.827,
+      "importance": 0.827,
+      "importance_score": 0.827,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.899,
+        "recency": 0.861,
         "story_heat": 0.0
       },
       "category": "official",
@@ -463,15 +401,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8005,
-      "importance": 0.8005,
-      "importance_score": 0.8005,
+      "score": 0.7929,
+      "importance": 0.7929,
+      "importance_score": 0.7929,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9937,
+        "recency": 0.9517,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -491,65 +429,84 @@
       }
     },
     {
-      "story_id": "story_eaa14c52b6e0",
-      "title": "GitHub Desktop 3.6：工作树和更深入的 Copilot 集成 / GitHub Desktop 3.6: Worktrees and deeper Copilot integration",
-      "url": "https://github.blog/changelog/2026-06-26-github-desktop-3-6-worktrees-and-deeper-copilot-integration",
-      "primary_url": "https://github.blog/changelog/2026-06-26-github-desktop-3-6-worktrees-and-deeper-copilot-integration",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
+      "story_id": "story_3913a744a585",
+      "title": "国家统计局：1-5月规上工业企业利润增18.8%，电子行业利润增103.9%贡献43.1%",
+      "url": "https://www.ithome.com/0/969/311.htm",
+      "primary_url": "https://www.ithome.com/0/969/311.htm",
+      "source": "IT之家（RSS）",
+      "source_name": "AI HOT",
       "sources": [
         {
-          "id": "d0bdbb32d3273eeba43fbee056df49ad15963f4e",
-          "title": "GitHub Desktop 3.6：工作树和更深入的 Copilot 集成 / GitHub Desktop 3.6: Worktrees and deeper Copilot integration",
-          "url": "https://github.blog/changelog/2026-06-26-github-desktop-3-6-worktrees-and-deeper-copilot-integration",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-26T10:32:58Z"
+          "id": "6fc5449d5cdd75fb091b372214940eb56fd6bfd5",
+          "title": "国家统计局：1-5月规上工业企业利润增18.8%，电子行业利润增103.9%贡献43.1%",
+          "url": "https://www.ithome.com/0/969/311.htm",
+          "source": "IT之家（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-27T01:43:18Z"
+        },
+        {
+          "id": "0628a2fac83615c1011227267aaeb61436acaa31",
+          "title": "国家统计局：电子行业利润 1-5 月增长 103.9%，AI 驱动高端算力 / 存储芯片需求爆发",
+          "url": "https://www.ithome.com/0/969/311.htm",
+          "source": "IT之家 (ITHome)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-27T01:43:18Z"
         }
       ],
-      "source_count": 1,
+      "source_count": 2,
       "source_names": [
-        "GitHub Changelog"
+        "IT之家 (ITHome)",
+        "IT之家（RSS）"
       ],
       "items": [
         {
-          "id": "d0bdbb32d3273eeba43fbee056df49ad15963f4e",
-          "title": "GitHub Desktop 3.6：工作树和更深入的 Copilot 集成 / GitHub Desktop 3.6: Worktrees and deeper Copilot integration",
-          "url": "https://github.blog/changelog/2026-06-26-github-desktop-3-6-worktrees-and-deeper-copilot-integration",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-26T10:32:58Z"
+          "id": "6fc5449d5cdd75fb091b372214940eb56fd6bfd5",
+          "title": "国家统计局：1-5月规上工业企业利润增18.8%，电子行业利润增103.9%贡献43.1%",
+          "url": "https://www.ithome.com/0/969/311.htm",
+          "source": "IT之家（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-27T01:43:18Z"
+        },
+        {
+          "id": "0628a2fac83615c1011227267aaeb61436acaa31",
+          "title": "国家统计局：电子行业利润 1-5 月增长 103.9%，AI 驱动高端算力 / 存储芯片需求爆发",
+          "url": "https://www.ithome.com/0/969/311.htm",
+          "source": "IT之家 (ITHome)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-27T01:43:18Z"
         }
       ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8203,
-      "importance": 0.8203,
-      "importance_score": 0.8203,
-      "importance_label": "官方更新",
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7864,
+      "importance": 0.7864,
+      "importance_score": 0.7864,
+      "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.8239,
-        "story_heat": 0.0
+        "editorial": 0.71,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9824,
+        "story_heat": 0.25
       },
-      "category": "official",
+      "category": "industry",
       "reasons": [
-        "official_source",
+        "multi_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-06-26T10:32:58Z",
-      "latest_at": "2026-06-26T10:32:58Z",
+      "earliest_at": "2026-06-27T01:43:18Z",
+      "latest_at": "2026-06-27T01:43:18Z",
       "primary_item": {
-        "id": "d0bdbb32d3273eeba43fbee056df49ad15963f4e",
-        "title": "GitHub Desktop 3.6：工作树和更深入的 Copilot 集成 / GitHub Desktop 3.6: Worktrees and deeper Copilot integration",
-        "url": "https://github.blog/changelog/2026-06-26-github-desktop-3-6-worktrees-and-deeper-copilot-integration",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
+        "id": "6fc5449d5cdd75fb091b372214940eb56fd6bfd5",
+        "title": "国家统计局：1-5月规上工业企业利润增18.8%，电子行业利润增103.9%贡献43.1%",
+        "url": "https://www.ithome.com/0/969/311.htm",
+        "source": "IT之家（RSS）",
+        "source_name": "AI HOT"
       }
     },
     {
@@ -606,15 +563,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7603,
-      "importance": 0.7603,
-      "importance_score": 0.7603,
+      "score": 0.7541,
+      "importance": 0.7541,
+      "importance_score": 0.7541,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8207,
+        "recency": 0.786,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -631,6 +588,68 @@
         "url": "https://www.aibase.com/news/29205",
         "source": "AIbase",
         "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_eaa14c52b6e0",
+      "title": "GitHub Desktop 3.6：工作树和更深入的 Copilot 集成 / GitHub Desktop 3.6: Worktrees and deeper Copilot integration",
+      "url": "https://github.blog/changelog/2026-06-26-github-desktop-3-6-worktrees-and-deeper-copilot-integration",
+      "primary_url": "https://github.blog/changelog/2026-06-26-github-desktop-3-6-worktrees-and-deeper-copilot-integration",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "d0bdbb32d3273eeba43fbee056df49ad15963f4e",
+          "title": "GitHub Desktop 3.6：工作树和更深入的 Copilot 集成 / GitHub Desktop 3.6: Worktrees and deeper Copilot integration",
+          "url": "https://github.blog/changelog/2026-06-26-github-desktop-3-6-worktrees-and-deeper-copilot-integration",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-26T10:32:58Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "items": [
+        {
+          "id": "d0bdbb32d3273eeba43fbee056df49ad15963f4e",
+          "title": "GitHub Desktop 3.6：工作树和更深入的 Copilot 集成 / GitHub Desktop 3.6: Worktrees and deeper Copilot integration",
+          "url": "https://github.blog/changelog/2026-06-26-github-desktop-3-6-worktrees-and-deeper-copilot-integration",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-26T10:32:58Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.814,
+      "importance": 0.814,
+      "importance_score": 0.814,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.7891,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-26T10:32:58Z",
+      "latest_at": "2026-06-26T10:32:58Z",
+      "primary_item": {
+        "id": "d0bdbb32d3273eeba43fbee056df49ad15963f4e",
+        "title": "GitHub Desktop 3.6：工作树和更深入的 Copilot 集成 / GitHub Desktop 3.6: Worktrees and deeper Copilot integration",
+        "url": "https://github.blog/changelog/2026-06-26-github-desktop-3-6-worktrees-and-deeper-copilot-integration",
+        "source": "GitHub Changelog",
+        "source_name": "Official AI Updates"
       }
     },
     {
@@ -668,15 +687,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7592,
-      "importance": 0.7592,
-      "importance_score": 0.7592,
+      "score": 0.7525,
+      "importance": 0.7525,
+      "importance_score": 0.7525,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.76,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8866,
+        "recency": 0.8492,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -729,15 +748,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.759,
-      "importance": 0.759,
-      "importance_score": 0.759,
+      "score": 0.7522,
+      "importance": 0.7522,
+      "importance_score": 0.7522,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9025,
+        "recency": 0.8643,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -752,147 +771,6 @@
         "title": "华盛顿邮报报告：AI聊天机器人存在左翼偏见",
         "url": "https://x.com/rohanpaul_ai/status/2070550479621488896",
         "source": "X：Rohan Paul (@rohanpaul_ai)",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_bab6f6953d7a",
-      "title": "近400家美国报纸起诉微软和OpenAI：未经授权抓取新闻内容训练AI",
-      "url": "https://www.ithome.com/0/968/872.htm",
-      "primary_url": "https://www.ithome.com/0/968/872.htm",
-      "source": "IT之家（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "b66f49ab0dde70742499f100ab45e7708329182d",
-          "title": "近400家美国报纸起诉微软和OpenAI：未经授权抓取新闻内容训练AI",
-          "url": "https://www.ithome.com/0/968/872.htm",
-          "source": "IT之家（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-26T04:37:58Z"
-        },
-        {
-          "id": "693d758be1695a9e76981ebabc8984eb7d4ab5c8",
-          "title": "近 400 家美国报纸联合起诉 OpenAI 和微软白嫖内容，AI 热潮恐成地方新闻“丧钟”",
-          "url": "https://www.ithome.com/0/968/872.htm",
-          "source": "IT之家 (ITHome)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-26T04:37:58Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "IT之家 (ITHome)",
-        "IT之家（RSS）"
-      ],
-      "items": [
-        {
-          "id": "b66f49ab0dde70742499f100ab45e7708329182d",
-          "title": "近400家美国报纸起诉微软和OpenAI：未经授权抓取新闻内容训练AI",
-          "url": "https://www.ithome.com/0/968/872.htm",
-          "source": "IT之家（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-26T04:37:58Z"
-        },
-        {
-          "id": "693d758be1695a9e76981ebabc8984eb7d4ab5c8",
-          "title": "近 400 家美国报纸联合起诉 OpenAI 和微软白嫖内容，AI 热潮恐成地方新闻“丧钟”",
-          "url": "https://www.ithome.com/0/968/872.htm",
-          "source": "IT之家 (ITHome)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-26T04:37:58Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7548,
-      "importance": 0.7548,
-      "importance_score": 0.7548,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.74,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7565,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-26T04:37:58Z",
-      "latest_at": "2026-06-26T04:37:58Z",
-      "primary_item": {
-        "id": "b66f49ab0dde70742499f100ab45e7708329182d",
-        "title": "近400家美国报纸起诉微软和OpenAI：未经授权抓取新闻内容训练AI",
-        "url": "https://www.ithome.com/0/968/872.htm",
-        "source": "IT之家（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_a01216e7ec9a",
-      "title": "小互开源个人IP配图技能\"小互IP Studio\"，含31个原创角色",
-      "url": "https://x.com/xiaohu/status/2070317717811540149",
-      "primary_url": "https://x.com/xiaohu/status/2070317717811540149",
-      "source": "X：小互 (@xiaohu)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "671b2837bb6abe0fcd4dd14db0dcab8a71ab7a4f",
-          "title": "小互开源个人IP配图技能\"小互IP Studio\"，含31个原创角色",
-          "url": "https://x.com/xiaohu/status/2070317717811540149",
-          "source": "X：小互 (@xiaohu)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-26T01:26:23Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：小互 (@xiaohu)"
-      ],
-      "items": [
-        {
-          "id": "671b2837bb6abe0fcd4dd14db0dcab8a71ab7a4f",
-          "title": "小互开源个人IP配图技能\"小互IP Studio\"，含31个原创角色",
-          "url": "https://x.com/xiaohu/status/2070317717811540149",
-          "source": "X：小互 (@xiaohu)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-26T01:26:23Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7446,
-      "importance": 0.7446,
-      "importance_score": 0.7446,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.81,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7224,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-26T01:26:23Z",
-      "latest_at": "2026-06-26T01:26:23Z",
-      "primary_item": {
-        "id": "671b2837bb6abe0fcd4dd14db0dcab8a71ab7a4f",
-        "title": "小互开源个人IP配图技能\"小互IP Studio\"，含31个原创角色",
-        "url": "https://x.com/xiaohu/status/2070317717811540149",
-        "source": "X：小互 (@xiaohu)",
         "source_name": "AI HOT"
       }
     },
@@ -950,15 +828,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7603,
-      "importance": 0.7603,
-      "importance_score": 0.7603,
+      "score": 0.7541,
+      "importance": 0.7541,
+      "importance_score": 0.7541,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8207,
+        "recency": 0.786,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -978,68 +856,68 @@
       }
     },
     {
-      "story_id": "story_2df39f94801f",
-      "title": "Adobe宣布收购视频与图像AI模型开发商Topaz Labs，深化Firefly生态布局",
-      "url": "https://www.aibase.com/news/29183",
-      "primary_url": "https://www.aibase.com/news/29183",
-      "source": "AIbase",
-      "source_name": "AIbase",
+      "story_id": "story_bab6f6953d7a",
+      "title": "近400家美国报纸起诉微软和OpenAI：未经授权抓取新闻内容训练AI",
+      "url": "https://www.ithome.com/0/968/872.htm",
+      "primary_url": "https://www.ithome.com/0/968/872.htm",
+      "source": "IT之家（RSS）",
+      "source_name": "AI HOT",
       "sources": [
         {
-          "id": "026e65a50fce400098e5e0b51a82d3a677a58815",
-          "title": "Adobe宣布收购视频与图像AI模型开发商Topaz Labs，深化Firefly生态布局",
-          "url": "https://www.aibase.com/news/29183",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-26T02:37:30.235851Z"
+          "id": "b66f49ab0dde70742499f100ab45e7708329182d",
+          "title": "近400家美国报纸起诉微软和OpenAI：未经授权抓取新闻内容训练AI",
+          "url": "https://www.ithome.com/0/968/872.htm",
+          "source": "IT之家（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-26T04:37:58Z"
         },
         {
-          "id": "d8d2f5843b13578219c43fa8cca3388230b1aa35",
-          "title": "Adobe 宣布收购视频与图像 AI 模型开发商 Topaz Labs，深化 Firefly 生态布局",
-          "url": "https://www.aibase.com/zh/news/29183",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
+          "id": "693d758be1695a9e76981ebabc8984eb7d4ab5c8",
+          "title": "近 400 家美国报纸联合起诉 OpenAI 和微软白嫖内容，AI 热潮恐成地方新闻“丧钟”",
+          "url": "https://www.ithome.com/0/968/872.htm",
+          "source": "IT之家 (ITHome)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-26T04:37:58Z"
         }
       ],
       "source_count": 2,
       "source_names": [
-        "AIbase",
-        "Readhub · AI"
+        "IT之家 (ITHome)",
+        "IT之家（RSS）"
       ],
       "items": [
         {
-          "id": "026e65a50fce400098e5e0b51a82d3a677a58815",
-          "title": "Adobe宣布收购视频与图像AI模型开发商Topaz Labs，深化Firefly生态布局",
-          "url": "https://www.aibase.com/news/29183",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-26T02:37:30.235851Z"
+          "id": "b66f49ab0dde70742499f100ab45e7708329182d",
+          "title": "近400家美国报纸起诉微软和OpenAI：未经授权抓取新闻内容训练AI",
+          "url": "https://www.ithome.com/0/968/872.htm",
+          "source": "IT之家（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-26T04:37:58Z"
         },
         {
-          "id": "d8d2f5843b13578219c43fa8cca3388230b1aa35",
-          "title": "Adobe 宣布收购视频与图像 AI 模型开发商 Topaz Labs，深化 Firefly 生态布局",
-          "url": "https://www.aibase.com/zh/news/29183",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
+          "id": "693d758be1695a9e76981ebabc8984eb7d4ab5c8",
+          "title": "近 400 家美国报纸联合起诉 OpenAI 和微软白嫖内容，AI 热潮恐成地方新闻“丧钟”",
+          "url": "https://www.ithome.com/0/968/872.htm",
+          "source": "IT之家 (ITHome)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-26T04:37:58Z"
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7449,
-      "importance": 0.7449,
-      "importance_score": 0.7449,
+      "score": 0.749,
+      "importance": 0.749,
+      "importance_score": 0.749,
       "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.72,
+        "editorial": 0.74,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7349,
+        "recency": 0.7245,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -1047,92 +925,72 @@
         "multi_source",
         "high_ai_relevance"
       ],
-      "earliest_at": "2026-06-26T02:37:30.235851Z",
-      "latest_at": "2026-06-26T02:37:30.235851Z",
+      "earliest_at": "2026-06-26T04:37:58Z",
+      "latest_at": "2026-06-26T04:37:58Z",
       "primary_item": {
-        "id": "026e65a50fce400098e5e0b51a82d3a677a58815",
-        "title": "Adobe宣布收购视频与图像AI模型开发商Topaz Labs，深化Firefly生态布局",
-        "url": "https://www.aibase.com/news/29183",
-        "source": "AIbase",
-        "source_name": "AIbase"
+        "id": "b66f49ab0dde70742499f100ab45e7708329182d",
+        "title": "近400家美国报纸起诉微软和OpenAI：未经授权抓取新闻内容训练AI",
+        "url": "https://www.ithome.com/0/968/872.htm",
+        "source": "IT之家（RSS）",
+        "source_name": "AI HOT"
       }
     },
     {
-      "story_id": "story_64377600f0f1",
-      "title": "不给数据就割肉？谷歌强推AI训练新规",
-      "url": "https://www.aibase.com/news/29184",
-      "primary_url": "https://www.aibase.com/news/29184",
+      "story_id": "story_91989e2294aa",
+      "title": "5 秒视频耗 10 部手机电量，AI产业正吞噬全球水电资源",
+      "url": "https://www.aibase.com/news/29200",
+      "primary_url": "https://www.aibase.com/news/29200",
       "source": "AIbase",
       "source_name": "AIbase",
       "sources": [
         {
-          "id": "495a41d44980a913dd229c351803a53e1bac841e",
-          "title": "不给数据就割肉？谷歌强推AI训练新规",
-          "url": "https://www.aibase.com/news/29184",
+          "id": "adb67ea2917ecdaca9e2cfee90d831832bc025e2",
+          "title": "5 秒视频耗 10 部手机电量，AI产业正吞噬全球水电资源",
+          "url": "https://www.aibase.com/news/29200",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-06-26T02:37:30.235851Z"
-        },
-        {
-          "id": "a2f71252969321ff44bbc61e21f7e5844e49643d",
-          "title": "不给数据就割肉？谷歌强推 AI 训练新规",
-          "url": "https://www.aibase.com/zh/news/29184",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
+          "published_at": "2026-06-26T10:16:42.916150Z"
         }
       ],
-      "source_count": 2,
+      "source_count": 1,
       "source_names": [
-        "AIbase",
-        "Readhub · AI"
+        "AIbase"
       ],
       "items": [
         {
-          "id": "495a41d44980a913dd229c351803a53e1bac841e",
-          "title": "不给数据就割肉？谷歌强推AI训练新规",
-          "url": "https://www.aibase.com/news/29184",
+          "id": "adb67ea2917ecdaca9e2cfee90d831832bc025e2",
+          "title": "5 秒视频耗 10 部手机电量，AI产业正吞噬全球水电资源",
+          "url": "https://www.aibase.com/news/29200",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-06-26T02:37:30.235851Z"
-        },
-        {
-          "id": "a2f71252969321ff44bbc61e21f7e5844e49643d",
-          "title": "不给数据就割肉？谷歌强推 AI 训练新规",
-          "url": "https://www.aibase.com/zh/news/29184",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
+          "published_at": "2026-06-26T10:16:42.916150Z"
         }
       ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7449,
-      "importance": 0.7449,
-      "importance_score": 0.7449,
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7291,
+      "importance": 0.7291,
+      "importance_score": 0.7291,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7349,
-        "story_heat": 0.25
+        "recency": 0.786,
+        "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "multi_source",
         "high_ai_relevance"
       ],
-      "earliest_at": "2026-06-26T02:37:30.235851Z",
-      "latest_at": "2026-06-26T02:37:30.235851Z",
+      "earliest_at": "2026-06-26T10:16:42.916150Z",
+      "latest_at": "2026-06-26T10:16:42.916150Z",
       "primary_item": {
-        "id": "495a41d44980a913dd229c351803a53e1bac841e",
-        "title": "不给数据就割肉？谷歌强推AI训练新规",
-        "url": "https://www.aibase.com/news/29184",
+        "id": "adb67ea2917ecdaca9e2cfee90d831832bc025e2",
+        "title": "5 秒视频耗 10 部手机电量，AI产业正吞噬全球水电资源",
+        "url": "https://www.aibase.com/news/29200",
         "source": "AIbase",
         "source_name": "AIbase"
       }
@@ -1191,15 +1049,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.6472,
-      "importance": 0.6472,
-      "importance_score": 0.6472,
+      "score": 0.6402,
+      "importance": 0.6402,
+      "importance_score": 0.6402,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.5688,
         "source_tier": 0.58,
         "ai_relevance": 0.79,
-        "recency": 0.9219,
+        "recency": 0.8829,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1214,6 +1072,66 @@
         "url": "https://techcrunch.com/2026/06/26/openai-poaches-uber-india-chief-to-lead-its-biggest-market-outside-the-u-s",
         "source": "TechCrunch AI",
         "source_name": "Curated Media"
+      }
+    },
+    {
+      "story_id": "story_7d1c29d1345d",
+      "title": "AI导购精准度仅16%，上海消保委直指电商算法：别把消费者当韭菜",
+      "url": "https://www.aibase.com/news/29203",
+      "primary_url": "https://www.aibase.com/news/29203",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "adaa5a493b87d0ceef08f2ff151dad7cd3521727",
+          "title": "AI导购精准度仅16%，上海消保委直指电商算法：别把消费者当韭菜",
+          "url": "https://www.aibase.com/news/29203",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-26T10:16:42.916150Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "adaa5a493b87d0ceef08f2ff151dad7cd3521727",
+          "title": "AI导购精准度仅16%，上海消保委直指电商算法：别把消费者当韭菜",
+          "url": "https://www.aibase.com/news/29203",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-26T10:16:42.916150Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7291,
+      "importance": 0.7291,
+      "importance_score": 0.7291,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.786,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-06-26T10:16:42.916150Z",
+      "latest_at": "2026-06-26T10:16:42.916150Z",
+      "primary_item": {
+        "id": "adaa5a493b87d0ceef08f2ff151dad7cd3521727",
+        "title": "AI导购精准度仅16%，上海消保委直指电商算法：别把消费者当韭菜",
+        "url": "https://www.aibase.com/news/29203",
+        "source": "AIbase",
+        "source_name": "AIbase"
       }
     },
     {
@@ -1308,15 +1226,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.6376,
-      "importance": 0.6376,
-      "importance_score": 0.6376,
+      "score": 0.6304,
+      "importance": 0.6304,
+      "importance_score": 0.6304,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.5112,
         "source_tier": 0.45,
         "ai_relevance": 0.71,
-        "recency": 0.9344,
+        "recency": 0.8949,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -1334,17 +1252,151 @@
       }
     },
     {
-      "story_id": "story_91989e2294aa",
-      "title": "5 秒视频耗 10 部手机电量，AI产业正吞噬全球水电资源",
-      "url": "https://www.aibase.com/news/29200",
-      "primary_url": "https://www.aibase.com/news/29200",
+      "story_id": "story_5a8665b1ad52",
+      "title": "美国允许 Anthropic 将 Mythos 发布给“值得信赖的合作伙伴” / US allows Anthropic to release Mythos to 'trusted partners'",
+      "url": "https://news.ycombinator.com/item?id=48692995",
+      "primary_url": "https://news.ycombinator.com/item?id=48692995",
+      "source": "hackernews",
+      "source_name": "NewsNow",
+      "sources": [
+        {
+          "id": "ae34e7a043b078cc7a561ff50d3ed17b617b23e5",
+          "title": "美国允许 Anthropic 将 Mythos 发布给“值得信赖的合作伙伴” / US allows Anthropic to release Mythos to 'trusted partners'",
+          "url": "https://news.ycombinator.com/item?id=48692995",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-27T02:47:08.177000Z"
+        },
+        {
+          "id": "dd45309d419eea6f6d84e242694e96e5e019c1ef",
+          "title": "美国允许Anthropic向“可信”的美国组织发布Mythos AI",
+          "url": "https://www.reuters.com/technology/us-releases-anthropic-model-mythos-some-us-companies-semafor-reports-2026-06-26",
+          "source": "www.reuters.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-27T02:04:00.943000Z"
+        },
+        {
+          "id": "6a701187d56861ab5100c26279c3f03d91efb511",
+          "title": "美国允许Anthropic向“可信合作伙伴”发布Mythos",
+          "url": "https://www.reuters.com/technology/us-releases-anthropic-model-mythos-some-us-companies-semafor-reports-2026-06-26",
+          "source": "www.reuters.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-27T00:11:58.551000Z"
+        },
+        {
+          "id": "809c1c6fcf94a70f5cc968075e4f1d90474cab77",
+          "title": "美国允许Anthropic向部分美国公司发布Mythos",
+          "url": "https://www.reuters.com/technology/us-releases-anthropic-model-mythos-some-us-companies-semafor-reports-2026-06-26",
+          "source": "www.reuters.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-26T23:08:04.089000Z"
+        },
+        {
+          "id": "c28716b9f2da3d92791681425fbe5ce9f748b641",
+          "title": "美国允许Anthropic向部分美国公司发布Mythos / US allows Anthropic to release Mythos to 'trusted partners'",
+          "url": "https://www.reuters.com/technology/us-releases-anthropic-model-mythos-some-us-companies-semafor-reports-2026-06-26",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-26T22:48:28Z"
+        }
+      ],
+      "source_count": 5,
+      "source_names": [
+        "Hacker News",
+        "hackernews",
+        "www.reuters.com"
+      ],
+      "items": [
+        {
+          "id": "ae34e7a043b078cc7a561ff50d3ed17b617b23e5",
+          "title": "美国允许 Anthropic 将 Mythos 发布给“值得信赖的合作伙伴” / US allows Anthropic to release Mythos to 'trusted partners'",
+          "url": "https://news.ycombinator.com/item?id=48692995",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-27T02:47:08.177000Z"
+        },
+        {
+          "id": "dd45309d419eea6f6d84e242694e96e5e019c1ef",
+          "title": "美国允许Anthropic向“可信”的美国组织发布Mythos AI",
+          "url": "https://www.reuters.com/technology/us-releases-anthropic-model-mythos-some-us-companies-semafor-reports-2026-06-26",
+          "source": "www.reuters.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-27T02:04:00.943000Z"
+        },
+        {
+          "id": "6a701187d56861ab5100c26279c3f03d91efb511",
+          "title": "美国允许Anthropic向“可信合作伙伴”发布Mythos",
+          "url": "https://www.reuters.com/technology/us-releases-anthropic-model-mythos-some-us-companies-semafor-reports-2026-06-26",
+          "source": "www.reuters.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-27T00:11:58.551000Z"
+        },
+        {
+          "id": "809c1c6fcf94a70f5cc968075e4f1d90474cab77",
+          "title": "美国允许Anthropic向部分美国公司发布Mythos",
+          "url": "https://www.reuters.com/technology/us-releases-anthropic-model-mythos-some-us-companies-semafor-reports-2026-06-26",
+          "source": "www.reuters.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-26T23:08:04.089000Z"
+        },
+        {
+          "id": "c28716b9f2da3d92791681425fbe5ce9f748b641",
+          "title": "美国允许Anthropic向部分美国公司发布Mythos / US allows Anthropic to release Mythos to 'trusted partners'",
+          "url": "https://www.reuters.com/technology/us-releases-anthropic-model-mythos-some-us-companies-semafor-reports-2026-06-26",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-26T22:48:28Z"
+        }
+      ],
+      "item_count": 5,
+      "duplicate_count": 5,
+      "score": 0.6204,
+      "importance": 0.6204,
+      "importance_score": 0.6204,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9976,
+        "story_heat": 1.0
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-26T22:48:28Z",
+      "latest_at": "2026-06-27T02:47:08.177000Z",
+      "primary_item": {
+        "id": "ae34e7a043b078cc7a561ff50d3ed17b617b23e5",
+        "title": "美国允许 Anthropic 将 Mythos 发布给“值得信赖的合作伙伴” / US allows Anthropic to release Mythos to 'trusted partners'",
+        "url": "https://news.ycombinator.com/item?id=48692995",
+        "source": "hackernews",
+        "source_name": "NewsNow"
+      }
+    },
+    {
+      "story_id": "story_dfc61ad06edf",
+      "title": "OpenAI Codex个人用户用量暴增 137 倍，AI编程已走出程序员圈子",
+      "url": "https://www.aibase.com/news/29198",
+      "primary_url": "https://www.aibase.com/news/29198",
       "source": "AIbase",
       "source_name": "AIbase",
       "sources": [
         {
-          "id": "adb67ea2917ecdaca9e2cfee90d831832bc025e2",
-          "title": "5 秒视频耗 10 部手机电量，AI产业正吞噬全球水电资源",
-          "url": "https://www.aibase.com/news/29200",
+          "id": "d6fcf852e50cfabe5377e3985ee152eaf3dc08aa",
+          "title": "OpenAI Codex个人用户用量暴增 137 倍，AI编程已走出程序员圈子",
+          "url": "https://www.aibase.com/news/29198",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
@@ -1357,9 +1409,9 @@
       ],
       "items": [
         {
-          "id": "adb67ea2917ecdaca9e2cfee90d831832bc025e2",
-          "title": "5 秒视频耗 10 部手机电量，AI产业正吞噬全球水电资源",
-          "url": "https://www.aibase.com/news/29200",
+          "id": "d6fcf852e50cfabe5377e3985ee152eaf3dc08aa",
+          "title": "OpenAI Codex个人用户用量暴增 137 倍，AI编程已走出程序员圈子",
+          "url": "https://www.aibase.com/news/29198",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
@@ -1368,15 +1420,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7353,
-      "importance": 0.7353,
-      "importance_score": 0.7353,
+      "score": 0.7291,
+      "importance": 0.7291,
+      "importance_score": 0.7291,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8207,
+        "recency": 0.786,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1386,11 +1438,128 @@
       "earliest_at": "2026-06-26T10:16:42.916150Z",
       "latest_at": "2026-06-26T10:16:42.916150Z",
       "primary_item": {
-        "id": "adb67ea2917ecdaca9e2cfee90d831832bc025e2",
-        "title": "5 秒视频耗 10 部手机电量，AI产业正吞噬全球水电资源",
-        "url": "https://www.aibase.com/news/29200",
+        "id": "d6fcf852e50cfabe5377e3985ee152eaf3dc08aa",
+        "title": "OpenAI Codex个人用户用量暴增 137 倍，AI编程已走出程序员圈子",
+        "url": "https://www.aibase.com/news/29198",
         "source": "AIbase",
         "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_2f3830581c59",
+      "title": "当人工智能来处理数学计算时，作为一名数学家意味着什么？",
+      "url": "https://spectrum.ieee.org/ai-in-mathematics",
+      "primary_url": "https://spectrum.ieee.org/ai-in-mathematics",
+      "source": "spectrum.ieee.org",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "5d84d25fe2ac570f1b4903abb2a5d2454d2837f4",
+          "title": "当人工智能来处理数学计算时，作为一名数学家意味着什么？",
+          "url": "https://spectrum.ieee.org/ai-in-mathematics",
+          "source": "spectrum.ieee.org",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-27T02:52:01.640000Z"
+        },
+        {
+          "id": "812158c826547bb11f3c1a4f6e3e6825270b50a7",
+          "title": "数学领域的人工智能正在提出重大问题 / AI in mathematics is forcing big questions",
+          "url": "https://news.ycombinator.com/item?id=48692883",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-27T02:47:08.177000Z"
+        },
+        {
+          "id": "bbe48ed56aada2c99206584379926d65038647e1",
+          "title": "当人工智能来处理数学计算时，作为一名数学家意味着什么？ / What does it mean to be a mathematician when AI does the math?",
+          "url": "https://spectrum.ieee.org/ai-in-mathematics",
+          "source": "Lobsters (技术社区)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-27T00:27:42Z"
+        },
+        {
+          "id": "b9c3fc59a5cff8cfbd7bf152d105512b9b046926",
+          "title": "当人工智能来处理数学计算时，作为一名数学家意味着什么？ / AI in mathematics is forcing big questions",
+          "url": "https://spectrum.ieee.org/ai-in-mathematics",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-26T22:36:51Z"
+        }
+      ],
+      "source_count": 4,
+      "source_names": [
+        "Hacker News · 24h最热",
+        "Lobsters (技术社区)",
+        "hackernews",
+        "spectrum.ieee.org"
+      ],
+      "items": [
+        {
+          "id": "5d84d25fe2ac570f1b4903abb2a5d2454d2837f4",
+          "title": "当人工智能来处理数学计算时，作为一名数学家意味着什么？",
+          "url": "https://spectrum.ieee.org/ai-in-mathematics",
+          "source": "spectrum.ieee.org",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-27T02:52:01.640000Z"
+        },
+        {
+          "id": "812158c826547bb11f3c1a4f6e3e6825270b50a7",
+          "title": "数学领域的人工智能正在提出重大问题 / AI in mathematics is forcing big questions",
+          "url": "https://news.ycombinator.com/item?id=48692883",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-27T02:47:08.177000Z"
+        },
+        {
+          "id": "bbe48ed56aada2c99206584379926d65038647e1",
+          "title": "当人工智能来处理数学计算时，作为一名数学家意味着什么？ / What does it mean to be a mathematician when AI does the math?",
+          "url": "https://spectrum.ieee.org/ai-in-mathematics",
+          "source": "Lobsters (技术社区)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-27T00:27:42Z"
+        },
+        {
+          "id": "b9c3fc59a5cff8cfbd7bf152d105512b9b046926",
+          "title": "当人工智能来处理数学计算时，作为一名数学家意味着什么？ / AI in mathematics is forcing big questions",
+          "url": "https://spectrum.ieee.org/ai-in-mathematics",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-26T22:36:51Z"
+        }
+      ],
+      "item_count": 4,
+      "duplicate_count": 4,
+      "score": 0.5956,
+      "importance": 0.5956,
+      "importance_score": 0.5956,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9988,
+        "story_heat": 0.75
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-26T22:36:51Z",
+      "latest_at": "2026-06-27T02:52:01.640000Z",
+      "primary_item": {
+        "id": "5d84d25fe2ac570f1b4903abb2a5d2454d2837f4",
+        "title": "当人工智能来处理数学计算时，作为一名数学家意味着什么？",
+        "url": "https://spectrum.ieee.org/ai-in-mathematics",
+        "source": "spectrum.ieee.org",
+        "source_name": "Buzzing"
       }
     },
     {
@@ -1447,15 +1616,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5934,
-      "importance": 0.5934,
-      "importance_score": 0.5934,
+      "score": 0.5865,
+      "importance": 0.5865,
+      "importance_score": 0.5865,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.5112,
         "source_tier": 0.5,
         "ai_relevance": 0.71,
-        "recency": 0.9056,
+        "recency": 0.8673,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1470,66 +1639,6 @@
         "url": "https://www.wired.com/story/openai-gpt-56-model-release-trump-admin-approval",
         "source": "Wired AI",
         "source_name": "OPML RSS"
-      }
-    },
-    {
-      "story_id": "story_7d1c29d1345d",
-      "title": "AI导购精准度仅16%，上海消保委直指电商算法：别把消费者当韭菜",
-      "url": "https://www.aibase.com/news/29203",
-      "primary_url": "https://www.aibase.com/news/29203",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "adaa5a493b87d0ceef08f2ff151dad7cd3521727",
-          "title": "AI导购精准度仅16%，上海消保委直指电商算法：别把消费者当韭菜",
-          "url": "https://www.aibase.com/news/29203",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-26T10:16:42.916150Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "adaa5a493b87d0ceef08f2ff151dad7cd3521727",
-          "title": "AI导购精准度仅16%，上海消保委直指电商算法：别把消费者当韭菜",
-          "url": "https://www.aibase.com/news/29203",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-26T10:16:42.916150Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7353,
-      "importance": 0.7353,
-      "importance_score": 0.7353,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8207,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-26T10:16:42.916150Z",
-      "latest_at": "2026-06-26T10:16:42.916150Z",
-      "primary_item": {
-        "id": "adaa5a493b87d0ceef08f2ff151dad7cd3521727",
-        "title": "AI导购精准度仅16%，上海消保委直指电商算法：别把消费者当韭菜",
-        "url": "https://www.aibase.com/news/29203",
-        "source": "AIbase",
-        "source_name": "AIbase"
       }
     }
   ]
