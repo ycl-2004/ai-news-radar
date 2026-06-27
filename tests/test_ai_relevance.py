@@ -72,6 +72,44 @@ class AiRelevanceScoringTests(unittest.TestCase):
         self.assertGreaterEqual(result["score"], 0.65)
         self.assertEqual(result["reason"], "trusted_ai_source_default_keep")
 
+    def test_curated_media_keeps_trusted_ai_feed(self):
+        rec = {
+            "site_id": "curated_media",
+            "site_name": "Curated Media",
+            "source": "TechCrunch AI",
+            "title": "Startup raises funding for enterprise workflow automation",
+            "url": "https://techcrunch.com/example",
+        }
+        result = score_ai_relevance(rec)
+        self.assertTrue(result["is_ai_related"])
+        self.assertEqual(result["reason"], "curated_media_source_filter")
+        self.assertEqual(result["label"], "industry_business")
+
+    def test_curated_general_feed_requires_title_signal(self):
+        rec = {
+            "site_id": "curated_media",
+            "site_name": "Curated Media",
+            "source": "The Verge",
+            "title": "A new phone accessory launches this week",
+            "url": "https://www.theverge.com/example",
+        }
+        result = score_ai_relevance(rec)
+        self.assertFalse(result["is_ai_related"])
+        self.assertEqual(result["reason"], "curated_media_requires_ai_title_or_trusted_ai_feed")
+
+    def test_curated_research_feed_is_research_labeled_and_capped(self):
+        rec = {
+            "site_id": "curated_media",
+            "site_name": "Curated Media",
+            "source": "MarkTechPost Research",
+            "title": "A new benchmark evaluates multimodal LLM reasoning",
+            "url": "https://www.marktechpost.com/example",
+        }
+        result = score_ai_relevance(rec)
+        self.assertTrue(result["is_ai_related"])
+        self.assertEqual(result["label"], "research_paper")
+        self.assertLessEqual(result["score"], 0.76)
+
     def test_adds_public_debug_fields(self):
         rec = {
             "site_id": "official_ai",

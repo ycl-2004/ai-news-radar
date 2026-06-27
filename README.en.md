@@ -54,12 +54,12 @@ Judge first. Then connect.
 
 <table>
   <tr>
-    <td><img src="assets/screenshots/ai-news-radar-v06-01.jpg" alt="AI News Radar v0.6 screenshot 1" /></td>
-    <td><img src="assets/screenshots/ai-news-radar-v06-02.jpg" alt="AI News Radar v0.6 screenshot 2" /></td>
+    <td><img src="assets/screenshots/ai-news-radar-current-01.jpg" alt="AI News Radar current homepage screenshot" /></td>
+    <td><img src="assets/screenshots/ai-news-radar-current-02.jpg" alt="AI News Radar current scout picks screenshot" /></td>
   </tr>
   <tr>
-    <td><img src="assets/screenshots/ai-news-radar-v06-03.jpg" alt="AI News Radar v0.6 screenshot 3" /></td>
-    <td><img src="assets/screenshots/ai-news-radar-v06-04.jpg" alt="AI News Radar v0.6 screenshot 4" /></td>
+    <td><img src="assets/screenshots/ai-news-radar-current-03.jpg" alt="AI News Radar current intelligence stream screenshot" /></td>
+    <td><img src="assets/screenshots/ai-news-radar-current-04.jpg" alt="AI News Radar current advanced filters and source status screenshot" /></td>
   </tr>
 </table>
 
@@ -113,7 +113,7 @@ v0.6 merged scattered messages into story lines. v0.7 answers the next question:
 
 **with this many stories, what is hot right now?**
 
-v0.7 ships four things:
+v0.7 ships these core pieces:
 
 - **Hot view**: Scout Picks gains a hot mode that ranks story clusters by multi-source mass × time decay — something is only "hot" when several independent sources are saying it. The view hides itself when there is no real multi-source heat.
 - **Quality over quantity**: a brief slot must be earned by multi-source confirmation or a strong score. On quiet days the picks block disappears entirely — no empty shell, the page falls back to the pure timeline.

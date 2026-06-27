@@ -65,6 +65,10 @@ TECH_KEYWORDS = [
     "gpu",
     "cloud",
     "developer",
+    "benchmark",
+    "dataset",
+    "eval",
+    "evaluation",
     "sandbox",
     "context",
     "开源",
@@ -145,14 +149,61 @@ AI_RELEVANCE_THRESHOLD = 0.65
 
 SOURCE_PRIORS = {
     "official_ai": 0.35,
+    "curated_media": 0.18,
     "aibase": 0.45,
     "aihot": 0.45,
     "aihubtoday": 0.45,
     "followbuilders": 0.25,
     "opmlrss": 0.15,
     "xapi": 0.15,
+    "socialdata_x": 0.15,
 }
 AI_DEFAULT_SOURCES = {"aibase", "aihot", "aihubtoday"}
+CURATED_MEDIA_TRUSTED_SOURCE_KEYWORDS = [
+    "the decoder ai news",
+    "techcrunch ai",
+    "venturebeat ai",
+    "artificial intelligence news",
+    "claude code releases",
+]
+CURATED_MEDIA_RESEARCH_SOURCE_KEYWORDS = [
+    "marktechpost research",
+]
+CURATED_MEDIA_RESEARCH_TERMS = [
+    "paper",
+    "arxiv",
+    "research",
+    "benchmark",
+    "bench",
+    "eval",
+    "evaluation",
+    "dataset",
+    "model",
+    "llm",
+    "agent",
+    "diffusion",
+    "transformer",
+    "multimodal",
+    "reasoning",
+    "inference",
+    "training",
+    "open-source",
+    "robot",
+    "governance",
+]
+CURATED_MEDIA_BUSINESS_TERMS = [
+    "funding",
+    "raises",
+    "raised",
+    "startup",
+    "acquire",
+    "acquisition",
+    "merger",
+    "revenue",
+    "enterprise",
+    "ipo",
+    "valuation",
+]
 
 LABEL_KEYWORDS = [
     ("model_release", ["model", "gpt", "claude", "gemini", "deepseek", "llm", "模型", "大模型", "发布", "release"]),
@@ -271,6 +322,56 @@ def score_ai_relevance(record: dict[str, Any]) -> dict[str, Any]:
                 signals=ai_signals + tech_signals,
                 noise=noise,
             )
+
+    if site_id == "curated_media":
+        source_l = source.lower()
+        title_l = title.lower()
+        trusted_source = contains_any_keyword(source_l, CURATED_MEDIA_TRUSTED_SOURCE_KEYWORDS)
+        research_source = contains_any_keyword(source_l, CURATED_MEDIA_RESEARCH_SOURCE_KEYWORDS)
+        title_has_ai = contains_meaningful_ai_signal(title_l)
+        title_has_broad_ai = contains_any_keyword(title_l, list(BROAD_AI_TERMS)) or EN_SIGNAL_RE.search(title_l) is not None
+        title_has_research = contains_any_keyword(title_l, CURATED_MEDIA_RESEARCH_TERMS)
+
+        if research_source and not (title_has_ai or title_has_research):
+            return _result(
+                is_ai_related=False,
+                score=0.22,
+                label="source_scope_drop",
+                reason="curated_research_source_requires_research_or_ai_title_signal",
+                signals=ai_signals + tech_signals,
+                noise=noise,
+            )
+
+        if not (trusted_source or research_source or title_has_ai or (title_has_broad_ai and bool(tech_signals))):
+            return _result(
+                is_ai_related=False,
+                score=source_prior + (0.28 if title_has_broad_ai else 0.0),
+                label="source_scope_drop",
+                reason="curated_media_requires_ai_title_or_trusted_ai_feed",
+                signals=ai_signals + tech_signals,
+                noise=noise,
+            )
+
+        if research_source or title_has_research:
+            label = "research_paper"
+        elif contains_any_keyword(title_l, CURATED_MEDIA_BUSINESS_TERMS):
+            label = "industry_business"
+        else:
+            label = _label_for_text(text, bool(tech_signals))
+        base = 0.58 if trusted_source else 0.5
+        score = source_prior + base + min(0.12, 0.03 * len(ai_signals)) + min(0.08, 0.02 * len(tech_signals))
+        if research_source:
+            score = min(score, 0.76)
+        if noise and not title_has_ai:
+            score -= min(0.16, 0.04 * len(noise))
+        return _result(
+            is_ai_related=score >= AI_RELEVANCE_THRESHOLD,
+            score=score,
+            label=label,
+            reason="curated_media_source_filter",
+            signals=ai_signals + tech_signals or ([source_l] if trusted_source else []),
+            noise=noise,
+        )
 
     if site_id in AI_DEFAULT_SOURCES:
         return _result(

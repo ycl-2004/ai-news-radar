@@ -6,42 +6,53 @@
   mm.add("(prefers-reduced-motion: no-preference)", function () {
     gsap.defaults({ duration: 0.55, ease: "power3.out" });
 
-    // Page intro timeline
-    const tl = gsap.timeline();
-    tl.from(".hero-headline", { autoAlpha: 0, y: 18, duration: 0.5 })
-      .from(".hero-sub", { autoAlpha: 0, y: 10, duration: 0.4 }, "-=0.2")
-      .from(".hero-meta", { autoAlpha: 0, y: 10, duration: 0.4 }, "-=0.25")
-      .from(".stat", { autoAlpha: 0, y: 14, scale: 0.98, stagger: 0.06, duration: 0.45 }, "-=0.15")
-      .from(".coverage-card", { autoAlpha: 0, y: 10, stagger: 0.045, duration: 0.4 }, "-=0.2")
-      .from(".primary-controls", { autoAlpha: 0, y: 8, duration: 0.4 }, "-=0.15")
-      .from(".advanced-panel", { autoAlpha: 0, y: 8, duration: 0.4 }, "-=0.3");
+    // Stats and section tabs are data-driven. Wait until app.js has rendered
+    // them so GSAP never tries to animate missing targets on first load.
+    document.addEventListener("aiRadar:ready", function () {
+      const tl = gsap.timeline();
+      const addFrom = function (selector, vars, position) {
+        if (document.querySelector(selector)) tl.from(selector, vars, position);
+      };
+      addFrom(".hero-headline", { autoAlpha: 0, y: 18, duration: 0.5 });
+      addFrom(".hero-sub", { autoAlpha: 0, y: 10, duration: 0.4 }, "-=0.2");
+      addFrom(".hero-meta", { autoAlpha: 0, y: 10, duration: 0.4 }, "-=0.25");
+      addFrom(".stat", { autoAlpha: 0, y: 14, scale: 0.98, stagger: 0.06, duration: 0.45 }, "-=0.15");
+      addFrom(".section-tab", { autoAlpha: 0, y: 10, stagger: 0.045, duration: 0.4 }, "-=0.2");
+      addFrom(".section-summary", { autoAlpha: 0, y: 8, duration: 0.35 }, "-=0.25");
+      addFrom(".primary-controls", { autoAlpha: 0, y: 8, duration: 0.4 }, "-=0.15");
+      addFrom(".advanced-panel", { autoAlpha: 0, y: 8, duration: 0.4 }, "-=0.3");
+    }, { once: true });
 
-    // 伯乐精选会在 daily-brief 或 fallback 渲染后触发；兼容 v0.6 story-row 与旧版 bole-row。
+    // Top stories render after data loads; keep legacy selectors for old data views.
     document.addEventListener("aiRadar:briefRendered", function () {
       const brief = document.querySelector(".bole-picks-wrap");
-      const cards = Array.from(document.querySelectorAll(".story-row, .bole-row")).slice(0, 24);
+      const cards = Array.from(document.querySelectorAll(".top-story-card, .story-row, .bole-row")).slice(0, 24);
       if (brief) {
-        gsap.fromTo(brief, { autoAlpha: 0, y: 16 }, { autoAlpha: 1, y: 0, duration: 0.45, clearProps: "transform,opacity,visibility" });
+        gsap.fromTo(brief, { y: 12 }, { y: 0, duration: 0.35, clearProps: "transform" });
       }
       if (!cards.length) return;
-      gsap.from(cards, { autoAlpha: 0, y: 16, scale: 0.98, stagger: 0.06, duration: 0.5, clearProps: "transform,opacity,visibility" });
+      gsap.killTweensOf(cards);
+      gsap.set(cards, { clearProps: "transform" });
+      gsap.from(cards, { autoAlpha: 0, stagger: 0.035, duration: 0.28, clearProps: "opacity,visibility" });
     });
 
     // List: animate first 30 visible cards on render/mode switch
     document.addEventListener("aiRadar:listRendered", function () {
-      const cards = Array.from(document.querySelectorAll(".news-card")).slice(0, 30);
+      const cards = Array.from(document.querySelectorAll(".intel-card, .news-card")).slice(0, 30);
       if (!cards.length) return;
       gsap.from(cards, { autoAlpha: 0, y: 12, stagger: 0.03, duration: 0.4, clearProps: "transform,opacity,visibility" });
     });
 
-    // Section scroll reveal via IntersectionObserver. Without IO, leave content visible.
+    // Section scroll reveal via IntersectionObserver. Keep sections visible:
+    // hiding whole content blocks can leave blank viewports after responsive
+    // reflow or rapid mobile scrolling.
     const revealEls = document.querySelectorAll(".bole-picks-wrap, .waytoagi-wrap, .list-wrap");
     if (revealEls.length && window.IntersectionObserver) {
-      gsap.set(revealEls, { autoAlpha: 0, y: 20 });
+      gsap.set(revealEls, { y: 14 });
       const observer = new IntersectionObserver(function (entries) {
         entries.forEach(function (entry) {
           if (entry.isIntersecting) {
-            gsap.to(entry.target, { autoAlpha: 1, y: 0, duration: 0.55, clearProps: "transform,opacity,visibility" });
+            gsap.to(entry.target, { y: 0, duration: 0.45, clearProps: "transform" });
             observer.unobserve(entry.target);
           }
         });

@@ -8,6 +8,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from email.utils import parseaddr
 import hashlib
 import json
+import math
 import os
 import random
 import re
@@ -116,7 +117,64 @@ OFFICIAL_AI_FEEDS: tuple[dict[str, str], ...] = (
     },
 )
 OFFICIAL_AI_MAX_AGE_DAYS = 45
+CURATED_AI_MEDIA_MAX_AGE_DAYS = 30
+CURATED_AI_MEDIA_FEEDS: tuple[dict[str, Any], ...] = (
+    {
+        "title": "The Decoder AI News",
+        "xml_url": "https://the-decoder.com/feed/",
+        "html_url": "https://the-decoder.com/",
+        "max_entries": 10,
+    },
+    {
+        "title": "TechCrunch AI",
+        "xml_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+        "html_url": "https://techcrunch.com/category/artificial-intelligence/",
+        "max_entries": 8,
+    },
+    {
+        # The Verge's AI topic RSS endpoint is not currently public/stable;
+        # keep the all-site RSS behind strict title-level AI filtering.
+        "title": "The Verge",
+        "xml_url": "https://www.theverge.com/rss/index.xml",
+        "html_url": "https://www.theverge.com/ai-artificial-intelligence",
+        "include_keywords": "ai,artificial intelligence,openai,anthropic,claude,chatgpt,gpt,gemini,llm,agent,copilot",
+        "max_entries": 6,
+        "strict_title_filter": True,
+    },
+    {
+        "title": "MarkTechPost Research",
+        "xml_url": "https://www.marktechpost.com/feed/",
+        "html_url": "https://www.marktechpost.com/",
+        "include_keywords": "paper,research,arxiv,benchmark,dataset,model,llm,agent,diffusion,transformer,multimodal,reasoning,inference,training,open-source",
+        "max_entries": 6,
+        "strict_title_filter": True,
+        "research_only": True,
+    },
+    {
+        "title": "VentureBeat AI",
+        "xml_url": "https://venturebeat.com/category/ai/feed",
+        "html_url": "https://venturebeat.com/category/ai/",
+        "max_entries": 8,
+    },
+    {
+        "title": "Artificial Intelligence News",
+        "xml_url": "https://www.artificialintelligence-news.com/feed/",
+        "html_url": "https://www.artificialintelligence-news.com/",
+        "max_entries": 8,
+    },
+    {
+        "title": "Claude Code Releases",
+        "xml_url": "https://github.com/anthropics/claude-code/releases.atom",
+        "html_url": "https://github.com/anthropics/claude-code/releases",
+        "max_entries": 6,
+    },
+)
 AIBREAKFAST_JINA_URL = "https://r.jina.ai/https://aibreakfast.beehiiv.com/"
+AIHOT_ITEMS_API_URL = "https://aihot.virxact.com/api/public/items"
+AIHOT_MIN_SCORE = 60
+AIHOT_API_TAKE = 100
+AIHOT_API_MAX_PAGES = 5
+AIHOT_API_UA = f"{BROWSER_UA} aihot-skill/0.2.0 AI-News-Radar/0.7"
 AIHOT_FEED_URL = "https://aihot.virxact.com/feed.xml"
 AIHOT_FALLBACK_FEED_URLS = (
     "https://aihot.virxact.com/rss.xml",
@@ -124,14 +182,118 @@ AIHOT_FALLBACK_FEED_URLS = (
     "https://aihot.virxact.com/feed/daily.xml",
 )
 FOLLOW_BUILDERS_FEED_BASE = "https://raw.githubusercontent.com/zarazhangrui/follow-builders/main"
+HN_ALGOLIA_URL = "https://hn.algolia.com/api/v1/search_by_date"
+HN_ALGOLIA_QUERIES: tuple[str, ...] = (
+    "OpenAI",
+    "Anthropic",
+    "Claude Code",
+    "Claude",
+    "Gemini",
+    "Google AI",
+    "DeepSeek",
+    "Qwen",
+    "AI agent",
+    "AI coding",
+    "Codex",
+    "Cursor",
+    "MCP",
+    "LLM",
+    "GPT",
+    "Sora",
+    "Copilot",
+    "Nvidia AI",
+)
+HN_ALGOLIA_KEYWORDS: tuple[str, ...] = (
+    "openai",
+    "anthropic",
+    "claude",
+    "claude code",
+    "codex",
+    "cursor",
+    "mcp",
+    "gemini",
+    "deepseek",
+    "qwen",
+    "llm",
+    "gpt",
+    "sora",
+    "copilot",
+    "agent",
+    "ai coding",
+    "benchmark",
+    "eval",
+    "paper",
+    "model",
+    "inference",
+)
+HN_ALGOLIA_HITS_PER_QUERY = 35
+HN_ALGOLIA_MIN_KEYWORD_SCORE = 0.38
+HN_ALGOLIA_MIN_COMMENTS = 2
+HN_ALGOLIA_MIN_POINTS = 10
+HN_ALGOLIA_QUERY_PAUSE_SECONDS = 0.1
 AGENTMAIL_API_BASE_DEFAULT = "https://api.agentmail.to"
 AGENTMAIL_DIGEST_FILE = "email-digest.json"
 AGENTMAIL_DEFAULT_LIMIT = 50
+PAID_SOURCE_STATE_FILE = "paid-source-state.json"
+PAID_SOURCE_DEFAULT_INTERVAL_HOURS = 24
+PAID_SOURCE_DEFAULT_INTERVAL_HOURS_BY_PREFIX = {
+    "SOCIALDATA": 12,
+    "TIKHUB": 24,
+}
+PAID_SOURCE_MAX_INTERVAL_HOURS = 24 * 14
 X_API_BASE_DEFAULT = "https://api.x.com"
 X_API_POST_READ_COST_USD = 0.005
 X_API_DEFAULT_QUERY = '(AI OR "artificial intelligence" OR "large language model" OR LLM) lang:en -is:retweet has:links'
 X_API_DEFAULT_MAX_RESULTS = 20
 X_API_MAX_QUERY_CHARS = 512
+SOCIALDATA_API_BASE_DEFAULT = "https://api.socialdata.tools"
+SOCIALDATA_TWEET_READ_COST_USD = 0.0002
+SOCIALDATA_DEFAULT_QUERY = '(AI OR "artificial intelligence" OR LLM OR "large language model" OR 人工智能 OR 大模型 OR 大语言模型 OR AIGC OR 智能体 OR Agent) (lang:en OR lang:zh) -filter:retweets'
+SOCIALDATA_DEFAULT_MAX_RESULTS = 20
+SOCIALDATA_MAX_QUERY_CHARS = 512
+# Curated X list "AI is cool, i guess" (owner @aiwarts). The list timeline pulls
+# each member's own posts by identity, which is far higher-signal than the broad
+# keyword search. No member is excluded by default; set SOCIALDATA_LIST_EXCLUDE
+# (comma-separated handles) to drop specific accounts if needed.
+SOCIALDATA_LIST_ID_DEFAULT = "1695376776867062037"
+SOCIALDATA_LIST_DEFAULT_MAX_RESULTS = 50
+SOCIALDATA_LIST_DEFAULT_EXCLUDE = ""
+# Hard cap on list pagination so a heavily-filtered list can't page (and bill)
+# without bound. Each page is a paid read.
+SOCIALDATA_LIST_MAX_PAGES = 10
+# Exact recency window for SocialData results, in days (search + list). Kept
+# consistent with TikHub. Tweets older than this are dropped after fetch.
+SOCIALDATA_RECENCY_DAYS = 4
+# Keep only first-party posts; drop retweets and replies (conversational noise).
+SOCIALDATA_LIST_ALLOWED_TYPES = frozenset({"tweet", "quote"})
+TIKHUB_API_BASE_DEFAULT = "https://api.tikhub.io"
+TIKHUB_DEFAULT_QUERY = "OpenAI,Claude,大模型,Agent,AI工具,人工智能,AI"
+TIKHUB_DEFAULT_PLATFORMS = "douyin,xiaohongshu"
+TIKHUB_DEFAULT_MAX_RESULTS = 20
+TIKHUB_MAX_QUERY_CHARS = 256
+TIKHUB_RESPONSE_SCAN_LIMIT = 100
+CREATOR_HOT_WINDOW_DAYS = 7
+CREATOR_FRESHNESS_BONUS_HOURS = 24
+CREATOR_FRESHNESS_BONUS_POINTS = 15.0
+CREATOR_SITE_IDS = frozenset({"tikhub_douyin", "tikhub_xiaohongshu"})
+# --- TikHub search ranking / time-window tuning (edit here, no env var needed) ---
+# Exact recency window for TikHub results, in days. Douyin/Xiaohongshu search
+# only expose coarse buckets (不限/一天内/一周内/半年内), so we ask the API for
+# 一周内 and then enforce the exact current-week window in code.
+TIKHUB_RECENCY_DAYS = 7              # keep only current-week posts
+# Douyin fetch_general_search_v2 enums (standard Douyin search filter):
+#   sort_type:    0=综合, 1=最多点赞(most likes), 2=最新
+#   publish_time: 0=不限, 1=一天内, 7=一周内, 180=半年内
+TIKHUB_DOUYIN_SORT_TYPE = "1"        # 最多点赞 / most likes
+TIKHUB_DOUYIN_PUBLISH_TIME = "7"     # 一周内; real cap = TIKHUB_RECENCY_DAYS
+# Xiaohongshu search. app_v2 uses the app's filter labels; sort uses the
+# popularity/time/general tokens (web_v3 already takes "time_descending").
+#   sort:        general(综合) / time_descending(最新) / popularity_descending(最多点赞/最热)
+#   note_type:   "不限"(app_v2, all) ; web_v3 uses 0 for "all"
+#   time_filter: "不限" / "一天内" / "一周内" / "半年内"
+TIKHUB_XHS_SORT = "popularity_descending"  # 最多点赞 / most likes
+TIKHUB_XHS_NOTE_TYPE = "不限"               # all note types
+TIKHUB_XHS_TIME_FILTER = "一周内"           # 一周内; real cap = TIKHUB_RECENCY_DAYS
 
 
 @dataclass
@@ -143,6 +305,16 @@ class RawItem:
     url: str
     published_at: datetime | None
     meta: dict[str, Any]
+
+
+PUBLIC_RAW_META_FIELDS: tuple[str, ...] = (
+    "aihot_score",
+    "aihot_category",
+    "aihot_selected",
+    "creator_metrics",
+    "search_surface",
+    "summary",
+)
 
 
 def utc_now() -> datetime:
@@ -417,6 +589,14 @@ def parse_date_any(value: Any, now: datetime) -> datetime | None:
         return None
 
 
+def apply_public_raw_meta(record: dict[str, Any], raw: RawItem) -> None:
+    """Promote safe source metadata needed by public scoring and UI ranking."""
+    meta = raw.meta if isinstance(raw.meta, dict) else {}
+    for key in PUBLIC_RAW_META_FIELDS:
+        if key in meta and meta.get(key) is not None:
+            record[key] = sanitize_public_value(meta.get(key))
+
+
 def decode_escaped_json(raw: str) -> dict[str, Any] | None:
     s = raw.replace('\\"', '"').replace("\\/", "/")
     try:
@@ -670,6 +850,37 @@ def fetch_waytoagi_recent_7d(session: requests.Session, now_utc: datetime, root_
         "has_error": False,
         "error": None,
     }
+
+
+def waytoagi_updates_to_raw_items(payload: dict[str, Any], now: datetime) -> list[RawItem]:
+    updates = payload.get("updates_today")
+    if not isinstance(updates, list):
+        updates = []
+    out: list[RawItem] = []
+    for update in updates:
+        if not isinstance(update, dict):
+            continue
+        title = str(update.get("title") or "").strip()
+        url = str(update.get("url") or payload.get("root_url") or WAYTOAGI_DEFAULT).strip()
+        if not title or not url:
+            continue
+        update_date = str(update.get("date") or payload.get("latest_date") or "").strip()
+        source = f"社区更新 · {update_date}" if update_date else "社区更新"
+        out.append(
+            RawItem(
+                site_id="waytoagi",
+                site_name="WaytoAGI",
+                source=source,
+                title=title,
+                url=url,
+                # WaytoAGI update logs only expose a date. Treat currently
+                # visible latest-date entries as fresh community signals for
+                # the 24h board while the 7d payload keeps exact date context.
+                published_at=now,
+                meta={"summary": title},
+            )
+        )
+    return out
 
 
 def create_session() -> requests.Session:
@@ -1099,6 +1310,110 @@ def fetch_zeli(session: requests.Session, now: datetime) -> list[RawItem]:
     return out
 
 
+def hn_algolia_keyword_score(title: str) -> float:
+    blob = title.lower()
+    hits = 0
+    for keyword in HN_ALGOLIA_KEYWORDS:
+        if re.search(rf"(?<![a-z0-9]){re.escape(keyword)}(?![a-z0-9])", blob):
+            hits += 1
+    return min(1.0, hits / 3)
+
+
+def parse_hn_algolia_hits(payloads: list[tuple[str, dict[str, Any]]], now: datetime) -> list[RawItem]:
+    seen_ids: set[str] = set()
+    out: list[RawItem] = []
+
+    for query, payload in payloads:
+        hits = payload.get("hits")
+        if not isinstance(hits, list):
+            continue
+
+        for hit in hits:
+            if not isinstance(hit, dict):
+                continue
+            object_id = str(hit.get("objectID") or "").strip()
+            if not object_id or object_id in seen_ids:
+                continue
+            seen_ids.add(object_id)
+
+            title = maybe_fix_mojibake(str(first_non_empty(hit.get("title"), hit.get("story_title"))))
+            if not title or hn_algolia_keyword_score(title) < HN_ALGOLIA_MIN_KEYWORD_SCORE:
+                continue
+
+            try:
+                comments = int(hit.get("num_comments") or 0)
+            except Exception:
+                comments = 0
+            try:
+                points = int(hit.get("points") or 0)
+            except Exception:
+                points = 0
+            if comments < HN_ALGOLIA_MIN_COMMENTS and points < HN_ALGOLIA_MIN_POINTS:
+                continue
+
+            item_url = str(hit.get("url") or "").strip()
+            hn_url = f"https://news.ycombinator.com/item?id={object_id}"
+            published = parse_date_any(hit.get("created_at"), now) or parse_unix_timestamp(hit.get("created_at_i")) or now
+
+            out.append(
+                RawItem(
+                    site_id="hackernews",
+                    site_name="Hacker News",
+                    source="HN Algolia · AI 24h",
+                    title=title,
+                    url=item_url or hn_url,
+                    published_at=published,
+                    meta={
+                        "hn_id": object_id,
+                        "hn_url": hn_url,
+                        "hn_query": query,
+                        "hn_comments": comments,
+                        "hn_points": points,
+                    },
+                )
+            )
+
+    out.sort(
+        key=lambda item: (
+            int(item.meta.get("hn_comments") or 0),
+            int(item.meta.get("hn_points") or 0),
+            item.published_at or datetime.min.replace(tzinfo=UTC),
+        ),
+        reverse=True,
+    )
+    return out
+
+
+def fetch_hacker_news_algolia(session: requests.Session, now: datetime) -> list[RawItem]:
+    start_ts = int((now - timedelta(hours=24)).timestamp())
+    payloads: list[tuple[str, dict[str, Any]]] = []
+    errors: list[str] = []
+
+    for query in HN_ALGOLIA_QUERIES:
+        try:
+            response = session.get(
+                HN_ALGOLIA_URL,
+                params={
+                    "query": query,
+                    "tags": "story",
+                    "numericFilters": f"created_at_i>{start_ts}",
+                    "hitsPerPage": HN_ALGOLIA_HITS_PER_QUERY,
+                },
+                headers={"Accept": "application/json"},
+                timeout=16,
+            )
+            response.raise_for_status()
+            payloads.append((query, response.json()))
+        except Exception as exc:
+            errors.append(f"{query}: {exc}")
+        time.sleep(HN_ALGOLIA_QUERY_PAUSE_SECONDS)
+
+    if not payloads and errors:
+        raise ValueError(f"HN Algolia queries failed: {'; '.join(errors[:3])}")
+
+    return parse_hn_algolia_hits(payloads, now)
+
+
 def parse_anthropic_news_items(page_html: str, now: datetime) -> list[RawItem]:
     site_id = "official_ai"
     site_name = "Official AI Updates"
@@ -1254,6 +1569,113 @@ def fetch_feed_as_official_items(
             )
         )
 
+    return out
+
+
+def feed_entry_title_link_published(entry: dict[str, Any], now: datetime) -> tuple[str, str, datetime | None]:
+    title = maybe_fix_mojibake(str(entry.get("title", "")).strip())
+    link = str(entry.get("link", "")).strip()
+    published = (
+        parse_date_any(entry.get("published"), now)
+        or parse_date_any(entry.get("updated"), now)
+        or parse_date_any(entry.get("pubDate"), now)
+    )
+    return title, link, published
+
+
+def feed_keywords(feed: dict[str, Any]) -> list[str]:
+    return [
+        keyword.strip().lower()
+        for keyword in str(feed.get("include_keywords") or "").split(",")
+        if keyword.strip()
+    ]
+
+
+def curated_feed_entry_allowed(feed: dict[str, Any], title: str, link: str) -> bool:
+    include_keywords = feed_keywords(feed)
+    if not include_keywords:
+        return True
+    haystack = title.lower()
+    if not feed.get("strict_title_filter"):
+        haystack = f"{haystack} {link.lower()} {feed.get('title', '').lower()}"
+    return any(keyword in haystack for keyword in include_keywords)
+
+
+def parse_curated_ai_media_feed_items(
+    feed_content: bytes,
+    feed: dict[str, Any],
+    now: datetime,
+) -> list[RawItem]:
+    site_id = "curated_media"
+    site_name = "Curated Media"
+    feed_url = str(feed["xml_url"])
+    feed_title = str(feed["title"])
+
+    if feedparser is not None:
+        parsed = feedparser.parse(feed_content)
+        entries = list(parsed.entries)
+    else:
+        entries = parse_feed_entries_via_xml(feed_content)
+
+    out: list[RawItem] = []
+    seen_urls: set[str] = set()
+    max_entries = max(1, int(feed.get("max_entries") or 8))
+    for entry in entries:
+        title, link, published = feed_entry_title_link_published(entry, now)
+        if not title or not link or not published:
+            continue
+        if published < now - timedelta(days=CURATED_AI_MEDIA_MAX_AGE_DAYS):
+            continue
+        if not curated_feed_entry_allowed(feed, title, link):
+            continue
+        normalized_url = normalize_url(link)
+        if normalized_url in seen_urls:
+            continue
+        seen_urls.add(normalized_url)
+        out.append(
+            RawItem(
+                site_id=site_id,
+                site_name=site_name,
+                source=feed_title,
+                title=title,
+                url=link,
+                published_at=published,
+                meta={
+                    "feed_url": feed_url,
+                    "feed_home": feed.get("html_url") or "",
+                    "research_only": bool(feed.get("research_only")),
+                    "strict_title_filter": bool(feed.get("strict_title_filter")),
+                },
+            )
+        )
+        if len(out) >= max_entries:
+            break
+
+    return out
+
+
+def fetch_curated_ai_media(session: requests.Session, now: datetime) -> list[RawItem]:
+    out: list[RawItem] = []
+    failures: list[str] = []
+
+    for feed in CURATED_AI_MEDIA_FEEDS:
+        try:
+            resp = session.get(
+                str(feed["xml_url"]),
+                timeout=20,
+                headers={
+                    "User-Agent": BROWSER_UA,
+                    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+                    "Accept": "application/rss+xml, application/atom+xml, application/xml, text/xml, */*",
+                },
+            )
+            resp.raise_for_status()
+            out.extend(parse_curated_ai_media_feed_items(resp.content, feed, now))
+        except Exception:
+            failures.append(str(feed.get("title") or feed.get("xml_url") or "unknown"))
+
+    if not out and failures:
+        raise ValueError(f"No curated media items parsed; failed feeds: {', '.join(failures[:4])}")
     return out
 
 
@@ -1487,101 +1909,47 @@ def normalize_aihubtoday_records(items: list[dict[str, Any]]) -> list[dict[str, 
     return keep
 
 
+AIHUBTODAY_RSS_URL = "https://hex2077.dev/rss-zh-CN.xml"
+
+
 def fetch_ai_hubtoday(session: requests.Session, now: datetime) -> list[RawItem]:
     site_id = "aihubtoday"
     site_name = "AI HubToday"
-
-    r = session.get("https://ai.hubtoday.app/", timeout=30)
+    # ai.hubtoday.app migrated to hex2077.dev (a Next.js SPA), so the old HTML
+    # selectors no longer match and produced 0 usable items. Read the site's
+    # structured RSS feed instead: every entry has a real title, link and date,
+    # which is far more robust than scraping a client-rendered page.
+    r = session.get(AIHUBTODAY_RSS_URL, timeout=30)
     r.raise_for_status()
-    soup = BeautifulSoup(r.text, "html.parser")
-
-    issue_date = None
-    text = soup.get_text(" ", strip=True)
-    m = re.search(r"AI资讯日报\s*(\d{4})/(\d{1,2})/(\d{1,2})", text)
-    if not m:
-        m = re.search(r"AI资讯日报\s*(\d{4})-(\d{1,2})-(\d{1,2})", text)
-    if m:
-        issue_date = datetime(
-            int(m.group(1)),
-            int(m.group(2)),
-            int(m.group(3)),
-            tzinfo=UTC,
-        )
+    if feedparser is not None:
+        entries = list(feedparser.parse(r.content).entries)
+    else:
+        entries = parse_feed_entries_via_xml(r.content)
 
     out: list[RawItem] = []
     seen_urls: set[str] = set()
-
-    def add_item(title: str, href: str, source: str = "Daily Digest", fallback_title: str | None = None) -> None:
-        title = (title or "").strip()
-        href = (href or "").strip()
-        fallback_title = (fallback_title or "").strip()
-        if is_hubtoday_generic_anchor_title(title) and fallback_title:
-            title = fallback_title
-        if len(title) < 5 or not href.startswith("http"):
-            return
-        if title in {"自媒体账号"} or "source.hubtoday.app" in href or is_hubtoday_generic_anchor_title(title):
-            return
-        key_url = normalize_url(href)
+    for entry in entries:
+        title, link, published = feed_entry_title_link_published(entry, now)
+        if len(title) < 5 or not link.startswith("http"):
+            continue
+        if is_hubtoday_placeholder_title(title):
+            continue
+        key_url = normalize_url(link)
         if key_url in seen_urls:
-            return
+            continue
         seen_urls.add(key_url)
         out.append(
             RawItem(
                 site_id=site_id,
                 site_name=site_name,
-                source=source,
+                source="Daily Digest",
                 title=title,
-                url=href,
-                published_at=issue_date,
-                meta={},
+                url=link,
+                published_at=published,
+                meta={"feed_url": AIHUBTODAY_RSS_URL},
             )
         )
-
-    for p in soup.select("article .content li p"):
-        link = p.select_one("a[href^='http']")
-        if not link:
-            continue
-        strong = p.find("strong")
-        strong_title = strong.get_text(" ", strip=True) if strong else ""
-        add_item(strong_title, link.get("href") or "", source="Daily Digest")
-
-    for a in soup.select("article .content a[target='_blank']"):
-        fallback_title = ""
-        p = a.find_parent("p")
-        if p:
-            strong = p.find("strong")
-            if strong:
-                fallback_title = strong.get_text(" ", strip=True)
-        add_item(a.get_text(" ", strip=True), a.get("href") or "", fallback_title=fallback_title)
-
-    # include article-level links without target='_blank' (e.g. GitHub 链接)
-    for a in soup.select("article a[href^='http']"):
-        fallback_title = ""
-        p = a.find_parent("p")
-        if p:
-            strong = p.find("strong")
-            if strong:
-                fallback_title = strong.get_text(" ", strip=True)
-        add_item(a.get_text(" ", strip=True), a.get("href") or "", fallback_title=fallback_title)
-
-    if not out:
-        # fallback: parse all external links in page when article container changes
-        for a in soup.select("a[href^='http']"):
-            fallback_title = ""
-            p = a.find_parent("p")
-            if p:
-                strong = p.find("strong")
-                if strong:
-                    fallback_title = strong.get_text(" ", strip=True)
-            add_item(
-                a.get_text(" ", strip=True),
-                a.get("href") or "",
-                source="Page Fallback",
-                fallback_title=fallback_title,
-            )
-
     return out
-
 
 def fetch_aibase(session: requests.Session, now: datetime) -> list[RawItem]:
     site_id = "aibase"
@@ -1672,28 +2040,89 @@ def parse_aihot_feed_items(feed_content: bytes, now: datetime, feed_url: str = A
     return out
 
 
-def fetch_aihot(session: requests.Session, now: datetime) -> list[RawItem]:
-    last_error: Exception | None = None
-    for feed_url in (AIHOT_FEED_URL, *AIHOT_FALLBACK_FEED_URLS):
+def parse_aihot_api_items(payload: dict[str, Any], now: datetime | None = None) -> list[RawItem]:
+    site_id = "aihot"
+    site_name = "AI HOT"
+    out: list[RawItem] = []
+    seen_urls: set[str] = set()
+
+    raw_items = payload.get("items")
+    if not isinstance(raw_items, list):
+        return out
+
+    for entry in raw_items:
+        if not isinstance(entry, dict):
+            continue
+        raw_score = entry.get("score")
+        if isinstance(raw_score, bool):
+            continue
         try:
-            r = session.get(
-                feed_url,
-                timeout=30,
-                headers={
-                    "User-Agent": BROWSER_UA,
-                    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
-                    "Accept": "application/rss+xml, application/xml, text/xml, */*",
+            score = float(raw_score)
+        except (TypeError, ValueError):
+            continue
+        if score < AIHOT_MIN_SCORE:
+            continue
+
+        title = maybe_fix_mojibake(str(first_non_empty(entry.get("title"), entry.get("title_en")) or "").strip())
+        link = str(entry.get("url") or "").strip()
+        if not title or not link:
+            continue
+        normalized_url = normalize_url(link)
+        if normalized_url in seen_urls:
+            continue
+        seen_urls.add(normalized_url)
+
+        published = parse_iso(str(entry.get("publishedAt") or "")) or parse_date_any(entry.get("publishedAt"), now)
+        source = maybe_fix_mojibake(str(first_non_empty(entry.get("source"), site_name)))
+        score_value: int | float = int(score) if score.is_integer() else score
+        out.append(
+            RawItem(
+                site_id=site_id,
+                site_name=site_name,
+                source=source,
+                title=title,
+                url=link,
+                published_at=published,
+                meta={
+                    "api_url": AIHOT_ITEMS_API_URL,
+                    "aihot_id": entry.get("id"),
+                    "aihot_score": score_value,
+                    "aihot_category": entry.get("category"),
+                    "aihot_selected": bool(entry.get("selected")),
+                    "summary": entry.get("summary"),
                 },
             )
-            r.raise_for_status()
-            items = parse_aihot_feed_items(r.content, now, feed_url=feed_url)
-            if items:
-                return items
-        except Exception as exc:
-            last_error = exc
-    if last_error is not None:
-        raise last_error
-    return []
+        )
+
+    return out
+
+
+def fetch_aihot(session: requests.Session, now: datetime) -> list[RawItem]:
+    out: list[RawItem] = []
+    cursor = ""
+    for _ in range(AIHOT_API_MAX_PAGES):
+        params: dict[str, Any] = {"mode": "selected", "take": AIHOT_API_TAKE}
+        if cursor:
+            params["cursor"] = cursor
+        r = session.get(
+            AIHOT_ITEMS_API_URL,
+            timeout=30,
+            params=params,
+            headers={
+                "User-Agent": AIHOT_API_UA,
+                "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+                "Accept": "application/json",
+            },
+        )
+        r.raise_for_status()
+        payload = r.json()
+        out.extend(parse_aihot_api_items(payload, now))
+        cursor = str(payload.get("nextCursor") or "")
+        if not payload.get("hasNext") or not cursor:
+            break
+    return out
+
+
 
 
 def extract_newsnow_source_ids(js: str) -> list[str]:
@@ -1852,6 +2281,7 @@ def fetch_newsnow(session: requests.Session, now: datetime) -> list[RawItem]:
 def collect_all(session: requests.Session, now: datetime) -> tuple[list[RawItem], list[dict[str, Any]]]:
     tasks = [
         ("official_ai", "Official AI Updates", fetch_official_ai_updates),
+        ("curated_media", "Curated Media", fetch_curated_ai_media),
         ("aibreakfast", "AI Breakfast", fetch_ai_breakfast),
         ("followbuilders", "Follow Builders", fetch_follow_builders),
         ("techurls", "TechURLs", fetch_techurls),
@@ -1860,6 +2290,7 @@ def collect_all(session: requests.Session, now: datetime) -> tuple[list[RawItem]
         ("bestblogs", "BestBlogs", fetch_bestblogs),
         ("tophub", "TopHub", fetch_tophub),
         ("zeli", "Zeli", fetch_zeli),
+        ("hackernews", "Hacker News", fetch_hacker_news_algolia),
         ("aihubtoday", "AI HubToday", fetch_ai_hubtoday),
         ("aibase", "AIbase", fetch_aibase),
         ("aihot", "AI HOT", fetch_aihot),
@@ -2301,27 +2732,36 @@ def event_time(record: dict[str, Any]) -> datetime | None:
 
 SOURCE_TIER_BY_SITE: dict[str, tuple[str, str, int]] = {
     "official_ai": ("official", "官方一手源", 0),
+    "curated_media": ("ai_media", "精选AI媒体", 2),
     "aibreakfast": ("ai_vertical", "AI垂直源", 1),
     "aihubtoday": ("ai_vertical", "AI垂直源", 1),
     "aibase": ("ai_vertical", "AI垂直源", 1),
     "aihot": ("ai_vertical", "AI垂直源", 1),
     "bestblogs": ("ai_vertical", "AI垂直源", 1),
+    "waytoagi": ("community", "社区更新", 2),
     "followbuilders": ("builders", "Builders/X源", 2),
     "opmlrss": ("user_opml", "RSS/OPML", 3),
+    "tikhub_douyin": ("self_media", "自媒体源", 4),
+    "tikhub_xiaohongshu": ("self_media", "自媒体源", 4),
     "xapi": ("advanced", "高级源", 4),
+    "socialdata_x": ("advanced", "高级源", 4),
     "techurls": ("discussion", "热议参考", 5),
     "buzzing": ("discussion", "热议参考", 5),
     "iris": ("discussion", "热议参考", 5),
     "tophub": ("discussion", "热议参考", 5),
     "zeli": ("discussion", "热议参考", 5),
+    "hackernews": ("discussion", "热议参考", 5),
     "newsnow": ("discussion", "热议参考", 5),
 }
 
 SOURCE_TIER_IMPORTANCE = {
     "official": 1.0,
     "ai_vertical": 0.78,
+    "ai_media": 0.58,
+    "community": 0.54,
     "builders": 0.62,
     "user_opml": 0.5,
+    "self_media": 0.48,
     "advanced": 0.45,
     "discussion": 0.32,
     "other": 0.25,
@@ -2691,6 +3131,19 @@ def env_flag(name: str) -> bool:
     return str(os.environ.get(name) or "").strip().lower() in {"1", "true", "yes", "on"}
 
 
+def env_flag_default(name: str, default: bool) -> bool:
+    """Three-state toggle: unset/blank -> default; explicit truthy/falsey wins.
+
+    Used for the *_ENABLED switches so API-key presence is the primary driver
+    (key in env -> source runs) while ENABLED stays available as an explicit
+    kill switch: set it to 0/false/no/off to force a paid source off even when a
+    key is present."""
+    raw = str(os.environ.get(name) or "").strip().lower()
+    if not raw:
+        return default
+    return raw in {"1", "true", "yes", "on"}
+
+
 def env_int(name: str, default: int) -> int:
     try:
         return int(str(os.environ.get(name) or default).strip() or default)
@@ -2703,6 +3156,98 @@ def env_float(name: str, default: float) -> float:
         return float(str(os.environ.get(name) or default).strip() or default)
     except ValueError:
         return default
+
+
+def load_paid_source_state(path: Path) -> dict[str, Any]:
+    try:
+        payload = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        payload = {}
+    if not isinstance(payload, dict):
+        payload = {}
+    sources = payload.get("sources")
+    if not isinstance(sources, dict):
+        sources = {}
+    return {"schema_version": 1, "sources": sources}
+
+
+def paid_source_interval_hours(prefix: str) -> int:
+    default = PAID_SOURCE_DEFAULT_INTERVAL_HOURS_BY_PREFIX.get(prefix, PAID_SOURCE_DEFAULT_INTERVAL_HOURS)
+    interval = env_int(f"{prefix}_RUN_INTERVAL_HOURS", default)
+    return max(1, min(interval, PAID_SOURCE_MAX_INTERVAL_HOURS))
+
+
+def paid_source_state_entry(state: dict[str, Any] | None, source_key: str) -> dict[str, Any]:
+    if not isinstance(state, dict):
+        return {}
+    sources = state.get("sources")
+    if not isinstance(sources, dict):
+        return {}
+    entry = sources.get(source_key)
+    return entry if isinstance(entry, dict) else {}
+
+
+def paid_source_run_gate(
+    prefix: str,
+    source_key: str,
+    now: datetime,
+    state: dict[str, Any] | None,
+) -> tuple[bool, str | None]:
+    if env_flag(f"{prefix}_FORCE_RUN"):
+        return True, None
+
+    current = now.astimezone(UTC)
+    interval_hours = paid_source_interval_hours(prefix)
+    entry = paid_source_state_entry(state, source_key)
+    last_run = parse_iso(str(entry.get("last_run_at") or ""))
+    if last_run:
+        due_at = last_run.astimezone(UTC) + timedelta(hours=interval_hours)
+        if current < due_at:
+            return False, f"before_{source_key}_run_interval"
+        return True, None
+
+    run_hour = max(0, min(env_int(f"{prefix}_RUN_UTC_HOUR", 0), 23))
+    minute_max = max(0, min(env_int(f"{prefix}_RUN_UTC_MINUTE_MAX", 10), 59))
+    if current.hour == run_hour and current.minute <= minute_max:
+        return True, None
+    return False, f"outside_{source_key}_initial_window"
+
+
+def update_paid_source_state(
+    state: dict[str, Any],
+    source_key: str,
+    status: dict[str, Any],
+    now: datetime,
+) -> None:
+    if not status.get("attempted"):
+        return
+    sources = state.setdefault("sources", {})
+    if not isinstance(sources, dict):
+        sources = {}
+        state["sources"] = sources
+    entry = sources.setdefault(source_key, {})
+    if not isinstance(entry, dict):
+        entry = {}
+        sources[source_key] = entry
+    entry["last_run_at"] = iso(now)
+    entry["last_ok"] = bool(status.get("ok"))
+    entry["last_item_count"] = int(status.get("item_count") or 0)
+    if status.get("ok"):
+        entry["last_success_at"] = iso(now)
+        entry.pop("last_error", None)
+    elif status.get("error"):
+        entry["last_error"] = status.get("error")
+
+
+def sync_paid_source_status_timestamps(
+    status: dict[str, Any],
+    state: dict[str, Any],
+    source_key: str,
+) -> None:
+    """Keep the published status aligned with the state used by the run gate."""
+    entry = paid_source_state_entry(state, source_key)
+    status["last_run_at"] = entry.get("last_run_at")
+    status["last_success_at"] = entry.get("last_success_at")
 
 
 def maybe_fetch_agentmail_digest(
@@ -2767,8 +3312,14 @@ def x_api_status_base(now: datetime) -> dict[str, Any]:
     daily_post_limit = max(0, env_int("X_API_DAILY_POST_LIMIT", X_API_DEFAULT_MAX_RESULTS))
     max_results = max(10, min(env_int("X_API_MAX_RESULTS", X_API_DEFAULT_MAX_RESULTS), 100))
     effective_cap = min(max_results, daily_post_limit) if daily_post_limit else 0
+    enable_toggle = env_flag_default("X_API_ENABLED", True)
+    token_present = bool(
+        str(os.environ.get("X_BEARER_TOKEN") or os.environ.get("X_API_BEARER_TOKEN") or "").strip()
+    )
     return {
-        "enabled": env_flag("X_API_ENABLED"),
+        "enabled": enable_toggle and token_present,
+        "enable_toggle": enable_toggle,
+        "api_key_present": token_present,
         "ok": None,
         "item_count": 0,
         "privacy": "public_posts_metadata_only",
@@ -2850,9 +3401,15 @@ def maybe_fetch_x_api_updates(
     session: requests.Session,
     now: datetime,
 ) -> tuple[list[RawItem], dict[str, Any]]:
-    """Fetch X only when explicitly enabled, credentialed, scheduled, and capped."""
+    """Fetch X when a bearer token is present and ENABLED is not turned off, then
+    only if scheduled and capped. The token is the primary switch; ENABLED is an
+    optional kill switch (set it to 0 to force off)."""
     status = x_api_status_base(now)
-    if not status["enabled"]:
+    if not status["enable_toggle"]:
+        status["disabled_reason"] = "disabled_by_toggle"
+        return [], status
+    if not status["api_key_present"]:
+        status["disabled_reason"] = "no_bearer_token"
         return [], status
 
     if status["effective_result_cap"] < 10:
@@ -2866,10 +3423,6 @@ def maybe_fetch_x_api_updates(
         return [], status
 
     bearer_token = str(os.environ.get("X_BEARER_TOKEN") or os.environ.get("X_API_BEARER_TOKEN") or "").strip()
-    if not bearer_token:
-        status["ok"] = False
-        status["error"] = "missing_x_bearer_token"
-        return [], status
 
     query = str(os.environ.get("X_API_QUERY") or X_API_DEFAULT_QUERY).strip()
     base_url = str(os.environ.get("X_API_BASE_URL") or X_API_BASE_DEFAULT).strip()
@@ -2885,6 +3438,1055 @@ def maybe_fetch_x_api_updates(
         status["ok"] = True
         status["item_count"] = len(items)
         status["estimated_cost_usd"] = round(len(items) * X_API_POST_READ_COST_USD, 4)
+        return items, status
+    except Exception as exc:
+        status["ok"] = False
+        status["error"] = type(exc).__name__
+        return [], status
+
+
+def socialdata_should_run_now(now: datetime, paid_source_state: dict[str, Any] | None = None) -> tuple[bool, str | None]:
+    """Gate paid SocialData reads so a 30-minute cron does not spend every run."""
+    return paid_source_run_gate("SOCIALDATA", "socialdata", now, paid_source_state)
+
+
+def socialdata_status_base(now: datetime, paid_source_state: dict[str, Any] | None = None) -> dict[str, Any]:
+    daily_tweet_limit = max(0, env_int("SOCIALDATA_DAILY_TWEET_LIMIT", SOCIALDATA_DEFAULT_MAX_RESULTS))
+    max_results = max(1, min(env_int("SOCIALDATA_MAX_RESULTS", SOCIALDATA_DEFAULT_MAX_RESULTS), 100))
+    effective_cap = min(max_results, daily_tweet_limit) if daily_tweet_limit else 0
+    state_entry = paid_source_state_entry(paid_source_state, "socialdata")
+    enable_toggle = env_flag_default("SOCIALDATA_ENABLED", True)
+    api_key_present = bool(str(os.environ.get("SOCIALDATA_API_KEY") or "").strip())
+    # The curated KOL list is a SECOND paid path on top of the keyword search,
+    # so the per-run cost ceiling must include it (search cap + list cap).
+    list_id = str(os.environ.get("SOCIALDATA_LIST_ID") or SOCIALDATA_LIST_ID_DEFAULT).strip()
+    list_enabled = bool(list_id) and env_flag_default("SOCIALDATA_LIST_ENABLED", True)
+    list_cap = max(0, min(env_int("SOCIALDATA_LIST_MAX_RESULTS", SOCIALDATA_LIST_DEFAULT_MAX_RESULTS), 200)) if list_enabled else 0
+    combined_cap = effective_cap + list_cap
+    return {
+        "enabled": enable_toggle and api_key_present,
+        "enable_toggle": enable_toggle,
+        "api_key_present": api_key_present,
+        "ok": None,
+        "item_count": 0,
+        "privacy": "public_posts_metadata_only",
+        "published_by_default": False,
+        "unit_cost_usd_per_tweet_read": SOCIALDATA_TWEET_READ_COST_USD,
+        "daily_tweet_limit": daily_tweet_limit,
+        "max_results_per_run": max_results,
+        "effective_result_cap": effective_cap,
+        "search_result_cap": effective_cap,
+        "list_result_cap": list_cap,
+        "combined_result_cap": combined_cap,
+        "recency_days": SOCIALDATA_RECENCY_DAYS,
+        "estimated_max_cost_usd_per_run": round(combined_cap * SOCIALDATA_TWEET_READ_COST_USD, 4),
+        "run_interval_hours": paid_source_interval_hours("SOCIALDATA"),
+        "run_utc_hour": max(0, min(env_int("SOCIALDATA_RUN_UTC_HOUR", 0), 23)),
+        "run_utc_minute_max": max(0, min(env_int("SOCIALDATA_RUN_UTC_MINUTE_MAX", 10), 59)),
+        "last_run_at": state_entry.get("last_run_at"),
+        "last_success_at": state_entry.get("last_success_at"),
+        "generated_date_utc": now.astimezone(UTC).date().isoformat(),
+    }
+
+
+def fetch_socialdata_search(
+    session: requests.Session,
+    api_key: str,
+    query: str,
+    now: datetime,
+    max_results: int,
+    search_type: str = "Latest",
+    base_url: str = SOCIALDATA_API_BASE_DEFAULT,
+) -> tuple[list[RawItem], dict[str, Any]]:
+    """Fetch public X search results through SocialData; no writes and no private data."""
+    query = re.sub(r"\s+", " ", (query or SOCIALDATA_DEFAULT_QUERY).strip())
+    if len(query) > SOCIALDATA_MAX_QUERY_CHARS:
+        raise ValueError("socialdata_query_too_long")
+    capped_max_results = max(1, min(int(max_results or SOCIALDATA_DEFAULT_MAX_RESULTS), 100))
+    effective_search_type = search_type if search_type in {"Latest", "Top"} else "Latest"
+    out: list[RawItem] = []
+    raw_tweet_count = 0
+    response_top_level_keys: list[str] = []
+    page_count = 0
+    cursor = ""
+    seen_cursors: set[str] = set()
+    seen_tweet_ids: set[str] = set()
+    pagination_error: str | None = None
+    while len(out) < capped_max_results:
+        params = {
+            "query": query,
+            "type": effective_search_type,
+        }
+        if cursor:
+            params["cursor"] = cursor
+        try:
+            response = session.get(
+                f"{(base_url or SOCIALDATA_API_BASE_DEFAULT).rstrip('/')}/twitter/search",
+                headers={
+                    "Authorization": f"Bearer {api_key}",
+                    "Accept": "application/json",
+                },
+                params=params,
+                timeout=30,
+            )
+            response.raise_for_status()
+        except Exception as exc:
+            if page_count == 0:
+                raise
+            pagination_error = type(exc).__name__
+            break
+
+        payload = response.json()
+        page_count += 1
+        if isinstance(payload, dict) and not response_top_level_keys:
+            response_top_level_keys = sorted(payload.keys())[:12]
+        tweets = payload.get("tweets") if isinstance(payload, dict) else []
+        raw_tweet_count += len(tweets) if isinstance(tweets, list) else 0
+        for tweet in tweets or []:
+            if len(out) >= capped_max_results:
+                break
+            if not isinstance(tweet, dict):
+                continue
+            tweet_id = str(tweet.get("id_str") or tweet.get("id") or "").strip()
+            text = compact_public_snippet(str(tweet.get("full_text") or tweet.get("text") or ""), max_chars=220)
+            if not (tweet_id and text) or tweet_id in seen_tweet_ids:
+                continue
+            seen_tweet_ids.add(tweet_id)
+            user = tweet.get("user") if isinstance(tweet.get("user"), dict) else {}
+            username = str(user.get("screen_name") or "i/web").strip().lstrip("@") or "i/web"
+            published = parse_iso(str(tweet.get("tweet_created_at") or tweet.get("created_at") or "")) or now
+            out.append(
+                RawItem(
+                    site_id="socialdata_x",
+                    site_name="SocialData X",
+                    source=f"@{username}",
+                    title=text,
+                    url=f"https://x.com/{username}/status/{tweet_id}",
+                    published_at=published,
+                    meta={
+                        "post_id": tweet_id,
+                        "lang": tweet.get("lang"),
+                        "public_metrics": {
+                            "reply_count": tweet.get("reply_count"),
+                            "retweet_count": tweet.get("retweet_count"),
+                            "quote_count": tweet.get("quote_count"),
+                            "favorite_count": tweet.get("favorite_count"),
+                            "bookmark_count": tweet.get("bookmark_count"),
+                            "views_count": tweet.get("views_count"),
+                        },
+                    },
+                )
+            )
+
+        next_cursor = str(payload.get("next_cursor") or "").strip() if isinstance(payload, dict) else ""
+        if not next_cursor or next_cursor in seen_cursors:
+            break
+        seen_cursors.add(next_cursor)
+        cursor = next_cursor
+    diagnostics = {
+        "endpoint": "/twitter/search",
+        "search_type": effective_search_type,
+        "query_chars": len(query),
+        "response_top_level_keys": response_top_level_keys,
+        "raw_tweet_count": raw_tweet_count,
+        "mapped_tweet_count": len(out),
+        "page_count": page_count,
+        "cursor_request_count": max(0, page_count - 1),
+        "reached_result_cap": len(out) >= capped_max_results,
+    }
+    if pagination_error:
+        diagnostics["pagination_error"] = pagination_error
+    if raw_tweet_count == 0:
+        diagnostics["empty_reason"] = "no_tweets_returned_by_socialdata"
+    elif len(out) == 0:
+        diagnostics["empty_reason"] = "tweets_returned_but_none_mapped"
+    return out, diagnostics
+
+
+def fetch_socialdata_list_tweets(
+    session: requests.Session,
+    api_key: str,
+    list_id: str,
+    now: datetime,
+    max_results: int,
+    exclude_handles: set[str] | None = None,
+    base_url: str = SOCIALDATA_API_BASE_DEFAULT,
+    max_pages: int = SOCIALDATA_LIST_MAX_PAGES,
+) -> tuple[list[RawItem], dict[str, Any]]:
+    """Pull a curated X list timeline through SocialData, keeping only members'
+    own AI posts. Retweets, replies, the excluded owner, and egg-avatar accounts
+    are dropped so the list stays a high-signal, bot-free source. Pagination is
+    hard-capped at ``max_pages`` so a heavily-filtered list can't bill without
+    bound."""
+    list_id = str(list_id or "").strip()
+    if not list_id:
+        raise ValueError("socialdata_list_id_empty")
+    capped_max_results = max(1, min(int(max_results or SOCIALDATA_LIST_DEFAULT_MAX_RESULTS), 200))
+    exclude = {h.strip().lstrip("@").lower() for h in (exclude_handles or set()) if h.strip()}
+    out: list[RawItem] = []
+    raw_tweet_count = 0
+    skipped = {"retweet_or_reply": 0, "excluded_author": 0, "bot_like": 0, "empty": 0, "duplicate": 0}
+    page_count = 0
+    cursor = ""
+    seen_cursors: set[str] = set()
+    seen_tweet_ids: set[str] = set()
+    pagination_error: str | None = None
+    page_cap = max(1, int(max_pages or 1))
+    hit_page_cap = False
+    while len(out) < capped_max_results and page_count < page_cap:
+        params: dict[str, str] = {}
+        if cursor:
+            params["cursor"] = cursor
+        try:
+            response = session.get(
+                f"{(base_url or SOCIALDATA_API_BASE_DEFAULT).rstrip('/')}/twitter/list/{list_id}/tweets",
+                headers={
+                    "Authorization": f"Bearer {api_key}",
+                    "Accept": "application/json",
+                },
+                params=params,
+                timeout=30,
+            )
+            response.raise_for_status()
+        except Exception as exc:
+            if page_count == 0:
+                raise
+            pagination_error = type(exc).__name__
+            break
+
+        payload = response.json()
+        page_count += 1
+        tweets = payload.get("tweets") if isinstance(payload, dict) else []
+        raw_tweet_count += len(tweets) if isinstance(tweets, list) else 0
+        for tweet in tweets or []:
+            if len(out) >= capped_max_results:
+                break
+            if not isinstance(tweet, dict):
+                continue
+            tweet_type = str(tweet.get("type") or "tweet").lower()
+            if tweet_type not in SOCIALDATA_LIST_ALLOWED_TYPES:
+                skipped["retweet_or_reply"] += 1
+                continue
+            user = tweet.get("user") if isinstance(tweet.get("user"), dict) else {}
+            username = str(user.get("screen_name") or "").strip().lstrip("@")
+            if username.lower() in exclude:
+                skipped["excluded_author"] += 1
+                continue
+            if user.get("default_profile_image"):
+                skipped["bot_like"] += 1
+                continue
+            tweet_id = str(tweet.get("id_str") or tweet.get("id") or "").strip()
+            text = compact_public_snippet(str(tweet.get("full_text") or tweet.get("text") or ""), max_chars=220)
+            if not (tweet_id and text and username):
+                skipped["empty"] += 1
+                continue
+            if tweet_id in seen_tweet_ids:
+                skipped["duplicate"] += 1
+                continue
+            seen_tweet_ids.add(tweet_id)
+            published = parse_iso(str(tweet.get("tweet_created_at") or tweet.get("created_at") or "")) or now
+            out.append(
+                RawItem(
+                    site_id="socialdata_x",
+                    site_name="SocialData X",
+                    source=f"@{username}",
+                    title=text,
+                    url=f"https://x.com/{username}/status/{tweet_id}",
+                    published_at=published,
+                    meta={
+                        "post_id": tweet_id,
+                        "via": "list",
+                        "list_id": list_id,
+                        "tweet_type": tweet_type,
+                        "lang": tweet.get("lang"),
+                        "public_metrics": {
+                            "reply_count": tweet.get("reply_count"),
+                            "retweet_count": tweet.get("retweet_count"),
+                            "quote_count": tweet.get("quote_count"),
+                            "favorite_count": tweet.get("favorite_count"),
+                            "bookmark_count": tweet.get("bookmark_count"),
+                            "views_count": tweet.get("views_count"),
+                        },
+                    },
+                )
+            )
+
+        next_cursor = str(payload.get("next_cursor") or "").strip() if isinstance(payload, dict) else ""
+        if not next_cursor or next_cursor in seen_cursors:
+            break
+        seen_cursors.add(next_cursor)
+        cursor = next_cursor
+    hit_page_cap = page_count >= page_cap and len(out) < capped_max_results
+    diagnostics = {
+        "endpoint": f"/twitter/list/{list_id}/tweets",
+        "list_id": list_id,
+        "raw_tweet_count": raw_tweet_count,
+        "mapped_tweet_count": len(out),
+        "page_count": page_count,
+        "max_pages": page_cap,
+        "hit_page_cap": hit_page_cap,
+        "skipped": skipped,
+        "excluded_handles": sorted(exclude),
+        "reached_result_cap": len(out) >= capped_max_results,
+    }
+    if pagination_error:
+        diagnostics["pagination_error"] = pagination_error
+    return out, diagnostics
+
+
+def maybe_fetch_socialdata_updates(
+    session: requests.Session,
+    now: datetime,
+    paid_source_state: dict[str, Any] | None = None,
+) -> tuple[list[RawItem], dict[str, Any]]:
+    """Fetch SocialData when an API key is present and ENABLED is not turned off,
+    then only if scheduled and capped. The key is the primary switch; ENABLED is
+    an optional kill switch (set it to 0 to force off)."""
+    status = socialdata_status_base(now, paid_source_state)
+    if not status["enable_toggle"]:
+        status["disabled_reason"] = "disabled_by_toggle"
+        return [], status
+    if not status["api_key_present"]:
+        status["disabled_reason"] = "no_api_key"
+        return [], status
+
+    if status["effective_result_cap"] < 1:
+        status["ok"] = False
+        status["error"] = "socialdata_daily_tweet_limit_below_minimum"
+        return [], status
+
+    should_run, skip_reason = socialdata_should_run_now(now, paid_source_state)
+    if not should_run:
+        status["skipped"] = True
+        status["skip_reason"] = skip_reason or "outside_socialdata_run_window"
+        return [], status
+
+    api_key = str(os.environ.get("SOCIALDATA_API_KEY") or "").strip()
+
+    query = str(os.environ.get("SOCIALDATA_QUERY") or SOCIALDATA_DEFAULT_QUERY).strip()
+    base_url = str(os.environ.get("SOCIALDATA_API_BASE_URL") or SOCIALDATA_API_BASE_DEFAULT).strip()
+    search_type = str(os.environ.get("SOCIALDATA_SEARCH_TYPE") or "Latest").strip() or "Latest"
+    list_id = str(os.environ.get("SOCIALDATA_LIST_ID") or SOCIALDATA_LIST_ID_DEFAULT).strip()
+    list_enabled = bool(list_id) and str(os.environ.get("SOCIALDATA_LIST_ENABLED", "1")).strip().lower() in {
+        "1",
+        "true",
+        "yes",
+        "on",
+    }
+    list_max_results = max(0, min(env_int("SOCIALDATA_LIST_MAX_RESULTS", SOCIALDATA_LIST_DEFAULT_MAX_RESULTS), 200))
+    list_exclude = {
+        handle.strip().lstrip("@").lower()
+        for handle in str(os.environ.get("SOCIALDATA_LIST_EXCLUDE") or SOCIALDATA_LIST_DEFAULT_EXCLUDE).split(",")
+        if handle.strip()
+    }
+    status["attempted"] = True
+
+    items: list[RawItem] = []
+    seen_urls: set[str] = set()
+    errors: list[str] = []
+    recency_cutoff = now - timedelta(days=SOCIALDATA_RECENCY_DAYS) if SOCIALDATA_RECENCY_DAYS else None
+    skipped_stale = 0
+
+    # 1) Broad keyword search: discovers new voices across en/zh.
+    try:
+        search_items, diagnostics = fetch_socialdata_search(
+            session,
+            api_key=api_key,
+            query=query,
+            now=now,
+            max_results=int(status["effective_result_cap"]),
+            search_type=search_type,
+            base_url=base_url,
+        )
+        status["diagnostics"] = diagnostics
+        for item in search_items:
+            if recency_cutoff and item.published_at and item.published_at < recency_cutoff:
+                skipped_stale += 1
+                continue
+            if item.url in seen_urls:
+                continue
+            seen_urls.add(item.url)
+            items.append(item)
+    except Exception as exc:
+        errors.append(f"search:{type(exc).__name__}")
+
+    # 2) Curated list timeline: stably tracks known KOLs by identity, bot-filtered.
+    list_item_count = 0
+    if list_enabled and list_max_results >= 1:
+        try:
+            list_items, list_diagnostics = fetch_socialdata_list_tweets(
+                session,
+                api_key=api_key,
+                list_id=list_id,
+                now=now,
+                max_results=list_max_results,
+                exclude_handles=list_exclude,
+                base_url=base_url,
+            )
+            status["list_diagnostics"] = list_diagnostics
+            for item in list_items:
+                if recency_cutoff and item.published_at and item.published_at < recency_cutoff:
+                    skipped_stale += 1
+                    continue
+                if item.url in seen_urls:
+                    continue
+                seen_urls.add(item.url)
+                items.append(item)
+                list_item_count += 1
+        except Exception as exc:
+            errors.append(f"list:{type(exc).__name__}")
+
+    # SocialData bills per tweet READ (raw), not per kept item; the list discards
+    # retweets/replies/stale posts, so raw reads exceed mapped items. Cost and the
+    # ceiling in socialdata_status_base both track raw reads across BOTH paths.
+    search_raw = int((status.get("diagnostics") or {}).get("raw_tweet_count") or 0)
+    list_raw = int((status.get("list_diagnostics") or {}).get("raw_tweet_count") or 0)
+    status["list_enabled"] = list_enabled
+    status["list_item_count"] = list_item_count
+    status["search_item_count"] = len(items) - list_item_count
+    status["item_count"] = len(items)
+    status["recency_days"] = SOCIALDATA_RECENCY_DAYS
+    status["skipped_stale_count"] = skipped_stale
+    status["raw_reads"] = search_raw + list_raw
+    status["estimated_cost_usd"] = round((search_raw + list_raw) * SOCIALDATA_TWEET_READ_COST_USD, 4)
+    if errors and not items:
+        status["ok"] = False
+        status["error"] = ";".join(errors)
+    else:
+        status["ok"] = True
+        if errors:
+            status["partial_error"] = ";".join(errors)
+    return items, status
+
+
+def tikhub_should_run_now(now: datetime, paid_source_state: dict[str, Any] | None = None) -> tuple[bool, str | None]:
+    """Gate paid TikHub reads so scheduled workflows do not spend every run."""
+    return paid_source_run_gate("TIKHUB", "tikhub", now, paid_source_state)
+
+
+def tikhub_status_base(now: datetime, paid_source_state: dict[str, Any] | None = None) -> dict[str, Any]:
+    daily_limit = max(0, env_int("TIKHUB_DAILY_ITEM_LIMIT", TIKHUB_DEFAULT_MAX_RESULTS))
+    max_results = max(1, min(env_int("TIKHUB_MAX_RESULTS", TIKHUB_DEFAULT_MAX_RESULTS), 100))
+    effective_cap = min(max_results, daily_limit) if daily_limit else 0
+    enable_toggle = env_flag_default("TIKHUB_ENABLED", True)
+    api_key_present = bool(str(os.environ.get("TIKHUB_API_KEY") or "").strip())
+    platforms = [
+        part.strip().lower()
+        for part in str(os.environ.get("TIKHUB_PLATFORMS") or TIKHUB_DEFAULT_PLATFORMS).split(",")
+        if part.strip()
+    ]
+    state_entry = paid_source_state_entry(paid_source_state, "tikhub")
+    return {
+        "enabled": enable_toggle and api_key_present,
+        "enable_toggle": enable_toggle,
+        "api_key_present": api_key_present,
+        "enabled_by": "disabled_by_toggle" if not enable_toggle else ("ready" if api_key_present else "no_api_key"),
+        "ok": None,
+        "item_count": 0,
+        "privacy": "public_social_posts_metadata_only",
+        "published_by_default": False,
+        "billing": "tikhub_charged_request",
+        "daily_item_limit": daily_limit,
+        "max_results_per_run": max_results,
+        "effective_result_cap": effective_cap,
+        "platforms": platforms,
+        "run_interval_hours": paid_source_interval_hours("TIKHUB"),
+        "run_utc_hour": max(0, min(env_int("TIKHUB_RUN_UTC_HOUR", 0), 23)),
+        "run_utc_minute_max": max(0, min(env_int("TIKHUB_RUN_UTC_MINUTE_MAX", 10), 59)),
+        "last_run_at": state_entry.get("last_run_at"),
+        "last_success_at": state_entry.get("last_success_at"),
+        "generated_date_utc": now.astimezone(UTC).date().isoformat(),
+    }
+
+
+def iter_nested_dicts(value: Any) -> list[dict[str, Any]]:
+    out: list[dict[str, Any]] = []
+    if isinstance(value, dict):
+        out.append(value)
+        for child in value.values():
+            out.extend(iter_nested_dicts(child))
+    elif isinstance(value, list):
+        for child in value:
+            out.extend(iter_nested_dicts(child))
+    return out
+
+
+def tikhub_payload_shape(payload: Any) -> dict[str, Any]:
+    """Return a sanitized structural summary for debugging API schema drift."""
+    dicts = iter_nested_dicts(payload)
+    data = payload.get("data") if isinstance(payload, dict) else None
+    data_items = data.get("items") if isinstance(data, dict) else None
+    data_business = data.get("business_data") if isinstance(data, dict) else None
+    sample_nodes: list[dict[str, Any]] = []
+    for node in dicts:
+        if len(sample_nodes) >= 3:
+            break
+        keys = sorted(str(key) for key in node.keys())[:16]
+        if {"aweme_info", "note_card", "display_title", "desc", "title", "id", "note_id"} & set(keys):
+            sample_nodes.append({"keys": keys})
+    return {
+        "dict_count": len(dicts),
+        "data_type": type(data).__name__ if data is not None else None,
+        "data_keys": sorted(data.keys())[:16] if isinstance(data, dict) else [],
+        "data_items_count": len(data_items) if isinstance(data_items, list) else None,
+        "data_business_count": len(data_business) if isinstance(data_business, list) else None,
+        "aweme_info_count": sum(1 for node in dicts if isinstance(node.get("aweme_info"), dict)),
+        "note_card_count": sum(1 for node in dicts if isinstance(node.get("note_card"), dict)),
+        "sample_nodes": sample_nodes,
+    }
+
+
+def parse_epoch_any(value: Any, now: datetime) -> datetime | None:
+    if value is None or value == "":
+        return None
+    if isinstance(value, (int, float)):
+        number = float(value)
+    else:
+        text = str(value).strip()
+        if not text:
+            return None
+        if re.fullmatch(r"\d+(\.\d+)?", text):
+            number = float(text)
+        else:
+            return parse_date_any(text, now)
+    if number > 10_000_000_000:
+        number = number / 1000
+    try:
+        return datetime.fromtimestamp(number, tz=UTC)
+    except (OverflowError, OSError, ValueError):
+        return None
+
+
+def is_tikhub_generic_audio_title(title: str) -> bool:
+    return bool(
+        re.fullmatch(
+            r"@?.{1,80}(?:创作的原声|的原声|original\s+sound)",
+            (title or "").strip(),
+            flags=re.IGNORECASE,
+        )
+    )
+
+
+def first_tikhub_douyin_title(aweme: dict[str, Any]) -> str:
+    share_info = aweme.get("share_info") if isinstance(aweme.get("share_info"), dict) else {}
+    candidates = (
+        aweme.get("desc"),
+        aweme.get("title"),
+        aweme.get("caption"),
+        share_info.get("share_desc"),
+        share_info.get("share_title"),
+    )
+    for candidate in candidates:
+        title = compact_public_snippet(str(candidate or ""), max_chars=220)
+        if title and not is_tikhub_generic_audio_title(title):
+            return title
+    return ""
+
+
+def parse_tikhub_published_at(record: dict[str, Any], now: datetime, fields: tuple[str, ...]) -> datetime | None:
+    for field in fields:
+        value = record.get(field)
+        published = parse_epoch_any(value, now) or parse_date_any(value, now)
+        if published:
+            return published
+    return None
+
+
+def parse_xiaohongshu_note_id_published_at(note_id: str, now: datetime) -> datetime | None:
+    """Infer Xiaohongshu note creation time from the timestamp prefix in note id."""
+    raw = str(note_id or "").strip()
+    match = re.match(r"^([0-9a-fA-F]{8})", raw)
+    if not match:
+        return None
+    published = parse_unix_timestamp(int(match.group(1), 16))
+    if not published:
+        return None
+    earliest_supported = datetime(2013, 1, 1, tzinfo=UTC)
+    latest_supported = now.astimezone(UTC)
+    if published < earliest_supported or published > latest_supported:
+        return None
+    return published
+
+
+def is_credible_xiaohongshu_published_at(published: datetime | None, now: datetime) -> bool:
+    if not published:
+        return False
+    return datetime(2013, 1, 1, tzinfo=UTC) <= published <= now.astimezone(UTC)
+
+
+def creator_metric_count(*values: Any) -> int:
+    for value in values:
+        if value is None or value == "":
+            continue
+        try:
+            return max(0, int(float(str(value).replace(",", "").strip())))
+        except (TypeError, ValueError):
+            continue
+    return 0
+
+
+def normalize_creator_metrics(platform: str, *records: dict[str, Any]) -> dict[str, int]:
+    merged: dict[str, Any] = {}
+    for record in records:
+        if isinstance(record, dict):
+            merged.update(record)
+    if platform == "douyin":
+        return {
+            "likes": creator_metric_count(merged.get("digg_count"), merged.get("like_count")),
+            "comments": creator_metric_count(merged.get("comment_count"), merged.get("comments_count")),
+            "collects": creator_metric_count(merged.get("collect_count"), merged.get("collected_count")),
+            "shares": creator_metric_count(merged.get("share_count"), merged.get("shared_count")),
+        }
+    return {
+        "likes": creator_metric_count(
+            merged.get("liked_count"),
+            merged.get("likes_count"),
+            merged.get("like_count"),
+            merged.get("digg_count"),
+        ),
+        "comments": creator_metric_count(merged.get("comments_count"), merged.get("comment_count")),
+        "collects": creator_metric_count(merged.get("collected_count"), merged.get("collect_count")),
+        "shares": creator_metric_count(merged.get("shared_count"), merged.get("share_count")),
+    }
+
+
+def parse_tikhub_douyin_items(payload: dict[str, Any], now: datetime, keyword: str, limit: int) -> list[RawItem]:
+    out: list[RawItem] = []
+    seen_ids: set[str] = set()
+    for node in iter_nested_dicts(payload):
+        # TikHub wraps real videos in ``aweme_info``. Walking arbitrary nested
+        # dictionaries without this guard also reaches ``music`` objects, whose
+        # generic titles look like "@…创作的原声" and are not video titles.
+        wrapped_aweme = node.get("aweme_info") if isinstance(node.get("aweme_info"), dict) else None
+        aweme = wrapped_aweme or node
+        if not isinstance(aweme, dict):
+            continue
+        post_id = str(aweme.get("aweme_id") or aweme.get("awemeId") or "").strip()
+        title = first_tikhub_douyin_title(aweme)
+        if not (post_id and title) or post_id in seen_ids:
+            continue
+        seen_ids.add(post_id)
+        author = aweme.get("author") if isinstance(aweme.get("author"), dict) else {}
+        source = str(author.get("nickname") or author.get("unique_id") or "Douyin Search").strip() or "Douyin Search"
+        share = first_non_empty(
+            aweme.get("share_url"),
+            aweme.get("share_info", {}).get("share_url") if isinstance(aweme.get("share_info"), dict) else "",
+            f"https://www.douyin.com/video/{post_id}",
+        )
+        published = parse_tikhub_published_at(
+            aweme,
+            now,
+            (
+                "create_time",
+                "create_time_stamp",
+                "createTime",
+                "createTimeStamp",
+                "created_at",
+                "publish_time",
+                "publishTime",
+                "publish_timestamp",
+                "time",
+            ),
+        ) or now
+        statistics = aweme.get("statistics") if isinstance(aweme.get("statistics"), dict) else {}
+        out.append(
+            RawItem(
+                site_id="tikhub_douyin",
+                site_name="TikHub Douyin",
+                source=source,
+                title=title,
+                url=str(share),
+                published_at=published,
+                meta={
+                    "platform": "douyin",
+                    "keyword": keyword,
+                    "post_id": post_id,
+                    "public_metrics": statistics,
+                    "creator_metrics": normalize_creator_metrics("douyin", statistics),
+                },
+            )
+        )
+        if len(out) >= limit:
+            break
+    return out
+
+
+def parse_tikhub_xiaohongshu_items(payload: dict[str, Any], now: datetime, keyword: str, limit: int) -> list[RawItem]:
+    out: list[RawItem] = []
+    seen_ids: set[str] = set()
+    for node in iter_nested_dicts(payload):
+        note = next(
+            (
+                node.get(key)
+                for key in ("note_card", "note_info", "note", "note_data", "noteCard")
+                if isinstance(node.get(key), dict)
+            ),
+            node,
+        )
+        if not isinstance(note, dict):
+            continue
+        note_id = str(
+            note.get("note_id")
+            or note.get("noteId")
+            or note.get("id")
+            or node.get("noteId")
+            or node.get("note_id")
+            or node.get("id")
+            or ""
+        ).strip()
+        title = compact_public_snippet(
+            str(
+                note.get("display_title")
+                or note.get("displayTitle")
+                or note.get("title")
+                or note.get("desc")
+                or note.get("description")
+                or note.get("content")
+                or node.get("display_title")
+                or node.get("title")
+                or node.get("desc")
+                or ""
+            ),
+            max_chars=220,
+        )
+        if not (note_id and title) or note_id in seen_ids:
+            continue
+        seen_ids.add(note_id)
+        user = next(
+            (
+                owner
+                for owner in (note.get("user"), note.get("user_info"), node.get("user"), node.get("user_info"))
+                if isinstance(owner, dict)
+            ),
+            {},
+        )
+        source = str(
+            user.get("nickname")
+            or user.get("nick_name")
+            or user.get("nickName")
+            or user.get("name")
+            or "Xiaohongshu Search"
+        ).strip() or "Xiaohongshu Search"
+        xsec_token = str(note.get("xsec_token") or node.get("xsec_token") or "").strip()
+        url = first_non_empty(
+            note.get("url"),
+            note.get("share_url"),
+            note.get("shareUrl"),
+            node.get("url"),
+            node.get("share_url"),
+            node.get("shareUrl"),
+            f"https://www.xiaohongshu.com/explore/{note_id}{'?xsec_token=' + xsec_token if xsec_token else ''}",
+        )
+        published = parse_tikhub_published_at(
+            note,
+            now,
+            (
+                "time",
+                "create_time",
+                "created_at",
+                "last_update_time",
+                "createTime",
+                "createdAt",
+                "lastUpdateTime",
+                "publish_time",
+                "publishTime",
+            ),
+        )
+        if not is_credible_xiaohongshu_published_at(published, now):
+            published = parse_tikhub_published_at(
+                node,
+                now,
+                (
+                    "time",
+                    "create_time",
+                    "created_at",
+                    "last_update_time",
+                    "createTime",
+                    "createdAt",
+                    "lastUpdateTime",
+                    "publish_time",
+                    "publishTime",
+                ),
+            )
+        if not is_credible_xiaohongshu_published_at(published, now):
+            published = parse_xiaohongshu_note_id_published_at(note_id, now)
+        interact_info = note.get("interact_info") if isinstance(note.get("interact_info"), dict) else {}
+        creator_metrics = normalize_creator_metrics("xiaohongshu", node, note, interact_info)
+        out.append(
+            RawItem(
+                site_id="tikhub_xiaohongshu",
+                site_name="TikHub Xiaohongshu",
+                source=source,
+                title=title,
+                url=str(url),
+                published_at=published,
+                meta={
+                    "platform": "xiaohongshu",
+                    "keyword": keyword,
+                    "post_id": note_id,
+                    "public_metrics": interact_info or creator_metrics,
+                    "creator_metrics": creator_metrics,
+                },
+            )
+        )
+        if len(out) >= limit:
+            break
+    return out
+
+
+def tikhub_raw_item_key(item: RawItem) -> str:
+    post_id = str((item.meta or {}).get("post_id") or "").strip()
+    if post_id:
+        return f"{item.site_id}:{post_id}"
+    return f"{item.site_id}:{normalize_url(item.url)}:{item.title.strip()}"
+
+
+def fetch_tikhub_search(
+    session: requests.Session,
+    api_key: str,
+    query: str,
+    now: datetime,
+    max_results: int,
+    platforms: list[str],
+    base_url: str = TIKHUB_API_BASE_DEFAULT,
+) -> tuple[list[RawItem], dict[str, Any]]:
+    headers = {"Authorization": f"Bearer {api_key}", "Accept": "application/json"}
+    root = (base_url or TIKHUB_API_BASE_DEFAULT).rstrip("/")
+    keywords = [part.strip() for part in query.split(",") if part.strip()]
+    if not keywords:
+        raise ValueError("tikhub_query_empty")
+    if any(len(keyword) > TIKHUB_MAX_QUERY_CHARS for keyword in keywords):
+        raise ValueError("tikhub_query_too_long")
+
+    capped_max_results = max(1, min(int(max_results or TIKHUB_DEFAULT_MAX_RESULTS), 100))
+    platform_list = []
+    for platform in platforms:
+        if platform in {"douyin", "xiaohongshu"} and platform not in platform_list:
+            platform_list.append(platform)
+    out: list[RawItem] = []
+    per_platform_cap = max(1, (capped_max_results + max(len(platform_list), 1) - 1) // max(len(platform_list), 1))
+    per_keyword_cap = max(1, (per_platform_cap + max(len(keywords), 1) - 1) // max(len(keywords), 1))
+    diagnostics: dict[str, Any] = {
+        "keywords": keywords,
+        "platforms": platform_list,
+        "per_keyword_cap": per_keyword_cap,
+        "requests": [],
+        "successful_request_count": 0,
+        "request_error_count": 0,
+        "recency_days": TIKHUB_RECENCY_DAYS,
+        "skipped_missing_published_at_count": 0,
+        "skipped_stale_count": 0,
+    }
+    seen_item_keys: set[str] = set()
+    recency_cutoff = now - timedelta(days=TIKHUB_RECENCY_DAYS) if TIKHUB_RECENCY_DAYS else None
+
+    def append_mapped_items(mapped: list[RawItem], surface: str, remaining: int) -> int:
+        appended = 0
+        for item in mapped:
+            if appended >= remaining:
+                break
+            # Enforce the exact recency window (the API only has coarse buckets).
+            if not item.published_at:
+                diagnostics["skipped_missing_published_at_count"] += 1
+                continue
+            if recency_cutoff and item.published_at and item.published_at < recency_cutoff:
+                diagnostics["skipped_stale_count"] += 1
+                continue
+            key = tikhub_raw_item_key(item)
+            if key in seen_item_keys:
+                continue
+            seen_item_keys.add(key)
+            item.meta["search_surface"] = surface
+            out.append(item)
+            appended += 1
+        return appended
+
+    def request_error_info(exc: Exception) -> dict[str, Any]:
+        response = getattr(exc, "response", None)
+        return {
+            "error": type(exc).__name__,
+            "status_code": getattr(response, "status_code", None),
+        }
+
+    for platform in platform_list:
+        platform_count = 0
+        for keyword in keywords:
+            remaining = min(capped_max_results - len(out), per_platform_cap - platform_count, per_keyword_cap)
+            if remaining <= 0:
+                break
+            if platform == "douyin":
+                endpoint = "/api/v1/douyin/search/fetch_general_search_v2"
+                request_info = {
+                    "platform": platform,
+                    "surface": "douyin_general_v2",
+                    "endpoint": endpoint,
+                    "keyword": keyword,
+                }
+                try:
+                    response = session.post(
+                        f"{root}{endpoint}",
+                        headers={**headers, "Content-Type": "application/json"},
+                        json={
+                            "keyword": keyword,
+                            "cursor": 0,
+                            "sort_type": TIKHUB_DOUYIN_SORT_TYPE,
+                            "publish_time": TIKHUB_DOUYIN_PUBLISH_TIME,
+                            "filter_duration": "0",
+                            "content_type": "0",
+                            "search_id": "",
+                            "backtrace": "",
+                        },
+                        timeout=30,
+                    )
+                    response.raise_for_status()
+                    payload = response.json()
+                    mapped = parse_tikhub_douyin_items(
+                        payload,
+                        now=now,
+                        keyword=keyword,
+                        limit=max(remaining, TIKHUB_RESPONSE_SCAN_LIMIT),
+                    )
+                    appended = append_mapped_items(mapped, "douyin_general_v2", remaining)
+                    platform_count += appended
+                    request_info.update(
+                        {
+                            "mapped_item_count": len(mapped),
+                            "appended_item_count": appended,
+                            "response_top_level_keys": sorted(payload.keys())[:12] if isinstance(payload, dict) else [],
+                            "payload_shape": tikhub_payload_shape(payload),
+                        }
+                    )
+                    diagnostics["successful_request_count"] += 1
+                except Exception as exc:
+                    diagnostics["request_error_count"] += 1
+                    request_info.update(request_error_info(exc))
+                diagnostics["requests"].append(request_info)
+            else:
+                # TikHub documents App V2 as the preferred Xiaohongshu API and
+                # Web V3 as the next public web path; scan both because results
+                # can differ between mobile and web surfaces.
+                xhs_surfaces = (
+                    (
+                        "xiaohongshu_app_v2",
+                        "/api/v1/xiaohongshu/app_v2/search_notes",
+                        {
+                            "keyword": keyword,
+                            "page": 1,
+                            "sort_type": TIKHUB_XHS_SORT,
+                            "note_type": TIKHUB_XHS_NOTE_TYPE,
+                            "time_filter": TIKHUB_XHS_TIME_FILTER,
+                            "search_id": "",
+                            "search_session_id": "",
+                            "source": "explore_feed",
+                            "ai_mode": 0,
+                        },
+                    ),
+                    (
+                        "xiaohongshu_web_v3",
+                        "/api/v1/xiaohongshu/web_v3/fetch_search_notes",
+                        {"keyword": keyword, "page": 1, "sort": TIKHUB_XHS_SORT, "note_type": 0},
+                    ),
+                )
+                keyword_count = 0
+                for surface, endpoint, params in xhs_surfaces:
+                    surface_remaining = min(
+                        remaining - keyword_count,
+                        capped_max_results - len(out),
+                        per_platform_cap - platform_count,
+                    )
+                    if surface_remaining <= 0:
+                        break
+                    request_info = {
+                        "platform": platform,
+                        "surface": surface,
+                        "endpoint": endpoint,
+                        "keyword": keyword,
+                    }
+                    try:
+                        response = session.get(f"{root}{endpoint}", headers=headers, params=params, timeout=30)
+                        response.raise_for_status()
+                        payload = response.json()
+                        mapped = parse_tikhub_xiaohongshu_items(
+                            payload,
+                            now=now,
+                            keyword=keyword,
+                            limit=max(surface_remaining, TIKHUB_RESPONSE_SCAN_LIMIT),
+                        )
+                        appended = append_mapped_items(mapped, surface, surface_remaining)
+                        platform_count += appended
+                        keyword_count += appended
+                        request_info.update(
+                            {
+                                "mapped_item_count": len(mapped),
+                                "appended_item_count": appended,
+                                "response_top_level_keys": sorted(payload.keys())[:12] if isinstance(payload, dict) else [],
+                                "payload_shape": tikhub_payload_shape(payload),
+                            }
+                        )
+                        if surface == "xiaohongshu_app_v2" and keyword_count < remaining:
+                            request_info["fallback_reason"] = (
+                                "no_items_mapped_try_web_v3"
+                                if not mapped
+                                else "insufficient_recent_items_try_web_v3"
+                            )
+                        diagnostics["successful_request_count"] += 1
+                    except Exception as exc:
+                        diagnostics["request_error_count"] += 1
+                        request_info.update(request_error_info(exc))
+                    diagnostics["requests"].append(request_info)
+        if len(out) >= capped_max_results:
+            break
+    diagnostics["mapped_item_count"] = len(out)
+    if diagnostics["request_error_count"] and not diagnostics["successful_request_count"]:
+        raise ValueError("tikhub_all_requests_failed")
+    return out, diagnostics
+
+
+def maybe_fetch_tikhub_updates(
+    session: requests.Session,
+    now: datetime,
+    paid_source_state: dict[str, Any] | None = None,
+) -> tuple[list[RawItem], dict[str, Any]]:
+    """Fetch TikHub when an API key is present and ENABLED is not turned off,
+    then only if scheduled and capped. The key is the primary switch; ENABLED is
+    an optional kill switch (set it to 0 to force off)."""
+    status = tikhub_status_base(now, paid_source_state)
+    if not status["enable_toggle"]:
+        status["disabled_reason"] = "disabled_by_toggle"
+        return [], status
+    if not status["api_key_present"]:
+        status["disabled_reason"] = "no_api_key"
+        return [], status
+
+    if status["effective_result_cap"] < 1:
+        status["ok"] = False
+        status["error"] = "tikhub_daily_item_limit_below_minimum"
+        return [], status
+
+    should_run, skip_reason = tikhub_should_run_now(now, paid_source_state)
+    if not should_run:
+        status["skipped"] = True
+        status["skip_reason"] = skip_reason or "outside_tikhub_run_window"
+        return [], status
+
+    api_key = str(os.environ.get("TIKHUB_API_KEY") or "").strip()
+
+    query = str(os.environ.get("TIKHUB_QUERY") or TIKHUB_DEFAULT_QUERY).strip()
+    base_url = str(os.environ.get("TIKHUB_API_BASE_URL") or TIKHUB_API_BASE_DEFAULT).strip()
+    status["attempted"] = True
+    try:
+        items, diagnostics = fetch_tikhub_search(
+            session,
+            api_key=api_key,
+            query=query,
+            now=now,
+            max_results=int(status["effective_result_cap"]),
+            platforms=status["platforms"],
+            base_url=base_url,
+        )
+        status["ok"] = True
+        status["item_count"] = len(items)
+        status["diagnostics"] = diagnostics
         return items, status
     except Exception as exc:
         status["ok"] = False
@@ -2931,25 +4533,6 @@ def load_title_zh_cache(path: Path) -> dict[str, str]:
     return {}
 
 
-# Google Translate routinely garbles AI jargon: "Prompt Engineering" → "快速工程"
-# (快速=fast), "prompts" sometimes renders as "题词" (inscription). Patch the
-# common artifacts post-hoc so 召回 回来的中文标题 doesn't mislead readers.
-_MT_AI_TERM_FIXES = [
-    ("快速工程", "提示工程"),
-    ("快速词", "提示词"),
-    ("题词工程", "提示工程"),
-    ("写题词", "写提示词"),
-]
-
-
-def _fix_mt_ai_terms(zh: str) -> str:
-    out = zh
-    for bad, good in _MT_AI_TERM_FIXES:
-        if bad in out:
-            out = out.replace(bad, good)
-    return out
-
-
 def translate_to_zh_cn(session: requests.Session, text: str) -> str | None:
     s = (text or "").strip()
     if not s:
@@ -2974,7 +4557,7 @@ def translate_to_zh_cn(session: requests.Session, text: str) -> str | None:
         if not isinstance(segs, list):
             return None
         translated = "".join(str(seg[0]) for seg in segs if isinstance(seg, list) and seg and seg[0])
-        translated = _fix_mt_ai_terms(translated.strip())
+        translated = translated.strip()
         if translated and translated != s:
             return translated
     except Exception:
@@ -3029,7 +4612,6 @@ def add_bilingual_fields(
                 translated_now += 1
 
         if zh_title:
-            zh_title = _fix_mt_ai_terms(zh_title)
             out["title_zh"] = zh_title
             out["title_bilingual"] = f"{zh_title} / {title}"
         return out
@@ -3199,6 +4781,14 @@ def recency_score(record: dict[str, Any], now: datetime, window_hours: int) -> f
     return max(0.0, min(1.0, (float(window_hours) - age_hours) / max(1.0, float(window_hours))))
 
 
+def headline_freshness_score(record: dict[str, Any], now: datetime, half_life_hours: float = 48.0) -> float:
+    ts = event_time(record)
+    if not ts:
+        return 0.0
+    age_hours = max(0.0, (now - ts).total_seconds() / 3600)
+    return max(0.0, min(1.0, 0.5 ** (age_hours / max(1.0, half_life_hours))))
+
+
 def ai_relevance_score(record: dict[str, Any]) -> float:
     value = record.get("ai_relevance_score")
     if value is None:
@@ -3209,6 +4799,56 @@ def ai_relevance_score(record: dict[str, Any]) -> float:
         return max(0.0, min(1.0, float(value)))
     except Exception:
         return 1.0 if record.get("ai_is_related") else 0.0
+
+
+def add_creator_ranking_fields(record: dict[str, Any], now: datetime) -> dict[str, Any]:
+    out = dict(record)
+    metrics = record.get("creator_metrics") if isinstance(record.get("creator_metrics"), dict) else {}
+    likes = creator_metric_count(metrics.get("likes"))
+    comments = creator_metric_count(metrics.get("comments"))
+    collects = creator_metric_count(metrics.get("collects"))
+    shares = creator_metric_count(metrics.get("shares"))
+    weighted_engagement = likes + (comments * 2.0) + (collects * 1.5) + (shares * 2.0)
+
+    # Xiaohongshu engagement is smaller in absolute terms than Douyin, so use
+    # separate fixed log scales instead of pretending raw counts are comparable.
+    scale = 22.0 if str(record.get("site_id") or "") == "tikhub_xiaohongshu" else 20.0
+    heat_score = min(100.0, scale * math.log10(1.0 + weighted_engagement))
+    published = event_time(record)
+    age_hours = (now - published).total_seconds() / 3600 if published else float("inf")
+    freshness_bonus = CREATOR_FRESHNESS_BONUS_POINTS if 0 <= age_hours <= CREATOR_FRESHNESS_BONUS_HOURS else 0.0
+    hot_score = min(100.0, (heat_score * 0.85) + freshness_bonus)
+
+    out["creator_metrics"] = {
+        "likes": likes,
+        "comments": comments,
+        "collects": collects,
+        "shares": shares,
+    }
+    out["creator_engagement_total"] = round(weighted_engagement, 1)
+    out["creator_heat_score"] = round(heat_score, 1)
+    out["creator_freshness_bonus"] = round(freshness_bonus, 1)
+    out["creator_hot_score"] = round(hot_score, 1)
+    return out
+
+
+def editorial_score(record: dict[str, Any]) -> float:
+    """External or internal editorial strength used by the headline ranker."""
+    value = record.get("aihot_score")
+    try:
+        if value is not None:
+            score = float(value)
+            return max(0.0, min(1.0, score / 100 if score > 1 else score))
+    except Exception:
+        pass
+    site_id = str(record.get("site_id") or "")
+    if site_id == "official_ai":
+        return 0.9
+    if site_id == "aihot":
+        return 0.78
+    if record.get("ai_is_related"):
+        return max(0.45, ai_relevance_score(record) * 0.72)
+    return ai_relevance_score(record) * 0.6
 
 
 def story_id_for_item(item: dict[str, Any]) -> str:
@@ -3227,12 +4867,14 @@ def calculate_item_importance(
     tier = str(item.get("source_tier") or source_tier_for_site(str(item.get("site_id") or "")).get("source_tier"))
     source_score = SOURCE_TIER_IMPORTANCE.get(tier, SOURCE_TIER_IMPORTANCE["other"])
     relevance = ai_relevance_score(item)
-    recency = recency_score(item, now, window_hours)
+    recency = headline_freshness_score(item, now)
+    editorial = editorial_score(item)
     heat = min(1.0, max(0, duplicate_count - 1) / 4)
-    score = (source_score * 0.4) + (relevance * 0.3) + (recency * 0.2) + (heat * 0.1)
+    score = (editorial * 0.3) + (source_score * 0.22) + (relevance * 0.2) + (recency * 0.18) + (heat * 0.1)
     return {
         "score": round(max(0.0, min(1.0, score)), 4),
         "breakdown": {
+            "editorial": round(editorial, 4),
             "source_tier": round(source_score, 4),
             "ai_relevance": round(relevance, 4),
             "recency": round(recency, 4),
@@ -3526,6 +5168,46 @@ def build_merge_log_payload(events: list[dict[str, Any]], generated_at: str) -> 
     }
 
 
+def build_creator_hot_items(
+    archive: dict[str, dict[str, Any]],
+    now: datetime,
+    *,
+    ai_only: bool,
+) -> list[dict[str, Any]]:
+    window_start = now - timedelta(days=CREATOR_HOT_WINDOW_DAYS)
+    items: list[dict[str, Any]] = []
+    for record in archive.values():
+        if str(record.get("site_id") or "") not in CREATOR_SITE_IDS:
+            continue
+        if not isinstance(record.get("creator_metrics"), dict):
+            continue
+        published = event_time(record)
+        if not published or published < window_start or published > now:
+            continue
+        normalized = dict(record)
+        normalized["title"] = maybe_fix_mojibake(str(normalized.get("title") or ""))
+        normalized["source"] = maybe_fix_mojibake(normalize_source_for_display(
+            str(normalized.get("site_id") or ""),
+            str(normalized.get("source") or ""),
+            str(normalized.get("url") or ""),
+        ))
+        normalized = add_ai_relevance_fields(normalized)
+        if ai_only and not normalized.get("ai_is_related", is_ai_related_record(normalized)):
+            continue
+        normalized = add_source_tier_fields(normalized)
+        items.append(add_creator_ranking_fields(normalized, now))
+
+    deduped = suppress_near_duplicate_items(dedupe_items_by_title_url(items, random_pick=False))
+    deduped.sort(
+        key=lambda item: (
+            float(item.get("creator_hot_score") or 0),
+            event_time(item) or datetime.min.replace(tzinfo=UTC),
+        ),
+        reverse=True,
+    )
+    return deduped
+
+
 def build_latest_payloads(latest_payload: dict[str, Any]) -> tuple[dict[str, Any], dict[str, Any]]:
     """Split initial AI payload from bulky all-mode lists for lazy browser loading."""
     slim_payload = dict(latest_payload)
@@ -3542,6 +5224,7 @@ def build_latest_payloads(latest_payload: dict[str, Any]) -> tuple[dict[str, Any
     slim_payload.pop("items_all", None)
     slim_payload.pop("items_all_raw", None)
     slim_payload["all_mode_data_url"] = "data/latest-24h-all.json"
+    slim_payload["stories_data_url"] = "data/stories-merged.json"
     return slim_payload, all_payload
 
 
@@ -3569,8 +5252,10 @@ def main() -> int:
     waytoagi_path = output_dir / "waytoagi-7d.json"
     title_cache_path = output_dir / "title-zh-cache.json"
     email_digest_path = output_dir / AGENTMAIL_DIGEST_FILE
+    paid_source_state_path = output_dir / PAID_SOURCE_STATE_FILE
 
     archive = load_archive(archive_path)
+    paid_source_state = load_paid_source_state(paid_source_state_path)
 
     session = create_session()
     raw_items, statuses = collect_all(session, now)
@@ -3594,6 +5279,88 @@ def main() -> int:
                 "error": x_api_status.get("error"),
                 "skipped": bool(x_api_status.get("skipped")),
                 "skip_reason": x_api_status.get("skip_reason"),
+            }
+        )
+    socialdata_items, socialdata_status = maybe_fetch_socialdata_updates(session, now, paid_source_state)
+    update_paid_source_state(paid_source_state, "socialdata", socialdata_status, now)
+    sync_paid_source_status_timestamps(socialdata_status, paid_source_state, "socialdata")
+    if socialdata_status.get("enabled"):
+        raw_items.extend(socialdata_items)
+        statuses.append(
+            {
+                "site_id": "socialdata_x",
+                "site_name": "SocialData X",
+                "ok": bool(socialdata_status.get("ok")) if socialdata_status.get("ok") is not None else True,
+                "item_count": int(socialdata_status.get("item_count") or 0),
+                "duration_ms": 0,
+                "error": socialdata_status.get("error"),
+                "skipped": bool(socialdata_status.get("skipped")),
+                "skip_reason": socialdata_status.get("skip_reason"),
+            }
+        )
+    tikhub_items, tikhub_status = maybe_fetch_tikhub_updates(session, now, paid_source_state)
+    update_paid_source_state(paid_source_state, "tikhub", tikhub_status, now)
+    sync_paid_source_status_timestamps(tikhub_status, paid_source_state, "tikhub")
+    if tikhub_status.get("enabled"):
+        raw_items.extend(tikhub_items)
+        tikhub_counts: dict[str, int] = {}
+        for item in tikhub_items:
+            tikhub_counts[item.site_id] = tikhub_counts.get(item.site_id, 0) + 1
+        for site_id, site_name in (
+            ("tikhub_douyin", "TikHub Douyin"),
+            ("tikhub_xiaohongshu", "TikHub Xiaohongshu"),
+        ):
+            if site_id.split("_", 1)[1] not in set(tikhub_status.get("platforms") or []):
+                continue
+            statuses.append(
+                {
+                    "site_id": site_id,
+                    "site_name": site_name,
+                    "ok": bool(tikhub_status.get("ok")) if tikhub_status.get("ok") is not None else True,
+                    "item_count": tikhub_counts.get(site_id, 0),
+                    "duration_ms": 0,
+                    "error": tikhub_status.get("error"),
+                    "skipped": bool(tikhub_status.get("skipped")),
+                    "skip_reason": tikhub_status.get("skip_reason"),
+                }
+            )
+
+    waytoagi_started = time.perf_counter()
+    try:
+        waytoagi_payload = fetch_waytoagi_recent_7d(session, now, WAYTOAGI_DEFAULT)
+        waytoagi_items = waytoagi_updates_to_raw_items(waytoagi_payload, now)
+        raw_items.extend(waytoagi_items)
+        statuses.append(
+            {
+                "site_id": "waytoagi",
+                "site_name": "WaytoAGI",
+                "ok": True,
+                "item_count": len(waytoagi_items),
+                "duration_ms": int((time.perf_counter() - waytoagi_started) * 1000),
+                "error": None,
+            }
+        )
+    except Exception as exc:
+        waytoagi_payload = {
+            "generated_at": iso(now),
+            "timezone": "Asia/Shanghai",
+            "root_url": WAYTOAGI_DEFAULT,
+            "history_url": None,
+            "window_days": 7,
+            "count_7d": 0,
+            "updates_7d": [],
+            "warning": "WaytoAGI 近7日更新抓取失败",
+            "has_error": True,
+            "error": str(exc),
+        }
+        statuses.append(
+            {
+                "site_id": "waytoagi",
+                "site_name": "WaytoAGI",
+                "ok": False,
+                "item_count": 0,
+                "duration_ms": int((time.perf_counter() - waytoagi_started) * 1000),
+                "error": str(exc),
             }
         )
 
@@ -3648,6 +5415,7 @@ def main() -> int:
                 "first_seen_at": iso(now),
                 "last_seen_at": iso(now),
             }
+            apply_public_raw_meta(archive[item_id], raw)
         else:
             existing["site_id"] = raw.site_id
             existing["site_name"] = raw.site_name
@@ -3659,6 +5427,7 @@ def main() -> int:
                 if raw.site_id == "opmlrss" or not existing.get("published_at"):
                     existing["published_at"] = iso(raw.published_at)
             existing["last_seen_at"] = iso(now)
+            apply_public_raw_meta(existing, raw)
 
     # Prune old archive
     keep_after = now - timedelta(days=args.archive_days)
@@ -3708,6 +5477,15 @@ def main() -> int:
         session,
         title_cache,
         max_new_translations=max(0, args.translate_max_new),
+    )
+    creator_items_ai = build_creator_hot_items(archive, now, ai_only=True)
+    creator_items_all = build_creator_hot_items(archive, now, ai_only=False)
+    creator_items_ai, creator_items_all, title_cache = add_bilingual_fields(
+        creator_items_ai,
+        creator_items_all,
+        session,
+        title_cache,
+        max_new_translations=0,
     )
     latest_items_ai_dedup = suppress_near_duplicate_items(dedupe_items_by_title_url(latest_items, random_pick=False))
     latest_items_all_dedup = dedupe_items_by_title_url(latest_items_all, random_pick=True)
@@ -3766,6 +5544,10 @@ def main() -> int:
         "site_count": len(site_stat),
         "source_count": len({f"{i['site_id']}::{i['source']}" for i in latest_items_ai_dedup}),
         "site_stats": sorted(site_stat.values(), key=lambda x: x["count"], reverse=True),
+        "creator_window_days": CREATOR_HOT_WINDOW_DAYS,
+        "creator_ranking": "engagement_85_fresh_24h_bonus_15_v1",
+        "creator_items_ai": creator_items_ai,
+        "creator_items_all": creator_items_all,
         "items": latest_items_ai_dedup,
         "items_ai": latest_items_ai_dedup,
         "items_all_raw": latest_items_all,
@@ -3782,12 +5564,34 @@ def main() -> int:
         ),
     }
 
+    empty_advanced_sources = [
+        {
+            "site_id": s["site_id"],
+            "site_name": s.get("site_name") or s["site_id"],
+            "reason": "connected_no_matching_results",
+        }
+        for s in statuses
+        if s.get("ok")
+        and int(s.get("item_count") or 0) == 0
+        and str(s.get("site_id") or "") in {"xapi", "socialdata_x", "tikhub_douyin", "tikhub_xiaohongshu"}
+        and not s.get("skipped")
+    ]
+    empty_advanced_site_ids = {item["site_id"] for item in empty_advanced_sources}
+
     status_payload = {
         "generated_at": generated_at,
         "sites": statuses,
         "successful_sites": sum(1 for s in statuses if s["ok"]),
         "failed_sites": [s["site_id"] for s in statuses if not s["ok"]],
-        "zero_item_sites": [s["site_id"] for s in statuses if s.get("ok") and int(s.get("item_count") or 0) == 0],
+        "zero_item_sites": [
+            s["site_id"]
+            for s in statuses
+            if s.get("ok")
+            and int(s.get("item_count") or 0) == 0
+            and not s.get("skipped")
+            and str(s.get("site_id") or "") not in empty_advanced_site_ids
+        ],
+        "empty_advanced_sources": empty_advanced_sources,
         "fetched_raw_items": len(raw_items),
         "items_before_topic_filter": len(latest_items_all),
         "items_in_24h": len(latest_items_ai_dedup),
@@ -3817,23 +5621,9 @@ def main() -> int:
         },
         "agentmail": agentmail_status,
         "x_api": x_api_status,
+        "socialdata": socialdata_status,
+        "tikhub": tikhub_status,
     }
-
-    try:
-        waytoagi_payload = fetch_waytoagi_recent_7d(session, now, WAYTOAGI_DEFAULT)
-    except Exception as exc:
-        waytoagi_payload = {
-            "generated_at": iso(now),
-            "timezone": "Asia/Shanghai",
-            "root_url": WAYTOAGI_DEFAULT,
-            "history_url": None,
-            "window_days": 7,
-            "count_7d": 0,
-            "updates_7d": [],
-            "warning": "WaytoAGI 近7日更新抓取失败",
-            "has_error": True,
-            "error": str(exc),
-        }
 
     latest_payload, latest_all_payload = build_latest_payloads(latest_payload)
 
@@ -3856,6 +5646,10 @@ def main() -> int:
         encoding="utf-8",
     )
     status_path.write_text(json.dumps(sanitize_public_payload(status_payload), ensure_ascii=False, indent=2), encoding="utf-8")
+    paid_source_state_path.write_text(
+        json.dumps(sanitize_public_payload(paid_source_state), ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
     if email_digest_payload is not None:
         email_digest_path.write_text(
             json.dumps(sanitize_public_payload(email_digest_payload), ensure_ascii=False, indent=2),
@@ -3871,6 +5665,7 @@ def main() -> int:
     print(f"Wrote: {merge_log_path} ({len(merge_events)} merge events)")
     print(f"Wrote: {archive_path} ({len(archive)} items)")
     print(f"Wrote: {status_path}")
+    print(f"Wrote: {paid_source_state_path}")
     if email_digest_payload is not None:
         print(f"Wrote: {email_digest_path} ({email_digest_payload.get('total_messages', 0)} email items)")
     print(f"Wrote: {waytoagi_path} ({waytoagi_payload.get('count_7d', 0)} items)")

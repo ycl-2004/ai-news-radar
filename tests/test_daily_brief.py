@@ -8,7 +8,9 @@ from scripts.update_news import (
     build_merge_log_payload,
     build_stories_payload,
     calculate_item_importance,
+    editorial_score,
     merge_story_items,
+    waytoagi_updates_to_raw_items,
 )
 
 
@@ -45,6 +47,38 @@ def test_importance_score_favors_official_relevant_recent_items():
     discussion_score = calculate_item_importance(discussion, NOW, 24)["score"]
 
     assert official_score > discussion_score
+
+
+def test_importance_score_uses_aihot_editorial_score():
+    strong = make_item(1, site_id="aihot", ai_score=0.7)
+    weak = make_item(2, site_id="aihot", ai_score=0.7)
+    strong["aihot_score"] = 88
+    weak["aihot_score"] = 60
+
+    strong_importance = calculate_item_importance(strong, NOW, 24)
+    weak_importance = calculate_item_importance(weak, NOW, 24)
+
+    assert editorial_score(strong) == 0.88
+    assert strong_importance["score"] > weak_importance["score"]
+    assert "editorial" in strong_importance["breakdown"]
+
+
+def test_waytoagi_latest_updates_become_community_raw_items():
+    payload = {
+        "root_url": "https://waytoagi.example/wiki",
+        "latest_date": "2026-06-15",
+        "updates_today": [
+            {"date": "2026-06-15", "title": "Agent loop community writeup", "url": "https://waytoagi.example/wiki"}
+        ],
+    }
+
+    items = waytoagi_updates_to_raw_items(payload, NOW)
+
+    assert len(items) == 1
+    assert items[0].site_id == "waytoagi"
+    assert items[0].site_name == "WaytoAGI"
+    assert items[0].source == "社区更新 · 2026-06-15"
+    assert items[0].published_at == NOW
 
 
 def test_daily_brief_respects_20_cap_when_enough_distinct_stories_exist():
