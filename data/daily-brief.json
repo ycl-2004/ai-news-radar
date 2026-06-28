@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-28T18:40:47.201334Z",
+  "generated_at": "2026-06-28T20:07:40.690881Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -95,15 +95,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.8472,
-      "importance": 0.8472,
-      "importance_score": 0.8472,
+      "score": 0.8436,
+      "importance": 0.8436,
+      "importance_score": 0.8436,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9758,
+        "recency": 0.9556,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -176,15 +176,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
+      "score": 0.7647,
+      "importance": 0.7647,
+      "importance_score": 0.7647,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.76,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7946,
+        "recency": 0.7781,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -257,15 +257,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.766,
-      "importance": 0.766,
-      "importance_score": 0.766,
+      "score": 0.7627,
+      "importance": 0.7627,
+      "importance_score": 0.7627,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8856,
+        "recency": 0.8673,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -319,15 +319,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7423,
-      "importance": 0.7423,
-      "importance_score": 0.7423,
+      "score": 0.739,
+      "importance": 0.739,
+      "importance_score": 0.739,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8929,
+        "recency": 0.8744,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -379,15 +379,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7309,
-      "importance": 0.7309,
-      "importance_score": 0.7309,
+      "score": 0.7282,
+      "importance": 0.7282,
+      "importance_score": 0.7282,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.76,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7297,
+        "recency": 0.7146,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -458,15 +458,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7603,
-      "importance": 0.7603,
-      "importance_score": 0.7603,
+      "score": 0.7571,
+      "importance": 0.7571,
+      "importance_score": 0.7571,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8539,
+        "recency": 0.8363,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -539,15 +539,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7581,
-      "importance": 0.7581,
-      "importance_score": 0.7581,
+      "score": 0.755,
+      "importance": 0.755,
+      "importance_score": 0.755,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8081,
+        "recency": 0.7913,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -601,15 +601,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7274,
-      "importance": 0.7274,
-      "importance_score": 0.7274,
+      "score": 0.7238,
+      "importance": 0.7238,
+      "importance_score": 0.7238,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.6,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9768,
+        "recency": 0.9566,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -687,20 +687,10 @@
           "source_name": "WaytoAGI",
           "site_id": "waytoagi",
           "published_at": "2026-06-28T17:00:44.024568Z"
-        },
-        {
-          "id": "ebe078369768f42268ed8f87ed2410bd6ea4c357",
-          "title": "不少创作者在用GPT做中国传统画风插画时会遇到工具短板：GPT擅长搭建完整分镜与精美构图，产出却自带浓重日系动漫质感；仅有即梦3.0能还原水墨戏曲中式画风，但画面却粗糙杂乱。作者分享了一套互补流水线，先用大模型拆解抽象文案生成画面、提取纯画面描述，再导入即梦3.0绘制国风底图，辅以骨骼参考优化群像，最后回传GPT打磨画面瑕疵。做国风短片、插画的创作者可以直接复用。",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-06-27",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-06-27T18:42:20.642503Z"
         }
       ],
-      "source_count": 7,
+      "source_count": 6,
       "source_names": [
-        "社区更新 · 2026-06-27",
         "社区更新 · 2026-06-28"
       ],
       "items": [
@@ -757,35 +747,26 @@
           "source_name": "WaytoAGI",
           "site_id": "waytoagi",
           "published_at": "2026-06-28T17:00:44.024568Z"
-        },
-        {
-          "id": "ebe078369768f42268ed8f87ed2410bd6ea4c357",
-          "title": "不少创作者在用GPT做中国传统画风插画时会遇到工具短板：GPT擅长搭建完整分镜与精美构图，产出却自带浓重日系动漫质感；仅有即梦3.0能还原水墨戏曲中式画风，但画面却粗糙杂乱。作者分享了一套互补流水线，先用大模型拆解抽象文案生成画面、提取纯画面描述，再导入即梦3.0绘制国风底图，辅以骨骼参考优化群像，最后回传GPT打磨画面瑕疵。做国风短片、插画的创作者可以直接复用。",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-06-27",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-06-27T18:42:20.642503Z"
         }
       ],
-      "item_count": 7,
-      "duplicate_count": 7,
-      "score": 0.6942,
-      "importance": 0.6942,
-      "importance_score": 0.6942,
+      "item_count": 6,
+      "duplicate_count": 6,
+      "score": 0.6904,
+      "importance": 0.6904,
+      "importance_score": 0.6904,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.5112,
         "source_tier": 0.54,
         "ai_relevance": 0.71,
-        "recency": 1.0,
+        "recency": 0.9793,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-27T18:42:20.642503Z",
+      "earliest_at": "2026-06-28T17:00:44.024568Z",
       "latest_at": "2026-06-28T18:40:47.201334Z",
       "primary_item": {
         "id": "b450b13b8982ad63d237e6c76f60641b20c9489a",
@@ -793,6 +774,104 @@
         "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
         "source": "社区更新 · 2026-06-28",
         "source_name": "WaytoAGI"
+      }
+    },
+    {
+      "story_id": "story_b7e39861955b",
+      "title": "人工智能技术不足后，福特重新雇用“灰胡子”工程师 / Ford rehires 'gray beard' engineers after AI falls short",
+      "url": "https://news.ycombinator.com/item?id=48710749",
+      "primary_url": "https://news.ycombinator.com/item?id=48710749",
+      "source": "hackernews",
+      "source_name": "NewsNow",
+      "sources": [
+        {
+          "id": "0b1df109e507e3c5fab7403812a66679023bbd23",
+          "title": "人工智能技术不足后，福特重新雇用“灰胡子”工程师 / Ford rehires 'gray beard' engineers after AI falls short",
+          "url": "https://news.ycombinator.com/item?id=48710749",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-28T20:08:25.126000Z"
+        },
+        {
+          "id": "f081a61dc1e7b58473f2de935fa56a97f50eab28",
+          "title": "人工智能技术不足后，福特重新雇用“灰胡子”工程师 / Ford rehires 'gray beard' engineers after AI falls short",
+          "url": "https://techcrunch.com/2026/06/28/ford-rehires-gray-beard-engineers-after-ai-falls-short",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-28T19:35:57Z"
+        },
+        {
+          "id": "fd26566f565e42ac5e170b0d3f6dc7d480648a0a",
+          "title": "人工智能不足后，福特重新雇用“灰胡子”工程师 / Ford rehires ‘gray beard’ engineers after AI falls short",
+          "url": "https://techcrunch.com/2026/06/28/ford-rehires-gray-beard-engineers-after-ai-falls-short",
+          "source": "TechCrunch",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-28T19:05:39Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "Hacker News · 24h最热",
+        "TechCrunch",
+        "hackernews"
+      ],
+      "items": [
+        {
+          "id": "0b1df109e507e3c5fab7403812a66679023bbd23",
+          "title": "人工智能技术不足后，福特重新雇用“灰胡子”工程师 / Ford rehires 'gray beard' engineers after AI falls short",
+          "url": "https://news.ycombinator.com/item?id=48710749",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-28T20:08:25.126000Z"
+        },
+        {
+          "id": "f081a61dc1e7b58473f2de935fa56a97f50eab28",
+          "title": "人工智能技术不足后，福特重新雇用“灰胡子”工程师 / Ford rehires 'gray beard' engineers after AI falls short",
+          "url": "https://techcrunch.com/2026/06/28/ford-rehires-gray-beard-engineers-after-ai-falls-short",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-28T19:35:57Z"
+        },
+        {
+          "id": "fd26566f565e42ac5e170b0d3f6dc7d480648a0a",
+          "title": "人工智能不足后，福特重新雇用“灰胡子”工程师 / Ford rehires ‘gray beard’ engineers after AI falls short",
+          "url": "https://techcrunch.com/2026/06/28/ford-rehires-gray-beard-engineers-after-ai-falls-short",
+          "source": "TechCrunch",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-28T19:05:39Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.5708,
+      "importance": 0.5708,
+      "importance_score": 0.5708,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 1.0,
+        "story_heat": 0.5
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-28T19:05:39Z",
+      "latest_at": "2026-06-28T20:08:25.126000Z",
+      "primary_item": {
+        "id": "0b1df109e507e3c5fab7403812a66679023bbd23",
+        "title": "人工智能技术不足后，福特重新雇用“灰胡子”工程师 / Ford rehires 'gray beard' engineers after AI falls short",
+        "url": "https://news.ycombinator.com/item?id=48710749",
+        "source": "hackernews",
+        "source_name": "NewsNow"
       }
     },
     {
@@ -868,15 +947,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5706,
-      "importance": 0.5706,
-      "importance_score": 0.5706,
+      "score": 0.5668,
+      "importance": 0.5668,
+      "importance_score": 0.5668,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9986,
+        "recency": 0.978,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -891,6 +970,104 @@
         "url": "https://antoine.fi/mri-analysis-using-claude-code-opus",
         "source": "antoine.fi",
         "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_6c80d7901ac0",
+      "title": "我们进行了“Mythos at Home”测试：在我们的网络基准测试中，GLM 5.2 击败了 Claude / Semgrep: GLM 5.2 beats Claude in our Cyber Benchmarks",
+      "url": "https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks",
+      "primary_url": "https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks",
+      "source": "Hacker News (黑客新闻)",
+      "source_name": "Info Flow",
+      "sources": [
+        {
+          "id": "fc0e96921b6624ae40eddd0dc15c2a636ae27491",
+          "title": "我们进行了“Mythos at Home”测试：在我们的网络基准测试中，GLM 5.2 击败了 Claude / Semgrep: GLM 5.2 beats Claude in our Cyber Benchmarks",
+          "url": "https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-28T17:50:47Z"
+        },
+        {
+          "id": "10b408b9d23b67552e36b9eb2dd8507003fd91da",
+          "title": "我们进行了“Mythos at Home”测试：在我们的网络基准测试中，GLM 5.2 击败了 Claude",
+          "url": "https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks",
+          "source": "semgrep.dev",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-28T15:07:19.647000Z"
+        },
+        {
+          "id": "8e34319ef1eb74791116166a162cab9c4b661141",
+          "title": "我们进行了“Mythos at Home”测试：在我们的网络基准测试中，GLM 5.2 击败了 Claude / We have Mythos at Home: GLM 5.2 beats Claude in our Cyber Benchmarks",
+          "url": "https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks",
+          "source": "Lobsters (技术社区)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-28T14:58:01Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "Hacker News (黑客新闻)",
+        "Lobsters (技术社区)",
+        "semgrep.dev"
+      ],
+      "items": [
+        {
+          "id": "fc0e96921b6624ae40eddd0dc15c2a636ae27491",
+          "title": "我们进行了“Mythos at Home”测试：在我们的网络基准测试中，GLM 5.2 击败了 Claude / Semgrep: GLM 5.2 beats Claude in our Cyber Benchmarks",
+          "url": "https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-28T17:50:47Z"
+        },
+        {
+          "id": "10b408b9d23b67552e36b9eb2dd8507003fd91da",
+          "title": "我们进行了“Mythos at Home”测试：在我们的网络基准测试中，GLM 5.2 击败了 Claude",
+          "url": "https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks",
+          "source": "semgrep.dev",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-28T15:07:19.647000Z"
+        },
+        {
+          "id": "8e34319ef1eb74791116166a162cab9c4b661141",
+          "title": "我们进行了“Mythos at Home”测试：在我们的网络基准测试中，GLM 5.2 击败了 Claude / We have Mythos at Home: GLM 5.2 beats Claude in our Cyber Benchmarks",
+          "url": "https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks",
+          "source": "Lobsters (技术社区)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-28T14:58:01Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.565,
+      "importance": 0.565,
+      "importance_score": 0.565,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9676,
+        "story_heat": 0.5
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-28T14:58:01Z",
+      "latest_at": "2026-06-28T17:50:47Z",
+      "primary_item": {
+        "id": "fc0e96921b6624ae40eddd0dc15c2a636ae27491",
+        "title": "我们进行了“Mythos at Home”测试：在我们的网络基准测试中，GLM 5.2 击败了 Claude / Semgrep: GLM 5.2 beats Claude in our Cyber Benchmarks",
+        "url": "https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks",
+        "source": "Hacker News (黑客新闻)",
+        "source_name": "Info Flow"
       }
     },
     {
@@ -966,15 +1143,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5671,
-      "importance": 0.5671,
-      "importance_score": 0.5671,
+      "score": 0.5635,
+      "importance": 0.5635,
+      "importance_score": 0.5635,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9795,
+        "recency": 0.9593,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1064,15 +1241,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5651,
-      "importance": 0.5651,
-      "importance_score": 0.5651,
+      "score": 0.5615,
+      "importance": 0.5615,
+      "importance_score": 0.5615,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9683,
+        "recency": 0.9483,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1087,85 +1264,6 @@
         "url": "https://github.com/openai/codex/issues/2847",
         "source": "github.com",
         "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_4fb9255c5e22",
-      "title": "人工智能时代软件工程的思考 / Reflections on Software Engineering in the Age of AI",
-      "url": "https://news.ycombinator.com/item?id=48708721",
-      "primary_url": "https://news.ycombinator.com/item?id=48708721",
-      "source": "hackernews",
-      "source_name": "NewsNow",
-      "sources": [
-        {
-          "id": "469d161407e17d8b46e371e34486dc5072771f4e",
-          "title": "人工智能时代软件工程的思考 / Reflections on Software Engineering in the Age of AI",
-          "url": "https://news.ycombinator.com/item?id=48708721",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-28T18:28:50.772000Z"
-        },
-        {
-          "id": "ea8165f2edfff2adcb5ea5dca5933fdd007b013c",
-          "title": "人工智能时代软件工程的思考 / Reflections on Software Engineering in the Age of AI",
-          "url": "https://adiamond.me/2026/06/software-engineering-in-the-age-of-ai",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-28T16:17:38Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News (黑客新闻)",
-        "hackernews"
-      ],
-      "items": [
-        {
-          "id": "469d161407e17d8b46e371e34486dc5072771f4e",
-          "title": "人工智能时代软件工程的思考 / Reflections on Software Engineering in the Age of AI",
-          "url": "https://news.ycombinator.com/item?id=48708721",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-28T18:28:50.772000Z"
-        },
-        {
-          "id": "ea8165f2edfff2adcb5ea5dca5933fdd007b013c",
-          "title": "人工智能时代软件工程的思考 / Reflections on Software Engineering in the Age of AI",
-          "url": "https://adiamond.me/2026/06/software-engineering-in-the-age-of-ai",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-28T16:17:38Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5453,
-      "importance": 0.5453,
-      "importance_score": 0.5453,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9971,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-28T16:17:38Z",
-      "latest_at": "2026-06-28T18:28:50.772000Z",
-      "primary_item": {
-        "id": "469d161407e17d8b46e371e34486dc5072771f4e",
-        "title": "人工智能时代软件工程的思考 / Reflections on Software Engineering in the Age of AI",
-        "url": "https://news.ycombinator.com/item?id=48708721",
-        "source": "hackernews",
-        "source_name": "NewsNow"
       }
     },
     {
@@ -1222,15 +1320,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5428,
-      "importance": 0.5428,
-      "importance_score": 0.5428,
+      "score": 0.5391,
+      "importance": 0.5391,
+      "importance_score": 0.5391,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9833,
+        "recency": 0.963,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1245,85 +1343,6 @@
         "url": "https://www.reddit.com/r/plan9/comments/1uhiwf9/attention_ai_slop_porters",
         "source": "www.reddit.com",
         "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_faed440e0f0c",
-      "title": "OpenAi 研究员：未来最极度的稀缺是什么？",
-      "url": "https://www.huxiu.com/article/4871071.html?f=rss",
-      "primary_url": "https://www.huxiu.com/article/4871071.html?f=rss",
-      "source": "Readhub · AI",
-      "source_name": "TopHub",
-      "sources": [
-        {
-          "id": "c7f0c120e827a7fb4b45980526c1cf4909a55095",
-          "title": "OpenAi 研究员：未来最极度的稀缺是什么？",
-          "url": "https://www.huxiu.com/article/4871071.html?f=rss",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        },
-        {
-          "id": "d55fc57a30f0d44f17afdc2329f432104f072567",
-          "title": "OpenAi研究员：未来最极度的稀缺是什么？",
-          "url": "https://www.huxiu.com/article/4871071.html?f=rss",
-          "source": "虎嗅 (Huxiu)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-28T16:06:01Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Readhub · AI",
-        "虎嗅 (Huxiu)"
-      ],
-      "items": [
-        {
-          "id": "c7f0c120e827a7fb4b45980526c1cf4909a55095",
-          "title": "OpenAi 研究员：未来最极度的稀缺是什么？",
-          "url": "https://www.huxiu.com/article/4871071.html?f=rss",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        },
-        {
-          "id": "d55fc57a30f0d44f17afdc2329f432104f072567",
-          "title": "OpenAi研究员：未来最极度的稀缺是什么？",
-          "url": "https://www.huxiu.com/article/4871071.html?f=rss",
-          "source": "虎嗅 (Huxiu)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-28T16:06:01Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5415,
-      "importance": 0.5415,
-      "importance_score": 0.5415,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9762,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-28T16:06:01Z",
-      "latest_at": "2026-06-28T17:00:44.024568Z",
-      "primary_item": {
-        "id": "c7f0c120e827a7fb4b45980526c1cf4909a55095",
-        "title": "OpenAi 研究员：未来最极度的稀缺是什么？",
-        "url": "https://www.huxiu.com/article/4871071.html?f=rss",
-        "source": "Readhub · AI",
-        "source_name": "TopHub"
       }
     },
     {
@@ -1399,15 +1418,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5414,
-      "importance": 0.5414,
-      "importance_score": 0.5414,
+      "score": 0.5383,
+      "importance": 0.5383,
+      "importance_score": 0.5383,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8365,
+        "recency": 0.8192,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1422,6 +1441,85 @@
         "url": "https://www.the-independent.com/tech/ford-ai-automation-human-workers-b3003787.html",
         "source": "www.the-independent.com",
         "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_faed440e0f0c",
+      "title": "OpenAi 研究员：未来最极度的稀缺是什么？",
+      "url": "https://www.huxiu.com/article/4871071.html?f=rss",
+      "primary_url": "https://www.huxiu.com/article/4871071.html?f=rss",
+      "source": "Readhub · AI",
+      "source_name": "TopHub",
+      "sources": [
+        {
+          "id": "c7f0c120e827a7fb4b45980526c1cf4909a55095",
+          "title": "OpenAi 研究员：未来最极度的稀缺是什么？",
+          "url": "https://www.huxiu.com/article/4871071.html?f=rss",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        },
+        {
+          "id": "d55fc57a30f0d44f17afdc2329f432104f072567",
+          "title": "OpenAi研究员：未来最极度的稀缺是什么？",
+          "url": "https://www.huxiu.com/article/4871071.html?f=rss",
+          "source": "虎嗅 (Huxiu)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-28T16:06:01Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Readhub · AI",
+        "虎嗅 (Huxiu)"
+      ],
+      "items": [
+        {
+          "id": "c7f0c120e827a7fb4b45980526c1cf4909a55095",
+          "title": "OpenAi 研究员：未来最极度的稀缺是什么？",
+          "url": "https://www.huxiu.com/article/4871071.html?f=rss",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        },
+        {
+          "id": "d55fc57a30f0d44f17afdc2329f432104f072567",
+          "title": "OpenAi研究员：未来最极度的稀缺是什么？",
+          "url": "https://www.huxiu.com/article/4871071.html?f=rss",
+          "source": "虎嗅 (Huxiu)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-28T16:06:01Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5379,
+      "importance": 0.5379,
+      "importance_score": 0.5379,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.956,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-28T16:06:01Z",
+      "latest_at": "2026-06-28T17:00:44.024568Z",
+      "primary_item": {
+        "id": "c7f0c120e827a7fb4b45980526c1cf4909a55095",
+        "title": "OpenAi 研究员：未来最极度的稀缺是什么？",
+        "url": "https://www.huxiu.com/article/4871071.html?f=rss",
+        "source": "Readhub · AI",
+        "source_name": "TopHub"
       }
     },
     {
@@ -1477,15 +1575,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5402,
-      "importance": 0.5402,
-      "importance_score": 0.5402,
+      "score": 0.5366,
+      "importance": 0.5366,
+      "importance_score": 0.5366,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9687,
+        "recency": 0.9487,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1575,15 +1673,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5374,
-      "importance": 0.5374,
-      "importance_score": 0.5374,
+      "score": 0.5343,
+      "importance": 0.5343,
+      "importance_score": 0.5343,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8142,
+        "recency": 0.7974,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1597,85 +1695,6 @@
         "title": "对AI垃圾内容的回应来自罗宾·威廉姆斯",
         "url": "https://jayacunzo.com/blog/your-move-chief",
         "source": "jayacunzo.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_6c80d7901ac0",
-      "title": "我们进行了“Mythos at Home”测试：在我们的网络基准测试中，GLM 5.2 击败了 Claude",
-      "url": "https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks",
-      "primary_url": "https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks",
-      "source": "semgrep.dev",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "10b408b9d23b67552e36b9eb2dd8507003fd91da",
-          "title": "我们进行了“Mythos at Home”测试：在我们的网络基准测试中，GLM 5.2 击败了 Claude",
-          "url": "https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks",
-          "source": "semgrep.dev",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-28T15:07:19.647000Z"
-        },
-        {
-          "id": "8e34319ef1eb74791116166a162cab9c4b661141",
-          "title": "我们进行了“Mythos at Home”测试：在我们的网络基准测试中，GLM 5.2 击败了 Claude / We have Mythos at Home: GLM 5.2 beats Claude in our Cyber Benchmarks",
-          "url": "https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-28T14:58:01Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Lobsters (技术社区)",
-        "semgrep.dev"
-      ],
-      "items": [
-        {
-          "id": "10b408b9d23b67552e36b9eb2dd8507003fd91da",
-          "title": "我们进行了“Mythos at Home”测试：在我们的网络基准测试中，GLM 5.2 击败了 Claude",
-          "url": "https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks",
-          "source": "semgrep.dev",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-28T15:07:19.647000Z"
-        },
-        {
-          "id": "8e34319ef1eb74791116166a162cab9c4b661141",
-          "title": "我们进行了“Mythos at Home”测试：在我们的网络基准测试中，GLM 5.2 击败了 Claude / We have Mythos at Home: GLM 5.2 beats Claude in our Cyber Benchmarks",
-          "url": "https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-28T14:58:01Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5368,
-      "importance": 0.5368,
-      "importance_score": 0.5368,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9499,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-28T14:58:01Z",
-      "latest_at": "2026-06-28T15:07:19.647000Z",
-      "primary_item": {
-        "id": "10b408b9d23b67552e36b9eb2dd8507003fd91da",
-        "title": "我们进行了“Mythos at Home”测试：在我们的网络基准测试中，GLM 5.2 击败了 Claude",
-        "url": "https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks",
-        "source": "semgrep.dev",
         "source_name": "Buzzing"
       }
     },
@@ -1732,15 +1751,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.535,
-      "importance": 0.535,
-      "importance_score": 0.535,
+      "score": 0.5315,
+      "importance": 0.5315,
+      "importance_score": 0.5315,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9401,
+        "recency": 0.9206,
         "story_heat": 0.25
       },
       "category": "watch",
