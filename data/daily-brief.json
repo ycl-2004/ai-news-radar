@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-28T07:47:45.448089Z",
+  "generated_at": "2026-06-28T10:22:08.793201Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -57,15 +57,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.792,
-      "importance": 0.792,
-      "importance_score": 0.792,
+      "score": 0.7859,
+      "importance": 0.7859,
+      "importance_score": 0.7859,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.76,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9298,
+        "recency": 0.8959,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -81,6 +81,87 @@
         "title": "四大顶级AI对决《文明VI》：Claude核平法国仍输，暴露感知与执行短板",
         "url": "https://www.ithome.com/0/969/570.htm",
         "source": "IT之家（RSS）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_7fc17092690c",
+      "title": "新浪开源VibeThinker-3B：推理可压缩，事实知识不能",
+      "url": "https://the-decoder.com/sinas-open-model-vibethinker-3b-aims-to-show-reasoning-compresses-well-but-factual-knowledge-doesnt",
+      "primary_url": "https://the-decoder.com/sinas-open-model-vibethinker-3b-aims-to-show-reasoning-compresses-well-but-factual-knowledge-doesnt",
+      "source": "The Decoder：AI News（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "9ed204705387fe21ff798e975008b74ef9a14557",
+          "title": "新浪开源VibeThinker-3B：推理可压缩，事实知识不能",
+          "url": "https://the-decoder.com/sinas-open-model-vibethinker-3b-aims-to-show-reasoning-compresses-well-but-factual-knowledge-doesnt",
+          "source": "The Decoder：AI News（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-28T07:44:41Z"
+        },
+        {
+          "id": "c5e727c8a2b66b0f35a851acb9f613a055e0c0e0",
+          "title": "新浪开源VibeThinker-3B：推理可压缩，事实知识不能 / Sina's open model VibeThinker-3B aims to show reasoning compresses well but factual knowledge doesn't",
+          "url": "https://the-decoder.com/sinas-open-model-vibethinker-3b-aims-to-show-reasoning-compresses-well-but-factual-knowledge-doesnt",
+          "source": "The Decoder AI News",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-06-28T07:44:41Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "The Decoder AI News",
+        "The Decoder：AI News（RSS）"
+      ],
+      "items": [
+        {
+          "id": "9ed204705387fe21ff798e975008b74ef9a14557",
+          "title": "新浪开源VibeThinker-3B：推理可压缩，事实知识不能",
+          "url": "https://the-decoder.com/sinas-open-model-vibethinker-3b-aims-to-show-reasoning-compresses-well-but-factual-knowledge-doesnt",
+          "source": "The Decoder：AI News（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-28T07:44:41Z"
+        },
+        {
+          "id": "c5e727c8a2b66b0f35a851acb9f613a055e0c0e0",
+          "title": "新浪开源VibeThinker-3B：推理可压缩，事实知识不能 / Sina's open model VibeThinker-3B aims to show reasoning compresses well but factual knowledge doesn't",
+          "url": "https://the-decoder.com/sinas-open-model-vibethinker-3b-aims-to-show-reasoning-compresses-well-but-factual-knowledge-doesnt",
+          "source": "The Decoder AI News",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-06-28T07:44:41Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7799,
+      "importance": 0.7799,
+      "importance_score": 0.7799,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.7,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9628,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-28T07:44:41Z",
+      "latest_at": "2026-06-28T07:44:41Z",
+      "primary_item": {
+        "id": "9ed204705387fe21ff798e975008b74ef9a14557",
+        "title": "新浪开源VibeThinker-3B：推理可压缩，事实知识不能",
+        "url": "https://the-decoder.com/sinas-open-model-vibethinker-3b-aims-to-show-reasoning-compresses-well-but-factual-knowledge-doesnt",
+        "source": "The Decoder：AI News（RSS）",
         "source_name": "AI HOT"
       }
     },
@@ -138,15 +219,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7828,
-      "importance": 0.7828,
-      "importance_score": 0.7828,
+      "score": 0.7766,
+      "importance": 0.7766,
+      "importance_score": 0.7766,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9456,
+        "recency": 0.9111,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -200,21 +281,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.754,
-      "importance": 0.754,
-      "importance_score": 0.754,
+      "score": 0.7487,
+      "importance": 0.7487,
+      "importance_score": 0.7487,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.79,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8076,
+        "recency": 0.7782,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-06-27T16:59:58Z",
       "latest_at": "2026-06-27T16:59:58Z",
@@ -261,21 +341,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7533,
-      "importance": 0.7533,
-      "importance_score": 0.7533,
+      "score": 0.7477,
+      "importance": 0.7477,
+      "importance_score": 0.7477,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.76,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8539,
+        "recency": 0.8227,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-06-27T20:51:20Z",
       "latest_at": "2026-06-27T20:51:20Z",
@@ -322,15 +401,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7452,
-      "importance": 0.7452,
-      "importance_score": 0.7452,
+      "score": 0.7399,
+      "importance": 0.7399,
+      "importance_score": 0.7399,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.76,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8087,
+        "recency": 0.7792,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -344,6 +423,67 @@
         "title": "苹果Vision负责人跳槽OpenAI，触控OLED MacBook用M5芯片",
         "url": "https://x.com/berryxia/status/2070916520822321292",
         "source": "X：Berry Xia (@berryxia)",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_fbd38ff6d7c7",
+      "title": "一次失败的（民族国家？）攻击的剖析",
+      "url": "https://grack.com/blog/2026/06/25/dissecting-a-failed-nation-state-attack",
+      "primary_url": "https://grack.com/blog/2026/06/25/dissecting-a-failed-nation-state-attack",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "16cf68c71ba2540e65b9e0e5db9bc90d5bb0bc86",
+          "title": "一次失败的（民族国家？）攻击的剖析",
+          "url": "https://grack.com/blog/2026/06/25/dissecting-a-failed-nation-state-attack",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-27T15:39:53.429000Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Hacker News 热门（buzzing.cc 中文翻译）"
+      ],
+      "items": [
+        {
+          "id": "16cf68c71ba2540e65b9e0e5db9bc90d5bb0bc86",
+          "title": "一次失败的（民族国家？）攻击的剖析",
+          "url": "https://grack.com/blog/2026/06/25/dissecting-a-failed-nation-state-attack",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-27T15:39:53.429000Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.752,
+      "importance": 0.752,
+      "importance_score": 0.752,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.81,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7633,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-27T15:39:53.429000Z",
+      "latest_at": "2026-06-27T15:39:53.429000Z",
+      "primary_item": {
+        "id": "16cf68c71ba2540e65b9e0e5db9bc90d5bb0bc86",
+        "title": "一次失败的（民族国家？）攻击的剖析",
+        "url": "https://grack.com/blog/2026/06/25/dissecting-a-failed-nation-state-attack",
+        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
         "source_name": "AI HOT"
       }
     },
@@ -401,15 +541,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7427,
-      "importance": 0.7427,
-      "importance_score": 0.7427,
+      "score": 0.7377,
+      "importance": 0.7377,
+      "importance_score": 0.7377,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.756,
+        "recency": 0.7284,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -424,167 +564,6 @@
         "title": "\"Raise Us\"启动：前美商务部长与四州合作筹集10亿美元应对AI就业冲击",
         "url": "https://the-decoder.com/the-companies-most-likely-to-automate-your-job-are-now-funding-a-1-billion-program-to-retrain-you",
         "source": "The Decoder：AI News（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_5258ff9579da",
-      "title": "AI 账单失控后 DeepSeek 成\"香饽饽\"，部分美国企业已 100% 切换",
-      "url": "https://www.ithome.com/0/969/400.htm",
-      "primary_url": "https://www.ithome.com/0/969/400.htm",
-      "source": "IT之家（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "ff0b37694e4bd3606df6fb79ce7f00759f39fd60",
-          "title": "AI 账单失控后 DeepSeek 成\"香饽饽\"，部分美国企业已 100% 切换",
-          "url": "https://www.ithome.com/0/969/400.htm",
-          "source": "IT之家（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-27T08:16:09Z"
-        },
-        {
-          "id": "f0f8639a2961ddc9fd543a66c7b54857325524be",
-          "title": "AI 账单失控后 DeepSeek 成「香饽饽」，部分美国企业已 100% 切换",
-          "url": "https://www.ithome.com/0/969/400.htm",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        },
-        {
-          "id": "dcc0eeba3b110db4e6c105af5760be57d6ac6c26",
-          "title": "AI 账单失控后 DeepSeek 成“香饽饽”，部分美国企业已 100% 切换",
-          "url": "https://www.ithome.com/0/969/400.htm",
-          "source": "IT之家 (ITHome)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-27T08:16:09Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "IT之家 (ITHome)",
-        "IT之家（RSS）",
-        "Readhub · AI"
-      ],
-      "items": [
-        {
-          "id": "ff0b37694e4bd3606df6fb79ce7f00759f39fd60",
-          "title": "AI 账单失控后 DeepSeek 成\"香饽饽\"，部分美国企业已 100% 切换",
-          "url": "https://www.ithome.com/0/969/400.htm",
-          "source": "IT之家（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-27T08:16:09Z"
-        },
-        {
-          "id": "f0f8639a2961ddc9fd543a66c7b54857325524be",
-          "title": "AI 账单失控后 DeepSeek 成「香饽饽」，部分美国企业已 100% 切换",
-          "url": "https://www.ithome.com/0/969/400.htm",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        },
-        {
-          "id": "dcc0eeba3b110db4e6c105af5760be57d6ac6c26",
-          "title": "AI 账单失控后 DeepSeek 成“香饽饽”，部分美国企业已 100% 切换",
-          "url": "https://www.ithome.com/0/969/400.htm",
-          "source": "IT之家 (ITHome)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-27T08:16:09Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.7598,
-      "importance": 0.7598,
-      "importance_score": 0.7598,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.7,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.712,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-27T08:16:09Z",
-      "latest_at": "2026-06-27T09:12:00.410766Z",
-      "primary_item": {
-        "id": "ff0b37694e4bd3606df6fb79ce7f00759f39fd60",
-        "title": "AI 账单失控后 DeepSeek 成\"香饽饽\"，部分美国企业已 100% 切换",
-        "url": "https://www.ithome.com/0/969/400.htm",
-        "source": "IT之家（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_fbd38ff6d7c7",
-      "title": "一次失败的（民族国家？）攻击的剖析",
-      "url": "https://grack.com/blog/2026/06/25/dissecting-a-failed-nation-state-attack",
-      "primary_url": "https://grack.com/blog/2026/06/25/dissecting-a-failed-nation-state-attack",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "16cf68c71ba2540e65b9e0e5db9bc90d5bb0bc86",
-          "title": "一次失败的（民族国家？）攻击的剖析",
-          "url": "https://grack.com/blog/2026/06/25/dissecting-a-failed-nation-state-attack",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-27T15:39:53.429000Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Hacker News 热门（buzzing.cc 中文翻译）"
-      ],
-      "items": [
-        {
-          "id": "16cf68c71ba2540e65b9e0e5db9bc90d5bb0bc86",
-          "title": "一次失败的（民族国家？）攻击的剖析",
-          "url": "https://grack.com/blog/2026/06/25/dissecting-a-failed-nation-state-attack",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-27T15:39:53.429000Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7572,
-      "importance": 0.7572,
-      "importance_score": 0.7572,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.81,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7922,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-27T15:39:53.429000Z",
-      "latest_at": "2026-06-27T15:39:53.429000Z",
-      "primary_item": {
-        "id": "16cf68c71ba2540e65b9e0e5db9bc90d5bb0bc86",
-        "title": "一次失败的（民族国家？）攻击的剖析",
-        "url": "https://grack.com/blog/2026/06/25/dissecting-a-failed-nation-state-attack",
-        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
         "source_name": "AI HOT"
       }
     },
@@ -661,15 +640,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.6415,
-      "importance": 0.6415,
-      "importance_score": 0.6415,
+      "score": 0.6366,
+      "importance": 0.6366,
+      "importance_score": 0.6366,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.5688,
         "source_tier": 0.58,
         "ai_relevance": 0.79,
-        "recency": 0.7514,
+        "recency": 0.724,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -796,15 +775,15 @@
       ],
       "item_count": 5,
       "duplicate_count": 5,
-      "score": 0.6202,
-      "importance": 0.6202,
-      "importance_score": 0.6202,
+      "score": 0.6136,
+      "importance": 0.6136,
+      "importance_score": 0.6136,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9965,
+        "recency": 0.9601,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -910,15 +889,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.6132,
-      "importance": 0.6132,
-      "importance_score": 0.6132,
+      "score": 0.6078,
+      "importance": 0.6078,
+      "importance_score": 0.6078,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.54,
         "ai_relevance": 0.65,
-        "recency": 0.8278,
+        "recency": 0.7976,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -1008,15 +987,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.567,
-      "importance": 0.567,
-      "importance_score": 0.567,
+      "score": 0.5606,
+      "importance": 0.5606,
+      "importance_score": 0.5606,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9789,
+        "recency": 0.9432,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1034,30 +1013,30 @@
       }
     },
     {
-      "story_id": "story_d09e82ac0371",
-      "title": "Nature: AI 医生 MIRA 首次「全流程上岗」",
-      "url": "https://www.huxiu.com/article/4870997.html?f=rss",
-      "primary_url": "https://www.huxiu.com/article/4870997.html?f=rss",
+      "story_id": "story_47532e57b2ca",
+      "title": "Dwarkesh Patel：下一代 AI，可能是干活干出来的",
+      "url": "https://news.qq.com/rain/a/20260628A06CVF00",
+      "primary_url": "https://news.qq.com/rain/a/20260628A06CVF00",
       "source": "Readhub · AI",
       "source_name": "TopHub",
       "sources": [
         {
-          "id": "71ae3cee521b155c3d55df95c7fb5c9ca8a35ece",
-          "title": "Nature: AI 医生 MIRA 首次「全流程上岗」",
-          "url": "https://www.huxiu.com/article/4870997.html?f=rss",
+          "id": "d465691253dc373e9cc53202daace270e478afec",
+          "title": "Dwarkesh Patel：下一代 AI，可能是干活干出来的",
+          "url": "https://news.qq.com/rain/a/20260628A06CVF00",
           "source": "Readhub · AI",
           "source_name": "TopHub",
           "site_id": "tophub",
           "published_at": null
         },
         {
-          "id": "d767eaf2ab241138c7277c6797637da7b521f79d",
-          "title": "Nature: AI医生MIRA首次“全流程上岗”",
-          "url": "https://www.huxiu.com/article/4870997.html?f=rss",
+          "id": "6a4c655a2b137e7ec843325929174d80af8d4795",
+          "title": "Dwarkesh Patel：下一代AI，可能是干活干出来的",
+          "url": "https://www.huxiu.com/article/4871020.html?f=rss",
           "source": "虎嗅 (Huxiu)",
           "source_name": "Info Flow",
           "site_id": "iris",
-          "published_at": "2026-06-28T06:37:06Z"
+          "published_at": "2026-06-28T10:09:35Z"
         }
       ],
       "source_count": 2,
@@ -1067,22 +1046,22 @@
       ],
       "items": [
         {
-          "id": "71ae3cee521b155c3d55df95c7fb5c9ca8a35ece",
-          "title": "Nature: AI 医生 MIRA 首次「全流程上岗」",
-          "url": "https://www.huxiu.com/article/4870997.html?f=rss",
+          "id": "d465691253dc373e9cc53202daace270e478afec",
+          "title": "Dwarkesh Patel：下一代 AI，可能是干活干出来的",
+          "url": "https://news.qq.com/rain/a/20260628A06CVF00",
           "source": "Readhub · AI",
           "source_name": "TopHub",
           "site_id": "tophub",
           "published_at": null
         },
         {
-          "id": "d767eaf2ab241138c7277c6797637da7b521f79d",
-          "title": "Nature: AI医生MIRA首次“全流程上岗”",
-          "url": "https://www.huxiu.com/article/4870997.html?f=rss",
+          "id": "6a4c655a2b137e7ec843325929174d80af8d4795",
+          "title": "Dwarkesh Patel：下一代AI，可能是干活干出来的",
+          "url": "https://www.huxiu.com/article/4871020.html?f=rss",
           "source": "虎嗅 (Huxiu)",
           "source_name": "Info Flow",
           "site_id": "iris",
-          "published_at": "2026-06-28T06:37:06Z"
+          "published_at": "2026-06-28T10:09:35Z"
         }
       ],
       "item_count": 2,
@@ -1102,112 +1081,93 @@
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-28T06:37:06Z",
-      "latest_at": "2026-06-28T07:47:45.448089Z",
+      "earliest_at": "2026-06-28T10:09:35Z",
+      "latest_at": "2026-06-28T10:22:08.793201Z",
       "primary_item": {
-        "id": "71ae3cee521b155c3d55df95c7fb5c9ca8a35ece",
-        "title": "Nature: AI 医生 MIRA 首次「全流程上岗」",
-        "url": "https://www.huxiu.com/article/4870997.html?f=rss",
+        "id": "d465691253dc373e9cc53202daace270e478afec",
+        "title": "Dwarkesh Patel：下一代 AI，可能是干活干出来的",
+        "url": "https://news.qq.com/rain/a/20260628A06CVF00",
         "source": "Readhub · AI",
         "source_name": "TopHub"
       }
     },
     {
-      "story_id": "story_774f7412d1a3",
-      "title": "如果一个人练习射击一百万次会怎样？射门 90172，足球进展 [视频] / What If a Man Practised Shooting a Million Times? Shot 90172, Football Progress [video]",
-      "url": "https://www.youtube.com/watch?v=CI9oUUnUzw0",
-      "primary_url": "https://www.youtube.com/watch?v=CI9oUUnUzw0",
-      "source": "Hacker News · 24h最热",
-      "source_name": "Zeli",
+      "story_id": "story_7b7cd8725902",
+      "title": "Show HN: Claudete——指挥一支由Claude Code实例和外壳组成的军团",
+      "url": "https://claudete.co",
+      "primary_url": "https://claudete.co",
+      "source": "claudete.co",
+      "source_name": "Buzzing",
       "sources": [
         {
-          "id": "68dfab153bf443fffcd461656a5df7a65238b01b",
-          "title": "如果一个人练习射击一百万次会怎样？射门 90172，足球进展 [视频] / What If a Man Practised Shooting a Million Times? Shot 90172, Football Progress [video]",
-          "url": "https://www.youtube.com/watch?v=CI9oUUnUzw0",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-27T20:29:53Z"
-        },
-        {
-          "id": "506e569ccd2109289d0105596a8b8bbefd5a3c9a",
-          "title": "《如何看待人工智能》：科里·多克托罗谈科技巨头、理解人工智能、劳动自动化等话题",
-          "url": "https://www.youtube.com/watch?v=OBUzl_IaWIw",
-          "source": "www.youtube.com",
+          "id": "de91e956b67723aa6d2f2dcdb6db227c2b64d121",
+          "title": "Show HN: Claudete——指挥一支由Claude Code实例和外壳组成的军团",
+          "url": "https://claudete.co",
+          "source": "claudete.co",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-06-27T09:31:56.215000Z"
+          "published_at": "2026-06-28T10:02:50.746000Z"
         },
         {
-          "id": "f07679b53b908eedd31a61be7985b8e2eb29f80a",
-          "title": "《如何看待人工智能》：科里·多克托罗谈科技巨头、理解人工智能、劳动自动化等话题 / \"How to Think About AI\": Cory Doctorow on Big Tech, Understanding AI, Labor Automation & More",
-          "url": "https://www.youtube.com/watch?v=OBUzl_IaWIw",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-27T09:17:42Z"
+          "id": "9da74b3ce11abfde1e8fbd76728ac530a9bfca33",
+          "title": "Show HN: Claudete——指挥一支由Claude Code实例和外壳组成的军团 / Show HN: Claudete – Command a legion of Claude Code instances and shells",
+          "url": "https://claudete.co",
+          "source": "HN Algolia · AI 24h",
+          "source_name": "Hacker News",
+          "site_id": "hackernews",
+          "published_at": "2026-06-28T09:46:53Z"
         }
       ],
-      "source_count": 3,
+      "source_count": 2,
       "source_names": [
-        "Hacker News · 24h最热",
-        "Lobsters (技术社区)",
-        "www.youtube.com"
+        "HN Algolia · AI 24h",
+        "claudete.co"
       ],
       "items": [
         {
-          "id": "68dfab153bf443fffcd461656a5df7a65238b01b",
-          "title": "如果一个人练习射击一百万次会怎样？射门 90172，足球进展 [视频] / What If a Man Practised Shooting a Million Times? Shot 90172, Football Progress [video]",
-          "url": "https://www.youtube.com/watch?v=CI9oUUnUzw0",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-27T20:29:53Z"
-        },
-        {
-          "id": "506e569ccd2109289d0105596a8b8bbefd5a3c9a",
-          "title": "《如何看待人工智能》：科里·多克托罗谈科技巨头、理解人工智能、劳动自动化等话题",
-          "url": "https://www.youtube.com/watch?v=OBUzl_IaWIw",
-          "source": "www.youtube.com",
+          "id": "de91e956b67723aa6d2f2dcdb6db227c2b64d121",
+          "title": "Show HN: Claudete——指挥一支由Claude Code实例和外壳组成的军团",
+          "url": "https://claudete.co",
+          "source": "claudete.co",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-06-27T09:31:56.215000Z"
+          "published_at": "2026-06-28T10:02:50.746000Z"
         },
         {
-          "id": "f07679b53b908eedd31a61be7985b8e2eb29f80a",
-          "title": "《如何看待人工智能》：科里·多克托罗谈科技巨头、理解人工智能、劳动自动化等话题 / \"How to Think About AI\": Cory Doctorow on Big Tech, Understanding AI, Labor Automation & More",
-          "url": "https://www.youtube.com/watch?v=OBUzl_IaWIw",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-27T09:17:42Z"
+          "id": "9da74b3ce11abfde1e8fbd76728ac530a9bfca33",
+          "title": "Show HN: Claudete——指挥一支由Claude Code实例和外壳组成的军团 / Show HN: Claudete – Command a legion of Claude Code instances and shells",
+          "url": "https://claudete.co",
+          "source": "HN Algolia · AI 24h",
+          "source_name": "Hacker News",
+          "site_id": "hackernews",
+          "published_at": "2026-06-28T09:46:53Z"
         }
       ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.5437,
-      "importance": 0.5437,
-      "importance_score": 0.5437,
-      "importance_label": "多源热议",
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.545,
+      "importance": 0.545,
+      "importance_score": 0.545,
+      "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8495,
-        "story_heat": 0.5
+        "recency": 0.9954,
+        "story_heat": 0.25
       },
-      "category": "multi_source",
+      "category": "watch",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-27T09:17:42Z",
-      "latest_at": "2026-06-27T20:29:53Z",
+      "earliest_at": "2026-06-28T09:46:53Z",
+      "latest_at": "2026-06-28T10:02:50.746000Z",
       "primary_item": {
-        "id": "68dfab153bf443fffcd461656a5df7a65238b01b",
-        "title": "如果一个人练习射击一百万次会怎样？射门 90172，足球进展 [视频] / What If a Man Practised Shooting a Million Times? Shot 90172, Football Progress [video]",
-        "url": "https://www.youtube.com/watch?v=CI9oUUnUzw0",
-        "source": "Hacker News · 24h最热",
-        "source_name": "Zeli"
+        "id": "de91e956b67723aa6d2f2dcdb6db227c2b64d121",
+        "title": "Show HN: Claudete——指挥一支由Claude Code实例和外壳组成的军团",
+        "url": "https://claudete.co",
+        "source": "claudete.co",
+        "source_name": "Buzzing"
       }
     },
     {
@@ -1263,15 +1223,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5356,
-      "importance": 0.5356,
-      "importance_score": 0.5356,
+      "score": 0.5294,
+      "importance": 0.5294,
+      "importance_score": 0.5294,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9434,
+        "recency": 0.909,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1289,153 +1249,212 @@
       }
     },
     {
-      "story_id": "story_42658ae9e5a8",
-      "title": "DeepSeek 开源了推理优化方案，生成速度提升了 60% 至 85% [pdf]",
-      "url": "https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf",
-      "primary_url": "https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf",
-      "source": "github.com",
-      "source_name": "Buzzing",
+      "story_id": "story_351da59b3f4b",
+      "title": "独家消息：Anthropic的强力模型“Fable 5”有望很快回归 / Powerful Anthropic model, Fable 5, on track to return soon",
+      "url": "https://www.axios.com/2026/06/27/anthropic-fable-5-return-soon",
+      "primary_url": "https://www.axios.com/2026/06/27/anthropic-fable-5-return-soon",
+      "source": "HN Algolia · AI 24h",
+      "source_name": "Hacker News",
       "sources": [
         {
-          "id": "9fb1184850fee3daac49d53b98e20d76bc5f04a9",
-          "title": "DeepSeek 开源了推理优化方案，生成速度提升了 60% 至 85% [pdf]",
-          "url": "https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf",
-          "source": "github.com",
+          "id": "67d31996ac8beb3b65e935ff10da002f4f124eae",
+          "title": "独家消息：Anthropic的强力模型“Fable 5”有望很快回归 / Powerful Anthropic model, Fable 5, on track to return soon",
+          "url": "https://www.axios.com/2026/06/27/anthropic-fable-5-return-soon",
+          "source": "HN Algolia · AI 24h",
+          "source_name": "Hacker News",
+          "site_id": "hackernews",
+          "published_at": "2026-06-28T02:37:13Z"
+        },
+        {
+          "id": "8dcd2b192ba465394035cd76e1f91191a91d16ca",
+          "title": "独家消息：Anthropic的强力模型“Fable 5”有望很快回归",
+          "url": "https://www.axios.com/2026/06/27/anthropic-fable-5-return-soon",
+          "source": "www.axios.com",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-06-27T10:19:53.844000Z"
-        },
-        {
-          "id": "6bec3c0adfd0daa4ecf03f6687b322ae4d4cc6df",
-          "title": "DeepSeek 开源了推理优化方案，生成速度提升了 60% 至 85% [pdf] / DSpark: Speculative decoding accelerates LLM inference [pdf]",
-          "url": "https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-27T09:18:52Z"
-        },
-        {
-          "id": "e98297a754737fb90175d27eef8575e462557009",
-          "title": "DeepSeek 开源了推理优化方案，生成速度提升了 60% 至 85% [pdf] / DeepSeek open-sources inference optimizations with 60–85% faster generation [pdf]",
-          "url": "https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-27T09:18:52Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Hacker News (黑客新闻)",
-        "Hacker News · 24h最热",
-        "github.com"
-      ],
-      "items": [
-        {
-          "id": "9fb1184850fee3daac49d53b98e20d76bc5f04a9",
-          "title": "DeepSeek 开源了推理优化方案，生成速度提升了 60% 至 85% [pdf]",
-          "url": "https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf",
-          "source": "github.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-27T10:19:53.844000Z"
-        },
-        {
-          "id": "6bec3c0adfd0daa4ecf03f6687b322ae4d4cc6df",
-          "title": "DeepSeek 开源了推理优化方案，生成速度提升了 60% 至 85% [pdf] / DSpark: Speculative decoding accelerates LLM inference [pdf]",
-          "url": "https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-27T09:18:52Z"
-        },
-        {
-          "id": "e98297a754737fb90175d27eef8575e462557009",
-          "title": "DeepSeek 开源了推理优化方案，生成速度提升了 60% 至 85% [pdf] / DeepSeek open-sources inference optimizations with 60–85% faster generation [pdf]",
-          "url": "https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-27T09:18:52Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.5228,
-      "importance": 0.5228,
-      "importance_score": 0.5228,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.7335,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-27T09:18:52Z",
-      "latest_at": "2026-06-27T10:19:53.844000Z",
-      "primary_item": {
-        "id": "9fb1184850fee3daac49d53b98e20d76bc5f04a9",
-        "title": "DeepSeek 开源了推理优化方案，生成速度提升了 60% 至 85% [pdf]",
-        "url": "https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf",
-        "source": "github.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_f57f8dd86e03",
-      "title": "需求过大供给跟不上，消息称谷歌对 Meta 调用 Gemini 大模型作出限制",
-      "url": "https://www.ithome.com/0/969/625.htm",
-      "primary_url": "https://www.ithome.com/0/969/625.htm",
-      "source": "Readhub · AI",
-      "source_name": "TopHub",
-      "sources": [
-        {
-          "id": "afebbba4dd1ee68a73b871bb30a284161fc0823d",
-          "title": "需求过大供给跟不上，消息称谷歌对 Meta 调用 Gemini 大模型作出限制",
-          "url": "https://www.ithome.com/0/969/625.htm",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        },
-        {
-          "id": "7ee985b0cfece3197beef688e9825cce85e45929",
-          "title": "需求过大供给跟不上，消息称谷歌限制了 Meta 的 Gemini 使用量",
-          "url": "https://www.ithome.com/0/969/625.htm",
-          "source": "IT之家 (ITHome)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-28T06:40:20Z"
+          "published_at": "2026-06-27T12:59:49.311000Z"
         }
       ],
       "source_count": 2,
       "source_names": [
-        "IT之家 (ITHome)",
-        "Readhub · AI"
+        "HN Algolia · AI 24h",
+        "www.axios.com"
       ],
       "items": [
         {
-          "id": "afebbba4dd1ee68a73b871bb30a284161fc0823d",
-          "title": "需求过大供给跟不上，消息称谷歌对 Meta 调用 Gemini 大模型作出限制",
-          "url": "https://www.ithome.com/0/969/625.htm",
+          "id": "67d31996ac8beb3b65e935ff10da002f4f124eae",
+          "title": "独家消息：Anthropic的强力模型“Fable 5”有望很快回归 / Powerful Anthropic model, Fable 5, on track to return soon",
+          "url": "https://www.axios.com/2026/06/27/anthropic-fable-5-return-soon",
+          "source": "HN Algolia · AI 24h",
+          "source_name": "Hacker News",
+          "site_id": "hackernews",
+          "published_at": "2026-06-28T02:37:13Z"
+        },
+        {
+          "id": "8dcd2b192ba465394035cd76e1f91191a91d16ca",
+          "title": "独家消息：Anthropic的强力模型“Fable 5”有望很快回归",
+          "url": "https://www.axios.com/2026/06/27/anthropic-fable-5-return-soon",
+          "source": "www.axios.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-27T12:59:49.311000Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5267,
+      "importance": 0.5267,
+      "importance_score": 0.5267,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.8941,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-27T12:59:49.311000Z",
+      "latest_at": "2026-06-28T02:37:13Z",
+      "primary_item": {
+        "id": "67d31996ac8beb3b65e935ff10da002f4f124eae",
+        "title": "独家消息：Anthropic的强力模型“Fable 5”有望很快回归 / Powerful Anthropic model, Fable 5, on track to return soon",
+        "url": "https://www.axios.com/2026/06/27/anthropic-fable-5-return-soon",
+        "source": "HN Algolia · AI 24h",
+        "source_name": "Hacker News"
+      }
+    },
+    {
+      "story_id": "story_28182fea6f54",
+      "title": "联邦政府让极星（Polestar）倒闭，却放过了沃尔沃。这应该让你感到恐惧 / Feds Killed Polestar and Spared Volvo",
+      "url": "https://www.thedrive.com/news/feds-killed-polestar-and-spared-volvo-that-should-terrify-you",
+      "primary_url": "https://www.thedrive.com/news/feds-killed-polestar-and-spared-volvo-that-should-terrify-you",
+      "source": "Hacker News · 24h最热",
+      "source_name": "Zeli",
+      "sources": [
+        {
+          "id": "bec32f1c805a2f362c467aaf3836a5b62ab46be4",
+          "title": "联邦政府让极星（Polestar）倒闭，却放过了沃尔沃。这应该让你感到恐惧 / Feds Killed Polestar and Spared Volvo",
+          "url": "https://www.thedrive.com/news/feds-killed-polestar-and-spared-volvo-that-should-terrify-you",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-28T01:55:21Z"
+        },
+        {
+          "id": "bec1d9052b83db9dadbab535b6651a1a90953510",
+          "title": "联邦政府让极星（Polestar）倒闭，却放过了沃尔沃。这应该让你感到恐惧 / Feds Killed Polestar and Spared Volvo. That Should Terrify You",
+          "url": "https://www.thedrive.com/news/feds-killed-polestar-and-spared-volvo-that-should-terrify-you",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-28T01:55:21Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News · 24h最热"
+      ],
+      "items": [
+        {
+          "id": "bec32f1c805a2f362c467aaf3836a5b62ab46be4",
+          "title": "联邦政府让极星（Polestar）倒闭，却放过了沃尔沃。这应该让你感到恐惧 / Feds Killed Polestar and Spared Volvo",
+          "url": "https://www.thedrive.com/news/feds-killed-polestar-and-spared-volvo-that-should-terrify-you",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-28T01:55:21Z"
+        },
+        {
+          "id": "bec1d9052b83db9dadbab535b6651a1a90953510",
+          "title": "联邦政府让极星（Polestar）倒闭，却放过了沃尔沃。这应该让你感到恐惧 / Feds Killed Polestar and Spared Volvo. That Should Terrify You",
+          "url": "https://www.thedrive.com/news/feds-killed-polestar-and-spared-volvo-that-should-terrify-you",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-28T01:55:21Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5251,
+      "importance": 0.5251,
+      "importance_score": 0.5251,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.8852,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-28T01:55:21Z",
+      "latest_at": "2026-06-28T01:55:21Z",
+      "primary_item": {
+        "id": "bec32f1c805a2f362c467aaf3836a5b62ab46be4",
+        "title": "联邦政府让极星（Polestar）倒闭，却放过了沃尔沃。这应该让你感到恐惧 / Feds Killed Polestar and Spared Volvo",
+        "url": "https://www.thedrive.com/news/feds-killed-polestar-and-spared-volvo-that-should-terrify-you",
+        "source": "Hacker News · 24h最热",
+        "source_name": "Zeli"
+      }
+    },
+    {
+      "story_id": "story_fc9bc8969213",
+      "title": "OpenAI 推迟上市，那「Kimi 们」呢？",
+      "url": "https://www.huxiu.com/article/4871008.html?f=rss",
+      "primary_url": "https://www.huxiu.com/article/4871008.html?f=rss",
+      "source": "Readhub · AI",
+      "source_name": "TopHub",
+      "sources": [
+        {
+          "id": "98ccb7c63137fc871c9ec8896a33a1e5ae63f741",
+          "title": "OpenAI 推迟上市，那「Kimi 们」呢？",
+          "url": "https://www.huxiu.com/article/4871008.html?f=rss",
           "source": "Readhub · AI",
           "source_name": "TopHub",
           "site_id": "tophub",
           "published_at": null
         },
         {
-          "id": "7ee985b0cfece3197beef688e9825cce85e45929",
-          "title": "需求过大供给跟不上，消息称谷歌限制了 Meta 的 Gemini 使用量",
-          "url": "https://www.ithome.com/0/969/625.htm",
-          "source": "IT之家 (ITHome)",
+          "id": "96527f0ac89c585724df43fbe90e7a884ec554da",
+          "title": "OpenAI推迟上市，那“Kimi们”呢？",
+          "url": "https://www.huxiu.com/article/4871008.html?f=rss",
+          "source": "虎嗅 (Huxiu)",
           "source_name": "Info Flow",
           "site_id": "iris",
-          "published_at": "2026-06-28T06:40:20Z"
+          "published_at": "2026-06-28T08:34:40Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Readhub · AI",
+        "虎嗅 (Huxiu)"
+      ],
+      "items": [
+        {
+          "id": "98ccb7c63137fc871c9ec8896a33a1e5ae63f741",
+          "title": "OpenAI 推迟上市，那「Kimi 们」呢？",
+          "url": "https://www.huxiu.com/article/4871008.html?f=rss",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        },
+        {
+          "id": "96527f0ac89c585724df43fbe90e7a884ec554da",
+          "title": "OpenAI推迟上市，那“Kimi们”呢？",
+          "url": "https://www.huxiu.com/article/4871008.html?f=rss",
+          "source": "虎嗅 (Huxiu)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-28T08:34:40Z"
         }
       ],
       "item_count": 2,
@@ -1455,93 +1474,14 @@
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-28T06:40:20Z",
-      "latest_at": "2026-06-28T07:47:45.448089Z",
+      "earliest_at": "2026-06-28T08:34:40Z",
+      "latest_at": "2026-06-28T10:22:08.793201Z",
       "primary_item": {
-        "id": "afebbba4dd1ee68a73b871bb30a284161fc0823d",
-        "title": "需求过大供给跟不上，消息称谷歌对 Meta 调用 Gemini 大模型作出限制",
-        "url": "https://www.ithome.com/0/969/625.htm",
+        "id": "98ccb7c63137fc871c9ec8896a33a1e5ae63f741",
+        "title": "OpenAI 推迟上市，那「Kimi 们」呢？",
+        "url": "https://www.huxiu.com/article/4871008.html?f=rss",
         "source": "Readhub · AI",
         "source_name": "TopHub"
-      }
-    },
-    {
-      "story_id": "story_5b273f77cdfd",
-      "title": "Wayfinder Router：本地和托管 LLM 之间查询的确定性路由 / Wayfinder Router: deterministic routing of queries between local and hosted LLM",
-      "url": "https://news.ycombinator.com/item?id=48704373",
-      "primary_url": "https://news.ycombinator.com/item?id=48704373",
-      "source": "hackernews",
-      "source_name": "NewsNow",
-      "sources": [
-        {
-          "id": "8f678ab05294525d09eb008ce78fbf6620c5a4d5",
-          "title": "Wayfinder Router：本地和托管 LLM 之间查询的确定性路由 / Wayfinder Router: deterministic routing of queries between local and hosted LLM",
-          "url": "https://news.ycombinator.com/item?id=48704373",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-28T07:33:04.258000Z"
-        },
-        {
-          "id": "79b5b6d03eae14de546a8e1af039c031a92cef23",
-          "title": "Wayfinder Router：本地和托管 LLM 之间查询的确定性路由 / Wayfinder Router: deterministic routing of queries between local and hosted LLM",
-          "url": "https://github.com/itsthelore/wayfinder-router",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-28T04:31:18Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News",
-        "hackernews"
-      ],
-      "items": [
-        {
-          "id": "8f678ab05294525d09eb008ce78fbf6620c5a4d5",
-          "title": "Wayfinder Router：本地和托管 LLM 之间查询的确定性路由 / Wayfinder Router: deterministic routing of queries between local and hosted LLM",
-          "url": "https://news.ycombinator.com/item?id=48704373",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-28T07:33:04.258000Z"
-        },
-        {
-          "id": "79b5b6d03eae14de546a8e1af039c031a92cef23",
-          "title": "Wayfinder Router：本地和托管 LLM 之间查询的确定性路由 / Wayfinder Router: deterministic routing of queries between local and hosted LLM",
-          "url": "https://github.com/itsthelore/wayfinder-router",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-28T04:31:18Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5452,
-      "importance": 0.5452,
-      "importance_score": 0.5452,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9965,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-28T04:31:18Z",
-      "latest_at": "2026-06-28T07:33:04.258000Z",
-      "primary_item": {
-        "id": "8f678ab05294525d09eb008ce78fbf6620c5a4d5",
-        "title": "Wayfinder Router：本地和托管 LLM 之间查询的确定性路由 / Wayfinder Router: deterministic routing of queries between local and hosted LLM",
-        "url": "https://news.ycombinator.com/item?id=48704373",
-        "source": "hackernews",
-        "source_name": "NewsNow"
       }
     },
     {
@@ -1598,15 +1538,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.514,
-      "importance": 0.514,
-      "importance_score": 0.514,
+      "score": 0.5086,
+      "importance": 0.5086,
+      "importance_score": 0.5086,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8233,
+        "recency": 0.7933,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1624,82 +1564,82 @@
       }
     },
     {
-      "story_id": "story_bc7e7a48b2aa",
-      "title": "Show HN: AI-whisper——当Codex在背后提供支持时，Claude的表现更出色",
-      "url": "https://ai-creed.dev/projects/ai-whisper",
-      "primary_url": "https://ai-creed.dev/projects/ai-whisper",
-      "source": "ai-creed.dev",
-      "source_name": "Buzzing",
+      "story_id": "story_5b273f77cdfd",
+      "title": "Wayfinder Router：本地和托管 LLM 之间查询的确定性路由 / Wayfinder Router: deterministic routing of queries between local and hosted LLM",
+      "url": "https://news.ycombinator.com/item?id=48704373",
+      "primary_url": "https://news.ycombinator.com/item?id=48704373",
+      "source": "hackernews",
+      "source_name": "NewsNow",
       "sources": [
         {
-          "id": "186a92152a105a27ccdf059afcd3553fabe63092",
-          "title": "Show HN: AI-whisper——当Codex在背后提供支持时，Claude的表现更出色",
-          "url": "https://ai-creed.dev/projects/ai-whisper",
-          "source": "ai-creed.dev",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-27T15:39:56.901000Z"
+          "id": "8f678ab05294525d09eb008ce78fbf6620c5a4d5",
+          "title": "Wayfinder Router：本地和托管 LLM 之间查询的确定性路由 / Wayfinder Router: deterministic routing of queries between local and hosted LLM",
+          "url": "https://news.ycombinator.com/item?id=48704373",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-28T07:33:04.258000Z"
         },
         {
-          "id": "8d4d9938ab6f3e104366e96e339323246afd660b",
-          "title": "Show HN: AI-whisper——当Codex在背后提供支持时，Claude的表现更出色 / Show HN: AI-whisper – Claude works better when Codex watches its back",
-          "url": "https://ai-creed.dev/projects/ai-whisper",
-          "source": "HN Algolia · AI 24h",
-          "source_name": "Hacker News",
-          "site_id": "hackernews",
-          "published_at": "2026-06-27T15:07:57Z"
+          "id": "79b5b6d03eae14de546a8e1af039c031a92cef23",
+          "title": "Wayfinder Router：本地和托管 LLM 之间查询的确定性路由 / Wayfinder Router: deterministic routing of queries between local and hosted LLM",
+          "url": "https://github.com/itsthelore/wayfinder-router",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-28T04:31:18Z"
         }
       ],
       "source_count": 2,
       "source_names": [
-        "HN Algolia · AI 24h",
-        "ai-creed.dev"
+        "Hacker News",
+        "hackernews"
       ],
       "items": [
         {
-          "id": "186a92152a105a27ccdf059afcd3553fabe63092",
-          "title": "Show HN: AI-whisper——当Codex在背后提供支持时，Claude的表现更出色",
-          "url": "https://ai-creed.dev/projects/ai-whisper",
-          "source": "ai-creed.dev",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-27T15:39:56.901000Z"
+          "id": "8f678ab05294525d09eb008ce78fbf6620c5a4d5",
+          "title": "Wayfinder Router：本地和托管 LLM 之间查询的确定性路由 / Wayfinder Router: deterministic routing of queries between local and hosted LLM",
+          "url": "https://news.ycombinator.com/item?id=48704373",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-28T07:33:04.258000Z"
         },
         {
-          "id": "8d4d9938ab6f3e104366e96e339323246afd660b",
-          "title": "Show HN: AI-whisper——当Codex在背后提供支持时，Claude的表现更出色 / Show HN: AI-whisper – Claude works better when Codex watches its back",
-          "url": "https://ai-creed.dev/projects/ai-whisper",
-          "source": "HN Algolia · AI 24h",
-          "source_name": "Hacker News",
-          "site_id": "hackernews",
-          "published_at": "2026-06-27T15:07:57Z"
+          "id": "79b5b6d03eae14de546a8e1af039c031a92cef23",
+          "title": "Wayfinder Router：本地和托管 LLM 之间查询的确定性路由 / Wayfinder Router: deterministic routing of queries between local and hosted LLM",
+          "url": "https://github.com/itsthelore/wayfinder-router",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-28T04:31:18Z"
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5084,
-      "importance": 0.5084,
-      "importance_score": 0.5084,
+      "score": 0.5386,
+      "importance": 0.5386,
+      "importance_score": 0.5386,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7922,
+        "recency": 0.9601,
         "story_heat": 0.25
       },
       "category": "watch",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-27T15:07:57Z",
-      "latest_at": "2026-06-27T15:39:56.901000Z",
+      "earliest_at": "2026-06-28T04:31:18Z",
+      "latest_at": "2026-06-28T07:33:04.258000Z",
       "primary_item": {
-        "id": "186a92152a105a27ccdf059afcd3553fabe63092",
-        "title": "Show HN: AI-whisper——当Codex在背后提供支持时，Claude的表现更出色",
-        "url": "https://ai-creed.dev/projects/ai-whisper",
-        "source": "ai-creed.dev",
-        "source_name": "Buzzing"
+        "id": "8f678ab05294525d09eb008ce78fbf6620c5a4d5",
+        "title": "Wayfinder Router：本地和托管 LLM 之间查询的确定性路由 / Wayfinder Router: deterministic routing of queries between local and hosted LLM",
+        "url": "https://news.ycombinator.com/item?id=48704373",
+        "source": "hackernews",
+        "source_name": "NewsNow"
       }
     }
   ]
