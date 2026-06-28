@@ -1,8 +1,89 @@
 {
-  "generated_at": "2026-06-27T23:58:28.028224Z",
+  "generated_at": "2026-06-28T03:56:44.300801Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
+    {
+      "story_id": "story_b7e01618c76a",
+      "title": "四大顶级AI对决《文明VI》：Claude核平法国仍输，暴露感知与执行短板",
+      "url": "https://www.ithome.com/0/969/570.htm",
+      "primary_url": "https://www.ithome.com/0/969/570.htm",
+      "source": "IT之家（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "918a0fb66dce8b05e07d9c6811686910a865afa0",
+          "title": "四大顶级AI对决《文明VI》：Claude核平法国仍输，暴露感知与执行短板",
+          "url": "https://www.ithome.com/0/969/570.htm",
+          "source": "IT之家（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-28T02:45:16Z"
+        },
+        {
+          "id": "a76e44fc9491635838011b76e5c2d0044e476a74",
+          "title": "四大顶级 AI 对决《文明 VI》！Claude「核平」法国，结果还是输了",
+          "url": "https://www.ithome.com/0/969/570.htm",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "IT之家（RSS）",
+        "Readhub · AI"
+      ],
+      "items": [
+        {
+          "id": "918a0fb66dce8b05e07d9c6811686910a865afa0",
+          "title": "四大顶级AI对决《文明VI》：Claude核平法国仍输，暴露感知与执行短板",
+          "url": "https://www.ithome.com/0/969/570.htm",
+          "source": "IT之家（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-28T02:45:16Z"
+        },
+        {
+          "id": "a76e44fc9491635838011b76e5c2d0044e476a74",
+          "title": "四大顶级 AI 对决《文明 VI》！Claude「核平」法国，结果还是输了",
+          "url": "https://www.ithome.com/0/969/570.htm",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.8015,
+      "importance": 0.8015,
+      "importance_score": 0.8015,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.76,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9829,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-28T02:45:16Z",
+      "latest_at": "2026-06-28T03:56:44.300801Z",
+      "primary_item": {
+        "id": "918a0fb66dce8b05e07d9c6811686910a865afa0",
+        "title": "四大顶级AI对决《文明VI》：Claude核平法国仍输，暴露感知与执行短板",
+        "url": "https://www.ithome.com/0/969/570.htm",
+        "source": "IT之家（RSS）",
+        "source_name": "AI HOT"
+      }
+    },
     {
       "story_id": "story_fbd38ff6d7c7",
       "title": "一次失败的（民族国家？）攻击的剖析",
@@ -19,20 +100,10 @@
           "source_name": "AI HOT",
           "site_id": "aihot",
           "published_at": "2026-06-27T15:39:53.429000Z"
-        },
-        {
-          "id": "8c5938df4b0d64c5e630047c869ec4cc47d1d827",
-          "title": "一次失败的（民族国家？）攻击的剖析 / Anatomy of a Failed (Nation-State?) Attack",
-          "url": "https://grack.com/blog/2026/06/25/dissecting-a-failed-nation-state-attack",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-27T02:41:53Z"
         }
       ],
-      "source_count": 2,
+      "source_count": 1,
       "source_names": [
-        "Hacker News · 24h最热",
         "Hacker News 热门（buzzing.cc 中文翻译）"
       ],
       "items": [
@@ -44,28 +115,282 @@
           "source_name": "AI HOT",
           "site_id": "aihot",
           "published_at": "2026-06-27T15:39:53.429000Z"
-        },
-        {
-          "id": "8c5938df4b0d64c5e630047c869ec4cc47d1d827",
-          "title": "一次失败的（民族国家？）攻击的剖析 / Anatomy of a Failed (Nation-State?) Attack",
-          "url": "https://grack.com/blog/2026/06/25/dissecting-a-failed-nation-state-attack",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-27T02:41:53Z"
         }
       ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7992,
-      "importance": 0.7992,
-      "importance_score": 0.7992,
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7653,
+      "importance": 0.7653,
+      "importance_score": 0.7653,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.81,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8869,
+        "recency": 0.8375,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-27T15:39:53.429000Z",
+      "latest_at": "2026-06-27T15:39:53.429000Z",
+      "primary_item": {
+        "id": "16cf68c71ba2540e65b9e0e5db9bc90d5bb0bc86",
+        "title": "一次失败的（民族国家？）攻击的剖析",
+        "url": "https://grack.com/blog/2026/06/25/dissecting-a-failed-nation-state-attack",
+        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_045a4dba0340",
+      "title": "DeepSeek 开源 DSpark 投机解码框架，加速 DeepSeek-V4 生成速度 60-85%",
+      "url": "https://www.marktechpost.com/2026/06/27/deepseek-releases-dspark-a-speculative-decoding-framework-that-accelerates-deepseek-v4-per-user-generation-60-85-over-mtp-1",
+      "primary_url": "https://www.marktechpost.com/2026/06/27/deepseek-releases-dspark-a-speculative-decoding-framework-that-accelerates-deepseek-v4-per-user-generation-60-85-over-mtp-1",
+      "source": "MarkTechPost（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "b369a2605193ddca0a52c5eddd6e7f639d9f357b",
+          "title": "DeepSeek 开源 DSpark 投机解码框架，加速 DeepSeek-V4 生成速度 60-85%",
+          "url": "https://www.marktechpost.com/2026/06/27/deepseek-releases-dspark-a-speculative-decoding-framework-that-accelerates-deepseek-v4-per-user-generation-60-85-over-mtp-1",
+          "source": "MarkTechPost（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-27T16:59:58Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "MarkTechPost（RSS）"
+      ],
+      "items": [
+        {
+          "id": "b369a2605193ddca0a52c5eddd6e7f639d9f357b",
+          "title": "DeepSeek 开源 DSpark 投机解码框架，加速 DeepSeek-V4 生成速度 60-85%",
+          "url": "https://www.marktechpost.com/2026/06/27/deepseek-releases-dspark-a-speculative-decoding-framework-that-accelerates-deepseek-v4-per-user-generation-60-85-over-mtp-1",
+          "source": "MarkTechPost（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-27T16:59:58Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7623,
+      "importance": 0.7623,
+      "importance_score": 0.7623,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.79,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8538,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-27T16:59:58Z",
+      "latest_at": "2026-06-27T16:59:58Z",
+      "primary_item": {
+        "id": "b369a2605193ddca0a52c5eddd6e7f639d9f357b",
+        "title": "DeepSeek 开源 DSpark 投机解码框架，加速 DeepSeek-V4 生成速度 60-85%",
+        "url": "https://www.marktechpost.com/2026/06/27/deepseek-releases-dspark-a-speculative-decoding-framework-that-accelerates-deepseek-v4-per-user-generation-60-85-over-mtp-1",
+        "source": "MarkTechPost（RSS）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_c2124e4dd184",
+      "title": "SpaceX 注册 SpaceXAI 商标，将合并 xAI",
+      "url": "https://x.com/cb_doge/status/2070973276562530507",
+      "primary_url": "https://x.com/cb_doge/status/2070973276562530507",
+      "source": "X：cb_doge (@cb_doge)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "b10123cdfc6118250369710ed76f260df36f7e19",
+          "title": "SpaceX 注册 SpaceXAI 商标，将合并 xAI",
+          "url": "https://x.com/cb_doge/status/2070973276562530507",
+          "source": "X：cb_doge (@cb_doge)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-27T20:51:20Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "X：cb_doge (@cb_doge)"
+      ],
+      "items": [
+        {
+          "id": "b10123cdfc6118250369710ed76f260df36f7e19",
+          "title": "SpaceX 注册 SpaceXAI 商标，将合并 xAI",
+          "url": "https://x.com/cb_doge/status/2070973276562530507",
+          "source": "X：cb_doge (@cb_doge)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-27T20:51:20Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7621,
+      "importance": 0.7621,
+      "importance_score": 0.7621,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.76,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9027,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-27T20:51:20Z",
+      "latest_at": "2026-06-27T20:51:20Z",
+      "primary_item": {
+        "id": "b10123cdfc6118250369710ed76f260df36f7e19",
+        "title": "SpaceX 注册 SpaceXAI 商标，将合并 xAI",
+        "url": "https://x.com/cb_doge/status/2070973276562530507",
+        "source": "X：cb_doge (@cb_doge)",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_198afd05cb9d",
+      "title": "苹果Vision负责人跳槽OpenAI，触控OLED MacBook用M5芯片",
+      "url": "https://x.com/berryxia/status/2070916520822321292",
+      "primary_url": "https://x.com/berryxia/status/2070916520822321292",
+      "source": "X：Berry Xia (@berryxia)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "8aebc04cd2da41a5136f79ed187a332c5445bced",
+          "title": "苹果Vision负责人跳槽OpenAI，触控OLED MacBook用M5芯片",
+          "url": "https://x.com/berryxia/status/2070916520822321292",
+          "source": "X：Berry Xia (@berryxia)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-27T17:05:48Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "X：Berry Xia (@berryxia)"
+      ],
+      "items": [
+        {
+          "id": "8aebc04cd2da41a5136f79ed187a332c5445bced",
+          "title": "苹果Vision负责人跳槽OpenAI，触控OLED MacBook用M5芯片",
+          "url": "https://x.com/berryxia/status/2070916520822321292",
+          "source": "X：Berry Xia (@berryxia)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-27T17:05:48Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7535,
+      "importance": 0.7535,
+      "importance_score": 0.7535,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.76,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.855,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-27T17:05:48Z",
+      "latest_at": "2026-06-27T17:05:48Z",
+      "primary_item": {
+        "id": "8aebc04cd2da41a5136f79ed187a332c5445bced",
+        "title": "苹果Vision负责人跳槽OpenAI，触控OLED MacBook用M5芯片",
+        "url": "https://x.com/berryxia/status/2070916520822321292",
+        "source": "X：Berry Xia (@berryxia)",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_cc2911dc8ae6",
+      "title": "\"Raise Us\"启动：前美商务部长与四州合作筹集10亿美元应对AI就业冲击",
+      "url": "https://the-decoder.com/the-companies-most-likely-to-automate-your-job-are-now-funding-a-1-billion-program-to-retrain-you",
+      "primary_url": "https://the-decoder.com/the-companies-most-likely-to-automate-your-job-are-now-funding-a-1-billion-program-to-retrain-you",
+      "source": "The Decoder：AI News（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "e16b5833bc344fb3836c52dcfca0e89fba3000b8",
+          "title": "\"Raise Us\"启动：前美商务部长与四州合作筹集10亿美元应对AI就业冲击",
+          "url": "https://the-decoder.com/the-companies-most-likely-to-automate-your-job-are-now-funding-a-1-billion-program-to-retrain-you",
+          "source": "The Decoder：AI News（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-27T12:25:21Z"
+        },
+        {
+          "id": "dbfe8cc9a7e16a5a175622e0e4579bed860f5dd8",
+          "title": "\"Raise Us\"启动：前美商务部长与四州合作筹集10亿美元应对AI就业冲击 / The companies most likely to automate your job are now funding a $1 billion program to retrain you",
+          "url": "https://the-decoder.com/the-companies-most-likely-to-automate-your-job-are-now-funding-a-1-billion-program-to-retrain-you",
+          "source": "The Decoder AI News",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-06-27T12:25:21Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "The Decoder AI News",
+        "The Decoder：AI News（RSS）"
+      ],
+      "items": [
+        {
+          "id": "e16b5833bc344fb3836c52dcfca0e89fba3000b8",
+          "title": "\"Raise Us\"启动：前美商务部长与四州合作筹集10亿美元应对AI就业冲击",
+          "url": "https://the-decoder.com/the-companies-most-likely-to-automate-your-job-are-now-funding-a-1-billion-program-to-retrain-you",
+          "source": "The Decoder：AI News（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-27T12:25:21Z"
+        },
+        {
+          "id": "dbfe8cc9a7e16a5a175622e0e4579bed860f5dd8",
+          "title": "\"Raise Us\"启动：前美商务部长与四州合作筹集10亿美元应对AI就业冲击 / The companies most likely to automate your job are now funding a $1 billion program to retrain you",
+          "url": "https://the-decoder.com/the-companies-most-likely-to-automate-your-job-are-now-funding-a-1-billion-program-to-retrain-you",
+          "source": "The Decoder AI News",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-06-27T12:25:21Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7505,
+      "importance": 0.7505,
+      "importance_score": 0.7505,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.7,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7992,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -74,13 +399,13 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-06-27T02:41:53Z",
-      "latest_at": "2026-06-27T15:39:53.429000Z",
+      "earliest_at": "2026-06-27T12:25:21Z",
+      "latest_at": "2026-06-27T12:25:21Z",
       "primary_item": {
-        "id": "16cf68c71ba2540e65b9e0e5db9bc90d5bb0bc86",
-        "title": "一次失败的（民族国家？）攻击的剖析",
-        "url": "https://grack.com/blog/2026/06/25/dissecting-a-failed-nation-state-attack",
-        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "id": "e16b5833bc344fb3836c52dcfca0e89fba3000b8",
+        "title": "\"Raise Us\"启动：前美商务部长与四州合作筹集10亿美元应对AI就业冲击",
+        "url": "https://the-decoder.com/the-companies-most-likely-to-automate-your-job-are-now-funding-a-1-billion-program-to-retrain-you",
+        "source": "The Decoder：AI News（RSS）",
         "source_name": "AI HOT"
       }
     },
@@ -157,15 +482,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.7751,
-      "importance": 0.7751,
-      "importance_score": 0.7751,
+      "score": 0.7671,
+      "importance": 0.7671,
+      "importance_score": 0.7671,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7971,
+        "recency": 0.7527,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -180,490 +505,6 @@
         "id": "ff0b37694e4bd3606df6fb79ce7f00759f39fd60",
         "title": "AI 账单失控后 DeepSeek 成\"香饽饽\"，部分美国企业已 100% 切换",
         "url": "https://www.ithome.com/0/969/400.htm",
-        "source": "IT之家（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_c2124e4dd184",
-      "title": "SpaceX 注册 SpaceXAI 商标，将合并 xAI",
-      "url": "https://x.com/cb_doge/status/2070973276562530507",
-      "primary_url": "https://x.com/cb_doge/status/2070973276562530507",
-      "source": "X：cb_doge (@cb_doge)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "b10123cdfc6118250369710ed76f260df36f7e19",
-          "title": "SpaceX 注册 SpaceXAI 商标，将合并 xAI",
-          "url": "https://x.com/cb_doge/status/2070973276562530507",
-          "source": "X：cb_doge (@cb_doge)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-27T20:51:20Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：cb_doge (@cb_doge)"
-      ],
-      "items": [
-        {
-          "id": "b10123cdfc6118250369710ed76f260df36f7e19",
-          "title": "SpaceX 注册 SpaceXAI 商标，将合并 xAI",
-          "url": "https://x.com/cb_doge/status/2070973276562530507",
-          "source": "X：cb_doge (@cb_doge)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-27T20:51:20Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7717,
-      "importance": 0.7717,
-      "importance_score": 0.7717,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.76,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.956,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-27T20:51:20Z",
-      "latest_at": "2026-06-27T20:51:20Z",
-      "primary_item": {
-        "id": "b10123cdfc6118250369710ed76f260df36f7e19",
-        "title": "SpaceX 注册 SpaceXAI 商标，将合并 xAI",
-        "url": "https://x.com/cb_doge/status/2070973276562530507",
-        "source": "X：cb_doge (@cb_doge)",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_045a4dba0340",
-      "title": "DeepSeek 开源 DSpark 投机解码框架，加速 DeepSeek-V4 生成速度 60-85%",
-      "url": "https://www.marktechpost.com/2026/06/27/deepseek-releases-dspark-a-speculative-decoding-framework-that-accelerates-deepseek-v4-per-user-generation-60-85-over-mtp-1",
-      "primary_url": "https://www.marktechpost.com/2026/06/27/deepseek-releases-dspark-a-speculative-decoding-framework-that-accelerates-deepseek-v4-per-user-generation-60-85-over-mtp-1",
-      "source": "MarkTechPost（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "b369a2605193ddca0a52c5eddd6e7f639d9f357b",
-          "title": "DeepSeek 开源 DSpark 投机解码框架，加速 DeepSeek-V4 生成速度 60-85%",
-          "url": "https://www.marktechpost.com/2026/06/27/deepseek-releases-dspark-a-speculative-decoding-framework-that-accelerates-deepseek-v4-per-user-generation-60-85-over-mtp-1",
-          "source": "MarkTechPost（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-27T16:59:58Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "MarkTechPost（RSS）"
-      ],
-      "items": [
-        {
-          "id": "b369a2605193ddca0a52c5eddd6e7f639d9f357b",
-          "title": "DeepSeek 开源 DSpark 投机解码框架，加速 DeepSeek-V4 生成速度 60-85%",
-          "url": "https://www.marktechpost.com/2026/06/27/deepseek-releases-dspark-a-speculative-decoding-framework-that-accelerates-deepseek-v4-per-user-generation-60-85-over-mtp-1",
-          "source": "MarkTechPost（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-27T16:59:58Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7714,
-      "importance": 0.7714,
-      "importance_score": 0.7714,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.79,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9042,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-27T16:59:58Z",
-      "latest_at": "2026-06-27T16:59:58Z",
-      "primary_item": {
-        "id": "b369a2605193ddca0a52c5eddd6e7f639d9f357b",
-        "title": "DeepSeek 开源 DSpark 投机解码框架，加速 DeepSeek-V4 生成速度 60-85%",
-        "url": "https://www.marktechpost.com/2026/06/27/deepseek-releases-dspark-a-speculative-decoding-framework-that-accelerates-deepseek-v4-per-user-generation-60-85-over-mtp-1",
-        "source": "MarkTechPost（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_198afd05cb9d",
-      "title": "苹果Vision负责人跳槽OpenAI，触控OLED MacBook用M5芯片",
-      "url": "https://x.com/berryxia/status/2070916520822321292",
-      "primary_url": "https://x.com/berryxia/status/2070916520822321292",
-      "source": "X：Berry Xia (@berryxia)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "8aebc04cd2da41a5136f79ed187a332c5445bced",
-          "title": "苹果Vision负责人跳槽OpenAI，触控OLED MacBook用M5芯片",
-          "url": "https://x.com/berryxia/status/2070916520822321292",
-          "source": "X：Berry Xia (@berryxia)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-27T17:05:48Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：Berry Xia (@berryxia)"
-      ],
-      "items": [
-        {
-          "id": "8aebc04cd2da41a5136f79ed187a332c5445bced",
-          "title": "苹果Vision负责人跳槽OpenAI，触控OLED MacBook用M5芯片",
-          "url": "https://x.com/berryxia/status/2070916520822321292",
-          "source": "X：Berry Xia (@berryxia)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-27T17:05:48Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7626,
-      "importance": 0.7626,
-      "importance_score": 0.7626,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.76,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9055,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-27T17:05:48Z",
-      "latest_at": "2026-06-27T17:05:48Z",
-      "primary_item": {
-        "id": "8aebc04cd2da41a5136f79ed187a332c5445bced",
-        "title": "苹果Vision负责人跳槽OpenAI，触控OLED MacBook用M5芯片",
-        "url": "https://x.com/berryxia/status/2070916520822321292",
-        "source": "X：Berry Xia (@berryxia)",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_cc2911dc8ae6",
-      "title": "\"Raise Us\"启动：前美商务部长与四州合作筹集10亿美元应对AI就业冲击",
-      "url": "https://the-decoder.com/the-companies-most-likely-to-automate-your-job-are-now-funding-a-1-billion-program-to-retrain-you",
-      "primary_url": "https://the-decoder.com/the-companies-most-likely-to-automate-your-job-are-now-funding-a-1-billion-program-to-retrain-you",
-      "source": "The Decoder：AI News（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "e16b5833bc344fb3836c52dcfca0e89fba3000b8",
-          "title": "\"Raise Us\"启动：前美商务部长与四州合作筹集10亿美元应对AI就业冲击",
-          "url": "https://the-decoder.com/the-companies-most-likely-to-automate-your-job-are-now-funding-a-1-billion-program-to-retrain-you",
-          "source": "The Decoder：AI News（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-27T12:25:21Z"
-        },
-        {
-          "id": "dbfe8cc9a7e16a5a175622e0e4579bed860f5dd8",
-          "title": "\"Raise Us\"启动：前美商务部长与四州合作筹集10亿美元应对AI就业冲击 / The companies most likely to automate your job are now funding a $1 billion program to retrain you",
-          "url": "https://the-decoder.com/the-companies-most-likely-to-automate-your-job-are-now-funding-a-1-billion-program-to-retrain-you",
-          "source": "The Decoder AI News",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-06-27T12:25:21Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "The Decoder AI News",
-        "The Decoder：AI News（RSS）"
-      ],
-      "items": [
-        {
-          "id": "e16b5833bc344fb3836c52dcfca0e89fba3000b8",
-          "title": "\"Raise Us\"启动：前美商务部长与四州合作筹集10亿美元应对AI就业冲击",
-          "url": "https://the-decoder.com/the-companies-most-likely-to-automate-your-job-are-now-funding-a-1-billion-program-to-retrain-you",
-          "source": "The Decoder：AI News（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-27T12:25:21Z"
-        },
-        {
-          "id": "dbfe8cc9a7e16a5a175622e0e4579bed860f5dd8",
-          "title": "\"Raise Us\"启动：前美商务部长与四州合作筹集10亿美元应对AI就业冲击 / The companies most likely to automate your job are now funding a $1 billion program to retrain you",
-          "url": "https://the-decoder.com/the-companies-most-likely-to-automate-your-job-are-now-funding-a-1-billion-program-to-retrain-you",
-          "source": "The Decoder AI News",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-06-27T12:25:21Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7589,
-      "importance": 0.7589,
-      "importance_score": 0.7589,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.7,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8464,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-27T12:25:21Z",
-      "latest_at": "2026-06-27T12:25:21Z",
-      "primary_item": {
-        "id": "e16b5833bc344fb3836c52dcfca0e89fba3000b8",
-        "title": "\"Raise Us\"启动：前美商务部长与四州合作筹集10亿美元应对AI就业冲击",
-        "url": "https://the-decoder.com/the-companies-most-likely-to-automate-your-job-are-now-funding-a-1-billion-program-to-retrain-you",
-        "source": "The Decoder：AI News（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_be87d84cf8c7",
-      "title": "Runway API 推出广告本地化 Recipe",
-      "url": "https://x.com/runwayml/status/2070855164584726791",
-      "primary_url": "https://x.com/runwayml/status/2070855164584726791",
-      "source": "X：Runway (@runwayml)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "ca87abe6e093fc9d891e5ed4990d4b51e557b568",
-          "title": "Runway API 推出广告本地化 Recipe",
-          "url": "https://x.com/runwayml/status/2070855164584726791",
-          "source": "X：Runway (@runwayml)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-27T13:02:00Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：Runway (@runwayml)"
-      ],
-      "items": [
-        {
-          "id": "ca87abe6e093fc9d891e5ed4990d4b51e557b568",
-          "title": "Runway API 推出广告本地化 Recipe",
-          "url": "https://x.com/runwayml/status/2070855164584726791",
-          "source": "X：Runway (@runwayml)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-27T13:02:00Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7233,
-      "importance": 0.7233,
-      "importance_score": 0.7233,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.66,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8539,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-27T13:02:00Z",
-      "latest_at": "2026-06-27T13:02:00Z",
-      "primary_item": {
-        "id": "ca87abe6e093fc9d891e5ed4990d4b51e557b568",
-        "title": "Runway API 推出广告本地化 Recipe",
-        "url": "https://x.com/runwayml/status/2070855164584726791",
-        "source": "X：Runway (@runwayml)",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_8a4fe10cc807",
-      "title": "阿里千问输入法上线 macOS 版：最快 300 字/分，AI 自动润色",
-      "url": "https://www.ithome.com/0/969/334.htm",
-      "primary_url": "https://www.ithome.com/0/969/334.htm",
-      "source": "IT之家（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "ab5269659ec754e3674a00887b02acdec8330fa3",
-          "title": "阿里千问输入法上线 macOS 版：最快 300 字/分，AI 自动润色",
-          "url": "https://www.ithome.com/0/969/334.htm",
-          "source": "IT之家（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-27T03:39:06Z"
-        },
-        {
-          "id": "62570124211d46f791a7e03e8b1c890e20f81552",
-          "title": "阿里千问输入法上线 macOS 版：最快 300 字 / 分，AI 自动润色",
-          "url": "https://www.ithome.com/0/969/334.htm",
-          "source": "IT之家 (ITHome)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-27T03:39:06Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "IT之家 (ITHome)",
-        "IT之家（RSS）"
-      ],
-      "items": [
-        {
-          "id": "ab5269659ec754e3674a00887b02acdec8330fa3",
-          "title": "阿里千问输入法上线 macOS 版：最快 300 字/分，AI 自动润色",
-          "url": "https://www.ithome.com/0/969/334.htm",
-          "source": "IT之家（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-27T03:39:06Z"
-        },
-        {
-          "id": "62570124211d46f791a7e03e8b1c890e20f81552",
-          "title": "阿里千问输入法上线 macOS 版：最快 300 字 / 分，AI 自动润色",
-          "url": "https://www.ithome.com/0/969/334.htm",
-          "source": "IT之家 (ITHome)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-27T03:39:06Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7498,
-      "importance": 0.7498,
-      "importance_score": 0.7498,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.73,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7457,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-27T03:39:06Z",
-      "latest_at": "2026-06-27T03:39:06Z",
-      "primary_item": {
-        "id": "ab5269659ec754e3674a00887b02acdec8330fa3",
-        "title": "阿里千问输入法上线 macOS 版：最快 300 字/分，AI 自动润色",
-        "url": "https://www.ithome.com/0/969/334.htm",
-        "source": "IT之家（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_3913a744a585",
-      "title": "国家统计局：1-5月规上工业企业利润增18.8%，电子行业利润增103.9%贡献43.1%",
-      "url": "https://www.ithome.com/0/969/311.htm",
-      "primary_url": "https://www.ithome.com/0/969/311.htm",
-      "source": "IT之家（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "6fc5449d5cdd75fb091b372214940eb56fd6bfd5",
-          "title": "国家统计局：1-5月规上工业企业利润增18.8%，电子行业利润增103.9%贡献43.1%",
-          "url": "https://www.ithome.com/0/969/311.htm",
-          "source": "IT之家（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-27T01:43:18Z"
-        },
-        {
-          "id": "0628a2fac83615c1011227267aaeb61436acaa31",
-          "title": "国家统计局：电子行业利润 1-5 月增长 103.9%，AI 驱动高端算力 / 存储芯片需求爆发",
-          "url": "https://www.ithome.com/0/969/311.htm",
-          "source": "IT之家 (ITHome)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-27T01:43:18Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "IT之家 (ITHome)",
-        "IT之家（RSS）"
-      ],
-      "items": [
-        {
-          "id": "6fc5449d5cdd75fb091b372214940eb56fd6bfd5",
-          "title": "国家统计局：1-5月规上工业企业利润增18.8%，电子行业利润增103.9%贡献43.1%",
-          "url": "https://www.ithome.com/0/969/311.htm",
-          "source": "IT之家（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-27T01:43:18Z"
-        },
-        {
-          "id": "0628a2fac83615c1011227267aaeb61436acaa31",
-          "title": "国家统计局：电子行业利润 1-5 月增长 103.9%，AI 驱动高端算力 / 存储芯片需求爆发",
-          "url": "https://www.ithome.com/0/969/311.htm",
-          "source": "IT之家 (ITHome)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-27T01:43:18Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7401,
-      "importance": 0.7401,
-      "importance_score": 0.7401,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.71,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7252,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-27T01:43:18Z",
-      "latest_at": "2026-06-27T01:43:18Z",
-      "primary_item": {
-        "id": "6fc5449d5cdd75fb091b372214940eb56fd6bfd5",
-        "title": "国家统计局：1-5月规上工业企业利润增18.8%，电子行业利润增103.9%贡献43.1%",
-        "url": "https://www.ithome.com/0/969/311.htm",
         "source": "IT之家（RSS）",
         "source_name": "AI HOT"
       }
@@ -741,15 +582,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.6577,
-      "importance": 0.6577,
-      "importance_score": 0.6577,
+      "score": 0.6492,
+      "importance": 0.6492,
+      "importance_score": 0.6492,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.5688,
         "source_tier": 0.58,
         "ai_relevance": 0.79,
-        "recency": 0.8412,
+        "recency": 0.7943,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -855,15 +696,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.631,
-      "importance": 0.631,
-      "importance_score": 0.631,
+      "score": 0.6217,
+      "importance": 0.6217,
+      "importance_score": 0.6217,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.54,
         "ai_relevance": 0.65,
-        "recency": 0.9267,
+        "recency": 0.8751,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -881,158 +722,257 @@
       }
     },
     {
-      "story_id": "story_822cb889915c",
-      "title": "特朗普政府发布人择神话供 100 多家美国公司、机构使用 / Trump Admin releases Anthropic Mythos to be used by more than 100 US companies, agencies",
-      "url": "https://techcrunch.com/2026/06/26/trump-admin-releases-anthropic-mythos-to-be-used-by-more-than-100-us-companies-agencies",
-      "primary_url": "https://techcrunch.com/2026/06/26/trump-admin-releases-anthropic-mythos-to-be-used-by-more-than-100-us-companies-agencies",
-      "source": "TechCrunch AI",
-      "source_name": "Curated Media",
+      "story_id": "story_774f7412d1a3",
+      "title": "如果一个人练习射击一百万次会怎样？射门 90172，足球进展 [视频] / What If a Man Practised Shooting a Million Times? Shot 90172, Football Progress [video]",
+      "url": "https://www.youtube.com/watch?v=CI9oUUnUzw0",
+      "primary_url": "https://www.youtube.com/watch?v=CI9oUUnUzw0",
+      "source": "Hacker News · 24h最热",
+      "source_name": "Zeli",
       "sources": [
         {
-          "id": "8d280f3c539438f7adfa5fbe8599344f281b8537",
-          "title": "特朗普政府发布人择神话供 100 多家美国公司、机构使用 / Trump Admin releases Anthropic Mythos to be used by more than 100 US companies, agencies",
-          "url": "https://techcrunch.com/2026/06/26/trump-admin-releases-anthropic-mythos-to-be-used-by-more-than-100-us-companies-agencies",
-          "source": "TechCrunch AI",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-06-27T01:01:37Z"
+          "id": "68dfab153bf443fffcd461656a5df7a65238b01b",
+          "title": "如果一个人练习射击一百万次会怎样？射门 90172，足球进展 [视频] / What If a Man Practised Shooting a Million Times? Shot 90172, Football Progress [video]",
+          "url": "https://www.youtube.com/watch?v=CI9oUUnUzw0",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-27T20:29:53Z"
         },
         {
-          "id": "341c711c105cb1dff16a0525e29c53db84419c8e",
-          "title": "特朗普政府发布人择神话供 100 多家美国公司、机构使用 / Trump Admin releases Anthropic  Mythos to be used by more than 100 US companies, agencies",
-          "url": "https://techcrunch.com/2026/06/26/trump-admin-releases-anthropic-mythos-to-be-used-by-more-than-100-us-companies-agencies",
-          "source": "TechCrunch",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-27T01:01:37Z"
+          "id": "506e569ccd2109289d0105596a8b8bbefd5a3c9a",
+          "title": "《如何看待人工智能》：科里·多克托罗谈科技巨头、理解人工智能、劳动自动化等话题",
+          "url": "https://www.youtube.com/watch?v=OBUzl_IaWIw",
+          "source": "www.youtube.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-27T09:31:56.215000Z"
+        },
+        {
+          "id": "f07679b53b908eedd31a61be7985b8e2eb29f80a",
+          "title": "《如何看待人工智能》：科里·多克托罗谈科技巨头、理解人工智能、劳动自动化等话题 / \"How to Think About AI\": Cory Doctorow on Big Tech, Understanding AI, Labor Automation & More",
+          "url": "https://www.youtube.com/watch?v=OBUzl_IaWIw",
+          "source": "Lobsters (技术社区)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-27T09:17:42Z"
         }
       ],
-      "source_count": 2,
+      "source_count": 3,
       "source_names": [
-        "TechCrunch",
-        "TechCrunch AI"
+        "Hacker News · 24h最热",
+        "Lobsters (技术社区)",
+        "www.youtube.com"
       ],
       "items": [
         {
-          "id": "8d280f3c539438f7adfa5fbe8599344f281b8537",
-          "title": "特朗普政府发布人择神话供 100 多家美国公司、机构使用 / Trump Admin releases Anthropic Mythos to be used by more than 100 US companies, agencies",
-          "url": "https://techcrunch.com/2026/06/26/trump-admin-releases-anthropic-mythos-to-be-used-by-more-than-100-us-companies-agencies",
-          "source": "TechCrunch AI",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-06-27T01:01:37Z"
+          "id": "68dfab153bf443fffcd461656a5df7a65238b01b",
+          "title": "如果一个人练习射击一百万次会怎样？射门 90172，足球进展 [视频] / What If a Man Practised Shooting a Million Times? Shot 90172, Football Progress [video]",
+          "url": "https://www.youtube.com/watch?v=CI9oUUnUzw0",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-27T20:29:53Z"
         },
         {
-          "id": "341c711c105cb1dff16a0525e29c53db84419c8e",
-          "title": "特朗普政府发布人择神话供 100 多家美国公司、机构使用 / Trump Admin releases Anthropic  Mythos to be used by more than 100 US companies, agencies",
-          "url": "https://techcrunch.com/2026/06/26/trump-admin-releases-anthropic-mythos-to-be-used-by-more-than-100-us-companies-agencies",
-          "source": "TechCrunch",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-27T01:01:37Z"
+          "id": "506e569ccd2109289d0105596a8b8bbefd5a3c9a",
+          "title": "《如何看待人工智能》：科里·多克托罗谈科技巨头、理解人工智能、劳动自动化等话题",
+          "url": "https://www.youtube.com/watch?v=OBUzl_IaWIw",
+          "source": "www.youtube.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-27T09:31:56.215000Z"
+        },
+        {
+          "id": "f07679b53b908eedd31a61be7985b8e2eb29f80a",
+          "title": "《如何看待人工智能》：科里·多克托罗谈科技巨头、理解人工智能、劳动自动化等话题 / \"How to Think About AI\": Cory Doctorow on Big Tech, Understanding AI, Labor Automation & More",
+          "url": "https://www.youtube.com/watch?v=OBUzl_IaWIw",
+          "source": "Lobsters (技术社区)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-27T09:17:42Z"
         }
       ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.6105,
-      "importance": 0.6105,
-      "importance_score": 0.6105,
-      "importance_label": "值得关注",
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.5524,
+      "importance": 0.5524,
+      "importance_score": 0.5524,
+      "importance_label": "多源热议",
       "importance_breakdown": {
-        "editorial": 0.5688,
-        "source_tier": 0.58,
-        "ai_relevance": 0.79,
-        "recency": 0.7179,
-        "story_heat": 0.25
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.898,
+        "story_heat": 0.5
       },
-      "category": "watch",
+      "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-27T01:01:37Z",
-      "latest_at": "2026-06-27T01:01:37Z",
+      "earliest_at": "2026-06-27T09:17:42Z",
+      "latest_at": "2026-06-27T20:29:53Z",
       "primary_item": {
-        "id": "8d280f3c539438f7adfa5fbe8599344f281b8537",
-        "title": "特朗普政府发布人择神话供 100 多家美国公司、机构使用 / Trump Admin releases Anthropic Mythos to be used by more than 100 US companies, agencies",
-        "url": "https://techcrunch.com/2026/06/26/trump-admin-releases-anthropic-mythos-to-be-used-by-more-than-100-us-companies-agencies",
-        "source": "TechCrunch AI",
-        "source_name": "Curated Media"
+        "id": "68dfab153bf443fffcd461656a5df7a65238b01b",
+        "title": "如果一个人练习射击一百万次会怎样？射门 90172，足球进展 [视频] / What If a Man Practised Shooting a Million Times? Shot 90172, Football Progress [video]",
+        "url": "https://www.youtube.com/watch?v=CI9oUUnUzw0",
+        "source": "Hacker News · 24h最热",
+        "source_name": "Zeli"
       }
     },
     {
-      "story_id": "story_6d131501ab11",
-      "title": "AI 学习 RFIC 设计的“黑暗艺术” / AI learns the “dark art” of RFIC design",
-      "url": "https://news.ycombinator.com/item?id=48660021",
-      "primary_url": "https://news.ycombinator.com/item?id=48660021",
-      "source": "hackernews",
-      "source_name": "NewsNow",
+      "story_id": "story_9086b8756c87",
+      "title": "3 小时，蒸发 200 万：一个 AI 客服引发的灾难",
+      "url": "https://www.huxiu.com/article/4870967.html?f=rss",
+      "primary_url": "https://www.huxiu.com/article/4870967.html?f=rss",
+      "source": "Readhub · AI",
+      "source_name": "TopHub",
       "sources": [
         {
-          "id": "d7b963c6b8c3428fb2d463d91d6679992ba2ff87",
-          "title": "AI 学习 RFIC 设计的“黑暗艺术” / AI learns the “dark art” of RFIC design",
-          "url": "https://news.ycombinator.com/item?id=48660021",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-27T21:09:41.567000Z"
+          "id": "7c3ea3dd28578ad849dc31fc36844ff6bf002366",
+          "title": "3 小时，蒸发 200 万：一个 AI 客服引发的灾难",
+          "url": "https://www.huxiu.com/article/4870967.html?f=rss",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
         },
         {
-          "id": "37daa431b76ee0255792b33b9cea8c900abecaac",
-          "title": "人工智能正在设计人类无法想象的无线电芯片 / AI Is Designing Radio Chips That Humans Couldn't Even Imagine",
-          "url": "https://news.ycombinator.com/item?id=48660021",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-27T18:42:57.870000Z"
+          "id": "ec7458b21dfb2078c67dd1f6f71f0fd7e7522d9b",
+          "title": "3小时，蒸发200万：一个AI客服引发的灾难",
+          "url": "https://www.huxiu.com/article/4870967.html?f=rss",
+          "source": "虎嗅 (Huxiu)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-28T02:37:08Z"
         }
       ],
       "source_count": 2,
       "source_names": [
-        "hackernews"
+        "Readhub · AI",
+        "虎嗅 (Huxiu)"
       ],
       "items": [
         {
-          "id": "d7b963c6b8c3428fb2d463d91d6679992ba2ff87",
-          "title": "AI 学习 RFIC 设计的“黑暗艺术” / AI learns the “dark art” of RFIC design",
-          "url": "https://news.ycombinator.com/item?id=48660021",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-27T21:09:41.567000Z"
+          "id": "7c3ea3dd28578ad849dc31fc36844ff6bf002366",
+          "title": "3 小时，蒸发 200 万：一个 AI 客服引发的灾难",
+          "url": "https://www.huxiu.com/article/4870967.html?f=rss",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
         },
         {
-          "id": "37daa431b76ee0255792b33b9cea8c900abecaac",
-          "title": "人工智能正在设计人类无法想象的无线电芯片 / AI Is Designing Radio Chips That Humans Couldn't Even Imagine",
-          "url": "https://news.ycombinator.com/item?id=48660021",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-27T18:42:57.870000Z"
+          "id": "ec7458b21dfb2078c67dd1f6f71f0fd7e7522d9b",
+          "title": "3小时，蒸发200万：一个AI客服引发的灾难",
+          "url": "https://www.huxiu.com/article/4870967.html?f=rss",
+          "source": "虎嗅 (Huxiu)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-28T02:37:08Z"
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5386,
-      "importance": 0.5386,
-      "importance_score": 0.5386,
+      "score": 0.5458,
+      "importance": 0.5458,
+      "importance_score": 0.5458,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9602,
+        "recency": 1.0,
         "story_heat": 0.25
       },
       "category": "watch",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-27T18:42:57.870000Z",
-      "latest_at": "2026-06-27T21:09:41.567000Z",
+      "earliest_at": "2026-06-28T02:37:08Z",
+      "latest_at": "2026-06-28T03:56:44.300801Z",
       "primary_item": {
-        "id": "d7b963c6b8c3428fb2d463d91d6679992ba2ff87",
-        "title": "AI 学习 RFIC 设计的“黑暗艺术” / AI learns the “dark art” of RFIC design",
-        "url": "https://news.ycombinator.com/item?id=48660021",
+        "id": "7c3ea3dd28578ad849dc31fc36844ff6bf002366",
+        "title": "3 小时，蒸发 200 万：一个 AI 客服引发的灾难",
+        "url": "https://www.huxiu.com/article/4870967.html?f=rss",
+        "source": "Readhub · AI",
+        "source_name": "TopHub"
+      }
+    },
+    {
+      "story_id": "story_57de68a664e5",
+      "title": "Robin Williams 对 AI slop 的回应 / Response to AI slop is from Robin Williams",
+      "url": "https://news.ycombinator.com/item?id=48703452",
+      "primary_url": "https://news.ycombinator.com/item?id=48703452",
+      "source": "hackernews",
+      "source_name": "NewsNow",
+      "sources": [
+        {
+          "id": "6b0d6b8fac3ab6ee0434f030d1a437eefd3a7e33",
+          "title": "Robin Williams 对 AI slop 的回应 / Response to AI slop is from Robin Williams",
+          "url": "https://news.ycombinator.com/item?id=48703452",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-28T03:41:55.533000Z"
+        },
+        {
+          "id": "ec033dacf12140986d6c4537116f83821c328af4",
+          "title": "Robin Williams 对 AI slop 的回应 / Response to AI slop is from Robin Williams",
+          "url": "https://jayacunzo.com/blog/your-move-chief",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-28T01:28:10Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News",
+        "hackernews"
+      ],
+      "items": [
+        {
+          "id": "6b0d6b8fac3ab6ee0434f030d1a437eefd3a7e33",
+          "title": "Robin Williams 对 AI slop 的回应 / Response to AI slop is from Robin Williams",
+          "url": "https://news.ycombinator.com/item?id=48703452",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-28T03:41:55.533000Z"
+        },
+        {
+          "id": "ec033dacf12140986d6c4537116f83821c328af4",
+          "title": "Robin Williams 对 AI slop 的回应 / Response to AI slop is from Robin Williams",
+          "url": "https://jayacunzo.com/blog/your-move-chief",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-28T01:28:10Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5452,
+      "importance": 0.5452,
+      "importance_score": 0.5452,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9964,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-28T01:28:10Z",
+      "latest_at": "2026-06-28T03:41:55.533000Z",
+      "primary_item": {
+        "id": "6b0d6b8fac3ab6ee0434f030d1a437eefd3a7e33",
+        "title": "Robin Williams 对 AI slop 的回应 / Response to AI slop is from Robin Williams",
+        "url": "https://news.ycombinator.com/item?id=48703452",
         "source": "hackernews",
         "source_name": "NewsNow"
       }
@@ -1110,15 +1050,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5386,
-      "importance": 0.5386,
-      "importance_score": 0.5386,
+      "score": 0.5304,
+      "importance": 0.5304,
+      "importance_score": 0.5304,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8212,
+        "recency": 0.7754,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1133,85 +1073,6 @@
         "url": "https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf",
         "source": "github.com",
         "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_3d3110b16cbb",
-      "title": "脑子还在发烫，和两位 AI 大神聊完，邻桌的帅哥终于忍不住了……",
-      "url": "https://www.huxiu.com/article/4870954.html?f=rss",
-      "primary_url": "https://www.huxiu.com/article/4870954.html?f=rss",
-      "source": "Readhub · AI",
-      "source_name": "TopHub",
-      "sources": [
-        {
-          "id": "2d2fdda01a834ce4dfcb316f3ac6b908762fc1fa",
-          "title": "脑子还在发烫，和两位 AI 大神聊完，邻桌的帅哥终于忍不住了……",
-          "url": "https://www.huxiu.com/article/4870954.html?f=rss",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        },
-        {
-          "id": "c85268a01181ef4d8bed26f5f6d0a335c49718c6",
-          "title": "脑子还在发烫，和两位AI大神聊完，邻桌的帅哥终于忍不住了……",
-          "url": "https://www.huxiu.com/article/4870954.html?f=rss",
-          "source": "虎嗅 (Huxiu)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-27T16:28:07Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Readhub · AI",
-        "虎嗅 (Huxiu)"
-      ],
-      "items": [
-        {
-          "id": "2d2fdda01a834ce4dfcb316f3ac6b908762fc1fa",
-          "title": "脑子还在发烫，和两位 AI 大神聊完，邻桌的帅哥终于忍不住了……",
-          "url": "https://www.huxiu.com/article/4870954.html?f=rss",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        },
-        {
-          "id": "c85268a01181ef4d8bed26f5f6d0a335c49718c6",
-          "title": "脑子还在发烫，和两位AI大神聊完，邻桌的帅哥终于忍不住了……",
-          "url": "https://www.huxiu.com/article/4870954.html?f=rss",
-          "source": "虎嗅 (Huxiu)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-27T16:28:07Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5326,
-      "importance": 0.5326,
-      "importance_score": 0.5326,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9267,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-27T16:28:07Z",
-      "latest_at": "2026-06-27T18:42:20.642503Z",
-      "primary_item": {
-        "id": "2d2fdda01a834ce4dfcb316f3ac6b908762fc1fa",
-        "title": "脑子还在发烫，和两位 AI 大神聊完，邻桌的帅哥终于忍不住了……",
-        "url": "https://www.huxiu.com/article/4870954.html?f=rss",
-        "source": "Readhub · AI",
-        "source_name": "TopHub"
       }
     },
     {
@@ -1268,15 +1129,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5317,
-      "importance": 0.5317,
-      "importance_score": 0.5317,
+      "score": 0.5225,
+      "importance": 0.5225,
+      "importance_score": 0.5225,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9218,
+        "recency": 0.8704,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1347,15 +1208,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5254,
-      "importance": 0.5254,
-      "importance_score": 0.5254,
+      "score": 0.5166,
+      "importance": 0.5166,
+      "importance_score": 0.5166,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8869,
+        "recency": 0.8375,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1370,6 +1231,85 @@
         "url": "https://ai-creed.dev/projects/ai-whisper",
         "source": "ai-creed.dev",
         "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_7e1741da5b06",
+      "title": "世界模型、元宇宙、数字孪生、物理 AI：它们是一回事吗？",
+      "url": "https://www.huxiu.com/article/4870971.html?f=rss",
+      "primary_url": "https://www.huxiu.com/article/4870971.html?f=rss",
+      "source": "Readhub · AI",
+      "source_name": "TopHub",
+      "sources": [
+        {
+          "id": "63d758b06830f73c5b6a4ff138e5155fb2a7ee7f",
+          "title": "世界模型、元宇宙、数字孪生、物理 AI：它们是一回事吗？",
+          "url": "https://www.huxiu.com/article/4870971.html?f=rss",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        },
+        {
+          "id": "4d952023cf4b3221f8d785aba62235f7f3009aad",
+          "title": "世界模型、元宇宙、数字孪生、物理AI：它们是一回事吗？",
+          "url": "https://www.huxiu.com/article/4870971.html?f=rss",
+          "source": "虎嗅 (Huxiu)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-28T03:16:13Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Readhub · AI",
+        "虎嗅 (Huxiu)"
+      ],
+      "items": [
+        {
+          "id": "63d758b06830f73c5b6a4ff138e5155fb2a7ee7f",
+          "title": "世界模型、元宇宙、数字孪生、物理 AI：它们是一回事吗？",
+          "url": "https://www.huxiu.com/article/4870971.html?f=rss",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        },
+        {
+          "id": "4d952023cf4b3221f8d785aba62235f7f3009aad",
+          "title": "世界模型、元宇宙、数字孪生、物理AI：它们是一回事吗？",
+          "url": "https://www.huxiu.com/article/4870971.html?f=rss",
+          "source": "虎嗅 (Huxiu)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-28T03:16:13Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5458,
+      "importance": 0.5458,
+      "importance_score": 0.5458,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 1.0,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-28T03:16:13Z",
+      "latest_at": "2026-06-28T03:56:44.300801Z",
+      "primary_item": {
+        "id": "63d758b06830f73c5b6a4ff138e5155fb2a7ee7f",
+        "title": "世界模型、元宇宙、数字孪生、物理 AI：它们是一回事吗？",
+        "url": "https://www.huxiu.com/article/4870971.html?f=rss",
+        "source": "Readhub · AI",
+        "source_name": "TopHub"
       }
     },
     {
@@ -1426,15 +1366,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5242,
-      "importance": 0.5242,
-      "importance_score": 0.5242,
+      "score": 0.5154,
+      "importance": 0.5154,
+      "importance_score": 0.5154,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8801,
+        "recency": 0.8311,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1452,81 +1392,82 @@
       }
     },
     {
-      "story_id": "story_525c27ccf30b",
-      "title": "扎克伯格针对举报人的战争愈发离奇 / Zuckerberg's Increasingly Bizarre War on Whistleblowers",
-      "url": "https://pluralistic.net/2026/06/27/zuckerstreisand-2",
-      "primary_url": "https://pluralistic.net/2026/06/27/zuckerstreisand-2",
-      "source": "Hacker News · 24h最热",
-      "source_name": "Zeli",
+      "story_id": "story_15b81a17c7dd",
+      "title": "福特雇佣了人工智能并解雇了人类。结果适得其反 / Ford hired AI and sacked humans. It backfired badly",
+      "url": "https://news.ycombinator.com/item?id=48703968",
+      "primary_url": "https://news.ycombinator.com/item?id=48703968",
+      "source": "hackernews",
+      "source_name": "NewsNow",
       "sources": [
         {
-          "id": "383fcdedebd4d5cf723275e0f553e4660dc5a6ce",
-          "title": "扎克伯格针对举报人的战争愈发离奇 / Zuckerberg's Increasingly Bizarre War on Whistleblowers",
-          "url": "https://pluralistic.net/2026/06/27/zuckerstreisand-2",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-27T14:38:05Z"
+          "id": "22d9b1e5926cb164c9a724bec1274a5e614345bc",
+          "title": "福特雇佣了人工智能并解雇了人类。结果适得其反 / Ford hired AI and sacked humans. It backfired badly",
+          "url": "https://news.ycombinator.com/item?id=48703968",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-28T03:41:55.533000Z"
         },
         {
-          "id": "60e45658ccf1a0cd17171d1b55159c5a9fb9c99f",
-          "title": "扎克伯格针对举报人的战争愈发离奇 / Zuckerberg's war on whistleblowers",
-          "url": "https://pluralistic.net/2026/06/27/zuckerstreisand-2",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-27T14:38:05Z"
+          "id": "c5c9361bee3e9ccf3be77011cea5a3962d2bea50",
+          "title": "福特雇佣了人工智能并解雇了人类。结果适得其反 / Ford hired AI and sacked humans. It backfired badly",
+          "url": "https://www.the-independent.com/tech/ford-ai-automation-human-workers-b3003787.html",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-28T03:09:13Z"
         }
       ],
       "source_count": 2,
       "source_names": [
-        "Hacker News · 24h最热"
+        "Hacker News",
+        "hackernews"
       ],
       "items": [
         {
-          "id": "383fcdedebd4d5cf723275e0f553e4660dc5a6ce",
-          "title": "扎克伯格针对举报人的战争愈发离奇 / Zuckerberg's Increasingly Bizarre War on Whistleblowers",
-          "url": "https://pluralistic.net/2026/06/27/zuckerstreisand-2",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-27T14:38:05Z"
+          "id": "22d9b1e5926cb164c9a724bec1274a5e614345bc",
+          "title": "福特雇佣了人工智能并解雇了人类。结果适得其反 / Ford hired AI and sacked humans. It backfired badly",
+          "url": "https://news.ycombinator.com/item?id=48703968",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-28T03:41:55.533000Z"
         },
         {
-          "id": "60e45658ccf1a0cd17171d1b55159c5a9fb9c99f",
-          "title": "扎克伯格针对举报人的战争愈发离奇 / Zuckerberg's war on whistleblowers",
-          "url": "https://pluralistic.net/2026/06/27/zuckerstreisand-2",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-27T14:38:05Z"
+          "id": "c5c9361bee3e9ccf3be77011cea5a3962d2bea50",
+          "title": "福特雇佣了人工智能并解雇了人类。结果适得其反 / Ford hired AI and sacked humans. It backfired badly",
+          "url": "https://www.the-independent.com/tech/ford-ai-automation-human-workers-b3003787.html",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-28T03:09:13Z"
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5231,
-      "importance": 0.5231,
-      "importance_score": 0.5231,
+      "score": 0.5452,
+      "importance": 0.5452,
+      "importance_score": 0.5452,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8738,
+        "recency": 0.9964,
         "story_heat": 0.25
       },
       "category": "watch",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-27T14:38:05Z",
-      "latest_at": "2026-06-27T14:38:05Z",
+      "earliest_at": "2026-06-28T03:09:13Z",
+      "latest_at": "2026-06-28T03:41:55.533000Z",
       "primary_item": {
-        "id": "383fcdedebd4d5cf723275e0f553e4660dc5a6ce",
-        "title": "扎克伯格针对举报人的战争愈发离奇 / Zuckerberg's Increasingly Bizarre War on Whistleblowers",
-        "url": "https://pluralistic.net/2026/06/27/zuckerstreisand-2",
-        "source": "Hacker News · 24h最热",
-        "source_name": "Zeli"
+        "id": "22d9b1e5926cb164c9a724bec1274a5e614345bc",
+        "title": "福特雇佣了人工智能并解雇了人类。结果适得其反 / Ford hired AI and sacked humans. It backfired badly",
+        "url": "https://news.ycombinator.com/item?id=48703968",
+        "source": "hackernews",
+        "source_name": "NewsNow"
       }
     },
     {
@@ -1583,15 +1524,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.519,
-      "importance": 0.519,
-      "importance_score": 0.519,
+      "score": 0.5105,
+      "importance": 0.5105,
+      "importance_score": 0.5105,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8514,
+        "recency": 0.8039,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1606,6 +1547,84 @@
         "url": "https://github.com/Anil-matcha/Open-Generative-AI",
         "source": "GitHub · Trending Today",
         "source_name": "TopHub"
+      }
+    },
+    {
+      "story_id": "story_294985a0e94e",
+      "title": "GLP-1 药物可导致小鼠体重减轻并逆转抑郁样行为 / GLP-1 drugs led to weight loss and reversed depression-like behavior in mice",
+      "url": "https://www.psychologytoday.com/au/blog/mood-by-microbe/202606/what-ozempic-does-to-the-gut-brain-axis",
+      "primary_url": "https://www.psychologytoday.com/au/blog/mood-by-microbe/202606/what-ozempic-does-to-the-gut-brain-axis",
+      "source": "Hacker News · 24h最热",
+      "source_name": "Zeli",
+      "sources": [
+        {
+          "id": "0b2a62d12dd563c26148b71300df13d4efd61763",
+          "title": "GLP-1 药物可导致小鼠体重减轻并逆转抑郁样行为 / GLP-1 drugs led to weight loss and reversed depression-like behavior in mice",
+          "url": "https://www.psychologytoday.com/au/blog/mood-by-microbe/202606/what-ozempic-does-to-the-gut-brain-axis",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-27T21:34:06Z"
+        },
+        {
+          "id": "fcfc71b1c979c5f33d9cc67cb4871081e97bcfea",
+          "title": "Ozempic 对肠脑轴有何作用 / What Ozempic does to the gut-brain axis",
+          "url": "https://www.psychologytoday.com/au/blog/mood-by-microbe/202606/what-ozempic-does-to-the-gut-brain-axis",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-27T21:34:06Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News · 24h最热"
+      ],
+      "items": [
+        {
+          "id": "0b2a62d12dd563c26148b71300df13d4efd61763",
+          "title": "GLP-1 药物可导致小鼠体重减轻并逆转抑郁样行为 / GLP-1 drugs led to weight loss and reversed depression-like behavior in mice",
+          "url": "https://www.psychologytoday.com/au/blog/mood-by-microbe/202606/what-ozempic-does-to-the-gut-brain-axis",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-27T21:34:06Z"
+        },
+        {
+          "id": "fcfc71b1c979c5f33d9cc67cb4871081e97bcfea",
+          "title": "Ozempic 对肠脑轴有何作用 / What Ozempic does to the gut-brain axis",
+          "url": "https://www.psychologytoday.com/au/blog/mood-by-microbe/202606/what-ozempic-does-to-the-gut-brain-axis",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-27T21:34:06Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.53,
+      "importance": 0.53,
+      "importance_score": 0.53,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.912,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-27T21:34:06Z",
+      "latest_at": "2026-06-27T21:34:06Z",
+      "primary_item": {
+        "id": "0b2a62d12dd563c26148b71300df13d4efd61763",
+        "title": "GLP-1 药物可导致小鼠体重减轻并逆转抑郁样行为 / GLP-1 drugs led to weight loss and reversed depression-like behavior in mice",
+        "url": "https://www.psychologytoday.com/au/blog/mood-by-microbe/202606/what-ozempic-does-to-the-gut-brain-axis",
+        "source": "Hacker News · 24h最热",
+        "source_name": "Zeli"
       }
     }
   ]
