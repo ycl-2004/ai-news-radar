@@ -1,8 +1,127 @@
 {
-  "generated_at": "2026-06-28T17:00:44.024568Z",
+  "generated_at": "2026-06-28T18:40:47.201334Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
+    {
+      "story_id": "story_5b273f77cdfd",
+      "title": "Wayfinder Router：在本地和托管的大语言模型之间进行确定性查询路由",
+      "url": "https://github.com/itsthelore/wayfinder-router",
+      "primary_url": "https://github.com/itsthelore/wayfinder-router",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "f8245961dd6be71dea60d4a2a9a37118197d0a2b",
+          "title": "Wayfinder Router：在本地和托管的大语言模型之间进行确定性查询路由",
+          "url": "https://github.com/itsthelore/wayfinder-router",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-28T16:58:56.073000Z"
+        },
+        {
+          "id": "e8d8d51d14dd48c93a22c6f0041dd0604cc31cc1",
+          "title": "Wayfinder Router：在本地和托管的大型语言模型（LLM）之间进行确定性查询路由",
+          "url": "https://github.com/itsthelore/wayfinder-router",
+          "source": "github.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-28T16:58:56.073000Z"
+        },
+        {
+          "id": "8f678ab05294525d09eb008ce78fbf6620c5a4d5",
+          "title": "Wayfinder Router：本地和托管 LLM 之间查询的确定性路由 / Wayfinder Router: deterministic routing of queries between local and hosted LLM",
+          "url": "https://news.ycombinator.com/item?id=48704373",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-28T07:33:04.258000Z"
+        },
+        {
+          "id": "79b5b6d03eae14de546a8e1af039c031a92cef23",
+          "title": "Wayfinder Router：在本地和托管的大语言模型之间进行确定性查询路由 / Wayfinder Router: deterministic routing of queries between local and hosted LLM",
+          "url": "https://github.com/itsthelore/wayfinder-router",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-28T04:31:18Z"
+        }
+      ],
+      "source_count": 4,
+      "source_names": [
+        "Hacker News",
+        "Hacker News 热门（buzzing.cc 中文翻译）",
+        "github.com",
+        "hackernews"
+      ],
+      "items": [
+        {
+          "id": "f8245961dd6be71dea60d4a2a9a37118197d0a2b",
+          "title": "Wayfinder Router：在本地和托管的大语言模型之间进行确定性查询路由",
+          "url": "https://github.com/itsthelore/wayfinder-router",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-28T16:58:56.073000Z"
+        },
+        {
+          "id": "e8d8d51d14dd48c93a22c6f0041dd0604cc31cc1",
+          "title": "Wayfinder Router：在本地和托管的大型语言模型（LLM）之间进行确定性查询路由",
+          "url": "https://github.com/itsthelore/wayfinder-router",
+          "source": "github.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-28T16:58:56.073000Z"
+        },
+        {
+          "id": "8f678ab05294525d09eb008ce78fbf6620c5a4d5",
+          "title": "Wayfinder Router：本地和托管 LLM 之间查询的确定性路由 / Wayfinder Router: deterministic routing of queries between local and hosted LLM",
+          "url": "https://news.ycombinator.com/item?id=48704373",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-28T07:33:04.258000Z"
+        },
+        {
+          "id": "79b5b6d03eae14de546a8e1af039c031a92cef23",
+          "title": "Wayfinder Router：在本地和托管的大语言模型之间进行确定性查询路由 / Wayfinder Router: deterministic routing of queries between local and hosted LLM",
+          "url": "https://github.com/itsthelore/wayfinder-router",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-28T04:31:18Z"
+        }
+      ],
+      "item_count": 4,
+      "duplicate_count": 4,
+      "score": 0.8472,
+      "importance": 0.8472,
+      "importance_score": 0.8472,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.75,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9758,
+        "story_heat": 0.75
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-28T04:31:18Z",
+      "latest_at": "2026-06-28T16:58:56.073000Z",
+      "primary_item": {
+        "id": "f8245961dd6be71dea60d4a2a9a37118197d0a2b",
+        "title": "Wayfinder Router：在本地和托管的大语言模型之间进行确定性查询路由",
+        "url": "https://github.com/itsthelore/wayfinder-router",
+        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "source_name": "AI HOT"
+      }
+    },
     {
       "story_id": "story_b7e01618c76a",
       "title": "四大顶级AI对决《文明VI》：Claude核平法国仍输，暴露感知与执行短板",
@@ -57,15 +176,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7711,
-      "importance": 0.7711,
-      "importance_score": 0.7711,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.76,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8139,
+        "recency": 0.7946,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -138,15 +257,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7699,
-      "importance": 0.7699,
-      "importance_score": 0.7699,
+      "score": 0.766,
+      "importance": 0.766,
+      "importance_score": 0.766,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9072,
+        "recency": 0.8856,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -161,6 +280,207 @@
         "id": "d77f094d423100fbc549a393a846b0f9f74929a5",
         "title": "仅有三个AI模型在500天创业测试中盈利超过起始资本",
         "url": "https://the-decoder.com/only-three-ai-models-finished-above-starting-capital-in-a-500-day-startup-survival-test",
+        "source": "The Decoder：AI News（RSS）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_b75022688aa0",
+      "title": "Grok 4.5 私测于 SpaceX 和 Tesla，性能接近 Opus",
+      "url": "https://x.com/elonmusk/status/2071184354756477041",
+      "primary_url": "https://x.com/elonmusk/status/2071184354756477041",
+      "source": "X：Elon Musk (@elonmusk, xAI)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "72f4093c3e9060c9268bee4229404e4bc1d8d63c",
+          "title": "Grok 4.5 私测于 SpaceX 和 Tesla，性能接近 Opus",
+          "url": "https://x.com/elonmusk/status/2071184354756477041",
+          "source": "X：Elon Musk (@elonmusk, xAI)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-28T10:50:05Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "X：Elon Musk (@elonmusk, xAI)"
+      ],
+      "items": [
+        {
+          "id": "72f4093c3e9060c9268bee4229404e4bc1d8d63c",
+          "title": "Grok 4.5 私测于 SpaceX 和 Tesla，性能接近 Opus",
+          "url": "https://x.com/elonmusk/status/2071184354756477041",
+          "source": "X：Elon Musk (@elonmusk, xAI)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-28T10:50:05Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7423,
+      "importance": 0.7423,
+      "importance_score": 0.7423,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.7,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8929,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-06-28T10:50:05Z",
+      "latest_at": "2026-06-28T10:50:05Z",
+      "primary_item": {
+        "id": "72f4093c3e9060c9268bee4229404e4bc1d8d63c",
+        "title": "Grok 4.5 私测于 SpaceX 和 Tesla，性能接近 Opus",
+        "url": "https://x.com/elonmusk/status/2071184354756477041",
+        "source": "X：Elon Musk (@elonmusk, xAI)",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_c2124e4dd184",
+      "title": "SpaceX 注册 SpaceXAI 商标，将合并 xAI",
+      "url": "https://x.com/cb_doge/status/2070973276562530507",
+      "primary_url": "https://x.com/cb_doge/status/2070973276562530507",
+      "source": "X：cb_doge (@cb_doge)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "b10123cdfc6118250369710ed76f260df36f7e19",
+          "title": "SpaceX 注册 SpaceXAI 商标，将合并 xAI",
+          "url": "https://x.com/cb_doge/status/2070973276562530507",
+          "source": "X：cb_doge (@cb_doge)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-27T20:51:20Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "X：cb_doge (@cb_doge)"
+      ],
+      "items": [
+        {
+          "id": "b10123cdfc6118250369710ed76f260df36f7e19",
+          "title": "SpaceX 注册 SpaceXAI 商标，将合并 xAI",
+          "url": "https://x.com/cb_doge/status/2070973276562530507",
+          "source": "X：cb_doge (@cb_doge)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-27T20:51:20Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7309,
+      "importance": 0.7309,
+      "importance_score": 0.7309,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.76,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7297,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-06-27T20:51:20Z",
+      "latest_at": "2026-06-27T20:51:20Z",
+      "primary_item": {
+        "id": "b10123cdfc6118250369710ed76f260df36f7e19",
+        "title": "SpaceX 注册 SpaceXAI 商标，将合并 xAI",
+        "url": "https://x.com/cb_doge/status/2070973276562530507",
+        "source": "X：cb_doge (@cb_doge)",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_7fc17092690c",
+      "title": "新浪开源VibeThinker-3B：推理可压缩，事实知识不能",
+      "url": "https://the-decoder.com/sinas-open-model-vibethinker-3b-aims-to-show-reasoning-compresses-well-but-factual-knowledge-doesnt",
+      "primary_url": "https://the-decoder.com/sinas-open-model-vibethinker-3b-aims-to-show-reasoning-compresses-well-but-factual-knowledge-doesnt",
+      "source": "The Decoder：AI News（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "9ed204705387fe21ff798e975008b74ef9a14557",
+          "title": "新浪开源VibeThinker-3B：推理可压缩，事实知识不能",
+          "url": "https://the-decoder.com/sinas-open-model-vibethinker-3b-aims-to-show-reasoning-compresses-well-but-factual-knowledge-doesnt",
+          "source": "The Decoder：AI News（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-28T07:44:41Z"
+        },
+        {
+          "id": "c5e727c8a2b66b0f35a851acb9f613a055e0c0e0",
+          "title": "新浪开源VibeThinker-3B：推理可压缩，事实知识不能 / Sina's open model VibeThinker-3B aims to show reasoning compresses well but factual knowledge doesn't",
+          "url": "https://the-decoder.com/sinas-open-model-vibethinker-3b-aims-to-show-reasoning-compresses-well-but-factual-knowledge-doesnt",
+          "source": "The Decoder AI News",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-06-28T07:44:41Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "The Decoder AI News",
+        "The Decoder：AI News（RSS）"
+      ],
+      "items": [
+        {
+          "id": "9ed204705387fe21ff798e975008b74ef9a14557",
+          "title": "新浪开源VibeThinker-3B：推理可压缩，事实知识不能",
+          "url": "https://the-decoder.com/sinas-open-model-vibethinker-3b-aims-to-show-reasoning-compresses-well-but-factual-knowledge-doesnt",
+          "source": "The Decoder：AI News（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-28T07:44:41Z"
+        },
+        {
+          "id": "c5e727c8a2b66b0f35a851acb9f613a055e0c0e0",
+          "title": "新浪开源VibeThinker-3B：推理可压缩，事实知识不能 / Sina's open model VibeThinker-3B aims to show reasoning compresses well but factual knowledge doesn't",
+          "url": "https://the-decoder.com/sinas-open-model-vibethinker-3b-aims-to-show-reasoning-compresses-well-but-factual-knowledge-doesnt",
+          "source": "The Decoder AI News",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-06-28T07:44:41Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7603,
+      "importance": 0.7603,
+      "importance_score": 0.7603,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.7,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8539,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-28T07:44:41Z",
+      "latest_at": "2026-06-28T07:44:41Z",
+      "primary_item": {
+        "id": "9ed204705387fe21ff798e975008b74ef9a14557",
+        "title": "新浪开源VibeThinker-3B：推理可压缩，事实知识不能",
+        "url": "https://the-decoder.com/sinas-open-model-vibethinker-3b-aims-to-show-reasoning-compresses-well-but-factual-knowledge-doesnt",
         "source": "The Decoder：AI News（RSS）",
         "source_name": "AI HOT"
       }
@@ -219,15 +539,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7616,
-      "importance": 0.7616,
-      "importance_score": 0.7616,
+      "score": 0.7581,
+      "importance": 0.7581,
+      "importance_score": 0.7581,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8278,
+        "recency": 0.8081,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -247,275 +567,119 @@
       }
     },
     {
-      "story_id": "story_b75022688aa0",
-      "title": "Grok 4.5 私测于 SpaceX 和 Tesla，性能接近 Opus",
-      "url": "https://x.com/elonmusk/status/2071184354756477041",
-      "primary_url": "https://x.com/elonmusk/status/2071184354756477041",
-      "source": "X：Elon Musk (@elonmusk, xAI)",
+      "story_id": "story_faa66b8b23af",
+      "title": "Artifacts 22：Zyphra、Cohere 和 Poolside 正在扩展生态系统广度",
+      "url": "https://www.interconnects.ai/p/artifacts-22-zyphra-cohere-and-poolside",
+      "primary_url": "https://www.interconnects.ai/p/artifacts-22-zyphra-cohere-and-poolside",
+      "source": "Nathan Lambert：Interconnects（RSS）",
       "source_name": "AI HOT",
       "sources": [
         {
-          "id": "72f4093c3e9060c9268bee4229404e4bc1d8d63c",
-          "title": "Grok 4.5 私测于 SpaceX 和 Tesla，性能接近 Opus",
-          "url": "https://x.com/elonmusk/status/2071184354756477041",
-          "source": "X：Elon Musk (@elonmusk, xAI)",
+          "id": "d123c502d04274c8810ad0e63ff6ae291889c493",
+          "title": "Artifacts 22：Zyphra、Cohere 和 Poolside 正在扩展生态系统广度",
+          "url": "https://www.interconnects.ai/p/artifacts-22-zyphra-cohere-and-poolside",
+          "source": "Nathan Lambert：Interconnects（RSS）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-06-28T10:50:05Z"
+          "published_at": "2026-06-28T17:03:07Z"
         }
       ],
       "source_count": 1,
       "source_names": [
-        "X：Elon Musk (@elonmusk, xAI)"
+        "Nathan Lambert：Interconnects（RSS）"
       ],
       "items": [
         {
-          "id": "72f4093c3e9060c9268bee4229404e4bc1d8d63c",
-          "title": "Grok 4.5 私测于 SpaceX 和 Tesla，性能接近 Opus",
-          "url": "https://x.com/elonmusk/status/2071184354756477041",
-          "source": "X：Elon Musk (@elonmusk, xAI)",
+          "id": "d123c502d04274c8810ad0e63ff6ae291889c493",
+          "title": "Artifacts 22：Zyphra、Cohere 和 Poolside 正在扩展生态系统广度",
+          "url": "https://www.interconnects.ai/p/artifacts-22-zyphra-cohere-and-poolside",
+          "source": "Nathan Lambert：Interconnects（RSS）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-06-28T10:50:05Z"
+          "published_at": "2026-06-28T17:03:07Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7462,
-      "importance": 0.7462,
-      "importance_score": 0.7462,
+      "score": 0.7274,
+      "importance": 0.7274,
+      "importance_score": 0.7274,
       "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.7,
+        "editorial": 0.6,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9147,
+        "recency": 0.9768,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
         "high_ai_relevance"
       ],
-      "earliest_at": "2026-06-28T10:50:05Z",
-      "latest_at": "2026-06-28T10:50:05Z",
+      "earliest_at": "2026-06-28T17:03:07Z",
+      "latest_at": "2026-06-28T17:03:07Z",
       "primary_item": {
-        "id": "72f4093c3e9060c9268bee4229404e4bc1d8d63c",
-        "title": "Grok 4.5 私测于 SpaceX 和 Tesla，性能接近 Opus",
-        "url": "https://x.com/elonmusk/status/2071184354756477041",
-        "source": "X：Elon Musk (@elonmusk, xAI)",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_7fc17092690c",
-      "title": "新浪开源VibeThinker-3B：推理可压缩，事实知识不能",
-      "url": "https://the-decoder.com/sinas-open-model-vibethinker-3b-aims-to-show-reasoning-compresses-well-but-factual-knowledge-doesnt",
-      "primary_url": "https://the-decoder.com/sinas-open-model-vibethinker-3b-aims-to-show-reasoning-compresses-well-but-factual-knowledge-doesnt",
-      "source": "The Decoder：AI News（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "9ed204705387fe21ff798e975008b74ef9a14557",
-          "title": "新浪开源VibeThinker-3B：推理可压缩，事实知识不能",
-          "url": "https://the-decoder.com/sinas-open-model-vibethinker-3b-aims-to-show-reasoning-compresses-well-but-factual-knowledge-doesnt",
-          "source": "The Decoder：AI News（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-28T07:44:41Z"
-        },
-        {
-          "id": "c5e727c8a2b66b0f35a851acb9f613a055e0c0e0",
-          "title": "新浪开源VibeThinker-3B：推理可压缩，事实知识不能 / Sina's open model VibeThinker-3B aims to show reasoning compresses well but factual knowledge doesn't",
-          "url": "https://the-decoder.com/sinas-open-model-vibethinker-3b-aims-to-show-reasoning-compresses-well-but-factual-knowledge-doesnt",
-          "source": "The Decoder AI News",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-06-28T07:44:41Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "The Decoder AI News",
-        "The Decoder：AI News（RSS）"
-      ],
-      "items": [
-        {
-          "id": "9ed204705387fe21ff798e975008b74ef9a14557",
-          "title": "新浪开源VibeThinker-3B：推理可压缩，事实知识不能",
-          "url": "https://the-decoder.com/sinas-open-model-vibethinker-3b-aims-to-show-reasoning-compresses-well-but-factual-knowledge-doesnt",
-          "source": "The Decoder：AI News（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-28T07:44:41Z"
-        },
-        {
-          "id": "c5e727c8a2b66b0f35a851acb9f613a055e0c0e0",
-          "title": "新浪开源VibeThinker-3B：推理可压缩，事实知识不能 / Sina's open model VibeThinker-3B aims to show reasoning compresses well but factual knowledge doesn't",
-          "url": "https://the-decoder.com/sinas-open-model-vibethinker-3b-aims-to-show-reasoning-compresses-well-but-factual-knowledge-doesnt",
-          "source": "The Decoder AI News",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-06-28T07:44:41Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7641,
-      "importance": 0.7641,
-      "importance_score": 0.7641,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.7,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8747,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-28T07:44:41Z",
-      "latest_at": "2026-06-28T07:44:41Z",
-      "primary_item": {
-        "id": "9ed204705387fe21ff798e975008b74ef9a14557",
-        "title": "新浪开源VibeThinker-3B：推理可压缩，事实知识不能",
-        "url": "https://the-decoder.com/sinas-open-model-vibethinker-3b-aims-to-show-reasoning-compresses-well-but-factual-knowledge-doesnt",
-        "source": "The Decoder：AI News（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_c2124e4dd184",
-      "title": "SpaceX 注册 SpaceXAI 商标，将合并 xAI",
-      "url": "https://x.com/cb_doge/status/2070973276562530507",
-      "primary_url": "https://x.com/cb_doge/status/2070973276562530507",
-      "source": "X：cb_doge (@cb_doge)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "b10123cdfc6118250369710ed76f260df36f7e19",
-          "title": "SpaceX 注册 SpaceXAI 商标，将合并 xAI",
-          "url": "https://x.com/cb_doge/status/2070973276562530507",
-          "source": "X：cb_doge (@cb_doge)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-27T20:51:20Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：cb_doge (@cb_doge)"
-      ],
-      "items": [
-        {
-          "id": "b10123cdfc6118250369710ed76f260df36f7e19",
-          "title": "SpaceX 注册 SpaceXAI 商标，将合并 xAI",
-          "url": "https://x.com/cb_doge/status/2070973276562530507",
-          "source": "X：cb_doge (@cb_doge)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-27T20:51:20Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7341,
-      "importance": 0.7341,
-      "importance_score": 0.7341,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.76,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7475,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-27T20:51:20Z",
-      "latest_at": "2026-06-27T20:51:20Z",
-      "primary_item": {
-        "id": "b10123cdfc6118250369710ed76f260df36f7e19",
-        "title": "SpaceX 注册 SpaceXAI 商标，将合并 xAI",
-        "url": "https://x.com/cb_doge/status/2070973276562530507",
-        "source": "X：cb_doge (@cb_doge)",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_198afd05cb9d",
-      "title": "苹果Vision负责人跳槽OpenAI，触控OLED MacBook用M5芯片",
-      "url": "https://x.com/berryxia/status/2070916520822321292",
-      "primary_url": "https://x.com/berryxia/status/2070916520822321292",
-      "source": "X：Berry Xia (@berryxia)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "8aebc04cd2da41a5136f79ed187a332c5445bced",
-          "title": "苹果Vision负责人跳槽OpenAI，触控OLED MacBook用M5芯片",
-          "url": "https://x.com/berryxia/status/2070916520822321292",
-          "source": "X：Berry Xia (@berryxia)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-27T17:05:48Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：Berry Xia (@berryxia)"
-      ],
-      "items": [
-        {
-          "id": "8aebc04cd2da41a5136f79ed187a332c5445bced",
-          "title": "苹果Vision负责人跳槽OpenAI，触控OLED MacBook用M5芯片",
-          "url": "https://x.com/berryxia/status/2070916520822321292",
-          "source": "X：Berry Xia (@berryxia)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-27T17:05:48Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.727,
-      "importance": 0.727,
-      "importance_score": 0.727,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.76,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.708,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-27T17:05:48Z",
-      "latest_at": "2026-06-27T17:05:48Z",
-      "primary_item": {
-        "id": "8aebc04cd2da41a5136f79ed187a332c5445bced",
-        "title": "苹果Vision负责人跳槽OpenAI，触控OLED MacBook用M5芯片",
-        "url": "https://x.com/berryxia/status/2070916520822321292",
-        "source": "X：Berry Xia (@berryxia)",
+        "id": "d123c502d04274c8810ad0e63ff6ae291889c493",
+        "title": "Artifacts 22：Zyphra、Cohere 和 Poolside 正在扩展生态系统广度",
+        "url": "https://www.interconnects.ai/p/artifacts-22-zyphra-cohere-and-poolside",
+        "source": "Nathan Lambert：Interconnects（RSS）",
         "source_name": "AI HOT"
       }
     },
     {
       "story_id": "story_2df82173bb28",
-      "title": "这篇文章梳理了让你精通 Claude 的7 篇实用指南：你真正需要读哪些指南、应该按什么顺序读，以及每篇指南的快速提要，方便你快速浏览。",
+      "title": "很多搭建LLM智能体的团队都会卡在同一个问题：即便精细调试提示词，模型仍然频繁出错而且无法自主优化。传统监督微调只能复刻样本，很难适配多步骤工具调用任务。文章中介绍了一套低门槛强化微调组合方案：借助开源ART框架落地GRPO算法，搭配RULER免去标注数据与自定义奖励函数，依靠大模型评审给出相对排序完成训练。",
       "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
       "primary_url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
       "source": "社区更新 · 2026-06-28",
       "source_name": "WaytoAGI",
       "sources": [
         {
+          "id": "2fdfe9193cdde95a564dcd87a2eaa2858f2e06e9",
+          "title": "Jiaona Zhang是Laurel的CPO，她做过 Airbnb、Dropbox、Webflow、WeWork 的产品负责人，也在 Stanford、Yale 和 Reforge 教产品。很多产品负责人和创业团队现在卡在同一个地方：公司里总有一个人很会用 AI，能写 prompt、搭 agent、自动化掉一堆杂活。在这期对话中，我们就会看到Laurel是如何把少数高手的操作沉淀成全公司都能调用的技能。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-28",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-28T18:40:47.201334Z"
+        },
+        {
+          "id": "bba782b6554604115be02499a19c36223cabd6fa",
+          "title": "Vibe Motion正在颠覆传统视频制作逻辑，用代码驱动动画生成的Remotion和HyperFrames两大框架让视频生产变得工程化、可调试。从全合成动画到真人口播视频，作者通过踩遍10个技术坑，揭示了AI时代视频制作的底层逻辑与实战经验。这场从React组件到HTML/CSS的技术迁移，正在重新定义动态视觉内容的创作边界。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-28",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-28T18:40:47.201334Z"
+        },
+        {
+          "id": "f2cbb39fd457f69d7e91c4d25857510174c98ef4",
+          "title": "大多数 Claude Code 用户知道 .claude/ 文件夹的存在，但很少有人认真思考它的组织方式。项目小的时候，一个 CLAUDE.md、几个设置文件就够了。但随着项目增长，指令变得难以维护，工作流散落在错误的地方，文件夹慢慢变成有用配置和难以解释的混乱的混合物。这篇文章将会带你搭建一个组织良好的 .claude/ 文件夹，让 Claude 更容易被引导、被信任，也更容易在真实项目中扩展。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-28",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-28T18:40:47.201334Z"
+        },
+        {
+          "id": "b450b13b8982ad63d237e6c76f60641b20c9489a",
+          "title": "很多搭建LLM智能体的团队都会卡在同一个问题：即便精细调试提示词，模型仍然频繁出错而且无法自主优化。传统监督微调只能复刻样本，很难适配多步骤工具调用任务。文章中介绍了一套低门槛强化微调组合方案：借助开源ART框架落地GRPO算法，搭配RULER免去标注数据与自定义奖励函数，依靠大模型评审给出相对排序完成训练。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-28",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-28T18:40:47.201334Z"
+        },
+        {
+          "id": "83151a755cc678a05fb7c230905c3143f23d91f1",
+          "title": "本周十篇重磅AI前沿论文，聚焦当下火热的多智能体赛道，破解了多模型调度、记忆架构、评测失真等行业核心难题。做 Agent 开发、模型评测、数据集搭建的从业者都能从中获取可落地的前沿创新思路。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-28",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-28T18:40:47.201334Z"
+        },
+        {
           "id": "a9cd292fdc7578b43d5c7b452460e11bdb8b24dc",
           "title": "这篇文章梳理了让你精通 Claude 的7 篇实用指南：你真正需要读哪些指南、应该按什么顺序读，以及每篇指南的快速提要，方便你快速浏览。",
           "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
@@ -534,13 +698,58 @@
           "published_at": "2026-06-27T18:42:20.642503Z"
         }
       ],
-      "source_count": 2,
+      "source_count": 7,
       "source_names": [
         "社区更新 · 2026-06-27",
         "社区更新 · 2026-06-28"
       ],
       "items": [
         {
+          "id": "2fdfe9193cdde95a564dcd87a2eaa2858f2e06e9",
+          "title": "Jiaona Zhang是Laurel的CPO，她做过 Airbnb、Dropbox、Webflow、WeWork 的产品负责人，也在 Stanford、Yale 和 Reforge 教产品。很多产品负责人和创业团队现在卡在同一个地方：公司里总有一个人很会用 AI，能写 prompt、搭 agent、自动化掉一堆杂活。在这期对话中，我们就会看到Laurel是如何把少数高手的操作沉淀成全公司都能调用的技能。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-28",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-28T18:40:47.201334Z"
+        },
+        {
+          "id": "bba782b6554604115be02499a19c36223cabd6fa",
+          "title": "Vibe Motion正在颠覆传统视频制作逻辑，用代码驱动动画生成的Remotion和HyperFrames两大框架让视频生产变得工程化、可调试。从全合成动画到真人口播视频，作者通过踩遍10个技术坑，揭示了AI时代视频制作的底层逻辑与实战经验。这场从React组件到HTML/CSS的技术迁移，正在重新定义动态视觉内容的创作边界。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-28",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-28T18:40:47.201334Z"
+        },
+        {
+          "id": "f2cbb39fd457f69d7e91c4d25857510174c98ef4",
+          "title": "大多数 Claude Code 用户知道 .claude/ 文件夹的存在，但很少有人认真思考它的组织方式。项目小的时候，一个 CLAUDE.md、几个设置文件就够了。但随着项目增长，指令变得难以维护，工作流散落在错误的地方，文件夹慢慢变成有用配置和难以解释的混乱的混合物。这篇文章将会带你搭建一个组织良好的 .claude/ 文件夹，让 Claude 更容易被引导、被信任，也更容易在真实项目中扩展。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-28",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-28T18:40:47.201334Z"
+        },
+        {
+          "id": "b450b13b8982ad63d237e6c76f60641b20c9489a",
+          "title": "很多搭建LLM智能体的团队都会卡在同一个问题：即便精细调试提示词，模型仍然频繁出错而且无法自主优化。传统监督微调只能复刻样本，很难适配多步骤工具调用任务。文章中介绍了一套低门槛强化微调组合方案：借助开源ART框架落地GRPO算法，搭配RULER免去标注数据与自定义奖励函数，依靠大模型评审给出相对排序完成训练。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-28",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-28T18:40:47.201334Z"
+        },
+        {
+          "id": "83151a755cc678a05fb7c230905c3143f23d91f1",
+          "title": "本周十篇重磅AI前沿论文，聚焦当下火热的多智能体赛道，破解了多模型调度、记忆架构、评测失真等行业核心难题。做 Agent 开发、模型评测、数据集搭建的从业者都能从中获取可落地的前沿创新思路。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-06-28",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-06-28T18:40:47.201334Z"
+        },
+        {
           "id": "a9cd292fdc7578b43d5c7b452460e11bdb8b24dc",
           "title": "这篇文章梳理了让你精通 Claude 的7 篇实用指南：你真正需要读哪些指南、应该按什么顺序读，以及每篇指南的快速提要，方便你快速浏览。",
           "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
@@ -559,31 +768,227 @@
           "published_at": "2026-06-27T18:42:20.642503Z"
         }
       ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5942,
-      "importance": 0.5942,
-      "importance_score": 0.5942,
-      "importance_label": "值得关注",
+      "item_count": 7,
+      "duplicate_count": 7,
+      "score": 0.6942,
+      "importance": 0.6942,
+      "importance_score": 0.6942,
+      "importance_label": "多源热议",
       "importance_breakdown": {
-        "editorial": 0.468,
+        "editorial": 0.5112,
         "source_tier": 0.54,
-        "ai_relevance": 0.65,
+        "ai_relevance": 0.71,
         "recency": 1.0,
-        "story_heat": 0.25
+        "story_heat": 1.0
       },
-      "category": "watch",
+      "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
       "earliest_at": "2026-06-27T18:42:20.642503Z",
-      "latest_at": "2026-06-28T17:00:44.024568Z",
+      "latest_at": "2026-06-28T18:40:47.201334Z",
       "primary_item": {
-        "id": "a9cd292fdc7578b43d5c7b452460e11bdb8b24dc",
-        "title": "这篇文章梳理了让你精通 Claude 的7 篇实用指南：你真正需要读哪些指南、应该按什么顺序读，以及每篇指南的快速提要，方便你快速浏览。",
+        "id": "b450b13b8982ad63d237e6c76f60641b20c9489a",
+        "title": "很多搭建LLM智能体的团队都会卡在同一个问题：即便精细调试提示词，模型仍然频繁出错而且无法自主优化。传统监督微调只能复刻样本，很难适配多步骤工具调用任务。文章中介绍了一套低门槛强化微调组合方案：借助开源ART框架落地GRPO算法，搭配RULER免去标注数据与自定义奖励函数，依靠大模型评审给出相对排序完成训练。",
         "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
         "source": "社区更新 · 2026-06-28",
         "source_name": "WaytoAGI"
+      }
+    },
+    {
+      "story_id": "story_064435cfcb3b",
+      "title": "我使用Claude Code对我的MRI结果进行了二次诊断",
+      "url": "https://antoine.fi/mri-analysis-using-claude-code-opus",
+      "primary_url": "https://antoine.fi/mri-analysis-using-claude-code-opus",
+      "source": "antoine.fi",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "eaede1cf4eee0f8cd6196307e703903afe4953f8",
+          "title": "我使用Claude Code对我的MRI结果进行了二次诊断",
+          "url": "https://antoine.fi/mri-analysis-using-claude-code-opus",
+          "source": "antoine.fi",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-28T18:35:07.707000Z"
+        },
+        {
+          "id": "212d4783eb75c89dc5f79084b2a19a336220b7f1",
+          "title": "我使用 Claude Code 来获得有关 MRI 的第二意见 / I used Claude Code to get a second opinion on my MRI",
+          "url": "https://news.ycombinator.com/item?id=48708941",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-28T18:28:50.772000Z"
+        },
+        {
+          "id": "7de4229193c2b44ffceac811ee36feede5fb20cb",
+          "title": "我使用Claude Code对我的MRI结果进行了二次诊断 / I used Claude Code to get a second opinion on my MRI",
+          "url": "https://antoine.fi/mri-analysis-using-claude-code-opus",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-28T16:35:19Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "Hacker News",
+        "antoine.fi",
+        "hackernews"
+      ],
+      "items": [
+        {
+          "id": "eaede1cf4eee0f8cd6196307e703903afe4953f8",
+          "title": "我使用Claude Code对我的MRI结果进行了二次诊断",
+          "url": "https://antoine.fi/mri-analysis-using-claude-code-opus",
+          "source": "antoine.fi",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-28T18:35:07.707000Z"
+        },
+        {
+          "id": "212d4783eb75c89dc5f79084b2a19a336220b7f1",
+          "title": "我使用 Claude Code 来获得有关 MRI 的第二意见 / I used Claude Code to get a second opinion on my MRI",
+          "url": "https://news.ycombinator.com/item?id=48708941",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-28T18:28:50.772000Z"
+        },
+        {
+          "id": "7de4229193c2b44ffceac811ee36feede5fb20cb",
+          "title": "我使用Claude Code对我的MRI结果进行了二次诊断 / I used Claude Code to get a second opinion on my MRI",
+          "url": "https://antoine.fi/mri-analysis-using-claude-code-opus",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-28T16:35:19Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.5706,
+      "importance": 0.5706,
+      "importance_score": 0.5706,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9986,
+        "story_heat": 0.5
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-28T16:35:19Z",
+      "latest_at": "2026-06-28T18:35:07.707000Z",
+      "primary_item": {
+        "id": "eaede1cf4eee0f8cd6196307e703903afe4953f8",
+        "title": "我使用Claude Code对我的MRI结果进行了二次诊断",
+        "url": "https://antoine.fi/mri-analysis-using-claude-code-opus",
+        "source": "antoine.fi",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_82ea35ed86c3",
+      "title": "谷歌限制Meta使用其Gemini人工智能模型",
+      "url": "https://www.cnbc.com/2026/06/28/google-limits-metas-use-of-its-gemini-ai-models-ft-reports.html",
+      "primary_url": "https://www.cnbc.com/2026/06/28/google-limits-metas-use-of-its-gemini-ai-models-ft-reports.html",
+      "source": "www.cnbc.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "e9fbb5604717fffc9e6e4a8f82b23f2c6ded3519",
+          "title": "谷歌限制Meta使用其Gemini人工智能模型",
+          "url": "https://www.cnbc.com/2026/06/28/google-limits-metas-use-of-its-gemini-ai-models-ft-reports.html",
+          "source": "www.cnbc.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-28T17:14:51.500000Z"
+        },
+        {
+          "id": "519b3bf58573fe24a79bd71dcadd2306ac1ab235",
+          "title": "谷歌限制 Meta 使用其 Gemini AI 模型 / Google limits Meta's use of its Gemini AI models",
+          "url": "https://news.ycombinator.com/item?id=48707103",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-28T15:28:17.547000Z"
+        },
+        {
+          "id": "d56b0586d005638469d2ebb1e21de356ba465b1c",
+          "title": "谷歌限制Meta使用其Gemini人工智能模型 / Google limits Meta's use of its Gemini AI models",
+          "url": "https://www.cnbc.com/2026/06/28/google-limits-metas-use-of-its-gemini-ai-models-ft-reports.html",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-28T13:30:06Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "Hacker News (黑客新闻)",
+        "hackernews",
+        "www.cnbc.com"
+      ],
+      "items": [
+        {
+          "id": "e9fbb5604717fffc9e6e4a8f82b23f2c6ded3519",
+          "title": "谷歌限制Meta使用其Gemini人工智能模型",
+          "url": "https://www.cnbc.com/2026/06/28/google-limits-metas-use-of-its-gemini-ai-models-ft-reports.html",
+          "source": "www.cnbc.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-28T17:14:51.500000Z"
+        },
+        {
+          "id": "519b3bf58573fe24a79bd71dcadd2306ac1ab235",
+          "title": "谷歌限制 Meta 使用其 Gemini AI 模型 / Google limits Meta's use of its Gemini AI models",
+          "url": "https://news.ycombinator.com/item?id=48707103",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-28T15:28:17.547000Z"
+        },
+        {
+          "id": "d56b0586d005638469d2ebb1e21de356ba465b1c",
+          "title": "谷歌限制Meta使用其Gemini人工智能模型 / Google limits Meta's use of its Gemini AI models",
+          "url": "https://www.cnbc.com/2026/06/28/google-limits-metas-use-of-its-gemini-ai-models-ft-reports.html",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-28T13:30:06Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.5671,
+      "importance": 0.5671,
+      "importance_score": 0.5671,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9795,
+        "story_heat": 0.5
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-28T13:30:06Z",
+      "latest_at": "2026-06-28T17:14:51.500000Z",
+      "primary_item": {
+        "id": "e9fbb5604717fffc9e6e4a8f82b23f2c6ded3519",
+        "title": "谷歌限制Meta使用其Gemini人工智能模型",
+        "url": "https://www.cnbc.com/2026/06/28/google-limits-metas-use-of-its-gemini-ai-models-ft-reports.html",
+        "source": "www.cnbc.com",
+        "source_name": "Buzzing"
       }
     },
     {
@@ -659,15 +1064,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5693,
-      "importance": 0.5693,
-      "importance_score": 0.5693,
+      "score": 0.5651,
+      "importance": 0.5651,
+      "importance_score": 0.5651,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9919,
+        "recency": 0.9683,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -681,6 +1086,164 @@
         "title": "OpenAI Codex中关于如何排除敏感文件的问题仍未解决",
         "url": "https://github.com/openai/codex/issues/2847",
         "source": "github.com",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_4fb9255c5e22",
+      "title": "人工智能时代软件工程的思考 / Reflections on Software Engineering in the Age of AI",
+      "url": "https://news.ycombinator.com/item?id=48708721",
+      "primary_url": "https://news.ycombinator.com/item?id=48708721",
+      "source": "hackernews",
+      "source_name": "NewsNow",
+      "sources": [
+        {
+          "id": "469d161407e17d8b46e371e34486dc5072771f4e",
+          "title": "人工智能时代软件工程的思考 / Reflections on Software Engineering in the Age of AI",
+          "url": "https://news.ycombinator.com/item?id=48708721",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-28T18:28:50.772000Z"
+        },
+        {
+          "id": "ea8165f2edfff2adcb5ea5dca5933fdd007b013c",
+          "title": "人工智能时代软件工程的思考 / Reflections on Software Engineering in the Age of AI",
+          "url": "https://adiamond.me/2026/06/software-engineering-in-the-age-of-ai",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-28T16:17:38Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News (黑客新闻)",
+        "hackernews"
+      ],
+      "items": [
+        {
+          "id": "469d161407e17d8b46e371e34486dc5072771f4e",
+          "title": "人工智能时代软件工程的思考 / Reflections on Software Engineering in the Age of AI",
+          "url": "https://news.ycombinator.com/item?id=48708721",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-28T18:28:50.772000Z"
+        },
+        {
+          "id": "ea8165f2edfff2adcb5ea5dca5933fdd007b013c",
+          "title": "人工智能时代软件工程的思考 / Reflections on Software Engineering in the Age of AI",
+          "url": "https://adiamond.me/2026/06/software-engineering-in-the-age-of-ai",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-28T16:17:38Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5453,
+      "importance": 0.5453,
+      "importance_score": 0.5453,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9971,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-28T16:17:38Z",
+      "latest_at": "2026-06-28T18:28:50.772000Z",
+      "primary_item": {
+        "id": "469d161407e17d8b46e371e34486dc5072771f4e",
+        "title": "人工智能时代软件工程的思考 / Reflections on Software Engineering in the Age of AI",
+        "url": "https://news.ycombinator.com/item?id=48708721",
+        "source": "hackernews",
+        "source_name": "NewsNow"
+      }
+    },
+    {
+      "story_id": "story_ec6454c520d0",
+      "title": "致AI杂工们",
+      "url": "https://www.reddit.com/r/plan9/comments/1uhiwf9/attention_ai_slop_porters",
+      "primary_url": "https://www.reddit.com/r/plan9/comments/1uhiwf9/attention_ai_slop_porters",
+      "source": "www.reddit.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "0c83bd002975e40b62f9bed42a0f113a6021835e",
+          "title": "致AI杂工们",
+          "url": "https://www.reddit.com/r/plan9/comments/1uhiwf9/attention_ai_slop_porters",
+          "source": "www.reddit.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-28T17:30:53.988000Z"
+        },
+        {
+          "id": "ecc99f98bb38446bad8fd259fba4933a6b8c5024",
+          "title": "致AI杂工们 / Attention AI Slop Porters",
+          "url": "https://www.reddit.com/r/plan9/comments/1uhiwf9/attention_ai_slop_porters",
+          "source": "Lobsters (技术社区)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-28T17:06:40Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Lobsters (技术社区)",
+        "www.reddit.com"
+      ],
+      "items": [
+        {
+          "id": "0c83bd002975e40b62f9bed42a0f113a6021835e",
+          "title": "致AI杂工们",
+          "url": "https://www.reddit.com/r/plan9/comments/1uhiwf9/attention_ai_slop_porters",
+          "source": "www.reddit.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-28T17:30:53.988000Z"
+        },
+        {
+          "id": "ecc99f98bb38446bad8fd259fba4933a6b8c5024",
+          "title": "致AI杂工们 / Attention AI Slop Porters",
+          "url": "https://www.reddit.com/r/plan9/comments/1uhiwf9/attention_ai_slop_porters",
+          "source": "Lobsters (技术社区)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-28T17:06:40Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5428,
+      "importance": 0.5428,
+      "importance_score": 0.5428,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9833,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-28T17:06:40Z",
+      "latest_at": "2026-06-28T17:30:53.988000Z",
+      "primary_item": {
+        "id": "0c83bd002975e40b62f9bed42a0f113a6021835e",
+        "title": "致AI杂工们",
+        "url": "https://www.reddit.com/r/plan9/comments/1uhiwf9/attention_ai_slop_porters",
+        "source": "www.reddit.com",
         "source_name": "Buzzing"
       }
     },
@@ -738,15 +1301,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5458,
-      "importance": 0.5458,
-      "importance_score": 0.5458,
+      "score": 0.5415,
+      "importance": 0.5415,
+      "importance_score": 0.5415,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 1.0,
+        "recency": 0.9762,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -836,15 +1399,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.545,
-      "importance": 0.545,
-      "importance_score": 0.545,
+      "score": 0.5414,
+      "importance": 0.5414,
+      "importance_score": 0.5414,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8569,
+        "recency": 0.8365,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -862,161 +1425,81 @@
       }
     },
     {
-      "story_id": "story_82ea35ed86c3",
-      "title": "谷歌限制 Meta 使用其 Gemini AI 模型 / Google limits Meta's use of its Gemini AI models",
-      "url": "https://news.ycombinator.com/item?id=48707103",
-      "primary_url": "https://news.ycombinator.com/item?id=48707103",
-      "source": "hackernews",
-      "source_name": "NewsNow",
+      "story_id": "story_6853c0e314d8",
+      "title": "Daisugi 日本“以树生树”技术，制作精确的直木 / Daisugi the Japanese Technique of Trees Out of Trees, Making Exact Straight Wood",
+      "url": "https://www.openculture.com/2020/10/daisugi.html",
+      "primary_url": "https://www.openculture.com/2020/10/daisugi.html",
+      "source": "Hacker News · 24h最热",
+      "source_name": "Zeli",
       "sources": [
         {
-          "id": "519b3bf58573fe24a79bd71dcadd2306ac1ab235",
-          "title": "谷歌限制 Meta 使用其 Gemini AI 模型 / Google limits Meta's use of its Gemini AI models",
-          "url": "https://news.ycombinator.com/item?id=48707103",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-28T15:28:17.547000Z"
+          "id": "dd2df77f883cea65a6b9a63108d303b90b535022",
+          "title": "Daisugi 日本“以树生树”技术，制作精确的直木 / Daisugi the Japanese Technique of Trees Out of Trees, Making Exact Straight Wood",
+          "url": "https://www.openculture.com/2020/10/daisugi.html",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-28T16:28:50Z"
         },
         {
-          "id": "d56b0586d005638469d2ebb1e21de356ba465b1c",
-          "title": "谷歌限制 Meta 使用其 Gemini AI 模型 / Google limits Meta's use of its Gemini AI models",
-          "url": "https://www.cnbc.com/2026/06/28/google-limits-metas-use-of-its-gemini-ai-models-ft-reports.html",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-28T13:30:06Z"
+          "id": "261463c870660719a161e49d88688bf7ed9f22ad",
+          "title": "Daisugi，日本用其他树种树的技术 (2020) / Daisugi, the Japanese technique of growing trees out of other trees (2020)",
+          "url": "https://www.openculture.com/2020/10/daisugi.html",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-28T16:28:50Z"
         }
       ],
       "source_count": 2,
       "source_names": [
-        "Hacker News (黑客新闻)",
-        "hackernews"
+        "Hacker News · 24h最热"
       ],
       "items": [
         {
-          "id": "519b3bf58573fe24a79bd71dcadd2306ac1ab235",
-          "title": "谷歌限制 Meta 使用其 Gemini AI 模型 / Google limits Meta's use of its Gemini AI models",
-          "url": "https://news.ycombinator.com/item?id=48707103",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-28T15:28:17.547000Z"
+          "id": "dd2df77f883cea65a6b9a63108d303b90b535022",
+          "title": "Daisugi 日本“以树生树”技术，制作精确的直木 / Daisugi the Japanese Technique of Trees Out of Trees, Making Exact Straight Wood",
+          "url": "https://www.openculture.com/2020/10/daisugi.html",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-28T16:28:50Z"
         },
         {
-          "id": "d56b0586d005638469d2ebb1e21de356ba465b1c",
-          "title": "谷歌限制 Meta 使用其 Gemini AI 模型 / Google limits Meta's use of its Gemini AI models",
-          "url": "https://www.cnbc.com/2026/06/28/google-limits-metas-use-of-its-gemini-ai-models-ft-reports.html",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-28T13:30:06Z"
+          "id": "261463c870660719a161e49d88688bf7ed9f22ad",
+          "title": "Daisugi，日本用其他树种树的技术 (2020) / Daisugi, the Japanese technique of growing trees out of other trees (2020)",
+          "url": "https://www.openculture.com/2020/10/daisugi.html",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-28T16:28:50Z"
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5418,
-      "importance": 0.5418,
-      "importance_score": 0.5418,
+      "score": 0.5402,
+      "importance": 0.5402,
+      "importance_score": 0.5402,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.978,
+        "recency": 0.9687,
         "story_heat": 0.25
       },
       "category": "watch",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-28T13:30:06Z",
-      "latest_at": "2026-06-28T15:28:17.547000Z",
+      "earliest_at": "2026-06-28T16:28:50Z",
+      "latest_at": "2026-06-28T16:28:50Z",
       "primary_item": {
-        "id": "519b3bf58573fe24a79bd71dcadd2306ac1ab235",
-        "title": "谷歌限制 Meta 使用其 Gemini AI 模型 / Google limits Meta's use of its Gemini AI models",
-        "url": "https://news.ycombinator.com/item?id=48707103",
-        "source": "hackernews",
-        "source_name": "NewsNow"
-      }
-    },
-    {
-      "story_id": "story_6c80d7901ac0",
-      "title": "我们进行了“Mythos at Home”测试：在我们的网络基准测试中，GLM 5.2 击败了 Claude",
-      "url": "https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks",
-      "primary_url": "https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks",
-      "source": "semgrep.dev",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "10b408b9d23b67552e36b9eb2dd8507003fd91da",
-          "title": "我们进行了“Mythos at Home”测试：在我们的网络基准测试中，GLM 5.2 击败了 Claude",
-          "url": "https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks",
-          "source": "semgrep.dev",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-28T15:07:19.647000Z"
-        },
-        {
-          "id": "8e34319ef1eb74791116166a162cab9c4b661141",
-          "title": "我们进行了“Mythos at Home”测试：在我们的网络基准测试中，GLM 5.2 击败了 Claude / We have Mythos at Home: GLM 5.2 beats Claude in our Cyber Benchmarks",
-          "url": "https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-28T14:58:01Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Lobsters (技术社区)",
-        "semgrep.dev"
-      ],
-      "items": [
-        {
-          "id": "10b408b9d23b67552e36b9eb2dd8507003fd91da",
-          "title": "我们进行了“Mythos at Home”测试：在我们的网络基准测试中，GLM 5.2 击败了 Claude",
-          "url": "https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks",
-          "source": "semgrep.dev",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-28T15:07:19.647000Z"
-        },
-        {
-          "id": "8e34319ef1eb74791116166a162cab9c4b661141",
-          "title": "我们进行了“Mythos at Home”测试：在我们的网络基准测试中，GLM 5.2 击败了 Claude / We have Mythos at Home: GLM 5.2 beats Claude in our Cyber Benchmarks",
-          "url": "https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-28T14:58:01Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.541,
-      "importance": 0.541,
-      "importance_score": 0.541,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9731,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-28T14:58:01Z",
-      "latest_at": "2026-06-28T15:07:19.647000Z",
-      "primary_item": {
-        "id": "10b408b9d23b67552e36b9eb2dd8507003fd91da",
-        "title": "我们进行了“Mythos at Home”测试：在我们的网络基准测试中，GLM 5.2 击败了 Claude",
-        "url": "https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks",
-        "source": "semgrep.dev",
-        "source_name": "Buzzing"
+        "id": "dd2df77f883cea65a6b9a63108d303b90b535022",
+        "title": "Daisugi 日本“以树生树”技术，制作精确的直木 / Daisugi the Japanese Technique of Trees Out of Trees, Making Exact Straight Wood",
+        "url": "https://www.openculture.com/2020/10/daisugi.html",
+        "source": "Hacker News · 24h最热",
+        "source_name": "Zeli"
       }
     },
     {
@@ -1092,15 +1575,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5409,
-      "importance": 0.5409,
-      "importance_score": 0.5409,
+      "score": 0.5374,
+      "importance": 0.5374,
+      "importance_score": 0.5374,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8341,
+        "recency": 0.8142,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1114,6 +1597,85 @@
         "title": "对AI垃圾内容的回应来自罗宾·威廉姆斯",
         "url": "https://jayacunzo.com/blog/your-move-chief",
         "source": "jayacunzo.com",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_6c80d7901ac0",
+      "title": "我们进行了“Mythos at Home”测试：在我们的网络基准测试中，GLM 5.2 击败了 Claude",
+      "url": "https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks",
+      "primary_url": "https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks",
+      "source": "semgrep.dev",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "10b408b9d23b67552e36b9eb2dd8507003fd91da",
+          "title": "我们进行了“Mythos at Home”测试：在我们的网络基准测试中，GLM 5.2 击败了 Claude",
+          "url": "https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks",
+          "source": "semgrep.dev",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-28T15:07:19.647000Z"
+        },
+        {
+          "id": "8e34319ef1eb74791116166a162cab9c4b661141",
+          "title": "我们进行了“Mythos at Home”测试：在我们的网络基准测试中，GLM 5.2 击败了 Claude / We have Mythos at Home: GLM 5.2 beats Claude in our Cyber Benchmarks",
+          "url": "https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks",
+          "source": "Lobsters (技术社区)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-28T14:58:01Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Lobsters (技术社区)",
+        "semgrep.dev"
+      ],
+      "items": [
+        {
+          "id": "10b408b9d23b67552e36b9eb2dd8507003fd91da",
+          "title": "我们进行了“Mythos at Home”测试：在我们的网络基准测试中，GLM 5.2 击败了 Claude",
+          "url": "https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks",
+          "source": "semgrep.dev",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-28T15:07:19.647000Z"
+        },
+        {
+          "id": "8e34319ef1eb74791116166a162cab9c4b661141",
+          "title": "我们进行了“Mythos at Home”测试：在我们的网络基准测试中，GLM 5.2 击败了 Claude / We have Mythos at Home: GLM 5.2 beats Claude in our Cyber Benchmarks",
+          "url": "https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks",
+          "source": "Lobsters (技术社区)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-28T14:58:01Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5368,
+      "importance": 0.5368,
+      "importance_score": 0.5368,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9499,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-28T14:58:01Z",
+      "latest_at": "2026-06-28T15:07:19.647000Z",
+      "primary_item": {
+        "id": "10b408b9d23b67552e36b9eb2dd8507003fd91da",
+        "title": "我们进行了“Mythos at Home”测试：在我们的网络基准测试中，GLM 5.2 击败了 Claude",
+        "url": "https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks",
+        "source": "semgrep.dev",
         "source_name": "Buzzing"
       }
     },
@@ -1170,15 +1732,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5391,
-      "importance": 0.5391,
-      "importance_score": 0.5391,
+      "score": 0.535,
+      "importance": 0.535,
+      "importance_score": 0.535,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.963,
+        "recency": 0.9401,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1193,400 +1755,6 @@
         "url": "https://www.v2ex.com/t/1223493",
         "source": "V2EX (创意工作者社区)",
         "source_name": "Info Flow"
-      }
-    },
-    {
-      "story_id": "story_b061399c433d",
-      "title": "人工智能编写了大量软件。如今，人工代码审查正逐渐消失。",
-      "url": "https://www.businessinsider.com/ai-coding-agents-cursor-human-review-2026-6",
-      "primary_url": "https://www.businessinsider.com/ai-coding-agents-cursor-human-review-2026-6",
-      "source": "www.businessinsider.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "4e5e187c6553eb696427d6e84f87c2da70f3ee4f",
-          "title": "人工智能编写了大量软件。如今，人工代码审查正逐渐消失。",
-          "url": "https://www.businessinsider.com/ai-coding-agents-cursor-human-review-2026-6",
-          "source": "www.businessinsider.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-28T14:18:48.997000Z"
-        },
-        {
-          "id": "3879a7bcb76d0d97c3a2b06d8fa76b1634a6c106",
-          "title": "人工智能编写了大量软件。如今，人工代码审查正逐渐消失。 / AI writes a lot of software. Now, human code review is starting to disappear.",
-          "url": "https://www.businessinsider.com/ai-coding-agents-cursor-human-review-2026-6",
-          "source": "Business Insider",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-28T14:00:01Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Business Insider",
-        "www.businessinsider.com"
-      ],
-      "items": [
-        {
-          "id": "4e5e187c6553eb696427d6e84f87c2da70f3ee4f",
-          "title": "人工智能编写了大量软件。如今，人工代码审查正逐渐消失。",
-          "url": "https://www.businessinsider.com/ai-coding-agents-cursor-human-review-2026-6",
-          "source": "www.businessinsider.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-28T14:18:48.997000Z"
-        },
-        {
-          "id": "3879a7bcb76d0d97c3a2b06d8fa76b1634a6c106",
-          "title": "人工智能编写了大量软件。如今，人工代码审查正逐渐消失。 / AI writes a lot of software. Now, human code review is starting to disappear.",
-          "url": "https://www.businessinsider.com/ai-coding-agents-cursor-human-review-2026-6",
-          "source": "Business Insider",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-28T14:00:01Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5389,
-      "importance": 0.5389,
-      "importance_score": 0.5389,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9618,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-28T14:00:01Z",
-      "latest_at": "2026-06-28T14:18:48.997000Z",
-      "primary_item": {
-        "id": "4e5e187c6553eb696427d6e84f87c2da70f3ee4f",
-        "title": "人工智能编写了大量软件。如今，人工代码审查正逐渐消失。",
-        "url": "https://www.businessinsider.com/ai-coding-agents-cursor-human-review-2026-6",
-        "source": "www.businessinsider.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_7be0be9f8f64",
-      "title": "美国限制准入后，奥地利游说欧盟接纳Anthropic落户 / Austria Lobbies EU to Host Anthropic After US Access Curbs",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-28/austria-lobbies-eu-to-host-anthropic-after-us-access-curbs",
-      "primary_url": "https://www.bloomberg.com/news/articles/2026-06-28/austria-lobbies-eu-to-host-anthropic-after-us-access-curbs",
-      "source": "Hacker News (黑客新闻)",
-      "source_name": "Info Flow",
-      "sources": [
-        {
-          "id": "f3de1d652d10c6c4fe2eee4cc6ba39d4ead4f106",
-          "title": "美国限制准入后，奥地利游说欧盟接纳Anthropic落户 / Austria Lobbies EU to Host Anthropic After US Access Curbs",
-          "url": "https://www.bloomberg.com/news/articles/2026-06-28/austria-lobbies-eu-to-host-anthropic-after-us-access-curbs",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-28T13:34:14Z"
-        },
-        {
-          "id": "a66b5d911ef0092f2dd0c3c3e6b00b7a3a06b2eb",
-          "title": "美国限制准入后，奥地利游说欧盟接纳Anthropic落户",
-          "url": "https://www.bloomberg.com/news/articles/2026-06-28/austria-lobbies-eu-to-host-anthropic-after-us-access-curbs",
-          "source": "www.bloomberg.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-28T12:43:02.818000Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News (黑客新闻)",
-        "www.bloomberg.com"
-      ],
-      "items": [
-        {
-          "id": "f3de1d652d10c6c4fe2eee4cc6ba39d4ead4f106",
-          "title": "美国限制准入后，奥地利游说欧盟接纳Anthropic落户 / Austria Lobbies EU to Host Anthropic After US Access Curbs",
-          "url": "https://www.bloomberg.com/news/articles/2026-06-28/austria-lobbies-eu-to-host-anthropic-after-us-access-curbs",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-28T13:34:14Z"
-        },
-        {
-          "id": "a66b5d911ef0092f2dd0c3c3e6b00b7a3a06b2eb",
-          "title": "美国限制准入后，奥地利游说欧盟接纳Anthropic落户",
-          "url": "https://www.bloomberg.com/news/articles/2026-06-28/austria-lobbies-eu-to-host-anthropic-after-us-access-curbs",
-          "source": "www.bloomberg.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-28T12:43:02.818000Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5371,
-      "importance": 0.5371,
-      "importance_score": 0.5371,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9515,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-28T12:43:02.818000Z",
-      "latest_at": "2026-06-28T13:34:14Z",
-      "primary_item": {
-        "id": "f3de1d652d10c6c4fe2eee4cc6ba39d4ead4f106",
-        "title": "美国限制准入后，奥地利游说欧盟接纳Anthropic落户 / Austria Lobbies EU to Host Anthropic After US Access Curbs",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-28/austria-lobbies-eu-to-host-anthropic-after-us-access-curbs",
-        "source": "Hacker News (黑客新闻)",
-        "source_name": "Info Flow"
-      }
-    },
-    {
-      "story_id": "story_7b7cd8725902",
-      "title": "Show HN: Claudete——指挥一支由Claude Code实例和外壳组成的军团",
-      "url": "https://claudete.co",
-      "primary_url": "https://claudete.co",
-      "source": "claudete.co",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "de91e956b67723aa6d2f2dcdb6db227c2b64d121",
-          "title": "Show HN: Claudete——指挥一支由Claude Code实例和外壳组成的军团",
-          "url": "https://claudete.co",
-          "source": "claudete.co",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-28T10:02:50.746000Z"
-        },
-        {
-          "id": "9da74b3ce11abfde1e8fbd76728ac530a9bfca33",
-          "title": "Show HN: Claudete——指挥一支由Claude Code实例和外壳组成的军团 / Show HN: Claudete – Command a legion of Claude Code instances and shells",
-          "url": "https://claudete.co",
-          "source": "HN Algolia · AI 24h",
-          "source_name": "Hacker News",
-          "site_id": "hackernews",
-          "published_at": "2026-06-28T09:46:53Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "HN Algolia · AI 24h",
-        "claudete.co"
-      ],
-      "items": [
-        {
-          "id": "de91e956b67723aa6d2f2dcdb6db227c2b64d121",
-          "title": "Show HN: Claudete——指挥一支由Claude Code实例和外壳组成的军团",
-          "url": "https://claudete.co",
-          "source": "claudete.co",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-28T10:02:50.746000Z"
-        },
-        {
-          "id": "9da74b3ce11abfde1e8fbd76728ac530a9bfca33",
-          "title": "Show HN: Claudete——指挥一支由Claude Code实例和外壳组成的军团 / Show HN: Claudete – Command a legion of Claude Code instances and shells",
-          "url": "https://claudete.co",
-          "source": "HN Algolia · AI 24h",
-          "source_name": "Hacker News",
-          "site_id": "hackernews",
-          "published_at": "2026-06-28T09:46:53Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5286,
-      "importance": 0.5286,
-      "importance_score": 0.5286,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9043,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-28T09:46:53Z",
-      "latest_at": "2026-06-28T10:02:50.746000Z",
-      "primary_item": {
-        "id": "de91e956b67723aa6d2f2dcdb6db227c2b64d121",
-        "title": "Show HN: Claudete——指挥一支由Claude Code实例和外壳组成的军团",
-        "url": "https://claudete.co",
-        "source": "claudete.co",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_42f0775e82d8",
-      "title": "澳大利亚 Firmus Technologies 与英伟达达成人工智能合作协议",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-06-28/doc-inieyriq2746741.shtml",
-      "primary_url": "https://finance.sina.com.cn/stock/usstock/c/2026-06-28/doc-inieyriq2746741.shtml",
-      "source": "Readhub · AI",
-      "source_name": "TopHub",
-      "sources": [
-        {
-          "id": "dca4a1c7b0c6a0d873f079f3f6cb07f39709f052",
-          "title": "澳大利亚 Firmus Technologies 与英伟达达成人工智能合作协议",
-          "url": "https://finance.sina.com.cn/stock/usstock/c/2026-06-28/doc-inieyriq2746741.shtml",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        },
-        {
-          "id": "fc40ee687942c7826d02f317bd846a4568f7a70d",
-          "title": "澳大利亚Firmus Technologies公司与英伟达达成人工智能合作协议",
-          "url": "https://www.reuters.com/world/asia-pacific/australias-firmus-technologies-strikes-ai-access-deal-with-nvidia-2026-06-28",
-          "source": "www.reuters.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-28T14:18:49.079000Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Readhub · AI",
-        "www.reuters.com"
-      ],
-      "items": [
-        {
-          "id": "dca4a1c7b0c6a0d873f079f3f6cb07f39709f052",
-          "title": "澳大利亚 Firmus Technologies 与英伟达达成人工智能合作协议",
-          "url": "https://finance.sina.com.cn/stock/usstock/c/2026-06-28/doc-inieyriq2746741.shtml",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        },
-        {
-          "id": "fc40ee687942c7826d02f317bd846a4568f7a70d",
-          "title": "澳大利亚Firmus Technologies公司与英伟达达成人工智能合作协议",
-          "url": "https://www.reuters.com/world/asia-pacific/australias-firmus-technologies-strikes-ai-access-deal-with-nvidia-2026-06-28",
-          "source": "www.reuters.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-28T14:18:49.079000Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5426,
-      "importance": 0.5426,
-      "importance_score": 0.5426,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9824,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-28T14:18:49.079000Z",
-      "latest_at": "2026-06-28T15:46:46.284675Z",
-      "primary_item": {
-        "id": "dca4a1c7b0c6a0d873f079f3f6cb07f39709f052",
-        "title": "澳大利亚 Firmus Technologies 与英伟达达成人工智能合作协议",
-        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-06-28/doc-inieyriq2746741.shtml",
-        "source": "Readhub · AI",
-        "source_name": "TopHub"
-      }
-    },
-    {
-      "story_id": "story_28182fea6f54",
-      "title": "联邦政府让极星（Polestar）倒闭，却放过了沃尔沃。这应该让你感到恐惧 / Feds Killed Polestar and Spared Volvo",
-      "url": "https://www.thedrive.com/news/feds-killed-polestar-and-spared-volvo-that-should-terrify-you",
-      "primary_url": "https://www.thedrive.com/news/feds-killed-polestar-and-spared-volvo-that-should-terrify-you",
-      "source": "Hacker News · 24h最热",
-      "source_name": "Zeli",
-      "sources": [
-        {
-          "id": "bec32f1c805a2f362c467aaf3836a5b62ab46be4",
-          "title": "联邦政府让极星（Polestar）倒闭，却放过了沃尔沃。这应该让你感到恐惧 / Feds Killed Polestar and Spared Volvo",
-          "url": "https://www.thedrive.com/news/feds-killed-polestar-and-spared-volvo-that-should-terrify-you",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-28T01:55:21Z"
-        },
-        {
-          "id": "bec1d9052b83db9dadbab535b6651a1a90953510",
-          "title": "联邦政府让极星（Polestar）倒闭，却放过了沃尔沃。这应该让你感到恐惧 / Feds Killed Polestar and Spared Volvo. That Should Terrify You",
-          "url": "https://www.thedrive.com/news/feds-killed-polestar-and-spared-volvo-that-should-terrify-you",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-28T01:55:21Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News · 24h最热"
-      ],
-      "items": [
-        {
-          "id": "bec32f1c805a2f362c467aaf3836a5b62ab46be4",
-          "title": "联邦政府让极星（Polestar）倒闭，却放过了沃尔沃。这应该让你感到恐惧 / Feds Killed Polestar and Spared Volvo",
-          "url": "https://www.thedrive.com/news/feds-killed-polestar-and-spared-volvo-that-should-terrify-you",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-28T01:55:21Z"
-        },
-        {
-          "id": "bec1d9052b83db9dadbab535b6651a1a90953510",
-          "title": "联邦政府让极星（Polestar）倒闭，却放过了沃尔沃。这应该让你感到恐惧 / Feds Killed Polestar and Spared Volvo. That Should Terrify You",
-          "url": "https://www.thedrive.com/news/feds-killed-polestar-and-spared-volvo-that-should-terrify-you",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-28T01:55:21Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5106,
-      "importance": 0.5106,
-      "importance_score": 0.5106,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8042,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-28T01:55:21Z",
-      "latest_at": "2026-06-28T01:55:21Z",
-      "primary_item": {
-        "id": "bec32f1c805a2f362c467aaf3836a5b62ab46be4",
-        "title": "联邦政府让极星（Polestar）倒闭，却放过了沃尔沃。这应该让你感到恐惧 / Feds Killed Polestar and Spared Volvo",
-        "url": "https://www.thedrive.com/news/feds-killed-polestar-and-spared-volvo-that-should-terrify-you",
-        "source": "Hacker News · 24h最热",
-        "source_name": "Zeli"
       }
     }
   ]
