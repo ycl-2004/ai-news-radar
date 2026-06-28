@@ -1,89 +1,8 @@
 {
-  "generated_at": "2026-06-28T12:01:06.969252Z",
+  "generated_at": "2026-06-28T14:20:51.577116Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
-    {
-      "story_id": "story_b0474715455b",
-      "title": "仅有三个AI模型在500天创业测试中盈利超过起始资本",
-      "url": "https://the-decoder.com/only-three-ai-models-finished-above-starting-capital-in-a-500-day-startup-survival-test",
-      "primary_url": "https://the-decoder.com/only-three-ai-models-finished-above-starting-capital-in-a-500-day-startup-survival-test",
-      "source": "The Decoder：AI News（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "d77f094d423100fbc549a393a846b0f9f74929a5",
-          "title": "仅有三个AI模型在500天创业测试中盈利超过起始资本",
-          "url": "https://the-decoder.com/only-three-ai-models-finished-above-starting-capital-in-a-500-day-startup-survival-test",
-          "source": "The Decoder：AI News（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-28T10:16:13Z"
-        },
-        {
-          "id": "2203a966c4d47eebfd00d3bdbf4aca91f7fe0ff8",
-          "title": "仅有三个AI模型在500天创业测试中盈利超过起始资本 / Only three AI models finished above starting capital in a 500-day startup survival test",
-          "url": "https://the-decoder.com/only-three-ai-models-finished-above-starting-capital-in-a-500-day-startup-survival-test",
-          "source": "The Decoder AI News",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-06-28T10:16:13Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "The Decoder AI News",
-        "The Decoder：AI News（RSS）"
-      ],
-      "items": [
-        {
-          "id": "d77f094d423100fbc549a393a846b0f9f74929a5",
-          "title": "仅有三个AI模型在500天创业测试中盈利超过起始资本",
-          "url": "https://the-decoder.com/only-three-ai-models-finished-above-starting-capital-in-a-500-day-startup-survival-test",
-          "source": "The Decoder：AI News（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-28T10:16:13Z"
-        },
-        {
-          "id": "2203a966c4d47eebfd00d3bdbf4aca91f7fe0ff8",
-          "title": "仅有三个AI模型在500天创业测试中盈利超过起始资本 / Only three AI models finished above starting capital in a 500-day startup survival test",
-          "url": "https://the-decoder.com/only-three-ai-models-finished-above-starting-capital-in-a-500-day-startup-survival-test",
-          "source": "The Decoder AI News",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-06-28T10:16:13Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7821,
-      "importance": 0.7821,
-      "importance_score": 0.7821,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.7,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9751,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-28T10:16:13Z",
-      "latest_at": "2026-06-28T10:16:13Z",
-      "primary_item": {
-        "id": "d77f094d423100fbc549a393a846b0f9f74929a5",
-        "title": "仅有三个AI模型在500天创业测试中盈利超过起始资本",
-        "url": "https://the-decoder.com/only-three-ai-models-finished-above-starting-capital-in-a-500-day-startup-survival-test",
-        "source": "The Decoder：AI News（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
     {
       "story_id": "story_b7e01618c76a",
       "title": "四大顶级AI对决《文明VI》：Claude核平法国仍输，暴露感知与执行短板",
@@ -138,15 +57,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7821,
-      "importance": 0.7821,
-      "importance_score": 0.7821,
+      "score": 0.7769,
+      "importance": 0.7769,
+      "importance_score": 0.7769,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.76,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8748,
+        "recency": 0.8459,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -162,6 +81,87 @@
         "title": "四大顶级AI对决《文明VI》：Claude核平法国仍输，暴露感知与执行短板",
         "url": "https://www.ithome.com/0/969/570.htm",
         "source": "IT之家（RSS）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_b0474715455b",
+      "title": "仅有三个AI模型在500天创业测试中盈利超过起始资本",
+      "url": "https://the-decoder.com/only-three-ai-models-finished-above-starting-capital-in-a-500-day-startup-survival-test",
+      "primary_url": "https://the-decoder.com/only-three-ai-models-finished-above-starting-capital-in-a-500-day-startup-survival-test",
+      "source": "The Decoder：AI News（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "d77f094d423100fbc549a393a846b0f9f74929a5",
+          "title": "仅有三个AI模型在500天创业测试中盈利超过起始资本",
+          "url": "https://the-decoder.com/only-three-ai-models-finished-above-starting-capital-in-a-500-day-startup-survival-test",
+          "source": "The Decoder：AI News（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-28T10:16:13Z"
+        },
+        {
+          "id": "2203a966c4d47eebfd00d3bdbf4aca91f7fe0ff8",
+          "title": "仅有三个AI模型在500天创业测试中盈利超过起始资本 / Only three AI models finished above starting capital in a 500-day startup survival test",
+          "url": "https://the-decoder.com/only-three-ai-models-finished-above-starting-capital-in-a-500-day-startup-survival-test",
+          "source": "The Decoder AI News",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-06-28T10:16:13Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "The Decoder AI News",
+        "The Decoder：AI News（RSS）"
+      ],
+      "items": [
+        {
+          "id": "d77f094d423100fbc549a393a846b0f9f74929a5",
+          "title": "仅有三个AI模型在500天创业测试中盈利超过起始资本",
+          "url": "https://the-decoder.com/only-three-ai-models-finished-above-starting-capital-in-a-500-day-startup-survival-test",
+          "source": "The Decoder：AI News（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-28T10:16:13Z"
+        },
+        {
+          "id": "2203a966c4d47eebfd00d3bdbf4aca91f7fe0ff8",
+          "title": "仅有三个AI模型在500天创业测试中盈利超过起始资本 / Only three AI models finished above starting capital in a 500-day startup survival test",
+          "url": "https://the-decoder.com/only-three-ai-models-finished-above-starting-capital-in-a-500-day-startup-survival-test",
+          "source": "The Decoder AI News",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-06-28T10:16:13Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7763,
+      "importance": 0.7763,
+      "importance_score": 0.7763,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.7,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9428,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-28T10:16:13Z",
+      "latest_at": "2026-06-28T10:16:13Z",
+      "primary_item": {
+        "id": "d77f094d423100fbc549a393a846b0f9f74929a5",
+        "title": "仅有三个AI模型在500天创业测试中盈利超过起始资本",
+        "url": "https://the-decoder.com/only-three-ai-models-finished-above-starting-capital-in-a-500-day-startup-survival-test",
+        "source": "The Decoder：AI News（RSS）",
         "source_name": "AI HOT"
       }
     },
@@ -219,15 +219,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7727,
-      "importance": 0.7727,
-      "importance_score": 0.7727,
+      "score": 0.7674,
+      "importance": 0.7674,
+      "importance_score": 0.7674,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8896,
+        "recency": 0.8602,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -281,15 +281,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7585,
-      "importance": 0.7585,
-      "importance_score": 0.7585,
+      "score": 0.7527,
+      "importance": 0.7527,
+      "importance_score": 0.7527,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.983,
+        "recency": 0.9505,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -304,6 +304,66 @@
         "title": "Grok 4.5 私测于 SpaceX 和 Tesla，性能接近 Opus",
         "url": "https://x.com/elonmusk/status/2071184354756477041",
         "source": "X：Elon Musk (@elonmusk, xAI)",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_045a4dba0340",
+      "title": "DeepSeek 开源 DSpark 投机解码框架，加速 DeepSeek-V4 生成速度 60-85%",
+      "url": "https://www.marktechpost.com/2026/06/27/deepseek-releases-dspark-a-speculative-decoding-framework-that-accelerates-deepseek-v4-per-user-generation-60-85-over-mtp-1",
+      "primary_url": "https://www.marktechpost.com/2026/06/27/deepseek-releases-dspark-a-speculative-decoding-framework-that-accelerates-deepseek-v4-per-user-generation-60-85-over-mtp-1",
+      "source": "MarkTechPost（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "b369a2605193ddca0a52c5eddd6e7f639d9f357b",
+          "title": "DeepSeek 开源 DSpark 投机解码框架，加速 DeepSeek-V4 生成速度 60-85%",
+          "url": "https://www.marktechpost.com/2026/06/27/deepseek-releases-dspark-a-speculative-decoding-framework-that-accelerates-deepseek-v4-per-user-generation-60-85-over-mtp-1",
+          "source": "MarkTechPost（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-27T16:59:58Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "MarkTechPost（RSS）"
+      ],
+      "items": [
+        {
+          "id": "b369a2605193ddca0a52c5eddd6e7f639d9f357b",
+          "title": "DeepSeek 开源 DSpark 投机解码框架，加速 DeepSeek-V4 生成速度 60-85%",
+          "url": "https://www.marktechpost.com/2026/06/27/deepseek-releases-dspark-a-speculative-decoding-framework-that-accelerates-deepseek-v4-per-user-generation-60-85-over-mtp-1",
+          "source": "MarkTechPost（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-27T16:59:58Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7408,
+      "importance": 0.7408,
+      "importance_score": 0.7408,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.79,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7347,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-06-27T16:59:58Z",
+      "latest_at": "2026-06-27T16:59:58Z",
+      "primary_item": {
+        "id": "b369a2605193ddca0a52c5eddd6e7f639d9f357b",
+        "title": "DeepSeek 开源 DSpark 投机解码框架，加速 DeepSeek-V4 生成速度 60-85%",
+        "url": "https://www.marktechpost.com/2026/06/27/deepseek-releases-dspark-a-speculative-decoding-framework-that-accelerates-deepseek-v4-per-user-generation-60-85-over-mtp-1",
+        "source": "MarkTechPost（RSS）",
         "source_name": "AI HOT"
       }
     },
@@ -361,15 +421,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7758,
-      "importance": 0.7758,
-      "importance_score": 0.7758,
+      "score": 0.7702,
+      "importance": 0.7702,
+      "importance_score": 0.7702,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9401,
+        "recency": 0.9091,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -385,66 +445,6 @@
         "title": "新浪开源VibeThinker-3B：推理可压缩，事实知识不能",
         "url": "https://the-decoder.com/sinas-open-model-vibethinker-3b-aims-to-show-reasoning-compresses-well-but-factual-knowledge-doesnt",
         "source": "The Decoder：AI News（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_045a4dba0340",
-      "title": "DeepSeek 开源 DSpark 投机解码框架，加速 DeepSeek-V4 生成速度 60-85%",
-      "url": "https://www.marktechpost.com/2026/06/27/deepseek-releases-dspark-a-speculative-decoding-framework-that-accelerates-deepseek-v4-per-user-generation-60-85-over-mtp-1",
-      "primary_url": "https://www.marktechpost.com/2026/06/27/deepseek-releases-dspark-a-speculative-decoding-framework-that-accelerates-deepseek-v4-per-user-generation-60-85-over-mtp-1",
-      "source": "MarkTechPost（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "b369a2605193ddca0a52c5eddd6e7f639d9f357b",
-          "title": "DeepSeek 开源 DSpark 投机解码框架，加速 DeepSeek-V4 生成速度 60-85%",
-          "url": "https://www.marktechpost.com/2026/06/27/deepseek-releases-dspark-a-speculative-decoding-framework-that-accelerates-deepseek-v4-per-user-generation-60-85-over-mtp-1",
-          "source": "MarkTechPost（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-27T16:59:58Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "MarkTechPost（RSS）"
-      ],
-      "items": [
-        {
-          "id": "b369a2605193ddca0a52c5eddd6e7f639d9f357b",
-          "title": "DeepSeek 开源 DSpark 投机解码框架，加速 DeepSeek-V4 生成速度 60-85%",
-          "url": "https://www.marktechpost.com/2026/06/27/deepseek-releases-dspark-a-speculative-decoding-framework-that-accelerates-deepseek-v4-per-user-generation-60-85-over-mtp-1",
-          "source": "MarkTechPost（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-27T16:59:58Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7454,
-      "importance": 0.7454,
-      "importance_score": 0.7454,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.79,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7598,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-27T16:59:58Z",
-      "latest_at": "2026-06-27T16:59:58Z",
-      "primary_item": {
-        "id": "b369a2605193ddca0a52c5eddd6e7f639d9f357b",
-        "title": "DeepSeek 开源 DSpark 投机解码框架，加速 DeepSeek-V4 生成速度 60-85%",
-        "url": "https://www.marktechpost.com/2026/06/27/deepseek-releases-dspark-a-speculative-decoding-framework-that-accelerates-deepseek-v4-per-user-generation-60-85-over-mtp-1",
-        "source": "MarkTechPost（RSS）",
         "source_name": "AI HOT"
       }
     },
@@ -483,15 +483,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7442,
-      "importance": 0.7442,
-      "importance_score": 0.7442,
+      "score": 0.7394,
+      "importance": 0.7394,
+      "importance_score": 0.7394,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.76,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8034,
+        "recency": 0.7768,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -543,15 +543,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7366,
-      "importance": 0.7366,
-      "importance_score": 0.7366,
+      "score": 0.732,
+      "importance": 0.732,
+      "importance_score": 0.732,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.76,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7609,
+        "recency": 0.7357,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -603,15 +603,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7488,
-      "importance": 0.7488,
-      "importance_score": 0.7488,
+      "score": 0.7443,
+      "importance": 0.7443,
+      "importance_score": 0.7443,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.81,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7453,
+        "recency": 0.7207,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -625,86 +625,6 @@
         "title": "一次失败的（民族国家？）攻击的剖析",
         "url": "https://grack.com/blog/2026/06/25/dissecting-a-failed-nation-state-attack",
         "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_cc2911dc8ae6",
-      "title": "\"Raise Us\"启动：前美商务部长与四州合作筹集10亿美元应对AI就业冲击",
-      "url": "https://the-decoder.com/the-companies-most-likely-to-automate-your-job-are-now-funding-a-1-billion-program-to-retrain-you",
-      "primary_url": "https://the-decoder.com/the-companies-most-likely-to-automate-your-job-are-now-funding-a-1-billion-program-to-retrain-you",
-      "source": "The Decoder：AI News（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "e16b5833bc344fb3836c52dcfca0e89fba3000b8",
-          "title": "\"Raise Us\"启动：前美商务部长与四州合作筹集10亿美元应对AI就业冲击",
-          "url": "https://the-decoder.com/the-companies-most-likely-to-automate-your-job-are-now-funding-a-1-billion-program-to-retrain-you",
-          "source": "The Decoder：AI News（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-27T12:25:21Z"
-        },
-        {
-          "id": "dbfe8cc9a7e16a5a175622e0e4579bed860f5dd8",
-          "title": "\"Raise Us\"启动：前美商务部长与四州合作筹集10亿美元应对AI就业冲击 / The companies most likely to automate your job are now funding a $1 billion program to retrain you",
-          "url": "https://the-decoder.com/the-companies-most-likely-to-automate-your-job-are-now-funding-a-1-billion-program-to-retrain-you",
-          "source": "The Decoder AI News",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-06-27T12:25:21Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "The Decoder AI News",
-        "The Decoder：AI News（RSS）"
-      ],
-      "items": [
-        {
-          "id": "e16b5833bc344fb3836c52dcfca0e89fba3000b8",
-          "title": "\"Raise Us\"启动：前美商务部长与四州合作筹集10亿美元应对AI就业冲击",
-          "url": "https://the-decoder.com/the-companies-most-likely-to-automate-your-job-are-now-funding-a-1-billion-program-to-retrain-you",
-          "source": "The Decoder：AI News（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-27T12:25:21Z"
-        },
-        {
-          "id": "dbfe8cc9a7e16a5a175622e0e4579bed860f5dd8",
-          "title": "\"Raise Us\"启动：前美商务部长与四州合作筹集10亿美元应对AI就业冲击 / The companies most likely to automate your job are now funding a $1 billion program to retrain you",
-          "url": "https://the-decoder.com/the-companies-most-likely-to-automate-your-job-are-now-funding-a-1-billion-program-to-retrain-you",
-          "source": "The Decoder AI News",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-06-27T12:25:21Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7346,
-      "importance": 0.7346,
-      "importance_score": 0.7346,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.7,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7112,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-27T12:25:21Z",
-      "latest_at": "2026-06-27T12:25:21Z",
-      "primary_item": {
-        "id": "e16b5833bc344fb3836c52dcfca0e89fba3000b8",
-        "title": "\"Raise Us\"启动：前美商务部长与四州合作筹集10亿美元应对AI就业冲击",
-        "url": "https://the-decoder.com/the-companies-most-likely-to-automate-your-job-are-now-funding-a-1-billion-program-to-retrain-you",
-        "source": "The Decoder：AI News（RSS）",
         "source_name": "AI HOT"
       }
     },
@@ -818,15 +738,15 @@
       ],
       "item_count": 5,
       "duplicate_count": 5,
-      "score": 0.6096,
-      "importance": 0.6096,
-      "importance_score": 0.6096,
+      "score": 0.604,
+      "importance": 0.604,
+      "importance_score": 0.604,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9375,
+        "recency": 0.9065,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -932,15 +852,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.6044,
-      "importance": 0.6044,
-      "importance_score": 0.6044,
+      "score": 0.5997,
+      "importance": 0.5997,
+      "importance_score": 0.5997,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.54,
         "ai_relevance": 0.65,
-        "recency": 0.7788,
+        "recency": 0.753,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -1030,15 +950,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5566,
-      "importance": 0.5566,
-      "importance_score": 0.5566,
+      "score": 0.5511,
+      "importance": 0.5511,
+      "importance_score": 0.5511,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.921,
+        "recency": 0.8905,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1053,6 +973,164 @@
         "url": "https://www.the-independent.com/tech/ford-ai-automation-human-workers-b3003787.html",
         "source": "www.the-independent.com",
         "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_f215f54cc6f9",
+      "title": "AWS 在中国，等来了 AI 出海",
+      "url": "https://www.huxiu.com/article/4871044.html?f=rss",
+      "primary_url": "https://www.huxiu.com/article/4871044.html?f=rss",
+      "source": "Readhub · AI",
+      "source_name": "TopHub",
+      "sources": [
+        {
+          "id": "ed74acb186b80c2f105d17d26bb5db022d7830f4",
+          "title": "AWS 在中国，等来了 AI 出海",
+          "url": "https://www.huxiu.com/article/4871044.html?f=rss",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        },
+        {
+          "id": "09a55289dc27afb3ef657b89802ac66e838905e3",
+          "title": "AWS在中国，等来了AI出海",
+          "url": "https://www.huxiu.com/article/4871044.html?f=rss",
+          "source": "虎嗅 (Huxiu)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-28T12:45:41Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Readhub · AI",
+        "虎嗅 (Huxiu)"
+      ],
+      "items": [
+        {
+          "id": "ed74acb186b80c2f105d17d26bb5db022d7830f4",
+          "title": "AWS 在中国，等来了 AI 出海",
+          "url": "https://www.huxiu.com/article/4871044.html?f=rss",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        },
+        {
+          "id": "09a55289dc27afb3ef657b89802ac66e838905e3",
+          "title": "AWS在中国，等来了AI出海",
+          "url": "https://www.huxiu.com/article/4871044.html?f=rss",
+          "source": "虎嗅 (Huxiu)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-28T12:45:41Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5458,
+      "importance": 0.5458,
+      "importance_score": 0.5458,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 1.0,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-28T12:45:41Z",
+      "latest_at": "2026-06-28T14:20:51.577116Z",
+      "primary_item": {
+        "id": "ed74acb186b80c2f105d17d26bb5db022d7830f4",
+        "title": "AWS 在中国，等来了 AI 出海",
+        "url": "https://www.huxiu.com/article/4871044.html?f=rss",
+        "source": "Readhub · AI",
+        "source_name": "TopHub"
+      }
+    },
+    {
+      "story_id": "story_7be0be9f8f64",
+      "title": "美国限制准入后，奥地利游说欧盟接纳Anthropic落户 / Austria Lobbies EU to Host Anthropic After US Access Curbs",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-28/austria-lobbies-eu-to-host-anthropic-after-us-access-curbs",
+      "primary_url": "https://www.bloomberg.com/news/articles/2026-06-28/austria-lobbies-eu-to-host-anthropic-after-us-access-curbs",
+      "source": "Hacker News (黑客新闻)",
+      "source_name": "Info Flow",
+      "sources": [
+        {
+          "id": "f3de1d652d10c6c4fe2eee4cc6ba39d4ead4f106",
+          "title": "美国限制准入后，奥地利游说欧盟接纳Anthropic落户 / Austria Lobbies EU to Host Anthropic After US Access Curbs",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-28/austria-lobbies-eu-to-host-anthropic-after-us-access-curbs",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-28T13:34:14Z"
+        },
+        {
+          "id": "a66b5d911ef0092f2dd0c3c3e6b00b7a3a06b2eb",
+          "title": "美国限制准入后，奥地利游说欧盟接纳Anthropic落户",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-28/austria-lobbies-eu-to-host-anthropic-after-us-access-curbs",
+          "source": "www.bloomberg.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-28T12:43:02.818000Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News (黑客新闻)",
+        "www.bloomberg.com"
+      ],
+      "items": [
+        {
+          "id": "f3de1d652d10c6c4fe2eee4cc6ba39d4ead4f106",
+          "title": "美国限制准入后，奥地利游说欧盟接纳Anthropic落户 / Austria Lobbies EU to Host Anthropic After US Access Curbs",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-28/austria-lobbies-eu-to-host-anthropic-after-us-access-curbs",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-28T13:34:14Z"
+        },
+        {
+          "id": "a66b5d911ef0092f2dd0c3c3e6b00b7a3a06b2eb",
+          "title": "美国限制准入后，奥地利游说欧盟接纳Anthropic落户",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-28/austria-lobbies-eu-to-host-anthropic-after-us-access-curbs",
+          "source": "www.bloomberg.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-28T12:43:02.818000Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5438,
+      "importance": 0.5438,
+      "importance_score": 0.5438,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9888,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-28T12:43:02.818000Z",
+      "latest_at": "2026-06-28T13:34:14Z",
+      "primary_item": {
+        "id": "f3de1d652d10c6c4fe2eee4cc6ba39d4ead4f106",
+        "title": "美国限制准入后，奥地利游说欧盟接纳Anthropic落户 / Austria Lobbies EU to Host Anthropic After US Access Curbs",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-28/austria-lobbies-eu-to-host-anthropic-after-us-access-curbs",
+        "source": "Hacker News (黑客新闻)",
+        "source_name": "Info Flow"
       }
     },
     {
@@ -1109,15 +1187,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5448,
-      "importance": 0.5448,
-      "importance_score": 0.5448,
+      "score": 0.5389,
+      "importance": 0.5389,
+      "importance_score": 0.5389,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9947,
+        "recency": 0.9618,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1131,183 +1209,6 @@
         "title": "我在谷歌工作一年赚了近100万美元后离职了。对裁员的担忧以及担心错过人工智能热潮，促使我做出了这个决定。",
         "url": "https://www.businessinsider.com/google-employee-made-one-million-explains-why-left-big-tech2026-6",
         "source": "www.businessinsider.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_47532e57b2ca",
-      "title": "Dwarkesh Patel：下一代 AI，可能是干活干出来的",
-      "url": "https://news.qq.com/rain/a/20260628A06CVF00",
-      "primary_url": "https://news.qq.com/rain/a/20260628A06CVF00",
-      "source": "Readhub · AI",
-      "source_name": "TopHub",
-      "sources": [
-        {
-          "id": "d465691253dc373e9cc53202daace270e478afec",
-          "title": "Dwarkesh Patel：下一代 AI，可能是干活干出来的",
-          "url": "https://news.qq.com/rain/a/20260628A06CVF00",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        },
-        {
-          "id": "6a4c655a2b137e7ec843325929174d80af8d4795",
-          "title": "Dwarkesh Patel：下一代AI，可能是干活干出来的",
-          "url": "https://www.huxiu.com/article/4871020.html?f=rss",
-          "source": "虎嗅 (Huxiu)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-28T10:09:35Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Readhub · AI",
-        "虎嗅 (Huxiu)"
-      ],
-      "items": [
-        {
-          "id": "d465691253dc373e9cc53202daace270e478afec",
-          "title": "Dwarkesh Patel：下一代 AI，可能是干活干出来的",
-          "url": "https://news.qq.com/rain/a/20260628A06CVF00",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        },
-        {
-          "id": "6a4c655a2b137e7ec843325929174d80af8d4795",
-          "title": "Dwarkesh Patel：下一代AI，可能是干活干出来的",
-          "url": "https://www.huxiu.com/article/4871020.html?f=rss",
-          "source": "虎嗅 (Huxiu)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-28T10:09:35Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5416,
-      "importance": 0.5416,
-      "importance_score": 0.5416,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9765,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-28T10:09:35Z",
-      "latest_at": "2026-06-28T10:22:08.793201Z",
-      "primary_item": {
-        "id": "d465691253dc373e9cc53202daace270e478afec",
-        "title": "Dwarkesh Patel：下一代 AI，可能是干活干出来的",
-        "url": "https://news.qq.com/rain/a/20260628A06CVF00",
-        "source": "Readhub · AI",
-        "source_name": "TopHub"
-      }
-    },
-    {
-      "story_id": "story_84e0d65e5b7f",
-      "title": "亚洲人工智能初创企业推出类似Mythos的模型",
-      "url": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on",
-      "primary_url": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on",
-      "source": "techcrunch.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "b26206afe1b583847b1ea18a5794848ac9e9ab8b",
-          "title": "亚洲人工智能初创企业推出类似Mythos的模型",
-          "url": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on",
-          "source": "techcrunch.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-27T23:23:10.059000Z"
-        },
-        {
-          "id": "994bd7eb8abfa7af57b78f1f22a884ba805a401e",
-          "title": "亚洲人工智能初创公司推出类似神话的模型 / Asian AI startups launch Mythos-like models",
-          "url": "https://news.ycombinator.com/item?id=48697958",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-27T14:08:16.346000Z"
-        },
-        {
-          "id": "f7378cf11663c2d8781d9aa1109001a0ba153fbd",
-          "title": "亚洲人工智能初创企业推出类似Mythos的模型 / Asian AI startups launch Mythos-like models",
-          "url": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-27T13:10:21Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Hacker News",
-        "hackernews",
-        "techcrunch.com"
-      ],
-      "items": [
-        {
-          "id": "b26206afe1b583847b1ea18a5794848ac9e9ab8b",
-          "title": "亚洲人工智能初创企业推出类似Mythos的模型",
-          "url": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on",
-          "source": "techcrunch.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-27T23:23:10.059000Z"
-        },
-        {
-          "id": "994bd7eb8abfa7af57b78f1f22a884ba805a401e",
-          "title": "亚洲人工智能初创公司推出类似神话的模型 / Asian AI startups launch Mythos-like models",
-          "url": "https://news.ycombinator.com/item?id=48697958",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-27T14:08:16.346000Z"
-        },
-        {
-          "id": "f7378cf11663c2d8781d9aa1109001a0ba153fbd",
-          "title": "亚洲人工智能初创企业推出类似Mythos的模型 / Asian AI startups launch Mythos-like models",
-          "url": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-27T13:10:21Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.5408,
-      "importance": 0.5408,
-      "importance_score": 0.5408,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8333,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-27T13:10:21Z",
-      "latest_at": "2026-06-27T23:23:10.059000Z",
-      "primary_item": {
-        "id": "b26206afe1b583847b1ea18a5794848ac9e9ab8b",
-        "title": "亚洲人工智能初创企业推出类似Mythos的模型",
-        "url": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on",
-        "source": "techcrunch.com",
         "source_name": "Buzzing"
       }
     },
@@ -1365,15 +1266,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5407,
-      "importance": 0.5407,
-      "importance_score": 0.5407,
+      "score": 0.535,
+      "importance": 0.535,
+      "importance_score": 0.535,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9719,
+        "recency": 0.9398,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1443,15 +1344,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5256,
-      "importance": 0.5256,
-      "importance_score": 0.5256,
+      "score": 0.5203,
+      "importance": 0.5203,
+      "importance_score": 0.5203,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8876,
+        "recency": 0.8582,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1466,85 +1367,6 @@
         "url": "https://www.v2ex.com/t/1223411",
         "source": "V2EX (创意工作者社区)",
         "source_name": "Info Flow"
-      }
-    },
-    {
-      "story_id": "story_351da59b3f4b",
-      "title": "独家消息：Anthropic的强力模型“Fable 5”有望很快回归 / Powerful Anthropic model, Fable 5, on track to return soon",
-      "url": "https://www.axios.com/2026/06/27/anthropic-fable-5-return-soon",
-      "primary_url": "https://www.axios.com/2026/06/27/anthropic-fable-5-return-soon",
-      "source": "HN Algolia · AI 24h",
-      "source_name": "Hacker News",
-      "sources": [
-        {
-          "id": "67d31996ac8beb3b65e935ff10da002f4f124eae",
-          "title": "独家消息：Anthropic的强力模型“Fable 5”有望很快回归 / Powerful Anthropic model, Fable 5, on track to return soon",
-          "url": "https://www.axios.com/2026/06/27/anthropic-fable-5-return-soon",
-          "source": "HN Algolia · AI 24h",
-          "source_name": "Hacker News",
-          "site_id": "hackernews",
-          "published_at": "2026-06-28T02:37:13Z"
-        },
-        {
-          "id": "8dcd2b192ba465394035cd76e1f91191a91d16ca",
-          "title": "独家消息：Anthropic的强力模型“Fable 5”有望很快回归",
-          "url": "https://www.axios.com/2026/06/27/anthropic-fable-5-return-soon",
-          "source": "www.axios.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-27T12:59:49.311000Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "HN Algolia · AI 24h",
-        "www.axios.com"
-      ],
-      "items": [
-        {
-          "id": "67d31996ac8beb3b65e935ff10da002f4f124eae",
-          "title": "独家消息：Anthropic的强力模型“Fable 5”有望很快回归 / Powerful Anthropic model, Fable 5, on track to return soon",
-          "url": "https://www.axios.com/2026/06/27/anthropic-fable-5-return-soon",
-          "source": "HN Algolia · AI 24h",
-          "source_name": "Hacker News",
-          "site_id": "hackernews",
-          "published_at": "2026-06-28T02:37:13Z"
-        },
-        {
-          "id": "8dcd2b192ba465394035cd76e1f91191a91d16ca",
-          "title": "独家消息：Anthropic的强力模型“Fable 5”有望很快回归",
-          "url": "https://www.axios.com/2026/06/27/anthropic-fable-5-return-soon",
-          "source": "www.axios.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-27T12:59:49.311000Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.523,
-      "importance": 0.523,
-      "importance_score": 0.523,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8731,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-27T12:59:49.311000Z",
-      "latest_at": "2026-06-28T02:37:13Z",
-      "primary_item": {
-        "id": "67d31996ac8beb3b65e935ff10da002f4f124eae",
-        "title": "独家消息：Anthropic的强力模型“Fable 5”有望很快回归 / Powerful Anthropic model, Fable 5, on track to return soon",
-        "url": "https://www.axios.com/2026/06/27/anthropic-fable-5-return-soon",
-        "source": "HN Algolia · AI 24h",
-        "source_name": "Hacker News"
       }
     },
     {
@@ -1600,15 +1422,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5214,
-      "importance": 0.5214,
-      "importance_score": 0.5214,
+      "score": 0.5162,
+      "importance": 0.5162,
+      "importance_score": 0.5162,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8643,
+        "recency": 0.8357,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1623,6 +1445,164 @@
         "url": "https://www.thedrive.com/news/feds-killed-polestar-and-spared-volvo-that-should-terrify-you",
         "source": "Hacker News · 24h最热",
         "source_name": "Zeli"
+      }
+    },
+    {
+      "story_id": "story_a4678d0012e4",
+      "title": "这场与中国人无关的美国抗议运动，却在影响你持有的 AI 算力股",
+      "url": "https://www.huxiu.com/article/4871045.html?f=rss",
+      "primary_url": "https://www.huxiu.com/article/4871045.html?f=rss",
+      "source": "Readhub · AI",
+      "source_name": "TopHub",
+      "sources": [
+        {
+          "id": "7fde5843c16415b7b3671b72c5704aa09d4b6b35",
+          "title": "这场与中国人无关的美国抗议运动，却在影响你持有的 AI 算力股",
+          "url": "https://www.huxiu.com/article/4871045.html?f=rss",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        },
+        {
+          "id": "2c34185123b0d827c397cb126f8ef4a67e8e2cb0",
+          "title": "这场与中国人无关的美国抗议运动，却在影响你持有的AI算力股",
+          "url": "https://www.huxiu.com/article/4871045.html?f=rss",
+          "source": "虎嗅 (Huxiu)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-28T12:36:29Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Readhub · AI",
+        "虎嗅 (Huxiu)"
+      ],
+      "items": [
+        {
+          "id": "7fde5843c16415b7b3671b72c5704aa09d4b6b35",
+          "title": "这场与中国人无关的美国抗议运动，却在影响你持有的 AI 算力股",
+          "url": "https://www.huxiu.com/article/4871045.html?f=rss",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        },
+        {
+          "id": "2c34185123b0d827c397cb126f8ef4a67e8e2cb0",
+          "title": "这场与中国人无关的美国抗议运动，却在影响你持有的AI算力股",
+          "url": "https://www.huxiu.com/article/4871045.html?f=rss",
+          "source": "虎嗅 (Huxiu)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-28T12:36:29Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5458,
+      "importance": 0.5458,
+      "importance_score": 0.5458,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 1.0,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-28T12:36:29Z",
+      "latest_at": "2026-06-28T14:20:51.577116Z",
+      "primary_item": {
+        "id": "7fde5843c16415b7b3671b72c5704aa09d4b6b35",
+        "title": "这场与中国人无关的美国抗议运动，却在影响你持有的 AI 算力股",
+        "url": "https://www.huxiu.com/article/4871045.html?f=rss",
+        "source": "Readhub · AI",
+        "source_name": "TopHub"
+      }
+    },
+    {
+      "story_id": "story_6154952d1295",
+      "title": "OpenAI Codex 仍存在排除敏感文件问题的方法 / A way to exclude sensitive files issue still open for OpenAI Codex",
+      "url": "https://news.ycombinator.com/item?id=48706714",
+      "primary_url": "https://news.ycombinator.com/item?id=48706714",
+      "source": "hackernews",
+      "source_name": "NewsNow",
+      "sources": [
+        {
+          "id": "a33d4e7ded46a4b3a8bfd35915cba515ea3312a6",
+          "title": "OpenAI Codex 仍存在排除敏感文件问题的方法 / A way to exclude sensitive files issue still open for OpenAI Codex",
+          "url": "https://news.ycombinator.com/item?id=48706714",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-28T13:58:08.621000Z"
+        },
+        {
+          "id": "f98494544ce1b577bc5333a1a7a585c7bc0bd932",
+          "title": "OpenAI Codex 仍存在排除敏感文件问题的方法 / A way to exclude sensitive files issue still open for OpenAI Codex",
+          "url": "https://github.com/openai/codex/issues/2847",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-28T12:27:33Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News · 24h最热",
+        "hackernews"
+      ],
+      "items": [
+        {
+          "id": "a33d4e7ded46a4b3a8bfd35915cba515ea3312a6",
+          "title": "OpenAI Codex 仍存在排除敏感文件问题的方法 / A way to exclude sensitive files issue still open for OpenAI Codex",
+          "url": "https://news.ycombinator.com/item?id=48706714",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-28T13:58:08.621000Z"
+        },
+        {
+          "id": "f98494544ce1b577bc5333a1a7a585c7bc0bd932",
+          "title": "OpenAI Codex 仍存在排除敏感文件问题的方法 / A way to exclude sensitive files issue still open for OpenAI Codex",
+          "url": "https://github.com/openai/codex/issues/2847",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-28T12:27:33Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5448,
+      "importance": 0.5448,
+      "importance_score": 0.5448,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9945,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-28T12:27:33Z",
+      "latest_at": "2026-06-28T13:58:08.621000Z",
+      "primary_item": {
+        "id": "a33d4e7ded46a4b3a8bfd35915cba515ea3312a6",
+        "title": "OpenAI Codex 仍存在排除敏感文件问题的方法 / A way to exclude sensitive files issue still open for OpenAI Codex",
+        "url": "https://news.ycombinator.com/item?id=48706714",
+        "source": "hackernews",
+        "source_name": "NewsNow"
       }
     }
   ]
