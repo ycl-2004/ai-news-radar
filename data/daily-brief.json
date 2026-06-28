@@ -1,8 +1,89 @@
 {
-  "generated_at": "2026-06-28T10:22:08.793201Z",
+  "generated_at": "2026-06-28T12:01:06.969252Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
+    {
+      "story_id": "story_b0474715455b",
+      "title": "仅有三个AI模型在500天创业测试中盈利超过起始资本",
+      "url": "https://the-decoder.com/only-three-ai-models-finished-above-starting-capital-in-a-500-day-startup-survival-test",
+      "primary_url": "https://the-decoder.com/only-three-ai-models-finished-above-starting-capital-in-a-500-day-startup-survival-test",
+      "source": "The Decoder：AI News（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "d77f094d423100fbc549a393a846b0f9f74929a5",
+          "title": "仅有三个AI模型在500天创业测试中盈利超过起始资本",
+          "url": "https://the-decoder.com/only-three-ai-models-finished-above-starting-capital-in-a-500-day-startup-survival-test",
+          "source": "The Decoder：AI News（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-28T10:16:13Z"
+        },
+        {
+          "id": "2203a966c4d47eebfd00d3bdbf4aca91f7fe0ff8",
+          "title": "仅有三个AI模型在500天创业测试中盈利超过起始资本 / Only three AI models finished above starting capital in a 500-day startup survival test",
+          "url": "https://the-decoder.com/only-three-ai-models-finished-above-starting-capital-in-a-500-day-startup-survival-test",
+          "source": "The Decoder AI News",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-06-28T10:16:13Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "The Decoder AI News",
+        "The Decoder：AI News（RSS）"
+      ],
+      "items": [
+        {
+          "id": "d77f094d423100fbc549a393a846b0f9f74929a5",
+          "title": "仅有三个AI模型在500天创业测试中盈利超过起始资本",
+          "url": "https://the-decoder.com/only-three-ai-models-finished-above-starting-capital-in-a-500-day-startup-survival-test",
+          "source": "The Decoder：AI News（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-28T10:16:13Z"
+        },
+        {
+          "id": "2203a966c4d47eebfd00d3bdbf4aca91f7fe0ff8",
+          "title": "仅有三个AI模型在500天创业测试中盈利超过起始资本 / Only three AI models finished above starting capital in a 500-day startup survival test",
+          "url": "https://the-decoder.com/only-three-ai-models-finished-above-starting-capital-in-a-500-day-startup-survival-test",
+          "source": "The Decoder AI News",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-06-28T10:16:13Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7821,
+      "importance": 0.7821,
+      "importance_score": 0.7821,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.7,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9751,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-28T10:16:13Z",
+      "latest_at": "2026-06-28T10:16:13Z",
+      "primary_item": {
+        "id": "d77f094d423100fbc549a393a846b0f9f74929a5",
+        "title": "仅有三个AI模型在500天创业测试中盈利超过起始资本",
+        "url": "https://the-decoder.com/only-three-ai-models-finished-above-starting-capital-in-a-500-day-startup-survival-test",
+        "source": "The Decoder：AI News（RSS）",
+        "source_name": "AI HOT"
+      }
+    },
     {
       "story_id": "story_b7e01618c76a",
       "title": "四大顶级AI对决《文明VI》：Claude核平法国仍输，暴露感知与执行短板",
@@ -57,15 +138,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7859,
-      "importance": 0.7859,
-      "importance_score": 0.7859,
+      "score": 0.7821,
+      "importance": 0.7821,
+      "importance_score": 0.7821,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.76,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8959,
+        "recency": 0.8748,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -81,87 +162,6 @@
         "title": "四大顶级AI对决《文明VI》：Claude核平法国仍输，暴露感知与执行短板",
         "url": "https://www.ithome.com/0/969/570.htm",
         "source": "IT之家（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_7fc17092690c",
-      "title": "新浪开源VibeThinker-3B：推理可压缩，事实知识不能",
-      "url": "https://the-decoder.com/sinas-open-model-vibethinker-3b-aims-to-show-reasoning-compresses-well-but-factual-knowledge-doesnt",
-      "primary_url": "https://the-decoder.com/sinas-open-model-vibethinker-3b-aims-to-show-reasoning-compresses-well-but-factual-knowledge-doesnt",
-      "source": "The Decoder：AI News（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "9ed204705387fe21ff798e975008b74ef9a14557",
-          "title": "新浪开源VibeThinker-3B：推理可压缩，事实知识不能",
-          "url": "https://the-decoder.com/sinas-open-model-vibethinker-3b-aims-to-show-reasoning-compresses-well-but-factual-knowledge-doesnt",
-          "source": "The Decoder：AI News（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-28T07:44:41Z"
-        },
-        {
-          "id": "c5e727c8a2b66b0f35a851acb9f613a055e0c0e0",
-          "title": "新浪开源VibeThinker-3B：推理可压缩，事实知识不能 / Sina's open model VibeThinker-3B aims to show reasoning compresses well but factual knowledge doesn't",
-          "url": "https://the-decoder.com/sinas-open-model-vibethinker-3b-aims-to-show-reasoning-compresses-well-but-factual-knowledge-doesnt",
-          "source": "The Decoder AI News",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-06-28T07:44:41Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "The Decoder AI News",
-        "The Decoder：AI News（RSS）"
-      ],
-      "items": [
-        {
-          "id": "9ed204705387fe21ff798e975008b74ef9a14557",
-          "title": "新浪开源VibeThinker-3B：推理可压缩，事实知识不能",
-          "url": "https://the-decoder.com/sinas-open-model-vibethinker-3b-aims-to-show-reasoning-compresses-well-but-factual-knowledge-doesnt",
-          "source": "The Decoder：AI News（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-28T07:44:41Z"
-        },
-        {
-          "id": "c5e727c8a2b66b0f35a851acb9f613a055e0c0e0",
-          "title": "新浪开源VibeThinker-3B：推理可压缩，事实知识不能 / Sina's open model VibeThinker-3B aims to show reasoning compresses well but factual knowledge doesn't",
-          "url": "https://the-decoder.com/sinas-open-model-vibethinker-3b-aims-to-show-reasoning-compresses-well-but-factual-knowledge-doesnt",
-          "source": "The Decoder AI News",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-06-28T07:44:41Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7799,
-      "importance": 0.7799,
-      "importance_score": 0.7799,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.7,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9628,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-28T07:44:41Z",
-      "latest_at": "2026-06-28T07:44:41Z",
-      "primary_item": {
-        "id": "9ed204705387fe21ff798e975008b74ef9a14557",
-        "title": "新浪开源VibeThinker-3B：推理可压缩，事实知识不能",
-        "url": "https://the-decoder.com/sinas-open-model-vibethinker-3b-aims-to-show-reasoning-compresses-well-but-factual-knowledge-doesnt",
-        "source": "The Decoder：AI News（RSS）",
         "source_name": "AI HOT"
       }
     },
@@ -219,15 +219,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7766,
-      "importance": 0.7766,
-      "importance_score": 0.7766,
+      "score": 0.7727,
+      "importance": 0.7727,
+      "importance_score": 0.7727,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9111,
+        "recency": 0.8896,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -243,6 +243,148 @@
         "title": "阿德拉菲尼尔：仅在AI agent工作时阻止Mac睡眠的菜单栏工具",
         "url": "https://github.com/kageroumado/adrafinil",
         "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_b75022688aa0",
+      "title": "Grok 4.5 私测于 SpaceX 和 Tesla，性能接近 Opus",
+      "url": "https://x.com/elonmusk/status/2071184354756477041",
+      "primary_url": "https://x.com/elonmusk/status/2071184354756477041",
+      "source": "X：Elon Musk (@elonmusk, xAI)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "72f4093c3e9060c9268bee4229404e4bc1d8d63c",
+          "title": "Grok 4.5 私测于 SpaceX 和 Tesla，性能接近 Opus",
+          "url": "https://x.com/elonmusk/status/2071184354756477041",
+          "source": "X：Elon Musk (@elonmusk, xAI)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-28T10:50:05Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "X：Elon Musk (@elonmusk, xAI)"
+      ],
+      "items": [
+        {
+          "id": "72f4093c3e9060c9268bee4229404e4bc1d8d63c",
+          "title": "Grok 4.5 私测于 SpaceX 和 Tesla，性能接近 Opus",
+          "url": "https://x.com/elonmusk/status/2071184354756477041",
+          "source": "X：Elon Musk (@elonmusk, xAI)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-28T10:50:05Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7585,
+      "importance": 0.7585,
+      "importance_score": 0.7585,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.7,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.983,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-28T10:50:05Z",
+      "latest_at": "2026-06-28T10:50:05Z",
+      "primary_item": {
+        "id": "72f4093c3e9060c9268bee4229404e4bc1d8d63c",
+        "title": "Grok 4.5 私测于 SpaceX 和 Tesla，性能接近 Opus",
+        "url": "https://x.com/elonmusk/status/2071184354756477041",
+        "source": "X：Elon Musk (@elonmusk, xAI)",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_7fc17092690c",
+      "title": "新浪开源VibeThinker-3B：推理可压缩，事实知识不能",
+      "url": "https://the-decoder.com/sinas-open-model-vibethinker-3b-aims-to-show-reasoning-compresses-well-but-factual-knowledge-doesnt",
+      "primary_url": "https://the-decoder.com/sinas-open-model-vibethinker-3b-aims-to-show-reasoning-compresses-well-but-factual-knowledge-doesnt",
+      "source": "The Decoder：AI News（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "9ed204705387fe21ff798e975008b74ef9a14557",
+          "title": "新浪开源VibeThinker-3B：推理可压缩，事实知识不能",
+          "url": "https://the-decoder.com/sinas-open-model-vibethinker-3b-aims-to-show-reasoning-compresses-well-but-factual-knowledge-doesnt",
+          "source": "The Decoder：AI News（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-28T07:44:41Z"
+        },
+        {
+          "id": "c5e727c8a2b66b0f35a851acb9f613a055e0c0e0",
+          "title": "新浪开源VibeThinker-3B：推理可压缩，事实知识不能 / Sina's open model VibeThinker-3B aims to show reasoning compresses well but factual knowledge doesn't",
+          "url": "https://the-decoder.com/sinas-open-model-vibethinker-3b-aims-to-show-reasoning-compresses-well-but-factual-knowledge-doesnt",
+          "source": "The Decoder AI News",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-06-28T07:44:41Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "The Decoder AI News",
+        "The Decoder：AI News（RSS）"
+      ],
+      "items": [
+        {
+          "id": "9ed204705387fe21ff798e975008b74ef9a14557",
+          "title": "新浪开源VibeThinker-3B：推理可压缩，事实知识不能",
+          "url": "https://the-decoder.com/sinas-open-model-vibethinker-3b-aims-to-show-reasoning-compresses-well-but-factual-knowledge-doesnt",
+          "source": "The Decoder：AI News（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-28T07:44:41Z"
+        },
+        {
+          "id": "c5e727c8a2b66b0f35a851acb9f613a055e0c0e0",
+          "title": "新浪开源VibeThinker-3B：推理可压缩，事实知识不能 / Sina's open model VibeThinker-3B aims to show reasoning compresses well but factual knowledge doesn't",
+          "url": "https://the-decoder.com/sinas-open-model-vibethinker-3b-aims-to-show-reasoning-compresses-well-but-factual-knowledge-doesnt",
+          "source": "The Decoder AI News",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-06-28T07:44:41Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7758,
+      "importance": 0.7758,
+      "importance_score": 0.7758,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.7,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9401,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-28T07:44:41Z",
+      "latest_at": "2026-06-28T07:44:41Z",
+      "primary_item": {
+        "id": "9ed204705387fe21ff798e975008b74ef9a14557",
+        "title": "新浪开源VibeThinker-3B：推理可压缩，事实知识不能",
+        "url": "https://the-decoder.com/sinas-open-model-vibethinker-3b-aims-to-show-reasoning-compresses-well-but-factual-knowledge-doesnt",
+        "source": "The Decoder：AI News（RSS）",
         "source_name": "AI HOT"
       }
     },
@@ -281,15 +423,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7487,
-      "importance": 0.7487,
-      "importance_score": 0.7487,
+      "score": 0.7454,
+      "importance": 0.7454,
+      "importance_score": 0.7454,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.79,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7782,
+        "recency": 0.7598,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -341,15 +483,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7477,
-      "importance": 0.7477,
-      "importance_score": 0.7477,
+      "score": 0.7442,
+      "importance": 0.7442,
+      "importance_score": 0.7442,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.76,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8227,
+        "recency": 0.8034,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -401,15 +543,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7399,
-      "importance": 0.7399,
-      "importance_score": 0.7399,
+      "score": 0.7366,
+      "importance": 0.7366,
+      "importance_score": 0.7366,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.76,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7792,
+        "recency": 0.7609,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -461,21 +603,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.752,
-      "importance": 0.752,
-      "importance_score": 0.752,
+      "score": 0.7488,
+      "importance": 0.7488,
+      "importance_score": 0.7488,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.81,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7633,
+        "recency": 0.7453,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-06-27T15:39:53.429000Z",
       "latest_at": "2026-06-27T15:39:53.429000Z",
@@ -541,15 +682,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7377,
-      "importance": 0.7377,
-      "importance_score": 0.7377,
+      "score": 0.7346,
+      "importance": 0.7346,
+      "importance_score": 0.7346,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7284,
+        "recency": 0.7112,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -565,104 +706,6 @@
         "url": "https://the-decoder.com/the-companies-most-likely-to-automate-your-job-are-now-funding-a-1-billion-program-to-retrain-you",
         "source": "The Decoder：AI News（RSS）",
         "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_84e0d65e5b7f",
-      "title": "亚洲人工智能初创企业推出类似Mythos的模型 / Asian AI startups launch Mythos-like  models as Anthropic’s export ban drags on",
-      "url": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on",
-      "primary_url": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on",
-      "source": "TechCrunch AI",
-      "source_name": "Curated Media",
-      "sources": [
-        {
-          "id": "18ca221c24f4348f3f0d97ec0793954e1f11d8e3",
-          "title": "亚洲人工智能初创企业推出类似Mythos的模型 / Asian AI startups launch Mythos-like  models as Anthropic’s export ban drags on",
-          "url": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on",
-          "source": "TechCrunch AI",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-06-27T12:00:00Z"
-        },
-        {
-          "id": "b26206afe1b583847b1ea18a5794848ac9e9ab8b",
-          "title": "亚洲人工智能初创企业推出类似Mythos的模型",
-          "url": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on",
-          "source": "techcrunch.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-27T23:23:10.059000Z"
-        },
-        {
-          "id": "f7378cf11663c2d8781d9aa1109001a0ba153fbd",
-          "title": "亚洲人工智能初创企业推出类似Mythos的模型 / Asian AI startups launch Mythos-like models",
-          "url": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-27T13:10:21Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Hacker News",
-        "TechCrunch AI",
-        "techcrunch.com"
-      ],
-      "items": [
-        {
-          "id": "18ca221c24f4348f3f0d97ec0793954e1f11d8e3",
-          "title": "亚洲人工智能初创企业推出类似Mythos的模型 / Asian AI startups launch Mythos-like  models as Anthropic’s export ban drags on",
-          "url": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on",
-          "source": "TechCrunch AI",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-06-27T12:00:00Z"
-        },
-        {
-          "id": "b26206afe1b583847b1ea18a5794848ac9e9ab8b",
-          "title": "亚洲人工智能初创企业推出类似Mythos的模型",
-          "url": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on",
-          "source": "techcrunch.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-27T23:23:10.059000Z"
-        },
-        {
-          "id": "f7378cf11663c2d8781d9aa1109001a0ba153fbd",
-          "title": "亚洲人工智能初创企业推出类似Mythos的模型 / Asian AI startups launch Mythos-like models",
-          "url": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-27T13:10:21Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.6366,
-      "importance": 0.6366,
-      "importance_score": 0.6366,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.5688,
-        "source_tier": 0.58,
-        "ai_relevance": 0.79,
-        "recency": 0.724,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-27T12:00:00Z",
-      "latest_at": "2026-06-27T23:23:10.059000Z",
-      "primary_item": {
-        "id": "18ca221c24f4348f3f0d97ec0793954e1f11d8e3",
-        "title": "亚洲人工智能初创企业推出类似Mythos的模型 / Asian AI startups launch Mythos-like  models as Anthropic’s export ban drags on",
-        "url": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on",
-        "source": "TechCrunch AI",
-        "source_name": "Curated Media"
       }
     },
     {
@@ -775,15 +818,15 @@
       ],
       "item_count": 5,
       "duplicate_count": 5,
-      "score": 0.6136,
-      "importance": 0.6136,
-      "importance_score": 0.6136,
+      "score": 0.6096,
+      "importance": 0.6096,
+      "importance_score": 0.6096,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9601,
+        "recency": 0.9375,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -889,15 +932,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.6078,
-      "importance": 0.6078,
-      "importance_score": 0.6078,
+      "score": 0.6044,
+      "importance": 0.6044,
+      "importance_score": 0.6044,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.54,
         "ai_relevance": 0.65,
-        "recency": 0.7976,
+        "recency": 0.7788,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -987,15 +1030,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5606,
-      "importance": 0.5606,
-      "importance_score": 0.5606,
+      "score": 0.5566,
+      "importance": 0.5566,
+      "importance_score": 0.5566,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9432,
+        "recency": 0.921,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1009,6 +1052,85 @@
         "title": "福特公司雇佣了人工智能，解雇了人类员工。结果适得其反。",
         "url": "https://www.the-independent.com/tech/ford-ai-automation-human-workers-b3003787.html",
         "source": "www.the-independent.com",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_2d1c4bbb7305",
+      "title": "我在谷歌工作一年赚了近100万美元后离职了。对裁员的担忧以及担心错过人工智能热潮，促使我做出了这个决定。",
+      "url": "https://www.businessinsider.com/google-employee-made-one-million-explains-why-left-big-tech2026-6",
+      "primary_url": "https://www.businessinsider.com/google-employee-made-one-million-explains-why-left-big-tech2026-6",
+      "source": "www.businessinsider.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "d39af94e37461f11bb2515c4e62d3bce99dff17d",
+          "title": "我在谷歌工作一年赚了近100万美元后离职了。对裁员的担忧以及担心错过人工智能热潮，促使我做出了这个决定。",
+          "url": "https://www.businessinsider.com/google-employee-made-one-million-explains-why-left-big-tech2026-6",
+          "source": "www.businessinsider.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-28T11:39:05.500000Z"
+        },
+        {
+          "id": "54b9121a1757e10a1a058dac0971a043a7a63d00",
+          "title": "我在谷歌工作一年赚了近100万美元后离职了。对裁员的担忧以及担心错过人工智能热潮，促使我做出了这个决定。 / I left Google after making nearly $1M in a year. Fears about layoffs and missing out on the AI boom gave me the push.",
+          "url": "https://www.businessinsider.com/google-employee-made-one-million-explains-why-left-big-tech2026-6",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-28T11:15:56Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Business Insider",
+        "www.businessinsider.com"
+      ],
+      "items": [
+        {
+          "id": "d39af94e37461f11bb2515c4e62d3bce99dff17d",
+          "title": "我在谷歌工作一年赚了近100万美元后离职了。对裁员的担忧以及担心错过人工智能热潮，促使我做出了这个决定。",
+          "url": "https://www.businessinsider.com/google-employee-made-one-million-explains-why-left-big-tech2026-6",
+          "source": "www.businessinsider.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-28T11:39:05.500000Z"
+        },
+        {
+          "id": "54b9121a1757e10a1a058dac0971a043a7a63d00",
+          "title": "我在谷歌工作一年赚了近100万美元后离职了。对裁员的担忧以及担心错过人工智能热潮，促使我做出了这个决定。 / I left Google after making nearly $1M in a year. Fears about layoffs and missing out on the AI boom gave me the push.",
+          "url": "https://www.businessinsider.com/google-employee-made-one-million-explains-why-left-big-tech2026-6",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-28T11:15:56Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5448,
+      "importance": 0.5448,
+      "importance_score": 0.5448,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9947,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-28T11:15:56Z",
+      "latest_at": "2026-06-28T11:39:05.500000Z",
+      "primary_item": {
+        "id": "d39af94e37461f11bb2515c4e62d3bce99dff17d",
+        "title": "我在谷歌工作一年赚了近100万美元后离职了。对裁员的担忧以及担心错过人工智能热潮，促使我做出了这个决定。",
+        "url": "https://www.businessinsider.com/google-employee-made-one-million-explains-why-left-big-tech2026-6",
+        "source": "www.businessinsider.com",
         "source_name": "Buzzing"
       }
     },
@@ -1066,15 +1188,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5458,
-      "importance": 0.5458,
-      "importance_score": 0.5458,
+      "score": 0.5416,
+      "importance": 0.5416,
+      "importance_score": 0.5416,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 1.0,
+        "recency": 0.9765,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1089,6 +1211,104 @@
         "url": "https://news.qq.com/rain/a/20260628A06CVF00",
         "source": "Readhub · AI",
         "source_name": "TopHub"
+      }
+    },
+    {
+      "story_id": "story_84e0d65e5b7f",
+      "title": "亚洲人工智能初创企业推出类似Mythos的模型",
+      "url": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on",
+      "primary_url": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on",
+      "source": "techcrunch.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "b26206afe1b583847b1ea18a5794848ac9e9ab8b",
+          "title": "亚洲人工智能初创企业推出类似Mythos的模型",
+          "url": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on",
+          "source": "techcrunch.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-27T23:23:10.059000Z"
+        },
+        {
+          "id": "994bd7eb8abfa7af57b78f1f22a884ba805a401e",
+          "title": "亚洲人工智能初创公司推出类似神话的模型 / Asian AI startups launch Mythos-like models",
+          "url": "https://news.ycombinator.com/item?id=48697958",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-27T14:08:16.346000Z"
+        },
+        {
+          "id": "f7378cf11663c2d8781d9aa1109001a0ba153fbd",
+          "title": "亚洲人工智能初创企业推出类似Mythos的模型 / Asian AI startups launch Mythos-like models",
+          "url": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-27T13:10:21Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "Hacker News",
+        "hackernews",
+        "techcrunch.com"
+      ],
+      "items": [
+        {
+          "id": "b26206afe1b583847b1ea18a5794848ac9e9ab8b",
+          "title": "亚洲人工智能初创企业推出类似Mythos的模型",
+          "url": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on",
+          "source": "techcrunch.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-27T23:23:10.059000Z"
+        },
+        {
+          "id": "994bd7eb8abfa7af57b78f1f22a884ba805a401e",
+          "title": "亚洲人工智能初创公司推出类似神话的模型 / Asian AI startups launch Mythos-like models",
+          "url": "https://news.ycombinator.com/item?id=48697958",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-27T14:08:16.346000Z"
+        },
+        {
+          "id": "f7378cf11663c2d8781d9aa1109001a0ba153fbd",
+          "title": "亚洲人工智能初创企业推出类似Mythos的模型 / Asian AI startups launch Mythos-like models",
+          "url": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-27T13:10:21Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.5408,
+      "importance": 0.5408,
+      "importance_score": 0.5408,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.8333,
+        "story_heat": 0.5
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-27T13:10:21Z",
+      "latest_at": "2026-06-27T23:23:10.059000Z",
+      "primary_item": {
+        "id": "b26206afe1b583847b1ea18a5794848ac9e9ab8b",
+        "title": "亚洲人工智能初创企业推出类似Mythos的模型",
+        "url": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on",
+        "source": "techcrunch.com",
+        "source_name": "Buzzing"
       }
     },
     {
@@ -1145,15 +1365,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.545,
-      "importance": 0.545,
-      "importance_score": 0.545,
+      "score": 0.5407,
+      "importance": 0.5407,
+      "importance_score": 0.5407,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9954,
+        "recency": 0.9719,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1223,15 +1443,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5294,
-      "importance": 0.5294,
-      "importance_score": 0.5294,
+      "score": 0.5256,
+      "importance": 0.5256,
+      "importance_score": 0.5256,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.909,
+        "recency": 0.8876,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1302,15 +1522,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5267,
-      "importance": 0.5267,
-      "importance_score": 0.5267,
+      "score": 0.523,
+      "importance": 0.523,
+      "importance_score": 0.523,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8941,
+        "recency": 0.8731,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1380,15 +1600,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5251,
-      "importance": 0.5251,
-      "importance_score": 0.5251,
+      "score": 0.5214,
+      "importance": 0.5214,
+      "importance_score": 0.5214,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8852,
+        "recency": 0.8643,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1403,243 +1623,6 @@
         "url": "https://www.thedrive.com/news/feds-killed-polestar-and-spared-volvo-that-should-terrify-you",
         "source": "Hacker News · 24h最热",
         "source_name": "Zeli"
-      }
-    },
-    {
-      "story_id": "story_fc9bc8969213",
-      "title": "OpenAI 推迟上市，那「Kimi 们」呢？",
-      "url": "https://www.huxiu.com/article/4871008.html?f=rss",
-      "primary_url": "https://www.huxiu.com/article/4871008.html?f=rss",
-      "source": "Readhub · AI",
-      "source_name": "TopHub",
-      "sources": [
-        {
-          "id": "98ccb7c63137fc871c9ec8896a33a1e5ae63f741",
-          "title": "OpenAI 推迟上市，那「Kimi 们」呢？",
-          "url": "https://www.huxiu.com/article/4871008.html?f=rss",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        },
-        {
-          "id": "96527f0ac89c585724df43fbe90e7a884ec554da",
-          "title": "OpenAI推迟上市，那“Kimi们”呢？",
-          "url": "https://www.huxiu.com/article/4871008.html?f=rss",
-          "source": "虎嗅 (Huxiu)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-28T08:34:40Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Readhub · AI",
-        "虎嗅 (Huxiu)"
-      ],
-      "items": [
-        {
-          "id": "98ccb7c63137fc871c9ec8896a33a1e5ae63f741",
-          "title": "OpenAI 推迟上市，那「Kimi 们」呢？",
-          "url": "https://www.huxiu.com/article/4871008.html?f=rss",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        },
-        {
-          "id": "96527f0ac89c585724df43fbe90e7a884ec554da",
-          "title": "OpenAI推迟上市，那“Kimi们”呢？",
-          "url": "https://www.huxiu.com/article/4871008.html?f=rss",
-          "source": "虎嗅 (Huxiu)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-28T08:34:40Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5458,
-      "importance": 0.5458,
-      "importance_score": 0.5458,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 1.0,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-28T08:34:40Z",
-      "latest_at": "2026-06-28T10:22:08.793201Z",
-      "primary_item": {
-        "id": "98ccb7c63137fc871c9ec8896a33a1e5ae63f741",
-        "title": "OpenAI 推迟上市，那「Kimi 们」呢？",
-        "url": "https://www.huxiu.com/article/4871008.html?f=rss",
-        "source": "Readhub · AI",
-        "source_name": "TopHub"
-      }
-    },
-    {
-      "story_id": "story_31fa110f6818",
-      "title": "人工智能掌握了射频芯片设计的“玄学”",
-      "url": "https://spectrum.ieee.org/ai-radio-chip-design",
-      "primary_url": "https://spectrum.ieee.org/ai-radio-chip-design",
-      "source": "spectrum.ieee.org",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "488852a8727daa8581d8b4d8385fb86b1cc5869d",
-          "title": "人工智能掌握了射频芯片设计的“玄学”",
-          "url": "https://spectrum.ieee.org/ai-radio-chip-design",
-          "source": "spectrum.ieee.org",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-27T18:19:58.376000Z"
-        },
-        {
-          "id": "51bb8bec37de84195692395b7a03897f4d8f3bbf",
-          "title": "人工智能掌握了射频芯片设计的“玄学” / AI Learns the \"Dark Art\" of RF Chip Design",
-          "url": "https://spectrum.ieee.org/ai-radio-chip-design",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-27T18:03:29Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Lobsters (技术社区)",
-        "spectrum.ieee.org"
-      ],
-      "items": [
-        {
-          "id": "488852a8727daa8581d8b4d8385fb86b1cc5869d",
-          "title": "人工智能掌握了射频芯片设计的“玄学”",
-          "url": "https://spectrum.ieee.org/ai-radio-chip-design",
-          "source": "spectrum.ieee.org",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-27T18:19:58.376000Z"
-        },
-        {
-          "id": "51bb8bec37de84195692395b7a03897f4d8f3bbf",
-          "title": "人工智能掌握了射频芯片设计的“玄学” / AI Learns the \"Dark Art\" of RF Chip Design",
-          "url": "https://spectrum.ieee.org/ai-radio-chip-design",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-27T18:03:29Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5086,
-      "importance": 0.5086,
-      "importance_score": 0.5086,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.7933,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-27T18:03:29Z",
-      "latest_at": "2026-06-27T18:19:58.376000Z",
-      "primary_item": {
-        "id": "488852a8727daa8581d8b4d8385fb86b1cc5869d",
-        "title": "人工智能掌握了射频芯片设计的“玄学”",
-        "url": "https://spectrum.ieee.org/ai-radio-chip-design",
-        "source": "spectrum.ieee.org",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_5b273f77cdfd",
-      "title": "Wayfinder Router：本地和托管 LLM 之间查询的确定性路由 / Wayfinder Router: deterministic routing of queries between local and hosted LLM",
-      "url": "https://news.ycombinator.com/item?id=48704373",
-      "primary_url": "https://news.ycombinator.com/item?id=48704373",
-      "source": "hackernews",
-      "source_name": "NewsNow",
-      "sources": [
-        {
-          "id": "8f678ab05294525d09eb008ce78fbf6620c5a4d5",
-          "title": "Wayfinder Router：本地和托管 LLM 之间查询的确定性路由 / Wayfinder Router: deterministic routing of queries between local and hosted LLM",
-          "url": "https://news.ycombinator.com/item?id=48704373",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-28T07:33:04.258000Z"
-        },
-        {
-          "id": "79b5b6d03eae14de546a8e1af039c031a92cef23",
-          "title": "Wayfinder Router：本地和托管 LLM 之间查询的确定性路由 / Wayfinder Router: deterministic routing of queries between local and hosted LLM",
-          "url": "https://github.com/itsthelore/wayfinder-router",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-28T04:31:18Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News",
-        "hackernews"
-      ],
-      "items": [
-        {
-          "id": "8f678ab05294525d09eb008ce78fbf6620c5a4d5",
-          "title": "Wayfinder Router：本地和托管 LLM 之间查询的确定性路由 / Wayfinder Router: deterministic routing of queries between local and hosted LLM",
-          "url": "https://news.ycombinator.com/item?id=48704373",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-28T07:33:04.258000Z"
-        },
-        {
-          "id": "79b5b6d03eae14de546a8e1af039c031a92cef23",
-          "title": "Wayfinder Router：本地和托管 LLM 之间查询的确定性路由 / Wayfinder Router: deterministic routing of queries between local and hosted LLM",
-          "url": "https://github.com/itsthelore/wayfinder-router",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-28T04:31:18Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5386,
-      "importance": 0.5386,
-      "importance_score": 0.5386,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9601,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-28T04:31:18Z",
-      "latest_at": "2026-06-28T07:33:04.258000Z",
-      "primary_item": {
-        "id": "8f678ab05294525d09eb008ce78fbf6620c5a4d5",
-        "title": "Wayfinder Router：本地和托管 LLM 之间查询的确定性路由 / Wayfinder Router: deterministic routing of queries between local and hosted LLM",
-        "url": "https://news.ycombinator.com/item?id=48704373",
-        "source": "hackernews",
-        "source_name": "NewsNow"
       }
     }
   ]
