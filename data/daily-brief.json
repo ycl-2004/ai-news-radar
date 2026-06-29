@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T05:09:24.911346Z",
+  "generated_at": "2026-06-29T10:04:54.881849Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -38,15 +38,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.823,
-      "importance": 0.823,
-      "importance_score": 0.823,
+      "score": 0.8127,
+      "importance": 0.8127,
+      "importance_score": 0.8127,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.839,
+        "recency": 0.7814,
         "story_heat": 0.0
       },
       "category": "official",
@@ -63,6 +63,148 @@
         "url": "https://openai.com/index/hp-frontier-partnership",
         "source": "OpenAI News",
         "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_91a757f04ddf",
+      "title": "三星和SK海力士计划投资5900亿美元扩产芯片，AI需求推高内存价格",
+      "url": "https://the-decoder.com/samsung-and-sk-hynix-plan-590-billion-chip-investment-as-ai-demand-sends-memory-prices-soaring",
+      "primary_url": "https://the-decoder.com/samsung-and-sk-hynix-plan-590-billion-chip-investment-as-ai-demand-sends-memory-prices-soaring",
+      "source": "The Decoder：AI News（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "9d292c8695e1f4b7f7bd5a910a7c1bd407a0c8b1",
+          "title": "三星和SK海力士计划投资5900亿美元扩产芯片，AI需求推高内存价格",
+          "url": "https://the-decoder.com/samsung-and-sk-hynix-plan-590-billion-chip-investment-as-ai-demand-sends-memory-prices-soaring",
+          "source": "The Decoder：AI News（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-29T08:17:41Z"
+        },
+        {
+          "id": "1d2f30bc3856ed351e1394333068b8e7c12cfaf3",
+          "title": "三星和SK海力士计划投资5900亿美元扩产芯片，AI需求推高内存价格 / Samsung and SK Hynix plan $590 billion chip investment as AI demand sends memory prices soaring",
+          "url": "https://the-decoder.com/samsung-and-sk-hynix-plan-590-billion-chip-investment-as-ai-demand-sends-memory-prices-soaring",
+          "source": "The Decoder AI News",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-06-29T08:17:41Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "The Decoder AI News",
+        "The Decoder：AI News（RSS）"
+      ],
+      "items": [
+        {
+          "id": "9d292c8695e1f4b7f7bd5a910a7c1bd407a0c8b1",
+          "title": "三星和SK海力士计划投资5900亿美元扩产芯片，AI需求推高内存价格",
+          "url": "https://the-decoder.com/samsung-and-sk-hynix-plan-590-billion-chip-investment-as-ai-demand-sends-memory-prices-soaring",
+          "source": "The Decoder：AI News（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-29T08:17:41Z"
+        },
+        {
+          "id": "1d2f30bc3856ed351e1394333068b8e7c12cfaf3",
+          "title": "三星和SK海力士计划投资5900亿美元扩产芯片，AI需求推高内存价格 / Samsung and SK Hynix plan $590 billion chip investment as AI demand sends memory prices soaring",
+          "url": "https://the-decoder.com/samsung-and-sk-hynix-plan-590-billion-chip-investment-as-ai-demand-sends-memory-prices-soaring",
+          "source": "The Decoder AI News",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-06-29T08:17:41Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.788,
+      "importance": 0.788,
+      "importance_score": 0.788,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9745,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-29T08:17:41Z",
+      "latest_at": "2026-06-29T08:17:41Z",
+      "primary_item": {
+        "id": "9d292c8695e1f4b7f7bd5a910a7c1bd407a0c8b1",
+        "title": "三星和SK海力士计划投资5900亿美元扩产芯片，AI需求推高内存价格",
+        "url": "https://the-decoder.com/samsung-and-sk-hynix-plan-590-billion-chip-investment-as-ai-demand-sends-memory-prices-soaring",
+        "source": "The Decoder：AI News（RSS）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_1596e07f9a4f",
+      "title": "AI急先锋：产能告急，三星拟在韩国光州扩建先进半导体封装厂",
+      "url": "https://www.aibase.com/news/29232",
+      "primary_url": "https://www.aibase.com/news/29232",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "61a9d92761a3f72424da4abacbac9d5cc2def948",
+          "title": "AI急先锋：产能告急，三星拟在韩国光州扩建先进半导体封装厂",
+          "url": "https://www.aibase.com/news/29232",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-29T10:04:54.881849Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "61a9d92761a3f72424da4abacbac9d5cc2def948",
+          "title": "AI急先锋：产能告急，三星拟在韩国光州扩建先进半导体封装厂",
+          "url": "https://www.aibase.com/news/29232",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-29T10:04:54.881849Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-29T10:04:54.881849Z",
+      "latest_at": "2026-06-29T10:04:54.881849Z",
+      "primary_item": {
+        "id": "61a9d92761a3f72424da4abacbac9d5cc2def948",
+        "title": "AI急先锋：产能告急，三星拟在韩国光州扩建先进半导体封装厂",
+        "url": "https://www.aibase.com/news/29232",
+        "source": "AIbase",
+        "source_name": "AIbase"
       }
     },
     {
@@ -119,15 +261,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7726,
-      "importance": 0.7726,
-      "importance_score": 0.7726,
+      "score": 0.7622,
+      "importance": 0.7622,
+      "importance_score": 0.7622,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8388,
+        "recency": 0.7812,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -147,49 +289,49 @@
       }
     },
     {
-      "story_id": "story_91fc7f26d908",
-      "title": "AI 开启打工新模式：惠普与 OpenAI 升级战略合作",
-      "url": "https://www.aibase.com/news/29210",
-      "primary_url": "https://www.aibase.com/news/29210",
-      "source": "AIbase",
-      "source_name": "AIbase",
+      "story_id": "story_61716f2e68b4",
+      "title": "SK 集团会长崔泰源：到 2035 年建设 15GW AI 数据中心，总投资达 1000 万亿韩元",
+      "url": "https://www.ithome.com/0/969/953.htm",
+      "primary_url": "https://www.ithome.com/0/969/953.htm",
+      "source": "IT之家（RSS）",
+      "source_name": "AI HOT",
       "sources": [
         {
-          "id": "2dc0d8cc0cea5bd5cae29d2b14ca0cb60493d32c",
-          "title": "AI 开启打工新模式：惠普与 OpenAI 升级战略合作",
-          "url": "https://www.aibase.com/news/29210",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-29T05:09:24.911346Z"
+          "id": "1dbe80014df3ce72571a1fe3e07ebc12ea3475d2",
+          "title": "SK 集团会长崔泰源：到 2035 年建设 15GW AI 数据中心，总投资达 1000 万亿韩元",
+          "url": "https://www.ithome.com/0/969/953.htm",
+          "source": "IT之家（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-29T06:44:15Z"
         }
       ],
       "source_count": 1,
       "source_names": [
-        "AIbase"
+        "IT之家（RSS）"
       ],
       "items": [
         {
-          "id": "2dc0d8cc0cea5bd5cae29d2b14ca0cb60493d32c",
-          "title": "AI 开启打工新模式：惠普与 OpenAI 升级战略合作",
-          "url": "https://www.aibase.com/news/29210",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-29T05:09:24.911346Z"
+          "id": "1dbe80014df3ce72571a1fe3e07ebc12ea3475d2",
+          "title": "SK 集团会长崔泰源：到 2035 年建设 15GW AI 数据中心，总投资达 1000 万亿韩元",
+          "url": "https://www.ithome.com/0/969/953.htm",
+          "source": "IT之家（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-29T06:44:15Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
+      "score": 0.7561,
+      "importance": 0.7561,
+      "importance_score": 0.7561,
       "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.72,
+        "editorial": 0.71,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.9529,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -197,14 +339,75 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-06-29T05:09:24.911346Z",
-      "latest_at": "2026-06-29T05:09:24.911346Z",
+      "earliest_at": "2026-06-29T06:44:15Z",
+      "latest_at": "2026-06-29T06:44:15Z",
       "primary_item": {
-        "id": "2dc0d8cc0cea5bd5cae29d2b14ca0cb60493d32c",
-        "title": "AI 开启打工新模式：惠普与 OpenAI 升级战略合作",
-        "url": "https://www.aibase.com/news/29210",
-        "source": "AIbase",
-        "source_name": "AIbase"
+        "id": "1dbe80014df3ce72571a1fe3e07ebc12ea3475d2",
+        "title": "SK 集团会长崔泰源：到 2035 年建设 15GW AI 数据中心，总投资达 1000 万亿韩元",
+        "url": "https://www.ithome.com/0/969/953.htm",
+        "source": "IT之家（RSS）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_7d06b0395d84",
+      "title": "何夕2077 AI 深度信号周报 (2026 W26)：安全合规门槛、模型军备竞赛与硬件成本转嫁",
+      "url": "https://hex2077.dev/zh-CN/blog/weekly/2026-06-29-hexi-ai-signal-weekly-2026-w26",
+      "primary_url": "https://hex2077.dev/zh-CN/blog/weekly/2026-06-29-hexi-ai-signal-weekly-2026-w26",
+      "source": "Daily Digest",
+      "source_name": "AI HubToday",
+      "sources": [
+        {
+          "id": "3e6c5f2b680cf6d75dd10a9f32a7aff66d79aabb",
+          "title": "何夕2077 AI 深度信号周报 (2026 W26)：安全合规门槛、模型军备竞赛与硬件成本转嫁",
+          "url": "https://hex2077.dev/zh-CN/blog/weekly/2026-06-29-hexi-ai-signal-weekly-2026-w26",
+          "source": "Daily Digest",
+          "source_name": "AI HubToday",
+          "site_id": "aihubtoday",
+          "published_at": "2026-06-29T05:09:31Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Daily Digest"
+      ],
+      "items": [
+        {
+          "id": "3e6c5f2b680cf6d75dd10a9f32a7aff66d79aabb",
+          "title": "何夕2077 AI 深度信号周报 (2026 W26)：安全合规门槛、模型军备竞赛与硬件成本转嫁",
+          "url": "https://hex2077.dev/zh-CN/blog/weekly/2026-06-29-hexi-ai-signal-weekly-2026-w26",
+          "source": "Daily Digest",
+          "source_name": "AI HubToday",
+          "site_id": "aihubtoday",
+          "published_at": "2026-06-29T05:09:31Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7552,
+      "importance": 0.7552,
+      "importance_score": 0.7552,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9314,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-29T05:09:31Z",
+      "latest_at": "2026-06-29T05:09:31Z",
+      "primary_item": {
+        "id": "3e6c5f2b680cf6d75dd10a9f32a7aff66d79aabb",
+        "title": "何夕2077 AI 深度信号周报 (2026 W26)：安全合规门槛、模型军备竞赛与硬件成本转嫁",
+        "url": "https://hex2077.dev/zh-CN/blog/weekly/2026-06-29-hexi-ai-signal-weekly-2026-w26",
+        "source": "Daily Digest",
+        "source_name": "AI HubToday"
       }
     },
     {
@@ -242,21 +445,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7539,
-      "importance": 0.7539,
-      "importance_score": 0.7539,
+      "score": 0.7421,
+      "importance": 0.7421,
+      "importance_score": 0.7421,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9573,
+        "recency": 0.8916,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-06-29T02:08:00Z",
       "latest_at": "2026-06-29T02:08:00Z",
@@ -266,6 +468,189 @@
         "url": "https://mp.weixin.qq.com/s/umPqTD_-IubbhXIgiS47eQ",
         "source": "公众号：数字生命卡兹克",
         "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_5a44f079565a",
+      "title": "OceanBase发布湖库一体AI数据库:让Agent真正“读懂”企业",
+      "url": "https://www.aibase.com/news/29235",
+      "primary_url": "https://www.aibase.com/news/29235",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "a85c5083686cfa8db817f59fd38a9329fcdc3240",
+          "title": "OceanBase发布湖库一体AI数据库:让Agent真正“读懂”企业",
+          "url": "https://www.aibase.com/news/29235",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-29T10:04:54.881849Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "a85c5083686cfa8db817f59fd38a9329fcdc3240",
+          "title": "OceanBase发布湖库一体AI数据库:让Agent真正“读懂”企业",
+          "url": "https://www.aibase.com/news/29235",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-29T10:04:54.881849Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-29T10:04:54.881849Z",
+      "latest_at": "2026-06-29T10:04:54.881849Z",
+      "primary_item": {
+        "id": "a85c5083686cfa8db817f59fd38a9329fcdc3240",
+        "title": "OceanBase发布湖库一体AI数据库:让Agent真正“读懂”企业",
+        "url": "https://www.aibase.com/news/29235",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_689fb95fd241",
+      "title": "何夕2077 AI 深度信号周报 (2026 W25)：AI 联盟大解体与算力铁幕降临",
+      "url": "https://hex2077.dev/zh-CN/blog/weekly/2026-06-29-hexi-2077-ai-deep-signal-weekly-2026-w25",
+      "primary_url": "https://hex2077.dev/zh-CN/blog/weekly/2026-06-29-hexi-2077-ai-deep-signal-weekly-2026-w25",
+      "source": "Daily Digest",
+      "source_name": "AI HubToday",
+      "sources": [
+        {
+          "id": "bcfd34c25e8252371e58f66dfa257f98c9469a84",
+          "title": "何夕2077 AI 深度信号周报 (2026 W25)：AI 联盟大解体与算力铁幕降临",
+          "url": "https://hex2077.dev/zh-CN/blog/weekly/2026-06-29-hexi-2077-ai-deep-signal-weekly-2026-w25",
+          "source": "Daily Digest",
+          "source_name": "AI HubToday",
+          "site_id": "aihubtoday",
+          "published_at": "2026-06-29T05:03:03Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Daily Digest"
+      ],
+      "items": [
+        {
+          "id": "bcfd34c25e8252371e58f66dfa257f98c9469a84",
+          "title": "何夕2077 AI 深度信号周报 (2026 W25)：AI 联盟大解体与算力铁幕降临",
+          "url": "https://hex2077.dev/zh-CN/blog/weekly/2026-06-29-hexi-2077-ai-deep-signal-weekly-2026-w25",
+          "source": "Daily Digest",
+          "source_name": "AI HubToday",
+          "site_id": "aihubtoday",
+          "published_at": "2026-06-29T05:03:03Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.755,
+      "importance": 0.755,
+      "importance_score": 0.755,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9299,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-29T05:03:03Z",
+      "latest_at": "2026-06-29T05:03:03Z",
+      "primary_item": {
+        "id": "bcfd34c25e8252371e58f66dfa257f98c9469a84",
+        "title": "何夕2077 AI 深度信号周报 (2026 W25)：AI 联盟大解体与算力铁幕降临",
+        "url": "https://hex2077.dev/zh-CN/blog/weekly/2026-06-29-hexi-2077-ai-deep-signal-weekly-2026-w25",
+        "source": "Daily Digest",
+        "source_name": "AI HubToday"
+      }
+    },
+    {
+      "story_id": "story_a265e64e883e",
+      "title": "传记片《人工智能》再生变数：亚马逊影业宣布放弃发行",
+      "url": "https://www.aibase.com/news/29233",
+      "primary_url": "https://www.aibase.com/news/29233",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "5044f7e7041f64bced8977605cd3eb8d721f0d72",
+          "title": "传记片《人工智能》再生变数：亚马逊影业宣布放弃发行",
+          "url": "https://www.aibase.com/news/29233",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-29T10:04:54.881849Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "5044f7e7041f64bced8977605cd3eb8d721f0d72",
+          "title": "传记片《人工智能》再生变数：亚马逊影业宣布放弃发行",
+          "url": "https://www.aibase.com/news/29233",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-29T10:04:54.881849Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-29T10:04:54.881849Z",
+      "latest_at": "2026-06-29T10:04:54.881849Z",
+      "primary_item": {
+        "id": "5044f7e7041f64bced8977605cd3eb8d721f0d72",
+        "title": "传记片《人工智能》再生变数：亚马逊影业宣布放弃发行",
+        "url": "https://www.aibase.com/news/29233",
+        "source": "AIbase",
+        "source_name": "AIbase"
       }
     },
     {
@@ -322,15 +707,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7436,
-      "importance": 0.7436,
-      "importance_score": 0.7436,
+      "score": 0.7342,
+      "importance": 0.7342,
+      "importance_score": 0.7342,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7613,
+        "recency": 0.709,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -349,21 +734,21 @@
       }
     },
     {
-      "story_id": "story_643c32f1ea34",
-      "title": "AI大模型狂飙的代价：苹果用户或为硬件全面涨价买单",
-      "url": "https://www.aibase.com/news/29218",
-      "primary_url": "https://www.aibase.com/news/29218",
+      "story_id": "story_3c929d7451ac",
+      "title": "六成英国消费者：一次错误就不再信任 AI 购物助手",
+      "url": "https://www.aibase.com/news/29238",
+      "primary_url": "https://www.aibase.com/news/29238",
       "source": "AIbase",
       "source_name": "AIbase",
       "sources": [
         {
-          "id": "fa1dd381ebf3b0c7d0e67237490fc3a004057695",
-          "title": "AI大模型狂飙的代价：苹果用户或为硬件全面涨价买单",
-          "url": "https://www.aibase.com/news/29218",
+          "id": "b8f99068327c4484e45da31786bd0464a2de8b49",
+          "title": "六成英国消费者：一次错误就不再信任 AI 购物助手",
+          "url": "https://www.aibase.com/news/29238",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-06-29T05:09:24.911346Z"
+          "published_at": "2026-06-29T10:04:54.881849Z"
         }
       ],
       "source_count": 1,
@@ -372,13 +757,13 @@
       ],
       "items": [
         {
-          "id": "fa1dd381ebf3b0c7d0e67237490fc3a004057695",
-          "title": "AI大模型狂飙的代价：苹果用户或为硬件全面涨价买单",
-          "url": "https://www.aibase.com/news/29218",
+          "id": "b8f99068327c4484e45da31786bd0464a2de8b49",
+          "title": "六成英国消费者：一次错误就不再信任 AI 购物助手",
+          "url": "https://www.aibase.com/news/29238",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-06-29T05:09:24.911346Z"
+          "published_at": "2026-06-29T10:04:54.881849Z"
         }
       ],
       "item_count": 1,
@@ -399,214 +784,12 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-06-29T05:09:24.911346Z",
-      "latest_at": "2026-06-29T05:09:24.911346Z",
+      "earliest_at": "2026-06-29T10:04:54.881849Z",
+      "latest_at": "2026-06-29T10:04:54.881849Z",
       "primary_item": {
-        "id": "fa1dd381ebf3b0c7d0e67237490fc3a004057695",
-        "title": "AI大模型狂飙的代价：苹果用户或为硬件全面涨价买单",
-        "url": "https://www.aibase.com/news/29218",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      }
-    },
-    {
-      "story_id": "story_7fc17092690c",
-      "title": "新浪开源VibeThinker-3B：推理可压缩，事实知识不能",
-      "url": "https://the-decoder.com/sinas-open-model-vibethinker-3b-aims-to-show-reasoning-compresses-well-but-factual-knowledge-doesnt",
-      "primary_url": "https://the-decoder.com/sinas-open-model-vibethinker-3b-aims-to-show-reasoning-compresses-well-but-factual-knowledge-doesnt",
-      "source": "The Decoder：AI News（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "9ed204705387fe21ff798e975008b74ef9a14557",
-          "title": "新浪开源VibeThinker-3B：推理可压缩，事实知识不能",
-          "url": "https://the-decoder.com/sinas-open-model-vibethinker-3b-aims-to-show-reasoning-compresses-well-but-factual-knowledge-doesnt",
-          "source": "The Decoder：AI News（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-28T07:44:41Z"
-        },
-        {
-          "id": "c5e727c8a2b66b0f35a851acb9f613a055e0c0e0",
-          "title": "新浪开源VibeThinker-3B：推理可压缩，事实知识不能 / Sina's open model VibeThinker-3B aims to show reasoning compresses well but factual knowledge doesn't",
-          "url": "https://the-decoder.com/sinas-open-model-vibethinker-3b-aims-to-show-reasoning-compresses-well-but-factual-knowledge-doesnt",
-          "source": "The Decoder AI News",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-06-28T07:44:41Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "The Decoder AI News",
-        "The Decoder：AI News（RSS）"
-      ],
-      "items": [
-        {
-          "id": "9ed204705387fe21ff798e975008b74ef9a14557",
-          "title": "新浪开源VibeThinker-3B：推理可压缩，事实知识不能",
-          "url": "https://the-decoder.com/sinas-open-model-vibethinker-3b-aims-to-show-reasoning-compresses-well-but-factual-knowledge-doesnt",
-          "source": "The Decoder：AI News（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-28T07:44:41Z"
-        },
-        {
-          "id": "c5e727c8a2b66b0f35a851acb9f613a055e0c0e0",
-          "title": "新浪开源VibeThinker-3B：推理可压缩，事实知识不能 / Sina's open model VibeThinker-3B aims to show reasoning compresses well but factual knowledge doesn't",
-          "url": "https://the-decoder.com/sinas-open-model-vibethinker-3b-aims-to-show-reasoning-compresses-well-but-factual-knowledge-doesnt",
-          "source": "The Decoder AI News",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-06-28T07:44:41Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7387,
-      "importance": 0.7387,
-      "importance_score": 0.7387,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.7,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.734,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-28T07:44:41Z",
-      "latest_at": "2026-06-28T07:44:41Z",
-      "primary_item": {
-        "id": "9ed204705387fe21ff798e975008b74ef9a14557",
-        "title": "新浪开源VibeThinker-3B：推理可压缩，事实知识不能",
-        "url": "https://the-decoder.com/sinas-open-model-vibethinker-3b-aims-to-show-reasoning-compresses-well-but-factual-knowledge-doesnt",
-        "source": "The Decoder：AI News（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_8c8d966b5c45",
-      "title": "Anthropic 获准恢复 Fable 5 模型，美 AI 出口管制政策出现微调",
-      "url": "https://www.aibase.com/news/29215",
-      "primary_url": "https://www.aibase.com/news/29215",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "a4b53a18fec820d20ece54475b1b53359c69fc62",
-          "title": "Anthropic 获准恢复 Fable 5 模型，美 AI 出口管制政策出现微调",
-          "url": "https://www.aibase.com/news/29215",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-29T05:09:24.911346Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "a4b53a18fec820d20ece54475b1b53359c69fc62",
-          "title": "Anthropic 获准恢复 Fable 5 模型，美 AI 出口管制政策出现微调",
-          "url": "https://www.aibase.com/news/29215",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-29T05:09:24.911346Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 1.0,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-29T05:09:24.911346Z",
-      "latest_at": "2026-06-29T05:09:24.911346Z",
-      "primary_item": {
-        "id": "a4b53a18fec820d20ece54475b1b53359c69fc62",
-        "title": "Anthropic 获准恢复 Fable 5 模型，美 AI 出口管制政策出现微调",
-        "url": "https://www.aibase.com/news/29215",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      }
-    },
-    {
-      "story_id": "story_bcc40469c148",
-      "title": "Momenta开启港股招股，拟募资58.9亿港元深化物理AI布局",
-      "url": "https://www.aibase.com/news/29213",
-      "primary_url": "https://www.aibase.com/news/29213",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "6599474d9a7c05399dc0e66f492062088a136381",
-          "title": "Momenta开启港股招股，拟募资58.9亿港元深化物理AI布局",
-          "url": "https://www.aibase.com/news/29213",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-29T05:09:24.911346Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "6599474d9a7c05399dc0e66f492062088a136381",
-          "title": "Momenta开启港股招股，拟募资58.9亿港元深化物理AI布局",
-          "url": "https://www.aibase.com/news/29213",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-29T05:09:24.911346Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 1.0,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-29T05:09:24.911346Z",
-      "latest_at": "2026-06-29T05:09:24.911346Z",
-      "primary_item": {
-        "id": "6599474d9a7c05399dc0e66f492062088a136381",
-        "title": "Momenta开启港股招股，拟募资58.9亿港元深化物理AI布局",
-        "url": "https://www.aibase.com/news/29213",
+        "id": "b8f99068327c4484e45da31786bd0464a2de8b49",
+        "title": "六成英国消费者：一次错误就不再信任 AI 购物助手",
+        "url": "https://www.aibase.com/news/29238",
         "source": "AIbase",
         "source_name": "AIbase"
       }
@@ -736,15 +919,15 @@
       ],
       "item_count": 6,
       "duplicate_count": 6,
-      "score": 0.6689,
-      "importance": 0.6689,
-      "importance_score": 0.6689,
+      "score": 0.6583,
+      "importance": 0.6583,
+      "importance_score": 0.6583,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.5112,
         "source_tier": 0.54,
         "ai_relevance": 0.71,
-        "recency": 0.8596,
+        "recency": 0.8006,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -762,21 +945,21 @@
       }
     },
     {
-      "story_id": "story_c6babd1cf901",
-      "title": "​跨国科技新博弈：奥地利呼吁欧洲引入AI巨头Anthropic",
-      "url": "https://www.aibase.com/news/29216",
-      "primary_url": "https://www.aibase.com/news/29216",
+      "story_id": "story_96c50ae2d0df",
+      "title": "北京太空算力创新中心揭牌，全面发力星载AI与太空大模型",
+      "url": "https://www.aibase.com/news/29225",
+      "primary_url": "https://www.aibase.com/news/29225",
       "source": "AIbase",
       "source_name": "AIbase",
       "sources": [
         {
-          "id": "57de5ef94e20d7f877ae217d2e5799b86b090973",
-          "title": "​跨国科技新博弈：奥地利呼吁欧洲引入AI巨头Anthropic",
-          "url": "https://www.aibase.com/news/29216",
+          "id": "56a506e0b80f3ed6861df5f03237fd318b375e35",
+          "title": "北京太空算力创新中心揭牌，全面发力星载AI与太空大模型",
+          "url": "https://www.aibase.com/news/29225",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-06-29T05:09:24.911346Z"
+          "published_at": "2026-06-29T10:04:54.881849Z"
         }
       ],
       "source_count": 1,
@@ -785,13 +968,13 @@
       ],
       "items": [
         {
-          "id": "57de5ef94e20d7f877ae217d2e5799b86b090973",
-          "title": "​跨国科技新博弈：奥地利呼吁欧洲引入AI巨头Anthropic",
-          "url": "https://www.aibase.com/news/29216",
+          "id": "56a506e0b80f3ed6861df5f03237fd318b375e35",
+          "title": "北京太空算力创新中心揭牌，全面发力星载AI与太空大模型",
+          "url": "https://www.aibase.com/news/29225",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-06-29T05:09:24.911346Z"
+          "published_at": "2026-06-29T10:04:54.881849Z"
         }
       ],
       "item_count": 1,
@@ -812,32 +995,32 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-06-29T05:09:24.911346Z",
-      "latest_at": "2026-06-29T05:09:24.911346Z",
+      "earliest_at": "2026-06-29T10:04:54.881849Z",
+      "latest_at": "2026-06-29T10:04:54.881849Z",
       "primary_item": {
-        "id": "57de5ef94e20d7f877ae217d2e5799b86b090973",
-        "title": "​跨国科技新博弈：奥地利呼吁欧洲引入AI巨头Anthropic",
-        "url": "https://www.aibase.com/news/29216",
+        "id": "56a506e0b80f3ed6861df5f03237fd318b375e35",
+        "title": "北京太空算力创新中心揭牌，全面发力星载AI与太空大模型",
+        "url": "https://www.aibase.com/news/29225",
         "source": "AIbase",
         "source_name": "AIbase"
       }
     },
     {
-      "story_id": "story_1a0495a7dbf4",
-      "title": "修车告别“经验主义”：深圳星卡发布AI诊断工具“Tyler”，重塑售后市场标准",
-      "url": "https://www.aibase.com/news/29222",
-      "primary_url": "https://www.aibase.com/news/29222",
+      "story_id": "story_e36b72ba54ad",
+      "title": "太空算力新地标：北京太空算力创新中心揭牌，开启“星载 AI”协同新时代",
+      "url": "https://www.aibase.com/news/29239",
+      "primary_url": "https://www.aibase.com/news/29239",
       "source": "AIbase",
       "source_name": "AIbase",
       "sources": [
         {
-          "id": "f50c63a3fd700bf8ed8e8e8034f7a17cc4bed950",
-          "title": "修车告别“经验主义”：深圳星卡发布AI诊断工具“Tyler”，重塑售后市场标准",
-          "url": "https://www.aibase.com/news/29222",
+          "id": "656413e9b98619297b9ae5bafbca6186282b6ad3",
+          "title": "太空算力新地标：北京太空算力创新中心揭牌，开启“星载 AI”协同新时代",
+          "url": "https://www.aibase.com/news/29239",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-06-29T05:09:24.911346Z"
+          "published_at": "2026-06-29T10:04:54.881849Z"
         }
       ],
       "source_count": 1,
@@ -846,13 +1029,13 @@
       ],
       "items": [
         {
-          "id": "f50c63a3fd700bf8ed8e8e8034f7a17cc4bed950",
-          "title": "修车告别“经验主义”：深圳星卡发布AI诊断工具“Tyler”，重塑售后市场标准",
-          "url": "https://www.aibase.com/news/29222",
+          "id": "656413e9b98619297b9ae5bafbca6186282b6ad3",
+          "title": "太空算力新地标：北京太空算力创新中心揭牌，开启“星载 AI”协同新时代",
+          "url": "https://www.aibase.com/news/29239",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-06-29T05:09:24.911346Z"
+          "published_at": "2026-06-29T10:04:54.881849Z"
         }
       ],
       "item_count": 1,
@@ -873,12 +1056,12 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-06-29T05:09:24.911346Z",
-      "latest_at": "2026-06-29T05:09:24.911346Z",
+      "earliest_at": "2026-06-29T10:04:54.881849Z",
+      "latest_at": "2026-06-29T10:04:54.881849Z",
       "primary_item": {
-        "id": "f50c63a3fd700bf8ed8e8e8034f7a17cc4bed950",
-        "title": "修车告别“经验主义”：深圳星卡发布AI诊断工具“Tyler”，重塑售后市场标准",
-        "url": "https://www.aibase.com/news/29222",
+        "id": "656413e9b98619297b9ae5bafbca6186282b6ad3",
+        "title": "太空算力新地标：北京太空算力创新中心揭牌，开启“星载 AI”协同新时代",
+        "url": "https://www.aibase.com/news/29239",
         "source": "AIbase",
         "source_name": "AIbase"
       }
@@ -993,15 +1176,15 @@
       ],
       "item_count": 5,
       "duplicate_count": 5,
-      "score": 0.602,
-      "importance": 0.602,
-      "importance_score": 0.602,
+      "score": 0.5909,
+      "importance": 0.5909,
+      "importance_score": 0.5909,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8955,
+        "recency": 0.834,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -1019,21 +1202,21 @@
       }
     },
     {
-      "story_id": "story_b9646e8e969a",
-      "title": "全球第四家！OpenAI 与韩国人工智能安全研究所达成深度合作",
-      "url": "https://www.aibase.com/news/29214",
-      "primary_url": "https://www.aibase.com/news/29214",
+      "story_id": "story_aef040f70337",
+      "title": "模型变小，能力不减：新浪VibeThinker-3B 开源，AI 推理迎来“轻量化”新思路",
+      "url": "https://www.aibase.com/news/29236",
+      "primary_url": "https://www.aibase.com/news/29236",
       "source": "AIbase",
       "source_name": "AIbase",
       "sources": [
         {
-          "id": "7317ddbbd1d50d87397eef5d14ddcae97bd0b125",
-          "title": "全球第四家！OpenAI 与韩国人工智能安全研究所达成深度合作",
-          "url": "https://www.aibase.com/news/29214",
+          "id": "0d3ed7309e01f616d477f72b7d6d997fbcfe547f",
+          "title": "模型变小，能力不减：新浪VibeThinker-3B 开源，AI 推理迎来“轻量化”新思路",
+          "url": "https://www.aibase.com/news/29236",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-06-29T05:09:24.911346Z"
+          "published_at": "2026-06-29T10:04:54.881849Z"
         }
       ],
       "source_count": 1,
@@ -1042,13 +1225,13 @@
       ],
       "items": [
         {
-          "id": "7317ddbbd1d50d87397eef5d14ddcae97bd0b125",
-          "title": "全球第四家！OpenAI 与韩国人工智能安全研究所达成深度合作",
-          "url": "https://www.aibase.com/news/29214",
+          "id": "0d3ed7309e01f616d477f72b7d6d997fbcfe547f",
+          "title": "模型变小，能力不减：新浪VibeThinker-3B 开源，AI 推理迎来“轻量化”新思路",
+          "url": "https://www.aibase.com/news/29236",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-06-29T05:09:24.911346Z"
+          "published_at": "2026-06-29T10:04:54.881849Z"
         }
       ],
       "item_count": 1,
@@ -1069,32 +1252,32 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-06-29T05:09:24.911346Z",
-      "latest_at": "2026-06-29T05:09:24.911346Z",
+      "earliest_at": "2026-06-29T10:04:54.881849Z",
+      "latest_at": "2026-06-29T10:04:54.881849Z",
       "primary_item": {
-        "id": "7317ddbbd1d50d87397eef5d14ddcae97bd0b125",
-        "title": "全球第四家！OpenAI 与韩国人工智能安全研究所达成深度合作",
-        "url": "https://www.aibase.com/news/29214",
+        "id": "0d3ed7309e01f616d477f72b7d6d997fbcfe547f",
+        "title": "模型变小，能力不减：新浪VibeThinker-3B 开源，AI 推理迎来“轻量化”新思路",
+        "url": "https://www.aibase.com/news/29236",
         "source": "AIbase",
         "source_name": "AIbase"
       }
     },
     {
-      "story_id": "story_f6a8a62c6380",
-      "title": "农技服务“数字化”升级：农帮手 2.0 版上线，打造人人可用的 AI 专家",
-      "url": "https://www.aibase.com/news/29223",
-      "primary_url": "https://www.aibase.com/news/29223",
+      "story_id": "story_1b3bc0d595e3",
+      "title": "电力为王！韩国将推AI数据中心专属电价，全面重构国家核心竞争力",
+      "url": "https://www.aibase.com/news/29228",
+      "primary_url": "https://www.aibase.com/news/29228",
       "source": "AIbase",
       "source_name": "AIbase",
       "sources": [
         {
-          "id": "6ce3635bd08c3af290c0d9dbb7c441645f6af47c",
-          "title": "农技服务“数字化”升级：农帮手 2.0 版上线，打造人人可用的 AI 专家",
-          "url": "https://www.aibase.com/news/29223",
+          "id": "efa718da91826e0466d690307d861ed9f645f11e",
+          "title": "电力为王！韩国将推AI数据中心专属电价，全面重构国家核心竞争力",
+          "url": "https://www.aibase.com/news/29228",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-06-29T05:09:24.911346Z"
+          "published_at": "2026-06-29T10:04:54.881849Z"
         }
       ],
       "source_count": 1,
@@ -1103,13 +1286,13 @@
       ],
       "items": [
         {
-          "id": "6ce3635bd08c3af290c0d9dbb7c441645f6af47c",
-          "title": "农技服务“数字化”升级：农帮手 2.0 版上线，打造人人可用的 AI 专家",
-          "url": "https://www.aibase.com/news/29223",
+          "id": "efa718da91826e0466d690307d861ed9f645f11e",
+          "title": "电力为王！韩国将推AI数据中心专属电价，全面重构国家核心竞争力",
+          "url": "https://www.aibase.com/news/29228",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-06-29T05:09:24.911346Z"
+          "published_at": "2026-06-29T10:04:54.881849Z"
         }
       ],
       "item_count": 1,
@@ -1130,14 +1313,93 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-06-29T05:09:24.911346Z",
-      "latest_at": "2026-06-29T05:09:24.911346Z",
+      "earliest_at": "2026-06-29T10:04:54.881849Z",
+      "latest_at": "2026-06-29T10:04:54.881849Z",
       "primary_item": {
-        "id": "6ce3635bd08c3af290c0d9dbb7c441645f6af47c",
-        "title": "农技服务“数字化”升级：农帮手 2.0 版上线，打造人人可用的 AI 专家",
-        "url": "https://www.aibase.com/news/29223",
+        "id": "efa718da91826e0466d690307d861ed9f645f11e",
+        "title": "电力为王！韩国将推AI数据中心专属电价，全面重构国家核心竞争力",
+        "url": "https://www.aibase.com/news/29228",
         "source": "AIbase",
         "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_a32bab62cc95",
+      "title": "接收者AI——代理模式 / Receiptor AI — Agent Mode",
+      "url": "https://www.producthunt.com/products/receiptor-ai",
+      "primary_url": "https://www.producthunt.com/products/receiptor-ai",
+      "source": "Product Hunt · 今日新产品",
+      "source_name": "TopHub",
+      "sources": [
+        {
+          "id": "3774e02d522fe743d68bec4e2b6c5064f57ab77b",
+          "title": "接收者AI——代理模式 / Receiptor AI — Agent Mode",
+          "url": "https://www.producthunt.com/products/receiptor-ai",
+          "source": "Product Hunt · 今日新产品",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        },
+        {
+          "id": "7ca90daf3fe817d32d851c8110bdafd590e66095",
+          "title": "Receiptor AI — Agent Mode - 自动记账",
+          "url": "https://www.producthunt.com/r/DVSAWE2SN72E2P",
+          "source": "www.producthunt.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-29T07:06:54.165000Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Product Hunt · 今日新产品",
+        "www.producthunt.com"
+      ],
+      "items": [
+        {
+          "id": "3774e02d522fe743d68bec4e2b6c5064f57ab77b",
+          "title": "接收者AI——代理模式 / Receiptor AI — Agent Mode",
+          "url": "https://www.producthunt.com/products/receiptor-ai",
+          "source": "Product Hunt · 今日新产品",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        },
+        {
+          "id": "7ca90daf3fe817d32d851c8110bdafd590e66095",
+          "title": "Receiptor AI — Agent Mode - 自动记账",
+          "url": "https://www.producthunt.com/r/DVSAWE2SN72E2P",
+          "source": "www.producthunt.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-29T07:06:54.165000Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5458,
+      "importance": 0.5458,
+      "importance_score": 0.5458,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 1.0,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-29T07:06:54.165000Z",
+      "latest_at": "2026-06-29T10:04:54.881849Z",
+      "primary_item": {
+        "id": "3774e02d522fe743d68bec4e2b6c5064f57ab77b",
+        "title": "接收者AI——代理模式 / Receiptor AI — Agent Mode",
+        "url": "https://www.producthunt.com/products/receiptor-ai",
+        "source": "Product Hunt · 今日新产品",
+        "source_name": "TopHub"
       }
     },
     {
@@ -1213,15 +1475,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5551,
-      "importance": 0.5551,
-      "importance_score": 0.5551,
+      "score": 0.5438,
+      "importance": 0.5438,
+      "importance_score": 0.5438,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9129,
+        "recency": 0.8503,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1235,360 +1497,6 @@
         "title": "教授谴责布朗大学考试中发生的大规模AI作弊事件",
         "url": "https://english.elpais.com/education/2026-06-28/ai-fraud-at-brown-university-academic-integrity-is-at-risk.html",
         "source": "english.elpais.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_b7e39861955b",
-      "title": "人工智能技术不足后，福特重新雇用“灰胡子”工程师 / Ford rehires 'gray beard' engineers after AI falls short",
-      "url": "https://news.ycombinator.com/item?id=48710749",
-      "primary_url": "https://news.ycombinator.com/item?id=48710749",
-      "source": "hackernews",
-      "source_name": "NewsNow",
-      "sources": [
-        {
-          "id": "0b1df109e507e3c5fab7403812a66679023bbd23",
-          "title": "人工智能技术不足后，福特重新雇用“灰胡子”工程师 / Ford rehires 'gray beard' engineers after AI falls short",
-          "url": "https://news.ycombinator.com/item?id=48710749",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-28T20:08:25.126000Z"
-        },
-        {
-          "id": "f081a61dc1e7b58473f2de935fa56a97f50eab28",
-          "title": "由于人工智能表现未达预期，福特重新聘请“老牌”工程师 / Ford rehires 'gray beard' engineers after AI falls short",
-          "url": "https://techcrunch.com/2026/06/28/ford-rehires-gray-beard-engineers-after-ai-falls-short",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-28T19:35:57Z"
-        },
-        {
-          "id": "fd26566f565e42ac5e170b0d3f6dc7d480648a0a",
-          "title": "由于人工智能表现未达预期，福特重新聘请“老牌”工程师 / Ford rehires ‘gray beard’ engineers after AI falls short",
-          "url": "https://techcrunch.com/2026/06/28/ford-rehires-gray-beard-engineers-after-ai-falls-short",
-          "source": "TechCrunch",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-28T19:05:39Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Hacker News · 24h最热",
-        "TechCrunch",
-        "hackernews"
-      ],
-      "items": [
-        {
-          "id": "0b1df109e507e3c5fab7403812a66679023bbd23",
-          "title": "人工智能技术不足后，福特重新雇用“灰胡子”工程师 / Ford rehires 'gray beard' engineers after AI falls short",
-          "url": "https://news.ycombinator.com/item?id=48710749",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-28T20:08:25.126000Z"
-        },
-        {
-          "id": "f081a61dc1e7b58473f2de935fa56a97f50eab28",
-          "title": "由于人工智能表现未达预期，福特重新聘请“老牌”工程师 / Ford rehires 'gray beard' engineers after AI falls short",
-          "url": "https://techcrunch.com/2026/06/28/ford-rehires-gray-beard-engineers-after-ai-falls-short",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-28T19:35:57Z"
-        },
-        {
-          "id": "fd26566f565e42ac5e170b0d3f6dc7d480648a0a",
-          "title": "由于人工智能表现未达预期，福特重新聘请“老牌”工程师 / Ford rehires ‘gray beard’ engineers after AI falls short",
-          "url": "https://techcrunch.com/2026/06/28/ford-rehires-gray-beard-engineers-after-ai-falls-short",
-          "source": "TechCrunch",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-28T19:05:39Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.5488,
-      "importance": 0.5488,
-      "importance_score": 0.5488,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8779,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-28T19:05:39Z",
-      "latest_at": "2026-06-28T20:08:25.126000Z",
-      "primary_item": {
-        "id": "0b1df109e507e3c5fab7403812a66679023bbd23",
-        "title": "人工智能技术不足后，福特重新雇用“灰胡子”工程师 / Ford rehires 'gray beard' engineers after AI falls short",
-        "url": "https://news.ycombinator.com/item?id=48710749",
-        "source": "hackernews",
-        "source_name": "NewsNow"
-      }
-    },
-    {
-      "story_id": "story_00a7f3328fb7",
-      "title": "8点1氪丨两大存储巨头今日发布大规模投资计划；江淮汽车股价腰斩，章建平9日套现近3亿元；Anthropic Fable 5有望很快恢复访问",
-      "url": "https://www.36kr.com/p/3873476968272902",
-      "primary_url": "https://www.36kr.com/p/3873476968272902",
-      "source": "36氪 · 24小时热榜",
-      "source_name": "TopHub",
-      "sources": [
-        {
-          "id": "01481d3299a9a9166cd412b4c2cb45f982db94f0",
-          "title": "8点1氪丨两大存储巨头今日发布大规模投资计划；江淮汽车股价腰斩，章建平9日套现近3亿元；Anthropic Fable 5有望很快恢复访问",
-          "url": "https://www.36kr.com/p/3873476968272902",
-          "source": "36氪 · 24小时热榜",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        },
-        {
-          "id": "005ce20ca5dd953f5b3d3a409d7b2ef601f1fc77",
-          "title": "8点1氪丨两大存储巨头今日发布大规模投资计划；江淮汽车股价腰斩，章建平9日套现近3亿元；Anthropic Fable 5有望很快恢复访问",
-          "url": "https://36kr.com/p/3873476968272902?f=rss",
-          "source": "36氪 (36Kr)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-28T23:44:39Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "36氪 (36Kr)",
-        "36氪 · 24小时热榜"
-      ],
-      "items": [
-        {
-          "id": "01481d3299a9a9166cd412b4c2cb45f982db94f0",
-          "title": "8点1氪丨两大存储巨头今日发布大规模投资计划；江淮汽车股价腰斩，章建平9日套现近3亿元；Anthropic Fable 5有望很快恢复访问",
-          "url": "https://www.36kr.com/p/3873476968272902",
-          "source": "36氪 · 24小时热榜",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        },
-        {
-          "id": "005ce20ca5dd953f5b3d3a409d7b2ef601f1fc77",
-          "title": "8点1氪丨两大存储巨头今日发布大规模投资计划；江淮汽车股价腰斩，章建平9日套现近3亿元；Anthropic Fable 5有望很快恢复访问",
-          "url": "https://36kr.com/p/3873476968272902?f=rss",
-          "source": "36氪 (36Kr)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-28T23:44:39Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5458,
-      "importance": 0.5458,
-      "importance_score": 0.5458,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 1.0,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-28T23:44:39Z",
-      "latest_at": "2026-06-29T05:09:24.911346Z",
-      "primary_item": {
-        "id": "01481d3299a9a9166cd412b4c2cb45f982db94f0",
-        "title": "8点1氪丨两大存储巨头今日发布大规模投资计划；江淮汽车股价腰斩，章建平9日套现近3亿元；Anthropic Fable 5有望很快恢复访问",
-        "url": "https://www.36kr.com/p/3873476968272902",
-        "source": "36氪 · 24小时热榜",
-        "source_name": "TopHub"
-      }
-    },
-    {
-      "story_id": "story_f466a3a4da74",
-      "title": "央行行长们警告称，人工智能热潮可能引发全球金融危机",
-      "url": "https://www.telegraph.co.uk/business/2026/06/28/ai-boom-risks-global-financial-crash-central-bankers-warn",
-      "primary_url": "https://www.telegraph.co.uk/business/2026/06/28/ai-boom-risks-global-financial-crash-central-bankers-warn",
-      "source": "www.telegraph.co.uk",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "f7654839cebdb3ec380377a8f0a147e4dfc5154e",
-          "title": "央行行长们警告称，人工智能热潮可能引发全球金融危机",
-          "url": "https://www.telegraph.co.uk/business/2026/06/28/ai-boom-risks-global-financial-crash-central-bankers-warn",
-          "source": "www.telegraph.co.uk",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-29T04:58:49.352000Z"
-        },
-        {
-          "id": "a4b8e4fb58958394baacccff5e409a7297509dd3",
-          "title": "央行行长们警告称，人工智能热潮可能引发全球金融危机 / AI boom risks global financial crash, warn central bankers",
-          "url": "https://www.telegraph.co.uk/business/2026/06/28/ai-boom-risks-global-financial-crash-central-bankers-warn",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-29T01:25:04Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News",
-        "www.telegraph.co.uk"
-      ],
-      "items": [
-        {
-          "id": "f7654839cebdb3ec380377a8f0a147e4dfc5154e",
-          "title": "央行行长们警告称，人工智能热潮可能引发全球金融危机",
-          "url": "https://www.telegraph.co.uk/business/2026/06/28/ai-boom-risks-global-financial-crash-central-bankers-warn",
-          "source": "www.telegraph.co.uk",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-29T04:58:49.352000Z"
-        },
-        {
-          "id": "a4b8e4fb58958394baacccff5e409a7297509dd3",
-          "title": "央行行长们警告称，人工智能热潮可能引发全球金融危机 / AI boom risks global financial crash, warn central bankers",
-          "url": "https://www.telegraph.co.uk/business/2026/06/28/ai-boom-risks-global-financial-crash-central-bankers-warn",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-29T01:25:04Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5453,
-      "importance": 0.5453,
-      "importance_score": 0.5453,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9975,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-29T01:25:04Z",
-      "latest_at": "2026-06-29T04:58:49.352000Z",
-      "primary_item": {
-        "id": "f7654839cebdb3ec380377a8f0a147e4dfc5154e",
-        "title": "央行行长们警告称，人工智能热潮可能引发全球金融危机",
-        "url": "https://www.telegraph.co.uk/business/2026/06/28/ai-boom-risks-global-financial-crash-central-bankers-warn",
-        "source": "www.telegraph.co.uk",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_064435cfcb3b",
-      "title": "我使用Claude Code对我的MRI结果进行了二次诊断",
-      "url": "https://antoine.fi/mri-analysis-using-claude-code-opus",
-      "primary_url": "https://antoine.fi/mri-analysis-using-claude-code-opus",
-      "source": "antoine.fi",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "eaede1cf4eee0f8cd6196307e703903afe4953f8",
-          "title": "我使用Claude Code对我的MRI结果进行了二次诊断",
-          "url": "https://antoine.fi/mri-analysis-using-claude-code-opus",
-          "source": "antoine.fi",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-28T18:35:07.707000Z"
-        },
-        {
-          "id": "212d4783eb75c89dc5f79084b2a19a336220b7f1",
-          "title": "我使用 Claude Code 来获得有关 MRI 的第二意见 / I used Claude Code to get a second opinion on my MRI",
-          "url": "https://news.ycombinator.com/item?id=48708941",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-28T18:28:50.772000Z"
-        },
-        {
-          "id": "7de4229193c2b44ffceac811ee36feede5fb20cb",
-          "title": "我使用Claude Code对我的MRI结果进行了二次诊断 / I used Claude Code to get a second opinion on my MRI",
-          "url": "https://antoine.fi/mri-analysis-using-claude-code-opus",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-28T16:35:19Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Hacker News",
-        "antoine.fi",
-        "hackernews"
-      ],
-      "items": [
-        {
-          "id": "eaede1cf4eee0f8cd6196307e703903afe4953f8",
-          "title": "我使用Claude Code对我的MRI结果进行了二次诊断",
-          "url": "https://antoine.fi/mri-analysis-using-claude-code-opus",
-          "source": "antoine.fi",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-28T18:35:07.707000Z"
-        },
-        {
-          "id": "212d4783eb75c89dc5f79084b2a19a336220b7f1",
-          "title": "我使用 Claude Code 来获得有关 MRI 的第二意见 / I used Claude Code to get a second opinion on my MRI",
-          "url": "https://news.ycombinator.com/item?id=48708941",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-28T18:28:50.772000Z"
-        },
-        {
-          "id": "7de4229193c2b44ffceac811ee36feede5fb20cb",
-          "title": "我使用Claude Code对我的MRI结果进行了二次诊断 / I used Claude Code to get a second opinion on my MRI",
-          "url": "https://antoine.fi/mri-analysis-using-claude-code-opus",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-28T16:35:19Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.5453,
-      "importance": 0.5453,
-      "importance_score": 0.5453,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8584,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-28T16:35:19Z",
-      "latest_at": "2026-06-28T18:35:07.707000Z",
-      "primary_item": {
-        "id": "eaede1cf4eee0f8cd6196307e703903afe4953f8",
-        "title": "我使用Claude Code对我的MRI结果进行了二次诊断",
-        "url": "https://antoine.fi/mri-analysis-using-claude-code-opus",
-        "source": "antoine.fi",
         "source_name": "Buzzing"
       }
     }
