@@ -2,16 +2,16 @@
   "schema_version": 1,
   "sources": {
     "socialdata": {
-      "last_run_at": "2026-06-28T22:56:39.337880Z",
+      "last_run_at": "2026-06-29T14:32:11.787553Z",
       "last_ok": true,
       "last_item_count": 20,
-      "last_success_at": "2026-06-28T22:56:39.337880Z"
+      "last_success_at": "2026-06-29T14:32:11.787553Z"
     },
     "tikhub": {
-      "last_run_at": "2026-06-28T12:01:06.969252Z",
+      "last_run_at": "2026-06-29T14:32:11.787553Z",
       "last_ok": true,
       "last_item_count": 20,
-      "last_success_at": "2026-06-28T12:01:06.969252Z"
+      "last_success_at": "2026-06-29T14:32:11.787553Z"
     }
   }
 }
