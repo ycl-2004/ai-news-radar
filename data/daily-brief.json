@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T00:04:25.577140Z",
+  "generated_at": "2026-06-29T05:09:24.911346Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -38,15 +38,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8345,
-      "importance": 0.8345,
-      "importance_score": 0.8345,
+      "score": 0.823,
+      "importance": 0.823,
+      "importance_score": 0.823,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.9029,
+        "recency": 0.839,
         "story_heat": 0.0
       },
       "category": "official",
@@ -90,32 +90,12 @@
           "source_name": "Buzzing",
           "site_id": "buzzing",
           "published_at": "2026-06-28T16:58:56.073000Z"
-        },
-        {
-          "id": "8f678ab05294525d09eb008ce78fbf6620c5a4d5",
-          "title": "Wayfinder Router：本地和托管 LLM 之间查询的确定性路由 / Wayfinder Router: deterministic routing of queries between local and hosted LLM",
-          "url": "https://news.ycombinator.com/item?id=48704373",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-28T07:33:04.258000Z"
-        },
-        {
-          "id": "79b5b6d03eae14de546a8e1af039c031a92cef23",
-          "title": "Wayfinder Router：在本地和托管的大语言模型之间进行确定性查询路由 / Wayfinder Router: deterministic routing of queries between local and hosted LLM",
-          "url": "https://github.com/itsthelore/wayfinder-router",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-28T04:31:18Z"
         }
       ],
-      "source_count": 4,
+      "source_count": 2,
       "source_names": [
-        "Hacker News",
         "Hacker News 热门（buzzing.cc 中文翻译）",
-        "github.com",
-        "hackernews"
+        "github.com"
       ],
       "items": [
         {
@@ -135,46 +115,28 @@
           "source_name": "Buzzing",
           "site_id": "buzzing",
           "published_at": "2026-06-28T16:58:56.073000Z"
-        },
-        {
-          "id": "8f678ab05294525d09eb008ce78fbf6620c5a4d5",
-          "title": "Wayfinder Router：本地和托管 LLM 之间查询的确定性路由 / Wayfinder Router: deterministic routing of queries between local and hosted LLM",
-          "url": "https://news.ycombinator.com/item?id=48704373",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-28T07:33:04.258000Z"
-        },
-        {
-          "id": "79b5b6d03eae14de546a8e1af039c031a92cef23",
-          "title": "Wayfinder Router：在本地和托管的大语言模型之间进行确定性查询路由 / Wayfinder Router: deterministic routing of queries between local and hosted LLM",
-          "url": "https://github.com/itsthelore/wayfinder-router",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-28T04:31:18Z"
         }
       ],
-      "item_count": 4,
-      "duplicate_count": 4,
-      "score": 0.8341,
-      "importance": 0.8341,
-      "importance_score": 0.8341,
-      "importance_label": "多源热议",
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7726,
+      "importance": 0.7726,
+      "importance_score": 0.7726,
+      "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9027,
-        "story_heat": 0.75
+        "recency": 0.8388,
+        "story_heat": 0.25
       },
-      "category": "multi_source",
+      "category": "industry",
       "reasons": [
         "multi_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-06-28T04:31:18Z",
+      "earliest_at": "2026-06-28T16:58:56.073000Z",
       "latest_at": "2026-06-28T16:58:56.073000Z",
       "primary_item": {
         "id": "f8245961dd6be71dea60d4a2a9a37118197d0a2b",
@@ -185,83 +147,124 @@
       }
     },
     {
-      "story_id": "story_b7e01618c76a",
-      "title": "四大顶级AI对决《文明VI》：Claude核平法国仍输，暴露感知与执行短板",
-      "url": "https://www.ithome.com/0/969/570.htm",
-      "primary_url": "https://www.ithome.com/0/969/570.htm",
-      "source": "IT之家（RSS）",
-      "source_name": "AI HOT",
+      "story_id": "story_91fc7f26d908",
+      "title": "AI 开启打工新模式：惠普与 OpenAI 升级战略合作",
+      "url": "https://www.aibase.com/news/29210",
+      "primary_url": "https://www.aibase.com/news/29210",
+      "source": "AIbase",
+      "source_name": "AIbase",
       "sources": [
         {
-          "id": "918a0fb66dce8b05e07d9c6811686910a865afa0",
-          "title": "四大顶级AI对决《文明VI》：Claude核平法国仍输，暴露感知与执行短板",
-          "url": "https://www.ithome.com/0/969/570.htm",
-          "source": "IT之家（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-28T02:45:16Z"
-        },
-        {
-          "id": "a76e44fc9491635838011b76e5c2d0044e476a74",
-          "title": "四大顶级 AI 对决《文明 VI》！Claude「核平」法国，结果还是输了",
-          "url": "https://www.ithome.com/0/969/570.htm",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
+          "id": "2dc0d8cc0cea5bd5cae29d2b14ca0cb60493d32c",
+          "title": "AI 开启打工新模式：惠普与 OpenAI 升级战略合作",
+          "url": "https://www.aibase.com/news/29210",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-29T05:09:24.911346Z"
         }
       ],
-      "source_count": 2,
+      "source_count": 1,
       "source_names": [
-        "IT之家（RSS）",
-        "Readhub · AI"
+        "AIbase"
       ],
       "items": [
         {
-          "id": "918a0fb66dce8b05e07d9c6811686910a865afa0",
-          "title": "四大顶级AI对决《文明VI》：Claude核平法国仍输，暴露感知与执行短板",
-          "url": "https://www.ithome.com/0/969/570.htm",
-          "source": "IT之家（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-28T02:45:16Z"
-        },
-        {
-          "id": "a76e44fc9491635838011b76e5c2d0044e476a74",
-          "title": "四大顶级 AI 对决《文明 VI》！Claude「核平」法国，结果还是输了",
-          "url": "https://www.ithome.com/0/969/570.htm",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
+          "id": "2dc0d8cc0cea5bd5cae29d2b14ca0cb60493d32c",
+          "title": "AI 开启打工新模式：惠普与 OpenAI 升级战略合作",
+          "url": "https://www.aibase.com/news/29210",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-29T05:09:24.911346Z"
         }
       ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7569,
-      "importance": 0.7569,
-      "importance_score": 0.7569,
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
       "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.76,
+        "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.735,
-        "story_heat": 0.25
+        "recency": 1.0,
+        "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "multi_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-06-28T02:45:16Z",
-      "latest_at": "2026-06-28T03:56:44.300801Z",
+      "earliest_at": "2026-06-29T05:09:24.911346Z",
+      "latest_at": "2026-06-29T05:09:24.911346Z",
       "primary_item": {
-        "id": "918a0fb66dce8b05e07d9c6811686910a865afa0",
-        "title": "四大顶级AI对决《文明VI》：Claude核平法国仍输，暴露感知与执行短板",
-        "url": "https://www.ithome.com/0/969/570.htm",
-        "source": "IT之家（RSS）",
+        "id": "2dc0d8cc0cea5bd5cae29d2b14ca0cb60493d32c",
+        "title": "AI 开启打工新模式：惠普与 OpenAI 升级战略合作",
+        "url": "https://www.aibase.com/news/29210",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_a0dc29fc2deb",
+      "title": "分享两个Vibe Coding必备的实用Prompt：第一性原理与对抗式审查",
+      "url": "https://mp.weixin.qq.com/s/umPqTD_-IubbhXIgiS47eQ",
+      "primary_url": "https://mp.weixin.qq.com/s/umPqTD_-IubbhXIgiS47eQ",
+      "source": "公众号：数字生命卡兹克",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "7927bb4de85e220098aa97d4ee4b59952b591848",
+          "title": "分享两个Vibe Coding必备的实用Prompt：第一性原理与对抗式审查",
+          "url": "https://mp.weixin.qq.com/s/umPqTD_-IubbhXIgiS47eQ",
+          "source": "公众号：数字生命卡兹克",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-29T02:08:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "公众号：数字生命卡兹克"
+      ],
+      "items": [
+        {
+          "id": "7927bb4de85e220098aa97d4ee4b59952b591848",
+          "title": "分享两个Vibe Coding必备的实用Prompt：第一性原理与对抗式审查",
+          "url": "https://mp.weixin.qq.com/s/umPqTD_-IubbhXIgiS47eQ",
+          "source": "公众号：数字生命卡兹克",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-29T02:08:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7539,
+      "importance": 0.7539,
+      "importance_score": 0.7539,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.7,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9573,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-29T02:08:00Z",
+      "latest_at": "2026-06-29T02:08:00Z",
+      "primary_item": {
+        "id": "7927bb4de85e220098aa97d4ee4b59952b591848",
+        "title": "分享两个Vibe Coding必备的实用Prompt：第一性原理与对抗式审查",
+        "url": "https://mp.weixin.qq.com/s/umPqTD_-IubbhXIgiS47eQ",
+        "source": "公众号：数字生命卡兹克",
         "source_name": "AI HOT"
       }
     },
@@ -319,22 +322,21 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7541,
-      "importance": 0.7541,
-      "importance_score": 0.7541,
+      "score": 0.7436,
+      "importance": 0.7436,
+      "importance_score": 0.7436,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8193,
+        "recency": 0.7613,
         "story_heat": 0.25
       },
       "category": "industry",
       "reasons": [
         "multi_source",
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-06-28T10:16:13Z",
       "latest_at": "2026-06-28T10:16:13Z",
@@ -347,63 +349,64 @@
       }
     },
     {
-      "story_id": "story_b75022688aa0",
-      "title": "Grok 4.5 私测于 SpaceX 和 Tesla，性能接近 Opus",
-      "url": "https://x.com/elonmusk/status/2071184354756477041",
-      "primary_url": "https://x.com/elonmusk/status/2071184354756477041",
-      "source": "X：Elon Musk (@elonmusk, xAI)",
-      "source_name": "AI HOT",
+      "story_id": "story_643c32f1ea34",
+      "title": "AI大模型狂飙的代价：苹果用户或为硬件全面涨价买单",
+      "url": "https://www.aibase.com/news/29218",
+      "primary_url": "https://www.aibase.com/news/29218",
+      "source": "AIbase",
+      "source_name": "AIbase",
       "sources": [
         {
-          "id": "72f4093c3e9060c9268bee4229404e4bc1d8d63c",
-          "title": "Grok 4.5 私测于 SpaceX 和 Tesla，性能接近 Opus",
-          "url": "https://x.com/elonmusk/status/2071184354756477041",
-          "source": "X：Elon Musk (@elonmusk, xAI)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-28T10:50:05Z"
+          "id": "fa1dd381ebf3b0c7d0e67237490fc3a004057695",
+          "title": "AI大模型狂飙的代价：苹果用户或为硬件全面涨价买单",
+          "url": "https://www.aibase.com/news/29218",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-29T05:09:24.911346Z"
         }
       ],
       "source_count": 1,
       "source_names": [
-        "X：Elon Musk (@elonmusk, xAI)"
+        "AIbase"
       ],
       "items": [
         {
-          "id": "72f4093c3e9060c9268bee4229404e4bc1d8d63c",
-          "title": "Grok 4.5 私测于 SpaceX 和 Tesla，性能接近 Opus",
-          "url": "https://x.com/elonmusk/status/2071184354756477041",
-          "source": "X：Elon Musk (@elonmusk, xAI)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-28T10:50:05Z"
+          "id": "fa1dd381ebf3b0c7d0e67237490fc3a004057695",
+          "title": "AI大模型狂飙的代价：苹果用户或为硬件全面涨价买单",
+          "url": "https://www.aibase.com/news/29218",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-29T05:09:24.911346Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7303,
-      "importance": 0.7303,
-      "importance_score": 0.7303,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
       "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.7,
+        "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.826,
+        "recency": 1.0,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance"
+        "high_ai_relevance",
+        "high_importance"
       ],
-      "earliest_at": "2026-06-28T10:50:05Z",
-      "latest_at": "2026-06-28T10:50:05Z",
+      "earliest_at": "2026-06-29T05:09:24.911346Z",
+      "latest_at": "2026-06-29T05:09:24.911346Z",
       "primary_item": {
-        "id": "72f4093c3e9060c9268bee4229404e4bc1d8d63c",
-        "title": "Grok 4.5 私测于 SpaceX 和 Tesla，性能接近 Opus",
-        "url": "https://x.com/elonmusk/status/2071184354756477041",
-        "source": "X：Elon Musk (@elonmusk, xAI)",
-        "source_name": "AI HOT"
+        "id": "fa1dd381ebf3b0c7d0e67237490fc3a004057695",
+        "title": "AI大模型狂飙的代价：苹果用户或为硬件全面涨价买单",
+        "url": "https://www.aibase.com/news/29218",
+        "source": "AIbase",
+        "source_name": "AIbase"
       }
     },
     {
@@ -460,15 +463,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7488,
-      "importance": 0.7488,
-      "importance_score": 0.7488,
+      "score": 0.7387,
+      "importance": 0.7387,
+      "importance_score": 0.7387,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7899,
+        "recency": 0.734,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -487,63 +490,125 @@
       }
     },
     {
-      "story_id": "story_faa965705097",
-      "title": "阿德拉菲尼尔：仅在AI agent工作时阻止Mac睡眠的菜单栏工具",
-      "url": "https://github.com/kageroumado/adrafinil",
-      "primary_url": "https://github.com/kageroumado/adrafinil",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "source_name": "AI HOT",
+      "story_id": "story_8c8d966b5c45",
+      "title": "Anthropic 获准恢复 Fable 5 模型，美 AI 出口管制政策出现微调",
+      "url": "https://www.aibase.com/news/29215",
+      "primary_url": "https://www.aibase.com/news/29215",
+      "source": "AIbase",
+      "source_name": "AIbase",
       "sources": [
         {
-          "id": "1fd756973a69f1b0bcdbc194a81bb544cb5f4431",
-          "title": "阿德拉菲尼尔：仅在AI agent工作时阻止Mac睡眠的菜单栏工具",
-          "url": "https://github.com/kageroumado/adrafinil",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-28T03:55:17.096000Z"
+          "id": "a4b53a18fec820d20ece54475b1b53359c69fc62",
+          "title": "Anthropic 获准恢复 Fable 5 模型，美 AI 出口管制政策出现微调",
+          "url": "https://www.aibase.com/news/29215",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-29T05:09:24.911346Z"
         }
       ],
       "source_count": 1,
       "source_names": [
-        "Hacker News 热门（buzzing.cc 中文翻译）"
+        "AIbase"
       ],
       "items": [
         {
-          "id": "1fd756973a69f1b0bcdbc194a81bb544cb5f4431",
-          "title": "阿德拉菲尼尔：仅在AI agent工作时阻止Mac睡眠的菜单栏工具",
-          "url": "https://github.com/kageroumado/adrafinil",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-28T03:55:17.096000Z"
+          "id": "a4b53a18fec820d20ece54475b1b53359c69fc62",
+          "title": "Anthropic 获准恢复 Fable 5 模型，美 AI 出口管制政策出现微调",
+          "url": "https://www.aibase.com/news/29215",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-29T05:09:24.911346Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7222,
-      "importance": 0.7222,
-      "importance_score": 0.7222,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7475,
+        "recency": 1.0,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance"
+        "high_ai_relevance",
+        "high_importance"
       ],
-      "earliest_at": "2026-06-28T03:55:17.096000Z",
-      "latest_at": "2026-06-28T03:55:17.096000Z",
+      "earliest_at": "2026-06-29T05:09:24.911346Z",
+      "latest_at": "2026-06-29T05:09:24.911346Z",
       "primary_item": {
-        "id": "1fd756973a69f1b0bcdbc194a81bb544cb5f4431",
-        "title": "阿德拉菲尼尔：仅在AI agent工作时阻止Mac睡眠的菜单栏工具",
-        "url": "https://github.com/kageroumado/adrafinil",
-        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-        "source_name": "AI HOT"
+        "id": "a4b53a18fec820d20ece54475b1b53359c69fc62",
+        "title": "Anthropic 获准恢复 Fable 5 模型，美 AI 出口管制政策出现微调",
+        "url": "https://www.aibase.com/news/29215",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_bcc40469c148",
+      "title": "Momenta开启港股招股，拟募资58.9亿港元深化物理AI布局",
+      "url": "https://www.aibase.com/news/29213",
+      "primary_url": "https://www.aibase.com/news/29213",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "6599474d9a7c05399dc0e66f492062088a136381",
+          "title": "Momenta开启港股招股，拟募资58.9亿港元深化物理AI布局",
+          "url": "https://www.aibase.com/news/29213",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-29T05:09:24.911346Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "6599474d9a7c05399dc0e66f492062088a136381",
+          "title": "Momenta开启港股招股，拟募资58.9亿港元深化物理AI布局",
+          "url": "https://www.aibase.com/news/29213",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-29T05:09:24.911346Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-29T05:09:24.911346Z",
+      "latest_at": "2026-06-29T05:09:24.911346Z",
+      "primary_item": {
+        "id": "6599474d9a7c05399dc0e66f492062088a136381",
+        "title": "Momenta开启港股招股，拟募资58.9亿港元深化物理AI布局",
+        "url": "https://www.aibase.com/news/29213",
+        "source": "AIbase",
+        "source_name": "AIbase"
       }
     },
     {
@@ -671,15 +736,15 @@
       ],
       "item_count": 6,
       "duplicate_count": 6,
-      "score": 0.6807,
-      "importance": 0.6807,
-      "importance_score": 0.6807,
+      "score": 0.6689,
+      "importance": 0.6689,
+      "importance_score": 0.6689,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.5112,
         "source_tier": 0.54,
         "ai_relevance": 0.71,
-        "recency": 0.9251,
+        "recency": 0.8596,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -694,6 +759,128 @@
         "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
         "source": "社区更新 · 2026-06-28",
         "source_name": "WaytoAGI"
+      }
+    },
+    {
+      "story_id": "story_c6babd1cf901",
+      "title": "​跨国科技新博弈：奥地利呼吁欧洲引入AI巨头Anthropic",
+      "url": "https://www.aibase.com/news/29216",
+      "primary_url": "https://www.aibase.com/news/29216",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "57de5ef94e20d7f877ae217d2e5799b86b090973",
+          "title": "​跨国科技新博弈：奥地利呼吁欧洲引入AI巨头Anthropic",
+          "url": "https://www.aibase.com/news/29216",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-29T05:09:24.911346Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "57de5ef94e20d7f877ae217d2e5799b86b090973",
+          "title": "​跨国科技新博弈：奥地利呼吁欧洲引入AI巨头Anthropic",
+          "url": "https://www.aibase.com/news/29216",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-29T05:09:24.911346Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-29T05:09:24.911346Z",
+      "latest_at": "2026-06-29T05:09:24.911346Z",
+      "primary_item": {
+        "id": "57de5ef94e20d7f877ae217d2e5799b86b090973",
+        "title": "​跨国科技新博弈：奥地利呼吁欧洲引入AI巨头Anthropic",
+        "url": "https://www.aibase.com/news/29216",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_1a0495a7dbf4",
+      "title": "修车告别“经验主义”：深圳星卡发布AI诊断工具“Tyler”，重塑售后市场标准",
+      "url": "https://www.aibase.com/news/29222",
+      "primary_url": "https://www.aibase.com/news/29222",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "f50c63a3fd700bf8ed8e8e8034f7a17cc4bed950",
+          "title": "修车告别“经验主义”：深圳星卡发布AI诊断工具“Tyler”，重塑售后市场标准",
+          "url": "https://www.aibase.com/news/29222",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-29T05:09:24.911346Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "f50c63a3fd700bf8ed8e8e8034f7a17cc4bed950",
+          "title": "修车告别“经验主义”：深圳星卡发布AI诊断工具“Tyler”，重塑售后市场标准",
+          "url": "https://www.aibase.com/news/29222",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-29T05:09:24.911346Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-29T05:09:24.911346Z",
+      "latest_at": "2026-06-29T05:09:24.911346Z",
+      "primary_item": {
+        "id": "f50c63a3fd700bf8ed8e8e8034f7a17cc4bed950",
+        "title": "修车告别“经验主义”：深圳星卡发布AI诊断工具“Tyler”，重塑售后市场标准",
+        "url": "https://www.aibase.com/news/29222",
+        "source": "AIbase",
+        "source_name": "AIbase"
       }
     },
     {
@@ -806,15 +993,15 @@
       ],
       "item_count": 5,
       "duplicate_count": 5,
-      "score": 0.6143,
-      "importance": 0.6143,
-      "importance_score": 0.6143,
+      "score": 0.602,
+      "importance": 0.602,
+      "importance_score": 0.602,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9637,
+        "recency": 0.8955,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -829,6 +1016,128 @@
         "url": "https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks",
         "source": "semgrep.dev",
         "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_b9646e8e969a",
+      "title": "全球第四家！OpenAI 与韩国人工智能安全研究所达成深度合作",
+      "url": "https://www.aibase.com/news/29214",
+      "primary_url": "https://www.aibase.com/news/29214",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "7317ddbbd1d50d87397eef5d14ddcae97bd0b125",
+          "title": "全球第四家！OpenAI 与韩国人工智能安全研究所达成深度合作",
+          "url": "https://www.aibase.com/news/29214",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-29T05:09:24.911346Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "7317ddbbd1d50d87397eef5d14ddcae97bd0b125",
+          "title": "全球第四家！OpenAI 与韩国人工智能安全研究所达成深度合作",
+          "url": "https://www.aibase.com/news/29214",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-29T05:09:24.911346Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-29T05:09:24.911346Z",
+      "latest_at": "2026-06-29T05:09:24.911346Z",
+      "primary_item": {
+        "id": "7317ddbbd1d50d87397eef5d14ddcae97bd0b125",
+        "title": "全球第四家！OpenAI 与韩国人工智能安全研究所达成深度合作",
+        "url": "https://www.aibase.com/news/29214",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_f6a8a62c6380",
+      "title": "农技服务“数字化”升级：农帮手 2.0 版上线，打造人人可用的 AI 专家",
+      "url": "https://www.aibase.com/news/29223",
+      "primary_url": "https://www.aibase.com/news/29223",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "6ce3635bd08c3af290c0d9dbb7c441645f6af47c",
+          "title": "农技服务“数字化”升级：农帮手 2.0 版上线，打造人人可用的 AI 专家",
+          "url": "https://www.aibase.com/news/29223",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-29T05:09:24.911346Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "6ce3635bd08c3af290c0d9dbb7c441645f6af47c",
+          "title": "农技服务“数字化”升级：农帮手 2.0 版上线，打造人人可用的 AI 专家",
+          "url": "https://www.aibase.com/news/29223",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-29T05:09:24.911346Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-29T05:09:24.911346Z",
+      "latest_at": "2026-06-29T05:09:24.911346Z",
+      "primary_item": {
+        "id": "6ce3635bd08c3af290c0d9dbb7c441645f6af47c",
+        "title": "农技服务“数字化”升级：农帮手 2.0 版上线，打造人人可用的 AI 专家",
+        "url": "https://www.aibase.com/news/29223",
+        "source": "AIbase",
+        "source_name": "AIbase"
       }
     },
     {
@@ -904,15 +1213,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5676,
-      "importance": 0.5676,
-      "importance_score": 0.5676,
+      "score": 0.5551,
+      "importance": 0.5551,
+      "importance_score": 0.5551,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9825,
+        "recency": 0.9129,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1002,15 +1311,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5609,
-      "importance": 0.5609,
-      "importance_score": 0.5609,
+      "score": 0.5488,
+      "importance": 0.5488,
+      "importance_score": 0.5488,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9448,
+        "recency": 0.8779,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1025,6 +1334,164 @@
         "url": "https://news.ycombinator.com/item?id=48710749",
         "source": "hackernews",
         "source_name": "NewsNow"
+      }
+    },
+    {
+      "story_id": "story_00a7f3328fb7",
+      "title": "8点1氪丨两大存储巨头今日发布大规模投资计划；江淮汽车股价腰斩，章建平9日套现近3亿元；Anthropic Fable 5有望很快恢复访问",
+      "url": "https://www.36kr.com/p/3873476968272902",
+      "primary_url": "https://www.36kr.com/p/3873476968272902",
+      "source": "36氪 · 24小时热榜",
+      "source_name": "TopHub",
+      "sources": [
+        {
+          "id": "01481d3299a9a9166cd412b4c2cb45f982db94f0",
+          "title": "8点1氪丨两大存储巨头今日发布大规模投资计划；江淮汽车股价腰斩，章建平9日套现近3亿元；Anthropic Fable 5有望很快恢复访问",
+          "url": "https://www.36kr.com/p/3873476968272902",
+          "source": "36氪 · 24小时热榜",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        },
+        {
+          "id": "005ce20ca5dd953f5b3d3a409d7b2ef601f1fc77",
+          "title": "8点1氪丨两大存储巨头今日发布大规模投资计划；江淮汽车股价腰斩，章建平9日套现近3亿元；Anthropic Fable 5有望很快恢复访问",
+          "url": "https://36kr.com/p/3873476968272902?f=rss",
+          "source": "36氪 (36Kr)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-28T23:44:39Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "36氪 (36Kr)",
+        "36氪 · 24小时热榜"
+      ],
+      "items": [
+        {
+          "id": "01481d3299a9a9166cd412b4c2cb45f982db94f0",
+          "title": "8点1氪丨两大存储巨头今日发布大规模投资计划；江淮汽车股价腰斩，章建平9日套现近3亿元；Anthropic Fable 5有望很快恢复访问",
+          "url": "https://www.36kr.com/p/3873476968272902",
+          "source": "36氪 · 24小时热榜",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        },
+        {
+          "id": "005ce20ca5dd953f5b3d3a409d7b2ef601f1fc77",
+          "title": "8点1氪丨两大存储巨头今日发布大规模投资计划；江淮汽车股价腰斩，章建平9日套现近3亿元；Anthropic Fable 5有望很快恢复访问",
+          "url": "https://36kr.com/p/3873476968272902?f=rss",
+          "source": "36氪 (36Kr)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-28T23:44:39Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5458,
+      "importance": 0.5458,
+      "importance_score": 0.5458,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 1.0,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-28T23:44:39Z",
+      "latest_at": "2026-06-29T05:09:24.911346Z",
+      "primary_item": {
+        "id": "01481d3299a9a9166cd412b4c2cb45f982db94f0",
+        "title": "8点1氪丨两大存储巨头今日发布大规模投资计划；江淮汽车股价腰斩，章建平9日套现近3亿元；Anthropic Fable 5有望很快恢复访问",
+        "url": "https://www.36kr.com/p/3873476968272902",
+        "source": "36氪 · 24小时热榜",
+        "source_name": "TopHub"
+      }
+    },
+    {
+      "story_id": "story_f466a3a4da74",
+      "title": "央行行长们警告称，人工智能热潮可能引发全球金融危机",
+      "url": "https://www.telegraph.co.uk/business/2026/06/28/ai-boom-risks-global-financial-crash-central-bankers-warn",
+      "primary_url": "https://www.telegraph.co.uk/business/2026/06/28/ai-boom-risks-global-financial-crash-central-bankers-warn",
+      "source": "www.telegraph.co.uk",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "f7654839cebdb3ec380377a8f0a147e4dfc5154e",
+          "title": "央行行长们警告称，人工智能热潮可能引发全球金融危机",
+          "url": "https://www.telegraph.co.uk/business/2026/06/28/ai-boom-risks-global-financial-crash-central-bankers-warn",
+          "source": "www.telegraph.co.uk",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-29T04:58:49.352000Z"
+        },
+        {
+          "id": "a4b8e4fb58958394baacccff5e409a7297509dd3",
+          "title": "央行行长们警告称，人工智能热潮可能引发全球金融危机 / AI boom risks global financial crash, warn central bankers",
+          "url": "https://www.telegraph.co.uk/business/2026/06/28/ai-boom-risks-global-financial-crash-central-bankers-warn",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-29T01:25:04Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News",
+        "www.telegraph.co.uk"
+      ],
+      "items": [
+        {
+          "id": "f7654839cebdb3ec380377a8f0a147e4dfc5154e",
+          "title": "央行行长们警告称，人工智能热潮可能引发全球金融危机",
+          "url": "https://www.telegraph.co.uk/business/2026/06/28/ai-boom-risks-global-financial-crash-central-bankers-warn",
+          "source": "www.telegraph.co.uk",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-29T04:58:49.352000Z"
+        },
+        {
+          "id": "a4b8e4fb58958394baacccff5e409a7297509dd3",
+          "title": "央行行长们警告称，人工智能热潮可能引发全球金融危机 / AI boom risks global financial crash, warn central bankers",
+          "url": "https://www.telegraph.co.uk/business/2026/06/28/ai-boom-risks-global-financial-crash-central-bankers-warn",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-29T01:25:04Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5453,
+      "importance": 0.5453,
+      "importance_score": 0.5453,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9975,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-29T01:25:04Z",
+      "latest_at": "2026-06-29T04:58:49.352000Z",
+      "primary_item": {
+        "id": "f7654839cebdb3ec380377a8f0a147e4dfc5154e",
+        "title": "央行行长们警告称，人工智能热潮可能引发全球金融危机",
+        "url": "https://www.telegraph.co.uk/business/2026/06/28/ai-boom-risks-global-financial-crash-central-bankers-warn",
+        "source": "www.telegraph.co.uk",
+        "source_name": "Buzzing"
       }
     },
     {
@@ -1100,15 +1567,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5571,
-      "importance": 0.5571,
-      "importance_score": 0.5571,
+      "score": 0.5453,
+      "importance": 0.5453,
+      "importance_score": 0.5453,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9238,
+        "recency": 0.8584,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1123,694 +1590,6 @@
         "url": "https://antoine.fi/mri-analysis-using-claude-code-opus",
         "source": "antoine.fi",
         "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_82ea35ed86c3",
-      "title": "谷歌限制Meta使用其Gemini人工智能模型",
-      "url": "https://www.cnbc.com/2026/06/28/google-limits-metas-use-of-its-gemini-ai-models-ft-reports.html",
-      "primary_url": "https://www.cnbc.com/2026/06/28/google-limits-metas-use-of-its-gemini-ai-models-ft-reports.html",
-      "source": "www.cnbc.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "e9fbb5604717fffc9e6e4a8f82b23f2c6ded3519",
-          "title": "谷歌限制Meta使用其Gemini人工智能模型",
-          "url": "https://www.cnbc.com/2026/06/28/google-limits-metas-use-of-its-gemini-ai-models-ft-reports.html",
-          "source": "www.cnbc.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-28T17:14:51.500000Z"
-        },
-        {
-          "id": "519b3bf58573fe24a79bd71dcadd2306ac1ab235",
-          "title": "谷歌限制 Meta 使用其 Gemini AI 模型 / Google limits Meta's use of its Gemini AI models",
-          "url": "https://news.ycombinator.com/item?id=48707103",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-28T15:28:17.547000Z"
-        },
-        {
-          "id": "d56b0586d005638469d2ebb1e21de356ba465b1c",
-          "title": "谷歌限制Meta使用其Gemini人工智能模型 / Google limits Meta's use of its Gemini AI models",
-          "url": "https://www.cnbc.com/2026/06/28/google-limits-metas-use-of-its-gemini-ai-models-ft-reports.html",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-28T13:30:06Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Hacker News (黑客新闻)",
-        "hackernews",
-        "www.cnbc.com"
-      ],
-      "items": [
-        {
-          "id": "e9fbb5604717fffc9e6e4a8f82b23f2c6ded3519",
-          "title": "谷歌限制Meta使用其Gemini人工智能模型",
-          "url": "https://www.cnbc.com/2026/06/28/google-limits-metas-use-of-its-gemini-ai-models-ft-reports.html",
-          "source": "www.cnbc.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-28T17:14:51.500000Z"
-        },
-        {
-          "id": "519b3bf58573fe24a79bd71dcadd2306ac1ab235",
-          "title": "谷歌限制 Meta 使用其 Gemini AI 模型 / Google limits Meta's use of its Gemini AI models",
-          "url": "https://news.ycombinator.com/item?id=48707103",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-28T15:28:17.547000Z"
-        },
-        {
-          "id": "d56b0586d005638469d2ebb1e21de356ba465b1c",
-          "title": "谷歌限制Meta使用其Gemini人工智能模型 / Google limits Meta's use of its Gemini AI models",
-          "url": "https://www.cnbc.com/2026/06/28/google-limits-metas-use-of-its-gemini-ai-models-ft-reports.html",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-28T13:30:06Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.5539,
-      "importance": 0.5539,
-      "importance_score": 0.5539,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9061,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-28T13:30:06Z",
-      "latest_at": "2026-06-28T17:14:51.500000Z",
-      "primary_item": {
-        "id": "e9fbb5604717fffc9e6e4a8f82b23f2c6ded3519",
-        "title": "谷歌限制Meta使用其Gemini人工智能模型",
-        "url": "https://www.cnbc.com/2026/06/28/google-limits-metas-use-of-its-gemini-ai-models-ft-reports.html",
-        "source": "www.cnbc.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_6154952d1295",
-      "title": "OpenAI Codex中关于如何排除敏感文件的问题仍未解决",
-      "url": "https://github.com/openai/codex/issues/2847",
-      "primary_url": "https://github.com/openai/codex/issues/2847",
-      "source": "github.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "0fa0954b9e8f6c26028279d6f2085cfa8eb583e5",
-          "title": "OpenAI Codex中关于如何排除敏感文件的问题仍未解决",
-          "url": "https://github.com/openai/codex/issues/2847",
-          "source": "github.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-28T16:26:55.403000Z"
-        },
-        {
-          "id": "a33d4e7ded46a4b3a8bfd35915cba515ea3312a6",
-          "title": "OpenAI Codex 仍存在排除敏感文件问题的方法 / A way to exclude sensitive files issue still open for OpenAI Codex",
-          "url": "https://news.ycombinator.com/item?id=48706714",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-28T13:58:08.621000Z"
-        },
-        {
-          "id": "f98494544ce1b577bc5333a1a7a585c7bc0bd932",
-          "title": "OpenAI Codex中关于如何排除敏感文件的问题仍未解决 / A way to exclude sensitive files issue still open for OpenAI Codex",
-          "url": "https://github.com/openai/codex/issues/2847",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-28T12:27:33Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Hacker News · 24h最热",
-        "github.com",
-        "hackernews"
-      ],
-      "items": [
-        {
-          "id": "0fa0954b9e8f6c26028279d6f2085cfa8eb583e5",
-          "title": "OpenAI Codex中关于如何排除敏感文件的问题仍未解决",
-          "url": "https://github.com/openai/codex/issues/2847",
-          "source": "github.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-28T16:26:55.403000Z"
-        },
-        {
-          "id": "a33d4e7ded46a4b3a8bfd35915cba515ea3312a6",
-          "title": "OpenAI Codex 仍存在排除敏感文件问题的方法 / A way to exclude sensitive files issue still open for OpenAI Codex",
-          "url": "https://news.ycombinator.com/item?id=48706714",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-28T13:58:08.621000Z"
-        },
-        {
-          "id": "f98494544ce1b577bc5333a1a7a585c7bc0bd932",
-          "title": "OpenAI Codex中关于如何排除敏感文件的问题仍未解决 / A way to exclude sensitive files issue still open for OpenAI Codex",
-          "url": "https://github.com/openai/codex/issues/2847",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-28T12:27:33Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.552,
-      "importance": 0.552,
-      "importance_score": 0.552,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8957,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-28T12:27:33Z",
-      "latest_at": "2026-06-28T16:26:55.403000Z",
-      "primary_item": {
-        "id": "0fa0954b9e8f6c26028279d6f2085cfa8eb583e5",
-        "title": "OpenAI Codex中关于如何排除敏感文件的问题仍未解决",
-        "url": "https://github.com/openai/codex/issues/2847",
-        "source": "github.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_95612e776040",
-      "title": "金钱买不到的AI人才优势",
-      "url": "https://www.businessinsider.com/ai-talent-wars-google-deepmind-openai-anthropic-freedom-money-2026-6",
-      "primary_url": "https://www.businessinsider.com/ai-talent-wars-google-deepmind-openai-anthropic-freedom-money-2026-6",
-      "source": "www.businessinsider.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "55bc7efa11f1b6176ef725218cd50eb145a7e37d",
-          "title": "金钱买不到的AI人才优势",
-          "url": "https://www.businessinsider.com/ai-talent-wars-google-deepmind-openai-anthropic-freedom-money-2026-6",
-          "source": "www.businessinsider.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-28T23:22:44.195000Z"
-        },
-        {
-          "id": "19109e137674aab603b77cc9769b486799743c9c",
-          "title": "金钱买不到的AI人才优势 / The AI talent perk money can't buy",
-          "url": "https://www.businessinsider.com/ai-talent-wars-google-deepmind-openai-anthropic-freedom-money-2026-6",
-          "source": "Business Insider",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-28T09:11:01Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Business Insider",
-        "www.businessinsider.com"
-      ],
-      "items": [
-        {
-          "id": "55bc7efa11f1b6176ef725218cd50eb145a7e37d",
-          "title": "金钱买不到的AI人才优势",
-          "url": "https://www.businessinsider.com/ai-talent-wars-google-deepmind-openai-anthropic-freedom-money-2026-6",
-          "source": "www.businessinsider.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-28T23:22:44.195000Z"
-        },
-        {
-          "id": "19109e137674aab603b77cc9769b486799743c9c",
-          "title": "金钱买不到的AI人才优势 / The AI talent perk money can't buy",
-          "url": "https://www.businessinsider.com/ai-talent-wars-google-deepmind-openai-anthropic-freedom-money-2026-6",
-          "source": "Business Insider",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-28T09:11:01Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.544,
-      "importance": 0.544,
-      "importance_score": 0.544,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.99,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-28T09:11:01Z",
-      "latest_at": "2026-06-28T23:22:44.195000Z",
-      "primary_item": {
-        "id": "55bc7efa11f1b6176ef725218cd50eb145a7e37d",
-        "title": "金钱买不到的AI人才优势",
-        "url": "https://www.businessinsider.com/ai-talent-wars-google-deepmind-openai-anthropic-freedom-money-2026-6",
-        "source": "www.businessinsider.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_77e625f953f8",
-      "title": "Show HN: Bash4LLM——一个轻量级、无依赖的用于 LLM API 的 Bash 封装库 / Show HN: Bash4LLM+ – A lightweight, dependency-free Bash wrapper for LLM APIs",
-      "url": "https://github.com/kamaludu/bash4llm",
-      "primary_url": "https://github.com/kamaludu/bash4llm",
-      "source": "Hacker News (黑客新闻)",
-      "source_name": "Info Flow",
-      "sources": [
-        {
-          "id": "fa18136a56c06382ff96edb4d7d92b50e9717eea",
-          "title": "Show HN: Bash4LLM——一个轻量级、无依赖的用于 LLM API 的 Bash 封装库 / Show HN: Bash4LLM+ – A lightweight, dependency-free Bash wrapper for LLM APIs",
-          "url": "https://github.com/kamaludu/bash4llm",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-28T19:43:10Z"
-        },
-        {
-          "id": "74977b97bea814f9890e1ff31aa9564887f9e531",
-          "title": "Show HN: Bash4LLM——一个轻量级、无依赖的用于 LLM API 的 Bash 封装库",
-          "url": "https://github.com/kamaludu/bash4llm",
-          "source": "github.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-28T01:30:56.174000Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News (黑客新闻)",
-        "github.com"
-      ],
-      "items": [
-        {
-          "id": "fa18136a56c06382ff96edb4d7d92b50e9717eea",
-          "title": "Show HN: Bash4LLM——一个轻量级、无依赖的用于 LLM API 的 Bash 封装库 / Show HN: Bash4LLM+ – A lightweight, dependency-free Bash wrapper for LLM APIs",
-          "url": "https://github.com/kamaludu/bash4llm",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-28T19:43:10Z"
-        },
-        {
-          "id": "74977b97bea814f9890e1ff31aa9564887f9e531",
-          "title": "Show HN: Bash4LLM——一个轻量级、无依赖的用于 LLM API 的 Bash 封装库",
-          "url": "https://github.com/kamaludu/bash4llm",
-          "source": "github.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-28T01:30:56.174000Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5348,
-      "importance": 0.5348,
-      "importance_score": 0.5348,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9391,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-28T01:30:56.174000Z",
-      "latest_at": "2026-06-28T19:43:10Z",
-      "primary_item": {
-        "id": "fa18136a56c06382ff96edb4d7d92b50e9717eea",
-        "title": "Show HN: Bash4LLM——一个轻量级、无依赖的用于 LLM API 的 Bash 封装库 / Show HN: Bash4LLM+ – A lightweight, dependency-free Bash wrapper for LLM APIs",
-        "url": "https://github.com/kamaludu/bash4llm",
-        "source": "Hacker News (黑客新闻)",
-        "source_name": "Info Flow"
-      }
-    },
-    {
-      "story_id": "story_fe22cd85c059",
-      "title": "Librepods：摆脱苹果生态系统的AirPods / GitHub – librepods-org/librepods: AirPods liberated from Apple's ecosystem",
-      "url": "https://github.com/librepods-org/librepods",
-      "primary_url": "https://github.com/librepods-org/librepods",
-      "source": "Hacker News · 24h最热",
-      "source_name": "Zeli",
-      "sources": [
-        {
-          "id": "facda9272794d48a7f739bd70a752c91467f43c2",
-          "title": "Librepods：摆脱苹果生态系统的AirPods / GitHub – librepods-org/librepods: AirPods liberated from Apple's ecosystem",
-          "url": "https://github.com/librepods-org/librepods",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-28T18:48:53Z"
-        },
-        {
-          "id": "1c7fb406b19de20f488fe638ca3d697abfac6fcb",
-          "title": "Librepods：摆脱苹果生态系统的AirPods / Librepods: AirPods liberated",
-          "url": "https://github.com/librepods-org/librepods",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-28T18:48:53Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News · 24h最热"
-      ],
-      "items": [
-        {
-          "id": "facda9272794d48a7f739bd70a752c91467f43c2",
-          "title": "Librepods：摆脱苹果生态系统的AirPods / GitHub – librepods-org/librepods: AirPods liberated from Apple's ecosystem",
-          "url": "https://github.com/librepods-org/librepods",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-28T18:48:53Z"
-        },
-        {
-          "id": "1c7fb406b19de20f488fe638ca3d697abfac6fcb",
-          "title": "Librepods：摆脱苹果生态系统的AirPods / Librepods: AirPods liberated",
-          "url": "https://github.com/librepods-org/librepods",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-28T18:48:53Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5326,
-      "importance": 0.5326,
-      "importance_score": 0.5326,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9269,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-28T18:48:53Z",
-      "latest_at": "2026-06-28T18:48:53Z",
-      "primary_item": {
-        "id": "facda9272794d48a7f739bd70a752c91467f43c2",
-        "title": "Librepods：摆脱苹果生态系统的AirPods / GitHub – librepods-org/librepods: AirPods liberated from Apple's ecosystem",
-        "url": "https://github.com/librepods-org/librepods",
-        "source": "Hacker News · 24h最热",
-        "source_name": "Zeli"
-      }
-    },
-    {
-      "story_id": "story_15b81a17c7dd",
-      "title": "福特公司雇佣了人工智能，解雇了人类员工。结果适得其反。",
-      "url": "https://www.the-independent.com/tech/ford-ai-automation-human-workers-b3003787.html",
-      "primary_url": "https://www.the-independent.com/tech/ford-ai-automation-human-workers-b3003787.html",
-      "source": "www.the-independent.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "9f2cf774469e602d03b86df3c1930f7c40867658",
-          "title": "福特公司雇佣了人工智能，解雇了人类员工。结果适得其反。",
-          "url": "https://www.the-independent.com/tech/ford-ai-automation-human-workers-b3003787.html",
-          "source": "www.the-independent.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-28T06:19:06.155000Z"
-        },
-        {
-          "id": "22d9b1e5926cb164c9a724bec1274a5e614345bc",
-          "title": "福特雇佣了人工智能并解雇了人类。结果适得其反 / Ford hired AI and sacked humans. It backfired badly",
-          "url": "https://news.ycombinator.com/item?id=48703968",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-28T03:41:55.533000Z"
-        },
-        {
-          "id": "c5c9361bee3e9ccf3be77011cea5a3962d2bea50",
-          "title": "福特公司雇佣了人工智能，解雇了人类员工。结果适得其反。 / Ford hired AI and sacked humans. It backfired badly",
-          "url": "https://www.the-independent.com/tech/ford-ai-automation-human-workers-b3003787.html",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-28T03:09:13Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Hacker News",
-        "hackernews",
-        "www.the-independent.com"
-      ],
-      "items": [
-        {
-          "id": "9f2cf774469e602d03b86df3c1930f7c40867658",
-          "title": "福特公司雇佣了人工智能，解雇了人类员工。结果适得其反。",
-          "url": "https://www.the-independent.com/tech/ford-ai-automation-human-workers-b3003787.html",
-          "source": "www.the-independent.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-28T06:19:06.155000Z"
-        },
-        {
-          "id": "22d9b1e5926cb164c9a724bec1274a5e614345bc",
-          "title": "福特雇佣了人工智能并解雇了人类。结果适得其反 / Ford hired AI and sacked humans. It backfired badly",
-          "url": "https://news.ycombinator.com/item?id=48703968",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-28T03:41:55.533000Z"
-        },
-        {
-          "id": "c5c9361bee3e9ccf3be77011cea5a3962d2bea50",
-          "title": "福特公司雇佣了人工智能，解雇了人类员工。结果适得其反。 / Ford hired AI and sacked humans. It backfired badly",
-          "url": "https://www.the-independent.com/tech/ford-ai-automation-human-workers-b3003787.html",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-28T03:09:13Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.5301,
-      "importance": 0.5301,
-      "importance_score": 0.5301,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.7738,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-28T03:09:13Z",
-      "latest_at": "2026-06-28T06:19:06.155000Z",
-      "primary_item": {
-        "id": "9f2cf774469e602d03b86df3c1930f7c40867658",
-        "title": "福特公司雇佣了人工智能，解雇了人类员工。结果适得其反。",
-        "url": "https://www.the-independent.com/tech/ford-ai-automation-human-workers-b3003787.html",
-        "source": "www.the-independent.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_ec6454c520d0",
-      "title": "致AI杂工们",
-      "url": "https://www.reddit.com/r/plan9/comments/1uhiwf9/attention_ai_slop_porters",
-      "primary_url": "https://www.reddit.com/r/plan9/comments/1uhiwf9/attention_ai_slop_porters",
-      "source": "www.reddit.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "0c83bd002975e40b62f9bed42a0f113a6021835e",
-          "title": "致AI杂工们",
-          "url": "https://www.reddit.com/r/plan9/comments/1uhiwf9/attention_ai_slop_porters",
-          "source": "www.reddit.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-28T17:30:53.988000Z"
-        },
-        {
-          "id": "ecc99f98bb38446bad8fd259fba4933a6b8c5024",
-          "title": "致AI杂工们 / Attention AI Slop Porters",
-          "url": "https://www.reddit.com/r/plan9/comments/1uhiwf9/attention_ai_slop_porters",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-28T17:06:40Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Lobsters (技术社区)",
-        "www.reddit.com"
-      ],
-      "items": [
-        {
-          "id": "0c83bd002975e40b62f9bed42a0f113a6021835e",
-          "title": "致AI杂工们",
-          "url": "https://www.reddit.com/r/plan9/comments/1uhiwf9/attention_ai_slop_porters",
-          "source": "www.reddit.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-28T17:30:53.988000Z"
-        },
-        {
-          "id": "ecc99f98bb38446bad8fd259fba4933a6b8c5024",
-          "title": "致AI杂工们 / Attention AI Slop Porters",
-          "url": "https://www.reddit.com/r/plan9/comments/1uhiwf9/attention_ai_slop_porters",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-28T17:06:40Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5295,
-      "importance": 0.5295,
-      "importance_score": 0.5295,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9096,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-28T17:06:40Z",
-      "latest_at": "2026-06-28T17:30:53.988000Z",
-      "primary_item": {
-        "id": "0c83bd002975e40b62f9bed42a0f113a6021835e",
-        "title": "致AI杂工们",
-        "url": "https://www.reddit.com/r/plan9/comments/1uhiwf9/attention_ai_slop_porters",
-        "source": "www.reddit.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_faed440e0f0c",
-      "title": "OpenAi 研究员：未来最极度的稀缺是什么？",
-      "url": "https://www.huxiu.com/article/4871071.html?f=rss",
-      "primary_url": "https://www.huxiu.com/article/4871071.html?f=rss",
-      "source": "Readhub · AI",
-      "source_name": "TopHub",
-      "sources": [
-        {
-          "id": "c7f0c120e827a7fb4b45980526c1cf4909a55095",
-          "title": "OpenAi 研究员：未来最极度的稀缺是什么？",
-          "url": "https://www.huxiu.com/article/4871071.html?f=rss",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        },
-        {
-          "id": "d55fc57a30f0d44f17afdc2329f432104f072567",
-          "title": "OpenAi研究员：未来最极度的稀缺是什么？",
-          "url": "https://www.huxiu.com/article/4871071.html?f=rss",
-          "source": "虎嗅 (Huxiu)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-28T16:06:01Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Readhub · AI",
-        "虎嗅 (Huxiu)"
-      ],
-      "items": [
-        {
-          "id": "c7f0c120e827a7fb4b45980526c1cf4909a55095",
-          "title": "OpenAi 研究员：未来最极度的稀缺是什么？",
-          "url": "https://www.huxiu.com/article/4871071.html?f=rss",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        },
-        {
-          "id": "d55fc57a30f0d44f17afdc2329f432104f072567",
-          "title": "OpenAi研究员：未来最极度的稀缺是什么？",
-          "url": "https://www.huxiu.com/article/4871071.html?f=rss",
-          "source": "虎嗅 (Huxiu)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-28T16:06:01Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5283,
-      "importance": 0.5283,
-      "importance_score": 0.5283,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9031,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-28T16:06:01Z",
-      "latest_at": "2026-06-28T17:00:44.024568Z",
-      "primary_item": {
-        "id": "c7f0c120e827a7fb4b45980526c1cf4909a55095",
-        "title": "OpenAi 研究员：未来最极度的稀缺是什么？",
-        "url": "https://www.huxiu.com/article/4871071.html?f=rss",
-        "source": "Readhub · AI",
-        "source_name": "TopHub"
       }
     }
   ]
