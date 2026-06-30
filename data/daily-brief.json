@@ -1,8 +1,70 @@
 {
-  "generated_at": "2026-06-30T02:50:39.419725Z",
+  "generated_at": "2026-06-30T06:50:40.047890Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
+    {
+      "story_id": "story_6e98bdfa6975",
+      "title": "开启英国的下一个生产力时代：建设一个人工智能开拓者的国家 / Unlocking Britain’s next era of productivity: Building a nation of AI trailblazers",
+      "url": "https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/unlocking-britains-next-era-of-productivity-building-a-nation-of-ai-trailblazers",
+      "primary_url": "https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/unlocking-britains-next-era-of-productivity-building-a-nation-of-ai-trailblazers",
+      "source": "Google AI Blog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "d71d9560b266e5a6aaaa26573c2cd3472f551bcd",
+          "title": "开启英国的下一个生产力时代：建设一个人工智能开拓者的国家 / Unlocking Britain’s next era of productivity: Building a nation of AI trailblazers",
+          "url": "https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/unlocking-britains-next-era-of-productivity-building-a-nation-of-ai-trailblazers",
+          "source": "Google AI Blog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-30T06:00:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Google AI Blog"
+      ],
+      "items": [
+        {
+          "id": "d71d9560b266e5a6aaaa26573c2cd3472f551bcd",
+          "title": "开启英国的下一个生产力时代：建设一个人工智能开拓者的国家 / Unlocking Britain’s next era of productivity: Building a nation of AI trailblazers",
+          "url": "https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/unlocking-britains-next-era-of-productivity-building-a-nation-of-ai-trailblazers",
+          "source": "Google AI Blog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-30T06:00:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8418,
+      "importance": 0.8418,
+      "importance_score": 0.8418,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.87,
+        "recency": 0.9879,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-30T06:00:00Z",
+      "latest_at": "2026-06-30T06:00:00Z",
+      "primary_item": {
+        "id": "d71d9560b266e5a6aaaa26573c2cd3472f551bcd",
+        "title": "开启英国的下一个生产力时代：建设一个人工智能开拓者的国家 / Unlocking Britain’s next era of productivity: Building a nation of AI trailblazers",
+        "url": "https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/unlocking-britains-next-era-of-productivity-building-a-nation-of-ai-trailblazers",
+        "source": "Google AI Blog",
+        "source_name": "Official AI Updates"
+      }
+    },
     {
       "story_id": "story_5a9c6b882649",
       "title": "Claude Opus 4.8（快速模式）现已推出 GitHub Copilot 预览版 / Claude Opus 4.8 (fast mode) is now in preview for GitHub Copilot",
@@ -38,15 +100,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8357,
-      "importance": 0.8357,
-      "importance_score": 0.8357,
+      "score": 0.8269,
+      "importance": 0.8269,
+      "importance_score": 0.8269,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.8648,
+        "recency": 0.8163,
         "story_heat": 0.0
       },
       "category": "official",
@@ -66,65 +128,64 @@
       }
     },
     {
-      "story_id": "story_f1de547afb62",
-      "title": "问AI专家：全栈到底是什么？ / Ask an AI expert: What exactly is the full stack?",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/full-stack-ai-explainer",
-      "primary_url": "https://blog.google/innovation-and-ai/technology/ai/full-stack-ai-explainer",
-      "source": "Google AI Blog",
-      "source_name": "Official AI Updates",
+      "story_id": "story_5a1ae999ca0c",
+      "title": "一个人管理5款产品，80%时间不写代码？Every的复利工程",
+      "url": "https://x.com/xiaohu/status/2071796715162857477",
+      "primary_url": "https://x.com/xiaohu/status/2071796715162857477",
+      "source": "X：小互 (@xiaohu)",
+      "source_name": "AI HOT",
       "sources": [
         {
-          "id": "6104a52f754d1628b780723c885f853753cd4e9e",
-          "title": "问AI专家：全栈到底是什么？ / Ask an AI expert: What exactly is the full stack?",
-          "url": "https://blog.google/innovation-and-ai/technology/ai/full-stack-ai-explainer",
-          "source": "Google AI Blog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-29T16:00:00Z"
+          "id": "90c194871b8513ca0d30423f01ecb2a32cbcf7c5",
+          "title": "一个人管理5款产品，80%时间不写代码？Every的复利工程",
+          "url": "https://x.com/xiaohu/status/2071796715162857477",
+          "source": "X：小互 (@xiaohu)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-30T03:23:23Z"
         }
       ],
       "source_count": 1,
       "source_names": [
-        "Google AI Blog"
+        "X：小互 (@xiaohu)"
       ],
       "items": [
         {
-          "id": "6104a52f754d1628b780723c885f853753cd4e9e",
-          "title": "问AI专家：全栈到底是什么？ / Ask an AI expert: What exactly is the full stack?",
-          "url": "https://blog.google/innovation-and-ai/technology/ai/full-stack-ai-explainer",
-          "source": "Google AI Blog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-29T16:00:00Z"
+          "id": "90c194871b8513ca0d30423f01ecb2a32cbcf7c5",
+          "title": "一个人管理5款产品，80%时间不写代码？Every的复利工程",
+          "url": "https://x.com/xiaohu/status/2071796715162857477",
+          "source": "X：小互 (@xiaohu)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-30T03:23:23Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8179,
-      "importance": 0.8179,
-      "importance_score": 0.8179,
-      "importance_label": "官方更新",
+      "score": 0.7858,
+      "importance": 0.7858,
+      "importance_score": 0.7858,
+      "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.855,
+        "editorial": 0.81,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9513,
         "story_heat": 0.0
       },
-      "category": "official",
+      "category": "industry",
       "reasons": [
-        "official_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-06-29T16:00:00Z",
-      "latest_at": "2026-06-29T16:00:00Z",
+      "earliest_at": "2026-06-30T03:23:23Z",
+      "latest_at": "2026-06-30T03:23:23Z",
       "primary_item": {
-        "id": "6104a52f754d1628b780723c885f853753cd4e9e",
-        "title": "问AI专家：全栈到底是什么？ / Ask an AI expert: What exactly is the full stack?",
-        "url": "https://blog.google/innovation-and-ai/technology/ai/full-stack-ai-explainer",
-        "source": "Google AI Blog",
-        "source_name": "Official AI Updates"
+        "id": "90c194871b8513ca0d30423f01ecb2a32cbcf7c5",
+        "title": "一个人管理5款产品，80%时间不写代码？Every的复利工程",
+        "url": "https://x.com/xiaohu/status/2071796715162857477",
+        "source": "X：小互 (@xiaohu)",
+        "source_name": "AI HOT"
       }
     },
     {
@@ -181,15 +242,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7926,
-      "importance": 0.7926,
-      "importance_score": 0.7926,
+      "score": 0.7825,
+      "importance": 0.7825,
+      "importance_score": 0.7825,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.9439,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -206,6 +267,87 @@
         "url": "https://www.aibase.com/news/29240",
         "source": "AIbase",
         "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_854000477b8f",
+      "title": "AI就业争论变得更加混乱",
+      "url": "https://techcrunch.com/2026/06/29/the-ai-jobs-debate-just-got-messier",
+      "primary_url": "https://techcrunch.com/2026/06/29/the-ai-jobs-debate-just-got-messier",
+      "source": "TechCrunch：AI（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "b799e04948668aa710ae4cef56c32e93c7dcc4b3",
+          "title": "AI就业争论变得更加混乱",
+          "url": "https://techcrunch.com/2026/06/29/the-ai-jobs-debate-just-got-messier",
+          "source": "TechCrunch：AI（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-30T04:01:00Z"
+        },
+        {
+          "id": "769bd778e92693da3c5e98bed482cb0a55cc6041",
+          "title": "AI就业争论变得更加混乱 / The AI jobs debate just got messier",
+          "url": "https://techcrunch.com/2026/06/29/the-ai-jobs-debate-just-got-messier",
+          "source": "TechCrunch",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-30T04:01:00Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "TechCrunch",
+        "TechCrunch：AI（RSS）"
+      ],
+      "items": [
+        {
+          "id": "b799e04948668aa710ae4cef56c32e93c7dcc4b3",
+          "title": "AI就业争论变得更加混乱",
+          "url": "https://techcrunch.com/2026/06/29/the-ai-jobs-debate-just-got-messier",
+          "source": "TechCrunch：AI（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-30T04:01:00Z"
+        },
+        {
+          "id": "769bd778e92693da3c5e98bed482cb0a55cc6041",
+          "title": "AI就业争论变得更加混乱 / The AI jobs debate just got messier",
+          "url": "https://techcrunch.com/2026/06/29/the-ai-jobs-debate-just-got-messier",
+          "source": "TechCrunch",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-30T04:01:00Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7824,
+      "importance": 0.7824,
+      "importance_score": 0.7824,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.71,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.96,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-30T04:01:00Z",
+      "latest_at": "2026-06-30T04:01:00Z",
+      "primary_item": {
+        "id": "b799e04948668aa710ae4cef56c32e93c7dcc4b3",
+        "title": "AI就业争论变得更加混乱",
+        "url": "https://techcrunch.com/2026/06/29/the-ai-jobs-debate-just-got-messier",
+        "source": "TechCrunch：AI（RSS）",
+        "source_name": "AI HOT"
       }
     },
     {
@@ -243,15 +385,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8182,
-      "importance": 0.8182,
-      "importance_score": 0.8182,
+      "score": 0.8096,
+      "importance": 0.8096,
+      "importance_score": 0.8096,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.8568,
+        "recency": 0.8087,
         "story_heat": 0.0
       },
       "category": "official",
@@ -267,6 +409,68 @@
         "title": "仅限协作者创建问题 / Restrict issue creation to collaborators only",
         "url": "https://github.blog/changelog/2026-06-29-restrict-issue-creation-to-collaborators-only",
         "source": "GitHub Changelog",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_f1de547afb62",
+      "title": "问AI专家：全栈到底是什么？ / Ask an AI expert: What exactly is the full stack?",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/full-stack-ai-explainer",
+      "primary_url": "https://blog.google/innovation-and-ai/technology/ai/full-stack-ai-explainer",
+      "source": "Google AI Blog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "6104a52f754d1628b780723c885f853753cd4e9e",
+          "title": "问AI专家：全栈到底是什么？ / Ask an AI expert: What exactly is the full stack?",
+          "url": "https://blog.google/innovation-and-ai/technology/ai/full-stack-ai-explainer",
+          "source": "Google AI Blog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-29T16:00:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Google AI Blog"
+      ],
+      "items": [
+        {
+          "id": "6104a52f754d1628b780723c885f853753cd4e9e",
+          "title": "问AI专家：全栈到底是什么？ / Ask an AI expert: What exactly is the full stack?",
+          "url": "https://blog.google/innovation-and-ai/technology/ai/full-stack-ai-explainer",
+          "source": "Google AI Blog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-29T16:00:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8093,
+      "importance": 0.8093,
+      "importance_score": 0.8093,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.87,
+        "recency": 0.8071,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-29T16:00:00Z",
+      "latest_at": "2026-06-29T16:00:00Z",
+      "primary_item": {
+        "id": "6104a52f754d1628b780723c885f853753cd4e9e",
+        "title": "问AI专家：全栈到底是什么？ / Ask an AI expert: What exactly is the full stack?",
+        "url": "https://blog.google/innovation-and-ai/technology/ai/full-stack-ai-explainer",
+        "source": "Google AI Blog",
         "source_name": "Official AI Updates"
       }
     },
@@ -324,15 +528,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7801,
-      "importance": 0.7801,
-      "importance_score": 0.7801,
+      "score": 0.7712,
+      "importance": 0.7712,
+      "importance_score": 0.7712,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8807,
+        "recency": 0.8313,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -348,6 +552,67 @@
         "title": "Qwen 3.6 27B 是本地开发的理想选择",
         "url": "https://quesma.com/blog/qwen-36-is-awesome",
         "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_6caca3033900",
+      "title": "X（Twitter）发布 hosted X MCP，AI 智能体可直连 X API",
+      "url": "https://x.com/op7418/status/2071816099986022650",
+      "primary_url": "https://x.com/op7418/status/2071816099986022650",
+      "source": "X：歸藏 (@op7418)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "6b0e6864f79bb2fc68ea16bea3427db7d4ff2d7e",
+          "title": "X（Twitter）发布 hosted X MCP，AI 智能体可直连 X API",
+          "url": "https://x.com/op7418/status/2071816099986022650",
+          "source": "X：歸藏 (@op7418)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-30T04:40:25Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "X：歸藏 (@op7418)"
+      ],
+      "items": [
+        {
+          "id": "6b0e6864f79bb2fc68ea16bea3427db7d4ff2d7e",
+          "title": "X（Twitter）发布 hosted X MCP，AI 智能体可直连 X API",
+          "url": "https://x.com/op7418/status/2071816099986022650",
+          "source": "X：歸藏 (@op7418)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-30T04:40:25Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.771,
+      "importance": 0.771,
+      "importance_score": 0.771,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.75,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9691,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-30T04:40:25Z",
+      "latest_at": "2026-06-30T04:40:25Z",
+      "primary_item": {
+        "id": "6b0e6864f79bb2fc68ea16bea3427db7d4ff2d7e",
+        "title": "X（Twitter）发布 hosted X MCP，AI 智能体可直连 X API",
+        "url": "https://x.com/op7418/status/2071816099986022650",
+        "source": "X：歸藏 (@op7418)",
         "source_name": "AI HOT"
       }
     },
@@ -405,15 +670,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7766,
-      "importance": 0.7766,
-      "importance_score": 0.7766,
+      "score": 0.7688,
+      "importance": 0.7688,
+      "importance_score": 0.7688,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.8,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.778,
+        "recency": 0.7343,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -467,15 +732,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7743,
-      "importance": 0.7743,
-      "importance_score": 0.7743,
+      "score": 0.765,
+      "importance": 0.765,
+      "importance_score": 0.765,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.79,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9206,
+        "recency": 0.8689,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -490,67 +755,6 @@
         "title": "美团LongCat Owl Alpha：OpenRouter最流行模型，1.6万亿MoE，国产ASIC训练",
         "url": "https://x.com/EMostaque/status/2071701921241448574",
         "source": "X：Emad Mostaque (@EMostaque)",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_eb949ee12568",
-      "title": "Rubin Ultra取消，新版尺寸性能减半",
-      "url": "https://x.com/SemiAnalysis_/status/2071700428249596290",
-      "primary_url": "https://x.com/SemiAnalysis_/status/2071700428249596290",
-      "source": "X：SemiAnalysis (@SemiAnalysis_)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "da320e03110d58841d48e6d41461620ecf592bb5",
-          "title": "Rubin Ultra取消，新版尺寸性能减半",
-          "url": "https://x.com/SemiAnalysis_/status/2071700428249596290",
-          "source": "X：SemiAnalysis (@SemiAnalysis_)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-29T21:00:47Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：SemiAnalysis (@SemiAnalysis_)"
-      ],
-      "items": [
-        {
-          "id": "da320e03110d58841d48e6d41461620ecf592bb5",
-          "title": "Rubin Ultra取消，新版尺寸性能减半",
-          "url": "https://x.com/SemiAnalysis_/status/2071700428249596290",
-          "source": "X：SemiAnalysis (@SemiAnalysis_)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-29T21:00:47Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7681,
-      "importance": 0.7681,
-      "importance_score": 0.7681,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.77,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9192,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-29T21:00:47Z",
-      "latest_at": "2026-06-29T21:00:47Z",
-      "primary_item": {
-        "id": "da320e03110d58841d48e6d41461620ecf592bb5",
-        "title": "Rubin Ultra取消，新版尺寸性能减半",
-        "url": "https://x.com/SemiAnalysis_/status/2071700428249596290",
-        "source": "X：SemiAnalysis (@SemiAnalysis_)",
         "source_name": "AI HOT"
       }
     },
@@ -608,15 +812,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7679,
-      "importance": 0.7679,
-      "importance_score": 0.7679,
+      "score": 0.7597,
+      "importance": 0.7597,
+      "importance_score": 0.7597,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.813,
+        "recency": 0.7673,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -632,6 +836,148 @@
         "title": "美军用AI选目标却误炸伊朗学校，Anthropic Claude嵌入Palantir系统首日建议约1000目标",
         "url": "https://the-decoder.com/the-us-military-used-ai-to-pick-thousands-of-targets-but-missed-a-note-saying-one-was-a-school",
         "source": "The Decoder：AI News（RSS）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_eb949ee12568",
+      "title": "Rubin Ultra取消，新版尺寸性能减半",
+      "url": "https://x.com/SemiAnalysis_/status/2071700428249596290",
+      "primary_url": "https://x.com/SemiAnalysis_/status/2071700428249596290",
+      "source": "X：SemiAnalysis (@SemiAnalysis_)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "da320e03110d58841d48e6d41461620ecf592bb5",
+          "title": "Rubin Ultra取消，新版尺寸性能减半",
+          "url": "https://x.com/SemiAnalysis_/status/2071700428249596290",
+          "source": "X：SemiAnalysis (@SemiAnalysis_)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-29T21:00:47Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "X：SemiAnalysis (@SemiAnalysis_)"
+      ],
+      "items": [
+        {
+          "id": "da320e03110d58841d48e6d41461620ecf592bb5",
+          "title": "Rubin Ultra取消，新版尺寸性能减半",
+          "url": "https://x.com/SemiAnalysis_/status/2071700428249596290",
+          "source": "X：SemiAnalysis (@SemiAnalysis_)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-29T21:00:47Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7588,
+      "importance": 0.7588,
+      "importance_score": 0.7588,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.77,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8676,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-29T21:00:47Z",
+      "latest_at": "2026-06-29T21:00:47Z",
+      "primary_item": {
+        "id": "da320e03110d58841d48e6d41461620ecf592bb5",
+        "title": "Rubin Ultra取消，新版尺寸性能减半",
+        "url": "https://x.com/SemiAnalysis_/status/2071700428249596290",
+        "source": "X：SemiAnalysis (@SemiAnalysis_)",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_31e36f083719",
+      "title": "EverOS：开源Markdown优先智能体记忆运行时，支持混合检索与自进化技能",
+      "url": "https://www.marktechpost.com/2026/06/29/meet-everos-an-open-source-markdown-first-agent-memory-runtime-with-hybrid-bm25-vector-retrieval-and-self-evolving-skills",
+      "primary_url": "https://www.marktechpost.com/2026/06/29/meet-everos-an-open-source-markdown-first-agent-memory-runtime-with-hybrid-bm25-vector-retrieval-and-self-evolving-skills",
+      "source": "MarkTechPost（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "d3c83a4831420c41d61abbcbe200297c8a15a7d3",
+          "title": "EverOS：开源Markdown优先智能体记忆运行时，支持混合检索与自进化技能",
+          "url": "https://www.marktechpost.com/2026/06/29/meet-everos-an-open-source-markdown-first-agent-memory-runtime-with-hybrid-bm25-vector-retrieval-and-self-evolving-skills",
+          "source": "MarkTechPost（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-29T10:42:47Z"
+        },
+        {
+          "id": "1baf6bc9b33acf85d68d9d0cdba184798bede9ad",
+          "title": "EverOS：开源Markdown优先智能体记忆运行时，支持混合检索与自进化技能 / Meet EverOS: An Open Source Markdown-First Agent Memory Runtime With Hybrid BM25 + Vector Retrieval and Self-Evolving Skills",
+          "url": "https://www.marktechpost.com/2026/06/29/meet-everos-an-open-source-markdown-first-agent-memory-runtime-with-hybrid-bm25-vector-retrieval-and-self-evolving-skills",
+          "source": "MarkTechPost Research",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-06-29T10:42:47Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "MarkTechPost Research",
+        "MarkTechPost（RSS）"
+      ],
+      "items": [
+        {
+          "id": "d3c83a4831420c41d61abbcbe200297c8a15a7d3",
+          "title": "EverOS：开源Markdown优先智能体记忆运行时，支持混合检索与自进化技能",
+          "url": "https://www.marktechpost.com/2026/06/29/meet-everos-an-open-source-markdown-first-agent-memory-runtime-with-hybrid-bm25-vector-retrieval-and-self-evolving-skills",
+          "source": "MarkTechPost（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-29T10:42:47Z"
+        },
+        {
+          "id": "1baf6bc9b33acf85d68d9d0cdba184798bede9ad",
+          "title": "EverOS：开源Markdown优先智能体记忆运行时，支持混合检索与自进化技能 / Meet EverOS: An Open Source Markdown-First Agent Memory Runtime With Hybrid BM25 + Vector Retrieval and Self-Evolving Skills",
+          "url": "https://www.marktechpost.com/2026/06/29/meet-everos-an-open-source-markdown-first-agent-memory-runtime-with-hybrid-bm25-vector-retrieval-and-self-evolving-skills",
+          "source": "MarkTechPost Research",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-06-29T10:42:47Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7532,
+      "importance": 0.7532,
+      "importance_score": 0.7532,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.74,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7477,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-29T10:42:47Z",
+      "latest_at": "2026-06-29T10:42:47Z",
+      "primary_item": {
+        "id": "d3c83a4831420c41d61abbcbe200297c8a15a7d3",
+        "title": "EverOS：开源Markdown优先智能体记忆运行时，支持混合检索与自进化技能",
+        "url": "https://www.marktechpost.com/2026/06/29/meet-everos-an-open-source-markdown-first-agent-memory-runtime-with-hybrid-bm25-vector-retrieval-and-self-evolving-skills",
+        "source": "MarkTechPost（RSS）",
         "source_name": "AI HOT"
       }
     },
@@ -689,15 +1035,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7926,
-      "importance": 0.7926,
-      "importance_score": 0.7926,
+      "score": 0.7825,
+      "importance": 0.7825,
+      "importance_score": 0.7825,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.9439,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -717,83 +1063,62 @@
       }
     },
     {
-      "story_id": "story_31e36f083719",
-      "title": "EverOS：开源Markdown优先智能体记忆运行时，支持混合检索与自进化技能",
-      "url": "https://www.marktechpost.com/2026/06/29/meet-everos-an-open-source-markdown-first-agent-memory-runtime-with-hybrid-bm25-vector-retrieval-and-self-evolving-skills",
-      "primary_url": "https://www.marktechpost.com/2026/06/29/meet-everos-an-open-source-markdown-first-agent-memory-runtime-with-hybrid-bm25-vector-retrieval-and-self-evolving-skills",
-      "source": "MarkTechPost（RSS）",
+      "story_id": "story_c959d9eaf186",
+      "title": "美团 LongCat 发布旗舰模型 LongCat-2.0",
+      "url": "https://x.com/SiliconFlowAI/status/2071831773076746715",
+      "primary_url": "https://x.com/SiliconFlowAI/status/2071831773076746715",
+      "source": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
       "source_name": "AI HOT",
       "sources": [
         {
-          "id": "d3c83a4831420c41d61abbcbe200297c8a15a7d3",
-          "title": "EverOS：开源Markdown优先智能体记忆运行时，支持混合检索与自进化技能",
-          "url": "https://www.marktechpost.com/2026/06/29/meet-everos-an-open-source-markdown-first-agent-memory-runtime-with-hybrid-bm25-vector-retrieval-and-self-evolving-skills",
-          "source": "MarkTechPost（RSS）",
+          "id": "6f98f3207c3e72cb8b71295221229c87a0588279",
+          "title": "美团 LongCat 发布旗舰模型 LongCat-2.0",
+          "url": "https://x.com/SiliconFlowAI/status/2071831773076746715",
+          "source": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-06-29T10:42:47Z"
-        },
-        {
-          "id": "1baf6bc9b33acf85d68d9d0cdba184798bede9ad",
-          "title": "EverOS：开源Markdown优先智能体记忆运行时，支持混合检索与自进化技能 / Meet EverOS: An Open Source Markdown-First Agent Memory Runtime With Hybrid BM25 + Vector Retrieval and Self-Evolving Skills",
-          "url": "https://www.marktechpost.com/2026/06/29/meet-everos-an-open-source-markdown-first-agent-memory-runtime-with-hybrid-bm25-vector-retrieval-and-self-evolving-skills",
-          "source": "MarkTechPost Research",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-06-29T10:42:47Z"
+          "published_at": "2026-06-30T05:42:42Z"
         }
       ],
-      "source_count": 2,
+      "source_count": 1,
       "source_names": [
-        "MarkTechPost Research",
-        "MarkTechPost（RSS）"
+        "X：硅基流动 SiliconFlow (@SiliconFlowAI)"
       ],
       "items": [
         {
-          "id": "d3c83a4831420c41d61abbcbe200297c8a15a7d3",
-          "title": "EverOS：开源Markdown优先智能体记忆运行时，支持混合检索与自进化技能",
-          "url": "https://www.marktechpost.com/2026/06/29/meet-everos-an-open-source-markdown-first-agent-memory-runtime-with-hybrid-bm25-vector-retrieval-and-self-evolving-skills",
-          "source": "MarkTechPost（RSS）",
+          "id": "6f98f3207c3e72cb8b71295221229c87a0588279",
+          "title": "美团 LongCat 发布旗舰模型 LongCat-2.0",
+          "url": "https://x.com/SiliconFlowAI/status/2071831773076746715",
+          "source": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-06-29T10:42:47Z"
-        },
-        {
-          "id": "1baf6bc9b33acf85d68d9d0cdba184798bede9ad",
-          "title": "EverOS：开源Markdown优先智能体记忆运行时，支持混合检索与自进化技能 / Meet EverOS: An Open Source Markdown-First Agent Memory Runtime With Hybrid BM25 + Vector Retrieval and Self-Evolving Skills",
-          "url": "https://www.marktechpost.com/2026/06/29/meet-everos-an-open-source-markdown-first-agent-memory-runtime-with-hybrid-bm25-vector-retrieval-and-self-evolving-skills",
-          "source": "MarkTechPost Research",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-06-29T10:42:47Z"
+          "published_at": "2026-06-30T05:42:42Z"
         }
       ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7612,
-      "importance": 0.7612,
-      "importance_score": 0.7612,
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7497,
+      "importance": 0.7497,
+      "importance_score": 0.7497,
       "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.74,
+        "editorial": 0.67,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7922,
-        "story_heat": 0.25
+        "recency": 0.9838,
+        "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
-      "earliest_at": "2026-06-29T10:42:47Z",
-      "latest_at": "2026-06-29T10:42:47Z",
+      "earliest_at": "2026-06-30T05:42:42Z",
+      "latest_at": "2026-06-30T05:42:42Z",
       "primary_item": {
-        "id": "d3c83a4831420c41d61abbcbe200297c8a15a7d3",
-        "title": "EverOS：开源Markdown优先智能体记忆运行时，支持混合检索与自进化技能",
-        "url": "https://www.marktechpost.com/2026/06/29/meet-everos-an-open-source-markdown-first-agent-memory-runtime-with-hybrid-bm25-vector-retrieval-and-self-evolving-skills",
-        "source": "MarkTechPost（RSS）",
+        "id": "6f98f3207c3e72cb8b71295221229c87a0588279",
+        "title": "美团 LongCat 发布旗舰模型 LongCat-2.0",
+        "url": "https://x.com/SiliconFlowAI/status/2071831773076746715",
+        "source": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
         "source_name": "AI HOT"
       }
     },
@@ -832,21 +1157,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7589,
-      "importance": 0.7589,
-      "importance_score": 0.7589,
+      "score": 0.7489,
+      "importance": 0.7489,
+      "importance_score": 0.7489,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9848,
+        "recency": 0.9295,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-06-30T01:47:00Z",
       "latest_at": "2026-06-30T01:47:00Z",
@@ -855,67 +1179,6 @@
         "title": "AI News Radar 大更新：新增自媒体板块，支持订阅多平台账号",
         "url": "https://mp.weixin.qq.com/s/iW5FVqbHtYi31mJ22Q_cog",
         "source": "公众号：卡尔的AI沃茨",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_eee9aecd1888",
-      "title": "Anthropic工程师Margot Van Laar：提示词工程实战--调试生产提示词为主，评估是唯一严谨方式",
-      "url": "https://x.com/berryxia/status/2071610700213191075",
-      "primary_url": "https://x.com/berryxia/status/2071610700213191075",
-      "source": "X：Berry Xia (@berryxia)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "a85e9be6f7d7a7f396b38645a8ea00194edb1ade",
-          "title": "Anthropic工程师Margot Van Laar：提示词工程实战--调试生产提示词为主，评估是唯一严谨方式",
-          "url": "https://x.com/berryxia/status/2071610700213191075",
-          "source": "X：Berry Xia (@berryxia)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-29T15:04:14Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：Berry Xia (@berryxia)"
-      ],
-      "items": [
-        {
-          "id": "a85e9be6f7d7a7f396b38645a8ea00194edb1ade",
-          "title": "Anthropic工程师Margot Van Laar：提示词工程实战--调试生产提示词为主，评估是唯一严谨方式",
-          "url": "https://x.com/berryxia/status/2071610700213191075",
-          "source": "X：Berry Xia (@berryxia)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-29T15:04:14Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7545,
-      "importance": 0.7545,
-      "importance_score": 0.7545,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.77,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8436,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-29T15:04:14Z",
-      "latest_at": "2026-06-29T15:04:14Z",
-      "primary_item": {
-        "id": "a85e9be6f7d7a7f396b38645a8ea00194edb1ade",
-        "title": "Anthropic工程师Margot Van Laar：提示词工程实战--调试生产提示词为主，评估是唯一严谨方式",
-        "url": "https://x.com/berryxia/status/2071610700213191075",
-        "source": "X：Berry Xia (@berryxia)",
         "source_name": "AI HOT"
       }
     },
@@ -954,21 +1217,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7542,
-      "importance": 0.7542,
-      "importance_score": 0.7542,
+      "score": 0.7461,
+      "importance": 0.7461,
+      "importance_score": 0.7461,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.79,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8091,
+        "recency": 0.7636,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-06-29T12:10:17Z",
       "latest_at": "2026-06-29T12:10:17Z",
@@ -977,6 +1239,66 @@
         "title": "Meta发布Brain2Qwerty v2：非侵入式实时句子解码",
         "url": "https://x.com/AIatMeta/status/2071566924803395741",
         "source": "X：AI at Meta (@AIatMeta)",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_eee9aecd1888",
+      "title": "Anthropic工程师Margot Van Laar：提示词工程实战--调试生产提示词为主，评估是唯一严谨方式",
+      "url": "https://x.com/berryxia/status/2071610700213191075",
+      "primary_url": "https://x.com/berryxia/status/2071610700213191075",
+      "source": "X：Berry Xia (@berryxia)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "a85e9be6f7d7a7f396b38645a8ea00194edb1ade",
+          "title": "Anthropic工程师Margot Van Laar：提示词工程实战--调试生产提示词为主，评估是唯一严谨方式",
+          "url": "https://x.com/berryxia/status/2071610700213191075",
+          "source": "X：Berry Xia (@berryxia)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-29T15:04:14Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "X：Berry Xia (@berryxia)"
+      ],
+      "items": [
+        {
+          "id": "a85e9be6f7d7a7f396b38645a8ea00194edb1ade",
+          "title": "Anthropic工程师Margot Van Laar：提示词工程实战--调试生产提示词为主，评估是唯一严谨方式",
+          "url": "https://x.com/berryxia/status/2071610700213191075",
+          "source": "X：Berry Xia (@berryxia)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-29T15:04:14Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7459,
+      "importance": 0.7459,
+      "importance_score": 0.7459,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.77,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7963,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-06-29T15:04:14Z",
+      "latest_at": "2026-06-29T15:04:14Z",
+      "primary_item": {
+        "id": "a85e9be6f7d7a7f396b38645a8ea00194edb1ade",
+        "title": "Anthropic工程师Margot Van Laar：提示词工程实战--调试生产提示词为主，评估是唯一严谨方式",
+        "url": "https://x.com/berryxia/status/2071610700213191075",
+        "source": "X：Berry Xia (@berryxia)",
         "source_name": "AI HOT"
       }
     },
@@ -1015,21 +1337,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7503,
-      "importance": 0.7503,
-      "importance_score": 0.7503,
+      "score": 0.7404,
+      "importance": 0.7404,
+      "importance_score": 0.7404,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.67,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9874,
+        "recency": 0.932,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-06-30T01:58:00Z",
       "latest_at": "2026-06-30T01:58:00Z",
@@ -1038,327 +1359,6 @@
         "title": "具身智能数据采集员：日薪200元起，给机器人当老师",
         "url": "https://mp.weixin.qq.com/s/aSd4kLu7xHllZatrd5EGsw",
         "source": "公众号：数字生命卡兹克",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_39fb035cd2eb",
-      "title": "OpenClaw 发布原生 iOS 与 Android 应用",
-      "url": "https://x.com/openclaw/status/2071688039114342592",
-      "primary_url": "https://x.com/openclaw/status/2071688039114342592",
-      "source": "X：OpenClaw (@openclaw)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "a87338fe69e971d2edc6c7fc9546f5ca75c3f5af",
-          "title": "OpenClaw 发布原生 iOS 与 Android 应用",
-          "url": "https://x.com/openclaw/status/2071688039114342592",
-          "source": "X：OpenClaw (@openclaw)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-29T20:11:33Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：OpenClaw (@openclaw)"
-      ],
-      "items": [
-        {
-          "id": "a87338fe69e971d2edc6c7fc9546f5ca75c3f5af",
-          "title": "OpenClaw 发布原生 iOS 与 Android 应用",
-          "url": "https://x.com/openclaw/status/2071688039114342592",
-          "source": "X：OpenClaw (@openclaw)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-29T20:11:33Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7481,
-      "importance": 0.7481,
-      "importance_score": 0.7481,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.71,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9084,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-29T20:11:33Z",
-      "latest_at": "2026-06-29T20:11:33Z",
-      "primary_item": {
-        "id": "a87338fe69e971d2edc6c7fc9546f5ca75c3f5af",
-        "title": "OpenClaw 发布原生 iOS 与 Android 应用",
-        "url": "https://x.com/openclaw/status/2071688039114342592",
-        "source": "X：OpenClaw (@openclaw)",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_519893dab662",
-      "title": "从任何地点构建--Cursor for iOS 公测版发布",
-      "url": "https://cursor.com/blog/ios-mobile-app",
-      "primary_url": "https://cursor.com/blog/ios-mobile-app",
-      "source": "Cursor Blog",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "18c3b1ad9711a127f9bed29460b8b88f1d146430",
-          "title": "从任何地点构建--Cursor for iOS 公测版发布",
-          "url": "https://cursor.com/blog/ios-mobile-app",
-          "source": "Cursor Blog",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-29T12:00:00Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Cursor Blog"
-      ],
-      "items": [
-        {
-          "id": "18c3b1ad9711a127f9bed29460b8b88f1d146430",
-          "title": "从任何地点构建--Cursor for iOS 公测版发布",
-          "url": "https://cursor.com/blog/ios-mobile-app",
-          "source": "Cursor Blog",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-29T12:00:00Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7419,
-      "importance": 0.7419,
-      "importance_score": 0.7419,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.75,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8071,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-29T12:00:00Z",
-      "latest_at": "2026-06-29T12:00:00Z",
-      "primary_item": {
-        "id": "18c3b1ad9711a127f9bed29460b8b88f1d146430",
-        "title": "从任何地点构建--Cursor for iOS 公测版发布",
-        "url": "https://cursor.com/blog/ios-mobile-app",
-        "source": "Cursor Blog",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_6a754216c07a",
-      "title": "为 Amazon Bedrock 和 Google Cloud 推出的 Claude apps gateway",
-      "url": "https://claude.com/blog/introducing-the-claude-apps-gateway",
-      "primary_url": "https://claude.com/blog/introducing-the-claude-apps-gateway",
-      "source": "Claude：Blog（网页）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "a6603fee0531468584dcdc8e051fc286eeb62ccd",
-          "title": "为 Amazon Bedrock 和 Google Cloud 推出的 Claude apps gateway",
-          "url": "https://claude.com/blog/introducing-the-claude-apps-gateway",
-          "source": "Claude：Blog（网页）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-29T21:22:33.048000Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Claude：Blog（网页）"
-      ],
-      "items": [
-        {
-          "id": "a6603fee0531468584dcdc8e051fc286eeb62ccd",
-          "title": "为 Amazon Bedrock 和 Google Cloud 推出的 Claude apps gateway",
-          "url": "https://claude.com/blog/introducing-the-claude-apps-gateway",
-          "source": "Claude：Blog（网页）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-29T21:22:33.048000Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7359,
-      "importance": 0.7359,
-      "importance_score": 0.7359,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.66,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9241,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-29T21:22:33.048000Z",
-      "latest_at": "2026-06-29T21:22:33.048000Z",
-      "primary_item": {
-        "id": "a6603fee0531468584dcdc8e051fc286eeb62ccd",
-        "title": "为 Amazon Bedrock 和 Google Cloud 推出的 Claude apps gateway",
-        "url": "https://claude.com/blog/introducing-the-claude-apps-gateway",
-        "source": "Claude：Blog（网页）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_11f0426bbc92",
-      "title": "坐镇 AI 技术巅峰：DeepMind CEO 强调团队领先地位，倡导多模态与安全并重",
-      "url": "https://www.aibase.com/news/29250",
-      "primary_url": "https://www.aibase.com/news/29250",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "05be05da83aa647d9b661bbc8f568691fd2c9c71",
-          "title": "坐镇 AI 技术巅峰：DeepMind CEO 强调团队领先地位，倡导多模态与安全并重",
-          "url": "https://www.aibase.com/news/29250",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-30T02:50:39.419725Z"
-        },
-        {
-          "id": "eb39697a034485a7ff6a1b24055068c2b96eff9b",
-          "title": "坐镇 AI 技术巅峰：DeepMind CEO 强调团队领先地位，倡导多模态与安全并重",
-          "url": "https://www.aibase.com/zh/news/29250",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "AIbase",
-        "Readhub · AI"
-      ],
-      "items": [
-        {
-          "id": "05be05da83aa647d9b661bbc8f568691fd2c9c71",
-          "title": "坐镇 AI 技术巅峰：DeepMind CEO 强调团队领先地位，倡导多模态与安全并重",
-          "url": "https://www.aibase.com/news/29250",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-30T02:50:39.419725Z"
-        },
-        {
-          "id": "eb39697a034485a7ff6a1b24055068c2b96eff9b",
-          "title": "坐镇 AI 技术巅峰：DeepMind CEO 强调团队领先地位，倡导多模态与安全并重",
-          "url": "https://www.aibase.com/zh/news/29250",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7926,
-      "importance": 0.7926,
-      "importance_score": 0.7926,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 1.0,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-30T02:50:39.419725Z",
-      "latest_at": "2026-06-30T02:50:39.419725Z",
-      "primary_item": {
-        "id": "05be05da83aa647d9b661bbc8f568691fd2c9c71",
-        "title": "坐镇 AI 技术巅峰：DeepMind CEO 强调团队领先地位，倡导多模态与安全并重",
-        "url": "https://www.aibase.com/news/29250",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      }
-    },
-    {
-      "story_id": "story_536c8d21b8b4",
-      "title": "小红书 RedKnot 推理引擎：将 KV Cache 按注意力头拆解实现长文本加速",
-      "url": "https://mp.weixin.qq.com/s/qRrZvL0aZzYI82djFSrLug",
-      "primary_url": "https://mp.weixin.qq.com/s/qRrZvL0aZzYI82djFSrLug",
-      "source": "公众号：小红书技术（dots.llm）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "74ef87dccf5618cffa206520cbd15eb65f113531",
-          "title": "小红书 RedKnot 推理引擎：将 KV Cache 按注意力头拆解实现长文本加速",
-          "url": "https://mp.weixin.qq.com/s/qRrZvL0aZzYI82djFSrLug",
-          "source": "公众号：小红书技术（dots.llm）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-29T11:00:07Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "公众号：小红书技术（dots.llm）"
-      ],
-      "items": [
-        {
-          "id": "74ef87dccf5618cffa206520cbd15eb65f113531",
-          "title": "小红书 RedKnot 推理引擎：将 KV Cache 按注意力头拆解实现长文本加速",
-          "url": "https://mp.weixin.qq.com/s/qRrZvL0aZzYI82djFSrLug",
-          "source": "公众号：小红书技术（dots.llm）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-29T11:00:07Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7308,
-      "importance": 0.7308,
-      "importance_score": 0.7308,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7955,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-29T11:00:07Z",
-      "latest_at": "2026-06-29T11:00:07Z",
-      "primary_item": {
-        "id": "74ef87dccf5618cffa206520cbd15eb65f113531",
-        "title": "小红书 RedKnot 推理引擎：将 KV Cache 按注意力头拆解实现长文本加速",
-        "url": "https://mp.weixin.qq.com/s/qRrZvL0aZzYI82djFSrLug",
-        "source": "公众号：小红书技术（dots.llm）",
         "source_name": "AI HOT"
       }
     }
