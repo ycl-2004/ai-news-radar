@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T10:28:20.524758Z",
+  "generated_at": "2026-06-30T12:29:06.972739Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -38,15 +38,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8327,
-      "importance": 0.8327,
-      "importance_score": 0.8327,
+      "score": 0.8279,
+      "importance": 0.8279,
+      "importance_score": 0.8279,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.9375,
+        "recency": 0.9106,
         "story_heat": 0.0
       },
       "category": "official",
@@ -100,15 +100,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8194,
-      "importance": 0.8194,
-      "importance_score": 0.8194,
+      "score": 0.8154,
+      "importance": 0.8154,
+      "importance_score": 0.8154,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.7746,
+        "recency": 0.7524,
         "story_heat": 0.0
       },
       "category": "official",
@@ -125,6 +125,87 @@
         "url": "https://github.blog/changelog/2026-06-29-claude-opus-4-8-fast-mode-is-now-in-preview-for-github-copilot",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_42e26984ee68",
+      "title": "Meta秘密测试ChatGPT等竞品：承包商假扮未成年发送数万条危机提示",
+      "url": "https://the-decoder.com/meta-secretly-tested-chatgpt-gemini-and-character-ai-with-thousands-of-minor-perspective-crisis-prompts",
+      "primary_url": "https://the-decoder.com/meta-secretly-tested-chatgpt-gemini-and-character-ai-with-thousands-of-minor-perspective-crisis-prompts",
+      "source": "The Decoder：AI News（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "9be482f343df6de8317876b5e8bbadef6d50533a",
+          "title": "Meta秘密测试ChatGPT等竞品：承包商假扮未成年发送数万条危机提示",
+          "url": "https://the-decoder.com/meta-secretly-tested-chatgpt-gemini-and-character-ai-with-thousands-of-minor-perspective-crisis-prompts",
+          "source": "The Decoder：AI News（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-30T11:14:52Z"
+        },
+        {
+          "id": "7ed729c25f314fccca6bd0316f07511b202b3f2d",
+          "title": "Meta秘密测试ChatGPT等竞品：承包商假扮未成年发送数万条危机提示 / Meta secretly tested ChatGPT, Gemini, and Character.AI with thousands of minor-perspective crisis prompts",
+          "url": "https://the-decoder.com/meta-secretly-tested-chatgpt-gemini-and-character-ai-with-thousands-of-minor-perspective-crisis-prompts",
+          "source": "The Decoder AI News",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-06-30T11:14:52Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "The Decoder AI News",
+        "The Decoder：AI News（RSS）"
+      ],
+      "items": [
+        {
+          "id": "9be482f343df6de8317876b5e8bbadef6d50533a",
+          "title": "Meta秘密测试ChatGPT等竞品：承包商假扮未成年发送数万条危机提示",
+          "url": "https://the-decoder.com/meta-secretly-tested-chatgpt-gemini-and-character-ai-with-thousands-of-minor-perspective-crisis-prompts",
+          "source": "The Decoder：AI News（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-30T11:14:52Z"
+        },
+        {
+          "id": "7ed729c25f314fccca6bd0316f07511b202b3f2d",
+          "title": "Meta秘密测试ChatGPT等竞品：承包商假扮未成年发送数万条危机提示 / Meta secretly tested ChatGPT, Gemini, and Character.AI with thousands of minor-perspective crisis prompts",
+          "url": "https://the-decoder.com/meta-secretly-tested-chatgpt-gemini-and-character-ai-with-thousands-of-minor-perspective-crisis-prompts",
+          "source": "The Decoder AI News",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-06-30T11:14:52Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7834,
+      "importance": 0.7834,
+      "importance_score": 0.7834,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.7,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9823,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-30T11:14:52Z",
+      "latest_at": "2026-06-30T11:14:52Z",
+      "primary_item": {
+        "id": "9be482f343df6de8317876b5e8bbadef6d50533a",
+        "title": "Meta秘密测试ChatGPT等竞品：承包商假扮未成年发送数万条危机提示",
+        "url": "https://the-decoder.com/meta-secretly-tested-chatgpt-gemini-and-character-ai-with-thousands-of-minor-perspective-crisis-prompts",
+        "source": "The Decoder：AI News（RSS）",
+        "source_name": "AI HOT"
       }
     },
     {
@@ -181,15 +262,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7802,
-      "importance": 0.7802,
-      "importance_score": 0.7802,
+      "score": 0.7752,
+      "importance": 0.7752,
+      "importance_score": 0.7752,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9642,
+        "recency": 0.9366,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -243,15 +324,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7771,
-      "importance": 0.7771,
-      "importance_score": 0.7771,
+      "score": 0.7724,
+      "importance": 0.7724,
+      "importance_score": 0.7724,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.81,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9028,
+        "recency": 0.8769,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -323,15 +404,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7738,
-      "importance": 0.7738,
-      "importance_score": 0.7738,
+      "score": 0.7692,
+      "importance": 0.7692,
+      "importance_score": 0.7692,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8957,
+        "recency": 0.87,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -404,15 +485,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7736,
-      "importance": 0.7736,
-      "importance_score": 0.7736,
+      "score": 0.7689,
+      "importance": 0.7689,
+      "importance_score": 0.7689,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.71,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.911,
+        "recency": 0.8849,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -466,15 +547,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8021,
-      "importance": 0.8021,
-      "importance_score": 0.8021,
+      "score": 0.7982,
+      "importance": 0.7982,
+      "importance_score": 0.7982,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.7674,
+        "recency": 0.7454,
         "story_heat": 0.0
       },
       "category": "official",
@@ -528,15 +609,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8019,
-      "importance": 0.8019,
-      "importance_score": 0.8019,
+      "score": 0.7979,
+      "importance": 0.7979,
+      "importance_score": 0.7979,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.7659,
+        "recency": 0.7439,
         "story_heat": 0.0
       },
       "category": "official",
@@ -609,15 +690,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7636,
-      "importance": 0.7636,
-      "importance_score": 0.7636,
+      "score": 0.7595,
+      "importance": 0.7595,
+      "importance_score": 0.7595,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7889,
+        "recency": 0.7663,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -671,15 +752,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7621,
-      "importance": 0.7621,
-      "importance_score": 0.7621,
+      "score": 0.7574,
+      "importance": 0.7574,
+      "importance_score": 0.7574,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9197,
+        "recency": 0.8933,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -732,15 +813,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.757,
-      "importance": 0.757,
-      "importance_score": 0.757,
+      "score": 0.7528,
+      "importance": 0.7528,
+      "importance_score": 0.7528,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.79,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8245,
+        "recency": 0.8009,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -755,87 +836,6 @@
         "title": "美团LongCat Owl Alpha：OpenRouter最流行模型，1.6万亿MoE，国产ASIC训练",
         "url": "https://x.com/EMostaque/status/2071701921241448574",
         "source": "X：Emad Mostaque (@EMostaque)",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_d42ae9023142",
-      "title": "美军用AI选目标却误炸伊朗学校，Anthropic Claude嵌入Palantir系统首日建议约1000目标",
-      "url": "https://the-decoder.com/the-us-military-used-ai-to-pick-thousands-of-targets-but-missed-a-note-saying-one-was-a-school",
-      "primary_url": "https://the-decoder.com/the-us-military-used-ai-to-pick-thousands-of-targets-but-missed-a-note-saying-one-was-a-school",
-      "source": "The Decoder：AI News（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "fad7c538efec2c1703451e6dd99da76b621cb2ef",
-          "title": "美军用AI选目标却误炸伊朗学校，Anthropic Claude嵌入Palantir系统首日建议约1000目标",
-          "url": "https://the-decoder.com/the-us-military-used-ai-to-pick-thousands-of-targets-but-missed-a-note-saying-one-was-a-school",
-          "source": "The Decoder：AI News（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-29T12:30:21Z"
-        },
-        {
-          "id": "c02f35f588baf81cbaa1e47dc362b61ff44b7e94",
-          "title": "美军用AI选目标却误炸伊朗学校，Anthropic Claude嵌入Palantir系统首日建议约1000目标 / The US military used AI to pick thousands of targets but missed a note saying one was a school",
-          "url": "https://the-decoder.com/the-us-military-used-ai-to-pick-thousands-of-targets-but-missed-a-note-saying-one-was-a-school",
-          "source": "The Decoder AI News",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-06-29T12:30:21Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "The Decoder AI News",
-        "The Decoder：AI News（RSS）"
-      ],
-      "items": [
-        {
-          "id": "fad7c538efec2c1703451e6dd99da76b621cb2ef",
-          "title": "美军用AI选目标却误炸伊朗学校，Anthropic Claude嵌入Palantir系统首日建议约1000目标",
-          "url": "https://the-decoder.com/the-us-military-used-ai-to-pick-thousands-of-targets-but-missed-a-note-saying-one-was-a-school",
-          "source": "The Decoder：AI News（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-29T12:30:21Z"
-        },
-        {
-          "id": "c02f35f588baf81cbaa1e47dc362b61ff44b7e94",
-          "title": "美军用AI选目标却误炸伊朗学校，Anthropic Claude嵌入Palantir系统首日建议约1000目标 / The US military used AI to pick thousands of targets but missed a note saying one was a school",
-          "url": "https://the-decoder.com/the-us-military-used-ai-to-pick-thousands-of-targets-but-missed-a-note-saying-one-was-a-school",
-          "source": "The Decoder AI News",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-06-29T12:30:21Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7527,
-      "importance": 0.7527,
-      "importance_score": 0.7527,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.75,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7282,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-29T12:30:21Z",
-      "latest_at": "2026-06-29T12:30:21Z",
-      "primary_item": {
-        "id": "fad7c538efec2c1703451e6dd99da76b621cb2ef",
-        "title": "美军用AI选目标却误炸伊朗学校，Anthropic Claude嵌入Palantir系统首日建议约1000目标",
-        "url": "https://the-decoder.com/the-us-military-used-ai-to-pick-thousands-of-targets-but-missed-a-note-saying-one-was-a-school",
-        "source": "The Decoder：AI News（RSS）",
         "source_name": "AI HOT"
       }
     },
@@ -874,21 +874,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7508,
-      "importance": 0.7508,
-      "importance_score": 0.7508,
+      "score": 0.7466,
+      "importance": 0.7466,
+      "importance_score": 0.7466,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.77,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8234,
+        "recency": 0.7998,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-06-29T21:00:47Z",
       "latest_at": "2026-06-29T21:00:47Z",
@@ -935,15 +934,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7792,
-      "importance": 0.7792,
-      "importance_score": 0.7792,
+      "score": 0.7743,
+      "importance": 0.7743,
+      "importance_score": 0.7743,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.79,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9477,
+        "recency": 0.9205,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -958,86 +957,6 @@
         "title": "特斯拉Cybercab量产版在奥斯汀启动公开道路工程测试",
         "url": "https://www.ithome.com/0/970/539.htm",
         "source": "IT之家（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_31e36f083719",
-      "title": "EverOS：开源Markdown优先智能体记忆运行时，支持混合检索与自进化技能",
-      "url": "https://www.marktechpost.com/2026/06/29/meet-everos-an-open-source-markdown-first-agent-memory-runtime-with-hybrid-bm25-vector-retrieval-and-self-evolving-skills",
-      "primary_url": "https://www.marktechpost.com/2026/06/29/meet-everos-an-open-source-markdown-first-agent-memory-runtime-with-hybrid-bm25-vector-retrieval-and-self-evolving-skills",
-      "source": "MarkTechPost（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "d3c83a4831420c41d61abbcbe200297c8a15a7d3",
-          "title": "EverOS：开源Markdown优先智能体记忆运行时，支持混合检索与自进化技能",
-          "url": "https://www.marktechpost.com/2026/06/29/meet-everos-an-open-source-markdown-first-agent-memory-runtime-with-hybrid-bm25-vector-retrieval-and-self-evolving-skills",
-          "source": "MarkTechPost（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-29T10:42:47Z"
-        },
-        {
-          "id": "1baf6bc9b33acf85d68d9d0cdba184798bede9ad",
-          "title": "EverOS：开源Markdown优先智能体记忆运行时，支持混合检索与自进化技能 / Meet EverOS: An Open Source Markdown-First Agent Memory Runtime With Hybrid BM25 + Vector Retrieval and Self-Evolving Skills",
-          "url": "https://www.marktechpost.com/2026/06/29/meet-everos-an-open-source-markdown-first-agent-memory-runtime-with-hybrid-bm25-vector-retrieval-and-self-evolving-skills",
-          "source": "MarkTechPost Research",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-06-29T10:42:47Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "MarkTechPost Research",
-        "MarkTechPost（RSS）"
-      ],
-      "items": [
-        {
-          "id": "d3c83a4831420c41d61abbcbe200297c8a15a7d3",
-          "title": "EverOS：开源Markdown优先智能体记忆运行时，支持混合检索与自进化技能",
-          "url": "https://www.marktechpost.com/2026/06/29/meet-everos-an-open-source-markdown-first-agent-memory-runtime-with-hybrid-bm25-vector-retrieval-and-self-evolving-skills",
-          "source": "MarkTechPost（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-29T10:42:47Z"
-        },
-        {
-          "id": "1baf6bc9b33acf85d68d9d0cdba184798bede9ad",
-          "title": "EverOS：开源Markdown优先智能体记忆运行时，支持混合检索与自进化技能 / Meet EverOS: An Open Source Markdown-First Agent Memory Runtime With Hybrid BM25 + Vector Retrieval and Self-Evolving Skills",
-          "url": "https://www.marktechpost.com/2026/06/29/meet-everos-an-open-source-markdown-first-agent-memory-runtime-with-hybrid-bm25-vector-retrieval-and-self-evolving-skills",
-          "source": "MarkTechPost Research",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-06-29T10:42:47Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7463,
-      "importance": 0.7463,
-      "importance_score": 0.7463,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.74,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7096,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-29T10:42:47Z",
-      "latest_at": "2026-06-29T10:42:47Z",
-      "primary_item": {
-        "id": "d3c83a4831420c41d61abbcbe200297c8a15a7d3",
-        "title": "EverOS：开源Markdown优先智能体记忆运行时，支持混合检索与自进化技能",
-        "url": "https://www.marktechpost.com/2026/06/29/meet-everos-an-open-source-markdown-first-agent-memory-runtime-with-hybrid-bm25-vector-retrieval-and-self-evolving-skills",
-        "source": "MarkTechPost（RSS）",
         "source_name": "AI HOT"
       }
     },
@@ -1095,15 +1014,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7738,
-      "importance": 0.7738,
-      "importance_score": 0.7738,
+      "score": 0.7692,
+      "importance": 0.7692,
+      "importance_score": 0.7692,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8957,
+        "recency": 0.87,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -1120,66 +1039,6 @@
         "url": "https://www.aibase.com/news/29249",
         "source": "AIbase",
         "source_name": "AIbase"
-      }
-    },
-    {
-      "story_id": "story_c959d9eaf186",
-      "title": "美团 LongCat 发布旗舰模型 LongCat-2.0",
-      "url": "https://x.com/SiliconFlowAI/status/2071831773076746715",
-      "primary_url": "https://x.com/SiliconFlowAI/status/2071831773076746715",
-      "source": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "6f98f3207c3e72cb8b71295221229c87a0588279",
-          "title": "美团 LongCat 发布旗舰模型 LongCat-2.0",
-          "url": "https://x.com/SiliconFlowAI/status/2071831773076746715",
-          "source": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-30T05:42:42Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：硅基流动 SiliconFlow (@SiliconFlowAI)"
-      ],
-      "items": [
-        {
-          "id": "6f98f3207c3e72cb8b71295221229c87a0588279",
-          "title": "美团 LongCat 发布旗舰模型 LongCat-2.0",
-          "url": "https://x.com/SiliconFlowAI/status/2071831773076746715",
-          "source": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-30T05:42:42Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7406,
-      "importance": 0.7406,
-      "importance_score": 0.7406,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.67,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9336,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-30T05:42:42Z",
-      "latest_at": "2026-06-30T05:42:42Z",
-      "primary_item": {
-        "id": "6f98f3207c3e72cb8b71295221229c87a0588279",
-        "title": "美团 LongCat 发布旗舰模型 LongCat-2.0",
-        "url": "https://x.com/SiliconFlowAI/status/2071831773076746715",
-        "source": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
-        "source_name": "AI HOT"
       }
     },
     {
@@ -1217,15 +1076,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7404,
-      "importance": 0.7404,
-      "importance_score": 0.7404,
+      "score": 0.7358,
+      "importance": 0.7358,
+      "importance_score": 0.7358,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8821,
+        "recency": 0.8568,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1243,62 +1102,62 @@
       }
     },
     {
-      "story_id": "story_35b256e2c054",
-      "title": "Meta发布Brain2Qwerty v2：非侵入式实时句子解码",
-      "url": "https://x.com/AIatMeta/status/2071566924803395741",
-      "primary_url": "https://x.com/AIatMeta/status/2071566924803395741",
-      "source": "X：AI at Meta (@AIatMeta)",
+      "story_id": "story_c959d9eaf186",
+      "title": "美团 LongCat 发布旗舰模型 LongCat-2.0",
+      "url": "https://x.com/SiliconFlowAI/status/2071831773076746715",
+      "primary_url": "https://x.com/SiliconFlowAI/status/2071831773076746715",
+      "source": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
       "source_name": "AI HOT",
       "sources": [
         {
-          "id": "0977ad593b87c42372d7b59625097aadbd15d4e2",
-          "title": "Meta发布Brain2Qwerty v2：非侵入式实时句子解码",
-          "url": "https://x.com/AIatMeta/status/2071566924803395741",
-          "source": "X：AI at Meta (@AIatMeta)",
+          "id": "6f98f3207c3e72cb8b71295221229c87a0588279",
+          "title": "美团 LongCat 发布旗舰模型 LongCat-2.0",
+          "url": "https://x.com/SiliconFlowAI/status/2071831773076746715",
+          "source": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-06-29T12:10:17Z"
+          "published_at": "2026-06-30T05:42:42Z"
         }
       ],
       "source_count": 1,
       "source_names": [
-        "X：AI at Meta (@AIatMeta)"
+        "X：硅基流动 SiliconFlow (@SiliconFlowAI)"
       ],
       "items": [
         {
-          "id": "0977ad593b87c42372d7b59625097aadbd15d4e2",
-          "title": "Meta发布Brain2Qwerty v2：非侵入式实时句子解码",
-          "url": "https://x.com/AIatMeta/status/2071566924803395741",
-          "source": "X：AI at Meta (@AIatMeta)",
+          "id": "6f98f3207c3e72cb8b71295221229c87a0588279",
+          "title": "美团 LongCat 发布旗舰模型 LongCat-2.0",
+          "url": "https://x.com/SiliconFlowAI/status/2071831773076746715",
+          "source": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-06-29T12:10:17Z"
+          "published_at": "2026-06-30T05:42:42Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.739,
-      "importance": 0.739,
-      "importance_score": 0.739,
+      "score": 0.7358,
+      "importance": 0.7358,
+      "importance_score": 0.7358,
       "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.79,
+        "editorial": 0.67,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7247,
+        "recency": 0.9068,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
         "high_ai_relevance"
       ],
-      "earliest_at": "2026-06-29T12:10:17Z",
-      "latest_at": "2026-06-29T12:10:17Z",
+      "earliest_at": "2026-06-30T05:42:42Z",
+      "latest_at": "2026-06-30T05:42:42Z",
       "primary_item": {
-        "id": "0977ad593b87c42372d7b59625097aadbd15d4e2",
-        "title": "Meta发布Brain2Qwerty v2：非侵入式实时句子解码",
-        "url": "https://x.com/AIatMeta/status/2071566924803395741",
-        "source": "X：AI at Meta (@AIatMeta)",
+        "id": "6f98f3207c3e72cb8b71295221229c87a0588279",
+        "title": "美团 LongCat 发布旗舰模型 LongCat-2.0",
+        "url": "https://x.com/SiliconFlowAI/status/2071831773076746715",
+        "source": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
         "source_name": "AI HOT"
       }
     },
@@ -1337,15 +1196,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7386,
-      "importance": 0.7386,
-      "importance_score": 0.7386,
+      "score": 0.7347,
+      "importance": 0.7347,
+      "importance_score": 0.7347,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.77,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7557,
+        "recency": 0.734,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1359,6 +1218,126 @@
         "title": "Anthropic工程师Margot Van Laar：提示词工程实战--调试生产提示词为主，评估是唯一严谨方式",
         "url": "https://x.com/berryxia/status/2071610700213191075",
         "source": "X：Berry Xia (@berryxia)",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_38c3853bacfb",
+      "title": "具身智能数据采集员：日薪200元起，给机器人当老师",
+      "url": "https://mp.weixin.qq.com/s/aSd4kLu7xHllZatrd5EGsw",
+      "primary_url": "https://mp.weixin.qq.com/s/aSd4kLu7xHllZatrd5EGsw",
+      "source": "公众号：数字生命卡兹克",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "e08e397f02568ea6148c3cc3c8642f9e2266a852",
+          "title": "具身智能数据采集员：日薪200元起，给机器人当老师",
+          "url": "https://mp.weixin.qq.com/s/aSd4kLu7xHllZatrd5EGsw",
+          "source": "公众号：数字生命卡兹克",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-30T01:58:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "公众号：数字生命卡兹克"
+      ],
+      "items": [
+        {
+          "id": "e08e397f02568ea6148c3cc3c8642f9e2266a852",
+          "title": "具身智能数据采集员：日薪200元起，给机器人当老师",
+          "url": "https://mp.weixin.qq.com/s/aSd4kLu7xHllZatrd5EGsw",
+          "source": "公众号：数字生命卡兹克",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-30T01:58:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7272,
+      "importance": 0.7272,
+      "importance_score": 0.7272,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.67,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8591,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-06-30T01:58:00Z",
+      "latest_at": "2026-06-30T01:58:00Z",
+      "primary_item": {
+        "id": "e08e397f02568ea6148c3cc3c8642f9e2266a852",
+        "title": "具身智能数据采集员：日薪200元起，给机器人当老师",
+        "url": "https://mp.weixin.qq.com/s/aSd4kLu7xHllZatrd5EGsw",
+        "source": "公众号：数字生命卡兹克",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_39fb035cd2eb",
+      "title": "OpenClaw 发布原生 iOS 与 Android 应用",
+      "url": "https://x.com/openclaw/status/2071688039114342592",
+      "primary_url": "https://x.com/openclaw/status/2071688039114342592",
+      "source": "X：OpenClaw (@openclaw)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "a87338fe69e971d2edc6c7fc9546f5ca75c3f5af",
+          "title": "OpenClaw 发布原生 iOS 与 Android 应用",
+          "url": "https://x.com/openclaw/status/2071688039114342592",
+          "source": "X：OpenClaw (@openclaw)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-29T20:11:33Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "X：OpenClaw (@openclaw)"
+      ],
+      "items": [
+        {
+          "id": "a87338fe69e971d2edc6c7fc9546f5ca75c3f5af",
+          "title": "OpenClaw 发布原生 iOS 与 Android 应用",
+          "url": "https://x.com/openclaw/status/2071688039114342592",
+          "source": "X：OpenClaw (@openclaw)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-29T20:11:33Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7269,
+      "importance": 0.7269,
+      "importance_score": 0.7269,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.71,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7904,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-06-29T20:11:33Z",
+      "latest_at": "2026-06-29T20:11:33Z",
+      "primary_item": {
+        "id": "a87338fe69e971d2edc6c7fc9546f5ca75c3f5af",
+        "title": "OpenClaw 发布原生 iOS 与 Android 应用",
+        "url": "https://x.com/openclaw/status/2071688039114342592",
+        "source": "X：OpenClaw (@openclaw)",
         "source_name": "AI HOT"
       }
     }
