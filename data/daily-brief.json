@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T06:50:40.047890Z",
+  "generated_at": "2026-06-30T10:28:20.524758Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -38,15 +38,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8418,
-      "importance": 0.8418,
-      "importance_score": 0.8418,
+      "score": 0.8327,
+      "importance": 0.8327,
+      "importance_score": 0.8327,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.9879,
+        "recency": 0.9375,
         "story_heat": 0.0
       },
       "category": "official",
@@ -100,15 +100,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8269,
-      "importance": 0.8269,
-      "importance_score": 0.8269,
+      "score": 0.8194,
+      "importance": 0.8194,
+      "importance_score": 0.8194,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.8163,
+        "recency": 0.7746,
         "story_heat": 0.0
       },
       "category": "official",
@@ -125,6 +125,87 @@
         "url": "https://github.blog/changelog/2026-06-29-claude-opus-4-8-fast-mode-is-now-in-preview-for-github-copilot",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_fb28522465f5",
+      "title": "黑石未来3~5年拟投300亿美元在日本建AI数据中心，联合成立AI XPV平台",
+      "url": "https://www.ithome.com/0/970/583.htm",
+      "primary_url": "https://www.ithome.com/0/970/583.htm",
+      "source": "IT之家（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "81cd8ae1da674afac36a2697129faa7f21958375",
+          "title": "黑石未来3~5年拟投300亿美元在日本建AI数据中心，联合成立AI XPV平台",
+          "url": "https://www.ithome.com/0/970/583.htm",
+          "source": "IT之家（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-30T07:56:46Z"
+        },
+        {
+          "id": "7a1ee91186ea97569a2cdcf6cd78ec2d46cbf5a2",
+          "title": "另类资管巨头黑石计划斥资 300 亿美元在日本建设超 1GW AI 数据中心",
+          "url": "https://www.ithome.com/0/970/583.htm",
+          "source": "IT之家 (ITHome)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-30T07:56:46Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "IT之家 (ITHome)",
+        "IT之家（RSS）"
+      ],
+      "items": [
+        {
+          "id": "81cd8ae1da674afac36a2697129faa7f21958375",
+          "title": "黑石未来3~5年拟投300亿美元在日本建AI数据中心，联合成立AI XPV平台",
+          "url": "https://www.ithome.com/0/970/583.htm",
+          "source": "IT之家（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-30T07:56:46Z"
+        },
+        {
+          "id": "7a1ee91186ea97569a2cdcf6cd78ec2d46cbf5a2",
+          "title": "另类资管巨头黑石计划斥资 300 亿美元在日本建设超 1GW AI 数据中心",
+          "url": "https://www.ithome.com/0/970/583.htm",
+          "source": "IT之家 (ITHome)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-30T07:56:46Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7802,
+      "importance": 0.7802,
+      "importance_score": 0.7802,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.7,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9642,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-30T07:56:46Z",
+      "latest_at": "2026-06-30T07:56:46Z",
+      "primary_item": {
+        "id": "81cd8ae1da674afac36a2697129faa7f21958375",
+        "title": "黑石未来3~5年拟投300亿美元在日本建AI数据中心，联合成立AI XPV平台",
+        "url": "https://www.ithome.com/0/970/583.htm",
+        "source": "IT之家（RSS）",
+        "source_name": "AI HOT"
       }
     },
     {
@@ -162,15 +243,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7858,
-      "importance": 0.7858,
-      "importance_score": 0.7858,
+      "score": 0.7771,
+      "importance": 0.7771,
+      "importance_score": 0.7771,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.81,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9513,
+        "recency": 0.9028,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -242,15 +323,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7825,
-      "importance": 0.7825,
-      "importance_score": 0.7825,
+      "score": 0.7738,
+      "importance": 0.7738,
+      "importance_score": 0.7738,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9439,
+        "recency": 0.8957,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -323,15 +404,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7824,
-      "importance": 0.7824,
-      "importance_score": 0.7824,
+      "score": 0.7736,
+      "importance": 0.7736,
+      "importance_score": 0.7736,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.71,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.96,
+        "recency": 0.911,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -385,15 +466,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8096,
-      "importance": 0.8096,
-      "importance_score": 0.8096,
+      "score": 0.8021,
+      "importance": 0.8021,
+      "importance_score": 0.8021,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.8087,
+        "recency": 0.7674,
         "story_heat": 0.0
       },
       "category": "official",
@@ -447,15 +528,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8093,
-      "importance": 0.8093,
-      "importance_score": 0.8093,
+      "score": 0.8019,
+      "importance": 0.8019,
+      "importance_score": 0.8019,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.8071,
+        "recency": 0.7659,
         "story_heat": 0.0
       },
       "category": "official",
@@ -528,15 +609,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7712,
-      "importance": 0.7712,
-      "importance_score": 0.7712,
+      "score": 0.7636,
+      "importance": 0.7636,
+      "importance_score": 0.7636,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8313,
+        "recency": 0.7889,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -590,15 +671,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.771,
-      "importance": 0.771,
-      "importance_score": 0.771,
+      "score": 0.7621,
+      "importance": 0.7621,
+      "importance_score": 0.7621,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9691,
+        "recency": 0.9197,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -613,87 +694,6 @@
         "title": "X（Twitter）发布 hosted X MCP，AI 智能体可直连 X API",
         "url": "https://x.com/op7418/status/2071816099986022650",
         "source": "X：歸藏 (@op7418)",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_019c2801688e",
-      "title": "国务院印发《教育发展\"十五五\"规划》，推进人工智能全学段教育",
-      "url": "https://www.ithome.com/0/970/097.htm",
-      "primary_url": "https://www.ithome.com/0/970/097.htm",
-      "source": "IT之家（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "60bdb0a4411ba06d55d1a3ffd8f7d933deca5f2c",
-          "title": "国务院印发《教育发展\"十五五\"规划》，推进人工智能全学段教育",
-          "url": "https://www.ithome.com/0/970/097.htm",
-          "source": "IT之家（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-29T09:27:36Z"
-        },
-        {
-          "id": "b98f2b4b17fe7289f2fc6b61429b8dfdf155be47",
-          "title": "国务院：推进人工智能全学段教育，提升学生人工智能素养",
-          "url": "https://www.ithome.com/0/970/097.htm",
-          "source": "IT之家 (ITHome)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-29T09:27:36Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "IT之家 (ITHome)",
-        "IT之家（RSS）"
-      ],
-      "items": [
-        {
-          "id": "60bdb0a4411ba06d55d1a3ffd8f7d933deca5f2c",
-          "title": "国务院印发《教育发展\"十五五\"规划》，推进人工智能全学段教育",
-          "url": "https://www.ithome.com/0/970/097.htm",
-          "source": "IT之家（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-29T09:27:36Z"
-        },
-        {
-          "id": "b98f2b4b17fe7289f2fc6b61429b8dfdf155be47",
-          "title": "国务院：推进人工智能全学段教育，提升学生人工智能素养",
-          "url": "https://www.ithome.com/0/970/097.htm",
-          "source": "IT之家 (ITHome)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-29T09:27:36Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7688,
-      "importance": 0.7688,
-      "importance_score": 0.7688,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.8,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7343,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-29T09:27:36Z",
-      "latest_at": "2026-06-29T09:27:36Z",
-      "primary_item": {
-        "id": "60bdb0a4411ba06d55d1a3ffd8f7d933deca5f2c",
-        "title": "国务院印发《教育发展\"十五五\"规划》，推进人工智能全学段教育",
-        "url": "https://www.ithome.com/0/970/097.htm",
-        "source": "IT之家（RSS）",
         "source_name": "AI HOT"
       }
     },
@@ -732,15 +732,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.765,
-      "importance": 0.765,
-      "importance_score": 0.765,
+      "score": 0.757,
+      "importance": 0.757,
+      "importance_score": 0.757,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.79,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8689,
+        "recency": 0.8245,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -812,15 +812,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7597,
-      "importance": 0.7597,
-      "importance_score": 0.7597,
+      "score": 0.7527,
+      "importance": 0.7527,
+      "importance_score": 0.7527,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7673,
+        "recency": 0.7282,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -874,15 +874,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7588,
-      "importance": 0.7588,
-      "importance_score": 0.7588,
+      "score": 0.7508,
+      "importance": 0.7508,
+      "importance_score": 0.7508,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.77,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8676,
+        "recency": 0.8234,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -897,6 +897,67 @@
         "title": "Rubin Ultra取消，新版尺寸性能减半",
         "url": "https://x.com/SemiAnalysis_/status/2071700428249596290",
         "source": "X：SemiAnalysis (@SemiAnalysis_)",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_ad08c85e40a8",
+      "title": "特斯拉Cybercab量产版在奥斯汀启动公开道路工程测试",
+      "url": "https://www.ithome.com/0/970/539.htm",
+      "primary_url": "https://www.ithome.com/0/970/539.htm",
+      "source": "IT之家（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "2c00673edab6aaebad14df497125c8493d026f40",
+          "title": "特斯拉Cybercab量产版在奥斯汀启动公开道路工程测试",
+          "url": "https://www.ithome.com/0/970/539.htm",
+          "source": "IT之家（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-30T06:45:03Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "IT之家（RSS）"
+      ],
+      "items": [
+        {
+          "id": "2c00673edab6aaebad14df497125c8493d026f40",
+          "title": "特斯拉Cybercab量产版在奥斯汀启动公开道路工程测试",
+          "url": "https://www.ithome.com/0/970/539.htm",
+          "source": "IT之家（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-30T06:45:03Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7792,
+      "importance": 0.7792,
+      "importance_score": 0.7792,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.79,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9477,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-30T06:45:03Z",
+      "latest_at": "2026-06-30T06:45:03Z",
+      "primary_item": {
+        "id": "2c00673edab6aaebad14df497125c8493d026f40",
+        "title": "特斯拉Cybercab量产版在奥斯汀启动公开道路工程测试",
+        "url": "https://www.ithome.com/0/970/539.htm",
+        "source": "IT之家（RSS）",
         "source_name": "AI HOT"
       }
     },
@@ -954,22 +1015,21 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7532,
-      "importance": 0.7532,
-      "importance_score": 0.7532,
+      "score": 0.7463,
+      "importance": 0.7463,
+      "importance_score": 0.7463,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.74,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7477,
+        "recency": 0.7096,
         "story_heat": 0.25
       },
       "category": "industry",
       "reasons": [
         "multi_source",
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-06-29T10:42:47Z",
       "latest_at": "2026-06-29T10:42:47Z",
@@ -1035,15 +1095,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7825,
-      "importance": 0.7825,
-      "importance_score": 0.7825,
+      "score": 0.7738,
+      "importance": 0.7738,
+      "importance_score": 0.7738,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9439,
+        "recency": 0.8957,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -1097,15 +1157,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7497,
-      "importance": 0.7497,
-      "importance_score": 0.7497,
+      "score": 0.7406,
+      "importance": 0.7406,
+      "importance_score": 0.7406,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.67,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9838,
+        "recency": 0.9336,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1157,15 +1217,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7489,
-      "importance": 0.7489,
-      "importance_score": 0.7489,
+      "score": 0.7404,
+      "importance": 0.7404,
+      "importance_score": 0.7404,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9295,
+        "recency": 0.8821,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1217,15 +1277,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7461,
-      "importance": 0.7461,
-      "importance_score": 0.7461,
+      "score": 0.739,
+      "importance": 0.739,
+      "importance_score": 0.739,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.79,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7636,
+        "recency": 0.7247,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1277,15 +1337,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7459,
-      "importance": 0.7459,
-      "importance_score": 0.7459,
+      "score": 0.7386,
+      "importance": 0.7386,
+      "importance_score": 0.7386,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.77,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7963,
+        "recency": 0.7557,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1299,66 +1359,6 @@
         "title": "Anthropic工程师Margot Van Laar：提示词工程实战--调试生产提示词为主，评估是唯一严谨方式",
         "url": "https://x.com/berryxia/status/2071610700213191075",
         "source": "X：Berry Xia (@berryxia)",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_38c3853bacfb",
-      "title": "具身智能数据采集员：日薪200元起，给机器人当老师",
-      "url": "https://mp.weixin.qq.com/s/aSd4kLu7xHllZatrd5EGsw",
-      "primary_url": "https://mp.weixin.qq.com/s/aSd4kLu7xHllZatrd5EGsw",
-      "source": "公众号：数字生命卡兹克",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "e08e397f02568ea6148c3cc3c8642f9e2266a852",
-          "title": "具身智能数据采集员：日薪200元起，给机器人当老师",
-          "url": "https://mp.weixin.qq.com/s/aSd4kLu7xHllZatrd5EGsw",
-          "source": "公众号：数字生命卡兹克",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-30T01:58:00Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "公众号：数字生命卡兹克"
-      ],
-      "items": [
-        {
-          "id": "e08e397f02568ea6148c3cc3c8642f9e2266a852",
-          "title": "具身智能数据采集员：日薪200元起，给机器人当老师",
-          "url": "https://mp.weixin.qq.com/s/aSd4kLu7xHllZatrd5EGsw",
-          "source": "公众号：数字生命卡兹克",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-30T01:58:00Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7404,
-      "importance": 0.7404,
-      "importance_score": 0.7404,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.67,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.932,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-30T01:58:00Z",
-      "latest_at": "2026-06-30T01:58:00Z",
-      "primary_item": {
-        "id": "e08e397f02568ea6148c3cc3c8642f9e2266a852",
-        "title": "具身智能数据采集员：日薪200元起，给机器人当老师",
-        "url": "https://mp.weixin.qq.com/s/aSd4kLu7xHllZatrd5EGsw",
-        "source": "公众号：数字生命卡兹克",
         "source_name": "AI HOT"
       }
     }
