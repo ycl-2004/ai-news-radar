@@ -1,8 +1,70 @@
 {
-  "generated_at": "2026-06-30T12:29:06.972739Z",
+  "generated_at": "2026-06-30T15:12:30.314974Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
+    {
+      "story_id": "story_626d4a79e36c",
+      "title": "即将推出的针对封闭式安全警报的云数据保留策略 / Upcoming cloud data retention policy for closed security alerts",
+      "url": "https://github.blog/changelog/2026-06-30-cloud-data-retention-policy-for-closed-security-alerts",
+      "primary_url": "https://github.blog/changelog/2026-06-30-cloud-data-retention-policy-for-closed-security-alerts",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "fc3d343ce8ebdc0f8718623e8dc96573759b023f",
+          "title": "即将推出的针对封闭式安全警报的云数据保留策略 / Upcoming cloud data retention policy for closed security alerts",
+          "url": "https://github.blog/changelog/2026-06-30-cloud-data-retention-policy-for-closed-security-alerts",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-30T13:24:21Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "items": [
+        {
+          "id": "fc3d343ce8ebdc0f8718623e8dc96573759b023f",
+          "title": "即将推出的针对封闭式安全警报的云数据保留策略 / Upcoming cloud data retention policy for closed security alerts",
+          "url": "https://github.blog/changelog/2026-06-30-cloud-data-retention-policy-for-closed-security-alerts",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-30T13:24:21Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8454,
+      "importance": 0.8454,
+      "importance_score": 0.8454,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.9,
+        "recency": 0.9743,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-30T13:24:21Z",
+      "latest_at": "2026-06-30T13:24:21Z",
+      "primary_item": {
+        "id": "fc3d343ce8ebdc0f8718623e8dc96573759b023f",
+        "title": "即将推出的针对封闭式安全警报的云数据保留策略 / Upcoming cloud data retention policy for closed security alerts",
+        "url": "https://github.blog/changelog/2026-06-30-cloud-data-retention-policy-for-closed-security-alerts",
+        "source": "GitHub Changelog",
+        "source_name": "Official AI Updates"
+      }
+    },
     {
       "story_id": "story_6e98bdfa6975",
       "title": "开启英国的下一个生产力时代：建设一个人工智能开拓者的国家 / Unlocking Britain’s next era of productivity: Building a nation of AI trailblazers",
@@ -38,15 +100,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8279,
-      "importance": 0.8279,
-      "importance_score": 0.8279,
+      "score": 0.8216,
+      "importance": 0.8216,
+      "importance_score": 0.8216,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.9106,
+        "recency": 0.8755,
         "story_heat": 0.0
       },
       "category": "official",
@@ -66,21 +128,21 @@
       }
     },
     {
-      "story_id": "story_5a9c6b882649",
-      "title": "Claude Opus 4.8（快速模式）现已推出 GitHub Copilot 预览版 / Claude Opus 4.8 (fast mode) is now in preview for GitHub Copilot",
-      "url": "https://github.blog/changelog/2026-06-29-claude-opus-4-8-fast-mode-is-now-in-preview-for-github-copilot",
-      "primary_url": "https://github.blog/changelog/2026-06-29-claude-opus-4-8-fast-mode-is-now-in-preview-for-github-copilot",
+      "story_id": "story_2a376defa06a",
+      "title": "Dependabot 不再推断 .npmrc / Dependabot no longer infers .npmrc",
+      "url": "https://github.blog/changelog/2026-06-30-dependabot-no-longer-infers-npmrc",
+      "primary_url": "https://github.blog/changelog/2026-06-30-dependabot-no-longer-infers-npmrc",
       "source": "GitHub Changelog",
       "source_name": "Official AI Updates",
       "sources": [
         {
-          "id": "5dfcf8814038575f4f19c163b548f03da19a32bb",
-          "title": "Claude Opus 4.8（快速模式）现已推出 GitHub Copilot 预览版 / Claude Opus 4.8 (fast mode) is now in preview for GitHub Copilot",
-          "url": "https://github.blog/changelog/2026-06-29-claude-opus-4-8-fast-mode-is-now-in-preview-for-github-copilot",
+          "id": "73e2655ce2239f3653dbbd152004dcbcb4e2c30f",
+          "title": "Dependabot 不再推断 .npmrc / Dependabot no longer infers .npmrc",
+          "url": "https://github.blog/changelog/2026-06-30-dependabot-no-longer-infers-npmrc",
           "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-06-29T16:47:16Z"
+          "published_at": "2026-06-30T13:53:48Z"
         }
       ],
       "source_count": 1,
@@ -89,26 +151,26 @@
       ],
       "items": [
         {
-          "id": "5dfcf8814038575f4f19c163b548f03da19a32bb",
-          "title": "Claude Opus 4.8（快速模式）现已推出 GitHub Copilot 预览版 / Claude Opus 4.8 (fast mode) is now in preview for GitHub Copilot",
-          "url": "https://github.blog/changelog/2026-06-29-claude-opus-4-8-fast-mode-is-now-in-preview-for-github-copilot",
+          "id": "73e2655ce2239f3653dbbd152004dcbcb4e2c30f",
+          "title": "Dependabot 不再推断 .npmrc / Dependabot no longer infers .npmrc",
+          "url": "https://github.blog/changelog/2026-06-30-dependabot-no-longer-infers-npmrc",
           "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-06-29T16:47:16Z"
+          "published_at": "2026-06-30T13:53:48Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8154,
-      "importance": 0.8154,
-      "importance_score": 0.8154,
+      "score": 0.8406,
+      "importance": 0.8406,
+      "importance_score": 0.8406,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
-        "ai_relevance": 0.95,
-        "recency": 0.7524,
+        "ai_relevance": 0.87,
+        "recency": 0.9812,
         "story_heat": 0.0
       },
       "category": "official",
@@ -117,12 +179,12 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-06-29T16:47:16Z",
-      "latest_at": "2026-06-29T16:47:16Z",
+      "earliest_at": "2026-06-30T13:53:48Z",
+      "latest_at": "2026-06-30T13:53:48Z",
       "primary_item": {
-        "id": "5dfcf8814038575f4f19c163b548f03da19a32bb",
-        "title": "Claude Opus 4.8（快速模式）现已推出 GitHub Copilot 预览版 / Claude Opus 4.8 (fast mode) is now in preview for GitHub Copilot",
-        "url": "https://github.blog/changelog/2026-06-29-claude-opus-4-8-fast-mode-is-now-in-preview-for-github-copilot",
+        "id": "73e2655ce2239f3653dbbd152004dcbcb4e2c30f",
+        "title": "Dependabot 不再推断 .npmrc / Dependabot no longer infers .npmrc",
+        "url": "https://github.blog/changelog/2026-06-30-dependabot-no-longer-infers-npmrc",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
       }
@@ -181,15 +243,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7834,
-      "importance": 0.7834,
-      "importance_score": 0.7834,
+      "score": 0.7766,
+      "importance": 0.7766,
+      "importance_score": 0.7766,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9823,
+        "recency": 0.9444,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -262,15 +324,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7752,
-      "importance": 0.7752,
-      "importance_score": 0.7752,
+      "score": 0.7687,
+      "importance": 0.7687,
+      "importance_score": 0.7687,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9366,
+        "recency": 0.9004,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -324,15 +386,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7724,
-      "importance": 0.7724,
-      "importance_score": 0.7724,
+      "score": 0.7664,
+      "importance": 0.7664,
+      "importance_score": 0.7664,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.81,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8769,
+        "recency": 0.8431,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -404,15 +466,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7692,
-      "importance": 0.7692,
-      "importance_score": 0.7692,
+      "score": 0.7632,
+      "importance": 0.7632,
+      "importance_score": 0.7632,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.87,
+        "recency": 0.8365,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -485,15 +547,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7689,
-      "importance": 0.7689,
-      "importance_score": 0.7689,
+      "score": 0.7627,
+      "importance": 0.7627,
+      "importance_score": 0.7627,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.71,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8849,
+        "recency": 0.8508,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -510,68 +572,6 @@
         "url": "https://techcrunch.com/2026/06/29/the-ai-jobs-debate-just-got-messier",
         "source": "TechCrunch：AI（RSS）",
         "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_022b5040aeb6",
-      "title": "仅限协作者创建问题 / Restrict issue creation to collaborators only",
-      "url": "https://github.blog/changelog/2026-06-29-restrict-issue-creation-to-collaborators-only",
-      "primary_url": "https://github.blog/changelog/2026-06-29-restrict-issue-creation-to-collaborators-only",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "6964bb97755e9216734e48a0fad3ffd1e88ffa7b",
-          "title": "仅限协作者创建问题 / Restrict issue creation to collaborators only",
-          "url": "https://github.blog/changelog/2026-06-29-restrict-issue-creation-to-collaborators-only",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-29T16:08:23Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "items": [
-        {
-          "id": "6964bb97755e9216734e48a0fad3ffd1e88ffa7b",
-          "title": "仅限协作者创建问题 / Restrict issue creation to collaborators only",
-          "url": "https://github.blog/changelog/2026-06-29-restrict-issue-creation-to-collaborators-only",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-29T16:08:23Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7982,
-      "importance": 0.7982,
-      "importance_score": 0.7982,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.7454,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-29T16:08:23Z",
-      "latest_at": "2026-06-29T16:08:23Z",
-      "primary_item": {
-        "id": "6964bb97755e9216734e48a0fad3ffd1e88ffa7b",
-        "title": "仅限协作者创建问题 / Restrict issue creation to collaborators only",
-        "url": "https://github.blog/changelog/2026-06-29-restrict-issue-creation-to-collaborators-only",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
       }
     },
     {
@@ -609,15 +609,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7979,
-      "importance": 0.7979,
-      "importance_score": 0.7979,
+      "score": 0.7927,
+      "importance": 0.7927,
+      "importance_score": 0.7927,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.7439,
+        "recency": 0.7152,
         "story_heat": 0.0
       },
       "category": "official",
@@ -690,15 +690,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7595,
-      "importance": 0.7595,
-      "importance_score": 0.7595,
+      "score": 0.7542,
+      "importance": 0.7542,
+      "importance_score": 0.7542,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7663,
+        "recency": 0.7367,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -752,15 +752,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7574,
-      "importance": 0.7574,
-      "importance_score": 0.7574,
+      "score": 0.7512,
+      "importance": 0.7512,
+      "importance_score": 0.7512,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8933,
+        "recency": 0.8589,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -776,6 +776,68 @@
         "url": "https://x.com/op7418/status/2071816099986022650",
         "source": "X：歸藏 (@op7418)",
         "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_5a9c6b882649",
+      "title": "Claude Opus 4.8（快速模式）现已推出 GitHub Copilot 预览版 / Claude Opus 4.8 (fast mode) is now in preview for GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-06-29-claude-opus-4-8-fast-mode-is-now-in-preview-for-github-copilot",
+      "primary_url": "https://github.blog/changelog/2026-06-29-claude-opus-4-8-fast-mode-is-now-in-preview-for-github-copilot",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "5dfcf8814038575f4f19c163b548f03da19a32bb",
+          "title": "Claude Opus 4.8（快速模式）现已推出 GitHub Copilot 预览版 / Claude Opus 4.8 (fast mode) is now in preview for GitHub Copilot",
+          "url": "https://github.blog/changelog/2026-06-29-claude-opus-4-8-fast-mode-is-now-in-preview-for-github-copilot",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-29T16:47:16Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "items": [
+        {
+          "id": "5dfcf8814038575f4f19c163b548f03da19a32bb",
+          "title": "Claude Opus 4.8（快速模式）现已推出 GitHub Copilot 预览版 / Claude Opus 4.8 (fast mode) is now in preview for GitHub Copilot",
+          "url": "https://github.blog/changelog/2026-06-29-claude-opus-4-8-fast-mode-is-now-in-preview-for-github-copilot",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-29T16:47:16Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8102,
+      "importance": 0.8102,
+      "importance_score": 0.8102,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.95,
+        "recency": 0.7234,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-29T16:47:16Z",
+      "latest_at": "2026-06-29T16:47:16Z",
+      "primary_item": {
+        "id": "5dfcf8814038575f4f19c163b548f03da19a32bb",
+        "title": "Claude Opus 4.8（快速模式）现已推出 GitHub Copilot 预览版 / Claude Opus 4.8 (fast mode) is now in preview for GitHub Copilot",
+        "url": "https://github.blog/changelog/2026-06-29-claude-opus-4-8-fast-mode-is-now-in-preview-for-github-copilot",
+        "source": "GitHub Changelog",
+        "source_name": "Official AI Updates"
       }
     },
     {
@@ -813,21 +875,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7528,
-      "importance": 0.7528,
-      "importance_score": 0.7528,
+      "score": 0.7472,
+      "importance": 0.7472,
+      "importance_score": 0.7472,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.79,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8009,
+        "recency": 0.77,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-06-29T21:06:43Z",
       "latest_at": "2026-06-29T21:06:43Z",
@@ -874,15 +935,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7466,
-      "importance": 0.7466,
-      "importance_score": 0.7466,
+      "score": 0.741,
+      "importance": 0.741,
+      "importance_score": 0.741,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.77,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7998,
+        "recency": 0.7689,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -934,15 +995,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7743,
-      "importance": 0.7743,
-      "importance_score": 0.7743,
+      "score": 0.7679,
+      "importance": 0.7679,
+      "importance_score": 0.7679,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.79,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9205,
+        "recency": 0.885,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1014,15 +1075,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7692,
-      "importance": 0.7692,
-      "importance_score": 0.7692,
+      "score": 0.7632,
+      "importance": 0.7632,
+      "importance_score": 0.7632,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.87,
+        "recency": 0.8365,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -1076,15 +1137,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7358,
-      "importance": 0.7358,
-      "importance_score": 0.7358,
+      "score": 0.7299,
+      "importance": 0.7299,
+      "importance_score": 0.7299,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8568,
+        "recency": 0.8238,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1136,15 +1197,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7358,
-      "importance": 0.7358,
-      "importance_score": 0.7358,
+      "score": 0.7295,
+      "importance": 0.7295,
+      "importance_score": 0.7295,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.67,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9068,
+        "recency": 0.8718,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1158,126 +1219,6 @@
         "title": "美团 LongCat 发布旗舰模型 LongCat-2.0",
         "url": "https://x.com/SiliconFlowAI/status/2071831773076746715",
         "source": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_eee9aecd1888",
-      "title": "Anthropic工程师Margot Van Laar：提示词工程实战--调试生产提示词为主，评估是唯一严谨方式",
-      "url": "https://x.com/berryxia/status/2071610700213191075",
-      "primary_url": "https://x.com/berryxia/status/2071610700213191075",
-      "source": "X：Berry Xia (@berryxia)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "a85e9be6f7d7a7f396b38645a8ea00194edb1ade",
-          "title": "Anthropic工程师Margot Van Laar：提示词工程实战--调试生产提示词为主，评估是唯一严谨方式",
-          "url": "https://x.com/berryxia/status/2071610700213191075",
-          "source": "X：Berry Xia (@berryxia)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-29T15:04:14Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：Berry Xia (@berryxia)"
-      ],
-      "items": [
-        {
-          "id": "a85e9be6f7d7a7f396b38645a8ea00194edb1ade",
-          "title": "Anthropic工程师Margot Van Laar：提示词工程实战--调试生产提示词为主，评估是唯一严谨方式",
-          "url": "https://x.com/berryxia/status/2071610700213191075",
-          "source": "X：Berry Xia (@berryxia)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-29T15:04:14Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7347,
-      "importance": 0.7347,
-      "importance_score": 0.7347,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.77,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.734,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-29T15:04:14Z",
-      "latest_at": "2026-06-29T15:04:14Z",
-      "primary_item": {
-        "id": "a85e9be6f7d7a7f396b38645a8ea00194edb1ade",
-        "title": "Anthropic工程师Margot Van Laar：提示词工程实战--调试生产提示词为主，评估是唯一严谨方式",
-        "url": "https://x.com/berryxia/status/2071610700213191075",
-        "source": "X：Berry Xia (@berryxia)",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_38c3853bacfb",
-      "title": "具身智能数据采集员：日薪200元起，给机器人当老师",
-      "url": "https://mp.weixin.qq.com/s/aSd4kLu7xHllZatrd5EGsw",
-      "primary_url": "https://mp.weixin.qq.com/s/aSd4kLu7xHllZatrd5EGsw",
-      "source": "公众号：数字生命卡兹克",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "e08e397f02568ea6148c3cc3c8642f9e2266a852",
-          "title": "具身智能数据采集员：日薪200元起，给机器人当老师",
-          "url": "https://mp.weixin.qq.com/s/aSd4kLu7xHllZatrd5EGsw",
-          "source": "公众号：数字生命卡兹克",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-30T01:58:00Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "公众号：数字生命卡兹克"
-      ],
-      "items": [
-        {
-          "id": "e08e397f02568ea6148c3cc3c8642f9e2266a852",
-          "title": "具身智能数据采集员：日薪200元起，给机器人当老师",
-          "url": "https://mp.weixin.qq.com/s/aSd4kLu7xHllZatrd5EGsw",
-          "source": "公众号：数字生命卡兹克",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-30T01:58:00Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7272,
-      "importance": 0.7272,
-      "importance_score": 0.7272,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.67,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8591,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-30T01:58:00Z",
-      "latest_at": "2026-06-30T01:58:00Z",
-      "primary_item": {
-        "id": "e08e397f02568ea6148c3cc3c8642f9e2266a852",
-        "title": "具身智能数据采集员：日薪200元起，给机器人当老师",
-        "url": "https://mp.weixin.qq.com/s/aSd4kLu7xHllZatrd5EGsw",
-        "source": "公众号：数字生命卡兹克",
         "source_name": "AI HOT"
       }
     },
@@ -1316,15 +1257,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7269,
-      "importance": 0.7269,
-      "importance_score": 0.7269,
+      "score": 0.7214,
+      "importance": 0.7214,
+      "importance_score": 0.7214,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.71,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7904,
+        "recency": 0.7599,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1338,6 +1279,66 @@
         "title": "OpenClaw 发布原生 iOS 与 Android 应用",
         "url": "https://x.com/openclaw/status/2071688039114342592",
         "source": "X：OpenClaw (@openclaw)",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_38c3853bacfb",
+      "title": "具身智能数据采集员：日薪200元起，给机器人当老师",
+      "url": "https://mp.weixin.qq.com/s/aSd4kLu7xHllZatrd5EGsw",
+      "primary_url": "https://mp.weixin.qq.com/s/aSd4kLu7xHllZatrd5EGsw",
+      "source": "公众号：数字生命卡兹克",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "e08e397f02568ea6148c3cc3c8642f9e2266a852",
+          "title": "具身智能数据采集员：日薪200元起，给机器人当老师",
+          "url": "https://mp.weixin.qq.com/s/aSd4kLu7xHllZatrd5EGsw",
+          "source": "公众号：数字生命卡兹克",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-30T01:58:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "公众号：数字生命卡兹克"
+      ],
+      "items": [
+        {
+          "id": "e08e397f02568ea6148c3cc3c8642f9e2266a852",
+          "title": "具身智能数据采集员：日薪200元起，给机器人当老师",
+          "url": "https://mp.weixin.qq.com/s/aSd4kLu7xHllZatrd5EGsw",
+          "source": "公众号：数字生命卡兹克",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-30T01:58:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7213,
+      "importance": 0.7213,
+      "importance_score": 0.7213,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.67,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.826,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-06-30T01:58:00Z",
+      "latest_at": "2026-06-30T01:58:00Z",
+      "primary_item": {
+        "id": "e08e397f02568ea6148c3cc3c8642f9e2266a852",
+        "title": "具身智能数据采集员：日薪200元起，给机器人当老师",
+        "url": "https://mp.weixin.qq.com/s/aSd4kLu7xHllZatrd5EGsw",
+        "source": "公众号：数字生命卡兹克",
         "source_name": "AI HOT"
       }
     }
