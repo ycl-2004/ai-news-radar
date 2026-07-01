@@ -1,8 +1,70 @@
 {
-  "generated_at": "2026-07-01T14:14:01.815277Z",
+  "generated_at": "2026-07-01T16:43:02.760596Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
+    {
+      "story_id": "story_f1e729411b90",
+      "title": "VS Code 中的 GitHub Copilot 浏览器工具已普遍可用 / Browser tools for GitHub Copilot in VS Code are generally available",
+      "url": "https://github.blog/changelog/2026-07-01-browser-tools-for-github-copilot-in-vs-code-are-generally-available",
+      "primary_url": "https://github.blog/changelog/2026-07-01-browser-tools-for-github-copilot-in-vs-code-are-generally-available",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "540436200ee68db997ad66fc4cd4146280bb30d5",
+          "title": "VS Code 中的 GitHub Copilot 浏览器工具已普遍可用 / Browser tools for GitHub Copilot in VS Code are generally available",
+          "url": "https://github.blog/changelog/2026-07-01-browser-tools-for-github-copilot-in-vs-code-are-generally-available",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-07-01T16:01:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "items": [
+        {
+          "id": "540436200ee68db997ad66fc4cd4146280bb30d5",
+          "title": "VS Code 中的 GitHub Copilot 浏览器工具已普遍可用 / Browser tools for GitHub Copilot in VS Code are generally available",
+          "url": "https://github.blog/changelog/2026-07-01-browser-tools-for-github-copilot-in-vs-code-are-generally-available",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-07-01T16:01:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8502,
+      "importance": 0.8502,
+      "importance_score": 0.8502,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.9899,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-07-01T16:01:00Z",
+      "latest_at": "2026-07-01T16:01:00Z",
+      "primary_item": {
+        "id": "540436200ee68db997ad66fc4cd4146280bb30d5",
+        "title": "VS Code 中的 GitHub Copilot 浏览器工具已普遍可用 / Browser tools for GitHub Copilot in VS Code are generally available",
+        "url": "https://github.blog/changelog/2026-07-01-browser-tools-for-github-copilot-in-vs-code-are-generally-available",
+        "source": "GitHub Changelog",
+        "source_name": "Official AI Updates"
+      }
+    },
     {
       "story_id": "story_91992ed9f82d",
       "title": "法典 CLI 0.142.5 / Codex CLI 0.142.5",
@@ -38,15 +100,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8326,
-      "importance": 0.8326,
-      "importance_score": 0.8326,
+      "score": 0.8274,
+      "importance": 0.8274,
+      "importance_score": 0.8274,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.98,
-        "recency": 0.8142,
+        "recency": 0.7855,
         "story_heat": 0.0
       },
       "category": "official",
@@ -66,21 +128,21 @@
       }
     },
     {
-      "story_id": "story_8654826289ec",
-      "title": "ScarfBench：企业 Java 框架迁移的 AI 代理基准测试 / ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
-      "url": "https://huggingface.co/blog/ibm-research/scarfbench",
-      "primary_url": "https://huggingface.co/blog/ibm-research/scarfbench",
+      "story_id": "story_b7f49b2bc148",
+      "title": "Hugging Face 和 Cerebras 将 Gemma 4 引入实时语音 AI / Hugging Face and Cerebras bring Gemma 4 to real-time voice AI",
+      "url": "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
+      "primary_url": "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
       "source": "Hugging Face Blog",
       "source_name": "Official AI Updates",
       "sources": [
         {
-          "id": "b166af0b386e2c9eb68e80320f4ae1df613895f9",
-          "title": "ScarfBench：企业 Java 框架迁移的 AI 代理基准测试 / ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
-          "url": "https://huggingface.co/blog/ibm-research/scarfbench",
+          "id": "528f1ed34c1c8a79dd2084e986232f4dd5964781",
+          "title": "Hugging Face 和 Cerebras 将 Gemma 4 引入实时语音 AI / Hugging Face and Cerebras bring Gemma 4 to real-time voice AI",
+          "url": "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
           "source": "Hugging Face Blog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-06-30T18:32:50Z"
+          "published_at": "2026-07-01T00:00:00Z"
         }
       ],
       "source_count": 1,
@@ -89,26 +151,26 @@
       ],
       "items": [
         {
-          "id": "b166af0b386e2c9eb68e80320f4ae1df613895f9",
-          "title": "ScarfBench：企业 Java 框架迁移的 AI 代理基准测试 / ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
-          "url": "https://huggingface.co/blog/ibm-research/scarfbench",
+          "id": "528f1ed34c1c8a79dd2084e986232f4dd5964781",
+          "title": "Hugging Face 和 Cerebras 将 Gemma 4 引入实时语音 AI / Hugging Face and Cerebras bring Gemma 4 to real-time voice AI",
+          "url": "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
           "source": "Hugging Face Blog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-06-30T18:32:50Z"
+          "published_at": "2026-07-01T00:00:00Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8215,
-      "importance": 0.8215,
-      "importance_score": 0.8215,
+      "score": 0.8214,
+      "importance": 0.8214,
+      "importance_score": 0.8214,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
-        "ai_relevance": 0.98,
-        "recency": 0.7526,
+        "ai_relevance": 0.95,
+        "recency": 0.7855,
         "story_heat": 0.0
       },
       "category": "official",
@@ -117,32 +179,32 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-06-30T18:32:50Z",
-      "latest_at": "2026-06-30T18:32:50Z",
+      "earliest_at": "2026-07-01T00:00:00Z",
+      "latest_at": "2026-07-01T00:00:00Z",
       "primary_item": {
-        "id": "b166af0b386e2c9eb68e80320f4ae1df613895f9",
-        "title": "ScarfBench：企业 Java 框架迁移的 AI 代理基准测试 / ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
-        "url": "https://huggingface.co/blog/ibm-research/scarfbench",
+        "id": "528f1ed34c1c8a79dd2084e986232f4dd5964781",
+        "title": "Hugging Face 和 Cerebras 将 Gemma 4 引入实时语音 AI / Hugging Face and Cerebras bring Gemma 4 to real-time voice AI",
+        "url": "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
         "source": "Hugging Face Blog",
         "source_name": "Official AI Updates"
       }
     },
     {
-      "story_id": "story_baf3220209a7",
-      "title": "Claude Sonnet 5 一般可用于 GitHub Copilot / Claude Sonnet 5 is generally available for GitHub Copilot",
-      "url": "https://github.blog/changelog/2026-06-30-claude-sonnet-5-is-generally-available-for-github-copilot",
-      "primary_url": "https://github.blog/changelog/2026-06-30-claude-sonnet-5-is-generally-available-for-github-copilot",
+      "story_id": "story_97b869cd06ee",
+      "title": "Copilot CLI 根据任务自动选择模型路线 / Copilot CLI auto model selection routes based on task",
+      "url": "https://github.blog/changelog/2026-07-01-copilot-cli-auto-model-selection-routes-based-on-task",
+      "primary_url": "https://github.blog/changelog/2026-07-01-copilot-cli-auto-model-selection-routes-based-on-task",
       "source": "GitHub Changelog",
       "source_name": "Official AI Updates",
       "sources": [
         {
-          "id": "f63297030ebe8435fd635e15f434f76869319b6f",
-          "title": "Claude Sonnet 5 一般可用于 GitHub Copilot / Claude Sonnet 5 is generally available for GitHub Copilot",
-          "url": "https://github.blog/changelog/2026-06-30-claude-sonnet-5-is-generally-available-for-github-copilot",
+          "id": "03e252234a3e401b08046b6006873441a064de2a",
+          "title": "Copilot CLI 根据任务自动选择模型路线 / Copilot CLI auto model selection routes based on task",
+          "url": "https://github.blog/changelog/2026-07-01-copilot-cli-auto-model-selection-routes-based-on-task",
           "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-06-30T17:25:51Z"
+          "published_at": "2026-07-01T15:13:29Z"
         }
       ],
       "source_count": 1,
@@ -151,26 +213,26 @@
       ],
       "items": [
         {
-          "id": "f63297030ebe8435fd635e15f434f76869319b6f",
-          "title": "Claude Sonnet 5 一般可用于 GitHub Copilot / Claude Sonnet 5 is generally available for GitHub Copilot",
-          "url": "https://github.blog/changelog/2026-06-30-claude-sonnet-5-is-generally-available-for-github-copilot",
+          "id": "03e252234a3e401b08046b6006873441a064de2a",
+          "title": "Copilot CLI 根据任务自动选择模型路线 / Copilot CLI auto model selection routes based on task",
+          "url": "https://github.blog/changelog/2026-07-01-copilot-cli-auto-model-selection-routes-based-on-task",
           "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-06-30T17:25:51Z"
+          "published_at": "2026-07-01T15:13:29Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8133,
-      "importance": 0.8133,
-      "importance_score": 0.8133,
+      "score": 0.8482,
+      "importance": 0.8482,
+      "importance_score": 0.8482,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
-        "ai_relevance": 0.95,
-        "recency": 0.7405,
+        "ai_relevance": 0.91,
+        "recency": 0.9787,
         "story_heat": 0.0
       },
       "category": "official",
@@ -179,12 +241,12 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-06-30T17:25:51Z",
-      "latest_at": "2026-06-30T17:25:51Z",
+      "earliest_at": "2026-07-01T15:13:29Z",
+      "latest_at": "2026-07-01T15:13:29Z",
       "primary_item": {
-        "id": "f63297030ebe8435fd635e15f434f76869319b6f",
-        "title": "Claude Sonnet 5 一般可用于 GitHub Copilot / Claude Sonnet 5 is generally available for GitHub Copilot",
-        "url": "https://github.blog/changelog/2026-06-30-claude-sonnet-5-is-generally-available-for-github-copilot",
+        "id": "03e252234a3e401b08046b6006873441a064de2a",
+        "title": "Copilot CLI 根据任务自动选择模型路线 / Copilot CLI auto model selection routes based on task",
+        "url": "https://github.blog/changelog/2026-07-01-copilot-cli-auto-model-selection-routes-based-on-task",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
       }
@@ -261,15 +323,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.8011,
-      "importance": 0.8011,
-      "importance_score": 0.8011,
+      "score": 0.7951,
+      "importance": 0.7951,
+      "importance_score": 0.7951,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9415,
+        "recency": 0.9084,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -361,15 +423,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.7991,
-      "importance": 0.7991,
-      "importance_score": 0.7991,
+      "score": 0.7943,
+      "importance": 0.7943,
+      "importance_score": 0.7943,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.81,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.747,
+        "recency": 0.7207,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -442,15 +504,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7955,
-      "importance": 0.7955,
-      "importance_score": 0.7955,
+      "score": 0.7904,
+      "importance": 0.7904,
+      "importance_score": 0.7904,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.84,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8164,
+        "recency": 0.7876,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -467,6 +529,68 @@
         "url": "https://mp.weixin.qq.com/s/yLb4T2UC16ebKHApdBbgWw",
         "source": "公众号：数字生命卡兹克",
         "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_8654826289ec",
+      "title": "ScarfBench：企业 Java 框架迁移的 AI 代理基准测试 / ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
+      "url": "https://huggingface.co/blog/ibm-research/scarfbench",
+      "primary_url": "https://huggingface.co/blog/ibm-research/scarfbench",
+      "source": "Hugging Face Blog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "b166af0b386e2c9eb68e80320f4ae1df613895f9",
+          "title": "ScarfBench：企业 Java 框架迁移的 AI 代理基准测试 / ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
+          "url": "https://huggingface.co/blog/ibm-research/scarfbench",
+          "source": "Hugging Face Blog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-30T18:32:50Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Hugging Face Blog"
+      ],
+      "items": [
+        {
+          "id": "b166af0b386e2c9eb68e80320f4ae1df613895f9",
+          "title": "ScarfBench：企业 Java 框架迁移的 AI 代理基准测试 / ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
+          "url": "https://huggingface.co/blog/ibm-research/scarfbench",
+          "source": "Hugging Face Blog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-30T18:32:50Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8167,
+      "importance": 0.8167,
+      "importance_score": 0.8167,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.98,
+        "recency": 0.726,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-30T18:32:50Z",
+      "latest_at": "2026-06-30T18:32:50Z",
+      "primary_item": {
+        "id": "b166af0b386e2c9eb68e80320f4ae1df613895f9",
+        "title": "ScarfBench：企业 Java 框架迁移的 AI 代理基准测试 / ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
+        "url": "https://huggingface.co/blog/ibm-research/scarfbench",
+        "source": "Hugging Face Blog",
+        "source_name": "Official AI Updates"
       }
     },
     {
@@ -523,15 +647,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7913,
-      "importance": 0.7913,
-      "importance_score": 0.7913,
+      "score": 0.785,
+      "importance": 0.785,
+      "importance_score": 0.785,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9926,
+        "recency": 0.9576,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -604,15 +728,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7805,
-      "importance": 0.7805,
-      "importance_score": 0.7805,
+      "score": 0.7747,
+      "importance": 0.7747,
+      "importance_score": 0.7747,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.73,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9162,
+        "recency": 0.8839,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -704,15 +828,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.7731,
-      "importance": 0.7731,
-      "importance_score": 0.7731,
+      "score": 0.7684,
+      "importance": 0.7684,
+      "importance_score": 0.7684,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7529,
+        "recency": 0.7264,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -729,68 +853,6 @@
         "url": "https://claude.com/product/claude-science",
         "source": "Hacker News 热门（buzzing.cc 中文翻译）",
         "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_66857aac9970",
-      "title": "Copilot Agent 现已在 JetBrains AI Assistant 中可用 / Copilot Agent is now available in JetBrains AI Assistant",
-      "url": "https://github.blog/changelog/2026-06-30-copilot-agent-is-now-available-in-jetbrains-ai-assistant",
-      "primary_url": "https://github.blog/changelog/2026-06-30-copilot-agent-is-now-available-in-jetbrains-ai-assistant",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "3cd7525059deffd71d6c53a058c4762cef4a7a58",
-          "title": "Copilot Agent 现已在 JetBrains AI Assistant 中可用 / Copilot Agent is now available in JetBrains AI Assistant",
-          "url": "https://github.blog/changelog/2026-06-30-copilot-agent-is-now-available-in-jetbrains-ai-assistant",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-30T16:00:19Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "items": [
-        {
-          "id": "3cd7525059deffd71d6c53a058c4762cef4a7a58",
-          "title": "Copilot Agent 现已在 JetBrains AI Assistant 中可用 / Copilot Agent is now available in JetBrains AI Assistant",
-          "url": "https://github.blog/changelog/2026-06-30-copilot-agent-is-now-available-in-jetbrains-ai-assistant",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-30T16:00:19Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8026,
-      "importance": 0.8026,
-      "importance_score": 0.8026,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.7254,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-30T16:00:19Z",
-      "latest_at": "2026-06-30T16:00:19Z",
-      "primary_item": {
-        "id": "3cd7525059deffd71d6c53a058c4762cef4a7a58",
-        "title": "Copilot Agent 现已在 JetBrains AI Assistant 中可用 / Copilot Agent is now available in JetBrains AI Assistant",
-        "url": "https://github.blog/changelog/2026-06-30-copilot-agent-is-now-available-in-jetbrains-ai-assistant",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
       }
     },
     {
@@ -828,15 +890,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7693,
-      "importance": 0.7693,
-      "importance_score": 0.7693,
+      "score": 0.764,
+      "importance": 0.764,
+      "importance_score": 0.764,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.82,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8429,
+        "recency": 0.8132,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -889,15 +951,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7617,
-      "importance": 0.7617,
-      "importance_score": 0.7617,
+      "score": 0.7555,
+      "importance": 0.7555,
+      "importance_score": 0.7555,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.967,
+        "recency": 0.9329,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -969,15 +1031,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7586,
-      "importance": 0.7586,
-      "importance_score": 0.7586,
+      "score": 0.7534,
+      "importance": 0.7534,
+      "importance_score": 0.7534,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.811,
+        "recency": 0.7824,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -997,62 +1059,185 @@
       }
     },
     {
-      "story_id": "story_c5fef2c86cb3",
-      "title": "mattpocockuk 的 /writing-great-skills：编写可预测 AI Skill 的指南",
-      "url": "https://x.com/shao__meng/status/2072126769986220157",
-      "primary_url": "https://x.com/shao__meng/status/2072126769986220157",
-      "source": "X：邵猛 (@shao__meng)",
+      "story_id": "story_7ba98dc94a42",
+      "title": "智谱推出GLM-5.2官方开发环境ZCode",
+      "url": "https://x.com/Zai_org/status/2072349453361557898",
+      "primary_url": "https://x.com/Zai_org/status/2072349453361557898",
+      "source": "X：智谱 Z.ai (@Zai_org)",
       "source_name": "AI HOT",
       "sources": [
         {
-          "id": "d10ca2ca83e854ed28066568d999ba5938a7ac14",
-          "title": "mattpocockuk 的 /writing-great-skills：编写可预测 AI Skill 的指南",
-          "url": "https://x.com/shao__meng/status/2072126769986220157",
-          "source": "X：邵猛 (@shao__meng)",
+          "id": "971bd6d5da3e32d8fb11d232dd1e096ed1e89206",
+          "title": "智谱推出GLM-5.2官方开发环境ZCode",
+          "url": "https://x.com/Zai_org/status/2072349453361557898",
+          "source": "X：智谱 Z.ai (@Zai_org)",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-07-01T01:14:54Z"
+          "published_at": "2026-07-01T15:59:46Z"
         }
       ],
       "source_count": 1,
       "source_names": [
-        "X：邵猛 (@shao__meng)"
+        "X：智谱 Z.ai (@Zai_org)"
       ],
       "items": [
         {
-          "id": "d10ca2ca83e854ed28066568d999ba5938a7ac14",
-          "title": "mattpocockuk 的 /writing-great-skills：编写可预测 AI Skill 的指南",
-          "url": "https://x.com/shao__meng/status/2072126769986220157",
-          "source": "X：邵猛 (@shao__meng)",
+          "id": "971bd6d5da3e32d8fb11d232dd1e096ed1e89206",
+          "title": "智谱推出GLM-5.2官方开发环境ZCode",
+          "url": "https://x.com/Zai_org/status/2072349453361557898",
+          "source": "X：智谱 Z.ai (@Zai_org)",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-07-01T01:14:54Z"
+          "published_at": "2026-07-01T15:59:46Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7458,
-      "importance": 0.7458,
-      "importance_score": 0.7458,
+      "score": 0.7507,
+      "importance": 0.7507,
+      "importance_score": 0.7507,
       "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.75,
+        "editorial": 0.67,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.829,
+        "recency": 0.9896,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-07-01T15:59:46Z",
+      "latest_at": "2026-07-01T15:59:46Z",
+      "primary_item": {
+        "id": "971bd6d5da3e32d8fb11d232dd1e096ed1e89206",
+        "title": "智谱推出GLM-5.2官方开发环境ZCode",
+        "url": "https://x.com/Zai_org/status/2072349453361557898",
+        "source": "X：智谱 Z.ai (@Zai_org)",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_baf3220209a7",
+      "title": "Claude Sonnet 5 一般可用于 GitHub Copilot / Claude Sonnet 5 is generally available for GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-06-30-claude-sonnet-5-is-generally-available-for-github-copilot",
+      "primary_url": "https://github.blog/changelog/2026-06-30-claude-sonnet-5-is-generally-available-for-github-copilot",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "f63297030ebe8435fd635e15f434f76869319b6f",
+          "title": "Claude Sonnet 5 一般可用于 GitHub Copilot / Claude Sonnet 5 is generally available for GitHub Copilot",
+          "url": "https://github.blog/changelog/2026-06-30-claude-sonnet-5-is-generally-available-for-github-copilot",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-30T17:25:51Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "items": [
+        {
+          "id": "f63297030ebe8435fd635e15f434f76869319b6f",
+          "title": "Claude Sonnet 5 一般可用于 GitHub Copilot / Claude Sonnet 5 is generally available for GitHub Copilot",
+          "url": "https://github.blog/changelog/2026-06-30-claude-sonnet-5-is-generally-available-for-github-copilot",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-06-30T17:25:51Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8086,
+      "importance": 0.8086,
+      "importance_score": 0.8086,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.95,
+        "recency": 0.7144,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-30T17:25:51Z",
+      "latest_at": "2026-06-30T17:25:51Z",
+      "primary_item": {
+        "id": "f63297030ebe8435fd635e15f434f76869319b6f",
+        "title": "Claude Sonnet 5 一般可用于 GitHub Copilot / Claude Sonnet 5 is generally available for GitHub Copilot",
+        "url": "https://github.blog/changelog/2026-06-30-claude-sonnet-5-is-generally-available-for-github-copilot",
+        "source": "GitHub Changelog",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_bf56d5c95a04",
+      "title": "xAI 发布 Voice Agent Builder 测试版",
+      "url": "https://x.ai/news/grok-voice-agent-builder",
+      "primary_url": "https://x.ai/news/grok-voice-agent-builder",
+      "source": "xAI：News（网页）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "24bdb8d66264a5df742df215b078f115aabb8646",
+          "title": "xAI 发布 Voice Agent Builder 测试版",
+          "url": "https://x.ai/news/grok-voice-agent-builder",
+          "source": "xAI：News（网页）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-01T00:00:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "xAI：News（网页）"
+      ],
+      "items": [
+        {
+          "id": "24bdb8d66264a5df742df215b078f115aabb8646",
+          "title": "xAI 发布 Voice Agent Builder 测试版",
+          "url": "https://x.ai/news/grok-voice-agent-builder",
+          "source": "xAI：News（网页）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-01T00:00:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.744,
+      "importance": 0.744,
+      "importance_score": 0.744,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.77,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7855,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
         "high_ai_relevance"
       ],
-      "earliest_at": "2026-07-01T01:14:54Z",
-      "latest_at": "2026-07-01T01:14:54Z",
+      "earliest_at": "2026-07-01T00:00:00Z",
+      "latest_at": "2026-07-01T00:00:00Z",
       "primary_item": {
-        "id": "d10ca2ca83e854ed28066568d999ba5938a7ac14",
-        "title": "mattpocockuk 的 /writing-great-skills：编写可预测 AI Skill 的指南",
-        "url": "https://x.com/shao__meng/status/2072126769986220157",
-        "source": "X：邵猛 (@shao__meng)",
+        "id": "24bdb8d66264a5df742df215b078f115aabb8646",
+        "title": "xAI 发布 Voice Agent Builder 测试版",
+        "url": "https://x.ai/news/grok-voice-agent-builder",
+        "source": "xAI：News（网页）",
         "source_name": "AI HOT"
       }
     },
@@ -1110,15 +1295,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7755,
-      "importance": 0.7755,
-      "importance_score": 0.7755,
+      "score": 0.7707,
+      "importance": 0.7707,
+      "importance_score": 0.7707,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.81,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.755,
+        "recency": 0.7284,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -1134,6 +1319,66 @@
         "title": "Anthropic 发布 Claude Sonnet 5，号称最智能体版本，逼近 Opus 系列",
         "url": "https://the-decoder.com/anthropics-new-claude-sonnet-5-closes-the-gap-to-the-pricier-opus-model-series",
         "source": "The Decoder：AI News（RSS）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_c5fef2c86cb3",
+      "title": "mattpocockuk 的 /writing-great-skills：编写可预测 AI Skill 的指南",
+      "url": "https://x.com/shao__meng/status/2072126769986220157",
+      "primary_url": "https://x.com/shao__meng/status/2072126769986220157",
+      "source": "X：邵猛 (@shao__meng)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "d10ca2ca83e854ed28066568d999ba5938a7ac14",
+          "title": "mattpocockuk 的 /writing-great-skills：编写可预测 AI Skill 的指南",
+          "url": "https://x.com/shao__meng/status/2072126769986220157",
+          "source": "X：邵猛 (@shao__meng)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-01T01:14:54Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "X：邵猛 (@shao__meng)"
+      ],
+      "items": [
+        {
+          "id": "d10ca2ca83e854ed28066568d999ba5938a7ac14",
+          "title": "mattpocockuk 的 /writing-great-skills：编写可预测 AI Skill 的指南",
+          "url": "https://x.com/shao__meng/status/2072126769986220157",
+          "source": "X：邵猛 (@shao__meng)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-01T01:14:54Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7406,
+      "importance": 0.7406,
+      "importance_score": 0.7406,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.75,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7998,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-07-01T01:14:54Z",
+      "latest_at": "2026-07-01T01:14:54Z",
+      "primary_item": {
+        "id": "d10ca2ca83e854ed28066568d999ba5938a7ac14",
+        "title": "mattpocockuk 的 /writing-great-skills：编写可预测 AI Skill 的指南",
+        "url": "https://x.com/shao__meng/status/2072126769986220157",
+        "source": "X：邵猛 (@shao__meng)",
         "source_name": "AI HOT"
       }
     },
@@ -1172,15 +1417,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7431,
-      "importance": 0.7431,
-      "importance_score": 0.7431,
+      "score": 0.738,
+      "importance": 0.738,
+      "importance_score": 0.738,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.76,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7972,
+        "recency": 0.7692,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1195,269 +1440,6 @@
         "url": "https://x.com/AISafetyMemes/status/2072085914558558402",
         "source": "X：AI Safety Memes (@AISafetyMemes)",
         "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_9d60e115dad6",
-      "title": "商务部解除Claude Fable 5等出口管制",
-      "url": "https://x.com/AnthropicAI/status/2072106151890809341",
-      "primary_url": "https://x.com/AnthropicAI/status/2072106151890809341",
-      "source": "X：Anthropic (@AnthropicAI)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "703954a9b63a9d0c7f8446ba9ba79333bdf1fe4f",
-          "title": "商务部解除Claude Fable 5等出口管制",
-          "url": "https://x.com/AnthropicAI/status/2072106151890809341",
-          "source": "X：Anthropic (@AnthropicAI)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-30T23:52:59Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：Anthropic (@AnthropicAI)"
-      ],
-      "items": [
-        {
-          "id": "703954a9b63a9d0c7f8446ba9ba79333bdf1fe4f",
-          "title": "商务部解除Claude Fable 5等出口管制",
-          "url": "https://x.com/AnthropicAI/status/2072106151890809341",
-          "source": "X：Anthropic (@AnthropicAI)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-30T23:52:59Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7399,
-      "importance": 0.7399,
-      "importance_score": 0.7399,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.74,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8128,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-30T23:52:59Z",
-      "latest_at": "2026-06-30T23:52:59Z",
-      "primary_item": {
-        "id": "703954a9b63a9d0c7f8446ba9ba79333bdf1fe4f",
-        "title": "商务部解除Claude Fable 5等出口管制",
-        "url": "https://x.com/AnthropicAI/status/2072106151890809341",
-        "source": "X：Anthropic (@AnthropicAI)",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_f8c0cbef5e2e",
-      "title": "Google DeepMind 发布 Nano Banana 2 Lite 和 Gemini Omni Flash",
-      "url": "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash",
-      "primary_url": "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash",
-      "source": "Google DeepMind：Blog（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "ca6a96cb9b4e21c3801a5c4d06bd5f06c4d2bc74",
-          "title": "Google DeepMind 发布 Nano Banana 2 Lite 和 Gemini Omni Flash",
-          "url": "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash",
-          "source": "Google DeepMind：Blog（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-30T16:02:40Z"
-        },
-        {
-          "id": "6d45a96d37ffed7756a3f8eb49db90c5cf695a35",
-          "title": "Google DeepMind 发布 Nano Banana 2 Lite 和 Gemini Omni Flash / Start building with Nano Banana 2 Lite and Gemini Omni Flash",
-          "url": "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash",
-          "source": "Google DeepMind Blog",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-30T16:02:40Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Google DeepMind Blog",
-        "Google DeepMind：Blog（RSS）"
-      ],
-      "items": [
-        {
-          "id": "ca6a96cb9b4e21c3801a5c4d06bd5f06c4d2bc74",
-          "title": "Google DeepMind 发布 Nano Banana 2 Lite 和 Gemini Omni Flash",
-          "url": "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash",
-          "source": "Google DeepMind：Blog（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-30T16:02:40Z"
-        },
-        {
-          "id": "6d45a96d37ffed7756a3f8eb49db90c5cf695a35",
-          "title": "Google DeepMind 发布 Nano Banana 2 Lite 和 Gemini Omni Flash / Start building with Nano Banana 2 Lite and Gemini Omni Flash",
-          "url": "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash",
-          "source": "Google DeepMind Blog",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-30T16:02:40Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7373,
-      "importance": 0.7373,
-      "importance_score": 0.7373,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.7,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7258,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-30T16:02:40Z",
-      "latest_at": "2026-06-30T16:02:40Z",
-      "primary_item": {
-        "id": "ca6a96cb9b4e21c3801a5c4d06bd5f06c4d2bc74",
-        "title": "Google DeepMind 发布 Nano Banana 2 Lite 和 Gemini Omni Flash",
-        "url": "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash",
-        "source": "Google DeepMind：Blog（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_0b9cb68fce80",
-      "title": "GitHub 代码覆盖率合并保护拉取请求 / GitHub code coverage merge protection for pull requests",
-      "url": "https://github.blog/changelog/2026-06-30-github-code-coverage-merge-protection-for-pull-requests",
-      "primary_url": "https://github.blog/changelog/2026-06-30-github-code-coverage-merge-protection-for-pull-requests",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "e656c5b571cc3cac8063e9b71a8ec01791c49782",
-          "title": "GitHub 代码覆盖率合并保护拉取请求 / GitHub code coverage merge protection for pull requests",
-          "url": "https://github.blog/changelog/2026-06-30-github-code-coverage-merge-protection-for-pull-requests",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-30T16:42:21Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "items": [
-        {
-          "id": "e656c5b571cc3cac8063e9b71a8ec01791c49782",
-          "title": "GitHub 代码覆盖率合并保护拉取请求 / GitHub code coverage merge protection for pull requests",
-          "url": "https://github.blog/changelog/2026-06-30-github-code-coverage-merge-protection-for-pull-requests",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-30T16:42:21Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7959,
-      "importance": 0.7959,
-      "importance_score": 0.7959,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.7328,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-30T16:42:21Z",
-      "latest_at": "2026-06-30T16:42:21Z",
-      "primary_item": {
-        "id": "e656c5b571cc3cac8063e9b71a8ec01791c49782",
-        "title": "GitHub 代码覆盖率合并保护拉取请求 / GitHub code coverage merge protection for pull requests",
-        "url": "https://github.blog/changelog/2026-06-30-github-code-coverage-merge-protection-for-pull-requests",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
-      }
-    },
-    {
-      "story_id": "story_dd53e494dca1",
-      "title": "ChatGPT全球用户激增：非英语用户占比过半，全面跨越早期圈层",
-      "url": "https://www.aibase.com/news/29310",
-      "primary_url": "https://www.aibase.com/news/29310",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "8a26bdeec239975cbf5d7cd201075f96e4e9fed0",
-          "title": "ChatGPT全球用户激增：非英语用户占比过半，全面跨越早期圈层",
-          "url": "https://www.aibase.com/news/29310",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-07-01T11:54:25.645255Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "8a26bdeec239975cbf5d7cd201075f96e4e9fed0",
-          "title": "ChatGPT全球用户激增：非英语用户占比过半，全面跨越早期圈层",
-          "url": "https://www.aibase.com/news/29310",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-07-01T11:54:25.645255Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7617,
-      "importance": 0.7617,
-      "importance_score": 0.7617,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.967,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-07-01T11:54:25.645255Z",
-      "latest_at": "2026-07-01T11:54:25.645255Z",
-      "primary_item": {
-        "id": "8a26bdeec239975cbf5d7cd201075f96e4e9fed0",
-        "title": "ChatGPT全球用户激增：非英语用户占比过半，全面跨越早期圈层",
-        "url": "https://www.aibase.com/news/29310",
-        "source": "AIbase",
-        "source_name": "AIbase"
       }
     }
   ]
