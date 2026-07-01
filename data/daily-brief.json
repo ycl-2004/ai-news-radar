@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T22:14:01.128746Z",
+  "generated_at": "2026-07-01T23:50:17.375673Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -38,15 +38,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8489,
-      "importance": 0.8489,
-      "importance_score": 0.8489,
+      "score": 0.845,
+      "importance": 0.845,
+      "importance_score": 0.845,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.94,
-        "recency": 0.9496,
+        "recency": 0.9279,
         "story_heat": 0.0
       },
       "category": "official",
@@ -100,15 +100,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8477,
-      "importance": 0.8477,
-      "importance_score": 0.8477,
+      "score": 0.8436,
+      "importance": 0.8436,
+      "importance_score": 0.8436,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.9759,
+        "recency": 0.9536,
         "story_heat": 0.0
       },
       "category": "official",
@@ -162,15 +162,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8166,
-      "importance": 0.8166,
-      "importance_score": 0.8166,
+      "score": 0.8136,
+      "importance": 0.8136,
+      "importance_score": 0.8136,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.98,
-        "recency": 0.7254,
+        "recency": 0.7088,
         "story_heat": 0.0
       },
       "category": "official",
@@ -224,15 +224,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8106,
-      "importance": 0.8106,
-      "importance_score": 0.8106,
+      "score": 0.8076,
+      "importance": 0.8076,
+      "importance_score": 0.8076,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.7254,
+        "recency": 0.7088,
         "story_heat": 0.0
       },
       "category": "official",
@@ -252,21 +252,21 @@
       }
     },
     {
-      "story_id": "story_f7b1eaa8826e",
-      "title": "Kimi K2.7 代码已在 GitHub Copilot 中公开 / Kimi K2.7 Code is generally available in GitHub Copilot",
-      "url": "https://github.blog/changelog/2026-07-01-kimi-k2-7-is-now-available-in-github-copilot",
-      "primary_url": "https://github.blog/changelog/2026-07-01-kimi-k2-7-is-now-available-in-github-copilot",
+      "story_id": "story_3aa6eba89386",
+      "title": "企业可以默认自动选型 / Enterprises can default to auto model selection",
+      "url": "https://github.blog/changelog/2026-07-01-enterprises-can-default-to-auto-model-selection",
+      "primary_url": "https://github.blog/changelog/2026-07-01-enterprises-can-default-to-auto-model-selection",
       "source": "GitHub Changelog",
       "source_name": "Official AI Updates",
       "sources": [
         {
-          "id": "ce134d31709dd941228b78e2331571b6b09f6d4e",
-          "title": "Kimi K2.7 代码已在 GitHub Copilot 中公开 / Kimi K2.7 Code is generally available in GitHub Copilot",
-          "url": "https://github.blog/changelog/2026-07-01-kimi-k2-7-is-now-available-in-github-copilot",
+          "id": "6f716d8f58c61aa200401cc4cbd70ab729f1b104",
+          "title": "企业可以默认自动选型 / Enterprises can default to auto model selection",
+          "url": "https://github.blog/changelog/2026-07-01-enterprises-can-default-to-auto-model-selection",
           "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-07-01T19:00:21Z"
+          "published_at": "2026-07-01T22:27:16Z"
         }
       ],
       "source_count": 1,
@@ -275,26 +275,26 @@
       ],
       "items": [
         {
-          "id": "ce134d31709dd941228b78e2331571b6b09f6d4e",
-          "title": "Kimi K2.7 代码已在 GitHub Copilot 中公开 / Kimi K2.7 Code is generally available in GitHub Copilot",
-          "url": "https://github.blog/changelog/2026-07-01-kimi-k2-7-is-now-available-in-github-copilot",
+          "id": "6f716d8f58c61aa200401cc4cbd70ab729f1b104",
+          "title": "企业可以默认自动选型 / Enterprises can default to auto model selection",
+          "url": "https://github.blog/changelog/2026-07-01-enterprises-can-default-to-auto-model-selection",
           "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-07-01T19:00:21Z"
+          "published_at": "2026-07-01T22:27:16Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8438,
-      "importance": 0.8438,
-      "importance_score": 0.8438,
+      "score": 0.8404,
+      "importance": 0.8404,
+      "importance_score": 0.8404,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.9545,
+        "ai_relevance": 0.87,
+        "recency": 0.9802,
         "story_heat": 0.0
       },
       "category": "official",
@@ -303,12 +303,12 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-07-01T19:00:21Z",
-      "latest_at": "2026-07-01T19:00:21Z",
+      "earliest_at": "2026-07-01T22:27:16Z",
+      "latest_at": "2026-07-01T22:27:16Z",
       "primary_item": {
-        "id": "ce134d31709dd941228b78e2331571b6b09f6d4e",
-        "title": "Kimi K2.7 代码已在 GitHub Copilot 中公开 / Kimi K2.7 Code is generally available in GitHub Copilot",
-        "url": "https://github.blog/changelog/2026-07-01-kimi-k2-7-is-now-available-in-github-copilot",
+        "id": "6f716d8f58c61aa200401cc4cbd70ab729f1b104",
+        "title": "企业可以默认自动选型 / Enterprises can default to auto model selection",
+        "url": "https://github.blog/changelog/2026-07-01-enterprises-can-default-to-auto-model-selection",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
       }
@@ -385,15 +385,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.7826,
-      "importance": 0.7826,
-      "importance_score": 0.7826,
+      "score": 0.7791,
+      "importance": 0.7791,
+      "importance_score": 0.7791,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8388,
+        "recency": 0.8196,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -466,15 +466,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7795,
-      "importance": 0.7795,
-      "importance_score": 0.7795,
+      "score": 0.7765,
+      "importance": 0.7765,
+      "importance_score": 0.7765,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.84,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7273,
+        "recency": 0.7106,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -547,15 +547,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7718,
-      "importance": 0.7718,
-      "importance_score": 0.7718,
+      "score": 0.7681,
+      "importance": 0.7681,
+      "importance_score": 0.7681,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8843,
+        "recency": 0.864,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -628,15 +628,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7648,
-      "importance": 0.7648,
-      "importance_score": 0.7648,
+      "score": 0.7608,
+      "importance": 0.7608,
+      "importance_score": 0.7608,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.64,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9789,
+        "recency": 0.9565,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -709,15 +709,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7625,
-      "importance": 0.7625,
-      "importance_score": 0.7625,
+      "score": 0.7592,
+      "importance": 0.7592,
+      "importance_score": 0.7592,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.73,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8162,
+        "recency": 0.7975,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -734,6 +734,68 @@
         "url": "https://www.marktechpost.com/2026/07/01/nvidia-releases-nemotron-labs-twotower",
         "source": "MarkTechPost（RSS）",
         "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_f7b1eaa8826e",
+      "title": "Kimi K2.7 代码已在 GitHub Copilot 中公开 / Kimi K2.7 Code is generally available in GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-07-01-kimi-k2-7-is-now-available-in-github-copilot",
+      "primary_url": "https://github.blog/changelog/2026-07-01-kimi-k2-7-is-now-available-in-github-copilot",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "ce134d31709dd941228b78e2331571b6b09f6d4e",
+          "title": "Kimi K2.7 代码已在 GitHub Copilot 中公开 / Kimi K2.7 Code is generally available in GitHub Copilot",
+          "url": "https://github.blog/changelog/2026-07-01-kimi-k2-7-is-now-available-in-github-copilot",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-07-01T19:00:21Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "items": [
+        {
+          "id": "ce134d31709dd941228b78e2331571b6b09f6d4e",
+          "title": "Kimi K2.7 代码已在 GitHub Copilot 中公开 / Kimi K2.7 Code is generally available in GitHub Copilot",
+          "url": "https://github.blog/changelog/2026-07-01-kimi-k2-7-is-now-available-in-github-copilot",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-07-01T19:00:21Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8399,
+      "importance": 0.8399,
+      "importance_score": 0.8399,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.9326,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-07-01T19:00:21Z",
+      "latest_at": "2026-07-01T19:00:21Z",
+      "primary_item": {
+        "id": "ce134d31709dd941228b78e2331571b6b09f6d4e",
+        "title": "Kimi K2.7 代码已在 GitHub Copilot 中公开 / Kimi K2.7 Code is generally available in GitHub Copilot",
+        "url": "https://github.blog/changelog/2026-07-01-kimi-k2-7-is-now-available-in-github-copilot",
+        "source": "GitHub Changelog",
+        "source_name": "Official AI Updates"
       }
     },
     {
@@ -771,21 +833,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7528,
-      "importance": 0.7528,
-      "importance_score": 0.7528,
+      "score": 0.7497,
+      "importance": 0.7497,
+      "importance_score": 0.7497,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.82,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.751,
+        "recency": 0.7338,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-07-01T02:24:00Z",
       "latest_at": "2026-07-01T02:24:00Z",
@@ -795,68 +856,6 @@
         "url": "https://mp.weixin.qq.com/s/9XFcx3fmFcmbry5bHMJsow",
         "source": "公众号：龙猫LongCat（美团）",
         "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_bfcd7a3f6d8e",
-      "title": "在 Copilot CLI 和 SDK 中设置 AI 信用会话限制 / Set AI credit session limits in Copilot CLI and SDK",
-      "url": "https://github.blog/changelog/2026-07-01-set-ai-credit-session-limits-in-copilot-cli-and-sdk",
-      "primary_url": "https://github.blog/changelog/2026-07-01-set-ai-credit-session-limits-in-copilot-cli-and-sdk",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "f11da19a6c7fb73ab3285dc5d33e80c50d006799",
-          "title": "在 Copilot CLI 和 SDK 中设置 AI 信用会话限制 / Set AI credit session limits in Copilot CLI and SDK",
-          "url": "https://github.blog/changelog/2026-07-01-set-ai-credit-session-limits-in-copilot-cli-and-sdk",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-07-01T18:33:24Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "items": [
-        {
-          "id": "f11da19a6c7fb73ab3285dc5d33e80c50d006799",
-          "title": "在 Copilot CLI 和 SDK 中设置 AI 信用会话限制 / Set AI credit session limits in Copilot CLI and SDK",
-          "url": "https://github.blog/changelog/2026-07-01-set-ai-credit-session-limits-in-copilot-cli-and-sdk",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-07-01T18:33:24Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8427,
-      "importance": 0.8427,
-      "importance_score": 0.8427,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.9483,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-07-01T18:33:24Z",
-      "latest_at": "2026-07-01T18:33:24Z",
-      "primary_item": {
-        "id": "f11da19a6c7fb73ab3285dc5d33e80c50d006799",
-        "title": "在 Copilot CLI 和 SDK 中设置 AI 信用会话限制 / Set AI credit session limits in Copilot CLI and SDK",
-        "url": "https://github.blog/changelog/2026-07-01-set-ai-credit-session-limits-in-copilot-cli-and-sdk",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
       }
     },
     {
@@ -894,15 +893,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7491,
-      "importance": 0.7491,
-      "importance_score": 0.7491,
+      "score": 0.7454,
+      "importance": 0.7454,
+      "importance_score": 0.7454,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.71,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.914,
+        "recency": 0.8931,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -954,15 +953,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7432,
-      "importance": 0.7432,
-      "importance_score": 0.7432,
+      "score": 0.7394,
+      "importance": 0.7394,
+      "importance_score": 0.7394,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.68,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9312,
+        "recency": 0.9099,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1014,15 +1013,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7427,
-      "importance": 0.7427,
-      "importance_score": 0.7427,
+      "score": 0.7391,
+      "importance": 0.7391,
+      "importance_score": 0.7391,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8615,
+        "recency": 0.8417,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1037,86 +1036,6 @@
         "url": "https://www.aibase.com/news/29313",
         "source": "AIbase",
         "source_name": "AIbase"
-      }
-    },
-    {
-      "story_id": "story_0fc811547c38",
-      "title": "库克与欧盟科技主管就新版Siri AI举行建设性会谈",
-      "url": "https://www.ithome.com/0/970/810.htm",
-      "primary_url": "https://www.ithome.com/0/970/810.htm",
-      "source": "IT之家（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "d5eb0a29d17463e21b534c85b25a7b97746b67d7",
-          "title": "库克与欧盟科技主管就新版Siri AI举行建设性会谈",
-          "url": "https://www.ithome.com/0/970/810.htm",
-          "source": "IT之家（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-30T23:43:32Z"
-        },
-        {
-          "id": "73d52bb52fa0bf7707679fec31f1ca43886abadb",
-          "title": "苹果 CEO 库克与欧盟科技主管就 Siri AI 展开“建设性”会谈",
-          "url": "https://www.ithome.com/0/970/810.htm",
-          "source": "IT之家 (ITHome)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-30T23:43:32Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "IT之家 (ITHome)",
-        "IT之家（RSS）"
-      ],
-      "items": [
-        {
-          "id": "d5eb0a29d17463e21b534c85b25a7b97746b67d7",
-          "title": "库克与欧盟科技主管就新版Siri AI举行建设性会谈",
-          "url": "https://www.ithome.com/0/970/810.htm",
-          "source": "IT之家（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-30T23:43:32Z"
-        },
-        {
-          "id": "73d52bb52fa0bf7707679fec31f1ca43886abadb",
-          "title": "苹果 CEO 库克与欧盟科技主管就 Siri AI 展开“建设性”会谈",
-          "url": "https://www.ithome.com/0/970/810.htm",
-          "source": "IT之家 (ITHome)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-30T23:43:32Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7427,
-      "importance": 0.7427,
-      "importance_score": 0.7427,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7225,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-30T23:43:32Z",
-      "latest_at": "2026-06-30T23:43:32Z",
-      "primary_item": {
-        "id": "d5eb0a29d17463e21b534c85b25a7b97746b67d7",
-        "title": "库克与欧盟科技主管就新版Siri AI举行建设性会谈",
-        "url": "https://www.ithome.com/0/970/810.htm",
-        "source": "IT之家（RSS）",
-        "source_name": "AI HOT"
       }
     },
     {
@@ -1154,15 +1073,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7371,
-      "importance": 0.7371,
-      "importance_score": 0.7371,
+      "score": 0.7333,
+      "importance": 0.7333,
+      "importance_score": 0.7333,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.67,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9139,
+        "recency": 0.8929,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1214,15 +1133,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7332,
-      "importance": 0.7332,
-      "importance_score": 0.7332,
+      "score": 0.7302,
+      "importance": 0.7302,
+      "importance_score": 0.7302,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.77,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7254,
+        "recency": 0.7088,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1274,15 +1193,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7295,
-      "importance": 0.7295,
-      "importance_score": 0.7295,
+      "score": 0.7265,
+      "importance": 0.7265,
+      "importance_score": 0.7265,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7386,
+        "recency": 0.7217,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1300,62 +1219,122 @@
       }
     },
     {
-      "story_id": "story_a8538ea13566",
-      "title": "AI 用 prover-verifier LLM 循环攻克 9 个未解数学难题",
-      "url": "https://x.com/AISafetyMemes/status/2072085914558558402",
-      "primary_url": "https://x.com/AISafetyMemes/status/2072085914558558402",
-      "source": "X：AI Safety Memes (@AISafetyMemes)",
+      "story_id": "story_d498a202a8f0",
+      "title": "亚马逊 AWS 砸 10 亿美元，派遣工程师进驻客户公司",
+      "url": "https://www.ithome.com/0/971/071.htm",
+      "primary_url": "https://www.ithome.com/0/971/071.htm",
+      "source": "IT之家（RSS）",
       "source_name": "AI HOT",
       "sources": [
         {
-          "id": "ca907b7c8ff7e54887efc4f50ef2a48e1df55e18",
-          "title": "AI 用 prover-verifier LLM 循环攻克 9 个未解数学难题",
-          "url": "https://x.com/AISafetyMemes/status/2072085914558558402",
-          "source": "X：AI Safety Memes (@AISafetyMemes)",
+          "id": "1cb8106ebf6e57e85cac804cb9b10e7f0a1e6d34",
+          "title": "亚马逊 AWS 砸 10 亿美元，派遣工程师进驻客户公司",
+          "url": "https://www.ithome.com/0/971/071.htm",
+          "source": "IT之家（RSS）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-06-30T22:32:34Z"
+          "published_at": "2026-07-01T06:57:42Z"
         }
       ],
       "source_count": 1,
       "source_names": [
-        "X：AI Safety Memes (@AISafetyMemes)"
+        "IT之家（RSS）"
       ],
       "items": [
         {
-          "id": "ca907b7c8ff7e54887efc4f50ef2a48e1df55e18",
-          "title": "AI 用 prover-verifier LLM 循环攻克 9 个未解数学难题",
-          "url": "https://x.com/AISafetyMemes/status/2072085914558558402",
-          "source": "X：AI Safety Memes (@AISafetyMemes)",
+          "id": "1cb8106ebf6e57e85cac804cb9b10e7f0a1e6d34",
+          "title": "亚马逊 AWS 砸 10 亿美元，派遣工程师进驻客户公司",
+          "url": "https://www.ithome.com/0/971/071.htm",
+          "source": "IT之家（RSS）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-06-30T22:32:34Z"
+          "published_at": "2026-07-01T06:57:42Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7274,
-      "importance": 0.7274,
-      "importance_score": 0.7274,
+      "score": 0.7227,
+      "importance": 0.7227,
+      "importance_score": 0.7227,
       "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.76,
+        "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7103,
+        "recency": 0.7837,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
         "high_ai_relevance"
       ],
-      "earliest_at": "2026-06-30T22:32:34Z",
-      "latest_at": "2026-06-30T22:32:34Z",
+      "earliest_at": "2026-07-01T06:57:42Z",
+      "latest_at": "2026-07-01T06:57:42Z",
       "primary_item": {
-        "id": "ca907b7c8ff7e54887efc4f50ef2a48e1df55e18",
-        "title": "AI 用 prover-verifier LLM 循环攻克 9 个未解数学难题",
-        "url": "https://x.com/AISafetyMemes/status/2072085914558558402",
-        "source": "X：AI Safety Memes (@AISafetyMemes)",
+        "id": "1cb8106ebf6e57e85cac804cb9b10e7f0a1e6d34",
+        "title": "亚马逊 AWS 砸 10 亿美元，派遣工程师进驻客户公司",
+        "url": "https://www.ithome.com/0/971/071.htm",
+        "source": "IT之家（RSS）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_9d60e115dad6",
+      "title": "商务部解除Claude Fable 5等出口管制",
+      "url": "https://x.com/AnthropicAI/status/2072106151890809341",
+      "primary_url": "https://x.com/AnthropicAI/status/2072106151890809341",
+      "source": "X：Anthropic (@AnthropicAI)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "703954a9b63a9d0c7f8446ba9ba79333bdf1fe4f",
+          "title": "商务部解除Claude Fable 5等出口管制",
+          "url": "https://x.com/AnthropicAI/status/2072106151890809341",
+          "source": "X：Anthropic (@AnthropicAI)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-30T23:52:59Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "X：Anthropic (@AnthropicAI)"
+      ],
+      "items": [
+        {
+          "id": "703954a9b63a9d0c7f8446ba9ba79333bdf1fe4f",
+          "title": "商务部解除Claude Fable 5等出口管制",
+          "url": "https://x.com/AnthropicAI/status/2072106151890809341",
+          "source": "X：Anthropic (@AnthropicAI)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-30T23:52:59Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.721,
+      "importance": 0.721,
+      "importance_score": 0.721,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.74,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7076,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-06-30T23:52:59Z",
+      "latest_at": "2026-06-30T23:52:59Z",
+      "primary_item": {
+        "id": "703954a9b63a9d0c7f8446ba9ba79333bdf1fe4f",
+        "title": "商务部解除Claude Fable 5等出口管制",
+        "url": "https://x.com/AnthropicAI/status/2072106151890809341",
+        "source": "X：Anthropic (@AnthropicAI)",
         "source_name": "AI HOT"
       }
     }
