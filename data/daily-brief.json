@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T08:35:21.139443Z",
+  "generated_at": "2026-07-01T11:54:25.645255Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -38,15 +38,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.845,
-      "importance": 0.845,
-      "importance_score": 0.845,
+      "score": 0.8376,
+      "importance": 0.8376,
+      "importance_score": 0.8376,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.98,
-        "recency": 0.8834,
+        "recency": 0.842,
         "story_heat": 0.0
       },
       "category": "official",
@@ -62,88 +62,6 @@
         "title": "法典 CLI 0.142.5 / Codex CLI 0.142.5",
         "url": "https://developers.openai.com/codex/changelog",
         "source": "OpenAI Codex Changelog",
-        "source_name": "Official AI Updates"
-      }
-    },
-    {
-      "story_id": "story_fb435a036a32",
-      "title": "OpenAI Signals 数据揭示 ChatGPT 全球采用趋势 / How ChatGPT adoption has expanded",
-      "url": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
-      "primary_url": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
-      "source": "OpenAI News",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "56eb64e8d4ec5647b793abb42dfa25fc53541d6b",
-          "title": "OpenAI Signals 数据揭示 ChatGPT 全球采用趋势 / How ChatGPT adoption has expanded",
-          "url": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-30T09:00:00Z"
-        },
-        {
-          "id": "daac7b474e3c6cca5d43664d02a457c7ae9b6cbb",
-          "title": "OpenAI Signals 数据揭示 ChatGPT 全球采用趋势",
-          "url": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
-          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-30T09:00:00Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "OpenAI News",
-        "OpenAI：官网动态（RSS · 排除企业/客户案例）"
-      ],
-      "items": [
-        {
-          "id": "56eb64e8d4ec5647b793abb42dfa25fc53541d6b",
-          "title": "OpenAI Signals 数据揭示 ChatGPT 全球采用趋势 / How ChatGPT adoption has expanded",
-          "url": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-30T09:00:00Z"
-        },
-        {
-          "id": "daac7b474e3c6cca5d43664d02a457c7ae9b6cbb",
-          "title": "OpenAI Signals 数据揭示 ChatGPT 全球采用趋势",
-          "url": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
-          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-30T09:00:00Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.833,
-      "importance": 0.833,
-      "importance_score": 0.833,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.95,
-        "recency": 0.7113,
-        "story_heat": 0.25
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-30T09:00:00Z",
-      "latest_at": "2026-06-30T09:00:00Z",
-      "primary_item": {
-        "id": "56eb64e8d4ec5647b793abb42dfa25fc53541d6b",
-        "title": "OpenAI Signals 数据揭示 ChatGPT 全球采用趋势 / How ChatGPT adoption has expanded",
-        "url": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
-        "source": "OpenAI News",
         "source_name": "Official AI Updates"
       }
     },
@@ -182,15 +100,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.833,
-      "importance": 0.833,
-      "importance_score": 0.833,
+      "score": 0.8261,
+      "importance": 0.8261,
+      "importance_score": 0.8261,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.98,
-        "recency": 0.8165,
+        "recency": 0.7783,
         "story_heat": 0.0
       },
       "category": "official",
@@ -244,15 +162,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8246,
-      "importance": 0.8246,
-      "importance_score": 0.8246,
+      "score": 0.8178,
+      "importance": 0.8178,
+      "importance_score": 0.8178,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.8034,
+        "recency": 0.7658,
         "story_heat": 0.0
       },
       "category": "official",
@@ -344,15 +262,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.8105,
-      "importance": 0.8105,
-      "importance_score": 0.8105,
+      "score": 0.8037,
+      "importance": 0.8037,
+      "importance_score": 0.8037,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.81,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8104,
+        "recency": 0.7725,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -425,15 +343,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.808,
-      "importance": 0.808,
-      "importance_score": 0.808,
+      "score": 0.8006,
+      "importance": 0.8006,
+      "importance_score": 0.8006,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.84,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8857,
+        "recency": 0.8443,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -453,30 +371,111 @@
       }
     },
     {
-      "story_id": "story_f11648c0ea02",
-      "title": "Anthropic 发布 Claude Sonnet 5，号称最智能体版本，逼近 Opus 系列",
-      "url": "https://the-decoder.com/anthropics-new-claude-sonnet-5-closes-the-gap-to-the-pricier-opus-model-series",
-      "primary_url": "https://the-decoder.com/anthropics-new-claude-sonnet-5-closes-the-gap-to-the-pricier-opus-model-series",
+      "story_id": "story_ebdc837ee1f0",
+      "title": "NVIDIA 发布 Nemotron-Labs-TwoTower 开放权重扩散语言模型",
+      "url": "https://www.marktechpost.com/2026/07/01/nvidia-releases-nemotron-labs-twotower",
+      "primary_url": "https://www.marktechpost.com/2026/07/01/nvidia-releases-nemotron-labs-twotower",
+      "source": "MarkTechPost（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "a02da64dc6e9f253657f250719231d72c42a1cd6",
+          "title": "NVIDIA 发布 Nemotron-Labs-TwoTower 开放权重扩散语言模型",
+          "url": "https://www.marktechpost.com/2026/07/01/nvidia-releases-nemotron-labs-twotower",
+          "source": "MarkTechPost（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-01T08:10:17Z"
+        },
+        {
+          "id": "0fafe80f32af041dd3b919708611c1997b1364e7",
+          "title": "NVIDIA 发布 Nemotron-Labs-TwoTower 开放权重扩散语言模型 / NVIDIA Releases Nemotron-Labs-TwoTower: an Open-Weight Diffusion Language Model Built on a Frozen Autoregressive Nemotron-3-Nano-30B-A3B Backbone",
+          "url": "https://www.marktechpost.com/2026/07/01/nvidia-releases-nemotron-labs-twotower",
+          "source": "MarkTechPost Research",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-07-01T08:10:17Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "MarkTechPost Research",
+        "MarkTechPost（RSS）"
+      ],
+      "items": [
+        {
+          "id": "a02da64dc6e9f253657f250719231d72c42a1cd6",
+          "title": "NVIDIA 发布 Nemotron-Labs-TwoTower 开放权重扩散语言模型",
+          "url": "https://www.marktechpost.com/2026/07/01/nvidia-releases-nemotron-labs-twotower",
+          "source": "MarkTechPost（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-01T08:10:17Z"
+        },
+        {
+          "id": "0fafe80f32af041dd3b919708611c1997b1364e7",
+          "title": "NVIDIA 发布 Nemotron-Labs-TwoTower 开放权重扩散语言模型 / NVIDIA Releases Nemotron-Labs-TwoTower: an Open-Weight Diffusion Language Model Built on a Frozen Autoregressive Nemotron-3-Nano-30B-A3B Backbone",
+          "url": "https://www.marktechpost.com/2026/07/01/nvidia-releases-nemotron-labs-twotower",
+          "source": "MarkTechPost Research",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-07-01T08:10:17Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7861,
+      "importance": 0.7861,
+      "importance_score": 0.7861,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.73,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9475,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-07-01T08:10:17Z",
+      "latest_at": "2026-07-01T08:10:17Z",
+      "primary_item": {
+        "id": "a02da64dc6e9f253657f250719231d72c42a1cd6",
+        "title": "NVIDIA 发布 Nemotron-Labs-TwoTower 开放权重扩散语言模型",
+        "url": "https://www.marktechpost.com/2026/07/01/nvidia-releases-nemotron-labs-twotower",
+        "source": "MarkTechPost（RSS）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_c035cdd5ac64",
+      "title": "OpenAI论文揭示GPT-5.6三个Pro变体，打破单一顶级策略",
+      "url": "https://the-decoder.com/openai-paper-reveals-three-gpt-5-6-pro-models-breaking-with-single-top-tier-strategy",
+      "primary_url": "https://the-decoder.com/openai-paper-reveals-three-gpt-5-6-pro-models-breaking-with-single-top-tier-strategy",
       "source": "The Decoder：AI News（RSS）",
       "source_name": "AI HOT",
       "sources": [
         {
-          "id": "6c85edcd473dadb603703d125dad125f2e6d2ed7",
-          "title": "Anthropic 发布 Claude Sonnet 5，号称最智能体版本，逼近 Opus 系列",
-          "url": "https://the-decoder.com/anthropics-new-claude-sonnet-5-closes-the-gap-to-the-pricier-opus-model-series",
+          "id": "bd3356c9ae1e7719cec53d38611472ab635c0a8a",
+          "title": "OpenAI论文揭示GPT-5.6三个Pro变体，打破单一顶级策略",
+          "url": "https://the-decoder.com/openai-paper-reveals-three-gpt-5-6-pro-models-breaking-with-single-top-tier-strategy",
           "source": "The Decoder：AI News（RSS）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-06-30T18:46:10Z"
+          "published_at": "2026-07-01T10:03:41Z"
         },
         {
-          "id": "5d5402e13709c2a9fc918371d38e3a8931b49854",
-          "title": "Anthropic 发布 Claude Sonnet 5，号称最智能体版本，逼近 Opus 系列 / Anthropic's new Claude Sonnet 5 closes the gap to the pricier Opus model series",
-          "url": "https://the-decoder.com/anthropics-new-claude-sonnet-5-closes-the-gap-to-the-pricier-opus-model-series",
+          "id": "714592a68f722836a9c445e71f7ca19b8d0faa7b",
+          "title": "OpenAI论文揭示GPT-5.6三个Pro变体，打破单一顶级策略 / OpenAI paper reveals three GPT-5.6 Pro models, breaking with single top-tier strategy",
+          "url": "https://the-decoder.com/openai-paper-reveals-three-gpt-5-6-pro-models-breaking-with-single-top-tier-strategy",
           "source": "The Decoder AI News",
           "source_name": "Curated Media",
           "site_id": "curated_media",
-          "published_at": "2026-06-30T18:46:10Z"
+          "published_at": "2026-07-01T10:03:41Z"
         }
       ],
       "source_count": 2,
@@ -486,35 +485,35 @@
       ],
       "items": [
         {
-          "id": "6c85edcd473dadb603703d125dad125f2e6d2ed7",
-          "title": "Anthropic 发布 Claude Sonnet 5，号称最智能体版本，逼近 Opus 系列",
-          "url": "https://the-decoder.com/anthropics-new-claude-sonnet-5-closes-the-gap-to-the-pricier-opus-model-series",
+          "id": "bd3356c9ae1e7719cec53d38611472ab635c0a8a",
+          "title": "OpenAI论文揭示GPT-5.6三个Pro变体，打破单一顶级策略",
+          "url": "https://the-decoder.com/openai-paper-reveals-three-gpt-5-6-pro-models-breaking-with-single-top-tier-strategy",
           "source": "The Decoder：AI News（RSS）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-06-30T18:46:10Z"
+          "published_at": "2026-07-01T10:03:41Z"
         },
         {
-          "id": "5d5402e13709c2a9fc918371d38e3a8931b49854",
-          "title": "Anthropic 发布 Claude Sonnet 5，号称最智能体版本，逼近 Opus 系列 / Anthropic's new Claude Sonnet 5 closes the gap to the pricier Opus model series",
-          "url": "https://the-decoder.com/anthropics-new-claude-sonnet-5-closes-the-gap-to-the-pricier-opus-model-series",
+          "id": "714592a68f722836a9c445e71f7ca19b8d0faa7b",
+          "title": "OpenAI论文揭示GPT-5.6三个Pro变体，打破单一顶级策略 / OpenAI paper reveals three GPT-5.6 Pro models, breaking with single top-tier strategy",
+          "url": "https://the-decoder.com/openai-paper-reveals-three-gpt-5-6-pro-models-breaking-with-single-top-tier-strategy",
           "source": "The Decoder AI News",
           "source_name": "Curated Media",
           "site_id": "curated_media",
-          "published_at": "2026-06-30T18:46:10Z"
+          "published_at": "2026-07-01T10:03:41Z"
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.787,
-      "importance": 0.787,
-      "importance_score": 0.787,
+      "score": 0.7819,
+      "importance": 0.7819,
+      "importance_score": 0.7819,
       "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.81,
+        "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8191,
+        "recency": 0.9737,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -523,12 +522,12 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-06-30T18:46:10Z",
-      "latest_at": "2026-06-30T18:46:10Z",
+      "earliest_at": "2026-07-01T10:03:41Z",
+      "latest_at": "2026-07-01T10:03:41Z",
       "primary_item": {
-        "id": "6c85edcd473dadb603703d125dad125f2e6d2ed7",
-        "title": "Anthropic 发布 Claude Sonnet 5，号称最智能体版本，逼近 Opus 系列",
-        "url": "https://the-decoder.com/anthropics-new-claude-sonnet-5-closes-the-gap-to-the-pricier-opus-model-series",
+        "id": "bd3356c9ae1e7719cec53d38611472ab635c0a8a",
+        "title": "OpenAI论文揭示GPT-5.6三个Pro变体，打破单一顶级策略",
+        "url": "https://the-decoder.com/openai-paper-reveals-three-gpt-5-6-pro-models-breaking-with-single-top-tier-strategy",
         "source": "The Decoder：AI News（RSS）",
         "source_name": "AI HOT"
       }
@@ -606,15 +605,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.7846,
-      "importance": 0.7846,
-      "importance_score": 0.7846,
+      "score": 0.7778,
+      "importance": 0.7778,
+      "importance_score": 0.7778,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8169,
+        "recency": 0.7787,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -668,15 +667,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8137,
-      "importance": 0.8137,
-      "importance_score": 0.8137,
+      "score": 0.807,
+      "importance": 0.807,
+      "importance_score": 0.807,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.787,
+        "recency": 0.7502,
         "story_heat": 0.0
       },
       "category": "official",
@@ -730,15 +729,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7822,
-      "importance": 0.7822,
-      "importance_score": 0.7822,
+      "score": 0.7745,
+      "importance": 0.7745,
+      "importance_score": 0.7745,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.82,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9145,
+        "recency": 0.8717,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -754,6 +753,67 @@
         "url": "https://mp.weixin.qq.com/s/9XFcx3fmFcmbry5bHMJsow",
         "source": "公众号：龙猫LongCat（美团）",
         "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_13b959c7f8d2",
+      "title": "Anthropic Claude系列大模型正式登陆Microsoft Foundry并托管于Azure云",
+      "url": "https://www.aibase.com/news/29313",
+      "primary_url": "https://www.aibase.com/news/29313",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "d1419609719143580bcd9b2bbab2d16dcf050312",
+          "title": "Anthropic Claude系列大模型正式登陆Microsoft Foundry并托管于Azure云",
+          "url": "https://www.aibase.com/news/29313",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-07-01T11:54:25.645255Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "d1419609719143580bcd9b2bbab2d16dcf050312",
+          "title": "Anthropic Claude系列大模型正式登陆Microsoft Foundry并托管于Azure云",
+          "url": "https://www.aibase.com/news/29313",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-07-01T11:54:25.645255Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-07-01T11:54:25.645255Z",
+      "latest_at": "2026-07-01T11:54:25.645255Z",
+      "primary_item": {
+        "id": "d1419609719143580bcd9b2bbab2d16dcf050312",
+        "title": "Anthropic Claude系列大模型正式登陆Microsoft Foundry并托管于Azure云",
+        "url": "https://www.aibase.com/news/29313",
+        "source": "AIbase",
+        "source_name": "AIbase"
       }
     },
     {
@@ -810,15 +870,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.771,
-      "importance": 0.771,
-      "importance_score": 0.771,
+      "score": 0.7636,
+      "importance": 0.7636,
+      "importance_score": 0.7636,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8799,
+        "recency": 0.8387,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -834,189 +894,6 @@
         "title": "库克与欧盟科技主管就新版Siri AI举行建设性会谈",
         "url": "https://www.ithome.com/0/970/810.htm",
         "source": "IT之家（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_ebdc837ee1f0",
-      "title": "NVIDIA 发布 Nemotron-Labs-TwoTower 开放权重扩散语言模型",
-      "url": "https://www.marktechpost.com/2026/07/01/nvidia-releases-nemotron-labs-twotower",
-      "primary_url": "https://www.marktechpost.com/2026/07/01/nvidia-releases-nemotron-labs-twotower",
-      "source": "MarkTechPost（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "a02da64dc6e9f253657f250719231d72c42a1cd6",
-          "title": "NVIDIA 发布 Nemotron-Labs-TwoTower 开放权重扩散语言模型",
-          "url": "https://www.marktechpost.com/2026/07/01/nvidia-releases-nemotron-labs-twotower",
-          "source": "MarkTechPost（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-01T08:10:17Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "MarkTechPost（RSS）"
-      ],
-      "items": [
-        {
-          "id": "a02da64dc6e9f253657f250719231d72c42a1cd6",
-          "title": "NVIDIA 发布 Nemotron-Labs-TwoTower 开放权重扩散语言模型",
-          "url": "https://www.marktechpost.com/2026/07/01/nvidia-releases-nemotron-labs-twotower",
-          "source": "MarkTechPost（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-01T08:10:17Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7695,
-      "importance": 0.7695,
-      "importance_score": 0.7695,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.73,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.994,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-07-01T08:10:17Z",
-      "latest_at": "2026-07-01T08:10:17Z",
-      "primary_item": {
-        "id": "a02da64dc6e9f253657f250719231d72c42a1cd6",
-        "title": "NVIDIA 发布 Nemotron-Labs-TwoTower 开放权重扩散语言模型",
-        "url": "https://www.marktechpost.com/2026/07/01/nvidia-releases-nemotron-labs-twotower",
-        "source": "MarkTechPost（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_aa2171452c3f",
-      "title": "AI芯片独角兽Etched 融资成功，估值飙升至50亿美元！",
-      "url": "https://www.aibase.com/news/29301",
-      "primary_url": "https://www.aibase.com/news/29301",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "a97732d64b55e64c777fe5f883fad2b69f0d9aff",
-          "title": "AI芯片独角兽Etched 融资成功，估值飙升至50亿美元！",
-          "url": "https://www.aibase.com/news/29301",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-07-01T08:35:21.139443Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "a97732d64b55e64c777fe5f883fad2b69f0d9aff",
-          "title": "AI芯片独角兽Etched 融资成功，估值飙升至50亿美元！",
-          "url": "https://www.aibase.com/news/29301",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-07-01T08:35:21.139443Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 1.0,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-07-01T08:35:21.139443Z",
-      "latest_at": "2026-07-01T08:35:21.139443Z",
-      "primary_item": {
-        "id": "a97732d64b55e64c777fe5f883fad2b69f0d9aff",
-        "title": "AI芯片独角兽Etched 融资成功，估值飙升至50亿美元！",
-        "url": "https://www.aibase.com/news/29301",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      }
-    },
-    {
-      "story_id": "story_c5fef2c86cb3",
-      "title": "mattpocockuk 的 /writing-great-skills：编写可预测 AI Skill 的指南",
-      "url": "https://x.com/shao__meng/status/2072126769986220157",
-      "primary_url": "https://x.com/shao__meng/status/2072126769986220157",
-      "source": "X：邵猛 (@shao__meng)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "d10ca2ca83e854ed28066568d999ba5938a7ac14",
-          "title": "mattpocockuk 的 /writing-great-skills：编写可预测 AI Skill 的指南",
-          "url": "https://x.com/shao__meng/status/2072126769986220157",
-          "source": "X：邵猛 (@shao__meng)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-01T01:14:54Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：邵猛 (@shao__meng)"
-      ],
-      "items": [
-        {
-          "id": "d10ca2ca83e854ed28066568d999ba5938a7ac14",
-          "title": "mattpocockuk 的 /writing-great-skills：编写可预测 AI Skill 的指南",
-          "url": "https://x.com/shao__meng/status/2072126769986220157",
-          "source": "X：邵猛 (@shao__meng)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-01T01:14:54Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7585,
-      "importance": 0.7585,
-      "importance_score": 0.7585,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.75,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8994,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-07-01T01:14:54Z",
-      "latest_at": "2026-07-01T01:14:54Z",
-      "primary_item": {
-        "id": "d10ca2ca83e854ed28066568d999ba5938a7ac14",
-        "title": "mattpocockuk 的 /writing-great-skills：编写可预测 AI Skill 的指南",
-        "url": "https://x.com/shao__meng/status/2072126769986220157",
-        "source": "X：邵猛 (@shao__meng)",
         "source_name": "AI HOT"
       }
     },
@@ -1074,15 +951,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7582,
-      "importance": 0.7582,
-      "importance_score": 0.7582,
+      "score": 0.7513,
+      "importance": 0.7513,
+      "importance_score": 0.7513,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8086,
+        "recency": 0.7708,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -1098,6 +975,148 @@
         "title": "Acti 将 AI 智能体直接放入手机键盘",
         "url": "https://techcrunch.com/2026/06/30/acti-puts-ai-agents-directly-into-your-smartphone-keyboard",
         "source": "TechCrunch：AI（RSS）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_c5fef2c86cb3",
+      "title": "mattpocockuk 的 /writing-great-skills：编写可预测 AI Skill 的指南",
+      "url": "https://x.com/shao__meng/status/2072126769986220157",
+      "primary_url": "https://x.com/shao__meng/status/2072126769986220157",
+      "source": "X：邵猛 (@shao__meng)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "d10ca2ca83e854ed28066568d999ba5938a7ac14",
+          "title": "mattpocockuk 的 /writing-great-skills：编写可预测 AI Skill 的指南",
+          "url": "https://x.com/shao__meng/status/2072126769986220157",
+          "source": "X：邵猛 (@shao__meng)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-01T01:14:54Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "X：邵猛 (@shao__meng)"
+      ],
+      "items": [
+        {
+          "id": "d10ca2ca83e854ed28066568d999ba5938a7ac14",
+          "title": "mattpocockuk 的 /writing-great-skills：编写可预测 AI Skill 的指南",
+          "url": "https://x.com/shao__meng/status/2072126769986220157",
+          "source": "X：邵猛 (@shao__meng)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-01T01:14:54Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7509,
+      "importance": 0.7509,
+      "importance_score": 0.7509,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.75,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8573,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-07-01T01:14:54Z",
+      "latest_at": "2026-07-01T01:14:54Z",
+      "primary_item": {
+        "id": "d10ca2ca83e854ed28066568d999ba5938a7ac14",
+        "title": "mattpocockuk 的 /writing-great-skills：编写可预测 AI Skill 的指南",
+        "url": "https://x.com/shao__meng/status/2072126769986220157",
+        "source": "X：邵猛 (@shao__meng)",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_f11648c0ea02",
+      "title": "Anthropic 发布 Claude Sonnet 5，号称最智能体版本，逼近 Opus 系列",
+      "url": "https://the-decoder.com/anthropics-new-claude-sonnet-5-closes-the-gap-to-the-pricier-opus-model-series",
+      "primary_url": "https://the-decoder.com/anthropics-new-claude-sonnet-5-closes-the-gap-to-the-pricier-opus-model-series",
+      "source": "The Decoder：AI News（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "6c85edcd473dadb603703d125dad125f2e6d2ed7",
+          "title": "Anthropic 发布 Claude Sonnet 5，号称最智能体版本，逼近 Opus 系列",
+          "url": "https://the-decoder.com/anthropics-new-claude-sonnet-5-closes-the-gap-to-the-pricier-opus-model-series",
+          "source": "The Decoder：AI News（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-30T18:46:10Z"
+        },
+        {
+          "id": "675ce71f72b37278c7bd09b4fa686cec2c742298",
+          "title": "Anthropic 发布 Claude Sonnet 5，号称最智能体版本，逼近 Opus 系列 / Anthropic's new Claude Sonnet 5 closes the gap to Opus model series",
+          "url": "https://the-decoder.com/anthropics-new-claude-sonnet-5-closes-the-gap-to-the-pricier-opus-model-series",
+          "source": "The Decoder AI News",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-06-30T18:46:10Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "The Decoder AI News",
+        "The Decoder：AI News（RSS）"
+      ],
+      "items": [
+        {
+          "id": "6c85edcd473dadb603703d125dad125f2e6d2ed7",
+          "title": "Anthropic 发布 Claude Sonnet 5，号称最智能体版本，逼近 Opus 系列",
+          "url": "https://the-decoder.com/anthropics-new-claude-sonnet-5-closes-the-gap-to-the-pricier-opus-model-series",
+          "source": "The Decoder：AI News（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-30T18:46:10Z"
+        },
+        {
+          "id": "675ce71f72b37278c7bd09b4fa686cec2c742298",
+          "title": "Anthropic 发布 Claude Sonnet 5，号称最智能体版本，逼近 Opus 系列 / Anthropic's new Claude Sonnet 5 closes the gap to Opus model series",
+          "url": "https://the-decoder.com/anthropics-new-claude-sonnet-5-closes-the-gap-to-the-pricier-opus-model-series",
+          "source": "The Decoder AI News",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-06-30T18:46:10Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7801,
+      "importance": 0.7801,
+      "importance_score": 0.7801,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.81,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7808,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-30T18:46:10Z",
+      "latest_at": "2026-06-30T18:46:10Z",
+      "primary_item": {
+        "id": "6c85edcd473dadb603703d125dad125f2e6d2ed7",
+        "title": "Anthropic 发布 Claude Sonnet 5，号称最智能体版本，逼近 Opus 系列",
+        "url": "https://the-decoder.com/anthropics-new-claude-sonnet-5-closes-the-gap-to-the-pricier-opus-model-series",
+        "source": "The Decoder：AI News（RSS）",
         "source_name": "AI HOT"
       }
     },
@@ -1136,21 +1155,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7553,
-      "importance": 0.7553,
-      "importance_score": 0.7553,
+      "score": 0.748,
+      "importance": 0.748,
+      "importance_score": 0.748,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.76,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.865,
+        "recency": 0.8245,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-06-30T22:32:34Z",
       "latest_at": "2026-06-30T22:32:34Z",
@@ -1197,21 +1215,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7523,
-      "importance": 0.7523,
-      "importance_score": 0.7523,
+      "score": 0.7449,
+      "importance": 0.7449,
+      "importance_score": 0.7449,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.74,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8819,
+        "recency": 0.8406,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-06-30T23:52:59Z",
       "latest_at": "2026-06-30T23:52:59Z",
@@ -1277,15 +1294,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7483,
-      "importance": 0.7483,
-      "importance_score": 0.7483,
+      "score": 0.7417,
+      "importance": 0.7417,
+      "importance_score": 0.7417,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7875,
+        "recency": 0.7506,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -1338,15 +1355,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8071,
-      "importance": 0.8071,
-      "importance_score": 0.8071,
+      "score": 0.8004,
+      "importance": 0.8004,
+      "importance_score": 0.8004,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.795,
+        "recency": 0.7578,
         "story_heat": 0.0
       },
       "category": "official",
@@ -1366,21 +1383,21 @@
       }
     },
     {
-      "story_id": "story_870bc4ecf6fa",
-      "title": "Anthropic大模型全面入驻微软云，企业级AI生态再迎重磅强强联合",
-      "url": "https://www.aibase.com/news/29302",
-      "primary_url": "https://www.aibase.com/news/29302",
+      "story_id": "story_dd53e494dca1",
+      "title": "ChatGPT全球用户激增：非英语用户占比过半，全面跨越早期圈层",
+      "url": "https://www.aibase.com/news/29310",
+      "primary_url": "https://www.aibase.com/news/29310",
       "source": "AIbase",
       "source_name": "AIbase",
       "sources": [
         {
-          "id": "eb67cf2c8fc3cf1e4f1ad166376baea4d190287b",
-          "title": "Anthropic大模型全面入驻微软云，企业级AI生态再迎重磅强强联合",
-          "url": "https://www.aibase.com/news/29302",
+          "id": "8a26bdeec239975cbf5d7cd201075f96e4e9fed0",
+          "title": "ChatGPT全球用户激增：非英语用户占比过半，全面跨越早期圈层",
+          "url": "https://www.aibase.com/news/29310",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-07-01T08:35:21.139443Z"
+          "published_at": "2026-07-01T11:54:25.645255Z"
         }
       ],
       "source_count": 1,
@@ -1389,13 +1406,13 @@
       ],
       "items": [
         {
-          "id": "eb67cf2c8fc3cf1e4f1ad166376baea4d190287b",
-          "title": "Anthropic大模型全面入驻微软云，企业级AI生态再迎重磅强强联合",
-          "url": "https://www.aibase.com/news/29302",
+          "id": "8a26bdeec239975cbf5d7cd201075f96e4e9fed0",
+          "title": "ChatGPT全球用户激增：非英语用户占比过半，全面跨越早期圈层",
+          "url": "https://www.aibase.com/news/29310",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-07-01T08:35:21.139443Z"
+          "published_at": "2026-07-01T11:54:25.645255Z"
         }
       ],
       "item_count": 1,
@@ -1416,12 +1433,12 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-07-01T08:35:21.139443Z",
-      "latest_at": "2026-07-01T08:35:21.139443Z",
+      "earliest_at": "2026-07-01T11:54:25.645255Z",
+      "latest_at": "2026-07-01T11:54:25.645255Z",
       "primary_item": {
-        "id": "eb67cf2c8fc3cf1e4f1ad166376baea4d190287b",
-        "title": "Anthropic大模型全面入驻微软云，企业级AI生态再迎重磅强强联合",
-        "url": "https://www.aibase.com/news/29302",
+        "id": "8a26bdeec239975cbf5d7cd201075f96e4e9fed0",
+        "title": "ChatGPT全球用户激增：非英语用户占比过半，全面跨越早期圈层",
+        "url": "https://www.aibase.com/news/29310",
         "source": "AIbase",
         "source_name": "AIbase"
       }
