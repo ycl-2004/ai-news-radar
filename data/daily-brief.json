@@ -1,128 +1,8 @@
 {
-  "generated_at": "2026-06-30T22:48:37.937006Z",
+  "generated_at": "2026-07-01T00:00:09.507849Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
-    {
-      "story_id": "story_0f764e9bc764",
-      "title": "Claude Sonnet 5 发布 / Introducing Claude Sonnet 5",
-      "url": "https://www.anthropic.com/news/claude-sonnet-5",
-      "primary_url": "https://www.anthropic.com/news/claude-sonnet-5",
-      "source": "Anthropic News",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "7e39f08e8809094e45239d1f341e029dfd62682f",
-          "title": "Claude Sonnet 5 发布 / Introducing Claude Sonnet 5",
-          "url": "https://www.anthropic.com/news/claude-sonnet-5",
-          "source": "Anthropic News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-30T00:00:00Z"
-        },
-        {
-          "id": "9bf004cd5b5edfc11770660b62ec3bbc8ba01966",
-          "title": "Claude Sonnet 5 发布",
-          "url": "https://www.anthropic.com/news/claude-sonnet-5",
-          "source": "Anthropic：Newsroom（网页）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-30T18:02:06.984000Z"
-        },
-        {
-          "id": "67fa563844e9154887350136b4fe9208b8030f96",
-          "title": "克劳德·索内特 5",
-          "url": "https://www.anthropic.com/news/claude-sonnet-5",
-          "source": "www.anthropic.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-30T18:19:05.316000Z"
-        },
-        {
-          "id": "532e3a35239eda36cc6c4759597bf41df78326e8",
-          "title": "Claude Sonnet 5 发布 / Claude Sonnet 5",
-          "url": "https://www.anthropic.com/news/claude-sonnet-5",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-30T17:59:52Z"
-        }
-      ],
-      "source_count": 4,
-      "source_names": [
-        "Anthropic News",
-        "Anthropic：Newsroom（网页）",
-        "Hacker News (黑客新闻)",
-        "www.anthropic.com"
-      ],
-      "items": [
-        {
-          "id": "7e39f08e8809094e45239d1f341e029dfd62682f",
-          "title": "Claude Sonnet 5 发布 / Introducing Claude Sonnet 5",
-          "url": "https://www.anthropic.com/news/claude-sonnet-5",
-          "source": "Anthropic News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-30T00:00:00Z"
-        },
-        {
-          "id": "9bf004cd5b5edfc11770660b62ec3bbc8ba01966",
-          "title": "Claude Sonnet 5 发布",
-          "url": "https://www.anthropic.com/news/claude-sonnet-5",
-          "source": "Anthropic：Newsroom（网页）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-30T18:02:06.984000Z"
-        },
-        {
-          "id": "67fa563844e9154887350136b4fe9208b8030f96",
-          "title": "克劳德·索内特 5",
-          "url": "https://www.anthropic.com/news/claude-sonnet-5",
-          "source": "www.anthropic.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-30T18:19:05.316000Z"
-        },
-        {
-          "id": "532e3a35239eda36cc6c4759597bf41df78326e8",
-          "title": "Claude Sonnet 5 发布 / Claude Sonnet 5",
-          "url": "https://www.anthropic.com/news/claude-sonnet-5",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-30T17:59:52Z"
-        }
-      ],
-      "item_count": 4,
-      "duplicate_count": 4,
-      "score": 0.8845,
-      "importance": 0.8845,
-      "importance_score": 0.8845,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.95,
-        "recency": 0.7194,
-        "story_heat": 0.75
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-30T00:00:00Z",
-      "latest_at": "2026-06-30T18:19:05.316000Z",
-      "primary_item": {
-        "id": "7e39f08e8809094e45239d1f341e029dfd62682f",
-        "title": "Claude Sonnet 5 发布 / Introducing Claude Sonnet 5",
-        "url": "https://www.anthropic.com/news/claude-sonnet-5",
-        "source": "Anthropic News",
-        "source_name": "Official AI Updates"
-      }
-    },
     {
       "story_id": "story_8654826289ec",
       "title": "ScarfBench：企业 Java 框架迁移的 AI 代理基准测试 / ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
@@ -158,15 +38,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8553,
-      "importance": 0.8553,
-      "importance_score": 0.8553,
+      "score": 0.8524,
+      "importance": 0.8524,
+      "importance_score": 0.8524,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.98,
-        "recency": 0.9403,
+        "recency": 0.9242,
         "story_heat": 0.0
       },
       "category": "official",
@@ -239,15 +119,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8525,
-      "importance": 0.8525,
-      "importance_score": 0.8525,
+      "score": 0.8499,
+      "importance": 0.8499,
+      "importance_score": 0.8499,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.8192,
+        "recency": 0.8052,
         "story_heat": 0.25
       },
       "category": "official",
@@ -302,15 +182,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8465,
-      "importance": 0.8465,
-      "importance_score": 0.8465,
+      "score": 0.8437,
+      "importance": 0.8437,
+      "importance_score": 0.8437,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.9253,
+        "recency": 0.9095,
         "story_heat": 0.0
       },
       "category": "official",
@@ -327,6 +207,106 @@
         "url": "https://github.blog/changelog/2026-06-30-claude-sonnet-5-is-generally-available-for-github-copilot",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_0f764e9bc764",
+      "title": "Claude Sonnet 5 发布",
+      "url": "https://www.anthropic.com/news/claude-sonnet-5",
+      "primary_url": "https://www.anthropic.com/news/claude-sonnet-5",
+      "source": "Anthropic：Newsroom（网页）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "9bf004cd5b5edfc11770660b62ec3bbc8ba01966",
+          "title": "Claude Sonnet 5 发布",
+          "url": "https://www.anthropic.com/news/claude-sonnet-5",
+          "source": "Anthropic：Newsroom（网页）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-30T18:02:06.984000Z"
+        },
+        {
+          "id": "67fa563844e9154887350136b4fe9208b8030f96",
+          "title": "克劳德·索内特 5",
+          "url": "https://www.anthropic.com/news/claude-sonnet-5",
+          "source": "www.anthropic.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-30T18:19:05.316000Z"
+        },
+        {
+          "id": "532e3a35239eda36cc6c4759597bf41df78326e8",
+          "title": "Claude Sonnet 5 发布 / Claude Sonnet 5",
+          "url": "https://www.anthropic.com/news/claude-sonnet-5",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-30T17:59:52Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "Anthropic：Newsroom（网页）",
+        "Hacker News (黑客新闻)",
+        "www.anthropic.com"
+      ],
+      "items": [
+        {
+          "id": "9bf004cd5b5edfc11770660b62ec3bbc8ba01966",
+          "title": "Claude Sonnet 5 发布",
+          "url": "https://www.anthropic.com/news/claude-sonnet-5",
+          "source": "Anthropic：Newsroom（网页）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-30T18:02:06.984000Z"
+        },
+        {
+          "id": "67fa563844e9154887350136b4fe9208b8030f96",
+          "title": "克劳德·索内特 5",
+          "url": "https://www.anthropic.com/news/claude-sonnet-5",
+          "source": "www.anthropic.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-30T18:19:05.316000Z"
+        },
+        {
+          "id": "532e3a35239eda36cc6c4759597bf41df78326e8",
+          "title": "Claude Sonnet 5 发布 / Claude Sonnet 5",
+          "url": "https://www.anthropic.com/news/claude-sonnet-5",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-30T17:59:52Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.8297,
+      "importance": 0.8297,
+      "importance_score": 0.8297,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.81,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9174,
+        "story_heat": 0.5
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-30T17:59:52Z",
+      "latest_at": "2026-06-30T18:19:05.316000Z",
+      "primary_item": {
+        "id": "9bf004cd5b5edfc11770660b62ec3bbc8ba01966",
+        "title": "Claude Sonnet 5 发布",
+        "url": "https://www.anthropic.com/news/claude-sonnet-5",
+        "source": "Anthropic：Newsroom（网页）",
+        "source_name": "AI HOT"
       }
     },
     {
@@ -383,15 +363,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8094,
-      "importance": 0.8094,
-      "importance_score": 0.8094,
+      "score": 0.8065,
+      "importance": 0.8065,
+      "importance_score": 0.8065,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.81,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9433,
+        "recency": 0.9272,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -483,15 +463,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.8069,
-      "importance": 0.8069,
-      "importance_score": 0.8069,
+      "score": 0.804,
+      "importance": 0.804,
+      "importance_score": 0.804,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9408,
+        "recency": 0.9247,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -508,68 +488,6 @@
         "url": "https://claude.com/product/claude-science",
         "source": "Hacker News 热门（buzzing.cc 中文翻译）",
         "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_66857aac9970",
-      "title": "Copilot Agent 现已在 JetBrains AI Assistant 中可用 / Copilot Agent is now available in JetBrains AI Assistant",
-      "url": "https://github.blog/changelog/2026-06-30-copilot-agent-is-now-available-in-jetbrains-ai-assistant",
-      "primary_url": "https://github.blog/changelog/2026-06-30-copilot-agent-is-now-available-in-jetbrains-ai-assistant",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "3cd7525059deffd71d6c53a058c4762cef4a7a58",
-          "title": "Copilot Agent 现已在 JetBrains AI Assistant 中可用 / Copilot Agent is now available in JetBrains AI Assistant",
-          "url": "https://github.blog/changelog/2026-06-30-copilot-agent-is-now-available-in-jetbrains-ai-assistant",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-30T16:00:19Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "items": [
-        {
-          "id": "3cd7525059deffd71d6c53a058c4762cef4a7a58",
-          "title": "Copilot Agent 现已在 JetBrains AI Assistant 中可用 / Copilot Agent is now available in JetBrains AI Assistant",
-          "url": "https://github.blog/changelog/2026-06-30-copilot-agent-is-now-available-in-jetbrains-ai-assistant",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-30T16:00:19Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8352,
-      "importance": 0.8352,
-      "importance_score": 0.8352,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.9064,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-30T16:00:19Z",
-      "latest_at": "2026-06-30T16:00:19Z",
-      "primary_item": {
-        "id": "3cd7525059deffd71d6c53a058c4762cef4a7a58",
-        "title": "Copilot Agent 现已在 JetBrains AI Assistant 中可用 / Copilot Agent is now available in JetBrains AI Assistant",
-        "url": "https://github.blog/changelog/2026-06-30-copilot-agent-is-now-available-in-jetbrains-ai-assistant",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
       }
     },
     {
@@ -607,15 +525,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8052,
-      "importance": 0.8052,
-      "importance_score": 0.8052,
+      "score": 0.8028,
+      "importance": 0.8028,
+      "importance_score": 0.8028,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.7845,
+        "recency": 0.7711,
         "story_heat": 0.0
       },
       "category": "official",
@@ -635,84 +553,64 @@
       }
     },
     {
-      "story_id": "story_d5f7bd1f6df8",
-      "title": "Claude Science 科研工作台正式上线 / Claude Science, an AI workbench for scientists, is now available",
-      "url": "https://www.anthropic.com/news/claude-science-ai-workbench",
-      "primary_url": "https://www.anthropic.com/news/claude-science-ai-workbench",
-      "source": "Anthropic News",
+      "story_id": "story_66857aac9970",
+      "title": "Copilot Agent 现已在 JetBrains AI Assistant 中可用 / Copilot Agent is now available in JetBrains AI Assistant",
+      "url": "https://github.blog/changelog/2026-06-30-copilot-agent-is-now-available-in-jetbrains-ai-assistant",
+      "primary_url": "https://github.blog/changelog/2026-06-30-copilot-agent-is-now-available-in-jetbrains-ai-assistant",
+      "source": "GitHub Changelog",
       "source_name": "Official AI Updates",
       "sources": [
         {
-          "id": "e851698f224d2ead39febd4da48c4125c94a8612",
-          "title": "Claude Science 科研工作台正式上线 / Claude Science, an AI workbench for scientists, is now available",
-          "url": "https://www.anthropic.com/news/claude-science-ai-workbench",
-          "source": "Anthropic News",
+          "id": "3cd7525059deffd71d6c53a058c4762cef4a7a58",
+          "title": "Copilot Agent 现已在 JetBrains AI Assistant 中可用 / Copilot Agent is now available in JetBrains AI Assistant",
+          "url": "https://github.blog/changelog/2026-06-30-copilot-agent-is-now-available-in-jetbrains-ai-assistant",
+          "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-06-30T00:00:00Z"
-        },
-        {
-          "id": "c6de65356b1ef1fff743dc3f8a5a6a60b54eae32",
-          "title": "Claude Science 科研工作台正式上线",
-          "url": "https://www.anthropic.com/news/claude-science-ai-workbench",
-          "source": "Anthropic：Newsroom（网页）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-30T17:32:06.724000Z"
+          "published_at": "2026-06-30T16:00:19Z"
         }
       ],
-      "source_count": 2,
+      "source_count": 1,
       "source_names": [
-        "Anthropic News",
-        "Anthropic：Newsroom（网页）"
+        "GitHub Changelog"
       ],
       "items": [
         {
-          "id": "e851698f224d2ead39febd4da48c4125c94a8612",
-          "title": "Claude Science 科研工作台正式上线 / Claude Science, an AI workbench for scientists, is now available",
-          "url": "https://www.anthropic.com/news/claude-science-ai-workbench",
-          "source": "Anthropic News",
+          "id": "3cd7525059deffd71d6c53a058c4762cef4a7a58",
+          "title": "Copilot Agent 现已在 JetBrains AI Assistant 中可用 / Copilot Agent is now available in JetBrains AI Assistant",
+          "url": "https://github.blog/changelog/2026-06-30-copilot-agent-is-now-available-in-jetbrains-ai-assistant",
+          "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-06-30T00:00:00Z"
-        },
-        {
-          "id": "c6de65356b1ef1fff743dc3f8a5a6a60b54eae32",
-          "title": "Claude Science 科研工作台正式上线",
-          "url": "https://www.anthropic.com/news/claude-science-ai-workbench",
-          "source": "Anthropic：Newsroom（网页）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-30T17:32:06.724000Z"
+          "published_at": "2026-06-30T16:00:19Z"
         }
       ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.8345,
-      "importance": 0.8345,
-      "importance_score": 0.8345,
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8324,
+      "importance": 0.8324,
+      "importance_score": 0.8324,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
-        "ai_relevance": 0.95,
-        "recency": 0.7194,
-        "story_heat": 0.25
+        "ai_relevance": 0.91,
+        "recency": 0.8909,
+        "story_heat": 0.0
       },
       "category": "official",
       "reasons": [
         "official_source",
-        "multi_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-06-30T00:00:00Z",
-      "latest_at": "2026-06-30T17:32:06.724000Z",
+      "earliest_at": "2026-06-30T16:00:19Z",
+      "latest_at": "2026-06-30T16:00:19Z",
       "primary_item": {
-        "id": "e851698f224d2ead39febd4da48c4125c94a8612",
-        "title": "Claude Science 科研工作台正式上线 / Claude Science, an AI workbench for scientists, is now available",
-        "url": "https://www.anthropic.com/news/claude-science-ai-workbench",
-        "source": "Anthropic News",
+        "id": "3cd7525059deffd71d6c53a058c4762cef4a7a58",
+        "title": "Copilot Agent 现已在 JetBrains AI Assistant 中可用 / Copilot Agent is now available in JetBrains AI Assistant",
+        "url": "https://github.blog/changelog/2026-06-30-copilot-agent-is-now-available-in-jetbrains-ai-assistant",
+        "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
       }
     },
@@ -770,15 +668,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7802,
-      "importance": 0.7802,
-      "importance_score": 0.7802,
+      "score": 0.7774,
+      "importance": 0.7774,
+      "importance_score": 0.7774,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9313,
+        "recency": 0.9154,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -794,6 +692,128 @@
         "title": "Acti 将 AI 智能体直接放入手机键盘",
         "url": "https://techcrunch.com/2026/06/30/acti-puts-ai-agents-directly-into-your-smartphone-keyboard",
         "source": "TechCrunch：AI（RSS）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_a8538ea13566",
+      "title": "AI 用 prover-verifier LLM 循环攻克 9 个未解数学难题",
+      "url": "https://x.com/AISafetyMemes/status/2072085914558558402",
+      "primary_url": "https://x.com/AISafetyMemes/status/2072085914558558402",
+      "source": "X：AI Safety Memes (@AISafetyMemes)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "ca907b7c8ff7e54887efc4f50ef2a48e1df55e18",
+          "title": "AI 用 prover-verifier LLM 循环攻克 9 个未解数学难题",
+          "url": "https://x.com/AISafetyMemes/status/2072085914558558402",
+          "source": "X：AI Safety Memes (@AISafetyMemes)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-30T22:32:34Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "X：AI Safety Memes (@AISafetyMemes)"
+      ],
+      "items": [
+        {
+          "id": "ca907b7c8ff7e54887efc4f50ef2a48e1df55e18",
+          "title": "AI 用 prover-verifier LLM 循环攻克 9 个未解数学难题",
+          "url": "https://x.com/AISafetyMemes/status/2072085914558558402",
+          "source": "X：AI Safety Memes (@AISafetyMemes)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-30T22:32:34Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7758,
+      "importance": 0.7758,
+      "importance_score": 0.7758,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.76,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9791,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-30T22:32:34Z",
+      "latest_at": "2026-06-30T22:32:34Z",
+      "primary_item": {
+        "id": "ca907b7c8ff7e54887efc4f50ef2a48e1df55e18",
+        "title": "AI 用 prover-verifier LLM 循环攻克 9 个未解数学难题",
+        "url": "https://x.com/AISafetyMemes/status/2072085914558558402",
+        "source": "X：AI Safety Memes (@AISafetyMemes)",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_9d60e115dad6",
+      "title": "商务部解除Claude Fable 5等出口管制",
+      "url": "https://x.com/AnthropicAI/status/2072106151890809341",
+      "primary_url": "https://x.com/AnthropicAI/status/2072106151890809341",
+      "source": "X：Anthropic (@AnthropicAI)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "703954a9b63a9d0c7f8446ba9ba79333bdf1fe4f",
+          "title": "商务部解除Claude Fable 5等出口管制",
+          "url": "https://x.com/AnthropicAI/status/2072106151890809341",
+          "source": "X：Anthropic (@AnthropicAI)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-30T23:52:59Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "X：Anthropic (@AnthropicAI)"
+      ],
+      "items": [
+        {
+          "id": "703954a9b63a9d0c7f8446ba9ba79333bdf1fe4f",
+          "title": "商务部解除Claude Fable 5等出口管制",
+          "url": "https://x.com/AnthropicAI/status/2072106151890809341",
+          "source": "X：Anthropic (@AnthropicAI)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-30T23:52:59Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7733,
+      "importance": 0.7733,
+      "importance_score": 0.7733,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.74,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9983,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-30T23:52:59Z",
+      "latest_at": "2026-06-30T23:52:59Z",
+      "primary_item": {
+        "id": "703954a9b63a9d0c7f8446ba9ba79333bdf1fe4f",
+        "title": "商务部解除Claude Fable 5等出口管制",
+        "url": "https://x.com/AnthropicAI/status/2072106151890809341",
+        "source": "X：Anthropic (@AnthropicAI)",
         "source_name": "AI HOT"
       }
     },
@@ -851,15 +871,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7698,
-      "importance": 0.7698,
-      "importance_score": 0.7698,
+      "score": 0.7671,
+      "importance": 0.7671,
+      "importance_score": 0.7671,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9069,
+        "recency": 0.8914,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -913,15 +933,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8288,
-      "importance": 0.8288,
-      "importance_score": 0.8288,
+      "score": 0.826,
+      "importance": 0.826,
+      "importance_score": 0.826,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.9156,
+        "recency": 0.9,
         "story_heat": 0.0
       },
       "category": "official",
@@ -975,15 +995,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7559,
-      "importance": 0.7559,
-      "importance_score": 0.7559,
+      "score": 0.7531,
+      "importance": 0.7531,
+      "importance_score": 0.7531,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.73,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9183,
+        "recency": 0.9026,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1036,15 +1056,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7543,
-      "importance": 0.7543,
-      "importance_score": 0.7543,
+      "score": 0.7514,
+      "importance": 0.7514,
+      "importance_score": 0.7514,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9258,
+        "recency": 0.91,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1116,22 +1136,21 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7518,
-      "importance": 0.7518,
-      "importance_score": 0.7518,
+      "score": 0.7493,
+      "importance": 0.7493,
+      "importance_score": 0.7493,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8068,
+        "recency": 0.7931,
         "story_heat": 0.25
       },
       "category": "industry",
       "reasons": [
         "multi_source",
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-06-30T07:56:46Z",
       "latest_at": "2026-06-30T07:56:46Z",
@@ -1178,21 +1197,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7506,
-      "importance": 0.7506,
-      "importance_score": 0.7506,
+      "score": 0.7483,
+      "importance": 0.7483,
+      "importance_score": 0.7483,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.81,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7554,
+        "recency": 0.7426,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-06-30T03:23:23Z",
       "latest_at": "2026-06-30T03:23:23Z",
@@ -1202,6 +1220,86 @@
         "url": "https://x.com/xiaohu/status/2071796715162857477",
         "source": "X：小互 (@xiaohu)",
         "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_d45483b463b6",
+      "title": "体验再升级！谷歌Gemini个性化AI绘图功能对美国用户免费开放",
+      "url": "https://www.aibase.com/news/29249",
+      "primary_url": "https://www.aibase.com/news/29249",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "7412b9ecf51713c1c07ad671d1bf9d352c06a305",
+          "title": "体验再升级！谷歌Gemini个性化AI绘图功能对美国用户免费开放",
+          "url": "https://www.aibase.com/news/29249",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-30T02:50:39.419725Z"
+        },
+        {
+          "id": "050ea580a9002f84c31d8b6417aec930c4448c42",
+          "title": "体验再升级！谷歌 Gemini 个性化 AI 绘图功能对美国用户免费开放",
+          "url": "https://www.aibase.com/zh/news/29249",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "AIbase",
+        "Readhub · AI"
+      ],
+      "items": [
+        {
+          "id": "7412b9ecf51713c1c07ad671d1bf9d352c06a305",
+          "title": "体验再升级！谷歌Gemini个性化AI绘图功能对美国用户免费开放",
+          "url": "https://www.aibase.com/news/29249",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-30T02:50:39.419725Z"
+        },
+        {
+          "id": "050ea580a9002f84c31d8b6417aec930c4448c42",
+          "title": "体验再升级！谷歌 Gemini 个性化 AI 绘图功能对美国用户免费开放",
+          "url": "https://www.aibase.com/zh/news/29249",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7452,
+      "importance": 0.7452,
+      "importance_score": 0.7452,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7367,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-06-30T02:50:39.419725Z",
+      "latest_at": "2026-06-30T02:50:39.419725Z",
+      "primary_item": {
+        "id": "7412b9ecf51713c1c07ad671d1bf9d352c06a305",
+        "title": "体验再升级！谷歌Gemini个性化AI绘图功能对美国用户免费开放",
+        "url": "https://www.aibase.com/news/29249",
+        "source": "AIbase",
+        "source_name": "AIbase"
       }
     },
     {
@@ -1239,15 +1337,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7478,
-      "importance": 0.7478,
-      "importance_score": 0.7478,
+      "score": 0.7449,
+      "importance": 0.7449,
+      "importance_score": 0.7449,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.68,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9567,
+        "recency": 0.9404,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1262,86 +1360,6 @@
         "url": "https://x.com/NotebookLM/status/2072043680442245276",
         "source": "X：NotebookLM (@NotebookLM)",
         "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_b7abc0f829a9",
-      "title": "今天起，全美谷歌 Gemini 免费用户都可使用个性化 AI 生图功能",
-      "url": "https://www.aibase.com/news/29240",
-      "primary_url": "https://www.aibase.com/news/29240",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "77517201b056f92ebf014910ed17b392a7b0c9a7",
-          "title": "今天起，全美谷歌 Gemini 免费用户都可使用个性化 AI 生图功能",
-          "url": "https://www.aibase.com/news/29240",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-30T02:50:39.419725Z"
-        },
-        {
-          "id": "191b1c116caef695d159d893b969b89049f3d202",
-          "title": "即日起，全美谷歌 Gemini 免费用户都可使用个性化 AI 生图功能",
-          "url": "https://www.ithome.com/0/970/251.htm",
-          "source": "IT之家 (ITHome)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-29T23:35:52Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "AIbase",
-        "IT之家 (ITHome)"
-      ],
-      "items": [
-        {
-          "id": "77517201b056f92ebf014910ed17b392a7b0c9a7",
-          "title": "今天起，全美谷歌 Gemini 免费用户都可使用个性化 AI 生图功能",
-          "url": "https://www.aibase.com/news/29240",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-30T02:50:39.419725Z"
-        },
-        {
-          "id": "191b1c116caef695d159d893b969b89049f3d202",
-          "title": "即日起，全美谷歌 Gemini 免费用户都可使用个性化 AI 生图功能",
-          "url": "https://www.ithome.com/0/970/251.htm",
-          "source": "IT之家 (ITHome)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-29T23:35:52Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7475,
-      "importance": 0.7475,
-      "importance_score": 0.7475,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7495,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-29T23:35:52Z",
-      "latest_at": "2026-06-30T02:50:39.419725Z",
-      "primary_item": {
-        "id": "77517201b056f92ebf014910ed17b392a7b0c9a7",
-        "title": "今天起，全美谷歌 Gemini 免费用户都可使用个性化 AI 生图功能",
-        "url": "https://www.aibase.com/news/29240",
-        "source": "AIbase",
-        "source_name": "AIbase"
       }
     },
     {
@@ -1379,15 +1397,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7388,
-      "importance": 0.7388,
-      "importance_score": 0.7388,
+      "score": 0.736,
+      "importance": 0.736,
+      "importance_score": 0.736,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.67,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9234,
+        "recency": 0.9077,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1402,68 +1420,6 @@
         "url": "https://developers.googleblog.com/announcing-adk-go-20",
         "source": "Google Developers Blog（RSS）",
         "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_a6720de068e4",
-      "title": "发布：侧边栏导航和每个资产的下载计数 / Releases: Sidebar navigation and per-asset download counts",
-      "url": "https://github.blog/changelog/2026-06-30-releases-sidebar-navigation-and-per-asset-download-counts",
-      "primary_url": "https://github.blog/changelog/2026-06-30-releases-sidebar-navigation-and-per-asset-download-counts",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "39e34106d05e9da40ed4faa72f00a9e157a73e2b",
-          "title": "发布：侧边栏导航和每个资产的下载计数 / Releases: Sidebar navigation and per-asset download counts",
-          "url": "https://github.blog/changelog/2026-06-30-releases-sidebar-navigation-and-per-asset-download-counts",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-30T16:36:06Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "items": [
-        {
-          "id": "39e34106d05e9da40ed4faa72f00a9e157a73e2b",
-          "title": "发布：侧边栏导航和每个资产的下载计数 / Releases: Sidebar navigation and per-asset download counts",
-          "url": "https://github.blog/changelog/2026-06-30-releases-sidebar-navigation-and-per-asset-download-counts",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-30T16:36:06Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8286,
-      "importance": 0.8286,
-      "importance_score": 0.8286,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.9142,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-30T16:36:06Z",
-      "latest_at": "2026-06-30T16:36:06Z",
-      "primary_item": {
-        "id": "39e34106d05e9da40ed4faa72f00a9e157a73e2b",
-        "title": "发布：侧边栏导航和每个资产的下载计数 / Releases: Sidebar navigation and per-asset download counts",
-        "url": "https://github.blog/changelog/2026-06-30-releases-sidebar-navigation-and-per-asset-download-counts",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
       }
     }
   ]
