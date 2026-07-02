@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T23:50:17.375673Z",
+  "generated_at": "2026-07-02T02:33:26.196533Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -38,15 +38,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.845,
-      "importance": 0.845,
-      "importance_score": 0.845,
+      "score": 0.8386,
+      "importance": 0.8386,
+      "importance_score": 0.8386,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.94,
-        "recency": 0.9279,
+        "recency": 0.8922,
         "story_heat": 0.0
       },
       "category": "official",
@@ -100,15 +100,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8436,
-      "importance": 0.8436,
-      "importance_score": 0.8436,
+      "score": 0.837,
+      "importance": 0.837,
+      "importance_score": 0.837,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.9536,
+        "recency": 0.9169,
         "story_heat": 0.0
       },
       "category": "official",
@@ -128,127 +128,145 @@
       }
     },
     {
-      "story_id": "story_91992ed9f82d",
-      "title": "法典 CLI 0.142.5 / Codex CLI 0.142.5",
-      "url": "https://developers.openai.com/codex/changelog",
-      "primary_url": "https://developers.openai.com/codex/changelog",
-      "source": "OpenAI Codex Changelog",
-      "source_name": "Official AI Updates",
+      "story_id": "story_97fa19222961",
+      "title": "AI云平台Together AI完成8亿美元C轮融资，估值达83亿美元、年预订额超11亿",
+      "url": "https://www.aibase.com/news/29322",
+      "primary_url": "https://www.aibase.com/news/29322",
+      "source": "AIbase",
+      "source_name": "AIbase",
       "sources": [
         {
-          "id": "a387fb2f8e83526f268272d65df9e65aac52ac3c",
-          "title": "法典 CLI 0.142.5 / Codex CLI 0.142.5",
-          "url": "https://developers.openai.com/codex/changelog",
-          "source": "OpenAI Codex Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-07-01T00:00:00Z"
+          "id": "8e8f9f1cdd349b8a90090508662dccdca129503e",
+          "title": "AI云平台Together AI完成8亿美元C轮融资，估值达83亿美元、年预订额超11亿",
+          "url": "https://www.aibase.com/news/29322",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-07-02T02:33:26.196533Z"
+        },
+        {
+          "id": "fc17b0ac1b315bde1bad1f35bd399993411fcb06",
+          "title": "AI 云平台 Together AI 完成 8 亿美元 C 轮融资，估值达 83 亿美元、年预订额超 11 亿",
+          "url": "https://www.aibase.com/zh/news/29322",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
         }
       ],
-      "source_count": 1,
+      "source_count": 2,
       "source_names": [
-        "OpenAI Codex Changelog"
+        "AIbase",
+        "Readhub · AI"
       ],
       "items": [
         {
-          "id": "a387fb2f8e83526f268272d65df9e65aac52ac3c",
-          "title": "法典 CLI 0.142.5 / Codex CLI 0.142.5",
-          "url": "https://developers.openai.com/codex/changelog",
-          "source": "OpenAI Codex Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-07-01T00:00:00Z"
+          "id": "8e8f9f1cdd349b8a90090508662dccdca129503e",
+          "title": "AI云平台Together AI完成8亿美元C轮融资，估值达83亿美元、年预订额超11亿",
+          "url": "https://www.aibase.com/news/29322",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-07-02T02:33:26.196533Z"
+        },
+        {
+          "id": "fc17b0ac1b315bde1bad1f35bd399993411fcb06",
+          "title": "AI 云平台 Together AI 完成 8 亿美元 C 轮融资，估值达 83 亿美元、年预订额超 11 亿",
+          "url": "https://www.aibase.com/zh/news/29322",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
         }
       ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8136,
-      "importance": 0.8136,
-      "importance_score": 0.8136,
-      "importance_label": "官方更新",
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7926,
+      "importance": 0.7926,
+      "importance_score": 0.7926,
+      "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.98,
-        "recency": 0.7088,
-        "story_heat": 0.0
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.25
       },
-      "category": "official",
+      "category": "industry",
       "reasons": [
-        "official_source",
+        "multi_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-07-01T00:00:00Z",
-      "latest_at": "2026-07-01T00:00:00Z",
+      "earliest_at": "2026-07-02T02:33:26.196533Z",
+      "latest_at": "2026-07-02T02:33:26.196533Z",
       "primary_item": {
-        "id": "a387fb2f8e83526f268272d65df9e65aac52ac3c",
-        "title": "法典 CLI 0.142.5 / Codex CLI 0.142.5",
-        "url": "https://developers.openai.com/codex/changelog",
-        "source": "OpenAI Codex Changelog",
-        "source_name": "Official AI Updates"
+        "id": "8e8f9f1cdd349b8a90090508662dccdca129503e",
+        "title": "AI云平台Together AI完成8亿美元C轮融资，估值达83亿美元、年预订额超11亿",
+        "url": "https://www.aibase.com/news/29322",
+        "source": "AIbase",
+        "source_name": "AIbase"
       }
     },
     {
-      "story_id": "story_b7f49b2bc148",
-      "title": "Hugging Face 和 Cerebras 将 Gemma 4 引入实时语音 AI / Hugging Face and Cerebras bring Gemma 4 to real-time voice AI",
-      "url": "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
-      "primary_url": "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
-      "source": "Hugging Face Blog",
-      "source_name": "Official AI Updates",
+      "story_id": "story_d8f3653ac051",
+      "title": "Emil Kowalski 发布设计工程师 Skills，让 AI 编码工具具备 UI 动画审美",
+      "url": "https://x.com/shao__meng/status/2072484635955900792",
+      "primary_url": "https://x.com/shao__meng/status/2072484635955900792",
+      "source": "X：邵猛 (@shao__meng)",
+      "source_name": "AI HOT",
       "sources": [
         {
-          "id": "528f1ed34c1c8a79dd2084e986232f4dd5964781",
-          "title": "Hugging Face 和 Cerebras 将 Gemma 4 引入实时语音 AI / Hugging Face and Cerebras bring Gemma 4 to real-time voice AI",
-          "url": "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
-          "source": "Hugging Face Blog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-07-01T00:00:00Z"
+          "id": "be89553067b21e59ee095ac130c583c9121efbfc",
+          "title": "Emil Kowalski 发布设计工程师 Skills，让 AI 编码工具具备 UI 动画审美",
+          "url": "https://x.com/shao__meng/status/2072484635955900792",
+          "source": "X：邵猛 (@shao__meng)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-02T00:56:56Z"
         }
       ],
       "source_count": 1,
       "source_names": [
-        "Hugging Face Blog"
+        "X：邵猛 (@shao__meng)"
       ],
       "items": [
         {
-          "id": "528f1ed34c1c8a79dd2084e986232f4dd5964781",
-          "title": "Hugging Face 和 Cerebras 将 Gemma 4 引入实时语音 AI / Hugging Face and Cerebras bring Gemma 4 to real-time voice AI",
-          "url": "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
-          "source": "Hugging Face Blog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-07-01T00:00:00Z"
+          "id": "be89553067b21e59ee095ac130c583c9121efbfc",
+          "title": "Emil Kowalski 发布设计工程师 Skills，让 AI 编码工具具备 UI 动画审美",
+          "url": "https://x.com/shao__meng/status/2072484635955900792",
+          "source": "X：邵猛 (@shao__meng)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-02T00:56:56Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8076,
-      "importance": 0.8076,
-      "importance_score": 0.8076,
-      "importance_label": "官方更新",
+      "score": 0.7785,
+      "importance": 0.7785,
+      "importance_score": 0.7785,
+      "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.95,
-        "recency": 0.7088,
+        "editorial": 0.77,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.977,
         "story_heat": 0.0
       },
-      "category": "official",
+      "category": "industry",
       "reasons": [
-        "official_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-07-01T00:00:00Z",
-      "latest_at": "2026-07-01T00:00:00Z",
+      "earliest_at": "2026-07-02T00:56:56Z",
+      "latest_at": "2026-07-02T00:56:56Z",
       "primary_item": {
-        "id": "528f1ed34c1c8a79dd2084e986232f4dd5964781",
-        "title": "Hugging Face 和 Cerebras 将 Gemma 4 引入实时语音 AI / Hugging Face and Cerebras bring Gemma 4 to real-time voice AI",
-        "url": "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
-        "source": "Hugging Face Blog",
-        "source_name": "Official AI Updates"
+        "id": "be89553067b21e59ee095ac130c583c9121efbfc",
+        "title": "Emil Kowalski 发布设计工程师 Skills，让 AI 编码工具具备 UI 动画审美",
+        "url": "https://x.com/shao__meng/status/2072484635955900792",
+        "source": "X：邵猛 (@shao__meng)",
+        "source_name": "AI HOT"
       }
     },
     {
@@ -286,15 +304,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8404,
-      "importance": 0.8404,
-      "importance_score": 0.8404,
+      "score": 0.8336,
+      "importance": 0.8336,
+      "importance_score": 0.8336,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.9802,
+        "recency": 0.9425,
         "story_heat": 0.0
       },
       "category": "official",
@@ -385,15 +403,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.7791,
-      "importance": 0.7791,
-      "importance_score": 0.7791,
+      "score": 0.7734,
+      "importance": 0.7734,
+      "importance_score": 0.7734,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8196,
+        "recency": 0.788,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -413,68 +431,68 @@
       }
     },
     {
-      "story_id": "story_adc0d337ee6f",
-      "title": "Anthropic在Claude Code中植入隐写术代码识别中国用户",
-      "url": "https://mp.weixin.qq.com/s/yLb4T2UC16ebKHApdBbgWw",
-      "primary_url": "https://mp.weixin.qq.com/s/yLb4T2UC16ebKHApdBbgWw",
-      "source": "公众号：数字生命卡兹克",
-      "source_name": "AI HOT",
+      "story_id": "story_0c072fff757c",
+      "title": "Meta效仿SpaceX建立云业务:转售闲置AI算力，股价大涨10%",
+      "url": "https://www.aibase.com/news/29325",
+      "primary_url": "https://www.aibase.com/news/29325",
+      "source": "AIbase",
+      "source_name": "AIbase",
       "sources": [
         {
-          "id": "b701f63c0bf537b13694170c1159fd3a4cc90043",
-          "title": "Anthropic在Claude Code中植入隐写术代码识别中国用户",
-          "url": "https://mp.weixin.qq.com/s/yLb4T2UC16ebKHApdBbgWw",
-          "source": "公众号：数字生命卡兹克",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-01T00:11:00Z"
+          "id": "b79ddc30019edd199a16d439a396ed3c4206ab1c",
+          "title": "Meta效仿SpaceX建立云业务:转售闲置AI算力，股价大涨10%",
+          "url": "https://www.aibase.com/news/29325",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-07-02T02:33:26.196533Z"
         },
         {
-          "id": "62a6b81d5f61661b85148e64a141616e9f8c54cf",
-          "title": "Anthropic偷偷在Claude Code中植入了隐形代码，只为识别中国用户。",
-          "url": "https://www.huxiu.com/article/4871698.html?f=rss",
-          "source": "虎嗅 (Huxiu)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-07-01T00:55:08Z"
+          "id": "16b62ff099d27a7a0443a75894bbb4ea56a2edc0",
+          "title": "Meta 效仿 SpaceX 建立云业务：转售闲置 AI 算力，股价大涨 10%",
+          "url": "https://www.aibase.com/zh/news/29325",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
         }
       ],
       "source_count": 2,
       "source_names": [
-        "公众号：数字生命卡兹克",
-        "虎嗅 (Huxiu)"
+        "AIbase",
+        "Readhub · AI"
       ],
       "items": [
         {
-          "id": "b701f63c0bf537b13694170c1159fd3a4cc90043",
-          "title": "Anthropic在Claude Code中植入隐写术代码识别中国用户",
-          "url": "https://mp.weixin.qq.com/s/yLb4T2UC16ebKHApdBbgWw",
-          "source": "公众号：数字生命卡兹克",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-01T00:11:00Z"
+          "id": "b79ddc30019edd199a16d439a396ed3c4206ab1c",
+          "title": "Meta效仿SpaceX建立云业务:转售闲置AI算力，股价大涨10%",
+          "url": "https://www.aibase.com/news/29325",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-07-02T02:33:26.196533Z"
         },
         {
-          "id": "62a6b81d5f61661b85148e64a141616e9f8c54cf",
-          "title": "Anthropic偷偷在Claude Code中植入了隐形代码，只为识别中国用户。",
-          "url": "https://www.huxiu.com/article/4871698.html?f=rss",
-          "source": "虎嗅 (Huxiu)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-07-01T00:55:08Z"
+          "id": "16b62ff099d27a7a0443a75894bbb4ea56a2edc0",
+          "title": "Meta 效仿 SpaceX 建立云业务：转售闲置 AI 算力，股价大涨 10%",
+          "url": "https://www.aibase.com/zh/news/29325",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7765,
-      "importance": 0.7765,
-      "importance_score": 0.7765,
+      "score": 0.7926,
+      "importance": 0.7926,
+      "importance_score": 0.7926,
       "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.84,
+        "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7106,
+        "recency": 1.0,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -483,14 +501,14 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-07-01T00:11:00Z",
-      "latest_at": "2026-07-01T00:55:08Z",
+      "earliest_at": "2026-07-02T02:33:26.196533Z",
+      "latest_at": "2026-07-02T02:33:26.196533Z",
       "primary_item": {
-        "id": "b701f63c0bf537b13694170c1159fd3a4cc90043",
-        "title": "Anthropic在Claude Code中植入隐写术代码识别中国用户",
-        "url": "https://mp.weixin.qq.com/s/yLb4T2UC16ebKHApdBbgWw",
-        "source": "公众号：数字生命卡兹克",
-        "source_name": "AI HOT"
+        "id": "b79ddc30019edd199a16d439a396ed3c4206ab1c",
+        "title": "Meta效仿SpaceX建立云业务:转售闲置AI算力，股价大涨10%",
+        "url": "https://www.aibase.com/news/29325",
+        "source": "AIbase",
+        "source_name": "AIbase"
       }
     },
     {
@@ -547,15 +565,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7681,
-      "importance": 0.7681,
-      "importance_score": 0.7681,
+      "score": 0.7621,
+      "importance": 0.7621,
+      "importance_score": 0.7621,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.864,
+        "recency": 0.8308,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -628,15 +646,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7608,
-      "importance": 0.7608,
-      "importance_score": 0.7608,
+      "score": 0.7541,
+      "importance": 0.7541,
+      "importance_score": 0.7541,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.64,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9565,
+        "recency": 0.9197,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -709,15 +727,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7592,
-      "importance": 0.7592,
-      "importance_score": 0.7592,
+      "score": 0.7536,
+      "importance": 0.7536,
+      "importance_score": 0.7536,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.73,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7975,
+        "recency": 0.7668,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -771,15 +789,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8399,
-      "importance": 0.8399,
-      "importance_score": 0.8399,
+      "score": 0.8334,
+      "importance": 0.8334,
+      "importance_score": 0.8334,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.9326,
+        "recency": 0.8967,
         "story_heat": 0.0
       },
       "category": "official",
@@ -796,66 +814,6 @@
         "url": "https://github.blog/changelog/2026-07-01-kimi-k2-7-is-now-available-in-github-copilot",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
-      }
-    },
-    {
-      "story_id": "story_e7110ebabb37",
-      "title": "美团 LongCat-2.0 正式发布：国产算力集群训练的万亿参数大模型",
-      "url": "https://mp.weixin.qq.com/s/9XFcx3fmFcmbry5bHMJsow",
-      "primary_url": "https://mp.weixin.qq.com/s/9XFcx3fmFcmbry5bHMJsow",
-      "source": "公众号：龙猫LongCat（美团）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "ca1ced8a81ccf8cd86d14c65e131efd2440a42ce",
-          "title": "美团 LongCat-2.0 正式发布：国产算力集群训练的万亿参数大模型",
-          "url": "https://mp.weixin.qq.com/s/9XFcx3fmFcmbry5bHMJsow",
-          "source": "公众号：龙猫LongCat（美团）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-01T02:24:00Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "公众号：龙猫LongCat（美团）"
-      ],
-      "items": [
-        {
-          "id": "ca1ced8a81ccf8cd86d14c65e131efd2440a42ce",
-          "title": "美团 LongCat-2.0 正式发布：国产算力集群训练的万亿参数大模型",
-          "url": "https://mp.weixin.qq.com/s/9XFcx3fmFcmbry5bHMJsow",
-          "source": "公众号：龙猫LongCat（美团）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-01T02:24:00Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7497,
-      "importance": 0.7497,
-      "importance_score": 0.7497,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.82,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7338,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-07-01T02:24:00Z",
-      "latest_at": "2026-07-01T02:24:00Z",
-      "primary_item": {
-        "id": "ca1ced8a81ccf8cd86d14c65e131efd2440a42ce",
-        "title": "美团 LongCat-2.0 正式发布：国产算力集群训练的万亿参数大模型",
-        "url": "https://mp.weixin.qq.com/s/9XFcx3fmFcmbry5bHMJsow",
-        "source": "公众号：龙猫LongCat（美团）",
-        "source_name": "AI HOT"
       }
     },
     {
@@ -893,15 +851,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7454,
-      "importance": 0.7454,
-      "importance_score": 0.7454,
+      "score": 0.7392,
+      "importance": 0.7392,
+      "importance_score": 0.7392,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.71,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8931,
+        "recency": 0.8587,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -953,15 +911,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7394,
-      "importance": 0.7394,
-      "importance_score": 0.7394,
+      "score": 0.7331,
+      "importance": 0.7331,
+      "importance_score": 0.7331,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.68,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9099,
+        "recency": 0.8749,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -976,66 +934,6 @@
         "url": "https://developers.googleblog.com/ml-development-in-vs-code-with-google-cloud-power-workbench-extension-now-available",
         "source": "Google Developers Blog（RSS）",
         "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_13b959c7f8d2",
-      "title": "Anthropic Claude系列大模型正式登陆Microsoft Foundry并托管于Azure云",
-      "url": "https://www.aibase.com/news/29313",
-      "primary_url": "https://www.aibase.com/news/29313",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "d1419609719143580bcd9b2bbab2d16dcf050312",
-          "title": "Anthropic Claude系列大模型正式登陆Microsoft Foundry并托管于Azure云",
-          "url": "https://www.aibase.com/news/29313",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-07-01T11:54:25.645255Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "d1419609719143580bcd9b2bbab2d16dcf050312",
-          "title": "Anthropic Claude系列大模型正式登陆Microsoft Foundry并托管于Azure云",
-          "url": "https://www.aibase.com/news/29313",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-07-01T11:54:25.645255Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7391,
-      "importance": 0.7391,
-      "importance_score": 0.7391,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8417,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-07-01T11:54:25.645255Z",
-      "latest_at": "2026-07-01T11:54:25.645255Z",
-      "primary_item": {
-        "id": "d1419609719143580bcd9b2bbab2d16dcf050312",
-        "title": "Anthropic Claude系列大模型正式登陆Microsoft Foundry并托管于Azure云",
-        "url": "https://www.aibase.com/news/29313",
-        "source": "AIbase",
-        "source_name": "AIbase"
       }
     },
     {
@@ -1073,15 +971,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7333,
-      "importance": 0.7333,
-      "importance_score": 0.7333,
+      "score": 0.7271,
+      "importance": 0.7271,
+      "importance_score": 0.7271,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.67,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8929,
+        "recency": 0.8586,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1099,243 +997,372 @@
       }
     },
     {
-      "story_id": "story_bf56d5c95a04",
-      "title": "xAI 发布 Voice Agent Builder 测试版",
-      "url": "https://x.ai/news/grok-voice-agent-builder",
-      "primary_url": "https://x.ai/news/grok-voice-agent-builder",
-      "source": "xAI：News（网页）",
-      "source_name": "AI HOT",
+      "story_id": "story_bfcd7a3f6d8e",
+      "title": "在 Copilot CLI 和 SDK 中设置 AI 信用会话限制 / Set AI credit session limits in Copilot CLI and SDK",
+      "url": "https://github.blog/changelog/2026-07-01-set-ai-credit-session-limits-in-copilot-cli-and-sdk",
+      "primary_url": "https://github.blog/changelog/2026-07-01-set-ai-credit-session-limits-in-copilot-cli-and-sdk",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
       "sources": [
         {
-          "id": "24bdb8d66264a5df742df215b078f115aabb8646",
-          "title": "xAI 发布 Voice Agent Builder 测试版",
-          "url": "https://x.ai/news/grok-voice-agent-builder",
-          "source": "xAI：News（网页）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-01T00:00:00Z"
+          "id": "f11da19a6c7fb73ab3285dc5d33e80c50d006799",
+          "title": "在 Copilot CLI 和 SDK 中设置 AI 信用会话限制 / Set AI credit session limits in Copilot CLI and SDK",
+          "url": "https://github.blog/changelog/2026-07-01-set-ai-credit-session-limits-in-copilot-cli-and-sdk",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-07-01T18:33:24Z"
         }
       ],
       "source_count": 1,
       "source_names": [
-        "xAI：News（网页）"
+        "GitHub Changelog"
       ],
       "items": [
         {
-          "id": "24bdb8d66264a5df742df215b078f115aabb8646",
-          "title": "xAI 发布 Voice Agent Builder 测试版",
-          "url": "https://x.ai/news/grok-voice-agent-builder",
-          "source": "xAI：News（网页）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-01T00:00:00Z"
+          "id": "f11da19a6c7fb73ab3285dc5d33e80c50d006799",
+          "title": "在 Copilot CLI 和 SDK 中设置 AI 信用会话限制 / Set AI credit session limits in Copilot CLI and SDK",
+          "url": "https://github.blog/changelog/2026-07-01-set-ai-credit-session-limits-in-copilot-cli-and-sdk",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-07-01T18:33:24Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7302,
-      "importance": 0.7302,
-      "importance_score": 0.7302,
-      "importance_label": "行业动态",
+      "score": 0.8324,
+      "importance": 0.8324,
+      "importance_score": 0.8324,
+      "importance_label": "官方更新",
       "importance_breakdown": {
-        "editorial": 0.77,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7088,
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.8909,
         "story_heat": 0.0
       },
-      "category": "industry",
+      "category": "official",
       "reasons": [
-        "high_ai_relevance"
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
       ],
-      "earliest_at": "2026-07-01T00:00:00Z",
-      "latest_at": "2026-07-01T00:00:00Z",
+      "earliest_at": "2026-07-01T18:33:24Z",
+      "latest_at": "2026-07-01T18:33:24Z",
       "primary_item": {
-        "id": "24bdb8d66264a5df742df215b078f115aabb8646",
-        "title": "xAI 发布 Voice Agent Builder 测试版",
-        "url": "https://x.ai/news/grok-voice-agent-builder",
-        "source": "xAI：News（网页）",
-        "source_name": "AI HOT"
+        "id": "f11da19a6c7fb73ab3285dc5d33e80c50d006799",
+        "title": "在 Copilot CLI 和 SDK 中设置 AI 信用会话限制 / Set AI credit session limits in Copilot CLI and SDK",
+        "url": "https://github.blog/changelog/2026-07-01-set-ai-credit-session-limits-in-copilot-cli-and-sdk",
+        "source": "GitHub Changelog",
+        "source_name": "Official AI Updates"
       }
     },
     {
-      "story_id": "story_c5fef2c86cb3",
-      "title": "mattpocockuk 的 /writing-great-skills：编写可预测 AI Skill 的指南",
-      "url": "https://x.com/shao__meng/status/2072126769986220157",
-      "primary_url": "https://x.com/shao__meng/status/2072126769986220157",
-      "source": "X：邵猛 (@shao__meng)",
-      "source_name": "AI HOT",
+      "story_id": "story_5ecb6c46573c",
+      "title": "Cloudflare 新规出炉，混合 AI 爬虫将批量遭拦截",
+      "url": "https://www.aibase.com/news/29320",
+      "primary_url": "https://www.aibase.com/news/29320",
+      "source": "AIbase",
+      "source_name": "AIbase",
       "sources": [
         {
-          "id": "d10ca2ca83e854ed28066568d999ba5938a7ac14",
-          "title": "mattpocockuk 的 /writing-great-skills：编写可预测 AI Skill 的指南",
-          "url": "https://x.com/shao__meng/status/2072126769986220157",
-          "source": "X：邵猛 (@shao__meng)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-01T01:14:54Z"
+          "id": "f7debefecd9a89b20cc142a78354f0fcae7c5a10",
+          "title": "Cloudflare 新规出炉，混合 AI 爬虫将批量遭拦截",
+          "url": "https://www.aibase.com/news/29320",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-07-02T02:33:26.196533Z"
         }
       ],
       "source_count": 1,
       "source_names": [
-        "X：邵猛 (@shao__meng)"
+        "AIbase"
       ],
       "items": [
         {
-          "id": "d10ca2ca83e854ed28066568d999ba5938a7ac14",
-          "title": "mattpocockuk 的 /writing-great-skills：编写可预测 AI Skill 的指南",
-          "url": "https://x.com/shao__meng/status/2072126769986220157",
-          "source": "X：邵猛 (@shao__meng)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-01T01:14:54Z"
+          "id": "f7debefecd9a89b20cc142a78354f0fcae7c5a10",
+          "title": "Cloudflare 新规出炉，混合 AI 爬虫将批量遭拦截",
+          "url": "https://www.aibase.com/news/29320",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-07-02T02:33:26.196533Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7265,
-      "importance": 0.7265,
-      "importance_score": 0.7265,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
       "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.75,
+        "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7217,
+        "recency": 1.0,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance"
+        "high_ai_relevance",
+        "high_importance"
       ],
-      "earliest_at": "2026-07-01T01:14:54Z",
-      "latest_at": "2026-07-01T01:14:54Z",
+      "earliest_at": "2026-07-02T02:33:26.196533Z",
+      "latest_at": "2026-07-02T02:33:26.196533Z",
       "primary_item": {
-        "id": "d10ca2ca83e854ed28066568d999ba5938a7ac14",
-        "title": "mattpocockuk 的 /writing-great-skills：编写可预测 AI Skill 的指南",
-        "url": "https://x.com/shao__meng/status/2072126769986220157",
-        "source": "X：邵猛 (@shao__meng)",
-        "source_name": "AI HOT"
+        "id": "f7debefecd9a89b20cc142a78354f0fcae7c5a10",
+        "title": "Cloudflare 新规出炉，混合 AI 爬虫将批量遭拦截",
+        "url": "https://www.aibase.com/news/29320",
+        "source": "AIbase",
+        "source_name": "AIbase"
       }
     },
     {
-      "story_id": "story_d498a202a8f0",
-      "title": "亚马逊 AWS 砸 10 亿美元，派遣工程师进驻客户公司",
-      "url": "https://www.ithome.com/0/971/071.htm",
-      "primary_url": "https://www.ithome.com/0/971/071.htm",
-      "source": "IT之家（RSS）",
-      "source_name": "AI HOT",
+      "story_id": "story_87c518803758",
+      "title": "GitHub Models 将于 2026 年 7 月 30 日全面退役 / GitHub Models is being fully retired on July 30, 2026",
+      "url": "https://github.blog/changelog/2026-07-01-github-models-is-being-fully-retired-on-july-30-2026",
+      "primary_url": "https://github.blog/changelog/2026-07-01-github-models-is-being-fully-retired-on-july-30-2026",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
       "sources": [
         {
-          "id": "1cb8106ebf6e57e85cac804cb9b10e7f0a1e6d34",
-          "title": "亚马逊 AWS 砸 10 亿美元，派遣工程师进驻客户公司",
-          "url": "https://www.ithome.com/0/971/071.htm",
-          "source": "IT之家（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-01T06:57:42Z"
+          "id": "e5c384b6d2337d32bf7a939188e14b728bd64e78",
+          "title": "GitHub Models 将于 2026 年 7 月 30 日全面退役 / GitHub Models is being fully retired on July 30, 2026",
+          "url": "https://github.blog/changelog/2026-07-01-github-models-is-being-fully-retired-on-july-30-2026",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-07-01T21:30:20Z"
         }
       ],
       "source_count": 1,
       "source_names": [
-        "IT之家（RSS）"
+        "GitHub Changelog"
       ],
       "items": [
         {
-          "id": "1cb8106ebf6e57e85cac804cb9b10e7f0a1e6d34",
-          "title": "亚马逊 AWS 砸 10 亿美元，派遣工程师进驻客户公司",
-          "url": "https://www.ithome.com/0/971/071.htm",
-          "source": "IT之家（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-01T06:57:42Z"
+          "id": "e5c384b6d2337d32bf7a939188e14b728bd64e78",
+          "title": "GitHub Models 将于 2026 年 7 月 30 日全面退役 / GitHub Models is being fully retired on July 30, 2026",
+          "url": "https://github.blog/changelog/2026-07-01-github-models-is-being-fully-retired-on-july-30-2026",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-07-01T21:30:20Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7227,
-      "importance": 0.7227,
-      "importance_score": 0.7227,
-      "importance_label": "行业动态",
+      "score": 0.8313,
+      "importance": 0.8313,
+      "importance_score": 0.8313,
+      "importance_label": "官方更新",
       "importance_breakdown": {
-        "editorial": 0.7,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7837,
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.87,
+        "recency": 0.9296,
         "story_heat": 0.0
       },
-      "category": "industry",
+      "category": "official",
       "reasons": [
-        "high_ai_relevance"
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
       ],
-      "earliest_at": "2026-07-01T06:57:42Z",
-      "latest_at": "2026-07-01T06:57:42Z",
+      "earliest_at": "2026-07-01T21:30:20Z",
+      "latest_at": "2026-07-01T21:30:20Z",
       "primary_item": {
-        "id": "1cb8106ebf6e57e85cac804cb9b10e7f0a1e6d34",
-        "title": "亚马逊 AWS 砸 10 亿美元，派遣工程师进驻客户公司",
-        "url": "https://www.ithome.com/0/971/071.htm",
-        "source": "IT之家（RSS）",
-        "source_name": "AI HOT"
+        "id": "e5c384b6d2337d32bf7a939188e14b728bd64e78",
+        "title": "GitHub Models 将于 2026 年 7 月 30 日全面退役 / GitHub Models is being fully retired on July 30, 2026",
+        "url": "https://github.blog/changelog/2026-07-01-github-models-is-being-fully-retired-on-july-30-2026",
+        "source": "GitHub Changelog",
+        "source_name": "Official AI Updates"
       }
     },
     {
-      "story_id": "story_9d60e115dad6",
-      "title": "商务部解除Claude Fable 5等出口管制",
-      "url": "https://x.com/AnthropicAI/status/2072106151890809341",
-      "primary_url": "https://x.com/AnthropicAI/status/2072106151890809341",
-      "source": "X：Anthropic (@AnthropicAI)",
-      "source_name": "AI HOT",
+      "story_id": "story_23943ea3b649",
+      "title": "OpenAI 发布 GeneBench-Pro 基准测试，提升 AI 模型生物学分析能力！",
+      "url": "https://www.aibase.com/news/29315",
+      "primary_url": "https://www.aibase.com/news/29315",
+      "source": "AIbase",
+      "source_name": "AIbase",
       "sources": [
         {
-          "id": "703954a9b63a9d0c7f8446ba9ba79333bdf1fe4f",
-          "title": "商务部解除Claude Fable 5等出口管制",
-          "url": "https://x.com/AnthropicAI/status/2072106151890809341",
-          "source": "X：Anthropic (@AnthropicAI)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-30T23:52:59Z"
+          "id": "8bf1735457da9877fe09a1163047c8bd11e915c7",
+          "title": "OpenAI 发布 GeneBench-Pro 基准测试，提升 AI 模型生物学分析能力！",
+          "url": "https://www.aibase.com/news/29315",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-07-02T02:33:26.196533Z"
         }
       ],
       "source_count": 1,
       "source_names": [
-        "X：Anthropic (@AnthropicAI)"
+        "AIbase"
       ],
       "items": [
         {
-          "id": "703954a9b63a9d0c7f8446ba9ba79333bdf1fe4f",
-          "title": "商务部解除Claude Fable 5等出口管制",
-          "url": "https://x.com/AnthropicAI/status/2072106151890809341",
-          "source": "X：Anthropic (@AnthropicAI)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-30T23:52:59Z"
+          "id": "8bf1735457da9877fe09a1163047c8bd11e915c7",
+          "title": "OpenAI 发布 GeneBench-Pro 基准测试，提升 AI 模型生物学分析能力！",
+          "url": "https://www.aibase.com/news/29315",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-07-02T02:33:26.196533Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.721,
-      "importance": 0.721,
-      "importance_score": 0.721,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
       "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.74,
+        "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7076,
+        "recency": 1.0,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance"
+        "high_ai_relevance",
+        "high_importance"
       ],
-      "earliest_at": "2026-06-30T23:52:59Z",
-      "latest_at": "2026-06-30T23:52:59Z",
+      "earliest_at": "2026-07-02T02:33:26.196533Z",
+      "latest_at": "2026-07-02T02:33:26.196533Z",
       "primary_item": {
-        "id": "703954a9b63a9d0c7f8446ba9ba79333bdf1fe4f",
-        "title": "商务部解除Claude Fable 5等出口管制",
-        "url": "https://x.com/AnthropicAI/status/2072106151890809341",
-        "source": "X：Anthropic (@AnthropicAI)",
-        "source_name": "AI HOT"
+        "id": "8bf1735457da9877fe09a1163047c8bd11e915c7",
+        "title": "OpenAI 发布 GeneBench-Pro 基准测试，提升 AI 模型生物学分析能力！",
+        "url": "https://www.aibase.com/news/29315",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_c861a4a16559",
+      "title": "Enterprise Managed-settings.json 已全面可用 / Enterprise managed-settings.json is generally available",
+      "url": "https://github.blog/changelog/2026-07-01-enterprise-managed-settings-json-is-generally-available",
+      "primary_url": "https://github.blog/changelog/2026-07-01-enterprise-managed-settings-json-is-generally-available",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "d5bf323fd2ea843947ba37314ef4b95ce6c5daff",
+          "title": "Enterprise Managed-settings.json 已全面可用 / Enterprise managed-settings.json is generally available",
+          "url": "https://github.blog/changelog/2026-07-01-enterprise-managed-settings-json-is-generally-available",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-07-01T20:57:26Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "items": [
+        {
+          "id": "d5bf323fd2ea843947ba37314ef4b95ce6c5daff",
+          "title": "Enterprise Managed-settings.json 已全面可用 / Enterprise managed-settings.json is generally available",
+          "url": "https://github.blog/changelog/2026-07-01-enterprise-managed-settings-json-is-generally-available",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-07-01T20:57:26Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.83,
+      "importance": 0.83,
+      "importance_score": 0.83,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.87,
+        "recency": 0.9223,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-07-01T20:57:26Z",
+      "latest_at": "2026-07-01T20:57:26Z",
+      "primary_item": {
+        "id": "d5bf323fd2ea843947ba37314ef4b95ce6c5daff",
+        "title": "Enterprise Managed-settings.json 已全面可用 / Enterprise managed-settings.json is generally available",
+        "url": "https://github.blog/changelog/2026-07-01-enterprise-managed-settings-json-is-generally-available",
+        "source": "GitHub Changelog",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_5840d7527c85",
+      "title": "SpaceX展示纤薄AI设备原型，深度整合xAI技术并对标OpenAI",
+      "url": "https://www.aibase.com/news/29316",
+      "primary_url": "https://www.aibase.com/news/29316",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "5df8c2a1edb800c2ea448ee7524e55af7d19023c",
+          "title": "SpaceX展示纤薄AI设备原型，深度整合xAI技术并对标OpenAI",
+          "url": "https://www.aibase.com/news/29316",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-07-02T02:33:26.196533Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "5df8c2a1edb800c2ea448ee7524e55af7d19023c",
+          "title": "SpaceX展示纤薄AI设备原型，深度整合xAI技术并对标OpenAI",
+          "url": "https://www.aibase.com/news/29316",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-07-02T02:33:26.196533Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-07-02T02:33:26.196533Z",
+      "latest_at": "2026-07-02T02:33:26.196533Z",
+      "primary_item": {
+        "id": "5df8c2a1edb800c2ea448ee7524e55af7d19023c",
+        "title": "SpaceX展示纤薄AI设备原型，深度整合xAI技术并对标OpenAI",
+        "url": "https://www.aibase.com/news/29316",
+        "source": "AIbase",
+        "source_name": "AIbase"
       }
     }
   ]
